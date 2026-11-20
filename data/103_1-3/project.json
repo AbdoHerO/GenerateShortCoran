@@ -1,0 +1,47 @@
+{
+ "id": "103_1-3",
+ "chapter": 103,
+ "from": 1,
+ "to": 3,
+ "reciter": 7,
+ "style": "story",
+ "director": "auto",
+ "handmade": false,
+ "created": "2026-11-19T20:56:12.136Z",
+ "stage": "review",
+ "steps": [
+  {
+   "key": "fetch",
+   "label": "Fetching verses, tafsir and recitation",
+   "state": "done"
+  },
+  {
+   "key": "direct",
+   "label": "Writing a simple storyboard",
+   "state": "done"
+  },
+  {
+   "key": "verify",
+   "label": "Accuracy checks (text, timing, explanations)",
+   "state": "done"
+  },
+  {
+   "key": "prepare",
+   "label": "Preparing audio and timeline",
+   "state": "done"
+  }
+ ],
+ "error": null,
+ "review": {
+  "verses": {},
+  "timing": {},
+  "titles": false,
+  "reviewer": "",
+  "approved": false,
+  "approved_at": null
+ },
+ "render": {
+  "state": "idle"
+ },
+ "updated": "2026-11-19T20:56:12.137Z"
+}

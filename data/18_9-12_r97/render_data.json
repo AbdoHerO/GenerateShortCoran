@@ -1,0 +1,873 @@
+{
+ "fps": 30,
+ "W": 1080,
+ "H": 1920,
+ "duration": 53.78,
+ "intro": 2.4,
+ "outro_start": 49.58,
+ "surah": {
+  "name_ar": "الكهف",
+  "name_en": "Al-Kahf",
+  "number": 18,
+  "from_ar": "٩",
+  "to_ar": "١٢",
+  "from": 9,
+  "to": 12
+ },
+ "credits": {
+  "reciter_ar": "ياسر الدوسري",
+  "reciter_en": "Yasser ad-Dussary",
+  "translation_en": "Translation: Saheeh International",
+  "data_en": "Text, audio timings & tafsir: Quran Foundation (quran.com)"
+ },
+ "cover": {
+  "dur": 1.0,
+  "t": 18.16,
+  "series_ar": "أصحاب الكهف",
+  "series_en": "The People of the Cave",
+  "title_ar": "القصة في إيجاز",
+  "title_en": "The story in brief"
+ },
+ "chapters": [
+  {
+   "id": "c1",
+   "title": "ليست أعجب الآيات",
+   "scene": "stage",
+   "params": {
+    "setting": "cave_mouth",
+    "time": "day",
+    "actors": [],
+    "events": [],
+    "beats": [
+     {
+      "at": [
+       9,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       9,
+       5
+      ],
+      "do": "shot_close",
+      "who": "center"
+     },
+     {
+      "at": [
+       9,
+       9
+      ],
+      "do": "birds"
+     },
+     {
+      "at": [
+       9,
+       10
+      ],
+      "do": "shot_sky"
+     }
+    ]
+   },
+   "bg": "#e8e2d6",
+   "verses": [
+    9
+   ],
+   "start": 0.0,
+   "end": 10.68
+  },
+  {
+   "id": "c2",
+   "title": "فرار ودعاء",
+   "scene": "stage",
+   "params": {
+    "setting": "cave_mouth",
+    "time": "day",
+    "actors": [
+     {
+      "id": "youths",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 5,
+      "pose": "walk",
+      "enter": [
+       10,
+       2
+      ],
+      "exit": null,
+      "uncountable": true
+     }
+    ],
+    "events": [],
+    "beats": [
+     {
+      "at": [
+       10,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       10,
+       4
+      ],
+      "do": "shot_close",
+      "who": "center"
+     },
+     {
+      "at": [
+       10,
+       6
+      ],
+      "do": "speak",
+      "who": "youths"
+     },
+     {
+      "at": [
+       10,
+       7
+      ],
+      "do": "raise_hands",
+      "who": "youths"
+     },
+     {
+      "at": [
+       10,
+       8
+      ],
+      "do": "shot_close",
+      "who": "youths"
+     },
+     {
+      "at": [
+       10,
+       11
+      ],
+      "do": "sparkle",
+      "who": "youths"
+     },
+     {
+      "at": [
+       10,
+       12
+      ],
+      "do": "look_up",
+      "who": "youths"
+     },
+     {
+      "at": [
+       10,
+       15
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       10,
+       16
+      ],
+      "do": "clouds_part"
+     }
+    ]
+   },
+   "bg": "#e8e2d6",
+   "verses": [
+    10
+   ],
+   "start": 10.68,
+   "end": 32.65
+  },
+  {
+   "id": "c3",
+   "title": "نوم طويل ثم يقظة",
+   "scene": "stage",
+   "params": {
+    "setting": "cave",
+    "time": "day",
+    "actors": [
+     {
+      "id": "sleepers",
+      "type": "sleepers",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "sleep",
+      "enter": null,
+      "exit": [
+       12,
+       4
+      ]
+     },
+     {
+      "id": "youths",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 5,
+      "pose": "sit",
+      "enter": [
+       12,
+       4
+      ],
+      "exit": null,
+      "uncountable": true
+     },
+     {
+      "id": "dog",
+      "type": "dog",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "sleep",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [
+     {
+      "type": "wake",
+      "at": [
+       12,
+       2
+      ],
+      "until": null
+     }
+    ],
+    "beats": [
+     {
+      "at": [
+       11,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       11,
+       3
+      ],
+      "do": "shot_close",
+      "who": "sleepers"
+     },
+     {
+      "at": [
+       11,
+       6
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       12,
+       2
+      ],
+      "do": "shot_close",
+      "who": "sleepers"
+     },
+     {
+      "at": [
+       12,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       12,
+       6
+      ],
+      "do": "turn",
+      "who": "youths"
+     },
+     {
+      "at": [
+       12,
+       8
+      ],
+      "do": "push_in"
+     }
+    ]
+   },
+   "bg": "#e3ded5",
+   "verses": [
+    11,
+    12
+   ],
+   "start": 32.65,
+   "end": 53.78
+  }
+ ],
+ "verses": [
+  {
+   "n": 9,
+   "key": "18:9",
+   "num_ar": "٩",
+   "words": [
+    {
+     "pos": 1,
+     "text": "أَمْ"
+    },
+    {
+     "pos": 2,
+     "text": "حَسِبْتَ"
+    },
+    {
+     "pos": 3,
+     "text": "أَنَّ"
+    },
+    {
+     "pos": 4,
+     "text": "أَصْحَـٰبَ"
+    },
+    {
+     "pos": 5,
+     "text": "ٱلْكَهْفِ"
+    },
+    {
+     "pos": 6,
+     "text": "وَٱلرَّقِيمِ"
+    },
+    {
+     "pos": 7,
+     "text": "كَانُوا۟"
+    },
+    {
+     "pos": 8,
+     "text": "مِنْ"
+    },
+    {
+     "pos": 9,
+     "text": "ءَايَـٰتِنَا"
+    },
+    {
+     "pos": 10,
+     "text": "عَجَبًا"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     2.46,
+     2.8
+    ],
+    [
+     2,
+     2.8,
+     3.59
+    ],
+    [
+     3,
+     3.59,
+     4.27
+    ],
+    [
+     4,
+     4.27,
+     5.22
+    ],
+    [
+     5,
+     5.22,
+     5.93
+    ],
+    [
+     6,
+     5.93,
+     7.09
+    ],
+    [
+     7,
+     7.09,
+     7.85
+    ],
+    [
+     8,
+     7.85,
+     8.19
+    ],
+    [
+     9,
+     8.19,
+     9.52
+    ],
+    [
+     10,
+     9.52,
+     10.52
+    ]
+   ],
+   "start": 2.46,
+   "first_word": 2.46,
+   "last_word": 10.52,
+   "translation": "Or have you thought that the companions of the cave and the inscription were, among Our signs, a wonder?",
+   "glosses": [
+    {
+     "w0": 6,
+     "w1": 6,
+     "chip": "وَٱلرَّقِيمِ",
+     "excerpt": "اللوح الذي كُتِبت فيه أسماؤهم",
+     "source": "التفسير الميسر",
+     "target": "center",
+     "tone": "amber",
+     "start": 5.93,
+     "end": 9.469999999999999
+    },
+    {
+     "w0": 10,
+     "w1": 10,
+     "chip": "عَجَبًا",
+     "excerpt": "فإن خلق السموات والأرض وما فيهما أعجب من ذلك",
+     "source": "التفسير الميسر",
+     "target": "sky",
+     "tone": "amber",
+     "start": 9.52,
+     "end": 10.58
+    }
+   ],
+   "end": 10.68
+  },
+  {
+   "n": 10,
+   "key": "18:10",
+   "num_ar": "١٠",
+   "words": [
+    {
+     "pos": 1,
+     "text": "إِذْ"
+    },
+    {
+     "pos": 2,
+     "text": "أَوَى"
+    },
+    {
+     "pos": 3,
+     "text": "ٱلْفِتْيَةُ"
+    },
+    {
+     "pos": 4,
+     "text": "إِلَى"
+    },
+    {
+     "pos": 5,
+     "text": "ٱلْكَهْفِ"
+    },
+    {
+     "pos": 6,
+     "text": "فَقَالُوا۟"
+    },
+    {
+     "pos": 7,
+     "text": "رَبَّنَآ"
+    },
+    {
+     "pos": 8,
+     "text": "ءَاتِنَا"
+    },
+    {
+     "pos": 9,
+     "text": "مِن"
+    },
+    {
+     "pos": 10,
+     "text": "لَّدُنكَ"
+    },
+    {
+     "pos": 11,
+     "text": "رَحْمَةًۭ"
+    },
+    {
+     "pos": 12,
+     "text": "وَهَيِّئْ"
+    },
+    {
+     "pos": 13,
+     "text": "لَنَا"
+    },
+    {
+     "pos": 14,
+     "text": "مِنْ"
+    },
+    {
+     "pos": 15,
+     "text": "أَمْرِنَا"
+    },
+    {
+     "pos": 16,
+     "text": "رَشَدًۭا"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     10.68,
+     11.02
+    ],
+    [
+     2,
+     11.02,
+     11.4
+    ],
+    [
+     3,
+     11.4,
+     12.34
+    ],
+    [
+     4,
+     12.34,
+     12.71
+    ],
+    [
+     5,
+     12.71,
+     13.45
+    ],
+    [
+     6,
+     13.45,
+     14.42
+    ],
+    [
+     7,
+     14.42,
+     17.56
+    ],
+    [
+     8,
+     17.56,
+     18.51
+    ],
+    [
+     9,
+     18.51,
+     18.69
+    ],
+    [
+     10,
+     18.77,
+     20.47
+    ],
+    [
+     11,
+     20.53,
+     21.69
+    ],
+    [
+     6,
+     21.69,
+     22.62
+    ],
+    [
+     7,
+     22.62,
+     24.83
+    ],
+    [
+     8,
+     24.83,
+     25.76
+    ],
+    [
+     9,
+     25.76,
+     26.0
+    ],
+    [
+     10,
+     26.06,
+     27.24
+    ],
+    [
+     11,
+     27.3,
+     28.61
+    ],
+    [
+     12,
+     28.61,
+     29.55
+    ],
+    [
+     13,
+     29.55,
+     30.1
+    ],
+    [
+     14,
+     30.1,
+     30.46
+    ],
+    [
+     15,
+     30.46,
+     31.35
+    ],
+    [
+     16,
+     31.35,
+     32.56
+    ]
+   ],
+   "start": 10.68,
+   "first_word": 10.68,
+   "last_word": 32.56,
+   "translation": "[Mention] when the youths retreated to the cave and said, \"Our Lord, grant us from Yourself mercy and prepare for us from our affair right guidance.\"",
+   "glosses": [
+    {
+     "w0": 2,
+     "w1": 2,
+     "chip": "أَوَى",
+     "excerpt": "خشية من فتنة قومهم لهم",
+     "source": "التفسير الميسر",
+     "target": "youths",
+     "tone": "red",
+     "start": 11.02,
+     "end": 17.509999999999998
+    },
+    {
+     "w0": 8,
+     "w1": 11,
+     "chip": "ءَاتِنَا مِن لَّدُنكَ رَحْمَةًۭ",
+     "excerpt": "أعطنا مِن عندك رحمة، تثبتنا بها، وتحفظنا من الشر",
+     "source": "التفسير الميسر",
+     "target": "youths",
+     "tone": "green",
+     "start": 17.56,
+     "end": 28.56
+    },
+    {
+     "w0": 12,
+     "w1": 12,
+     "chip": "وَهَيِّئْ",
+     "excerpt": "ويسِّر لنا الطريق الصواب",
+     "source": "التفسير الميسر",
+     "target": "youths",
+     "tone": "green",
+     "start": 28.61,
+     "end": 32.55
+    }
+   ],
+   "end": 32.65
+  },
+  {
+   "n": 11,
+   "key": "18:11",
+   "num_ar": "١١",
+   "words": [
+    {
+     "pos": 1,
+     "text": "فَضَرَبْنَا"
+    },
+    {
+     "pos": 2,
+     "text": "عَلَىٰٓ"
+    },
+    {
+     "pos": 3,
+     "text": "ءَاذَانِهِمْ"
+    },
+    {
+     "pos": 4,
+     "text": "فِى"
+    },
+    {
+     "pos": 5,
+     "text": "ٱلْكَهْفِ"
+    },
+    {
+     "pos": 6,
+     "text": "سِنِينَ"
+    },
+    {
+     "pos": 7,
+     "text": "عَدَدًۭا"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     32.65,
+     33.77
+    ],
+    [
+     2,
+     33.77,
+     35.72
+    ],
+    [
+     3,
+     35.72,
+     37.05
+    ],
+    [
+     4,
+     37.05,
+     37.26
+    ],
+    [
+     5,
+     37.26,
+     38.02
+    ],
+    [
+     6,
+     38.02,
+     38.75
+    ],
+    [
+     7,
+     38.75,
+     39.67
+    ]
+   ],
+   "start": 32.65,
+   "first_word": 32.65,
+   "last_word": 39.67,
+   "translation": "So We cast [a cover of sleep] over their ears within the cave for a number of years.",
+   "glosses": [
+    {
+     "w0": 1,
+     "w1": 3,
+     "chip": "فَضَرَبْنَا عَلَىٰٓ ءَاذَانِهِمْ",
+     "excerpt": "فألقينا عليهم النوم العميق",
+     "source": "التفسير الميسر",
+     "target": "sleepers",
+     "tone": "blue",
+     "start": 32.65,
+     "end": 39.809999999999995
+    }
+   ],
+   "end": 39.91
+  },
+  {
+   "n": 12,
+   "key": "18:12",
+   "num_ar": "١٢",
+   "words": [
+    {
+     "pos": 1,
+     "text": "ثُمَّ"
+    },
+    {
+     "pos": 2,
+     "text": "بَعَثْنَـٰهُمْ"
+    },
+    {
+     "pos": 3,
+     "text": "لِنَعْلَمَ"
+    },
+    {
+     "pos": 4,
+     "text": "أَىُّ"
+    },
+    {
+     "pos": 5,
+     "text": "ٱلْحِزْبَيْنِ"
+    },
+    {
+     "pos": 6,
+     "text": "أَحْصَىٰ"
+    },
+    {
+     "pos": 7,
+     "text": "لِمَا"
+    },
+    {
+     "pos": 8,
+     "text": "لَبِثُوٓا۟"
+    },
+    {
+     "pos": 9,
+     "text": "أَمَدًۭا"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     39.91,
+     40.72
+    ],
+    [
+     2,
+     40.72,
+     42.21
+    ],
+    [
+     3,
+     42.21,
+     43.13
+    ],
+    [
+     4,
+     43.13,
+     43.72
+    ],
+    [
+     5,
+     43.72,
+     44.81
+    ],
+    [
+     6,
+     44.81,
+     45.59
+    ],
+    [
+     7,
+     45.59,
+     46.13
+    ],
+    [
+     8,
+     46.13,
+     48.09
+    ],
+    [
+     9,
+     48.09,
+     49.0
+    ]
+   ],
+   "start": 39.91,
+   "first_word": 39.91,
+   "last_word": 49.0,
+   "translation": "Then We awakened them that We might show which of the two factions was most precise in calculating what [extent] they had remained in time.",
+   "glosses": [
+    {
+     "w0": 2,
+     "w1": 2,
+     "chip": "بَعَثْنَـٰهُمْ",
+     "excerpt": "أيقظناهم مِن نومهم",
+     "source": "التفسير الميسر",
+     "target": "sleepers",
+     "tone": "green",
+     "start": 40.72,
+     "end": 43.67
+    },
+    {
+     "w0": 5,
+     "w1": 6,
+     "chip": "ٱلْحِزْبَيْنِ أَحْصَىٰ",
+     "excerpt": "أي الطائفتين المتنازعتين في مدة لبثهم أضبط في الإحصاء",
+     "source": "التفسير الميسر",
+     "target": null,
+     "tone": "blue",
+     "start": 43.72,
+     "end": 49.68
+    }
+   ],
+   "end": 49.78
+  }
+ ],
+ "audio": {
+  "slice_start": 83.79,
+  "slice_end": 130.57,
+  "file": "audio_master.wav"
+ },
+ "timing_corrections": [],
+ "timing_flags": [],
+ "aligned_boundaries": []
+}

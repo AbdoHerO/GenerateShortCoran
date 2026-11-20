@@ -1,0 +1,149 @@
+{
+  "_comment": "Contract v2 shared by the renderer (scenes_lib.js), the verifier, the storyboard director and the web app. v2 adds BEATS (small timed actions so a scene is never static), the Al-Kahf scene pack (cave, dog, sleepers, man, ruler, wall, rock, fish, barrier...) and their events.",
+  "rules": [
+    "Allah is never depicted in any form, not as light, not as a figure, not as a voice-source.",
+    "Prophets are drawn ONLY as labelled light drops (type 'prophet'). Angels ONLY as golden light drops (type 'angel'). Never as people.",
+    "Maryam and the Mothers of the Believers are drawn ONLY as labelled light drops (type 'honored'), never as women.",
+    "Ordinary people are always faceless.",
+    "The unseen (Paradise, Hell, the Day of Judgement, the Throne, Jinn, the grave, the Hereafter) is never illustrated literally: use the 'ambient' scene for those passages.",
+    "Rulings, du'a, Allah's names and attributes, and admonition use the 'ambient' scene.",
+    "Where the Quran leaves a number to Allah's knowledge, never show a countable group (use 'sleepers', which is drawn uncountable).",
+    "Killing and violence are never shown; use the 'ambient' scene for such verses.",
+    "No text is baked into the art; the only scene text is the prophet/angel name label."
+  ],
+  "beats": {
+    "description": "params.beats = [{at:[verse,word], do, who, to}]: small actions on a word so the picture keeps moving. Aim for one beat every 3-6 s of recitation; at most 24 per chapter; at least 0.8 s apart. The renderer also adds gentle automatic camera moves wherever no beat happens for 5 s.",
+    "max_per_chapter": 24,
+    "camera": {
+      "shot_wide":  "camera eases back to show the whole stage",
+      "shot_close": "camera eases in on 'who' (an actor id or an anchor)",
+      "shot_sky":   "camera tilts up toward the sky",
+      "shot_ground":"camera tilts down toward the ground",
+      "pan_left":   "camera drifts to the left part of the stage",
+      "pan_right":  "camera drifts to the right part of the stage",
+      "push_in":    "slow dramatic push-in on the centre"
+    },
+    "actor": {
+      "turn":        "who turns to face the other way",
+      "point":       "who points toward 'to' (left|center|right or an actor id)",
+      "raise_hands": "who raises hands (du'a, joy)",
+      "bow":         "who lowers the head (humility, sorrow, regret)",
+      "speak":       "who speaks: small sound waves near the head (dialogue)",
+      "shake_head":  "who shakes the head (refusal, objection)",
+      "walk_to":     "who walks to 'to' (left|center|right)",
+      "look_up":     "who looks up to the sky",
+      "wring_hands": "who turns the hands over in regret",
+      "sit":         "who sits down",
+      "stand_up":    "who stands up",
+      "glow":        "a light drop (prophet/angel/honored) pulses softly"
+    },
+    "scene": {
+      "birds":       "a few birds take off and cross the sky",
+      "wind":        "a gust: grass, robes and dust move",
+      "sparkle":     "a soft sparkle on 'who' (actor id or anchor), or the centre",
+      "clouds_part": "clouds part and light comes through",
+      "leaves":      "a few leaves drift down"
+    },
+    "ambient": {
+      "light_up":    "the light swells for a moment",
+      "stars":       "stars brighten and twinkle (night_sky)",
+      "rain_start":  "rain begins (rain, mountains, garden)",
+      "rain_stop":   "rain stops, light returns",
+      "bloom":       "plants grow and flowers open",
+      "wither":      "plants dry and scatter in the wind",
+      "waves":       "a larger wave rolls (sea)",
+      "pattern_turn":"a new ring of the pattern lights up (geometric)",
+      "ink_waves":   "flowing dark lines spread over the sea like ink (sea)"
+    }
+  },
+  "ambient": {
+    "description": "Calm, non-figurative background that breathes with the recitation (soft light pulses on each word). Safe for every passage. Beats allowed: camera beats, 'scene' beats birds/wind/sparkle/clouds_part/leaves, and the 'ambient' beats.",
+    "anchors": ["center", "sky", "light", "ground"],
+    "moods": {
+      "night_sky": { "label": "Night sky & crescent", "bg": "#e4e6ee", "use": "reflection, mercy, signs at night, the unseen, the Hereafter (non-literal)" },
+      "dawn":      { "label": "Dawn over the dunes",  "bg": "#f1e6d6", "use": "hope, relief after hardship, guidance, beginnings" },
+      "sea":       { "label": "Calm sea",             "bg": "#e1e8ea", "use": "signs in the sea, ships, provision, patience" },
+      "mountains": { "label": "Mountains & mist",     "bg": "#e6e7e2", "use": "majesty, steadfastness, creation, the earth" },
+      "garden":    { "label": "Palms & a river",      "bg": "#e5ebdf", "use": "provision, gratitude, blessings of this world (NOT a depiction of Paradise)" },
+      "rain":      { "label": "Rain on the land",     "bg": "#e3e7e8", "use": "rain, reviving dead land, mercy, resurrection as a parable" },
+      "geometric": { "label": "Geometric pattern",    "bg": "#ece6da", "use": "Allah's names and attributes, tawhid, the Quran, the unseen, rulings" },
+      "light":     { "label": "Rays of light",        "bg": "#f2ecdf", "use": "guidance, revelation, faith, du'a, forgiveness" }
+    }
+  },
+  "stage": {
+    "description": "A simple flat-vector story stage: one setting, a few actors, timed events and beats. Use for narrated events in the life of this world (stories of prophets and nations).",
+    "anchors_base": ["center", "sky", "ground"],
+    "settings": {
+      "desert":       { "label": "Desert & tents",                "bg": "#efe6d6" },
+      "city":         { "label": "Ancient town",                  "bg": "#ece4d8" },
+      "sea_shore":    { "label": "Sea shore",                     "bg": "#e1e8ea" },
+      "mountains":    { "label": "Mountains & valley",            "bg": "#e6e7e2" },
+      "garden":       { "label": "Gardens & farms (vines, palms, crops, a river between)", "bg": "#e5ebdf" },
+      "palace":       { "label": "Royal court",                   "bg": "#eee5d5" },
+      "river":        { "label": "River bank",                    "bg": "#e2e9e6" },
+      "cave":         { "label": "Inside a cave, the bright entrance on one side", "bg": "#e3ded5" },
+      "cave_mouth":   { "label": "Rocky mountainside with a cave entrance",       "bg": "#e8e2d6" },
+      "pass":         { "label": "A narrow pass between two high mountains",      "bg": "#e6e3dc" },
+      "sea_junction": { "label": "Where two seas meet, a large rock on the shore", "bg": "#dfe7ea" }
+    },
+    "times": ["day", "dawn", "dusk", "night"],
+    "places": ["left", "center", "right"],
+    "poses": {
+      "stand":  "stays in place, idle sway",
+      "walk":   "walks slowly from its side toward the centre",
+      "flee":   "runs from the centre toward its side and off the stage",
+      "gather": "a tight group that sways, heads turning",
+      "sleep":  "lying down asleep (sleepers, believers, people)",
+      "sit":    "sitting"
+    },
+    "looks": ["plain", "rich", "poor", "traveller"],
+    "uncountable": "optional actor flag 'uncountable': true for group actors: drawn as overlapping silhouettes partly hidden by shadow, rocks or the frame edge, so the number cannot be counted (e.g. the youths of the cave, 18:22)",
+    "actors": {
+      "prophet":      { "label": "Prophet (blue light drop + name)",  "group": false, "needs_label": true },
+      "angel":        { "label": "Angel(s) (gold light drops + label)", "group": true,  "needs_label": true },
+      "honored":      { "label": "Honoured person (green light drop + name)", "group": false, "needs_label": true },
+      "believers":    { "label": "Believers / youths (faceless, light robes)", "group": true,  "needs_label": false },
+      "people":       { "label": "People / a nation (faceless)",      "group": true,  "needs_label": false },
+      "disbelievers": { "label": "Rejecting crowd (dark robes)",      "group": true,  "needs_label": false },
+      "soldiers":     { "label": "Soldiers with spears",              "group": true,  "needs_label": false },
+      "king":         { "label": "Tyrant king / Pharaoh (faceless)",  "group": false, "needs_label": false, "optional_label": ["فرعون"], "note": "label «فرعون» (never drawn) gives Pharaoh's Egyptian headdress; otherwise leave the label empty for a crowned king" },
+      "ruler":        { "label": "Righteous ruler (faceless, dignified white and green robes, simple turban; never the tyrant look)", "group": false, "needs_label": false },
+      "man":          { "label": "One faceless man; set 'look': plain | rich (fine robes, gold trim) | poor (simple patched robe) | traveller (staff and bundle)", "group": false, "needs_label": false },
+      "workers":      { "label": "Workers carrying iron blocks / tools (faceless)", "group": true, "needs_label": false },
+      "sleepers":     { "label": "Sleepers lying under cloaks, drawn as an uncountable shadowed group (count must be 1)", "group": false, "needs_label": false },
+      "dog":          { "label": "A dog (with pose 'sit' or 'sleep': lying at the entrance, forelegs stretched)", "group": false, "needs_label": false },
+      "birds":        { "label": "A flock of birds",                  "group": true,  "needs_label": false },
+      "ship":         { "label": "A wooden ship / ark",               "group": false, "needs_label": false },
+      "camel":        { "label": "A camel",                           "group": false, "needs_label": false },
+      "fish":         { "label": "A fish in a small basket (see event fish_escape)", "group": false, "needs_label": false },
+      "rock":         { "label": "A large rock to rest by",           "group": false, "needs_label": false },
+      "wall":         { "label": "An old wall leaning, about to collapse (see event wall_repair)", "group": false, "needs_label": false },
+      "barrier":      { "label": "The place of the barrier between the two mountains (see event barrier_build); use with setting 'pass', place 'center'", "group": false, "needs_label": false }
+    },
+    "events": {
+      "rain":          "gentle rain begins",
+      "storm":         "dark clouds, strong wind and blowing dust",
+      "flood":         "water rises and covers the ground",
+      "stones":        "stones rain down from the sky",
+      "blast":         "a mighty blast: white flash and shake (the Sayha)",
+      "quake":         "the ground shakes and cracks",
+      "fire":          "flames rise at the centre",
+      "sea_part":      "the sea splits into a dry path between two walls of water (sea_shore setting)",
+      "light":         "a soft beam of light from above (guidance, rescue)",
+      "darkness":      "the scene darkens",
+      "ruin":          "buildings collapse into ruins",
+      "growth":        "plants sprout and the land turns green",
+      "lightning":     "lightning flashes in dark clouds",
+      "sun_arc":       "sunlight passes the cave entrance from one side to the other without touching the sleepers (cave setting)",
+      "turn_sleepers": "the sleepers shift from one side to the other",
+      "wake":          "the sleepers sit up, awake",
+      "wither":        "the garden is destroyed: vines collapse on their trellises, fruit falls, the land turns barren",
+      "fish_escape":   "the fish slips from its basket into the sea, leaving a tunnel-like trail in the water",
+      "ship_hole":     "a plank is pulled from the ship, leaving a hole",
+      "wall_repair":   "the leaning wall is straightened and restored",
+      "barrier_build": "iron blocks stack up between the mountains, glow red-hot in a fire, then molten copper is poured over them",
+      "sunset_far":    "the sun sinks toward a dark water horizon, as it appears to the eye",
+      "sunrise_open":  "the sun rises over an open plain with no shelter from it"
+    }
+  }
+}

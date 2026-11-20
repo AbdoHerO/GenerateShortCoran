@@ -1,0 +1,421 @@
+{
+ "surah": 18,
+ "summary": "34 short videos covering all 110 verses, 4 stories",
+ "made_by": "Research 2026-11-19: Saheeh translation, Al-Muyassar and As-Sa'di read verse by verse; durations from Quran Foundation word timings (Alafasy, plus 6.4 s intro/outro).",
+ "notes": [
+  "All 110 verses match the second source (Tanzil) exactly; the only difference was the spacing of the sakt sign in 18:1, now a documented equivalence.",
+  "Yasser ad-Dussary joins verse 46 to verse 47 without any pause, so with him 45–46 and 47–49 are made as one video (45–49, about 2 minutes): the audio is never cut through the reciter's voice. With reciters who pause there, the two can stay separate.",
+  "Story scenes (cave, two gardens, ship, wall, the barrier) need new scene-library pieces before they look right. The calm-visual videos can be made now.",
+  "Where the two tafsirs differ (al-Khidr) or the picture could mislead (the setting sun, the masjid, the number of sleepers, Gog and Magog), follow the notes on each video.",
+  "Every video still needs a human review before publishing.",
+  "Word timings are checked against the audio: wherever the timing data puts a verse boundary while the reciter is still sounding, the boundary is moved onto the reciter's real, measured pause (with Dussary: 37 boundaries in Al-Kahf, 0.2–0.6 s each). These are listed on each review sheet.",
+  "Word-timing data is complete for every verse with Sudais, Husary, Minshawi (Murattal), Shuraym and Dussary. Alafasy is missing a word in 18:13 and 18:22; Hani ar-Rifai has defects in 32 verses. The app blocks any video that includes a defective verse."
+ ],
+ "groups": [
+  {
+   "title_ar": "افتتاح السورة",
+   "title_en": "Opening of the surah",
+   "from": 1,
+   "to": 8,
+   "intro": "",
+   "videos": [
+    {
+     "from": 1,
+     "to": 5,
+     "title_ar": "الكتاب والإنذار",
+     "title_en": "The Book that warns",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 65
+    },
+    {
+     "from": 6,
+     "to": 8,
+     "title_ar": "الدنيا دار اختبار",
+     "title_en": "This world is a test",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 36
+    }
+   ]
+  },
+  {
+   "title_ar": "أصحاب الكهف",
+   "title_en": "The People of the Cave",
+   "from": 9,
+   "to": 26,
+   "intro": "Full story 9–26 is about 7 minutes with Alafasy: 8 short videos, or one long video for YouTube.",
+   "videos": [
+    {
+     "from": 9,
+     "to": 12,
+     "title_ar": "القصة في إيجاز",
+     "title_en": "The story in brief",
+     "visual": "stage",
+     "care": "Needs the cave setting (not yet in the scene library).",
+     "est_s": 58
+    },
+    {
+     "from": 13,
+     "to": 16,
+     "title_ar": "ثبات الفتية",
+     "title_en": "The youths stand firm",
+     "visual": "stage",
+     "care": "Alafasy's timing data is missing a word in 18:13; use another reciter or confirm a fix by ear.",
+     "est_s": 97
+    },
+    {
+     "from": 17,
+     "to": 18,
+     "title_ar": "داخل الكهف",
+     "title_en": "Inside the cave: the sun and the dog",
+     "visual": "stage",
+     "care": "Needs cave + dog + sleeping figures. Do not make the number of sleepers countable (18:22: Allah knows best).",
+     "est_s": 68
+    },
+    {
+     "from": 19,
+     "to": 20,
+     "title_ar": "اليقظة بعد النوم",
+     "title_en": "Waking up and sending one to the city",
+     "visual": "stage",
+     "care": "",
+     "est_s": 76
+    },
+    {
+     "from": 21,
+     "to": 21,
+     "title_ar": "العثور عليهم",
+     "title_en": "They are found",
+     "visual": "ambient",
+     "care": "Never show a mosque being built over them; Al-Muyassar adds the Prophet's ﷺ prohibition of taking graves as mosques: keep that as the explanation.",
+     "est_s": 49
+    },
+    {
+     "from": 22,
+     "to": 22,
+     "title_ar": "الخلاف في عددهم",
+     "title_en": "The dispute about their number",
+     "visual": "ambient",
+     "care": "Do not show any number of people. Alafasy's timing data is missing a word in 18:22.",
+     "est_s": 51
+    },
+    {
+     "from": 23,
+     "to": 24,
+     "title_ar": "أدب المشيئة",
+     "title_en": "Say: if Allah wills",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 36
+    },
+    {
+     "from": 25,
+     "to": 26,
+     "title_ar": "مدة لبثهم",
+     "title_en": "How long they stayed",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 39
+    }
+   ]
+  },
+  {
+   "title_ar": "الصبر مع المؤمنين",
+   "title_en": "Stay with the believers",
+   "from": 27,
+   "to": 31,
+   "intro": "",
+   "videos": [
+    {
+     "from": 27,
+     "to": 28,
+     "title_ar": "الصبر مع الذاكرين",
+     "title_en": "Patience with those who remember Him",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 51
+    },
+    {
+     "from": 29,
+     "to": 31,
+     "title_ar": "الحق والجزاء",
+     "title_en": "The truth, and the two outcomes",
+     "visual": "ambient",
+     "care": "Describes the Fire and Paradise: calm visuals only, never literal.",
+     "est_s": 105
+    }
+   ]
+  },
+  {
+   "title_ar": "صاحب الجنتين",
+   "title_en": "The owner of the two gardens",
+   "from": 32,
+   "to": 44,
+   "intro": "Full story 32–44 is about 3.5 minutes with Alafasy.",
+   "videos": [
+    {
+     "from": 32,
+     "to": 36,
+     "title_ar": "الجنتان والغرور",
+     "title_en": "Two gardens and pride",
+     "visual": "stage",
+     "care": "",
+     "est_s": 83
+    },
+    {
+     "from": 37,
+     "to": 41,
+     "title_ar": "نصيحة الصاحب المؤمن",
+     "title_en": "The believing companion's advice",
+     "visual": "stage",
+     "care": "",
+     "est_s": 93
+    },
+    {
+     "from": 42,
+     "to": 44,
+     "title_ar": "الهلاك والندم",
+     "title_en": "Ruin and regret",
+     "visual": "stage",
+     "care": "Needs a 'garden withers' event (not yet in the scene library).",
+     "est_s": 53
+    }
+   ]
+  },
+  {
+   "title_ar": "مثل الدنيا",
+   "title_en": "The parable of this world",
+   "from": 45,
+   "to": 46,
+   "intro": "",
+   "videos": [
+    {
+     "from": 45,
+     "to": 46,
+     "title_ar": "الدنيا كالمطر والنبات",
+     "title_en": "Life is like rain on plants",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 54
+    }
+   ]
+  },
+  {
+   "title_ar": "مشاهد القيامة",
+   "title_en": "Scenes of the Day of Judgement",
+   "from": 47,
+   "to": 49,
+   "intro": "",
+   "videos": [
+    {
+     "from": 47,
+     "to": 49,
+     "title_ar": "مشاهد يوم القيامة",
+     "title_en": "Scenes of the Day of Judgement",
+     "visual": "ambient",
+     "care": "The unseen: calm visuals only.",
+     "est_s": 71
+    }
+   ]
+  },
+  {
+   "title_ar": "إبليس",
+   "title_en": "Iblis",
+   "from": 50,
+   "to": 53,
+   "intro": "",
+   "videos": [
+    {
+     "from": 50,
+     "to": 53,
+     "title_ar": "إبليس والسجود لآدم",
+     "title_en": "Iblis refuses to prostrate",
+     "visual": "ambient",
+     "care": "Angels, Adam and Iblis are never drawn: calm visuals only.",
+     "est_s": 95
+    }
+   ]
+  },
+  {
+   "title_ar": "الجدال وسنة الله",
+   "title_en": "Disputing, and the fate of towns",
+   "from": 54,
+   "to": 59,
+   "intro": "",
+   "videos": [
+    {
+     "from": 54,
+     "to": 56,
+     "title_ar": "الجدال بالباطل",
+     "title_en": "Arguing with falsehood",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 72
+    },
+    {
+     "from": 57,
+     "to": 59,
+     "title_ar": "مصير القرى الظالمة",
+     "title_en": "The fate of the towns",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 78
+    }
+   ]
+  },
+  {
+   "title_ar": "موسى والخضر",
+   "title_en": "Musa and al-Khidr",
+   "from": 60,
+   "to": 82,
+   "intro": "Full story 60–82 is about 6.5 minutes with Alafasy: 7 short videos, or one long video.",
+   "videos": [
+    {
+     "from": 60,
+     "to": 64,
+     "title_ar": "رحلة ملتقى البحرين",
+     "title_en": "Journey to the junction of the two seas",
+     "visual": "stage",
+     "care": "Both tafsirs name the companion Yusha' bin Nun: show him as a light, like the prophets.",
+     "est_s": 86
+    },
+    {
+     "from": 65,
+     "to": 70,
+     "title_ar": "شرط الصبر",
+     "title_en": "The condition of patience",
+     "visual": "stage",
+     "care": "Al-Muyassar calls al-Khidr a prophet; As-Sa'di says a righteous servant, not a prophet. Show him as a light; titles must not take a side.",
+     "est_s": 75
+    },
+    {
+     "from": 71,
+     "to": 73,
+     "title_ar": "خرق السفينة",
+     "title_en": "The ship",
+     "visual": "stage",
+     "care": "Needs a 'damaged ship' event (not yet in the scene library).",
+     "est_s": 40
+    },
+    {
+     "from": 74,
+     "to": 76,
+     "title_ar": "الغلام",
+     "title_en": "The boy",
+     "visual": "ambient",
+     "care": "Never depict the killing: calm visuals only.",
+     "est_s": 56
+    },
+    {
+     "from": 77,
+     "to": 78,
+     "title_ar": "الجدار والفراق",
+     "title_en": "The wall, and the parting",
+     "visual": "stage",
+     "care": "Needs a wall prop (not yet in the scene library).",
+     "est_s": 57
+    },
+    {
+     "from": 79,
+     "to": 81,
+     "title_ar": "تأويل السفينة والغلام",
+     "title_en": "The meaning of the ship and the boy",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 57
+    },
+    {
+     "from": 82,
+     "to": 82,
+     "title_ar": "تأويل الجدار",
+     "title_en": "The meaning of the wall",
+     "visual": "stage",
+     "care": "",
+     "est_s": 57
+    }
+   ]
+  },
+  {
+   "title_ar": "ذو القرنين",
+   "title_en": "Dhul-Qarnayn",
+   "from": 83,
+   "to": 98,
+   "intro": "Full story 83–98 is about 3.5 minutes with Alafasy.",
+   "videos": [
+    {
+     "from": 83,
+     "to": 88,
+     "title_ar": "الرحلة غربا",
+     "title_en": "Journey to the west",
+     "visual": "stage",
+     "care": "Both tafsirs: the sun only appeared, to the eye, to set in the dark spring; never show it entering water. Dhul-Qarnayn's status is uncertain (hadith: «ما أدري ذا القرنين أنبيًّا كان أم لا»), so he is shown only as a neutral labelled light, like al-Khidr.",
+     "est_s": 89
+    },
+    {
+     "from": 89,
+     "to": 91,
+     "title_ar": "الرحلة شرقا",
+     "title_en": "Journey to the east",
+     "visual": "stage",
+     "care": "",
+     "est_s": 30
+    },
+    {
+     "from": 92,
+     "to": 98,
+     "title_ar": "السد",
+     "title_en": "The barrier",
+     "visual": "stage",
+     "care": "Never draw Gog and Magog (Al-Muyassar: two great nations of the children of Adam). Needs iron-barrier and molten-copper visuals.",
+     "est_s": 112
+    }
+   ]
+  },
+  {
+   "title_ar": "خاتمة السورة",
+   "title_en": "The end of the surah",
+   "from": 99,
+   "to": 110,
+   "intro": "",
+   "videos": [
+    {
+     "from": 99,
+     "to": 102,
+     "title_ar": "يوم الحشر",
+     "title_en": "The Horn and the gathering",
+     "visual": "ambient",
+     "care": "The unseen: calm visuals only.",
+     "est_s": 63
+    },
+    {
+     "from": 103,
+     "to": 108,
+     "title_ar": "الخاسرون والفائزون",
+     "title_en": "The greatest losers, and the winners",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 83
+    },
+    {
+     "from": 109,
+     "to": 109,
+     "title_ar": "سعة كلام الله",
+     "title_en": "The vastness of Allah's words",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 31
+    },
+    {
+     "from": 110,
+     "to": 110,
+     "title_ar": "الآية الأخيرة",
+     "title_en": "The last verse",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 46
+    }
+   ]
+  }
+ ]
+}

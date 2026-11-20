@@ -1,0 +1,466 @@
+{
+ "fps": 30,
+ "W": 1080,
+ "H": 1920,
+ "duration": 45.45,
+ "intro": 2.4,
+ "outro_start": 41.25,
+ "surah": {
+  "name_ar": "الكهف",
+  "name_en": "Al-Kahf",
+  "number": 18,
+  "from_ar": "١١٠",
+  "to_ar": "١١٠",
+  "from": 110,
+  "to": 110
+ },
+ "credits": {
+  "reciter_ar": "ياسر الدوسري",
+  "reciter_en": "Yasser ad-Dussary",
+  "translation_en": "Translation: Saheeh International",
+  "data_en": "Text, audio timings & tafsir: Quran Foundation (quran.com)"
+ },
+ "cover": {
+  "dur": 1.0,
+  "t": 20.55,
+  "series_ar": "خاتمة السورة",
+  "series_en": "The end of the surah",
+  "title_ar": "الآية الأخيرة",
+  "title_en": "The last verse"
+ },
+ "chapters": [
+  {
+   "id": "c1",
+   "title": "التوحيد والإخلاص",
+   "scene": "ambient",
+   "params": {
+    "mood": "geometric",
+    "beats": [
+     {
+      "at": [
+       110,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       110,
+       4
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       110,
+       6
+      ],
+      "do": "light_up"
+     },
+     {
+      "at": [
+       110,
+       8
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       110,
+       9
+      ],
+      "do": "pattern_turn"
+     },
+     {
+      "at": [
+       110,
+       11
+      ],
+      "do": "pattern_turn"
+     },
+     {
+      "at": [
+       110,
+       15
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       110,
+       16
+      ],
+      "do": "light_up"
+     },
+     {
+      "at": [
+       110,
+       18
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       110,
+       19
+      ],
+      "do": "sparkle",
+      "who": "center"
+     },
+     {
+      "at": [
+       110,
+       21
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       110,
+       22
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       110,
+       23
+      ],
+      "do": "pattern_turn"
+     },
+     {
+      "at": [
+       110,
+       24
+      ],
+      "do": "light_up"
+     }
+    ]
+   },
+   "bg": "#ece6da",
+   "verses": [
+    110
+   ],
+   "start": 0.0,
+   "end": 45.45
+  }
+ ],
+ "verses": [
+  {
+   "n": 110,
+   "key": "18:110",
+   "num_ar": "١١٠",
+   "words": [
+    {
+     "pos": 1,
+     "text": "قُلْ"
+    },
+    {
+     "pos": 2,
+     "text": "إِنَّمَآ"
+    },
+    {
+     "pos": 3,
+     "text": "أَنَا۠"
+    },
+    {
+     "pos": 4,
+     "text": "بَشَرٌۭ"
+    },
+    {
+     "pos": 5,
+     "text": "مِّثْلُكُمْ"
+    },
+    {
+     "pos": 6,
+     "text": "يُوحَىٰٓ"
+    },
+    {
+     "pos": 7,
+     "text": "إِلَىَّ"
+    },
+    {
+     "pos": 8,
+     "text": "أَنَّمَآ"
+    },
+    {
+     "pos": 9,
+     "text": "إِلَـٰهُكُمْ"
+    },
+    {
+     "pos": 10,
+     "text": "إِلَـٰهٌۭ"
+    },
+    {
+     "pos": 11,
+     "text": "وَٰحِدٌۭ ۖ"
+    },
+    {
+     "pos": 12,
+     "text": "فَمَن"
+    },
+    {
+     "pos": 13,
+     "text": "كَانَ"
+    },
+    {
+     "pos": 14,
+     "text": "يَرْجُوا۟"
+    },
+    {
+     "pos": 15,
+     "text": "لِقَآءَ"
+    },
+    {
+     "pos": 16,
+     "text": "رَبِّهِۦ"
+    },
+    {
+     "pos": 17,
+     "text": "فَلْيَعْمَلْ"
+    },
+    {
+     "pos": 18,
+     "text": "عَمَلًۭا"
+    },
+    {
+     "pos": 19,
+     "text": "صَـٰلِحًۭا"
+    },
+    {
+     "pos": 20,
+     "text": "وَلَا"
+    },
+    {
+     "pos": 21,
+     "text": "يُشْرِكْ"
+    },
+    {
+     "pos": 22,
+     "text": "بِعِبَادَةِ"
+    },
+    {
+     "pos": 23,
+     "text": "رَبِّهِۦٓ"
+    },
+    {
+     "pos": 24,
+     "text": "أَحَدًۢا"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     2.46,
+     2.73
+    ],
+    [
+     2,
+     2.73,
+     3.74
+    ],
+    [
+     3,
+     5.74,
+     6.14
+    ],
+    [
+     4,
+     6.14,
+     7.08
+    ],
+    [
+     5,
+     7.08,
+     11.22
+    ],
+    [
+     6,
+     11.22,
+     12.9
+    ],
+    [
+     7,
+     12.9,
+     13.62
+    ],
+    [
+     8,
+     13.62,
+     17.04
+    ],
+    [
+     9,
+     17.04,
+     18.13
+    ],
+    [
+     10,
+     18.13,
+     19.95
+    ],
+    [
+     11,
+     19.95,
+     20.9
+    ],
+    [
+     12,
+     20.94,
+     22.39
+    ],
+    [
+     13,
+     22.39,
+     22.94
+    ],
+    [
+     14,
+     22.94,
+     23.63
+    ],
+    [
+     15,
+     23.63,
+     25.83
+    ],
+    [
+     16,
+     25.83,
+     26.73
+    ],
+    [
+     17,
+     26.73,
+     27.89
+    ],
+    [
+     18,
+     27.89,
+     29.79
+    ],
+    [
+     19,
+     29.79,
+     31.32
+    ],
+    [
+     20,
+     31.32,
+     31.92
+    ],
+    [
+     21,
+     31.92,
+     33.28
+    ],
+    [
+     20,
+     33.28,
+     33.88
+    ],
+    [
+     21,
+     33.88,
+     34.69
+    ],
+    [
+     22,
+     34.69,
+     36.09
+    ],
+    [
+     23,
+     36.09,
+     39.19
+    ],
+    [
+     24,
+     39.19,
+     40.72
+    ]
+   ],
+   "start": 2.46,
+   "first_word": 2.46,
+   "last_word": 40.72,
+   "translation": "Say, \"I am only a man like you, to whom has been revealed that your god is one God. So whoever would hope for the meeting with his Lord - let him do righteous work and not associate in the worship of his Lord anyone.\"",
+   "glosses": [
+    {
+     "w0": 3,
+     "w1": 5,
+     "chip": "أَنَا۠ بَشَرٌۭ مِّثْلُكُمْ",
+     "excerpt": "لست بإله، ولا لي شركة في الملك",
+     "source": "تفسير السعدي",
+     "target": "center",
+     "tone": "blue",
+     "start": 5.74,
+     "end": 11.17
+    },
+    {
+     "w0": 6,
+     "w1": 7,
+     "chip": "يُوحَىٰٓ إِلَىَّ",
+     "excerpt": "فضلت عليكم بالوحي",
+     "source": "تفسير السعدي",
+     "target": "light",
+     "tone": "amber",
+     "start": 11.22,
+     "end": 19.9
+    },
+    {
+     "w0": 11,
+     "w1": 11,
+     "chip": "وَٰحِدٌۭ ۖ",
+     "excerpt": "ولا أحد يستحق من العبادة مثقال ذرة غيره",
+     "source": "تفسير السعدي",
+     "target": "center",
+     "tone": "green",
+     "start": 19.95,
+     "end": 23.58
+    },
+    {
+     "w0": 15,
+     "w1": 16,
+     "chip": "لِقَآءَ رَبِّهِۦ",
+     "excerpt": "يخاف عذاب ربه ويرجو ثوابه يوم لقائه",
+     "source": "التفسير الميسر",
+     "target": "light",
+     "tone": "green",
+     "start": 23.63,
+     "end": 29.74
+    },
+    {
+     "w0": 19,
+     "w1": 19,
+     "chip": "صَـٰلِحًۭا",
+     "excerpt": "وهو الموافق لشرع الله، من واجب ومستحب",
+     "source": "تفسير السعدي",
+     "target": null,
+     "tone": "green",
+     "start": 29.79,
+     "end": 34.64
+    },
+    {
+     "w0": 22,
+     "w1": 24,
+     "chip": "بِعِبَادَةِ رَبِّهِۦٓ أَحَدًۢا",
+     "excerpt": "لا يرائي بعمله بل يعمله خالصا لوجه الله تعالى",
+     "source": "تفسير السعدي",
+     "target": "light",
+     "tone": "green",
+     "start": 34.69,
+     "end": 41.35
+    }
+   ],
+   "end": 41.45
+  }
+ ],
+ "audio": {
+  "slice_start": 1704.33,
+  "slice_end": 1742.78,
+  "file": "audio_master.wav"
+ },
+ "timing_corrections": [],
+ "timing_flags": [],
+ "aligned_boundaries": []
+}

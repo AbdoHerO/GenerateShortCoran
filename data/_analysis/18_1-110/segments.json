@@ -1,0 +1,377 @@
+[
+ {
+  "from": 1,
+  "to": 5,
+  "est_alafasy": 65,
+  "lo": 50,
+  "hi": 148,
+  "ok": 11,
+  "blocked": [
+   "1",
+   "5"
+  ]
+ },
+ {
+  "from": 6,
+  "to": 8,
+  "est_alafasy": 36,
+  "lo": 28,
+  "hi": 71,
+  "ok": 13,
+  "blocked": []
+ },
+ {
+  "from": 9,
+  "to": 12,
+  "est_alafasy": 58,
+  "lo": 39,
+  "hi": 101,
+  "ok": 11,
+  "blocked": [
+   "11",
+   "5"
+  ]
+ },
+ {
+  "from": 13,
+  "to": 16,
+  "est_alafasy": 97,
+  "lo": 57,
+  "hi": 208,
+  "ok": 11,
+  "blocked": [
+   "7",
+   "5"
+  ]
+ },
+ {
+  "from": 17,
+  "to": 18,
+  "est_alafasy": 68,
+  "lo": 53,
+  "hi": 142,
+  "ok": 11,
+  "blocked": [
+   "1",
+   "5"
+  ]
+ },
+ {
+  "from": 19,
+  "to": 20,
+  "est_alafasy": 76,
+  "lo": 49,
+  "hi": 168,
+  "ok": 12,
+  "blocked": [
+   "1"
+  ]
+ },
+ {
+  "from": 21,
+  "to": 21,
+  "est_alafasy": 49,
+  "lo": 33,
+  "hi": 91,
+  "ok": 11,
+  "blocked": [
+   "11",
+   "5"
+  ]
+ },
+ {
+  "from": 22,
+  "to": 22,
+  "est_alafasy": 51,
+  "lo": 36,
+  "hi": 103,
+  "ok": 12,
+  "blocked": [
+   "7"
+  ]
+ },
+ {
+  "from": 23,
+  "to": 24,
+  "est_alafasy": 36,
+  "lo": 24,
+  "hi": 70,
+  "ok": 10,
+  "blocked": [
+   "161",
+   "1",
+   "5"
+  ]
+ },
+ {
+  "from": 25,
+  "to": 26,
+  "est_alafasy": 39,
+  "lo": 30,
+  "hi": 70,
+  "ok": 13,
+  "blocked": []
+ },
+ {
+  "from": 27,
+  "to": 28,
+  "est_alafasy": 51,
+  "lo": 38,
+  "hi": 105,
+  "ok": 12,
+  "blocked": [
+   "5"
+  ]
+ },
+ {
+  "from": 29,
+  "to": 31,
+  "est_alafasy": 105,
+  "lo": 68,
+  "hi": 210,
+  "ok": 12,
+  "blocked": [
+   "5"
+  ]
+ },
+ {
+  "from": 32,
+  "to": 36,
+  "est_alafasy": 83,
+  "lo": 57,
+  "hi": 155,
+  "ok": 12,
+  "blocked": [
+   "5"
+  ]
+ },
+ {
+  "from": 37,
+  "to": 41,
+  "est_alafasy": 93,
+  "lo": 61,
+  "hi": 169,
+  "ok": 12,
+  "blocked": [
+   "5"
+  ]
+ },
+ {
+  "from": 42,
+  "to": 44,
+  "est_alafasy": 53,
+  "lo": 37,
+  "hi": 124,
+  "ok": 13,
+  "blocked": []
+ },
+ {
+  "from": 45,
+  "to": 46,
+  "est_alafasy": 54,
+  "lo": 38,
+  "hi": 108,
+  "ok": 12,
+  "blocked": [
+   "5"
+  ]
+ },
+ {
+  "from": 47,
+  "to": 49,
+  "est_alafasy": 71,
+  "lo": 51,
+  "hi": 150,
+  "ok": 12,
+  "blocked": [
+   "5"
+  ]
+ },
+ {
+  "from": 50,
+  "to": 53,
+  "est_alafasy": 95,
+  "lo": 61,
+  "hi": 180,
+  "ok": 11,
+  "blocked": [
+   "1",
+   "5"
+  ]
+ },
+ {
+  "from": 54,
+  "to": 56,
+  "est_alafasy": 72,
+  "lo": 51,
+  "hi": 150,
+  "ok": 12,
+  "blocked": [
+   "5"
+  ]
+ },
+ {
+  "from": 57,
+  "to": 59,
+  "est_alafasy": 78,
+  "lo": 48,
+  "hi": 146,
+  "ok": 10,
+  "blocked": [
+   "4",
+   "1",
+   "5"
+  ]
+ },
+ {
+  "from": 60,
+  "to": 64,
+  "est_alafasy": 86,
+  "lo": 52,
+  "hi": 158,
+  "ok": 12,
+  "blocked": [
+   "5"
+  ]
+ },
+ {
+  "from": 65,
+  "to": 70,
+  "est_alafasy": 75,
+  "lo": 46,
+  "hi": 135,
+  "ok": 12,
+  "blocked": [
+   "5"
+  ]
+ },
+ {
+  "from": 71,
+  "to": 73,
+  "est_alafasy": 40,
+  "lo": 28,
+  "hi": 73,
+  "ok": 12,
+  "blocked": [
+   "5"
+  ]
+ },
+ {
+  "from": 74,
+  "to": 76,
+  "est_alafasy": 56,
+  "lo": 34,
+  "hi": 83,
+  "ok": 13,
+  "blocked": []
+ },
+ {
+  "from": 77,
+  "to": 78,
+  "est_alafasy": 57,
+  "lo": 37,
+  "hi": 95,
+  "ok": 13,
+  "blocked": []
+ },
+ {
+  "from": 79,
+  "to": 81,
+  "est_alafasy": 57,
+  "lo": 38,
+  "hi": 93,
+  "ok": 11,
+  "blocked": [
+   "8",
+   "5"
+  ]
+ },
+ {
+  "from": 82,
+  "to": 82,
+  "est_alafasy": 57,
+  "lo": 36,
+  "hi": 120,
+  "ok": 11,
+  "blocked": [
+   "2",
+   "8"
+  ]
+ },
+ {
+  "from": 83,
+  "to": 88,
+  "est_alafasy": 89,
+  "lo": 57,
+  "hi": 161,
+  "ok": 11,
+  "blocked": [
+   "4",
+   "5"
+  ]
+ },
+ {
+  "from": 89,
+  "to": 91,
+  "est_alafasy": 30,
+  "lo": 21,
+  "hi": 57,
+  "ok": 12,
+  "blocked": [
+   "5"
+  ]
+ },
+ {
+  "from": 92,
+  "to": 98,
+  "est_alafasy": 112,
+  "lo": 72,
+  "hi": 218,
+  "ok": 12,
+  "blocked": [
+   "5"
+  ]
+ },
+ {
+  "from": 99,
+  "to": 102,
+  "est_alafasy": 63,
+  "lo": 41,
+  "hi": 111,
+  "ok": 12,
+  "blocked": [
+   "5"
+  ]
+ },
+ {
+  "from": 103,
+  "to": 108,
+  "est_alafasy": 83,
+  "lo": 52,
+  "hi": 144,
+  "ok": 12,
+  "blocked": [
+   "5"
+  ]
+ },
+ {
+  "from": 109,
+  "to": 109,
+  "est_alafasy": 31,
+  "lo": 18,
+  "hi": 52,
+  "ok": 12,
+  "blocked": [
+   "1"
+  ]
+ },
+ {
+  "from": 110,
+  "to": 110,
+  "est_alafasy": 46,
+  "lo": 30,
+  "hi": 63,
+  "ok": 13,
+  "blocked": []
+ }
+]

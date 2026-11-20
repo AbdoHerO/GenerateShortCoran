@@ -1,0 +1,879 @@
+{
+ "fps": 30,
+ "W": 1080,
+ "H": 1920,
+ "duration": 92.935,
+ "intro": 2.4,
+ "outro_start": 88.735,
+ "surah": {
+  "name_ar": "الشعراء",
+  "name_en": "Ash-Shu'ara",
+  "number": 26,
+  "from_ar": "٦٠",
+  "to_ar": "٦٨",
+  "from": 60,
+  "to": 68
+ },
+ "credits": {
+  "reciter_ar": "مشاري راشد العفاسي",
+  "translation_en": "Translation: Saheeh International",
+  "data_en": "Text, audio timings & tafsir: Quran Foundation (quran.com)"
+ },
+ "cover": {
+  "dur": 1.0,
+  "t": 39.41,
+  "series_ar": "قصص الأنبياء",
+  "series_en": "Stories of the Prophets",
+  "title_ar": "موسى وانفلاق البحر",
+  "title_en": "Musa and the parting of the sea"
+ },
+ "chapters": [
+  {
+   "id": "pursuit",
+   "title": "مطاردة فرعون",
+   "scene": "musa_pursuit",
+   "params": {},
+   "bg": "#efe6d6",
+   "verses": [
+    60
+   ],
+   "start": 0.0,
+   "end": 7.8
+  },
+  {
+   "id": "meet",
+   "title": "التقاء الجمعين",
+   "scene": "musa_meet",
+   "params": {},
+   "bg": "#ece4d8",
+   "verses": [
+    61
+   ],
+   "start": 7.8,
+   "end": 21.52
+  },
+  {
+   "id": "trust",
+   "title": "يقين موسى",
+   "scene": "musa_trust",
+   "params": {},
+   "bg": "#e7e6df",
+   "verses": [
+    62
+   ],
+   "start": 21.52,
+   "end": 29.69
+  },
+  {
+   "id": "sea",
+   "title": "انفلاق البحر",
+   "scene": "musa_sea",
+   "params": {},
+   "bg": "#e1e8ea",
+   "verses": [
+    63
+   ],
+   "start": 29.69,
+   "end": 47.48
+  },
+  {
+   "id": "rescue",
+   "title": "النجاة والغرق",
+   "scene": "musa_rescue",
+   "params": {},
+   "bg": "#dfe5ea",
+   "verses": [
+    64,
+    65,
+    66
+   ],
+   "start": 47.48,
+   "end": 69.4
+  },
+  {
+   "id": "lesson",
+   "title": "آية وعبرة",
+   "scene": "musa_lesson",
+   "params": {},
+   "bg": "#e9e7df",
+   "verses": [
+    67,
+    68
+   ],
+   "start": 69.4,
+   "end": 92.935
+  }
+ ],
+ "verses": [
+  {
+   "n": 60,
+   "key": "26:60",
+   "num_ar": "٦٠",
+   "words": [
+    {
+     "pos": 1,
+     "text": "فَأَتْبَعُوهُم"
+    },
+    {
+     "pos": 2,
+     "text": "مُّشْرِقِينَ"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     2.46,
+     4.69
+    ],
+    [
+     2,
+     4.69,
+     7.735
+    ]
+   ],
+   "start": 2.46,
+   "first_word": 2.46,
+   "last_word": 7.735,
+   "translation": "So they pursued them at sunrise.",
+   "glosses": [
+    {
+     "w0": 2,
+     "w1": 2,
+     "chip": "مُّشْرِقِينَ",
+     "excerpt": "وقت شروق الشمس",
+     "source": "التفسير الميسر",
+     "target": "sun",
+     "tone": "amber",
+     "start": 4.69,
+     "end": 7.7
+    }
+   ],
+   "end": 7.8
+  },
+  {
+   "n": 61,
+   "key": "26:61",
+   "num_ar": "٦١",
+   "words": [
+    {
+     "pos": 1,
+     "text": "فَلَمَّا"
+    },
+    {
+     "pos": 2,
+     "text": "تَرَٰٓءَا"
+    },
+    {
+     "pos": 3,
+     "text": "ٱلْجَمْعَانِ"
+    },
+    {
+     "pos": 4,
+     "text": "قَالَ"
+    },
+    {
+     "pos": 5,
+     "text": "أَصْحَـٰبُ"
+    },
+    {
+     "pos": 6,
+     "text": "مُوسَىٰٓ"
+    },
+    {
+     "pos": 7,
+     "text": "إِنَّا"
+    },
+    {
+     "pos": 8,
+     "text": "لَمُدْرَكُونَ"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     7.8,
+     9.42
+    ],
+    [
+     2,
+     9.42,
+     11.66
+    ],
+    [
+     3,
+     11.66,
+     12.94
+    ],
+    [
+     4,
+     12.94,
+     13.68
+    ],
+    [
+     5,
+     13.68,
+     14.73
+    ],
+    [
+     6,
+     14.73,
+     16.78
+    ],
+    [
+     7,
+     16.78,
+     18.45
+    ],
+    [
+     8,
+     18.45,
+     21.475
+    ]
+   ],
+   "start": 7.8,
+   "first_word": 7.8,
+   "last_word": 21.475,
+   "translation": "And when the two companies saw one another, the companions of Moses said, \"Indeed, we are to be overtaken!\"",
+   "glosses": [
+    {
+     "w0": 2,
+     "w1": 3,
+     "chip": "تَرَٰٓءَا ٱلْجَمْعَانِ",
+     "excerpt": "رأى كل منهما صاحبه",
+     "source": "تفسير السعدي",
+     "target": "sight",
+     "tone": "blue",
+     "start": 9.42,
+     "end": 18.4
+    },
+    {
+     "w0": 8,
+     "w1": 8,
+     "chip": "لَمُدْرَكُونَ",
+     "excerpt": "جَمْعَ فرعون مُدْرِكنا ومهلكنا",
+     "source": "التفسير الميسر",
+     "target": "companions",
+     "tone": "red",
+     "start": 18.45,
+     "end": 21.419999999999998
+    }
+   ],
+   "end": 21.52
+  },
+  {
+   "n": 62,
+   "key": "26:62",
+   "num_ar": "٦٢",
+   "words": [
+    {
+     "pos": 1,
+     "text": "قَالَ"
+    },
+    {
+     "pos": 2,
+     "text": "كَلَّآ ۖ"
+    },
+    {
+     "pos": 3,
+     "text": "إِنَّ"
+    },
+    {
+     "pos": 4,
+     "text": "مَعِىَ"
+    },
+    {
+     "pos": 5,
+     "text": "رَبِّى"
+    },
+    {
+     "pos": 6,
+     "text": "سَيَهْدِينِ"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     21.52,
+     22.25
+    ],
+    [
+     2,
+     22.25,
+     23.17
+    ],
+    [
+     3,
+     23.17,
+     25.11
+    ],
+    [
+     4,
+     25.11,
+     25.73
+    ],
+    [
+     5,
+     25.73,
+     26.53
+    ],
+    [
+     6,
+     26.53,
+     29.645
+    ]
+   ],
+   "start": 21.52,
+   "first_word": 21.52,
+   "last_word": 29.645,
+   "translation": "[Moses] said, \"No! Indeed, with me is my Lord; He will guide me.\"",
+   "glosses": [
+    {
+     "w0": 2,
+     "w1": 2,
+     "chip": "كَلَّآ ۖ",
+     "excerpt": "ليس الأمر كما ذكرتم فلن تُدْرَكوا",
+     "source": "التفسير الميسر",
+     "target": "musa",
+     "tone": "green",
+     "start": 22.25,
+     "end": 26.48
+    },
+    {
+     "w0": 6,
+     "w1": 6,
+     "chip": "سَيَهْدِينِ",
+     "excerpt": "سيهديني لما فيه نجاتي ونجاتكم",
+     "source": "التفسير الميسر",
+     "target": "musa",
+     "tone": "green",
+     "start": 26.53,
+     "end": 29.59
+    }
+   ],
+   "end": 29.69
+  },
+  {
+   "n": 63,
+   "key": "26:63",
+   "num_ar": "٦٣",
+   "words": [
+    {
+     "pos": 1,
+     "text": "فَأَوْحَيْنَآ"
+    },
+    {
+     "pos": 2,
+     "text": "إِلَىٰ"
+    },
+    {
+     "pos": 3,
+     "text": "مُوسَىٰٓ"
+    },
+    {
+     "pos": 4,
+     "text": "أَنِ"
+    },
+    {
+     "pos": 5,
+     "text": "ٱضْرِب"
+    },
+    {
+     "pos": 6,
+     "text": "بِّعَصَاكَ"
+    },
+    {
+     "pos": 7,
+     "text": "ٱلْبَحْرَ ۖ"
+    },
+    {
+     "pos": 8,
+     "text": "فَٱنفَلَقَ"
+    },
+    {
+     "pos": 9,
+     "text": "فَكَانَ"
+    },
+    {
+     "pos": 10,
+     "text": "كُلُّ"
+    },
+    {
+     "pos": 11,
+     "text": "فِرْقٍۢ"
+    },
+    {
+     "pos": 12,
+     "text": "كَٱلطَّوْدِ"
+    },
+    {
+     "pos": 13,
+     "text": "ٱلْعَظِيمِ"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     29.69,
+     33.21
+    ],
+    [
+     2,
+     33.21,
+     34.06
+    ],
+    [
+     3,
+     34.06,
+     35.75
+    ],
+    [
+     4,
+     35.75,
+     36.07
+    ],
+    [
+     5,
+     36.07,
+     36.59
+    ],
+    [
+     6,
+     36.59,
+     37.87
+    ],
+    [
+     7,
+     37.87,
+     38.81
+    ],
+    [
+     8,
+     38.81,
+     40.43
+    ],
+    [
+     9,
+     40.43,
+     41.27
+    ],
+    [
+     10,
+     41.27,
+     41.95
+    ],
+    [
+     11,
+     41.95,
+     43.46
+    ],
+    [
+     12,
+     43.46,
+     44.53
+    ],
+    [
+     13,
+     44.53,
+     47.455
+    ]
+   ],
+   "start": 29.69,
+   "first_word": 29.69,
+   "last_word": 47.455,
+   "translation": "Then We inspired to Moses, \"Strike with your staff the sea,\" and it parted, and each portion was like a great towering mountain.",
+   "glosses": [
+    {
+     "w0": 8,
+     "w1": 8,
+     "chip": "فَٱنفَلَقَ",
+     "excerpt": "إلى اثني عشر طريقًا بعدد قبائل بني إسرائيل",
+     "source": "التفسير الميسر",
+     "target": "path",
+     "tone": "blue",
+     "start": 38.81,
+     "end": 43.410000000000004
+    },
+    {
+     "w0": 12,
+     "w1": 13,
+     "chip": "كَٱلطَّوْدِ ٱلْعَظِيمِ",
+     "excerpt": "فكانت كل قطعة انفصلت من البحر كالجبل العظيم",
+     "source": "التفسير الميسر",
+     "target": "wall",
+     "tone": "blue",
+     "start": 43.46,
+     "end": 47.379999999999995
+    }
+   ],
+   "end": 47.48
+  },
+  {
+   "n": 64,
+   "key": "26:64",
+   "num_ar": "٦٤",
+   "words": [
+    {
+     "pos": 1,
+     "text": "وَأَزْلَفْنَا"
+    },
+    {
+     "pos": 2,
+     "text": "ثَمَّ"
+    },
+    {
+     "pos": 3,
+     "text": "ٱلْـَٔاخَرِينَ"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     47.48,
+     48.95
+    ],
+    [
+     2,
+     48.95,
+     50.44
+    ],
+    [
+     3,
+     50.44,
+     53.935
+    ]
+   ],
+   "start": 47.48,
+   "first_word": 47.48,
+   "last_word": 53.935,
+   "translation": "And We advanced thereto the others [i.e., the pursuers].",
+   "glosses": [
+    {
+     "w0": 1,
+     "w1": 1,
+     "chip": "وَأَزْلَفْنَا",
+     "excerpt": "وقرَّبْنا هناك فرعون وقومه حتى دخلوا البحر",
+     "source": "التفسير الميسر",
+     "target": "army",
+     "tone": "red",
+     "start": 47.48,
+     "end": 53.86
+    }
+   ],
+   "end": 53.96
+  },
+  {
+   "n": 65,
+   "key": "26:65",
+   "num_ar": "٦٥",
+   "words": [
+    {
+     "pos": 1,
+     "text": "وَأَنجَيْنَا"
+    },
+    {
+     "pos": 2,
+     "text": "مُوسَىٰ"
+    },
+    {
+     "pos": 3,
+     "text": "وَمَن"
+    },
+    {
+     "pos": 4,
+     "text": "مَّعَهُۥٓ"
+    },
+    {
+     "pos": 5,
+     "text": "أَجْمَعِينَ"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     53.96,
+     56.17
+    ],
+    [
+     2,
+     56.17,
+     57.06
+    ],
+    [
+     3,
+     57.06,
+     57.68
+    ],
+    [
+     4,
+     57.68,
+     60.74
+    ],
+    [
+     5,
+     60.74,
+     63.675
+    ]
+   ],
+   "start": 53.96,
+   "first_word": 53.96,
+   "last_word": 63.675,
+   "translation": "And We saved Moses and those with him, all together.",
+   "glosses": [
+    {
+     "w0": 5,
+     "w1": 5,
+     "chip": "أَجْمَعِينَ",
+     "excerpt": "لم يتخلف منهم أحد",
+     "source": "تفسير السعدي",
+     "target": "saved",
+     "tone": "green",
+     "start": 60.74,
+     "end": 63.6
+    }
+   ],
+   "end": 63.7
+  },
+  {
+   "n": 66,
+   "key": "26:66",
+   "num_ar": "٦٦",
+   "words": [
+    {
+     "pos": 1,
+     "text": "ثُمَّ"
+    },
+    {
+     "pos": 2,
+     "text": "أَغْرَقْنَا"
+    },
+    {
+     "pos": 3,
+     "text": "ٱلْـَٔاخَرِينَ"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     63.7,
+     65.37
+    ],
+    [
+     2,
+     65.37,
+     66.4
+    ],
+    [
+     3,
+     66.4,
+     69.315
+    ]
+   ],
+   "start": 63.7,
+   "first_word": 63.7,
+   "last_word": 69.315,
+   "translation": "Then We drowned the others.",
+   "glosses": [
+    {
+     "w0": 2,
+     "w1": 2,
+     "chip": "أَغْرَقْنَا",
+     "excerpt": "بإطباق البحر عليهم بعد أن دخلوا فيه",
+     "source": "التفسير الميسر",
+     "target": "sea",
+     "tone": "red",
+     "start": 65.37,
+     "end": 69.30000000000001
+    }
+   ],
+   "end": 69.4
+  },
+  {
+   "n": 67,
+   "key": "26:67",
+   "num_ar": "٦٧",
+   "words": [
+    {
+     "pos": 1,
+     "text": "إِنَّ"
+    },
+    {
+     "pos": 2,
+     "text": "فِى"
+    },
+    {
+     "pos": 3,
+     "text": "ذَٰلِكَ"
+    },
+    {
+     "pos": 4,
+     "text": "لَـَٔايَةًۭ ۖ"
+    },
+    {
+     "pos": 5,
+     "text": "وَمَا"
+    },
+    {
+     "pos": 6,
+     "text": "كَانَ"
+    },
+    {
+     "pos": 7,
+     "text": "أَكْثَرُهُم"
+    },
+    {
+     "pos": 8,
+     "text": "مُّؤْمِنِينَ"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     69.4,
+     70.88
+    ],
+    [
+     2,
+     70.88,
+     71.38
+    ],
+    [
+     3,
+     71.38,
+     72.32
+    ],
+    [
+     4,
+     72.32,
+     73.82
+    ],
+    [
+     5,
+     73.82,
+     74.46
+    ],
+    [
+     6,
+     74.46,
+     75.12
+    ],
+    [
+     7,
+     75.12,
+     76.32
+    ],
+    [
+     8,
+     76.32,
+     80.365
+    ]
+   ],
+   "start": 69.4,
+   "first_word": 69.4,
+   "last_word": 80.365,
+   "translation": "Indeed in that is a sign, but most of them were not to be believers.",
+   "glosses": [
+    {
+     "w0": 4,
+     "w1": 4,
+     "chip": "لَـَٔايَةًۭ ۖ",
+     "excerpt": "لَعبرة عجيبة دالة على قدرة الله",
+     "source": "التفسير الميسر",
+     "target": "star",
+     "tone": "green",
+     "start": 72.32,
+     "end": 80.32000000000001
+    }
+   ],
+   "end": 80.42
+  },
+  {
+   "n": 68,
+   "key": "26:68",
+   "num_ar": "٦٨",
+   "words": [
+    {
+     "pos": 1,
+     "text": "وَإِنَّ"
+    },
+    {
+     "pos": 2,
+     "text": "رَبَّكَ"
+    },
+    {
+     "pos": 3,
+     "text": "لَهُوَ"
+    },
+    {
+     "pos": 4,
+     "text": "ٱلْعَزِيزُ"
+    },
+    {
+     "pos": 5,
+     "text": "ٱلرَّحِيمُ"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     80.42,
+     82.16
+    ],
+    [
+     2,
+     82.16,
+     83.09
+    ],
+    [
+     3,
+     83.09,
+     83.84
+    ],
+    [
+     4,
+     83.84,
+     85.21
+    ],
+    [
+     5,
+     85.21,
+     88.335
+    ]
+   ],
+   "start": 80.42,
+   "first_word": 80.42,
+   "last_word": 88.335,
+   "translation": "And indeed, your Lord - He is the Exalted in Might, the Merciful.",
+   "glosses": [
+    {
+     "w0": 4,
+     "w1": 5,
+     "chip": "ٱلْعَزِيزُ ٱلرَّحِيمُ",
+     "excerpt": "بعزته أهلك الكافرين المكذبين، وبرحمته نجَّى موسى",
+     "source": "التفسير الميسر",
+     "target": "star",
+     "tone": "amber",
+     "start": 83.84,
+     "end": 88.83500000000001
+    }
+   ],
+   "end": 88.935
+  }
+ ],
+ "audio": {
+  "slice_start": 608.555,
+  "slice_end": 694.49,
+  "file": "audio_master.wav"
+ },
+ "timing_corrections": [
+  {
+   "verse": 63,
+   "segment_index": 1,
+   "expect_word": 3,
+   "set_word": 2,
+   "note": "QF segments for 26:63 list word 3 twice and word 2 never. The 850 ms segment fits «إلى» (natural 2-count madd) and the following 1690 ms segment fits «موسى» (madd before hamza). Mild energy dip at 640.2-640.4 s is consistent with the «م» onset.",
+   "start_ms": 639365,
+   "end_ms": 640215,
+   "video_t": 33.21
+  }
+ ]
+}

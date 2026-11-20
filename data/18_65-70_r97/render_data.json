@@ -1,0 +1,1143 @@
+{
+ "fps": 30,
+ "W": 1080,
+ "H": 1920,
+ "duration": 65.8,
+ "intro": 2.4,
+ "outro_start": 61.6,
+ "surah": {
+  "name_ar": "الكهف",
+  "name_en": "Al-Kahf",
+  "number": 18,
+  "from_ar": "٦٥",
+  "to_ar": "٧٠",
+  "from": 65,
+  "to": 70
+ },
+ "credits": {
+  "reciter_ar": "ياسر الدوسري",
+  "reciter_en": "Yasser ad-Dussary",
+  "translation_en": "Translation: Saheeh International",
+  "data_en": "Text, audio timings & tafsir: Quran Foundation (quran.com)"
+ },
+ "cover": {
+  "dur": 1.0,
+  "t": 21.62,
+  "series_ar": "موسى والخضر",
+  "series_en": "Musa and al-Khidr",
+  "title_ar": "شرط الصبر",
+  "title_en": "The condition of patience"
+ },
+ "chapters": [
+  {
+   "id": "c1",
+   "title": "اللقاء عند الصخرة",
+   "scene": "stage",
+   "params": {
+    "setting": "sea_junction",
+    "time": "day",
+    "actors": [
+     {
+      "id": "musa",
+      "type": "prophet",
+      "label": "موسى عليه السلام",
+      "place": "left",
+      "count": 1,
+      "pose": "walk",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "yusha",
+      "type": "honored",
+      "label": "يوشع بن نون",
+      "place": "left",
+      "count": 1,
+      "pose": "walk",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "rock",
+      "type": "rock",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "khidr",
+      "type": "honored",
+      "label": "الخضر",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
+    "beats": [
+     {
+      "at": [
+       65,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       65,
+       2
+      ],
+      "do": "glow",
+      "who": "khidr"
+     },
+     {
+      "at": [
+       65,
+       4
+      ],
+      "do": "shot_close",
+      "who": "khidr"
+     },
+     {
+      "at": [
+       65,
+       6
+      ],
+      "do": "sparkle",
+      "who": "khidr"
+     },
+     {
+      "at": [
+       65,
+       9
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       65,
+       11
+      ],
+      "do": "walk_to",
+      "who": "musa",
+      "to": "khidr"
+     }
+    ]
+   },
+   "bg": "#dfe7ea",
+   "verses": [
+    65
+   ],
+   "start": 0.0,
+   "end": 17.98
+  },
+  {
+   "id": "c2",
+   "title": "أدب طالب العلم",
+   "scene": "stage",
+   "params": {
+    "setting": "sea_junction",
+    "time": "day",
+    "actors": [
+     {
+      "id": "yusha",
+      "type": "honored",
+      "label": "يوشع بن نون",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "musa",
+      "type": "prophet",
+      "label": "موسى عليه السلام",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "khidr",
+      "type": "honored",
+      "label": "الخضر",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
+    "beats": [
+     {
+      "at": [
+       66,
+       1
+      ],
+      "do": "speak",
+      "who": "musa"
+     },
+     {
+      "at": [
+       66,
+       3
+      ],
+      "do": "glow",
+      "who": "musa"
+     },
+     {
+      "at": [
+       66,
+       5
+      ],
+      "do": "bow",
+      "who": "musa"
+     },
+     {
+      "at": [
+       66,
+       8
+      ],
+      "do": "shot_close",
+      "who": "musa"
+     },
+     {
+      "at": [
+       67,
+       1
+      ],
+      "do": "speak",
+      "who": "khidr"
+     },
+     {
+      "at": [
+       67,
+       2
+      ],
+      "do": "shot_close",
+      "who": "khidr"
+     },
+     {
+      "at": [
+       67,
+       4
+      ],
+      "do": "glow",
+      "who": "khidr"
+     },
+     {
+      "at": [
+       68,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       68,
+       6
+      ],
+      "do": "push_in"
+     }
+    ]
+   },
+   "bg": "#dfe7ea",
+   "verses": [
+    66,
+    67,
+    68
+   ],
+   "start": 17.98,
+   "end": 39.66
+  },
+  {
+   "id": "c3",
+   "title": "الوعد والشرط",
+   "scene": "stage",
+   "params": {
+    "setting": "sea_junction",
+    "time": "day",
+    "actors": [
+     {
+      "id": "yusha",
+      "type": "honored",
+      "label": "يوشع بن نون",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "musa",
+      "type": "prophet",
+      "label": "موسى عليه السلام",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "khidr",
+      "type": "honored",
+      "label": "الخضر",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
+    "beats": [
+     {
+      "at": [
+       69,
+       1
+      ],
+      "do": "speak",
+      "who": "musa"
+     },
+     {
+      "at": [
+       69,
+       2
+      ],
+      "do": "shot_close",
+      "who": "musa"
+     },
+     {
+      "at": [
+       69,
+       3
+      ],
+      "do": "bow",
+      "who": "musa"
+     },
+     {
+      "at": [
+       69,
+       6
+      ],
+      "do": "glow",
+      "who": "musa"
+     },
+     {
+      "at": [
+       69,
+       8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       70,
+       1
+      ],
+      "do": "speak",
+      "who": "khidr"
+     },
+     {
+      "at": [
+       70,
+       3
+      ],
+      "do": "shot_close",
+      "who": "khidr"
+     },
+     {
+      "at": [
+       70,
+       7
+      ],
+      "do": "glow",
+      "who": "khidr"
+     },
+     {
+      "at": [
+       70,
+       11
+      ],
+      "do": "shot_wide"
+     }
+    ]
+   },
+   "bg": "#dfe7ea",
+   "verses": [
+    69,
+    70
+   ],
+   "start": 39.66,
+   "end": 65.8
+  }
+ ],
+ "verses": [
+  {
+   "n": 65,
+   "key": "18:65",
+   "num_ar": "٦٥",
+   "words": [
+    {
+     "pos": 1,
+     "text": "فَوَجَدَا"
+    },
+    {
+     "pos": 2,
+     "text": "عَبْدًۭا"
+    },
+    {
+     "pos": 3,
+     "text": "مِّنْ"
+    },
+    {
+     "pos": 4,
+     "text": "عِبَادِنَآ"
+    },
+    {
+     "pos": 5,
+     "text": "ءَاتَيْنَـٰهُ"
+    },
+    {
+     "pos": 6,
+     "text": "رَحْمَةًۭ"
+    },
+    {
+     "pos": 7,
+     "text": "مِّنْ"
+    },
+    {
+     "pos": 8,
+     "text": "عِندِنَا"
+    },
+    {
+     "pos": 9,
+     "text": "وَعَلَّمْنَـٰهُ"
+    },
+    {
+     "pos": 10,
+     "text": "مِن"
+    },
+    {
+     "pos": 11,
+     "text": "لَّدُنَّا"
+    },
+    {
+     "pos": 12,
+     "text": "عِلْمًۭا"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     2.46,
+     3.4
+    ],
+    [
+     2,
+     3.4,
+     4.73
+    ],
+    [
+     3,
+     4.73,
+     5.06
+    ],
+    [
+     4,
+     5.06,
+     7.32
+    ],
+    [
+     5,
+     7.32,
+     8.6
+    ],
+    [
+     6,
+     8.6,
+     9.66
+    ],
+    [
+     7,
+     9.66,
+     9.97
+    ],
+    [
+     8,
+     9.97,
+     13.91
+    ],
+    [
+     9,
+     13.91,
+     15.85
+    ],
+    [
+     10,
+     15.85,
+     16.08
+    ],
+    [
+     11,
+     16.14,
+     17.48
+    ],
+    [
+     12,
+     17.62,
+     17.91
+    ]
+   ],
+   "start": 2.46,
+   "first_word": 2.46,
+   "last_word": 17.91,
+   "translation": "And they found a servant from among Our servants [i.e., al-Khiḍr] to whom We had given mercy from Us and had taught him from Us a [certain] knowledge.",
+   "glosses": [
+    {
+     "w0": 2,
+     "w1": 4,
+     "chip": "عَبْدًۭا مِّنْ عِبَادِنَآ",
+     "excerpt": "فوجدا هناك عبدًا صالحًا",
+     "source": "التفسير الميسر",
+     "target": "khidr",
+     "tone": "green",
+     "start": 3.4,
+     "end": 7.2700000000000005
+    },
+    {
+     "w0": 5,
+     "w1": 8,
+     "chip": "ءَاتَيْنَـٰهُ رَحْمَةًۭ مِّنْ عِندِنَا",
+     "excerpt": "أعطاه الله رحمة خاصة بها زاد علمه وحسن عمله",
+     "source": "تفسير السعدي",
+     "target": "khidr",
+     "tone": "green",
+     "start": 7.32,
+     "end": 17.88
+    }
+   ],
+   "end": 17.98
+  },
+  {
+   "n": 66,
+   "key": "18:66",
+   "num_ar": "٦٦",
+   "words": [
+    {
+     "pos": 1,
+     "text": "قَالَ"
+    },
+    {
+     "pos": 2,
+     "text": "لَهُۥ"
+    },
+    {
+     "pos": 3,
+     "text": "مُوسَىٰ"
+    },
+    {
+     "pos": 4,
+     "text": "هَلْ"
+    },
+    {
+     "pos": 5,
+     "text": "أَتَّبِعُكَ"
+    },
+    {
+     "pos": 6,
+     "text": "عَلَىٰٓ"
+    },
+    {
+     "pos": 7,
+     "text": "أَن"
+    },
+    {
+     "pos": 8,
+     "text": "تُعَلِّمَنِ"
+    },
+    {
+     "pos": 9,
+     "text": "مِمَّا"
+    },
+    {
+     "pos": 10,
+     "text": "عُلِّمْتَ"
+    },
+    {
+     "pos": 11,
+     "text": "رُشْدًۭا"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     17.98,
+     19.35
+    ],
+    [
+     2,
+     19.35,
+     19.9
+    ],
+    [
+     3,
+     19.9,
+     20.65
+    ],
+    [
+     4,
+     20.65,
+     21.02
+    ],
+    [
+     5,
+     21.02,
+     22.08
+    ],
+    [
+     6,
+     22.14,
+     23.85
+    ],
+    [
+     7,
+     23.85,
+     24.9
+    ],
+    [
+     8,
+     24.9,
+     26.56
+    ],
+    [
+     9,
+     26.56,
+     26.89
+    ],
+    [
+     10,
+     26.89,
+     27.59
+    ],
+    [
+     11,
+     27.59,
+     28.76
+    ]
+   ],
+   "start": 17.98,
+   "first_word": 17.98,
+   "last_word": 28.76,
+   "translation": "Moses said to him, \"May I follow you on [the condition] that you teach me from what you have been taught of sound judgement?\"",
+   "glosses": [
+    {
+     "w0": 4,
+     "w1": 5,
+     "chip": "هَلْ أَتَّبِعُكَ",
+     "excerpt": "أتأذن لي أن أتبعك",
+     "source": "التفسير الميسر",
+     "target": "musa",
+     "tone": "blue",
+     "start": 20.65,
+     "end": 28.9
+    }
+   ],
+   "end": 29.0
+  },
+  {
+   "n": 67,
+   "key": "18:67",
+   "num_ar": "٦٧",
+   "words": [
+    {
+     "pos": 1,
+     "text": "قَالَ"
+    },
+    {
+     "pos": 2,
+     "text": "إِنَّكَ"
+    },
+    {
+     "pos": 3,
+     "text": "لَن"
+    },
+    {
+     "pos": 4,
+     "text": "تَسْتَطِيعَ"
+    },
+    {
+     "pos": 5,
+     "text": "مَعِىَ"
+    },
+    {
+     "pos": 6,
+     "text": "صَبْرًۭا"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     29.0,
+     29.45
+    ],
+    [
+     2,
+     29.45,
+     30.39
+    ],
+    [
+     3,
+     30.45,
+     31.89
+    ],
+    [
+     4,
+     31.89,
+     32.98
+    ],
+    [
+     5,
+     32.98,
+     33.54
+    ],
+    [
+     6,
+     33.54,
+     34.48
+    ]
+   ],
+   "start": 29.0,
+   "first_word": 29.0,
+   "last_word": 34.48,
+   "translation": "He said, \"Indeed, with me you will never be able to have patience.",
+   "glosses": [
+    {
+     "w0": 4,
+     "w1": 6,
+     "chip": "تَسْتَطِيعَ مَعِىَ صَبْرًۭا",
+     "excerpt": "لأنك ترى ما لا تقدر على الصبر عليه",
+     "source": "تفسير السعدي",
+     "target": "khidr",
+     "tone": "amber",
+     "start": 31.89,
+     "end": 34.53
+    }
+   ],
+   "end": 34.63
+  },
+  {
+   "n": 68,
+   "key": "18:68",
+   "num_ar": "٦٨",
+   "words": [
+    {
+     "pos": 1,
+     "text": "وَكَيْفَ"
+    },
+    {
+     "pos": 2,
+     "text": "تَصْبِرُ"
+    },
+    {
+     "pos": 3,
+     "text": "عَلَىٰ"
+    },
+    {
+     "pos": 4,
+     "text": "مَا"
+    },
+    {
+     "pos": 5,
+     "text": "لَمْ"
+    },
+    {
+     "pos": 6,
+     "text": "تُحِطْ"
+    },
+    {
+     "pos": 7,
+     "text": "بِهِۦ"
+    },
+    {
+     "pos": 8,
+     "text": "خُبْرًۭا"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     34.63,
+     35.42
+    ],
+    [
+     2,
+     35.42,
+     36.14
+    ],
+    [
+     3,
+     36.14,
+     36.66
+    ],
+    [
+     4,
+     36.66,
+     37.03
+    ],
+    [
+     5,
+     37.03,
+     37.35
+    ],
+    [
+     6,
+     37.35,
+     38.04
+    ],
+    [
+     7,
+     38.04,
+     38.55
+    ],
+    [
+     8,
+     38.55,
+     39.52
+    ]
+   ],
+   "start": 34.63,
+   "first_word": 34.63,
+   "last_word": 39.52,
+   "translation": "And how can you have patience for what you do not encompass in knowledge?\"",
+   "glosses": [
+    {
+     "w0": 6,
+     "w1": 8,
+     "chip": "تُحِطْ بِهِۦ خُبْرًۭا",
+     "excerpt": "من أمور تخفى عليك",
+     "source": "التفسير الميسر",
+     "target": "musa",
+     "tone": "blue",
+     "start": 37.35,
+     "end": 39.559999999999995
+    }
+   ],
+   "end": 39.66
+  },
+  {
+   "n": 69,
+   "key": "18:69",
+   "num_ar": "٦٩",
+   "words": [
+    {
+     "pos": 1,
+     "text": "قَالَ"
+    },
+    {
+     "pos": 2,
+     "text": "سَتَجِدُنِىٓ"
+    },
+    {
+     "pos": 3,
+     "text": "إِن"
+    },
+    {
+     "pos": 4,
+     "text": "شَآءَ"
+    },
+    {
+     "pos": 5,
+     "text": "ٱللَّهُ"
+    },
+    {
+     "pos": 6,
+     "text": "صَابِرًۭا"
+    },
+    {
+     "pos": 7,
+     "text": "وَلَآ"
+    },
+    {
+     "pos": 8,
+     "text": "أَعْصِى"
+    },
+    {
+     "pos": 9,
+     "text": "لَكَ"
+    },
+    {
+     "pos": 10,
+     "text": "أَمْرًۭا"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     39.66,
+     40.13
+    ],
+    [
+     2,
+     40.13,
+     42.67
+    ],
+    [
+     3,
+     42.67,
+     43.36
+    ],
+    [
+     4,
+     43.36,
+     45.17
+    ],
+    [
+     5,
+     45.23,
+     45.86
+    ],
+    [
+     6,
+     45.86,
+     47.38
+    ],
+    [
+     7,
+     47.38,
+     49.04
+    ],
+    [
+     8,
+     49.04,
+     49.67
+    ],
+    [
+     9,
+     49.75,
+     50.09
+    ],
+    [
+     10,
+     50.13,
+     51.06
+    ]
+   ],
+   "start": 39.66,
+   "first_word": 39.66,
+   "last_word": 51.06,
+   "translation": "[Moses] said, \"You will find me, if Allāh wills, patient, and I will not disobey you in [any] order.\"",
+   "glosses": [
+    {
+     "w0": 6,
+     "w1": 6,
+     "chip": "صَابِرًۭا",
+     "excerpt": "والعزم شيء، ووجود الصبر شيء آخر",
+     "source": "تفسير السعدي",
+     "target": "musa",
+     "tone": "amber",
+     "start": 45.86,
+     "end": 51.36
+    }
+   ],
+   "end": 51.46
+  },
+  {
+   "n": 70,
+   "key": "18:70",
+   "num_ar": "٧٠",
+   "words": [
+    {
+     "pos": 1,
+     "text": "قَالَ"
+    },
+    {
+     "pos": 2,
+     "text": "فَإِنِ"
+    },
+    {
+     "pos": 3,
+     "text": "ٱتَّبَعْتَنِى"
+    },
+    {
+     "pos": 4,
+     "text": "فَلَا"
+    },
+    {
+     "pos": 5,
+     "text": "تَسْـَٔلْنِى"
+    },
+    {
+     "pos": 6,
+     "text": "عَن"
+    },
+    {
+     "pos": 7,
+     "text": "شَىْءٍ"
+    },
+    {
+     "pos": 8,
+     "text": "حَتَّىٰٓ"
+    },
+    {
+     "pos": 9,
+     "text": "أُحْدِثَ"
+    },
+    {
+     "pos": 10,
+     "text": "لَكَ"
+    },
+    {
+     "pos": 11,
+     "text": "مِنْهُ"
+    },
+    {
+     "pos": 12,
+     "text": "ذِكْرًۭا"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     51.46,
+     51.93
+    ],
+    [
+     2,
+     51.93,
+     52.45
+    ],
+    [
+     3,
+     52.45,
+     53.73
+    ],
+    [
+     4,
+     53.73,
+     54.29
+    ],
+    [
+     5,
+     54.29,
+     55.37
+    ],
+    [
+     6,
+     55.37,
+     56.03
+    ],
+    [
+     7,
+     56.03,
+     56.71
+    ],
+    [
+     8,
+     56.71,
+     57.47
+    ],
+    [
+     9,
+     57.47,
+     59.28
+    ],
+    [
+     10,
+     59.28,
+     59.6
+    ],
+    [
+     11,
+     59.68,
+     60.29
+    ],
+    [
+     12,
+     60.29,
+     61.2
+    ]
+   ],
+   "start": 51.46,
+   "first_word": 51.46,
+   "last_word": 61.2,
+   "translation": "He said, \"Then if you follow me, do not ask me about anything until I make to you about it mention [i.e., explanation].\"",
+   "glosses": [
+    {
+     "w0": 8,
+     "w1": 12,
+     "chip": "حَتَّىٰٓ أُحْدِثَ لَكَ مِنْهُ ذِكْرًۭا",
+     "excerpt": "حتى أبيِّن لك من أمره ما خفي عليك",
+     "source": "التفسير الميسر",
+     "target": "khidr",
+     "tone": "blue",
+     "start": 56.71,
+     "end": 61.699999999999996
+    }
+   ],
+   "end": 61.8
+  }
+ ],
+ "audio": {
+  "slice_start": 1163.9,
+  "slice_end": 1222.7,
+  "file": "audio_master.wav"
+ },
+ "timing_corrections": [],
+ "timing_flags": [],
+ "aligned_boundaries": [
+  {
+   "kind": "inside",
+   "after": 66,
+   "gap_s": [
+    1189.74,
+    1189.79
+   ],
+   "pause_s": [
+    1190.26,
+    1190.5
+   ],
+   "shift_s": 0.615,
+   "pause_db": -30.0,
+   "video_t": 29.0
+  },
+  {
+   "kind": "inside",
+   "after": 68,
+   "gap_s": [
+    1200.57,
+    1200.62
+   ],
+   "pause_s": [
+    1201.02,
+    1201.16
+   ],
+   "shift_s": 0.495,
+   "pause_db": -30.0,
+   "video_t": 39.66
+  },
+  {
+   "kind": "inside",
+   "after": 69,
+   "gap_s": [
+    1212.26,
+    1212.37
+   ],
+   "pause_s": [
+    1212.56,
+    1212.96
+   ],
+   "shift_s": 0.445,
+   "pause_db": -30.0,
+   "video_t": 51.46
+  }
+ ]
+}

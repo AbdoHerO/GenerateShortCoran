@@ -1,0 +1,1063 @@
+{
+ "meta": {
+  "source": "public",
+  "base": "https://api.quran.com/api/v4",
+  "fetched_at": "2026-11-19T22:15:31Z",
+  "chapter": 18,
+  "from": 82,
+  "to": 82,
+  "recitation_id": 97,
+  "translation_id": 20,
+  "tafsir_ids": [
+   16,
+   91
+  ]
+ },
+ "chapter": {
+  "id": 18,
+  "revelation_place": "makkah",
+  "revelation_order": 69,
+  "bismillah_pre": true,
+  "name_simple": "Al-Kahf",
+  "name_complex": "Al-Kahf",
+  "name_arabic": "الكهف",
+  "verses_count": 110,
+  "pages": [
+   293,
+   304
+  ],
+  "translated_name": {
+   "language_name": "english",
+   "name": "The Cave"
+  }
+ },
+ "chapter_en": {
+  "id": 18,
+  "revelation_place": "makkah",
+  "revelation_order": 69,
+  "bismillah_pre": true,
+  "name_simple": "Al-Kahf",
+  "name_complex": "Al-Kahf",
+  "name_arabic": "الكهف",
+  "verses_count": 110,
+  "pages": [
+   293,
+   304
+  ],
+  "translated_name": {
+   "language_name": "english",
+   "name": "The Cave"
+  }
+ },
+ "translation_resource": {
+  "id": 20,
+  "name": "Saheeh International",
+  "author_name": "Saheeh International",
+  "slug": "en-sahih-international",
+  "language_name": "english",
+  "translated_name": {
+   "name": "Saheeh International",
+   "language_name": "english"
+  }
+ },
+ "tafsir_resources": [
+  {
+   "id": 16,
+   "name": "Tafsir Muyassar",
+   "author_name": "المیسر",
+   "slug": "ar-tafsir-muyassar",
+   "language_name": "arabic",
+   "translated_name": {
+    "name": "Tafsir Muyassar",
+    "language_name": "english"
+   }
+  },
+  {
+   "id": 91,
+   "name": "السعدي Al-Sa'di",
+   "author_name": "Saddi",
+   "slug": "ar-tafseer-al-saddi",
+   "language_name": "arabic",
+   "translated_name": {
+    "name": "السعدي Al-Sa'di",
+    "language_name": "english"
+   }
+  }
+ ],
+ "verses": [
+  {
+   "id": 2222,
+   "verse_number": 82,
+   "verse_key": "18:82",
+   "hizb_number": 31,
+   "rub_el_hizb_number": 121,
+   "ruku_number": 261,
+   "manzil_number": 4,
+   "sajdah_number": null,
+   "text_uthmani": "وَأَمَّا ٱلْجِدَارُ فَكَانَ لِغُلَـٰمَيْنِ يَتِيمَيْنِ فِى ٱلْمَدِينَةِ وَكَانَ تَحْتَهُۥ كَنزٌ لَّهُمَا وَكَانَ أَبُوهُمَا صَـٰلِحًا فَأَرَادَ رَبُّكَ أَن يَبْلُغَآ أَشُدَّهُمَا وَيَسْتَخْرِجَا كَنزَهُمَا رَحْمَةً مِّن رَّبِّكَ ۚ وَمَا فَعَلْتُهُۥ عَنْ أَمْرِى ۚ ذَٰلِكَ تَأْوِيلُ مَا لَمْ تَسْطِع عَّلَيْهِ صَبْرًا",
+   "text_imlaei": "وَأَمَّا الْجِدَارُ فَكَانَ لِغُلَامَيْنِ يَتِيمَيْنِ فِي الْمَدِينَةِ وَكَانَ تَحْتَهُ كَنزٌ لَّهُمَا وَكَانَ أَبُوهُمَا صَالِحًا فَأَرَادَ رَبُّكَ أَن يَبْلُغَا أَشُدَّهُمَا وَيَسْتَخْرِجَا كَنزَهُمَا رَحْمَةً مِّن رَّبِّكَ ۚ وَمَا فَعَلْتُهُ عَنْ أَمْرِي ۚ ذَٰلِكَ تَأْوِيلُ مَا لَمْ تَسْطِع عَّلَيْهِ صَبْرًا",
+   "page_number": 302,
+   "juz_number": 16,
+   "words": [
+    {
+     "id": 64977,
+     "position": 1,
+     "audio_url": "wbw/018_082_001.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "وَأَمَّا",
+     "location": "18:82:1",
+     "page_number": 302,
+     "line_number": 11,
+     "text": "وَأَمَّا",
+     "translation": {
+      "text": "And as for",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "wa-ammā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 64978,
+     "position": 2,
+     "audio_url": "wbw/018_082_002.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "ٱلْجِدَارُ",
+     "location": "18:82:2",
+     "page_number": 302,
+     "line_number": 11,
+     "text": "ٱلْجِدَارُ",
+     "translation": {
+      "text": "the wall",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "l-jidāru",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 64979,
+     "position": 3,
+     "audio_url": "wbw/018_082_003.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "فَكَانَ",
+     "location": "18:82:3",
+     "page_number": 302,
+     "line_number": 11,
+     "text": "فَكَانَ",
+     "translation": {
+      "text": "it was",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "fakāna",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 64980,
+     "position": 4,
+     "audio_url": "wbw/018_082_004.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "لِغُلَـٰمَيْنِ",
+     "location": "18:82:4",
+     "page_number": 302,
+     "line_number": 11,
+     "text": "لِغُلَـٰمَيْنِ",
+     "translation": {
+      "text": "for two orphan boys",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "lighulāmayni",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 64981,
+     "position": 5,
+     "audio_url": "wbw/018_082_005.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "يَتِيمَيْنِ",
+     "location": "18:82:5",
+     "page_number": 302,
+     "line_number": 11,
+     "text": "يَتِيمَيْنِ",
+     "translation": {
+      "text": "for two orphan boys",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "yatīmayni",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 64982,
+     "position": 6,
+     "audio_url": "wbw/018_082_006.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "فِى",
+     "location": "18:82:6",
+     "page_number": 302,
+     "line_number": 11,
+     "text": "فِى",
+     "translation": {
+      "text": "in",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "fī",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 64983,
+     "position": 7,
+     "audio_url": "wbw/018_082_007.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "ٱلْمَدِينَةِ",
+     "location": "18:82:7",
+     "page_number": 302,
+     "line_number": 11,
+     "text": "ٱلْمَدِينَةِ",
+     "translation": {
+      "text": "the town",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "l-madīnati",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 64984,
+     "position": 8,
+     "audio_url": "wbw/018_082_008.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "وَكَانَ",
+     "location": "18:82:8",
+     "page_number": 302,
+     "line_number": 11,
+     "text": "وَكَانَ",
+     "translation": {
+      "text": "and was",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "wakāna",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 64985,
+     "position": 9,
+     "audio_url": "wbw/018_082_009.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "تَحْتَهُۥ",
+     "location": "18:82:9",
+     "page_number": 302,
+     "line_number": 12,
+     "text": "تَحْتَهُۥ",
+     "translation": {
+      "text": "underneath it",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "taḥtahu",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 64986,
+     "position": 10,
+     "audio_url": "wbw/018_082_010.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "كَنزٌۭ",
+     "location": "18:82:10",
+     "page_number": 302,
+     "line_number": 12,
+     "text": "كَنزٌۭ",
+     "translation": {
+      "text": "a treasure",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "kanzun",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 64987,
+     "position": 11,
+     "audio_url": "wbw/018_082_011.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "لَّهُمَا",
+     "location": "18:82:11",
+     "page_number": 302,
+     "line_number": 12,
+     "text": "لَّهُمَا",
+     "translation": {
+      "text": "for them",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "lahumā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 64988,
+     "position": 12,
+     "audio_url": "wbw/018_082_012.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "وَكَانَ",
+     "location": "18:82:12",
+     "page_number": 302,
+     "line_number": 12,
+     "text": "وَكَانَ",
+     "translation": {
+      "text": "and was",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "wakāna",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 64989,
+     "position": 13,
+     "audio_url": "wbw/018_082_013.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "أَبُوهُمَا",
+     "location": "18:82:13",
+     "page_number": 302,
+     "line_number": 12,
+     "text": "أَبُوهُمَا",
+     "translation": {
+      "text": "their father",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "abūhumā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 64990,
+     "position": 14,
+     "audio_url": "wbw/018_082_014.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "صَـٰلِحًۭا",
+     "location": "18:82:14",
+     "page_number": 302,
+     "line_number": 12,
+     "text": "صَـٰلِحًۭا",
+     "translation": {
+      "text": "righteous",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "ṣāliḥan",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 64991,
+     "position": 15,
+     "audio_url": "wbw/018_082_015.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "فَأَرَادَ",
+     "location": "18:82:15",
+     "page_number": 302,
+     "line_number": 12,
+     "text": "فَأَرَادَ",
+     "translation": {
+      "text": "So intended",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "fa-arāda",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 64992,
+     "position": 16,
+     "audio_url": "wbw/018_082_016.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "رَبُّكَ",
+     "location": "18:82:16",
+     "page_number": 302,
+     "line_number": 12,
+     "text": "رَبُّكَ",
+     "translation": {
+      "text": "your Lord",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "rabbuka",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 64993,
+     "position": 17,
+     "audio_url": "wbw/018_082_017.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "أَن",
+     "location": "18:82:17",
+     "page_number": 302,
+     "line_number": 12,
+     "text": "أَن",
+     "translation": {
+      "text": "that",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "an",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 64994,
+     "position": 18,
+     "audio_url": "wbw/018_082_018.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "يَبْلُغَآ",
+     "location": "18:82:18",
+     "page_number": 302,
+     "line_number": 12,
+     "text": "يَبْلُغَآ",
+     "translation": {
+      "text": "they reach",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "yablughā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 64995,
+     "position": 19,
+     "audio_url": "wbw/018_082_019.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "أَشُدَّهُمَا",
+     "location": "18:82:19",
+     "page_number": 302,
+     "line_number": 13,
+     "text": "أَشُدَّهُمَا",
+     "translation": {
+      "text": "their maturity",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "ashuddahumā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 64996,
+     "position": 20,
+     "audio_url": "wbw/018_082_020.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "وَيَسْتَخْرِجَا",
+     "location": "18:82:20",
+     "page_number": 302,
+     "line_number": 13,
+     "text": "وَيَسْتَخْرِجَا",
+     "translation": {
+      "text": "and bring forth",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "wayastakhrijā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 64997,
+     "position": 21,
+     "audio_url": "wbw/018_082_021.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "كَنزَهُمَا",
+     "location": "18:82:21",
+     "page_number": 302,
+     "line_number": 13,
+     "text": "كَنزَهُمَا",
+     "translation": {
+      "text": "their treasure",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "kanzahumā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 64998,
+     "position": 22,
+     "audio_url": "wbw/018_082_022.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "رَحْمَةًۭ",
+     "location": "18:82:22",
+     "page_number": 302,
+     "line_number": 13,
+     "text": "رَحْمَةًۭ",
+     "translation": {
+      "text": "(as) a mercy",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "raḥmatan",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 64999,
+     "position": 23,
+     "audio_url": "wbw/018_082_023.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "مِّن",
+     "location": "18:82:23",
+     "page_number": 302,
+     "line_number": 13,
+     "text": "مِّن",
+     "translation": {
+      "text": "from",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "min",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 65000,
+     "position": 24,
+     "audio_url": "wbw/018_082_024.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "رَّبِّكَ ۚ",
+     "location": "18:82:24",
+     "page_number": 302,
+     "line_number": 13,
+     "text": "رَّبِّكَ ۚ",
+     "translation": {
+      "text": "your Lord",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "rabbika",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 65002,
+     "position": 25,
+     "audio_url": "wbw/018_082_026.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "وَمَا",
+     "location": "18:82:25",
+     "page_number": 302,
+     "line_number": 13,
+     "text": "وَمَا",
+     "translation": {
+      "text": "And not",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "wamā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 65003,
+     "position": 26,
+     "audio_url": "wbw/018_082_027.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "فَعَلْتُهُۥ",
+     "location": "18:82:26",
+     "page_number": 302,
+     "line_number": 13,
+     "text": "فَعَلْتُهُۥ",
+     "translation": {
+      "text": "I did it",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "faʿaltuhu",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 65004,
+     "position": 27,
+     "audio_url": "wbw/018_082_028.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "عَنْ",
+     "location": "18:82:27",
+     "page_number": 302,
+     "line_number": 14,
+     "text": "عَنْ",
+     "translation": {
+      "text": "on",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "ʿan",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 65005,
+     "position": 28,
+     "audio_url": "wbw/018_082_029.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "أَمْرِى ۚ",
+     "location": "18:82:28",
+     "page_number": 302,
+     "line_number": 14,
+     "text": "أَمْرِى ۚ",
+     "translation": {
+      "text": "my (own) accord",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "amrī",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 65007,
+     "position": 29,
+     "audio_url": "wbw/018_082_031.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "ذَٰلِكَ",
+     "location": "18:82:29",
+     "page_number": 302,
+     "line_number": 14,
+     "text": "ذَٰلِكَ",
+     "translation": {
+      "text": "That",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "dhālika",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 65008,
+     "position": 30,
+     "audio_url": "wbw/018_082_032.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "تَأْوِيلُ",
+     "location": "18:82:30",
+     "page_number": 302,
+     "line_number": 14,
+     "text": "تَأْوِيلُ",
+     "translation": {
+      "text": "(is the) interpretation",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "tawīlu",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 65009,
+     "position": 31,
+     "audio_url": "wbw/018_082_033.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "مَا",
+     "location": "18:82:31",
+     "page_number": 302,
+     "line_number": 14,
+     "text": "مَا",
+     "translation": {
+      "text": "(of) what",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "mā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 65010,
+     "position": 32,
+     "audio_url": "wbw/018_082_034.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "لَمْ",
+     "location": "18:82:32",
+     "page_number": 302,
+     "line_number": 14,
+     "text": "لَمْ",
+     "translation": {
+      "text": "not",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "lam",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 65011,
+     "position": 33,
+     "audio_url": "wbw/018_082_035.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "تَسْطِع",
+     "location": "18:82:33",
+     "page_number": 302,
+     "line_number": 14,
+     "text": "تَسْطِع",
+     "translation": {
+      "text": "you were able",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "tasṭiʿ",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 65012,
+     "position": 34,
+     "audio_url": "wbw/018_082_036.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "عَّلَيْهِ",
+     "location": "18:82:34",
+     "page_number": 302,
+     "line_number": 14,
+     "text": "عَّلَيْهِ",
+     "translation": {
+      "text": "on it",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "ʿalayhi",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 65013,
+     "position": 35,
+     "audio_url": "wbw/018_082_037.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "صَبْرًۭا",
+     "location": "18:82:35",
+     "page_number": 302,
+     "line_number": 14,
+     "text": "صَبْرًۭا",
+     "translation": {
+      "text": "(to have) patience",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "ṣabran",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 65014,
+     "position": 36,
+     "audio_url": null,
+     "char_type_name": "end",
+     "text_uthmani": "٨٢",
+     "location": "18:82:36",
+     "page_number": 302,
+     "line_number": 14,
+     "text": "٨٢",
+     "translation": {
+      "text": "(82)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": null,
+      "language_name": "english"
+     }
+    }
+   ],
+   "translations": [
+    {
+     "id": 97137,
+     "resource_id": 20,
+     "text": "And as for the wall, it belonged to two orphan boys in the city, and there was beneath it a treasure for them, and their father had been righteous. So your Lord intended that they reach maturity and extract their treasure, as a mercy from your Lord. And I did it not of my own accord. That is the interpretation of that about which you could not have patience.\""
+    }
+   ]
+  }
+ ],
+ "tafsirs": {
+  "16": {
+   "18:82": {
+    "verses": {
+     "18:82": {
+      "id": 2222
+     }
+    },
+    "resource_id": 16,
+    "resource_name": "المیسر",
+    "language_id": 9,
+    "slug": "ar-tafsir-muyassar",
+    "translated_name": {
+     "name": "Tafsir Muyassar",
+     "language_name": "english"
+    },
+    "text": "وأما الحائط الذي عدَّلتُ مَيْلَه حتى استوى فإنه كان لغلامين يتيمين في القرية التي فيها الجدار، وكان تحته كنز لهما من الذهب والفضة، وكان أبوهما رجلا صالحًا، فأراد ربك أن يكبَرا ويبلغا قوتهما، ويستخرجا كنزهما رحمة من ربك بهما، وما فعلتُ يا موسى جميع الذي رأيتَني فعلتُه عن أمري ومن تلقاء نفسي، وإنما فعلته عن أمر الله، ذلك الذي بَيَّنْتُ لك أسبابه هو عاقبة الأمور التي لم تستطع صبرًا على ترك السؤال عنها والإنكار عليَّ فيها."
+   }
+  },
+  "91": {
+   "18:82": {
+    "verses": {
+     "18:82": {
+      "id": 2222
+     }
+    },
+    "resource_id": 91,
+    "resource_name": "Arabic Saddi Tafseer",
+    "language_id": 9,
+    "slug": "ar-tafseer-al-saddi",
+    "translated_name": {
+     "name": "السعدي Al-Sa'di",
+     "language_name": "english"
+    },
+    "text": "<span class=\"ar blue\" lang=\"ar\">وأما الجدار الذي أقمته فكان لغلامين يتيمين في المدينة وكان تحته كنز لهما وكان أبوهما صالحا أي:</span> حالهما تقتضي الرأفة بهما ورحمتهما؛ لكونهما صغيرين عدما أباهما، وحفظهما الله أيضا بصلاح والدهما. <br><span class=\"blue\">فأراد ربك أن يبلغا أشدهما ويستخرجا كنزهما أي:</span> فلهذا هدمت الجدار، واستخرجت ما تحته من كنزهما، وأعدته مجانا،<span class=\"blue\"> رحمة من ربك أي:</span> هذا الذي فعلته رحمة من الله، آتاها الله عبده الخضر،<span class=\"blue\"> وما فعلته عن أمري أي:</span> ما أتيت شيئا من قبل نفسي، ومجرد إرادتي، وإنما ذلك من رحمة الله وأمره. ذلك الذي فسرته لك تأويل ما لم تسطع عليه صبرا  . وفي هذه القصة العجيبة الجليلة من الفوائد والأحكام والقواعد شيء كثير،<span class=\"blue\"> ننبه على بعضه بعون الله:</span> فمنها: فضيلة العلم، والرحلة في طلبه، وأنه أهم الأمور، فإن موسى عليه السلام رحل مسافة طويلة، ولقي النصب في طلبه، وترك القعود عند بني إسرائيل لتعليمهم وإرشادهم، واختار السفر؛ لزيادة العلم على ذلك. <br><span class=\"blue\">ومنها:</span> البداءة بالأهم فالأهم، فإن زيادة العلم وعلم الإنسان أهم من ترك ذلك، والاشتغال بالتعليم من دون تزود من العلم، والجمع بين الأمرين أكمل. <br><span class=\"blue\"> ومنها:</span> جواز أخذ الخادم في الحضر والسفر؛ لكفاية المؤن، وطلب الراحة، كما فعل موسى. <br><span class=\"blue\">ومنها:</span> أن المسافر لطلب علم أو جهاد أو نحوه إذا اقتضت المصلحة الإخبار بمطلبه، وأين يريده، فإنه أكمل من كتمه، فإن في إظهاره فوائد من الاستعداد له عدته، وإتيان الأمر على بصيرة، وإظهارا لشرف هذه العبادة الجليلة،<span class=\"blue\"> كما قال موسى:</span> لا أبرح حتى أبلغ مجمع البحرين أو أمضي حقبا ، وكما أخبر النبي صلى الله عليه وسلم أصحابه حين غزا تبوك بوجهه، مع أن عادته التورية، وذلك تبع للمصلحة. <br><span class=\"blue\">ومنها:</span> إضافة الشر وأسبابه إلى الشيطان، على وجه التسويل والتزيين، وإن كان الكل بقضاء الله وقدره،<span class=\"blue\"> لقول فتى موسى:</span> وما أنسانيه إلا الشيطان أن أذكره . <br><span class=\"blue\">ومنها:</span> جواز إخبار الإنسان عما هو من مقتضى طبيعة النفس، من نصب أو جوع، أو عطش، إذا لم يكن على وجه التسخط وكان صدقا،<span class=\"blue\"> لقول موسى:</span> لقد لقينا من سفرنا هذا نصبا . <br><span class=\"blue\">ومنها:</span> استحباب كون خادم الإنسان ذكيا فطنا كيسا؛ ليتم له أمره الذي يريده. <br><span class=\"blue\">ومنها:</span> استحباب إطعام الإنسان خادمه من مأكله، وأكلهما جميعا؛<span class=\"blue\"> لأن ظاهر قوله:</span> آتنا غداءنا إضافة إلى الجميع، وأنه أكل هو وهو جميعا. <br><span class=\"blue\">ومنها:</span> أن المعونة تنزل على العبد على حسب قيامه بالمأمور به، وأن الموافق لأمر الله يعان ما لا يعان غيره؛<span class=\"blue\"> لقوله:</span> لقد لقينا من سفرنا هذا نصبا ، والإشارة إلى السفر المجاوز لمجمع البحرين،<span class=\"blue\"> وأما الأول:</span> فلم يشتك منه التعب مع طوله؛ لأنه هو السفر على الحقيقة.<span class=\"blue\"> وأما الأخير:</span> فالظاهر أنه بعض يوم؛ لأنهم فقدوا الحوت حين أووا إلى الصخرة، فالظاهر أنهم باتوا عندها، ثم ساروا من الغد، حتى إذا جاء وقت الغداء قال موسى لفتاه آتنا غداءنا فحينئذ تذكر أنه نسيه في الموضع الذي إليه منتهى قصده. <br><span class=\"blue\">ومنها:</span> أن ذلك العبد الذي لقياه، ليس نبيا، بل عبدا صالحا؛ لأنه وصفه بالعبودية، وذكر منة الله عليه بالرحمة والعلم، ولم يذكر رسالته ولا نبوته، ولو كان نبيا لذكر ذلك كما ذكره غيره. <br><span class=\"blue\">وأما قوله في آخر القصة:</span> وما فعلته عن أمري فإنه لا يدل على أنه نبي وإنما يدل على الإلهام والتحديث، كما يكون غير الأنبياء، كما قال تعالى وأوحينا إلى أم موسى أن أرضعيه ، وأوحى ربك إلى النحل أن اتخذي من الجبال بيوتا . <br><span class=\"blue\">ومنها:</span> أن العلم الذي يعلمه الله لعباده نوعان: <br>علم مكتسب يدركه العبد بجده واجتهاده،<span class=\"blue\"> ونوع:</span> علم لدني، يهبه الله لمن يمن عليه من عباده لقوله وعلمناه من لدنا علما . <br><span class=\"blue\">ومنها:</span> التأدب مع المعلم، وخطاب المتعلم إياه ألطف خطاب؛<span class=\"blue\"> لقول موسى عليه السلام:</span> هل أتبعك على أن تعلمني مما علمت رشدا فأخرج الكلام بصورة الملاطفة والمشاورة، وأنك هل تأذن لي في ذلك أم لا؟ وإقراره بأنه يتعلم منه، بخلاف ما عليه أهل الجفاء أو الكبر الذي لا يظهر للمعلم افتقاره إلى علمه، بل يدعي أنه يتعاون هو وإياه، بل ربما ظن أنه يعلم معلمه، وهو جاهل جدا، فالذل للمعلم وإظهار الحاجة إلى تعليمه من أنفع شيء للمتعلم. <br><span class=\"blue\">ومنها:</span> تواضع الفاضل للتعلم ممن دونه، فإن موسى -بلا شك- أفضل من الخضر. <br><span class=\"blue\">ومنها:</span> تعلم العالم الفاضل للعلم الذي لم يتمهر فيه، ممن مهر فيه، وإن كان دونه في العلم بدرجات كثيرة. <br>فإن موسى عليه السلام من أولي العزم من المرسلين، الذين منحهم الله وأعطاهم من العلم ما لم يعط سواهم، ولكن في هذا العلم الخاص كان عند الخضر ما ليس عنده، فلهذا حرص على التعلم منه. <br>فعلى هذا، لا ينبغي للفقيه المحدث، إذا كان قاصرا في علم النحو أو الصرف أو نحوه من العلوم أن لا يتعلمه ممن مهر فيه، وإن لم يكن محدثا ولا فقيها. <br><span class=\"blue\">ومنها:</span> إضافة العلم وغيره من الفضائل لله تعالى، والإقرار بذلك،<span class=\"blue\"> وشكر الله عليها لقوله:</span> تعلمني مما علمت أي: مما علمك الله تعالى. <br><span class=\"blue\">ومنها:</span> أن العلم النافع هو العلم المرشد إلى الخير، فكل علم يكون فيه رشد وهداية لطرق الخير وتحذير عن طريق الشر، أو وسيلة لذلك، فإنه من العلم النافع، وما سوى ذلك، فإما أن يكون ضارا،<span class=\"blue\"> أو ليس فيه فائدة لقوله:</span> أن تعلمني مما علمت رشدا . <br><br><span class=\"blue\">ومنها:</span> أن من ليس له قوة الصبر على صحبة العالم والعلم، وحسن الثبات  على ذلك، أنه يفوته بحسب عدم صبره كثير من العلم، فمن لا صبر له لا يدرك العلم، ومن استعمل الصبر ولازمه أدرك به كل أمر سعى فيه؛ لقول الخضر - يعتذر من موسى بذكر المانع لموسى في الأخذ عنه - إنه لا يصبر معه. <br><span class=\"blue\">ومنها:</span> أن السبب الكبير لحصول الصبر إحاطة الإنسان علما وخبرة بذلك الأمر، الذي أمر بالصبر عليه،<span class=\"ar blue\" lang=\"ar\"> وإلا فالذي لا يدريه أو لا يدري غايته ولا نتيجته ولا فائدته وثمرته ليس عنده سبب الصبر لقوله:</span> وكيف تصبر على ما لم تحط به خبرا فجعل الموجب لعدم صبره عدم إحاطته خبرا بالأمر.<br><span class=\"blue\">ومنها:</span> الأمر بالتأني والتثبت وعدم المبادرة إلى الحكم على الشيء حتى يعرف ما يراد منه وما هو المقصود. <br><span class=\"blue\">ومنها:</span> تعليق الأمور المستقبلية التي من أفعال العباد بالمشيئة،<span class=\"blue\"> وأن لا يقول الإنسان للشيء:</span> إني فاعل ذلك في المستقبل، إلا أن يقول إن شاء الله. <br><span class=\"blue\">ومنها:</span> أن العزم على فعل الشيء ليس بمنزلة فعله،<span class=\"blue\"> فإن موسى قال:</span> ستجدني إن شاء الله صابرا فوطن نفسه على الصبر ولم يفعل. <br><span class=\"blue\">ومنها:</span> أن المعلم إذا رأى المصلحة في إيزاعه للمتعلم أن يترك الابتداء في السؤال عن بعض الأشياء حتى يكون المعلم هو الذي يوقفه عليها، فإن المصلحة تتبع، كما إذا كان فهمه قاصرا، أو نهاه عن الدقيق في سؤال الأشياء التي غيرها أهم منها، أو لا يدركها ذهنه، أو يسأل سؤالا لا يتعلق في موضع البحث. <br><span class=\"blue\">ومنها:</span> جواز ركوب البحر في غير الحالة التي يخاف منها. <br><span class=\"blue\">ومنها:</span> أن الناسي غير مؤاخذ بنسيانه لا في حق الله، ولا في حقوق العباد؛<span class=\"blue\"> لقوله:</span> لا تؤاخذني بما نسيت . <br><span class=\"blue\">ومنها:</span> أنه ينبغي للإنسان أن يأخذ من أخلاق الناس ومعاملاتهم العفو منها، وما سمحت به أنفسهم، ولا ينبغي له أن يكلفهم ما لا يطيقون، أو يشق عليهم ويرهقهم، فإن هذا مدعاة إلى النفور منه والسآمة، بل يأخذ المتيسر ليتيسر له الأمر.<span class=\"blue\"> ومنها:</span> أن الأمور تجري أحكامها على ظاهرها، وتعلق بها الأحكام الدنيوية في الأموال والدماء وغيرها، فإن موسى عليه السلام أنكر على الخضر خرقه السفينة، وقتل الغلام، وأن هذه الأمور ظاهرها أنها من المنكر، وموسى عليه السلام لا يسعه السكوت عنها في غير هذه الحال، التي صحب عليها الخضر، فاستعجل عليه السلام، وبادر إلى الحكم في حالتها العامة، ولم يلتفت إلى هذا العارض، الذي يوجب عليه الصبر، وعدم المبادرة إلى الإنكار. <br><span class=\"blue\">ومنها:</span> القاعدة الكبيرة الجليلة وهو أنه <span class=\"red\">\"يدفع الشر الكبير بارتكاب الشر الصغير\"</span> ويراعى أكبر المصلحتين بتفويت أدناهما، فإن قتل الغلام شر ولكن بقاءه حتى يفتن أبويه عن دينهما أعظم شرا منه، وبقاء الغلام من دون قتل وعصمته - وإن كان يظن أنه خير - فالخير ببقاء دين أبويه وإيمانهما خير من ذلك، فلذلك قتله الخضر، وتحت هذه القاعدة من الفروع والفوائد ما لا يدخل تحت الحصر، فتزاحم المصالح والمفاسد كلها داخل في هذا. <br><span class=\"blue\">ومنها:</span> القاعدة الكبيرة أيضا وهي أن عمل الإنسان في مال غيره - إذا كان على وجه المصلحة وإزالة المفسدة - أنه يجوز، ولو بلا إذن، حتى ولو ترتب على عمله إتلاف بعض مال الغير، كما خرق الخضر السفينة؛ لتعيب، فتسلم من غصب الملك الظالم؛ فعلى هذا لو وقع حرق أو غرق أو نحوهما في دار إنسان أو ماله، وكان إتلاف بعض المال أو هدم بعض الدار فيه سلامة للباقي جاز للإنسان بل شرع له ذلك؛ حفظا لمال الغير، وكذلك لو أراد ظالم أخذ مال الغير، ودفع إليه إنسان بعض المال؛ افتداء للباقي جاز، ولو من غير إذن. <br><span class=\"blue\">ومنها:</span> أن العمل يجوز في البحر،<span class=\"blue\"> كما يجوز في البر لقوله:</span> يعملون في البحر ولم ينكر عليهم عملهم. <br><span class=\"blue\">ومنها:</span> أن المسكين قد يكون له مال لا يبلغ كفايته، ولا يخرج بذلك عن اسم المسكنة؛ لأن الله أخبر أن هؤلاء المساكين لهم سفينة. <br><span class=\"blue\">ومنها:</span> أن القتل من أكبر الذنوب؛ لقوله في قتل الغلام لقد جئت شيئا نكرا . <br><span class=\"blue\">ومنها:</span> أن القتل قصاصا غير منكر لقوله بغير نفس . <br><span class=\"blue\">ومنها:</span> أن العبد الصالح يحفظه الله في نفسه، وفي ذريته. <br><span class=\"blue\">ومنها:</span> أن خدمة الصالحين أو من يتعلق بهم أفضل من غيرها؛ لأنه علل استخراج كنزهما وإقامة جدارهما أن أباهما صالح. <br><span class=\"blue\">ومنها:</span> استعمال الأدب مع الله تعالى في الألفاظ،<span class=\"ar blue\" lang=\"ar\"> فإن الخضر أضاف عيب السفينة إلى نفسه بقوله فأردت أن أعيبها وأما الخير فأضافه إلى الله تعالى لقوله:</span> فأراد ربك أن يبلغا أشدهما ويستخرجا كنزهما رحمة من ربك كما قال إبراهيم عليه السلام وإذا مرضت فهو يشفين وقالت الجن: وأنا لا ندري أشر أريد بمن في الأرض أم أراد بهم ربهم رشدا مع أن الكل بقضاء الله وقدره. <br><span class=\"blue\">ومنها:</span> أنه ينبغي للصاحب أن لا يفارق صاحبه في حالة من الأحوال، ويترك صحبته حتى يعتبه، ويعذر منه، كما فعل الخضر مع موسى. <br><span class=\"blue\">ومنها:</span> أن موافقة الصاحب لصاحبه في غير الأمور المحذورة مدعاة وسبب لبقاء الصحبة وتأكدها، كما أن عدم الموافقة سبب لقطع المرافقة. <br><span class=\"blue\">ومنها:</span> أن هذه القضايا التي أجراها الخضر هي قدر محض أجراها الله وجعلها على يد هذا العبد الصالح؛ ليستدل العباد بذلك على ألطافه في أقضيته، وأنه يقدر على العبد أمورا يكرهها جدا، وهي صلاح دينه، كما في قضية الغلام، أو وهي صلاح دنياه كما في قضية السفينة، فأراهم نموذجا من لطفه وكرمه؛ ليعرفوا ويرضوا غاية الرضا بأقداره الكريهة. <br>"
+   }
+  }
+ },
+ "recitation": {
+  "id": 18389,
+  "chapter_id": 18,
+  "file_size": 27904724.0,
+  "format": "mp3",
+  "audio_url": "https://download.quranicaudio.com/quran/yasser_ad-dussary//018.mp3",
+  "timestamps": [
+   {
+    "verse_key": "18:82",
+    "timestamp_from": 1365850,
+    "timestamp_to": 1400640,
+    "duration": 34790,
+    "segments": [
+     [
+      1,
+      1365850,
+      1367040
+     ],
+     [
+      2,
+      1367040,
+      1367930
+     ],
+     [
+      3,
+      1367930,
+      1368680
+     ],
+     [
+      4,
+      1368680,
+      1369850
+     ],
+     [
+      5,
+      1369890,
+      1371020
+     ],
+     [
+      6,
+      1371020,
+      1371250
+     ],
+     [
+      7,
+      1371250,
+      1372620
+     ],
+     [
+      8,
+      1372620,
+      1373370
+     ],
+     [
+      9,
+      1373370,
+      1374260
+     ],
+     [
+      10,
+      1374260,
+      1375300
+     ],
+     [
+      11,
+      1375300,
+      1376030
+     ],
+     [
+      12,
+      1376030,
+      1376790
+     ],
+     [
+      13,
+      1376790,
+      1377880
+     ],
+     [
+      14,
+      1377880,
+      1379330
+     ],
+     [
+      15,
+      1379330,
+      1380220
+     ],
+     [
+      16,
+      1380220,
+      1380880
+     ],
+     [
+      17,
+      1380920,
+      1381430
+     ],
+     [
+      18,
+      1381430,
+      1383570
+     ],
+     [
+      19,
+      1383570,
+      1384820
+     ],
+     [
+      20,
+      1384820,
+      1386260
+     ],
+     [
+      21,
+      1386260,
+      1387710
+     ],
+     [
+      22,
+      1387710,
+      1389240
+     ],
+     [
+      23,
+      1389240,
+      1389470
+     ],
+     [
+      24,
+      1389530,
+      1390750
+     ],
+     [
+      25,
+      1390750,
+      1391300
+     ],
+     [
+      26,
+      1391300,
+      1392450
+     ],
+     [
+      27,
+      1392450,
+      1392850
+     ],
+     [
+      28,
+      1392850,
+      1394210
+     ],
+     [
+      29,
+      1394210,
+      1394960
+     ],
+     [
+      30,
+      1395080,
+      1396140
+     ],
+     [
+      31,
+      1396140,
+      1396570
+     ],
+     [
+      32,
+      1396570,
+      1396940
+     ],
+     [
+      33,
+      1396940,
+      1397760
+     ],
+     [
+      34,
+      1397760,
+      1398730
+     ],
+     [
+      35,
+      1398730,
+      1400640
+     ]
+    ]
+   }
+  ],
+  "neighbors": {
+   "prev_end": 1365630,
+   "next_start": 1401580
+  },
+  "local_file": "../_audio/chapter_018_rec97.mp3"
+ },
+ "reciter_ar": {
+  "id": 97,
+  "name": "Yasser ad-Dussary",
+  "style": {
+   "name": "Murattal",
+   "language_name": "english"
+  },
+  "qirat": {
+   "name": "Hafs",
+   "language_name": "english"
+  },
+  "translated_name": {
+   "name": "Yasser ad-Dussary",
+   "language_name": "english"
+  }
+ },
+ "reciter_en": {
+  "id": 97,
+  "name": "Yasser ad-Dussary",
+  "style": {
+   "name": "Murattal",
+   "language_name": "english"
+  },
+  "qirat": {
+   "name": "Hafs",
+   "language_name": "english"
+  },
+  "translated_name": {
+   "name": "Yasser ad-Dussary",
+   "language_name": "english"
+  }
+ }
+}

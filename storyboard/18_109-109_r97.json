@@ -1,0 +1,149 @@
+{
+ "_comment": "Hand-written storyboard (Claude Code studio). Quranic text is NEVER written here: words are referenced by verse + position.",
+ "passage": {
+  "chapter": 18,
+  "from": 109,
+  "to": 109
+ },
+ "data_dir": "data/18_109-109_r97",
+ "recitation_id": 97,
+ "intro_s": 1.4,
+ "outro_s": 4.6,
+ "tafsir_labels": {
+  "16": "التفسير الميسر",
+  "91": "تفسير السعدي"
+ },
+ "tafsir_expect": {
+  "16": "Muyassar",
+  "91": "Sa'di"
+ },
+ "translation_expect": "Saheeh International",
+ "credits": {
+  "reciter_ar": "ياسر الدوسري",
+  "reciter_en": "Yasser ad-Dussary",
+  "translation_en": "Translation: Saheeh International",
+  "data_en": "Text, audio timings & tafsir: Quran Foundation (quran.com)"
+ },
+ "timing_corrections": [],
+ "chapters": [
+  {
+   "id": "c1",
+   "title": "سعة كلام الله",
+   "verses": [
+    109
+   ],
+   "scene": "ambient",
+   "params": {
+    "mood": "sea",
+    "beats": [
+     {
+      "at": [
+       109,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       109,
+       5
+      ],
+      "do": "ink_waves"
+     },
+     {
+      "at": [
+       109,
+       7
+      ],
+      "do": "light_up"
+     },
+     {
+      "at": [
+       109,
+       9
+      ],
+      "do": "waves"
+     },
+     {
+      "at": [
+       109,
+       12
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       109,
+       13
+      ],
+      "do": "light_up"
+     },
+     {
+      "at": [
+       109,
+       16
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       109,
+       18
+      ],
+      "do": "sparkle",
+      "who": "light"
+     }
+    ]
+   }
+  }
+ ],
+ "glosses": [
+  {
+   "verse": 109,
+   "words": [
+    5,
+    5
+   ],
+   "tafsir": 16,
+   "excerpt": "حبرًا للأقلام التي يكتب بها كلام الله",
+   "target": "center",
+   "tone": "blue"
+  },
+  {
+   "verse": 109,
+   "words": [
+    13,
+    13
+   ],
+   "tafsir": 91,
+   "excerpt": "كلام الله، فإنه من جملة صفاته، وصفاته غير مخلوقة",
+   "target": "light",
+   "tone": "amber"
+  },
+  {
+   "verse": 109,
+   "words": [
+    17,
+    18
+   ],
+   "tafsir": 16,
+   "excerpt": "بحارًا أخرى مددًا له",
+   "target": "center",
+   "tone": "green"
+  }
+ ],
+ "director": {
+  "mode": "hand",
+  "notes": "Reference storyboard. Calm visuals only: the sea and light; nothing is drawn for Allah's words beyond the ink-like waves."
+ },
+ "cover": {
+  "series_ar": "خاتمة السورة",
+  "series_en": "The end of the surah",
+  "title_ar": "سعة كلام الله",
+  "title_en": "The vastness of Allah's words",
+  "at": [
+   109,
+   5
+  ]
+ }
+}

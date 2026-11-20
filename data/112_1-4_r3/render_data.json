@@ -1,0 +1,257 @@
+{
+ "fps": 30,
+ "W": 1080,
+ "H": 1920,
+ "duration": 18.75,
+ "intro": 1.4,
+ "outro_start": 14.55,
+ "surah": {
+  "name_ar": "الإخلاص",
+  "name_en": "Al-Ikhlas",
+  "number": 112,
+  "from_ar": "١",
+  "to_ar": "٤",
+  "from": 1,
+  "to": 4
+ },
+ "credits": {
+  "reciter_ar": "عبد الرحمن السديس",
+  "reciter_en": "Abdur-Rahman as-Sudais",
+  "translation_en": "Translation: Saheeh International",
+  "data_en": "Text, audio timings & tafsir: Quran Foundation (quran.com)"
+ },
+ "chapters": [
+  {
+   "id": "c1",
+   "title": "توحيد الله",
+   "scene": "ambient",
+   "params": {
+    "mood": "geometric"
+   },
+   "bg": "#ece6da",
+   "verses": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "start": 0.0,
+   "end": 18.75
+  }
+ ],
+ "verses": [
+  {
+   "n": 1,
+   "key": "112:1",
+   "num_ar": "١",
+   "words": [
+    {
+     "pos": 1,
+     "text": "قُلْ"
+    },
+    {
+     "pos": 2,
+     "text": "هُوَ"
+    },
+    {
+     "pos": 3,
+     "text": "ٱللَّهُ"
+    },
+    {
+     "pos": 4,
+     "text": "أَحَدٌ"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     1.4,
+     1.75
+    ],
+    [
+     2,
+     1.75,
+     2.26
+    ],
+    [
+     3,
+     2.26,
+     3.28
+    ],
+    [
+     4,
+     3.28,
+     4.245
+    ]
+   ],
+   "start": 1.4,
+   "first_word": 1.4,
+   "last_word": 4.245,
+   "translation": "Say, \"He is Allāh, [who is] One,",
+   "glosses": [
+    {
+     "w0": 3,
+     "w1": 4,
+     "chip": "ٱللَّهُ أَحَدٌ",
+     "excerpt": "المتفرد بالألوهية والربوبية والأسماء والصفات",
+     "source": "التفسير الميسر",
+     "target": "light",
+     "tone": "green",
+     "start": 2.26,
+     "end": 4.25
+    }
+   ],
+   "end": 4.35
+  },
+  {
+   "n": 2,
+   "key": "112:2",
+   "num_ar": "٢",
+   "words": [
+    {
+     "pos": 1,
+     "text": "ٱللَّهُ"
+    },
+    {
+     "pos": 2,
+     "text": "ٱلصَّمَدُ"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     4.35,
+     5.64
+    ],
+    [
+     2,
+     5.64,
+     6.775
+    ]
+   ],
+   "start": 4.35,
+   "first_word": 4.35,
+   "last_word": 6.775,
+   "translation": "Allāh, the Eternal Refuge.",
+   "glosses": [],
+   "end": 6.91
+  },
+  {
+   "n": 3,
+   "key": "112:3",
+   "num_ar": "٣",
+   "words": [
+    {
+     "pos": 1,
+     "text": "لَمْ"
+    },
+    {
+     "pos": 2,
+     "text": "يَلِدْ"
+    },
+    {
+     "pos": 3,
+     "text": "وَلَمْ"
+    },
+    {
+     "pos": 4,
+     "text": "يُولَدْ"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     6.91,
+     7.32
+    ],
+    [
+     2,
+     7.32,
+     8.12
+    ],
+    [
+     3,
+     8.12,
+     8.64
+    ],
+    [
+     4,
+     8.64,
+     9.575
+    ]
+   ],
+   "start": 6.91,
+   "first_word": 6.91,
+   "last_word": 9.575,
+   "translation": "He neither begets nor is born,",
+   "glosses": [],
+   "end": 9.68
+  },
+  {
+   "n": 4,
+   "key": "112:4",
+   "num_ar": "٤",
+   "words": [
+    {
+     "pos": 1,
+     "text": "وَلَمْ"
+    },
+    {
+     "pos": 2,
+     "text": "يَكُن"
+    },
+    {
+     "pos": 3,
+     "text": "لَّهُۥ"
+    },
+    {
+     "pos": 4,
+     "text": "كُفُوًا"
+    },
+    {
+     "pos": 5,
+     "text": "أَحَدٌۢ"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     9.68,
+     10.27
+    ],
+    [
+     2,
+     10.27,
+     10.85
+    ],
+    [
+     3,
+     10.85,
+     11.88
+    ],
+    [
+     4,
+     11.88,
+     12.95
+    ],
+    [
+     5,
+     12.95,
+     13.995
+    ]
+   ],
+   "start": 9.68,
+   "first_word": 9.68,
+   "last_word": 13.995,
+   "translation": "Nor is there to Him any equivalent.\"",
+   "glosses": [],
+   "end": 14.75
+  }
+ ],
+ "audio": {
+  "slice_start": 0.0,
+  "slice_end": 12.75,
+  "file": "audio_master.wav"
+ },
+ "timing_corrections": []
+}

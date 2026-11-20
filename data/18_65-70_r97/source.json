@@ -1,0 +1,2049 @@
+{
+ "meta": {
+  "source": "public",
+  "base": "https://api.quran.com/api/v4",
+  "fetched_at": "2026-11-19T22:15:08Z",
+  "chapter": 18,
+  "from": 65,
+  "to": 70,
+  "recitation_id": 97,
+  "translation_id": 20,
+  "tafsir_ids": [
+   16,
+   91
+  ]
+ },
+ "chapter": {
+  "id": 18,
+  "revelation_place": "makkah",
+  "revelation_order": 69,
+  "bismillah_pre": true,
+  "name_simple": "Al-Kahf",
+  "name_complex": "Al-Kahf",
+  "name_arabic": "الكهف",
+  "verses_count": 110,
+  "pages": [
+   293,
+   304
+  ],
+  "translated_name": {
+   "language_name": "english",
+   "name": "The Cave"
+  }
+ },
+ "chapter_en": {
+  "id": 18,
+  "revelation_place": "makkah",
+  "revelation_order": 69,
+  "bismillah_pre": true,
+  "name_simple": "Al-Kahf",
+  "name_complex": "Al-Kahf",
+  "name_arabic": "الكهف",
+  "verses_count": 110,
+  "pages": [
+   293,
+   304
+  ],
+  "translated_name": {
+   "language_name": "english",
+   "name": "The Cave"
+  }
+ },
+ "translation_resource": {
+  "id": 20,
+  "name": "Saheeh International",
+  "author_name": "Saheeh International",
+  "slug": "en-sahih-international",
+  "language_name": "english",
+  "translated_name": {
+   "name": "Saheeh International",
+   "language_name": "english"
+  }
+ },
+ "tafsir_resources": [
+  {
+   "id": 16,
+   "name": "Tafsir Muyassar",
+   "author_name": "المیسر",
+   "slug": "ar-tafsir-muyassar",
+   "language_name": "arabic",
+   "translated_name": {
+    "name": "Tafsir Muyassar",
+    "language_name": "english"
+   }
+  },
+  {
+   "id": 91,
+   "name": "السعدي Al-Sa'di",
+   "author_name": "Saddi",
+   "slug": "ar-tafseer-al-saddi",
+   "language_name": "arabic",
+   "translated_name": {
+    "name": "السعدي Al-Sa'di",
+    "language_name": "english"
+   }
+  }
+ ],
+ "verses": [
+  {
+   "id": 2205,
+   "verse_number": 65,
+   "verse_key": "18:65",
+   "hizb_number": 30,
+   "rub_el_hizb_number": 120,
+   "ruku_number": 260,
+   "manzil_number": 4,
+   "sajdah_number": null,
+   "text_uthmani": "فَوَجَدَا عَبْدًا مِّنْ عِبَادِنَآ ءَاتَيْنَـٰهُ رَحْمَةً مِّنْ عِندِنَا وَعَلَّمْنَـٰهُ مِن لَّدُنَّا عِلْمًا",
+   "text_imlaei": "فَوَجَدَا عَبْدًا مِّنْ عِبَادِنَا آتَيْنَاهُ رَحْمَةً مِّنْ عِندِنَا وَعَلَّمْنَاهُ مِن لَّدُنَّا عِلْمًا",
+   "page_number": 301,
+   "juz_number": 15,
+   "words": [
+    {
+     "id": 57033,
+     "position": 1,
+     "audio_url": "wbw/018_065_001.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "فَوَجَدَا",
+     "location": "18:65:1",
+     "page_number": 301,
+     "line_number": 5,
+     "text": "فَوَجَدَا",
+     "translation": {
+      "text": "Then they found",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "fawajadā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57034,
+     "position": 2,
+     "audio_url": "wbw/018_065_002.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "عَبْدًۭا",
+     "location": "18:65:2",
+     "page_number": 301,
+     "line_number": 5,
+     "text": "عَبْدًۭا",
+     "translation": {
+      "text": "a servant",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "ʿabdan",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57035,
+     "position": 3,
+     "audio_url": "wbw/018_065_003.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "مِّنْ",
+     "location": "18:65:3",
+     "page_number": 301,
+     "line_number": 5,
+     "text": "مِّنْ",
+     "translation": {
+      "text": "from",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "min",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57036,
+     "position": 4,
+     "audio_url": "wbw/018_065_004.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "عِبَادِنَآ",
+     "location": "18:65:4",
+     "page_number": 301,
+     "line_number": 5,
+     "text": "عِبَادِنَآ",
+     "translation": {
+      "text": "Our servants",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "ʿibādinā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57037,
+     "position": 5,
+     "audio_url": "wbw/018_065_005.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "ءَاتَيْنَـٰهُ",
+     "location": "18:65:5",
+     "page_number": 301,
+     "line_number": 5,
+     "text": "ءَاتَيْنَـٰهُ",
+     "translation": {
+      "text": "whom We had given",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "ātaynāhu",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57038,
+     "position": 6,
+     "audio_url": "wbw/018_065_006.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "رَحْمَةًۭ",
+     "location": "18:65:6",
+     "page_number": 301,
+     "line_number": 5,
+     "text": "رَحْمَةًۭ",
+     "translation": {
+      "text": "mercy",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "raḥmatan",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57039,
+     "position": 7,
+     "audio_url": "wbw/018_065_007.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "مِّنْ",
+     "location": "18:65:7",
+     "page_number": 301,
+     "line_number": 5,
+     "text": "مِّنْ",
+     "translation": {
+      "text": "from",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "min",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57040,
+     "position": 8,
+     "audio_url": "wbw/018_065_008.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "عِندِنَا",
+     "location": "18:65:8",
+     "page_number": 301,
+     "line_number": 6,
+     "text": "عِندِنَا",
+     "translation": {
+      "text": "Us",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "ʿindinā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57041,
+     "position": 9,
+     "audio_url": "wbw/018_065_009.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "وَعَلَّمْنَـٰهُ",
+     "location": "18:65:9",
+     "page_number": 301,
+     "line_number": 6,
+     "text": "وَعَلَّمْنَـٰهُ",
+     "translation": {
+      "text": "and We had taught him",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "waʿallamnāhu",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57042,
+     "position": 10,
+     "audio_url": "wbw/018_065_010.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "مِن",
+     "location": "18:65:10",
+     "page_number": 301,
+     "line_number": 6,
+     "text": "مِن",
+     "translation": {
+      "text": "from",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "min",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57043,
+     "position": 11,
+     "audio_url": "wbw/018_065_011.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "لَّدُنَّا",
+     "location": "18:65:11",
+     "page_number": 301,
+     "line_number": 6,
+     "text": "لَّدُنَّا",
+     "translation": {
+      "text": "Us",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "ladunnā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57044,
+     "position": 12,
+     "audio_url": "wbw/018_065_012.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "عِلْمًۭا",
+     "location": "18:65:12",
+     "page_number": 301,
+     "line_number": 6,
+     "text": "عِلْمًۭا",
+     "translation": {
+      "text": "a knowledge",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "ʿil'man",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57045,
+     "position": 13,
+     "audio_url": null,
+     "char_type_name": "end",
+     "text_uthmani": "٦٥",
+     "location": "18:65:13",
+     "page_number": 301,
+     "line_number": 6,
+     "text": "٦٥",
+     "translation": {
+      "text": "(65)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": null,
+      "language_name": "english"
+     }
+    }
+   ],
+   "translations": [
+    {
+     "id": 97118,
+     "resource_id": 20,
+     "text": "And they found a servant from among Our servants [i.e., al-Khiḍr] to whom We had given mercy from Us and had taught him from Us a [certain] knowledge."
+    }
+   ]
+  },
+  {
+   "id": 2206,
+   "verse_number": 66,
+   "verse_key": "18:66",
+   "hizb_number": 30,
+   "rub_el_hizb_number": 120,
+   "ruku_number": 260,
+   "manzil_number": 4,
+   "sajdah_number": null,
+   "text_uthmani": "قَالَ لَهُۥ مُوسَىٰ هَلْ أَتَّبِعُكَ عَلَىٰٓ أَن تُعَلِّمَنِ مِمَّا عُلِّمْتَ رُشْدًا",
+   "text_imlaei": "قَالَ لَهُ مُوسَىٰ هَلْ أَتَّبِعُكَ عَلَىٰ أَن تُعَلِّمَنِ مِمَّا عُلِّمْتَ رُشْدًا",
+   "page_number": 301,
+   "juz_number": 15,
+   "words": [
+    {
+     "id": 57562,
+     "position": 1,
+     "audio_url": "wbw/018_066_001.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "قَالَ",
+     "location": "18:66:1",
+     "page_number": 301,
+     "line_number": 6,
+     "text": "قَالَ",
+     "translation": {
+      "text": "Said",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "qāla",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57563,
+     "position": 2,
+     "audio_url": "wbw/018_066_002.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "لَهُۥ",
+     "location": "18:66:2",
+     "page_number": 301,
+     "line_number": 6,
+     "text": "لَهُۥ",
+     "translation": {
+      "text": "to him",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "lahu",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57564,
+     "position": 3,
+     "audio_url": "wbw/018_066_003.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "مُوسَىٰ",
+     "location": "18:66:3",
+     "page_number": 301,
+     "line_number": 6,
+     "text": "مُوسَىٰ",
+     "translation": {
+      "text": "Musa",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "mūsā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57565,
+     "position": 4,
+     "audio_url": "wbw/018_066_004.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "هَلْ",
+     "location": "18:66:4",
+     "page_number": 301,
+     "line_number": 6,
+     "text": "هَلْ",
+     "translation": {
+      "text": "May",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "hal",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57566,
+     "position": 5,
+     "audio_url": "wbw/018_066_005.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "أَتَّبِعُكَ",
+     "location": "18:66:5",
+     "page_number": 301,
+     "line_number": 6,
+     "text": "أَتَّبِعُكَ",
+     "translation": {
+      "text": "I follow you",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "attabiʿuka",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57567,
+     "position": 6,
+     "audio_url": "wbw/018_066_006.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "عَلَىٰٓ",
+     "location": "18:66:6",
+     "page_number": 301,
+     "line_number": 7,
+     "text": "عَلَىٰٓ",
+     "translation": {
+      "text": "on",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "ʿalā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57568,
+     "position": 7,
+     "audio_url": "wbw/018_066_007.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "أَن",
+     "location": "18:66:7",
+     "page_number": 301,
+     "line_number": 7,
+     "text": "أَن",
+     "translation": {
+      "text": "that",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "an",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57569,
+     "position": 8,
+     "audio_url": "wbw/018_066_008.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "تُعَلِّمَنِ",
+     "location": "18:66:8",
+     "page_number": 301,
+     "line_number": 7,
+     "text": "تُعَلِّمَنِ",
+     "translation": {
+      "text": "you teach me",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "tuʿallimani",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57570,
+     "position": 9,
+     "audio_url": "wbw/018_066_009.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "مِمَّا",
+     "location": "18:66:9",
+     "page_number": 301,
+     "line_number": 7,
+     "text": "مِمَّا",
+     "translation": {
+      "text": "of what",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "mimmā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57571,
+     "position": 10,
+     "audio_url": "wbw/018_066_010.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "عُلِّمْتَ",
+     "location": "18:66:10",
+     "page_number": 301,
+     "line_number": 7,
+     "text": "عُلِّمْتَ",
+     "translation": {
+      "text": "you have been taught",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "ʿullim'ta",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57572,
+     "position": 11,
+     "audio_url": "wbw/018_066_011.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "رُشْدًۭا",
+     "location": "18:66:11",
+     "page_number": 301,
+     "line_number": 7,
+     "text": "رُشْدًۭا",
+     "translation": {
+      "text": "(of) right guidance",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "rush'dan",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57573,
+     "position": 12,
+     "audio_url": null,
+     "char_type_name": "end",
+     "text_uthmani": "٦٦",
+     "location": "18:66:12",
+     "page_number": 301,
+     "line_number": 7,
+     "text": "٦٦",
+     "translation": {
+      "text": "(66)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": null,
+      "language_name": "english"
+     }
+    }
+   ],
+   "translations": [
+    {
+     "id": 97119,
+     "resource_id": 20,
+     "text": "Moses said to him, \"May I follow you on [the condition] that you teach me from what you have been taught of sound judgement?\""
+    }
+   ]
+  },
+  {
+   "id": 2207,
+   "verse_number": 67,
+   "verse_key": "18:67",
+   "hizb_number": 30,
+   "rub_el_hizb_number": 120,
+   "ruku_number": 260,
+   "manzil_number": 4,
+   "sajdah_number": null,
+   "text_uthmani": "قَالَ إِنَّكَ لَن تَسْتَطِيعَ مَعِىَ صَبْرًا",
+   "text_imlaei": "قَالَ إِنَّكَ لَن تَسْتَطِيعَ مَعِيَ صَبْرًا",
+   "page_number": 301,
+   "juz_number": 15,
+   "words": [
+    {
+     "id": 57969,
+     "position": 1,
+     "audio_url": "wbw/018_067_001.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "قَالَ",
+     "location": "18:67:1",
+     "page_number": 301,
+     "line_number": 7,
+     "text": "قَالَ",
+     "translation": {
+      "text": "He said",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "qāla",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57970,
+     "position": 2,
+     "audio_url": "wbw/018_067_002.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "إِنَّكَ",
+     "location": "18:67:2",
+     "page_number": 301,
+     "line_number": 7,
+     "text": "إِنَّكَ",
+     "translation": {
+      "text": "Indeed, you",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "innaka",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57971,
+     "position": 3,
+     "audio_url": "wbw/018_067_003.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "لَن",
+     "location": "18:67:3",
+     "page_number": 301,
+     "line_number": 7,
+     "text": "لَن",
+     "translation": {
+      "text": "never",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "lan",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57972,
+     "position": 4,
+     "audio_url": "wbw/018_067_004.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "تَسْتَطِيعَ",
+     "location": "18:67:4",
+     "page_number": 301,
+     "line_number": 7,
+     "text": "تَسْتَطِيعَ",
+     "translation": {
+      "text": "will be able",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "tastaṭīʿa",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57973,
+     "position": 5,
+     "audio_url": "wbw/018_067_005.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "مَعِىَ",
+     "location": "18:67:5",
+     "page_number": 301,
+     "line_number": 8,
+     "text": "مَعِىَ",
+     "translation": {
+      "text": "with me",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "maʿiya",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57974,
+     "position": 6,
+     "audio_url": "wbw/018_067_006.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "صَبْرًۭا",
+     "location": "18:67:6",
+     "page_number": 301,
+     "line_number": 8,
+     "text": "صَبْرًۭا",
+     "translation": {
+      "text": "(to have) patience",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "ṣabran",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57975,
+     "position": 7,
+     "audio_url": null,
+     "char_type_name": "end",
+     "text_uthmani": "٦٧",
+     "location": "18:67:7",
+     "page_number": 301,
+     "line_number": 8,
+     "text": "٦٧",
+     "translation": {
+      "text": "(67)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": null,
+      "language_name": "english"
+     }
+    }
+   ],
+   "translations": [
+    {
+     "id": 97120,
+     "resource_id": 20,
+     "text": "He said, \"Indeed, with me you will never be able to have patience."
+    }
+   ]
+  },
+  {
+   "id": 2208,
+   "verse_number": 68,
+   "verse_key": "18:68",
+   "hizb_number": 30,
+   "rub_el_hizb_number": 120,
+   "ruku_number": 260,
+   "manzil_number": 4,
+   "sajdah_number": null,
+   "text_uthmani": "وَكَيْفَ تَصْبِرُ عَلَىٰ مَا لَمْ تُحِطْ بِهِۦ خُبْرًا",
+   "text_imlaei": "وَكَيْفَ تَصْبِرُ عَلَىٰ مَا لَمْ تُحِطْ بِهِ خُبْرًا",
+   "page_number": 301,
+   "juz_number": 15,
+   "words": [
+    {
+     "id": 58403,
+     "position": 1,
+     "audio_url": "wbw/018_068_001.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "وَكَيْفَ",
+     "location": "18:68:1",
+     "page_number": 301,
+     "line_number": 8,
+     "text": "وَكَيْفَ",
+     "translation": {
+      "text": "And how can",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "wakayfa",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 58404,
+     "position": 2,
+     "audio_url": "wbw/018_068_002.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "تَصْبِرُ",
+     "location": "18:68:2",
+     "page_number": 301,
+     "line_number": 8,
+     "text": "تَصْبِرُ",
+     "translation": {
+      "text": "you have patience",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "taṣbiru",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 58405,
+     "position": 3,
+     "audio_url": "wbw/018_068_003.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "عَلَىٰ",
+     "location": "18:68:3",
+     "page_number": 301,
+     "line_number": 8,
+     "text": "عَلَىٰ",
+     "translation": {
+      "text": "for",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "ʿalā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 58406,
+     "position": 4,
+     "audio_url": "wbw/018_068_004.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "مَا",
+     "location": "18:68:4",
+     "page_number": 301,
+     "line_number": 8,
+     "text": "مَا",
+     "translation": {
+      "text": "what",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "mā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 58407,
+     "position": 5,
+     "audio_url": "wbw/018_068_005.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "لَمْ",
+     "location": "18:68:5",
+     "page_number": 301,
+     "line_number": 8,
+     "text": "لَمْ",
+     "translation": {
+      "text": "not",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "lam",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 58408,
+     "position": 6,
+     "audio_url": "wbw/018_068_006.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "تُحِطْ",
+     "location": "18:68:6",
+     "page_number": 301,
+     "line_number": 8,
+     "text": "تُحِطْ",
+     "translation": {
+      "text": "you encompass",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "tuḥiṭ",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 58409,
+     "position": 7,
+     "audio_url": "wbw/018_068_007.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "بِهِۦ",
+     "location": "18:68:7",
+     "page_number": 301,
+     "line_number": 8,
+     "text": "بِهِۦ",
+     "translation": {
+      "text": "of it",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "bihi",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 58410,
+     "position": 8,
+     "audio_url": "wbw/018_068_008.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "خُبْرًۭا",
+     "location": "18:68:8",
+     "page_number": 301,
+     "line_number": 8,
+     "text": "خُبْرًۭا",
+     "translation": {
+      "text": "any knowledge",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "khub'ran",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 58411,
+     "position": 9,
+     "audio_url": null,
+     "char_type_name": "end",
+     "text_uthmani": "٦٨",
+     "location": "18:68:9",
+     "page_number": 301,
+     "line_number": 8,
+     "text": "٦٨",
+     "translation": {
+      "text": "(68)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": null,
+      "language_name": "english"
+     }
+    }
+   ],
+   "translations": [
+    {
+     "id": 97121,
+     "resource_id": 20,
+     "text": "And how can you have patience for what you do not encompass in knowledge?\""
+    }
+   ]
+  },
+  {
+   "id": 2209,
+   "verse_number": 69,
+   "verse_key": "18:69",
+   "hizb_number": 30,
+   "rub_el_hizb_number": 120,
+   "ruku_number": 260,
+   "manzil_number": 4,
+   "sajdah_number": null,
+   "text_uthmani": "قَالَ سَتَجِدُنِىٓ إِن شَآءَ ٱللَّهُ صَابِرًا وَلَآ أَعْصِى لَكَ أَمْرًا",
+   "text_imlaei": "قَالَ سَتَجِدُنِي إِن شَاءَ اللَّهُ صَابِرًا وَلَا أَعْصِي لَكَ أَمْرًا",
+   "page_number": 301,
+   "juz_number": 15,
+   "words": [
+    {
+     "id": 58941,
+     "position": 1,
+     "audio_url": "wbw/018_069_001.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "قَالَ",
+     "location": "18:69:1",
+     "page_number": 301,
+     "line_number": 8,
+     "text": "قَالَ",
+     "translation": {
+      "text": "He said",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "qāla",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 58942,
+     "position": 2,
+     "audio_url": "wbw/018_069_002.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "سَتَجِدُنِىٓ",
+     "location": "18:69:2",
+     "page_number": 301,
+     "line_number": 9,
+     "text": "سَتَجِدُنِىٓ",
+     "translation": {
+      "text": "You will find me",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "satajidunī",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 58943,
+     "position": 3,
+     "audio_url": "wbw/018_069_003.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "إِن",
+     "location": "18:69:3",
+     "page_number": 301,
+     "line_number": 9,
+     "text": "إِن",
+     "translation": {
+      "text": "if",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "in",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 58944,
+     "position": 4,
+     "audio_url": "wbw/018_069_004.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "شَآءَ",
+     "location": "18:69:4",
+     "page_number": 301,
+     "line_number": 9,
+     "text": "شَآءَ",
+     "translation": {
+      "text": "Allah wills",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "shāa",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 58945,
+     "position": 5,
+     "audio_url": "wbw/018_069_005.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "ٱللَّهُ",
+     "location": "18:69:5",
+     "page_number": 301,
+     "line_number": 9,
+     "text": "ٱللَّهُ",
+     "translation": {
+      "text": "Allah wills",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "l-lahu",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 58946,
+     "position": 6,
+     "audio_url": "wbw/018_069_006.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "صَابِرًۭا",
+     "location": "18:69:6",
+     "page_number": 301,
+     "line_number": 9,
+     "text": "صَابِرًۭا",
+     "translation": {
+      "text": "patient",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "ṣābiran",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 58947,
+     "position": 7,
+     "audio_url": "wbw/018_069_007.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "وَلَآ",
+     "location": "18:69:7",
+     "page_number": 301,
+     "line_number": 9,
+     "text": "وَلَآ",
+     "translation": {
+      "text": "and not",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "walā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 58948,
+     "position": 8,
+     "audio_url": "wbw/018_069_008.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "أَعْصِى",
+     "location": "18:69:8",
+     "page_number": 301,
+     "line_number": 9,
+     "text": "أَعْصِى",
+     "translation": {
+      "text": "I will disobey",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "aʿṣī",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 58949,
+     "position": 9,
+     "audio_url": "wbw/018_069_009.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "لَكَ",
+     "location": "18:69:9",
+     "page_number": 301,
+     "line_number": 9,
+     "text": "لَكَ",
+     "translation": {
+      "text": "your",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "laka",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 58950,
+     "position": 10,
+     "audio_url": "wbw/018_069_010.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "أَمْرًۭا",
+     "location": "18:69:10",
+     "page_number": 301,
+     "line_number": 9,
+     "text": "أَمْرًۭا",
+     "translation": {
+      "text": "order",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "amran",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 58951,
+     "position": 11,
+     "audio_url": null,
+     "char_type_name": "end",
+     "text_uthmani": "٦٩",
+     "location": "18:69:11",
+     "page_number": 301,
+     "line_number": 9,
+     "text": "٦٩",
+     "translation": {
+      "text": "(69)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": null,
+      "language_name": "english"
+     }
+    }
+   ],
+   "translations": [
+    {
+     "id": 97122,
+     "resource_id": 20,
+     "text": "[Moses] said, \"You will find me, if Allāh wills, patient, and I will not disobey you in [any] order.\""
+    }
+   ]
+  },
+  {
+   "id": 2210,
+   "verse_number": 70,
+   "verse_key": "18:70",
+   "hizb_number": 30,
+   "rub_el_hizb_number": 120,
+   "ruku_number": 260,
+   "manzil_number": 4,
+   "sajdah_number": null,
+   "text_uthmani": "قَالَ فَإِنِ ٱتَّبَعْتَنِى فَلَا تَسْـَٔلْنِى عَن شَىْءٍ حَتَّىٰٓ أُحْدِثَ لَكَ مِنْهُ ذِكْرًا",
+   "text_imlaei": "قَالَ فَإِنِ اتَّبَعْتَنِي فَلَا تَسْأَلْنِي عَن شَيْءٍ حَتَّىٰ أُحْدِثَ لَكَ مِنْهُ ذِكْرًا",
+   "page_number": 301,
+   "juz_number": 15,
+   "words": [
+    {
+     "id": 59374,
+     "position": 1,
+     "audio_url": "wbw/018_070_001.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "قَالَ",
+     "location": "18:70:1",
+     "page_number": 301,
+     "line_number": 9,
+     "text": "قَالَ",
+     "translation": {
+      "text": "He said",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "qāla",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 59375,
+     "position": 2,
+     "audio_url": "wbw/018_070_002.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "فَإِنِ",
+     "location": "18:70:2",
+     "page_number": 301,
+     "line_number": 10,
+     "text": "فَإِنِ",
+     "translation": {
+      "text": "Then if",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "fa-ini",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 59376,
+     "position": 3,
+     "audio_url": "wbw/018_070_003.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "ٱتَّبَعْتَنِى",
+     "location": "18:70:3",
+     "page_number": 301,
+     "line_number": 10,
+     "text": "ٱتَّبَعْتَنِى",
+     "translation": {
+      "text": "you follow me",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "ittabaʿtanī",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 59377,
+     "position": 4,
+     "audio_url": "wbw/018_070_004.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "فَلَا",
+     "location": "18:70:4",
+     "page_number": 301,
+     "line_number": 10,
+     "text": "فَلَا",
+     "translation": {
+      "text": "(do) not",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "falā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 59378,
+     "position": 5,
+     "audio_url": "wbw/018_070_005.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "تَسْـَٔلْنِى",
+     "location": "18:70:5",
+     "page_number": 301,
+     "line_number": 10,
+     "text": "تَسْـَٔلْنِى",
+     "translation": {
+      "text": "ask me",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "tasalnī",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 59379,
+     "position": 6,
+     "audio_url": "wbw/018_070_006.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "عَن",
+     "location": "18:70:6",
+     "page_number": 301,
+     "line_number": 10,
+     "text": "عَن",
+     "translation": {
+      "text": "about",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "ʿan",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 59380,
+     "position": 7,
+     "audio_url": "wbw/018_070_007.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "شَىْءٍ",
+     "location": "18:70:7",
+     "page_number": 301,
+     "line_number": 10,
+     "text": "شَىْءٍ",
+     "translation": {
+      "text": "anything",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "shayin",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 59381,
+     "position": 8,
+     "audio_url": "wbw/018_070_008.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "حَتَّىٰٓ",
+     "location": "18:70:8",
+     "page_number": 301,
+     "line_number": 10,
+     "text": "حَتَّىٰٓ",
+     "translation": {
+      "text": "until",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "ḥattā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 59382,
+     "position": 9,
+     "audio_url": "wbw/018_070_009.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "أُحْدِثَ",
+     "location": "18:70:9",
+     "page_number": 301,
+     "line_number": 10,
+     "text": "أُحْدِثَ",
+     "translation": {
+      "text": "I present",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "uḥ'ditha",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 59383,
+     "position": 10,
+     "audio_url": "wbw/018_070_010.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "لَكَ",
+     "location": "18:70:10",
+     "page_number": 301,
+     "line_number": 10,
+     "text": "لَكَ",
+     "translation": {
+      "text": "to you",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "laka",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 59384,
+     "position": 11,
+     "audio_url": "wbw/018_070_011.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "مِنْهُ",
+     "location": "18:70:11",
+     "page_number": 301,
+     "line_number": 10,
+     "text": "مِنْهُ",
+     "translation": {
+      "text": "of it",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "min'hu",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 59385,
+     "position": 12,
+     "audio_url": "wbw/018_070_012.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "ذِكْرًۭا",
+     "location": "18:70:12",
+     "page_number": 301,
+     "line_number": 10,
+     "text": "ذِكْرًۭا",
+     "translation": {
+      "text": "a mention",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "dhik'ran",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 59386,
+     "position": 13,
+     "audio_url": null,
+     "char_type_name": "end",
+     "text_uthmani": "٧٠",
+     "location": "18:70:13",
+     "page_number": 301,
+     "line_number": 11,
+     "text": "٧٠",
+     "translation": {
+      "text": "(70)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": null,
+      "language_name": "english"
+     }
+    }
+   ],
+   "translations": [
+    {
+     "id": 97124,
+     "resource_id": 20,
+     "text": "He said, \"Then if you follow me, do not ask me about anything until I make to you about it mention [i.e., explanation].\""
+    }
+   ]
+  }
+ ],
+ "tafsirs": {
+  "16": {
+   "18:65": {
+    "verses": {
+     "18:65": {
+      "id": 2205
+     }
+    },
+    "resource_id": 16,
+    "resource_name": "المیسر",
+    "language_id": 9,
+    "slug": "ar-tafsir-muyassar",
+    "translated_name": {
+     "name": "Tafsir Muyassar",
+     "language_name": "english"
+    },
+    "text": "فوجدا هناك عبدًا صالحًا من عبادنا هو الخَضِر عليه السلام -وهو نبي من أنبياء الله توفاه الله-، آتيناه رحمة من عندنا، وعَلَّمْناه مِن لدنَّا علمًا عظيمًا."
+   },
+   "18:66": {
+    "verses": {
+     "18:66": {
+      "id": 2206
+     }
+    },
+    "resource_id": 16,
+    "resource_name": "المیسر",
+    "language_id": 9,
+    "slug": "ar-tafsir-muyassar",
+    "translated_name": {
+     "name": "Tafsir Muyassar",
+     "language_name": "english"
+    },
+    "text": "فسلَّم عليه موسى،<span class=\"blue\"> وقال له:</span> أتأذن لي أن أتبعك؛ لتعلمني من العلم الذي علمك الله إياه ما أسترشد به وأنتفع؟"
+   },
+   "18:67": {
+    "verses": {
+     "18:67": {
+      "id": 2207
+     }
+    },
+    "resource_id": 16,
+    "resource_name": "المیسر",
+    "language_id": 9,
+    "slug": "ar-tafsir-muyassar",
+    "translated_name": {
+     "name": "Tafsir Muyassar",
+     "language_name": "english"
+    },
+    "text": "<span class=\"blue\">قال له الخَضِر:</span> إنك -يا موسى- لن تطيق أن تصبر على اتباعي وملازمتي."
+   },
+   "18:68": {
+    "verses": {
+     "18:68": {
+      "id": 2208
+     }
+    },
+    "resource_id": 16,
+    "resource_name": "المیسر",
+    "language_id": 9,
+    "slug": "ar-tafsir-muyassar",
+    "translated_name": {
+     "name": "Tafsir Muyassar",
+     "language_name": "english"
+    },
+    "text": "وكيف لك الصبر على ما سأفعله من أمور تخفى عليك مما علمنيه الله تعالى؟"
+   },
+   "18:69": {
+    "verses": {
+     "18:69": {
+      "id": 2209
+     }
+    },
+    "resource_id": 16,
+    "resource_name": "المیسر",
+    "language_id": 9,
+    "slug": "ar-tafsir-muyassar",
+    "translated_name": {
+     "name": "Tafsir Muyassar",
+     "language_name": "english"
+    },
+    "text": "<span class=\"blue\">قال له موسى:</span> ستجدني إن شاء الله صابرًا على ما أراه منك، ولا أخالف لك أمرًا تأمرني به."
+   },
+   "18:70": {
+    "verses": {
+     "18:70": {
+      "id": 2210
+     }
+    },
+    "resource_id": 16,
+    "resource_name": "المیسر",
+    "language_id": 9,
+    "slug": "ar-tafsir-muyassar",
+    "translated_name": {
+     "name": "Tafsir Muyassar",
+     "language_name": "english"
+    },
+    "text": "<span class=\"blue\">فوافق الخَضِر وقال له:</span> فإنْ صاحَبتني فلا تسألني عن شيء تنكره، حتى أبيِّن لك من أمره ما خفي عليك دون سؤال منك."
+   }
+  },
+  "91": {
+   "18:65": {
+    "verses": {
+     "18:65": {
+      "id": 2205
+     }
+    },
+    "resource_id": 91,
+    "resource_name": "Arabic Saddi Tafseer",
+    "language_id": 9,
+    "slug": "ar-tafseer-al-saddi",
+    "translated_name": {
+     "name": "السعدي Al-Sa'di",
+     "language_name": "english"
+    },
+    "text": "فلما وصلا إليه، وجدا عبدا من عبادنا، وهو الخضر، وكان عبدا صالحا، لا نبيا على الصحيح.<span class=\"blue\"> آتيناه [رحمة من عندنا أي:</span> أعطاه الله رحمة خاصة بها زاد علمه وحسن عمله <span class=\"arabic qpc-hafs brown\">{ وَعَلَّمْنَاهُ ْ}</span>]  <span class=\"arabic qpc-hafs brown\">{ مِنْ لَدُنَّا ْ}</span> أي: من عندنا عِلْمًا، وكان قد أعطي من العلم ما لم يعط موسى، وإن كان موسى عليه السلام أعلم منه بأكثر الأشياء، وخصوصا في العلوم الإيمانية، والأصولية، لأنه من أولي العزم من المرسلين، الذين فضلهم الله على سائر الخلق، بالعلم، والعمل، وغير ذلك، فلما اجتمع به موسى قال له على وجه الأدب والمشاورة، والإخبار عن مطلبه."
+   },
+   "18:66": {
+    "verses": {
+     "18:66": {
+      "id": 2206
+     }
+    },
+    "resource_id": 91,
+    "resource_name": "Arabic Saddi Tafseer",
+    "language_id": 9,
+    "slug": "ar-tafseer-al-saddi",
+    "translated_name": {
+     "name": "السعدي Al-Sa'di",
+     "language_name": "english"
+    },
+    "text": "<span class=\"arabic qpc-hafs brown\">{ هَلْ أَتَّبِعُكَ عَلَى أَنْ تُعَلِّمَنِ مِمَّا عُلِّمْتَ رُشْدًا ْ}</span> أي: هل أتبعك على أن تعلمني مما علمك الله، ما به أسترشد وأهتدي، وأعرف به الحق في تلك القضايا؟ وكان الخضر، قد أعطاه الله من الإلهام والكرامة، ما به يحصل له الاطلاع على بواطن كثير من الأشياء التي خفيت، حتى على موسى عليه السلام"
+   },
+   "18:67": {
+    "verses": {
+     "18:67": {
+      "id": 2207
+     }
+    },
+    "resource_id": 91,
+    "resource_name": "Arabic Saddi Tafseer",
+    "language_id": 9,
+    "slug": "ar-tafseer-al-saddi",
+    "translated_name": {
+     "name": "السعدي Al-Sa'di",
+     "language_name": "english"
+    },
+    "text": "<span class=\"blue\">فقال الخضر لموسى:</span> لا أمتنع من ذلك، ولكنك <span class=\"arabic qpc-hafs brown\">{ لَنْ تَسْتَطِيعَ مَعِيَ صَبْرًا ْ}</span> أي: لا تقدر على اتباعي وملازمتي، لأنك ترى ما لا تقدر على الصبر عليه من الأمور التي ظاهرها المنكر، وباطنها غير ذلك"
+   },
+   "18:68": {
+    "verses": {
+     "18:68": {
+      "id": 2208
+     }
+    },
+    "resource_id": 91,
+    "resource_name": "Arabic Saddi Tafseer",
+    "language_id": 9,
+    "slug": "ar-tafseer-al-saddi",
+    "translated_name": {
+     "name": "السعدي Al-Sa'di",
+     "language_name": "english"
+    },
+    "text": "<span class=\"arabic qpc-hafs brown\">{ وَكَيْفَ تَصْبِرُ عَلَى مَا لَمْ تُحِطْ بِهِ خُبْرًا ْ}</span> أي: كيف تصبر على أمر،ما أحطت بباطنه وظاهره ولا علمت المقصود منه ومآله؟"
+   },
+   "18:69": {
+    "verses": {
+     "18:69": {
+      "id": 2209
+     }
+    },
+    "resource_id": 91,
+    "resource_name": "Arabic Saddi Tafseer",
+    "language_id": 9,
+    "slug": "ar-tafseer-al-saddi",
+    "translated_name": {
+     "name": "السعدي Al-Sa'di",
+     "language_name": "english"
+    },
+    "text": "<span class=\"blue\">فقال موسى:</span> <span class=\"arabic qpc-hafs brown\">{ سَتَجِدُنِي إِنْ شَاءَ اللَّهُ صَابِرًا وَلَا أَعْصِي لَكَ أَمْرًا ْ}</span> وهذا عزم منه، قبل أن يوجد الشيء الممتحن به، والعزم شيء، ووجود الصبر شيء آخر، فلذلك ما صبر موسى عليه السلام حين وقع الأمر."
+   },
+   "18:70": {
+    "verses": {
+     "18:70": {
+      "id": 2210
+     }
+    },
+    "resource_id": 91,
+    "resource_name": "Arabic Saddi Tafseer",
+    "language_id": 9,
+    "slug": "ar-tafseer-al-saddi",
+    "translated_name": {
+     "name": "السعدي Al-Sa'di",
+     "language_name": "english"
+    },
+    "text": "<span class=\"blue\">فحينئذ قال له الخضر:</span> <span class=\"arabic qpc-hafs brown\">{ فَإِنِ اتَّبَعْتَنِي فَلَا تَسْأَلْنِي عَنْ شَيْءٍ حَتَّى أُحْدِثَ لَكَ مِنْهُ ذِكْرًا ْ}</span> أي: لا تبتدئني بسؤال منك وإنكار، حتى أكون أنا الذي أخبرك بحاله، في الوقت الذي ينبغي إخبارك به، فنهاه عن سؤاله، ووعده أن يوقفه على حقيقة الأمر."
+   }
+  }
+ },
+ "recitation": {
+  "id": 18389,
+  "chapter_id": 18,
+  "file_size": 27904724.0,
+  "format": "mp3",
+  "audio_url": "https://download.quranicaudio.com/quran/yasser_ad-dussary//018.mp3",
+  "timestamps": [
+   {
+    "verse_key": "18:65",
+    "timestamp_from": 1163960,
+    "timestamp_to": 1179410,
+    "duration": 15450,
+    "segments": [
+     [
+      1,
+      1163960,
+      1164900
+     ],
+     [
+      2,
+      1164900,
+      1166230
+     ],
+     [
+      3,
+      1166230,
+      1166560
+     ],
+     [
+      4,
+      1166560,
+      1168820
+     ],
+     [
+      5,
+      1168820,
+      1170100
+     ],
+     [
+      6,
+      1170100,
+      1171160
+     ],
+     [
+      7,
+      1171160,
+      1171470
+     ],
+     [
+      8,
+      1171470,
+      1175410
+     ],
+     [
+      9,
+      1175410,
+      1177350
+     ],
+     [
+      10,
+      1177350,
+      1177580
+     ],
+     [
+      11,
+      1177640,
+      1178980
+     ],
+     [
+      12,
+      1179120,
+      1179410
+     ]
+    ]
+   },
+   {
+    "verse_key": "18:66",
+    "timestamp_from": 1179480,
+    "timestamp_to": 1189740,
+    "duration": 10260,
+    "segments": [
+     [
+      1,
+      1179480,
+      1180850
+     ],
+     [
+      2,
+      1180850,
+      1181400
+     ],
+     [
+      3,
+      1181400,
+      1182150
+     ],
+     [
+      4,
+      1182150,
+      1182520
+     ],
+     [
+      5,
+      1182520,
+      1183580
+     ],
+     [
+      6,
+      1183640,
+      1185350
+     ],
+     [
+      7,
+      1185350,
+      1186400
+     ],
+     [
+      8,
+      1186400,
+      1188060
+     ],
+     [
+      9,
+      1188060,
+      1188390
+     ],
+     [
+      10,
+      1188390,
+      1189090
+     ],
+     [
+      11,
+      1189090,
+      1189740
+     ]
+    ]
+   },
+   {
+    "verse_key": "18:67",
+    "timestamp_from": 1189790,
+    "timestamp_to": 1195980,
+    "duration": 6190,
+    "segments": [
+     [
+      1,
+      1189790,
+      1190950
+     ],
+     [
+      2,
+      1190950,
+      1191890
+     ],
+     [
+      3,
+      1191950,
+      1193390
+     ],
+     [
+      4,
+      1193390,
+      1194480
+     ],
+     [
+      5,
+      1194480,
+      1195040
+     ],
+     [
+      6,
+      1195040,
+      1195980
+     ]
+    ]
+   },
+   {
+    "verse_key": "18:68",
+    "timestamp_from": 1196130,
+    "timestamp_to": 1200570,
+    "duration": 4440,
+    "segments": [
+     [
+      1,
+      1196130,
+      1196920
+     ],
+     [
+      2,
+      1196920,
+      1197640
+     ],
+     [
+      3,
+      1197640,
+      1198160
+     ],
+     [
+      4,
+      1198160,
+      1198530
+     ],
+     [
+      5,
+      1198530,
+      1198850
+     ],
+     [
+      6,
+      1198850,
+      1199540
+     ],
+     [
+      7,
+      1199540,
+      1200050
+     ],
+     [
+      8,
+      1200050,
+      1200570
+     ]
+    ]
+   },
+   {
+    "verse_key": "18:69",
+    "timestamp_from": 1200620,
+    "timestamp_to": 1212260,
+    "duration": 11640,
+    "segments": [
+     [
+      1,
+      1200620,
+      1201630
+     ],
+     [
+      2,
+      1201630,
+      1204170
+     ],
+     [
+      3,
+      1204170,
+      1204860
+     ],
+     [
+      4,
+      1204860,
+      1206670
+     ],
+     [
+      5,
+      1206730,
+      1207360
+     ],
+     [
+      6,
+      1207360,
+      1208880
+     ],
+     [
+      7,
+      1208880,
+      1210540
+     ],
+     [
+      8,
+      1210540,
+      1211170
+     ],
+     [
+      9,
+      1211250,
+      1211590
+     ],
+     [
+      10,
+      1211630,
+      1212260
+     ]
+    ]
+   },
+   {
+    "verse_key": "18:70",
+    "timestamp_from": 1212370,
+    "timestamp_to": 1222430,
+    "duration": 10060,
+    "segments": [
+     [
+      1,
+      1212370,
+      1213430
+     ],
+     [
+      2,
+      1213430,
+      1213950
+     ],
+     [
+      3,
+      1213950,
+      1215230
+     ],
+     [
+      4,
+      1215230,
+      1215790
+     ],
+     [
+      5,
+      1215790,
+      1216870
+     ],
+     [
+      6,
+      1216870,
+      1217530
+     ],
+     [
+      7,
+      1217530,
+      1218210
+     ],
+     [
+      8,
+      1218210,
+      1218970
+     ],
+     [
+      9,
+      1218970,
+      1220780
+     ],
+     [
+      10,
+      1220780,
+      1221100
+     ],
+     [
+      11,
+      1221180,
+      1221790
+     ],
+     [
+      12,
+      1221790,
+      1222430
+     ]
+    ]
+   }
+  ],
+  "neighbors": {
+   "prev_end": 1163830,
+   "next_start": 1222580
+  },
+  "local_file": "../_audio/chapter_018_rec97.mp3"
+ },
+ "reciter_ar": {
+  "id": 97,
+  "name": "Yasser ad-Dussary",
+  "style": {
+   "name": "Murattal",
+   "language_name": "english"
+  },
+  "qirat": {
+   "name": "Hafs",
+   "language_name": "english"
+  },
+  "translated_name": {
+   "name": "Yasser ad-Dussary",
+   "language_name": "english"
+  }
+ },
+ "reciter_en": {
+  "id": 97,
+  "name": "Yasser ad-Dussary",
+  "style": {
+   "name": "Murattal",
+   "language_name": "english"
+  },
+  "qirat": {
+   "name": "Hafs",
+   "language_name": "english"
+  },
+  "translated_name": {
+   "name": "Yasser ad-Dussary",
+   "language_name": "english"
+  }
+ }
+}

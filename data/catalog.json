@@ -1,0 +1,984 @@
+{
+ "surahs": [
+  {
+   "n": 1,
+   "name_en": "Al-Fatihah",
+   "name_ar": "الفاتحة",
+   "meaning": "The Opener",
+   "verses": 7,
+   "place": "makkah"
+  },
+  {
+   "n": 2,
+   "name_en": "Al-Baqarah",
+   "name_ar": "البقرة",
+   "meaning": "The Cow",
+   "verses": 286,
+   "place": "madinah"
+  },
+  {
+   "n": 3,
+   "name_en": "Ali 'Imran",
+   "name_ar": "آل عمران",
+   "meaning": "Family of Imran",
+   "verses": 200,
+   "place": "madinah"
+  },
+  {
+   "n": 4,
+   "name_en": "An-Nisa",
+   "name_ar": "النساء",
+   "meaning": "The Women",
+   "verses": 176,
+   "place": "madinah"
+  },
+  {
+   "n": 5,
+   "name_en": "Al-Ma'idah",
+   "name_ar": "المائدة",
+   "meaning": "The Table Spread",
+   "verses": 120,
+   "place": "madinah"
+  },
+  {
+   "n": 6,
+   "name_en": "Al-An'am",
+   "name_ar": "الأنعام",
+   "meaning": "The Cattle",
+   "verses": 165,
+   "place": "makkah"
+  },
+  {
+   "n": 7,
+   "name_en": "Al-A'raf",
+   "name_ar": "الأعراف",
+   "meaning": "The Heights",
+   "verses": 206,
+   "place": "makkah"
+  },
+  {
+   "n": 8,
+   "name_en": "Al-Anfal",
+   "name_ar": "الأنفال",
+   "meaning": "The Spoils of War",
+   "verses": 75,
+   "place": "madinah"
+  },
+  {
+   "n": 9,
+   "name_en": "At-Tawbah",
+   "name_ar": "التوبة",
+   "meaning": "The Repentance",
+   "verses": 129,
+   "place": "madinah"
+  },
+  {
+   "n": 10,
+   "name_en": "Yunus",
+   "name_ar": "يونس",
+   "meaning": "Jonah",
+   "verses": 109,
+   "place": "makkah"
+  },
+  {
+   "n": 11,
+   "name_en": "Hud",
+   "name_ar": "هود",
+   "meaning": "Hud",
+   "verses": 123,
+   "place": "makkah"
+  },
+  {
+   "n": 12,
+   "name_en": "Yusuf",
+   "name_ar": "يوسف",
+   "meaning": "Joseph",
+   "verses": 111,
+   "place": "makkah"
+  },
+  {
+   "n": 13,
+   "name_en": "Ar-Ra'd",
+   "name_ar": "الرعد",
+   "meaning": "The Thunder",
+   "verses": 43,
+   "place": "madinah"
+  },
+  {
+   "n": 14,
+   "name_en": "Ibrahim",
+   "name_ar": "ابراهيم",
+   "meaning": "Abraham",
+   "verses": 52,
+   "place": "makkah"
+  },
+  {
+   "n": 15,
+   "name_en": "Al-Hijr",
+   "name_ar": "الحجر",
+   "meaning": "The Rocky Tract",
+   "verses": 99,
+   "place": "makkah"
+  },
+  {
+   "n": 16,
+   "name_en": "An-Nahl",
+   "name_ar": "النحل",
+   "meaning": "The Bee",
+   "verses": 128,
+   "place": "makkah"
+  },
+  {
+   "n": 17,
+   "name_en": "Al-Isra",
+   "name_ar": "الإسراء",
+   "meaning": "The Night Journey",
+   "verses": 111,
+   "place": "makkah"
+  },
+  {
+   "n": 18,
+   "name_en": "Al-Kahf",
+   "name_ar": "الكهف",
+   "meaning": "The Cave",
+   "verses": 110,
+   "place": "makkah"
+  },
+  {
+   "n": 19,
+   "name_en": "Maryam",
+   "name_ar": "مريم",
+   "meaning": "Mary",
+   "verses": 98,
+   "place": "makkah"
+  },
+  {
+   "n": 20,
+   "name_en": "Taha",
+   "name_ar": "طه",
+   "meaning": "Ta-Ha",
+   "verses": 135,
+   "place": "makkah"
+  },
+  {
+   "n": 21,
+   "name_en": "Al-Anbya",
+   "name_ar": "الأنبياء",
+   "meaning": "The Prophets",
+   "verses": 112,
+   "place": "makkah"
+  },
+  {
+   "n": 22,
+   "name_en": "Al-Hajj",
+   "name_ar": "الحج",
+   "meaning": "The Pilgrimage",
+   "verses": 78,
+   "place": "madinah"
+  },
+  {
+   "n": 23,
+   "name_en": "Al-Mu'minun",
+   "name_ar": "المؤمنون",
+   "meaning": "The Believers",
+   "verses": 118,
+   "place": "makkah"
+  },
+  {
+   "n": 24,
+   "name_en": "An-Nur",
+   "name_ar": "النور",
+   "meaning": "The Light",
+   "verses": 64,
+   "place": "madinah"
+  },
+  {
+   "n": 25,
+   "name_en": "Al-Furqan",
+   "name_ar": "الفرقان",
+   "meaning": "The Criterion",
+   "verses": 77,
+   "place": "makkah"
+  },
+  {
+   "n": 26,
+   "name_en": "Ash-Shu'ara",
+   "name_ar": "الشعراء",
+   "meaning": "The Poets",
+   "verses": 227,
+   "place": "makkah"
+  },
+  {
+   "n": 27,
+   "name_en": "An-Naml",
+   "name_ar": "النمل",
+   "meaning": "The Ant",
+   "verses": 93,
+   "place": "makkah"
+  },
+  {
+   "n": 28,
+   "name_en": "Al-Qasas",
+   "name_ar": "القصص",
+   "meaning": "The Stories",
+   "verses": 88,
+   "place": "makkah"
+  },
+  {
+   "n": 29,
+   "name_en": "Al-'Ankabut",
+   "name_ar": "العنكبوت",
+   "meaning": "The Spider",
+   "verses": 69,
+   "place": "makkah"
+  },
+  {
+   "n": 30,
+   "name_en": "Ar-Rum",
+   "name_ar": "الروم",
+   "meaning": "The Romans",
+   "verses": 60,
+   "place": "makkah"
+  },
+  {
+   "n": 31,
+   "name_en": "Luqman",
+   "name_ar": "لقمان",
+   "meaning": "Luqman",
+   "verses": 34,
+   "place": "makkah"
+  },
+  {
+   "n": 32,
+   "name_en": "As-Sajdah",
+   "name_ar": "السجدة",
+   "meaning": "The Prostration",
+   "verses": 30,
+   "place": "makkah"
+  },
+  {
+   "n": 33,
+   "name_en": "Al-Ahzab",
+   "name_ar": "الأحزاب",
+   "meaning": "The Combined Forces",
+   "verses": 73,
+   "place": "madinah"
+  },
+  {
+   "n": 34,
+   "name_en": "Saba",
+   "name_ar": "سبإ",
+   "meaning": "Sheba",
+   "verses": 54,
+   "place": "makkah"
+  },
+  {
+   "n": 35,
+   "name_en": "Fatir",
+   "name_ar": "فاطر",
+   "meaning": "Originator",
+   "verses": 45,
+   "place": "makkah"
+  },
+  {
+   "n": 36,
+   "name_en": "Ya-Sin",
+   "name_ar": "يس",
+   "meaning": "Ya Sin",
+   "verses": 83,
+   "place": "makkah"
+  },
+  {
+   "n": 37,
+   "name_en": "As-Saffat",
+   "name_ar": "الصافات",
+   "meaning": "Those who set the Ranks",
+   "verses": 182,
+   "place": "makkah"
+  },
+  {
+   "n": 38,
+   "name_en": "Sad",
+   "name_ar": "ص",
+   "meaning": "The Letter \"Saad\"",
+   "verses": 88,
+   "place": "makkah"
+  },
+  {
+   "n": 39,
+   "name_en": "Az-Zumar",
+   "name_ar": "الزمر",
+   "meaning": "The Troops",
+   "verses": 75,
+   "place": "makkah"
+  },
+  {
+   "n": 40,
+   "name_en": "Ghafir",
+   "name_ar": "غافر",
+   "meaning": "The Forgiver",
+   "verses": 85,
+   "place": "makkah"
+  },
+  {
+   "n": 41,
+   "name_en": "Fussilat",
+   "name_ar": "فصلت",
+   "meaning": "Explained in Detail",
+   "verses": 54,
+   "place": "makkah"
+  },
+  {
+   "n": 42,
+   "name_en": "Ash-Shuraa",
+   "name_ar": "الشورى",
+   "meaning": "The Consultation",
+   "verses": 53,
+   "place": "makkah"
+  },
+  {
+   "n": 43,
+   "name_en": "Az-Zukhruf",
+   "name_ar": "الزخرف",
+   "meaning": "The Ornaments of Gold",
+   "verses": 89,
+   "place": "makkah"
+  },
+  {
+   "n": 44,
+   "name_en": "Ad-Dukhan",
+   "name_ar": "الدخان",
+   "meaning": "The Smoke",
+   "verses": 59,
+   "place": "makkah"
+  },
+  {
+   "n": 45,
+   "name_en": "Al-Jathiyah",
+   "name_ar": "الجاثية",
+   "meaning": "The Crouching",
+   "verses": 37,
+   "place": "makkah"
+  },
+  {
+   "n": 46,
+   "name_en": "Al-Ahqaf",
+   "name_ar": "الأحقاف",
+   "meaning": "The Wind-Curved Sandhills",
+   "verses": 35,
+   "place": "makkah"
+  },
+  {
+   "n": 47,
+   "name_en": "Muhammad",
+   "name_ar": "محمد",
+   "meaning": "Muhammad",
+   "verses": 38,
+   "place": "madinah"
+  },
+  {
+   "n": 48,
+   "name_en": "Al-Fath",
+   "name_ar": "الفتح",
+   "meaning": "The Victory",
+   "verses": 29,
+   "place": "madinah"
+  },
+  {
+   "n": 49,
+   "name_en": "Al-Hujurat",
+   "name_ar": "الحجرات",
+   "meaning": "The Rooms",
+   "verses": 18,
+   "place": "madinah"
+  },
+  {
+   "n": 50,
+   "name_en": "Qaf",
+   "name_ar": "ق",
+   "meaning": "The Letter \"Qaf\"",
+   "verses": 45,
+   "place": "makkah"
+  },
+  {
+   "n": 51,
+   "name_en": "Adh-Dhariyat",
+   "name_ar": "الذاريات",
+   "meaning": "The Winnowing Winds",
+   "verses": 60,
+   "place": "makkah"
+  },
+  {
+   "n": 52,
+   "name_en": "At-Tur",
+   "name_ar": "الطور",
+   "meaning": "The Mount",
+   "verses": 49,
+   "place": "makkah"
+  },
+  {
+   "n": 53,
+   "name_en": "An-Najm",
+   "name_ar": "النجم",
+   "meaning": "The Star",
+   "verses": 62,
+   "place": "makkah"
+  },
+  {
+   "n": 54,
+   "name_en": "Al-Qamar",
+   "name_ar": "القمر",
+   "meaning": "The Moon",
+   "verses": 55,
+   "place": "makkah"
+  },
+  {
+   "n": 55,
+   "name_en": "Ar-Rahman",
+   "name_ar": "الرحمن",
+   "meaning": "The Beneficent",
+   "verses": 78,
+   "place": "madinah"
+  },
+  {
+   "n": 56,
+   "name_en": "Al-Waqi'ah",
+   "name_ar": "الواقعة",
+   "meaning": "The Inevitable",
+   "verses": 96,
+   "place": "makkah"
+  },
+  {
+   "n": 57,
+   "name_en": "Al-Hadid",
+   "name_ar": "الحديد",
+   "meaning": "The Iron",
+   "verses": 29,
+   "place": "madinah"
+  },
+  {
+   "n": 58,
+   "name_en": "Al-Mujadila",
+   "name_ar": "المجادلة",
+   "meaning": "The Pleading Woman",
+   "verses": 22,
+   "place": "madinah"
+  },
+  {
+   "n": 59,
+   "name_en": "Al-Hashr",
+   "name_ar": "الحشر",
+   "meaning": "The Exile",
+   "verses": 24,
+   "place": "madinah"
+  },
+  {
+   "n": 60,
+   "name_en": "Al-Mumtahanah",
+   "name_ar": "الممتحنة",
+   "meaning": "She that is to be examined",
+   "verses": 13,
+   "place": "madinah"
+  },
+  {
+   "n": 61,
+   "name_en": "As-Saf",
+   "name_ar": "الصف",
+   "meaning": "The Ranks",
+   "verses": 14,
+   "place": "madinah"
+  },
+  {
+   "n": 62,
+   "name_en": "Al-Jumu'ah",
+   "name_ar": "الجمعة",
+   "meaning": "The Congregation, Friday",
+   "verses": 11,
+   "place": "madinah"
+  },
+  {
+   "n": 63,
+   "name_en": "Al-Munafiqun",
+   "name_ar": "المنافقون",
+   "meaning": "The Hypocrites",
+   "verses": 11,
+   "place": "madinah"
+  },
+  {
+   "n": 64,
+   "name_en": "At-Taghabun",
+   "name_ar": "التغابن",
+   "meaning": "The Mutual Disillusion",
+   "verses": 18,
+   "place": "madinah"
+  },
+  {
+   "n": 65,
+   "name_en": "At-Talaq",
+   "name_ar": "الطلاق",
+   "meaning": "The Divorce",
+   "verses": 12,
+   "place": "madinah"
+  },
+  {
+   "n": 66,
+   "name_en": "At-Tahrim",
+   "name_ar": "التحريم",
+   "meaning": "The Prohibition",
+   "verses": 12,
+   "place": "madinah"
+  },
+  {
+   "n": 67,
+   "name_en": "Al-Mulk",
+   "name_ar": "الملك",
+   "meaning": "The Sovereignty",
+   "verses": 30,
+   "place": "makkah"
+  },
+  {
+   "n": 68,
+   "name_en": "Al-Qalam",
+   "name_ar": "القلم",
+   "meaning": "The Pen",
+   "verses": 52,
+   "place": "makkah"
+  },
+  {
+   "n": 69,
+   "name_en": "Al-Haqqah",
+   "name_ar": "الحاقة",
+   "meaning": "The Reality",
+   "verses": 52,
+   "place": "makkah"
+  },
+  {
+   "n": 70,
+   "name_en": "Al-Ma'arij",
+   "name_ar": "المعارج",
+   "meaning": "The Ascending Stairways",
+   "verses": 44,
+   "place": "makkah"
+  },
+  {
+   "n": 71,
+   "name_en": "Nuh",
+   "name_ar": "نوح",
+   "meaning": "Noah",
+   "verses": 28,
+   "place": "makkah"
+  },
+  {
+   "n": 72,
+   "name_en": "Al-Jinn",
+   "name_ar": "الجن",
+   "meaning": "The Jinn",
+   "verses": 28,
+   "place": "makkah"
+  },
+  {
+   "n": 73,
+   "name_en": "Al-Muzzammil",
+   "name_ar": "المزمل",
+   "meaning": "The Enshrouded One",
+   "verses": 20,
+   "place": "makkah"
+  },
+  {
+   "n": 74,
+   "name_en": "Al-Muddaththir",
+   "name_ar": "المدثر",
+   "meaning": "The Cloaked One",
+   "verses": 56,
+   "place": "makkah"
+  },
+  {
+   "n": 75,
+   "name_en": "Al-Qiyamah",
+   "name_ar": "القيامة",
+   "meaning": "The Resurrection",
+   "verses": 40,
+   "place": "makkah"
+  },
+  {
+   "n": 76,
+   "name_en": "Al-Insan",
+   "name_ar": "الانسان",
+   "meaning": "The Man",
+   "verses": 31,
+   "place": "madinah"
+  },
+  {
+   "n": 77,
+   "name_en": "Al-Mursalat",
+   "name_ar": "المرسلات",
+   "meaning": "The Emissaries",
+   "verses": 50,
+   "place": "makkah"
+  },
+  {
+   "n": 78,
+   "name_en": "An-Naba",
+   "name_ar": "النبإ",
+   "meaning": "The Tidings",
+   "verses": 40,
+   "place": "makkah"
+  },
+  {
+   "n": 79,
+   "name_en": "An-Nazi'at",
+   "name_ar": "النازعات",
+   "meaning": "Those who drag forth",
+   "verses": 46,
+   "place": "makkah"
+  },
+  {
+   "n": 80,
+   "name_en": "'Abasa",
+   "name_ar": "عبس",
+   "meaning": "He Frowned",
+   "verses": 42,
+   "place": "makkah"
+  },
+  {
+   "n": 81,
+   "name_en": "At-Takwir",
+   "name_ar": "التكوير",
+   "meaning": "The Overthrowing",
+   "verses": 29,
+   "place": "makkah"
+  },
+  {
+   "n": 82,
+   "name_en": "Al-Infitar",
+   "name_ar": "الإنفطار",
+   "meaning": "The Cleaving",
+   "verses": 19,
+   "place": "makkah"
+  },
+  {
+   "n": 83,
+   "name_en": "Al-Mutaffifin",
+   "name_ar": "المطففين",
+   "meaning": "The Defrauding",
+   "verses": 36,
+   "place": "makkah"
+  },
+  {
+   "n": 84,
+   "name_en": "Al-Inshiqaq",
+   "name_ar": "الإنشقاق",
+   "meaning": "The Sundering",
+   "verses": 25,
+   "place": "makkah"
+  },
+  {
+   "n": 85,
+   "name_en": "Al-Buruj",
+   "name_ar": "البروج",
+   "meaning": "The Mansions of the Stars",
+   "verses": 22,
+   "place": "makkah"
+  },
+  {
+   "n": 86,
+   "name_en": "At-Tariq",
+   "name_ar": "الطارق",
+   "meaning": "The Nightcommer",
+   "verses": 17,
+   "place": "makkah"
+  },
+  {
+   "n": 87,
+   "name_en": "Al-A'la",
+   "name_ar": "الأعلى",
+   "meaning": "The Most High",
+   "verses": 19,
+   "place": "makkah"
+  },
+  {
+   "n": 88,
+   "name_en": "Al-Ghashiyah",
+   "name_ar": "الغاشية",
+   "meaning": "The Overwhelming",
+   "verses": 26,
+   "place": "makkah"
+  },
+  {
+   "n": 89,
+   "name_en": "Al-Fajr",
+   "name_ar": "الفجر",
+   "meaning": "The Dawn",
+   "verses": 30,
+   "place": "makkah"
+  },
+  {
+   "n": 90,
+   "name_en": "Al-Balad",
+   "name_ar": "البلد",
+   "meaning": "The City",
+   "verses": 20,
+   "place": "makkah"
+  },
+  {
+   "n": 91,
+   "name_en": "Ash-Shams",
+   "name_ar": "الشمس",
+   "meaning": "The Sun",
+   "verses": 15,
+   "place": "makkah"
+  },
+  {
+   "n": 92,
+   "name_en": "Al-Layl",
+   "name_ar": "الليل",
+   "meaning": "The Night",
+   "verses": 21,
+   "place": "makkah"
+  },
+  {
+   "n": 93,
+   "name_en": "Ad-Duhaa",
+   "name_ar": "الضحى",
+   "meaning": "The Morning Hours",
+   "verses": 11,
+   "place": "makkah"
+  },
+  {
+   "n": 94,
+   "name_en": "Ash-Sharh",
+   "name_ar": "الشرح",
+   "meaning": "The Relief",
+   "verses": 8,
+   "place": "makkah"
+  },
+  {
+   "n": 95,
+   "name_en": "At-Tin",
+   "name_ar": "التين",
+   "meaning": "The Fig",
+   "verses": 8,
+   "place": "makkah"
+  },
+  {
+   "n": 96,
+   "name_en": "Al-'Alaq",
+   "name_ar": "العلق",
+   "meaning": "The Clot",
+   "verses": 19,
+   "place": "makkah"
+  },
+  {
+   "n": 97,
+   "name_en": "Al-Qadr",
+   "name_ar": "القدر",
+   "meaning": "The Power",
+   "verses": 5,
+   "place": "makkah"
+  },
+  {
+   "n": 98,
+   "name_en": "Al-Bayyinah",
+   "name_ar": "البينة",
+   "meaning": "The Clear Proof",
+   "verses": 8,
+   "place": "madinah"
+  },
+  {
+   "n": 99,
+   "name_en": "Az-Zalzalah",
+   "name_ar": "الزلزلة",
+   "meaning": "The Earthquake",
+   "verses": 8,
+   "place": "madinah"
+  },
+  {
+   "n": 100,
+   "name_en": "Al-'Adiyat",
+   "name_ar": "العاديات",
+   "meaning": "The Courser",
+   "verses": 11,
+   "place": "makkah"
+  },
+  {
+   "n": 101,
+   "name_en": "Al-Qari'ah",
+   "name_ar": "القارعة",
+   "meaning": "The Calamity",
+   "verses": 11,
+   "place": "makkah"
+  },
+  {
+   "n": 102,
+   "name_en": "At-Takathur",
+   "name_ar": "التكاثر",
+   "meaning": "The Rivalry in world increase",
+   "verses": 8,
+   "place": "makkah"
+  },
+  {
+   "n": 103,
+   "name_en": "Al-'Asr",
+   "name_ar": "العصر",
+   "meaning": "The Declining Day",
+   "verses": 3,
+   "place": "makkah"
+  },
+  {
+   "n": 104,
+   "name_en": "Al-Humazah",
+   "name_ar": "الهمزة",
+   "meaning": "The Traducer",
+   "verses": 9,
+   "place": "makkah"
+  },
+  {
+   "n": 105,
+   "name_en": "Al-Fil",
+   "name_ar": "الفيل",
+   "meaning": "The Elephant",
+   "verses": 5,
+   "place": "makkah"
+  },
+  {
+   "n": 106,
+   "name_en": "Quraysh",
+   "name_ar": "قريش",
+   "meaning": "Quraysh",
+   "verses": 4,
+   "place": "makkah"
+  },
+  {
+   "n": 107,
+   "name_en": "Al-Ma'un",
+   "name_ar": "الماعون",
+   "meaning": "The Small kindnesses",
+   "verses": 7,
+   "place": "makkah"
+  },
+  {
+   "n": 108,
+   "name_en": "Al-Kawthar",
+   "name_ar": "الكوثر",
+   "meaning": "The Abundance",
+   "verses": 3,
+   "place": "makkah"
+  },
+  {
+   "n": 109,
+   "name_en": "Al-Kafirun",
+   "name_ar": "الكافرون",
+   "meaning": "The Disbelievers",
+   "verses": 6,
+   "place": "makkah"
+  },
+  {
+   "n": 110,
+   "name_en": "An-Nasr",
+   "name_ar": "النصر",
+   "meaning": "The Divine Support",
+   "verses": 3,
+   "place": "madinah"
+  },
+  {
+   "n": 111,
+   "name_en": "Al-Masad",
+   "name_ar": "المسد",
+   "meaning": "The Palm Fiber",
+   "verses": 5,
+   "place": "makkah"
+  },
+  {
+   "n": 112,
+   "name_en": "Al-Ikhlas",
+   "name_ar": "الإخلاص",
+   "meaning": "The Sincerity",
+   "verses": 4,
+   "place": "makkah"
+  },
+  {
+   "n": 113,
+   "name_en": "Al-Falaq",
+   "name_ar": "الفلق",
+   "meaning": "The Daybreak",
+   "verses": 5,
+   "place": "makkah"
+  },
+  {
+   "n": 114,
+   "name_en": "An-Nas",
+   "name_ar": "الناس",
+   "meaning": "Mankind",
+   "verses": 6,
+   "place": "makkah"
+  }
+ ],
+ "reciters": [
+  {
+   "id": 7,
+   "name_en": "Mishari Rashid al-'Afasy",
+   "name_ar": "مشاري راشد العفاسي",
+   "style": "Murattal"
+  },
+  {
+   "id": 2,
+   "name_en": "Abdul Basit Abdul Samad",
+   "name_ar": "عبد الباسط عبد الصمد",
+   "style": "Murattal"
+  },
+  {
+   "id": 1,
+   "name_en": "Abdul Basit Abdul Samad",
+   "name_ar": "عبد الباسط عبد الصمد",
+   "style": "Mujawwad"
+  },
+  {
+   "id": 3,
+   "name_en": "Abdur-Rahman as-Sudais",
+   "name_ar": "عبد الرحمن السديس",
+   "style": "Murattal"
+  },
+  {
+   "id": 4,
+   "name_en": "Abu Bakr al-Shatri",
+   "name_ar": "أبو بكر الشاطري",
+   "style": "Murattal"
+  },
+  {
+   "id": 5,
+   "name_en": "Hani ar-Rifai",
+   "name_ar": "هاني الرفاعي",
+   "style": "Murattal"
+  },
+  {
+   "id": 6,
+   "name_en": "Mahmoud Khaleel Al-Husary",
+   "name_ar": "محمود خليل الحصري",
+   "style": "Murattal"
+  },
+  {
+   "id": 9,
+   "name_en": "Muhammad Siddiq al-Minshawi",
+   "name_ar": "محمد صديق المنشاوي",
+   "style": "Murattal"
+  },
+  {
+   "id": 10,
+   "name_en": "Sa'ud ash-Shuraym",
+   "name_ar": "سعود الشريم",
+   "style": "Murattal"
+  },
+  {
+   "id": 97,
+   "name_en": "Yasser ad-Dussary",
+   "name_ar": "ياسر الدوسري",
+   "style": "Murattal"
+  },
+  {
+   "id": 161,
+   "name_en": "Khalifah Al Tunaiji",
+   "name_ar": "خليفة الطنيجي",
+   "style": "Murattal"
+  }
+ ]
+}

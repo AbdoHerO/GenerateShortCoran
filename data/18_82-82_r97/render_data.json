@@ -1,0 +1,587 @@
+{
+ "fps": 30,
+ "W": 1080,
+ "H": 1920,
+ "duration": 41.85,
+ "intro": 2.4,
+ "outro_start": 37.65,
+ "surah": {
+  "name_ar": "الكهف",
+  "name_en": "Al-Kahf",
+  "number": 18,
+  "from_ar": "٨٢",
+  "to_ar": "٨٢",
+  "from": 82,
+  "to": 82
+ },
+ "credits": {
+  "reciter_ar": "ياسر الدوسري",
+  "reciter_en": "Yasser ad-Dussary",
+  "translation_en": "Translation: Saheeh International",
+  "data_en": "Text, audio timings & tafsir: Quran Foundation (quran.com)"
+ },
+ "cover": {
+  "dur": 1.0,
+  "t": 11.47,
+  "series_ar": "موسى والخضر",
+  "series_en": "Musa and al-Khidr",
+  "title_ar": "تأويل الجدار",
+  "title_en": "The meaning of the wall"
+ },
+ "chapters": [
+  {
+   "id": "c1",
+   "title": "حكمة الجدار",
+   "scene": "stage",
+   "params": {
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "musa",
+      "type": "prophet",
+      "label": "موسى عليه السلام",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "wall",
+      "type": "wall",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "khidr",
+      "type": "honored",
+      "label": "الخضر",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [
+     {
+      "type": "wall_repair",
+      "at": [
+       82,
+       1
+      ],
+      "until": null
+     }
+    ],
+    "beats": [
+     {
+      "at": [
+       82,
+       1
+      ],
+      "do": "speak",
+      "who": "khidr"
+     },
+     {
+      "at": [
+       82,
+       2
+      ],
+      "do": "shot_close",
+      "who": "wall"
+     },
+     {
+      "at": [
+       82,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       82,
+       9
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       82,
+       10
+      ],
+      "do": "sparkle",
+      "who": "ground"
+     },
+     {
+      "at": [
+       82,
+       14
+      ],
+      "do": "shot_close",
+      "who": "khidr"
+     },
+     {
+      "at": [
+       82,
+       15
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       82,
+       20
+      ],
+      "do": "shot_close",
+      "who": "wall"
+     },
+     {
+      "at": [
+       82,
+       22
+      ],
+      "do": "clouds_part"
+     },
+     {
+      "at": [
+       82,
+       26
+      ],
+      "do": "glow",
+      "who": "khidr"
+     },
+     {
+      "at": [
+       82,
+       28
+      ],
+      "do": "bow",
+      "who": "khidr"
+     },
+     {
+      "at": [
+       82,
+       30
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       82,
+       35
+      ],
+      "do": "bow",
+      "who": "musa"
+     }
+    ]
+   },
+   "bg": "#ece4d8",
+   "verses": [
+    82
+   ],
+   "start": 0.0,
+   "end": 41.85
+  }
+ ],
+ "verses": [
+  {
+   "n": 82,
+   "key": "18:82",
+   "num_ar": "٨٢",
+   "words": [
+    {
+     "pos": 1,
+     "text": "وَأَمَّا"
+    },
+    {
+     "pos": 2,
+     "text": "ٱلْجِدَارُ"
+    },
+    {
+     "pos": 3,
+     "text": "فَكَانَ"
+    },
+    {
+     "pos": 4,
+     "text": "لِغُلَـٰمَيْنِ"
+    },
+    {
+     "pos": 5,
+     "text": "يَتِيمَيْنِ"
+    },
+    {
+     "pos": 6,
+     "text": "فِى"
+    },
+    {
+     "pos": 7,
+     "text": "ٱلْمَدِينَةِ"
+    },
+    {
+     "pos": 8,
+     "text": "وَكَانَ"
+    },
+    {
+     "pos": 9,
+     "text": "تَحْتَهُۥ"
+    },
+    {
+     "pos": 10,
+     "text": "كَنزٌۭ"
+    },
+    {
+     "pos": 11,
+     "text": "لَّهُمَا"
+    },
+    {
+     "pos": 12,
+     "text": "وَكَانَ"
+    },
+    {
+     "pos": 13,
+     "text": "أَبُوهُمَا"
+    },
+    {
+     "pos": 14,
+     "text": "صَـٰلِحًۭا"
+    },
+    {
+     "pos": 15,
+     "text": "فَأَرَادَ"
+    },
+    {
+     "pos": 16,
+     "text": "رَبُّكَ"
+    },
+    {
+     "pos": 17,
+     "text": "أَن"
+    },
+    {
+     "pos": 18,
+     "text": "يَبْلُغَآ"
+    },
+    {
+     "pos": 19,
+     "text": "أَشُدَّهُمَا"
+    },
+    {
+     "pos": 20,
+     "text": "وَيَسْتَخْرِجَا"
+    },
+    {
+     "pos": 21,
+     "text": "كَنزَهُمَا"
+    },
+    {
+     "pos": 22,
+     "text": "رَحْمَةًۭ"
+    },
+    {
+     "pos": 23,
+     "text": "مِّن"
+    },
+    {
+     "pos": 24,
+     "text": "رَّبِّكَ ۚ"
+    },
+    {
+     "pos": 25,
+     "text": "وَمَا"
+    },
+    {
+     "pos": 26,
+     "text": "فَعَلْتُهُۥ"
+    },
+    {
+     "pos": 27,
+     "text": "عَنْ"
+    },
+    {
+     "pos": 28,
+     "text": "أَمْرِى ۚ"
+    },
+    {
+     "pos": 29,
+     "text": "ذَٰلِكَ"
+    },
+    {
+     "pos": 30,
+     "text": "تَأْوِيلُ"
+    },
+    {
+     "pos": 31,
+     "text": "مَا"
+    },
+    {
+     "pos": 32,
+     "text": "لَمْ"
+    },
+    {
+     "pos": 33,
+     "text": "تَسْطِع"
+    },
+    {
+     "pos": 34,
+     "text": "عَّلَيْهِ"
+    },
+    {
+     "pos": 35,
+     "text": "صَبْرًۭا"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     2.46,
+     3.65
+    ],
+    [
+     2,
+     3.65,
+     4.54
+    ],
+    [
+     3,
+     4.54,
+     5.29
+    ],
+    [
+     4,
+     5.29,
+     6.46
+    ],
+    [
+     5,
+     6.5,
+     7.63
+    ],
+    [
+     6,
+     7.63,
+     7.86
+    ],
+    [
+     7,
+     7.86,
+     9.23
+    ],
+    [
+     8,
+     9.23,
+     9.98
+    ],
+    [
+     9,
+     9.98,
+     10.87
+    ],
+    [
+     10,
+     10.87,
+     11.91
+    ],
+    [
+     11,
+     11.91,
+     12.64
+    ],
+    [
+     12,
+     12.64,
+     13.4
+    ],
+    [
+     13,
+     13.4,
+     14.49
+    ],
+    [
+     14,
+     14.49,
+     15.94
+    ],
+    [
+     15,
+     15.94,
+     16.83
+    ],
+    [
+     16,
+     16.83,
+     17.49
+    ],
+    [
+     17,
+     17.53,
+     18.04
+    ],
+    [
+     18,
+     18.04,
+     20.18
+    ],
+    [
+     19,
+     20.18,
+     21.43
+    ],
+    [
+     20,
+     21.43,
+     22.87
+    ],
+    [
+     21,
+     22.87,
+     24.32
+    ],
+    [
+     22,
+     24.32,
+     25.85
+    ],
+    [
+     23,
+     25.85,
+     26.08
+    ],
+    [
+     24,
+     26.14,
+     27.36
+    ],
+    [
+     25,
+     27.36,
+     27.91
+    ],
+    [
+     26,
+     27.91,
+     29.06
+    ],
+    [
+     27,
+     29.06,
+     29.46
+    ],
+    [
+     28,
+     29.46,
+     30.82
+    ],
+    [
+     29,
+     30.82,
+     31.57
+    ],
+    [
+     30,
+     31.69,
+     32.75
+    ],
+    [
+     31,
+     32.75,
+     33.18
+    ],
+    [
+     32,
+     33.18,
+     33.55
+    ],
+    [
+     33,
+     33.55,
+     34.37
+    ],
+    [
+     34,
+     34.37,
+     35.34
+    ],
+    [
+     35,
+     35.34,
+     37.25
+    ]
+   ],
+   "start": 2.46,
+   "first_word": 2.46,
+   "last_word": 37.25,
+   "translation": "And as for the wall, it belonged to two orphan boys in the city, and there was beneath it a treasure for them, and their father had been righteous. So your Lord intended that they reach maturity and extract their treasure, as a mercy from your Lord. And I did it not of my own accord. That is the interpretation of that about which you could not have patience.\"",
+   "glosses": [
+    {
+     "w0": 4,
+     "w1": 5,
+     "chip": "لِغُلَـٰمَيْنِ يَتِيمَيْنِ",
+     "excerpt": "لكونهما صغيرين عدما أباهما",
+     "source": "تفسير السعدي",
+     "target": null,
+     "tone": "blue",
+     "start": 5.29,
+     "end": 13.35
+    },
+    {
+     "w0": 13,
+     "w1": 14,
+     "chip": "أَبُوهُمَا صَـٰلِحًۭا",
+     "excerpt": "وحفظهما الله أيضا بصلاح والدهما",
+     "source": "تفسير السعدي",
+     "target": null,
+     "tone": "green",
+     "start": 13.4,
+     "end": 17.99
+    },
+    {
+     "w0": 18,
+     "w1": 19,
+     "chip": "يَبْلُغَآ أَشُدَّهُمَا",
+     "excerpt": "أن يكبَرا ويبلغا قوتهما",
+     "source": "التفسير الميسر",
+     "target": null,
+     "tone": "blue",
+     "start": 18.04,
+     "end": 27.31
+    },
+    {
+     "w0": 25,
+     "w1": 28,
+     "chip": "وَمَا فَعَلْتُهُۥ عَنْ أَمْرِى ۚ",
+     "excerpt": "وإنما ذلك من رحمة الله وأمره",
+     "source": "تفسير السعدي",
+     "target": "khidr",
+     "tone": "green",
+     "start": 27.36,
+     "end": 31.64
+    },
+    {
+     "w0": 30,
+     "w1": 35,
+     "chip": "تَأْوِيلُ مَا لَمْ تَسْطِع عَّلَيْهِ صَبْرًۭا",
+     "excerpt": "ذلك الذي بَيَّنْتُ لك أسبابه",
+     "source": "التفسير الميسر",
+     "target": "khidr",
+     "tone": "blue",
+     "start": 31.69,
+     "end": 37.75
+    }
+   ],
+   "end": 37.85
+  }
+ ],
+ "audio": {
+  "slice_start": 1365.79,
+  "slice_end": 1400.64,
+  "file": "audio_master.wav"
+ },
+ "timing_corrections": [],
+ "timing_flags": [],
+ "aligned_boundaries": []
+}

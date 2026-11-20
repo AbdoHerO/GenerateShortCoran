@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ar">
+<head>
+<meta charset="utf-8">
+<link rel="icon" href="data:,">
+<title>Review Sheet</title>
+<style>
+  @font-face { font-family: "Scheherazade New"; src: url(fonts/ScheherazadeNew-Regular.ttf); }
+  @font-face { font-family: "Tajawal"; src: url(fonts/Tajawal-Bold.ttf); font-weight: 700; }
+  @font-face { font-family: "Tajawal"; src: url(fonts/Tajawal-Medium.ttf); font-weight: 500; }
+  @font-face { font-family: "Montserrat"; src: url(fonts/Montserrat-Medium.ttf); font-weight: 500; }
+  @font-face { font-family: "Montserrat"; src: url(fonts/Montserrat-SemiBold.ttf); font-weight: 600; }
+  @page { size: A4; margin: 14mm 12mm; }
+  body { font: 500 12.5px "Montserrat", sans-serif; color: #24263a; margin: 0; }
+  h1 { font: 600 20px "Montserrat"; margin: 0 0 4px; }
+  .meta { color: #555; line-height: 1.6; margin-bottom: 10px; }
+  .pass { display: inline-block; background: #e3f3e8; color: #1f6b3c; border-radius: 4px; padding: 1px 8px; font-weight: 600; }
+  .fail { display: inline-block; background: #fbe4e2; color: #9a2b23; border-radius: 4px; padding: 1px 8px; font-weight: 600; }
+  .verse { border: 1px solid #d9d4c7; border-radius: 8px; padding: 10px 14px; margin: 10px 0; break-inside: avoid; }
+  .vh { display: flex; justify-content: space-between; align-items: center; font-weight: 600; color: #6b5420; }
+  .ar { font-family: "Scheherazade New"; direction: rtl; text-align: center; font-size: 30px; line-height: 2.0; margin: 2px 0; }
+  .words { direction: rtl; display: flex; flex-wrap: wrap; gap: 5px; margin: 4px 0 6px; }
+  .w { border: 1px solid #e3dccb; border-radius: 6px; padding: 0 6px; text-align: center; background: #fbf8f1; }
+  .w b { display: block; font: 600 9px "Montserrat"; color: #8a8270; direction: ltr; }
+  .w span { font-family: "Scheherazade New"; font-size: 22px; line-height: 1.7; }
+  .w.rep { border-color: #d6962a; background: #fdf3df; }
+  .tr { margin: 4px 0; }
+  .gl { direction: rtl; font-family: "Tajawal"; font-weight: 700; font-size: 14px; background: #f6f7fb; border-radius: 6px; padding: 4px 8px; margin: 4px 0; }
+  .gl .q { font-family: "Scheherazade New"; font-weight: 400; font-size: 20px; }
+  .gl small { font-weight: 500; color: #777; }
+  .sign { display: flex; gap: 18px; margin-top: 4px; color: #777; font-size: 11px; }
+  .box { display: inline-block; width: 12px; height: 12px; border: 1.5px solid #888; border-radius: 2px; vertical-align: -2px; margin-left: 4px; }
+  table { border-collapse: collapse; width: 100%; margin: 6px 0; }
+  td, th { border: 1px solid #ddd; padding: 3px 6px; text-align: left; }
+  td.rtl { direction: rtl; text-align: right; font-family: "Tajawal"; font-weight: 700; }
+  .final { border: 2px solid #24263a; border-radius: 8px; padding: 12px; margin-top: 14px; break-inside: avoid; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script type="module">
+  const q = new URLSearchParams(location.search);
+  const dataPath = q.get('data') || 'data/15_57-77/render_data.json';
+  const D = await (await fetch('/' + dataPath)).json();
+  const report = await (await fetch('/' + dataPath.replace('render_data.json', 'verify_report.md'))).text();
+  const passed = /Result: \*\*PASSED\*\*/.test(report);
+  const summary = (report.match(/Result: \*\*\w+\*\*\s+\(([^)]+)\)/) || [])[1] || '';
+  const esc = (s) => s.replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
+  const fmt = (s) => { const m = Math.floor(s / 60); return `${m}:${(s - m * 60).toFixed(1).padStart(4, '0')}`; };
+  let h = `<h1>Review sheet — Surat ${esc(D.surah.name_en)} ${D.surah.from}–${D.surah.to}</h1>
+  <div class="meta">Reciter: ${esc(D.credits.reciter_ar)} (${esc(D.credits.reciter_en || 'Mishari Alafasy')}, Hafs) · ${esc(D.credits.translation_en)} · ${esc(D.credits.data_en)}<br>
+  Automated verification: <span class="${passed ? 'pass' : 'fail'}">${passed ? 'PASSED' : 'FAILED'}</span> ${esc(summary)} — text cross-checked against Tanzil Uthmani, every word timed, every gloss verbatim from the cited tafsir.<br>
+  All Arabic below is rendered from the same data and the same font as the video. Timings are video time (m:ss).</div>`;
+  h += `<table><tr><th>Chapter title (UI text, not Quran)</th><th>Verses</th><th>Starts</th><th>OK</th></tr>` +
+    D.chapters.map((c) => `<tr><td class="rtl">${esc(c.title)}</td><td>${c.verses.join(', ')}</td><td>${fmt(c.start)}</td><td><span class="box"></span></td></tr>`).join('') + `</table>`;
+  if ((D.timing_corrections || []).length) {
+    h += `<div class="verse" style="border-color:#d6962a;background:#fffaf0"><b>Listen and confirm: corrections to QF word timings</b>` +
+      D.timing_corrections.map((c) => {
+        const v = D.verses.find((x) => x.n === c.verse), w = v.words[c.set_word - 1];
+        return `<div style="margin-top:6px">${D.surah.number}:${c.verse} — at <b>${fmt(c.video_t)}</b> the gold highlight should be on
+          <span class="q" style="font-family:'Scheherazade New';font-size:22px">${esc(w.text)}</span> (word ${c.set_word}).
+          The QF data labelled this segment as word ${c.expect_word}.<br><small>${esc(c.note || '')}</small>
+          <div class="sign"><span><span class="box"></span> Confirmed by ear</span><span><span class="box"></span> Wrong (note time): ________</span></div></div>`;
+      }).join('') + `</div>`;
+  }
+  if ((D.timing_flags || []).length) {
+    h += `<div class="verse" style="border-color:#d6962a;background:#fffaf0"><b>Listen closely: very short word timings</b><br>
+      <small>The timing data gives these words less than 0.15 s; check by ear that the highlight still matches the voice.</small>` +
+      D.timing_flags.map((f) => `<div style="margin-top:4px">${D.surah.number}:${f.verse} word ${f.word} <span style="font-family:'Scheherazade New';font-size:22px">${esc(f.text)}</span> at <b>${fmt(f.video_t)}</b> (${f.dur_ms} ms) <span class="box"></span> OK</div>`).join('') + `</div>`;
+  }
+  if ((D.aligned_boundaries || []).length) {
+    h += `<div class="verse" style="border-color:#c9d6e8;background:#f6f9fd"><b>Verse boundaries aligned to the reciter's pauses</b><br>
+      <small>The timing data placed these boundaries while the reciter was still sounding; each was moved onto the real pause measured in the audio. Listen at these times: the highlight must move to the next verse exactly when the reciter starts it.</small>` +
+      D.aligned_boundaries.map((m) => `<div style="margin-top:4px">${D.surah.number}:${m.after} → ${m.after + 1} at <b>${fmt(m.video_t)}</b> (moved ${m.shift_s > 0 ? '+' : ''}${m.shift_s.toFixed(2)} s) <span class="box"></span> OK</div>`).join('') + `</div>`;
+  }
+  for (const v of D.verses) {
+    const seen = new Map();
+    for (const s of v.segments) seen.set(s[0], (seen.get(s[0]) || 0) + 1);
+    h += `<div class="verse"><div class="vh"><span>${D.surah.number}:${v.n}</span><span>${fmt(v.start)} – ${fmt(v.end)}</span></div>
+      <div class="ar">${esc(v.words.map((w) => w.text).join(' '))} ﴿${v.num_ar}﴾</div>
+      <div class="words">${v.words.map((w) => {
+        const s = v.segments.find((x) => x[0] === w.pos);
+        const rep = seen.get(w.pos) > 1;
+        return `<div class="w${rep ? ' rep' : ''}"><b>${w.pos} · ${fmt(s[1])}${rep ? ' ×' + seen.get(w.pos) : ''}</b><span>${esc(w.text)}</span></div>`;
+      }).join('')}</div>
+      <div class="tr">${esc(v.translation)}</div>
+      ${v.glosses.map((g) => `<div class="gl"><span class="q">${esc(g.chip)}</span> ← ${esc(g.excerpt)} <small>(${esc(g.source)} · ${fmt(g.start)})</small></div>`).join('')}
+      <div class="sign"><span><span class="box"></span> Arabic text</span><span><span class="box"></span> Word highlight timing</span><span><span class="box"></span> Translation</span><span><span class="box"></span> Glosses &amp; scene</span></div></div>`;
+  }
+  h += `<div class="final"><b>Approval</b><br><br>Reviewed by: ______________________ &nbsp;&nbsp; Date: ____________ &nbsp;&nbsp; Signature: ______________________<br><br>
+  <span class="box"></span> Approved for publishing &nbsp;&nbsp; <span class="box"></span> Changes required (list): ______________________________________________</div>`;
+  document.getElementById('root').innerHTML = h;
+  await document.fonts.ready;
+  window.done = true;
+</script>
+</body>
+</html>

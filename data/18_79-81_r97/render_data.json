@@ -1,0 +1,639 @@
+{
+ "fps": 30,
+ "W": 1080,
+ "H": 1920,
+ "duration": 45.0,
+ "intro": 2.4,
+ "outro_start": 40.8,
+ "surah": {
+  "name_ar": "الكهف",
+  "name_en": "Al-Kahf",
+  "number": 18,
+  "from_ar": "٧٩",
+  "to_ar": "٨١",
+  "from": 79,
+  "to": 81
+ },
+ "credits": {
+  "reciter_ar": "ياسر الدوسري",
+  "reciter_en": "Yasser ad-Dussary",
+  "translation_en": "Translation: Saheeh International",
+  "data_en": "Text, audio timings & tafsir: Quran Foundation (quran.com)"
+ },
+ "cover": {
+  "dur": 1.0,
+  "t": 8.94,
+  "series_ar": "موسى والخضر",
+  "series_en": "Musa and al-Khidr",
+  "title_ar": "تأويل السفينة والغلام",
+  "title_en": "The meaning of the ship and the boy"
+ },
+ "chapters": [
+  {
+   "id": "c1",
+   "title": "حكمة السفينة",
+   "scene": "ambient",
+   "params": {
+    "mood": "sea",
+    "beats": [
+     {
+      "at": [
+       79,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       79,
+       4
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       79,
+       7
+      ],
+      "do": "waves"
+     },
+     {
+      "at": [
+       79,
+       10
+      ],
+      "do": "sparkle",
+      "who": "center"
+     },
+     {
+      "at": [
+       79,
+       12
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       79,
+       13
+      ],
+      "do": "wind"
+     },
+     {
+      "at": [
+       79,
+       17
+      ],
+      "do": "waves"
+     }
+    ]
+   },
+   "bg": "#e1e8ea",
+   "verses": [
+    79
+   ],
+   "start": 0.0,
+   "end": 19.18
+  },
+  {
+   "id": "c2",
+   "title": "رحمة بالأبوين",
+   "scene": "ambient",
+   "params": {
+    "mood": "dawn",
+    "beats": [
+     {
+      "at": [
+       80,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       80,
+       5
+      ],
+      "do": "light_up"
+     },
+     {
+      "at": [
+       80,
+       8
+      ],
+      "do": "wind"
+     },
+     {
+      "at": [
+       80,
+       10
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       81,
+       1
+      ],
+      "do": "clouds_part"
+     },
+     {
+      "at": [
+       81,
+       4
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       81,
+       5
+      ],
+      "do": "birds"
+     },
+     {
+      "at": [
+       81,
+       7
+      ],
+      "do": "sparkle",
+      "who": "light"
+     },
+     {
+      "at": [
+       81,
+       9
+      ],
+      "do": "light_up"
+     }
+    ]
+   },
+   "bg": "#f1e6d6",
+   "verses": [
+    80,
+    81
+   ],
+   "start": 19.18,
+   "end": 45.0
+  }
+ ],
+ "verses": [
+  {
+   "n": 79,
+   "key": "18:79",
+   "num_ar": "٧٩",
+   "words": [
+    {
+     "pos": 1,
+     "text": "أَمَّا"
+    },
+    {
+     "pos": 2,
+     "text": "ٱلسَّفِينَةُ"
+    },
+    {
+     "pos": 3,
+     "text": "فَكَانَتْ"
+    },
+    {
+     "pos": 4,
+     "text": "لِمَسَـٰكِينَ"
+    },
+    {
+     "pos": 5,
+     "text": "يَعْمَلُونَ"
+    },
+    {
+     "pos": 6,
+     "text": "فِى"
+    },
+    {
+     "pos": 7,
+     "text": "ٱلْبَحْرِ"
+    },
+    {
+     "pos": 8,
+     "text": "فَأَرَدتُّ"
+    },
+    {
+     "pos": 9,
+     "text": "أَنْ"
+    },
+    {
+     "pos": 10,
+     "text": "أَعِيبَهَا"
+    },
+    {
+     "pos": 11,
+     "text": "وَكَانَ"
+    },
+    {
+     "pos": 12,
+     "text": "وَرَآءَهُم"
+    },
+    {
+     "pos": 13,
+     "text": "مَّلِكٌۭ"
+    },
+    {
+     "pos": 14,
+     "text": "يَأْخُذُ"
+    },
+    {
+     "pos": 15,
+     "text": "كُلَّ"
+    },
+    {
+     "pos": 16,
+     "text": "سَفِينَةٍ"
+    },
+    {
+     "pos": 17,
+     "text": "غَصْبًۭا"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     2.46,
+     3.76
+    ],
+    [
+     2,
+     3.8,
+     4.64
+    ],
+    [
+     3,
+     4.64,
+     5.77
+    ],
+    [
+     4,
+     5.77,
+     7.06
+    ],
+    [
+     5,
+     7.06,
+     8.11
+    ],
+    [
+     6,
+     8.11,
+     8.34
+    ],
+    [
+     7,
+     8.34,
+     8.99
+    ],
+    [
+     8,
+     8.99,
+     9.86
+    ],
+    [
+     9,
+     9.86,
+     10.19
+    ],
+    [
+     10,
+     10.19,
+     11.35
+    ],
+    [
+     11,
+     11.35,
+     12.47
+    ],
+    [
+     12,
+     12.47,
+     14.5
+    ],
+    [
+     13,
+     14.5,
+     15.63
+    ],
+    [
+     14,
+     15.63,
+     16.37
+    ],
+    [
+     15,
+     16.37,
+     16.9
+    ],
+    [
+     16,
+     16.9,
+     18.01
+    ],
+    [
+     17,
+     18.01,
+     18.98
+    ]
+   ],
+   "start": 2.46,
+   "first_word": 2.46,
+   "last_word": 18.98,
+   "translation": "As for the ship, it belonged to poor people working at sea. So I intended to cause defect in it as there was after them a king who seized every [good] ship by force.",
+   "glosses": [
+    {
+     "w0": 8,
+     "w1": 10,
+     "chip": "فَأَرَدتُّ أَنْ أَعِيبَهَا",
+     "excerpt": "ليكون فيها عيب، فتسلم من ذلك الظالم",
+     "source": "تفسير السعدي",
+     "target": "center",
+     "tone": "green",
+     "start": 8.99,
+     "end": 12.42
+    },
+    {
+     "w0": 12,
+     "w1": 12,
+     "chip": "وَرَآءَهُم",
+     "excerpt": "لأن أمامهم ملكًا",
+     "source": "التفسير الميسر",
+     "target": null,
+     "tone": "amber",
+     "start": 12.47,
+     "end": 16.849999999999998
+    },
+    {
+     "w0": 16,
+     "w1": 17,
+     "chip": "سَفِينَةٍ غَصْبًۭا",
+     "excerpt": "سفينة صالحة غصبًا من أصحابها",
+     "source": "التفسير الميسر",
+     "target": null,
+     "tone": "blue",
+     "start": 16.9,
+     "end": 19.08
+    }
+   ],
+   "end": 19.18
+  },
+  {
+   "n": 80,
+   "key": "18:80",
+   "num_ar": "٨٠",
+   "words": [
+    {
+     "pos": 1,
+     "text": "وَأَمَّا"
+    },
+    {
+     "pos": 2,
+     "text": "ٱلْغُلَـٰمُ"
+    },
+    {
+     "pos": 3,
+     "text": "فَكَانَ"
+    },
+    {
+     "pos": 4,
+     "text": "أَبَوَاهُ"
+    },
+    {
+     "pos": 5,
+     "text": "مُؤْمِنَيْنِ"
+    },
+    {
+     "pos": 6,
+     "text": "فَخَشِينَآ"
+    },
+    {
+     "pos": 7,
+     "text": "أَن"
+    },
+    {
+     "pos": 8,
+     "text": "يُرْهِقَهُمَا"
+    },
+    {
+     "pos": 9,
+     "text": "طُغْيَـٰنًۭا"
+    },
+    {
+     "pos": 10,
+     "text": "وَكُفْرًۭا"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     19.18,
+     20.13
+    ],
+    [
+     2,
+     20.13,
+     20.98
+    ],
+    [
+     3,
+     20.98,
+     21.72
+    ],
+    [
+     4,
+     21.72,
+     22.67
+    ],
+    [
+     5,
+     22.67,
+     23.69
+    ],
+    [
+     6,
+     23.69,
+     25.45
+    ],
+    [
+     7,
+     25.45,
+     25.92
+    ],
+    [
+     8,
+     25.92,
+     27.21
+    ],
+    [
+     9,
+     27.21,
+     28.99
+    ],
+    [
+     10,
+     28.99,
+     30.41
+    ]
+   ],
+   "start": 19.18,
+   "first_word": 19.18,
+   "last_word": 30.41,
+   "translation": "And as for the boy, his parents were believers, and we feared that he would overburden them by transgression and disbelief.",
+   "glosses": [
+    {
+     "w0": 2,
+     "w1": 2,
+     "chip": "ٱلْغُلَـٰمُ",
+     "excerpt": "فكان في علم الله كافرًا",
+     "source": "التفسير الميسر",
+     "target": null,
+     "tone": "blue",
+     "start": 20.13,
+     "end": 25.87
+    },
+    {
+     "w0": 8,
+     "w1": 8,
+     "chip": "يُرْهِقَهُمَا",
+     "excerpt": "لَحمل والديه على الكفر والطغيان",
+     "source": "التفسير الميسر",
+     "target": null,
+     "tone": "red",
+     "start": 25.92,
+     "end": 30.349999999999998
+    }
+   ],
+   "end": 30.45
+  },
+  {
+   "n": 81,
+   "key": "18:81",
+   "num_ar": "٨١",
+   "words": [
+    {
+     "pos": 1,
+     "text": "فَأَرَدْنَآ"
+    },
+    {
+     "pos": 2,
+     "text": "أَن"
+    },
+    {
+     "pos": 3,
+     "text": "يُبْدِلَهُمَا"
+    },
+    {
+     "pos": 4,
+     "text": "رَبُّهُمَا"
+    },
+    {
+     "pos": 5,
+     "text": "خَيْرًۭا"
+    },
+    {
+     "pos": 6,
+     "text": "مِّنْهُ"
+    },
+    {
+     "pos": 7,
+     "text": "زَكَوٰةًۭ"
+    },
+    {
+     "pos": 8,
+     "text": "وَأَقْرَبَ"
+    },
+    {
+     "pos": 9,
+     "text": "رُحْمًۭا"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     30.45,
+     32.88
+    ],
+    [
+     2,
+     32.88,
+     33.34
+    ],
+    [
+     3,
+     33.34,
+     34.59
+    ],
+    [
+     4,
+     34.59,
+     35.66
+    ],
+    [
+     5,
+     35.66,
+     36.57
+    ],
+    [
+     6,
+     36.57,
+     37.09
+    ],
+    [
+     7,
+     37.09,
+     38.38
+    ],
+    [
+     8,
+     38.38,
+     39.35
+    ],
+    [
+     9,
+     39.35,
+     40.4
+    ]
+   ],
+   "start": 30.45,
+   "first_word": 30.45,
+   "last_word": 40.4,
+   "translation": "So we intended that their Lord should substitute for them one better than him in purity and nearer to mercy.",
+   "glosses": [
+    {
+     "w0": 5,
+     "w1": 5,
+     "chip": "خَيْرًۭا",
+     "excerpt": "بمن هو خير منه صلاحًا ودينًا وبرًا بهما",
+     "source": "التفسير الميسر",
+     "target": "light",
+     "tone": "green",
+     "start": 35.66,
+     "end": 39.300000000000004
+    },
+    {
+     "w0": 9,
+     "w1": 9,
+     "chip": "رُحْمًۭا",
+     "excerpt": "ولدا صالحا، زكيا، واصلا لرحمه",
+     "source": "تفسير السعدي",
+     "target": "light",
+     "tone": "green",
+     "start": 39.35,
+     "end": 40.9
+    }
+   ],
+   "end": 41.0
+  }
+ ],
+ "audio": {
+  "slice_start": 1327.63,
+  "slice_end": 1365.63,
+  "file": "audio_master.wav"
+ },
+ "timing_corrections": [],
+ "timing_flags": [],
+ "aligned_boundaries": []
+}

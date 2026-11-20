@@ -1,0 +1,18 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="icon" href="data:,">
+<style>
+@font-face { font-family: "Amiri Quran"; src: url(../fonts/AmiriQuran-Regular.ttf); }
+@font-face { font-family: "Scheherazade New"; src: url(../fonts/ScheherazadeNew-Regular.ttf); }
+body{margin:0;background:#fff;color:#000;width:1080px;font:16px sans-serif}
+.g{display:grid;grid-template-columns:120px 1fr 1fr;align-items:center;border-bottom:1px solid #ddd}
+.w{direction:rtl;text-align:center;font-size:84px;line-height:1.75}
+.a{font-family:"Amiri Quran"} .s{font-family:"Scheherazade New"}
+</style></head><body><div class="g"><b>key:pos</b><b style="text-align:center">Amiri Quran</b><b style="text-align:center">Scheherazade New</b></div><div id="x"></div>
+<script type="module">
+const d = await (await fetch('/data/15_57-77/render_data.json')).json();
+const pick = [[58,5],[60,3],[62,3],[63,1],[66,7],[71,3],[75,4],[60,6],[72,3],[74,6]];
+for (const [n,p] of pick) { const v=d.verses.find(v=>v.n===n), w=v.words[p-1].text;
+  const r=document.createElement('div'); r.className='g';
+  r.innerHTML=`<span>15:${n}:${p}<br><small>${[...w].map(c=>c.codePointAt(0).toString(16).toUpperCase().padStart(4,'0')).filter(h=>/^06[4-9D-E]|^0670|^0640/.test(h)).length} marks</small></span><span class="w a"></span><span class="w s"></span>`;
+  r.children[1].textContent=w; r.children[2].textContent=w; document.getElementById('x').append(r); }
+await document.fonts.ready; window.done = true;
+</script></body></html>

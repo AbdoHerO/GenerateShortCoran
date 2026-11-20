@@ -1,0 +1,723 @@
+{
+ "meta": {
+  "source": "public",
+  "base": "https://api.quran.com/api/v4",
+  "fetched_at": "2026-11-19T20:45:57Z",
+  "chapter": 103,
+  "from": 1,
+  "to": 3,
+  "recitation_id": 7,
+  "translation_id": 20,
+  "tafsir_ids": [
+   16,
+   91
+  ]
+ },
+ "chapter": {
+  "id": 103,
+  "revelation_place": "makkah",
+  "revelation_order": 13,
+  "bismillah_pre": true,
+  "name_simple": "Al-'Asr",
+  "name_complex": "Al-`Aşr",
+  "name_arabic": "العصر",
+  "verses_count": 3,
+  "pages": [
+   601,
+   601
+  ],
+  "translated_name": {
+   "language_name": "english",
+   "name": "The Declining Day"
+  }
+ },
+ "chapter_en": {
+  "id": 103,
+  "revelation_place": "makkah",
+  "revelation_order": 13,
+  "bismillah_pre": true,
+  "name_simple": "Al-'Asr",
+  "name_complex": "Al-`Aşr",
+  "name_arabic": "العصر",
+  "verses_count": 3,
+  "pages": [
+   601,
+   601
+  ],
+  "translated_name": {
+   "language_name": "english",
+   "name": "The Declining Day"
+  }
+ },
+ "translation_resource": {
+  "id": 20,
+  "name": "Saheeh International",
+  "author_name": "Saheeh International",
+  "slug": "en-sahih-international",
+  "language_name": "english",
+  "translated_name": {
+   "name": "Saheeh International",
+   "language_name": "english"
+  }
+ },
+ "tafsir_resources": [
+  {
+   "id": 16,
+   "name": "Tafsir Muyassar",
+   "author_name": "المیسر",
+   "slug": "ar-tafsir-muyassar",
+   "language_name": "arabic",
+   "translated_name": {
+    "name": "Tafsir Muyassar",
+    "language_name": "english"
+   }
+  },
+  {
+   "id": 91,
+   "name": "السعدي Al-Sa'di",
+   "author_name": "Saddi",
+   "slug": "ar-tafseer-al-saddi",
+   "language_name": "arabic",
+   "translated_name": {
+    "name": "السعدي Al-Sa'di",
+    "language_name": "english"
+   }
+  }
+ ],
+ "verses": [
+  {
+   "id": 6177,
+   "verse_number": 1,
+   "verse_key": "103:1",
+   "hizb_number": 60,
+   "rub_el_hizb_number": 240,
+   "ruku_number": 547,
+   "manzil_number": 7,
+   "sajdah_number": null,
+   "text_uthmani": " وَٱلْعَصْرِ",
+   "text_imlaei": "وَالْعَصْرِ",
+   "page_number": 601,
+   "juz_number": 30,
+   "words": [
+    {
+     "id": 177,
+     "position": 1,
+     "audio_url": "wbw/103_001_001.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "وَٱلْعَصْرِ",
+     "location": "103:1:1",
+     "page_number": 601,
+     "line_number": 3,
+     "text": "وَٱلْعَصْرِ",
+     "translation": {
+      "text": "By the time",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "wal-ʿaṣri",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 178,
+     "position": 2,
+     "audio_url": null,
+     "char_type_name": "end",
+     "text_uthmani": "١",
+     "location": "103:1:2",
+     "page_number": 601,
+     "line_number": 3,
+     "text": "١",
+     "translation": {
+      "text": "(1)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": null,
+      "language_name": "english"
+     }
+    }
+   ],
+   "translations": [
+    {
+     "id": 96230,
+     "resource_id": 20,
+     "text": "By time,<sup foot_note=197812>1</sup>"
+    }
+   ]
+  },
+  {
+   "id": 6178,
+   "verse_number": 2,
+   "verse_key": "103:2",
+   "hizb_number": 60,
+   "rub_el_hizb_number": 240,
+   "ruku_number": 547,
+   "manzil_number": 7,
+   "sajdah_number": null,
+   "text_uthmani": "إِنَّ ٱلْإِنسَـٰنَ لَفِى خُسْرٍ",
+   "text_imlaei": "إِنَّ الْإِنسَانَ لَفِي خُسْرٍ",
+   "page_number": 601,
+   "juz_number": 30,
+   "words": [
+    {
+     "id": 1056,
+     "position": 1,
+     "audio_url": "wbw/103_002_001.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "إِنَّ",
+     "location": "103:2:1",
+     "page_number": 601,
+     "line_number": 3,
+     "text": "إِنَّ",
+     "translation": {
+      "text": "Indeed",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "inna",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 1057,
+     "position": 2,
+     "audio_url": "wbw/103_002_002.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "ٱلْإِنسَـٰنَ",
+     "location": "103:2:2",
+     "page_number": 601,
+     "line_number": 3,
+     "text": "ٱلْإِنسَـٰنَ",
+     "translation": {
+      "text": "mankind",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "l-insāna",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 1058,
+     "position": 3,
+     "audio_url": "wbw/103_002_003.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "لَفِى",
+     "location": "103:2:3",
+     "page_number": 601,
+     "line_number": 3,
+     "text": "لَفِى",
+     "translation": {
+      "text": "(is) surely, in",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "lafī",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 1059,
+     "position": 4,
+     "audio_url": "wbw/103_002_004.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "خُسْرٍ",
+     "location": "103:2:4",
+     "page_number": 601,
+     "line_number": 3,
+     "text": "خُسْرٍ",
+     "translation": {
+      "text": "loss",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "khus'rin",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 1060,
+     "position": 5,
+     "audio_url": null,
+     "char_type_name": "end",
+     "text_uthmani": "٢",
+     "location": "103:2:5",
+     "page_number": 601,
+     "line_number": 3,
+     "text": "٢",
+     "translation": {
+      "text": "(2)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": null,
+      "language_name": "english"
+     }
+    }
+   ],
+   "translations": [
+    {
+     "id": 96232,
+     "resource_id": 20,
+     "text": "Indeed, mankind is in loss,"
+    }
+   ]
+  },
+  {
+   "id": 6179,
+   "verse_number": 3,
+   "verse_key": "103:3",
+   "hizb_number": 60,
+   "rub_el_hizb_number": 240,
+   "ruku_number": 547,
+   "manzil_number": 7,
+   "sajdah_number": null,
+   "text_uthmani": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ",
+   "text_imlaei": "إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَتَوَاصَوْا بِالْحَقِّ وَتَوَاصَوْا بِالصَّبْرِ",
+   "page_number": 601,
+   "juz_number": 30,
+   "words": [
+    {
+     "id": 2213,
+     "position": 1,
+     "audio_url": "wbw/103_003_001.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "إِلَّا",
+     "location": "103:3:1",
+     "page_number": 601,
+     "line_number": 3,
+     "text": "إِلَّا",
+     "translation": {
+      "text": "Except",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "illā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 2214,
+     "position": 2,
+     "audio_url": "wbw/103_003_002.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "ٱلَّذِينَ",
+     "location": "103:3:2",
+     "page_number": 601,
+     "line_number": 3,
+     "text": "ٱلَّذِينَ",
+     "translation": {
+      "text": "those who",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "alladhīna",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 2215,
+     "position": 3,
+     "audio_url": "wbw/103_003_003.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "ءَامَنُوا۟",
+     "location": "103:3:3",
+     "page_number": 601,
+     "line_number": 3,
+     "text": "ءَامَنُوا۟",
+     "translation": {
+      "text": "believe",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "āmanū",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 2216,
+     "position": 4,
+     "audio_url": "wbw/103_003_004.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "وَعَمِلُوا۟",
+     "location": "103:3:4",
+     "page_number": 601,
+     "line_number": 4,
+     "text": "وَعَمِلُوا۟",
+     "translation": {
+      "text": "and do",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "waʿamilū",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 2217,
+     "position": 5,
+     "audio_url": "wbw/103_003_005.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "ٱلصَّـٰلِحَـٰتِ",
+     "location": "103:3:5",
+     "page_number": 601,
+     "line_number": 4,
+     "text": "ٱلصَّـٰلِحَـٰتِ",
+     "translation": {
+      "text": "righteous deeds",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "l-ṣāliḥāti",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 2218,
+     "position": 6,
+     "audio_url": "wbw/103_003_006.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "وَتَوَاصَوْا۟",
+     "location": "103:3:6",
+     "page_number": 601,
+     "line_number": 4,
+     "text": "وَتَوَاصَوْا۟",
+     "translation": {
+      "text": "and enjoin (each other)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "watawāṣaw",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 2219,
+     "position": 7,
+     "audio_url": "wbw/103_003_007.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "بِٱلْحَقِّ",
+     "location": "103:3:7",
+     "page_number": 601,
+     "line_number": 4,
+     "text": "بِٱلْحَقِّ",
+     "translation": {
+      "text": "to the truth",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "bil-ḥaqi",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 2220,
+     "position": 8,
+     "audio_url": "wbw/103_003_008.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "وَتَوَاصَوْا۟",
+     "location": "103:3:8",
+     "page_number": 601,
+     "line_number": 4,
+     "text": "وَتَوَاصَوْا۟",
+     "translation": {
+      "text": "and enjoin (each other)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "watawāṣaw",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 2221,
+     "position": 9,
+     "audio_url": "wbw/103_003_009.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "بِٱلصَّبْرِ",
+     "location": "103:3:9",
+     "page_number": 601,
+     "line_number": 4,
+     "text": "بِٱلصَّبْرِ",
+     "translation": {
+      "text": "to [the] patience",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "bil-ṣabri",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 2222,
+     "position": 10,
+     "audio_url": null,
+     "char_type_name": "end",
+     "text_uthmani": "٣",
+     "location": "103:3:10",
+     "page_number": 601,
+     "line_number": 4,
+     "text": "٣",
+     "translation": {
+      "text": "(3)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": null,
+      "language_name": "english"
+     }
+    }
+   ],
+   "translations": [
+    {
+     "id": 96191,
+     "resource_id": 20,
+     "text": "Except for those who have believed and done righteous deeds and advised each other to truth and advised each other to patience."
+    }
+   ]
+  }
+ ],
+ "tafsirs": {
+  "16": {
+   "103:1": {
+    "verses": {
+     "103:1": {
+      "id": 6177
+     }
+    },
+    "resource_id": 16,
+    "resource_name": "المیسر",
+    "language_id": 9,
+    "slug": "ar-tafsir-muyassar",
+    "translated_name": {
+     "name": "Tafsir Muyassar",
+     "language_name": "english"
+    },
+    "text": "أقسم الله بالدهر؛ لما فيه من عجائب قدرة الله الدالة على عظمته، على أن بني آدم لفي هلكة ونقصان. ولا يجوز للعبد أن يقسم إلا بالله، فإن القسم بغير الله شرك."
+   },
+   "103:2": {
+    "verses": {
+     "103:2": {
+      "id": 6178
+     }
+    },
+    "resource_id": 16,
+    "resource_name": "المیسر",
+    "language_id": 9,
+    "slug": "ar-tafsir-muyassar",
+    "translated_name": {
+     "name": "Tafsir Muyassar",
+     "language_name": "english"
+    },
+    "text": "أقسم الله بالدهر على أن بني آدم لفي هلكة ونقصان. ولا يجوز للعبد أن يقسم إلا بالله، فإن القسم بغير الله شرك."
+   },
+   "103:3": {
+    "verses": {
+     "103:3": {
+      "id": 6179
+     }
+    },
+    "resource_id": 16,
+    "resource_name": "المیسر",
+    "language_id": 9,
+    "slug": "ar-tafsir-muyassar",
+    "translated_name": {
+     "name": "Tafsir Muyassar",
+     "language_name": "english"
+    },
+    "text": "إلا الذين آمنوا بالله وعملوا عملا صالحًا، وأوصى بعضهم بعضًا بالاستمساك بالحق، والعمل بطاعة الله، والصبر على ذلك."
+   }
+  },
+  "91": {
+   "103:1": {
+    "verses": {
+     "103:1": {
+      "id": 6177
+     }
+    },
+    "resource_id": 91,
+    "resource_name": "Arabic Saddi Tafseer",
+    "language_id": 9,
+    "slug": "ar-tafseer-al-saddi",
+    "translated_name": {
+     "name": "السعدي Al-Sa'di",
+     "language_name": "english"
+    },
+    "text": "أقسم تعالى بالعصر، الذي هو الليل والنهار، محل أفعال العباد وأعمالهم"
+   },
+   "103:2": {
+    "verses": {
+     "103:2": {
+      "id": 6178
+     }
+    },
+    "resource_id": 91,
+    "resource_name": "Arabic Saddi Tafseer",
+    "language_id": 9,
+    "slug": "ar-tafseer-al-saddi",
+    "translated_name": {
+     "name": "السعدي Al-Sa'di",
+     "language_name": "english"
+    },
+    "text": "أن كل إنسان خاسر، والخاسر ضد الرابح.<span class=\"blue\">والخسار مراتب متعددة متفاوتة:</span>قد يكون خسارًا مطلقًا، كحال من خسر الدنيا والآخرة، وفاته النعيم، واستحق الجحيم."
+   },
+   "103:3": {
+    "verses": {
+     "103:3": {
+      "id": 6179
+     }
+    },
+    "resource_id": 91,
+    "resource_name": "Arabic Saddi Tafseer",
+    "language_id": 9,
+    "slug": "ar-tafseer-al-saddi",
+    "translated_name": {
+     "name": "السعدي Al-Sa'di",
+     "language_name": "english"
+    },
+    "text": "وقد يكون خاسرًا من بعض الوجوه دون بعض، ولهذا عمم الله الخسار لكل إنسان،<span class=\"blue\"> إلا من اتصف بأربع صفات:</span>الإيمان بما أمر الله بالإيمان به، ولا يكون الإيمان بدون العلم، فهو فرع عنه لا يتم إلا به.والعمل الصالح، وهذا شامل لأفعال الخير كلها، الظاهرة والباطنة، المتعلقة بحق الله وحق عباده  ، الواجبة والمستحبة.والتواصي بالحق، الذي هو الإيمان والعمل الصالح،<span class=\"blue\"> أي:</span> يوصي بعضهم بعضًا بذلك، ويحثه عليه، ويرغبه فيه.والتواصي بالصبر على طاعة الله، وعن معصية الله، وعلى أقدار الله المؤلمة.فبالأمرين الأولين، يكمل الإنسان  نفسه، وبالأمرين الأخيرين يكمل غيره، وبتكميل الأمور الأربعة، يكون الإنسان قد سلم من الخسار، وفاز بالربح <span class=\"arabic qpc-hafs\">[العظيم]</span>."
+   }
+  }
+ },
+ "recitation": {
+  "id": 1115,
+  "chapter_id": 103,
+  "file_size": 448640.0,
+  "format": "mp3",
+  "audio_url": "https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/103.mp3",
+  "timestamps": [
+   {
+    "verse_key": "103:1",
+    "timestamp_from": 0,
+    "timestamp_to": 1780,
+    "duration": 1780,
+    "segments": [
+     [
+      1,
+      0,
+      1715
+     ]
+    ]
+   },
+   {
+    "verse_key": "103:2",
+    "timestamp_from": 1780,
+    "timestamp_to": 7580,
+    "duration": 5800,
+    "segments": [
+     [
+      1,
+      1715,
+      2965
+     ],
+     [
+      2,
+      2965,
+      5615
+     ],
+     [
+      3,
+      5615,
+      6195
+     ],
+     [
+      4,
+      6195,
+      7260
+     ]
+    ]
+   },
+   {
+    "verse_key": "103:3",
+    "timestamp_from": 7580,
+    "timestamp_to": 20120,
+    "duration": 12540,
+    "segments": [
+     [
+      1,
+      7325,
+      8005
+     ],
+     [
+      2,
+      8005,
+      9015
+     ],
+     [
+      3,
+      9015,
+      10295
+     ],
+     [
+      4,
+      10295,
+      11115
+     ],
+     [
+      5,
+      11115,
+      12735
+     ],
+     [
+      6,
+      12735,
+      13995
+     ],
+     [
+      7,
+      13995,
+      15055
+     ],
+     [
+      8,
+      15055,
+      16445
+     ],
+     [
+      9,
+      16445,
+      19580
+     ]
+    ]
+   }
+  ],
+  "neighbors": {
+   "prev_end": null,
+   "next_start": null
+  },
+  "local_file": "../_audio/chapter_103_rec7.mp3"
+ },
+ "reciter_ar": {
+  "id": 7,
+  "name": "Mishari Rashid al-`Afasy",
+  "style": {
+   "name": "Murattal",
+   "language_name": "english"
+  },
+  "qirat": {
+   "name": "Hafs",
+   "language_name": "english"
+  },
+  "translated_name": {
+   "name": "Mishari Rashid al-`Afasy",
+   "language_name": "english"
+  }
+ },
+ "reciter_en": {
+  "id": 7,
+  "name": "Mishari Rashid al-`Afasy",
+  "style": {
+   "name": "Murattal",
+   "language_name": "english"
+  },
+  "qirat": {
+   "name": "Hafs",
+   "language_name": "english"
+  },
+  "translated_name": {
+   "name": "Mishari Rashid al-`Afasy",
+   "language_name": "english"
+  }
+ }
+}

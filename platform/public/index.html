@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quran Video Studio</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cg fill='%23c9973f'%3E%3Crect x='8' y='8' width='16' height='16'/%3E%3Crect x='8' y='8' width='16' height='16' transform='rotate(45 16 16)'/%3E%3C/g%3E%3Ccircle cx='16' cy='16' r='4' fill='%23b8433c'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/app/app.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="#/">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><g fill="#c9973f"><rect x="8" y="8" width="16" height="16"/><rect x="8" y="8" width="16" height="16" transform="rotate(45 16 16)"/></g><circle cx="16" cy="16" r="4" fill="#b8433c"/></svg>
+    <span>Quran Video Studio</span><span class="ar brand-ar">استوديو الفيديو القرآني</span>
+  </a>
+  <button class="ghost" id="settingsBtn" title="Settings">
+    <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M19.4 13a7.5 7.5 0 0 0 0-2l2-1.6-2-3.4-2.4 1a7.6 7.6 0 0 0-1.7-1L15 3.5h-4l-.4 2.5a7.6 7.6 0 0 0-1.7 1l-2.4-1-2 3.4L6.6 11a7.5 7.5 0 0 0 0 2l-2 1.6 2 3.4 2.4-1a7.6 7.6 0 0 0 1.7 1l.4 2.5h4l.4-2.5a7.6 7.6 0 0 0 1.7-1l2.4 1 2-3.4zM13 15.5a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7z" transform="translate(-1 0)"/></svg>
+    <span>Settings</span>
+  </button>
+</header>
+<main id="view"></main>
+<div id="toast" role="status" aria-live="polite"></div>
+<dialog id="dlg"></dialog>
+<script type="module" src="/app/app.js"></script>
+</body>
+</html>

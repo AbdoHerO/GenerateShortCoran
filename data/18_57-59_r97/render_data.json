@@ -1,0 +1,913 @@
+{
+ "fps": 30,
+ "W": 1080,
+ "H": 1920,
+ "duration": 66.16,
+ "intro": 2.4,
+ "outro_start": 61.96,
+ "surah": {
+  "name_ar": "الكهف",
+  "name_en": "Al-Kahf",
+  "number": 18,
+  "from_ar": "٥٧",
+  "to_ar": "٥٩",
+  "from": 57,
+  "to": 59
+ },
+ "credits": {
+  "reciter_ar": "ياسر الدوسري",
+  "reciter_en": "Yasser ad-Dussary",
+  "translation_en": "Translation: Saheeh International",
+  "data_en": "Text, audio timings & tafsir: Quran Foundation (quran.com)"
+ },
+ "cover": {
+  "dur": 1.0,
+  "t": 51.95,
+  "series_ar": "الجدال وسنة الله",
+  "series_en": "Disputing, and Allah's way with nations",
+  "title_ar": "مصير القرى الظالمة",
+  "title_en": "The fate of the wrongdoing towns"
+ },
+ "chapters": [
+  {
+   "id": "c1",
+   "title": "الإعراض بعد التذكير",
+   "scene": "ambient",
+   "params": {
+    "mood": "mountains",
+    "beats": [
+     {
+      "at": [
+       57,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       57,
+       5
+      ],
+      "do": "light_up"
+     },
+     {
+      "at": [
+       57,
+       7
+      ],
+      "do": "wind"
+     },
+     {
+      "at": [
+       57,
+       12
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       57,
+       14
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       57,
+       17
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       57,
+       21
+      ],
+      "do": "wind"
+     },
+     {
+      "at": [
+       57,
+       24
+      ],
+      "do": "sparkle",
+      "who": "light"
+     },
+     {
+      "at": [
+       57,
+       26
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       57,
+       28
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       57,
+       30
+      ],
+      "do": "shot_wide"
+     }
+    ]
+   },
+   "bg": "#e6e7e2",
+   "verses": [
+    57
+   ],
+   "start": 0.0,
+   "end": 32.39
+  },
+  {
+   "id": "c2",
+   "title": "حلم الله ورحمته",
+   "scene": "ambient",
+   "params": {
+    "mood": "rain",
+    "beats": [
+     {
+      "at": [
+       58,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       58,
+       2
+      ],
+      "do": "light_up"
+     },
+     {
+      "at": [
+       58,
+       4
+      ],
+      "do": "rain_start"
+     },
+     {
+      "at": [
+       58,
+       7
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       58,
+       11
+      ],
+      "do": "wind"
+     },
+     {
+      "at": [
+       58,
+       14
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       58,
+       18
+      ],
+      "do": "shot_ground"
+     }
+    ]
+   },
+   "bg": "#e3e7e8",
+   "verses": [
+    58
+   ],
+   "start": 32.39,
+   "end": 50.57
+  },
+  {
+   "id": "c3",
+   "title": "عبرة القرى الهالكة",
+   "scene": "ambient",
+   "params": {
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       59,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       59,
+       3
+      ],
+      "do": "wind"
+     },
+     {
+      "at": [
+       59,
+       5
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       59,
+       7
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       59,
+       8
+      ],
+      "do": "stars"
+     }
+    ]
+   },
+   "bg": "#e4e6ee",
+   "verses": [
+    59
+   ],
+   "start": 50.57,
+   "end": 66.16
+  }
+ ],
+ "verses": [
+  {
+   "n": 57,
+   "key": "18:57",
+   "num_ar": "٥٧",
+   "words": [
+    {
+     "pos": 1,
+     "text": "وَمَنْ"
+    },
+    {
+     "pos": 2,
+     "text": "أَظْلَمُ"
+    },
+    {
+     "pos": 3,
+     "text": "مِمَّن"
+    },
+    {
+     "pos": 4,
+     "text": "ذُكِّرَ"
+    },
+    {
+     "pos": 5,
+     "text": "بِـَٔايَـٰتِ"
+    },
+    {
+     "pos": 6,
+     "text": "رَبِّهِۦ"
+    },
+    {
+     "pos": 7,
+     "text": "فَأَعْرَضَ"
+    },
+    {
+     "pos": 8,
+     "text": "عَنْهَا"
+    },
+    {
+     "pos": 9,
+     "text": "وَنَسِىَ"
+    },
+    {
+     "pos": 10,
+     "text": "مَا"
+    },
+    {
+     "pos": 11,
+     "text": "قَدَّمَتْ"
+    },
+    {
+     "pos": 12,
+     "text": "يَدَاهُ ۚ"
+    },
+    {
+     "pos": 13,
+     "text": "إِنَّا"
+    },
+    {
+     "pos": 14,
+     "text": "جَعَلْنَا"
+    },
+    {
+     "pos": 15,
+     "text": "عَلَىٰ"
+    },
+    {
+     "pos": 16,
+     "text": "قُلُوبِهِمْ"
+    },
+    {
+     "pos": 17,
+     "text": "أَكِنَّةً"
+    },
+    {
+     "pos": 18,
+     "text": "أَن"
+    },
+    {
+     "pos": 19,
+     "text": "يَفْقَهُوهُ"
+    },
+    {
+     "pos": 20,
+     "text": "وَفِىٓ"
+    },
+    {
+     "pos": 21,
+     "text": "ءَاذَانِهِمْ"
+    },
+    {
+     "pos": 22,
+     "text": "وَقْرًۭا ۖ"
+    },
+    {
+     "pos": 23,
+     "text": "وَإِن"
+    },
+    {
+     "pos": 24,
+     "text": "تَدْعُهُمْ"
+    },
+    {
+     "pos": 25,
+     "text": "إِلَى"
+    },
+    {
+     "pos": 26,
+     "text": "ٱلْهُدَىٰ"
+    },
+    {
+     "pos": 27,
+     "text": "فَلَن"
+    },
+    {
+     "pos": 28,
+     "text": "يَهْتَدُوٓا۟"
+    },
+    {
+     "pos": 29,
+     "text": "إِذًا"
+    },
+    {
+     "pos": 30,
+     "text": "أَبَدًۭا"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     2.46,
+     2.99
+    ],
+    [
+     2,
+     2.99,
+     3.71
+    ],
+    [
+     3,
+     3.71,
+     5.42
+    ],
+    [
+     4,
+     5.42,
+     6.09
+    ],
+    [
+     5,
+     6.09,
+     7.14
+    ],
+    [
+     6,
+     7.14,
+     8.0
+    ],
+    [
+     7,
+     8.0,
+     8.93
+    ],
+    [
+     8,
+     8.93,
+     9.6
+    ],
+    [
+     9,
+     9.6,
+     10.34
+    ],
+    [
+     10,
+     10.34,
+     10.68
+    ],
+    [
+     11,
+     10.68,
+     11.47
+    ],
+    [
+     12,
+     11.53,
+     14.23
+    ],
+    [
+     13,
+     14.23,
+     15.17
+    ],
+    [
+     14,
+     15.17,
+     16.03
+    ],
+    [
+     15,
+     16.03,
+     16.58
+    ],
+    [
+     16,
+     16.58,
+     17.63
+    ],
+    [
+     17,
+     17.63,
+     18.85
+    ],
+    [
+     18,
+     18.85,
+     19.58
+    ],
+    [
+     19,
+     19.58,
+     20.61
+    ],
+    [
+     20,
+     20.61,
+     21.83
+    ],
+    [
+     21,
+     21.83,
+     23.03
+    ],
+    [
+     22,
+     23.03,
+     24.25
+    ],
+    [
+     23,
+     24.25,
+     25.52
+    ],
+    [
+     24,
+     25.52,
+     26.43
+    ],
+    [
+     25,
+     26.43,
+     26.82
+    ],
+    [
+     26,
+     26.82,
+     27.5
+    ],
+    [
+     27,
+     27.5,
+     28.44
+    ],
+    [
+     28,
+     28.44,
+     30.07
+    ],
+    [
+     29,
+     30.07,
+     31.2
+    ],
+    [
+     30,
+     31.2,
+     32.19
+    ]
+   ],
+   "start": 2.46,
+   "first_word": 2.46,
+   "last_word": 32.19,
+   "translation": "And who is more unjust than one who is reminded of the verses of his Lord but turns away from them and forgets what his hands have put forth? Indeed, We have placed over their hearts coverings, lest they understand it, and in their ears deafness. And if you invite them to guidance - they will never be guided, then - ever.",
+   "glosses": [
+    {
+     "w0": 7,
+     "w1": 7,
+     "chip": "فَأَعْرَضَ",
+     "excerpt": "فانصرف عنها إلى باطله",
+     "source": "التفسير الميسر",
+     "target": null,
+     "tone": "red",
+     "start": 8.0,
+     "end": 17.58
+    },
+    {
+     "w0": 17,
+     "w1": 17,
+     "chip": "أَكِنَّةً",
+     "excerpt": "أغطية، فلم يفهموا القرآن",
+     "source": "التفسير الميسر",
+     "target": "center",
+     "tone": "red",
+     "start": 17.63,
+     "end": 22.98
+    },
+    {
+     "w0": 22,
+     "w1": 22,
+     "chip": "وَقْرًۭا ۖ",
+     "excerpt": "ما يشبه الصمم، فلم يسمعوه ولم ينتفعوا به",
+     "source": "التفسير الميسر",
+     "target": null,
+     "tone": "red",
+     "start": 23.03,
+     "end": 32.29
+    }
+   ],
+   "end": 32.39
+  },
+  {
+   "n": 58,
+   "key": "18:58",
+   "num_ar": "٥٨",
+   "words": [
+    {
+     "pos": 1,
+     "text": "وَرَبُّكَ"
+    },
+    {
+     "pos": 2,
+     "text": "ٱلْغَفُورُ"
+    },
+    {
+     "pos": 3,
+     "text": "ذُو"
+    },
+    {
+     "pos": 4,
+     "text": "ٱلرَّحْمَةِ ۖ"
+    },
+    {
+     "pos": 5,
+     "text": "لَوْ"
+    },
+    {
+     "pos": 6,
+     "text": "يُؤَاخِذُهُم"
+    },
+    {
+     "pos": 7,
+     "text": "بِمَا"
+    },
+    {
+     "pos": 8,
+     "text": "كَسَبُوا۟"
+    },
+    {
+     "pos": 9,
+     "text": "لَعَجَّلَ"
+    },
+    {
+     "pos": 10,
+     "text": "لَهُمُ"
+    },
+    {
+     "pos": 11,
+     "text": "ٱلْعَذَابَ ۚ"
+    },
+    {
+     "pos": 12,
+     "text": "بَل"
+    },
+    {
+     "pos": 13,
+     "text": "لَّهُم"
+    },
+    {
+     "pos": 14,
+     "text": "مَّوْعِدٌۭ"
+    },
+    {
+     "pos": 15,
+     "text": "لَّن"
+    },
+    {
+     "pos": 16,
+     "text": "يَجِدُوا۟"
+    },
+    {
+     "pos": 17,
+     "text": "مِن"
+    },
+    {
+     "pos": 18,
+     "text": "دُونِهِۦ"
+    },
+    {
+     "pos": 19,
+     "text": "مَوْئِلًۭا"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     32.39,
+     33.25
+    ],
+    [
+     2,
+     33.33,
+     34.23
+    ],
+    [
+     3,
+     34.23,
+     34.47
+    ],
+    [
+     4,
+     34.51,
+     35.59
+    ],
+    [
+     5,
+     35.59,
+     35.92
+    ],
+    [
+     6,
+     35.92,
+     38.09
+    ],
+    [
+     7,
+     38.09,
+     38.64
+    ],
+    [
+     8,
+     38.64,
+     39.42
+    ],
+    [
+     9,
+     39.42,
+     40.29
+    ],
+    [
+     10,
+     40.29,
+     40.72
+    ],
+    [
+     11,
+     40.84,
+     43.29
+    ],
+    [
+     12,
+     43.29,
+     43.61
+    ],
+    [
+     13,
+     43.61,
+     45.09
+    ],
+    [
+     14,
+     45.09,
+     45.86
+    ],
+    [
+     15,
+     45.94,
+     46.51
+    ],
+    [
+     16,
+     46.51,
+     47.27
+    ],
+    [
+     17,
+     47.27,
+     48.38
+    ],
+    [
+     18,
+     48.38,
+     49.27
+    ],
+    [
+     19,
+     49.27,
+     50.43
+    ]
+   ],
+   "start": 32.39,
+   "first_word": 32.39,
+   "last_word": 50.43,
+   "translation": "And your Lord is the Forgiving, the possessor of mercy. If He were to impose blame upon them for what they earned, He would have hastened for them the punishment. Rather, for them is an appointment from which they will never find an escape.",
+   "glosses": [
+    {
+     "w0": 2,
+     "w1": 2,
+     "chip": "ٱلْغَفُورُ",
+     "excerpt": "لذنوب عباده",
+     "source": "التفسير الميسر",
+     "target": "light",
+     "tone": "green",
+     "start": 33.33,
+     "end": 39.370000000000005
+    },
+    {
+     "w0": 9,
+     "w1": 9,
+     "chip": "لَعَجَّلَ",
+     "excerpt": "ولكنه تعالى حليم لا يعجل بالعقوبة",
+     "source": "التفسير الميسر",
+     "target": "light",
+     "tone": "green",
+     "start": 39.42,
+     "end": 45.040000000000006
+    },
+    {
+     "w0": 14,
+     "w1": 14,
+     "chip": "مَّوْعِدٌۭ",
+     "excerpt": "يجازون فيه بأعمالهم",
+     "source": "التفسير الميسر",
+     "target": null,
+     "tone": "amber",
+     "start": 45.09,
+     "end": 50.47
+    }
+   ],
+   "end": 50.57
+  },
+  {
+   "n": 59,
+   "key": "18:59",
+   "num_ar": "٥٩",
+   "words": [
+    {
+     "pos": 1,
+     "text": "وَتِلْكَ"
+    },
+    {
+     "pos": 2,
+     "text": "ٱلْقُرَىٰٓ"
+    },
+    {
+     "pos": 3,
+     "text": "أَهْلَكْنَـٰهُمْ"
+    },
+    {
+     "pos": 4,
+     "text": "لَمَّا"
+    },
+    {
+     "pos": 5,
+     "text": "ظَلَمُوا۟"
+    },
+    {
+     "pos": 6,
+     "text": "وَجَعَلْنَا"
+    },
+    {
+     "pos": 7,
+     "text": "لِمَهْلِكِهِم"
+    },
+    {
+     "pos": 8,
+     "text": "مَّوْعِدًۭا"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     50.57,
+     51.27
+    ],
+    [
+     2,
+     51.35,
+     53.66
+    ],
+    [
+     3,
+     53.66,
+     55.05
+    ],
+    [
+     4,
+     55.05,
+     56.27
+    ],
+    [
+     5,
+     56.27,
+     57.01
+    ],
+    [
+     6,
+     57.01,
+     58.41
+    ],
+    [
+     7,
+     58.41,
+     60.45
+    ],
+    [
+     8,
+     60.45,
+     61.56
+    ]
+   ],
+   "start": 50.57,
+   "first_word": 50.57,
+   "last_word": 61.56,
+   "translation": "And those cities - We destroyed them when they wronged, and We made for their destruction an appointed time.",
+   "glosses": [
+    {
+     "w0": 2,
+     "w1": 2,
+     "chip": "ٱلْقُرَىٰٓ",
+     "excerpt": "كقرى قوم هود وصالح ولوط وشعيب",
+     "source": "التفسير الميسر",
+     "target": "ground",
+     "tone": "amber",
+     "start": 51.35,
+     "end": 55.0
+    },
+    {
+     "w0": 4,
+     "w1": 5,
+     "chip": "لَمَّا ظَلَمُوا۟",
+     "excerpt": "بظلمهم، لا بظلم منا",
+     "source": "تفسير السعدي",
+     "target": null,
+     "tone": "red",
+     "start": 55.05,
+     "end": 58.36
+    },
+    {
+     "w0": 7,
+     "w1": 8,
+     "chip": "لِمَهْلِكِهِم مَّوْعِدًۭا",
+     "excerpt": "وقتا مقدرا، لا يتقدمون عنه ولا يتأخرون",
+     "source": "تفسير السعدي",
+     "target": "sky",
+     "tone": "amber",
+     "start": 58.41,
+     "end": 62.059999999999995
+    }
+   ],
+   "end": 62.16
+  }
+ ],
+ "audio": {
+  "slice_start": 1041.7,
+  "slice_end": 1100.86,
+  "file": "audio_master.wav"
+ },
+ "timing_corrections": [],
+ "timing_flags": [],
+ "aligned_boundaries": []
+}

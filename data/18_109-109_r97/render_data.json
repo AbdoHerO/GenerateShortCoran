@@ -1,0 +1,327 @@
+{
+ "fps": 30,
+ "W": 1080,
+ "H": 1920,
+ "duration": 20.66,
+ "intro": 2.4,
+ "outro_start": 16.46,
+ "surah": {
+  "name_ar": "الكهف",
+  "name_en": "Al-Kahf",
+  "number": 18,
+  "from_ar": "١٠٩",
+  "to_ar": "١٠٩",
+  "from": 109,
+  "to": 109
+ },
+ "credits": {
+  "reciter_ar": "ياسر الدوسري",
+  "reciter_en": "Yasser ad-Dussary",
+  "translation_en": "Translation: Saheeh International",
+  "data_en": "Text, audio timings & tafsir: Quran Foundation (quran.com)"
+ },
+ "cover": {
+  "dur": 1.0,
+  "t": 5.14,
+  "series_ar": "خاتمة السورة",
+  "series_en": "The end of the surah",
+  "title_ar": "سعة كلام الله",
+  "title_en": "The vastness of Allah's words"
+ },
+ "chapters": [
+  {
+   "id": "c1",
+   "title": "سعة كلام الله",
+   "scene": "ambient",
+   "params": {
+    "mood": "sea",
+    "beats": [
+     {
+      "at": [
+       109,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       109,
+       5
+      ],
+      "do": "ink_waves"
+     },
+     {
+      "at": [
+       109,
+       7
+      ],
+      "do": "light_up"
+     },
+     {
+      "at": [
+       109,
+       9
+      ],
+      "do": "waves"
+     },
+     {
+      "at": [
+       109,
+       12
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       109,
+       13
+      ],
+      "do": "light_up"
+     },
+     {
+      "at": [
+       109,
+       16
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       109,
+       18
+      ],
+      "do": "sparkle",
+      "who": "light"
+     }
+    ]
+   },
+   "bg": "#e1e8ea",
+   "verses": [
+    109
+   ],
+   "start": 0.0,
+   "end": 20.66
+  }
+ ],
+ "verses": [
+  {
+   "n": 109,
+   "key": "18:109",
+   "num_ar": "١٠٩",
+   "words": [
+    {
+     "pos": 1,
+     "text": "قُل"
+    },
+    {
+     "pos": 2,
+     "text": "لَّوْ"
+    },
+    {
+     "pos": 3,
+     "text": "كَانَ"
+    },
+    {
+     "pos": 4,
+     "text": "ٱلْبَحْرُ"
+    },
+    {
+     "pos": 5,
+     "text": "مِدَادًۭا"
+    },
+    {
+     "pos": 6,
+     "text": "لِّكَلِمَـٰتِ"
+    },
+    {
+     "pos": 7,
+     "text": "رَبِّى"
+    },
+    {
+     "pos": 8,
+     "text": "لَنَفِدَ"
+    },
+    {
+     "pos": 9,
+     "text": "ٱلْبَحْرُ"
+    },
+    {
+     "pos": 10,
+     "text": "قَبْلَ"
+    },
+    {
+     "pos": 11,
+     "text": "أَن"
+    },
+    {
+     "pos": 12,
+     "text": "تَنفَدَ"
+    },
+    {
+     "pos": 13,
+     "text": "كَلِمَـٰتُ"
+    },
+    {
+     "pos": 14,
+     "text": "رَبِّى"
+    },
+    {
+     "pos": 15,
+     "text": "وَلَوْ"
+    },
+    {
+     "pos": 16,
+     "text": "جِئْنَا"
+    },
+    {
+     "pos": 17,
+     "text": "بِمِثْلِهِۦ"
+    },
+    {
+     "pos": 18,
+     "text": "مَدَدًۭا"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     2.46,
+     2.76
+    ],
+    [
+     2,
+     2.84,
+     3.24
+    ],
+    [
+     3,
+     3.24,
+     3.84
+    ],
+    [
+     4,
+     3.84,
+     4.54
+    ],
+    [
+     5,
+     4.54,
+     5.32
+    ],
+    [
+     6,
+     5.38,
+     6.58
+    ],
+    [
+     7,
+     6.58,
+     7.27
+    ],
+    [
+     8,
+     7.27,
+     8.08
+    ],
+    [
+     9,
+     8.08,
+     8.77
+    ],
+    [
+     10,
+     8.77,
+     9.33
+    ],
+    [
+     11,
+     9.33,
+     10.0
+    ],
+    [
+     12,
+     10.02,
+     11.09
+    ],
+    [
+     13,
+     11.21,
+     12.12
+    ],
+    [
+     14,
+     12.12,
+     12.83
+    ],
+    [
+     15,
+     12.83,
+     13.35
+    ],
+    [
+     16,
+     13.35,
+     14.09
+    ],
+    [
+     17,
+     14.09,
+     15.21
+    ],
+    [
+     18,
+     15.21,
+     16.06
+    ]
+   ],
+   "start": 2.46,
+   "first_word": 2.46,
+   "last_word": 16.06,
+   "translation": "Say, \"If the sea were ink for [writing] the words of my Lord, the sea would be exhausted before the words of my Lord were exhausted, even if We brought the like of it in [continual] supplement.\"",
+   "glosses": [
+    {
+     "w0": 5,
+     "w1": 5,
+     "chip": "مِدَادًۭا",
+     "excerpt": "حبرًا للأقلام التي يكتب بها كلام الله",
+     "source": "التفسير الميسر",
+     "target": "center",
+     "tone": "blue",
+     "start": 4.54,
+     "end": 11.16
+    },
+    {
+     "w0": 13,
+     "w1": 13,
+     "chip": "كَلِمَـٰتُ",
+     "excerpt": "كلام الله، فإنه من جملة صفاته، وصفاته غير مخلوقة",
+     "source": "تفسير السعدي",
+     "target": "light",
+     "tone": "amber",
+     "start": 11.21,
+     "end": 14.04
+    },
+    {
+     "w0": 17,
+     "w1": 18,
+     "chip": "بِمِثْلِهِۦ مَدَدًۭا",
+     "excerpt": "بحارًا أخرى مددًا له",
+     "source": "التفسير الميسر",
+     "target": "center",
+     "tone": "green",
+     "start": 14.09,
+     "end": 16.56
+    }
+   ],
+   "end": 16.66
+  }
+ ],
+ "audio": {
+  "slice_start": 1690.36,
+  "slice_end": 1704.02,
+  "file": "audio_master.wav"
+ },
+ "timing_corrections": [],
+ "timing_flags": [],
+ "aligned_boundaries": []
+}

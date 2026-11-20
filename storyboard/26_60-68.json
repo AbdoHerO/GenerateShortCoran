@@ -1,0 +1,237 @@
+{
+ "_comment": "Musa crosses the sea - Ash-Shu'ara 26:60-68 (Alafasy). Quranic text is NEVER written here: words are referenced by verse + position. Excerpts must be verbatim tafsir explanation (checked by verify.py).",
+ "passage": {
+  "chapter": 26,
+  "from": 60,
+  "to": 68
+ },
+ "data_dir": "data/26_60-68",
+ "intro_s": 1.4,
+ "outro_s": 4.6,
+ "tafsir_labels": {
+  "16": "التفسير الميسر",
+  "91": "تفسير السعدي"
+ },
+ "tafsir_expect": {
+  "16": "Muyassar",
+  "91": "Sa'di"
+ },
+ "translation_expect": "Saheeh International",
+ "credits": {
+  "reciter_ar": "مشاري راشد العفاسي",
+  "translation_en": "Translation: Saheeh International",
+  "data_en": "Text, audio timings & tafsir: Quran Foundation (quran.com)"
+ },
+ "timing_corrections": [
+  {
+   "verse": 63,
+   "segment_index": 1,
+   "expect_word": 3,
+   "set_word": 2,
+   "note": "QF segments for 26:63 list word 3 twice and word 2 never. The 850 ms segment fits «إلى» (natural 2-count madd) and the following 1690 ms segment fits «موسى» (madd before hamza). Mild energy dip at 640.2-640.4 s is consistent with the «م» onset."
+  }
+ ],
+ "chapters": [
+  {
+   "id": "pursuit",
+   "title": "مطاردة فرعون",
+   "verses": [
+    60
+   ],
+   "scene": "musa_pursuit",
+   "bg": "#efe6d6"
+  },
+  {
+   "id": "meet",
+   "title": "التقاء الجمعين",
+   "verses": [
+    61
+   ],
+   "scene": "musa_meet",
+   "bg": "#ece4d8"
+  },
+  {
+   "id": "trust",
+   "title": "يقين موسى",
+   "verses": [
+    62
+   ],
+   "scene": "musa_trust",
+   "bg": "#e7e6df"
+  },
+  {
+   "id": "sea",
+   "title": "انفلاق البحر",
+   "verses": [
+    63
+   ],
+   "scene": "musa_sea",
+   "bg": "#e1e8ea"
+  },
+  {
+   "id": "rescue",
+   "title": "النجاة والغرق",
+   "verses": [
+    64,
+    65,
+    66
+   ],
+   "scene": "musa_rescue",
+   "bg": "#dfe5ea"
+  },
+  {
+   "id": "lesson",
+   "title": "آية وعبرة",
+   "verses": [
+    67,
+    68
+   ],
+   "scene": "musa_lesson",
+   "bg": "#e9e7df"
+  }
+ ],
+ "glosses": [
+  {
+   "verse": 60,
+   "words": [
+    2,
+    2
+   ],
+   "tafsir": 16,
+   "excerpt": "وقت شروق الشمس",
+   "target": "sun",
+   "tone": "amber"
+  },
+  {
+   "verse": 61,
+   "words": [
+    2,
+    3
+   ],
+   "tafsir": 91,
+   "excerpt": "رأى كل منهما صاحبه",
+   "target": "sight",
+   "tone": "blue"
+  },
+  {
+   "verse": 61,
+   "words": [
+    8,
+    8
+   ],
+   "tafsir": 16,
+   "excerpt": "جَمْعَ فرعون مُدْرِكنا ومهلكنا",
+   "target": "companions",
+   "tone": "red"
+  },
+  {
+   "verse": 62,
+   "words": [
+    2,
+    2
+   ],
+   "tafsir": 16,
+   "excerpt": "ليس الأمر كما ذكرتم فلن تُدْرَكوا",
+   "target": "musa",
+   "tone": "green"
+  },
+  {
+   "verse": 62,
+   "words": [
+    6,
+    6
+   ],
+   "tafsir": 16,
+   "excerpt": "سيهديني لما فيه نجاتي ونجاتكم",
+   "target": "musa",
+   "tone": "green"
+  },
+  {
+   "verse": 63,
+   "words": [
+    8,
+    8
+   ],
+   "tafsir": 16,
+   "excerpt": "إلى اثني عشر طريقًا بعدد قبائل بني إسرائيل",
+   "target": "path",
+   "tone": "blue"
+  },
+  {
+   "verse": 63,
+   "words": [
+    12,
+    13
+   ],
+   "tafsir": 16,
+   "excerpt": "فكانت كل قطعة انفصلت من البحر كالجبل العظيم",
+   "target": "wall",
+   "tone": "blue"
+  },
+  {
+   "verse": 64,
+   "words": [
+    1,
+    1
+   ],
+   "tafsir": 16,
+   "excerpt": "وقرَّبْنا هناك فرعون وقومه حتى دخلوا البحر",
+   "target": "army",
+   "tone": "red"
+  },
+  {
+   "verse": 65,
+   "words": [
+    5,
+    5
+   ],
+   "tafsir": 91,
+   "excerpt": "لم يتخلف منهم أحد",
+   "target": "saved",
+   "tone": "green"
+  },
+  {
+   "verse": 66,
+   "words": [
+    2,
+    2
+   ],
+   "tafsir": 16,
+   "excerpt": "بإطباق البحر عليهم بعد أن دخلوا فيه",
+   "target": "sea",
+   "tone": "red"
+  },
+  {
+   "verse": 67,
+   "words": [
+    4,
+    4
+   ],
+   "tafsir": 16,
+   "excerpt": "لَعبرة عجيبة دالة على قدرة الله",
+   "target": "star",
+   "tone": "green"
+  },
+  {
+   "verse": 68,
+   "words": [
+    4,
+    5
+   ],
+   "tafsir": 16,
+   "excerpt": "بعزته أهلك الكافرين المكذبين، وبرحمته نجَّى موسى",
+   "target": "star",
+   "tone": "amber"
+  }
+ ],
+ "cover": {
+  "series_ar": "قصص الأنبياء",
+  "series_en": "Stories of the Prophets",
+  "title_ar": "موسى وانفلاق البحر",
+  "title_en": "Musa and the parting of the sea",
+  "at": [
+   63,
+   8
+  ]
+ }
+}

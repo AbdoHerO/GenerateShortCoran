@@ -1,0 +1,1351 @@
+{
+ "fps": 30,
+ "W": 1080,
+ "H": 1920,
+ "duration": 142.695,
+ "intro": 1.4,
+ "outro_start": 138.495,
+ "surah": {
+  "name_ar": "هود",
+  "name_en": "Hud",
+  "number": 11,
+  "from_ar": "٤٠",
+  "to_ar": "٤٤",
+  "from": 40,
+  "to": 44
+ },
+ "credits": {
+  "reciter_ar": "مشاري راشد العفاسي",
+  "reciter_en": "Mishari Rashid al-'Afasy",
+  "translation_en": "Translation: Saheeh International",
+  "data_en": "Text, audio timings & tafsir: Quran Foundation (quran.com)"
+ },
+ "chapters": [
+  {
+   "id": "c1",
+   "title": "علامة الطوفان",
+   "scene": "stage",
+   "params": {
+    "setting": "garden",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "nuh",
+      "type": "prophet",
+      "label": "نوح عليه السلام",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "believers",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 4,
+      "pose": "gather",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "ship",
+      "type": "ship",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "people",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 6,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [
+     {
+      "type": "flood",
+      "at": [
+       40,
+       5
+      ],
+      "until": null
+     },
+     {
+      "type": "rain",
+      "at": [
+       40,
+       5
+      ],
+      "until": null
+     }
+    ]
+   },
+   "bg": "#e5ebdf",
+   "verses": [
+    40
+   ],
+   "start": 0.0,
+   "end": 43.46
+  },
+  {
+   "id": "c2",
+   "title": "السفينة في الموج",
+   "scene": "stage",
+   "params": {
+    "setting": "sea_shore",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "nuh",
+      "type": "prophet",
+      "label": "نوح عليه السلام",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "ship",
+      "type": "ship",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "son",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "flee",
+      "enter": [
+       42,
+       7
+      ],
+      "exit": null
+     }
+    ],
+    "events": [
+     {
+      "type": "storm",
+      "at": [
+       42,
+       1
+      ],
+      "until": null
+     },
+     {
+      "type": "flood",
+      "at": [
+       41,
+       1
+      ],
+      "until": null
+     }
+    ]
+   },
+   "bg": "#e1e8ea",
+   "verses": [
+    41,
+    42
+   ],
+   "start": 43.46,
+   "end": 83.33
+  },
+  {
+   "id": "c3",
+   "title": "لا عاصم اليوم",
+   "scene": "stage",
+   "params": {
+    "setting": "mountains",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "son",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "flee",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "ship",
+      "type": "ship",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [
+     {
+      "type": "flood",
+      "at": [
+       43,
+       18
+      ],
+      "until": null
+     },
+     {
+      "type": "storm",
+      "at": [
+       43,
+       1
+      ],
+      "until": null
+     }
+    ]
+   },
+   "bg": "#e6e7e2",
+   "verses": [
+    43
+   ],
+   "start": 83.33,
+   "end": 110.42
+  },
+  {
+   "id": "c4",
+   "title": "استواء السفينة",
+   "scene": "stage",
+   "params": {
+    "setting": "mountains",
+    "time": "dawn",
+    "actors": [
+     {
+      "id": "ship",
+      "type": "ship",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [
+     {
+      "type": "light",
+      "at": [
+       44,
+       11
+      ],
+      "until": null
+     }
+    ]
+   },
+   "bg": "#e6e7e2",
+   "verses": [
+    44
+   ],
+   "start": 110.42,
+   "end": 142.695
+  }
+ ],
+ "verses": [
+  {
+   "n": 40,
+   "key": "11:40",
+   "num_ar": "٤٠",
+   "words": [
+    {
+     "pos": 1,
+     "text": "حَتَّىٰٓ"
+    },
+    {
+     "pos": 2,
+     "text": "إِذَا"
+    },
+    {
+     "pos": 3,
+     "text": "جَآءَ"
+    },
+    {
+     "pos": 4,
+     "text": "أَمْرُنَا"
+    },
+    {
+     "pos": 5,
+     "text": "وَفَارَ"
+    },
+    {
+     "pos": 6,
+     "text": "ٱلتَّنُّورُ"
+    },
+    {
+     "pos": 7,
+     "text": "قُلْنَا"
+    },
+    {
+     "pos": 8,
+     "text": "ٱحْمِلْ"
+    },
+    {
+     "pos": 9,
+     "text": "فِيهَا"
+    },
+    {
+     "pos": 10,
+     "text": "مِن"
+    },
+    {
+     "pos": 11,
+     "text": "كُلٍّۢ"
+    },
+    {
+     "pos": 12,
+     "text": "زَوْجَيْنِ"
+    },
+    {
+     "pos": 13,
+     "text": "ٱثْنَيْنِ"
+    },
+    {
+     "pos": 14,
+     "text": "وَأَهْلَكَ"
+    },
+    {
+     "pos": 15,
+     "text": "إِلَّا"
+    },
+    {
+     "pos": 16,
+     "text": "مَن"
+    },
+    {
+     "pos": 17,
+     "text": "سَبَقَ"
+    },
+    {
+     "pos": 18,
+     "text": "عَلَيْهِ"
+    },
+    {
+     "pos": 19,
+     "text": "ٱلْقَوْلُ"
+    },
+    {
+     "pos": 20,
+     "text": "وَمَنْ"
+    },
+    {
+     "pos": 21,
+     "text": "ءَامَنَ ۚ"
+    },
+    {
+     "pos": 22,
+     "text": "وَمَآ"
+    },
+    {
+     "pos": 23,
+     "text": "ءَامَنَ"
+    },
+    {
+     "pos": 24,
+     "text": "مَعَهُۥٓ"
+    },
+    {
+     "pos": 25,
+     "text": "إِلَّا"
+    },
+    {
+     "pos": 26,
+     "text": "قَلِيلٌۭ"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     1.46,
+     3.86
+    ],
+    [
+     2,
+     3.86,
+     4.49
+    ],
+    [
+     3,
+     4.49,
+     6.64
+    ],
+    [
+     4,
+     6.64,
+     7.63
+    ],
+    [
+     5,
+     7.63,
+     8.47
+    ],
+    [
+     6,
+     8.47,
+     10.54
+    ],
+    [
+     7,
+     10.54,
+     11.07
+    ],
+    [
+     8,
+     11.07,
+     11.74
+    ],
+    [
+     9,
+     11.74,
+     12.67
+    ],
+    [
+     10,
+     12.67,
+     13.92
+    ],
+    [
+     11,
+     13.92,
+     15.6
+    ],
+    [
+     12,
+     15.6,
+     16.72
+    ],
+    [
+     13,
+     16.72,
+     19.95
+    ],
+    [
+     7,
+     19.97,
+     20.77
+    ],
+    [
+     8,
+     20.77,
+     21.4
+    ],
+    [
+     9,
+     21.4,
+     22.3
+    ],
+    [
+     10,
+     22.3,
+     23.25
+    ],
+    [
+     11,
+     23.25,
+     24.78
+    ],
+    [
+     12,
+     24.78,
+     25.9
+    ],
+    [
+     13,
+     25.9,
+     26.77
+    ],
+    [
+     14,
+     26.77,
+     27.89
+    ],
+    [
+     15,
+     27.89,
+     28.7
+    ],
+    [
+     16,
+     28.7,
+     29.66
+    ],
+    [
+     17,
+     29.66,
+     30.39
+    ],
+    [
+     18,
+     30.39,
+     31.23
+    ],
+    [
+     19,
+     31.23,
+     32.12
+    ],
+    [
+     20,
+     32.12,
+     32.66
+    ],
+    [
+     21,
+     32.66,
+     33.43
+    ],
+    [
+     22,
+     33.43,
+     36.31
+    ],
+    [
+     23,
+     36.31,
+     37.2
+    ],
+    [
+     24,
+     37.2,
+     39.68
+    ],
+    [
+     25,
+     39.68,
+     40.48
+    ],
+    [
+     26,
+     40.48,
+     41.62
+    ],
+    [
+     10,
+     41.62,
+     43.405
+    ]
+   ],
+   "start": 1.46,
+   "first_word": 1.46,
+   "last_word": 43.405,
+   "translation": "[So it was], until when Our command came and the oven overflowed, We said, \"Load upon it [i.e., the ship] of each [creature] two mates and your family, except those about whom the word [i.e., decree] has preceded, and [include] whoever has believed.\" But none had believed with him, except a few.",
+   "glosses": [
+    {
+     "w0": 6,
+     "w1": 6,
+     "chip": "ٱلتَّنُّورُ",
+     "excerpt": "المكان الذي يخبز فيه",
+     "source": "التفسير الميسر",
+     "target": "ground",
+     "tone": "amber",
+     "start": 8.47,
+     "end": 13.87
+    },
+    {
+     "w0": 11,
+     "w1": 13,
+     "chip": "كُلٍّۢ زَوْجَيْنِ ٱثْنَيْنِ",
+     "excerpt": "أنواع الحيوانات ذكرًا وأنثى",
+     "source": "التفسير الميسر",
+     "target": "ship",
+     "tone": "blue",
+     "start": 13.92,
+     "end": 29.61
+    },
+    {
+     "w0": 17,
+     "w1": 19,
+     "chip": "سَبَقَ عَلَيْهِ ٱلْقَوْلُ",
+     "excerpt": "ممن لم يؤمن بالله كابنه وامرأته",
+     "source": "التفسير الميسر",
+     "target": "people",
+     "tone": "red",
+     "start": 29.66,
+     "end": 43.36
+    }
+   ],
+   "end": 43.46
+  },
+  {
+   "n": 41,
+   "key": "11:41",
+   "num_ar": "٤١",
+   "words": [
+    {
+     "pos": 1,
+     "text": "۞ وَقَالَ"
+    },
+    {
+     "pos": 2,
+     "text": "ٱرْكَبُوا۟"
+    },
+    {
+     "pos": 3,
+     "text": "فِيهَا"
+    },
+    {
+     "pos": 4,
+     "text": "بِسْمِ"
+    },
+    {
+     "pos": 5,
+     "text": "ٱللَّهِ"
+    },
+    {
+     "pos": 6,
+     "text": "مَجْر۪ىٰهَا"
+    },
+    {
+     "pos": 7,
+     "text": "وَمُرْسَىٰهَآ ۚ"
+    },
+    {
+     "pos": 8,
+     "text": "إِنَّ"
+    },
+    {
+     "pos": 9,
+     "text": "رَبِّى"
+    },
+    {
+     "pos": 10,
+     "text": "لَغَفُورٌۭ"
+    },
+    {
+     "pos": 11,
+     "text": "رَّحِيمٌۭ"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     43.46,
+     44.38
+    ],
+    [
+     2,
+     44.38,
+     45.24
+    ],
+    [
+     3,
+     45.24,
+     46.11
+    ],
+    [
+     4,
+     46.11,
+     46.78
+    ],
+    [
+     5,
+     46.78,
+     47.61
+    ],
+    [
+     6,
+     47.61,
+     48.92
+    ],
+    [
+     7,
+     48.92,
+     50.65
+    ],
+    [
+     8,
+     50.65,
+     52.57
+    ],
+    [
+     9,
+     52.57,
+     53.45
+    ],
+    [
+     10,
+     53.45,
+     54.49
+    ],
+    [
+     11,
+     54.49,
+     58.025
+    ]
+   ],
+   "start": 43.46,
+   "first_word": 43.46,
+   "last_word": 58.025,
+   "translation": "And [Noah] said, \"Embark therein; in the name of Allāh [are] its course and its anchorage. Indeed, my Lord is Forgiving and Merciful.\"",
+   "glosses": [
+    {
+     "w0": 6,
+     "w1": 7,
+     "chip": "مَجْر۪ىٰهَا وَمُرْسَىٰهَآ ۚ",
+     "excerpt": "تجري على اسم الله، وترسو على اسم الله",
+     "source": "تفسير السعدي",
+     "target": "ship",
+     "tone": "green",
+     "start": 47.61,
+     "end": 57.96
+    }
+   ],
+   "end": 58.06
+  },
+  {
+   "n": 42,
+   "key": "11:42",
+   "num_ar": "٤٢",
+   "words": [
+    {
+     "pos": 1,
+     "text": "وَهِىَ"
+    },
+    {
+     "pos": 2,
+     "text": "تَجْرِى"
+    },
+    {
+     "pos": 3,
+     "text": "بِهِمْ"
+    },
+    {
+     "pos": 4,
+     "text": "فِى"
+    },
+    {
+     "pos": 5,
+     "text": "مَوْجٍۢ"
+    },
+    {
+     "pos": 6,
+     "text": "كَٱلْجِبَالِ"
+    },
+    {
+     "pos": 7,
+     "text": "وَنَادَىٰ"
+    },
+    {
+     "pos": 8,
+     "text": "نُوحٌ"
+    },
+    {
+     "pos": 9,
+     "text": "ٱبْنَهُۥ"
+    },
+    {
+     "pos": 10,
+     "text": "وَكَانَ"
+    },
+    {
+     "pos": 11,
+     "text": "فِى"
+    },
+    {
+     "pos": 12,
+     "text": "مَعْزِلٍۢ"
+    },
+    {
+     "pos": 13,
+     "text": "يَـٰبُنَىَّ"
+    },
+    {
+     "pos": 14,
+     "text": "ٱرْكَب"
+    },
+    {
+     "pos": 15,
+     "text": "مَّعَنَا"
+    },
+    {
+     "pos": 16,
+     "text": "وَلَا"
+    },
+    {
+     "pos": 17,
+     "text": "تَكُن"
+    },
+    {
+     "pos": 18,
+     "text": "مَّعَ"
+    },
+    {
+     "pos": 19,
+     "text": "ٱلْكَـٰفِرِينَ"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     58.06,
+     58.74
+    ],
+    [
+     2,
+     58.74,
+     59.6
+    ],
+    [
+     3,
+     59.6,
+     60.22
+    ],
+    [
+     4,
+     60.22,
+     60.69
+    ],
+    [
+     5,
+     60.69,
+     62.52
+    ],
+    [
+     6,
+     62.52,
+     63.84
+    ],
+    [
+     7,
+     63.84,
+     65.01
+    ],
+    [
+     8,
+     65.01,
+     65.61
+    ],
+    [
+     9,
+     65.61,
+     66.8
+    ],
+    [
+     10,
+     66.8,
+     67.68
+    ],
+    [
+     11,
+     67.68,
+     68.13
+    ],
+    [
+     12,
+     68.13,
+     70.05
+    ],
+    [
+     13,
+     70.05,
+     71.17
+    ],
+    [
+     14,
+     71.17,
+     71.93
+    ],
+    [
+     13,
+     71.93,
+     73.77
+    ],
+    [
+     14,
+     73.77,
+     74.31
+    ],
+    [
+     15,
+     74.31,
+     76.4
+    ],
+    [
+     16,
+     76.4,
+     77.04
+    ],
+    [
+     17,
+     77.04,
+     78.06
+    ],
+    [
+     18,
+     78.06,
+     79.1
+    ],
+    [
+     19,
+     79.1,
+     83.295
+    ]
+   ],
+   "start": 58.06,
+   "first_word": 58.06,
+   "last_word": 83.295,
+   "translation": "And it sailed with them through waves like mountains, and Noah called to his son who was apart [from them], \"O my son, come aboard with us and be not with the disbelievers.\"",
+   "glosses": [
+    {
+     "w0": 12,
+     "w1": 12,
+     "chip": "مَعْزِلٍۢ",
+     "excerpt": "في مكانٍ عَزَل فيه نفسه عن المؤمنين",
+     "source": "التفسير الميسر",
+     "target": "son",
+     "tone": "blue",
+     "start": 68.13,
+     "end": 83.23
+    }
+   ],
+   "end": 83.33
+  },
+  {
+   "n": 43,
+   "key": "11:43",
+   "num_ar": "٤٣",
+   "words": [
+    {
+     "pos": 1,
+     "text": "قَالَ"
+    },
+    {
+     "pos": 2,
+     "text": "سَـَٔاوِىٓ"
+    },
+    {
+     "pos": 3,
+     "text": "إِلَىٰ"
+    },
+    {
+     "pos": 4,
+     "text": "جَبَلٍۢ"
+    },
+    {
+     "pos": 5,
+     "text": "يَعْصِمُنِى"
+    },
+    {
+     "pos": 6,
+     "text": "مِنَ"
+    },
+    {
+     "pos": 7,
+     "text": "ٱلْمَآءِ ۚ"
+    },
+    {
+     "pos": 8,
+     "text": "قَالَ"
+    },
+    {
+     "pos": 9,
+     "text": "لَا"
+    },
+    {
+     "pos": 10,
+     "text": "عَاصِمَ"
+    },
+    {
+     "pos": 11,
+     "text": "ٱلْيَوْمَ"
+    },
+    {
+     "pos": 12,
+     "text": "مِنْ"
+    },
+    {
+     "pos": 13,
+     "text": "أَمْرِ"
+    },
+    {
+     "pos": 14,
+     "text": "ٱللَّهِ"
+    },
+    {
+     "pos": 15,
+     "text": "إِلَّا"
+    },
+    {
+     "pos": 16,
+     "text": "مَن"
+    },
+    {
+     "pos": 17,
+     "text": "رَّحِمَ ۚ"
+    },
+    {
+     "pos": 18,
+     "text": "وَحَالَ"
+    },
+    {
+     "pos": 19,
+     "text": "بَيْنَهُمَا"
+    },
+    {
+     "pos": 20,
+     "text": "ٱلْمَوْجُ"
+    },
+    {
+     "pos": 21,
+     "text": "فَكَانَ"
+    },
+    {
+     "pos": 22,
+     "text": "مِنَ"
+    },
+    {
+     "pos": 23,
+     "text": "ٱلْمُغْرَقِينَ"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     83.33,
+     84.06
+    ],
+    [
+     2,
+     84.06,
+     86.7
+    ],
+    [
+     3,
+     86.7,
+     87.41
+    ],
+    [
+     4,
+     87.41,
+     89.15
+    ],
+    [
+     5,
+     89.15,
+     90.42
+    ],
+    [
+     6,
+     90.42,
+     90.75
+    ],
+    [
+     7,
+     90.75,
+     93.68
+    ],
+    [
+     8,
+     93.68,
+     94.96
+    ],
+    [
+     9,
+     94.96,
+     95.34
+    ],
+    [
+     10,
+     95.34,
+     96.13
+    ],
+    [
+     11,
+     96.13,
+     97.13
+    ],
+    [
+     12,
+     97.13,
+     97.52
+    ],
+    [
+     13,
+     97.52,
+     98.21
+    ],
+    [
+     14,
+     98.21,
+     99.08
+    ],
+    [
+     15,
+     99.08,
+     99.87
+    ],
+    [
+     16,
+     99.87,
+     100.1
+    ],
+    [
+     17,
+     100.1,
+     101.11
+    ],
+    [
+     18,
+     101.11,
+     102.37
+    ],
+    [
+     19,
+     102.37,
+     103.34
+    ],
+    [
+     20,
+     103.34,
+     104.26
+    ],
+    [
+     21,
+     104.26,
+     105.2
+    ],
+    [
+     22,
+     105.2,
+     105.54
+    ],
+    [
+     23,
+     105.54,
+     110.365
+    ]
+   ],
+   "start": 83.33,
+   "first_word": 83.33,
+   "last_word": 110.365,
+   "translation": "[But] he said, \"I will take refuge on a mountain to protect me from the water.\" [Noah] said, \"There is no protector today from the decree of Allāh, except for whom He gives mercy.\" And the waves came between them, and he was among the drowned.",
+   "glosses": [
+    {
+     "w0": 5,
+     "w1": 5,
+     "chip": "يَعْصِمُنِى",
+     "excerpt": "فيمنعني من الغرق",
+     "source": "التفسير الميسر",
+     "target": "son",
+     "tone": "red",
+     "start": 89.15,
+     "end": 110.32000000000001
+    }
+   ],
+   "end": 110.42
+  },
+  {
+   "n": 44,
+   "key": "11:44",
+   "num_ar": "٤٤",
+   "words": [
+    {
+     "pos": 1,
+     "text": "وَقِيلَ"
+    },
+    {
+     "pos": 2,
+     "text": "يَـٰٓأَرْضُ"
+    },
+    {
+     "pos": 3,
+     "text": "ٱبْلَعِى"
+    },
+    {
+     "pos": 4,
+     "text": "مَآءَكِ"
+    },
+    {
+     "pos": 5,
+     "text": "وَيَـٰسَمَآءُ"
+    },
+    {
+     "pos": 6,
+     "text": "أَقْلِعِى"
+    },
+    {
+     "pos": 7,
+     "text": "وَغِيضَ"
+    },
+    {
+     "pos": 8,
+     "text": "ٱلْمَآءُ"
+    },
+    {
+     "pos": 9,
+     "text": "وَقُضِىَ"
+    },
+    {
+     "pos": 10,
+     "text": "ٱلْأَمْرُ"
+    },
+    {
+     "pos": 11,
+     "text": "وَٱسْتَوَتْ"
+    },
+    {
+     "pos": 12,
+     "text": "عَلَى"
+    },
+    {
+     "pos": 13,
+     "text": "ٱلْجُودِىِّ ۖ"
+    },
+    {
+     "pos": 14,
+     "text": "وَقِيلَ"
+    },
+    {
+     "pos": 15,
+     "text": "بُعْدًۭا"
+    },
+    {
+     "pos": 16,
+     "text": "لِّلْقَوْمِ"
+    },
+    {
+     "pos": 17,
+     "text": "ٱلظَّـٰلِمِينَ"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     110.42,
+     111.33
+    ],
+    [
+     2,
+     111.33,
+     114.01
+    ],
+    [
+     3,
+     114.01,
+     114.9
+    ],
+    [
+     4,
+     114.9,
+     117.31
+    ],
+    [
+     5,
+     117.31,
+     120.619
+    ],
+    [
+     6,
+     120.62,
+     121.65
+    ],
+    [
+     7,
+     121.65,
+     122.5
+    ],
+    [
+     8,
+     122.5,
+     125.0
+    ],
+    [
+     9,
+     125.0,
+     125.79
+    ],
+    [
+     10,
+     125.79,
+     126.67
+    ],
+    [
+     11,
+     126.67,
+     127.65
+    ],
+    [
+     12,
+     127.65,
+     128.06
+    ],
+    [
+     13,
+     128.06,
+     129.9
+    ],
+    [
+     14,
+     129.9,
+     130.76
+    ],
+    [
+     15,
+     130.76,
+     131.48
+    ],
+    [
+     16,
+     131.48,
+     132.88
+    ],
+    [
+     17,
+     132.88,
+     138.095
+    ]
+   ],
+   "start": 110.42,
+   "first_word": 110.42,
+   "last_word": 138.095,
+   "translation": "And it was said, \"O earth, swallow your water, and O sky, withhold [your rain].\" And the water subsided, and the matter was accomplished, and it [i.e., the ship] came to rest on the [mountain of] Jūdiyy. And it was said, \"Away with the wrongdoing people.\"",
+   "glosses": [
+    {
+     "w0": 13,
+     "w1": 13,
+     "chip": "ٱلْجُودِىِّ ۖ",
+     "excerpt": "ذلك الجبل المعروف في أرض الموصل",
+     "source": "تفسير السعدي",
+     "target": "ship",
+     "tone": "amber",
+     "start": 128.06,
+     "end": 130.70999999999998
+    },
+    {
+     "w0": 15,
+     "w1": 15,
+     "chip": "بُعْدًۭا",
+     "excerpt": "لعنة وبعدا, وسحقا لا يزال معهم",
+     "source": "تفسير السعدي",
+     "target": "sky",
+     "tone": "red",
+     "start": 130.76,
+     "end": 138.595
+    }
+   ],
+   "end": 138.695
+  }
+ ],
+ "audio": {
+  "slice_start": 944.025,
+  "slice_end": 1080.72,
+  "file": "audio_master.wav"
+ },
+ "timing_corrections": []
+}

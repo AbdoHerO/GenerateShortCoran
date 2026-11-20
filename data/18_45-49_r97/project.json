@@ -1,0 +1,114 @@
+{
+ "id": "18_45-49_r97",
+ "chapter": 18,
+ "from": 45,
+ "to": 49,
+ "reciter": 97,
+ "style": "calm",
+ "director": "auto",
+ "created": "2026-11-19T22:33:35.324Z",
+ "stage": "review",
+ "steps": [
+  {
+   "key": "fetch",
+   "label": "Fetching verses, tafsir and recitation",
+   "state": "done",
+   "detail": "Tafsir as-Sa'di 5/5",
+   "progress": null
+  },
+  {
+   "key": "direct",
+   "label": "Writing a simple storyboard",
+   "state": "done",
+   "detail": "",
+   "progress": null
+  },
+  {
+   "key": "verify",
+   "label": "Accuracy checks (text, timing, explanations)",
+   "state": "done",
+   "detail": "",
+   "progress": null
+  },
+  {
+   "key": "prepare",
+   "label": "Preparing audio and timeline",
+   "state": "done",
+   "detail": "",
+   "progress": null
+  }
+ ],
+ "error": null,
+ "review": {
+  "verses": {},
+  "timing": {},
+  "titles": false,
+  "reviewer": "",
+  "approved": false,
+  "approved_at": null
+ },
+ "render": {
+  "state": "idle"
+ },
+ "updated": "2026-11-19T22:56:18.263Z",
+ "verify": {
+  "passed": true,
+  "pass": 44,
+  "fail": 0,
+  "info": 10,
+  "items": [
+   {
+    "level": "INFO",
+    "area": "text",
+    "msg": "second source: quran-uthmani / Uthmani via alquran.cloud (Tanzil)"
+   },
+   {
+    "level": "INFO",
+    "area": "text",
+    "msg": "verse 1: basmala prefix added by alquran.cloud removed (matched Tanzil 1:1 exactly)"
+   },
+   {
+    "level": "INFO",
+    "area": "text",
+    "msg": "18:45 QF verse-level text differs from QF word-level text only by small-meem marks (U+06E2/U+06ED) or sakt spacing; rendering word-level text (identical to Tanzil, checked below)"
+   },
+   {
+    "level": "INFO",
+    "area": "text",
+    "msg": "18:46 QF verse-level text differs from QF word-level text only by small-meem marks (U+06E2/U+06ED) or sakt spacing; rendering word-level text (identical to Tanzil, checked below)"
+   },
+   {
+    "level": "INFO",
+    "area": "text",
+    "msg": "18:47 QF verse-level text differs from QF word-level text only by small-meem marks (U+06E2/U+06ED) or sakt spacing; rendering word-level text (identical to Tanzil, checked below)"
+   },
+   {
+    "level": "INFO",
+    "area": "text",
+    "msg": "18:48 QF verse-level text differs from QF word-level text only by small-meem marks (U+06E2/U+06ED) or sakt spacing; rendering word-level text (identical to Tanzil, checked below)"
+   },
+   {
+    "level": "INFO",
+    "area": "text",
+    "msg": "18:49 QF verse-level text differs from QF word-level text only by small-meem marks (U+06E2/U+06ED) or sakt spacing; rendering word-level text (identical to Tanzil, checked below)"
+   },
+   {
+    "level": "INFO",
+    "area": "text",
+    "msg": "encoding equivalence applied: tatweel + superscript alef == superscript alef (dagger alef)"
+   },
+   {
+    "level": "INFO",
+    "area": "audio",
+    "msg": "18:47: reciter repeats word(s) [7] - highlight must jump back (handled by renderer)"
+   },
+   {
+    "level": "INFO",
+    "area": "audio",
+    "msg": "18:49: reciter repeats word(s) [2, 3] - highlight must jump back (handled by renderer)"
+   }
+  ],
+  "total": 54
+ },
+ "duration": 113.2
+}

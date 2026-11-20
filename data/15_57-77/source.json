@@ -1,0 +1,4817 @@
+{
+ "meta": {
+  "source": "public",
+  "base": "https://api.quran.com/api/v4",
+  "fetched_at": "2026-11-19T15:39:56Z",
+  "chapter": 15,
+  "from": 57,
+  "to": 77,
+  "recitation_id": 7,
+  "translation_id": 20,
+  "tafsir_ids": [
+   16,
+   91
+  ]
+ },
+ "chapter": {
+  "id": 15,
+  "revelation_place": "makkah",
+  "revelation_order": 54,
+  "bismillah_pre": true,
+  "name_simple": "Al-Hijr",
+  "name_complex": "Al-Ĥijr",
+  "name_arabic": "الحجر",
+  "verses_count": 99,
+  "pages": [
+   262,
+   267
+  ],
+  "translated_name": {
+   "language_name": "english",
+   "name": "The Rocky Tract"
+  }
+ },
+ "chapter_en": {
+  "id": 15,
+  "revelation_place": "makkah",
+  "revelation_order": 54,
+  "bismillah_pre": true,
+  "name_simple": "Al-Hijr",
+  "name_complex": "Al-Ĥijr",
+  "name_arabic": "الحجر",
+  "verses_count": 99,
+  "pages": [
+   262,
+   267
+  ],
+  "translated_name": {
+   "language_name": "english",
+   "name": "The Rocky Tract"
+  }
+ },
+ "translation_resource": {
+  "id": 20,
+  "name": "Saheeh International",
+  "author_name": "Saheeh International",
+  "slug": "en-sahih-international",
+  "language_name": "english",
+  "translated_name": {
+   "name": "Saheeh International",
+   "language_name": "english"
+  }
+ },
+ "tafsir_resources": [
+  {
+   "id": 16,
+   "name": "Tafsir Muyassar",
+   "author_name": "المیسر",
+   "slug": "ar-tafsir-muyassar",
+   "language_name": "arabic",
+   "translated_name": {
+    "name": "Tafsir Muyassar",
+    "language_name": "english"
+   }
+  },
+  {
+   "id": 91,
+   "name": "السعدي Al-Sa'di",
+   "author_name": "Saddi",
+   "slug": "ar-tafseer-al-saddi",
+   "language_name": "arabic",
+   "translated_name": {
+    "name": "السعدي Al-Sa'di",
+    "language_name": "english"
+   }
+  }
+ ],
+ "verses": [
+  {
+   "id": 1859,
+   "verse_number": 57,
+   "verse_key": "15:57",
+   "hizb_number": 27,
+   "rub_el_hizb_number": 106,
+   "ruku_number": 221,
+   "manzil_number": 3,
+   "sajdah_number": null,
+   "text_uthmani": "قَالَ فَمَا خَطْبُكُمْ أَيُّهَا ٱلْمُرْسَلُونَ",
+   "text_imlaei": "قَالَ فَمَا خَطْبُكُمْ أَيُّهَا الْمُرْسَلُونَ",
+   "page_number": 265,
+   "juz_number": 14,
+   "words": [
+    {
+     "id": 52875,
+     "position": 1,
+     "audio_url": "wbw/015_057_001.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "قَالَ",
+     "location": "15:57:1",
+     "page_number": 265,
+     "line_number": 5,
+     "text": "قَالَ",
+     "translation": {
+      "text": "He said",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "qāla",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 52876,
+     "position": 2,
+     "audio_url": "wbw/015_057_002.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "فَمَا",
+     "location": "15:57:2",
+     "page_number": 265,
+     "line_number": 5,
+     "text": "فَمَا",
+     "translation": {
+      "text": "Then what",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "famā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 52877,
+     "position": 3,
+     "audio_url": "wbw/015_057_003.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "خَطْبُكُمْ",
+     "location": "15:57:3",
+     "page_number": 265,
+     "line_number": 5,
+     "text": "خَطْبُكُمْ",
+     "translation": {
+      "text": "(is) your business",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "khaṭbukum",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 52878,
+     "position": 4,
+     "audio_url": "wbw/015_057_004.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "أَيُّهَا",
+     "location": "15:57:4",
+     "page_number": 265,
+     "line_number": 5,
+     "text": "أَيُّهَا",
+     "translation": {
+      "text": "O messengers",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "ayyuhā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 52879,
+     "position": 5,
+     "audio_url": "wbw/015_057_005.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "ٱلْمُرْسَلُونَ",
+     "location": "15:57:5",
+     "page_number": 265,
+     "line_number": 5,
+     "text": "ٱلْمُرْسَلُونَ",
+     "translation": {
+      "text": "O messengers",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "l-mur'salūna",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 52880,
+     "position": 6,
+     "audio_url": null,
+     "char_type_name": "end",
+     "text_uthmani": "٥٧",
+     "location": "15:57:6",
+     "page_number": 265,
+     "line_number": 6,
+     "text": "٥٧",
+     "translation": {
+      "text": "(57)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": null,
+      "language_name": "english"
+     }
+    }
+   ],
+   "translations": [
+    {
+     "id": 96758,
+     "resource_id": 20,
+     "text": "[Abraham] said, \"Then what is your business [here], O messengers?\""
+    }
+   ]
+  },
+  {
+   "id": 1860,
+   "verse_number": 58,
+   "verse_key": "15:58",
+   "hizb_number": 27,
+   "rub_el_hizb_number": 106,
+   "ruku_number": 221,
+   "manzil_number": 3,
+   "sajdah_number": null,
+   "text_uthmani": "قَالُوٓا۟ إِنَّآ أُرْسِلْنَآ إِلَىٰ قَوْمٍ مُّجْرِمِينَ",
+   "text_imlaei": "قَالُوا إِنَّا أُرْسِلْنَا إِلَىٰ قَوْمٍ مُّجْرِمِينَ",
+   "page_number": 265,
+   "juz_number": 14,
+   "words": [
+    {
+     "id": 53566,
+     "position": 1,
+     "audio_url": "wbw/015_058_001.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "قَالُوٓا۟",
+     "location": "15:58:1",
+     "page_number": 265,
+     "line_number": 6,
+     "text": "قَالُوٓا۟",
+     "translation": {
+      "text": "They said",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "qālū",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 53567,
+     "position": 2,
+     "audio_url": "wbw/015_058_002.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "إِنَّآ",
+     "location": "15:58:2",
+     "page_number": 265,
+     "line_number": 6,
+     "text": "إِنَّآ",
+     "translation": {
+      "text": "Indeed, we",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "innā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 53568,
+     "position": 3,
+     "audio_url": "wbw/015_058_003.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "أُرْسِلْنَآ",
+     "location": "15:58:3",
+     "page_number": 265,
+     "line_number": 6,
+     "text": "أُرْسِلْنَآ",
+     "translation": {
+      "text": "[we] have been sent",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "ur'sil'nā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 53569,
+     "position": 4,
+     "audio_url": "wbw/015_058_004.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "إِلَىٰ",
+     "location": "15:58:4",
+     "page_number": 265,
+     "line_number": 6,
+     "text": "إِلَىٰ",
+     "translation": {
+      "text": "to",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "ilā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 53570,
+     "position": 5,
+     "audio_url": "wbw/015_058_005.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "قَوْمٍۢ",
+     "location": "15:58:5",
+     "page_number": 265,
+     "line_number": 6,
+     "text": "قَوْمٍۢ",
+     "translation": {
+      "text": "a people ",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "qawmin",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 53571,
+     "position": 6,
+     "audio_url": "wbw/015_058_006.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "مُّجْرِمِينَ",
+     "location": "15:58:6",
+     "page_number": 265,
+     "line_number": 6,
+     "text": "مُّجْرِمِينَ",
+     "translation": {
+      "text": "criminals",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "muj'rimīna",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 53572,
+     "position": 7,
+     "audio_url": null,
+     "char_type_name": "end",
+     "text_uthmani": "٥٨",
+     "location": "15:58:7",
+     "page_number": 265,
+     "line_number": 6,
+     "text": "٥٨",
+     "translation": {
+      "text": "(58)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": null,
+      "language_name": "english"
+     }
+    }
+   ],
+   "translations": [
+    {
+     "id": 96759,
+     "resource_id": 20,
+     "text": "They said, \"Indeed, we have been sent to a people of criminals,"
+    }
+   ]
+  },
+  {
+   "id": 1861,
+   "verse_number": 59,
+   "verse_key": "15:59",
+   "hizb_number": 27,
+   "rub_el_hizb_number": 106,
+   "ruku_number": 221,
+   "manzil_number": 3,
+   "sajdah_number": null,
+   "text_uthmani": "إِلَّآ ءَالَ لُوطٍ إِنَّا لَمُنَجُّوهُمْ أَجْمَعِينَ",
+   "text_imlaei": "إِلَّا آلَ لُوطٍ إِنَّا لَمُنَجُّوهُمْ أَجْمَعِينَ",
+   "page_number": 265,
+   "juz_number": 14,
+   "words": [
+    {
+     "id": 53857,
+     "position": 1,
+     "audio_url": "wbw/015_059_001.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "إِلَّآ",
+     "location": "15:59:1",
+     "page_number": 265,
+     "line_number": 6,
+     "text": "إِلَّآ",
+     "translation": {
+      "text": "Except",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "illā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 53858,
+     "position": 2,
+     "audio_url": "wbw/015_059_002.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "ءَالَ",
+     "location": "15:59:2",
+     "page_number": 265,
+     "line_number": 6,
+     "text": "ءَالَ",
+     "translation": {
+      "text": "the family",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "āla",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 53859,
+     "position": 3,
+     "audio_url": "wbw/015_059_003.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "لُوطٍ",
+     "location": "15:59:3",
+     "page_number": 265,
+     "line_number": 6,
+     "text": "لُوطٍ",
+     "translation": {
+      "text": "of Lut",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "lūṭin",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 53860,
+     "position": 4,
+     "audio_url": "wbw/015_059_004.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "إِنَّا",
+     "location": "15:59:4",
+     "page_number": 265,
+     "line_number": 7,
+     "text": "إِنَّا",
+     "translation": {
+      "text": "indeed, we",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "innā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 53861,
+     "position": 5,
+     "audio_url": "wbw/015_059_005.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "لَمُنَجُّوهُمْ",
+     "location": "15:59:5",
+     "page_number": 265,
+     "line_number": 7,
+     "text": "لَمُنَجُّوهُمْ",
+     "translation": {
+      "text": "surely will save them",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "lamunajjūhum",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 53862,
+     "position": 6,
+     "audio_url": "wbw/015_059_006.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "أَجْمَعِينَ",
+     "location": "15:59:6",
+     "page_number": 265,
+     "line_number": 7,
+     "text": "أَجْمَعِينَ",
+     "translation": {
+      "text": "all",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "ajmaʿīna",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 53863,
+     "position": 7,
+     "audio_url": null,
+     "char_type_name": "end",
+     "text_uthmani": "٥٩",
+     "location": "15:59:7",
+     "page_number": 265,
+     "line_number": 7,
+     "text": "٥٩",
+     "translation": {
+      "text": "(59)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": null,
+      "language_name": "english"
+     }
+    }
+   ],
+   "translations": [
+    {
+     "id": 96760,
+     "resource_id": 20,
+     "text": "Except the family of Lot; indeed, we will save them all"
+    }
+   ]
+  },
+  {
+   "id": 1862,
+   "verse_number": 60,
+   "verse_key": "15:60",
+   "hizb_number": 27,
+   "rub_el_hizb_number": 106,
+   "ruku_number": 221,
+   "manzil_number": 3,
+   "sajdah_number": null,
+   "text_uthmani": "إِلَّا ٱمْرَأَتَهُۥ قَدَّرْنَآ ۙ إِنَّهَا لَمِنَ ٱلْغَـٰبِرِينَ",
+   "text_imlaei": "إِلَّا امْرَأَتَهُ قَدَّرْنَا ۙ إِنَّهَا لَمِنَ الْغَابِرِينَ",
+   "page_number": 265,
+   "juz_number": 14,
+   "words": [
+    {
+     "id": 54439,
+     "position": 1,
+     "audio_url": "wbw/015_060_001.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "إِلَّا",
+     "location": "15:60:1",
+     "page_number": 265,
+     "line_number": 7,
+     "text": "إِلَّا",
+     "translation": {
+      "text": "Except",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "illā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 54440,
+     "position": 2,
+     "audio_url": "wbw/015_060_002.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "ٱمْرَأَتَهُۥ",
+     "location": "15:60:2",
+     "page_number": 265,
+     "line_number": 7,
+     "text": "ٱمْرَأَتَهُۥ",
+     "translation": {
+      "text": "his wife",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "im'ra-atahu",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 54441,
+     "position": 3,
+     "audio_url": "wbw/015_060_003.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "قَدَّرْنَآ ۙ",
+     "location": "15:60:3",
+     "page_number": 265,
+     "line_number": 7,
+     "text": "قَدَّرْنَآ ۙ",
+     "translation": {
+      "text": "We have decreed",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "qaddarnā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 54443,
+     "position": 4,
+     "audio_url": "wbw/015_060_005.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "إِنَّهَا",
+     "location": "15:60:4",
+     "page_number": 265,
+     "line_number": 7,
+     "text": "إِنَّهَا",
+     "translation": {
+      "text": "that she",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "innahā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 54444,
+     "position": 5,
+     "audio_url": "wbw/015_060_006.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "لَمِنَ",
+     "location": "15:60:5",
+     "page_number": 265,
+     "line_number": 7,
+     "text": "لَمِنَ",
+     "translation": {
+      "text": "(is) surely of",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "lamina",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 54445,
+     "position": 6,
+     "audio_url": "wbw/015_060_007.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "ٱلْغَـٰبِرِينَ",
+     "location": "15:60:6",
+     "page_number": 265,
+     "line_number": 8,
+     "text": "ٱلْغَـٰبِرِينَ",
+     "translation": {
+      "text": "those who remain behind",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "l-ghābirīna",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 54446,
+     "position": 7,
+     "audio_url": null,
+     "char_type_name": "end",
+     "text_uthmani": "٦٠",
+     "location": "15:60:7",
+     "page_number": 265,
+     "line_number": 8,
+     "text": "٦٠",
+     "translation": {
+      "text": "(60)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": null,
+      "language_name": "english"
+     }
+    }
+   ],
+   "translations": [
+    {
+     "id": 96762,
+     "resource_id": 20,
+     "text": "Except his wife.\" We [i.e., Allāh] decreed that she is of those who remain behind.<sup foot_note=196594>1</sup>"
+    }
+   ]
+  },
+  {
+   "id": 1863,
+   "verse_number": 61,
+   "verse_key": "15:61",
+   "hizb_number": 27,
+   "rub_el_hizb_number": 106,
+   "ruku_number": 222,
+   "manzil_number": 3,
+   "sajdah_number": null,
+   "text_uthmani": "فَلَمَّا جَآءَ ءَالَ لُوطٍ ٱلْمُرْسَلُونَ",
+   "text_imlaei": "فَلَمَّا جَاءَ آلَ لُوطٍ الْمُرْسَلُونَ",
+   "page_number": 265,
+   "juz_number": 14,
+   "words": [
+    {
+     "id": 55345,
+     "position": 1,
+     "audio_url": "wbw/015_061_001.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "فَلَمَّا",
+     "location": "15:61:1",
+     "page_number": 265,
+     "line_number": 8,
+     "text": "فَلَمَّا",
+     "translation": {
+      "text": "And when",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "falammā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 55346,
+     "position": 2,
+     "audio_url": "wbw/015_061_002.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "جَآءَ",
+     "location": "15:61:2",
+     "page_number": 265,
+     "line_number": 8,
+     "text": "جَآءَ",
+     "translation": {
+      "text": "came",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "jāa",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 55347,
+     "position": 3,
+     "audio_url": "wbw/015_061_003.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "ءَالَ",
+     "location": "15:61:3",
+     "page_number": 265,
+     "line_number": 8,
+     "text": "ءَالَ",
+     "translation": {
+      "text": "(to the) family",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "āla",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 55348,
+     "position": 4,
+     "audio_url": "wbw/015_061_004.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "لُوطٍ",
+     "location": "15:61:4",
+     "page_number": 265,
+     "line_number": 8,
+     "text": "لُوطٍ",
+     "translation": {
+      "text": "(of) Lut",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "lūṭin",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 55349,
+     "position": 5,
+     "audio_url": "wbw/015_061_005.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "ٱلْمُرْسَلُونَ",
+     "location": "15:61:5",
+     "page_number": 265,
+     "line_number": 8,
+     "text": "ٱلْمُرْسَلُونَ",
+     "translation": {
+      "text": "the messengers",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "l-mur'salūna",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 55350,
+     "position": 6,
+     "audio_url": null,
+     "char_type_name": "end",
+     "text_uthmani": "٦١",
+     "location": "15:61:6",
+     "page_number": 265,
+     "line_number": 8,
+     "text": "٦١",
+     "translation": {
+      "text": "(61)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": null,
+      "language_name": "english"
+     }
+    }
+   ],
+   "translations": [
+    {
+     "id": 96763,
+     "resource_id": 20,
+     "text": "And when the messengers came to the family of Lot,"
+    }
+   ]
+  },
+  {
+   "id": 1864,
+   "verse_number": 62,
+   "verse_key": "15:62",
+   "hizb_number": 27,
+   "rub_el_hizb_number": 106,
+   "ruku_number": 222,
+   "manzil_number": 3,
+   "sajdah_number": null,
+   "text_uthmani": "قَالَ إِنَّكُمْ قَوْمٌ مُّنكَرُونَ",
+   "text_imlaei": "قَالَ إِنَّكُمْ قَوْمٌ مُّنكَرُونَ",
+   "page_number": 265,
+   "juz_number": 14,
+   "words": [
+    {
+     "id": 55853,
+     "position": 1,
+     "audio_url": "wbw/015_062_001.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "قَالَ",
+     "location": "15:62:1",
+     "page_number": 265,
+     "line_number": 8,
+     "text": "قَالَ",
+     "translation": {
+      "text": "He said",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "qāla",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 55854,
+     "position": 2,
+     "audio_url": "wbw/015_062_002.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "إِنَّكُمْ",
+     "location": "15:62:2",
+     "page_number": 265,
+     "line_number": 9,
+     "text": "إِنَّكُمْ",
+     "translation": {
+      "text": "Indeed, you",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "innakum",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 55855,
+     "position": 3,
+     "audio_url": "wbw/015_062_003.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "قَوْمٌۭ",
+     "location": "15:62:3",
+     "page_number": 265,
+     "line_number": 9,
+     "text": "قَوْمٌۭ",
+     "translation": {
+      "text": "(are) a people",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "qawmun",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 55856,
+     "position": 4,
+     "audio_url": "wbw/015_062_004.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "مُّنكَرُونَ",
+     "location": "15:62:4",
+     "page_number": 265,
+     "line_number": 9,
+     "text": "مُّنكَرُونَ",
+     "translation": {
+      "text": "unknown",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "munkarūna",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 55857,
+     "position": 5,
+     "audio_url": null,
+     "char_type_name": "end",
+     "text_uthmani": "٦٢",
+     "location": "15:62:5",
+     "page_number": 265,
+     "line_number": 9,
+     "text": "٦٢",
+     "translation": {
+      "text": "(62)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": null,
+      "language_name": "english"
+     }
+    }
+   ],
+   "translations": [
+    {
+     "id": 96764,
+     "resource_id": 20,
+     "text": "He said, \"Indeed, you are people unknown.\""
+    }
+   ]
+  },
+  {
+   "id": 1865,
+   "verse_number": 63,
+   "verse_key": "15:63",
+   "hizb_number": 27,
+   "rub_el_hizb_number": 106,
+   "ruku_number": 222,
+   "manzil_number": 3,
+   "sajdah_number": null,
+   "text_uthmani": "قَالُوا۟ بَلْ جِئْنَـٰكَ بِمَا كَانُوا۟ فِيهِ يَمْتَرُونَ",
+   "text_imlaei": "قَالُوا بَلْ جِئْنَاكَ بِمَا كَانُوا فِيهِ يَمْتَرُونَ",
+   "page_number": 265,
+   "juz_number": 14,
+   "words": [
+    {
+     "id": 56423,
+     "position": 1,
+     "audio_url": "wbw/015_063_001.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "قَالُوا۟",
+     "location": "15:63:1",
+     "page_number": 265,
+     "line_number": 9,
+     "text": "قَالُوا۟",
+     "translation": {
+      "text": "They said",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "qālū",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 56424,
+     "position": 2,
+     "audio_url": "wbw/015_063_002.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "بَلْ",
+     "location": "15:63:2",
+     "page_number": 265,
+     "line_number": 9,
+     "text": "بَلْ",
+     "translation": {
+      "text": "Nay",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "bal",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 56425,
+     "position": 3,
+     "audio_url": "wbw/015_063_003.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "جِئْنَـٰكَ",
+     "location": "15:63:3",
+     "page_number": 265,
+     "line_number": 9,
+     "text": "جِئْنَـٰكَ",
+     "translation": {
+      "text": "we have come to you",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "ji'nāka",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 56426,
+     "position": 4,
+     "audio_url": "wbw/015_063_004.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "بِمَا",
+     "location": "15:63:4",
+     "page_number": 265,
+     "line_number": 9,
+     "text": "بِمَا",
+     "translation": {
+      "text": "with what",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "bimā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 56427,
+     "position": 5,
+     "audio_url": "wbw/015_063_005.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "كَانُوا۟",
+     "location": "15:63:5",
+     "page_number": 265,
+     "line_number": 9,
+     "text": "كَانُوا۟",
+     "translation": {
+      "text": "they were",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "kānū",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 56428,
+     "position": 6,
+     "audio_url": "wbw/015_063_006.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "فِيهِ",
+     "location": "15:63:6",
+     "page_number": 265,
+     "line_number": 9,
+     "text": "فِيهِ",
+     "translation": {
+      "text": "in it",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "fīhi",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 56429,
+     "position": 7,
+     "audio_url": "wbw/015_063_007.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "يَمْتَرُونَ",
+     "location": "15:63:7",
+     "page_number": 265,
+     "line_number": 10,
+     "text": "يَمْتَرُونَ",
+     "translation": {
+      "text": "disputing",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "yamtarūna",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 56430,
+     "position": 8,
+     "audio_url": null,
+     "char_type_name": "end",
+     "text_uthmani": "٦٣",
+     "location": "15:63:8",
+     "page_number": 265,
+     "line_number": 10,
+     "text": "٦٣",
+     "translation": {
+      "text": "(63)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": null,
+      "language_name": "english"
+     }
+    }
+   ],
+   "translations": [
+    {
+     "id": 96765,
+     "resource_id": 20,
+     "text": "They said, \"But we have come to you with that about which they were disputing,"
+    }
+   ]
+  },
+  {
+   "id": 1866,
+   "verse_number": 64,
+   "verse_key": "15:64",
+   "hizb_number": 27,
+   "rub_el_hizb_number": 106,
+   "ruku_number": 222,
+   "manzil_number": 3,
+   "sajdah_number": null,
+   "text_uthmani": "وَأَتَيْنَـٰكَ بِٱلْحَقِّ وَإِنَّا لَصَـٰدِقُونَ",
+   "text_imlaei": "وَأَتَيْنَاكَ بِالْحَقِّ وَإِنَّا لَصَادِقُونَ",
+   "page_number": 265,
+   "juz_number": 14,
+   "words": [
+    {
+     "id": 56940,
+     "position": 1,
+     "audio_url": "wbw/015_064_001.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "وَأَتَيْنَـٰكَ",
+     "location": "15:64:1",
+     "page_number": 265,
+     "line_number": 10,
+     "text": "وَأَتَيْنَـٰكَ",
+     "translation": {
+      "text": "And we have come to you",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "wa-ataynāka",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 56941,
+     "position": 2,
+     "audio_url": "wbw/015_064_002.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "بِٱلْحَقِّ",
+     "location": "15:64:2",
+     "page_number": 265,
+     "line_number": 10,
+     "text": "بِٱلْحَقِّ",
+     "translation": {
+      "text": "with the truth",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "bil-ḥaqi",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 56942,
+     "position": 3,
+     "audio_url": "wbw/015_064_003.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "وَإِنَّا",
+     "location": "15:64:3",
+     "page_number": 265,
+     "line_number": 10,
+     "text": "وَإِنَّا",
+     "translation": {
+      "text": "and indeed, we",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "wa-innā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 56943,
+     "position": 4,
+     "audio_url": "wbw/015_064_004.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "لَصَـٰدِقُونَ",
+     "location": "15:64:4",
+     "page_number": 265,
+     "line_number": 10,
+     "text": "لَصَـٰدِقُونَ",
+     "translation": {
+      "text": "surely (are) truthful",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "laṣādiqūna",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 56944,
+     "position": 5,
+     "audio_url": null,
+     "char_type_name": "end",
+     "text_uthmani": "٦٤",
+     "location": "15:64:5",
+     "page_number": 265,
+     "line_number": 10,
+     "text": "٦٤",
+     "translation": {
+      "text": "(64)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": null,
+      "language_name": "english"
+     }
+    }
+   ],
+   "translations": [
+    {
+     "id": 96766,
+     "resource_id": 20,
+     "text": "And we have come to you with truth, and indeed, we are truthful."
+    }
+   ]
+  },
+  {
+   "id": 1867,
+   "verse_number": 65,
+   "verse_key": "15:65",
+   "hizb_number": 27,
+   "rub_el_hizb_number": 106,
+   "ruku_number": 222,
+   "manzil_number": 3,
+   "sajdah_number": null,
+   "text_uthmani": "فَأَسْرِ بِأَهْلِكَ بِقِطْعٍ مِّنَ ٱلَّيْلِ وَٱتَّبِعْ أَدْبَـٰرَهُمْ وَلَا يَلْتَفِتْ مِنكُمْ أَحَدٌ وَٱمْضُوا۟ حَيْثُ تُؤْمَرُونَ",
+   "text_imlaei": "فَأَسْرِ بِأَهْلِكَ بِقِطْعٍ مِّنَ اللَّيْلِ وَاتَّبِعْ أَدْبَارَهُمْ وَلَا يَلْتَفِتْ مِنكُمْ أَحَدٌ وَامْضُوا حَيْثُ تُؤْمَرُونَ",
+   "page_number": 265,
+   "juz_number": 14,
+   "words": [
+    {
+     "id": 57388,
+     "position": 1,
+     "audio_url": "wbw/015_065_001.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "فَأَسْرِ",
+     "location": "15:65:1",
+     "page_number": 265,
+     "line_number": 10,
+     "text": "فَأَسْرِ",
+     "translation": {
+      "text": "So travel",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "fa-asri",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57389,
+     "position": 2,
+     "audio_url": "wbw/015_065_002.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "بِأَهْلِكَ",
+     "location": "15:65:2",
+     "page_number": 265,
+     "line_number": 11,
+     "text": "بِأَهْلِكَ",
+     "translation": {
+      "text": "with your family",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "bi-ahlika",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57390,
+     "position": 3,
+     "audio_url": "wbw/015_065_003.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "بِقِطْعٍۢ",
+     "location": "15:65:3",
+     "page_number": 265,
+     "line_number": 11,
+     "text": "بِقِطْعٍۢ",
+     "translation": {
+      "text": "in a portion",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "biqiṭ'ʿin",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57391,
+     "position": 4,
+     "audio_url": "wbw/015_065_004.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "مِّنَ",
+     "location": "15:65:4",
+     "page_number": 265,
+     "line_number": 11,
+     "text": "مِّنَ",
+     "translation": {
+      "text": "of",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "mina",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57392,
+     "position": 5,
+     "audio_url": "wbw/015_065_005.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "ٱلَّيْلِ",
+     "location": "15:65:5",
+     "page_number": 265,
+     "line_number": 11,
+     "text": "ٱلَّيْلِ",
+     "translation": {
+      "text": "the night",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "al-layli",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57393,
+     "position": 6,
+     "audio_url": "wbw/015_065_006.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "وَٱتَّبِعْ",
+     "location": "15:65:6",
+     "page_number": 265,
+     "line_number": 11,
+     "text": "وَٱتَّبِعْ",
+     "translation": {
+      "text": "and follow",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "wa-ittabiʿ",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57394,
+     "position": 7,
+     "audio_url": "wbw/015_065_007.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "أَدْبَـٰرَهُمْ",
+     "location": "15:65:7",
+     "page_number": 265,
+     "line_number": 11,
+     "text": "أَدْبَـٰرَهُمْ",
+     "translation": {
+      "text": "their backs",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "adbārahum",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57395,
+     "position": 8,
+     "audio_url": "wbw/015_065_008.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "وَلَا",
+     "location": "15:65:8",
+     "page_number": 265,
+     "line_number": 11,
+     "text": "وَلَا",
+     "translation": {
+      "text": "and not",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "walā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57396,
+     "position": 9,
+     "audio_url": "wbw/015_065_009.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "يَلْتَفِتْ",
+     "location": "15:65:9",
+     "page_number": 265,
+     "line_number": 11,
+     "text": "يَلْتَفِتْ",
+     "translation": {
+      "text": "let look back",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "yaltafit",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57397,
+     "position": 10,
+     "audio_url": "wbw/015_065_010.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "مِنكُمْ",
+     "location": "15:65:10",
+     "page_number": 265,
+     "line_number": 11,
+     "text": "مِنكُمْ",
+     "translation": {
+      "text": "among you",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "minkum",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57398,
+     "position": 11,
+     "audio_url": "wbw/015_065_011.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "أَحَدٌۭ",
+     "location": "15:65:11",
+     "page_number": 265,
+     "line_number": 11,
+     "text": "أَحَدٌۭ",
+     "translation": {
+      "text": "anyone",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "aḥadun",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57399,
+     "position": 12,
+     "audio_url": "wbw/015_065_012.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "وَٱمْضُوا۟",
+     "location": "15:65:12",
+     "page_number": 265,
+     "line_number": 12,
+     "text": "وَٱمْضُوا۟",
+     "translation": {
+      "text": "and go on",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "wa-im'ḍū",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57400,
+     "position": 13,
+     "audio_url": "wbw/015_065_013.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "حَيْثُ",
+     "location": "15:65:13",
+     "page_number": 265,
+     "line_number": 12,
+     "text": "حَيْثُ",
+     "translation": {
+      "text": "where",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "ḥaythu",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57401,
+     "position": 14,
+     "audio_url": "wbw/015_065_014.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "تُؤْمَرُونَ",
+     "location": "15:65:14",
+     "page_number": 265,
+     "line_number": 12,
+     "text": "تُؤْمَرُونَ",
+     "translation": {
+      "text": "you are ordered",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "tu'marūna",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57402,
+     "position": 15,
+     "audio_url": null,
+     "char_type_name": "end",
+     "text_uthmani": "٦٥",
+     "location": "15:65:15",
+     "page_number": 265,
+     "line_number": 12,
+     "text": "٦٥",
+     "translation": {
+      "text": "(65)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": null,
+      "language_name": "english"
+     }
+    }
+   ],
+   "translations": [
+    {
+     "id": 96767,
+     "resource_id": 20,
+     "text": "So set out with your family during a portion of the night and follow behind them and let not anyone among you look back and continue on to where you are commanded.\""
+    }
+   ]
+  },
+  {
+   "id": 1868,
+   "verse_number": 66,
+   "verse_key": "15:66",
+   "hizb_number": 27,
+   "rub_el_hizb_number": 106,
+   "ruku_number": 222,
+   "manzil_number": 3,
+   "sajdah_number": null,
+   "text_uthmani": "وَقَضَيْنَآ إِلَيْهِ ذَٰلِكَ ٱلْأَمْرَ أَنَّ دَابِرَ هَـٰٓؤُلَآءِ مَقْطُوعٌ مُّصْبِحِينَ",
+   "text_imlaei": "وَقَضَيْنَا إِلَيْهِ ذَٰلِكَ الْأَمْرَ أَنَّ دَابِرَ هَٰؤُلَاءِ مَقْطُوعٌ مُّصْبِحِينَ",
+   "page_number": 265,
+   "juz_number": 14,
+   "words": [
+    {
+     "id": 57884,
+     "position": 1,
+     "audio_url": "wbw/015_066_001.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "وَقَضَيْنَآ",
+     "location": "15:66:1",
+     "page_number": 265,
+     "line_number": 12,
+     "text": "وَقَضَيْنَآ",
+     "translation": {
+      "text": "And We conveyed",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "waqaḍaynā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57885,
+     "position": 2,
+     "audio_url": "wbw/015_066_002.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "إِلَيْهِ",
+     "location": "15:66:2",
+     "page_number": 265,
+     "line_number": 12,
+     "text": "إِلَيْهِ",
+     "translation": {
+      "text": "to him",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "ilayhi",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57886,
+     "position": 3,
+     "audio_url": "wbw/015_066_003.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "ذَٰلِكَ",
+     "location": "15:66:3",
+     "page_number": 265,
+     "line_number": 12,
+     "text": "ذَٰلِكَ",
+     "translation": {
+      "text": "[that]",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "dhālika",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57887,
+     "position": 4,
+     "audio_url": "wbw/015_066_004.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "ٱلْأَمْرَ",
+     "location": "15:66:4",
+     "page_number": 265,
+     "line_number": 12,
+     "text": "ٱلْأَمْرَ",
+     "translation": {
+      "text": "the matter",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "l-amra",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57888,
+     "position": 5,
+     "audio_url": "wbw/015_066_005.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "أَنَّ",
+     "location": "15:66:5",
+     "page_number": 265,
+     "line_number": 12,
+     "text": "أَنَّ",
+     "translation": {
+      "text": "that",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "anna",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57889,
+     "position": 6,
+     "audio_url": "wbw/015_066_006.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "دَابِرَ",
+     "location": "15:66:6",
+     "page_number": 265,
+     "line_number": 13,
+     "text": "دَابِرَ",
+     "translation": {
+      "text": "(the) root",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "dābira",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57890,
+     "position": 7,
+     "audio_url": "wbw/015_066_007.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "هَـٰٓؤُلَآءِ",
+     "location": "15:66:7",
+     "page_number": 265,
+     "line_number": 13,
+     "text": "هَـٰٓؤُلَآءِ",
+     "translation": {
+      "text": "(of) these",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "hāulāi",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57891,
+     "position": 8,
+     "audio_url": "wbw/015_066_008.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "مَقْطُوعٌۭ",
+     "location": "15:66:8",
+     "page_number": 265,
+     "line_number": 13,
+     "text": "مَقْطُوعٌۭ",
+     "translation": {
+      "text": "would be cut off",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "maqṭūʿun",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57892,
+     "position": 9,
+     "audio_url": "wbw/015_066_009.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "مُّصْبِحِينَ",
+     "location": "15:66:9",
+     "page_number": 265,
+     "line_number": 13,
+     "text": "مُّصْبِحِينَ",
+     "translation": {
+      "text": "(by) early morning",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "muṣ'biḥīna",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 57893,
+     "position": 10,
+     "audio_url": null,
+     "char_type_name": "end",
+     "text_uthmani": "٦٦",
+     "location": "15:66:10",
+     "page_number": 265,
+     "line_number": 13,
+     "text": "٦٦",
+     "translation": {
+      "text": "(66)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": null,
+      "language_name": "english"
+     }
+    }
+   ],
+   "translations": [
+    {
+     "id": 96768,
+     "resource_id": 20,
+     "text": "And We conveyed to him [the decree] of that matter: that those [sinners] would be eliminated by early morning."
+    }
+   ]
+  },
+  {
+   "id": 1869,
+   "verse_number": 67,
+   "verse_key": "15:67",
+   "hizb_number": 27,
+   "rub_el_hizb_number": 106,
+   "ruku_number": 222,
+   "manzil_number": 3,
+   "sajdah_number": null,
+   "text_uthmani": "وَجَآءَ أَهْلُ ٱلْمَدِينَةِ يَسْتَبْشِرُونَ",
+   "text_imlaei": "وَجَاءَ أَهْلُ الْمَدِينَةِ يَسْتَبْشِرُونَ",
+   "page_number": 265,
+   "juz_number": 14,
+   "words": [
+    {
+     "id": 58345,
+     "position": 1,
+     "audio_url": "wbw/015_067_001.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "وَجَآءَ",
+     "location": "15:67:1",
+     "page_number": 265,
+     "line_number": 13,
+     "text": "وَجَآءَ",
+     "translation": {
+      "text": "And came",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "wajāa",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 58346,
+     "position": 2,
+     "audio_url": "wbw/015_067_002.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "أَهْلُ",
+     "location": "15:67:2",
+     "page_number": 265,
+     "line_number": 13,
+     "text": "أَهْلُ",
+     "translation": {
+      "text": "(the) people",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "ahlu",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 58347,
+     "position": 3,
+     "audio_url": "wbw/015_067_003.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "ٱلْمَدِينَةِ",
+     "location": "15:67:3",
+     "page_number": 265,
+     "line_number": 13,
+     "text": "ٱلْمَدِينَةِ",
+     "translation": {
+      "text": "(of) the city",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "l-madīnati",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 58348,
+     "position": 4,
+     "audio_url": "wbw/015_067_004.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "يَسْتَبْشِرُونَ",
+     "location": "15:67:4",
+     "page_number": 265,
+     "line_number": 14,
+     "text": "يَسْتَبْشِرُونَ",
+     "translation": {
+      "text": "rejoicing",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "yastabshirūna",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 58349,
+     "position": 5,
+     "audio_url": null,
+     "char_type_name": "end",
+     "text_uthmani": "٦٧",
+     "location": "15:67:5",
+     "page_number": 265,
+     "line_number": 14,
+     "text": "٦٧",
+     "translation": {
+      "text": "(67)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": null,
+      "language_name": "english"
+     }
+    }
+   ],
+   "translations": [
+    {
+     "id": 96769,
+     "resource_id": 20,
+     "text": "And the people of the city came rejoicing.<sup foot_note=196595>1</sup>"
+    }
+   ]
+  },
+  {
+   "id": 1870,
+   "verse_number": 68,
+   "verse_key": "15:68",
+   "hizb_number": 27,
+   "rub_el_hizb_number": 106,
+   "ruku_number": 222,
+   "manzil_number": 3,
+   "sajdah_number": null,
+   "text_uthmani": "قَالَ إِنَّ هَـٰٓؤُلَآءِ ضَيْفِى فَلَا تَفْضَحُونِ",
+   "text_imlaei": "قَالَ إِنَّ هَٰؤُلَاءِ ضَيْفِي فَلَا تَفْضَحُونِ",
+   "page_number": 265,
+   "juz_number": 14,
+   "words": [
+    {
+     "id": 58825,
+     "position": 1,
+     "audio_url": "wbw/015_068_001.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "قَالَ",
+     "location": "15:68:1",
+     "page_number": 265,
+     "line_number": 14,
+     "text": "قَالَ",
+     "translation": {
+      "text": "He said",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "qāla",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 58826,
+     "position": 2,
+     "audio_url": "wbw/015_068_002.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "إِنَّ",
+     "location": "15:68:2",
+     "page_number": 265,
+     "line_number": 14,
+     "text": "إِنَّ",
+     "translation": {
+      "text": "Indeed",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "inna",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 58827,
+     "position": 3,
+     "audio_url": "wbw/015_068_003.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "هَـٰٓؤُلَآءِ",
+     "location": "15:68:3",
+     "page_number": 265,
+     "line_number": 14,
+     "text": "هَـٰٓؤُلَآءِ",
+     "translation": {
+      "text": "these",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "hāulāi",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 58828,
+     "position": 4,
+     "audio_url": "wbw/015_068_004.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "ضَيْفِى",
+     "location": "15:68:4",
+     "page_number": 265,
+     "line_number": 14,
+     "text": "ضَيْفِى",
+     "translation": {
+      "text": "(are) my guests",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "ḍayfī",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 58829,
+     "position": 5,
+     "audio_url": "wbw/015_068_005.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "فَلَا",
+     "location": "15:68:5",
+     "page_number": 265,
+     "line_number": 14,
+     "text": "فَلَا",
+     "translation": {
+      "text": "so (do) not",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "falā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 58830,
+     "position": 6,
+     "audio_url": "wbw/015_068_006.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "تَفْضَحُونِ",
+     "location": "15:68:6",
+     "page_number": 265,
+     "line_number": 14,
+     "text": "تَفْضَحُونِ",
+     "translation": {
+      "text": "shame me",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "tafḍaḥūni",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 58831,
+     "position": 7,
+     "audio_url": null,
+     "char_type_name": "end",
+     "text_uthmani": "٦٨",
+     "location": "15:68:7",
+     "page_number": 265,
+     "line_number": 14,
+     "text": "٦٨",
+     "translation": {
+      "text": "(68)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": null,
+      "language_name": "english"
+     }
+    }
+   ],
+   "translations": [
+    {
+     "id": 96770,
+     "resource_id": 20,
+     "text": "[Lot] said, \"Indeed, these are my guests, so do not shame me."
+    }
+   ]
+  },
+  {
+   "id": 1871,
+   "verse_number": 69,
+   "verse_key": "15:69",
+   "hizb_number": 27,
+   "rub_el_hizb_number": 106,
+   "ruku_number": 222,
+   "manzil_number": 3,
+   "sajdah_number": null,
+   "text_uthmani": "وَٱتَّقُوا۟ ٱللَّهَ وَلَا تُخْزُونِ",
+   "text_imlaei": "وَاتَّقُوا اللَّهَ وَلَا تُخْزُونِ",
+   "page_number": 265,
+   "juz_number": 14,
+   "words": [
+    {
+     "id": 59329,
+     "position": 1,
+     "audio_url": "wbw/015_069_001.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "وَٱتَّقُوا۟",
+     "location": "15:69:1",
+     "page_number": 265,
+     "line_number": 14,
+     "text": "وَٱتَّقُوا۟",
+     "translation": {
+      "text": "And fear",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "wa-ittaqū",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 59330,
+     "position": 2,
+     "audio_url": "wbw/015_069_002.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "ٱللَّهَ",
+     "location": "15:69:2",
+     "page_number": 265,
+     "line_number": 15,
+     "text": "ٱللَّهَ",
+     "translation": {
+      "text": "Allah",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "l-laha",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 59331,
+     "position": 3,
+     "audio_url": "wbw/015_069_003.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "وَلَا",
+     "location": "15:69:3",
+     "page_number": 265,
+     "line_number": 15,
+     "text": "وَلَا",
+     "translation": {
+      "text": "and (do) not",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "walā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 59332,
+     "position": 4,
+     "audio_url": "wbw/015_069_004.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "تُخْزُونِ",
+     "location": "15:69:4",
+     "page_number": 265,
+     "line_number": 15,
+     "text": "تُخْزُونِ",
+     "translation": {
+      "text": "disgrace me",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "tukh'zūni",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 59333,
+     "position": 5,
+     "audio_url": null,
+     "char_type_name": "end",
+     "text_uthmani": "٦٩",
+     "location": "15:69:5",
+     "page_number": 265,
+     "line_number": 15,
+     "text": "٦٩",
+     "translation": {
+      "text": "(69)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": null,
+      "language_name": "english"
+     }
+    }
+   ],
+   "translations": [
+    {
+     "id": 96771,
+     "resource_id": 20,
+     "text": "And fear Allāh and do not disgrace me.\""
+    }
+   ]
+  },
+  {
+   "id": 1872,
+   "verse_number": 70,
+   "verse_key": "15:70",
+   "hizb_number": 27,
+   "rub_el_hizb_number": 106,
+   "ruku_number": 222,
+   "manzil_number": 3,
+   "sajdah_number": null,
+   "text_uthmani": "قَالُوٓا۟ أَوَلَمْ نَنْهَكَ عَنِ ٱلْعَـٰلَمِينَ",
+   "text_imlaei": "قَالُوا أَوَلَمْ نَنْهَكَ عَنِ الْعَالَمِينَ",
+   "page_number": 265,
+   "juz_number": 14,
+   "words": [
+    {
+     "id": 59762,
+     "position": 1,
+     "audio_url": "wbw/015_070_001.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "قَالُوٓا۟",
+     "location": "15:70:1",
+     "page_number": 265,
+     "line_number": 15,
+     "text": "قَالُوٓا۟",
+     "translation": {
+      "text": "They said",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "qālū",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 59763,
+     "position": 2,
+     "audio_url": "wbw/015_070_002.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "أَوَلَمْ",
+     "location": "15:70:2",
+     "page_number": 265,
+     "line_number": 15,
+     "text": "أَوَلَمْ",
+     "translation": {
+      "text": "Did not",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "awalam",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 59764,
+     "position": 3,
+     "audio_url": "wbw/015_070_003.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "نَنْهَكَ",
+     "location": "15:70:3",
+     "page_number": 265,
+     "line_number": 15,
+     "text": "نَنْهَكَ",
+     "translation": {
+      "text": "we forbid you",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "nanhaka",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 59765,
+     "position": 4,
+     "audio_url": "wbw/015_070_004.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "عَنِ",
+     "location": "15:70:4",
+     "page_number": 265,
+     "line_number": 15,
+     "text": "عَنِ",
+     "translation": {
+      "text": "from",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "ʿani",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 59766,
+     "position": 5,
+     "audio_url": "wbw/015_070_005.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "ٱلْعَـٰلَمِينَ",
+     "location": "15:70:5",
+     "page_number": 265,
+     "line_number": 15,
+     "text": "ٱلْعَـٰلَمِينَ",
+     "translation": {
+      "text": "the world",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "l-ʿālamīna",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 59767,
+     "position": 6,
+     "audio_url": null,
+     "char_type_name": "end",
+     "text_uthmani": "٧٠",
+     "location": "15:70:6",
+     "page_number": 265,
+     "line_number": 15,
+     "text": "٧٠",
+     "translation": {
+      "text": "(70)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": null,
+      "language_name": "english"
+     }
+    }
+   ],
+   "translations": [
+    {
+     "id": 96773,
+     "resource_id": 20,
+     "text": "They said, \"Have we not forbidden you from [protecting] people?\""
+    }
+   ]
+  },
+  {
+   "id": 1873,
+   "verse_number": 71,
+   "verse_key": "15:71",
+   "hizb_number": 27,
+   "rub_el_hizb_number": 106,
+   "ruku_number": 222,
+   "manzil_number": 3,
+   "sajdah_number": null,
+   "text_uthmani": "قَالَ هَـٰٓؤُلَآءِ بَنَاتِىٓ إِن كُنتُمْ فَـٰعِلِينَ",
+   "text_imlaei": "قَالَ هَٰؤُلَاءِ بَنَاتِي إِن كُنتُمْ فَاعِلِينَ",
+   "page_number": 266,
+   "juz_number": 14,
+   "words": [
+    {
+     "id": 60243,
+     "position": 1,
+     "audio_url": "wbw/015_071_001.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "قَالَ",
+     "location": "15:71:1",
+     "page_number": 266,
+     "line_number": 1,
+     "text": "قَالَ",
+     "translation": {
+      "text": "He said",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "qāla",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 60244,
+     "position": 2,
+     "audio_url": "wbw/015_071_002.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "هَـٰٓؤُلَآءِ",
+     "location": "15:71:2",
+     "page_number": 266,
+     "line_number": 1,
+     "text": "هَـٰٓؤُلَآءِ",
+     "translation": {
+      "text": "These",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "hāulāi",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 60245,
+     "position": 3,
+     "audio_url": "wbw/015_071_003.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "بَنَاتِىٓ",
+     "location": "15:71:3",
+     "page_number": 266,
+     "line_number": 1,
+     "text": "بَنَاتِىٓ",
+     "translation": {
+      "text": "(are) my daughters",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "banātī",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 60246,
+     "position": 4,
+     "audio_url": "wbw/015_071_004.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "إِن",
+     "location": "15:71:4",
+     "page_number": 266,
+     "line_number": 1,
+     "text": "إِن",
+     "translation": {
+      "text": "if",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "in",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 60247,
+     "position": 5,
+     "audio_url": "wbw/015_071_005.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "كُنتُمْ",
+     "location": "15:71:5",
+     "page_number": 266,
+     "line_number": 1,
+     "text": "كُنتُمْ",
+     "translation": {
+      "text": "you would be",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "kuntum",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 60248,
+     "position": 6,
+     "audio_url": "wbw/015_071_006.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "فَـٰعِلِينَ",
+     "location": "15:71:6",
+     "page_number": 266,
+     "line_number": 1,
+     "text": "فَـٰعِلِينَ",
+     "translation": {
+      "text": "doers",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "fāʿilīna",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 60249,
+     "position": 7,
+     "audio_url": null,
+     "char_type_name": "end",
+     "text_uthmani": "٧١",
+     "location": "15:71:7",
+     "page_number": 266,
+     "line_number": 1,
+     "text": "٧١",
+     "translation": {
+      "text": "(71)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": null,
+      "language_name": "english"
+     }
+    }
+   ],
+   "translations": [
+    {
+     "id": 96774,
+     "resource_id": 20,
+     "text": "[Lot] said, \"These are my daughters<sup foot_note=196596>1</sup> - if you would be doers [of lawful marriage].\""
+    }
+   ]
+  },
+  {
+   "id": 1874,
+   "verse_number": 72,
+   "verse_key": "15:72",
+   "hizb_number": 27,
+   "rub_el_hizb_number": 106,
+   "ruku_number": 222,
+   "manzil_number": 3,
+   "sajdah_number": null,
+   "text_uthmani": "لَعَمْرُكَ إِنَّهُمْ لَفِى سَكْرَتِهِمْ يَعْمَهُونَ",
+   "text_imlaei": "لَعَمْرُكَ إِنَّهُمْ لَفِي سَكْرَتِهِمْ يَعْمَهُونَ",
+   "page_number": 266,
+   "juz_number": 14,
+   "words": [
+    {
+     "id": 60516,
+     "position": 1,
+     "audio_url": "wbw/015_072_001.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "لَعَمْرُكَ",
+     "location": "15:72:1",
+     "page_number": 266,
+     "line_number": 1,
+     "text": "لَعَمْرُكَ",
+     "translation": {
+      "text": "By your life",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "laʿamruka",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 60517,
+     "position": 2,
+     "audio_url": "wbw/015_072_002.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "إِنَّهُمْ",
+     "location": "15:72:2",
+     "page_number": 266,
+     "line_number": 1,
+     "text": "إِنَّهُمْ",
+     "translation": {
+      "text": "indeed, they",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "innahum",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 60518,
+     "position": 3,
+     "audio_url": "wbw/015_072_003.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "لَفِى",
+     "location": "15:72:3",
+     "page_number": 266,
+     "line_number": 1,
+     "text": "لَفِى",
+     "translation": {
+      "text": "were in",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "lafī",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 60519,
+     "position": 4,
+     "audio_url": "wbw/015_072_004.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "سَكْرَتِهِمْ",
+     "location": "15:72:4",
+     "page_number": 266,
+     "line_number": 1,
+     "text": "سَكْرَتِهِمْ",
+     "translation": {
+      "text": "their intoxication",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "sakratihim",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 60520,
+     "position": 5,
+     "audio_url": "wbw/015_072_005.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "يَعْمَهُونَ",
+     "location": "15:72:5",
+     "page_number": 266,
+     "line_number": 2,
+     "text": "يَعْمَهُونَ",
+     "translation": {
+      "text": "wandering blindly",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "yaʿmahūna",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 60521,
+     "position": 6,
+     "audio_url": null,
+     "char_type_name": "end",
+     "text_uthmani": "٧٢",
+     "location": "15:72:6",
+     "page_number": 266,
+     "line_number": 2,
+     "text": "٧٢",
+     "translation": {
+      "text": "(72)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": null,
+      "language_name": "english"
+     }
+    }
+   ],
+   "translations": [
+    {
+     "id": 96775,
+     "resource_id": 20,
+     "text": "By your life, [O Muḥammad], indeed they were, in their intoxication, wandering blindly."
+    }
+   ]
+  },
+  {
+   "id": 1875,
+   "verse_number": 73,
+   "verse_key": "15:73",
+   "hizb_number": 27,
+   "rub_el_hizb_number": 106,
+   "ruku_number": 222,
+   "manzil_number": 3,
+   "sajdah_number": null,
+   "text_uthmani": "فَأَخَذَتْهُمُ ٱلصَّيْحَةُ مُشْرِقِينَ",
+   "text_imlaei": "فَأَخَذَتْهُمُ الصَّيْحَةُ مُشْرِقِينَ",
+   "page_number": 266,
+   "juz_number": 14,
+   "words": [
+    {
+     "id": 61109,
+     "position": 1,
+     "audio_url": "wbw/015_073_001.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "فَأَخَذَتْهُمُ",
+     "location": "15:73:1",
+     "page_number": 266,
+     "line_number": 2,
+     "text": "فَأَخَذَتْهُمُ",
+     "translation": {
+      "text": "So, seized them",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "fa-akhadhathumu",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 61110,
+     "position": 2,
+     "audio_url": "wbw/015_073_002.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "ٱلصَّيْحَةُ",
+     "location": "15:73:2",
+     "page_number": 266,
+     "line_number": 2,
+     "text": "ٱلصَّيْحَةُ",
+     "translation": {
+      "text": "the awful cry",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "l-ṣayḥatu",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 61111,
+     "position": 3,
+     "audio_url": "wbw/015_073_003.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "مُشْرِقِينَ",
+     "location": "15:73:3",
+     "page_number": 266,
+     "line_number": 2,
+     "text": "مُشْرِقِينَ",
+     "translation": {
+      "text": "at sunrise",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "mush'riqīna",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 61112,
+     "position": 4,
+     "audio_url": null,
+     "char_type_name": "end",
+     "text_uthmani": "٧٣",
+     "location": "15:73:4",
+     "page_number": 266,
+     "line_number": 2,
+     "text": "٧٣",
+     "translation": {
+      "text": "(73)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": null,
+      "language_name": "english"
+     }
+    }
+   ],
+   "translations": [
+    {
+     "id": 96776,
+     "resource_id": 20,
+     "text": "So the shriek<sup foot_note=196597>1</sup> seized them at sunrise."
+    }
+   ]
+  },
+  {
+   "id": 1876,
+   "verse_number": 74,
+   "verse_key": "15:74",
+   "hizb_number": 27,
+   "rub_el_hizb_number": 106,
+   "ruku_number": 222,
+   "manzil_number": 3,
+   "sajdah_number": null,
+   "text_uthmani": "فَجَعَلْنَا عَـٰلِيَهَا سَافِلَهَا وَأَمْطَرْنَا عَلَيْهِمْ حِجَارَةً مِّن سِجِّيلٍ",
+   "text_imlaei": "فَجَعَلْنَا عَالِيَهَا سَافِلَهَا وَأَمْطَرْنَا عَلَيْهِمْ حِجَارَةً مِّن سِجِّيلٍ",
+   "page_number": 266,
+   "juz_number": 14,
+   "words": [
+    {
+     "id": 61822,
+     "position": 1,
+     "audio_url": "wbw/015_074_001.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "فَجَعَلْنَا",
+     "location": "15:74:1",
+     "page_number": 266,
+     "line_number": 2,
+     "text": "فَجَعَلْنَا",
+     "translation": {
+      "text": "And We made",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "fajaʿalnā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 61823,
+     "position": 2,
+     "audio_url": "wbw/015_074_002.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "عَـٰلِيَهَا",
+     "location": "15:74:2",
+     "page_number": 266,
+     "line_number": 2,
+     "text": "عَـٰلِيَهَا",
+     "translation": {
+      "text": "its highest (part)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "ʿāliyahā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 61824,
+     "position": 3,
+     "audio_url": "wbw/015_074_003.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "سَافِلَهَا",
+     "location": "15:74:3",
+     "page_number": 266,
+     "line_number": 3,
+     "text": "سَافِلَهَا",
+     "translation": {
+      "text": "its lowest",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "sāfilahā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 61825,
+     "position": 4,
+     "audio_url": "wbw/015_074_004.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "وَأَمْطَرْنَا",
+     "location": "15:74:4",
+     "page_number": 266,
+     "line_number": 3,
+     "text": "وَأَمْطَرْنَا",
+     "translation": {
+      "text": "and We rained",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "wa-amṭarnā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 61826,
+     "position": 5,
+     "audio_url": "wbw/015_074_005.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "عَلَيْهِمْ",
+     "location": "15:74:5",
+     "page_number": 266,
+     "line_number": 3,
+     "text": "عَلَيْهِمْ",
+     "translation": {
+      "text": "upon them",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "ʿalayhim",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 61827,
+     "position": 6,
+     "audio_url": "wbw/015_074_006.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "حِجَارَةًۭ",
+     "location": "15:74:6",
+     "page_number": 266,
+     "line_number": 3,
+     "text": "حِجَارَةًۭ",
+     "translation": {
+      "text": "stones",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "ḥijāratan",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 61828,
+     "position": 7,
+     "audio_url": "wbw/015_074_007.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "مِّن",
+     "location": "15:74:7",
+     "page_number": 266,
+     "line_number": 3,
+     "text": "مِّن",
+     "translation": {
+      "text": "of",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "min",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 61829,
+     "position": 8,
+     "audio_url": "wbw/015_074_008.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "سِجِّيلٍ",
+     "location": "15:74:8",
+     "page_number": 266,
+     "line_number": 3,
+     "text": "سِجِّيلٍ",
+     "translation": {
+      "text": "baked clay",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "sijjīlin",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 61830,
+     "position": 9,
+     "audio_url": null,
+     "char_type_name": "end",
+     "text_uthmani": "٧٤",
+     "location": "15:74:9",
+     "page_number": 266,
+     "line_number": 3,
+     "text": "٧٤",
+     "translation": {
+      "text": "(74)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": null,
+      "language_name": "english"
+     }
+    }
+   ],
+   "translations": [
+    {
+     "id": 96777,
+     "resource_id": 20,
+     "text": "And We made the highest part [of the city] its lowest and rained upon them stones of hard clay."
+    }
+   ]
+  },
+  {
+   "id": 1877,
+   "verse_number": 75,
+   "verse_key": "15:75",
+   "hizb_number": 27,
+   "rub_el_hizb_number": 106,
+   "ruku_number": 222,
+   "manzil_number": 3,
+   "sajdah_number": null,
+   "text_uthmani": "إِنَّ فِى ذَٰلِكَ لَـَٔايَـٰتٍ لِّلْمُتَوَسِّمِينَ",
+   "text_imlaei": "إِنَّ فِي ذَٰلِكَ لَآيَاتٍ لِّلْمُتَوَسِّمِينَ",
+   "page_number": 266,
+   "juz_number": 14,
+   "words": [
+    {
+     "id": 62016,
+     "position": 1,
+     "audio_url": "wbw/015_075_001.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "إِنَّ",
+     "location": "15:75:1",
+     "page_number": 266,
+     "line_number": 3,
+     "text": "إِنَّ",
+     "translation": {
+      "text": "Indeed",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "inna",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 62017,
+     "position": 2,
+     "audio_url": "wbw/015_075_002.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "فِى",
+     "location": "15:75:2",
+     "page_number": 266,
+     "line_number": 3,
+     "text": "فِى",
+     "translation": {
+      "text": "in",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "fī",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 62018,
+     "position": 3,
+     "audio_url": "wbw/015_075_003.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "ذَٰلِكَ",
+     "location": "15:75:3",
+     "page_number": 266,
+     "line_number": 3,
+     "text": "ذَٰلِكَ",
+     "translation": {
+      "text": "that",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "dhālika",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 62019,
+     "position": 4,
+     "audio_url": "wbw/015_075_004.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "لَـَٔايَـٰتٍۢ",
+     "location": "15:75:4",
+     "page_number": 266,
+     "line_number": 4,
+     "text": "لَـَٔايَـٰتٍۢ",
+     "translation": {
+      "text": "(are) the Signs",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "laāyātin",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 62020,
+     "position": 5,
+     "audio_url": "wbw/015_075_005.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "لِّلْمُتَوَسِّمِينَ",
+     "location": "15:75:5",
+     "page_number": 266,
+     "line_number": 4,
+     "text": "لِّلْمُتَوَسِّمِينَ",
+     "translation": {
+      "text": "for those who discern",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "lil'mutawassimīna",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 62021,
+     "position": 6,
+     "audio_url": null,
+     "char_type_name": "end",
+     "text_uthmani": "٧٥",
+     "location": "15:75:6",
+     "page_number": 266,
+     "line_number": 4,
+     "text": "٧٥",
+     "translation": {
+      "text": "(75)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": null,
+      "language_name": "english"
+     }
+    }
+   ],
+   "translations": [
+    {
+     "id": 96778,
+     "resource_id": 20,
+     "text": "Indeed in that are signs for those who discern."
+    }
+   ]
+  },
+  {
+   "id": 1878,
+   "verse_number": 76,
+   "verse_key": "15:76",
+   "hizb_number": 27,
+   "rub_el_hizb_number": 106,
+   "ruku_number": 222,
+   "manzil_number": 3,
+   "sajdah_number": null,
+   "text_uthmani": "وَإِنَّهَا لَبِسَبِيلٍ مُّقِيمٍ",
+   "text_imlaei": "وَإِنَّهَا لَبِسَبِيلٍ مُّقِيمٍ",
+   "page_number": 266,
+   "juz_number": 14,
+   "words": [
+    {
+     "id": 62717,
+     "position": 1,
+     "audio_url": "wbw/015_076_001.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "وَإِنَّهَا",
+     "location": "15:76:1",
+     "page_number": 266,
+     "line_number": 4,
+     "text": "وَإِنَّهَا",
+     "translation": {
+      "text": "And indeed, it",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "wa-innahā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 62718,
+     "position": 2,
+     "audio_url": "wbw/015_076_002.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "لَبِسَبِيلٍۢ",
+     "location": "15:76:2",
+     "page_number": 266,
+     "line_number": 4,
+     "text": "لَبِسَبِيلٍۢ",
+     "translation": {
+      "text": "(is) on a road",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "labisabīlin",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 62719,
+     "position": 3,
+     "audio_url": "wbw/015_076_003.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "مُّقِيمٍ",
+     "location": "15:76:3",
+     "page_number": 266,
+     "line_number": 4,
+     "text": "مُّقِيمٍ",
+     "translation": {
+      "text": "established",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "muqīmin",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 62720,
+     "position": 4,
+     "audio_url": null,
+     "char_type_name": "end",
+     "text_uthmani": "٧٦",
+     "location": "15:76:4",
+     "page_number": 266,
+     "line_number": 4,
+     "text": "٧٦",
+     "translation": {
+      "text": "(76)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": null,
+      "language_name": "english"
+     }
+    }
+   ],
+   "translations": [
+    {
+     "id": 96779,
+     "resource_id": 20,
+     "text": "And indeed, they [i.e., those cities] are [situated] on an established road."
+    }
+   ]
+  },
+  {
+   "id": 1879,
+   "verse_number": 77,
+   "verse_key": "15:77",
+   "hizb_number": 27,
+   "rub_el_hizb_number": 106,
+   "ruku_number": 222,
+   "manzil_number": 3,
+   "sajdah_number": null,
+   "text_uthmani": "إِنَّ فِى ذَٰلِكَ لَـَٔايَةً لِّلْمُؤْمِنِينَ",
+   "text_imlaei": "إِنَّ فِي ذَٰلِكَ لَآيَةً لِّلْمُؤْمِنِينَ",
+   "page_number": 266,
+   "juz_number": 14,
+   "words": [
+    {
+     "id": 62818,
+     "position": 1,
+     "audio_url": "wbw/015_077_001.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "إِنَّ",
+     "location": "15:77:1",
+     "page_number": 266,
+     "line_number": 4,
+     "text": "إِنَّ",
+     "translation": {
+      "text": "Indeed",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "inna",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 62819,
+     "position": 2,
+     "audio_url": "wbw/015_077_002.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "فِى",
+     "location": "15:77:2",
+     "page_number": 266,
+     "line_number": 4,
+     "text": "فِى",
+     "translation": {
+      "text": "in",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "fī",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 62820,
+     "position": 3,
+     "audio_url": "wbw/015_077_003.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "ذَٰلِكَ",
+     "location": "15:77:3",
+     "page_number": 266,
+     "line_number": 4,
+     "text": "ذَٰلِكَ",
+     "translation": {
+      "text": "that",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "dhālika",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 62821,
+     "position": 4,
+     "audio_url": "wbw/015_077_004.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "لَـَٔايَةًۭ",
+     "location": "15:77:4",
+     "page_number": 266,
+     "line_number": 5,
+     "text": "لَـَٔايَةًۭ",
+     "translation": {
+      "text": "surely (is) a Sign",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "laāyatan",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 62822,
+     "position": 5,
+     "audio_url": "wbw/015_077_005.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "لِّلْمُؤْمِنِينَ",
+     "location": "15:77:5",
+     "page_number": 266,
+     "line_number": 5,
+     "text": "لِّلْمُؤْمِنِينَ",
+     "translation": {
+      "text": "for the believers",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "lil'mu'minīna",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 62823,
+     "position": 6,
+     "audio_url": null,
+     "char_type_name": "end",
+     "text_uthmani": "٧٧",
+     "location": "15:77:6",
+     "page_number": 266,
+     "line_number": 5,
+     "text": "٧٧",
+     "translation": {
+      "text": "(77)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": null,
+      "language_name": "english"
+     }
+    }
+   ],
+   "translations": [
+    {
+     "id": 96780,
+     "resource_id": 20,
+     "text": "Indeed in that is a sign for the believers."
+    }
+   ]
+  }
+ ],
+ "tafsirs": {
+  "16": {
+   "15:57": {
+    "verses": {
+     "15:56": {
+      "id": 1858
+     },
+     "15:57": {
+      "id": 1859
+     }
+    },
+    "resource_id": 16,
+    "resource_name": "المیسر",
+    "language_id": 9,
+    "slug": "ar-tafsir-muyassar",
+    "translated_name": {
+     "name": "Tafsir Muyassar",
+     "language_name": "english"
+    },
+    "text": "<span class=\"blue\">قال:</span> لا ييئس من رحمة ربه إلا الخاطئون المنصرفون عن طريق الحق.<span class=\"blue\"> قال:</span> فما الأمر الخطير الذي جئتم من أجله -أيها المرسلون- من عند الله؟"
+   },
+   "15:58": {
+    "verses": {
+     "15:58": {
+      "id": 1860
+     },
+     "15:59": {
+      "id": 1861
+     },
+     "15:60": {
+      "id": 1862
+     }
+    },
+    "resource_id": 16,
+    "resource_name": "المیسر",
+    "language_id": 9,
+    "slug": "ar-tafsir-muyassar",
+    "translated_name": {
+     "name": "Tafsir Muyassar",
+     "language_name": "english"
+    },
+    "text": "<span class=\"blue\">قالوا:</span> إن الله أرسلنا لإهلاك قوم لوط المشركين الضالين إلا لوطًا وأهله المؤمنين به، فلن نهلكهم وسننجيهم أجمعين، لكن زوجته الكافرة قضينا بأمر الله بإهلاكها مع الباقين في العذاب."
+   },
+   "15:59": {
+    "verses": {
+     "15:58": {
+      "id": 1860
+     },
+     "15:59": {
+      "id": 1861
+     },
+     "15:60": {
+      "id": 1862
+     }
+    },
+    "resource_id": 16,
+    "resource_name": "المیسر",
+    "language_id": 9,
+    "slug": "ar-tafsir-muyassar",
+    "translated_name": {
+     "name": "Tafsir Muyassar",
+     "language_name": "english"
+    },
+    "text": "<span class=\"blue\">قالوا:</span> إن الله أرسلنا لإهلاك قوم لوط المشركين الضالين إلا لوطًا وأهله المؤمنين به، فلن نهلكهم وسننجيهم أجمعين، لكن زوجته الكافرة قضينا بأمر الله بإهلاكها مع الباقين في العذاب."
+   },
+   "15:60": {
+    "verses": {
+     "15:58": {
+      "id": 1860
+     },
+     "15:59": {
+      "id": 1861
+     },
+     "15:60": {
+      "id": 1862
+     }
+    },
+    "resource_id": 16,
+    "resource_name": "المیسر",
+    "language_id": 9,
+    "slug": "ar-tafsir-muyassar",
+    "translated_name": {
+     "name": "Tafsir Muyassar",
+     "language_name": "english"
+    },
+    "text": "<span class=\"blue\">قالوا:</span> إن الله أرسلنا لإهلاك قوم لوط المشركين الضالين إلا لوطًا وأهله المؤمنين به، فلن نهلكهم وسننجيهم أجمعين، لكن زوجته الكافرة قضينا بأمر الله بإهلاكها مع الباقين في العذاب."
+   },
+   "15:61": {
+    "verses": {
+     "15:61": {
+      "id": 1863
+     },
+     "15:62": {
+      "id": 1864
+     }
+    },
+    "resource_id": 16,
+    "resource_name": "المیسر",
+    "language_id": 9,
+    "slug": "ar-tafsir-muyassar",
+    "translated_name": {
+     "name": "Tafsir Muyassar",
+     "language_name": "english"
+    },
+    "text": "فلما وصل الملائكة المرسلون إلى لوط،<span class=\"blue\"> قال لهم:</span> إنكم قوم غير معروفين لي."
+   },
+   "15:62": {
+    "verses": {
+     "15:61": {
+      "id": 1863
+     },
+     "15:62": {
+      "id": 1864
+     }
+    },
+    "resource_id": 16,
+    "resource_name": "المیسر",
+    "language_id": 9,
+    "slug": "ar-tafsir-muyassar",
+    "translated_name": {
+     "name": "Tafsir Muyassar",
+     "language_name": "english"
+    },
+    "text": "فلما وصل الملائكة المرسلون إلى لوط،<span class=\"blue\"> قال لهم:</span> إنكم قوم غير معروفين لي."
+   },
+   "15:63": {
+    "verses": {
+     "15:63": {
+      "id": 1865
+     }
+    },
+    "resource_id": 16,
+    "resource_name": "المیسر",
+    "language_id": 9,
+    "slug": "ar-tafsir-muyassar",
+    "translated_name": {
+     "name": "Tafsir Muyassar",
+     "language_name": "english"
+    },
+    "text": "<span class=\"blue\">قالوا:</span> لا تَخَفْ، فإنَّا جئنا بالعذاب الذي كان يشك فيه قومك ولا يُصَدِّقون، وجئناك بالحق من عند الله، وإنا لصادقون، فاخرج مِن بينهم ومعك أهلك المؤمنون، بعد مرور جزء من الليل، وسر أنت وراءهم; لئلا يتخلف منهم أحد فيناله العذاب، واحذروا أن يلتفت منكم أحد وراءه؛ لئلا يرى العذاب فيصيبه كذلك، وأسرعوا إلى حيث أمركم الله; لتكونوا في مكان أمين."
+   },
+   "15:64": {
+    "verses": {
+     "15:64": {
+      "id": 1866
+     },
+     "15:65": {
+      "id": 1867
+     }
+    },
+    "resource_id": 16,
+    "resource_name": "المیسر",
+    "language_id": 9,
+    "slug": "ar-tafsir-muyassar",
+    "translated_name": {
+     "name": "Tafsir Muyassar",
+     "language_name": "english"
+    },
+    "text": "<span class=\"blue\">قالوا:</span> لا تَخَفْ، فإنَّا جئنا بالعذاب الذي كان يشك فيه قومك ولا يُصَدِّقون، وجئناك بالحق من عند الله، وإنا لصادقون، فاخرج مِن بينهم ومعك أهلك المؤمنون، بعد مرور جزء من الليل، وسر أنت وراءهم؛ لئلا يتخلف منهم أحد فيناله العذاب، واحذروا أن يلتفت منكم أحد، وأسرعوا إلى حيث أمركم الله؛ لتكونوا في مكان أمين."
+   },
+   "15:65": {
+    "verses": {
+     "15:64": {
+      "id": 1866
+     },
+     "15:65": {
+      "id": 1867
+     }
+    },
+    "resource_id": 16,
+    "resource_name": "المیسر",
+    "language_id": 9,
+    "slug": "ar-tafsir-muyassar",
+    "translated_name": {
+     "name": "Tafsir Muyassar",
+     "language_name": "english"
+    },
+    "text": "<span class=\"blue\">قالوا:</span> لا تَخَفْ، فإنَّا جئنا بالعذاب الذي كان يشك فيه قومك ولا يُصَدِّقون، وجئناك بالحق من عند الله، وإنا لصادقون، فاخرج مِن بينهم ومعك أهلك المؤمنون، بعد مرور جزء من الليل، وسر أنت وراءهم؛ لئلا يتخلف منهم أحد فيناله العذاب، واحذروا أن يلتفت منكم أحد، وأسرعوا إلى حيث أمركم الله؛ لتكونوا في مكان أمين."
+   },
+   "15:66": {
+    "verses": {
+     "15:66": {
+      "id": 1868
+     }
+    },
+    "resource_id": 16,
+    "resource_name": "المیسر",
+    "language_id": 9,
+    "slug": "ar-tafsir-muyassar",
+    "translated_name": {
+     "name": "Tafsir Muyassar",
+     "language_name": "english"
+    },
+    "text": "وأوحينا إلى لوط أن قومك مستأصَلون بالهلاك عن آخرهم عند طلوع الصبح."
+   },
+   "15:67": {
+    "verses": {
+     "15:67": {
+      "id": 1869
+     }
+    },
+    "resource_id": 16,
+    "resource_name": "المیسر",
+    "language_id": 9,
+    "slug": "ar-tafsir-muyassar",
+    "translated_name": {
+     "name": "Tafsir Muyassar",
+     "language_name": "english"
+    },
+    "text": "وجاء أهل مدينة لوط إلى لوط حين علموا بمن عنده من الضيوف، وهم فرحون يستبشرون بضيوفه; ليأخذوهم ويفعلوا بهم الفاحشة."
+   },
+   "15:68": {
+    "verses": {
+     "15:68": {
+      "id": 1870
+     },
+     "15:69": {
+      "id": 1871
+     }
+    },
+    "resource_id": 16,
+    "resource_name": "المیسر",
+    "language_id": 9,
+    "slug": "ar-tafsir-muyassar",
+    "translated_name": {
+     "name": "Tafsir Muyassar",
+     "language_name": "english"
+    },
+    "text": "<span class=\"blue\">قال لهم لوط:</span> إن هؤلاء ضيفي وهم في حمايتي فلا تفضحوني، وخافوا عقاب الله، ولا تتعرضوا لهم، فتوقعوني في الذل والهوان بإيذائكم لضيوفي."
+   },
+   "15:69": {
+    "verses": {
+     "15:68": {
+      "id": 1870
+     },
+     "15:69": {
+      "id": 1871
+     }
+    },
+    "resource_id": 16,
+    "resource_name": "المیسر",
+    "language_id": 9,
+    "slug": "ar-tafsir-muyassar",
+    "translated_name": {
+     "name": "Tafsir Muyassar",
+     "language_name": "english"
+    },
+    "text": "<span class=\"blue\">قال لهم لوط:</span> إن هؤلاء ضيفي وهم في حمايتي فلا تفضحوني، وخافوا عقاب الله، ولا تتعرضوا لهم، فتوقعوني في الذل والهوان بإيذائكم لضيوفي."
+   },
+   "15:70": {
+    "verses": {
+     "15:70": {
+      "id": 1872
+     }
+    },
+    "resource_id": 16,
+    "resource_name": "المیسر",
+    "language_id": 9,
+    "slug": "ar-tafsir-muyassar",
+    "translated_name": {
+     "name": "Tafsir Muyassar",
+     "language_name": "english"
+    },
+    "text": "<span class=\"blue\">قال قومه:</span> أو لم نَنْهَكَ أن تضيِّف أحدا من العالمين <span class=\"green\">(وكانوا يقطعون السبيل على المسافرين)</span> ; لأنَّا نريد فعل الفاحشة بهم؟"
+   },
+   "15:71": {
+    "verses": {
+     "15:71": {
+      "id": 1873
+     }
+    },
+    "resource_id": 16,
+    "resource_name": "المیسر",
+    "language_id": 9,
+    "slug": "ar-tafsir-muyassar",
+    "translated_name": {
+     "name": "Tafsir Muyassar",
+     "language_name": "english"
+    },
+    "text": "<span class=\"blue\">قال لوط لهم:</span> هؤلاء نساؤكم بناتي فتزوَّجوهن إن كنتم تريدون قضاء وطركم، وسماهن بناته؛ لأن نبي الأمة بمنزلة الأب لهم، ولا تفعلوا ما حرَّم الله عليكم من إتيان الرجال."
+   },
+   "15:72": {
+    "verses": {
+     "15:72": {
+      "id": 1874
+     },
+     "15:73": {
+      "id": 1875
+     }
+    },
+    "resource_id": 16,
+    "resource_name": "المیسر",
+    "language_id": 9,
+    "slug": "ar-tafsir-muyassar",
+    "translated_name": {
+     "name": "Tafsir Muyassar",
+     "language_name": "english"
+    },
+    "text": "يقسم الخالق بمن يشاء وبما يشاء، أما المخلوق فلا يجوز له القسم إلا بالله، وقد أقسم الله تعالى بحياة محمد صلى الله عليه وسلم تشريفًا له. إن قوم لوط في غفلة شديدة يترددون ويتمادون، حتى حلَّتْ بهم صاعقة العذاب وقت شروق الشمس."
+   },
+   "15:73": {
+    "verses": {
+     "15:72": {
+      "id": 1874
+     },
+     "15:73": {
+      "id": 1875
+     }
+    },
+    "resource_id": 16,
+    "resource_name": "المیسر",
+    "language_id": 9,
+    "slug": "ar-tafsir-muyassar",
+    "translated_name": {
+     "name": "Tafsir Muyassar",
+     "language_name": "english"
+    },
+    "text": "يقسم الخالق بمن يشاء وبما يشاء، أما المخلوق فلا يجوز له القسم إلا بالله، وقد أقسم الله تعالى بحياة محمد صلى الله عليه وسلم تشريفًا له. إن قوم لوط في غفلة شديدة يترددون ويتمادون، حتى حلَّتْ بهم صاعقة العذاب وقت شروق الشمس."
+   },
+   "15:74": {
+    "verses": {
+     "15:74": {
+      "id": 1876
+     }
+    },
+    "resource_id": 16,
+    "resource_name": "المیسر",
+    "language_id": 9,
+    "slug": "ar-tafsir-muyassar",
+    "translated_name": {
+     "name": "Tafsir Muyassar",
+     "language_name": "english"
+    },
+    "text": "فقلبنا قُراهم فجعلنا عاليها سافلها، وأمطرنا عليهم حجارة من طين متصلب متين."
+   },
+   "15:75": {
+    "verses": {
+     "15:75": {
+      "id": 1877
+     },
+     "15:76": {
+      "id": 1878
+     },
+     "15:77": {
+      "id": 1879
+     }
+    },
+    "resource_id": 16,
+    "resource_name": "المیسر",
+    "language_id": 9,
+    "slug": "ar-tafsir-muyassar",
+    "translated_name": {
+     "name": "Tafsir Muyassar",
+     "language_name": "english"
+    },
+    "text": "إن فيما أصابهم لَعظاتٍ للناظرين المعتبرين، وإن قراهم لفي طريق ثابت يراها المسافرون المارُّون بها. إن في إهلاكنا لهم لَدلالةً بيِّنةً للمصدقين العاملين بشرع الله."
+   },
+   "15:76": {
+    "verses": {
+     "15:75": {
+      "id": 1877
+     },
+     "15:76": {
+      "id": 1878
+     },
+     "15:77": {
+      "id": 1879
+     }
+    },
+    "resource_id": 16,
+    "resource_name": "المیسر",
+    "language_id": 9,
+    "slug": "ar-tafsir-muyassar",
+    "translated_name": {
+     "name": "Tafsir Muyassar",
+     "language_name": "english"
+    },
+    "text": "إن فيما أصابهم لَعظاتٍ للناظرين المعتبرين، وإن قراهم لفي طريق ثابت يراها المسافرون المارُّون بها. إن في إهلاكنا لهم لَدلالةً بيِّنةً للمصدقين العاملين بشرع الله."
+   },
+   "15:77": {
+    "verses": {
+     "15:75": {
+      "id": 1877
+     },
+     "15:76": {
+      "id": 1878
+     },
+     "15:77": {
+      "id": 1879
+     }
+    },
+    "resource_id": 16,
+    "resource_name": "المیسر",
+    "language_id": 9,
+    "slug": "ar-tafsir-muyassar",
+    "translated_name": {
+     "name": "Tafsir Muyassar",
+     "language_name": "english"
+    },
+    "text": "إن فيما أصابهم لَعظاتٍ للناظرين المعتبرين، وإن قراهم لفي طريق ثابت يراها المسافرون المارُّون بها. إن في إهلاكنا لهم لَدلالةً بيِّنةً للمصدقين العاملين بشرع الله."
+   }
+  },
+  "91": {
+   "15:57": {
+    "verses": {
+     "15:57": {
+      "id": 1859
+     }
+    },
+    "resource_id": 91,
+    "resource_name": "Arabic Saddi Tafseer",
+    "language_id": 9,
+    "slug": "ar-tafseer-al-saddi",
+    "translated_name": {
+     "name": "السعدي Al-Sa'di",
+     "language_name": "english"
+    },
+    "text": "<span class=\"blue\">أي:</span> <span class=\"arabic qpc-hafs brown\">{ قَالَ }</span> الخليل عليه السلام للملائكة: <span class=\"arabic qpc-hafs brown\">{ فَمَا خَطْبُكُمْ أَيُّهَا الْمُرْسَلُونَ }</span> أي: ما شأنكم ولأي شيء أرسلتم؟"
+   },
+   "15:58": {
+    "verses": {
+     "15:58": {
+      "id": 1860
+     }
+    },
+    "resource_id": 91,
+    "resource_name": "Arabic Saddi Tafseer",
+    "language_id": 9,
+    "slug": "ar-tafseer-al-saddi",
+    "translated_name": {
+     "name": "السعدي Al-Sa'di",
+     "language_name": "english"
+    },
+    "text": "<span class=\"arabic qpc-hafs brown\">{ قَالُوا إِنَّا أُرْسِلْنَا إِلَى قَوْمٍ مُجْرِمِينَ }</span> أي: كثر فسادهم وعظم شرهم، لنعذبهم ونعاقبهم"
+   },
+   "15:59": {
+    "verses": {
+     "15:59": {
+      "id": 1861
+     }
+    },
+    "resource_id": 91,
+    "resource_name": "Arabic Saddi Tafseer",
+    "language_id": 9,
+    "slug": "ar-tafseer-al-saddi",
+    "translated_name": {
+     "name": "السعدي Al-Sa'di",
+     "language_name": "english"
+    },
+    "text": "<span class=\"blue\">تفسير الآيتين 59 و 60 :</span>ـ <span class=\"arabic qpc-hafs brown\">{ إِلَّا آلَ لُوطٍ }</span> أي: إلا لوطا وأهله <span class=\"arabic qpc-hafs brown\">{ إِلَّا امْرَأَتَهُ قَدَّرْنَا إِنَّهَا لَمِنَ الْغَابِرِينَ }</span> أي: الباقين بالعذاب، وأما لوط فسنخرجنه وأهله وننجيهم منها، فجعل إبراهيم يجادل الرسل في إهلاكهم ويراجعهم،<span class=\"blue\"> فقيل له:</span> <span class=\"arabic qpc-hafs brown\">{ يا إبراهيم أعرض عن هذا إنه قد جاء أمر ربك وإنهم آتيهم عذاب غير مردود }</span> فذهبوا منه."
+   },
+   "15:60": {
+    "verses": {
+     "15:60": {
+      "id": 1862
+     }
+    },
+    "resource_id": 91,
+    "resource_name": "Arabic Saddi Tafseer",
+    "language_id": 9,
+    "slug": "ar-tafseer-al-saddi",
+    "translated_name": {
+     "name": "السعدي Al-Sa'di",
+     "language_name": "english"
+    },
+    "text": "<span class=\"blue\">تفسير الآيتين 59 و 60 :</span>ـ <span class=\"arabic qpc-hafs brown\">{ إِلَّا آلَ لُوطٍ }</span> أي: إلا لوطا وأهله <span class=\"arabic qpc-hafs brown\">{ إِلَّا امْرَأَتَهُ قَدَّرْنَا إِنَّهَا لَمِنَ الْغَابِرِينَ }</span> أي: الباقين بالعذاب، وأما لوط فسنخرجنه وأهله وننجيهم منها، فجعل إبراهيم يجادل الرسل في إهلاكهم ويراجعهم،<span class=\"blue\"> فقيل له:</span> <span class=\"arabic qpc-hafs brown\">{ يا إبراهيم أعرض عن هذا إنه قد جاء أمر ربك وإنهم آتيهم عذاب غير مردود }</span> فذهبوا منه."
+   },
+   "15:61": {
+    "verses": {
+     "15:61": {
+      "id": 1863
+     }
+    },
+    "resource_id": 91,
+    "resource_name": "Arabic Saddi Tafseer",
+    "language_id": 9,
+    "slug": "ar-tafseer-al-saddi",
+    "translated_name": {
+     "name": "السعدي Al-Sa'di",
+     "language_name": "english"
+    },
+    "text": "<span class=\"blue\">تفسير الآيتين 61 و 62 :</span>ـ <span class=\"arabic qpc-hafs brown\">{ فَلَمَّا جَاءَ آلَ لُوطٍ الْمُرْسَلُونَ قَالَ }</span> لهم لوط <span class=\"arabic qpc-hafs brown\">{ إِنَّكُمْ قَوْمٌ مُنْكَرُونَ }</span> أي: لا أعرفكم ولا أدري من أنتم."
+   },
+   "15:62": {
+    "verses": {
+     "15:62": {
+      "id": 1864
+     }
+    },
+    "resource_id": 91,
+    "resource_name": "Arabic Saddi Tafseer",
+    "language_id": 9,
+    "slug": "ar-tafseer-al-saddi",
+    "translated_name": {
+     "name": "السعدي Al-Sa'di",
+     "language_name": "english"
+    },
+    "text": "<span class=\"blue\">تفسير الآيتين 61 و 62 :</span>ـ <span class=\"arabic qpc-hafs brown\">{ فَلَمَّا جَاءَ آلَ لُوطٍ الْمُرْسَلُونَ قَالَ }</span> لهم لوط <span class=\"arabic qpc-hafs brown\">{ إِنَّكُمْ قَوْمٌ مُنْكَرُونَ }</span> أي: لا أعرفكم ولا أدري من أنتم."
+   },
+   "15:63": {
+    "verses": {
+     "15:63": {
+      "id": 1865
+     }
+    },
+    "resource_id": 91,
+    "resource_name": "Arabic Saddi Tafseer",
+    "language_id": 9,
+    "slug": "ar-tafseer-al-saddi",
+    "translated_name": {
+     "name": "السعدي Al-Sa'di",
+     "language_name": "english"
+    },
+    "text": "<span class=\"arabic qpc-hafs brown\">{ قَالُوا بَلْ جِئْنَاكَ بِمَا كَانُوا فِيهِ يَمْتَرُونَ }</span> أي: جئناك بعذابهم الذي كانوا يشكون فيه ويكذبونك حين تعدهم به"
+   },
+   "15:64": {
+    "verses": {
+     "15:64": {
+      "id": 1866
+     }
+    },
+    "resource_id": 91,
+    "resource_name": "Arabic Saddi Tafseer",
+    "language_id": 9,
+    "slug": "ar-tafseer-al-saddi",
+    "translated_name": {
+     "name": "السعدي Al-Sa'di",
+     "language_name": "english"
+    },
+    "text": "<span class=\"arabic qpc-hafs brown\">{ وَأَتَيْنَاكَ بِالْحَقِّ }</span> الذي ليس بالهزل <span class=\"arabic qpc-hafs brown\">{ وَإِنَّا لَصَادِقُونَ }</span> فيما قلنا لك."
+   },
+   "15:65": {
+    "verses": {
+     "15:65": {
+      "id": 1867
+     }
+    },
+    "resource_id": 91,
+    "resource_name": "Arabic Saddi Tafseer",
+    "language_id": 9,
+    "slug": "ar-tafseer-al-saddi",
+    "translated_name": {
+     "name": "السعدي Al-Sa'di",
+     "language_name": "english"
+    },
+    "text": "<span class=\"arabic qpc-hafs brown\">{ فَأَسْرِ بِأَهْلِكَ بِقِطْعٍ مِنَ اللَّيْلِ }</span> أي: في أثنائه حين تنام العيون ولا يدري أحد عن مسراك، <span class=\"arabic qpc-hafs brown\">{ وَلَا يَلْتَفِتْ مِنْكُمْ أَحَدٌ }</span> أي: بادروا وأسرعوا، <span class=\"arabic qpc-hafs brown\">{ وَامْضُوا حَيْثُ تُؤْمَرُونَ }</span> كأن معهم دليلا يدلهم إلى أين يتوجهون"
+   },
+   "15:66": {
+    "verses": {
+     "15:66": {
+      "id": 1868
+     }
+    },
+    "resource_id": 91,
+    "resource_name": "Arabic Saddi Tafseer",
+    "language_id": 9,
+    "slug": "ar-tafseer-al-saddi",
+    "translated_name": {
+     "name": "السعدي Al-Sa'di",
+     "language_name": "english"
+    },
+    "text": "<span class=\"arabic qpc-hafs brown\">{ وَقَضَيْنَا إِلَيْهِ ذَلِكَ }</span> أي: أخبرناه خبرا لا مثنوية فيه، <span class=\"arabic qpc-hafs brown\">{ أَنَّ دَابِرَ هَؤُلَاءِ مَقْطُوعٌ مُصْبِحِينَ }</span> أي: سيصبحهم العذاب الذي يجتاحهم ويستأصلهم"
+   },
+   "15:67": {
+    "verses": {
+     "15:67": {
+      "id": 1869
+     }
+    },
+    "resource_id": 91,
+    "resource_name": "Arabic Saddi Tafseer",
+    "language_id": 9,
+    "slug": "ar-tafseer-al-saddi",
+    "translated_name": {
+     "name": "السعدي Al-Sa'di",
+     "language_name": "english"
+    },
+    "text": "<span class=\"arabic qpc-hafs brown\">{ وَجَاءَ أَهْلُ الْمَدِينَةِ }</span> أي: المدينة التي فيها قوم لوط <span class=\"arabic qpc-hafs brown\">{ يَسْتَبْشِرُونَ }</span> أي: يبشر بعضهم بعضا بأضياف لوط وصباحة وجوههم واقتدارهم عليهم، وذلك لقصدهم فعل الفاحشة فيهم، فجاءوا حتى وصلوا إلى بيت لوط فجعلوا يعالجون لوطا على أضيافه،<span class=\"blue\"> ولوط يستعيذ منهم ويقول:</span> <span class=\"arabic qpc-hafs brown\">{ إِنَّ هَؤُلَاءِ ضَيْفِي فَلَا تَفْضَحُون وَاتَّقُوا اللَّهَ وَلَا تُخْزُون }</span>"
+   },
+   "15:68": {
+    "verses": {
+     "15:68": {
+      "id": 1870
+     }
+    },
+    "resource_id": 91,
+    "resource_name": "Arabic Saddi Tafseer",
+    "language_id": 9,
+    "slug": "ar-tafseer-al-saddi",
+    "translated_name": {
+     "name": "السعدي Al-Sa'di",
+     "language_name": "english"
+    },
+    "text": "<span class=\"blue\">تفسير الآيتين 68 و69 :</span>ـ <span class=\"arabic qpc-hafs brown\">{ إِنَّ هَؤُلَاءِ ضَيْفِي فَلَا تَفْضَحُون وَاتَّقُوا اللَّهَ وَلَا تُخْزُون }</span> أي: راقبوا الله أول ذلك وإن كان ليس فيكم خوف من الله فلا تفضحون في أضيافي، وتنتهكوا منهم الأمر الشنيع."
+   },
+   "15:69": {
+    "verses": {
+     "15:69": {
+      "id": 1871
+     }
+    },
+    "resource_id": 91,
+    "resource_name": "Arabic Saddi Tafseer",
+    "language_id": 9,
+    "slug": "ar-tafseer-al-saddi",
+    "translated_name": {
+     "name": "السعدي Al-Sa'di",
+     "language_name": "english"
+    },
+    "text": "<span class=\"blue\">تفسير الآيتين 68 و69 :</span>ـ <span class=\"arabic qpc-hafs brown\">{ إِنَّ هَؤُلَاءِ ضَيْفِي فَلَا تَفْضَحُون وَاتَّقُوا اللَّهَ وَلَا تُخْزُون }</span> أي: راقبوا الله أول ذلك وإن كان ليس فيكم خوف من الله فلا تفضحون في أضيافي، وتنتهكوا منهم الأمر الشنيع."
+   },
+   "15:70": {
+    "verses": {
+     "15:70": {
+      "id": 1872
+     }
+    },
+    "resource_id": 91,
+    "resource_name": "Arabic Saddi Tafseer",
+    "language_id": 9,
+    "slug": "ar-tafseer-al-saddi",
+    "translated_name": {
+     "name": "السعدي Al-Sa'di",
+     "language_name": "english"
+    },
+    "text": "فـ <span class=\"arabic qpc-hafs brown\">{ قَالُوا }</span> له جوابا عن قوله ولا تخزون فقط: <span class=\"arabic qpc-hafs brown\">{ أَوَلَمْ نَنْهَكَ عَنِ الْعَالَمِينَ }</span> أن تضيفهم فنحن قد أنذرناك، ومن أنذر فقد أعذر"
+   },
+   "15:71": {
+    "verses": {
+     "15:71": {
+      "id": 1873
+     }
+    },
+    "resource_id": 91,
+    "resource_name": "Arabic Saddi Tafseer",
+    "language_id": 9,
+    "slug": "ar-tafseer-al-saddi",
+    "translated_name": {
+     "name": "السعدي Al-Sa'di",
+     "language_name": "english"
+    },
+    "text": "<span class=\"blue\">تفسير الآيتين 71و 72 :</span>ـ فـ <span class=\"arabic qpc-hafs brown\">{ قَالَ }</span> لهم لوط من شدة الأمر الذي أصابه: <span class=\"arabic qpc-hafs brown\">{ هَؤُلَاءِ بَنَاتِي إِنْ كُنْتُمْ فَاعِلِينَ }</span> فلم يبالوا بقوله ولهذا قال الله لرسوله محمد صلى الله عليه وسلم <span class=\"arabic qpc-hafs brown\">{ لَعَمْرُكَ إِنَّهُمْ لَفِي سَكْرَتِهِمْ يَعْمَهُونَ }</span> وهذه السكرة هي سكرة محبة الفاحشة التي لا يبالون معها بعذل ولا لوم."
+   },
+   "15:72": {
+    "verses": {
+     "15:72": {
+      "id": 1874
+     }
+    },
+    "resource_id": 91,
+    "resource_name": "Arabic Saddi Tafseer",
+    "language_id": 9,
+    "slug": "ar-tafseer-al-saddi",
+    "translated_name": {
+     "name": "السعدي Al-Sa'di",
+     "language_name": "english"
+    },
+    "text": "<span class=\"blue\">تفسير الآيتين 71و 72 :</span>ـ فـ <span class=\"arabic qpc-hafs brown\">{ قَالَ }</span> لهم لوط من شدة الأمر الذي أصابه: <span class=\"arabic qpc-hafs brown\">{ هَؤُلَاءِ بَنَاتِي إِنْ كُنْتُمْ فَاعِلِينَ }</span> فلم يبالوا بقوله ولهذا قال الله لرسوله محمد صلى الله عليه وسلم <span class=\"arabic qpc-hafs brown\">{ لَعَمْرُكَ إِنَّهُمْ لَفِي سَكْرَتِهِمْ يَعْمَهُونَ }</span> وهذه السكرة هي سكرة محبة الفاحشة التي لا يبالون معها بعذل ولا لوم."
+   },
+   "15:73": {
+    "verses": {
+     "15:73": {
+      "id": 1875
+     }
+    },
+    "resource_id": 91,
+    "resource_name": "Arabic Saddi Tafseer",
+    "language_id": 9,
+    "slug": "ar-tafseer-al-saddi",
+    "translated_name": {
+     "name": "السعدي Al-Sa'di",
+     "language_name": "english"
+    },
+    "text": "فلما بينت له الرسل حالهم، زال عن لوط ما كان يجده من الضيق والكرب، فامتثل أمر ربه وسرى بأهله ليلا فنجوا، وأما أهل القرية <span class=\"arabic qpc-hafs brown\">{ فَأَخَذَتْهُمُ الصَّيْحَةُ مُشْرِقِينَ }</span> أي: وقت شروق الشمس حين كانت العقوبة عليهم أشد"
+   },
+   "15:74": {
+    "verses": {
+     "15:74": {
+      "id": 1876
+     }
+    },
+    "resource_id": 91,
+    "resource_name": "Arabic Saddi Tafseer",
+    "language_id": 9,
+    "slug": "ar-tafseer-al-saddi",
+    "translated_name": {
+     "name": "السعدي Al-Sa'di",
+     "language_name": "english"
+    },
+    "text": "<span class=\"arabic qpc-hafs brown\">{ فَجَعَلْنَا عَالِيَهَا سَافِلَهَا }</span> أي: قلبنا عليهم مدينتهم، <span class=\"arabic qpc-hafs brown\">{ وَأَمْطَرْنَا عَلَيْهِمْ حِجَارَةً مِنْ سِجِّيلٍ }</span> تتبع فيها من شذ من البلد منهم."
+   },
+   "15:75": {
+    "verses": {
+     "15:75": {
+      "id": 1877
+     }
+    },
+    "resource_id": 91,
+    "resource_name": "Arabic Saddi Tafseer",
+    "language_id": 9,
+    "slug": "ar-tafseer-al-saddi",
+    "translated_name": {
+     "name": "السعدي Al-Sa'di",
+     "language_name": "english"
+    },
+    "text": "<span class=\"arabic qpc-hafs brown\">{ إِنَّ فِي ذَلِكَ لَآيَاتٍ لِلْمُتَوَسِّمِينَ }</span> أي: المتأملين المتفكرين، الذين لهم فكر وروية وفراسة، يفهمون بها ما أريد بذلك، من أن من تجرأ على معاصي الله، خصوصا هذه الفاحشة العظيمة، وأن الله سيعاقبهم بأشنع العقوبات، كما تجرأوا على أشنع السيئات."
+   },
+   "15:76": {
+    "verses": {
+     "15:76": {
+      "id": 1878
+     }
+    },
+    "resource_id": 91,
+    "resource_name": "Arabic Saddi Tafseer",
+    "language_id": 9,
+    "slug": "ar-tafseer-al-saddi",
+    "translated_name": {
+     "name": "السعدي Al-Sa'di",
+     "language_name": "english"
+    },
+    "text": "<span class=\"arabic qpc-hafs brown\">{ وَإِنَّهَا }</span> أي: مدينة قوم لوط <span class=\"arabic qpc-hafs brown\">{ لَبِسَبِيلٍ مُقِيمٍ }</span> للسالكين، يعرفه كل من تردد في تلك الديار"
+   },
+   "15:77": {
+    "verses": {
+     "15:77": {
+      "id": 1879
+     }
+    },
+    "resource_id": 91,
+    "resource_name": "Arabic Saddi Tafseer",
+    "language_id": 9,
+    "slug": "ar-tafseer-al-saddi",
+    "translated_name": {
+     "name": "السعدي Al-Sa'di",
+     "language_name": "english"
+    },
+    "text": "<span class=\"arabic qpc-hafs brown\">{ إِنَّ فِي ذَلِكَ لَآيَةً لِلْمُؤْمِنِينَ }</span> وفي هذه القصة من العبر: عنايته تعالى بخليله إبراهيم، فإن لوطا عليه السلام من أتباعه، وممن آمن به فكأنه تلميذ له، فحين أراد الله إهلاك قوم لوط حين استحقوا ذلك، أمر رسله أن يمروا على إبراهيم عليه السلام كي يبشروه بالولد ويخبروه بما بعثوا له، حتى إنه جادلهم عليه السلام في إهلاكهم حتى أقنعوه، فطابت نفسه. وكذلك لوط عليه السلام، لما كانوا أهل وطنه، فربما أخذته الرقة عليهم والرأفة بهم قدَّر الله من الأسباب ما به يشتد غيظه وحنقه عليهم،<span class=\"blue\"> حتى استبطأ إهلاكهم لما قيل له:</span> <span class=\"arabic qpc-hafs brown\">{ إن موعدهم الصبح أليس الصبح بقريب }</span> ومنها: أن الله تعالى إذا أراد أن يهلك قرية ازداد شرهم وطغيانهم، فإذا انتهى أوقع بهم من العقوبات ما يستحقونه."
+   }
+  }
+ },
+ "recitation": {
+  "id": 939,
+  "chapter_id": 15,
+  "file_size": 15286400.0,
+  "format": "mp3",
+  "audio_url": "https://download.quranicaudio.com/qdc/mishari_al_afasy/murattal/15.mp3",
+  "timestamps": [
+   {
+    "verse_key": "15:57",
+    "timestamp_from": 560530,
+    "timestamp_to": 566880,
+    "duration": 6350,
+    "segments": [
+     [
+      1,
+      560475,
+      561095
+     ],
+     [
+      2,
+      561095,
+      561765
+     ],
+     [
+      3,
+      561765,
+      562875
+     ],
+     [
+      4,
+      562875,
+      563725
+     ],
+     [
+      5,
+      563725,
+      566760
+     ]
+    ]
+   },
+   {
+    "verse_key": "15:58",
+    "timestamp_from": 566880,
+    "timestamp_to": 578610,
+    "duration": 11730,
+    "segments": [
+     [
+      1,
+      566815,
+      568745
+     ],
+     [
+      2,
+      568745,
+      571274
+     ],
+     [
+      3,
+      571275,
+      573155
+     ],
+     [
+      4,
+      573155,
+      574295
+     ],
+     [
+      5,
+      574295,
+      575075
+     ],
+     [
+      6,
+      575075,
+      578500
+     ]
+    ]
+   },
+   {
+    "verse_key": "15:59",
+    "timestamp_from": 578610,
+    "timestamp_to": 588070,
+    "duration": 9460,
+    "segments": [
+     [
+      1,
+      578565,
+      580835
+     ],
+     [
+      2,
+      580835,
+      581525
+     ],
+     [
+      3,
+      581525,
+      582265
+     ],
+     [
+      4,
+      582265,
+      583685
+     ],
+     [
+      5,
+      583685,
+      585345
+     ],
+     [
+      6,
+      585345,
+      587960
+     ]
+    ]
+   },
+   {
+    "verse_key": "15:60",
+    "timestamp_from": 588070,
+    "timestamp_to": 597660,
+    "duration": 9590,
+    "segments": [
+     [
+      1,
+      588005,
+      588615
+     ],
+     [
+      2,
+      588615,
+      589885
+     ],
+     [
+      3,
+      589885,
+      592485
+     ],
+     [
+      4,
+      592485,
+      594105
+     ],
+     [
+      5,
+      594105,
+      594615
+     ],
+     [
+      6,
+      594615,
+      597570
+     ]
+    ]
+   },
+   {
+    "verse_key": "15:61",
+    "timestamp_from": 597660,
+    "timestamp_to": 605890,
+    "duration": 8230,
+    "segments": [
+     [
+      1,
+      597635,
+      599165
+     ],
+     [
+      2,
+      599165,
+      601195
+     ],
+     [
+      3,
+      601195,
+      601835
+     ],
+     [
+      4,
+      601835,
+      602685
+     ],
+     [
+      5,
+      602685,
+      605820
+     ]
+    ]
+   },
+   {
+    "verse_key": "15:62",
+    "timestamp_from": 605890,
+    "timestamp_to": 613150,
+    "duration": 7260,
+    "segments": [
+     [
+      1,
+      605845,
+      606505
+     ],
+     [
+      2,
+      606505,
+      607975
+     ],
+     [
+      3,
+      607975,
+      608595
+     ],
+     [
+      4,
+      608595,
+      613080
+     ]
+    ]
+   },
+   {
+    "verse_key": "15:63",
+    "timestamp_from": 613150,
+    "timestamp_to": 620990,
+    "duration": 7840,
+    "segments": [
+     [
+      1,
+      613125,
+      613975
+     ],
+     [
+      2,
+      613975,
+      614395
+     ],
+     [
+      3,
+      614395,
+      615595
+     ],
+     [
+      4,
+      615595,
+      616215
+     ],
+     [
+      5,
+      616215,
+      617125
+     ],
+     [
+      6,
+      617125,
+      617915
+     ],
+     [
+      7,
+      617915,
+      620920
+     ]
+    ]
+   },
+   {
+    "verse_key": "15:64",
+    "timestamp_from": 620990,
+    "timestamp_to": 628460,
+    "duration": 7470,
+    "segments": [
+     [
+      1,
+      620945,
+      622515
+     ],
+     [
+      2,
+      622515,
+      623655
+     ],
+     [
+      3,
+      623655,
+      625295
+     ],
+     [
+      4,
+      625295,
+      628380
+     ]
+    ]
+   },
+   {
+    "verse_key": "15:65",
+    "timestamp_from": 628460,
+    "timestamp_to": 644470,
+    "duration": 16010,
+    "segments": [
+     [
+      1,
+      628425,
+      629285
+     ],
+     [
+      2,
+      629285,
+      630325
+     ],
+     [
+      3,
+      630325,
+      631255
+     ],
+     [
+      4,
+      631255,
+      632135
+     ],
+     [
+      5,
+      632135,
+      633095
+     ],
+     [
+      6,
+      633095,
+      634145
+     ],
+     [
+      7,
+      634145,
+      635645
+     ],
+     [
+      8,
+      635645,
+      636295
+     ],
+     [
+      9,
+      636295,
+      637295
+     ],
+     [
+      10,
+      637295,
+      638815
+     ],
+     [
+      11,
+      638815,
+      640185
+     ],
+     [
+      12,
+      640185,
+      640945
+     ],
+     [
+      13,
+      640945,
+      641645
+     ],
+     [
+      14,
+      641645,
+      644380
+     ]
+    ]
+   },
+   {
+    "verse_key": "15:66",
+    "timestamp_from": 644470,
+    "timestamp_to": 661080,
+    "duration": 16610,
+    "segments": [
+     [
+      1,
+      644415,
+      647325
+     ],
+     [
+      2,
+      647325,
+      648245
+     ],
+     [
+      3,
+      648245,
+      649085
+     ],
+     [
+      4,
+      649085,
+      649925
+     ],
+     [
+      5,
+      649925,
+      651085
+     ],
+     [
+      6,
+      651085,
+      652045
+     ],
+     [
+      7,
+      652045,
+      655855
+     ],
+     [
+      8,
+      655855,
+      656945
+     ],
+     [
+      9,
+      656945,
+      661000
+     ]
+    ]
+   },
+   {
+    "verse_key": "15:67",
+    "timestamp_from": 661080,
+    "timestamp_to": 668600,
+    "duration": 7520,
+    "segments": [
+     [
+      1,
+      661055,
+      663425
+     ],
+     [
+      2,
+      663425,
+      663855
+     ],
+     [
+      3,
+      663855,
+      665215
+     ],
+     [
+      4,
+      665215,
+      668550
+     ]
+    ]
+   },
+   {
+    "verse_key": "15:68",
+    "timestamp_from": 668600,
+    "timestamp_to": 678660,
+    "duration": 10060,
+    "segments": [
+     [
+      1,
+      668575,
+      669225
+     ],
+     [
+      2,
+      669225,
+      670315
+     ],
+     [
+      3,
+      670315,
+      674085
+     ],
+     [
+      4,
+      674085,
+      674955
+     ],
+     [
+      5,
+      674955,
+      675595
+     ],
+     [
+      6,
+      675595,
+      678600
+     ]
+    ]
+   },
+   {
+    "verse_key": "15:69",
+    "timestamp_from": 678660,
+    "timestamp_to": 683780,
+    "duration": 5120,
+    "segments": [
+     [
+      1,
+      678625,
+      679475
+     ],
+     [
+      2,
+      679475,
+      680415
+     ],
+     [
+      3,
+      680415,
+      681005
+     ],
+     [
+      4,
+      681005,
+      683720
+     ]
+    ]
+   },
+   {
+    "verse_key": "15:70",
+    "timestamp_from": 683780,
+    "timestamp_to": 691220,
+    "duration": 7450,
+    "segments": [
+     [
+      1,
+      683755,
+      686195
+     ],
+     [
+      2,
+      686195,
+      687045
+     ],
+     [
+      3,
+      687045,
+      687855
+     ],
+     [
+      4,
+      687855,
+      688315
+     ],
+     [
+      5,
+      688315,
+      691150
+     ]
+    ]
+   },
+   {
+    "verse_key": "15:71",
+    "timestamp_from": 691220,
+    "timestamp_to": 703260,
+    "duration": 12040,
+    "segments": [
+     [
+      1,
+      691165,
+      691835
+     ],
+     [
+      2,
+      691835,
+      695705
+     ],
+     [
+      3,
+      695705,
+      697435
+     ],
+     [
+      4,
+      697435,
+      699275
+     ],
+     [
+      5,
+      699275,
+      700625
+     ],
+     [
+      6,
+      700625,
+      703180
+     ]
+    ]
+   },
+   {
+    "verse_key": "15:72",
+    "timestamp_from": 703260,
+    "timestamp_to": 710680,
+    "duration": 7420,
+    "segments": [
+     [
+      1,
+      703235,
+      704415
+     ],
+     [
+      2,
+      704415,
+      706005
+     ],
+     [
+      3,
+      706005,
+      706625
+     ],
+     [
+      4,
+      706625,
+      707985
+     ],
+     [
+      5,
+      707985,
+      710550
+     ]
+    ]
+   },
+   {
+    "verse_key": "15:73",
+    "timestamp_from": 710680,
+    "timestamp_to": 716170,
+    "duration": 5490,
+    "segments": [
+     [
+      1,
+      710575,
+      711985
+     ],
+     [
+      2,
+      711985,
+      713115
+     ],
+     [
+      3,
+      713115,
+      716040
+     ]
+    ]
+   },
+   {
+    "verse_key": "15:74",
+    "timestamp_from": 716170,
+    "timestamp_to": 732710,
+    "duration": 16540,
+    "segments": [
+     [
+      1,
+      716145,
+      717445
+     ],
+     [
+      2,
+      717445,
+      718755
+     ],
+     [
+      3,
+      718755,
+      720045
+     ],
+     [
+      4,
+      720045,
+      721555
+     ],
+     [
+      5,
+      721555,
+      722605
+     ],
+     [
+      6,
+      722605,
+      724185
+     ],
+     [
+      4,
+      724185,
+      725645
+     ],
+     [
+      5,
+      725645,
+      726665
+     ],
+     [
+      6,
+      726665,
+      728005
+     ],
+     [
+      7,
+      728005,
+      729135
+     ],
+     [
+      8,
+      729135,
+      732640
+     ]
+    ]
+   },
+   {
+    "verse_key": "15:75",
+    "timestamp_from": 732710,
+    "timestamp_to": 740360,
+    "duration": 7650,
+    "segments": [
+     [
+      1,
+      732665,
+      733935
+     ],
+     [
+      2,
+      733935,
+      734405
+     ],
+     [
+      3,
+      734405,
+      735275
+     ],
+     [
+      4,
+      735275,
+      736565
+     ],
+     [
+      5,
+      736565,
+      740290
+     ]
+    ]
+   },
+   {
+    "verse_key": "15:76",
+    "timestamp_from": 740360,
+    "timestamp_to": 747020,
+    "duration": 6660,
+    "segments": [
+     [
+      1,
+      740335,
+      742075
+     ],
+     [
+      2,
+      742075,
+      743355
+     ],
+     [
+      3,
+      743355,
+      746970
+     ]
+    ]
+   },
+   {
+    "verse_key": "15:77",
+    "timestamp_from": 747020,
+    "timestamp_to": 754620,
+    "duration": 7600,
+    "segments": [
+     [
+      1,
+      746995,
+      748015
+     ],
+     [
+      2,
+      748015,
+      748485
+     ],
+     [
+      3,
+      748485,
+      749325
+     ],
+     [
+      4,
+      749325,
+      750415
+     ],
+     [
+      5,
+      750415,
+      754570
+     ]
+    ]
+   }
+  ],
+  "local_file": "chapter_015_rec7.mp3"
+ },
+ "reciter_ar": {
+  "id": 7,
+  "name": "Mishari Rashid al-`Afasy",
+  "style": {
+   "name": "Murattal",
+   "language_name": "english"
+  },
+  "qirat": {
+   "name": "Hafs",
+   "language_name": "english"
+  },
+  "translated_name": {
+   "name": "Mishari Rashid al-`Afasy",
+   "language_name": "english"
+  }
+ },
+ "reciter_en": {
+  "id": 7,
+  "name": "Mishari Rashid al-`Afasy",
+  "style": {
+   "name": "Murattal",
+   "language_name": "english"
+  },
+  "qirat": {
+   "name": "Hafs",
+   "language_name": "english"
+  },
+  "translated_name": {
+   "name": "Mishari Rashid al-`Afasy",
+   "language_name": "english"
+  }
+ }
+}

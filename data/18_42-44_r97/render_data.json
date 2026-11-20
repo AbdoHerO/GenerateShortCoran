@@ -1,0 +1,734 @@
+{
+ "fps": 30,
+ "W": 1080,
+ "H": 1920,
+ "duration": 49.2,
+ "intro": 2.4,
+ "outro_start": 45.0,
+ "surah": {
+  "name_ar": "الكهف",
+  "name_en": "Al-Kahf",
+  "number": 18,
+  "from_ar": "٤٢",
+  "to_ar": "٤٤",
+  "from": 42,
+  "to": 44
+ },
+ "credits": {
+  "reciter_ar": "ياسر الدوسري",
+  "reciter_en": "Yasser ad-Dussary",
+  "translation_en": "Translation: Saheeh International",
+  "data_en": "Text, audio timings & tafsir: Quran Foundation (quran.com)"
+ },
+ "cover": {
+  "dur": 1.0,
+  "t": 7.15,
+  "series_ar": "صاحب الجنتين",
+  "series_en": "The owner of the two gardens",
+  "title_ar": "الهلاك والندم",
+  "title_en": "Ruin and regret"
+ },
+ "chapters": [
+  {
+   "id": "c1",
+   "title": "ندم بعد الدمار",
+   "scene": "stage",
+   "params": {
+    "setting": "garden",
+    "time": "day",
+    "actors": [
+     {
+      "id": "owner",
+      "type": "man",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "rich"
+     }
+    ],
+    "events": [
+     {
+      "type": "wither",
+      "at": [
+       42,
+       1
+      ],
+      "until": null
+     }
+    ],
+    "beats": [
+     {
+      "at": [
+       42,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       42,
+       3
+      ],
+      "do": "shot_close",
+      "who": "owner"
+     },
+     {
+      "at": [
+       42,
+       4
+      ],
+      "do": "wring_hands",
+      "who": "owner"
+     },
+     {
+      "at": [
+       42,
+       8
+      ],
+      "do": "wring_hands",
+      "who": "owner"
+     },
+     {
+      "at": [
+       42,
+       11
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       42,
+       13
+      ],
+      "do": "leaves"
+     },
+     {
+      "at": [
+       42,
+       14
+      ],
+      "do": "shot_close",
+      "who": "owner"
+     },
+     {
+      "at": [
+       42,
+       15
+      ],
+      "do": "bow",
+      "who": "owner"
+     },
+     {
+      "at": [
+       42,
+       19
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       43,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       43,
+       4
+      ],
+      "do": "turn",
+      "who": "owner"
+     },
+     {
+      "at": [
+       43,
+       5
+      ],
+      "do": "turn",
+      "who": "owner"
+     },
+     {
+      "at": [
+       43,
+       7
+      ],
+      "do": "shot_close",
+      "who": "owner"
+     },
+     {
+      "at": [
+       43,
+       11
+      ],
+      "do": "sit",
+      "who": "owner"
+     }
+    ]
+   },
+   "bg": "#e5ebdf",
+   "verses": [
+    42,
+    43
+   ],
+   "start": 0.0,
+   "end": 33.23
+  },
+  {
+   "id": "c2",
+   "title": "عاقبة الإيمان",
+   "scene": "ambient",
+   "params": {
+    "mood": "geometric",
+    "beats": [
+     {
+      "at": [
+       44,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       44,
+       3
+      ],
+      "do": "pattern_turn"
+     },
+     {
+      "at": [
+       44,
+       5
+      ],
+      "do": "light_up"
+     },
+     {
+      "at": [
+       44,
+       7
+      ],
+      "do": "pattern_turn"
+     },
+     {
+      "at": [
+       44,
+       8
+      ],
+      "do": "push_in"
+     }
+    ]
+   },
+   "bg": "#ece6da",
+   "verses": [
+    44
+   ],
+   "start": 33.23,
+   "end": 49.2
+  }
+ ],
+ "verses": [
+  {
+   "n": 42,
+   "key": "18:42",
+   "num_ar": "٤٢",
+   "words": [
+    {
+     "pos": 1,
+     "text": "وَأُحِيطَ"
+    },
+    {
+     "pos": 2,
+     "text": "بِثَمَرِهِۦ"
+    },
+    {
+     "pos": 3,
+     "text": "فَأَصْبَحَ"
+    },
+    {
+     "pos": 4,
+     "text": "يُقَلِّبُ"
+    },
+    {
+     "pos": 5,
+     "text": "كَفَّيْهِ"
+    },
+    {
+     "pos": 6,
+     "text": "عَلَىٰ"
+    },
+    {
+     "pos": 7,
+     "text": "مَآ"
+    },
+    {
+     "pos": 8,
+     "text": "أَنفَقَ"
+    },
+    {
+     "pos": 9,
+     "text": "فِيهَا"
+    },
+    {
+     "pos": 10,
+     "text": "وَهِىَ"
+    },
+    {
+     "pos": 11,
+     "text": "خَاوِيَةٌ"
+    },
+    {
+     "pos": 12,
+     "text": "عَلَىٰ"
+    },
+    {
+     "pos": 13,
+     "text": "عُرُوشِهَا"
+    },
+    {
+     "pos": 14,
+     "text": "وَيَقُولُ"
+    },
+    {
+     "pos": 15,
+     "text": "يَـٰلَيْتَنِى"
+    },
+    {
+     "pos": 16,
+     "text": "لَمْ"
+    },
+    {
+     "pos": 17,
+     "text": "أُشْرِكْ"
+    },
+    {
+     "pos": 18,
+     "text": "بِرَبِّىٓ"
+    },
+    {
+     "pos": 19,
+     "text": "أَحَدًۭا"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     2.46,
+     3.47
+    ],
+    [
+     2,
+     3.47,
+     4.71
+    ],
+    [
+     3,
+     4.71,
+     5.62
+    ],
+    [
+     4,
+     5.62,
+     6.55
+    ],
+    [
+     5,
+     6.55,
+     7.51
+    ],
+    [
+     6,
+     7.51,
+     8.04
+    ],
+    [
+     7,
+     8.04,
+     9.72
+    ],
+    [
+     8,
+     9.72,
+     10.89
+    ],
+    [
+     9,
+     10.89,
+     11.59
+    ],
+    [
+     10,
+     11.59,
+     12.16
+    ],
+    [
+     11,
+     12.16,
+     13.23
+    ],
+    [
+     12,
+     13.23,
+     13.76
+    ],
+    [
+     13,
+     13.76,
+     14.9
+    ],
+    [
+     14,
+     14.9,
+     15.88
+    ],
+    [
+     15,
+     15.88,
+     16.09
+    ],
+    [
+     16,
+     16.21,
+     17.17
+    ],
+    [
+     17,
+     17.17,
+     17.5
+    ],
+    [
+     18,
+     17.5,
+     18.25
+    ],
+    [
+     19,
+     18.25,
+     21.58
+    ]
+   ],
+   "start": 2.46,
+   "first_word": 2.46,
+   "last_word": 21.58,
+   "translation": "And his fruits were encompassed [by ruin], so he began to turn his hands about [in dismay] over what he had spent on it, while it had collapsed upon its trellises, and said, \"Oh, I wish I had not associated with my Lord anyone.\"",
+   "glosses": [
+    {
+     "w0": 1,
+     "w1": 2,
+     "chip": "وَأُحِيطَ بِثَمَرِهِۦ",
+     "excerpt": "وتحَقَّقَ ما قاله المؤمن، ووقع الدمار بالحديقة",
+     "source": "التفسير الميسر",
+     "target": "center",
+     "tone": "red",
+     "start": 2.46,
+     "end": 12.11
+    },
+    {
+     "w0": 11,
+     "w1": 13,
+     "chip": "خَاوِيَةٌ عَلَىٰ عُرُوشِهَا",
+     "excerpt": "قد سقط بعضها على بعض",
+     "source": "التفسير الميسر",
+     "target": "ground",
+     "tone": "red",
+     "start": 12.16,
+     "end": 15.83
+    },
+    {
+     "w0": 15,
+     "w1": 15,
+     "chip": "يَـٰلَيْتَنِى",
+     "excerpt": "وهذا ندم منه حين لا ينفعه الندم",
+     "source": "التفسير الميسر",
+     "target": "owner",
+     "tone": "red",
+     "start": 15.88,
+     "end": 21.84
+    }
+   ],
+   "end": 21.94
+  },
+  {
+   "n": 43,
+   "key": "18:43",
+   "num_ar": "٤٣",
+   "words": [
+    {
+     "pos": 1,
+     "text": "وَلَمْ"
+    },
+    {
+     "pos": 2,
+     "text": "تَكُن"
+    },
+    {
+     "pos": 3,
+     "text": "لَّهُۥ"
+    },
+    {
+     "pos": 4,
+     "text": "فِئَةٌۭ"
+    },
+    {
+     "pos": 5,
+     "text": "يَنصُرُونَهُۥ"
+    },
+    {
+     "pos": 6,
+     "text": "مِن"
+    },
+    {
+     "pos": 7,
+     "text": "دُونِ"
+    },
+    {
+     "pos": 8,
+     "text": "ٱللَّهِ"
+    },
+    {
+     "pos": 9,
+     "text": "وَمَا"
+    },
+    {
+     "pos": 10,
+     "text": "كَانَ"
+    },
+    {
+     "pos": 11,
+     "text": "مُنتَصِرًا"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     21.94,
+     22.49
+    ],
+    [
+     2,
+     22.49,
+     23.07
+    ],
+    [
+     3,
+     23.07,
+     23.6
+    ],
+    [
+     4,
+     23.6,
+     25.23
+    ],
+    [
+     5,
+     25.23,
+     26.99
+    ],
+    [
+     6,
+     26.99,
+     28.36
+    ],
+    [
+     7,
+     28.36,
+     28.93
+    ],
+    [
+     8,
+     28.99,
+     29.64
+    ],
+    [
+     9,
+     29.64,
+     30.22
+    ],
+    [
+     10,
+     30.22,
+     30.67
+    ],
+    [
+     11,
+     30.73,
+     33.01
+    ]
+   ],
+   "start": 21.94,
+   "first_word": 21.94,
+   "last_word": 33.01,
+   "translation": "And there was for him no company to aid him other than Allāh, nor could he defend himself.",
+   "glosses": [
+    {
+     "w0": 4,
+     "w1": 5,
+     "chip": "فِئَةٌۭ يَنصُرُونَهُۥ",
+     "excerpt": "جماعة ممن افتخر بهم يمنعونه",
+     "source": "التفسير الميسر",
+     "target": "owner",
+     "tone": "red",
+     "start": 23.6,
+     "end": 30.169999999999998
+    },
+    {
+     "w0": 10,
+     "w1": 11,
+     "chip": "كَانَ مُنتَصِرًا",
+     "excerpt": "ممتنعًا بنفسه وقوته",
+     "source": "التفسير الميسر",
+     "target": "owner",
+     "tone": "red",
+     "start": 30.22,
+     "end": 33.129999999999995
+    }
+   ],
+   "end": 33.23
+  },
+  {
+   "n": 44,
+   "key": "18:44",
+   "num_ar": "٤٤",
+   "words": [
+    {
+     "pos": 1,
+     "text": "هُنَالِكَ"
+    },
+    {
+     "pos": 2,
+     "text": "ٱلْوَلَـٰيَةُ"
+    },
+    {
+     "pos": 3,
+     "text": "لِلَّهِ"
+    },
+    {
+     "pos": 4,
+     "text": "ٱلْحَقِّ ۚ"
+    },
+    {
+     "pos": 5,
+     "text": "هُوَ"
+    },
+    {
+     "pos": 6,
+     "text": "خَيْرٌۭ"
+    },
+    {
+     "pos": 7,
+     "text": "ثَوَابًۭا"
+    },
+    {
+     "pos": 8,
+     "text": "وَخَيْرٌ"
+    },
+    {
+     "pos": 9,
+     "text": "عُقْبًۭا"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     33.23,
+     34.19
+    ],
+    [
+     2,
+     34.35,
+     35.73
+    ],
+    [
+     3,
+     35.79,
+     36.53
+    ],
+    [
+     4,
+     36.55,
+     38.2
+    ],
+    [
+     5,
+     38.2,
+     38.58
+    ],
+    [
+     6,
+     38.58,
+     39.97
+    ],
+    [
+     7,
+     39.97,
+     41.98
+    ],
+    [
+     8,
+     41.98,
+     43.04
+    ],
+    [
+     9,
+     43.04,
+     44.14
+    ]
+   ],
+   "start": 33.23,
+   "first_word": 33.23,
+   "last_word": 44.14,
+   "translation": "There the authority is [completely] for Allāh, the Truth. He is best in reward and best in outcome.",
+   "glosses": [
+    {
+     "w0": 1,
+     "w1": 1,
+     "chip": "هُنَالِكَ",
+     "excerpt": "في مثل هذه الشدائد",
+     "source": "التفسير الميسر",
+     "target": null,
+     "tone": "amber",
+     "start": 33.23,
+     "end": 38.53
+    },
+    {
+     "w0": 6,
+     "w1": 9,
+     "chip": "خَيْرٌۭ ثَوَابًۭا وَخَيْرٌ عُقْبًۭا",
+     "excerpt": "خير جزاءً، وخير عاقبة لمن تولاهم من عباده المؤمنين",
+     "source": "التفسير الميسر",
+     "target": "light",
+     "tone": "green",
+     "start": 38.58,
+     "end": 45.1
+    }
+   ],
+   "end": 45.2
+  }
+ ],
+ "audio": {
+  "slice_start": 756.37,
+  "slice_end": 798.57,
+  "file": "audio_master.wav"
+ },
+ "timing_corrections": [],
+ "timing_flags": [],
+ "aligned_boundaries": [
+  {
+   "kind": "inside",
+   "after": 42,
+   "gap_s": [
+    774.6,
+    775.89
+   ],
+   "pause_s": [
+    775.55,
+    775.91
+   ],
+   "shift_s": 0.485,
+   "pause_db": -26.0,
+   "video_t": 21.94
+  }
+ ]
+}

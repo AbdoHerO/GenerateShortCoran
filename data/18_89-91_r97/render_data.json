@@ -1,0 +1,460 @@
+{
+ "fps": 30,
+ "W": 1080,
+ "H": 1920,
+ "duration": 27.49,
+ "intro": 2.4,
+ "outro_start": 23.29,
+ "surah": {
+  "name_ar": "الكهف",
+  "name_en": "Al-Kahf",
+  "number": 18,
+  "from_ar": "٨٩",
+  "to_ar": "٩١",
+  "from": 89,
+  "to": 91
+ },
+ "credits": {
+  "reciter_ar": "ياسر الدوسري",
+  "reciter_en": "Yasser ad-Dussary",
+  "translation_en": "Translation: Saheeh International",
+  "data_en": "Text, audio timings & tafsir: Quran Foundation (quran.com)"
+ },
+ "cover": {
+  "dur": 1.0,
+  "t": 12.03,
+  "series_ar": "ذو القرنين",
+  "series_en": "Dhul-Qarnayn",
+  "title_ar": "الرحلة شرقا",
+  "title_en": "Journey to the east"
+ },
+ "chapters": [
+  {
+   "id": "c1",
+   "title": "شروق بلا ظل",
+   "scene": "stage",
+   "params": {
+    "setting": "mountains",
+    "time": "dawn",
+    "actors": [
+     {
+      "id": "camel",
+      "type": "camel",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "walk",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "ruler",
+      "type": "honored",
+      "label": "ذو القرنين",
+      "place": "center",
+      "count": 1,
+      "pose": "walk",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "people",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [
+     {
+      "type": "sunrise_open",
+      "at": [
+       90,
+       7
+      ],
+      "until": null
+     }
+    ],
+    "beats": [
+     {
+      "at": [
+       89,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       90,
+       1
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       90,
+       4
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       90,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       90,
+       9
+      ],
+      "do": "shot_close",
+      "who": "people"
+     },
+     {
+      "at": [
+       90,
+       15
+      ],
+      "do": "look_up",
+      "who": "people"
+     },
+     {
+      "at": [
+       91,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       91,
+       5
+      ],
+      "do": "sparkle",
+      "who": "ruler"
+     }
+    ]
+   },
+   "bg": "#e6e7e2",
+   "verses": [
+    89,
+    90,
+    91
+   ],
+   "start": 0.0,
+   "end": 27.49
+  }
+ ],
+ "verses": [
+  {
+   "n": 89,
+   "key": "18:89",
+   "num_ar": "٨٩",
+   "words": [
+    {
+     "pos": 1,
+     "text": "ثُمَّ"
+    },
+    {
+     "pos": 2,
+     "text": "أَتْبَعَ"
+    },
+    {
+     "pos": 3,
+     "text": "سَبَبًا"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     2.46,
+     3.84
+    ],
+    [
+     2,
+     3.84,
+     4.62
+    ],
+    [
+     3,
+     4.62,
+     5.53
+    ]
+   ],
+   "start": 2.46,
+   "first_word": 2.46,
+   "last_word": 5.53,
+   "translation": "Then he followed a way",
+   "glosses": [
+    {
+     "w0": 2,
+     "w1": 3,
+     "chip": "أَتْبَعَ سَبَبًا",
+     "excerpt": "رجع ذو القرنين إلى المشرق",
+     "source": "التفسير الميسر",
+     "target": "ruler",
+     "tone": "amber",
+     "start": 3.84,
+     "end": 5.73
+    }
+   ],
+   "end": 5.83
+  },
+  {
+   "n": 90,
+   "key": "18:90",
+   "num_ar": "٩٠",
+   "words": [
+    {
+     "pos": 1,
+     "text": "حَتَّىٰٓ"
+    },
+    {
+     "pos": 2,
+     "text": "إِذَا"
+    },
+    {
+     "pos": 3,
+     "text": "بَلَغَ"
+    },
+    {
+     "pos": 4,
+     "text": "مَطْلِعَ"
+    },
+    {
+     "pos": 5,
+     "text": "ٱلشَّمْسِ"
+    },
+    {
+     "pos": 6,
+     "text": "وَجَدَهَا"
+    },
+    {
+     "pos": 7,
+     "text": "تَطْلُعُ"
+    },
+    {
+     "pos": 8,
+     "text": "عَلَىٰ"
+    },
+    {
+     "pos": 9,
+     "text": "قَوْمٍۢ"
+    },
+    {
+     "pos": 10,
+     "text": "لَّمْ"
+    },
+    {
+     "pos": 11,
+     "text": "نَجْعَل"
+    },
+    {
+     "pos": 12,
+     "text": "لَّهُم"
+    },
+    {
+     "pos": 13,
+     "text": "مِّن"
+    },
+    {
+     "pos": 14,
+     "text": "دُونِهَا"
+    },
+    {
+     "pos": 15,
+     "text": "سِتْرًۭا"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     5.83,
+     7.92
+    ],
+    [
+     2,
+     7.92,
+     8.49
+    ],
+    [
+     3,
+     8.49,
+     9.1
+    ],
+    [
+     4,
+     9.1,
+     9.83
+    ],
+    [
+     5,
+     9.83,
+     10.52
+    ],
+    [
+     6,
+     10.52,
+     11.43
+    ],
+    [
+     7,
+     11.43,
+     12.21
+    ],
+    [
+     8,
+     12.21,
+     12.75
+    ],
+    [
+     9,
+     12.75,
+     13.32
+    ],
+    [
+     10,
+     13.42,
+     13.82
+    ],
+    [
+     11,
+     13.82,
+     14.51
+    ],
+    [
+     12,
+     14.51,
+     15.39
+    ],
+    [
+     13,
+     15.39,
+     16.11
+    ],
+    [
+     14,
+     16.11,
+     16.99
+    ],
+    [
+     15,
+     16.99,
+     18.02
+    ]
+   ],
+   "start": 5.83,
+   "first_word": 5.83,
+   "last_word": 18.02,
+   "translation": "Until, when he came to the rising of the sun [i.e., the east], he found it rising on a people for whom We had not made against it any shield.",
+   "glosses": [
+    {
+     "w0": 10,
+     "w1": 15,
+     "chip": "لَّمْ نَجْعَل لَّهُم مِّن دُونِهَا سِتْرًۭا",
+     "excerpt": "ليس لهم بناء يسترهم، ولا شجر يظلهم من الشمس",
+     "source": "التفسير الميسر",
+     "target": "people",
+     "tone": "amber",
+     "start": 13.42,
+     "end": 18.04
+    }
+   ],
+   "end": 18.14
+  },
+  {
+   "n": 91,
+   "key": "18:91",
+   "num_ar": "٩١",
+   "words": [
+    {
+     "pos": 1,
+     "text": "كَذَٰلِكَ"
+    },
+    {
+     "pos": 2,
+     "text": "وَقَدْ"
+    },
+    {
+     "pos": 3,
+     "text": "أَحَطْنَا"
+    },
+    {
+     "pos": 4,
+     "text": "بِمَا"
+    },
+    {
+     "pos": 5,
+     "text": "لَدَيْهِ"
+    },
+    {
+     "pos": 6,
+     "text": "خُبْرًۭا"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     18.14,
+     19.04
+    ],
+    [
+     2,
+     19.1,
+     19.7
+    ],
+    [
+     3,
+     19.7,
+     20.68
+    ],
+    [
+     4,
+     20.68,
+     21.21
+    ],
+    [
+     5,
+     21.21,
+     21.96
+    ],
+    [
+     6,
+     21.96,
+     22.89
+    ]
+   ],
+   "start": 18.14,
+   "first_word": 18.14,
+   "last_word": 22.89,
+   "translation": "Thus. And We had encompassed [all] that he had in knowledge.",
+   "glosses": [
+    {
+     "w0": 3,
+     "w1": 6,
+     "chip": "أَحَطْنَا بِمَا لَدَيْهِ خُبْرًۭا",
+     "excerpt": "أحاط عِلْمُنا بما عنده من الخير والأسباب العظيمة",
+     "source": "التفسير الميسر",
+     "target": "ruler",
+     "tone": "green",
+     "start": 19.7,
+     "end": 23.389999999999997
+    }
+   ],
+   "end": 23.49
+  }
+ ],
+ "audio": {
+  "slice_start": 1471.67,
+  "slice_end": 1492.16,
+  "file": "audio_master.wav"
+ },
+ "timing_corrections": [],
+ "timing_flags": [],
+ "aligned_boundaries": []
+}

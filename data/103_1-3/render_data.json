@@ -1,0 +1,220 @@
+{
+ "fps": 30,
+ "W": 1080,
+ "H": 1920,
+ "duration": 26.02,
+ "intro": 1.4,
+ "outro_start": 21.82,
+ "surah": {
+  "name_ar": "العصر",
+  "name_en": "Al-'Asr",
+  "number": 103,
+  "from_ar": "١",
+  "to_ar": "٣",
+  "from": 1,
+  "to": 3
+ },
+ "credits": {
+  "reciter_ar": "مشاري راشد العفاسي",
+  "reciter_en": "Mishari Rashid al-'Afasy",
+  "translation_en": "Translation: Saheeh International",
+  "data_en": "Text, audio timings & tafsir: Quran Foundation (quran.com)"
+ },
+ "chapters": [
+  {
+   "id": "c1",
+   "title": "سورة العصر",
+   "scene": "ambient",
+   "params": {
+    "mood": "dawn"
+   },
+   "bg": "#f1e6d6",
+   "verses": [
+    1,
+    2,
+    3
+   ],
+   "start": 0.0,
+   "end": 26.02
+  }
+ ],
+ "verses": [
+  {
+   "n": 1,
+   "key": "103:1",
+   "num_ar": "١",
+   "words": [
+    {
+     "pos": 1,
+     "text": "وَٱلْعَصْرِ"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     1.4,
+     3.115
+    ]
+   ],
+   "start": 1.4,
+   "first_word": 1.4,
+   "last_word": 3.115,
+   "translation": "By time,",
+   "glosses": [],
+   "end": 3.115
+  },
+  {
+   "n": 2,
+   "key": "103:2",
+   "num_ar": "٢",
+   "words": [
+    {
+     "pos": 1,
+     "text": "إِنَّ"
+    },
+    {
+     "pos": 2,
+     "text": "ٱلْإِنسَـٰنَ"
+    },
+    {
+     "pos": 3,
+     "text": "لَفِى"
+    },
+    {
+     "pos": 4,
+     "text": "خُسْرٍ"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     3.115,
+     4.365
+    ],
+    [
+     2,
+     4.365,
+     7.015
+    ],
+    [
+     3,
+     7.015,
+     7.595
+    ],
+    [
+     4,
+     7.595,
+     8.66
+    ]
+   ],
+   "start": 3.115,
+   "first_word": 3.115,
+   "last_word": 8.66,
+   "translation": "Indeed, mankind is in loss,",
+   "glosses": [],
+   "end": 8.725
+  },
+  {
+   "n": 3,
+   "key": "103:3",
+   "num_ar": "٣",
+   "words": [
+    {
+     "pos": 1,
+     "text": "إِلَّا"
+    },
+    {
+     "pos": 2,
+     "text": "ٱلَّذِينَ"
+    },
+    {
+     "pos": 3,
+     "text": "ءَامَنُوا۟"
+    },
+    {
+     "pos": 4,
+     "text": "وَعَمِلُوا۟"
+    },
+    {
+     "pos": 5,
+     "text": "ٱلصَّـٰلِحَـٰتِ"
+    },
+    {
+     "pos": 6,
+     "text": "وَتَوَاصَوْا۟"
+    },
+    {
+     "pos": 7,
+     "text": "بِٱلْحَقِّ"
+    },
+    {
+     "pos": 8,
+     "text": "وَتَوَاصَوْا۟"
+    },
+    {
+     "pos": 9,
+     "text": "بِٱلصَّبْرِ"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     8.725,
+     9.405
+    ],
+    [
+     2,
+     9.405,
+     10.415
+    ],
+    [
+     3,
+     10.415,
+     11.695
+    ],
+    [
+     4,
+     11.695,
+     12.515
+    ],
+    [
+     5,
+     12.515,
+     14.135
+    ],
+    [
+     6,
+     14.135,
+     15.395
+    ],
+    [
+     7,
+     15.395,
+     16.455
+    ],
+    [
+     8,
+     16.455,
+     17.845
+    ],
+    [
+     9,
+     17.845,
+     20.98
+    ]
+   ],
+   "start": 8.725,
+   "first_word": 8.725,
+   "last_word": 20.98,
+   "translation": "Except for those who have believed and done righteous deeds and advised each other to truth and advised each other to patience.",
+   "glosses": [],
+   "end": 22.02
+  }
+ ],
+ "audio": {
+  "slice_start": 0.0,
+  "slice_end": 20.02,
+  "file": "audio_master.wav"
+ },
+ "timing_corrections": []
+}

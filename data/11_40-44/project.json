@@ -1,0 +1,63 @@
+{
+ "id": "11_40-44",
+ "chapter": 11,
+ "from": 40,
+ "to": 44,
+ "reciter": 7,
+ "style": "story",
+ "director": "auto",
+ "created": "2026-11-19T20:58:15.847Z",
+ "stage": "review",
+ "steps": [
+  {
+   "key": "fetch",
+   "label": "Fetching verses, tafsir and recitation",
+   "state": "done",
+   "detail": "Downloading the recitation (99%)",
+   "progress": null
+  },
+  {
+   "key": "direct",
+   "label": "Writing a simple storyboard",
+   "state": "done",
+   "detail": "",
+   "progress": null
+  },
+  {
+   "key": "verify",
+   "label": "Accuracy checks (text, timing, explanations)",
+   "state": "done",
+   "detail": "",
+   "progress": null
+  },
+  {
+   "key": "prepare",
+   "label": "Preparing audio and timeline",
+   "state": "done",
+   "detail": "",
+   "progress": null
+  }
+ ],
+ "error": null,
+ "review": {
+  "verses": {},
+  "timing": {},
+  "titles": false,
+  "reviewer": "",
+  "approved": false,
+  "approved_at": null
+ },
+ "render": {
+  "state": "idle"
+ },
+ "updated": "2026-11-19T20:59:35.904Z",
+ "verify": {
+  "passed": true,
+  "pass": 33,
+  "fail": 0,
+  "info": 12,
+  "items": [],
+  "total": 45
+ },
+ "duration": 142.695
+}

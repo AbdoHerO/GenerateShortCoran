@@ -1,0 +1,20 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="icon" href="data:,">
+<style>
+@font-face { font-family: "Amiri Quran"; src: url(../fonts/AmiriQuran-Regular.ttf) format("truetype"); }
+body{margin:0;background:#1f2b4f;color:#f8f1e2;width:1080px}
+.dom{font:60px "Amiri Quran";direction:rtl;text-align:center;padding:20px 0 10px}
+.lbl{font:20px sans-serif;color:#f4c75e;text-align:center}
+</style></head><body>
+<div class="lbl">DOM (HTML text)</div><div class="dom" id="dom"></div>
+<div class="lbl">Canvas fillText - whole verse / per word</div><canvas id="c" width="1080" height="260"></canvas>
+<script type="module">
+const d = await (await fetch('/data/15_57-77/render_data.json')).json();
+const v = d.verses[0]; const txt = v.words.map(w=>w.text).join(' ');
+document.getElementById('dom').textContent = txt;
+await document.fonts.load('60px "Amiri Quran"', txt);
+const c = document.getElementById('c').getContext('2d');
+c.fillStyle = '#f8f1e2'; c.font = '60px "Amiri Quran"'; c.direction = 'rtl'; c.textAlign = 'center';
+c.fillText(txt, 540, 90);
+c.textAlign = 'right'; let x = 540 + 300; for (const w of v.words) { c.fillText(w.text, x, 200); x -= c.measureText(w.text).width + 16; }
+window.done = true;
+</script></body></html>

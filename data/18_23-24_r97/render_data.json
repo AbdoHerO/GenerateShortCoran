@@ -1,0 +1,417 @@
+{
+ "fps": 30,
+ "W": 1080,
+ "H": 1920,
+ "duration": 32.51,
+ "intro": 2.4,
+ "outro_start": 28.31,
+ "surah": {
+  "name_ar": "الكهف",
+  "name_en": "Al-Kahf",
+  "number": 18,
+  "from_ar": "٢٣",
+  "to_ar": "٢٤",
+  "from": 23,
+  "to": 24
+ },
+ "credits": {
+  "reciter_ar": "ياسر الدوسري",
+  "reciter_en": "Yasser ad-Dussary",
+  "translation_en": "Translation: Saheeh International",
+  "data_en": "Text, audio timings & tafsir: Quran Foundation (quran.com)"
+ },
+ "cover": {
+  "dur": 1.0,
+  "t": 13.26,
+  "series_ar": "أصحاب الكهف",
+  "series_en": "The People of the Cave",
+  "title_ar": "أدب المشيئة",
+  "title_en": "The etiquette of in sha' Allah"
+ },
+ "chapters": [
+  {
+   "id": "c1",
+   "title": "تعليق الأمر بالمشيئة",
+   "scene": "ambient",
+   "params": {
+    "mood": "light",
+    "beats": [
+     {
+      "at": [
+       23,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       23,
+       4
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       23,
+       7
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       24,
+       3
+      ],
+      "do": "light_up"
+     },
+     {
+      "at": [
+       24,
+       5
+      ],
+      "do": "sparkle",
+      "who": "light"
+     },
+     {
+      "at": [
+       24,
+       8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       24,
+       10
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       24,
+       12
+      ],
+      "do": "light_up"
+     },
+     {
+      "at": [
+       24,
+       17
+      ],
+      "do": "sparkle",
+      "who": "center"
+     }
+    ]
+   },
+   "bg": "#f2ecdf",
+   "verses": [
+    23,
+    24
+   ],
+   "start": 0.0,
+   "end": 32.51
+  }
+ ],
+ "verses": [
+  {
+   "n": 23,
+   "key": "18:23",
+   "num_ar": "٢٣",
+   "words": [
+    {
+     "pos": 1,
+     "text": "وَلَا"
+    },
+    {
+     "pos": 2,
+     "text": "تَقُولَنَّ"
+    },
+    {
+     "pos": 3,
+     "text": "لِشَا۟ىْءٍ"
+    },
+    {
+     "pos": 4,
+     "text": "إِنِّى"
+    },
+    {
+     "pos": 5,
+     "text": "فَاعِلٌۭ"
+    },
+    {
+     "pos": 6,
+     "text": "ذَٰلِكَ"
+    },
+    {
+     "pos": 7,
+     "text": "غَدًا"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     2.42,
+     2.97
+    ],
+    [
+     2,
+     2.97,
+     4.38
+    ],
+    [
+     3,
+     4.38,
+     5.34
+    ],
+    [
+     4,
+     5.34,
+     6.38
+    ],
+    [
+     5,
+     6.38,
+     8.04
+    ],
+    [
+     6,
+     8.04,
+     8.71
+    ],
+    [
+     7,
+     8.81,
+     9.3
+    ]
+   ],
+   "start": 2.42,
+   "first_word": 2.42,
+   "last_word": 9.3,
+   "translation": "And never say of anything, \"Indeed, I will do that tomorrow,\"",
+   "glosses": [
+    {
+     "w0": 3,
+     "w1": 3,
+     "chip": "لِشَا۟ىْءٍ",
+     "excerpt": "لشيء تعزم على فعله",
+     "source": "التفسير الميسر",
+     "target": null,
+     "tone": "blue",
+     "start": 4.38,
+     "end": 9.25
+    }
+   ],
+   "end": 9.35
+  },
+  {
+   "n": 24,
+   "key": "18:24",
+   "num_ar": "٢٤",
+   "words": [
+    {
+     "pos": 1,
+     "text": "إِلَّآ"
+    },
+    {
+     "pos": 2,
+     "text": "أَن"
+    },
+    {
+     "pos": 3,
+     "text": "يَشَآءَ"
+    },
+    {
+     "pos": 4,
+     "text": "ٱللَّهُ ۚ"
+    },
+    {
+     "pos": 5,
+     "text": "وَٱذْكُر"
+    },
+    {
+     "pos": 6,
+     "text": "رَّبَّكَ"
+    },
+    {
+     "pos": 7,
+     "text": "إِذَا"
+    },
+    {
+     "pos": 8,
+     "text": "نَسِيتَ"
+    },
+    {
+     "pos": 9,
+     "text": "وَقُلْ"
+    },
+    {
+     "pos": 10,
+     "text": "عَسَىٰٓ"
+    },
+    {
+     "pos": 11,
+     "text": "أَن"
+    },
+    {
+     "pos": 12,
+     "text": "يَهْدِيَنِ"
+    },
+    {
+     "pos": 13,
+     "text": "رَبِّى"
+    },
+    {
+     "pos": 14,
+     "text": "لِأَقْرَبَ"
+    },
+    {
+     "pos": 15,
+     "text": "مِنْ"
+    },
+    {
+     "pos": 16,
+     "text": "هَـٰذَا"
+    },
+    {
+     "pos": 17,
+     "text": "رَشَدًۭا"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     9.35,
+     12.12
+    ],
+    [
+     2,
+     12.12,
+     12.66
+    ],
+    [
+     3,
+     12.66,
+     14.34
+    ],
+    [
+     4,
+     14.4,
+     16.52
+    ],
+    [
+     5,
+     16.52,
+     17.27
+    ],
+    [
+     6,
+     17.27,
+     17.94
+    ],
+    [
+     7,
+     18.0,
+     18.62
+    ],
+    [
+     8,
+     18.62,
+     20.34
+    ],
+    [
+     9,
+     20.34,
+     20.9
+    ],
+    [
+     10,
+     20.9,
+     22.56
+    ],
+    [
+     11,
+     22.56,
+     23.1
+    ],
+    [
+     12,
+     23.1,
+     24.03
+    ],
+    [
+     13,
+     24.03,
+     24.74
+    ],
+    [
+     14,
+     24.74,
+     25.68
+    ],
+    [
+     15,
+     25.68,
+     26.04
+    ],
+    [
+     16,
+     26.04,
+     26.77
+    ],
+    [
+     17,
+     26.77,
+     27.91
+    ]
+   ],
+   "start": 9.35,
+   "first_word": 9.35,
+   "last_word": 27.91,
+   "translation": "Except [when adding], \"If Allāh wills.\" And remember your Lord when you forget [it] and say, \"Perhaps my Lord will guide me to what is nearer than this to right conduct.\"",
+   "glosses": [
+    {
+     "w0": 1,
+     "w1": 4,
+     "chip": "إِلَّآ أَن يَشَآءَ ٱللَّهُ ۚ",
+     "excerpt": "تُعَلِّق قولك بالمشيئة، فتقول: إن شاء الله",
+     "source": "التفسير الميسر",
+     "target": "light",
+     "tone": "green",
+     "start": 9.35,
+     "end": 16.47
+    },
+    {
+     "w0": 5,
+     "w1": 8,
+     "chip": "وَٱذْكُر رَّبَّكَ إِذَا نَسِيتَ",
+     "excerpt": "عند النسيان بقول: إن شاء الله",
+     "source": "التفسير الميسر",
+     "target": null,
+     "tone": "green",
+     "start": 16.52,
+     "end": 23.05
+    },
+    {
+     "w0": 12,
+     "w1": 14,
+     "chip": "يَهْدِيَنِ رَبِّى لِأَقْرَبَ",
+     "excerpt": "لأقرب الطرق الموصلة إلى الهدى والرشاد",
+     "source": "التفسير الميسر",
+     "target": "light",
+     "tone": "green",
+     "start": 23.1,
+     "end": 28.41
+    }
+   ],
+   "end": 28.51
+  }
+ ],
+ "audio": {
+  "slice_start": 397.28,
+  "slice_end": 422.79,
+  "file": "audio_master.wav"
+ },
+ "timing_corrections": [],
+ "timing_flags": [],
+ "aligned_boundaries": []
+}

@@ -1,0 +1,329 @@
+{
+ "_comment": "Hand-written storyboard (Claude Code studio). Quranic text is NEVER written here: words are referenced by verse + position.",
+ "passage": {
+  "chapter": 18,
+  "from": 17,
+  "to": 18
+ },
+ "data_dir": "data/18_17-18_r97",
+ "recitation_id": 97,
+ "intro_s": 1.4,
+ "outro_s": 4.6,
+ "tafsir_labels": {
+  "16": "التفسير الميسر",
+  "91": "تفسير السعدي"
+ },
+ "tafsir_expect": {
+  "16": "Muyassar",
+  "91": "Sa'di"
+ },
+ "translation_expect": "Saheeh International",
+ "credits": {
+  "reciter_ar": "ياسر الدوسري",
+  "reciter_en": "Yasser ad-Dussary",
+  "translation_en": "Translation: Saheeh International",
+  "data_en": "Text, audio timings & tafsir: Quran Foundation (quran.com)"
+ },
+ "timing_corrections": [],
+ "chapters": [
+  {
+   "id": "c1",
+   "title": "شمس تميل عن الكهف",
+   "verses": [
+    17
+   ],
+   "scene": "stage",
+   "params": {
+    "setting": "cave",
+    "time": "day",
+    "actors": [
+     {
+      "id": "sleepers",
+      "type": "sleepers",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "sleep",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "dog",
+      "type": "dog",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "sleep",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [
+     {
+      "type": "sun_arc",
+      "at": [
+       17,
+       2
+      ],
+      "until": null
+     }
+    ],
+    "beats": [
+     {
+      "at": [
+       17,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       17,
+       5
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       17,
+       11
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       17,
+       15
+      ],
+      "do": "shot_close",
+      "who": "sleepers"
+     },
+     {
+      "at": [
+       17,
+       19
+      ],
+      "do": "sparkle",
+      "who": "center"
+     },
+     {
+      "at": [
+       17,
+       23
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       17,
+       28
+      ],
+      "do": "shot_wide"
+     }
+    ]
+   }
+  },
+  {
+   "id": "c2",
+   "title": "حفظ الله لهم",
+   "verses": [
+    18
+   ],
+   "scene": "stage",
+   "params": {
+    "setting": "cave",
+    "time": "day",
+    "actors": [
+     {
+      "id": "sleepers",
+      "type": "sleepers",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "sleep",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "dog",
+      "type": "dog",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "sleep",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [
+     {
+      "type": "turn_sleepers",
+      "at": [
+       18,
+       5
+      ],
+      "until": null
+     }
+    ],
+    "beats": [
+     {
+      "at": [
+       18,
+       1
+      ],
+      "do": "shot_close",
+      "who": "sleepers"
+     },
+     {
+      "at": [
+       18,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       18,
+       10
+      ],
+      "do": "shot_close",
+      "who": "dog"
+     },
+     {
+      "at": [
+       18,
+       13
+      ],
+      "do": "sparkle",
+      "who": "dog"
+     },
+     {
+      "at": [
+       18,
+       15
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       18,
+       17
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       18,
+       20
+      ],
+      "do": "shot_ground"
+     }
+    ]
+   }
+  }
+ ],
+ "glosses": [
+  {
+   "verse": 17,
+   "words": [
+    5,
+    5
+   ],
+   "tafsir": 16,
+   "excerpt": "تميل عن مكانهم إلى جهة اليمين",
+   "target": "sky",
+   "tone": "amber"
+  },
+  {
+   "verse": 17,
+   "words": [
+    12,
+    12
+   ],
+   "tafsir": 16,
+   "excerpt": "تتركهم إلى جهة اليسار",
+   "target": "sky",
+   "tone": "amber"
+  },
+  {
+   "verse": 17,
+   "words": [
+    17,
+    17
+   ],
+   "tafsir": 16,
+   "excerpt": "في متسع من الكهف",
+   "target": "sleepers",
+   "tone": "blue"
+  },
+  {
+   "verse": 17,
+   "words": [
+    33,
+    34
+   ],
+   "tafsir": 16,
+   "excerpt": "معينًا يرشده لإصابة الحق",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 18,
+   "words": [
+    4,
+    4
+   ],
+   "tafsir": 16,
+   "excerpt": "في الواقع نيام",
+   "target": "sleepers",
+   "tone": "blue"
+  },
+  {
+   "verse": 18,
+   "words": [
+    5,
+    5
+   ],
+   "tafsir": 16,
+   "excerpt": "مرة للجنب الأيمن ومرة للجنب الأيسر",
+   "target": "sleepers",
+   "tone": "green"
+  },
+  {
+   "verse": 18,
+   "words": [
+    13,
+    13
+   ],
+   "tafsir": 16,
+   "excerpt": "بفناء الكهف",
+   "target": "dog",
+   "tone": "amber"
+  },
+  {
+   "verse": 18,
+   "words": [
+    17,
+    19
+   ],
+   "tafsir": 16,
+   "excerpt": "لأدبرت عنهم هاربًا",
+   "target": "",
+   "tone": "red"
+  }
+ ],
+ "director": {
+  "mode": "hand",
+  "notes": "Reference storyboard. Sleepers are drawn as an uncountable group (18:22). The sun's path follows Al-Muyassar: it inclines away to the right at sunrise and leaves them to the left at sunset."
+ },
+ "cover": {
+  "series_ar": "أصحاب الكهف",
+  "series_en": "The People of the Cave",
+  "title_ar": "داخل الكهف",
+  "title_en": "Inside the cave: the sun and the dog",
+  "at": [
+   18,
+   11
+  ]
+ }
+}

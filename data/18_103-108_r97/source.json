@@ -1,0 +1,1953 @@
+{
+ "meta": {
+  "source": "public",
+  "base": "https://api.quran.com/api/v4",
+  "fetched_at": "2026-11-19T22:16:53Z",
+  "chapter": 18,
+  "from": 103,
+  "to": 108,
+  "recitation_id": 97,
+  "translation_id": 20,
+  "tafsir_ids": [
+   16,
+   91
+  ]
+ },
+ "chapter": {
+  "id": 18,
+  "revelation_place": "makkah",
+  "revelation_order": 69,
+  "bismillah_pre": true,
+  "name_simple": "Al-Kahf",
+  "name_complex": "Al-Kahf",
+  "name_arabic": "الكهف",
+  "verses_count": 110,
+  "pages": [
+   293,
+   304
+  ],
+  "translated_name": {
+   "language_name": "english",
+   "name": "The Cave"
+  }
+ },
+ "chapter_en": {
+  "id": 18,
+  "revelation_place": "makkah",
+  "revelation_order": 69,
+  "bismillah_pre": true,
+  "name_simple": "Al-Kahf",
+  "name_complex": "Al-Kahf",
+  "name_arabic": "الكهف",
+  "verses_count": 110,
+  "pages": [
+   293,
+   304
+  ],
+  "translated_name": {
+   "language_name": "english",
+   "name": "The Cave"
+  }
+ },
+ "translation_resource": {
+  "id": 20,
+  "name": "Saheeh International",
+  "author_name": "Saheeh International",
+  "slug": "en-sahih-international",
+  "language_name": "english",
+  "translated_name": {
+   "name": "Saheeh International",
+   "language_name": "english"
+  }
+ },
+ "tafsir_resources": [
+  {
+   "id": 16,
+   "name": "Tafsir Muyassar",
+   "author_name": "المیسر",
+   "slug": "ar-tafsir-muyassar",
+   "language_name": "arabic",
+   "translated_name": {
+    "name": "Tafsir Muyassar",
+    "language_name": "english"
+   }
+  },
+  {
+   "id": 91,
+   "name": "السعدي Al-Sa'di",
+   "author_name": "Saddi",
+   "slug": "ar-tafseer-al-saddi",
+   "language_name": "arabic",
+   "translated_name": {
+    "name": "السعدي Al-Sa'di",
+    "language_name": "english"
+   }
+  }
+ ],
+ "verses": [
+  {
+   "id": 2243,
+   "verse_number": 103,
+   "verse_key": "18:103",
+   "hizb_number": 31,
+   "rub_el_hizb_number": 122,
+   "ruku_number": 263,
+   "manzil_number": 4,
+   "sajdah_number": null,
+   "text_uthmani": "قُلْ هَلْ نُنَبِّئُكُم بِٱلْأَخْسَرِينَ أَعْمَـٰلًا",
+   "text_imlaei": "قُلْ هَلْ نُنَبِّئُكُم بِالْأَخْسَرِينَ أَعْمَالًا",
+   "page_number": 304,
+   "juz_number": 16,
+   "words": [
+    {
+     "id": 72370,
+     "position": 1,
+     "audio_url": "wbw/018_103_001.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "قُلْ",
+     "location": "18:103:1",
+     "page_number": 304,
+     "line_number": 6,
+     "text": "قُلْ",
+     "translation": {
+      "text": "Say",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "qul",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 72371,
+     "position": 2,
+     "audio_url": "wbw/018_103_002.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "هَلْ",
+     "location": "18:103:2",
+     "page_number": 304,
+     "line_number": 6,
+     "text": "هَلْ",
+     "translation": {
+      "text": "Shall",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "hal",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 72372,
+     "position": 3,
+     "audio_url": "wbw/018_103_003.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "نُنَبِّئُكُم",
+     "location": "18:103:3",
+     "page_number": 304,
+     "line_number": 6,
+     "text": "نُنَبِّئُكُم",
+     "translation": {
+      "text": "We inform you",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "nunabbi-ukum",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 72373,
+     "position": 4,
+     "audio_url": "wbw/018_103_004.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "بِٱلْأَخْسَرِينَ",
+     "location": "18:103:4",
+     "page_number": 304,
+     "line_number": 6,
+     "text": "بِٱلْأَخْسَرِينَ",
+     "translation": {
+      "text": "of the greatest losers",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "bil-akhsarīna",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 72374,
+     "position": 5,
+     "audio_url": "wbw/018_103_005.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "أَعْمَـٰلًا",
+     "location": "18:103:5",
+     "page_number": 304,
+     "line_number": 7,
+     "text": "أَعْمَـٰلًا",
+     "translation": {
+      "text": "(as to their) deeds",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "aʿmālan",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 72375,
+     "position": 6,
+     "audio_url": null,
+     "char_type_name": "end",
+     "text_uthmani": "١٠٣",
+     "location": "18:103:6",
+     "page_number": 304,
+     "line_number": 7,
+     "text": "١٠٣",
+     "translation": {
+      "text": "(103)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": null,
+      "language_name": "english"
+     }
+    }
+   ],
+   "translations": [
+    {
+     "id": 97050,
+     "resource_id": 20,
+     "text": "Say, [O Muḥammad], \"Shall we [believers] inform you of the greatest losers as to [their] deeds?"
+    }
+   ]
+  },
+  {
+   "id": 2244,
+   "verse_number": 104,
+   "verse_key": "18:104",
+   "hizb_number": 31,
+   "rub_el_hizb_number": 122,
+   "ruku_number": 263,
+   "manzil_number": 4,
+   "sajdah_number": null,
+   "text_uthmani": "ٱلَّذِينَ ضَلَّ سَعْيُهُمْ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَهُمْ يَحْسَبُونَ أَنَّهُمْ يُحْسِنُونَ صُنْعًا",
+   "text_imlaei": "الَّذِينَ ضَلَّ سَعْيُهُمْ فِي الْحَيَاةِ الدُّنْيَا وَهُمْ يَحْسَبُونَ أَنَّهُمْ يُحْسِنُونَ صُنْعًا",
+   "page_number": 304,
+   "juz_number": 16,
+   "words": [
+    {
+     "id": 72618,
+     "position": 1,
+     "audio_url": "wbw/018_104_001.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "ٱلَّذِينَ",
+     "location": "18:104:1",
+     "page_number": 304,
+     "line_number": 7,
+     "text": "ٱلَّذِينَ",
+     "translation": {
+      "text": "Those ",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "alladhīna",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 72619,
+     "position": 2,
+     "audio_url": "wbw/018_104_002.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "ضَلَّ",
+     "location": "18:104:2",
+     "page_number": 304,
+     "line_number": 7,
+     "text": "ضَلَّ",
+     "translation": {
+      "text": "is lost",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "ḍalla",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 72620,
+     "position": 3,
+     "audio_url": "wbw/018_104_003.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "سَعْيُهُمْ",
+     "location": "18:104:3",
+     "page_number": 304,
+     "line_number": 7,
+     "text": "سَعْيُهُمْ",
+     "translation": {
+      "text": "their effort",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "saʿyuhum",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 72621,
+     "position": 4,
+     "audio_url": "wbw/018_104_004.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "فِى",
+     "location": "18:104:4",
+     "page_number": 304,
+     "line_number": 7,
+     "text": "فِى",
+     "translation": {
+      "text": "in",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "fī",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 72622,
+     "position": 5,
+     "audio_url": "wbw/018_104_005.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "ٱلْحَيَوٰةِ",
+     "location": "18:104:5",
+     "page_number": 304,
+     "line_number": 7,
+     "text": "ٱلْحَيَوٰةِ",
+     "translation": {
+      "text": "the life",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "l-ḥayati",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 72623,
+     "position": 6,
+     "audio_url": "wbw/018_104_006.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "ٱلدُّنْيَا",
+     "location": "18:104:6",
+     "page_number": 304,
+     "line_number": 7,
+     "text": "ٱلدُّنْيَا",
+     "translation": {
+      "text": "(of) the world",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "l-dun'yā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 72624,
+     "position": 7,
+     "audio_url": "wbw/018_104_007.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "وَهُمْ",
+     "location": "18:104:7",
+     "page_number": 304,
+     "line_number": 7,
+     "text": "وَهُمْ",
+     "translation": {
+      "text": "while they",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "wahum",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 72625,
+     "position": 8,
+     "audio_url": "wbw/018_104_008.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "يَحْسَبُونَ",
+     "location": "18:104:8",
+     "page_number": 304,
+     "line_number": 7,
+     "text": "يَحْسَبُونَ",
+     "translation": {
+      "text": "think",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "yaḥsabūna",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 72626,
+     "position": 9,
+     "audio_url": "wbw/018_104_009.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "أَنَّهُمْ",
+     "location": "18:104:9",
+     "page_number": 304,
+     "line_number": 7,
+     "text": "أَنَّهُمْ",
+     "translation": {
+      "text": "that they",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "annahum",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 72627,
+     "position": 10,
+     "audio_url": "wbw/018_104_010.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "يُحْسِنُونَ",
+     "location": "18:104:10",
+     "page_number": 304,
+     "line_number": 8,
+     "text": "يُحْسِنُونَ",
+     "translation": {
+      "text": "(were) acquiring good",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "yuḥ'sinūna",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 72628,
+     "position": 11,
+     "audio_url": "wbw/018_104_011.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "صُنْعًا",
+     "location": "18:104:11",
+     "page_number": 304,
+     "line_number": 8,
+     "text": "صُنْعًا",
+     "translation": {
+      "text": "(in) work",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "ṣun'ʿan",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 72629,
+     "position": 12,
+     "audio_url": null,
+     "char_type_name": "end",
+     "text_uthmani": "١٠٤",
+     "location": "18:104:12",
+     "page_number": 304,
+     "line_number": 8,
+     "text": "١٠٤",
+     "translation": {
+      "text": "(104)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": null,
+      "language_name": "english"
+     }
+    }
+   ],
+   "translations": [
+    {
+     "id": 97051,
+     "resource_id": 20,
+     "text": "[They are] those whose effort is lost in worldly life, while they think that they are doing well in work.\""
+    }
+   ]
+  },
+  {
+   "id": 2245,
+   "verse_number": 105,
+   "verse_key": "18:105",
+   "hizb_number": 31,
+   "rub_el_hizb_number": 122,
+   "ruku_number": 263,
+   "manzil_number": 4,
+   "sajdah_number": null,
+   "text_uthmani": "أُو۟لَـٰٓئِكَ ٱلَّذِينَ كَفَرُوا۟ بِـَٔايَـٰتِ رَبِّهِمْ وَلِقَآئِهِۦ فَحَبِطَتْ أَعْمَـٰلُهُمْ فَلَا نُقِيمُ لَهُمْ يَوْمَ ٱلْقِيَـٰمَةِ وَزْنًا",
+   "text_imlaei": "أُولَٰئِكَ الَّذِينَ كَفَرُوا بِآيَاتِ رَبِّهِمْ وَلِقَائِهِ فَحَبِطَتْ أَعْمَالُهُمْ فَلَا نُقِيمُ لَهُمْ يَوْمَ الْقِيَامَةِ وَزْنًا",
+   "page_number": 304,
+   "juz_number": 16,
+   "words": [
+    {
+     "id": 72776,
+     "position": 1,
+     "audio_url": "wbw/018_105_001.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "أُو۟لَـٰٓئِكَ",
+     "location": "18:105:1",
+     "page_number": 304,
+     "line_number": 8,
+     "text": "أُو۟لَـٰٓئِكَ",
+     "translation": {
+      "text": "Those",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "ulāika",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 72777,
+     "position": 2,
+     "audio_url": "wbw/018_105_002.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "ٱلَّذِينَ",
+     "location": "18:105:2",
+     "page_number": 304,
+     "line_number": 8,
+     "text": "ٱلَّذِينَ",
+     "translation": {
+      "text": "(are) the ones who",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "alladhīna",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 72778,
+     "position": 3,
+     "audio_url": "wbw/018_105_003.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "كَفَرُوا۟",
+     "location": "18:105:3",
+     "page_number": 304,
+     "line_number": 8,
+     "text": "كَفَرُوا۟",
+     "translation": {
+      "text": "disbelieve",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "kafarū",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 72779,
+     "position": 4,
+     "audio_url": "wbw/018_105_004.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "بِـَٔايَـٰتِ",
+     "location": "18:105:4",
+     "page_number": 304,
+     "line_number": 8,
+     "text": "بِـَٔايَـٰتِ",
+     "translation": {
+      "text": "in the Verses",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "biāyāti",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 72780,
+     "position": 5,
+     "audio_url": "wbw/018_105_005.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "رَبِّهِمْ",
+     "location": "18:105:5",
+     "page_number": 304,
+     "line_number": 8,
+     "text": "رَبِّهِمْ",
+     "translation": {
+      "text": "(of) their Lord",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "rabbihim",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 72781,
+     "position": 6,
+     "audio_url": "wbw/018_105_006.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "وَلِقَآئِهِۦ",
+     "location": "18:105:6",
+     "page_number": 304,
+     "line_number": 8,
+     "text": "وَلِقَآئِهِۦ",
+     "translation": {
+      "text": "and the meeting (with) Him",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "waliqāihi",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 72782,
+     "position": 7,
+     "audio_url": "wbw/018_105_007.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "فَحَبِطَتْ",
+     "location": "18:105:7",
+     "page_number": 304,
+     "line_number": 9,
+     "text": "فَحَبِطَتْ",
+     "translation": {
+      "text": "So (are) vain",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "faḥabiṭat",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 72783,
+     "position": 8,
+     "audio_url": "wbw/018_105_008.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "أَعْمَـٰلُهُمْ",
+     "location": "18:105:8",
+     "page_number": 304,
+     "line_number": 9,
+     "text": "أَعْمَـٰلُهُمْ",
+     "translation": {
+      "text": "their deeds",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "aʿmāluhum",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 72784,
+     "position": 9,
+     "audio_url": "wbw/018_105_009.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "فَلَا",
+     "location": "18:105:9",
+     "page_number": 304,
+     "line_number": 9,
+     "text": "فَلَا",
+     "translation": {
+      "text": "so not",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "falā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 72785,
+     "position": 10,
+     "audio_url": "wbw/018_105_010.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "نُقِيمُ",
+     "location": "18:105:10",
+     "page_number": 304,
+     "line_number": 9,
+     "text": "نُقِيمُ",
+     "translation": {
+      "text": "We will assign",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "nuqīmu",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 72786,
+     "position": 11,
+     "audio_url": "wbw/018_105_011.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "لَهُمْ",
+     "location": "18:105:11",
+     "page_number": 304,
+     "line_number": 9,
+     "text": "لَهُمْ",
+     "translation": {
+      "text": "for them",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "lahum",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 72787,
+     "position": 12,
+     "audio_url": "wbw/018_105_012.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "يَوْمَ",
+     "location": "18:105:12",
+     "page_number": 304,
+     "line_number": 9,
+     "text": "يَوْمَ",
+     "translation": {
+      "text": "(on) the Day",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "yawma",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 72788,
+     "position": 13,
+     "audio_url": "wbw/018_105_013.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "ٱلْقِيَـٰمَةِ",
+     "location": "18:105:13",
+     "page_number": 304,
+     "line_number": 9,
+     "text": "ٱلْقِيَـٰمَةِ",
+     "translation": {
+      "text": "(of) the Resurrection",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "l-qiyāmati",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 72789,
+     "position": 14,
+     "audio_url": "wbw/018_105_014.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "وَزْنًۭا",
+     "location": "18:105:14",
+     "page_number": 304,
+     "line_number": 9,
+     "text": "وَزْنًۭا",
+     "translation": {
+      "text": "any weight",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "waznan",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 72790,
+     "position": 15,
+     "audio_url": null,
+     "char_type_name": "end",
+     "text_uthmani": "١٠٥",
+     "location": "18:105:15",
+     "page_number": 304,
+     "line_number": 9,
+     "text": "١٠٥",
+     "translation": {
+      "text": "(105)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": null,
+      "language_name": "english"
+     }
+    }
+   ],
+   "translations": [
+    {
+     "id": 97052,
+     "resource_id": 20,
+     "text": "Those are the ones who disbelieve in the verses of their Lord and in [their] meeting Him, so their deeds have become worthless; and We will not assign to them on the Day of Resurrection any weight [i.e., importance]."
+    }
+   ]
+  },
+  {
+   "id": 2246,
+   "verse_number": 106,
+   "verse_key": "18:106",
+   "hizb_number": 31,
+   "rub_el_hizb_number": 122,
+   "ruku_number": 263,
+   "manzil_number": 4,
+   "sajdah_number": null,
+   "text_uthmani": "ذَٰلِكَ جَزَآؤُهُمْ جَهَنَّمُ بِمَا كَفَرُوا۟ وَٱتَّخَذُوٓا۟ ءَايَـٰتِى وَرُسُلِى هُزُوًا",
+   "text_imlaei": "ذَٰلِكَ جَزَاؤُهُمْ جَهَنَّمُ بِمَا كَفَرُوا وَاتَّخَذُوا آيَاتِي وَرُسُلِي هُزُوًا",
+   "page_number": 304,
+   "juz_number": 16,
+   "words": [
+    {
+     "id": 72941,
+     "position": 1,
+     "audio_url": "wbw/018_106_001.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "ذَٰلِكَ",
+     "location": "18:106:1",
+     "page_number": 304,
+     "line_number": 9,
+     "text": "ذَٰلِكَ",
+     "translation": {
+      "text": "That",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "dhālika",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 72942,
+     "position": 2,
+     "audio_url": "wbw/018_106_002.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "جَزَآؤُهُمْ",
+     "location": "18:106:2",
+     "page_number": 304,
+     "line_number": 9,
+     "text": "جَزَآؤُهُمْ",
+     "translation": {
+      "text": "(is) their recompense ",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "jazāuhum",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 72943,
+     "position": 3,
+     "audio_url": "wbw/018_106_003.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "جَهَنَّمُ",
+     "location": "18:106:3",
+     "page_number": 304,
+     "line_number": 10,
+     "text": "جَهَنَّمُ",
+     "translation": {
+      "text": "Hell ",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "jahannamu",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 72944,
+     "position": 4,
+     "audio_url": "wbw/018_106_004.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "بِمَا",
+     "location": "18:106:4",
+     "page_number": 304,
+     "line_number": 10,
+     "text": "بِمَا",
+     "translation": {
+      "text": "because",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "bimā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 72945,
+     "position": 5,
+     "audio_url": "wbw/018_106_005.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "كَفَرُوا۟",
+     "location": "18:106:5",
+     "page_number": 304,
+     "line_number": 10,
+     "text": "كَفَرُوا۟",
+     "translation": {
+      "text": "they disbelieved",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "kafarū",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 72946,
+     "position": 6,
+     "audio_url": "wbw/018_106_006.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "وَٱتَّخَذُوٓا۟",
+     "location": "18:106:6",
+     "page_number": 304,
+     "line_number": 10,
+     "text": "وَٱتَّخَذُوٓا۟",
+     "translation": {
+      "text": "and took",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "wa-ittakhadhū",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 72947,
+     "position": 7,
+     "audio_url": "wbw/018_106_007.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "ءَايَـٰتِى",
+     "location": "18:106:7",
+     "page_number": 304,
+     "line_number": 10,
+     "text": "ءَايَـٰتِى",
+     "translation": {
+      "text": "My Verses",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "āyātī",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 72948,
+     "position": 8,
+     "audio_url": "wbw/018_106_008.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "وَرُسُلِى",
+     "location": "18:106:8",
+     "page_number": 304,
+     "line_number": 10,
+     "text": "وَرُسُلِى",
+     "translation": {
+      "text": "and My Messengers",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "warusulī",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 72949,
+     "position": 9,
+     "audio_url": "wbw/018_106_009.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "هُزُوًا",
+     "location": "18:106:9",
+     "page_number": 304,
+     "line_number": 10,
+     "text": "هُزُوًا",
+     "translation": {
+      "text": "(in) ridicule",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "huzuwan",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 72950,
+     "position": 10,
+     "audio_url": null,
+     "char_type_name": "end",
+     "text_uthmani": "١٠٦",
+     "location": "18:106:10",
+     "page_number": 304,
+     "line_number": 10,
+     "text": "١٠٦",
+     "translation": {
+      "text": "(106)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": null,
+      "language_name": "english"
+     }
+    }
+   ],
+   "translations": [
+    {
+     "id": 97053,
+     "resource_id": 20,
+     "text": "That is their recompense - Hell - for what they denied and [because] they took My signs and My messengers in ridicule."
+    }
+   ]
+  },
+  {
+   "id": 2247,
+   "verse_number": 107,
+   "verse_key": "18:107",
+   "hizb_number": 31,
+   "rub_el_hizb_number": 122,
+   "ruku_number": 263,
+   "manzil_number": 4,
+   "sajdah_number": null,
+   "text_uthmani": "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ كَانَتْ لَهُمْ جَنَّـٰتُ ٱلْفِرْدَوْسِ نُزُلًا",
+   "text_imlaei": "إِنَّ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ كَانَتْ لَهُمْ جَنَّاتُ الْفِرْدَوْسِ نُزُلًا",
+   "page_number": 304,
+   "juz_number": 16,
+   "words": [
+    {
+     "id": 73336,
+     "position": 1,
+     "audio_url": "wbw/018_107_001.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "إِنَّ",
+     "location": "18:107:1",
+     "page_number": 304,
+     "line_number": 10,
+     "text": "إِنَّ",
+     "translation": {
+      "text": "Indeed",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "inna",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 73337,
+     "position": 2,
+     "audio_url": "wbw/018_107_002.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "ٱلَّذِينَ",
+     "location": "18:107:2",
+     "page_number": 304,
+     "line_number": 10,
+     "text": "ٱلَّذِينَ",
+     "translation": {
+      "text": "those who",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "alladhīna",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 73338,
+     "position": 3,
+     "audio_url": "wbw/018_107_003.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "ءَامَنُوا۟",
+     "location": "18:107:3",
+     "page_number": 304,
+     "line_number": 10,
+     "text": "ءَامَنُوا۟",
+     "translation": {
+      "text": "believed",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "āmanū",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 73339,
+     "position": 4,
+     "audio_url": "wbw/018_107_004.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "وَعَمِلُوا۟",
+     "location": "18:107:4",
+     "page_number": 304,
+     "line_number": 11,
+     "text": "وَعَمِلُوا۟",
+     "translation": {
+      "text": "and did",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "waʿamilū",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 73340,
+     "position": 5,
+     "audio_url": "wbw/018_107_005.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "ٱلصَّـٰلِحَـٰتِ",
+     "location": "18:107:5",
+     "page_number": 304,
+     "line_number": 11,
+     "text": "ٱلصَّـٰلِحَـٰتِ",
+     "translation": {
+      "text": "righteous deeds",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "l-ṣāliḥāti",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 73341,
+     "position": 6,
+     "audio_url": "wbw/018_107_006.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "كَانَتْ",
+     "location": "18:107:6",
+     "page_number": 304,
+     "line_number": 11,
+     "text": "كَانَتْ",
+     "translation": {
+      "text": "for them will be",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "kānat",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 73342,
+     "position": 7,
+     "audio_url": "wbw/018_107_007.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "لَهُمْ",
+     "location": "18:107:7",
+     "page_number": 304,
+     "line_number": 11,
+     "text": "لَهُمْ",
+     "translation": {
+      "text": "for them will be",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "lahum",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 73343,
+     "position": 8,
+     "audio_url": "wbw/018_107_008.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "جَنَّـٰتُ",
+     "location": "18:107:8",
+     "page_number": 304,
+     "line_number": 11,
+     "text": "جَنَّـٰتُ",
+     "translation": {
+      "text": "Gardens",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "jannātu",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 73344,
+     "position": 9,
+     "audio_url": "wbw/018_107_009.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "ٱلْفِرْدَوْسِ",
+     "location": "18:107:9",
+     "page_number": 304,
+     "line_number": 11,
+     "text": "ٱلْفِرْدَوْسِ",
+     "translation": {
+      "text": "(of) the Paradise",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "l-fir'dawsi",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 73345,
+     "position": 10,
+     "audio_url": "wbw/018_107_010.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "نُزُلًا",
+     "location": "18:107:10",
+     "page_number": 304,
+     "line_number": 11,
+     "text": "نُزُلًا",
+     "translation": {
+      "text": "(as) a lodging",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "nuzulan",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 73346,
+     "position": 11,
+     "audio_url": null,
+     "char_type_name": "end",
+     "text_uthmani": "١٠٧",
+     "location": "18:107:11",
+     "page_number": 304,
+     "line_number": 11,
+     "text": "١٠٧",
+     "translation": {
+      "text": "(107)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": null,
+      "language_name": "english"
+     }
+    }
+   ],
+   "translations": [
+    {
+     "id": 97054,
+     "resource_id": 20,
+     "text": "Indeed, those who have believed and done righteous deeds - they will have the Gardens of Paradise<sup foot_note=196715>1</sup> as a lodging,"
+    }
+   ]
+  },
+  {
+   "id": 2248,
+   "verse_number": 108,
+   "verse_key": "18:108",
+   "hizb_number": 31,
+   "rub_el_hizb_number": 122,
+   "ruku_number": 263,
+   "manzil_number": 4,
+   "sajdah_number": null,
+   "text_uthmani": "خَـٰلِدِينَ فِيهَا لَا يَبْغُونَ عَنْهَا حِوَلًا",
+   "text_imlaei": "خَالِدِينَ فِيهَا لَا يَبْغُونَ عَنْهَا حِوَلًا",
+   "page_number": 304,
+   "juz_number": 16,
+   "words": [
+    {
+     "id": 73656,
+     "position": 1,
+     "audio_url": "wbw/018_108_001.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "خَـٰلِدِينَ",
+     "location": "18:108:1",
+     "page_number": 304,
+     "line_number": 11,
+     "text": "خَـٰلِدِينَ",
+     "translation": {
+      "text": "Abiding forever",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "khālidīna",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 73657,
+     "position": 2,
+     "audio_url": "wbw/018_108_002.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "فِيهَا",
+     "location": "18:108:2",
+     "page_number": 304,
+     "line_number": 12,
+     "text": "فِيهَا",
+     "translation": {
+      "text": "in it",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "fīhā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 73658,
+     "position": 3,
+     "audio_url": "wbw/018_108_003.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "لَا",
+     "location": "18:108:3",
+     "page_number": 304,
+     "line_number": 12,
+     "text": "لَا",
+     "translation": {
+      "text": "Not",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "lā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 73659,
+     "position": 4,
+     "audio_url": "wbw/018_108_004.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "يَبْغُونَ",
+     "location": "18:108:4",
+     "page_number": 304,
+     "line_number": 12,
+     "text": "يَبْغُونَ",
+     "translation": {
+      "text": "they will desire",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "yabghūna",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 73660,
+     "position": 5,
+     "audio_url": "wbw/018_108_005.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "عَنْهَا",
+     "location": "18:108:5",
+     "page_number": 304,
+     "line_number": 12,
+     "text": "عَنْهَا",
+     "translation": {
+      "text": "from it",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "ʿanhā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 73661,
+     "position": 6,
+     "audio_url": "wbw/018_108_006.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "حِوَلًۭا",
+     "location": "18:108:6",
+     "page_number": 304,
+     "line_number": 12,
+     "text": "حِوَلًۭا",
+     "translation": {
+      "text": "any transfer",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "ḥiwalan",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 73662,
+     "position": 7,
+     "audio_url": null,
+     "char_type_name": "end",
+     "text_uthmani": "١٠٨",
+     "location": "18:108:7",
+     "page_number": 304,
+     "line_number": 12,
+     "text": "١٠٨",
+     "translation": {
+      "text": "(108)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": null,
+      "language_name": "english"
+     }
+    }
+   ],
+   "translations": [
+    {
+     "id": 97055,
+     "resource_id": 20,
+     "text": "Wherein they abide eternally. They will not desire from it any transfer."
+    }
+   ]
+  }
+ ],
+ "tafsirs": {
+  "16": {
+   "18:103": {
+    "verses": {
+     "18:103": {
+      "id": 2243
+     }
+    },
+    "resource_id": 16,
+    "resource_name": "المیسر",
+    "language_id": 9,
+    "slug": "ar-tafsir-muyassar",
+    "translated_name": {
+     "name": "Tafsir Muyassar",
+     "language_name": "english"
+    },
+    "text": "قل -أيها الرسول-<span class=\"blue\"> للناس محذرًا:</span> هل نُخبركم بأخسر الناس أعمالا؟"
+   },
+   "18:104": {
+    "verses": {
+     "18:104": {
+      "id": 2244
+     }
+    },
+    "resource_id": 16,
+    "resource_name": "المیسر",
+    "language_id": 9,
+    "slug": "ar-tafsir-muyassar",
+    "translated_name": {
+     "name": "Tafsir Muyassar",
+     "language_name": "english"
+    },
+    "text": "إنهم الذين ضلَّ عملهم في الحياة الدنيا -وهم مشركو قومك وغيرهم ممن ضلَّ سواء السبيل، فلم يكن على هدى ولا صواب- وهم يظنون أنهم محسنون في أعمالهم."
+   },
+   "18:105": {
+    "verses": {
+     "18:105": {
+      "id": 2245
+     }
+    },
+    "resource_id": 16,
+    "resource_name": "المیسر",
+    "language_id": 9,
+    "slug": "ar-tafsir-muyassar",
+    "translated_name": {
+     "name": "Tafsir Muyassar",
+     "language_name": "english"
+    },
+    "text": "أولئك الأخسرون أعمالا هم الذين جحدوا بآيات ربهم وكذَّبوا بها، وأنكروا لقاءه يوم القيامة، فبطلت أعمالهم؛ بسبب كفرهم، فلا نقيم لهم يوم القيامة قدرًا."
+   },
+   "18:106": {
+    "verses": {
+     "18:106": {
+      "id": 2246
+     }
+    },
+    "resource_id": 16,
+    "resource_name": "المیسر",
+    "language_id": 9,
+    "slug": "ar-tafsir-muyassar",
+    "translated_name": {
+     "name": "Tafsir Muyassar",
+     "language_name": "english"
+    },
+    "text": "ذلك الجزاء المعد لهم لحبوط أعمالهم هو نار جهنم؛ بسبب كفرهم بالله واتخاذهم آياته وحجج رسله استهزاءً وسخرية."
+   },
+   "18:107": {
+    "verses": {
+     "18:107": {
+      "id": 2247
+     }
+    },
+    "resource_id": 16,
+    "resource_name": "المیسر",
+    "language_id": 9,
+    "slug": "ar-tafsir-muyassar",
+    "translated_name": {
+     "name": "Tafsir Muyassar",
+     "language_name": "english"
+    },
+    "text": "إن الذين آمنوا بي، وصدَّقوا رسلي، وعملوا الصالحات، لهم أعلى منازل الجنة وأوسطها، وهي أفضلها منزلاً."
+   },
+   "18:108": {
+    "verses": {
+     "18:108": {
+      "id": 2248
+     }
+    },
+    "resource_id": 16,
+    "resource_name": "المیسر",
+    "language_id": 9,
+    "slug": "ar-tafsir-muyassar",
+    "translated_name": {
+     "name": "Tafsir Muyassar",
+     "language_name": "english"
+    },
+    "text": "خالدين فيها أبدًا، لا يريدون عنها تحوُّلا؛ لرغبتهم فيها وحبهم لها."
+   }
+  },
+  "91": {
+   "18:103": {
+    "verses": {
+     "18:103": {
+      "id": 2243
+     }
+    },
+    "resource_id": 91,
+    "resource_name": "Arabic Saddi Tafseer",
+    "language_id": 9,
+    "slug": "ar-tafseer-al-saddi",
+    "translated_name": {
+     "name": "السعدي Al-Sa'di",
+     "language_name": "english"
+    },
+    "text": "<span class=\"blue\">أي:</span> قل يا محمد، للناس -على وجه التحذير والإنذار-: هل أخبركم بأخسر الناس أعمالا على الإطلاق؟"
+   },
+   "18:104": {
+    "verses": {
+     "18:104": {
+      "id": 2244
+     }
+    },
+    "resource_id": 91,
+    "resource_name": "Arabic Saddi Tafseer",
+    "language_id": 9,
+    "slug": "ar-tafseer-al-saddi",
+    "translated_name": {
+     "name": "السعدي Al-Sa'di",
+     "language_name": "english"
+    },
+    "text": "<span class=\"arabic qpc-hafs brown\">{ الَّذِينَ ضَلَّ سَعْيُهُمْ فِي الْحَيَاةِ الدُّنْيَا ْ}</span> أي: بطل واضمحل كل ما عملوه من عمل، يحسبون أنهم محسنون في صنعه، فكيف بأعمالهم التي يعلمون أنها باطلة، وأنها محادة لله ورسله ومعاداة؟"
+   },
+   "18:105": {
+    "verses": {
+     "18:105": {
+      "id": 2245
+     }
+    },
+    "resource_id": 91,
+    "resource_name": "Arabic Saddi Tafseer",
+    "language_id": 9,
+    "slug": "ar-tafseer-al-saddi",
+    "translated_name": {
+     "name": "السعدي Al-Sa'di",
+     "language_name": "english"
+    },
+    "text": "<span class=\"arabic qpc-hafs brown\">{ أُولَئِكَ الَّذِينَ كَفَرُوا بِآيَاتِ رَبِّهِمْ وَلِقَائِهِ ْ}</span> أي: جحدوا الآيات القرآنية والآيات العيانية، الدالة على وجوب الإيمان به، وملائكته، ورسله، وكتبه، واليوم الآخر.<span class=\"arabic qpc-hafs brown\">{ فَحَبِطَتْ ْ}</span> بسبب ذلك <span class=\"arabic qpc-hafs brown\">{ أَعْمَالُهُمْ فَلَا نُقِيمُ لَهُمْ يَوْمَ الْقِيَامَةِ وَزْنًا ْ}</span> لأن الوزن فائدته، مقابلة الحسنات بالسيئات، والنظر في الراجح منها والمرجوح، وهؤلاء لا حسنات لهم لعدم شرطها، وهو الإيمان، كما قال تعالى <span class=\"arabic qpc-hafs brown\">{ وَمَنْ يَعْمَلْ مِنَ الصَّالِحَاتِ وَهُوَ مُؤْمِنٌ فَلَا يَخَافُ ظُلْمًا وَلَا هَضْمًا ْ}</span> لكن تعد أعمالهم وتحصى، ويقررون بها، ويخزون بها على رءوس الأشهاد، ثم يعذبون عليها"
+   },
+   "18:106": {
+    "verses": {
+     "18:106": {
+      "id": 2246
+     }
+    },
+    "resource_id": 91,
+    "resource_name": "Arabic Saddi Tafseer",
+    "language_id": 9,
+    "slug": "ar-tafseer-al-saddi",
+    "translated_name": {
+     "name": "السعدي Al-Sa'di",
+     "language_name": "english"
+    },
+    "text": "<span class=\"arabic qpc-hafs brown\">{ ذَلِكَ جَزَاؤُهُمْ ْ}</span> أي: حبوط أعمالهم، وأنه لا يقام لهم يوم القيامة، <span class=\"arabic qpc-hafs brown\">{ وَزْنًا ْ}</span> لحقارتهم وخستهم، بكفرهم بآيات الله، واتخاذهم آياته ورسله، هزوا يستهزئون بها، ويسخرون  منها، مع أن الواجب في آيات الله ورسله، الإيمان التام بها، والتعظيم لها، والقيام بها أتم القيام، وهؤلاء عكسوا القضية، فانعكس أمرهم، وتعسوا، وانتكسوا في العذاب. ولما بين مآل الكافرين وأعمالهم، بين أعمال المؤمنين ومآلهم"
+   },
+   "18:107": {
+    "verses": {
+     "18:107": {
+      "id": 2247
+     }
+    },
+    "resource_id": 91,
+    "resource_name": "Arabic Saddi Tafseer",
+    "language_id": 9,
+    "slug": "ar-tafseer-al-saddi",
+    "translated_name": {
+     "name": "السعدي Al-Sa'di",
+     "language_name": "english"
+    },
+    "text": "<span class=\"blue\">أي:</span> إن الذين آمنوا بقلوبهم، وعملوا الصالحات بجوارحهم، وشمل هذا الوصف جميع الدين، عقائده، وأعماله، أصوله، وفروعه الظاهرة، والباطنة، فهؤلاء -على اختلاف طبقاتهم من الإيمان والعمل الصالح -لهم جنات الفردوس. يحتمل أن المراد بجنات الفردوس، أعلى الجنة، وأوسطها، وأفضلها، وأن هذا الثواب، لمن كمل فيه الإيمان والعمل الصالح، والأنبياء والمقربون. ويحتمل أن يراد بها، جميع منازل الجنان، فيشمل هذا الثواب، جميع طبقات أهل الإيمان، من المقربين، والأبرار، والمقتصدين، كل بحسب حاله، وهذا أولى المعنيين لعمومه، ولذكر الجنة بلفظ الجمع المضاف إلى الفردوس، ولأن الفردوس يطلق على البستان، المحتوي على الكرم، أو الأشجار الملتفة، وهذا صادق على جميع الجنة، فجنة الفردوس نزل، وضيافة لأهل الإيمان والعمل الصالح،<span class=\"blue\"> وأي:</span> ضيافة أجل وأكبر، وأعظم من هذه الضيافة، المحتوية على كل نعيم، للقلوب، والأرواح، والأبدان، وفيها ما تشتهيه الأنفس. وتلذ الأعين، من المنازل الأنيقة، والرياض الناضرة، والأشجار المثمرة،. والطيور المغردة المشجية، والمآكل اللذيذة، والمشارب الشهية، والنساء الحسان، والخدم، والولدان، والأنهار السارحة، والمناظر الرائقة، والجمال الحسي والمعنوي، والنعمة الدائمة، وأعلى ذلك وأفضله وأجله، التنعم بالقرب من الرحمن ونيل رضاه، الذي هو أكبر نعيم الجنان، والتمتع برؤية وجهه الكريم، وسماع كلام الرءوف الرحيم، فلله تلك الضيافة، ما أجلها وأجملها، وأدومها وأكملها\\\"، وهي أعظم من أن يحيط بها وصف أحد من الخلائق، أو تخطر على القلوب، فلو علم العباد بعض ذلك النعيم علما حقيقيا يصل إلى قلوبهم، لطارت إليها قلوبهم بالأشواق، ولتقطعت أرواحهم من ألم الفراق، ولساروا إليها زرافات ووحدانا، ولم يؤثروا عليها دنيا فانية، ولذات منغصة متلاشية، ولم يفوتوا أوقاتا تذهب ضائعة خاسرة، يقابل كل لحظة منها من النعيم من الحقب آلاف مؤلفة، ولكن الغفلة شملت، والإيمان ضعف، والعلم قل، والإرادة نفذت  فكان، ما كان، فلا حول ولا قوة إلا بالله العلي العظيم."
+   },
+   "18:108": {
+    "verses": {
+     "18:108": {
+      "id": 2248
+     }
+    },
+    "resource_id": 91,
+    "resource_name": "Arabic Saddi Tafseer",
+    "language_id": 9,
+    "slug": "ar-tafseer-al-saddi",
+    "translated_name": {
+     "name": "السعدي Al-Sa'di",
+     "language_name": "english"
+    },
+    "text": "<span class=\"arabic qpc-hafs brown\">{ خَالِدِينَ فِيهَا ْ}</span> هذا هو تمام النعيم، إن فيها النعيم الكامل، ومن تمامه أنه لا ينقطع <span class=\"arabic qpc-hafs brown\">{ لَا يَبْغُونَ عَنْهَا حِوَلًا ْ}</span> أي: تحولا ولا انتقالا، لأنهم لا يرون إلا ما يعجبهم ويبهجهم، ويسرهم ويفرحهم، ولا يرون نعيما فوق ما هم فيه."
+   }
+  }
+ },
+ "recitation": {
+  "id": 18389,
+  "chapter_id": 18,
+  "file_size": 27904724.0,
+  "format": "mp3",
+  "audio_url": "https://download.quranicaudio.com/quran/yasser_ad-dussary//018.mp3",
+  "timestamps": [
+   {
+    "verse_key": "18:103",
+    "timestamp_from": 1631580,
+    "timestamp_to": 1637920,
+    "duration": 6340,
+    "segments": [
+     [
+      1,
+      1631580,
+      1632350
+     ],
+     [
+      2,
+      1632350,
+      1632710
+     ],
+     [
+      3,
+      1632710,
+      1634770
+     ],
+     [
+      4,
+      1634770,
+      1636170
+     ],
+     [
+      5,
+      1636170,
+      1637920
+     ]
+    ]
+   },
+   {
+    "verse_key": "18:104",
+    "timestamp_from": 1638060,
+    "timestamp_to": 1647070,
+    "duration": 9010,
+    "segments": [
+     [
+      1,
+      1637960,
+      1638820
+     ],
+     [
+      2,
+      1638820,
+      1639370
+     ],
+     [
+      3,
+      1639370,
+      1640240
+     ],
+     [
+      4,
+      1640240,
+      1640470
+     ],
+     [
+      5,
+      1640470,
+      1641370
+     ],
+     [
+      6,
+      1641370,
+      1642240
+     ],
+     [
+      7,
+      1642240,
+      1642820
+     ],
+     [
+      8,
+      1642820,
+      1643900
+     ],
+     [
+      9,
+      1643900,
+      1645180
+     ],
+     [
+      10,
+      1645180,
+      1646260
+     ],
+     [
+      11,
+      1646260,
+      1647070
+     ]
+    ]
+   },
+   {
+    "verse_key": "18:105",
+    "timestamp_from": 1647250,
+    "timestamp_to": 1662290,
+    "duration": 15040,
+    "segments": [
+     [
+      1,
+      1647450,
+      1649480
+     ],
+     [
+      2,
+      1649620,
+      1650430
+     ],
+     [
+      3,
+      1650430,
+      1651170
+     ],
+     [
+      4,
+      1651170,
+      1652270
+     ],
+     [
+      5,
+      1652270,
+      1653060
+     ],
+     [
+      6,
+      1653060,
+      1655840
+     ],
+     [
+      7,
+      1655840,
+      1656820
+     ],
+     [
+      8,
+      1656820,
+      1658060
+     ],
+     [
+      9,
+      1658060,
+      1658660
+     ],
+     [
+      10,
+      1658660,
+      1659420
+     ],
+     [
+      11,
+      1659420,
+      1659890
+     ],
+     [
+      12,
+      1660050,
+      1660470
+     ],
+     [
+      13,
+      1660470,
+      1661620
+     ],
+     [
+      14,
+      1661620,
+      1662290
+     ]
+    ]
+   },
+   {
+    "verse_key": "18:106",
+    "timestamp_from": 1662470,
+    "timestamp_to": 1674710,
+    "duration": 12240,
+    "segments": [
+     [
+      1,
+      1662470,
+      1663610
+     ],
+     [
+      2,
+      1663730,
+      1666070
+     ],
+     [
+      3,
+      1666070,
+      1668570
+     ],
+     [
+      4,
+      1668570,
+      1669140
+     ],
+     [
+      5,
+      1669140,
+      1669900
+     ],
+     [
+      6,
+      1669900,
+      1671680
+     ],
+     [
+      7,
+      1671680,
+      1672810
+     ],
+     [
+      8,
+      1672810,
+      1673580
+     ],
+     [
+      9,
+      1673720,
+      1674660
+     ]
+    ]
+   },
+   {
+    "verse_key": "18:107",
+    "timestamp_from": 1674840,
+    "timestamp_to": 1685130,
+    "duration": 10290,
+    "segments": [
+     [
+      1,
+      1674840,
+      1676120
+     ],
+     [
+      2,
+      1676180,
+      1676990
+     ],
+     [
+      3,
+      1676990,
+      1677890
+     ],
+     [
+      4,
+      1677890,
+      1678600
+     ],
+     [
+      5,
+      1678600,
+      1679810
+     ],
+     [
+      6,
+      1679910,
+      1680630
+     ],
+     [
+      7,
+      1680630,
+      1681160
+     ],
+     [
+      8,
+      1681160,
+      1683080
+     ],
+     [
+      9,
+      1683080,
+      1684150
+     ],
+     [
+      10,
+      1684150,
+      1685130
+     ]
+    ]
+   },
+   {
+    "verse_key": "18:108",
+    "timestamp_from": 1685330,
+    "timestamp_to": 1689910,
+    "duration": 4580,
+    "segments": [
+     [
+      1,
+      1685330,
+      1686440
+     ],
+     [
+      2,
+      1686440,
+      1687190
+     ],
+     [
+      3,
+      1687190,
+      1687540
+     ],
+     [
+      4,
+      1687540,
+      1688450
+     ],
+     [
+      5,
+      1688450,
+      1689040
+     ],
+     [
+      6,
+      1689200,
+      1689910
+     ]
+    ]
+   }
+  ],
+  "neighbors": {
+   "prev_end": 1631470,
+   "next_start": 1689940
+  },
+  "local_file": "../_audio/chapter_018_rec97.mp3"
+ },
+ "reciter_ar": {
+  "id": 97,
+  "name": "Yasser ad-Dussary",
+  "style": {
+   "name": "Murattal",
+   "language_name": "english"
+  },
+  "qirat": {
+   "name": "Hafs",
+   "language_name": "english"
+  },
+  "translated_name": {
+   "name": "Yasser ad-Dussary",
+   "language_name": "english"
+  }
+ },
+ "reciter_en": {
+  "id": 97,
+  "name": "Yasser ad-Dussary",
+  "style": {
+   "name": "Murattal",
+   "language_name": "english"
+  },
+  "qirat": {
+   "name": "Hafs",
+   "language_name": "english"
+  },
+  "translated_name": {
+   "name": "Yasser ad-Dussary",
+   "language_name": "english"
+  }
+ }
+}

@@ -1,0 +1,854 @@
+{
+ "fps": 30,
+ "W": 1080,
+ "H": 1920,
+ "duration": 56.16,
+ "intro": 2.4,
+ "outro_start": 51.96,
+ "surah": {
+  "name_ar": "الكهف",
+  "name_en": "Al-Kahf",
+  "number": 18,
+  "from_ar": "١",
+  "to_ar": "٥",
+  "from": 1,
+  "to": 5
+ },
+ "credits": {
+  "reciter_ar": "ياسر الدوسري",
+  "reciter_en": "Yasser ad-Dussary",
+  "translation_en": "Translation: Saheeh International",
+  "data_en": "Text, audio timings & tafsir: Quran Foundation (quran.com)"
+ },
+ "cover": {
+  "dur": 1.0,
+  "t": 8.91,
+  "series_ar": "افتتاح السورة",
+  "series_en": "Opening of the surah",
+  "title_ar": "الكتاب والإنذار",
+  "title_en": "The Book that warns"
+ },
+ "chapters": [
+  {
+   "id": "c1",
+   "title": "نعمة إنزال الكتاب",
+   "scene": "ambient",
+   "params": {
+    "mood": "dawn",
+    "beats": [
+     {
+      "at": [
+       1,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       1,
+       4
+      ],
+      "do": "clouds_part"
+     },
+     {
+      "at": [
+       1,
+       7
+      ],
+      "do": "sparkle",
+      "who": "light"
+     },
+     {
+      "at": [
+       1,
+       11
+      ],
+      "do": "light_up"
+     }
+    ]
+   },
+   "bg": "#f1e6d6",
+   "verses": [
+    1
+   ],
+   "start": 0.0,
+   "end": 12.17
+  },
+  {
+   "id": "c2",
+   "title": "إنذار وبشارة",
+   "scene": "ambient",
+   "params": {
+    "mood": "light",
+    "beats": [
+     {
+      "at": [
+       2,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       2,
+       3
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       2,
+       7
+      ],
+      "do": "light_up"
+     },
+     {
+      "at": [
+       2,
+       10
+      ],
+      "do": "shot_close",
+      "who": "light"
+     },
+     {
+      "at": [
+       2,
+       14
+      ],
+      "do": "sparkle",
+      "who": "light"
+     },
+     {
+      "at": [
+       3,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       3,
+       3
+      ],
+      "do": "light_up"
+     }
+    ]
+   },
+   "bg": "#f2ecdf",
+   "verses": [
+    2,
+    3
+   ],
+   "start": 12.17,
+   "end": 30.13
+  },
+  {
+   "id": "c3",
+   "title": "قول بلا علم",
+   "scene": "ambient",
+   "params": {
+    "mood": "geometric",
+    "beats": [
+     {
+      "at": [
+       4,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       4,
+       3
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       5,
+       1
+      ],
+      "do": "pattern_turn"
+     },
+     {
+      "at": [
+       5,
+       5
+      ],
+      "do": "shot_close",
+      "who": "center"
+     },
+     {
+      "at": [
+       5,
+       8
+      ],
+      "do": "pattern_turn"
+     },
+     {
+      "at": [
+       5,
+       12
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       5,
+       16
+      ],
+      "do": "shot_wide"
+     }
+    ]
+   },
+   "bg": "#ece6da",
+   "verses": [
+    4,
+    5
+   ],
+   "start": 30.13,
+   "end": 56.16
+  }
+ ],
+ "verses": [
+  {
+   "n": 1,
+   "key": "18:1",
+   "num_ar": "١",
+   "words": [
+    {
+     "pos": 1,
+     "text": "ٱلْحَمْدُ"
+    },
+    {
+     "pos": 2,
+     "text": "لِلَّهِ"
+    },
+    {
+     "pos": 3,
+     "text": "ٱلَّذِىٓ"
+    },
+    {
+     "pos": 4,
+     "text": "أَنزَلَ"
+    },
+    {
+     "pos": 5,
+     "text": "عَلَىٰ"
+    },
+    {
+     "pos": 6,
+     "text": "عَبْدِهِ"
+    },
+    {
+     "pos": 7,
+     "text": "ٱلْكِتَـٰبَ"
+    },
+    {
+     "pos": 8,
+     "text": "وَلَمْ"
+    },
+    {
+     "pos": 9,
+     "text": "يَجْعَل"
+    },
+    {
+     "pos": 10,
+     "text": "لَّهُۥ"
+    },
+    {
+     "pos": 11,
+     "text": "عِوَجَاۜ"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     2.66,
+     3.4
+    ],
+    [
+     2,
+     3.4,
+     4.28
+    ],
+    [
+     3,
+     4.3,
+     5.97
+    ],
+    [
+     4,
+     5.97,
+     7.02
+    ],
+    [
+     5,
+     7.02,
+     7.54
+    ],
+    [
+     6,
+     7.54,
+     8.31
+    ],
+    [
+     7,
+     8.31,
+     9.23
+    ],
+    [
+     8,
+     9.23,
+     9.72
+    ],
+    [
+     9,
+     9.72,
+     10.46
+    ],
+    [
+     10,
+     10.46,
+     11.0
+    ],
+    [
+     11,
+     11.0,
+     12.15
+    ]
+   ],
+   "start": 2.46,
+   "first_word": 2.66,
+   "last_word": 12.15,
+   "translation": "[All] praise is [due] to Allāh, who has sent down upon His Servant [Muḥammad (ﷺ)] the Book and has not made therein any deviance.",
+   "glosses": [
+    {
+     "w0": 6,
+     "w1": 7,
+     "chip": "عَبْدِهِ ٱلْكِتَـٰبَ",
+     "excerpt": "ورسوله محمد صلى الله عليه وسلم القرآن",
+     "source": "التفسير الميسر",
+     "target": "center",
+     "tone": "blue",
+     "start": 7.54,
+     "end": 12.07
+    }
+   ],
+   "end": 12.17
+  },
+  {
+   "n": 2,
+   "key": "18:2",
+   "num_ar": "٢",
+   "words": [
+    {
+     "pos": 1,
+     "text": "قَيِّمًۭا"
+    },
+    {
+     "pos": 2,
+     "text": "لِّيُنذِرَ"
+    },
+    {
+     "pos": 3,
+     "text": "بَأْسًۭا"
+    },
+    {
+     "pos": 4,
+     "text": "شَدِيدًۭا"
+    },
+    {
+     "pos": 5,
+     "text": "مِّن"
+    },
+    {
+     "pos": 6,
+     "text": "لَّدُنْهُ"
+    },
+    {
+     "pos": 7,
+     "text": "وَيُبَشِّرَ"
+    },
+    {
+     "pos": 8,
+     "text": "ٱلْمُؤْمِنِينَ"
+    },
+    {
+     "pos": 9,
+     "text": "ٱلَّذِينَ"
+    },
+    {
+     "pos": 10,
+     "text": "يَعْمَلُونَ"
+    },
+    {
+     "pos": 11,
+     "text": "ٱلصَّـٰلِحَـٰتِ"
+    },
+    {
+     "pos": 12,
+     "text": "أَنَّ"
+    },
+    {
+     "pos": 13,
+     "text": "لَهُمْ"
+    },
+    {
+     "pos": 14,
+     "text": "أَجْرًا"
+    },
+    {
+     "pos": 15,
+     "text": "حَسَنًۭا"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     12.17,
+     12.93
+    ],
+    [
+     2,
+     13.01,
+     14.37
+    ],
+    [
+     3,
+     14.37,
+     15.44
+    ],
+    [
+     4,
+     15.44,
+     17.0
+    ],
+    [
+     5,
+     17.0,
+     17.21
+    ],
+    [
+     6,
+     17.27,
+     18.43
+    ],
+    [
+     7,
+     18.43,
+     19.47
+    ],
+    [
+     8,
+     19.49,
+     20.7
+    ],
+    [
+     9,
+     20.74,
+     21.55
+    ],
+    [
+     10,
+     21.55,
+     22.62
+    ],
+    [
+     11,
+     22.62,
+     23.91
+    ],
+    [
+     12,
+     23.91,
+     24.74
+    ],
+    [
+     13,
+     24.74,
+     25.26
+    ],
+    [
+     14,
+     25.26,
+     26.0
+    ],
+    [
+     15,
+     26.0,
+     26.98
+    ]
+   ],
+   "start": 12.17,
+   "first_word": 12.17,
+   "last_word": 26.98,
+   "translation": "[He has made it] straight, to warn of severe punishment from Him and to give good tidings to the believers who do righteous deeds that they will have a good reward [i.e., Paradise].",
+   "glosses": [
+    {
+     "w0": 1,
+     "w1": 1,
+     "chip": "قَيِّمًۭا",
+     "excerpt": "كتابًا مستقيمًا، لا اختلاف فيه ولا تناقض",
+     "source": "التفسير الميسر",
+     "target": "center",
+     "tone": "blue",
+     "start": 12.17,
+     "end": 19.439999999999998
+    },
+    {
+     "w0": 8,
+     "w1": 8,
+     "chip": "ٱلْمُؤْمِنِينَ",
+     "excerpt": "المصدقين بالله ورسوله",
+     "source": "التفسير الميسر",
+     "target": null,
+     "tone": "green",
+     "start": 19.49,
+     "end": 23.86
+    },
+    {
+     "w0": 12,
+     "w1": 15,
+     "chip": "أَنَّ لَهُمْ أَجْرًا حَسَنًۭا",
+     "excerpt": "ثوابًا جزيلا هو الجنة",
+     "source": "التفسير الميسر",
+     "target": null,
+     "tone": "green",
+     "start": 23.91,
+     "end": 27.2
+    }
+   ],
+   "end": 27.3
+  },
+  {
+   "n": 3,
+   "key": "18:3",
+   "num_ar": "٣",
+   "words": [
+    {
+     "pos": 1,
+     "text": "مَّـٰكِثِينَ"
+    },
+    {
+     "pos": 2,
+     "text": "فِيهِ"
+    },
+    {
+     "pos": 3,
+     "text": "أَبَدًۭا"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     27.3,
+     28.43
+    ],
+    [
+     2,
+     28.43,
+     28.99
+    ],
+    [
+     3,
+     28.99,
+     29.97
+    ]
+   ],
+   "start": 27.3,
+   "first_word": 27.3,
+   "last_word": 29.97,
+   "translation": "In which they will remain forever",
+   "glosses": [],
+   "end": 30.13
+  },
+  {
+   "n": 4,
+   "key": "18:4",
+   "num_ar": "٤",
+   "words": [
+    {
+     "pos": 1,
+     "text": "وَيُنذِرَ"
+    },
+    {
+     "pos": 2,
+     "text": "ٱلَّذِينَ"
+    },
+    {
+     "pos": 3,
+     "text": "قَالُوا۟"
+    },
+    {
+     "pos": 4,
+     "text": "ٱتَّخَذَ"
+    },
+    {
+     "pos": 5,
+     "text": "ٱللَّهُ"
+    },
+    {
+     "pos": 6,
+     "text": "وَلَدًۭا"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     30.13,
+     31.67
+    ],
+    [
+     2,
+     31.71,
+     32.55
+    ],
+    [
+     3,
+     32.55,
+     33.13
+    ],
+    [
+     4,
+     33.13,
+     33.88
+    ],
+    [
+     5,
+     33.88,
+     34.61
+    ],
+    [
+     6,
+     34.61,
+     35.63
+    ]
+   ],
+   "start": 30.13,
+   "first_word": 30.13,
+   "last_word": 35.63,
+   "translation": "And to warn those who say, \"Allāh has taken a son\".",
+   "glosses": [
+    {
+     "w0": 2,
+     "w1": 3,
+     "chip": "ٱلَّذِينَ قَالُوا۟",
+     "excerpt": "وينذر به المشركين",
+     "source": "التفسير الميسر",
+     "target": null,
+     "tone": "red",
+     "start": 31.71,
+     "end": 35.73
+    }
+   ],
+   "end": 35.83
+  },
+  {
+   "n": 5,
+   "key": "18:5",
+   "num_ar": "٥",
+   "words": [
+    {
+     "pos": 1,
+     "text": "مَّا"
+    },
+    {
+     "pos": 2,
+     "text": "لَهُم"
+    },
+    {
+     "pos": 3,
+     "text": "بِهِۦ"
+    },
+    {
+     "pos": 4,
+     "text": "مِنْ"
+    },
+    {
+     "pos": 5,
+     "text": "عِلْمٍۢ"
+    },
+    {
+     "pos": 6,
+     "text": "وَلَا"
+    },
+    {
+     "pos": 7,
+     "text": "لِـَٔابَآئِهِمْ ۚ"
+    },
+    {
+     "pos": 8,
+     "text": "كَبُرَتْ"
+    },
+    {
+     "pos": 9,
+     "text": "كَلِمَةًۭ"
+    },
+    {
+     "pos": 10,
+     "text": "تَخْرُجُ"
+    },
+    {
+     "pos": 11,
+     "text": "مِنْ"
+    },
+    {
+     "pos": 12,
+     "text": "أَفْوَٰهِهِمْ ۚ"
+    },
+    {
+     "pos": 13,
+     "text": "إِن"
+    },
+    {
+     "pos": 14,
+     "text": "يَقُولُونَ"
+    },
+    {
+     "pos": 15,
+     "text": "إِلَّا"
+    },
+    {
+     "pos": 16,
+     "text": "كَذِبًۭا"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     35.83,
+     36.24
+    ],
+    [
+     2,
+     36.24,
+     37.89
+    ],
+    [
+     3,
+     37.89,
+     38.47
+    ],
+    [
+     4,
+     38.47,
+     38.83
+    ],
+    [
+     5,
+     38.83,
+     40.05
+    ],
+    [
+     6,
+     40.05,
+     40.6
+    ],
+    [
+     7,
+     40.6,
+     43.22
+    ],
+    [
+     8,
+     43.22,
+     44.24
+    ],
+    [
+     9,
+     44.24,
+     45.7
+    ],
+    [
+     10,
+     45.7,
+     46.47
+    ],
+    [
+     11,
+     46.47,
+     46.8
+    ],
+    [
+     12,
+     46.8,
+     48.08
+    ],
+    [
+     13,
+     48.08,
+     48.67
+    ],
+    [
+     14,
+     48.67,
+     49.79
+    ],
+    [
+     15,
+     49.79,
+     50.53
+    ],
+    [
+     16,
+     50.53,
+     51.56
+    ]
+   ],
+   "start": 35.83,
+   "first_word": 35.83,
+   "last_word": 51.56,
+   "translation": "They have no knowledge of it, nor had their fathers. Grave is the word that comes out of their mouths; they speak not except a lie.",
+   "glosses": [
+    {
+     "w0": 5,
+     "w1": 5,
+     "chip": "عِلْمٍۢ",
+     "excerpt": "ليس عند هؤلاء المشركين شيء من العلم",
+     "source": "التفسير الميسر",
+     "target": null,
+     "tone": "red",
+     "start": 38.83,
+     "end": 43.17
+    },
+    {
+     "w0": 8,
+     "w1": 9,
+     "chip": "كَبُرَتْ كَلِمَةًۭ",
+     "excerpt": "عَظُمت هذه المقالة الشنيعة",
+     "source": "التفسير الميسر",
+     "target": "center",
+     "tone": "red",
+     "start": 43.22,
+     "end": 52.059999999999995
+    }
+   ],
+   "end": 52.16
+  }
+ ],
+ "audio": {
+  "slice_start": 7.15,
+  "slice_end": 56.31,
+  "file": "audio_master.wav"
+ },
+ "timing_corrections": [],
+ "timing_flags": [],
+ "aligned_boundaries": [
+  {
+   "kind": "inside",
+   "after": 2,
+   "gap_s": [
+    31.51,
+    31.63
+   ],
+   "pause_s": [
+    31.73,
+    32.05
+   ],
+   "shift_s": 0.32,
+   "pause_db": -30.0,
+   "video_t": 27.3
+  }
+ ]
+}

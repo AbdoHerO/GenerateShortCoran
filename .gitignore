@@ -1,0 +1,8 @@
+.env
+.venv/
+node_modules/
+out/
+data/**/*.mp3
+data/**/*.part
+storyboard/*.candidate.json
+data/*/log.txt

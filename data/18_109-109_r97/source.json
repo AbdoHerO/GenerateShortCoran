@@ -1,0 +1,655 @@
+{
+ "meta": {
+  "source": "public",
+  "base": "https://api.quran.com/api/v4",
+  "fetched_at": "2026-11-19T22:17:00Z",
+  "chapter": 18,
+  "from": 109,
+  "to": 109,
+  "recitation_id": 97,
+  "translation_id": 20,
+  "tafsir_ids": [
+   16,
+   91
+  ]
+ },
+ "chapter": {
+  "id": 18,
+  "revelation_place": "makkah",
+  "revelation_order": 69,
+  "bismillah_pre": true,
+  "name_simple": "Al-Kahf",
+  "name_complex": "Al-Kahf",
+  "name_arabic": "الكهف",
+  "verses_count": 110,
+  "pages": [
+   293,
+   304
+  ],
+  "translated_name": {
+   "language_name": "english",
+   "name": "The Cave"
+  }
+ },
+ "chapter_en": {
+  "id": 18,
+  "revelation_place": "makkah",
+  "revelation_order": 69,
+  "bismillah_pre": true,
+  "name_simple": "Al-Kahf",
+  "name_complex": "Al-Kahf",
+  "name_arabic": "الكهف",
+  "verses_count": 110,
+  "pages": [
+   293,
+   304
+  ],
+  "translated_name": {
+   "language_name": "english",
+   "name": "The Cave"
+  }
+ },
+ "translation_resource": {
+  "id": 20,
+  "name": "Saheeh International",
+  "author_name": "Saheeh International",
+  "slug": "en-sahih-international",
+  "language_name": "english",
+  "translated_name": {
+   "name": "Saheeh International",
+   "language_name": "english"
+  }
+ },
+ "tafsir_resources": [
+  {
+   "id": 16,
+   "name": "Tafsir Muyassar",
+   "author_name": "المیسر",
+   "slug": "ar-tafsir-muyassar",
+   "language_name": "arabic",
+   "translated_name": {
+    "name": "Tafsir Muyassar",
+    "language_name": "english"
+   }
+  },
+  {
+   "id": 91,
+   "name": "السعدي Al-Sa'di",
+   "author_name": "Saddi",
+   "slug": "ar-tafseer-al-saddi",
+   "language_name": "arabic",
+   "translated_name": {
+    "name": "السعدي Al-Sa'di",
+    "language_name": "english"
+   }
+  }
+ ],
+ "verses": [
+  {
+   "id": 2249,
+   "verse_number": 109,
+   "verse_key": "18:109",
+   "hizb_number": 31,
+   "rub_el_hizb_number": 122,
+   "ruku_number": 263,
+   "manzil_number": 4,
+   "sajdah_number": null,
+   "text_uthmani": "قُل لَّوْ كَانَ ٱلْبَحْرُ مِدَادًا لِّكَلِمَـٰتِ رَبِّى لَنَفِدَ ٱلْبَحْرُ قَبْلَ أَن تَنفَدَ كَلِمَـٰتُ رَبِّى وَلَوْ جِئْنَا بِمِثْلِهِۦ مَدَدًا",
+   "text_imlaei": "قُل لَّوْ كَانَ الْبَحْرُ مِدَادًا لِّكَلِمَاتِ رَبِّي لَنَفِدَ الْبَحْرُ قَبْلَ أَن تَنفَدَ كَلِمَاتُ رَبِّي وَلَوْ جِئْنَا بِمِثْلِهِ مَدَدًا",
+   "page_number": 304,
+   "juz_number": 16,
+   "words": [
+    {
+     "id": 73885,
+     "position": 1,
+     "audio_url": "wbw/018_109_001.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "قُل",
+     "location": "18:109:1",
+     "page_number": 304,
+     "line_number": 12,
+     "text": "قُل",
+     "translation": {
+      "text": "Say",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "qul",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 73886,
+     "position": 2,
+     "audio_url": "wbw/018_109_002.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "لَّوْ",
+     "location": "18:109:2",
+     "page_number": 304,
+     "line_number": 12,
+     "text": "لَّوْ",
+     "translation": {
+      "text": "If",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "law",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 73887,
+     "position": 3,
+     "audio_url": "wbw/018_109_003.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "كَانَ",
+     "location": "18:109:3",
+     "page_number": 304,
+     "line_number": 12,
+     "text": "كَانَ",
+     "translation": {
+      "text": "were",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "kāna",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 73888,
+     "position": 4,
+     "audio_url": "wbw/018_109_004.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "ٱلْبَحْرُ",
+     "location": "18:109:4",
+     "page_number": 304,
+     "line_number": 12,
+     "text": "ٱلْبَحْرُ",
+     "translation": {
+      "text": "the sea",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "l-baḥru",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 73889,
+     "position": 5,
+     "audio_url": "wbw/018_109_005.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "مِدَادًۭا",
+     "location": "18:109:5",
+     "page_number": 304,
+     "line_number": 12,
+     "text": "مِدَادًۭا",
+     "translation": {
+      "text": "ink",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "midādan",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 73890,
+     "position": 6,
+     "audio_url": "wbw/018_109_006.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "لِّكَلِمَـٰتِ",
+     "location": "18:109:6",
+     "page_number": 304,
+     "line_number": 12,
+     "text": "لِّكَلِمَـٰتِ",
+     "translation": {
+      "text": "for (the) Words",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "likalimāti",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 73891,
+     "position": 7,
+     "audio_url": "wbw/018_109_007.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "رَبِّى",
+     "location": "18:109:7",
+     "page_number": 304,
+     "line_number": 12,
+     "text": "رَبِّى",
+     "translation": {
+      "text": "(of) my Lord",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "rabbī",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 73892,
+     "position": 8,
+     "audio_url": "wbw/018_109_008.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "لَنَفِدَ",
+     "location": "18:109:8",
+     "page_number": 304,
+     "line_number": 13,
+     "text": "لَنَفِدَ",
+     "translation": {
+      "text": "surely (would be) exhausted",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "lanafida",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 73893,
+     "position": 9,
+     "audio_url": "wbw/018_109_009.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "ٱلْبَحْرُ",
+     "location": "18:109:9",
+     "page_number": 304,
+     "line_number": 13,
+     "text": "ٱلْبَحْرُ",
+     "translation": {
+      "text": "the sea",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "l-baḥru",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 73894,
+     "position": 10,
+     "audio_url": "wbw/018_109_010.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "قَبْلَ",
+     "location": "18:109:10",
+     "page_number": 304,
+     "line_number": 13,
+     "text": "قَبْلَ",
+     "translation": {
+      "text": "before",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "qabla",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 73895,
+     "position": 11,
+     "audio_url": "wbw/018_109_011.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "أَن",
+     "location": "18:109:11",
+     "page_number": 304,
+     "line_number": 13,
+     "text": "أَن",
+     "translation": {
+      "text": "[that]",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "an",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 73896,
+     "position": 12,
+     "audio_url": "wbw/018_109_012.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "تَنفَدَ",
+     "location": "18:109:12",
+     "page_number": 304,
+     "line_number": 13,
+     "text": "تَنفَدَ",
+     "translation": {
+      "text": "(were) exhausted",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "tanfada",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 73897,
+     "position": 13,
+     "audio_url": "wbw/018_109_013.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "كَلِمَـٰتُ",
+     "location": "18:109:13",
+     "page_number": 304,
+     "line_number": 13,
+     "text": "كَلِمَـٰتُ",
+     "translation": {
+      "text": "(the) Words",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "kalimātu",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 73898,
+     "position": 14,
+     "audio_url": "wbw/018_109_014.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "رَبِّى",
+     "location": "18:109:14",
+     "page_number": 304,
+     "line_number": 13,
+     "text": "رَبِّى",
+     "translation": {
+      "text": "(of) my Lord",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "rabbī",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 73899,
+     "position": 15,
+     "audio_url": "wbw/018_109_015.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "وَلَوْ",
+     "location": "18:109:15",
+     "page_number": 304,
+     "line_number": 13,
+     "text": "وَلَوْ",
+     "translation": {
+      "text": "even if",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "walaw",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 73900,
+     "position": 16,
+     "audio_url": "wbw/018_109_016.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "جِئْنَا",
+     "location": "18:109:16",
+     "page_number": 304,
+     "line_number": 13,
+     "text": "جِئْنَا",
+     "translation": {
+      "text": "We brought",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "ji'nā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 73901,
+     "position": 17,
+     "audio_url": "wbw/018_109_017.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "بِمِثْلِهِۦ",
+     "location": "18:109:17",
+     "page_number": 304,
+     "line_number": 13,
+     "text": "بِمِثْلِهِۦ",
+     "translation": {
+      "text": "(the) like (of) it",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "bimith'lihi",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 73902,
+     "position": 18,
+     "audio_url": "wbw/018_109_018.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "مَدَدًۭا",
+     "location": "18:109:18",
+     "page_number": 304,
+     "line_number": 13,
+     "text": "مَدَدًۭا",
+     "translation": {
+      "text": "(as) a supplement",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "madadan",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 73903,
+     "position": 19,
+     "audio_url": null,
+     "char_type_name": "end",
+     "text_uthmani": "١٠٩",
+     "location": "18:109:19",
+     "page_number": 304,
+     "line_number": 13,
+     "text": "١٠٩",
+     "translation": {
+      "text": "(109)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": null,
+      "language_name": "english"
+     }
+    }
+   ],
+   "translations": [
+    {
+     "id": 97056,
+     "resource_id": 20,
+     "text": "Say, \"If the sea were ink for [writing] the words<sup foot_note=196716>1</sup> of my Lord, the sea would be exhausted before the words of my Lord were exhausted, even if We brought the like of it in [continual] supplement.\""
+    }
+   ]
+  }
+ ],
+ "tafsirs": {
+  "16": {
+   "18:109": {
+    "verses": {
+     "18:109": {
+      "id": 2249
+     }
+    },
+    "resource_id": 16,
+    "resource_name": "المیسر",
+    "language_id": 9,
+    "slug": "ar-tafsir-muyassar",
+    "translated_name": {
+     "name": "Tafsir Muyassar",
+     "language_name": "english"
+    },
+    "text": "قل -أيها الرسول-: لو كان ماء البحر حبرًا للأقلام التي يكتب بها كلام الله من علمه وحكمه، وما أوحاه إلى ملائكته ورسله، لنفِد ماء البحر قبل أن تنفد كلمات الله، ولو جئنا بمثل البحر بحارًا أخرى مددًا له. وفي الآية إثبات صفة الكلام لله -تعالى- حقيقة كما يليق بجلاله وكماله."
+   }
+  },
+  "91": {
+   "18:109": {
+    "verses": {
+     "18:109": {
+      "id": 2249
+     }
+    },
+    "resource_id": 91,
+    "resource_name": "Arabic Saddi Tafseer",
+    "language_id": 9,
+    "slug": "ar-tafseer-al-saddi",
+    "translated_name": {
+     "name": "السعدي Al-Sa'di",
+     "language_name": "english"
+    },
+    "text": "<span class=\"blue\">أي:</span> قل لهم مخبرا عن عظمة الباري، وسعة صفاته،<span class=\"blue\"> وأنها لا يحيط العباد بشيء منها:</span> <span class=\"arabic qpc-hafs brown\">{ لَوْ كَانَ الْبَحْرُ ْ}</span> أي: هذه الأبحر الموجودة في العالم <span class=\"arabic qpc-hafs brown\">{ مِدَادًا لِكَلِمَاتِ رَبِّي ْ}</span> أي: وأشجار الدنيا من أولها إلى آخرها، من أشجار البلدان والبراري، والبحار، أقلام، <span class=\"arabic qpc-hafs brown\">{ لَنَفِدَ الْبَحْرُ ْ}</span> وتكسرت الأقلام <span class=\"arabic qpc-hafs brown\">{ قَبْلَ أَنْ تَنْفَدَ كَلِمَاتُ رَبِّي ْ}</span> وهذا شيء عظيم، لا يحيط به أحد. وفي الآية الأخرى <span class=\"ar arabic qpc-hafs brown\" lang=\"ar\">{ ولو أن ما في الأرض من شجرة أقلام والبحر يمده من بعده سبعة أبحر ما نفدت كلمات الله إن الله عزيز حكيم ْ}</span> وهذا من باب تقريب المعنى إلى الأذهان، لأن هذه الأشياء مخلوقة، وجميع المخلوقات، منقضية منتهية، وأما كلام الله، فإنه من جملة صفاته، وصفاته غير مخلوقة، ولا لها حد ولا منتهى، فأي سعة وعظمة تصورتها القلوب فالله فوق ذلك، وهكذا سائر صفات الله تعالى، كعلمه، وحكمته، وقدرته، ورحمته، فلو جمع علم الخلائق من الأولين والآخرين، أهل السماوات وأهل الأرض، لكان بالنسبة إلى علم العظيم، أقل من نسبة عصفور وقع على حافة البحر، فأخذ بمنقاره من البحر بالنسبة للبحر وعظمته، ذلك بأن الله، له الصفات العظيمة الواسعة الكاملة، وأن إلى ربك المنتهى."
+   }
+  }
+ },
+ "recitation": {
+  "id": 18389,
+  "chapter_id": 18,
+  "file_size": 27904724.0,
+  "format": "mp3",
+  "audio_url": "https://download.quranicaudio.com/quran/yasser_ad-dussary//018.mp3",
+  "timestamps": [
+   {
+    "verse_key": "18:109",
+    "timestamp_from": 1689940,
+    "timestamp_to": 1703860,
+    "duration": 13920,
+    "segments": [
+     [
+      1,
+      1689940,
+      1690720
+     ],
+     [
+      2,
+      1690800,
+      1691200
+     ],
+     [
+      3,
+      1691200,
+      1691800
+     ],
+     [
+      4,
+      1691800,
+      1692500
+     ],
+     [
+      5,
+      1692500,
+      1693280
+     ],
+     [
+      6,
+      1693340,
+      1694540
+     ],
+     [
+      7,
+      1694540,
+      1695230
+     ],
+     [
+      8,
+      1695230,
+      1696040
+     ],
+     [
+      9,
+      1696040,
+      1696730
+     ],
+     [
+      10,
+      1696730,
+      1697290
+     ],
+     [
+      11,
+      1697290,
+      1697960
+     ],
+     [
+      12,
+      1697980,
+      1699050
+     ],
+     [
+      13,
+      1699170,
+      1700080
+     ],
+     [
+      14,
+      1700080,
+      1700790
+     ],
+     [
+      15,
+      1700790,
+      1701310
+     ],
+     [
+      16,
+      1701310,
+      1702050
+     ],
+     [
+      17,
+      1702050,
+      1703170
+     ],
+     [
+      18,
+      1703170,
+      1703860
+     ]
+    ]
+   }
+  ],
+  "neighbors": {
+   "prev_end": 1689910,
+   "next_start": 1703950
+  },
+  "local_file": "../_audio/chapter_018_rec97.mp3"
+ },
+ "reciter_ar": {
+  "id": 97,
+  "name": "Yasser ad-Dussary",
+  "style": {
+   "name": "Murattal",
+   "language_name": "english"
+  },
+  "qirat": {
+   "name": "Hafs",
+   "language_name": "english"
+  },
+  "translated_name": {
+   "name": "Yasser ad-Dussary",
+   "language_name": "english"
+  }
+ },
+ "reciter_en": {
+  "id": 97,
+  "name": "Yasser ad-Dussary",
+  "style": {
+   "name": "Murattal",
+   "language_name": "english"
+  },
+  "qirat": {
+   "name": "Hafs",
+   "language_name": "english"
+  },
+  "translated_name": {
+   "name": "Yasser ad-Dussary",
+   "language_name": "english"
+  }
+ }
+}

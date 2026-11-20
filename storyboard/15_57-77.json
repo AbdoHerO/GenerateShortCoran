@@ -1,0 +1,415 @@
+{
+ "_comment": "Quranic text is NEVER written here. Words are referenced by verse + word position and resolved from the API data. Gloss excerpts must be verbatim substrings of the cited tafsir (checked by pipeline/verify.py). Titles/labels are UI text for human review.",
+ "passage": {
+  "chapter": 15,
+  "from": 57,
+  "to": 77
+ },
+ "data_dir": "data/15_57-77",
+ "intro_s": 1.4,
+ "outro_s": 5.0,
+ "tafsir_labels": {
+  "16": "التفسير الميسر",
+  "91": "تفسير السعدي"
+ },
+ "tafsir_expect": {
+  "16": "Muyassar",
+  "91": "Sa'di"
+ },
+ "translation_expect": "Saheeh International",
+ "credits": {
+  "reciter_ar": "مشاري راشد العفاسي",
+  "translation_en": "Translation: Saheeh International",
+  "data_en": "Text, audio timings & tafsir: Quran Foundation (quran.com)"
+ },
+ "chapters": [
+  {
+   "id": "guests",
+   "title": "ضيوف إبراهيم",
+   "verses": [
+    57,
+    58
+   ],
+   "scene": "abraham",
+   "bg": "#efe7da"
+  },
+  {
+   "id": "rescue",
+   "title": "نجاة آل لوط",
+   "verses": [
+    59,
+    60
+   ],
+   "scene": "rescue",
+   "bg": "#eee5d6"
+  },
+  {
+   "id": "arrival",
+   "title": "الرسل في بيت لوط",
+   "verses": [
+    61,
+    62,
+    63,
+    64
+   ],
+   "scene": "arrival",
+   "bg": "#e9e2e6"
+  },
+  {
+   "id": "night",
+   "title": "الخروج ليلًا",
+   "verses": [
+    65,
+    66
+   ],
+   "scene": "night",
+   "bg": "#e3e3ea"
+  },
+  {
+   "id": "crowd",
+   "title": "أهل المدينة",
+   "verses": [
+    67,
+    68,
+    69
+   ],
+   "scene": "crowd",
+   "bg": "#ede3da"
+  },
+  {
+   "id": "refusal",
+   "title": "رفض النصيحة",
+   "verses": [
+    70,
+    71
+   ],
+   "scene": "refusal",
+   "bg": "#ece2da"
+  },
+  {
+   "id": "heedless",
+   "title": "غفلة القوم",
+   "verses": [
+    72
+   ],
+   "scene": "heedless",
+   "bg": "#e7e1ea"
+  },
+  {
+   "id": "blast",
+   "title": "العذاب عند الشروق",
+   "verses": [
+    73
+   ],
+   "scene": "blast",
+   "bg": "#efe4d6"
+  },
+  {
+   "id": "overturn",
+   "title": "هلاك القرية",
+   "verses": [
+    74
+   ],
+   "scene": "overturn",
+   "bg": "#efe1d6"
+  },
+  {
+   "id": "lesson",
+   "title": "عبرة للمؤمنين",
+   "verses": [
+    75,
+    76,
+    77
+   ],
+   "scene": "lesson",
+   "bg": "#e8e8e6"
+  }
+ ],
+ "glosses": [
+  {
+   "verse": 57,
+   "words": [
+    3,
+    3
+   ],
+   "tafsir": 91,
+   "excerpt": "ما شأنكم ولأي شيء أرسلتم؟",
+   "target": "angels",
+   "tone": "amber"
+  },
+  {
+   "verse": 58,
+   "words": [
+    6,
+    6
+   ],
+   "tafsir": 91,
+   "excerpt": "كثر فسادهم وعظم شرهم",
+   "target": "city",
+   "tone": "red"
+  },
+  {
+   "verse": 59,
+   "words": [
+    2,
+    3
+   ],
+   "tafsir": 16,
+   "excerpt": "لوطًا وأهله المؤمنين به",
+   "target": "family",
+   "tone": "green"
+  },
+  {
+   "verse": 60,
+   "words": [
+    6,
+    6
+   ],
+   "tafsir": 91,
+   "excerpt": "الباقين بالعذاب",
+   "target": "wife",
+   "tone": "red"
+  },
+  {
+   "verse": 61,
+   "words": [
+    5,
+    5
+   ],
+   "tafsir": 16,
+   "excerpt": "فلما وصل الملائكة المرسلون إلى لوط",
+   "target": "angels",
+   "tone": "amber"
+  },
+  {
+   "verse": 62,
+   "words": [
+    4,
+    4
+   ],
+   "tafsir": 91,
+   "excerpt": "لا أعرفكم ولا أدري من أنتم",
+   "target": "lut",
+   "tone": "blue"
+  },
+  {
+   "verse": 63,
+   "words": [
+    7,
+    7
+   ],
+   "tafsir": 91,
+   "excerpt": "يشكون فيه ويكذبونك",
+   "target": "town",
+   "tone": "red"
+  },
+  {
+   "verse": 64,
+   "words": [
+    2,
+    2
+   ],
+   "tafsir": 91,
+   "excerpt": "الذي ليس بالهزل",
+   "target": "angels",
+   "tone": "green"
+  },
+  {
+   "verse": 65,
+   "words": [
+    3,
+    5
+   ],
+   "tafsir": 91,
+   "excerpt": "في أثنائه حين تنام العيون ولا يدري أحد عن مسراك",
+   "target": "moon",
+   "tone": "blue"
+  },
+  {
+   "verse": 65,
+   "words": [
+    8,
+    9
+   ],
+   "tafsir": 91,
+   "excerpt": "بادروا وأسرعوا",
+   "target": "nolook",
+   "tone": "amber"
+  },
+  {
+   "verse": 66,
+   "words": [
+    8,
+    9
+   ],
+   "tafsir": 16,
+   "excerpt": "مستأصَلون بالهلاك عن آخرهم عند طلوع الصبح",
+   "target": "sun",
+   "tone": "red"
+  },
+  {
+   "verse": 67,
+   "words": [
+    4,
+    4
+   ],
+   "tafsir": 91,
+   "excerpt": "يبشر بعضهم بعضا بأضياف لوط",
+   "target": "crowd",
+   "tone": "red"
+  },
+  {
+   "verse": 68,
+   "words": [
+    6,
+    6
+   ],
+   "tafsir": 16,
+   "excerpt": "هؤلاء ضيفي وهم في حمايتي",
+   "target": "lut",
+   "tone": "blue"
+  },
+  {
+   "verse": 69,
+   "words": [
+    4,
+    4
+   ],
+   "tafsir": 16,
+   "excerpt": "فتوقعوني في الذل والهوان",
+   "target": "lut",
+   "tone": "blue"
+  },
+  {
+   "verse": 70,
+   "words": [
+    5,
+    5
+   ],
+   "tafsir": 16,
+   "excerpt": "أن تضيِّف أحدا من العالمين",
+   "target": "crowd",
+   "tone": "red"
+  },
+  {
+   "verse": 71,
+   "words": [
+    3,
+    3
+   ],
+   "tafsir": 16,
+   "excerpt": "هؤلاء نساؤكم بناتي فتزوَّجوهن",
+   "target": "rings",
+   "tone": "green"
+  },
+  {
+   "verse": 72,
+   "words": [
+    1,
+    1
+   ],
+   "tafsir": 16,
+   "excerpt": "أقسم الله تعالى بحياة محمد صلى الله عليه وسلم تشريفًا له",
+   "target": null,
+   "tone": "amber"
+  },
+  {
+   "verse": 72,
+   "words": [
+    5,
+    5
+   ],
+   "tafsir": 16,
+   "excerpt": "في غفلة شديدة يترددون ويتمادون",
+   "target": "crowd",
+   "tone": "red"
+  },
+  {
+   "verse": 73,
+   "words": [
+    2,
+    2
+   ],
+   "tafsir": 16,
+   "excerpt": "صاعقة العذاب",
+   "target": "blast",
+   "tone": "red"
+  },
+  {
+   "verse": 73,
+   "words": [
+    3,
+    3
+   ],
+   "tafsir": 91,
+   "excerpt": "وقت شروق الشمس",
+   "target": "sun",
+   "tone": "amber"
+  },
+  {
+   "verse": 74,
+   "words": [
+    2,
+    3
+   ],
+   "tafsir": 91,
+   "excerpt": "قلبنا عليهم مدينتهم",
+   "target": "city",
+   "tone": "red"
+  },
+  {
+   "verse": 74,
+   "words": [
+    8,
+    8
+   ],
+   "tafsir": 16,
+   "excerpt": "طين متصلب متين",
+   "target": "stones",
+   "tone": "red"
+  },
+  {
+   "verse": 75,
+   "words": [
+    5,
+    5
+   ],
+   "tafsir": 91,
+   "excerpt": "المتأملين المتفكرين",
+   "target": "ruins",
+   "tone": "green"
+  },
+  {
+   "verse": 76,
+   "words": [
+    2,
+    3
+   ],
+   "tafsir": 16,
+   "excerpt": "طريق ثابت يراها المسافرون المارُّون بها",
+   "target": "travelers",
+   "tone": "blue"
+  },
+  {
+   "verse": 77,
+   "words": [
+    5,
+    5
+   ],
+   "tafsir": 16,
+   "excerpt": "للمصدقين العاملين بشرع الله",
+   "target": "star",
+   "tone": "green"
+  }
+ ],
+ "cover": {
+  "series_ar": "قصص الأنبياء",
+  "series_en": "Stories of the Prophets",
+  "title_ar": "ضيوف إبراهيم وقرية لوط",
+  "title_en": "Ibrahim's guests and the end of Lut's town",
+  "at": [
+   61,
+   2
+  ]
+ }
+}

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ar">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quran Video Renderer</title>
+<link rel="icon" href="data:,">
+<style>
+  @font-face { font-family: "Scheherazade New"; src: url(fonts/ScheherazadeNew-Regular.ttf) format("truetype"); }
+  @font-face { font-family: "Tajawal"; src: url(fonts/Tajawal-Medium.ttf) format("truetype"); font-weight: 500; }
+  @font-face { font-family: "Tajawal"; src: url(fonts/Tajawal-Bold.ttf) format("truetype"); font-weight: 700; }
+  @font-face { font-family: "Tajawal"; src: url(fonts/Tajawal-ExtraBold.ttf) format("truetype"); font-weight: 800; }
+  @font-face { font-family: "Lalezar"; src: url(fonts/Lalezar-Regular.ttf) format("truetype"); }
+  @font-face { font-family: "Montserrat"; src: url(fonts/Montserrat-Medium.ttf) format("truetype"); font-weight: 500; }
+  @font-face { font-family: "Montserrat"; src: url(fonts/Montserrat-SemiBold.ttf) format("truetype"); font-weight: 600; }
+  html, body { margin: 0; background: #1b1b1f; }
+  canvas { display: block; }
+  body.preview { display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 8px; font: 14px system-ui; color: #ddd; }
+  body.preview canvas { height: calc(100vh - 70px); width: auto; border-radius: 8px; }
+  #ui { display: flex; gap: 10px; align-items: center; width: min(560px, 95vw); }
+  #ui input { flex: 1; }
+  #ui button { background: #2d3a63; color: #fff; border: 0; border-radius: 6px; padding: 6px 14px; cursor: pointer; }
+</style>
+</head>
+<body>
+<canvas id="c" width="1080" height="1920"></canvas>
+<div id="ui" hidden><button id="play">Play</button><input id="seek" type="range" min="0" max="1" step="0.0001" value="0"><span id="tc">0.0</span></div>
+<script type="module">
+  import './js/main.js';
+  const q = new URLSearchParams(location.search);
+  const dataPath = q.get('data') || 'data/15_57-77/render_data.json';
+  const data = await (await fetch('/' + dataPath)).json();
+  await window.R.init(data);
+  if (!q.has('export')) {
+    document.body.classList.add('preview');
+    const ui = document.getElementById('ui'); ui.hidden = false;
+    const audio = new Audio('/' + dataPath.replace(/[^/]+$/, '') + data.audio.file);
+    const seek = document.getElementById('seek'), tc = document.getElementById('tc'), play = document.getElementById('play');
+    let t = Number(q.get('t') || 0);
+    audio.currentTime = t;
+    // the platform app drives the preview through this (same origin iframe)
+    window.player = {
+      seek: (x) => { audio.currentTime = Math.max(0, Math.min(data.duration, x)); },
+      play: () => audio.play(), pause: () => audio.pause(),
+      playFrom: (x) => { audio.currentTime = Math.max(0, x); return audio.play(); },
+      get t() { return audio.currentTime; }, get paused() { return audio.paused; }, duration: data.duration,
+    };
+    play.onclick = () => (audio.paused ? audio.play() : audio.pause());
+    audio.onplay = () => (play.textContent = 'Pause'); audio.onpause = () => (play.textContent = 'Play');
+    seek.oninput = () => { audio.currentTime = seek.value * data.duration; };
+    addEventListener('keydown', (e) => {
+      if (e.code === 'Space') { e.preventDefault(); play.onclick(); }
+      if (e.code === 'ArrowRight') audio.currentTime += 2;
+      if (e.code === 'ArrowLeft') audio.currentTime -= 2;
+    });
+    const loop = () => {
+      t = audio.currentTime;
+      window.R.renderAt(t);
+      seek.value = t / data.duration; tc.textContent = t.toFixed(1) + ' s';
+      requestAnimationFrame(loop);
+    };
+    loop();
+  }
+</script>
+</body>
+</html>

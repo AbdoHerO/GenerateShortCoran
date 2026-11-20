@@ -1,0 +1,963 @@
+{
+ "meta": {
+  "source": "public",
+  "base": "https://api.quran.com/api/v4",
+  "fetched_at": "2026-11-19T22:15:47Z",
+  "chapter": 18,
+  "from": 89,
+  "to": 91,
+  "recitation_id": 97,
+  "translation_id": 20,
+  "tafsir_ids": [
+   16,
+   91
+  ]
+ },
+ "chapter": {
+  "id": 18,
+  "revelation_place": "makkah",
+  "revelation_order": 69,
+  "bismillah_pre": true,
+  "name_simple": "Al-Kahf",
+  "name_complex": "Al-Kahf",
+  "name_arabic": "الكهف",
+  "verses_count": 110,
+  "pages": [
+   293,
+   304
+  ],
+  "translated_name": {
+   "language_name": "english",
+   "name": "The Cave"
+  }
+ },
+ "chapter_en": {
+  "id": 18,
+  "revelation_place": "makkah",
+  "revelation_order": 69,
+  "bismillah_pre": true,
+  "name_simple": "Al-Kahf",
+  "name_complex": "Al-Kahf",
+  "name_arabic": "الكهف",
+  "verses_count": 110,
+  "pages": [
+   293,
+   304
+  ],
+  "translated_name": {
+   "language_name": "english",
+   "name": "The Cave"
+  }
+ },
+ "translation_resource": {
+  "id": 20,
+  "name": "Saheeh International",
+  "author_name": "Saheeh International",
+  "slug": "en-sahih-international",
+  "language_name": "english",
+  "translated_name": {
+   "name": "Saheeh International",
+   "language_name": "english"
+  }
+ },
+ "tafsir_resources": [
+  {
+   "id": 16,
+   "name": "Tafsir Muyassar",
+   "author_name": "المیسر",
+   "slug": "ar-tafsir-muyassar",
+   "language_name": "arabic",
+   "translated_name": {
+    "name": "Tafsir Muyassar",
+    "language_name": "english"
+   }
+  },
+  {
+   "id": 91,
+   "name": "السعدي Al-Sa'di",
+   "author_name": "Saddi",
+   "slug": "ar-tafseer-al-saddi",
+   "language_name": "arabic",
+   "translated_name": {
+    "name": "السعدي Al-Sa'di",
+    "language_name": "english"
+   }
+  }
+ ],
+ "verses": [
+  {
+   "id": 2229,
+   "verse_number": 89,
+   "verse_key": "18:89",
+   "hizb_number": 31,
+   "rub_el_hizb_number": 121,
+   "ruku_number": 262,
+   "manzil_number": 4,
+   "sajdah_number": null,
+   "text_uthmani": "ثُمَّ أَتْبَعَ سَبَبًا",
+   "text_imlaei": "ثُمَّ أَتْبَعَ سَبَبًا",
+   "page_number": 303,
+   "juz_number": 16,
+   "words": [
+    {
+     "id": 67670,
+     "position": 1,
+     "audio_url": "wbw/018_089_001.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "ثُمَّ",
+     "location": "18:89:1",
+     "page_number": 303,
+     "line_number": 6,
+     "text": "ثُمَّ",
+     "translation": {
+      "text": "Then",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "thumma",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 67671,
+     "position": 2,
+     "audio_url": "wbw/018_089_002.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "أَتْبَعَ",
+     "location": "18:89:2",
+     "page_number": 303,
+     "line_number": 6,
+     "text": "أَتْبَعَ",
+     "translation": {
+      "text": "he followed",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "atbaʿa",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 67672,
+     "position": 3,
+     "audio_url": "wbw/018_089_003.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "سَبَبًا",
+     "location": "18:89:3",
+     "page_number": 303,
+     "line_number": 6,
+     "text": "سَبَبًا",
+     "translation": {
+      "text": "(a) course",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "sababan",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 67673,
+     "position": 4,
+     "audio_url": null,
+     "char_type_name": "end",
+     "text_uthmani": "٨٩",
+     "location": "18:89:4",
+     "page_number": 303,
+     "line_number": 6,
+     "text": "٨٩",
+     "translation": {
+      "text": "(89)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": null,
+      "language_name": "english"
+     }
+    }
+   ],
+   "translations": [
+    {
+     "id": 97144,
+     "resource_id": 20,
+     "text": "Then he followed a way"
+    }
+   ]
+  },
+  {
+   "id": 2230,
+   "verse_number": 90,
+   "verse_key": "18:90",
+   "hizb_number": 31,
+   "rub_el_hizb_number": 121,
+   "ruku_number": 262,
+   "manzil_number": 4,
+   "sajdah_number": null,
+   "text_uthmani": "حَتَّىٰٓ إِذَا بَلَغَ مَطْلِعَ ٱلشَّمْسِ وَجَدَهَا تَطْلُعُ عَلَىٰ قَوْمٍ لَّمْ نَجْعَل لَّهُم مِّن دُونِهَا سِتْرًا",
+   "text_imlaei": "حَتَّىٰ إِذَا بَلَغَ مَطْلِعَ الشَّمْسِ وَجَدَهَا تَطْلُعُ عَلَىٰ قَوْمٍ لَّمْ نَجْعَل لَّهُم مِّن دُونِهَا سِتْرًا",
+   "page_number": 303,
+   "juz_number": 16,
+   "words": [
+    {
+     "id": 67892,
+     "position": 1,
+     "audio_url": "wbw/018_090_001.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "حَتَّىٰٓ",
+     "location": "18:90:1",
+     "page_number": 303,
+     "line_number": 6,
+     "text": "حَتَّىٰٓ",
+     "translation": {
+      "text": "Until",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "ḥattā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 67893,
+     "position": 2,
+     "audio_url": "wbw/018_090_002.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "إِذَا",
+     "location": "18:90:2",
+     "page_number": 303,
+     "line_number": 7,
+     "text": "إِذَا",
+     "translation": {
+      "text": "when",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "idhā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 67894,
+     "position": 3,
+     "audio_url": "wbw/018_090_003.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "بَلَغَ",
+     "location": "18:90:3",
+     "page_number": 303,
+     "line_number": 7,
+     "text": "بَلَغَ",
+     "translation": {
+      "text": "he reached",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "balagha",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 67895,
+     "position": 4,
+     "audio_url": "wbw/018_090_004.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "مَطْلِعَ",
+     "location": "18:90:4",
+     "page_number": 303,
+     "line_number": 7,
+     "text": "مَطْلِعَ",
+     "translation": {
+      "text": "(the) rising place",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "maṭliʿa",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 67896,
+     "position": 5,
+     "audio_url": "wbw/018_090_005.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "ٱلشَّمْسِ",
+     "location": "18:90:5",
+     "page_number": 303,
+     "line_number": 7,
+     "text": "ٱلشَّمْسِ",
+     "translation": {
+      "text": "(of) the sun",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "l-shamsi",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 67897,
+     "position": 6,
+     "audio_url": "wbw/018_090_006.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "وَجَدَهَا",
+     "location": "18:90:6",
+     "page_number": 303,
+     "line_number": 7,
+     "text": "وَجَدَهَا",
+     "translation": {
+      "text": "and he found it",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "wajadahā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 67898,
+     "position": 7,
+     "audio_url": "wbw/018_090_007.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "تَطْلُعُ",
+     "location": "18:90:7",
+     "page_number": 303,
+     "line_number": 7,
+     "text": "تَطْلُعُ",
+     "translation": {
+      "text": "rising",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "taṭluʿu",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 67899,
+     "position": 8,
+     "audio_url": "wbw/018_090_008.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "عَلَىٰ",
+     "location": "18:90:8",
+     "page_number": 303,
+     "line_number": 7,
+     "text": "عَلَىٰ",
+     "translation": {
+      "text": "on",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "ʿalā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 67900,
+     "position": 9,
+     "audio_url": "wbw/018_090_009.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "قَوْمٍۢ",
+     "location": "18:90:9",
+     "page_number": 303,
+     "line_number": 7,
+     "text": "قَوْمٍۢ",
+     "translation": {
+      "text": "a community",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "qawmin",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 67901,
+     "position": 10,
+     "audio_url": "wbw/018_090_010.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "لَّمْ",
+     "location": "18:90:10",
+     "page_number": 303,
+     "line_number": 7,
+     "text": "لَّمْ",
+     "translation": {
+      "text": "not",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "lam",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 67902,
+     "position": 11,
+     "audio_url": "wbw/018_090_011.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "نَجْعَل",
+     "location": "18:90:11",
+     "page_number": 303,
+     "line_number": 7,
+     "text": "نَجْعَل",
+     "translation": {
+      "text": "We made",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "najʿal",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 67903,
+     "position": 12,
+     "audio_url": "wbw/018_090_012.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "لَّهُم",
+     "location": "18:90:12",
+     "page_number": 303,
+     "line_number": 7,
+     "text": "لَّهُم",
+     "translation": {
+      "text": "for them",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "lahum",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 67904,
+     "position": 13,
+     "audio_url": "wbw/018_090_013.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "مِّن",
+     "location": "18:90:13",
+     "page_number": 303,
+     "line_number": 7,
+     "text": "مِّن",
+     "translation": {
+      "text": "against it",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "min",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 67905,
+     "position": 14,
+     "audio_url": "wbw/018_090_014.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "دُونِهَا",
+     "location": "18:90:14",
+     "page_number": 303,
+     "line_number": 8,
+     "text": "دُونِهَا",
+     "translation": {
+      "text": "against it",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "dūnihā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 67906,
+     "position": 15,
+     "audio_url": "wbw/018_090_015.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "سِتْرًۭا",
+     "location": "18:90:15",
+     "page_number": 303,
+     "line_number": 8,
+     "text": "سِتْرًۭا",
+     "translation": {
+      "text": "any shelter",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "sit'ran",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 67907,
+     "position": 16,
+     "audio_url": null,
+     "char_type_name": "end",
+     "text_uthmani": "٩٠",
+     "location": "18:90:16",
+     "page_number": 303,
+     "line_number": 8,
+     "text": "٩٠",
+     "translation": {
+      "text": "(90)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": null,
+      "language_name": "english"
+     }
+    }
+   ],
+   "translations": [
+    {
+     "id": 97146,
+     "resource_id": 20,
+     "text": "Until, when he came to the rising of the sun [i.e., the east], he found it rising on a people for whom We had not made against it any shield."
+    }
+   ]
+  },
+  {
+   "id": 2231,
+   "verse_number": 91,
+   "verse_key": "18:91",
+   "hizb_number": 31,
+   "rub_el_hizb_number": 121,
+   "ruku_number": 262,
+   "manzil_number": 4,
+   "sajdah_number": null,
+   "text_uthmani": "كَذَٰلِكَ وَقَدْ أَحَطْنَا بِمَا لَدَيْهِ خُبْرًا",
+   "text_imlaei": "كَذَٰلِكَ وَقَدْ أَحَطْنَا بِمَا لَدَيْهِ خُبْرًا",
+   "page_number": 303,
+   "juz_number": 16,
+   "words": [
+    {
+     "id": 68436,
+     "position": 1,
+     "audio_url": "wbw/018_091_001.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "كَذَٰلِكَ",
+     "location": "18:91:1",
+     "page_number": 303,
+     "line_number": 8,
+     "text": "كَذَٰلِكَ",
+     "translation": {
+      "text": "Thus",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "kadhālika",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 68437,
+     "position": 2,
+     "audio_url": "wbw/018_091_002.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "وَقَدْ",
+     "location": "18:91:2",
+     "page_number": 303,
+     "line_number": 8,
+     "text": "وَقَدْ",
+     "translation": {
+      "text": "And verily",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "waqad",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 68438,
+     "position": 3,
+     "audio_url": "wbw/018_091_003.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "أَحَطْنَا",
+     "location": "18:91:3",
+     "page_number": 303,
+     "line_number": 8,
+     "text": "أَحَطْنَا",
+     "translation": {
+      "text": "We encompassed",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "aḥaṭnā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 68439,
+     "position": 4,
+     "audio_url": "wbw/018_091_004.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "بِمَا",
+     "location": "18:91:4",
+     "page_number": 303,
+     "line_number": 8,
+     "text": "بِمَا",
+     "translation": {
+      "text": "of what",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "bimā",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 68440,
+     "position": 5,
+     "audio_url": "wbw/018_091_005.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "لَدَيْهِ",
+     "location": "18:91:5",
+     "page_number": 303,
+     "line_number": 8,
+     "text": "لَدَيْهِ",
+     "translation": {
+      "text": "(was) with him",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "ladayhi",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 68441,
+     "position": 6,
+     "audio_url": "wbw/018_091_006.mp3",
+     "char_type_name": "word",
+     "text_uthmani": "خُبْرًۭا",
+     "location": "18:91:6",
+     "page_number": 303,
+     "line_number": 8,
+     "text": "خُبْرًۭا",
+     "translation": {
+      "text": "(of the) information",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": "khub'ran",
+      "language_name": "english"
+     }
+    },
+    {
+     "id": 68442,
+     "position": 7,
+     "audio_url": null,
+     "char_type_name": "end",
+     "text_uthmani": "٩١",
+     "location": "18:91:7",
+     "page_number": 303,
+     "line_number": 8,
+     "text": "٩١",
+     "translation": {
+      "text": "(91)",
+      "language_name": "english"
+     },
+     "transliteration": {
+      "text": null,
+      "language_name": "english"
+     }
+    }
+   ],
+   "translations": [
+    {
+     "id": 97147,
+     "resource_id": 20,
+     "text": "Thus.<sup foot_note=196709>1</sup> And We had encompassed [all] that he had in knowledge."
+    }
+   ]
+  }
+ ],
+ "tafsirs": {
+  "16": {
+   "18:89": {
+    "verses": {
+     "18:89": {
+      "id": 2229
+     }
+    },
+    "resource_id": 16,
+    "resource_name": "المیسر",
+    "language_id": 9,
+    "slug": "ar-tafsir-muyassar",
+    "translated_name": {
+     "name": "Tafsir Muyassar",
+     "language_name": "english"
+    },
+    "text": "ثم رجع ذو القرنين إلى المشرق متبعًا الأسباب التي أعطاه الله إياها."
+   },
+   "18:90": {
+    "verses": {
+     "18:90": {
+      "id": 2230
+     }
+    },
+    "resource_id": 16,
+    "resource_name": "المیسر",
+    "language_id": 9,
+    "slug": "ar-tafsir-muyassar",
+    "translated_name": {
+     "name": "Tafsir Muyassar",
+     "language_name": "english"
+    },
+    "text": "حتى إذا وصل إلى مطلع الشمس وجدها تطلع على قوم ليس لهم بناء يسترهم، ولا شجر يظلهم من الشمس."
+   },
+   "18:91": {
+    "verses": {
+     "18:91": {
+      "id": 2231
+     }
+    },
+    "resource_id": 16,
+    "resource_name": "المیسر",
+    "language_id": 9,
+    "slug": "ar-tafsir-muyassar",
+    "translated_name": {
+     "name": "Tafsir Muyassar",
+     "language_name": "english"
+    },
+    "text": "كذلك وقد أحاط عِلْمُنا بما عنده من الخير والأسباب العظيمة، حيثما توجَّه وسار."
+   }
+  },
+  "91": {
+   "18:89": {
+    "verses": {
+     "18:89": {
+      "id": 2229
+     }
+    },
+    "resource_id": 91,
+    "resource_name": "Arabic Saddi Tafseer",
+    "language_id": 9,
+    "slug": "ar-tafseer-al-saddi",
+    "translated_name": {
+     "name": "السعدي Al-Sa'di",
+     "language_name": "english"
+    },
+    "text": "أي لما وصل إلى مغرب الشمس كر راجعا، قاصدا مطلعها، متبعا للأسباب، التي أعطاه الله،"
+   },
+   "18:90": {
+    "verses": {
+     "18:90": {
+      "id": 2230
+     }
+    },
+    "resource_id": 91,
+    "resource_name": "Arabic Saddi Tafseer",
+    "language_id": 9,
+    "slug": "ar-tafseer-al-saddi",
+    "translated_name": {
+     "name": "السعدي Al-Sa'di",
+     "language_name": "english"
+    },
+    "text": "فوصل إلى مطلع الشمس فـ <span class=\"arabic qpc-hafs brown\">{ وَجَدَهَا تَطْلُعُ عَلَى قَوْمٍ لَمْ نَجْعَلْ لَهُمْ مِنْ دُونِهَا سِتْرًا ْ}</span> أي: وجدها تطلع على أناس ليس لهم ستر من الشمس، إما لعدم استعدادهم في المساكن، وذلك لزيادة همجيتهم وتوحشهم، وعدم تمدنهم، وإما لكون الشمس دائمة عندهم، لا تغرب عنهم غروبا يذكر، كما يوجد ذلك في شرقي أفريقيا الجنوبي، فوصل إلى موضع انقطع عنه علم أهل الأرض، فضلا عن وصولهم إليه إياه بأبدانهم،"
+   },
+   "18:91": {
+    "verses": {
+     "18:91": {
+      "id": 2231
+     }
+    },
+    "resource_id": 91,
+    "resource_name": "Tafseer Al Saddi",
+    "language_id": 9,
+    "slug": "ar-tafseer-al-saddi",
+    "translated_name": {
+     "name": "السعدي Al-Sa'di",
+     "language_name": "english"
+    },
+    "text": "ومع هذا، فكل هذا بتقدير الله له، وعلمه به ولهذا قال <span class=\"arabic qpc-hafs brown\">{كَذَلِكَ وَقَدْ أَحَطْنَا بِمَا لَدَيْهِ خُبَرًا}</span> أي: أحطنا بما عنده من الخير والأسباب العظيمة وعلمنا معه، حيثما توجه وسار."
+   }
+  }
+ },
+ "recitation": {
+  "id": 18389,
+  "chapter_id": 18,
+  "file_size": 27904724.0,
+  "format": "mp3",
+  "audio_url": "https://download.quranicaudio.com/quran/yasser_ad-dussary//018.mp3",
+  "timestamps": [
+   {
+    "verse_key": "18:89",
+    "timestamp_from": 1471730,
+    "timestamp_to": 1474800,
+    "duration": 3070,
+    "segments": [
+     [
+      1,
+      1471730,
+      1473110
+     ],
+     [
+      2,
+      1473110,
+      1473890
+     ],
+     [
+      3,
+      1473890,
+      1474800
+     ]
+    ]
+   },
+   {
+    "verse_key": "18:90",
+    "timestamp_from": 1475100,
+    "timestamp_to": 1487290,
+    "duration": 12190,
+    "segments": [
+     [
+      1,
+      1475100,
+      1477190
+     ],
+     [
+      2,
+      1477190,
+      1477760
+     ],
+     [
+      3,
+      1477760,
+      1478370
+     ],
+     [
+      4,
+      1478370,
+      1479100
+     ],
+     [
+      5,
+      1479100,
+      1479790
+     ],
+     [
+      6,
+      1479790,
+      1480700
+     ],
+     [
+      7,
+      1480700,
+      1481480
+     ],
+     [
+      8,
+      1481480,
+      1482020
+     ],
+     [
+      9,
+      1482020,
+      1482590
+     ],
+     [
+      10,
+      1482690,
+      1483090
+     ],
+     [
+      11,
+      1483090,
+      1483780
+     ],
+     [
+      12,
+      1483780,
+      1484660
+     ],
+     [
+      13,
+      1484660,
+      1485380
+     ],
+     [
+      14,
+      1485380,
+      1486260
+     ],
+     [
+      15,
+      1486260,
+      1487290
+     ]
+    ]
+   },
+   {
+    "verse_key": "18:91",
+    "timestamp_from": 1487410,
+    "timestamp_to": 1492260,
+    "duration": 4850,
+    "segments": [
+     [
+      1,
+      1487410,
+      1488310
+     ],
+     [
+      2,
+      1488370,
+      1488970
+     ],
+     [
+      3,
+      1488970,
+      1489950
+     ],
+     [
+      4,
+      1489950,
+      1490480
+     ],
+     [
+      5,
+      1490480,
+      1491230
+     ],
+     [
+      6,
+      1491230,
+      1492160
+     ]
+    ]
+   }
+  ],
+  "neighbors": {
+   "prev_end": 1471610,
+   "next_start": 1492420
+  },
+  "local_file": "../_audio/chapter_018_rec97.mp3"
+ },
+ "reciter_ar": {
+  "id": 97,
+  "name": "Yasser ad-Dussary",
+  "style": {
+   "name": "Murattal",
+   "language_name": "english"
+  },
+  "qirat": {
+   "name": "Hafs",
+   "language_name": "english"
+  },
+  "translated_name": {
+   "name": "Yasser ad-Dussary",
+   "language_name": "english"
+  }
+ },
+ "reciter_en": {
+  "id": 97,
+  "name": "Yasser ad-Dussary",
+  "style": {
+   "name": "Murattal",
+   "language_name": "english"
+  },
+  "qirat": {
+   "name": "Hafs",
+   "language_name": "english"
+  },
+  "translated_name": {
+   "name": "Yasser ad-Dussary",
+   "language_name": "english"
+  }
+ }
+}

@@ -1,0 +1,17 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="icon" href="data:,">
+<style>
+@font-face { font-family: "Amiri Quran"; src: url(../fonts/AmiriQuran-Regular.ttf); }
+@font-face { font-family: "Scheherazade New"; src: url(../fonts/ScheherazadeNew-Regular.ttf); }
+body{margin:0;background:#fff;color:#000;width:1080px}
+.r{display:flex;justify-content:space-around;direction:rtl;font-size:150px;line-height:1.9}
+.a{font-family:"Amiri Quran"} .s{font-family:"Scheherazade New"}
+.l{font:18px sans-serif;text-align:center}
+</style></head><body>
+<div class="l">Amiri Quran</div><div class="r a" id="a"></div>
+<div class="l">Scheherazade New (SIL)</div><div class="r s" id="s"></div>
+<script type="module">
+const d = await (await fetch('/data/15_57-77/render_data.json')).json();
+const words = [d.verses[0].words[2].text, d.verses[0].words[4].text];
+for (const id of ['a','s']) for (const w of words) { const e=document.createElement('span'); e.textContent=w; document.getElementById(id).append(e); }
+await document.fonts.ready; window.done = true;
+</script></body></html>

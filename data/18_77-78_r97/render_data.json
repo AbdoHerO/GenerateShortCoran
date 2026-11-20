@@ -1,0 +1,715 @@
+{
+ "fps": 30,
+ "W": 1080,
+ "H": 1920,
+ "duration": 43.83,
+ "intro": 2.4,
+ "outro_start": 39.63,
+ "surah": {
+  "name_ar": "الكهف",
+  "name_en": "Al-Kahf",
+  "number": 18,
+  "from_ar": "٧٧",
+  "to_ar": "٧٨",
+  "from": 77,
+  "to": 78
+ },
+ "credits": {
+  "reciter_ar": "ياسر الدوسري",
+  "reciter_en": "Yasser ad-Dussary",
+  "translation_en": "Translation: Saheeh International",
+  "data_en": "Text, audio timings & tafsir: Quran Foundation (quran.com)"
+ },
+ "cover": {
+  "dur": 1.0,
+  "t": 24.55,
+  "series_ar": "موسى والخضر",
+  "series_en": "Musa and al-Khidr",
+  "title_ar": "الجدار والفراق",
+  "title_en": "The wall, and the parting"
+ },
+ "chapters": [
+  {
+   "id": "c1",
+   "title": "قرية بلا ضيافة",
+   "scene": "stage",
+   "params": {
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "khidr",
+      "type": "honored",
+      "label": "الخضر",
+      "place": "left",
+      "count": 1,
+      "pose": "walk",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "musa",
+      "type": "prophet",
+      "label": "موسى عليه السلام",
+      "place": "left",
+      "count": 1,
+      "pose": "walk",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "wall",
+      "type": "wall",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "people",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [
+     {
+      "type": "wall_repair",
+      "at": [
+       77,
+       18
+      ],
+      "until": null
+     }
+    ],
+    "beats": [
+     {
+      "at": [
+       77,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       77,
+       2
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       77,
+       4
+      ],
+      "do": "shot_close",
+      "who": "people"
+     },
+     {
+      "at": [
+       77,
+       7
+      ],
+      "do": "speak",
+      "who": "musa"
+     },
+     {
+      "at": [
+       77,
+       9
+      ],
+      "do": "turn",
+      "who": "people"
+     },
+     {
+      "at": [
+       77,
+       11
+      ],
+      "do": "shake_head",
+      "who": "people"
+     },
+     {
+      "at": [
+       77,
+       12
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       77,
+       14
+      ],
+      "do": "shot_close",
+      "who": "wall"
+     },
+     {
+      "at": [
+       77,
+       15
+      ],
+      "do": "walk_to",
+      "who": "khidr",
+      "to": "wall"
+     },
+     {
+      "at": [
+       77,
+       18
+      ],
+      "do": "glow",
+      "who": "khidr"
+     },
+     {
+      "at": [
+       77,
+       19
+      ],
+      "do": "speak",
+      "who": "musa"
+     },
+     {
+      "at": [
+       77,
+       22
+      ],
+      "do": "point",
+      "who": "musa",
+      "to": "people"
+     },
+     {
+      "at": [
+       77,
+       24
+      ],
+      "do": "glow",
+      "who": "musa"
+     }
+    ]
+   },
+   "bg": "#ece4d8",
+   "verses": [
+    77
+   ],
+   "start": 0.0,
+   "end": 29.63
+  },
+  {
+   "id": "c2",
+   "title": "لحظة الفراق",
+   "scene": "stage",
+   "params": {
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "musa",
+      "type": "prophet",
+      "label": "موسى عليه السلام",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "khidr",
+      "type": "honored",
+      "label": "الخضر",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
+    "beats": [
+     {
+      "at": [
+       78,
+       1
+      ],
+      "do": "speak",
+      "who": "khidr"
+     },
+     {
+      "at": [
+       78,
+       3
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       78,
+       7
+      ],
+      "do": "glow",
+      "who": "khidr"
+     },
+     {
+      "at": [
+       78,
+       10
+      ],
+      "do": "bow",
+      "who": "musa"
+     },
+     {
+      "at": [
+       78,
+       12
+      ],
+      "do": "push_in"
+     }
+    ]
+   },
+   "bg": "#ece4d8",
+   "verses": [
+    78
+   ],
+   "start": 29.63,
+   "end": 43.83
+  }
+ ],
+ "verses": [
+  {
+   "n": 77,
+   "key": "18:77",
+   "num_ar": "٧٧",
+   "words": [
+    {
+     "pos": 1,
+     "text": "فَٱنطَلَقَا"
+    },
+    {
+     "pos": 2,
+     "text": "حَتَّىٰٓ"
+    },
+    {
+     "pos": 3,
+     "text": "إِذَآ"
+    },
+    {
+     "pos": 4,
+     "text": "أَتَيَآ"
+    },
+    {
+     "pos": 5,
+     "text": "أَهْلَ"
+    },
+    {
+     "pos": 6,
+     "text": "قَرْيَةٍ"
+    },
+    {
+     "pos": 7,
+     "text": "ٱسْتَطْعَمَآ"
+    },
+    {
+     "pos": 8,
+     "text": "أَهْلَهَا"
+    },
+    {
+     "pos": 9,
+     "text": "فَأَبَوْا۟"
+    },
+    {
+     "pos": 10,
+     "text": "أَن"
+    },
+    {
+     "pos": 11,
+     "text": "يُضَيِّفُوهُمَا"
+    },
+    {
+     "pos": 12,
+     "text": "فَوَجَدَا"
+    },
+    {
+     "pos": 13,
+     "text": "فِيهَا"
+    },
+    {
+     "pos": 14,
+     "text": "جِدَارًۭا"
+    },
+    {
+     "pos": 15,
+     "text": "يُرِيدُ"
+    },
+    {
+     "pos": 16,
+     "text": "أَن"
+    },
+    {
+     "pos": 17,
+     "text": "يَنقَضَّ"
+    },
+    {
+     "pos": 18,
+     "text": "فَأَقَامَهُۥ ۖ"
+    },
+    {
+     "pos": 19,
+     "text": "قَالَ"
+    },
+    {
+     "pos": 20,
+     "text": "لَوْ"
+    },
+    {
+     "pos": 21,
+     "text": "شِئْتَ"
+    },
+    {
+     "pos": 22,
+     "text": "لَتَّخَذْتَ"
+    },
+    {
+     "pos": 23,
+     "text": "عَلَيْهِ"
+    },
+    {
+     "pos": 24,
+     "text": "أَجْرًۭا"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     2.46,
+     5.49
+    ],
+    [
+     2,
+     5.49,
+     7.84
+    ],
+    [
+     3,
+     7.84,
+     9.46
+    ],
+    [
+     4,
+     9.46,
+     11.2
+    ],
+    [
+     5,
+     11.2,
+     11.65
+    ],
+    [
+     6,
+     11.73,
+     12.61
+    ],
+    [
+     7,
+     12.61,
+     14.38
+    ],
+    [
+     8,
+     14.38,
+     15.25
+    ],
+    [
+     9,
+     15.25,
+     15.97
+    ],
+    [
+     10,
+     15.97,
+     16.46
+    ],
+    [
+     11,
+     16.46,
+     18.12
+    ],
+    [
+     12,
+     18.58,
+     19.56
+    ],
+    [
+     13,
+     19.56,
+     20.3
+    ],
+    [
+     14,
+     20.3,
+     21.45
+    ],
+    [
+     15,
+     21.45,
+     22.14
+    ],
+    [
+     16,
+     22.14,
+     22.71
+    ],
+    [
+     17,
+     22.71,
+     23.95
+    ],
+    [
+     18,
+     23.95,
+     25.32
+    ],
+    [
+     19,
+     25.32,
+     25.85
+    ],
+    [
+     20,
+     25.85,
+     26.195
+    ],
+    [
+     21,
+     26.195,
+     26.73
+    ],
+    [
+     22,
+     26.73,
+     27.79
+    ],
+    [
+     23,
+     27.79,
+     28.52
+    ],
+    [
+     24,
+     28.52,
+     29.45
+    ]
+   ],
+   "start": 2.46,
+   "first_word": 2.46,
+   "last_word": 29.45,
+   "translation": "So they set out, until when they came to the people of a town, they asked its people for food, but they refused to offer them hospitality. And they found therein a wall about to collapse, so he [i.e., al-Khiḍr] restored it. [Moses] said, \"If you wished, you could have taken for it a payment.\"",
+   "glosses": [
+    {
+     "w0": 7,
+     "w1": 8,
+     "chip": "ٱسْتَطْعَمَآ أَهْلَهَا",
+     "excerpt": "فطلبا منهم طعامًا على سبيل الضيافة",
+     "source": "التفسير الميسر",
+     "target": "people",
+     "tone": "blue",
+     "start": 12.61,
+     "end": 16.41
+    },
+    {
+     "w0": 11,
+     "w1": 11,
+     "chip": "يُضَيِّفُوهُمَا",
+     "excerpt": "فامتنع أهل القرية عن ضيافتهما",
+     "source": "التفسير الميسر",
+     "target": "people",
+     "tone": "blue",
+     "start": 16.46,
+     "end": 20.25
+    },
+    {
+     "w0": 14,
+     "w1": 17,
+     "chip": "جِدَارًۭا يُرِيدُ أَن يَنقَضَّ",
+     "excerpt": "حائطًا مائلا يوشك أن يسقط",
+     "source": "التفسير الميسر",
+     "target": "wall",
+     "tone": "amber",
+     "start": 20.3,
+     "end": 23.9
+    },
+    {
+     "w0": 18,
+     "w1": 18,
+     "chip": "فَأَقَامَهُۥ ۖ",
+     "excerpt": "فعدَّل الخَضِر مَيْلَه حتى صار مستويًا",
+     "source": "التفسير الميسر",
+     "target": "wall",
+     "tone": "green",
+     "start": 23.95,
+     "end": 29.529999999999998
+    }
+   ],
+   "end": 29.63
+  },
+  {
+   "n": 78,
+   "key": "18:78",
+   "num_ar": "٧٨",
+   "words": [
+    {
+     "pos": 1,
+     "text": "قَالَ"
+    },
+    {
+     "pos": 2,
+     "text": "هَـٰذَا"
+    },
+    {
+     "pos": 3,
+     "text": "فِرَاقُ"
+    },
+    {
+     "pos": 4,
+     "text": "بَيْنِى"
+    },
+    {
+     "pos": 5,
+     "text": "وَبَيْنِكَ ۚ"
+    },
+    {
+     "pos": 6,
+     "text": "سَأُنَبِّئُكَ"
+    },
+    {
+     "pos": 7,
+     "text": "بِتَأْوِيلِ"
+    },
+    {
+     "pos": 8,
+     "text": "مَا"
+    },
+    {
+     "pos": 9,
+     "text": "لَمْ"
+    },
+    {
+     "pos": 10,
+     "text": "تَسْتَطِع"
+    },
+    {
+     "pos": 11,
+     "text": "عَّلَيْهِ"
+    },
+    {
+     "pos": 12,
+     "text": "صَبْرًا"
+    }
+   ],
+   "segments": [
+    [
+     1,
+     29.63,
+     30.22
+    ],
+    [
+     2,
+     30.22,
+     30.99
+    ],
+    [
+     3,
+     30.99,
+     31.59
+    ],
+    [
+     4,
+     31.69,
+     32.41
+    ],
+    [
+     5,
+     32.41,
+     33.11
+    ],
+    [
+     6,
+     33.11,
+     34.75
+    ],
+    [
+     7,
+     34.79,
+     35.96
+    ],
+    [
+     8,
+     35.96,
+     36.31
+    ],
+    [
+     9,
+     36.31,
+     36.66
+    ],
+    [
+     10,
+     36.66,
+     37.47
+    ],
+    [
+     11,
+     37.47,
+     38.3
+    ],
+    [
+     12,
+     38.3,
+     39.23
+    ]
+   ],
+   "start": 29.63,
+   "first_word": 29.63,
+   "last_word": 39.23,
+   "translation": "[Al-Khiḍr] said, \"This is parting between me and you. I will inform you of the interpretation of that about which you could not have patience.",
+   "glosses": [
+    {
+     "w0": 3,
+     "w1": 5,
+     "chip": "فِرَاقُ بَيْنِى وَبَيْنِكَ ۚ",
+     "excerpt": "فلم يبق الآن عذر، ولا موضع للصحبة",
+     "source": "تفسير السعدي",
+     "target": "khidr",
+     "tone": "amber",
+     "start": 30.99,
+     "end": 34.74
+    },
+    {
+     "w0": 7,
+     "w1": 12,
+     "chip": "بِتَأْوِيلِ مَا لَمْ تَسْتَطِع عَّلَيْهِ صَبْرًا",
+     "excerpt": "سأخبرك بما أنكرت عليَّ من أفعالي",
+     "source": "التفسير الميسر",
+     "target": "khidr",
+     "tone": "blue",
+     "start": 34.79,
+     "end": 39.73
+    }
+   ],
+   "end": 39.83
+  }
+ ],
+ "audio": {
+  "slice_start": 1290.71,
+  "slice_end": 1327.54,
+  "file": "audio_master.wav"
+ },
+ "timing_corrections": [],
+ "timing_flags": [],
+ "aligned_boundaries": []
+}
