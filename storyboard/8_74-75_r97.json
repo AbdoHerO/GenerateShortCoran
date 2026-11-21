@@ -28,7 +28,7 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "المؤمنون الصادقون",
+   "title": "صدق الإيمان",
    "verses": [
     74
    ],
@@ -168,18 +168,7 @@
     3
    ],
    "tafsir": 16,
-   "excerpt": "وتركوا ديارهم قاصدين دار الإسلام",
-   "target": "",
-   "tone": "green"
-  },
-  {
-   "verse": 74,
-   "words": [
-    4,
-    7
-   ],
-   "tafsir": 16,
-   "excerpt": "وجاهدوا لإعلاء كلمة الله",
+   "excerpt": "وتركوا ديارهم",
    "target": "",
    "tone": "green"
   },
@@ -256,7 +245,7 @@
     22
    ],
    "tafsir": 16,
-   "excerpt": "دون التوارث بالحِلْف، وغير ذلك مما كان في أول الإسلام",
+   "excerpt": "يعلم ما يصلح عباده",
    "target": "",
    "tone": "blue"
   }
@@ -266,8 +255,8 @@
   "notes": "A house for «آووا», light for the reward, hands for «وأولو الأرحام», geometric for «إن الله بكل شيء عليم». Paradise only named in the recitation; Al-Muyassar's «جنات النعيم» and As-Sa'di's «اتبعهم بإحسان» (Quran wording) not used."
  },
  "cover": {
-  "series_ar": "الولاية بين المؤمنين",
-  "series_en": "Alliance among believers",
+  "series_ar": "الأخوة الإيمانية",
+  "series_en": "The brotherhood of faith",
   "title_ar": "جزاء المهاجرين",
   "title_en": "The emigrants' reward",
   "at": [

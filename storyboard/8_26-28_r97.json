@@ -187,17 +187,6 @@
    "verse": 26,
    "words": [
     1,
-    3
-   ],
-   "tafsir": 91,
-   "excerpt": "في نصرهم بعد الذلة، وتكثيرهم بعد القلة، وإغنائهم بعد العيلة",
-   "target": "",
-   "tone": "green"
-  },
-  {
-   "verse": 26,
-   "words": [
-    4,
     7
    ],
    "tafsir": 91,
@@ -301,8 +290,8 @@
  "cover": {
   "series_ar": "الطاعة والأمانة",
   "series_en": "Obedience and trust",
-  "title_ar": "الأمانة والفتنة",
-  "title_en": "Trust and trial",
+  "title_ar": "الأمانة والاختبار",
+  "title_en": "Trust and testing",
   "at": [
    27,
    1

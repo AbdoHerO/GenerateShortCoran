@@ -106,7 +106,7 @@
   },
   {
    "id": "c2",
-   "title": "سنة تغيير النعم",
+   "title": "زوال النعم بالمعاصي",
    "verses": [
     52,
     53
@@ -211,17 +211,6 @@
    "tone": "red"
   },
   {
-   "verse": 50,
-   "words": [
-    8,
-    13
-   ],
-   "tafsir": 16,
-   "excerpt": "ولكنه عام في حق كلِّ كافر",
-   "target": "",
-   "tone": "red"
-  },
-  {
    "verse": 51,
    "words": [
     1,
@@ -317,8 +306,8 @@
  "cover": {
   "series_ar": "سنن الهلاك",
   "series_en": "Ways of ruin",
-  "title_ar": "سنة الأخذ بالذنوب",
-  "title_en": "Seized for their sins",
+  "title_ar": "عاقبة الجحود",
+  "title_en": "The end of denial",
   "at": [
    52,
    1

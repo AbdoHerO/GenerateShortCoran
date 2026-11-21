@@ -133,17 +133,6 @@
   {
    "verse": 65,
    "words": [
-    1,
-    6
-   ],
-   "tafsir": 91,
-   "excerpt": "حثهم وأنهضهم إليه بكل ما يقوي عزائمهم",
-   "target": "",
-   "tone": "blue"
-  },
-  {
-   "verse": 65,
-   "words": [
     7,
     13
    ],
@@ -155,7 +144,7 @@
   {
    "verse": 65,
    "words": [
-    20,
+    23,
     26
    ],
    "tafsir": 16,
@@ -169,8 +158,8 @@
   "notes": "No armies, numbers or fighting drawn (the figures stay in the recitation only). No motif on the Prophet ﷺ; geometric for «حسبك الله»."
  },
  "cover": {
-  "series_ar": "أحكام الجهاد",
-  "series_en": "Rulings of struggle",
+  "series_ar": "الكفاية والرحمة",
+  "series_en": "Sufficiency and mercy",
   "title_ar": "الكفاية بالله",
   "title_en": "Allah suffices",
   "at": [

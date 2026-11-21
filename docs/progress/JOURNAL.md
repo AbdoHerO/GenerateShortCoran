@@ -803,3 +803,33 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
   - «براءة شعيب» (modern sense "innocence") is now «تبرؤ شعيب».
 - **Lesson:** a chip that opens on «وما» or «ما» must be checked for a negation reading. A «ما… إلا» or «كما… ما»
   construction must never be split across chips, especially when the reciter holds the last word.
+
+### Al-Anfal gloss review applied (2026-11-21)
+
+- 8 SERIOUS, 24 MINOR; all applied, plus the optional notes.
+- **SERIOUS:**
+  - 8:12 «الرعب»: «أعظم جند لكم عليهم» was shown over the striking; it is now «الخوف الشديد والذلة والصَّغَار».
+  - 8:37: an unbraced As-Sa'di quotation of 39:15.
+  - 8:50: «ولكنه عام في حق كل كافر» under «يضربون وجوههم» read as a general licence; it is dropped.
+  - 8:55: As-Sa'di's three traits restored («الكفر، وعدم الإيمان، والخيانة»).
+  - 8:60: «الآن» gave a present-day reading.
+  - 8:70: the condition «إن يعلم الله في قلوبكم خيرا» is now inside the chip.
+  - 8:73: «موالاة المؤمنين ومعاداة الكافرين» read as a general order of hostility; it is now Al-Muyassar's «نصراء
+    بعض».
+  - 8:75: a gloss under «إن الله بكل شيء عليم» could read as limiting His knowledge.
+- **MINOR:**
+  - The battle condition in 8:15 («إذا التقى الزحفان»).
+  - The addressee in 8:19.
+  - Dropped conditions in 8:26 and 8:38.
+  - «من مال الكفار قهرا» (8:41) and «حثهم… بكل ما يقوي عزائمهم» (8:65) removed.
+  - «وجاهدوا لإعلاء كلمة الله» (8:74) dropped.
+- **Titles:**
+  - Series «أحكام الجهاد» is now «الكفاية والرحمة», and «الولاية بين المؤمنين» is now «الأخوة الإيمانية».
+  - Covers changed: «تقوية العزائم», «صدق الانقياد», «الأمانة والاختبار», «عاقبة الجحود», «أخوة الإيمان»,
+    «المحبة والتناصر».
+  - Chapter title «الإعداد» (a slogan word) is now «الاستعداد والبذل».
+- **Lesson:**
+  - In fighting passages a gloss can read as a general licence or as a present-day reading. Watch words like «عام»,
+    «الآن» and «كل كافر», and series names like «أحكام الجهاد».
+  - Prefer the tafsir that is narrower.
+- **Data warning:** As-Sa'di's 8:52 entry has its braces reversed; never take an 8:52 excerpt from tafsir 91.

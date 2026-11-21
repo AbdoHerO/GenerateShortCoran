@@ -58,8 +58,8 @@
     {
      "from": 12,
      "to": 14,
-     "title_ar": "تثبيت المؤمنين",
-     "title_en": "Steadying the believers",
+     "title_ar": "تقوية العزائم",
+     "title_en": "Strengthening resolve",
      "visual": "ambient",
      "care": "12: no striking drawn or glossed in detail. Badr and the fighting: no battle, weapon, wound, killing or angel drawn; fighting verses keep the tafsirs' restrictions.",
      "est_s": 57
@@ -93,8 +93,8 @@
     {
      "from": 20,
      "to": 25,
-     "title_ar": "السمع والطاعة",
-     "title_en": "Hearing and obeying",
+     "title_ar": "صدق الانقياد",
+     "title_en": "Sincere obedience",
      "visual": "ambient",
      "care": "",
      "est_s": 95
@@ -102,8 +102,8 @@
     {
      "from": 26,
      "to": 28,
-     "title_ar": "الأمانة والفتنة",
-     "title_en": "Trust and trial",
+     "title_ar": "الأمانة والاختبار",
+     "title_en": "Trust and testing",
      "visual": "ambient",
      "care": "",
      "est_s": 66
@@ -208,8 +208,8 @@
     {
      "from": 50,
      "to": 53,
-     "title_ar": "سنة الأخذ بالذنوب",
-     "title_en": "Seized for their sins",
+     "title_ar": "عاقبة الجحود",
+     "title_en": "The end of denial",
      "visual": "ambient",
      "care": "50: angels and death not drawn. ",
      "est_s": 77
@@ -244,8 +244,8 @@
     {
      "from": 62,
      "to": 63,
-     "title_ar": "الألفة بين المؤمنين",
-     "title_en": "The bond between believers",
+     "title_ar": "أخوة الإيمان",
+     "title_en": "Brotherhood of faith",
      "visual": "ambient",
      "care": "",
      "est_s": 43
@@ -253,8 +253,8 @@
    ]
   },
   {
-   "title_ar": "أحكام الجهاد",
-   "title_en": "Rulings of struggle",
+   "title_ar": "الكفاية والرحمة",
+   "title_en": "Sufficiency and mercy",
    "from": 64,
    "to": 71,
    "videos": [
@@ -289,16 +289,16 @@
    ]
   },
   {
-   "title_ar": "الولاية بين المؤمنين",
-   "title_en": "Alliance among believers",
+   "title_ar": "الأخوة الإيمانية",
+   "title_en": "The brotherhood of faith",
    "from": 72,
    "to": 75,
    "videos": [
     {
      "from": 72,
      "to": 73,
-     "title_ar": "ولاية المؤمنين",
-     "title_en": "Believers' alliance",
+     "title_ar": "المحبة والتناصر",
+     "title_en": "Love and mutual support",
      "visual": "ambient",
      "care": "No present-day political reading.",
      "est_s": 75
