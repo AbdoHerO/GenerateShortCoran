@@ -1,15 +1,15 @@
 # Production status (generated - do not edit by hand)
 
-Regenerated 2026-11-21 07:39 UTC by `pipeline/progress.py` for reciter 97.
+Regenerated 2026-11-21 07:41 UTC by `pipeline/progress.py` for reciter 97.
 Columns: videos in the surah plan · storyboards written by hand · of those with motion graphics v3 (motifs) · built locally in this session · published to Creative Hub (drafts).
 `built` only counts files present on this machine; `published` (publish/ledger.json) is the durable record.
 
-**Totals:** planned 428 · written 386 · built 112 · published 84
+**Totals:** planned 428 · written 386 · built 113 · published 109
 
 | # | Surah | Name | Verses | Planned | Written | Motion v3 | Built | Published | State |
 |---|---|---|---|---|---|---|---|---|---|
 | 1 | الفاتحة | Al-Fatihah | 7 | 1 | 1 | 1 | 1 | 1 | published |
-| 2 | البقرة | Al-Baqarah | 286 | 103 | 85 | 85 | 78 | 50 | storyboards |
+| 2 | البقرة | Al-Baqarah | 286 | 103 | 85 | 85 | 79 | 75 | storyboards |
 | 3 | آل عمران | Ali 'Imran | 200 | 62 | 56 | 56 | - | - | storyboards |
 | 4 | النساء | An-Nisa | 176 | 68 | 63 | 63 | - | - | storyboards |
 | 5 | المائدة | Al-Ma'idah | 120 | 49 | 46 | 46 | - | - | storyboards |

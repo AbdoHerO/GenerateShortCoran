@@ -407,6 +407,14 @@
   "url": "https://creatives.abdocloud.com/creatives/cmwq1c2uq00nu0uo8onuhgwfx",
   "video_sha256": "43c44fb17cdcd82c3710d649791859e466788bc03190a8d0507efe7f98fe8f87"
  },
+ "2_172-174_r97": {
+  "creative": "Reel - 2:172-174 Al-Baqarah - المحرمات وكتمان العلم - Dussary",
+  "import_id": "cmwq39g7z000v3cny0gd0eqw0",
+  "published_at": "2026-11-21T07:39:55+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwq3gicv00wp0uo89eb93fn6",
+  "video_sha256": "de187e57c3be4a47537490929855e131d0b4179b3cb4363d91a0e446d669591e"
+ },
  "2_175-176_r97": {
   "creative": "Reel - 2:175-176 Al-Baqarah - شراء الضلالة - Dussary",
   "import_id": "cmwq13gbp000q3cnypy1tpwde",
@@ -414,6 +422,14 @@
   "status": "DRAFT (needs human review)",
   "url": "https://creatives.abdocloud.com/creatives/cmwq1h7d200w80uo8tf102u5m",
   "video_sha256": "ca76a985a25bfc0d251f7240ad28268a13c95c6f1b5289088e381444fc44c480"
+ },
+ "2_178-180_r97": {
+  "creative": "Reel - 2:178-180 Al-Baqarah - القصاص والوصية - Dussary",
+  "import_id": "cmwq39g7z000v3cny0gd0eqw0",
+  "published_at": "2026-11-21T07:39:55+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwq3gmsv00x30uo8utbus06c",
+  "video_sha256": "28b49f4da3058c6bea8a8639f06e5f3166b38bf85246d48ecb3c8f9cc9cc4513"
  },
  "2_188-190_r97": {
   "creative": "Reel - 2:188-190 Al-Baqarah - الأهلة والمال الحرام - Dussary",
@@ -471,6 +487,14 @@
   "url": "https://creatives.abdocloud.com/creatives/cmwpyt34b00lt0uo8e2c8avu5",
   "video_sha256": "4c925b665b72e0843e737be7bc8f775eda729a4b17708ede9cb6902449ff0240"
  },
+ "2_209-212_r97": {
+  "creative": "Reel - 2:209-212 Al-Baqarah - التحذير من الزلل - Dussary",
+  "import_id": "cmwq39g7z000v3cny0gd0eqw0",
+  "published_at": "2026-11-21T07:39:55+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwq3h03b00xh0uo8sb13ur27",
+  "video_sha256": "08e2f8be015b2ed93cb1080aaf72ac3865279b64889055445d42b9f37f1945e7"
+ },
  "2_21-23_r97": {
   "creative": "Reel - 2:21-23 Al-Baqarah - عبادة الخالق والتحدي - Dussary",
   "import_id": "cmwq13gbp000q3cnypy1tpwde",
@@ -478,6 +502,102 @@
   "status": "DRAFT (needs human review)",
   "url": "https://creatives.abdocloud.com/creatives/cmwq1cbra00o80uo87dbbuvqm",
   "video_sha256": "aba531a779761d431d010adc1caf9ec1bb4ed889ada59a1a7664bc621959e7de"
+ },
+ "2_215-216_r97": {
+  "creative": "Reel - 2:215-216 Al-Baqarah - النفقة والقتال - Dussary",
+  "import_id": "cmwq39g7z000v3cny0gd0eqw0",
+  "published_at": "2026-11-21T07:39:55+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwq3h8e000xv0uo8axy2i4tm",
+  "video_sha256": "c13c5126bc3e55d1a36e3473443080927644e8cc76c8da4ab19597ea7fa0cc44"
+ },
+ "2_217-217_r97": {
+  "creative": "Reel - 2:217 Al-Baqarah - حرمة الأشهر - Dussary",
+  "import_id": "cmwq39g7z000v3cny0gd0eqw0",
+  "published_at": "2026-11-21T07:39:55+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwq3hcl700ya0uo8mv19zobh",
+  "video_sha256": "80fc0f2f1a4bc60144186622c87f8382296120ba0af8f140472493cf51d5c9ad"
+ },
+ "2_218-220_r97": {
+  "creative": "Reel - 2:218-220 Al-Baqarah - ضرر المسكر ورعاية اليتيم - Dussary",
+  "import_id": "cmwq39g7z000v3cny0gd0eqw0",
+  "published_at": "2026-11-21T07:39:55+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwq3hn5u00yo0uo8s5lbp7a6",
+  "video_sha256": "40be892d8af999aaa06b89081e81f6babd8e901927203f646c7a50786e6cf02b"
+ },
+ "2_221-221_r97": {
+  "creative": "Reel - 2:221 Al-Baqarah - حكم الزواج بالمشركين - Dussary",
+  "import_id": "cmwq39g7z000v3cny0gd0eqw0",
+  "published_at": "2026-11-21T07:39:55+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwq3hu7l00z20uo84ijfm12z",
+  "video_sha256": "8cfeab97dde68f483f8aa813d0b6195bf7146abbd318dce5ea20ed06bbecfef3"
+ },
+ "2_222-226_r97": {
+  "creative": "Reel - 2:222-226 Al-Baqarah - الطهارة والأيمان والإيلاء - Dussary",
+  "import_id": "cmwq39g7z000v3cny0gd0eqw0",
+  "published_at": "2026-11-21T07:39:55+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwq3hz1600zg0uo8gd02n5x7",
+  "video_sha256": "24e2fe1c6a3f1086a3d122af18704bc1949b4956e7aff91e3c5cd2fa5f6c5aed"
+ },
+ "2_227-228_r97": {
+  "creative": "Reel - 2:227-228 Al-Baqarah - العدة وحقوق الزوجين - Dussary",
+  "import_id": "cmwq39g7z000v3cny0gd0eqw0",
+  "published_at": "2026-11-21T07:39:55+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwq3iade00zu0uo8mbc36yse",
+  "video_sha256": "0b6b823e33d3b57da93e6b3f10390dee4f7f3d1ac40bb992cfcf4c51d2bfe8b2"
+ },
+ "2_229-230_r97": {
+  "creative": "Reel - 2:229-230 Al-Baqarah - حدود الطلاق - Dussary",
+  "import_id": "cmwq39g7z000v3cny0gd0eqw0",
+  "published_at": "2026-11-21T07:39:55+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwq3iefc01080uo8s1t5j9c3",
+  "video_sha256": "9430e482bf2bcb03547eff4863d069e47e03728277809db54023f4647d36e9c6"
+ },
+ "2_231-232_r97": {
+  "creative": "Reel - 2:231-232 Al-Baqarah - المراجعة دون إضرار - Dussary",
+  "import_id": "cmwq39g7z000v3cny0gd0eqw0",
+  "published_at": "2026-11-21T07:39:55+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwq3iuip010m0uo8zp93hwqx",
+  "video_sha256": "adbc58285eacf4f29447993541238355f828b7dd55525f0d248ab1d25c62be2f"
+ },
+ "2_233-233_r97": {
+  "creative": "Reel - 2:233 Al-Baqarah - الإرضاع والنفقة - Dussary",
+  "import_id": "cmwq39g7z000v3cny0gd0eqw0",
+  "published_at": "2026-11-21T07:39:55+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwq3j13d01100uo8zu3kurcs",
+  "video_sha256": "494fd842047774fd3ef6e3bdddca286f114469eb0ba840c21fabc82113fa3b31"
+ },
+ "2_234-235_r97": {
+  "creative": "Reel - 2:234-235 Al-Baqarah - عدة الوفاة - Dussary",
+  "import_id": "cmwq39g7z000v3cny0gd0eqw0",
+  "published_at": "2026-11-21T07:39:55+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwq3j527011e0uo87w7hbd4y",
+  "video_sha256": "d992786eebcf2acd57a41987a8e29ef2292793cfc7c44f45991660ba7d4c5d24"
+ },
+ "2_236-237_r97": {
+  "creative": "Reel - 2:236-237 Al-Baqarah - المهر قبل الدخول - Dussary",
+  "import_id": "cmwq39g7z000v3cny0gd0eqw0",
+  "published_at": "2026-11-21T07:39:55+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwq3j9gf011s0uo8kkck46o5",
+  "video_sha256": "aeb7f3de28cfa97f27ffd9079f64bf3056ad2576f21b2331961fd2ef2eafc332"
+ },
+ "2_238-242_r97": {
+  "creative": "Reel - 2:238-242 Al-Baqarah - المحافظة على الصلاة - Dussary",
+  "import_id": "cmwq39g7z000v3cny0gd0eqw0",
+  "published_at": "2026-11-21T07:39:55+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwq3jdy401260uo8oiiysezg",
+  "video_sha256": "d0a69832b482e74d4f9ac8b282100f31eae92e7ba947e251c121a95b5e8c32b6"
  },
  "2_24-25_r97": {
   "creative": "Reel - 2:24-25 Al-Baqarah - جزاء الفريقين - Dussary",
@@ -495,6 +615,38 @@
   "url": "https://creatives.abdocloud.com/creatives/cmwpyt95300m70uo8abxbm043",
   "video_sha256": "3b5c192a32cb1667bba77cd2f45d48a239bc6ecca0e82827ca6f0f0ccbdcebb5"
  },
+ "2_246-247_r97": {
+  "creative": "Reel - 2:246-247 Al-Baqarah - اختيار طالوت - Dussary",
+  "import_id": "cmwq39g7z000v3cny0gd0eqw0",
+  "published_at": "2026-11-21T07:39:55+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwq3jj71012k0uo8fsjhxvi6",
+  "video_sha256": "1a6cc8eafbdac763dbd69d1a89ceafd8c4be302714481485160f62dc3a067fcc"
+ },
+ "2_248-249_r97": {
+  "creative": "Reel - 2:248-249 Al-Baqarah - تابوت السكينة والنهر - Dussary",
+  "import_id": "cmwq39g7z000v3cny0gd0eqw0",
+  "published_at": "2026-11-21T07:39:55+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwq3jv9e012y0uo8pggujvmm",
+  "video_sha256": "a351275e657ec46c39a51c803a2602c401603ac73d5aaa1ee4510cde63a44727"
+ },
+ "2_257-257_r97": {
+  "creative": "Reel - 2:257 Al-Baqarah - نور الإيمان وظلمة الكفر - Dussary",
+  "import_id": "cmwq39g7z000v3cny0gd0eqw0",
+  "published_at": "2026-11-21T07:39:55+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwq3k13e013c0uo8j7ebafpa",
+  "video_sha256": "fa46c78bd3612c2fa0b99eff7b7f271b7823117c936f9c7141a8ca1a29a21a26"
+ },
+ "2_259-259_r97": {
+  "creative": "Reel - 2:259 Al-Baqarah - إحياء بعد قرن - Dussary",
+  "import_id": "cmwq39g7z000v3cny0gd0eqw0",
+  "published_at": "2026-11-21T07:39:55+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwq3k4i7013q0uo8sv6xsuap",
+  "video_sha256": "06299cb234c71d61836acd8848d20b28a53f4d05c1dc51ef3b2a59d651f2bf24"
+ },
  "2_26-29_r97": {
   "creative": "Reel - 2:26-29 Al-Baqarah - حكمة الأمثال وآية الخلق - Dussary",
   "import_id": "cmwq13gbp000q3cnypy1tpwde",
@@ -502,6 +654,54 @@
   "status": "DRAFT (needs human review)",
   "url": "https://creatives.abdocloud.com/creatives/cmwq1cu9z00p00uo86qz2w55i",
   "video_sha256": "ab01b6f0d0c873ac0ffb1e95eda20be1572a2faded96eed414a673997abb077a"
+ },
+ "2_261-263_r97": {
+  "creative": "Reel - 2:261-263 Al-Baqarah - مضاعفة أجر المنفقين - Dussary",
+  "import_id": "cmwq39g7z000v3cny0gd0eqw0",
+  "published_at": "2026-11-21T07:39:55+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwq3k95a01450uo8143eiwex",
+  "video_sha256": "1cada73cf32e8c1e1ecc98ee11d09a3fefe4f0fff78952beab4c33294971cc71"
+ },
+ "2_264-265_r97": {
+  "creative": "Reel - 2:264-265 Al-Baqarah - مبطلات الصدقة - Dussary",
+  "import_id": "cmwq39g7z000v3cny0gd0eqw0",
+  "published_at": "2026-11-21T07:39:55+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwq3kfzq014j0uo8trb912iy",
+  "video_sha256": "1d59aa1c6861e9212a48c3286b804bb02130d2badab6754b5ceeee27e4ff9c64"
+ },
+ "2_266-267_r97": {
+  "creative": "Reel - 2:266-267 Al-Baqarah - البستان المحترق - Dussary",
+  "import_id": "cmwq39g7z000v3cny0gd0eqw0",
+  "published_at": "2026-11-21T07:39:55+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwq3kr3f014y0uo87xlmmxaa",
+  "video_sha256": "fc6fa868985ff014aa25c6bd85e3f86b8afcf4c4b41beb6a780587fa527bf632"
+ },
+ "2_268-271_r97": {
+  "creative": "Reel - 2:268-271 Al-Baqarah - الحكمة والصدقة - Dussary",
+  "import_id": "cmwq39g7z000v3cny0gd0eqw0",
+  "published_at": "2026-11-21T07:39:55+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwq3kvq2015c0uo85lhqe2r3",
+  "video_sha256": "250d2ec8c0423f6c57bdd2e4467a5e82762352eb4e06f71c90f746ccebbc176a"
+ },
+ "2_272-273_r97": {
+  "creative": "Reel - 2:272-273 Al-Baqarah - الفقراء المتعففون - Dussary",
+  "import_id": "cmwq39g7z000v3cny0gd0eqw0",
+  "published_at": "2026-11-21T07:39:55+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwq3l0tg015q0uo81lkw81g3",
+  "video_sha256": "4a74ce54d7715c0dde654ef75cf3dd3288943495aa3021ae16fb9b9d08810911"
+ },
+ "2_274-274_r97": {
+  "creative": "Reel - 2:274 Al-Baqarah - إنفاق في كل حال - Dussary",
+  "import_id": "cmwq39g7z000v3cny0gd0eqw0",
+  "published_at": "2026-11-21T07:39:55+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwq3l58z01640uo8n90djo31",
+  "video_sha256": "b6f98ff2472abad7c3089d299495e6401689bde76e2a5979e5a7142b61b42756"
  },
  "2_30-31_r97": {
   "creative": "Reel - 2:30-31 Al-Baqarah - استخلاف آدم - Dussary",
