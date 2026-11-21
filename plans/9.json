@@ -14,16 +14,16 @@
  ],
  "groups": [
   {
-   "title_ar": "البراءة والعهود",
-   "title_en": "Disavowal and treaties",
+   "title_ar": "العهود والمواثيق",
+   "title_en": "Treaties and covenants",
    "from": 1,
    "to": 16,
    "videos": [
     {
      "from": 1,
      "to": 3,
-     "title_ar": "إعلان البراءة",
-     "title_en": "The declaration",
+     "title_ar": "إعلان يوم النحر",
+     "title_en": "The announcement on the day of sacrifice",
      "visual": "ambient",
      "care": "Fighting verse: only what both tafsirs say, with their restrictions; no battle, weapon or killing drawn; no present-day reading or people targeted.",
      "est_s": 78
@@ -31,8 +31,8 @@
     {
      "from": 4,
      "to": 4,
-     "title_ar": "الوفاء للمعاهدين",
-     "title_en": "Keeping faith with treaty partners",
+     "title_ar": "الإسلام والوفاء",
+     "title_en": "Islam keeps its word",
      "visual": "ambient",
      "care": "",
      "est_s": 40
@@ -40,8 +40,8 @@
     {
      "from": 5,
      "to": 6,
-     "title_ar": "الأشهر الحرم والأمان",
-     "title_en": "The sacred months and safe conduct",
+     "title_ar": "انقضاء المهلة والأمان",
+     "title_en": "The term ends; safe conduct remains",
      "visual": "ambient",
      "care": "Fighting verse: only what both tafsirs say, with their restrictions; no battle, weapon or killing drawn; no present-day reading or people targeted.",
      "est_s": 50
@@ -58,7 +58,7 @@
     {
      "from": 10,
      "to": 12,
-     "title_ar": "ناقضو الأيمان",
+     "title_ar": "نقض المواثيق",
      "title_en": "The oath breakers",
      "visual": "ambient",
      "care": "Fighting verse: only what both tafsirs say, with their restrictions; no battle, weapon or killing drawn; no present-day reading or people targeted.",
@@ -67,8 +67,8 @@
     {
      "from": 13,
      "to": 16,
-     "title_ar": "عاقبة نكث العهود",
-     "title_en": "The end of broken oaths",
+     "title_ar": "تمييز الصادقين",
+     "title_en": "Sorting out the truthful",
      "visual": "ambient",
      "care": "Fighting verse: only what both tafsirs say, with their restrictions; no battle, weapon or killing drawn; no present-day reading or people targeted.",
      "est_s": 95
