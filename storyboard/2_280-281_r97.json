@@ -88,10 +88,17 @@
      {
       "at": [
        280,
-       7
+       6
       ],
       "do": "shot_close",
       "who": "d"
+     },
+     {
+      "at": [
+       280,
+       8
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -312,7 +319,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "JOINED after 280 is inside the video. The Day of return (281) gets only an hourglass, no scales and nothing literal. STAGING v4: 280: a creditor and a debtor in hardship in the market: he grants him time (speaks, hourglass) and, on «وأن تصدقوا», gives (remits). 281 (the Day of return, the reckoning) stays ambient: the hourglass now leaves before the Name; a light plate afterwards (no scales)."
+  "notes": "JOINED after 280 is inside the video. The Day of return (281) gets only an hourglass, no scales and nothing literal. STAGING v4: 280: a creditor and a debtor in hardship in the market: he grants him time (speaks, hourglass) and, on «وأن تصدقوا», gives (remits). 281 (the Day of return, the reckoning) stays ambient: the hourglass now leaves before the Name; a light plate afterwards (no scales). STAGING v4: 280: a creditor and a debtor in hardship in the market: he grants him time (speaks, hourglass) and, on «وأن تصدقوا», gives (remits). 281 (the Day of return, the reckoning) stays ambient: the hourglass now leaves before the Name; a light plate afterwards (no scales)."
  },
  "cover": {
   "series_ar": "الربا",

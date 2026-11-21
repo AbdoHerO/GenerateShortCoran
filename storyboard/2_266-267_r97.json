@@ -56,15 +56,10 @@
        266,
        25
       ],
-      "until": null
-     },
-     {
-      "type": "fire",
-      "at": [
+      "until": [
        266,
-       27
-      ],
-      "until": null
+       29
+      ]
      },
      {
       "type": "wither",
@@ -479,7 +474,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No river motif (the phrase recalls Paradise) and no fire motif: wind for the whirlwind. The parable's application is not glossed: Al-Muyassar (insincere spending) and As-Sa'di (good deeds later spoiled) differ. STAGING v4: 266: the parable's garden (palms, vines, a river); the owner sits down on «الكبر» (weakness of age); the weak children are not drawn (no child figure). The whirlwind with fire is the storm and fire events on the garden, away from him, then the garden withers on «فاحترقت»; he lowers his head (grief, As-Sa'di). The parable's application (where the tafsirs differ) is not acted. 267: in the market a man gives of the good produce; he shakes his head on «ولا تيمموا الخبيث»."
+  "notes": "No river motif (the phrase recalls Paradise) and no fire motif: wind for the whirlwind. The parable's application is not glossed: Al-Muyassar (insincere spending) and As-Sa'di (good deeds later spoiled) differ. STAGING v4: 266: the parable's garden (palms, vines, a river); the owner sits down on «الكبر» (weakness of age); the weak children are not drawn (no child figure). The whirlwind with fire is the storm and fire events on the garden, away from him, then the garden withers on «فاحترقت»; he lowers his head (grief, As-Sa'di). The parable's application (where the tafsirs differ) is not acted. 267: in the market a man gives of the good produce; he shakes his head on «ولا تيمموا الخبيث». STAGING v4: 266: the parable's garden (palms, vines, a river); the owner sits down on «الكبر» (weakness of age); the weak children are not drawn (no child figure). The whirlwind is a storm event on the garden (no flames drawn: they would stand next to the owner and stay on screen at the Name), then the garden is destroyed on «فاحترقت»; he lowers his head (grief, As-Sa'di). The parable's application (where the tafsirs differ) is not acted. 267: in the market a man gives of the good produce; he shakes his head on «ولا تيمموا الخبيث»."
  },
  "cover": {
   "series_ar": "فضل الإنفاق وآدابه",
