@@ -28,41 +28,279 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة البقرة",
+   "title": "أدب الخطاب",
    "verses": [
     104
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "light",
+    "beats": [
+     {
+      "at": [
+       104,
+       4
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       104,
+       8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       104,
+       11
+      ],
+      "do": "pan_left"
+     }
+    ],
+    "motifs": []
    }
   },
   {
    "id": "c2",
-   "title": "سورة البقرة",
+   "title": "حسد على الخير",
    "verses": [
     105
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       105,
+       4
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       105,
+       8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       105,
+       11
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       105,
+       18
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       105,
+       21
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       105,
+       22
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       105,
+       24
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       105,
+       25
+      ],
+      "do": "pan_left"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       105,
+       14
+      ],
+      "until": null,
+      "motif": "burst",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "wipe"
    }
   },
   {
    "id": "c3",
-   "title": "سورة البقرة",
+   "title": "حكمة النسخ",
    "verses": [
     106
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light"
+    "mood": "geometric",
+    "beats": [
+     {
+      "at": [
+       106,
+       7
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       106,
+       9
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       106,
+       12
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       106,
+       18
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       106,
+       4
+      ],
+      "until": null,
+      "motif": "scroll",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "page_turn"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 104,
+   "words": [
+    6,
+    6
+   ],
+   "tafsir": 16,
+   "excerpt": "يقصدون سبَّه ونسبته إلى الرعونة",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 104,
+   "words": [
+    8,
+    8
+   ],
+   "tafsir": 16,
+   "excerpt": "انظر إلينا وتعهَّدْنا",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 104,
+   "words": [
+    11,
+    12
+   ],
+   "tafsir": 16,
+   "excerpt": "عذاب موجع",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 105,
+   "words": [
+    14,
+    14
+   ],
+   "tafsir": 16,
+   "excerpt": "قرآنًا أو علمًا، أو نصرًا أو بشارة",
+   "target": "motif",
+   "tone": "green"
+  },
+  {
+   "verse": 105,
+   "words": [
+    19,
+    19
+   ],
+   "tafsir": 16,
+   "excerpt": "بالنبوة والرسالة",
+   "target": "",
+   "tone": "amber"
+  },
+  {
+   "verse": 105,
+   "words": [
+    23,
+    25
+   ],
+   "tafsir": 16,
+   "excerpt": "العطاء الكثير الواسع",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 106,
+   "words": [
+    8,
+    9
+   ],
+   "tafsir": 16,
+   "excerpt": "بأنفع لكم منها",
+   "target": "motif",
+   "tone": "green"
+  },
+  {
+   "verse": 106,
+   "words": [
+    10,
+    11
+   ],
+   "tafsir": 16,
+   "excerpt": "في التكليف والثواب، ولكلٍ حكمة",
+   "target": "",
+   "tone": "blue"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "Al-Muyassar paraphrases 106 in Allah's first person: only the neutral parts were taken. No motif on Allah's mercy or favour (105)."
+ },
+ "cover": {
+  "series_ar": "النسخ والحسد",
+  "series_en": "Abrogation and envy",
+  "title_ar": "النسخ وحكمته",
+  "title_en": "Abrogation and its wisdom",
+  "at": [
+   106,
+   4
+  ]
+ },
+ "motion": 3
 }

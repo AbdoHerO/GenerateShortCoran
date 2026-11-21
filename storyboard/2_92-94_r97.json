@@ -28,41 +28,252 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة البقرة",
+   "title": "العجل والعصيان",
    "verses": [
-    92
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "dawn"
-   }
-  },
-  {
-   "id": "c2",
-   "title": "سورة البقرة",
-   "verses": [
+    92,
     93
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       92,
+       2
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       92,
+       8
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       92,
+       11
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       93,
+       3
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       93,
+       11
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       93,
+       13
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       93,
+       15
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       93,
+       19
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       93,
+       22
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       93,
+       24
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       93,
+       26
+      ],
+      "do": "push_in"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       92,
+       4
+      ],
+      "until": null,
+      "motif": "burst",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       93,
+       6
+      ],
+      "until": null,
+      "motif": "mountain",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       93,
+       9
+      ],
+      "until": null,
+      "motif": "book",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
-   "id": "c3",
-   "title": "سورة البقرة",
+   "id": "c2",
+   "title": "اختبار الدعوى",
    "verses": [
     94
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light"
+    "mood": "geometric",
+    "beats": [
+     {
+      "at": [
+       94,
+       9
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       94,
+       13
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       94,
+       14
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       94,
+       15
+      ],
+      "do": "pan_left"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       94,
+       6
+      ],
+      "until": null,
+      "motif": "hourglass",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "iris"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 92,
+   "words": [
+    4,
+    4
+   ],
+   "tafsir": 16,
+   "excerpt": "بالمعجزات الواضحات الدالة على صدقه",
+   "target": "motif",
+   "tone": "green"
+  },
+  {
+   "verse": 92,
+   "words": [
+    11,
+    11
+   ],
+   "tafsir": 16,
+   "excerpt": "متجاوزون حدود الله",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 93,
+   "words": [
+    15,
+    18
+   ],
+   "tafsir": 16,
+   "excerpt": "لأن عبادة العجل قد امتزجت بقلوبكم",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 94,
+   "words": [
+    9,
+    9
+   ],
+   "tafsir": 16,
+   "excerpt": "لليهود الذين يدَّعون أن الجنة خاصة بهم",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 94,
+   "words": [
+    13,
+    14
+   ],
+   "tafsir": 16,
+   "excerpt": "فادْعُوا على الكاذبين منكم أو من غيركم بالموت",
+   "target": "",
+   "tone": "amber"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "No idol drawn. Their claim (94) is glossed with «يدّعون» (they claim). The mountain is a symbol, never a scene over people."
+ },
+ "cover": {
+  "series_ar": "موقفهم من الرسل",
+  "series_en": "Their stance toward the messengers",
+  "title_ar": "حب العجل",
+  "title_en": "The love of the calf",
+  "at": [
+   93,
+   6
+  ]
+ },
+ "motion": 3
 }

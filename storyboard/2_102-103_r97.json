@@ -28,30 +28,230 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة البقرة",
+   "title": "السحر وعاقبته",
    "verses": [
     102
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       102,
+       7
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       102,
+       12
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       102,
+       15
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       102,
+       20
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       102,
+       23
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       102,
+       29
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       102,
+       31
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       102,
+       34
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       102,
+       37
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       102,
+       43
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       102,
+       46
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       102,
+       51
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       102,
+       52
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       102,
+       56
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       102,
+       59
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       102,
+       66
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       102,
+       70
+      ],
+      "do": "pan_left"
+     }
+    ],
+    "motifs": []
    }
   },
   {
    "id": "c2",
-   "title": "سورة البقرة",
+   "title": "ثواب الإيمان",
    "verses": [
     103
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "light",
+    "beats": [
+     {
+      "at": [
+       103,
+       9
+      ],
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       103,
+       5
+      ],
+      "until": null,
+      "motif": "burst",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "light_sweep"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 102,
+   "words": [
+    14,
+    16
+   ],
+   "tafsir": 16,
+   "excerpt": "إفسادًا لدينهم",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 102,
+   "words": [
+    32,
+    32
+   ],
+   "tafsir": 16,
+   "excerpt": "امتحانًا وابتلاء من الله لعباده",
+   "target": "",
+   "tone": "amber"
+  },
+  {
+   "verse": 102,
+   "words": [
+    38,
+    38
+   ],
+   "tafsir": 16,
+   "excerpt": "ما يُحْدِثون به الكراهية بين الزوجين",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 103,
+   "words": [
+    5,
+    9
+   ],
+   "tafsir": 16,
+   "excerpt": "ما يحصل بالإيمان والتقوى من الثواب والجزاء",
+   "target": "motif",
+   "tone": "green"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "Harut and Marut, the devils, Sulayman and magic are never drawn and get no motif; no gloss takes a side on who Harut and Marut were."
+ },
+ "cover": {
+  "series_ar": "جبريل والسحر",
+  "series_en": "Jibril and magic",
+  "title_ar": "تعلم السحر",
+  "title_en": "The learning of magic",
+  "at": [
+   103,
+   5
+  ]
+ },
+ "motion": 3
 }

@@ -28,30 +28,178 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة البقرة",
+   "title": "الحرص على الحياة",
    "verses": [
-    95
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "dawn"
-   }
-  },
-  {
-   "id": "c2",
-   "title": "سورة البقرة",
-   "verses": [
+    95,
     96
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       95,
+       3
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       95,
+       6
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       95,
+       9
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       96,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       96,
+       4
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       96,
+       6
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       96,
+       10
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       96,
+       15
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       96,
+       18
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       96,
+       21
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       96,
+       23
+      ],
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       96,
+       13
+      ],
+      "until": null,
+      "motif": "hourglass",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 95,
+   "words": [
+    1,
+    3
+   ],
+   "tafsir": 16,
+   "excerpt": "ولن يفعلوا ذلك أبدًا",
+   "target": "",
+   "tone": "amber"
+  },
+  {
+   "verse": 95,
+   "words": [
+    4,
+    6
+   ],
+   "tafsir": 16,
+   "excerpt": "بسبب ما ارتكبوه من الكفر والعصيان",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 96,
+   "words": [
+    2,
+    3
+   ],
+   "tafsir": 16,
+   "excerpt": "أشد الناس رغبة في طول الحياة",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 96,
+   "words": [
+    17,
+    17
+   ],
+   "tafsir": 16,
+   "excerpt": "ولا يُبْعده هذا العمر الطويل -إن حصل- من عذاب الله",
+   "target": "motif",
+   "tone": "red"
+  },
+  {
+   "verse": 96,
+   "words": [
+    22,
+    23
+   ],
+   "tafsir": 16,
+   "excerpt": "لا يخفى عليه شيء من أعمالهم",
+   "target": "",
+   "tone": "amber"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "One chapter; the hourglass on «ألف سنة»."
+ },
+ "cover": {
+  "series_ar": "موقفهم من الرسل",
+  "series_en": "Their stance toward the messengers",
+  "title_ar": "الحرص على الحياة",
+  "title_en": "Clinging to life",
+  "at": [
+   96,
+   13
+  ]
+ },
+ "motion": 3
 }

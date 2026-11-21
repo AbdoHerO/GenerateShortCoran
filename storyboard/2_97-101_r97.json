@@ -28,63 +28,365 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة البقرة",
+   "title": "من عادى جبريل",
    "verses": [
-    97
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "dawn"
-   }
-  },
-  {
-   "id": "c2",
-   "title": "سورة البقرة",
-   "verses": [
+    97,
     98
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "light",
+    "beats": [
+     {
+      "at": [
+       97,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       97,
+       10
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       97,
+       13
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       97,
+       15
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       97,
+       18
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       98,
+       1
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       98,
+       4
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       98,
+       6
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       98,
+       8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       98,
+       10
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       98,
+       12
+      ],
+      "do": "push_in"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       97,
+       7
+      ],
+      "until": null,
+      "motif": "book",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       97,
+       16
+      ],
+      "until": null,
+      "motif": "lamp",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
-   "id": "c3",
-   "title": "سورة البقرة",
+   "id": "c2",
+   "title": "نبذ العهود",
    "verses": [
-    99
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "light"
-   }
-  },
-  {
-   "id": "c4",
-   "title": "سورة البقرة",
-   "verses": [
-    100
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "night_sky"
-   }
-  },
-  {
-   "id": "c5",
-   "title": "سورة البقرة",
-   "verses": [
+    99,
+    100,
     101
    ],
    "scene": "ambient",
    "params": {
-    "mood": "mountains"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       99,
+       5
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       99,
+       8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       99,
+       10
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       100,
+       1
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       100,
+       6
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       100,
+       10
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       101,
+       2
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       101,
+       3
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       101,
+       7
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       101,
+       10
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       101,
+       12
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       101,
+       17
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       101,
+       20
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       99,
+       4
+      ],
+      "until": null,
+      "motif": "burst",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       100,
+       3
+      ],
+      "until": [
+       100,
+       5
+      ],
+      "motif": "seal",
+      "place": "top",
+      "size": "m",
+      "exit": "undraw"
+     }
+    ],
+    "transition": "slide"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 97,
+   "words": [
+    4,
+    5
+   ],
+   "tafsir": 16,
+   "excerpt": "حين قالوا: إن جبريل هو عدونا من الملائكة",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 97,
+   "words": [
+    12,
+    15
+   ],
+   "tafsir": 16,
+   "excerpt": "لما سبقه من كتب الله",
+   "target": "motif",
+   "tone": "blue"
+  },
+  {
+   "verse": 97,
+   "words": [
+    16,
+    18
+   ],
+   "tafsir": 16,
+   "excerpt": "وهاديًا إلى الحق، ومبشرًا للمصدِّقين به بكل خير",
+   "target": "motif",
+   "tone": "green"
+  },
+  {
+   "verse": 98,
+   "words": [
+    6,
+    6
+   ],
+   "tafsir": 16,
+   "excerpt": "ورسله من الملائكة أو البشر",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 98,
+   "words": [
+    8,
+    8
+   ],
+   "tafsir": 16,
+   "excerpt": "لأن اليهود زعموا أن جبريل عدوهم، وميكال وليُّهم",
+   "target": "",
+   "tone": "amber"
+  },
+  {
+   "verse": 99,
+   "words": [
+    5,
+    5
+   ],
+   "tafsir": 16,
+   "excerpt": "واضحات تدل على أنّك رسول",
+   "target": "motif",
+   "tone": "green"
+  },
+  {
+   "verse": 99,
+   "words": [
+    10,
+    10
+   ],
+   "tafsir": 16,
+   "excerpt": "الخارجون عن دين الله",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 100,
+   "words": [
+    4,
+    4
+   ],
+   "tafsir": 16,
+   "excerpt": "طرح ذلك العهد",
+   "target": "motif",
+   "tone": "red"
+  },
+  {
+   "verse": 101,
+   "words": [
+    20,
+    22
+   ],
+   "tafsir": 16,
+   "excerpt": "شأنهم شأن الجهال",
+   "target": "",
+   "tone": "red"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "Jibril and Mikail are angels: never drawn, no motif. The Book thrown behind their backs (101) is never pictured."
+ },
+ "cover": {
+  "series_ar": "جبريل والسحر",
+  "series_en": "Jibril and magic",
+  "title_ar": "من عادى جبريل",
+  "title_en": "Enmity to Jibril",
+  "at": [
+   97,
+   7
+  ]
+ },
+ "motion": 3
 }
