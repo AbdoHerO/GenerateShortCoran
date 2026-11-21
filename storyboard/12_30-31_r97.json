@@ -69,7 +69,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "night_sky",
+    "mood": "geometric",
     "beats": [
      {
       "at": [
@@ -150,7 +150,7 @@
       "size": "m"
      }
     ],
-    "transition": "dissolve"
+    "transition": "page_turn"
    }
   }
  ],

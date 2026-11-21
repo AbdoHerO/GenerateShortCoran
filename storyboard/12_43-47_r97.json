@@ -262,7 +262,7 @@
       "size": "m"
      }
     ],
-    "transition": "dissolve"
+    "transition": "page_turn"
    }
   }
  ],
@@ -410,8 +410,8 @@
   "title_ar": "تعبير الحلم",
   "title_en": "Interpreting the dream",
   "at": [
-   47,
-   2
+   45,
+   6
   ]
  },
  "motion": 3

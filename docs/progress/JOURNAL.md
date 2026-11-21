@@ -1108,3 +1108,19 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
 - **Ibrahim:** 17.8 minutes recited. The text is identical to Tanzil. Short-word flags at 22 and 31.
   - 19 JOINED boundaries; 43-52 is one 181 s unit, kept long as in 3:102-108 and 7:47-53.
   - 14 videos planned. All have base storyboards and cut-check clean.
+
+### Yusuf motif review applied (2026-11-21)
+
+- 1 SERIOUS, 6 MINOR, all applied; optional motion and transition fixes too.
+- SERIOUS: the 5-6 cover was the crescent moon and stars under «بداية الرؤيا». It read as Yusuf's dream drawn. That
+  chapter is now geometric.
+- MINOR:
+  - Covers:
+    - 43-47: wheat under «تعبير الحلم» → the hourglass frame.
+    - 86-89: a light plate frozen on «الله» under «الأمل في الله» → the geometric frame.
+  - 7:6 burst after «وإخوته» (the brothers are the dream's stars) → book.
+  - The night sky with a moon over the temptation passages (25, 31, 32) → geometric.
+  - 108 light mood pulsing on the Prophet's ﷺ «أنا» → geometric.
+- Transitions now vary: page_turn, slide and morph on eight chapters.
+- Lesson: in a story about a dream of stars and a moon, the night_sky mood itself is a picture of the dream. Keep it
+  away from the dream, its covers and the brothers.

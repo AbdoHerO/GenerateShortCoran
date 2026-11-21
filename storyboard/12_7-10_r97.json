@@ -51,7 +51,7 @@
        6
       ],
       "until": null,
-      "motif": "burst",
+      "motif": "book",
       "place": "top",
       "size": "m"
      }
@@ -177,7 +177,7 @@
      }
     ],
     "motifs": [],
-    "transition": "dissolve"
+    "transition": "page_turn"
    }
   }
  ],
@@ -339,7 +339,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A burst for «آيات للسائلين» (after Yusuf's name). The plot (8-10) has no plate: no killing, well, child or caravan drawn. Their charge «إن أبانا لفي ضلال مبين» keeps As-Sa'di's «من غير موجب نراه» (their view, in their words). 9:10-14 shows As-Sa'di's «فقدموا العزم على التوبة قبل صدور الذنب منهم تسهيلا لفعله», so their «قوما صالحين» is not read as praise."
+  "notes": "A book for «آيات للسائلين» (after Yusuf's name; a gold burst could read as the stars of the dream). The plot (8-10) has no plate: no killing, well, child or caravan drawn. Their charge «إن أبانا لفي ضلال مبين» keeps As-Sa'di's «من غير موجب نراه» (their view, in their words). 9:10-14 shows As-Sa'di's «فقدموا العزم على التوبة قبل صدور الذنب منهم تسهيلا لفعله», so their «قوما صالحين» is not read as praise."
  },
  "cover": {
   "series_ar": "كيد الإخوة",

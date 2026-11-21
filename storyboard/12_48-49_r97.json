@@ -108,7 +108,7 @@
       "size": "m"
      }
     ],
-    "transition": "dissolve"
+    "transition": "morph"
    }
   }
  ],

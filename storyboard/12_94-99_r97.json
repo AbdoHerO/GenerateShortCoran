@@ -134,13 +134,16 @@
        96,
        15
       ],
-      "until": null,
+      "until": [
+       96,
+       18
+      ],
       "motif": "geometric",
       "place": "top",
       "size": "m"
      }
     ],
-    "transition": "dissolve"
+    "transition": "page_turn"
    }
   },
   {

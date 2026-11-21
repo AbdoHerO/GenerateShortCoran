@@ -108,7 +108,7 @@
       ],
       "until": [
        87,
-       12
+       13
       ],
       "motif": "light",
       "place": "top",
@@ -326,8 +326,8 @@
   "title_ar": "الأمل في الله",
   "title_en": "Hope in Allah",
   "at": [
-   87,
-   10
+   86,
+   6
   ]
  },
  "motion": 3
