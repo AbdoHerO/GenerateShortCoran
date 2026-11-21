@@ -91,7 +91,7 @@
   },
   {
    "id": "c2",
-   "title": "الأيمان",
+   "title": "الأيمان والإيلاء",
    "verses": [
     224,
     225,
@@ -240,7 +240,7 @@
    ],
    "tafsir": 16,
    "excerpt": "حلفكم بالله مانعًا لكم من البر وصلة الرحم",
-   "target": "motif",
+   "target": "",
    "tone": "amber"
   },
   {
@@ -282,9 +282,9 @@
     9,
     9
    ],
-   "tafsir": 16,
-   "excerpt": "رجعوا قبل فوات الأشهر الأربعة",
-   "target": "motif",
+   "tafsir": 91,
+   "excerpt": "رجعوا إلى ما حلفوا على تركه",
+   "target": "",
    "tone": "green"
   }
  ],
@@ -296,7 +296,7 @@
   "series_ar": "أحكام الأسرة",
   "series_en": "Family rulings",
   "title_ar": "الأيمان والإيلاء",
-  "title_en": "Oaths",
+  "title_en": "Oaths and the vow of abstention",
   "at": [
    224,
    5

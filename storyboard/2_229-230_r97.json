@@ -149,7 +149,7 @@
        3
       ],
       "until": null,
-      "motif": "two_paths",
+      "motif": "scales",
       "place": "top",
       "size": "m"
      }
@@ -227,7 +227,7 @@
      {
       "at": [
        230,
-       10
+       9
       ],
       "until": null,
       "motif": "house",
@@ -265,7 +265,7 @@
   {
    "verse": 229,
    "words": [
-    12,
+    8,
     14
    ],
    "tafsir": 16,

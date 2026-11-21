@@ -775,7 +775,7 @@
      "from": 197,
      "to": 198,
      "title_ar": "أشهر الحج والتزود",
-     "title_en": "The months of Hajj; the best provision",
+     "title_en": "The months of Hajj and provision",
      "visual": "ambient",
      "care": "",
      "est_s": 69
@@ -792,8 +792,8 @@
     {
      "from": 202,
      "to": 203,
-     "title_ar": "الأيام المعدودات",
-     "title_en": "The counted days",
+     "title_ar": "أيام التشريق",
+     "title_en": "The days of Tashriq",
      "visual": "ambient",
      "care": "",
      "est_s": 55
@@ -801,16 +801,16 @@
    ]
   },
   {
-   "title_ar": "المفسد والمخلص",
-   "title_en": "The corrupter and the sincere",
+   "title_ar": "بين الفساد والإخلاص",
+   "title_en": "Between corruption and sincerity",
    "from": 204,
    "to": 214,
    "videos": [
     {
      "from": 204,
      "to": 208,
-     "title_ar": "المفسد والمخلص",
-     "title_en": "The corrupter and the sincere",
+     "title_ar": "القول والفعل",
+     "title_en": "Word and deed",
      "visual": "ambient",
      "care": "",
      "est_s": 78
@@ -855,7 +855,7 @@
      "from": 217,
      "to": 217,
      "title_ar": "حرمة الأشهر",
-     "title_en": "The sacred month",
+     "title_en": "The sanctity of the months",
      "visual": "ambient",
      "care": "",
      "est_s": 71
@@ -863,8 +863,8 @@
     {
      "from": 218,
      "to": 220,
-     "title_ar": "تحريم المسكر ورعاية اليتيم",
-     "title_en": "Intoxicants, and caring for orphans",
+     "title_ar": "ضرر المسكر ورعاية اليتيم",
+     "title_en": "The harm of intoxicants; caring for orphans",
      "visual": "ambient",
      "care": "",
      "est_s": 86
@@ -880,8 +880,8 @@
     {
      "from": 221,
      "to": 222,
-     "title_ar": "نكاح المشركات",
-     "title_en": "Marrying idolaters",
+     "title_ar": "حكم الزواج بالمشركين",
+     "title_en": "The ruling on marrying idolaters",
      "visual": "ambient",
      "care": "",
      "est_s": 89
@@ -890,7 +890,7 @@
      "from": 223,
      "to": 226,
      "title_ar": "الأيمان والإيلاء",
-     "title_en": "Oaths",
+     "title_en": "Oaths and the vow of abstention",
      "visual": "ambient",
      "care": "",
      "est_s": 76
@@ -916,8 +916,8 @@
     {
      "from": 231,
      "to": 232,
-     "title_ar": "الإمساك بالمعروف",
-     "title_en": "Keep or part with kindness",
+     "title_ar": "المراجعة دون إضرار",
+     "title_en": "Taking back without harm",
      "visual": "ambient",
      "care": "",
      "est_s": 94
@@ -925,8 +925,8 @@
     {
      "from": 233,
      "to": 233,
-     "title_ar": "الرضاعة",
-     "title_en": "Nursing",
+     "title_ar": "الإرضاع والنفقة",
+     "title_en": "Nursing and maintenance",
      "visual": "ambient",
      "care": "",
      "est_s": 76
@@ -935,7 +935,7 @@
      "from": 234,
      "to": 235,
      "title_ar": "عدة الوفاة",
-     "title_en": "Widowhood",
+     "title_en": "The widow's waiting period",
      "visual": "ambient",
      "care": "",
      "est_s": 91

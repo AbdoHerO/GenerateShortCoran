@@ -28,7 +28,7 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "الإمساك بالمعروف",
+   "title": "المراجعة دون إضرار",
    "verses": [
     231
    ],
@@ -290,7 +290,7 @@
   {
    "verse": 232,
    "words": [
-    7,
+    6,
     7
    ],
    "tafsir": 16,
@@ -317,8 +317,8 @@
  "cover": {
   "series_ar": "أحكام الأسرة",
   "series_en": "Family rulings",
-  "title_ar": "الإمساك بالمعروف",
-  "title_en": "Keep or part with kindness",
+  "title_ar": "المراجعة دون إضرار",
+  "title_en": "Taking back without harm",
   "at": [
    231,
    6

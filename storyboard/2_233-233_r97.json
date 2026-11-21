@@ -28,7 +28,7 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "الرضاعة",
+   "title": "أحكام الإرضاع",
    "verses": [
     233
    ],
@@ -192,8 +192,8 @@
     14,
     15
    ],
-   "tafsir": 16,
-   "excerpt": "أن يكفُلوا للمرضعات المطلقات طعامهن وكسوتهن",
+   "tafsir": 91,
+   "excerpt": "على الأب رزقها, أي: نفقتها وكسوتها",
    "target": "motif",
    "tone": "green"
   }
@@ -205,8 +205,8 @@
  "cover": {
   "series_ar": "أحكام الأسرة",
   "series_en": "Family rulings",
-  "title_ar": "الرضاعة",
-  "title_en": "Nursing",
+  "title_ar": "الإرضاع والنفقة",
+  "title_en": "Nursing and maintenance",
   "at": [
    233,
    4

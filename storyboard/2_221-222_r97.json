@@ -141,7 +141,10 @@
        221,
        8
       ],
-      "until": null,
+      "until": [
+       221,
+       26
+      ],
       "motif": "house",
       "place": "top",
       "size": "m"
@@ -255,7 +258,7 @@
     15
    ],
    "tafsir": 16,
-   "excerpt": "ولا تُزَوِّجوا نساءكم المؤمنات",
+   "excerpt": "ولا تُزَوِّجوا نساءكم المؤمنات -إماء أو حرائر- للمشركين",
    "target": "",
    "tone": "amber"
   },
@@ -287,8 +290,8 @@
     16,
     16
    ],
-   "tafsir": 16,
-   "excerpt": "واغتسلن",
+   "tafsir": 91,
+   "excerpt": "اغتسلن",
    "target": "motif",
    "tone": "blue"
   }
@@ -300,8 +303,8 @@
  "cover": {
   "series_ar": "أحكام الأسرة",
   "series_en": "Family rulings",
-  "title_ar": "نكاح المشركات",
-  "title_en": "Marrying idolaters",
+  "title_ar": "حكم الزواج بالمشركين",
+  "title_en": "The ruling on marrying idolaters",
   "at": [
    221,
    8

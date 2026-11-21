@@ -184,33 +184,22 @@
   {
    "verse": 199,
    "words": [
-    2,
-    2
-   ],
-   "tafsir": 16,
-   "excerpt": "اندفاعكم من «عرفات»",
-   "target": "",
-   "tone": "amber"
-  },
-  {
-   "verse": 199,
-   "words": [
-    5,
+    3,
     6
    ],
-   "tafsir": 16,
-   "excerpt": "التي أفاض منها إبراهيم عليه السلام",
+   "tafsir": 91,
+   "excerpt": "من لدن إبراهيم عليه السلام إلى الآن",
    "target": "",
    "tone": "blue"
   },
   {
    "verse": 200,
    "words": [
-    3,
+    2,
     3
    ],
    "tafsir": 16,
-   "excerpt": "وفرغتم من أعمال الحج",
+   "excerpt": "فرغتم من أعمال الحج",
    "target": "",
    "tone": "blue"
   },

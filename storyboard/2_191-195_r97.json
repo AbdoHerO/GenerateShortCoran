@@ -275,36 +275,36 @@
     16
    ],
    "tafsir": 16,
-   "excerpt": "تعظيمًا لحرماته",
+   "excerpt": "تعظيمًا لحرماته حتى يبدؤوكم بالقتال فيه",
    "target": "",
    "tone": "green"
   },
   {
    "verse": 192,
    "words": [
-    2,
+    1,
     2
    ],
    "tafsir": 16,
-   "excerpt": "تركوا ما هم فيه من الكفر",
+   "excerpt": "فإن تركوا ما هم فيه من الكفر",
    "target": "",
    "tone": "green"
   },
   {
    "verse": 193,
    "words": [
-    5,
+    2,
     5
    ],
    "tafsir": 16,
-   "excerpt": "فتنة للمسلمين عن دينهم",
+   "excerpt": "فتنة للمسلمين عن دينهم ولا شرك بالله",
    "target": "",
    "tone": "amber"
   },
   {
    "verse": 193,
    "words": [
-    12,
+    11,
     15
    ],
    "tafsir": 16,
@@ -315,18 +315,18 @@
   {
    "verse": 194,
    "words": [
-    6,
+    5,
     6
    ],
-   "tafsir": 16,
-   "excerpt": "يعاقب بمثل فعله، ومن جنس عمله",
+   "tafsir": 91,
+   "excerpt": "فمن تجرأ عليها فإنه يقتص منه",
    "target": "",
    "tone": "amber"
   },
   {
    "verse": 195,
    "words": [
-    6,
+    5,
     9
    ],
    "tafsir": 16,
@@ -342,7 +342,7 @@
    ],
    "tafsir": 16,
    "excerpt": "أهل الإخلاص والإحسان",
-   "target": "motif",
+   "target": "",
    "tone": "green"
   }
  ],

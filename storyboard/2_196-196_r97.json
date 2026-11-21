@@ -159,6 +159,26 @@
       "motif": "geometric",
       "place": "top",
       "size": "m"
+     },
+     {
+      "at": [
+       196,
+       31
+      ],
+      "until": null,
+      "motif": "wheat",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       196,
+       48
+      ],
+      "until": null,
+      "motif": "moon",
+      "place": "top",
+      "size": "m"
      }
     ]
    }
@@ -179,7 +199,7 @@
   {
    "verse": 196,
    "words": [
-    6,
+    5,
     6
    ],
    "tafsir": 16,
@@ -197,6 +217,28 @@
    "excerpt": "من الإبل أو البقر أو الغنم",
    "target": "",
    "tone": "blue"
+  },
+  {
+   "verse": 196,
+   "words": [
+    31,
+    31
+   ],
+   "tafsir": 91,
+   "excerpt": "صدقة على ستة مساكين",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 196,
+   "words": [
+    72,
+    73
+   ],
+   "tafsir": 16,
+   "excerpt": "لمن خالف أمره، وارتكب ما عنه زجر",
+   "target": "",
+   "tone": "red"
   }
  ],
  "director": {

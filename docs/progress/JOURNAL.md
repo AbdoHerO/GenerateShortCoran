@@ -240,3 +240,37 @@ or by eye. The per-surah summary goes into each `plans/<n>.json` "notes"; this f
 - **Lessons:**
   - Check every chip for a negation that sits before its first word: «ليست», «ولا», «ما», «لا», «ولا هم».
   - A gloss must never end just before «إلا هو» or the tafsir's own «بل يجب».
+
+### Al-Baqarah 2:178–212 and 2:215–242 reviews (two independent sub-agents): 17 SERIOUS and 45 MINOR, all applied
+- **Serious, conditions and negations left out of a chip or excerpt:**
+  - 190:8 «ولا تعتدوا»;
+  - 192:2 «فإن انتهوا»;
+  - 193:12–15 «فلا عدوان»;
+  - 195:6–9 «ولا تلقوا»;
+  - 209:2 «فإن زللتم»;
+  - 221:13–15 (cut before «للمشركين»);
+  - 228:10–15 «ولا يحل لهن»;
+  - 229:12–14 «ولا يحل لكم»;
+  - 239:3–5 «فإن خفتم».
+- **Serious, one side taken where the tafsirs differ:**
+  - 180 (abrogation of the bequest);
+  - 199 (the ifada from Arafat or from Muzdalifa);
+  - 226–227 (the ila' period and how the divorce happens);
+  - 233 (maintenance only for divorced nursing mothers);
+  - 240 (the year's provision, now As-Sa'di's attributed «أكثر المفسرين أن هذه الآية منسوخة»).
+- **Serious, other:**
+  - 195:13–14: an arrow from «يحب المحسنين» (Allah's love) to coins.
+  - 2:219: the title «تحريم المسكر» said the verse forbids wine, but both tafsirs call it a step towards the
+    prohibition. Now «ضرر المسكر ورعاية اليتيم».
+- **Minor:**
+  - 184 «يطيقونه» is no longer glossed (a known difference); 197 «أشهر الحج» is attributed to the majority.
+  - Titles: «أيام التشريق» (was the Quran's «الأيام المعدودات»), «المراجعة دون إضرار», «الإرضاع والنفقة», «التلميح
+    بطلب الزواج» («الخطبة» reads as a sermon), «الإخلاص والانقياد» («الاستسلام» reads as capitulation), and the
+    series «بين الفساد والإخلاص» («المخلص» can read as "saviour").
+  - Motifs: scales instead of two_paths for keeping or releasing, which are both lawful; the house leaves before
+    «النار/الجنة»; the jewel leaves before the Paradise gloss.
+  - Camera beats moved off the Name and «والملائكة» in 2:210.
+- **Lessons:**
+  - In fiqh verses, quote the point both tafsirs share, or As-Sa'di's attributed «عند جمهور العلماء», never one
+    school's ruling as the verse's meaning.
+  - A title must not state a ruling the verse does not state.

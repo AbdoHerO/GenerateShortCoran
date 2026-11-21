@@ -75,16 +75,16 @@
      {
       "at": [
        210,
-       6
+       4
       ],
       "do": "pan_right"
      },
      {
       "at": [
        210,
-       11
+       9
       ],
-      "do": "push_in"
+      "do": "shot_ground"
      },
      {
       "at": [
@@ -100,7 +100,10 @@
        209,
        2
       ],
-      "until": null,
+      "until": [
+       210,
+       1
+      ],
       "motif": "leaf",
       "place": "top",
       "size": "m"
@@ -213,7 +216,10 @@
        212,
        4
       ],
-      "until": null,
+      "until": [
+       212,
+       10
+      ],
       "motif": "jewel",
       "place": "top",
       "size": "m"
@@ -237,11 +243,11 @@
   {
    "verse": 209,
    "words": [
-    2,
+    1,
     2
    ],
    "tafsir": 16,
-   "excerpt": "انحرفتم عن طريق الحق",
+   "excerpt": "فإن انحرفتم عن طريق الحق",
    "target": "motif",
    "tone": "red"
   },
@@ -259,7 +265,7 @@
   {
    "verse": 209,
    "words": [
-    11,
+    12,
     12
    ],
    "tafsir": 16,
@@ -295,8 +301,8 @@
     6,
     8
    ],
-   "tafsir": 16,
-   "excerpt": "من آيات واضحات في كتبهم تهديهم إلى الحق",
+   "tafsir": 91,
+   "excerpt": "تدل على الحق، وعلى صدق الرسل",
    "target": "motif",
    "tone": "green"
   },
@@ -304,10 +310,10 @@
    "verse": 211,
    "words": [
     11,
-    11
+    12
    ],
-   "tafsir": 16,
-   "excerpt": "وهي دينه",
+   "tafsir": 91,
+   "excerpt": "نعمة دينية أو دنيوية",
    "target": "",
    "tone": "amber"
   },
@@ -339,8 +345,8 @@
   "notes": "210 (the coming of Allah and the angels on the Day) has no motif at all and is glossed «على الوجه اللائق به سبحانه» (Al-Muyassar)."
  },
  "cover": {
-  "series_ar": "المفسد والمخلص",
-  "series_en": "The corrupter and the sincere",
+  "series_ar": "بين الفساد والإخلاص",
+  "series_en": "Between corruption and sincerity",
   "title_ar": "التحذير من الزلل",
   "title_en": "A warning against slipping",
   "at": [

@@ -109,7 +109,7 @@
   },
   {
    "id": "c2",
-   "title": "فضل وذكر",
+   "title": "التجارة والذكر",
    "verses": [
     198
    ],
@@ -191,7 +191,7 @@
      {
       "at": [
        198,
-       13
+       18
       ],
       "until": null,
       "motif": "hands",
@@ -210,15 +210,15 @@
     2,
     3
    ],
-   "tafsir": 16,
-   "excerpt": "شوال، وذو القعدة، وعشر من ذي الحجة",
+   "tafsir": 91,
+   "excerpt": "عند جمهور العلماء: شوال, وذو القعدة, وعشر من ذي الحجة",
    "target": "motif",
    "tone": "amber"
   },
   {
    "verse": 197,
    "words": [
-    9,
+    8,
     9
    ],
    "tafsir": 16,
@@ -229,11 +229,11 @@
   {
    "verse": 197,
    "words": [
-    13,
+    12,
     13
    ],
-   "tafsir": 16,
-   "excerpt": "الذي يؤدي إلى الغضب والكراهية",
+   "tafsir": 91,
+   "excerpt": "المماراة والمنازعة والمخاصمة, لكونها تثير الشر",
    "target": "",
    "tone": "red"
   },
@@ -279,7 +279,7 @@
   "series_ar": "القتال والحج",
   "series_en": "Fighting and Hajj",
   "title_ar": "أشهر الحج والتزود",
-  "title_en": "The months of Hajj; the best provision",
+  "title_en": "The months of Hajj and provision",
   "at": [
    198,
    12

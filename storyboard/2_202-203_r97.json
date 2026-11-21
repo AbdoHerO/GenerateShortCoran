@@ -28,7 +28,7 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "الأيام المعدودات",
+   "title": "أيام التشريق",
    "verses": [
     202,
     203
@@ -145,11 +145,11 @@
    "verse": 202,
    "words": [
     3,
-    3
+    5
    ],
-   "tafsir": 16,
-   "excerpt": "ثواب عظيم بسبب ما كسبوه من الأعمال الصالحة",
-   "target": "motif",
+   "tafsir": 91,
+   "excerpt": "جزاء دائرا بين العدل والفضل",
+   "target": "",
    "tone": "green"
   },
   {
@@ -204,8 +204,8 @@
  "cover": {
   "series_ar": "القتال والحج",
   "series_en": "Fighting and Hajj",
-  "title_ar": "الأيام المعدودات",
-  "title_en": "The counted days",
+  "title_ar": "أيام التشريق",
+  "title_en": "The days of Tashriq",
   "at": [
    203,
    4
