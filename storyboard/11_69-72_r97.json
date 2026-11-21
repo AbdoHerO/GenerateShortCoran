@@ -104,7 +104,7 @@
        69,
        6
       ],
-      "motif": "burst",
+      "motif": "scroll",
       "place": "top",
       "size": "m"
      },
@@ -308,7 +308,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The angels are never drawn or symbolised; Ibrahim and his wife get no plate, figure or drop. A burst for «بالبشرى» (the news, after Ibrahim's name), a house for his hospitality («فما لبث أن جاء بعجل حنيذ»); no calf, hands or people drawn. 71:1-2 «قائمة» is not glossed: the tafsirs differ (serving the guests / listening behind the curtain). No plate on «إسحاق» or «يعقوب». The plan's title «ضيف إبراهيم» is Quran wording (15:51, 51:24): now «بشارة الملائكة»."
+  "notes": "The angels are never drawn or symbolised; Ibrahim and his wife get no plate, figure or drop. A scroll for «بالبشرى» (the news as a message, after Ibrahim's name; a gold burst could read as the angels), a house for his hospitality («فما لبث أن جاء بعجل حنيذ»); no calf, hands or people drawn. 71:1-2 «قائمة» is not glossed: the tafsirs differ (serving the guests / listening behind the curtain). No plate on «إسحاق» or «يعقوب». The plan's title «ضيف إبراهيم» is Quran wording (15:51, 51:24): now «بشارة الملائكة»."
  },
  "cover": {
   "series_ar": "إبراهيم والبشارة",
@@ -317,7 +317,7 @@
   "title_en": "The angels' good news",
   "at": [
    69,
-   5
+   11
   ]
  },
  "motion": 3

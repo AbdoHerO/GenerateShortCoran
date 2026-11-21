@@ -1042,3 +1042,20 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
   - Never drawn: the dream, the well, the wolf, blood, the wife of al-Aziz, the women and the prostration.
   - 53: the tafsirs differ on who speaks, so its glosses must stay neutral.
 - Hud reviewers (glosses; motifs) are running on all 30 Hud storyboards.
+
+### Hud motif review applied (2026-11-21)
+
+- 2 SERIOUS, 5 MINOR, all applied; 2 optional motion fixes also applied.
+- SERIOUS (covers seen alone):
+  - 69-72: a gold burst under «بشارة الملائكة» read as the angels drawn as gold light. The cover is now the hospitality
+    frame (69:11), and the burst on «بالبشرى» is now a scroll.
+  - 64-68: a burst under «عاقبة ثمود» read as the blast that destroyed them. The cover is now the hourglass of
+    «ثلاثة أيام» (65:6).
+- MINOR:
+  - 6:9 wheat over the repeated «الله» → seal.
+  - 14:6 book over «بعلم الله» → light.
+  - 5-8 c3 wipe peaking on «وهو الذي خلق» → slide.
+  - 1-4 c2 dawn over «عذاب يوم كبير» → geometric (light_sweep → dissolve).
+- Motion fixes: 29:8 geometric, 84:19 wheat.
+- Lesson: a burst or star on a cover can be read as an angel or a blast. On a cover, prefer a plate whose meaning
+  cannot be mistaken.
