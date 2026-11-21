@@ -28,31 +28,186 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة يونس",
+   "title": "استماع بلا انتفاع",
    "verses": [
     42,
     43
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       42,
+       4
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       42,
+       6
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       42,
+       11
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       43,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       43,
+       5
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       43,
+       8
+      ],
+      "do": "pan_left"
+     }
+    ],
+    "motifs": []
    }
   },
   {
    "id": "c2",
-   "title": "سورة يونس",
+   "title": "عدل الله",
    "verses": [
     44
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "geometric",
+    "beats": [
+     {
+      "at": [
+       44,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       44,
+       9
+      ],
+      "do": "pan_left"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       44,
+       3
+      ],
+      "until": [
+       44,
+       7
+      ],
+      "motif": "scales",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "dissolve"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 42,
+   "words": [
+    1,
+    4
+   ],
+   "tafsir": 91,
+   "excerpt": "لا على وجه الاسترشاد، بل على وجه التفرج والتكذيب وتطلب العثرات",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 42,
+   "words": [
+    5,
+    11
+   ],
+   "tafsir": 91,
+   "excerpt": "وهذا الاستفهام، بمعنى النفي المتقرر",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 43,
+   "words": [
+    1,
+    4
+   ],
+   "tafsir": 91,
+   "excerpt": "فلا يفيده نظره إليك، ولا سبر أحوالك شيئًا",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 43,
+   "words": [
+    5,
+    11
+   ],
+   "tafsir": 16,
+   "excerpt": "فكذلك لا تقدر على هدايتهم إذا كانوا فاقدي البصيرة",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 44,
+   "words": [
+    1,
+    6
+   ],
+   "tafsir": 91,
+   "excerpt": "فلا يزيد في سيئاتهم، ولا ينقص من حسناتهم",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 44,
+   "words": [
+    7,
+    10
+   ],
+   "tafsir": 91,
+   "excerpt": "يجيئهم الحق فلا يقبلونه",
+   "target": "",
+   "tone": "red"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "42-43 address the Prophet ﷺ: no motif there; no deaf or blind people drawn. Scales (justice in this life, not the Mizan) for «إن الله لا يظلم الناس شيئا»."
+ },
+ "cover": {
+  "series_ar": "إعجاز القرآن",
+  "series_en": "The inimitable Quran",
+  "title_ar": "انسداد طرق الهداية",
+  "title_en": "The blocked ways of guidance",
+  "at": [
+   42,
+   1
+  ]
+ },
+ "motion": 3
 }

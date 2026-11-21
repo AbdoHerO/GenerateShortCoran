@@ -28,53 +28,356 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة يونس",
+   "title": "قصر الدنيا",
    "verses": [
-    45
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "dawn"
-   }
-  },
-  {
-   "id": "c2",
-   "title": "سورة يونس",
-   "verses": [
+    45,
     46
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       45,
+       7
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       45,
+       11
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       45,
+       16
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       45,
+       20
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       46,
+       2
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       46,
+       7
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       46,
+       10
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       46,
+       13
+      ],
+      "do": "pan_left"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       45,
+       3
+      ],
+      "until": [
+       45,
+       10
+      ],
+      "motif": "hourglass",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
-   "id": "c3",
-   "title": "سورة يونس",
+   "id": "c2",
+   "title": "العدل بعد البلاغ",
    "verses": [
     47,
     48
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light"
+    "mood": "light",
+    "beats": [
+     {
+      "at": [
+       47,
+       5
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       47,
+       7
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       47,
+       10
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       48,
+       1
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       48,
+       3
+      ],
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": [],
+    "transition": "light_sweep"
    }
   },
   {
-   "id": "c4",
-   "title": "سورة يونس",
+   "id": "c3",
+   "title": "الآجال المقدرة",
    "verses": [
     49
    ],
    "scene": "ambient",
    "params": {
-    "mood": "night_sky"
+    "mood": "geometric",
+    "beats": [
+     {
+      "at": [
+       49,
+       4
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       49,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       49,
+       10
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       49,
+       14
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       49,
+       17
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       49,
+       20
+      ],
+      "do": "pan_left"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       49,
+       12
+      ],
+      "until": null,
+      "motif": "hourglass",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "dissolve"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 45,
+   "words": [
+    1,
+    9
+   ],
+   "tafsir": 91,
+   "excerpt": "عن سرعة انقضاء الدنيا",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 45,
+   "words": [
+    10,
+    11
+   ],
+   "tafsir": 91,
+   "excerpt": "كحالهم في الدنيا",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 45,
+   "words": [
+    12,
+    20
+   ],
+   "tafsir": 91,
+   "excerpt": "حيث فاتهم النعيم، واستحقوا دخول النار",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 46,
+   "words": [
+    1,
+    7
+   ],
+   "tafsir": 91,
+   "excerpt": "لا تحزن أيها الرسول على هؤلاء المكذبين، ولا تستعجل لهم",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 46,
+   "words": [
+    8,
+    15
+   ],
+   "tafsir": 91,
+   "excerpt": "ففيه الوعيد الشديد لهم، والتسلية للرسول",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 47,
+   "words": [
+    1,
+    2
+   ],
+   "tafsir": 91,
+   "excerpt": "من الأمم الماضية",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 47,
+   "words": [
+    3,
+    3
+   ],
+   "tafsir": 91,
+   "excerpt": "يدعوهم إلى توحيد الله ودينه",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 48,
+   "words": [
+    1,
+    4
+   ],
+   "tafsir": 16,
+   "excerpt": "ويقول المشركون من قومك",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 48,
+   "words": [
+    5,
+    7
+   ],
+   "tafsir": 91,
+   "excerpt": "فإن هذا ظلم منهم",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 49,
+   "words": [
+    1,
+    11
+   ],
+   "tafsir": 91,
+   "excerpt": "وأما حسابهم وإنزال العذاب عليهم، فمن الله تعالى",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 49,
+   "words": [
+    12,
+    14
+   ],
+   "tafsir": 16,
+   "excerpt": "لكل قوم وقت لانقضاء مدتهم وأجلهم",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 49,
+   "words": [
+    15,
+    22
+   ],
+   "tafsir": 91,
+   "excerpt": "فليحذر المكذبون من الاستعجال بالعذاب",
+   "target": "",
+   "tone": "red"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "The Gathering is never drawn. 46 and 49:1-11 concern the Prophet ﷺ: no motif there. 47:4-12 is not glossed: the tafsirs differ on when the judgement between a nation and its messenger falls (Al-Muyassar: the Hereafter; As-Sa'di: this world). Their question (48) is framed. An hourglass for «كأن لم يلبثوا إلا ساعة» and for «لكل أمة أجل». 49:1-11 is one chip, so «إلا ما شاء الله» stays with «لا أملك»; its gloss is As-Sa'di's «وأما حسابهم… فمن الله تعالى»."
+ },
+ "cover": {
+  "series_ar": "الوعد والوعيد",
+  "series_en": "Promise and warning",
+  "title_ar": "قصر الدنيا",
+  "title_en": "How short this life is",
+  "at": [
+   45,
+   1
+  ]
+ },
+ "motion": 3
 }

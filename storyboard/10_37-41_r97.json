@@ -28,63 +28,407 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة يونس",
+   "title": "تحدي القرآن",
    "verses": [
-    37
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "dawn"
-   }
-  },
-  {
-   "id": "c2",
-   "title": "سورة يونس",
-   "verses": [
+    37,
     38
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "light",
+    "beats": [
+     {
+      "at": [
+       37,
+       10
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       37,
+       13
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       37,
+       17
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       37,
+       22
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       38,
+       2
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       38,
+       5
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       38,
+       8
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       38,
+       11
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       38,
+       15
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       37,
+       4
+      ],
+      "until": [
+       37,
+       5
+      ],
+      "motif": "book",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       37,
+       15
+      ],
+      "until": [
+       37,
+       17
+      ],
+      "motif": "book",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
-   "id": "c3",
-   "title": "سورة يونس",
+   "id": "c2",
+   "title": "التكذيب قبل التدبر",
    "verses": [
-    39
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "light"
-   }
-  },
-  {
-   "id": "c4",
-   "title": "سورة يونس",
-   "verses": [
+    39,
     40
    ],
    "scene": "ambient",
    "params": {
-    "mood": "night_sky"
+    "mood": "geometric",
+    "beats": [
+     {
+      "at": [
+       39,
+       10
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       39,
+       14
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       39,
+       17
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       40,
+       3
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       40,
+       6
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       40,
+       11
+      ],
+      "do": "pan_left"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       39,
+       7
+      ],
+      "until": [
+       39,
+       10
+      ],
+      "motif": "hourglass",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       40,
+       1
+      ],
+      "until": [
+       40,
+       10
+      ],
+      "motif": "two_paths",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "wipe"
    }
   },
   {
-   "id": "c5",
-   "title": "سورة يونس",
+   "id": "c3",
+   "title": "لكل عمله",
    "verses": [
     41
    ],
    "scene": "ambient",
    "params": {
-    "mood": "mountains"
+    "mood": "dawn",
+    "beats": [
+     {
+      "at": [
+       41,
+       6
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       41,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       41,
+       10
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       41,
+       12
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [],
+    "transition": "dissolve"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 37,
+   "words": [
+    1,
+    9
+   ],
+   "tafsir": 91,
+   "excerpt": "غير ممكن ولا متصور",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 37,
+   "words": [
+    10,
+    14
+   ],
+   "tafsir": 16,
+   "excerpt": "ولكن الله أنزله مصدِّقا للكتب التي أنزلها على أنبيائه",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 37,
+   "words": [
+    15,
+    16
+   ],
+   "tafsir": 16,
+   "excerpt": "بيان وتفصيل لما شرعه الله لأمة محمد صلى الله عليه وسلم",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 38,
+   "words": [
+    1,
+    3
+   ],
+   "tafsir": 91,
+   "excerpt": "المكذبون به عنادًا وبغيًا",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 38,
+   "words": [
+    4,
+    7
+   ],
+   "tafsir": 16,
+   "excerpt": "في نظمه وهدايته",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 38,
+   "words": [
+    8,
+    16
+   ],
+   "tafsir": 16,
+   "excerpt": "من إنس وجن",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 39,
+   "words": [
+    1,
+    6
+   ],
+   "tafsir": 16,
+   "excerpt": "سارَعوا إلى التكذيب بالقرآن أول ما سمعوه، قبل أن يتدبروا آياته",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 39,
+   "words": [
+    7,
+    9
+   ],
+   "tafsir": 16,
+   "excerpt": "حقيقة ما وُعِدوا به في الكتاب",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 40,
+   "words": [
+    1,
+    4
+   ],
+   "tafsir": 91,
+   "excerpt": "بالقرآن وما جاء به",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 40,
+   "words": [
+    5,
+    9
+   ],
+   "tafsir": 16,
+   "excerpt": "حتى يموت على ذلك ويبعث عليه",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 40,
+   "words": [
+    10,
+    12
+   ],
+   "tafsir": 91,
+   "excerpt": "وهم الذين لا يؤمنون به على وجه العناد والظلم والفساد",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 41,
+   "words": [
+    1,
+    2
+   ],
+   "tafsir": 91,
+   "excerpt": "فاستمر على دعوتك",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 41,
+   "words": [
+    3,
+    7
+   ],
+   "tafsir": 16,
+   "excerpt": "لي ديني وعملي، ولكم دينكم وعملكم",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 41,
+   "words": [
+    8,
+    15
+   ],
+   "tafsir": 16,
+   "excerpt": "فأنتم لا تؤاخَذون بعملي، وأنا لا أؤاخَذ بعملكم",
+   "target": "",
+   "tone": "blue"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "Their claim «افتراه» is framed («المكذبون به عنادًا وبغيًا»). The destruction of past nations (39:15-19) is not glossed or drawn. 41 is the Prophet's ﷺ words: no motif. A book for «القرآن» and «تفصيل الكتاب», an hourglass for «ولما يأتهم تأويله», two paths for «ومنهم من يؤمن به ومنهم من لا يؤمن به»."
+ },
+ "cover": {
+  "series_ar": "إعجاز القرآن",
+  "series_en": "The inimitable Quran",
+  "title_ar": "تحدي القرآن",
+  "title_en": "The Quran's challenge",
+  "at": [
+   37,
+   1
+  ]
+ },
+ "motion": 3
 }

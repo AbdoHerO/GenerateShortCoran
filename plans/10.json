@@ -155,8 +155,8 @@
     {
      "from": 35,
      "to": 36,
-     "title_ar": "اتباع الظن",
-     "title_en": "Following conjecture",
+     "title_ar": "مصدر الهداية",
+     "title_en": "The source of guidance",
      "visual": "ambient",
      "care": "",
      "est_s": 53
@@ -181,8 +181,8 @@
     {
      "from": 42,
      "to": 44,
-     "title_ar": "الصم والعمي",
-     "title_en": "The deaf and the blind",
+     "title_ar": "انسداد طرق الهداية",
+     "title_en": "The blocked ways of guidance",
      "visual": "ambient",
      "care": "",
      "est_s": 45
@@ -198,8 +198,8 @@
     {
      "from": 45,
      "to": 49,
-     "title_ar": "لكل أمة أجل",
-     "title_en": "Every nation has a term",
+     "title_ar": "قصر الدنيا",
+     "title_en": "How short this life is",
      "visual": "ambient",
      "care": "The Day never drawn.",
      "est_s": 91
