@@ -1,6 +1,6 @@
 {
  "surah": 14,
- "summary": "14 short videos (reciter Yasser ad-Dussary) covering all 52 verses",
+ "summary": "13 short videos (reciter Yasser ad-Dussary) covering all 52 verses",
  "made_by": "Research 2026-11-21 (cloud agent): audit_surah.py 14 --reciter 97 (with the nocut check), plan_split.py with thematic sections, Saheeh translation and both tafsirs.",
  "reciter": {
   "id": 97,
@@ -168,21 +168,12 @@
    "videos": [
     {
      "from": 42,
-     "to": 42,
-     "title_ar": "إمهال الظالمين",
-     "title_en": "Respite for the wrongdoers",
-     "visual": "ambient",
-     "care": "",
-     "est_s": 24
-    },
-    {
-     "from": 43,
      "to": 52,
      "title_ar": "مشاهد الجزاء",
      "title_en": "Scenes of recompense",
      "visual": "ambient",
-     "care": "One unit (the reciter joins 43-52). The Day, the changed earth, chains and fire never drawn; no plate on the Prophet ﷺ addressed (44, 47).",
-     "est_s": 189
+     "care": "42 is merged in: 43 «مهطعين» continues 42's sentence. One unit (the reciter joins 43-52). The Day, the changed earth, chains and fire never drawn; no plate on the Prophet ﷺ addressed (44, 47).",
+     "est_s": 213
     }
    ]
   }
