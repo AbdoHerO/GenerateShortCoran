@@ -223,10 +223,13 @@
      {
       "at": [
        45,
-       7
+       5
       ],
-      "until": null,
-      "motif": "burst",
+      "until": [
+       45,
+       10
+      ],
+      "motif": "light",
       "place": "top",
       "size": "m"
      }

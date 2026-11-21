@@ -833,3 +833,21 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
     «الآن» and «كل كافر», and series names like «أحكام الجهاد».
   - Prefer the tafsir that is narrower.
 - **Data warning:** As-Sa'di's 8:52 entry has its braces reversed; never take an 8:52 excerpt from tafsir 91.
+
+### Batch 1 built and 19 drafts published (2026-11-21)
+
+- **Built:** 21 videos (Al-Baqarah 85-86 and 275-286; Aal Imran 1-52).
+- **Frame-checked:** three sheets of 8 frames per video (cover first). Motion, chips and covers are fine.
+- **Published:** 19 as Creative Hub drafts (`--confirm`, no `--approve`), 76 files, 0 failed. The ledger now has
+  128 entries.
+- **Held back:** 3:38-39 and 3:42-46.
+  - Their `burst` motif (glad tidings) stayed on screen over «بيحيى» and «المسيح عيسى ابن مريم». A motif must never
+    lie on a prophet's name, so both are now `light`, ending before the name (one beat added in 38-39 to keep the 6 s
+    rule).
+  - Both are queued for a rebuild.
+- **Lesson:**
+  - The early scratchpad spec files for Aal Imran are stale: the reviews were applied to the storyboard JSON directly.
+    Re-running one of them overwrote six reviewed storyboards; this was reverted from git at once.
+  - From now on, fix already-reviewed storyboards in the JSON, never by re-running an old spec.
+- **Clean-up:** removed `storyboard/3_33-36` and `3_37-39`. They were superseded by the 33-37 / 38-39 re-split, and
+  they are in no plan and not in the ledger.

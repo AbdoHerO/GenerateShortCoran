@@ -89,6 +89,13 @@
      {
       "at": [
        39,
+       11
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       39,
        13
       ],
       "do": "shot_wide"
@@ -112,10 +119,13 @@
      {
       "at": [
        39,
-       10
+       8
       ],
-      "until": null,
-      "motif": "burst",
+      "until": [
+       39,
+       11
+      ],
+      "motif": "light",
       "place": "top",
       "size": "m"
      }
