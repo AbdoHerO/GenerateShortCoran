@@ -1,0 +1,535 @@
+{
+ "surah": 9,
+ "summary": "46 short videos (reciter Yasser ad-Dussary) covering all 129 verses",
+ "made_by": "Research 2026-11-21 (cloud agent): audit_surah.py 9 --reciter 97 (with the nocut check), plan_split.py with thematic sections, Saheeh translation and both tafsirs.",
+ "reciter": {
+  "id": 97,
+  "name": "Yasser ad-Dussary"
+ },
+ "notes": [
+  "Recitation: 51.1 minutes (no basmala in this surah). 20 JOINED boundaries and 5 more with no clean audio cut; 112-116 is one unit (122 s).",
+  "Text: identical to Tanzil. Timing: no overlaps. Short-word flags to hear: 59, 81, 83, 92, 94, 113.",
+  "Pictures: ambient throughout. No battle, weapon, killing, captive or punishment drawn; the Prophet ﷺ, Abu Bakr, Ibrahim, the angels, Paradise and Hell never drawn; no motif on the Prophet ﷺ.",
+  "Glosses: fighting verses (1-16, 29, 36, 41, 73, 111, 123) carry only what both tafsirs say, with their restrictions (treaty breakers, those who fight, aggression); never a general or present-day call; no people targeted. The claims of 30-31 and the hypocrites' sayings are always framed as claims."
+ ],
+ "groups": [
+  {
+   "title_ar": "البراءة والعهود",
+   "title_en": "Disavowal and treaties",
+   "from": 1,
+   "to": 16,
+   "videos": [
+    {
+     "from": 1,
+     "to": 3,
+     "title_ar": "إعلان البراءة",
+     "title_en": "The declaration",
+     "visual": "ambient",
+     "care": "Fighting verse: only what both tafsirs say, with their restrictions; no battle, weapon or killing drawn; no present-day reading or people targeted.",
+     "est_s": 78
+    },
+    {
+     "from": 4,
+     "to": 4,
+     "title_ar": "الوفاء للمعاهدين",
+     "title_en": "Keeping faith with treaty partners",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 40
+    },
+    {
+     "from": 5,
+     "to": 6,
+     "title_ar": "الأشهر الحرم والأمان",
+     "title_en": "The sacred months and safe conduct",
+     "visual": "ambient",
+     "care": "Fighting verse: only what both tafsirs say, with their restrictions; no battle, weapon or killing drawn; no present-day reading or people targeted.",
+     "est_s": 50
+    },
+    {
+     "from": 7,
+     "to": 9,
+     "title_ar": "من يستحق العهد",
+     "title_en": "Who deserves a treaty",
+     "visual": "ambient",
+     "care": "Fighting verse: only what both tafsirs say, with their restrictions; no battle, weapon or killing drawn; no present-day reading or people targeted.",
+     "est_s": 65
+    },
+    {
+     "from": 10,
+     "to": 12,
+     "title_ar": "ناقضو الأيمان",
+     "title_en": "The oath breakers",
+     "visual": "ambient",
+     "care": "Fighting verse: only what both tafsirs say, with their restrictions; no battle, weapon or killing drawn; no present-day reading or people targeted.",
+     "est_s": 67
+    },
+    {
+     "from": 13,
+     "to": 16,
+     "title_ar": "عاقبة نكث العهود",
+     "title_en": "The end of broken oaths",
+     "visual": "ambient",
+     "care": "Fighting verse: only what both tafsirs say, with their restrictions; no battle, weapon or killing drawn; no present-day reading or people targeted.",
+     "est_s": 95
+    }
+   ]
+  },
+  {
+   "title_ar": "عمارة المساجد",
+   "title_en": "Tending the mosques",
+   "from": 17,
+   "to": 23,
+   "videos": [
+    {
+     "from": 17,
+     "to": 18,
+     "title_ar": "أهل المساجد",
+     "title_en": "The people of the mosques",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 68
+    },
+    {
+     "from": 19,
+     "to": 21,
+     "title_ar": "أعظم الأعمال",
+     "title_en": "The greatest deeds",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 79
+    },
+    {
+     "from": 22,
+     "to": 23,
+     "title_ar": "الولاء للحق",
+     "title_en": "Loyalty to the truth",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 48
+    }
+   ]
+  },
+  {
+   "title_ar": "يوم حنين",
+   "title_en": "The day of Hunayn",
+   "from": 24,
+   "to": 26,
+   "videos": [
+    {
+     "from": 24,
+     "to": 26,
+     "title_ar": "حنين والسكينة",
+     "title_en": "Hunayn and tranquillity",
+     "visual": "ambient",
+     "care": "One unit with 24-26 (24 is joined to 25). Angels never drawn. Fighting verse: only what both tafsirs say, with their restrictions; no battle, weapon or killing drawn; no present-day reading or people targeted.",
+     "est_s": 108
+    }
+   ]
+  },
+  {
+   "title_ar": "أهل الكتاب",
+   "title_en": "The People of the Book",
+   "from": 27,
+   "to": 35,
+   "videos": [
+    {
+     "from": 27,
+     "to": 29,
+     "title_ar": "التوبة وأحكام المسجد",
+     "title_en": "Repentance and the Sacred Mosque",
+     "visual": "ambient",
+     "care": "29: Fighting verse: only what both tafsirs say, with their restrictions; no battle, weapon or killing drawn; no present-day reading or people targeted.",
+     "est_s": 90
+    },
+    {
+     "from": 30,
+     "to": 32,
+     "title_ar": "دعاوى باطلة",
+     "title_en": "False claims",
+     "visual": "ambient",
+     "care": "Their claims never shown as statements; no people named politically.",
+     "est_s": 77
+    },
+    {
+     "from": 33,
+     "to": 35,
+     "title_ar": "ظهور الدين وكنز المال",
+     "title_en": "The religion prevails; hoarded wealth",
+     "visual": "ambient",
+     "care": "Gold and silver not drawn in the punishment (35); Their claims never shown as statements; no people named politically.",
+     "est_s": 84
+    }
+   ]
+  },
+  {
+   "title_ar": "الأشهر الحرم",
+   "title_en": "The sacred months",
+   "from": 36,
+   "to": 39,
+   "videos": [
+    {
+     "from": 36,
+     "to": 36,
+     "title_ar": "حرمة الأشهر",
+     "title_en": "The sanctity of the months",
+     "visual": "ambient",
+     "care": "Fighting verse: only what both tafsirs say, with their restrictions; no battle, weapon or killing drawn; no present-day reading or people targeted.",
+     "est_s": 58
+    },
+    {
+     "from": 37,
+     "to": 39,
+     "title_ar": "التلاعب بالشهور والنفير",
+     "title_en": "Tampering with months; the call to march",
+     "visual": "ambient",
+     "care": "Fighting verse: only what both tafsirs say, with their restrictions; no battle, weapon or killing drawn; no present-day reading or people targeted.",
+     "est_s": 88
+    }
+   ]
+  },
+  {
+   "title_ar": "غزوة تبوك",
+   "title_en": "The Tabuk expedition",
+   "from": 40,
+   "to": 59,
+   "videos": [
+    {
+     "from": 40,
+     "to": 42,
+     "title_ar": "نصر الله لرسوله",
+     "title_en": "Allah's help to His Messenger",
+     "visual": "ambient",
+     "care": "The cave: no figures (the Prophet ﷺ and Abu Bakr never drawn). Fighting verse: only what both tafsirs say, with their restrictions; no battle, weapon or killing drawn; no present-day reading or people targeted.",
+     "est_s": 97
+    },
+    {
+     "from": 43,
+     "to": 46,
+     "title_ar": "أعذار المتخلفين",
+     "title_en": "Excuses of those who stayed",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 77
+    },
+    {
+     "from": 47,
+     "to": 49,
+     "title_ar": "فتنة المنافقين",
+     "title_en": "The hypocrites' sedition",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 74
+    },
+    {
+     "from": 50,
+     "to": 52,
+     "title_ar": "موقف المنافقين من المصائب",
+     "title_en": "The hypocrites and misfortune",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 68
+    },
+    {
+     "from": 53,
+     "to": 55,
+     "title_ar": "نفقات المنافقين",
+     "title_en": "The hypocrites' spending",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 70
+    },
+    {
+     "from": 56,
+     "to": 59,
+     "title_ar": "أيمان المنافقين وطمعهم",
+     "title_en": "The hypocrites' oaths and greed",
+     "visual": "ambient",
+     "care": "59: short-word flag (listen).",
+     "est_s": 73
+    }
+   ]
+  },
+  {
+   "title_ar": "الصدقات",
+   "title_en": "The alms",
+   "from": 60,
+   "to": 60,
+   "videos": [
+    {
+     "from": 60,
+     "to": 60,
+     "title_ar": "مصارف الزكاة",
+     "title_en": "Who receives zakat",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 38
+    }
+   ]
+  },
+  {
+   "title_ar": "صفات المنافقين",
+   "title_en": "Traits of the hypocrites",
+   "from": 61,
+   "to": 80,
+   "videos": [
+    {
+     "from": 61,
+     "to": 63,
+     "title_ar": "أذى الرسول",
+     "title_en": "Harming the Messenger",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 66
+    },
+    {
+     "from": 64,
+     "to": 66,
+     "title_ar": "الاستهزاء بالدين",
+     "title_en": "Mocking the religion",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 72
+    },
+    {
+     "from": 67,
+     "to": 69,
+     "title_ar": "صفات المنافقين",
+     "title_en": "The hypocrites' traits",
+     "visual": "ambient",
+     "care": "Hell: nothing literal.",
+     "est_s": 107
+    },
+    {
+     "from": 70,
+     "to": 70,
+     "title_ar": "عبرة الأمم",
+     "title_en": "The lesson of nations",
+     "visual": "ambient",
+     "care": "No destruction drawn.",
+     "est_s": 41
+    },
+    {
+     "from": 71,
+     "to": 72,
+     "title_ar": "صفات المؤمنين",
+     "title_en": "The believers' traits",
+     "visual": "ambient",
+     "care": "Paradise: nothing literal; no river or gold motif.",
+     "est_s": 85
+    },
+    {
+     "from": 73,
+     "to": 74,
+     "title_ar": "الحزم مع المنافقين",
+     "title_en": "Firmness with the hypocrites",
+     "visual": "ambient",
+     "care": "Fighting verse: only what both tafsirs say, with their restrictions; no battle, weapon or killing drawn; no present-day reading or people targeted.",
+     "est_s": 66
+    },
+    {
+     "from": 75,
+     "to": 79,
+     "title_ar": "نقض العهد مع الله",
+     "title_en": "Breaking the pledge to Allah",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 85
+    },
+    {
+     "from": 80,
+     "to": 80,
+     "title_ar": "لا نفع للاستغفار",
+     "title_en": "Seeking forgiveness avails not",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 34
+    }
+   ]
+  },
+  {
+   "title_ar": "المتخلفون",
+   "title_en": "Those who stayed behind",
+   "from": 81,
+   "to": 96,
+   "videos": [
+    {
+     "from": 81,
+     "to": 83,
+     "title_ar": "فرحة المتخلفين",
+     "title_en": "Glad to stay behind",
+     "visual": "ambient",
+     "care": "81, 83: short-word flags (listen).",
+     "est_s": 79
+    },
+    {
+     "from": 84,
+     "to": 86,
+     "title_ar": "النهي عن الصلاة عليهم",
+     "title_en": "No funeral prayer for them",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 67
+    },
+    {
+     "from": 87,
+     "to": 90,
+     "title_ar": "أهل الأعذار",
+     "title_en": "Those with excuses",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 66
+    },
+    {
+     "from": 91,
+     "to": 93,
+     "title_ar": "من لا حرج عليهم",
+     "title_en": "Those without blame",
+     "visual": "ambient",
+     "care": "92: short-word flag (listen).",
+     "est_s": 94
+    },
+    {
+     "from": 94,
+     "to": 96,
+     "title_ar": "اعتذار الكاذبين",
+     "title_en": "False apologies",
+     "visual": "ambient",
+     "care": "94: short-word flag (listen).",
+     "est_s": 71
+    }
+   ]
+  },
+  {
+   "title_ar": "الأعراب والسابقون",
+   "title_en": "The Bedouins and the forerunners",
+   "from": 97,
+   "to": 106,
+   "videos": [
+    {
+     "from": 97,
+     "to": 99,
+     "title_ar": "الأعراب صنفان",
+     "title_en": "Two kinds of Bedouins",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 71
+    },
+    {
+     "from": 100,
+     "to": 102,
+     "title_ar": "السابقون والمخلطون",
+     "title_en": "The forerunners and the mixed",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 83
+    },
+    {
+     "from": 103,
+     "to": 106,
+     "title_ar": "الصدقة والتوبة",
+     "title_en": "Charity and repentance",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 84
+    }
+   ]
+  },
+  {
+   "title_ar": "مسجد الضرار",
+   "title_en": "The mosque of harm",
+   "from": 107,
+   "to": 111,
+   "videos": [
+    {
+     "from": 107,
+     "to": 109,
+     "title_ar": "المسجدان",
+     "title_en": "The two mosques",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 84
+    },
+    {
+     "from": 110,
+     "to": 111,
+     "title_ar": "البيعة الرابحة",
+     "title_en": "The winning bargain",
+     "visual": "ambient",
+     "care": "111: Fighting verse: only what both tafsirs say, with their restrictions; no battle, weapon or killing drawn; no present-day reading or people targeted.",
+     "est_s": 69
+    }
+   ]
+  },
+  {
+   "title_ar": "التوبة على الثلاثة",
+   "title_en": "The three forgiven",
+   "from": 112,
+   "to": 118,
+   "videos": [
+    {
+     "from": 112,
+     "to": 116,
+     "title_ar": "حدود الاستغفار",
+     "title_en": "The limits of seeking forgiveness",
+     "visual": "ambient",
+     "care": "One unit: the reciter joins 112→116 (about 122 s). Ibrahim: no motif. 113: short-word flag (listen).",
+     "est_s": 129
+    },
+    {
+     "from": 117,
+     "to": 118,
+     "title_ar": "توبة الثلاثة",
+     "title_en": "The three forgiven",
+     "visual": "ambient",
+     "care": "The Prophet ﷺ and the Companions not drawn.",
+     "est_s": 79
+    }
+   ]
+  },
+  {
+   "title_ar": "الصدق والختام",
+   "title_en": "Truthfulness and closing",
+   "from": 119,
+   "to": 129,
+   "videos": [
+    {
+     "from": 119,
+     "to": 120,
+     "title_ar": "الصدق والجهاد",
+     "title_en": "Truthfulness and striving",
+     "visual": "ambient",
+     "care": "Fighting verse: only what both tafsirs say, with their restrictions; no battle, weapon or killing drawn; no present-day reading or people targeted.",
+     "est_s": 75
+    },
+    {
+     "from": 121,
+     "to": 123,
+     "title_ar": "طلب العلم",
+     "title_en": "Seeking knowledge",
+     "visual": "ambient",
+     "care": "123: Fighting verse: only what both tafsirs say, with their restrictions; no battle, weapon or killing drawn; no present-day reading or people targeted.",
+     "est_s": 74
+    },
+    {
+     "from": 124,
+     "to": 127,
+     "title_ar": "أثر القرآن في القلوب",
+     "title_en": "The Quran's effect on hearts",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 82
+    },
+    {
+     "from": 128,
+     "to": 129,
+     "title_ar": "الرسول الرحيم",
+     "title_en": "The merciful Messenger",
+     "visual": "ambient",
+     "care": "No motif on the Prophet ﷺ.",
+     "est_s": 53
+    }
+   ]
+  }
+ ]
+}
