@@ -157,7 +157,7 @@
      }
     ],
     "motifs": [],
-    "transition": "dissolve"
+    "transition": "morph"
    }
   }
  ],
@@ -176,7 +176,7 @@
   {
    "verse": 33,
    "words": [
-    12,
+    9,
     13
    ],
    "tafsir": 16,
@@ -191,7 +191,7 @@
     20
    ],
    "tafsir": 91,
-   "excerpt": "علم بذلك بطلان دعوى الشريك له",
+   "excerpt": "بطلان دعوى الشريك له",
    "target": "",
    "tone": "red"
   },
@@ -201,8 +201,8 @@
     21,
     24
    ],
-   "tafsir": 16,
-   "excerpt": "من غير أن يكون لهم حقيقة",
+   "tafsir": 91,
+   "excerpt": "وليس أحد من الخلق يستحق شيئا من العبادة",
    "target": "",
    "tone": "red"
   },
@@ -235,9 +235,9 @@
  },
  "cover": {
   "series_ar": "حجج المعاندين",
-  "series_en": "The obstinate's arguments",
-  "title_ar": "الرقيب على النفوس",
-  "title_en": "Watcher over every soul",
+  "series_en": "Arguments of the obstinate",
+  "title_ar": "الجزاء العادل",
+  "title_en": "The just recompense",
   "at": [
    33,
    1

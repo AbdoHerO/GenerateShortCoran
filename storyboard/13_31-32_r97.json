@@ -28,7 +28,7 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "مشيئة الهداية",
+   "title": "القرآن والمعجزات",
    "verses": [
     31
    ],
@@ -142,7 +142,7 @@
   },
   {
    "id": "c2",
-   "title": "الإمهال ثم الأخذ",
+   "title": "مواساة الرسول",
    "verses": [
     32
    ],
@@ -180,7 +180,7 @@
       "size": "m"
      }
     ],
-    "transition": "dissolve"
+    "transition": "page_turn"
    }
   }
  ],
@@ -247,7 +247,7 @@
     13
    ],
    "tafsir": 91,
-   "excerpt": "كان عقابا شديدا وعذابا أليما",
+   "excerpt": "عقابا شديدا وعذابا أليما",
    "target": "",
    "tone": "red"
   }
@@ -258,7 +258,7 @@
  },
  "cover": {
   "series_ar": "حجج المعاندين",
-  "series_en": "The obstinate's arguments",
+  "series_en": "Arguments of the obstinate",
   "title_ar": "عناد المكذبين",
   "title_en": "The deniers' obstinacy",
   "at": [

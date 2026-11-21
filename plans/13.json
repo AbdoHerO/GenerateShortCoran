@@ -98,8 +98,8 @@
     {
      "from": 16,
      "to": 17,
-     "title_ar": "بقاء النافع",
-     "title_en": "What benefits remains",
+     "title_ar": "ثبات الحق",
+     "title_en": "Truth stands firm",
      "visual": "ambient",
      "care": "",
      "est_s": 100
@@ -107,8 +107,8 @@
     {
      "from": 18,
      "to": 18,
-     "title_ar": "جزاء المستجيبين",
-     "title_en": "The reward of those who answer",
+     "title_ar": "عاقبة الفريقين",
+     "title_en": "The end of the two groups",
      "visual": "ambient",
      "care": "Hell never drawn.",
      "est_s": 40
@@ -159,8 +159,8 @@
     {
      "from": 27,
      "to": 30,
-     "title_ar": "سكينة الذكر",
-     "title_en": "The calm of remembrance",
+     "title_ar": "حياة القلوب",
+     "title_en": "Life of the hearts",
      "visual": "ambient",
      "care": "«قل» (27, 30): no plate on the Prophet ﷺ.",
      "est_s": 93
@@ -169,7 +169,7 @@
   },
   {
    "title_ar": "حجج المعاندين",
-   "title_en": "The obstinate's arguments",
+   "title_en": "Arguments of the obstinate",
    "from": 31,
    "to": 34,
    "videos": [
@@ -185,8 +185,8 @@
     {
      "from": 33,
      "to": 34,
-     "title_ar": "الرقيب على النفوس",
-     "title_en": "Watcher over every soul",
+     "title_ar": "الجزاء العادل",
+     "title_en": "The just recompense",
      "visual": "ambient",
      "care": "",
      "est_s": 58
@@ -202,8 +202,8 @@
     {
      "from": 35,
      "to": 36,
-     "title_ar": "وعد المتقين",
-     "title_en": "The promise to the God-fearing",
+     "title_ar": "بشرى للأتقياء",
+     "title_en": "Good news for the God-fearing",
      "visual": "ambient",
      "care": "Paradise never drawn: no garden, river or gold motif.",
      "est_s": 50

@@ -1155,3 +1155,28 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
   - 12 videos. Short units are merged by hand: 6-15, 68-79 (Ayka joined to Lut's end), 80-89 (84 cannot be cut
     from 85).
   - All base storyboards cut-check clean.
+
+### Ar-Ra'd review applied; Ar-Ra'd queued (2026-11-21)
+
+- Independent reviewer: 0 SERIOUS, 40 MINOR, all applied. All 16 storyboards re-verified PASSED, with no plate over
+  the Name.
+- Boxes that misread when seen alone:
+  - 11:30-35 now says «ولا أحد يمنعهم منه». The old box read as if someone protects them.
+  - 33:14-20 drops «علم بذلك», which read as «عَلِمَ» under «لا يعلم».
+  - 16:29-37 keeps the source's question mark.
+  - 6:17-20 keeps «مَن أصرَّ».
+- Not glossed where the tafsirs differ: 22:13-15 («فتمحوها»).
+- Removed:
+  - Quran echoes in 2, 7, 8, 11, 18, 30, 33, 43 and 32.
+  - A paraphrase of an imperative of Allah (40:1-8).
+  - The data typo «هومها» (42:9-13).
+- Too-short boxes merged: 3:8, 19:9-11. 33:12-13 widened to 33:9-13.
+- Titles:
+  - 17 titles, covers and series names reworded: «عجائب الأرض», «تبدل الأحوال» (not «سنة التغيير»), «ثبات الحق»,
+    «عاقبة الفريقين», «حياة القلوب», «الجزاء العادل», «بشرى للأتقياء» and others.
+  - Series in English: "Arguments of the obstinate".
+- Pictures:
+  - The lamp on «ولكل قوم هاد» (a messenger, per both tafsirs) is now light.
+  - 14 chapter transitions are now slide, page_turn or morph.
+  - 13_1-3 and 13_4 motion fixes.
+- The 16 Ar-Ra'd videos are queued for building (13:37 stays held, DECISIONS_NEEDED §7).

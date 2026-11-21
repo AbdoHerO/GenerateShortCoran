@@ -28,7 +28,7 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "صفة الجنة",
+   "title": "دار النعيم",
    "verses": [
     35
    ],
@@ -91,7 +91,7 @@
   },
   {
    "id": "c2",
-   "title": "أهل الكتاب والقرآن",
+   "title": "القرآن بين مصدق ومنكر",
    "verses": [
     36
    ],
@@ -150,7 +150,7 @@
      }
     ],
     "motifs": [],
-    "transition": "dissolve"
+    "transition": "slide"
    }
   }
  ],
@@ -262,8 +262,8 @@
  "cover": {
   "series_ar": "الوعد والوعيد",
   "series_en": "Promise and warning",
-  "title_ar": "وعد المتقين",
-  "title_en": "The promise to the God-fearing",
+  "title_ar": "بشرى للأتقياء",
+  "title_en": "Good news for the God-fearing",
   "at": [
    35,
    1

@@ -143,7 +143,7 @@
       "size": "m"
      }
     ],
-    "transition": "dissolve"
+    "transition": "morph"
    }
   },
   {
@@ -219,23 +219,12 @@
    "verse": 19,
    "words": [
     1,
-    8
-   ],
-   "tafsir": 91,
-   "excerpt": "ففهم ذلك وعمل به",
-   "target": "",
-   "tone": "green"
-  },
-  {
-   "verse": 19,
-   "words": [
-    9,
     11
    ],
    "tafsir": 91,
-   "excerpt": "لا يعلم الحق ولا يعمل به",
+   "excerpt": "مفرقا بين أهل العلم والعمل وبين ضدهم",
    "target": "",
-   "tone": "red"
+   "tone": "green"
   },
   {
    "verse": 19,
@@ -311,17 +300,6 @@
    ],
    "tafsir": 16,
    "excerpt": "زكاتهم المفروضة، والنفقات المستحبة في الخفاء والعلن",
-   "target": "",
-   "tone": "green"
-  },
-  {
-   "verse": 22,
-   "words": [
-    13,
-    15
-   ],
-   "tafsir": 16,
-   "excerpt": "فتمحوها",
    "target": "",
    "tone": "green"
   },

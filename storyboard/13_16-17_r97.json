@@ -309,7 +309,7 @@
       "size": "m"
      }
     ],
-    "transition": "dissolve"
+    "transition": "page_turn"
    }
   }
  ],
@@ -354,7 +354,7 @@
     37
    ],
    "tafsir": 16,
-   "excerpt": "فاعتقدوا استحقاقهم للعبادة",
+   "excerpt": "فاعتقدوا استحقاقهم للعبادة؟",
    "target": "",
    "tone": "red"
   },
@@ -454,8 +454,8 @@
  "cover": {
   "series_ar": "أمثال التوحيد",
   "series_en": "Parables of tawhid",
-  "title_ar": "بقاء النافع",
-  "title_en": "What benefits remains",
+  "title_ar": "ثبات الحق",
+  "title_en": "Truth stands firm",
   "at": [
    17,
    33

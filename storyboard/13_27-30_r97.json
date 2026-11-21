@@ -94,7 +94,7 @@
   },
   {
    "id": "c2",
-   "title": "سكينة القلوب",
+   "title": "راحة النفوس",
    "verses": [
     28,
     29
@@ -172,7 +172,7 @@
       "size": "m"
      }
     ],
-    "transition": "dissolve"
+    "transition": "morph"
    }
   },
   {
@@ -243,7 +243,7 @@
       "size": "m"
      }
     ],
-    "transition": "dissolve"
+    "transition": "page_turn"
    }
   }
  ],
@@ -332,7 +332,7 @@
     9
    ],
    "tafsir": 91,
-   "excerpt": "إلى قومك تدعوهم إلى الهدى",
+   "excerpt": "إلى قومك تدعوهم",
    "target": "",
    "tone": "blue"
   },
@@ -377,8 +377,8 @@
  "cover": {
   "series_ar": "المفسدون والمؤمنون",
   "series_en": "Corrupters and believers",
-  "title_ar": "سكينة الذكر",
-  "title_en": "The calm of remembrance",
+  "title_ar": "حياة القلوب",
+  "title_en": "Life of the hearts",
   "at": [
    28,
    3

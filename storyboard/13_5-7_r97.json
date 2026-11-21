@@ -91,7 +91,7 @@
   },
   {
    "id": "c2",
-   "title": "استعجال العقوبة",
+   "title": "الاغترار بالإمهال",
    "verses": [
     6
    ],
@@ -185,12 +185,12 @@
        13
       ],
       "until": null,
-      "motif": "lamp",
+      "motif": "light",
       "place": "top",
       "size": "m"
      }
     ],
-    "transition": "dissolve"
+    "transition": "page_turn"
    }
   }
  ],
@@ -257,7 +257,7 @@
     20
    ],
    "tafsir": 16,
-   "excerpt": "على الكفر والضلال ومعصية الله",
+   "excerpt": "على مَن أصرَّ على الكفر والضلال ومعصية الله",
    "target": "",
    "tone": "red"
   },
@@ -278,8 +278,8 @@
     10,
     12
    ],
-   "tafsir": 91,
-   "excerpt": "والله هو الذي ينزل الآيات",
+   "tafsir": 16,
+   "excerpt": "وليس ذلك بيدك",
    "target": "",
    "tone": "blue"
   },

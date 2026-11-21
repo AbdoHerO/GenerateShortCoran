@@ -74,7 +74,7 @@
   },
   {
    "id": "c2",
-   "title": "علم الله السابق",
+   "title": "حكمة التدبير",
    "verses": [
     39,
     40
@@ -141,7 +141,7 @@
       "size": "m"
      }
     ],
-    "transition": "dissolve"
+    "transition": "morph"
    }
   }
  ],
@@ -196,10 +196,10 @@
     1,
     8
    ],
-   "tafsir": 91,
-   "excerpt": "لا تعجل عليهم بإصابة ما يوعدون به من العذاب",
+   "tafsir": 16,
+   "excerpt": "من الخزي والنَّكال في الدنيا",
    "target": "",
-   "tone": "blue"
+   "tone": "red"
   },
   {
    "verse": 40,
