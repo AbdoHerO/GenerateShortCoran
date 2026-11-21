@@ -1,0 +1,318 @@
+{
+ "surah": 8,
+ "summary": "26 short videos (reciter Yasser ad-Dussary) covering all 75 verses; 3 of them wait for the owner's decisions",
+ "made_by": "Research 2026-11-21 (cloud agent): audit_surah.py 8 --reciter 97 (with the nocut check), plan_split.py with thematic sections, Saheeh translation and both tafsirs.",
+ "reciter": {
+  "id": 97,
+  "name": "Yasser ad-Dussary"
+ },
+ "notes": [
+  "Recitation: 25.0 minutes. 11 JOINED boundaries and 5 more with no clean audio cut. 56-61 is one unit (106 s).",
+  "Text: two encoding differences from Tanzil (8:6 «بعد ما» spacing, 8:66 «الآن» hamza); their videos are BLOCKED (DECISIONS_NEEDED §1).",
+  "Timing: 8:47 overlaps 8:46 by 60 ms (video 46-47 BLOCKED, §2). Short-word flags to hear: 44, 54, 70.",
+  "Pictures: ambient throughout. The battle of Badr, weapons, wounds, killing, captives, the angels, the Shaytan, death and Pharaoh's drowning are never drawn; no motif on the Prophet ﷺ. Fighting verses (12, 15-16, 39, 57, 60, 65) are glossed only with what both tafsirs say, never as a present-day call."
+ ],
+ "groups": [
+  {
+   "title_ar": "الأنفال والإيمان",
+   "title_en": "Spoils and faith",
+   "from": 1,
+   "to": 8,
+   "videos": [
+    {
+     "from": 1,
+     "to": 5,
+     "title_ar": "صفات أهل الإيمان",
+     "title_en": "The marks of true faith",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 91
+    },
+    {
+     "from": 6,
+     "to": 8,
+     "title_ar": "كراهة الخروج",
+     "title_en": "Reluctance to march",
+     "visual": "ambient",
+     "care": "Badr and the fighting: no battle, weapon, wound, killing or angel drawn; fighting verses keep the tafsirs' restrictions.",
+     "est_s": 49,
+     "blocked": "8:6 «بعد ما»: QF has two words, Tanzil one (the spacing case of DECISIONS_NEEDED section 1)"
+    }
+   ]
+  },
+  {
+   "title_ar": "يوم بدر",
+   "title_en": "The day of Badr",
+   "from": 9,
+   "to": 19,
+   "videos": [
+    {
+     "from": 9,
+     "to": 11,
+     "title_ar": "الإمداد والطمأنينة",
+     "title_en": "Reinforcement and calm",
+     "visual": "ambient",
+     "care": "Angels never drawn; the rain and sleep only as symbols. Badr and the fighting: no battle, weapon, wound, killing or angel drawn; fighting verses keep the tafsirs' restrictions.",
+     "est_s": 72
+    },
+    {
+     "from": 12,
+     "to": 14,
+     "title_ar": "تثبيت المؤمنين",
+     "title_en": "Steadying the believers",
+     "visual": "ambient",
+     "care": "12: no striking drawn or glossed in detail. Badr and the fighting: no battle, weapon, wound, killing or angel drawn; fighting verses keep the tafsirs' restrictions.",
+     "est_s": 57
+    },
+    {
+     "from": 15,
+     "to": 17,
+     "title_ar": "النهي عن الفرار",
+     "title_en": "No turning back",
+     "visual": "ambient",
+     "care": "Badr and the fighting: no battle, weapon, wound, killing or angel drawn; fighting verses keep the tafsirs' restrictions.",
+     "est_s": 83
+    },
+    {
+     "from": 18,
+     "to": 19,
+     "title_ar": "الحكم الفاصل",
+     "title_en": "The decisive judgement",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 41
+    }
+   ]
+  },
+  {
+   "title_ar": "الطاعة والأمانة",
+   "title_en": "Obedience and trust",
+   "from": 20,
+   "to": 28,
+   "videos": [
+    {
+     "from": 20,
+     "to": 25,
+     "title_ar": "السمع والطاعة",
+     "title_en": "Hearing and obeying",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 95
+    },
+    {
+     "from": 26,
+     "to": 28,
+     "title_ar": "الأمانة والفتنة",
+     "title_en": "Trust and trial",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 66
+    }
+   ]
+  },
+  {
+   "title_ar": "مكر المشركين",
+   "title_en": "The idolaters' schemes",
+   "from": 29,
+   "to": 40,
+   "videos": [
+    {
+     "from": 29,
+     "to": 32,
+     "title_ar": "الفرقان والمكر",
+     "title_en": "Criterion and schemes",
+     "visual": "ambient",
+     "care": "Their claims never shown as statements; no motif on the Prophet ﷺ.",
+     "est_s": 80
+    },
+    {
+     "from": 33,
+     "to": 35,
+     "title_ar": "صلاة المشركين",
+     "title_en": "The idolaters' worship",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 59
+    },
+    {
+     "from": 36,
+     "to": 37,
+     "title_ar": "إنفاق للصد",
+     "title_en": "Spending to block the way",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 69
+    },
+    {
+     "from": 38,
+     "to": 40,
+     "title_ar": "دعوة إلى الانتهاء",
+     "title_en": "A call to stop",
+     "visual": "ambient",
+     "care": "39: keep the tafsirs' meaning of «فتنة»; no present-day reading.",
+     "est_s": 57
+    }
+   ]
+  },
+  {
+   "title_ar": "أحكام النصر",
+   "title_en": "Rulings of victory",
+   "from": 41,
+   "to": 49,
+   "videos": [
+    {
+     "from": 41,
+     "to": 42,
+     "title_ar": "قسمة الغنائم",
+     "title_en": "Dividing the spoils",
+     "visual": "ambient",
+     "care": "Badr and the fighting: no battle, weapon, wound, killing or angel drawn; fighting verses keep the tafsirs' restrictions.",
+     "est_s": 91
+    },
+    {
+     "from": 43,
+     "to": 45,
+     "title_ar": "تدبير اللقاء",
+     "title_en": "How the meeting was arranged",
+     "visual": "ambient",
+     "care": "44: short-word flag (listen). Badr and the fighting: no battle, weapon, wound, killing or angel drawn; fighting verses keep the tafsirs' restrictions.",
+     "est_s": 68
+    },
+    {
+     "from": 46,
+     "to": 47,
+     "title_ar": "الثبات والطاعة",
+     "title_en": "Steadfastness and obedience",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 44,
+     "blocked": "8:47 overlaps 8:46 by 60 ms, and 8:46 has no clean cut: docs/progress/DECISIONS_NEEDED.md section 2"
+    },
+    {
+     "from": 48,
+     "to": 49,
+     "title_ar": "خذلان الشيطان",
+     "title_en": "The Shaytan deserts them",
+     "visual": "ambient",
+     "care": "The Shaytan never drawn.",
+     "est_s": 67
+    }
+   ]
+  },
+  {
+   "title_ar": "سنن الهلاك",
+   "title_en": "Ways of ruin",
+   "from": 50,
+   "to": 63,
+   "videos": [
+    {
+     "from": 50,
+     "to": 53,
+     "title_ar": "سنة الأخذ بالذنوب",
+     "title_en": "Seized for their sins",
+     "visual": "ambient",
+     "care": "50: angels and death not drawn. ",
+     "est_s": 77
+    },
+    {
+     "from": 54,
+     "to": 54,
+     "title_ar": "مصير المكذبين",
+     "title_en": "The deniers' end",
+     "visual": "ambient",
+     "care": "54: short-word flag (listen); no drowning drawn.",
+     "est_s": 39
+    },
+    {
+     "from": 55,
+     "to": 55,
+     "title_ar": "ناقضو العهود",
+     "title_en": "The treaty breakers",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 20
+    },
+    {
+     "from": 56,
+     "to": 61,
+     "title_ar": "العهد والاستعداد والسلم",
+     "title_en": "Treaties, readiness and peace",
+     "visual": "ambient",
+     "care": "One unit: the reciter joins 56→61 (about 106 s). Badr and the fighting: no battle, weapon, wound, killing or angel drawn; fighting verses keep the tafsirs' restrictions.",
+     "est_s": 109
+    },
+    {
+     "from": 62,
+     "to": 63,
+     "title_ar": "الألفة بين المؤمنين",
+     "title_en": "The bond between believers",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 43
+    }
+   ]
+  },
+  {
+   "title_ar": "أحكام الجهاد",
+   "title_en": "Rulings of struggle",
+   "from": 64,
+   "to": 71,
+   "videos": [
+    {
+     "from": 64,
+     "to": 65,
+     "title_ar": "الكفاية بالله",
+     "title_en": "Allah suffices",
+     "visual": "ambient",
+     "care": "Badr and the fighting: no battle, weapon, wound, killing or angel drawn; fighting verses keep the tafsirs' restrictions.",
+     "est_s": 45
+    },
+    {
+     "from": 66,
+     "to": 66,
+     "title_ar": "التخفيف",
+     "title_en": "The lightening",
+     "visual": "ambient",
+     "care": "Badr and the fighting: no battle, weapon, wound, killing or angel drawn; fighting verses keep the tafsirs' restrictions.",
+     "est_s": 40,
+     "blocked": "8:66 «الآن»: the hamza case of DECISIONS_NEEDED section 1"
+    },
+    {
+     "from": 67,
+     "to": 71,
+     "title_ar": "شأن الأسرى",
+     "title_en": "The captives",
+     "visual": "ambient",
+     "care": "70: short-word flag (listen). No captives drawn.",
+     "est_s": 97
+    }
+   ]
+  },
+  {
+   "title_ar": "الولاية بين المؤمنين",
+   "title_en": "Alliance among believers",
+   "from": 72,
+   "to": 75,
+   "videos": [
+    {
+     "from": 72,
+     "to": 73,
+     "title_ar": "ولاية المؤمنين",
+     "title_en": "Believers' alliance",
+     "visual": "ambient",
+     "care": "No present-day political reading.",
+     "est_s": 75
+    },
+    {
+     "from": 74,
+     "to": 75,
+     "title_ar": "جزاء المهاجرين",
+     "title_en": "The emigrants' reward",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 58
+    }
+   ]
+  }
+ ]
+}

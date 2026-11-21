@@ -66,6 +66,11 @@ decision. The agent checked: with only this one substitution, each verse is iden
 - 7:196 «وليي»: the first case (QF tatweel + small high yā' `ـِّۧ`, Tanzil `ۦِّ`).
 - Videos 7:160–162 and 7:196–198 are blocked by the same decision.
 
+**Also affected: Al-Anfal (surah 8).**
+- 8:6 «بعد ما»: the spacing case (two words in QF and QPC Hafs, one word in Tanzil).
+- 8:66 «الآن»: the second case.
+- Videos 8:6–8 and 8:66 are blocked by the same decision.
+
 ## 2. Al-Baqarah: verse boundaries that overlap by 20–80 ms in the timing data (found 2026-11-21)
 
 In the Quran Foundation word timings for Yasser ad-Dussary, the first word of some verses starts slightly before the
@@ -114,6 +119,7 @@ start with 2:253–254, which decision 2 blocks (2:253).
   - Blocked videos: 6:27–30, 47–49, 61–62, 63–66, 96–103 and 141–144 (61–62 and 141–142 end right before an
     overlapping verse).
 - Al-A'raf (surah 7): 7:203 overlaps 7:202 by 40 ms, so video 7:201–203 is blocked.
+- Al-Anfal (surah 8): 8:47 overlaps 8:46 by 60 ms, so video 8:46–47 is blocked (8:46 has no clean cut).
 
 ## 3. Published drafts: glosses caught by the stricter wording check (found 2026-11-21)
 
