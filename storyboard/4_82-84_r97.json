@@ -167,7 +167,10 @@
        83,
        20
       ],
-      "until": null,
+      "until": [
+       83,
+       22
+      ],
       "motif": "lamp",
       "place": "top",
       "size": "m"

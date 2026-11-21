@@ -197,7 +197,10 @@
        2,
        9
       ],
-      "until": null,
+      "until": [
+       2,
+       11
+      ],
       "motif": "moon",
       "place": "top",
       "size": "m"

@@ -71,7 +71,10 @@
        8,
        8
       ],
-      "until": null,
+      "until": [
+       8,
+       9
+      ],
       "motif": "scales",
       "place": "top",
       "size": "m"
@@ -185,7 +188,10 @@
        11,
        6
       ],
-      "until": null,
+      "until": [
+       11,
+       8
+      ],
       "motif": "light",
       "place": "top",
       "size": "m"

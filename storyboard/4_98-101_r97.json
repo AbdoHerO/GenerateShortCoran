@@ -43,90 +43,73 @@
        98,
        4
       ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       98,
+       6
+      ],
       "do": "pan_left"
      },
      {
       "at": [
        98,
-       6
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       98,
-       9
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       99,
-       4
+       11
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        99,
-       6
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       100,
        1
       ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       99,
+       4
+      ],
       "do": "shot_wide"
      },
      {
       "at": [
-       100,
-       4
+       99,
+       6
       ],
       "do": "pan_left"
      },
      {
       "at": [
        100,
-       9
+       8
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        100,
        20
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        100,
        24
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        100,
        28
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
-     {
-      "at": [
-       98,
-       12
-      ],
-      "until": null,
-      "motif": "footsteps",
-      "place": "top",
-      "size": "m"
-     },
      {
       "at": [
        99,
@@ -134,6 +117,16 @@
       ],
       "until": null,
       "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       100,
+       2
+      ],
+      "until": null,
+      "motif": "footsteps",
       "place": "top",
       "size": "m"
      },
@@ -154,7 +147,7 @@
       ],
       "until": [
        100,
-       20
+       17
       ],
       "motif": "house",
       "place": "top",
@@ -208,7 +201,10 @@
        101,
        9
       ],
-      "until": null,
+      "until": [
+       101,
+       12
+      ],
       "motif": "hourglass",
       "place": "top",
       "size": "m"

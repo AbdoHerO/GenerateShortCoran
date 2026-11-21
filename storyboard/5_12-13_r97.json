@@ -141,7 +141,10 @@
        12,
        4
       ],
-      "until": null,
+      "until": [
+       12,
+       12
+      ],
       "motif": "seal",
       "place": "top",
       "size": "m"

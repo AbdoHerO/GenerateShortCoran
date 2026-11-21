@@ -222,7 +222,10 @@
        78,
        8
       ],
-      "until": null,
+      "until": [
+       78,
+       10
+      ],
       "motif": "bricks",
       "place": "top",
       "size": "m"

@@ -198,7 +198,10 @@
        32,
        23
       ],
-      "until": null,
+      "until": [
+       32,
+       28
+      ],
       "motif": "growth",
       "place": "top",
       "size": "m"

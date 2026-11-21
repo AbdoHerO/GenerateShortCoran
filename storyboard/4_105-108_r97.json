@@ -93,7 +93,10 @@
        105,
        4
       ],
-      "until": null,
+      "until": [
+       105,
+       12
+      ],
       "motif": "book",
       "place": "top",
       "size": "m"
@@ -125,23 +128,16 @@
      {
       "at": [
        107,
-       5
+       6
       ],
       "do": "pan_right"
      },
      {
       "at": [
        107,
-       7
+       11
       ],
       "do": "pan_left"
-     },
-     {
-      "at": [
-       107,
-       12
-      ],
-      "do": "shot_wide"
      },
      {
       "at": [
@@ -155,7 +151,7 @@
        108,
        6
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -163,6 +159,13 @@
        8
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       108,
+       11
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
@@ -180,16 +183,6 @@
      }
     ],
     "motifs": [
-     {
-      "at": [
-       108,
-       11
-      ],
-      "until": null,
-      "motif": "moon",
-      "place": "top",
-      "size": "m"
-     },
      {
       "at": [
        108,
@@ -341,7 +334,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A book for «الكتاب», geometric near «غفورا رحيما» and «محيطا», a moon for «يبيتون» (by night). No motif on the Prophet ﷺ. 106 uses Al-Muyassar's «في جميع أحوالك» (As-Sa'di's «مما صدر منك إن صدر» not shown). 105:12-15 keeps the negation «فلا تكن»."
+  "notes": "A book for «الكتاب», geometric near «غفورا رحيما» and «محيطا». No motif on the Prophet ﷺ. 106 uses Al-Muyassar's «في جميع أحوالك» (As-Sa'di's «مما صدر منك إن صدر» not shown). 105:12-15 keeps the negation «فلا تكن»."
  },
  "cover": {
   "series_ar": "العدل في القضاء",

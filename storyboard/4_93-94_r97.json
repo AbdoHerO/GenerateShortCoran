@@ -102,42 +102,42 @@
      {
       "at": [
        94,
-       12
+       10
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        94,
-       15
+       13
       ],
       "do": "pan_right"
      },
      {
       "at": [
        94,
-       18
+       16
       ],
       "do": "pan_right"
      },
      {
       "at": [
        94,
-       21
+       19
       ],
       "do": "pan_left"
      },
      {
       "at": [
        94,
-       24
+       22
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        94,
-       26
+       25
       ],
       "do": "pan_left"
      },
@@ -169,18 +169,11 @@
        94,
        5
       ],
-      "until": null,
-      "motif": "footsteps",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
+      "until": [
        94,
-       9
+       10
       ],
-      "until": null,
-      "motif": "lamp",
+      "motif": "footsteps",
       "place": "top",
       "size": "m"
      },
@@ -302,7 +295,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Killing: nothing drawn. 93 under a night sky with no motif; 93:7-8 «خالدا فيها» carries Al-Muyassar's hinge «إن جازاه على ذنبه» (review 4b: the fuller excerpt read as contradicting the recited words). 94: footsteps for setting out, a lamp for «فتبينوا», light for «فمن الله عليكم». 94:10-17 always shows «ولا تقولوا…» with the negation."
+  "notes": "Killing: nothing drawn. 93 under a night sky with no motif; 93:7-8 «خالدا فيها» carries Al-Muyassar's hinge «إن جازاه على ذنبه» (review 4b: the fuller excerpt read as contradicting the recited words). 94: footsteps for setting out, light for «فمن الله عليكم». 94:10-17 always shows «ولا تقولوا…» with the negation."
  },
  "cover": {
   "series_ar": "الدماء والهجرة والصلاة",

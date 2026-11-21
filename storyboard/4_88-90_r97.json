@@ -39,7 +39,7 @@
      {
       "at": [
        88,
-       9
+       10
       ],
       "do": "pan_left"
      },
@@ -62,7 +62,7 @@
      {
       "at": [
        88,
-       5
+       7
       ],
       "until": null,
       "motif": "two_paths",
@@ -170,9 +170,9 @@
      {
       "at": [
        90,
-       18
+       17
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -184,21 +184,21 @@
      {
       "at": [
        90,
-       23
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       90,
-       26
+       24
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        90,
-       34
+       28
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       90,
+       32
       ],
       "do": "pan_right"
      }
@@ -224,16 +224,6 @@
       ],
       "until": null,
       "motif": "seal",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       90,
-       30
-      ],
-      "until": null,
-      "motif": "hands",
       "place": "top",
       "size": "m"
      }
@@ -367,7 +357,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Fighting: no weapon, battle or death drawn. Two paths for «فئتين», footsteps for «يهاجروا», a seal for «ميثاق», hands for «السلم». The command in 89:19-22 is not glossed; 89:17-18 shows its condition. The exceptions in 90 (treaty, those who withdraw) are glossed; «السلم» is not (the tafsirs word it differently)."
+  "notes": "Fighting: no weapon, battle or death drawn. Two paths for «فئتين», footsteps for «يهاجروا», a seal for «ميثاق», (no hands for «السلم»: review 4b). The command in 89:19-22 is not glossed; 89:17-18 shows its condition. The exceptions in 90 (treaty, those who withdraw) are glossed; «السلم» is not (the tafsirs word it differently)."
  },
  "cover": {
   "series_ar": "الدماء والهجرة والصلاة",

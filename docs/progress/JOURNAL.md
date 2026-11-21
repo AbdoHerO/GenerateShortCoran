@@ -508,3 +508,22 @@ or by eye. The per-surah summary goes into each `plans/<n>.json` "notes"; this f
   - In fighting passages, never gloss the object of «قاتلوا» with a general label: keep the tafsir's own restriction
     (defence, those who fight).
   - Never put a gloss that seems to deny the recited words under them; use the tafsir's hinge.
+
+### An-Nisa 4:58–176 picture review (independent sub-agent): 5 SERIOUS and 20 MINOR, all applied (2026-11-21)
+
+- **Serious (all were symbols lingering after their word):**
+  - Hands of «أسلم» stayed over «ملة إبراهيم… خليلا».
+  - Geometric (Allah) stayed over 159, where every pronoun is Isa.
+  - A lamp stayed over «فقاتل» (84).
+  - Light stayed over «وأرسلناك للناس رسولا» (79) and over «يحكموك… قضيت» (65).
+  - All now carry an `until`.
+- **Minor:**
+  - `until` on ten more motifs (over prohibitions, claims, blamed acts, the angels).
+  - Removed:
+    - two paths that split believers' disputes or the Companions into guided and misguided (59, 88: moved onto «أركسهم»);
+    - hands on «السلم»;
+    - a lamp, and a moon on blamed night plotting.
+  - Footsteps moved off a negated «سبيلا».
+  - 171's mood changed from light to geometric (rays could read as the spirit descending on Maryam).
+- **Rule:** `until` is exclusive (the exit starts when that word begins). The same check was applied at once to
+  the Al-Ma'idah storyboards written so far (8 motifs given an `until`).

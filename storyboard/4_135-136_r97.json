@@ -120,7 +120,10 @@
        135,
        6
       ],
-      "until": null,
+      "until": [
+       135,
+       23
+      ],
       "motif": "scales",
       "place": "top",
       "size": "m"
@@ -204,7 +207,10 @@
        136,
        4
       ],
-      "until": null,
+      "until": [
+       136,
+       6
+      ],
       "motif": "light",
       "place": "top",
       "size": "m"

@@ -157,7 +157,10 @@
        27,
        21
       ],
-      "until": null,
+      "until": [
+       28,
+       1
+      ],
       "motif": "light",
       "place": "top",
       "size": "m"

@@ -95,7 +95,10 @@
        4,
        13
       ],
-      "until": null,
+      "until": [
+       4,
+       18
+      ],
       "motif": "dog",
       "place": "top",
       "size": "m"

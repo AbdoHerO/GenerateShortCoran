@@ -162,7 +162,10 @@
        102,
        48
       ],
-      "until": null,
+      "until": [
+       102,
+       52
+      ],
       "motif": "cloud_rain",
       "place": "top",
       "size": "m"

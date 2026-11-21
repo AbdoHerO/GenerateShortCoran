@@ -72,7 +72,10 @@
        158,
        6
       ],
-      "until": null,
+      "until": [
+       159,
+       1
+      ],
       "motif": "geometric",
       "place": "top",
       "size": "m"

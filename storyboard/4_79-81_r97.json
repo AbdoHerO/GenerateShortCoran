@@ -114,7 +114,10 @@
        79,
        4
       ],
-      "until": null,
+      "until": [
+       79,
+       7
+      ],
       "motif": "light",
       "place": "top",
       "size": "m"

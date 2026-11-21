@@ -185,7 +185,10 @@
        111,
        10
       ],
-      "until": null,
+      "until": [
+       112,
+       1
+      ],
       "motif": "geometric",
       "place": "top",
       "size": "m"
