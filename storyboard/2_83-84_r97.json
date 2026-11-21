@@ -32,51 +32,146 @@
    "verses": [
     83
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "uncountable": true
+     },
+     {
+      "id": "f",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 2,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "uncountable": true
+     },
+     {
+      "id": "n",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "sit",
+      "enter": null,
+      "exit": null,
+      "look": "poor"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        83,
-       6
+       2
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        83,
-       12
+       5
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       83,
+       6
       ],
       "do": "pan_right"
      },
      {
       "at": [
        83,
-       14
+       10
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       83,
+       12
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       83,
+       15
+      ],
+      "do": "give",
+      "who": "p",
+      "to": "n"
+     },
+     {
+      "at": [
+       83,
+       16
+      ],
+      "do": "speak",
+      "who": "p"
      },
      {
       "at": [
        83,
        17
       ],
-      "do": "pan_right"
+      "do": "raise_hands",
+      "who": "n"
+     },
+     {
+      "at": [
+       83,
+       19
+      ],
+      "do": "pray",
+      "who": "p"
+     },
+     {
+      "at": [
+       83,
+       21
+      ],
+      "do": "pray",
+      "who": "f"
+     },
+     {
+      "at": [
+       83,
+       24
+      ],
+      "do": "walk_to",
+      "who": "p",
+      "to": "left"
      },
      {
       "at": [
        83,
        26
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "f"
      },
      {
       "at": [
        83,
        29
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -88,7 +183,7 @@
       "until": null,
       "motif": "seal",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -98,17 +193,7 @@
       "until": null,
       "motif": "house",
       "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       83,
-       20
-      ],
-      "until": null,
-      "motif": "hands",
-      "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -118,7 +203,7 @@
       "until": null,
       "motif": "wind",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -129,10 +214,32 @@
    "verses": [
     84
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "uncountable": true
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       84,
+       2
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        84,
@@ -143,23 +250,32 @@
      {
       "at": [
        84,
-       8
+       9
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        84,
-       10
+       11
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        84,
        13
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "p"
+     },
+     {
+      "at": [
+       84,
+       15
+      ],
+      "do": "shot_close",
+      "who": "p"
      }
     ],
     "motifs": [
@@ -171,7 +287,7 @@
       "until": null,
       "motif": "seal",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "iris"
@@ -248,7 +364,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The terms of the covenant (83-84). No motif inside the negated commands of 84. Short-word flag 83:18 to check by ear."
+  "notes": "The terms of the covenant (83-84). No motif inside the negated commands of 84. Short-word flag 83:18 to check by ear. STAGING v4: 83: the covenant shown as deeds: the house for the parents, giving to the poor on «المساكين» (he raises his hands), good speech, prayer; then most walk away on «توليتم» while a few stay praying (Muyassar: إلا قليلا منكم ثبت عليه). 84: the covenant seal and the people in their town acknowledging on «أقررتم»; nothing is shown for the bloodshed or expulsion (negated commands)."
  },
  "cover": {
   "series_ar": "الميثاق المنقوض",
@@ -260,5 +376,6 @@
    10
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

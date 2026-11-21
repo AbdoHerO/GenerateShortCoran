@@ -32,10 +32,43 @@
    "verses": [
     67
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "m",
+      "type": "prophet",
+      "label": "موسى",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "uncountable": true
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       67,
+       2
+      ],
+      "do": "speak",
+      "who": "m"
+     },
      {
       "at": [
        67,
@@ -46,23 +79,42 @@
      {
       "at": [
        67,
-       8
+       9
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
        67,
        11
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "p"
      },
      {
       "at": [
        67,
-       13
+       12
       ],
-      "do": "pan_right"
+      "do": "shake_head",
+      "who": "p"
+     },
+     {
+      "at": [
+       67,
+       14
+      ],
+      "do": "speak",
+      "who": "m"
+     },
+     {
+      "at": [
+       67,
+       18
+      ],
+      "do": "glow",
+      "who": "m"
      }
     ],
     "motifs": [
@@ -74,7 +126,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -86,70 +138,129 @@
     68,
     69
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "mountains",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "m",
+      "type": "prophet",
+      "label": "موسى",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "uncountable": true
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        68,
-       8
+       1
+      ],
+      "do": "speak",
+      "who": "p"
+     },
+     {
+      "at": [
+       68,
+       7
+      ],
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       68,
+       9
+      ],
+      "do": "speak",
+      "who": "m"
+     },
+     {
+      "at": [
+       68,
+       13
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       68,
+       18
       ],
       "do": "pan_left"
      },
      {
       "at": [
        68,
+       21
+      ],
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       69,
+       1
+      ],
+      "do": "speak",
+      "who": "p"
+     },
+     {
+      "at": [
+       69,
+       5
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       69,
+       9
+      ],
+      "do": "speak",
+      "who": "m"
+     },
+     {
+      "at": [
+       69,
        12
       ],
       "do": "pan_left"
      },
      {
       "at": [
-       68,
-       16
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       68,
-       20
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       69,
-       3
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       69,
-       8
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       69,
-       11
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
        69,
        16
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        69,
        17
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       69,
+       18
       ],
       "do": "pan_right"
      }
@@ -163,7 +274,7 @@
       "until": null,
       "motif": "burst",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "slide"
@@ -229,7 +340,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No slaughter is shown and no cow is drawn: the story is carried by text, beats and two symbols (hands: seeking refuge; burst: the bright colour)."
+  "notes": "No slaughter is shown and no cow is drawn: the story is carried by text, beats and two symbols (hands: seeking refuge; burst: the bright colour). STAGING v4: 67-69: Musa (blue drop) speaks to his people, they answer and object (shake heads on «أتتخذنا هزوا», Muyassar: مستكبرين), Musa seeks refuge (geometric only); then they ask again and he answers. No cow and no slaughter are drawn; the burst on «صفراء» stands for the bright colour."
  },
  "cover": {
   "series_ar": "قصة البقرة",
@@ -241,5 +352,6 @@
    14
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

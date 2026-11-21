@@ -99,6 +99,13 @@
        12
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       36,
+       17
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -138,6 +145,13 @@
      {
       "at": [
        37,
+       7
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       37,
        8
       ],
       "do": "shot_wide"
@@ -172,6 +186,13 @@
      {
       "at": [
        38,
+       4
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       38,
        6
       ],
       "do": "shot_wide"
@@ -180,6 +201,13 @@
       "at": [
        38,
        13
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       38,
+       15
       ],
       "do": "shot_wide"
      },
@@ -334,7 +362,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The Garden, the tree, Satan and the Fire are the unseen: no garden mood, no tree or fire motif. The leaf on «فأزلهما» is the slip; the hands on «كلمات» are the words of repentance. JOINED 38->39 is inside the video. Short-word flag 38:15 to check by ear."
+  "notes": "The Garden, the tree, Satan and the Fire are the unseen: no garden mood, no tree or fire motif. The leaf on «فأزلهما» is the slip; the hands on «كلمات» are the words of repentance. JOINED 38->39 is inside the video. Short-word flag 38:15 to check by ear. STAGING v4: Kept ambient: the Garden, Satan, the descent, Adam's repentance (35-37) and the Fire (39) are the unseen; 38 (following the guidance) shares its chapter with the descent and the Fire."
  },
  "cover": {
   "series_ar": "قصة آدم",
@@ -346,5 +374,6 @@
    5
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

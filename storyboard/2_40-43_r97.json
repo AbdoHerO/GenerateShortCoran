@@ -33,10 +33,32 @@
     40,
     41
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 5,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "uncountable": true
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       40,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        40,
@@ -47,9 +69,17 @@
      {
       "at": [
        40,
-       7
+       4
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       40,
+       8
+      ],
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
@@ -63,49 +93,51 @@
        40,
        13
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        41,
        1
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        41,
        6
       ],
-      "do": "pan_left"
+      "do": "read",
+      "who": "p"
      },
      {
       "at": [
        41,
-       10
+       9
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
        41,
        11
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        41,
-       12
+       13
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        41,
        15
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -119,22 +151,12 @@
      {
       "at": [
        40,
-       4
-      ],
-      "until": null,
-      "motif": "burst",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       40,
        9
       ],
       "until": null,
       "motif": "seal",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -144,7 +166,7 @@
       "until": null,
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -156,23 +178,88 @@
     42,
     43
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "uncountable": true
+     },
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        42,
-       7
+       2
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       42,
+       5
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       42,
+       8
+      ],
+      "do": "read",
+      "who": "p"
+     },
+     {
+      "at": [
+       43,
+       1
+      ],
+      "do": "pray",
+      "who": "p"
+     },
+     {
+      "at": [
+       43,
+       2
+      ],
+      "do": "pray",
+      "who": "b"
+     },
+     {
+      "at": [
+       43,
+       5
+      ],
+      "do": "ruku",
+      "who": "p"
      },
      {
       "at": [
        43,
        7
       ],
-      "do": "pan_left"
+      "do": "ruku",
+      "who": "b"
      }
     ],
     "motifs": [
@@ -184,17 +271,7 @@
       "until": null,
       "motif": "light",
       "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       43,
-       2
-      ],
-      "until": null,
-      "motif": "hands",
-      "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -204,7 +281,7 @@
       "until": null,
       "motif": "coins",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "wipe"
@@ -292,7 +369,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No first-person paraphrase of Allah's words in any gloss (Al-Muyassar speaks in the first person here; only neutral parts were taken). No motif on the negated «ثمنا قليلا». Short-word flag 40:11 to check by ear."
+  "notes": "No first-person paraphrase of Allah's words in any gloss (Al-Muyassar speaks in the first person here; only neutral parts were taken). No motif on the negated «ثمنا قليلا». Short-word flag 40:11 to check by ear. STAGING v4: 40-41: the Children of Israel addressed (an uncountable people group in a town); the seal on «بعهدي», the book on «أنزلت», and they hold their own scripture on «معكم» (Muyassar: صحيح التوراة); nothing on the negated «ثمنا قليلا». 42-43: in a prayer hall they hold the books they know (Muyassar: الكتب التي بأيديكم), then pray and bow with the Muslims who bow (Muyassar: الراكعين من أمته); coins on «الزكاة»."
  },
  "cover": {
   "series_ar": "نداء بني إسرائيل",
@@ -304,5 +381,6 @@
    9
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

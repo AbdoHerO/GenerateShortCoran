@@ -33,23 +33,72 @@
     65,
     66
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "sea",
+    "setting": "sea_shore",
+    "time": "day",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       65,
+       8
+      ],
+      "uncountable": true
+     },
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": [
+       66,
+       2
+      ],
+      "exit": null,
+      "uncountable": true
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        65,
-       4
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        65,
-       10
+       4
       ],
-      "do": "pan_right"
+      "do": "walk_to",
+      "who": "p",
+      "to": "center"
+     },
+     {
+      "at": [
+       65,
+       6
+      ],
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       65,
+       9
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -63,33 +112,37 @@
        66,
        1
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        66,
-       2
+       4
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        66,
        9
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "b"
      }
     ],
     "motifs": [
      {
       "at": [
        65,
-       7
+       4
       ],
-      "until": null,
+      "until": [
+       65,
+       8
+      ],
       "motif": "fish",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -99,7 +152,7 @@
       "until": null,
       "motif": "lamp",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -153,7 +206,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The transformation (65) is never drawn: only the fish (the fishing trick) and the lamp (a lesson). Short-word flag 65:10 to check by ear."
+  "notes": "The transformation (65) is never drawn: only the fish (the fishing trick) and the lamp (a lesson). Short-word flag 65:10 to check by ear. STAGING v4: 65-66: the Sabbath-breakers of the town by the sea (Muyassar: they schemed to catch fish) walk to the shore with the fish symbol, and leave the stage on «فقلنا» before the decree; the transformation is never drawn. Others then come (Muyassar: عبرة لمن بحضرتها), and the lamp shows the admonition for the righteous."
  },
  "cover": {
   "series_ar": "الميثاق",
@@ -165,5 +218,6 @@
    7
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

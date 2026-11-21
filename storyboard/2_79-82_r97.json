@@ -32,51 +32,104 @@
    "verses": [
     79
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "w",
+      "type": "disbelievers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "uncountable": true
+     },
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "uncountable": true
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       79,
+       2
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       79,
+       3
+      ],
+      "do": "read",
+      "who": "w"
+     },
      {
       "at": [
        79,
        6
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        79,
        7
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "w"
      },
      {
       "at": [
        79,
-       11
+       12
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "w"
+     },
+     {
+      "at": [
+       79,
+       14
+      ],
+      "do": "give",
+      "who": "p",
+      "to": "w"
      },
      {
       "at": [
        79,
        16
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        79,
        19
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "w"
      },
      {
       "at": [
        79,
        23
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -85,10 +138,13 @@
        79,
        3
       ],
-      "until": null,
+      "until": [
+       79,
+       11
+      ],
       "motif": "pen",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -98,7 +154,7 @@
       "until": null,
       "motif": "coins",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -149,6 +205,13 @@
        16
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       80,
+       19
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
@@ -314,7 +377,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Their claim of «a few days» (80) is not glossed as a statement; the gloss is on the reply that refutes it. The Fire and Paradise (81-82) get no picture: two_paths and burst only."
+  "notes": "Their claim of «a few days» (80) is not glossed as a statement; the gloss is on the reply that refutes it. The Fire and Paradise (81-82) get no picture: two_paths and burst only. STAGING v4: 79: the scribes who write the book with their hands (Muyassar: أحبار السوء) hold it and speak («هذا من عند الله» is their false claim, not glossed), and people hand them a purse on «ثمنا» (Muyassar: المال الحرام كالرشوة; As-Sa'di: ما في أيدي الناس); the pen ends before the Name. 80-82 stay ambient (their claim about the Fire, the Fire and Paradise)."
  },
  "cover": {
   "series_ar": "تحريف وأماني",
@@ -326,5 +389,6 @@
    3
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

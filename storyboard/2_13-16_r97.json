@@ -32,51 +32,95 @@
    "verses": [
     13
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "h",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "uncountable": true
+     },
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       13,
+       2
+      ],
+      "do": "speak",
+      "who": "b"
+     },
      {
       "at": [
        13,
        6
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        13,
        8
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "h"
      },
      {
       "at": [
        13,
-       11
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       13,
-       13
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       13,
-       15
+       10
       ],
       "do": "pan_left"
      },
      {
       "at": [
        13,
-       18
+       12
       ],
-      "do": "pan_right"
+      "do": "turn",
+      "who": "h"
+     },
+     {
+      "at": [
+       13,
+       14
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       13,
+       16
+      ],
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       13,
+       19
+      ],
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -88,7 +132,7 @@
       "until": null,
       "motif": "lamp",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -100,30 +144,101 @@
     14,
     15
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "mountains",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "h",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "uncountable": true
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "uncountable": true
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       14,
+       2
+      ],
+      "do": "walk_to",
+      "who": "h",
+      "to": "right"
+     },
+     {
+      "at": [
+       14,
+       5
+      ],
+      "do": "speak",
+      "who": "h"
+     },
      {
       "at": [
        14,
        6
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        14,
-       12
+       8
       ],
-      "do": "pan_right"
+      "do": "walk_to",
+      "who": "h",
+      "to": "left"
+     },
+     {
+      "at": [
+       14,
+       11
+      ],
+      "do": "speak",
+      "who": "h"
+     },
+     {
+      "at": [
+       14,
+       14
+      ],
+      "do": "shot_close",
+      "who": "h"
      },
      {
       "at": [
        14,
        16
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -131,6 +246,21 @@
        2
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       15,
+       4
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       15,
+       7
+      ],
+      "do": "turn",
+      "who": "h"
      }
     ],
     "motifs": [
@@ -139,10 +269,13 @@
        14,
        8
       ],
-      "until": null,
+      "until": [
+       15,
+       1
+      ],
       "motif": "two_paths",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -152,7 +285,7 @@
       "until": null,
       "motif": "wind",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "morph"
@@ -164,30 +297,61 @@
    "verses": [
     16
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "rain",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "h",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "uncountable": true
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        16,
-       2
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        16,
-       5
+       2
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        16,
-       9
+       4
       ],
-      "do": "pan_right"
+      "do": "turn",
+      "who": "h"
+     },
+     {
+      "at": [
+       16,
+       8
+      ],
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       16,
+       10
+      ],
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -202,7 +366,7 @@
       ],
       "motif": "coins",
       "place": "top",
-      "size": "m",
+      "size": "s",
       "exit": "undraw"
      }
     ],
@@ -280,7 +444,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Hypocrites (13-16). The gloss on «السفهاء» is placed on Allah's reply (13:16), never on their insult (13:12). Allah's «يستهزئ» is explained as recompense (Al-Muyassar). The devils (14) are never drawn. The coins undraw at «تجارتهم»: the trade brought no profit."
+  "notes": "Hypocrites (13-16). The gloss on «السفهاء» is placed on Allah's reply (13:16), never on their insult (13:12). Allah's «يستهزئ» is explained as recompense (Al-Muyassar). The devils (14) are never drawn. The coins undraw at «تجارتهم»: the trade brought no profit. STAGING v4: 13: the believers call the hypocrites to believe, they answer and turn away; the believers (the Companions) are shown on «الناس». 14-15: the hypocrites walk to the believers and speak, then walk off to their leaders (both tafsirs: شياطينهم = رؤساؤهم/زعماؤهم, drawn as an uncountable group of disbelievers) and speak again; nothing on the Name (15:1). 16: the losing trade in a market, the coins undraw on «تجارتهم»."
  },
  "cover": {
   "series_ar": "المنافقون",
@@ -292,5 +456,6 @@
    4
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

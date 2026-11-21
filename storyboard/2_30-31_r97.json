@@ -180,7 +180,10 @@
        31,
        3
       ],
-      "until": null,
+      "until": [
+       31,
+       8
+      ],
       "motif": "pen",
       "place": "top",
       "size": "m"
@@ -238,7 +241,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Adam's story (30-31) is the unseen: angels, Adam and the scene are never drawn. The angels' question is glossed as a request for wisdom (Al-Muyassar). No motif on Allah's knowledge."
+  "notes": "Adam's story (30-31) is the unseen: angels, Adam and the scene are never drawn. The angels' question is glossed as a request for wisdom (Al-Muyassar). No motif on Allah's knowledge. STAGING v4: Kept ambient: Adam, the angels and the scene of 30-31 are the unseen. The pen now ends before «الملائكة» (31:8)."
  },
  "cover": {
   "series_ar": "قصة آدم",
@@ -250,5 +253,6 @@
    3
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -114,58 +114,106 @@
     63,
     64
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "mountains",
+    "setting": "mountains",
+    "time": "day",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "uncountable": true
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        63,
-       8
+       2
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        63,
-       10
+       5
+      ],
+      "do": "look_up",
+      "who": "p"
+     },
+     {
+      "at": [
+       63,
+       7
+      ],
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       63,
+       8
       ],
       "do": "pan_right"
      },
      {
       "at": [
        63,
-       14
+       9
       ],
-      "do": "pan_left"
+      "do": "read",
+      "who": "p"
+     },
+     {
+      "at": [
+       63,
+       11
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       63,
+       15
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        64,
        2
       ],
-      "do": "pan_left"
+      "do": "turn",
+      "who": "p"
      },
      {
       "at": [
        64,
-       6
+       5
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        64,
        10
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        64,
        13
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "p"
      }
     ],
     "motifs": [
@@ -177,7 +225,7 @@
       "until": null,
       "motif": "seal",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -187,17 +235,20 @@
       "until": null,
       "motif": "mountain",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        63,
        10
       ],
-      "until": null,
+      "until": [
+       64,
+       2
+      ],
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "morph"
@@ -285,7 +336,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "62 is glossed with Al-Muyassar's key clarification (those who lived before the sending of Muhammad ﷺ), so it cannot be read as all religions being valid after Islam. The mountain is a symbol, never a scene over people."
+  "notes": "62 is glossed with Al-Muyassar's key clarification (those who lived before the sending of Muhammad ﷺ), so it cannot be read as all religions being valid after Islam. The mountain is a symbol, never a scene over people. STAGING v4: 62 stays ambient: a doctrinal statement about faith and reward (with Al-Muyassar's clarification), not a scene; drawing the named communities could be misread. 63-64: the people at the foot of the mountains look up on «فوقكم» (the raised Mount is only the mountain symbol, never drawn over them), hold the Book on «آتيناكم» and turn away on «توليتم»; nothing on the Name."
  },
  "cover": {
   "series_ar": "الميثاق",
@@ -297,5 +348,6 @@
    6
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

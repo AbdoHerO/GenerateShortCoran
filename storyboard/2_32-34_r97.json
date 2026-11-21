@@ -135,6 +135,13 @@
      {
       "at": [
        34,
+       3
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       34,
        4
       ],
       "do": "pan_right"
@@ -236,7 +243,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The angels and Iblis are never drawn and get no motif; no motif on Adam (a prophet). The prostration chapter is carried by beats only."
+  "notes": "The angels and Iblis are never drawn and get no motif; no motif on Adam (a prophet). The prostration chapter is carried by beats only. STAGING v4: Kept ambient: the angels, Adam and Iblis (32-34) are the unseen."
  },
  "cover": {
   "series_ar": "قصة آدم",
@@ -248,5 +255,6 @@
    4
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

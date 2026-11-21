@@ -33,23 +33,65 @@
     53,
     54
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "m",
+      "type": "prophet",
+      "label": "موسى",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "uncountable": true
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       53,
+       2
+      ],
+      "do": "glow",
+      "who": "m"
+     },
      {
       "at": [
        53,
        7
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        54,
-       4
+       2
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "m"
+     },
+     {
+      "at": [
+       54,
+       7
+      ],
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
@@ -61,37 +103,46 @@
      {
       "at": [
        54,
-       14
+       11
+      ],
+      "do": "bow",
+      "who": "p"
+     },
+     {
+      "at": [
+       54,
+       13
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       54,
+       16
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        54,
-       17
+       18
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       54,
-       20
-      ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        54,
        22
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
        54,
        26
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -100,20 +151,36 @@
        53,
        4
       ],
-      "until": null,
+      "until": [
+       54,
+       3
+      ],
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        54,
        11
       ],
-      "until": null,
+      "until": [
+       54,
+       13
+      ],
       "motif": "hands",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       54,
+       21
+      ],
+      "until": null,
+      "motif": "light",
+      "place": "top",
+      "size": "s"
      }
     ]
    }
@@ -254,7 +321,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No violence shown: the repentance by killing (54) is explained in words only (Al-Muyassar: some of them killing others); the thunderbolt (55) is a lightning symbol; the revival (56) a growth symbol."
+  "notes": "No violence shown: the repentance by killing (54) is explained in words only (Al-Muyassar: some of them killing others); the thunderbolt (55) is a lightning symbol; the revival (56) a growth symbol. STAGING v4: 53-54: Musa (blue drop) given the Book; he speaks to his people, who bow on «فتوبوا»; nothing is shown on «فاقتلوا أنفسكم» (explained by the gloss only); light (only) from «فتاب» over the Names. 55-56 stay ambient: the thunderbolt struck the people and they were revived (punishment and death are never shown)."
  },
  "cover": {
   "series_ar": "نعم على بني إسرائيل",
@@ -266,5 +333,6 @@
    11
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

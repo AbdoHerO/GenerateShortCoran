@@ -100,7 +100,8 @@ async function main() {
     } else if (mode === 'sheet') {
       const from = Number(opt('from', 0)), to = Number(opt('to', data.duration)), n = Number(opt('n', 12)), cols = Number(opt('cols', 4));
       const out = path.resolve(ROOT, opt('out', 'out/wip/sheet.png'));
-      const tmp = ensureDir('out/.tmp_sheet');
+      // one temp folder per run: sheets rendered in parallel must never share frames
+      const tmp = ensureDir(`out/.tmp_sheet_${process.pid}`);
       for (const f of fs.readdirSync(tmp)) fs.unlinkSync(path.join(tmp, f));
       const times = opt('t') ? opt('t').split(',').map(Number) : [...Array(n).keys()].map((i) => from + ((to - from) * i) / Math.max(1, n - 1));
       for (let i = 0; i < times.length; i++) fs.writeFileSync(path.join(tmp, `f_${String(i).padStart(3, '0')}.png`), await frame(page, times[i]));
@@ -108,6 +109,7 @@ async function main() {
       const label = `drawtext=fontfile=renderer/fonts/Montserrat-SemiBold.ttf:text='%{eif\\:n\\:d}':x=8:y=8:fontsize=22:fontcolor=yellow:box=1:boxcolor=black@0.6`;
       const r = spawnSync('ffmpeg', ['-v', 'error', '-y', '-i', path.join(tmp, 'f_%03d.png'), '-vf', `scale=360:640,${label},tile=${cols}x${rows}`, '-frames:v', '1', out], { cwd: ROOT, encoding: 'utf8' });
       if (r.status) throw new Error(r.stderr);
+      fs.rmSync(tmp, { recursive: true, force: true });
       console.log(out, '\n' + times.map((t, i) => `${i}: ${t.toFixed(2)}s`).join('  '));
     } else if (mode === 'video') {
       const from = Number(opt('from', 0)), to = Number(opt('to', data.duration));

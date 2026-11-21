@@ -34,37 +34,72 @@
     9,
     10
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "h",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "uncountable": true
+     },
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        8,
-       5
+       2
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       8,
+       4
+      ],
+      "do": "speak",
+      "who": "h"
      },
      {
       "at": [
        8,
        7
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        8,
-       11
+       9
       ],
-      "do": "pan_right"
+      "do": "turn",
+      "who": "h"
      },
      {
       "at": [
        9,
        1
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "h"
      },
      {
       "at": [
@@ -76,9 +111,18 @@
      {
       "at": [
        9,
+       6
+      ],
+      "do": "turn",
+      "who": "h"
+     },
+     {
+      "at": [
+       9,
        8
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "h"
      },
      {
       "at": [
@@ -92,14 +136,15 @@
        10,
        1
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        10,
        2
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "h"
      },
      {
       "at": [
@@ -111,23 +156,24 @@
      {
       "at": [
        10,
-       6
+       7
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        10,
        9
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        10,
        12
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "h"
      }
     ],
     "motifs": [
@@ -136,10 +182,13 @@
        8,
        2
       ],
-      "until": null,
+      "until": [
+       8,
+       6
+      ],
       "motif": "crowd",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -151,37 +200,73 @@
     11,
     12
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "mountains",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "h",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "uncountable": true
+     },
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        11,
-       7
+       2
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "b"
+     },
+     {
+      "at": [
+       11,
+       8
+      ],
+      "do": "speak",
+      "who": "h"
      },
      {
       "at": [
        11,
        11
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        12,
        1
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "h"
      },
      {
       "at": [
        12,
-       7
+       6
       ],
-      "do": "pan_right"
+      "do": "turn",
+      "who": "h"
      }
     ],
     "motifs": [
@@ -193,7 +278,7 @@
       "until": null,
       "motif": "wind",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "wipe"
@@ -281,7 +366,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Hypocrites (8-12). The crowd motif is uncountable; no motif on «مصلحون» (their false claim of reform)."
+  "notes": "Hypocrites (8-12). The crowd motif is uncountable; no motif on «مصلحون» (their false claim of reform). STAGING v4: 8-10: an uncountable group of hypocrites in a town speaks («يقول آمنا») and turns away from the believers (their hidden disbelief); nothing on the Name; the punishment gets no picture. 11-12: the believers advise them (Muyassar: نُصحوا), they answer; the wind motif on «المفسدون»; nothing on their claim «مصلحون»."
  },
  "cover": {
   "series_ar": "المنافقون",
@@ -293,5 +378,6 @@
    5
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

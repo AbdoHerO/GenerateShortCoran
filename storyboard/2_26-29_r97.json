@@ -32,49 +32,113 @@
    "verses": [
     26
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "left",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "uncountable": true
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        26,
        4
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        26,
-       9
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       26,
-       11
+       6
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        26,
-       14
+       9
       ],
       "do": "pan_left"
      },
      {
       "at": [
        26,
-       21
+       11
       ],
       "do": "pan_right"
      },
      {
       "at": [
        26,
-       25
+       14
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       26,
+       18
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       26,
+       21
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       26,
+       23
+      ],
+      "do": "speak",
+      "who": "d"
+     },
+     {
+      "at": [
+       26,
+       24
+      ],
+      "do": "shake_head",
+      "who": "d"
+     },
+     {
+      "at": [
+       26,
+       27
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       26,
+       29
       ],
       "do": "shot_wide"
      },
@@ -83,26 +147,38 @@
        26,
        32
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        26,
-       37
+       36
       ],
-      "do": "pan_left"
+      "do": "turn",
+      "who": "d"
+     },
+     {
+      "at": [
+       26,
+       39
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
      {
       "at": [
        26,
-       17
+       15
       ],
-      "until": null,
+      "until": [
+       26,
+       19
+      ],
       "motif": "lamp",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -112,7 +188,7 @@
       "until": null,
       "motif": "two_paths",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -123,37 +199,94 @@
    "verses": [
     27
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "mountains",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "uncountable": true
+     },
+     {
+      "id": "k",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       27,
+       2
+      ],
+      "do": "turn",
+      "who": "d"
+     },
+     {
+      "at": [
+       27,
+       6
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        27,
        8
       ],
-      "do": "shot_wide"
+      "do": "walk_to",
+      "who": "d",
+      "to": "left"
      },
      {
       "at": [
        27,
        12
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        27,
        13
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        27,
-       19
+       15
       ],
-      "do": "pan_right"
+      "do": "wind"
+     },
+     {
+      "at": [
+       27,
+       18
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       27,
+       20
+      ],
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -168,7 +301,7 @@
       ],
       "motif": "seal",
       "place": "top",
-      "size": "m",
+      "size": "s",
       "exit": "undraw"
      },
      {
@@ -179,7 +312,7 @@
       "until": null,
       "motif": "leaf",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "wipe"
@@ -465,7 +598,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Merged from 2_26-27_r97, 2_28-29_r97 (reviewed) because the boundary between them has no clean audio cut. [2_26-27_r97] Parables (26) and the covenant-breakers (27). The disbelievers' question (26:24) gets no gloss; the answer (26:29) is explained. The seal (covenant) undraws at «يقطعون». [2_28-29_r97] Life, death and creation (28-29). No motif or gloss on «استوى» (Allah's istiwa); no motif on Allah's attributes."
+  "notes": "Merged from 2_26-27_r97, 2_28-29_r97 (reviewed) because the boundary between them has no clean audio cut. [2_26-27_r97] Parables (26) and the covenant-breakers (27). The disbelievers' question (26:24) gets no gloss; the answer (26:29) is explained. The seal (covenant) undraws at «يقطعون». [2_28-29_r97] Life, death and creation (28-29). No motif or gloss on «استوى» (Allah's istiwa); no motif on Allah's attributes. STAGING v4: 26: believers (who know it is the truth) and an uncountable group of disbelievers who object («فيقولون», shake heads); nothing on the Name. 27: the covenant-breakers turn away and walk away from their kin on «يقطعون» (Muyassar: كقطع الأرحام); wind on «يفسدون». 28 (life, death, resurrection) and 29 (creation of the heavens, istiwa) stay ambient: Allah's acts and the unseen."
  },
  "cover": {
   "series_ar": "الأمثال والخلق",
@@ -477,5 +610,6 @@
    29
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

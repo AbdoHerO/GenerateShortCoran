@@ -33,65 +33,103 @@
     17,
     18
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "mountains",
+    "time": "night",
+    "actors": [
+     {
+      "id": "m",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     }
+    ],
+    "events": [
+     {
+      "type": "fire",
+      "at": [
+       17,
+       4
+      ],
+      "until": [
+       17,
+       10
+      ]
+     },
+     {
+      "type": "darkness",
+      "at": [
+       17,
+       13
+      ],
+      "until": null
+     }
+    ],
     "beats": [
+     {
+      "at": [
+       17,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        17,
        7
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        17,
        9
       ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       17,
-       13
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       17,
-       14
-      ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       17,
+       15
+      ],
+      "do": "turn",
+      "who": "m"
      },
      {
       "at": [
        17,
        17
       ],
-      "do": "pan_right"
+      "do": "turn",
+      "who": "m"
      },
      {
       "at": [
        18,
        1
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "m"
      },
      {
       "at": [
        18,
-       2
+       3
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        18,
        6
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -102,12 +140,11 @@
       ],
       "until": [
        17,
-       12
+       10
       ],
       "motif": "fire",
       "place": "top",
-      "size": "m",
-      "exit": "undraw"
+      "size": "s"
      }
     ]
    }
@@ -119,35 +156,94 @@
     19,
     20
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "rain",
+    "setting": "mountains",
+    "time": "night",
+    "actors": [
+     {
+      "id": "g",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 4,
+      "pose": "walk",
+      "enter": null,
+      "exit": null,
+      "uncountable": true
+     }
+    ],
+    "events": [
+     {
+      "type": "rain",
+      "at": [
+       19,
+       2
+      ],
+      "until": null
+     },
+     {
+      "type": "darkness",
+      "at": [
+       19,
+       6
+      ],
+      "until": [
+       20,
+       6
+      ]
+     },
+     {
+      "type": "lightning",
+      "at": [
+       19,
+       8
+      ],
+      "until": null
+     },
+     {
+      "type": "darkness",
+      "at": [
+       20,
+       11
+      ],
+      "until": null
+     }
+    ],
     "beats": [
      {
       "at": [
        19,
-       5
+       4
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        19,
-       11
+       10
+      ],
+      "do": "shot_close",
+      "who": "g"
+     },
+     {
+      "at": [
+       19,
+       12
       ],
       "do": "pan_right"
      },
      {
       "at": [
        19,
-       13
+       14
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        19,
-       16
+       18
       ],
       "do": "shot_wide"
      },
@@ -156,68 +252,72 @@
        19,
        19
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        20,
        2
       ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       20,
-       5
-      ],
-      "do": "pan_right"
+      "do": "shot_sky"
      },
      {
       "at": [
        20,
        6
       ],
-      "do": "pan_right"
+      "do": "sparkle",
+      "who": "g"
      },
      {
       "at": [
        20,
-       10
+       8
       ],
-      "do": "pan_left"
+      "do": "walk_to",
+      "who": "g",
+      "to": "center"
      },
      {
       "at": [
        20,
        13
       ],
+      "do": "shot_close",
+      "who": "g"
+     },
+     {
+      "at": [
+       20,
+       15
+      ],
       "do": "pan_left"
      },
      {
       "at": [
        20,
-       16
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       20,
-       19
+       18
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        20,
-       22
+       20
       ],
       "do": "pan_left"
      },
      {
       "at": [
        20,
-       25
+       22
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       20,
+       24
       ],
       "do": "shot_wide"
      }
@@ -231,27 +331,33 @@
       "until": null,
       "motif": "cloud_rain",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        19,
        8
       ],
-      "until": null,
+      "until": [
+       19,
+       17
+      ],
       "motif": "lightning",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        20,
-       8
+       2
       ],
-      "until": null,
-      "motif": "footsteps",
+      "until": [
+       20,
+       16
+      ],
+      "motif": "lightning",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "iris"
@@ -361,7 +467,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Two parables of this world (worldly fire, rain, lightning). The fire undraws at «بنورهم». No eye or ear motif (18, 19, 20). Short-word flag 20:12 to check by ear."
+  "notes": "Two parables of this world (worldly fire, rain, lightning). The fire undraws at «بنورهم». No eye or ear motif (18, 19, 20). Short-word flag 20:12 to check by ear. STAGING v4: 17-18 (parable): one man kindles a worldly fire on a dark night, it goes out on «ذهب» (before the Name) and the scene darkens on «وتركهم»; only the kindler is drawn (Muyassar speaks of a group, As-Sa'di of the man). 19-20 (parable): an uncountable group walking in the open (Muyassar: جماعة يمشون في العراء) in heavy rain, darkness and lightning; they walk when it lights (20:8) and stop when it darkens (20:11). No fingers-in-ears gesture, no eye or ear motif; nothing on the Name."
  },
  "cover": {
   "series_ar": "المنافقون",
@@ -373,5 +479,6 @@
    8
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

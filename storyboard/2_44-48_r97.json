@@ -32,37 +32,75 @@
    "verses": [
     44
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "s",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     },
+     {
+      "id": "n",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "uncountable": true
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        44,
-       3
+       2
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "s"
      },
      {
       "at": [
        44,
-       5
+       4
       ],
-      "do": "shot_wide"
+      "do": "turn",
+      "who": "s"
      },
      {
       "at": [
        44,
        6
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "s"
+     },
+     {
+      "at": [
+       44,
+       7
+      ],
+      "do": "read",
+      "who": "s"
      },
      {
       "at": [
        44,
        9
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "s"
      }
     ],
     "motifs": [
@@ -74,7 +112,7 @@
       "until": null,
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -86,30 +124,62 @@
     45,
     46
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "prayer_hall",
+    "time": "dawn",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       45,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       45,
+       3
+      ],
+      "do": "pray",
+      "who": "b"
+     },
      {
       "at": [
        45,
        5
       ],
-      "do": "pan_left"
+      "do": "ruku",
+      "who": "b"
      },
      {
       "at": [
        45,
        8
       ],
-      "do": "pan_right"
+      "do": "sujud",
+      "who": "b"
      },
      {
       "at": [
        46,
        2
       ],
-      "do": "shot_wide"
+      "do": "sit",
+      "who": "b"
      },
      {
       "at": [
@@ -123,7 +193,7 @@
        46,
        7
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -132,10 +202,13 @@
        45,
        3
       ],
-      "until": null,
+      "until": [
+       46,
+       5
+      ],
       "motif": "hands",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "light_sweep"
@@ -152,6 +225,13 @@
    "params": {
     "mood": "geometric",
     "beats": [
+     {
+      "at": [
+       47,
+       3
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        47,
@@ -334,7 +414,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The preference «over the worlds» is glossed «على عالمي زمانكم» (of their time). The Day (48) is only an hourglass symbol; no motif on the negated parts of 48."
+  "notes": "The preference «over the worlds» is glossed «على عالمي زمانكم» (of their time). The Day (48) is only an hourglass symbol; no motif on the negated parts of 48. STAGING v4: 44: one of them (Muyassar: their scholars) speaks to the people, turns from his own advice on «وتنسون» and reads the Book on «تتلون». 45-46: believers praying (pray, ruku, sujud on «الخاشعين», sitting); the hands end before «ربهم». 47-48 stay ambient (the Day)."
  },
  "cover": {
   "series_ar": "نداء بني إسرائيل",
@@ -346,5 +426,6 @@
    3
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

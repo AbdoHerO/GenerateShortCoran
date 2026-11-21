@@ -295,7 +295,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The Fire (24) and Paradise (25) are the unseen: no fire, river, fruit or garden motif; only two_paths (the choice), burst (glad tidings) and seal (abiding)."
+  "notes": "The Fire (24) and Paradise (25) are the unseen: no fire, river, fruit or garden motif; only two_paths (the choice), burst (glad tidings) and seal (abiding). STAGING v4: Kept ambient: 24 is the Fire and 25 is Paradise (the unseen)."
  },
  "cover": {
   "series_ar": "دعوة للناس جميعا",
@@ -307,5 +307,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

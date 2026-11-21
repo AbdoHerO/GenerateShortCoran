@@ -60,6 +60,13 @@
      {
       "at": [
        49,
+       15
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       49,
        16
       ],
       "do": "pan_right"
@@ -81,7 +88,10 @@
        49,
        13
       ],
-      "until": null,
+      "until": [
+       49,
+       17
+      ],
       "motif": "chains",
       "place": "top",
       "size": "m"
@@ -98,37 +108,54 @@
    "scene": "stage",
    "params": {
     "setting": "sea_shore",
-    "time": "dawn",
+    "time": "day",
     "actors": [
      {
-      "id": "musa",
-      "type": "prophet",
-      "label": "موسى عليه السلام",
-      "place": "center",
-      "count": 1,
-      "pose": "stand",
-      "enter": null,
-      "exit": null
-     },
-     {
-      "id": "people",
+      "id": "p",
       "type": "believers",
       "label": "",
-      "place": "left",
-      "count": 6,
-      "pose": "walk",
-      "enter": null,
-      "exit": null
-     },
-     {
-      "id": "army",
-      "type": "soldiers",
-      "label": "",
-      "place": "right",
-      "count": 8,
+      "place": "center",
+      "count": 5,
       "pose": "stand",
       "enter": null,
-      "exit": null
+      "exit": [
+       50,
+       5
+      ],
+      "uncountable": true
+     },
+     {
+      "id": "s",
+      "type": "soldiers",
+      "label": "",
+      "place": "left",
+      "count": 5,
+      "pose": "walk",
+      "enter": [
+       50,
+       5
+      ],
+      "exit": [
+       50,
+       6
+      ],
+      "uncountable": true
+     },
+     {
+      "id": "f",
+      "type": "king",
+      "label": "فرعون",
+      "place": "left",
+      "count": 1,
+      "pose": "walk",
+      "enter": [
+       50,
+       5
+      ],
+      "exit": [
+       50,
+       6
+      ]
      }
     ],
     "events": [
@@ -153,19 +180,25 @@
      {
       "at": [
        50,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       50,
        3
       ],
-      "do": "glow",
-      "who": "musa"
+      "do": "walk_to",
+      "who": "p",
+      "to": "right"
      },
      {
       "at": [
        50,
        5
       ],
-      "do": "walk_to",
-      "who": "people",
-      "to": "center"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -177,9 +210,9 @@
      {
       "at": [
        50,
-       10
+       9
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -204,23 +237,74 @@
     51,
     52
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "desert",
+    "time": "night",
+    "actors": [
+     {
+      "id": "m",
+      "type": "prophet",
+      "label": "موسى",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       51,
+       5
+      ]
+     },
+     {
+      "id": "m2",
+      "type": "prophet",
+      "label": "موسى",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       52,
+       1
+      ],
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "uncountable": true
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        51,
-       6
+       2
       ],
-      "do": "pan_left"
+      "do": "glow",
+      "who": "m"
+     },
+     {
+      "at": [
+       51,
+       7
+      ],
+      "do": "turn",
+      "who": "p"
      },
      {
       "at": [
        51,
        9
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
@@ -231,17 +315,34 @@
      },
      {
       "at": [
-       51,
-       12
+       52,
+       1
       ],
-      "do": "pan_right"
+      "do": "turn",
+      "who": "p"
      },
      {
       "at": [
        52,
-       6
+       2
       ],
-      "do": "pan_right"
+      "do": "bow",
+      "who": "p"
+     },
+     {
+      "at": [
+       52,
+       5
+      ],
+      "do": "glow",
+      "who": "m2"
+     },
+     {
+      "at": [
+       52,
+       8
+      ],
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -253,7 +354,7 @@
       "until": null,
       "motif": "moon",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -263,7 +364,7 @@
       "until": null,
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "page_turn"
@@ -373,7 +474,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Musa is a labelled light drop; the people faceless; the army fades under the closing sea (no drowning bodies). The slaughter of sons (49) is never shown. The calf (51) is never drawn. Glosses avoid Al-Muyassar's first-person paraphrases."
+  "notes": "Musa is a labelled light drop; the people faceless; the army fades under the closing sea (no drowning bodies). The slaughter of sons (49) is never shown. The calf (51) is never drawn. Glosses avoid Al-Muyassar's first-person paraphrases. STAGING v4: 49 stays ambient (the slaughter of sons is never shown); the chains now end before «ربكم». 50: the sea parts, the Children of Israel cross; Pharaoh (labelled) and his soldiers enter the paths after them (Muyassar: فلما دخل فرعون وجنوده طرقكم) and leave the stage before the water covers the place on «وأغرقنا»; the Children of Israel have already crossed and left (on «فأنجيناكم»), so nobody is under the water. Musa is not drawn here: neither 2:50 nor its two tafsirs name him (the earlier version had him). 51-52: Musa (blue drop) leaves for the appointment of forty nights, the people turn away on «اتخذتم» (the calf is never drawn), Musa returns before the pardon (Muyassar: بعد عودة موسى) and the people bow on «عفونا»."
  },
  "cover": {
   "series_ar": "نعم على بني إسرائيل",
@@ -385,5 +486,6 @@
    4
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

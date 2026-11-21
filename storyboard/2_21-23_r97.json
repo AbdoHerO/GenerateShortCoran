@@ -33,16 +33,59 @@
     21,
     22
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "fields",
+    "time": "day",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 5,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "uncountable": true
+     }
+    ],
+    "events": [
+     {
+      "type": "rain",
+      "at": [
+       22,
+       8
+      ],
+      "until": [
+       22,
+       12
+      ]
+     },
+     {
+      "type": "growth",
+      "at": [
+       22,
+       12
+      ],
+      "until": null
+     }
+    ],
     "beats": [
      {
       "at": [
        21,
-       5
+       1
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       21,
+       6
+      ],
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
@@ -61,49 +104,65 @@
      {
       "at": [
        22,
-       2
+       1
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       22,
+       4
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       22,
+       6
+      ],
+      "do": "look_up",
+      "who": "p"
      },
      {
       "at": [
        22,
        7
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       22,
-       8
-      ],
       "do": "pan_left"
      },
      {
       "at": [
        22,
-       12
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       22,
-       18
+       11
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        22,
-       21
+       15
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        22,
-       22
+       17
+      ],
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       22,
+       21
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       22,
+       23
       ],
       "do": "shot_wide"
      }
@@ -114,10 +173,13 @@
        21,
        2
       ],
-      "until": null,
+      "until": [
+       21,
+       4
+      ],
       "motif": "crowd",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -127,27 +189,20 @@
       "until": null,
       "motif": "stars",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        22,
        11
       ],
-      "until": null,
+      "until": [
+       22,
+       20
+      ],
       "motif": "cloud_rain",
       "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       22,
-       15
-      ],
-      "until": null,
-      "motif": "palm",
-      "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -158,23 +213,47 @@
    "verses": [
     23
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "uncountable": true
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        23,
-       3
+       2
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        23,
-       10
+       4
       ],
-      "do": "pan_right"
+      "do": "shake_head",
+      "who": "d"
+     },
+     {
+      "at": [
+       23,
+       9
+      ],
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
@@ -186,37 +265,38 @@
      {
       "at": [
        23,
-       14
+       13
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       23,
+       16
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        23,
-       15
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       23,
        17
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        23,
        18
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        23,
        20
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -225,10 +305,13 @@
        23,
        6
       ],
-      "until": null,
+      "until": [
+       23,
+       17
+      ],
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "light_sweep"
@@ -349,7 +432,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Call to worship (21-22) and the challenge (23). No motif on «أندادا» (forbidden equals). Short-word flag 23:17 to check by ear."
+  "notes": "Call to worship (21-22) and the challenge (23). No motif on «أندادا» (forbidden equals). Short-word flag 23:17 to check by ear. STAGING v4: 21-22: mankind addressed (an uncountable people group in the fields): the earth, the sky (they look up on «السماء»), rain on «أنزل» and the crops growing on «فأخرج»; no motif on the Name or on «أندادا». 23: the doubters (Muyassar: الكافرون المعاندون) shake their heads on «ريب»; the book motif for the Quran; the Prophet ﷺ («عبدنا») is never shown."
  },
  "cover": {
   "series_ar": "دعوة للناس جميعا",
@@ -361,5 +444,6 @@
    15
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }
