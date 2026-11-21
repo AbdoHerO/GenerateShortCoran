@@ -28,30 +28,185 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة يونس",
+   "title": "عبرة للأجيال",
    "verses": [
     92
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       92,
+       5
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       92,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       92,
+       12
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": []
    }
   },
   {
    "id": "c2",
-   "title": "سورة يونس",
+   "title": "داء الأمم",
    "verses": [
     93
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "geometric",
+    "beats": [
+     {
+      "at": [
+       93,
+       4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       93,
+       5
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       93,
+       11
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       93,
+       15
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       93,
+       20
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       93,
+       7
+      ],
+      "until": [
+       93,
+       10
+      ],
+      "motif": "wheat",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "dissolve"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 92,
+   "words": [
+    1,
+    3
+   ],
+   "tafsir": 91,
+   "excerpt": "فأمر الله البحر أن يلقيه على نجوة مرتفعة ببدنه",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 92,
+   "words": [
+    4,
+    7
+   ],
+   "tafsir": 91,
+   "excerpt": "ليكون لهم عبرة وآية",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 92,
+   "words": [
+    8,
+    14
+   ],
+   "tafsir": 91,
+   "excerpt": "فلذلك تمر عليهم وتتكرر فلا ينتفعون بها",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 93,
+   "words": [
+    7,
+    9
+   ],
+   "tafsir": 91,
+   "excerpt": "من المطاعم والمشارب وغيرهما",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 93,
+   "words": [
+    10,
+    14
+   ],
+   "tafsir": 91,
+   "excerpt": "الموجب لاجتماعهم وائتلافهم",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 93,
+   "words": [
+    15,
+    24
+   ],
+   "tafsir": 91,
+   "excerpt": "بحكمة العدل الناشئ عن علمه التام، وقدرته الشاملة",
+   "target": "",
+   "tone": "green"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "Pharaoh's body is never drawn; 92 has no motif. 93:1-6 is not glossed: the tafsirs differ on the land («الشام» and «مصر» in Al-Muyassar; Pharaoh's dwellings in As-Sa'di). Wheat for «ورزقناهم من الطيبات»."
+ },
+ "cover": {
+  "series_ar": "موسى وفرعون",
+  "series_en": "Musa and Pharaoh",
+  "title_ar": "عبرة للأجيال",
+  "title_en": "A lesson for generations",
+  "at": [
+   92,
+   1
+  ]
+ },
+ "motion": 3
 }

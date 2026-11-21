@@ -28,64 +28,335 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة يونس",
+   "title": "بطلان السحر",
    "verses": [
     79,
-    80
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "dawn"
-   }
-  },
-  {
-   "id": "c2",
-   "title": "سورة يونس",
-   "verses": [
-    81
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "geometric"
-   }
-  },
-  {
-   "id": "c3",
-   "title": "سورة يونس",
-   "verses": [
+    80,
+    81,
     82
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       79,
+       6
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       80,
+       3
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       80,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       80,
+       10
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       81,
+       2
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       81,
+       8
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       81,
+       12
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       82,
+       5
+      ],
+      "do": "pan_left"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       82,
+       1
+      ],
+      "until": [
+       82,
+       5
+      ],
+      "motif": "light",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
-   "id": "c4",
-   "title": "سورة يونس",
+   "id": "c2",
+   "title": "إيمان رغم الخوف",
    "verses": [
-    83
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "night_sky"
-   }
-  },
-  {
-   "id": "c5",
-   "title": "سورة يونس",
-   "verses": [
+    83,
     84
    ],
    "scene": "ambient",
    "params": {
-    "mood": "mountains"
+    "mood": "geometric",
+    "beats": [
+     {
+      "at": [
+       83,
+       2
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       83,
+       5
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       83,
+       7
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       83,
+       10
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       83,
+       11
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       83,
+       12
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       83,
+       16
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       83,
+       18
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       83,
+       21
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       84,
+       5
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       84,
+       6
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       84,
+       9
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       84,
+       11
+      ],
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": [],
+    "transition": "dissolve"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 79,
+   "words": [
+    1,
+    6
+   ],
+   "tafsir": 91,
+   "excerpt": "معارضًا للحق، الذي جاء به موسى، ومغالطًا لملئه وقومه",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 80,
+   "words": [
+    1,
+    6
+   ],
+   "tafsir": 91,
+   "excerpt": "للمغالبة مع موسى",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 80,
+   "words": [
+    7,
+    10
+   ],
+   "tafsir": 91,
+   "excerpt": "وذلك لأنه جازم بغلبته، غير مبال بهم",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 81,
+   "words": [
+    1,
+    2
+   ],
+   "tafsir": 91,
+   "excerpt": "حبالهم وعصيهم",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 81,
+   "words": [
+    9,
+    17
+   ],
+   "tafsir": 91,
+   "excerpt": "فإنهم يريدون بذلك نصر الباطل على الحق",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 82,
+   "words": [
+    1,
+    7
+   ],
+   "tafsir": 16,
+   "excerpt": "فيُعليه على باطلكم بكلماته وأمره",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 83,
+   "words": [
+    1,
+    7
+   ],
+   "tafsir": 16,
+   "excerpt": "مع ما أتاهم به من الحجج والأدلة",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 83,
+   "words": [
+    8,
+    14
+   ],
+   "tafsir": 16,
+   "excerpt": "أن يفتنوهم بالعذاب، فيصدُّوهم عن دينهم",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 83,
+   "words": [
+    15,
+    22
+   ],
+   "tafsir": 91,
+   "excerpt": "له القهر والغلبة فيها، فحقيق بهم أن يخافوا من بطشته",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 84,
+   "words": [
+    1,
+    7
+   ],
+   "tafsir": 91,
+   "excerpt": "موصيًا لقومه بالصبر",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 84,
+   "words": [
+    8,
+    12
+   ],
+   "tafsir": 91,
+   "excerpt": "اعتمدوا عليه، والجؤوا إليه واستنصروه",
+   "target": "",
+   "tone": "green"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "Sorcery, ropes, staffs and snakes are never drawn. Musa and Harun get no motif; no motif in 80-81 and 84 (Musa's words). Pharaoh's order is framed («معارضًا للحق… ومغالطًا»). 83:1-7 keeps Al-Muyassar's general wording (As-Sa'di's «شباب» is not used). Light for «ويحق الله الحق»."
+ },
+ "cover": {
+  "series_ar": "موسى وفرعون",
+  "series_en": "Musa and Pharaoh",
+  "title_ar": "السحرة والإيمان",
+  "title_en": "The sorcerers and faith",
+  "at": [
+   79,
+   1
+  ]
+ },
+ "motion": 3
 }

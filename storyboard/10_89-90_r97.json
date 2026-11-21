@@ -28,30 +28,209 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة يونس",
+   "title": "إجابة الدعاء",
    "verses": [
     89
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "dawn",
+    "beats": [
+     {
+      "at": [
+       89,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       89,
+       8
+      ],
+      "do": "pan_left"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       89,
+       3
+      ],
+      "until": [
+       89,
+       5
+      ],
+      "motif": "light",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
    "id": "c2",
-   "title": "سورة يونس",
+   "title": "إيمان بعد فوات",
    "verses": [
     90
    ],
    "scene": "ambient",
    "params": {
-    "mood": "sea"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       90,
+       3
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       90,
+       4
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       90,
+       8
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       90,
+       10
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       90,
+       11
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       90,
+       14
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       90,
+       15
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       90,
+       17
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       90,
+       19
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       90,
+       22
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       90,
+       27
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [],
+    "transition": "dissolve"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 89,
+   "words": [
+    1,
+    4
+   ],
+   "tafsir": 16,
+   "excerpt": "وكان موسى يدعو، وهارون يؤمِّن على دعائه",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 89,
+   "words": [
+    5,
+    5
+   ],
+   "tafsir": 91,
+   "excerpt": "على دينكما، واستمرا على دعوتكما",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 89,
+   "words": [
+    6,
+    11
+   ],
+   "tafsir": 91,
+   "excerpt": "الجهال الضلال، المنحرفين عن الصراط المستقيم",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 90,
+   "words": [
+    5,
+    9
+   ],
+   "tafsir": 91,
+   "excerpt": "خروجهم باغين على موسى وقومه ومعتدين في الأرض",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 90,
+   "words": [
+    10,
+    14
+   ],
+   "tafsir": 91,
+   "excerpt": "وجزم بهلاكه",
+   "target": "",
+   "tone": "red"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "The sea crossing, the pursuit and the drowning are never drawn (no sea mood, no wave or ship motif); 90:1-4 is not glossed (Al-Muyassar's first-person «وقطعنا»; As-Sa'di's miracle narrative). Pharaoh's late declaration (90:15-27) is framed by the chapter title «إيمان بعد فوات» and «وجزم بهلاكه»; its refutation is 10:91, blocked by decision 1. Light for «قد أجيبت دعوتكما»."
+ },
+ "cover": {
+  "series_ar": "موسى وفرعون",
+  "series_en": "Musa and Pharaoh",
+  "title_ar": "نهاية الطغيان",
+  "title_en": "The end of tyranny",
+  "at": [
+   89,
+   1
+  ]
+ },
+ "motion": 3
 }

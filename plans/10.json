@@ -295,8 +295,8 @@
     {
      "from": 75,
      "to": 78,
-     "title_ar": "دعوة فرعون",
-     "title_en": "Calling Pharaoh",
+     "title_ar": "مخاطبة فرعون",
+     "title_en": "Addressing Pharaoh",
      "visual": "ambient",
      "care": "Musa and Harun: no motif, figure or drop. Pharaoh's claims framed.",
      "est_s": 73
@@ -322,8 +322,8 @@
     {
      "from": 89,
      "to": 90,
-     "title_ar": "الغرق والنجاة",
-     "title_en": "Drowning and rescue",
+     "title_ar": "نهاية الطغيان",
+     "title_en": "The end of tyranny",
      "visual": "ambient",
      "care": "The sea crossing and Pharaoh's drowning never drawn; his late faith framed.",
      "est_s": 66
@@ -341,8 +341,8 @@
     {
      "from": 92,
      "to": 93,
-     "title_ar": "آية للناس",
-     "title_en": "A sign for people",
+     "title_ar": "عبرة للأجيال",
+     "title_en": "A lesson for generations",
      "visual": "ambient",
      "care": "Pharaoh's body never drawn.",
      "est_s": 50
