@@ -401,16 +401,16 @@
    ]
   },
   {
-   "title_ar": "الأعراب والسابقون",
-   "title_en": "The Bedouins and the forerunners",
+   "title_ar": "أصناف الناس",
+   "title_en": "Kinds of people",
    "from": 97,
    "to": 106,
    "videos": [
     {
      "from": 97,
      "to": 99,
-     "title_ar": "الأعراب صنفان",
-     "title_en": "Two kinds of Bedouins",
+     "title_ar": "أهل البادية صنفان",
+     "title_en": "Two kinds of desert dwellers",
      "visual": "ambient",
      "care": "",
      "est_s": 71
@@ -418,8 +418,8 @@
     {
      "from": 100,
      "to": 102,
-     "title_ar": "السابقون والمخلطون",
-     "title_en": "The forerunners and the mixed",
+     "title_ar": "خيار الأمة",
+     "title_en": "The best of the community",
      "visual": "ambient",
      "care": "",
      "est_s": 83
@@ -453,7 +453,7 @@
     {
      "from": 110,
      "to": 111,
-     "title_ar": "البيعة الرابحة",
+     "title_ar": "الصفقة الرابحة",
      "title_en": "The winning bargain",
      "visual": "ambient",
      "care": "111: Fighting verse: only what both tafsirs say, with their restrictions; no battle, weapon or killing drawn; no present-day reading or people targeted.",
@@ -462,8 +462,8 @@
    ]
   },
   {
-   "title_ar": "التوبة على الثلاثة",
-   "title_en": "The three forgiven",
+   "title_ar": "رحمة التوبة",
+   "title_en": "The mercy of repentance",
    "from": 112,
    "to": 118,
    "videos": [
@@ -479,8 +479,8 @@
     {
      "from": 117,
      "to": 118,
-     "title_ar": "توبة الثلاثة",
-     "title_en": "The three forgiven",
+     "title_ar": "فرج بعد ضيق",
+     "title_en": "Relief after distress",
      "visual": "ambient",
      "care": "The Prophet ﷺ and the Companions not drawn.",
      "est_s": 79
@@ -496,8 +496,8 @@
     {
      "from": 119,
      "to": 120,
-     "title_ar": "الصدق والجهاد",
-     "title_en": "Truthfulness and striving",
+     "title_ar": "صحبة أهل الصدق",
+     "title_en": "In the company of the truthful",
      "visual": "ambient",
      "care": "Fighting verse: only what both tafsirs say, with their restrictions; no battle, weapon or killing drawn; no present-day reading or people targeted.",
      "est_s": 75
@@ -523,8 +523,8 @@
     {
      "from": 128,
      "to": 129,
-     "title_ar": "الرسول الرحيم",
-     "title_en": "The merciful Messenger",
+     "title_ar": "رحمة النبي بأمته",
+     "title_en": "The Prophet's mercy to his people",
      "visual": "ambient",
      "care": "No motif on the Prophet ﷺ.",
      "est_s": 53

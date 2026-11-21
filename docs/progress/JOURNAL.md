@@ -913,3 +913,18 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
     only the tafsir's restriction there, or nothing.
   - A cover title is read on its own: «X والأمان» after «انقضاء» negates both.
   - `mountains` lights a summit on every word, Allah's name included: never use it where His name is recited.
+
+### At-Tawba 97-129 written: the whole surah is now in storyboards (2026-11-21)
+
+- 11 storyboards, all verified PASSED and cut-checked. At-Tawba now has 46 storyboards for its 129 verses.
+- **Care points:**
+  - 97: «الأعراب» are compared with the town dwellers, and 99 opens with As-Sa'di's «وليس الأعراب كلهم مذمومين».
+  - Not glossed where the tafsirs differ: 101 «مرتين», 105 «اعملوا», 110 «تقطع قلوبهم», 112 «السائحون».
+  - Fighting verses: 111:11-16, 120:31-46 and 123:1-11 are not glossed, and nothing is drawn there.
+  - 117 uses Al-Muyassar's respectful reading for the Prophet ﷺ.
+  - 128 (the Prophet ﷺ): no motif at all.
+  - 129: the Throne is not drawn.
+  - The mosque of harm (107-110): no building and no destruction drawn.
+  - `mountains` is not used anywhere Allah's name is recited.
+- **Series renamed:** «أصناف الناس», «رحمة التوبة».
+- Two independent reviewers (glosses; motifs) are running on 60-129.
