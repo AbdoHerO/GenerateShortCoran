@@ -47,7 +47,10 @@
       "count": 3,
       "pose": "stand",
       "enter": null,
-      "exit": null
+      "exit": [
+       76,
+       8
+      ]
      },
      {
       "id": "j",
@@ -359,7 +362,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Distortion (75-78). No motif on Allah's speech (75) or on «الكتاب» where it is negated (78). Short-word flag 76:15 to check by ear. STAGING v4: 75-77: the believers (addressed) and a group of the Jews of Madina (Muyassar: هؤلاء اليهود); some read their scripture and turn from its meaning on «يحرفونه»; they walk to the believers and speak, then walk off among themselves and speak; two_paths ends before the Name. 78: the unlettered among them; nothing on the negated «الكتاب» (the tafsirs differ on whether they could read, so no reading is shown)."
+  "notes": "Distortion (75-78). No motif on Allah's speech (75) or on «الكتاب» where it is negated (78). Short-word flag 76:15 to check by ear. STAGING v4: 75-77: the believers (addressed) and a group of the Jews of Madina (Muyassar: هؤلاء اليهود); some read their scripture and turn from its meaning on «يحرفونه»; they walk to the believers and speak, then the believers leave on «خلا» and they speak among themselves; two_paths ends before the Name. 78: the unlettered among them; nothing on the negated «الكتاب» (the tafsirs differ on whether they could read, so no reading is shown)."
  },
  "cover": {
   "series_ar": "تحريف وأماني",

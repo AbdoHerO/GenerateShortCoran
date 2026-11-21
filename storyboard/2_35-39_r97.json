@@ -260,7 +260,10 @@
        38,
        8
       ],
-      "until": null,
+      "until": [
+       39,
+       1
+      ],
       "motif": "lamp",
       "place": "top",
       "size": "m"
@@ -362,7 +365,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The Garden, the tree, Satan and the Fire are the unseen: no garden mood, no tree or fire motif. The leaf on «فأزلهما» is the slip; the hands on «كلمات» are the words of repentance. JOINED 38->39 is inside the video. Short-word flag 38:15 to check by ear. STAGING v4: Kept ambient: the Garden, Satan, the descent, Adam's repentance (35-37) and the Fire (39) are the unseen; 38 (following the guidance) shares its chapter with the descent and the Fire."
+  "notes": "The Garden, the tree, Satan and the Fire are the unseen: no garden mood, no tree or fire motif. The leaf on «فأزلهما» is the slip; the hands on «كلمات» are the words of repentance. JOINED 38->39 is inside the video. Short-word flag 38:15 to check by ear. STAGING v4: The lamp now ends before verse 39 (the Fire). Kept ambient: the Garden, Satan, the descent, Adam's repentance (35-37) and the Fire (39) are the unseen; 38 (following the guidance) shares its chapter with the descent and the Fire."
  },
  "cover": {
   "series_ar": "قصة آدم",

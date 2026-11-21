@@ -42,7 +42,7 @@
       "type": "people",
       "label": "",
       "place": "left",
-      "count": 4,
+      "count": 6,
       "pose": "stand",
       "enter": null,
       "exit": null,
@@ -56,8 +56,7 @@
       "count": 2,
       "pose": "stand",
       "enter": null,
-      "exit": null,
-      "uncountable": true
+      "exit": null
      },
      {
       "id": "n",

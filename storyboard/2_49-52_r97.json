@@ -114,13 +114,13 @@
       "id": "p",
       "type": "believers",
       "label": "",
-      "place": "center",
+      "place": "left",
       "count": 5,
       "pose": "stand",
       "enter": null,
       "exit": [
        50,
-       5
+       4
       ],
       "uncountable": true
      },
@@ -128,7 +128,7 @@
       "id": "s",
       "type": "soldiers",
       "label": "",
-      "place": "left",
+      "place": "center",
       "count": 5,
       "pose": "walk",
       "enter": [
@@ -145,7 +145,7 @@
       "id": "f",
       "type": "king",
       "label": "فرعون",
-      "place": "left",
+      "place": "center",
       "count": 1,
       "pose": "walk",
       "enter": [
@@ -180,32 +180,25 @@
      {
       "at": [
        50,
-       1
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       50,
-       3
+       2
       ],
       "do": "walk_to",
       "who": "p",
-      "to": "right"
+      "to": "center"
      },
      {
       "at": [
        50,
        5
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        50,
        7
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -474,7 +467,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Musa is a labelled light drop; the people faceless; the army fades under the closing sea (no drowning bodies). The slaughter of sons (49) is never shown. The calf (51) is never drawn. Glosses avoid Al-Muyassar's first-person paraphrases. STAGING v4: 49 stays ambient (the slaughter of sons is never shown); the chains now end before «ربكم». 50: the sea parts, the Children of Israel cross; Pharaoh (labelled) and his soldiers enter the paths after them (Muyassar: فلما دخل فرعون وجنوده طرقكم) and leave the stage before the water covers the place on «وأغرقنا»; the Children of Israel have already crossed and left (on «فأنجيناكم»), so nobody is under the water. Musa is not drawn here: neither 2:50 nor its two tafsirs name him (the earlier version had him). 51-52: Musa (blue drop) leaves for the appointment of forty nights, the people turn away on «اتخذتم» (the calf is never drawn), Musa returns before the pardon (Muyassar: بعد عودة موسى) and the people bow on «عفونا»."
+  "notes": "Musa is a labelled light drop; the people faceless; the army fades under the closing sea (no drowning bodies). The slaughter of sons (49) is never shown. The calf (51) is never drawn. Glosses avoid Al-Muyassar's first-person paraphrases. STAGING v4: 49 stays ambient (the slaughter of sons is never shown); the chains now end before «ربكم». 50: the sea parts, the Children of Israel cross; Pharaoh (labelled) and his soldiers enter the paths after them (Muyassar: فلما دخل فرعون وجنوده طرقكم) and leave the stage before the water covers the place on «وأغرقنا»; the Children of Israel go down the dry path and are gone (on «البحر») before the army appears inside the path, so nobody is under the water. Musa is not drawn here: neither 2:50 nor its two tafsirs name him (the earlier version had him). 51-52: Musa (blue drop) leaves for the appointment of forty nights, the people turn away on «اتخذتم» (the calf is never drawn), Musa returns before the pardon (Muyassar: بعد عودة موسى) and the people bow on «عفونا»."
  },
  "cover": {
   "series_ar": "نعم على بني إسرائيل",

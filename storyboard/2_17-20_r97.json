@@ -188,24 +188,13 @@
        19,
        6
       ],
-      "until": [
-       20,
-       6
-      ]
+      "until": null
      },
      {
       "type": "lightning",
       "at": [
        19,
        8
-      ],
-      "until": null
-     },
-     {
-      "type": "darkness",
-      "at": [
-       20,
-       11
       ],
       "until": null
      }
@@ -281,6 +270,13 @@
      {
       "at": [
        20,
+       10
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       20,
        13
       ],
       "do": "shot_close",
@@ -291,7 +287,7 @@
        20,
        15
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -305,21 +301,21 @@
        20,
        20
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        20,
        22
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        20,
        24
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -467,7 +463,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Two parables of this world (worldly fire, rain, lightning). The fire undraws at «بنورهم». No eye or ear motif (18, 19, 20). Short-word flag 20:12 to check by ear. STAGING v4: 17-18 (parable): one man kindles a worldly fire on a dark night, it goes out on «ذهب» (before the Name) and the scene darkens on «وتركهم»; only the kindler is drawn (Muyassar speaks of a group, As-Sa'di of the man). 19-20 (parable): an uncountable group walking in the open (Muyassar: جماعة يمشون في العراء) in heavy rain, darkness and lightning; they walk when it lights (20:8) and stop when it darkens (20:11). No fingers-in-ears gesture, no eye or ear motif; nothing on the Name."
+  "notes": "Two parables of this world (worldly fire, rain, lightning). The fire undraws at «بنورهم». No eye or ear motif (18, 19, 20). Short-word flag 20:12 to check by ear. STAGING v4: 17-18 (parable): one man kindles a worldly fire on a dark night, it goes out on «ذهب» (before the Name) and the scene darkens on «وتركهم»; only the kindler is drawn (Muyassar speaks of a group, As-Sa'di of the man). 19-20 (parable): an uncountable group walking in the open (Muyassar: جماعة يمشون في العراء) in heavy rain, darkness and lightning; they walk when it lights (20:8) and stop on «قاموا» (20:13). No fingers-in-ears gesture, no eye or ear motif; nothing on the Name."
  },
  "cover": {
   "series_ar": "المنافقون",

@@ -191,8 +191,7 @@
       "count": 4,
       "pose": "stand",
       "enter": null,
-      "exit": null,
-      "uncountable": true
+      "exit": null
      },
      {
       "id": "b",
@@ -226,21 +225,13 @@
        42,
        8
       ],
-      "do": "read",
+      "do": "shot_close",
       "who": "p"
      },
      {
       "at": [
        43,
        1
-      ],
-      "do": "pray",
-      "who": "p"
-     },
-     {
-      "at": [
-       43,
-       2
       ],
       "do": "pray",
       "who": "b"
@@ -251,14 +242,14 @@
        5
       ],
       "do": "ruku",
-      "who": "p"
+      "who": "b"
      },
      {
       "at": [
        43,
        7
       ],
-      "do": "ruku",
+      "do": "shot_close",
       "who": "b"
      }
     ],
@@ -369,7 +360,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No first-person paraphrase of Allah's words in any gloss (Al-Muyassar speaks in the first person here; only neutral parts were taken). No motif on the negated «ثمنا قليلا». Short-word flag 40:11 to check by ear. STAGING v4: 40-41: the Children of Israel addressed (an uncountable people group in a town); the seal on «بعهدي», the book on «أنزلت», and they hold their own scripture on «معكم» (Muyassar: صحيح التوراة); nothing on the negated «ثمنا قليلا». 42-43: in a prayer hall they hold the books they know (Muyassar: الكتب التي بأيديكم), then pray and bow with the Muslims who bow (Muyassar: الراكعين من أمته); coins on «الزكاة»."
+  "notes": "No first-person paraphrase of Allah's words in any gloss (Al-Muyassar speaks in the first person here; only neutral parts were taken). No motif on the negated «ثمنا قليلا». Short-word flag 40:11 to check by ear. STAGING v4: 40-41: the Children of Israel addressed (an uncountable people group in a town); the seal on «بعهدي», the book on «أنزلت», and they hold their own scripture on «معكم» (Muyassar: صحيح التوراة); nothing on the negated «ثمنا قليلا». 42-43: in a prayer hall the Children of Israel stand to one side (nothing narrated for them: 43 is a command), while only the Muslims (Muyassar: الراكعين من أمته) pray and bow; light on «الحق», coins on «الزكاة»."
  },
  "cover": {
   "series_ar": "نداء بني إسرائيل",

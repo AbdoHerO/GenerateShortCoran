@@ -157,7 +157,10 @@
       "count": 3,
       "pose": "stand",
       "enter": null,
-      "exit": null
+      "exit": [
+       14,
+       8
+      ]
      },
      {
       "id": "h",

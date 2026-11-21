@@ -420,7 +420,10 @@
        29,
        7
       ],
-      "until": null,
+      "until": [
+       29,
+       9
+      ],
       "motif": "mountain",
       "place": "top",
       "size": "m"
@@ -430,7 +433,10 @@
        29,
        15
       ],
-      "until": null,
+      "until": [
+       29,
+       16
+      ],
       "motif": "stars",
       "place": "top",
       "size": "m"
@@ -598,7 +604,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Merged from 2_26-27_r97, 2_28-29_r97 (reviewed) because the boundary between them has no clean audio cut. [2_26-27_r97] Parables (26) and the covenant-breakers (27). The disbelievers' question (26:24) gets no gloss; the answer (26:29) is explained. The seal (covenant) undraws at «يقطعون». [2_28-29_r97] Life, death and creation (28-29). No motif or gloss on «استوى» (Allah's istiwa); no motif on Allah's attributes. STAGING v4: 26: believers (who know it is the truth) and an uncountable group of disbelievers who object («فيقولون», shake heads); nothing on the Name. 27: the covenant-breakers turn away and walk away from their kin on «يقطعون» (Muyassar: كقطع الأرحام); wind on «يفسدون». 28 (life, death, resurrection) and 29 (creation of the heavens, istiwa) stay ambient: Allah's acts and the unseen."
+  "notes": "Merged from 2_26-27_r97, 2_28-29_r97 (reviewed) because the boundary between them has no clean audio cut. [2_26-27_r97] Parables (26) and the covenant-breakers (27). The disbelievers' question (26:24) gets no gloss; the answer (26:29) is explained. The seal (covenant) undraws at «يقطعون». [2_28-29_r97] Life, death and creation (28-29). No motif or gloss on «استوى» (Allah's istiwa); no motif on Allah's attributes. STAGING v4: 26: believers (who know it is the truth) and an uncountable group of disbelievers who object («فيقولون», shake heads); nothing on the Name. 27: the covenant-breakers turn away and walk away from their kin on «يقطعون» (Muyassar: كقطع الأرحام); wind on «يفسدون». 28 (life, death, resurrection) and 29 (creation of the heavens, istiwa) stay ambient: Allah's acts and the unseen; in 29 the mountain now ends before «ثم استوى» and the stars before «وهو بكل شيء عليم»."
  },
  "cover": {
   "series_ar": "الأمثال والخلق",
