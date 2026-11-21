@@ -152,7 +152,10 @@
        100,
        15
       ],
-      "until": null,
+      "until": [
+       100,
+       20
+      ],
       "motif": "house",
       "place": "top",
       "size": "m"

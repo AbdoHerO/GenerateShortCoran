@@ -141,7 +141,10 @@
        46,
        5
       ],
-      "until": null,
+      "until": [
+       46,
+       8
+      ],
       "motif": "scroll",
       "place": "top",
       "size": "m"

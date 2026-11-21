@@ -90,9 +90,12 @@
      {
       "at": [
        13,
-       1
+       2
       ],
-      "until": null,
+      "until": [
+       13,
+       4
+      ],
       "motif": "bricks",
       "place": "top",
       "size": "m"

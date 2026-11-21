@@ -114,7 +114,10 @@
        85,
        3
       ],
-      "until": null,
+      "until": [
+       85,
+       8
+      ],
       "motif": "hands",
       "place": "top",
       "size": "m"

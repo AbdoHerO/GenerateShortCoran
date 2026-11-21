@@ -92,6 +92,13 @@
        16
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       54,
+       17
+      ],
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -102,16 +109,6 @@
       ],
       "until": null,
       "motif": "book",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       54,
-       17
-      ],
-      "until": null,
-      "motif": "crown",
       "place": "top",
       "size": "m"
      }
@@ -359,7 +356,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A book for «الكتاب والحكمة» and a crown for «ملكا عظيما» (the gift to Ibrahim's family; no motif on Ibrahim himself). 55-56 (the Fire): night sky, no fire motif, nothing literal; only geometric for «عزيزا حكيما». Al-Muyassar's first-person «أعطينا» not used. 53:1-5 (the mocking question about kingship) is not glossed."
+  "notes": "A book for «الكتاب والحكمة» (no crown: As-Sa'di reads «ملكا عظيما» as the prophets' kingship; no motif on Ibrahim). 55-56 (the Fire): night sky, no fire motif, nothing literal; only geometric for «عزيزا حكيما». Al-Muyassar's first-person «أعطينا» not used. 53:1-5 (the mocking question about kingship) is not glossed."
  },
  "cover": {
   "series_ar": "الطهارة وأهل الكتاب",

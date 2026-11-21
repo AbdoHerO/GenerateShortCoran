@@ -184,37 +184,30 @@
      {
       "at": [
        23,
-       34
+       35
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        23,
-       38
+       40
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        23,
-       41
+       42
       ],
       "do": "pan_left"
      },
      {
       "at": [
        23,
-       45
+       46
       ],
       "do": "pan_left"
-     },
-     {
-      "at": [
-       23,
-       54
-      ],
-      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -231,7 +224,7 @@
      {
       "at": [
        23,
-       50
+       51
       ],
       "until": null,
       "motif": "geometric",

@@ -205,7 +205,10 @@
        29,
        12
       ],
-      "until": null,
+      "until": [
+       29,
+       15
+      ],
       "motif": "coins",
       "place": "top",
       "size": "m"

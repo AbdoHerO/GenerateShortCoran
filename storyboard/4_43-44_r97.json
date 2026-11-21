@@ -141,7 +141,10 @@
        43,
        16
       ],
-      "until": null,
+      "until": [
+       43,
+       19
+      ],
       "motif": "footsteps",
       "place": "top",
       "size": "m"

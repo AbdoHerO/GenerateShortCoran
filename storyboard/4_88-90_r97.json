@@ -209,7 +209,10 @@
        89,
        13
       ],
-      "until": null,
+      "until": [
+       89,
+       16
+      ],
       "motif": "footsteps",
       "place": "top",
       "size": "m"

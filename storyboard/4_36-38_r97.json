@@ -39,44 +39,37 @@
      {
       "at": [
        36,
-       6
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       36,
        10
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        36,
        17
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        36,
        24
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        36,
        27
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        36,
        32
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -93,7 +86,7 @@
      {
       "at": [
        36,
-       8
+       7
       ],
       "until": null,
       "motif": "house",
@@ -115,7 +108,10 @@
        36,
        21
       ],
-      "until": null,
+      "until": [
+       36,
+       24
+      ],
       "motif": "footsteps",
       "place": "top",
       "size": "m"

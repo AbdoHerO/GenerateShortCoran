@@ -117,7 +117,14 @@
      {
       "at": [
        10,
-       7
+       4
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       10,
+       6
       ],
       "do": "pan_left"
      },
@@ -133,24 +140,10 @@
        10,
        12
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
-    "motifs": [
-     {
-      "at": [
-       10,
-       4
-      ],
-      "until": [
-       10,
-       7
-      ],
-      "motif": "coins",
-      "place": "top",
-      "size": "m"
-     }
-    ],
+    "motifs": [],
     "transition": "dissolve"
    }
   }

@@ -113,7 +113,10 @@
        34,
        14
       ],
-      "until": null,
+      "until": [
+       34,
+       15
+      ],
       "motif": "coins",
       "place": "top",
       "size": "m"
@@ -144,30 +147,16 @@
      {
       "at": [
        35,
-       6
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       35,
-       9
+       11
       ],
       "do": "shot_wide"
-     },
-     {
-      "at": [
-       35,
-       12
-      ],
-      "do": "pan_right"
      },
      {
       "at": [
        35,
        17
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -181,10 +170,10 @@
      {
       "at": [
        35,
-       3
+       6
       ],
       "until": null,
-      "motif": "two_paths",
+      "motif": "scales",
       "place": "top",
       "size": "m"
      },

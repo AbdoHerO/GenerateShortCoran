@@ -39,21 +39,21 @@
      {
       "at": [
        25,
-       8
+       6
       ],
       "do": "pan_right"
      },
      {
       "at": [
        25,
-       10
+       9
       ],
       "do": "pan_left"
      },
      {
       "at": [
        25,
-       14
+       13
       ],
       "do": "shot_wide"
      },
@@ -88,23 +88,30 @@
      {
       "at": [
        25,
-       28
+       26
       ],
       "do": "pan_right"
      },
      {
       "at": [
        25,
-       29
+       28
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        25,
-       31
+       29
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       25,
+       32
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -116,14 +123,7 @@
      {
       "at": [
        25,
-       35
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       25,
-       37
+       36
       ],
       "do": "pan_left"
      },
@@ -160,30 +160,13 @@
      {
       "at": [
        25,
-       5
-      ],
-      "until": null,
-      "motif": "coins",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       25,
        24
       ],
-      "until": null,
-      "motif": "seal",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
+      "until": [
        25,
-       27
+       28
       ],
-      "until": null,
-      "motif": "jewel",
+      "motif": "seal",
       "place": "top",
       "size": "m"
      },
@@ -347,7 +330,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No people drawn. Coins for «طولا» (the dower), a seal for «بإذن أهلهن», a jewel for «أجورهن», an hourglass for «وأن تصبروا», geometric for «غفور رحيم». The punishment is text only. 25:36 «أحصن» uses As-Sa'di's two meanings (married or became Muslim) so no side is taken."
+  "notes": "No people drawn. A seal for «بإذن أهلهن» (leaving at 25:28), an hourglass for «وأن تصبروا», geometric for «غفور رحيم». The punishment is text only. 25:36 «أحصن» uses As-Sa'di's two meanings (married or became Muslim) so no side is taken."
  },
  "cover": {
   "series_ar": "أحكام الزواج",
