@@ -72,7 +72,8 @@
        16,
        4
       ],
-      "do": "shot_sky"
+      "do": "shot_close",
+      "who": "w"
      },
      {
       "at": [
@@ -87,8 +88,7 @@
        16,
        6
       ],
-      "do": "sparkle",
-      "who": "sky"
+      "do": "shot_sky"
      },
      {
       "at": [

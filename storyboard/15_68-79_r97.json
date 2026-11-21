@@ -76,20 +76,13 @@
        68,
        3
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       68,
-       4
-      ],
       "do": "shot_close",
       "who": "lut"
      },
      {
       "at": [
        68,
-       6
+       5
       ],
       "do": "shot_wide"
      },
@@ -106,7 +99,8 @@
        69,
        4
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
@@ -129,8 +123,7 @@
        70,
        5
       ],
-      "do": "shot_close",
-      "who": "d"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -206,13 +199,6 @@
       "at": [
        71,
        5
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       72,
-       1
       ],
       "do": "shot_wide"
      },
