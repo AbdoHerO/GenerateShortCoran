@@ -241,7 +241,7 @@
     5
    ],
    "tafsir": 91,
-   "excerpt": "التي أنعم اللّه بها عليه ليسكن إليها",
+   "excerpt": "التي أنعم اللّه بها عليه",
    "target": "",
    "tone": "green"
   },
@@ -304,7 +304,7 @@
    "verse": 20,
    "words": [
     11,
-    14
+    11
    ],
    "tafsir": 16,
    "excerpt": "وقال لهما في محاولة المكر بهما",
@@ -350,8 +350,8 @@
     9,
     14
    ],
-   "tafsir": 16,
-   "excerpt": "وفي هذه الآية دليل على أن كشف العورة من عظائم الأمور",
+   "tafsir": 91,
+   "excerpt": "ليستترا بذلك",
    "target": "",
    "tone": "blue"
   },
@@ -385,8 +385,8 @@
  "cover": {
   "series_ar": "آدم وإبليس",
   "series_en": "Adam and Iblis",
-  "title_ar": "الأكل من الشجرة",
-  "title_en": "Eating from the tree",
+  "title_ar": "النهي والخديعة",
+  "title_en": "The prohibition and the deception",
   "at": [
    19,
    1

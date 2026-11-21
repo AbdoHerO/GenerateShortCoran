@@ -780,3 +780,26 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
   - Dawn removed under «فأخذهم الله بذنوبهم» (52-53) and under the hypocrites' claim (49).
   - The c2 transition of 38-40 is now a dissolve, so no gleam falls on the command to fight.
 - Left for the human reviewer: the dawn over 60 and 65, and the mountains for Badr's valley (42).
+
+### Al-A'raf glosses 1-102 review applied (2026-11-21)
+
+- 2 SERIOUS, 32 MINOR; all applied, plus the optional notes.
+- **SERIOUS:**
+  - 7:51: the chip «وما كانوا بآياتنا يجحدون» was cut from its «كما», and with the tooltip «مع علمهم بأنها حق» it read
+    as "they did not reject Our verses". The gloss is now the full «ولكونهم بأدلة الله وبراهينه ينكرون مع علمهم بأنها
+    حق».
+  - 7:94: the chip «وما أرسلنا في قرية من نبي» stopped before «إلا أخذنا…» for 16.8 s, which read as a denial that
+    prophets were sent. The chip now runs to word 11.
+- **MINOR:**
+  - Cut constructions narrowed (20, 24, 43).
+  - Dropped conditions fixed (3, 94).
+  - Sides no longer taken (52 dropped, 79 «بعدما أهلكهم» removed).
+  - Unmarked Quran wording removed (19, 31, 42, 54 dropped, 57, 77, 79, 100, 101).
+  - The «سميتوها» typo removed (71).
+  - A Latin «;» removed (99).
+- **Titles:**
+  - Twelve chapter titles and two covers changed: «النهي والخديعة», and «لوط وقومه» replaces the exact Quran phrase
+    «قوم لوط».
+  - «براءة شعيب» (modern sense "innocence") is now «تبرؤ شعيب».
+- **Lesson:** a chip that opens on «وما» or «ما» must be checked for a negation reading. A «ما… إلا» or «كما… ما»
+  construction must never be split across chips, especially when the reciter holds the last word.
