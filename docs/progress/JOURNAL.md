@@ -388,3 +388,26 @@ or by eye. The per-surah summary goes into each `plans/<n>.json` "notes"; this f
     - «الصبر والتقوى» no longer drops the condition.
 - **Lesson:** when the tafsir's own sentence starts with a negation («ليس», «لن تدفع»), the excerpt must keep it. A
   chip with the Quran's negation does not save an excerpt that reads positively on its own.
+
+### Aal Imran 3:180–200 review (independent sub-agent): 1 SERIOUS and 17 MINOR, all applied
+- **Serious:** 188:13–17 limited «بمفازة من العذاب» to this world (Al-Muyassar only). Now As-Sa'di's general «بل قد
+  استحقوه، وسيصيرون إليه».
+- **Minor:**
+  - Glosses:
+    - 180 no longer types the forbidden belief («أن هذا البخل خير لهم»);
+    - chips keep «إن كنتم صادقين»;
+    - 192 keeps its «وما»;
+    - 194 uses As-Sa'di's reading that includes the Hereafter;
+    - 199 and 200 glosses fitted to their words.
+  - Motifs:
+    - the coins leave before «سيطوقون»;
+    - the lit house leaves before «جنات» (it would read as a dwelling in Paradise);
+    - the footsteps sit on «هاجروا».
+  - Titles:
+    - «مقولة شنيعة» («مقالة» reads as "article");
+    - «خيانة الميثاق»;
+    - «تلبية النداء»;
+    - «رجاء الوعد» («سؤال الوعد» reads as questioning it);
+    - English titles reworded.
+- **Lesson:** a motif from this world (coins, a house, a jewel) must leave before the verse turns to the Hereafter,
+  or it reads as part of it.

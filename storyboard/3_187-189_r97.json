@@ -28,7 +28,7 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "كتمان الميثاق",
+   "title": "خيانة الميثاق",
    "verses": [
     187,
     188
@@ -259,8 +259,8 @@
     13,
     17
    ],
-   "tafsir": 16,
-   "excerpt": "فلا تظنهم ناجين من عذاب الله في الدنيا",
+   "tafsir": 91,
+   "excerpt": "بل قد استحقوه، وسيصيرون إليه",
    "target": "",
    "tone": "red"
   }
@@ -272,8 +272,8 @@
  "cover": {
   "series_ar": "الإمهال والابتلاء",
   "series_en": "Respite and trial",
-  "title_ar": "كتمان الميثاق",
-  "title_en": "Hiding the covenant",
+  "title_ar": "خيانة الميثاق",
+  "title_en": "The covenant betrayed",
   "at": [
    187,
    4

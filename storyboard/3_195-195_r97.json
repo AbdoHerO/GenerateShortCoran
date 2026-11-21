@@ -135,7 +135,7 @@
      {
       "at": [
        195,
-       17
+       18
       ],
       "until": null,
       "motif": "footsteps",
@@ -147,7 +147,10 @@
        195,
        21
       ],
-      "until": null,
+      "until": [
+       195,
+       27
+      ],
       "motif": "house",
       "place": "top",
       "size": "m"

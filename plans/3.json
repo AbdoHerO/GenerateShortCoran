@@ -609,7 +609,7 @@
      "from": 180,
      "to": 182,
      "title_ar": "عاقبة البخل",
-     "title_en": "The end of miserliness",
+     "title_en": "Where miserliness leads",
      "visual": "ambient",
      "care": "181: the Jews' claim about Allah is never glossed as a statement.",
      "est_s": 76
@@ -626,8 +626,8 @@
     {
      "from": 187,
      "to": 189,
-     "title_ar": "كتمان الميثاق",
-     "title_en": "Hiding the covenant",
+     "title_ar": "خيانة الميثاق",
+     "title_en": "The covenant betrayed",
      "visual": "ambient",
      "care": "",
      "est_s": 71
@@ -671,7 +671,7 @@
      "from": 196,
      "to": 200,
      "title_ar": "عاقبة الفريقين",
-     "title_en": "Where each side ends",
+     "title_en": "The fate of the two groups",
      "visual": "ambient",
      "care": "Re-split: no clean audio cut at the old edge (audit 'nocut'). 198: Paradise — nothing literal (no river).",
      "est_s": 114

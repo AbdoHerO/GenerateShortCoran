@@ -85,7 +85,10 @@
        180,
        4
       ],
-      "until": null,
+      "until": [
+       180,
+       13
+      ],
       "motif": "coins",
       "place": "top",
       "size": "m"
@@ -105,7 +108,7 @@
   },
   {
    "id": "c2",
-   "title": "مقالة شنيعة",
+   "title": "مقولة شنيعة",
    "verses": [
     181,
     182
@@ -187,13 +190,13 @@
   {
    "verse": 180,
    "words": [
-    1,
-    12
+    13,
+    16
    ],
-   "tafsir": 16,
-   "excerpt": "أن هذا البخل خير لهم",
+   "tafsir": 91,
+   "excerpt": "في دينهم ودنياهم، وعاجلهم وآجلهم",
    "target": "",
-   "tone": "amber"
+   "tone": "red"
   },
   {
    "verse": 180,
@@ -270,7 +273,7 @@
   "series_ar": "الإمهال والابتلاء",
   "series_en": "Respite and trial",
   "title_ar": "عاقبة البخل",
-  "title_en": "The end of miserliness",
+  "title_en": "Where miserliness leads",
   "at": [
    180,
    4
