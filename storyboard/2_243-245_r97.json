@@ -163,9 +163,21 @@
   },
   {
    "id": "c2",
+   "title": "نصرة الدين",
+   "verses": [
+    244
+   ],
+   "scene": "ambient",
+   "params": {
+    "mood": "geometric",
+    "beats": [],
+    "motifs": []
+   }
+  },
+  {
+   "id": "c3",
    "title": "الإنفاق المضاعف",
    "verses": [
-    244,
     245
    ],
    "scene": "stage",

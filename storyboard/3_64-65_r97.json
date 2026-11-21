@@ -32,37 +32,100 @@
    "verses": [
     64
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "k",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        64,
-       8
+       2
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "k"
      },
      {
       "at": [
        64,
-       9
+       4
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        64,
-       18
+       6
+      ],
+      "do": "sparkle",
+      "who": "sky"
+     },
+     {
+      "at": [
+       64,
+       8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       64,
+       9
       ],
       "do": "pan_right"
      },
      {
       "at": [
        64,
-       19
+       11
+      ],
+      "do": "bow",
+      "who": "b"
+     },
+     {
+      "at": [
+       64,
+       15
+      ],
+      "do": "shake_head",
+      "who": "b"
+     },
+     {
+      "at": [
+       64,
+       18
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       64,
+       19
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
@@ -74,16 +137,41 @@
      {
       "at": [
        64,
-       26
+       24
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        64,
-       28
+       26
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       64,
+       28
+      ],
+      "do": "speak",
+      "who": "b"
+     },
+     {
+      "at": [
+       64,
+       29
+      ],
+      "do": "point",
+      "who": "b",
+      "to": "k"
+     },
+     {
+      "at": [
+       64,
+       31
+      ],
+      "do": "bow",
+      "who": "b"
      }
     ],
     "motifs": [
@@ -92,20 +180,13 @@
        64,
        6
       ],
-      "until": null,
+      "until": [
+       64,
+       12
+      ],
       "motif": "seal",
       "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       64,
-       13
-      ],
-      "until": null,
-      "motif": "geometric",
-      "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -115,7 +196,7 @@
       "until": null,
       "motif": "hands",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -126,16 +207,56 @@
    "verses": [
     65
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "j",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "n",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        65,
-       5
+       1
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       65,
+       3
+      ],
+      "do": "speak",
+      "who": "j"
+     },
+     {
+      "at": [
+       65,
+       4
+      ],
+      "do": "speak",
+      "who": "n"
      },
      {
       "at": [
@@ -154,9 +275,25 @@
      {
       "at": [
        65,
-       11
+       9
       ],
-      "do": "pan_right"
+      "do": "read",
+      "who": "j"
+     },
+     {
+      "at": [
+       65,
+       10
+      ],
+      "do": "read",
+      "who": "n"
+     },
+     {
+      "at": [
+       65,
+       14
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -165,10 +302,13 @@
        65,
        9
       ],
-      "until": null,
+      "until": [
+       65,
+       13
+      ],
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -178,7 +318,7 @@
       "until": null,
       "motif": "hourglass",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "slide"
@@ -288,7 +428,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A seal for the common word, geometric on «إلا الله», hands for «مسلمون»; no motif on Ibrahim; a book for the Torah and Injil and an hourglass for «من بعده»."
+  "notes": "A seal for the common word, geometric on «إلا الله», hands for «مسلمون»; no motif on Ibrahim; a book for the Torah and Injil and an hourglass for «من بعده». STAGING v4: The Prophet is never shown on 64:1 (he is addressed): the People of the Book (k) stand before the believers in a town; seal plate on the common word (64:6); the believers bow on 64:11 and shake their heads on 64:15 (no association); 64:26-27 is conditional, so nobody turns away; the believers speak and point on 64:28-29 (Al-Muyassar: addressed to the believers) and bow on 64:31. 65: the Jews (j) and the Christians (n) each make their claim (As-Sa'di) and read their books on 65:9-10; Ibrahim is not drawn; hourglass on 65:13."
  },
  "cover": {
   "series_ar": "حوار أهل الكتاب",
@@ -300,5 +440,6 @@
    6
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }
