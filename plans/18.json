@@ -1,6 +1,6 @@
 {
  "surah": 18,
- "summary": "34 short videos covering all 110 verses, 4 stories",
+ "summary": "33 short videos (reciter Yasser ad-Dussary) covering all 110 verses, 4 stories",
  "made_by": "Research 2026-11-19: Saheeh translation, Al-Muyassar and As-Sa'di read verse by verse; durations from Quran Foundation word timings (Alafasy, plus 6.4 s intro/outro).",
  "notes": [
   "All 110 verses match the second source (Tanzil) exactly; the only difference was the spacing of the sakt sign in 18:1, now a documented equivalence.",
@@ -184,38 +184,20 @@
    ]
   },
   {
-   "title_ar": "مثل الدنيا",
-   "title_en": "The parable of this world",
+   "title_ar": "مثل الدنيا ومشاهد القيامة",
+   "title_en": "The parable of this world, and the Day of Judgement",
    "from": 45,
-   "to": 46,
-   "intro": "",
+   "to": 49,
+   "intro": "With Yasser ad-Dussary this is ONE video: he joins verse 46 to verse 47 without a pause. With a reciter who pauses there it can be two (45-46, 47-49).",
    "videos": [
     {
      "from": 45,
-     "to": 46,
-     "title_ar": "الدنيا كالمطر والنبات",
-     "title_en": "Life is like rain on plants",
-     "visual": "ambient",
-     "care": "",
-     "est_s": 54
-    }
-   ]
-  },
-  {
-   "title_ar": "مشاهد القيامة",
-   "title_en": "Scenes of the Day of Judgement",
-   "from": 47,
-   "to": 49,
-   "intro": "",
-   "videos": [
-    {
-     "from": 47,
      "to": 49,
-     "title_ar": "مشاهد يوم القيامة",
-     "title_en": "Scenes of the Day of Judgement",
+     "title_ar": "من الدنيا إلى الآخرة",
+     "title_en": "From this world to the Day of Judgement",
      "visual": "ambient",
-     "care": "The unseen: calm visuals only.",
-     "est_s": 71
+     "care": "47-49 is the unseen (the Day of Judgement): calm visuals only. 18:49 word 4 has an implausibly short timing (80 ms): listen.",
+     "est_s": 130
     }
    ]
   },
@@ -417,5 +399,9 @@
     }
    ]
   }
- ]
+ ],
+ "reciter": {
+  "id": 97,
+  "name": "Yasser ad-Dussary"
+ }
 }

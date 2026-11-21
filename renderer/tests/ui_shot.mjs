@@ -1,9 +1,9 @@
 // Screenshots of the Studio web app for visual checks.
 // node renderer/tests/ui_shot.mjs <out-prefix> <hash>[,<hash>...] [width] [height] [--click=<selector>]
-import { chromium } from 'playwright-core';
+import { launchBrowser } from '../browser.mjs';
 const [, , out = 'out/wip/ui', hashes = '#/', w = '1280', h = '900'] = process.argv;
 const click = process.argv.find((a) => a.startsWith('--click='))?.slice(8);
-const b = await chromium.launch({ channel: 'chrome' });
+const b = await launchBrowser();
 const pg = await b.newPage({ viewport: { width: +w, height: +h }, deviceScaleFactor: 1 });
 const errs = [];
 pg.on('pageerror', (e) => errs.push(String(e)));

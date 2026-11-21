@@ -1,6 +1,6 @@
 // Contact sheets for the generic scene library.
 // node renderer/tests/lib_shot.mjs <suite> [out.png]     suites: moods, settings, actors, events, edges, perf, custom (JSON cases in argv[4])
-import { chromium } from 'playwright-core';
+import { launchBrowser } from '../browser.mjs';
 import http from 'node:http'; import fs from 'node:fs'; import path from 'node:path'; import { fileURLToPath } from 'node:url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
@@ -141,7 +141,7 @@ suites.amb_beats = () => {
 suites.auto = () => [0, 4, 6, 8, 12, 16, 20, 24, 28].map((t) => ({ scene: 'stage', params: st('cave', 'day', [SLEEP, DOGS]), t, label: 'auto cam', o: LONG }));
 suites.perf = () => [...suites.moods(), ...suites.settings(), ...suites.events(), ...suites.kahf_settings(), ...suites.kahf_actors(), ...suites.kahf_events(), ...suites.beats(), ...suites.amb_beats()];
 
-const browser = await chromium.launch({ channel: 'chrome', headless: true });
+const browser = await launchBrowser();
 const page = await browser.newPage({ viewport: { width: 1200, height: 900 } });
 const errors = [];
 page.on('pageerror', (e) => errors.push(String(e)));

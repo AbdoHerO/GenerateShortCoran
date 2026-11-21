@@ -1,8 +1,26 @@
+# secrets - never commit
 .env
+.env.*
+*.pem
+.claude/settings.local.json
+
+# environments and dependencies
 .venv/
 node_modules/
+__pycache__/
+*.pyc
+
+# media and generated data (re-created by the pipeline; finished videos live in Creative Hub)
 out/
-data/**/*.mp3
-data/**/*.part
+data/*
+!data/catalog.json
+*.wav
+*.mp3
+*.mp4
+*.part
+publish/plans/
 storyboard/*.candidate.json
-data/*/log.txt
+
+# local-only material
+agent-handoff/
+*.log

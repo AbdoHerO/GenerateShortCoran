@@ -9,7 +9,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { spawn, spawnSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
-import { chromium } from 'playwright-core';
+import { launchBrowser } from './browser.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const argv = process.argv.slice(2);
@@ -40,7 +40,7 @@ function serve(port = 0) {
 }
 
 async function openPage(srv) {
-  const browser = await chromium.launch({ channel: 'chrome', headless: true, args: ['--force-color-profile=srgb', '--hide-scrollbars'] });
+  const browser = await launchBrowser({ args: ['--force-color-profile=srgb', '--hide-scrollbars'] });
   const page = await browser.newPage({ viewport: { width: 1080, height: 1920 }, deviceScaleFactor: 1 });
   const errors = [];
   page.on('pageerror', (e) => errors.push(String(e)));
@@ -70,7 +70,7 @@ async function main() {
   }
   if (mode === 'review') {
     const out = path.resolve(ROOT, opt('out', path.join(path.dirname(DATA), 'review_sheet.pdf')));
-    const browser = await chromium.launch({ channel: 'chrome', headless: true });
+    const browser = await launchBrowser();
     const page = await browser.newPage();
     await page.goto(`http://127.0.0.1:${srv.address().port}/renderer/review.html?data=${encodeURIComponent(DATA)}`);
     await page.waitForFunction('window.done', null, { timeout: 60000 });
