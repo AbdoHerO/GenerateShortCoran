@@ -71,7 +71,7 @@
       "type": "ruin",
       "at": [
        259,
-       7
+       1
       ],
       "until": null
      },
@@ -93,6 +93,13 @@
       "do": "walk_to",
       "who": "w",
       "to": "center"
+     },
+     {
+      "at": [
+       259,
+       6
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
@@ -155,7 +162,7 @@
        259,
        31
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -201,7 +208,7 @@
        259,
        48
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -403,7 +410,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The man is never named, drawn or judged (scholars differ on who he was; As-Sa'di's view that he doubted the resurrection is not used). No donkey or bones drawn: growth stands for life after death as a parable. Title avoids the verse's «مائة عام». STAGING v4: The man is a plain faceless traveller (never named, never a prophet: Al-Muyassar does not say who he was and As-Sa'di holds he was not a prophet). He walks into the town, which falls to ruins on «خاوية» (it was already ruined: the ruin is shown as the town's state, not an event he saw), speaks and points at it. His death is not shown: he fades out on «فأماته», an hourglass on «مائة عام», and he reappears in the same place on «بعثه». No donkey, no bones, no flesh are drawn; he turns to look on each «وانظر». The town is NOT shown rebuilt (As-Sa'di: the verse does not say it was). Light on «تبين», he bows on «أعلم»."
+  "notes": "The man is never named, drawn or judged (scholars differ on who he was; As-Sa'di's view that he doubted the resurrection is not used). No donkey or bones drawn: growth stands for life after death as a parable. Title avoids the verse's «مائة عام». STAGING v4: The man is a plain faceless traveller (never named, never a prophet: Al-Muyassar does not say who he was and As-Sa'di holds he was not a prophet). He walks into the town, which falls to ruins on «خاوية» (it was already ruined: the ruin is shown as the town's state, not an event he saw), speaks and points at it. His death is not shown: he fades out on «فأماته», an hourglass on «مائة عام», and he reappears in the same place on «بعثه». No donkey, no bones, no flesh are drawn; he turns to look on each «وانظر». The town is NOT shown rebuilt (As-Sa'di: the verse does not say it was). Light on «تبين», he bows on «أعلم». STAGING v4: The man is a plain faceless traveller (never named, never a prophet: Al-Muyassar does not say who he was and As-Sa'di holds he was not a prophet). He walks into the town, already in ruins from the first word (the ruin is its state, not an event he saw), speaks and points at it. His death is not shown: he fades out on «فأماته», an hourglass on «مائة عام», and he reappears in the same place on «بعثه». No donkey, no bones, no flesh are drawn; he turns to look on each «وانظر». The town is NOT shown rebuilt (As-Sa'di: the verse does not say it was). Light on «تبين», he bows on «أعلم»."
  },
  "cover": {
   "series_ar": "آيات الإحياء",
