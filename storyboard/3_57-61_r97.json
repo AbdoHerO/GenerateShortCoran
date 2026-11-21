@@ -42,7 +42,7 @@
        57,
        8
       ],
-      "do": "push_in"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -283,10 +283,10 @@
    "verse": 58,
    "words": [
     1,
-    3
+    5
    ],
    "tafsir": 16,
-   "excerpt": "ذلك الذي نقصُّه عليك في شأن عيسى",
+   "excerpt": "من الدلائل الواضحة على صحة رسالتك",
    "target": "",
    "tone": "blue"
   },
@@ -319,7 +319,7 @@
     10
    ],
    "tafsir": 16,
-   "excerpt": "من غير أب ولا أم",
+   "excerpt": "فآدم عليه السلام خلق من غير أب ولا أم",
    "target": "",
    "tone": "blue"
   },
@@ -331,7 +331,7 @@
    ],
    "tafsir": 91,
    "excerpt": "الحق الذي في أعلى رتب الصدق",
-   "target": "motif",
+   "target": "",
    "tone": "green"
   },
   {
@@ -387,7 +387,7 @@
   "series_ar": "مريم وعيسى",
   "series_en": "Maryam and Isa",
   "title_ar": "الدعوة إلى المباهلة",
-  "title_en": "The call to mutual prayer",
+  "title_en": "The call to the Mubahala",
   "at": [
    61,
    1

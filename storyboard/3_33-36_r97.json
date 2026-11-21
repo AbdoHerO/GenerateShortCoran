@@ -75,7 +75,7 @@
      {
       "at": [
        34,
-       5
+       4
       ],
       "do": "push_in"
      }
@@ -96,7 +96,7 @@
   },
   {
    "id": "c2",
-   "title": "نذر امرأة عمران",
+   "title": "نذر أم مريم",
    "verses": [
     35,
     36
@@ -202,8 +202,8 @@
     10,
     11
    ],
-   "tafsir": 16,
-   "excerpt": "وجعلهم أفضل أهل زمانهم",
+   "tafsir": 91,
+   "excerpt": "فهذه البيوت التي ذكرها الله هي صفوته من العالمين",
    "target": "",
    "tone": "green"
   },
@@ -248,7 +248,7 @@
    ],
    "tafsir": 91,
    "excerpt": "محررا لخدمتك وخدمة بيتك",
-   "target": "motif",
+   "target": "",
    "tone": "green"
   },
   {
@@ -291,7 +291,7 @@
     11
    ],
    "tafsir": 91,
-   "excerpt": "بل علمه متعلق بها قبل أن تعلم أمها ما هي",
+   "excerpt": "لا يحتاج إلى إعلامها، بل علمه متعلق بها قبل أن تعلم أمها ما هي",
    "target": "",
    "tone": "green"
   },
@@ -303,7 +303,7 @@
    ],
    "tafsir": 16,
    "excerpt": "إني حصَّنتها بك",
-   "target": "motif",
+   "target": "",
    "tone": "green"
   },
   {
@@ -325,8 +325,8 @@
  "cover": {
   "series_ar": "آل عمران",
   "series_en": "The family of Imran",
-  "title_ar": "نذر امرأة عمران",
-  "title_en": "The vow of Imran's wife",
+  "title_ar": "نذر أم مريم",
+  "title_en": "The vow of Maryam's mother",
   "at": [
    35,
    7

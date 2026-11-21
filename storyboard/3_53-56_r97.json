@@ -96,7 +96,7 @@
        55,
        7
       ],
-      "do": "push_in"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -202,17 +202,6 @@
    "tafsir": 16,
    "excerpt": "من الإنجيل",
    "target": "motif",
-   "tone": "blue"
-  },
-  {
-   "verse": 53,
-   "words": [
-    5,
-    6
-   ],
-   "tafsir": 16,
-   "excerpt": "واتبعنا رسولك عيسى عليه السلام",
-   "target": "",
    "tone": "blue"
   },
   {

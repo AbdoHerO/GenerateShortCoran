@@ -40,7 +40,7 @@
      {
       "at": [
        42,
-       3
+       2
       ],
       "do": "shot_wide"
      },
@@ -151,7 +151,7 @@
      {
       "at": [
        45,
-       4
+       2
       ],
       "do": "shot_wide"
      },
@@ -181,7 +181,7 @@
        45,
        19
       ],
-      "do": "push_in"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -313,11 +313,11 @@
   {
    "verse": 45,
    "words": [
-    20,
+    19,
     20
    ],
-   "tafsir": 16,
-   "excerpt": "عند الله يوم القيامة",
+   "tafsir": 91,
+   "excerpt": "أقرب الخلق إلى ربهم",
    "target": "",
    "tone": "green"
   },
@@ -335,7 +335,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Ambient only: no motif on Maryam, the angels, Isa or the cradle. geometric for «إن الله», a scroll for the news of the unseen revealed, a pen for the casting of pens, a burst for the glad tidings. 42:10-12 quotes As-Sa'di's two readings (her time or absolutely) instead of taking one."
+  "notes": "Ambient only: no motif on Maryam, the angels, Isa or the cradle. geometric for «إن الله», a scroll for the news of the unseen revealed, a pen for the casting of pens, a burst for the glad tidings. 42:10-12 quotes As-Sa'di's two readings (her time or absolutely) instead of taking one. 45: short-word flag at 20 «المقربين» (70 ms, listen)."
  },
  "cover": {
   "series_ar": "مريم وعيسى",

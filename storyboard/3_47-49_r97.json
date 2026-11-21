@@ -133,7 +133,7 @@
        49,
        9
       ],
-      "do": "push_in"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -203,7 +203,7 @@
      {
       "at": [
        48,
-       2
+       4
       ],
       "until": null,
       "motif": "book",
@@ -288,7 +288,7 @@
    ],
    "tafsir": 16,
    "excerpt": "تدلُّ على أني مرسل من الله",
-   "target": "motif",
+   "target": "",
    "tone": "blue"
   },
   {
@@ -331,7 +331,7 @@
     45
    ],
    "tafsir": 91,
-   "excerpt": "وأي: آية أعظم من جعل الجماد حيوانا",
+   "excerpt": "فكل واحدة من هذه الأمور آية عظيمة بمفردها",
    "target": "",
    "tone": "green"
   }
@@ -344,7 +344,7 @@
   "series_ar": "مريم وعيسى",
   "series_en": "Maryam and Isa",
   "title_ar": "معجزات عيسى",
-  "title_en": "The signs of Isa",
+  "title_en": "The miracles of Isa",
   "at": [
    49,
    8
