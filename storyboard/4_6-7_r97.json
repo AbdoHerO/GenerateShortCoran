@@ -28,7 +28,7 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "تسليم أموال اليتامى",
+   "title": "تسليم أموال الأيتام",
    "verses": [
     6
    ],
@@ -244,7 +244,7 @@
     10
    ],
    "tafsir": 16,
-   "excerpt": "صلاحًا في دينهم، وقدرة على حفظ أموالهم",
+   "excerpt": "قدرة على حفظ أموالهم",
    "target": "",
    "tone": "blue"
   },
@@ -322,7 +322,7 @@
  "cover": {
   "series_ar": "اليتامى والأرحام",
   "series_en": "Orphans and kin",
-  "title_ar": "أموال اليتامى",
+  "title_ar": "أموال الأيتام",
   "title_en": "The orphans' wealth",
   "at": [
    6,

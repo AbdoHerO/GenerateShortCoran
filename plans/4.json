@@ -40,7 +40,7 @@
     {
      "from": 6,
      "to": 7,
-     "title_ar": "أموال اليتامى",
+     "title_ar": "أموال الأيتام",
      "title_en": "The orphans' wealth",
      "visual": "ambient",
      "care": "",
@@ -172,7 +172,7 @@
     {
      "from": 26,
      "to": 29,
-     "title_ar": "يسر الشريعة",
+     "title_ar": "التيسير ورفع الحرج",
      "title_en": "The ease of the law",
      "visual": "ambient",
      "care": "",
@@ -269,7 +269,7 @@
     {
      "from": 53,
      "to": 56,
-     "title_ar": "حسد الناس",
+     "title_ar": "الحسد على النعمة",
      "title_en": "Envying people",
      "visual": "ambient",
      "care": "",

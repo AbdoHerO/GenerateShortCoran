@@ -442,3 +442,43 @@ or by eye. The per-surah summary goes into each `plans/<n>.json` "notes"; this f
   - In battle passages, never rank the Companions with a motif.
   - Never let an excerpt say what the verse negates (the martyrs dead, the Companions apostate) even if the chip
     carries the negation.
+
+### An-Nisa 4:1–57 reviews (two independent sub-agents): 8 SERIOUS and 29 MINOR, all applied (2026-11-21)
+
+- **Pictures (5 serious, 8 minor):**
+  - Worldly motifs that stayed on screen over sensitive words: coins and a jewel over «فما استمتعتم به منهن…
+    أجورهن» (24) and over «غير مسافحات ولا متخذات أخدان» (25), coins over the rest of 4:34. Fixed with `until`,
+    a seal for «فريضة», or removal.
+  - Coins on a negated word («ومن لم يستطع منكم طولا», 25:5) and on objects of blame (10:4, 19:16): removed.
+  - A crown on «ملكا عظيما» (54): As-Sa'di reads it as the prophets' kingship; removed.
+  - Minor: bricks moved onto «حدود», a leaf (decay) replaced by growth on «وأصلحا», two paths (guidance vs. error)
+    replaced by scales on «حكما» so neither spouse is cast as misguided, a scroll limited to «الكلم».
+  - The same lingering-motif check was applied to 58–104 (29:12, 85:3, 89:13, 100:15 got `until`).
+- **Glosses (3 serious, 21 minor):**
+  - 24:4–7: the captive-women excerpt read as lawful "to the Muslims" as a group; now Al-Muyassar «سبيتم منهن في
+    الجهاد».
+  - 24:11–15: «كل ما لم يذكر في هذه الآية فإنه حلال» stated a false absolute in a one-verse video; now «وأجاز لكم
+    نكاح من سواهن».
+  - 19:4–10: As-Sa'di's «فنهى… عن جميع هذه الأحوال» cut before his own exception «إلا حالتين»; now «وهن كارهات لذلك
+    كله» on «كرها».
+  - Minor: kept the condition «فإن خاف» (3), the third condition of repentance «وعزما على أن لا يعودا» (16),
+    dropped one tafsir's reading (6 «رشد», 11 «فوق اثنتين», 14 «يعص», 43 «صعيدا»), dropped a pointer to a
+    non-canonical reading (12), dropped As-Sa'di-only framings in 21 and 34:25–28, fixed «أمر اليهود» (read
+    as "He commanded the Jews").
+  - Titles: «أموال الأيتام», «ظلم الأيتام» (avoid Quran wording), «الثناء على النفس» («تزكية النفس» means
+    praiseworthy self-purification), «الحسد على النعمة», «التيسير ورفع الحرج».
+- **Lessons:**
+  - A motif is judged by everything it stays over, not only its first word: give worldly motifs an `until`.
+  - In sensitive passages, never let money or adornment sit next to women.
+  - An excerpt that says "this verse" lies when the video holds only part of the list.
+
+### Al-Baqarah: first 23 videos published as drafts; one stuck empty import (2026-11-21)
+
+- 23 videos (2:35–56, 97–121, 142–148, 159–161, 188–208, 243–245) frame-checked and imported as drafts
+  (92 files, 0 rejected, 0 approved). Ledger updated.
+- An earlier upload attempt of the same ZIP was interrupted while uploading: import
+  `cmwpv55d1000i3cnyb4i3vh83` stays in status UPLOADING with 0 files. It created no creatives. Cancelling it
+  needs the owner's permission (the agent's cancel call was refused). It is harmless, but the owner may cancel it
+  in the app.
+- Builds now run in one detached manager (`buildall.sh`, 3 workers) because background shells are stopped after
+  2 hours; the chained queues lost two runs that way.
