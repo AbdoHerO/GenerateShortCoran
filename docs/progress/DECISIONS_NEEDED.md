@@ -56,7 +56,8 @@ previous verse's last word ends:
 | 253 | 20 ms |
 
 `verify.py` treats any overlap as a failure, and the master documentation (2.2) says overlaps block a video. Blocked
-videos: **2:13–16, 2:74, 2:150–152 and 2:253–254**. 2:122–125 and 2:138–141 are already held by decision 1.
+videos: **2:13–16, 2:74, 2:149–152, 2:250–252 and 2:253–254**. A video that ends right before an overlapping verse is
+blocked too, because its last word overlaps the next verse. 2:122–125 and 2:138–141 are already held by decision 1.
 
 **The agent's reading:** the overlaps are aligner jitter, far shorter than a word. `prepare.py` (through `align.py`)
 already moves every verse change onto the reciter's measured pause, and lists each move on the review sheet.

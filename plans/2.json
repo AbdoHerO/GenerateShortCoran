@@ -575,21 +575,21 @@
     },
     {
      "from": 146,
-     "to": 149,
+     "to": 148,
      "title_ar": "معرفة الحق",
      "title_en": "They know the truth",
      "visual": "ambient",
      "care": "",
-     "est_s": 67
+     "est_s": 50
     },
     {
-     "from": 150,
+     "from": 149,
      "to": 152,
      "title_ar": "تمام النعمة",
      "title_en": "The completed favour",
      "visual": "ambient",
      "care": "150 overlaps the previous verse by 80 ms; short-word flag 151:9 (listen).",
-     "est_s": 73,
+     "est_s": 90,
      "blocked": "timing overlap between verses: docs/progress/DECISIONS_NEEDED.md section 2"
     }
    ]
@@ -1000,7 +1000,8 @@
      "title_en": "Victory for the patient",
      "visual": "ambient",
      "care": "The killing of Jalut (251) is never shown.",
-     "est_s": 74
+     "est_s": 74,
+     "blocked": "timing overlap at 252->253: docs/progress/DECISIONS_NEEDED.md section 2"
     }
    ]
   },
