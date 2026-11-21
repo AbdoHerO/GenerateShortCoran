@@ -92,9 +92,9 @@
      {
       "at": [
        4,
-       7
+       6
       ],
-      "do": "push_in"
+      "do": "pan_right"
      },
      {
       "at": [

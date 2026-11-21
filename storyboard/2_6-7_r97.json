@@ -42,7 +42,7 @@
        6,
        4
       ],
-      "do": "push_in"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -68,16 +68,23 @@
      {
       "at": [
        7,
-       6
+       4
       ],
-      "do": "push_in"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       7,
+       7
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
        7,
        8
       ],
-      "do": "shot_sky"
+      "do": "pan_left"
      },
      {
       "at": [

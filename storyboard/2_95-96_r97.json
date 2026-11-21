@@ -49,7 +49,7 @@
        95,
        6
       ],
-      "do": "push_in"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -68,16 +68,16 @@
      {
       "at": [
        96,
-       4
+       5
       ],
-      "do": "push_in"
+      "do": "pan_left"
      },
      {
       "at": [
        96,
        6
       ],
-      "do": "shot_sky"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -91,7 +91,7 @@
        96,
        15
       ],
-      "do": "shot_ground"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -99,13 +99,6 @@
        18
       ],
       "do": "pan_left"
-     },
-     {
-      "at": [
-       96,
-       21
-      ],
-      "do": "push_in"
      },
      {
       "at": [

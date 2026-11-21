@@ -39,13 +39,6 @@
      {
       "at": [
        83,
-       5
-      ],
-      "do": "push_in"
-     },
-     {
-      "at": [
-       83,
        6
       ],
       "do": "shot_wide"
@@ -69,7 +62,7 @@
        83,
        17
       ],
-      "do": "shot_sky"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -83,7 +76,7 @@
        83,
        29
       ],
-      "do": "push_in"
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -150,9 +143,9 @@
      {
       "at": [
        84,
-       7
+       8
       ],
-      "do": "push_in"
+      "do": "shot_wide"
      },
      {
       "at": [
