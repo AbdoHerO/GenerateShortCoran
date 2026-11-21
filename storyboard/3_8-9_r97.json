@@ -55,7 +55,7 @@
        8,
        13
       ],
-      "do": "push_in"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -101,7 +101,7 @@
        9,
        9
       ],
-      "do": "push_in"
+      "do": "pan_right"
      },
      {
       "at": [

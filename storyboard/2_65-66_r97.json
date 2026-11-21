@@ -63,21 +63,21 @@
        66,
        1
       ],
-      "do": "push_in"
+      "do": "pan_right"
      },
      {
       "at": [
        66,
-       4
+       2
       ],
-      "do": "shot_sky"
+      "do": "shot_wide"
      },
      {
       "at": [
        66,
        9
       ],
-      "do": "push_in"
+      "do": "pan_left"
      }
     ],
     "motifs": [

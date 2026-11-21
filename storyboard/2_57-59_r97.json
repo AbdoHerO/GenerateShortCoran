@@ -46,13 +46,6 @@
      {
       "at": [
        57,
-       9
-      ],
-      "do": "push_in"
-     },
-     {
-      "at": [
-       57,
        14
       ],
       "do": "pan_right"
@@ -63,13 +56,6 @@
        16
       ],
       "do": "pan_left"
-     },
-     {
-      "at": [
-       57,
-       17
-      ],
-      "do": "shot_sky"
      }
     ],
     "motifs": [
@@ -119,7 +105,7 @@
        58,
        9
       ],
-      "do": "push_in"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -147,7 +133,7 @@
        59,
        7
       ],
-      "do": "push_in"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -159,13 +145,6 @@
      {
       "at": [
        59,
-       13
-      ],
-      "do": "shot_sky"
-     },
-     {
-      "at": [
-       59,
        15
       ],
       "do": "shot_wide"
@@ -173,16 +152,9 @@
      {
       "at": [
        59,
-       17
-      ],
-      "do": "shot_ground"
-     },
-     {
-      "at": [
-       59,
        18
       ],
-      "do": "push_in"
+      "do": "pan_right"
      }
     ],
     "motifs": [

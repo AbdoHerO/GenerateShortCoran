@@ -54,9 +54,9 @@
      {
       "at": [
        175,
-       9
+       11
       ],
-      "do": "push_in"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -68,16 +68,16 @@
      {
       "at": [
        176,
-       7
+       9
       ],
-      "do": "push_in"
+      "do": "pan_left"
      },
      {
       "at": [
        176,
-       11
+       12
       ],
-      "do": "shot_sky"
+      "do": "shot_wide"
      },
      {
       "at": [

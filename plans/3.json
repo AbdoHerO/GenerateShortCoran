@@ -24,8 +24,8 @@
     {
      "from": 1,
      "to": 5,
-     "title_ar": "تنزيل الكتب",
-     "title_en": "The Books sent down",
+     "title_ar": "الكتب المنزلة",
+     "title_en": "The revealed Books",
      "visual": "ambient",
      "care": "Allah's names (2): geometric only.",
      "est_s": 68
@@ -96,8 +96,8 @@
    ]
   },
   {
-   "title_ar": "الملك والمحبة",
-   "title_en": "Dominion and love",
+   "title_ar": "قدرة الله ومحبته",
+   "title_en": "Allah's power and love",
    "from": 21,
    "to": 32,
    "videos": [
@@ -133,7 +133,7 @@
     {
      "from": 30,
      "to": 32,
-     "title_ar": "علامة المحبة",
+     "title_ar": "علامة محبة الله",
      "title_en": "The sign of loving Allah",
      "visual": "ambient",
      "care": "",
@@ -392,8 +392,8 @@
     {
      "from": 113,
      "to": 115,
-     "title_ar": "المنصفون من أهل الكتاب",
-     "title_en": "The fair-minded among them",
+     "title_ar": "الصالحون من الكتابيين",
+     "title_en": "The righteous among them",
      "visual": "ambient",
      "care": "",
      "est_s": 69

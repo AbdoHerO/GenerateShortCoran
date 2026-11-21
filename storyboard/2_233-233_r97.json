@@ -48,7 +48,7 @@
        233,
        16
       ],
-      "do": "shot_sky"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -62,7 +62,7 @@
        233,
        23
       ],
-      "do": "push_in"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -88,16 +88,23 @@
      {
       "at": [
        233,
-       36
+       34
       ],
-      "do": "shot_ground"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       233,
+       38
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
        233,
        40
       ],
-      "do": "push_in"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -111,7 +118,7 @@
        233,
        47
       ],
-      "do": "push_in"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -132,14 +139,14 @@
        233,
        56
       ],
-      "do": "push_in"
+      "do": "pan_right"
      },
      {
       "at": [
        233,
-       59
+       57
       ],
-      "do": "shot_sky"
+      "do": "shot_wide"
      },
      {
       "at": [

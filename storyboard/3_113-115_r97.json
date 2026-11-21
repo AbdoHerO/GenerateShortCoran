@@ -28,41 +28,281 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة آل عمران",
+   "title": "قيام الليل",
    "verses": [
     113
    ],
    "scene": "ambient",
    "params": {
-    "mood": "night_sky"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       113,
+       3
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       113,
+       6
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       113,
+       7
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       113,
+       9
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       113,
+       10
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       113,
+       12
+      ],
+      "do": "pan_left"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       113,
+       8
+      ],
+      "until": null,
+      "motif": "book",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       113,
+       11
+      ],
+      "until": null,
+      "motif": "stars",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       113,
+       14
+      ],
+      "until": null,
+      "motif": "hands",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
    "id": "c2",
-   "title": "سورة آل عمران",
+   "title": "المسارعة إلى الخير",
    "verses": [
-    114
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "dawn"
-   }
-  },
-  {
-   "id": "c3",
-   "title": "سورة آل عمران",
-   "verses": [
+    114,
     115
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light"
+    "mood": "dawn",
+    "beats": [
+     {
+      "at": [
+       114,
+       4
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       114,
+       6
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       114,
+       13
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       114,
+       15
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       115,
+       6
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       115,
+       8
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       115,
+       9
+      ],
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       114,
+       10
+      ],
+      "until": null,
+      "motif": "footsteps",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       115,
+       4
+      ],
+      "until": null,
+      "motif": "wheat",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "light_sweep"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 113,
+   "words": [
+    1,
+    2
+   ],
+   "tafsir": 16,
+   "excerpt": "متساوين",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 113,
+   "words": [
+    6,
+    7
+   ],
+   "tafsir": 16,
+   "excerpt": "جماعة مستقيمة على أمر الله مؤمنة برسوله محمد صلى الله عليه وسلم",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 113,
+   "words": [
+    8,
+    12
+   ],
+   "tafsir": 16,
+   "excerpt": "يقومون الليل مرتلين آيات القرآن الكريم",
+   "target": "motif",
+   "tone": "green"
+  },
+  {
+   "verse": 113,
+   "words": [
+    13,
+    14
+   ],
+   "tafsir": 16,
+   "excerpt": "مقبلين على مناجاة الله في صلواتهم",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 114,
+   "words": [
+    5,
+    9
+   ],
+   "tafsir": 16,
+   "excerpt": "ويأمرون بالخير كله",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 114,
+   "words": [
+    10,
+    12
+   ],
+   "tafsir": 16,
+   "excerpt": "ويبادرون إلى فعل الخيرات",
+   "target": "motif",
+   "tone": "green"
+  },
+  {
+   "verse": 115,
+   "words": [
+    1,
+    6
+   ],
+   "tafsir": 16,
+   "excerpt": "فلن يضيع عند الله، بل يُشكر لهم، ويجازون عليه",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 115,
+   "words": [
+    7,
+    9
+   ],
+   "tafsir": 16,
+   "excerpt": "الذين فعلوا الخيرات وابتعدوا عن المحرمات",
+   "target": "",
+   "tone": "green"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "A book for the recited verses, stars for the night, hands for prostration, footsteps for hastening to good, wheat for the reward that is never lost. No people drawn."
+ },
+ "cover": {
+  "series_ar": "الاعتصام والأخوة",
+  "series_en": "Holding together",
+  "title_ar": "الصالحون من الكتابيين",
+  "title_en": "The righteous among them",
+  "at": [
+   113,
+   11
+  ]
+ },
+ "motion": 3
 }

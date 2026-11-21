@@ -48,7 +48,7 @@
        280,
        14
       ],
-      "do": "push_in"
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -111,21 +111,21 @@
        281,
        10
       ],
-      "do": "shot_sky"
+      "do": "pan_left"
      },
      {
       "at": [
        281,
        12
       ],
-      "do": "push_in"
+      "do": "pan_right"
      },
      {
       "at": [
        281,
        13
       ],
-      "do": "push_in"
+      "do": "shot_wide"
      },
      {
       "at": [

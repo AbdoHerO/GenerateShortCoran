@@ -48,7 +48,14 @@
        153,
        7
       ],
-      "do": "push_in"
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       153,
+       8
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
@@ -123,7 +130,7 @@
        155,
        2
       ],
-      "do": "push_in"
+      "do": "shot_wide"
      },
      {
       "at": [

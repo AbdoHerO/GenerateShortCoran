@@ -42,14 +42,14 @@
        2,
        2
       ],
-      "do": "push_in"
+      "do": "pan_right"
      },
      {
       "at": [
        2,
        4
       ],
-      "do": "push_in"
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -89,7 +89,7 @@
        4,
        1
       ],
-      "do": "push_in"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -108,16 +108,9 @@
      {
       "at": [
        4,
-       16
-      ],
-      "do": "push_in"
-     },
-     {
-      "at": [
-       4,
        18
       ],
-      "do": "shot_sky"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -167,7 +160,7 @@
   },
   {
    "id": "c3",
-   "title": "إحاطة العلم",
+   "title": "إحاطة علم الله",
    "verses": [
     5
    ],
@@ -180,7 +173,7 @@
        5,
        5
       ],
-      "do": "push_in"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -332,8 +325,8 @@
  "cover": {
   "series_ar": "فاتحة آل عمران",
   "series_en": "The opening of Aal Imran",
-  "title_ar": "تنزيل الكتب",
-  "title_en": "The Books sent down",
+  "title_ar": "الكتب المنزلة",
+  "title_en": "The revealed Books",
   "at": [
    3,
    3

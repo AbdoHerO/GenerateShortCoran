@@ -46,9 +46,9 @@
      {
       "at": [
        165,
-       9
+       8
       ],
-      "do": "shot_sky"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -67,9 +67,9 @@
      {
       "at": [
        165,
-       14
+       15
       ],
-      "do": "push_in"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -83,7 +83,7 @@
        165,
        23
       ],
-      "do": "shot_ground"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -104,7 +104,7 @@
        165,
        31
       ],
-      "do": "push_in"
+      "do": "shot_wide"
      }
     ],
     "motifs": []
@@ -147,21 +147,21 @@
        167,
        5
       ],
-      "do": "shot_sky"
+      "do": "shot_wide"
      },
      {
       "at": [
        167,
        8
       ],
-      "do": "push_in"
+      "do": "pan_left"
      },
      {
       "at": [
        167,
        12
       ],
-      "do": "push_in"
+      "do": "pan_left"
      },
      {
       "at": [

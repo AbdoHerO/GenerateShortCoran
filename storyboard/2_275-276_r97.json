@@ -39,9 +39,9 @@
      {
       "at": [
        275,
-       9
+       7
       ],
-      "do": "push_in"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -69,21 +69,21 @@
        275,
        20
       ],
-      "do": "shot_sky"
+      "do": "shot_wide"
      },
      {
       "at": [
        275,
        26
       ],
-      "do": "push_in"
+      "do": "pan_right"
      },
      {
       "at": [
        275,
        31
       ],
-      "do": "shot_ground"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -112,13 +112,6 @@
        40
       ],
       "do": "pan_left"
-     },
-     {
-      "at": [
-       275,
-       41
-      ],
-      "do": "push_in"
      },
      {
       "at": [

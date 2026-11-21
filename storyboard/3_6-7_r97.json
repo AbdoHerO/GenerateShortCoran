@@ -28,7 +28,7 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "الخلق والتصوير",
+   "title": "تكوين الأجنة",
    "verses": [
     6
    ],
@@ -41,7 +41,7 @@
        6,
        7
       ],
-      "do": "push_in"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -90,7 +90,7 @@
        7,
        9
       ],
-      "do": "push_in"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -111,14 +111,14 @@
        7,
        21
       ],
-      "do": "push_in"
+      "do": "pan_right"
      },
      {
       "at": [
        7,
        24
       ],
-      "do": "shot_sky"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -139,7 +139,7 @@
        7,
        33
       ],
-      "do": "shot_ground"
+      "do": "shot_wide"
      },
      {
       "at": [

@@ -42,7 +42,7 @@
        53,
        7
       ],
-      "do": "push_in"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -63,14 +63,7 @@
        54,
        14
       ],
-      "do": "shot_sky"
-     },
-     {
-      "at": [
-       54,
-       16
-      ],
-      "do": "push_in"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -98,7 +91,7 @@
        54,
        26
       ],
-      "do": "shot_ground"
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -148,7 +141,7 @@
        55,
        14
       ],
-      "do": "push_in"
+      "do": "shot_wide"
      },
      {
       "at": [

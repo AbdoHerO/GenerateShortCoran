@@ -56,7 +56,7 @@
        10,
        12
       ],
-      "do": "push_in"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -75,13 +75,6 @@
      {
       "at": [
        11,
-       6
-      ],
-      "do": "push_in"
-     },
-     {
-      "at": [
-       11,
        8
       ],
       "do": "pan_left"
@@ -91,14 +84,14 @@
        11,
        9
       ],
-      "do": "shot_sky"
+      "do": "shot_wide"
      },
      {
       "at": [
        11,
        13
       ],
-      "do": "shot_ground"
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -141,7 +134,7 @@
        12,
        4
       ],
-      "do": "push_in"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -162,14 +155,14 @@
        13,
        13
       ],
-      "do": "push_in"
+      "do": "pan_left"
      },
      {
       "at": [
        13,
        14
       ],
-      "do": "shot_sky"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -190,7 +183,7 @@
        13,
        20
       ],
-      "do": "shot_ground"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -211,7 +204,7 @@
        13,
        29
       ],
-      "do": "push_in"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -258,7 +251,7 @@
     12
    ],
    "tafsir": 91,
-   "excerpt": "وليس للأولاد والأموال قدر عند الله",
+   "excerpt": "إنما ينفع العبد إيمانه بالله وأعماله الصالحة",
    "target": "",
    "tone": "red"
   },

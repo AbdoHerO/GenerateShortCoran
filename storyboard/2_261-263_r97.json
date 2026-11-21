@@ -60,16 +60,9 @@
      {
       "at": [
        261,
-       19
-      ],
-      "do": "push_in"
-     },
-     {
-      "at": [
-       261,
        21
       ],
-      "do": "push_in"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -140,14 +133,7 @@
        262,
        13
       ],
-      "do": "shot_sky"
-     },
-     {
-      "at": [
-       262,
-       14
-      ],
-      "do": "push_in"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -168,7 +154,7 @@
        263,
        2
       ],
-      "do": "shot_ground"
+      "do": "pan_right"
      },
      {
       "at": [

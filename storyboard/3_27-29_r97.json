@@ -48,7 +48,7 @@
        27,
        6
       ],
-      "do": "push_in"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -122,14 +122,14 @@
        28,
        8
       ],
-      "do": "push_in"
+      "do": "pan_right"
      },
      {
       "at": [
        28,
        10
       ],
-      "do": "shot_sky"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -157,28 +157,21 @@
        28,
        24
       ],
-      "do": "shot_ground"
+      "do": "pan_left"
      },
      {
       "at": [
        29,
        2
       ],
-      "do": "push_in"
-     },
-     {
-      "at": [
-       29,
-       6
-      ],
-      "do": "shot_ground"
+      "do": "pan_right"
      },
      {
       "at": [
        29,
        9
       ],
-      "do": "push_in"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -277,7 +270,7 @@
     8
    ],
    "tafsir": 91,
-   "excerpt": "بالمحبة والنصرة والاستعانة بهم على أمر من أمور المسلمين",
+   "excerpt": "موالاة الكافرين بالمحبة والنصرة",
    "target": "",
    "tone": "amber"
   },
@@ -298,8 +291,8 @@
     17,
     21
    ],
-   "tafsir": 16,
-   "excerpt": "فقد رخَّص الله لكم في مهادنتهم اتقاء لشرهم، حتى تقوى شوكتكم",
+   "tafsir": 91,
+   "excerpt": "تخافوهم على أنفسكم فيحل لكم أن تفعلوا ما تعصمون به دماءكم",
    "target": "",
    "tone": "blue"
   },
@@ -320,19 +313,19 @@
     2,
     8
    ],
-   "tafsir": 16,
-   "excerpt": "ما استقر في قلوبكم من موالاة الكافرين ونصرتهم",
+   "tafsir": 91,
+   "excerpt": "سعة علمه لما في النفوس خصوصا، ولما في السماء والأرض عموما",
    "target": "",
    "tone": "amber"
   }
  ],
  "director": {
   "mode": "hand",
-  "notes": "night_day, growth (life from the dead as a parable) and wheat for Allah's signs; no motif on the negated alliance (28:1-8) or on «نفسه». 29: As-Sa'di's entry repeats verse 28, so 29 uses Al-Muyassar. 28:17-21 keeps Al-Muyassar's own limit «حتى تقوى شوكتكم»."
+  "notes": "night_day, growth (life from the dead as a parable) and wheat for Allah's signs; no motif on the negated alliance (28:1-8) or on «نفسه». 29: As-Sa'di's entry repeats verse 28, so 29 uses Al-Muyassar. 28:17-21 uses As-Sa'di's shared core of the exception (fearing for one's life); the tafsirs differ on what more it allows."
  },
  "cover": {
-  "series_ar": "الملك والمحبة",
-  "series_en": "Dominion and love",
+  "series_ar": "قدرة الله ومحبته",
+  "series_en": "Allah's power and love",
   "title_ar": "الولاء للمؤمنين",
   "title_en": "Allegiance to the believers",
   "at": [

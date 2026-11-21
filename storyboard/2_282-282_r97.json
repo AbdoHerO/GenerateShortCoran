@@ -48,42 +48,42 @@
        282,
        6
       ],
-      "do": "push_in"
+      "do": "pan_left"
      },
      {
       "at": [
        282,
        12
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        282,
        19
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        282,
        27
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        282,
        31
       ],
-      "do": "push_in"
+      "do": "pan_left"
      },
      {
       "at": [
        282,
        37
       ],
-      "do": "shot_sky"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -97,7 +97,7 @@
        282,
        55
       ],
-      "do": "push_in"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -118,49 +118,49 @@
        282,
        64
       ],
-      "do": "shot_ground"
+      "do": "pan_right"
      },
      {
       "at": [
        282,
        68
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        282,
        71
       ],
-      "do": "shot_sky"
+      "do": "pan_left"
      },
      {
       "at": [
        282,
        77
       ],
-      "do": "push_in"
+      "do": "pan_right"
      },
      {
       "at": [
        282,
        86
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        282,
        92
       ],
-      "do": "shot_ground"
+      "do": "pan_left"
      },
      {
       "at": [
        282,
        95
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -174,35 +174,35 @@
        282,
        113
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        282,
        115
       ],
-      "do": "push_in"
+      "do": "pan_left"
      },
      {
       "at": [
        282,
        119
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        282,
        123
       ],
-      "do": "push_in"
+      "do": "pan_left"
      },
      {
       "at": [
        282,
        126
       ],
-      "do": "shot_sky"
+      "do": "pan_right"
      }
     ],
     "motifs": [

@@ -42,7 +42,7 @@
        24,
        4
       ],
-      "do": "push_in"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -70,7 +70,7 @@
        25,
        2
       ],
-      "do": "shot_sky"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -82,9 +82,9 @@
      {
       "at": [
        25,
-       6
+       9
       ],
-      "do": "push_in"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -154,14 +154,14 @@
        26,
        14
       ],
-      "do": "shot_sky"
+      "do": "shot_wide"
      },
      {
       "at": [
        26,
-       16
+       15
       ],
-      "do": "push_in"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -175,7 +175,7 @@
        26,
        20
       ],
-      "do": "push_in"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -320,8 +320,8 @@
   "notes": "Their claim (24:3-9) gets no motif; its gloss marks it as fabricated. 26 is all Allah's acts and attributes: geometric on «اللهم»; a crown appears at «تؤتي الملك» and leaves at «وتنزع الملك» (human kingship only). «بيدك الخير» is not glossed or pictured. 25: short-word flags at 8, 13, 15 (listen)."
  },
  "cover": {
-  "series_ar": "الملك والمحبة",
-  "series_en": "Dominion and love",
+  "series_ar": "قدرة الله ومحبته",
+  "series_en": "Allah's power and love",
   "title_ar": "عطاء الملك ونزعه",
   "title_en": "Power given and taken",
   "at": [

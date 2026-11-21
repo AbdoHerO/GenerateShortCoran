@@ -13,9 +13,12 @@ WAQF = re.compile(r"[ۖ-ۜ]")
 # Only CAMERA moves are added automatically. Beats that carry meaning (light swelling, stars, rain, bloom, sparkle,
 # birds, wind) land on whatever word happens to be in the gap: a light swelling on a negated word, on "their devils"
 # or just before the Name is wrong (Al-Baqarah review, 2026-11-21). Such beats are written by hand, on chosen words.
-CAM = ["shot_wide", "push_in", "pan_left", "pan_right", "shot_sky", "push_in", "pan_right", "pan_left", "shot_ground"]
+# Sideways pans and a wide shot only: every ambient scene has a light source (sun, glow, the geometric centre), and a
+# push_in, shot_sky or shot_ground drifting toward it while the Name or His attributes are recited reads as depicting
+# Him (Aal Imran reviews, 2026-11-21). Zooms and tilts are written by hand, on chosen words, if ever.
+CAM = ["shot_wide", "pan_left", "pan_right", "shot_wide", "pan_right", "pan_left"]
 AMB = {}
-STAGE = ["shot_wide", "push_in", "pan_left", "pan_right", "shot_wide", "push_in"]
+STAGE = ["shot_wide", "pan_left", "pan_right", "shot_wide", "pan_right", "pan_left"]
 # Never put a camera move on the Name, «رب», «إله», an angel or a prophet: a push_in or shot_sky there zooms into the
 # scene's light exactly as the Name is recited, which reads as depicting Him (Aal Imran review, 2026-11-21).
 sys.path.insert(0, str(ROOT / "pipeline"))
