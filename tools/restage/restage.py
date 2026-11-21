@@ -101,8 +101,9 @@ def main(spec):
         if s.get("cover_at"): sb["cover"]["at"] = s["cover_at"]
         if s.get("cover_title"): sb["cover"]["title_ar"], sb["cover"]["title_en"] = s["cover_title"]
         d = sb.setdefault("director", {"mode": "hand", "notes": ""})
-        if s.get("notes"):
-            d["notes"] = (d.get("notes", "") + " STAGING v4: " + s["notes"]).strip()
+        if s.get("notes"):   # idempotent: a re-run replaces the v4 note instead of appending it again
+            base = d.get("notes", "").split(" STAGING v4: ")[0].split("STAGING v4: ")[0]
+            d["notes"] = (base + " STAGING v4: " + s["notes"]).strip()
         sb["staging"] = 4
         sb["motion"] = 3
         p.write_text(json.dumps(sb, ensure_ascii=False, indent=1), encoding="utf-8")
