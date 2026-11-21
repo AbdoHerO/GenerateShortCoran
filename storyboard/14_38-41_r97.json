@@ -28,7 +28,7 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "حمد الخليل",
+   "title": "شكر إبراهيم",
    "verses": [
     38,
     39
@@ -161,7 +161,7 @@
      }
     ],
     "motifs": [],
-    "transition": "dissolve"
+    "transition": "page_turn"
    }
   }
  ],
@@ -251,8 +251,8 @@
  "cover": {
   "series_ar": "دعاء إبراهيم",
   "series_en": "Ibrahim's prayer",
-  "title_ar": "علم الله بالسرائر",
-  "title_en": "Allah knows what is hidden",
+  "title_ar": "العلم المحيط",
+  "title_en": "The all-encompassing knowledge",
   "at": [
    38,
    8

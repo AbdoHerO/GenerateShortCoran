@@ -77,7 +77,7 @@
   },
   {
    "id": "c2",
-   "title": "غنى الله",
+   "title": "الكمال المطلق",
    "verses": [
     8
    ],
@@ -126,7 +126,7 @@
       "size": "m"
      }
     ],
-    "transition": "dissolve"
+    "transition": "morph"
    }
   }
  ],
@@ -149,7 +149,7 @@
     6
    ],
    "tafsir": 16,
-   "excerpt": "ليزيدنكم من فضله",
+   "excerpt": "لئن شكرتموه على نعمه ليزيدنكم من فضله",
    "target": "",
    "tone": "green"
   },
@@ -181,8 +181,8 @@
   "notes": "Growth for «لئن شكرتم لأزيدنكم» (nothing on the threat), geometric for «فإن الله لغني حميد» (after Musa's name). As-Sa'di's first-person «من نعمي» and «فلن تضروا الله شيئا» (an echo of 3:144) are not used."
  },
  "cover": {
-  "series_ar": "موسى وقومه",
-  "series_en": "Musa and his people",
+  "series_ar": "موعظة موسى",
+  "series_en": "Musa's admonition",
   "title_ar": "سنة الشكر",
   "title_en": "The law of gratitude",
   "at": [

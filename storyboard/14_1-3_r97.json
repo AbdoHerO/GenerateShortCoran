@@ -200,7 +200,7 @@
       "size": "m"
      }
     ],
-    "transition": "dissolve"
+    "transition": "page_turn"
    }
   }
  ],
@@ -300,7 +300,7 @@
     12
    ],
    "tafsir": 91,
-   "excerpt": "يحرصون على تهجينها وتقبيحها، للتنفير عنها",
+   "excerpt": "يحرصون على تهجينها وتقبيحها",
    "target": "",
    "tone": "red"
   },

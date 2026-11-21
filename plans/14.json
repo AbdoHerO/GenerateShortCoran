@@ -30,16 +30,16 @@
    ]
   },
   {
-   "title_ar": "موسى وقومه",
-   "title_en": "Musa and his people",
+   "title_ar": "موعظة موسى",
+   "title_en": "Musa's admonition",
    "from": 4,
    "to": 8,
    "videos": [
     {
      "from": 4,
      "to": 6,
-     "title_ar": "التذكير بالنعم",
-     "title_en": "A reminder of blessings",
+     "title_ar": "دروس الماضي",
+     "title_en": "Lessons of the past",
      "visual": "ambient",
      "care": "Musa: no motif; Pharaoh's crimes (6) never drawn.",
      "est_s": 98
@@ -117,8 +117,8 @@
     {
      "from": 25,
      "to": 30,
-     "title_ar": "الثبات في الدارين",
-     "title_en": "Firmness in both worlds",
+     "title_ar": "ثبات القلوب",
+     "title_en": "Steadfast hearts",
      "visual": "ambient",
      "care": "The questioning in the grave and the Fire never drawn.",
      "est_s": 89
@@ -152,8 +152,8 @@
     {
      "from": 38,
      "to": 41,
-     "title_ar": "علم الله بالسرائر",
-     "title_en": "Allah knows what is hidden",
+     "title_ar": "العلم المحيط",
+     "title_en": "The all-encompassing knowledge",
      "visual": "ambient",
      "care": "",
      "est_s": 61
@@ -161,8 +161,8 @@
    ]
   },
   {
-   "title_ar": "يوم الحساب",
-   "title_en": "The Day of Reckoning",
+   "title_ar": "أهوال القيامة",
+   "title_en": "The terrors of the Resurrection",
    "from": 42,
    "to": 52,
    "videos": [

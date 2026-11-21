@@ -88,7 +88,7 @@
   },
   {
    "id": "c2",
-   "title": "إرسال موسى",
+   "title": "مهمة موسى",
    "verses": [
     5
    ],
@@ -246,7 +246,7 @@
       "size": "m"
      }
     ],
-    "transition": "dissolve"
+    "transition": "slide"
    }
   }
  ],
@@ -257,8 +257,8 @@
     1,
     9
    ],
-   "tafsir": 91,
-   "excerpt": "ما يحتاجون إليه، ويتمكنون من تعلم ما أتى به",
+   "tafsir": 16,
+   "excerpt": "ليوضِّح لهم شريعة الله",
    "target": "",
    "tone": "green"
   },
@@ -266,12 +266,23 @@
    "verse": 4,
    "words": [
     10,
-    16
+    13
    ],
    "tafsir": 91,
    "excerpt": "ممن لم ينقد للهدى",
    "target": "",
    "tone": "blue"
+  },
+  {
+   "verse": 4,
+   "words": [
+    14,
+    16
+   ],
+   "tafsir": 91,
+   "excerpt": "ممن اختصه برحمته",
+   "target": "",
+   "tone": "green"
   },
   {
    "verse": 4,
@@ -356,10 +367,10 @@
   "notes": "Musa: no plate; the plates start after his name. Geometric for «فيضل الله من يشاء… وهو العزيز الحكيم», light for «من الظلمات إلى النور وذكرهم بأيام الله» and «اذكروا نعمة الله عليكم». Pharaoh's crimes (6:9-20) are never drawn or glossed."
  },
  "cover": {
-  "series_ar": "موسى وقومه",
-  "series_en": "Musa and his people",
-  "title_ar": "التذكير بالنعم",
-  "title_en": "A reminder of blessings",
+  "series_ar": "موعظة موسى",
+  "series_en": "Musa's admonition",
+  "title_ar": "دروس الماضي",
+  "title_en": "Lessons of the past",
   "at": [
    6,
    5

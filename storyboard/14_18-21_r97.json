@@ -84,7 +84,7 @@
   },
   {
    "id": "c2",
-   "title": "قدرة التبديل",
+   "title": "كمال القدرة",
    "verses": [
     19,
     20
@@ -141,12 +141,12 @@
       "size": "m"
      }
     ],
-    "transition": "dissolve"
+    "transition": "morph"
    }
   },
   {
    "id": "c3",
-   "title": "تبرؤ المتبوعين",
+   "title": "جدال الأتباع والقادة",
    "verses": [
     21
    ],
@@ -247,7 +247,7 @@
      }
     ],
     "motifs": [],
-    "transition": "dissolve"
+    "transition": "page_turn"
    }
   }
  ],
@@ -314,7 +314,7 @@
     5
    ],
    "tafsir": 91,
-   "excerpt": "بممتنع بل هو سهل عليه جدا",
+   "excerpt": "بل هو سهل عليه جدا",
    "target": "",
    "tone": "blue"
   },

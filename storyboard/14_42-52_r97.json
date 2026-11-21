@@ -333,7 +333,7 @@
       "size": "m"
      }
     ],
-    "transition": "dissolve"
+    "transition": "slide"
    }
   },
   {
@@ -424,7 +424,7 @@
       "size": "m"
      }
     ],
-    "transition": "dissolve"
+    "transition": "morph"
    }
   },
   {
@@ -515,7 +515,7 @@
       "size": "m"
      }
     ],
-    "transition": "dissolve"
+    "transition": "page_turn"
    }
   }
  ],
@@ -571,7 +571,7 @@
     9
    ],
    "tafsir": 16,
-   "excerpt": "وقلوبهم خالية ليس فيها شيء",
+   "excerpt": "وقلوبهم خالية",
    "target": "",
    "tone": "red"
   },
@@ -757,8 +757,8 @@
     6,
     10
    ],
-   "tafsir": 16,
-   "excerpt": "هو الإله الواحد، فيعبدوه وحده",
+   "tafsir": 91,
+   "excerpt": "من الأدلة والبراهين على ألوهيته ووحدانيته",
    "target": "",
    "tone": "green"
   },
@@ -779,13 +779,13 @@
   "notes": "42 is merged in because 43 «مهطعين» continues its sentence; 43-52 is one unit in the recitation. The Day, the staring eyes, the changed earth, the chains, the tar and the fire are never drawn: night and geometry only, with an hourglass for «إنما يؤخرهم ليوم» and geometric on His names. No plate on «وأنذر» or «فلا تحسبن» (the Prophet ﷺ addressed). Not glossed where the tafsirs differ: 46:1-3 (who plotted), 46:7-12 («وإن كان مكرهم لتزول منه الجبال»), 48:1-6 (the change of the earth), 51:7-10. The disbelievers' plea (44:9-17) is not restated. A book for «هذا بلاغ للناس»."
  },
  "cover": {
-  "series_ar": "يوم الحساب",
-  "series_en": "The Day of Reckoning",
+  "series_ar": "أهوال القيامة",
+  "series_en": "The terrors of the Resurrection",
   "title_ar": "مشاهد الجزاء",
   "title_en": "Scenes of recompense",
   "at": [
-   52,
-   1
+   42,
+   8
   ]
  },
  "motion": 3

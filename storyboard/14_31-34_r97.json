@@ -188,7 +188,7 @@
       ],
       "until": [
        32,
-       23
+       22
       ],
       "motif": "ship",
       "place": "top",
@@ -311,7 +311,7 @@
       "size": "m"
      }
     ],
-    "transition": "dissolve"
+    "transition": "slide"
    }
   }
  ],
@@ -430,7 +430,7 @@
    "verse": 33,
    "words": [
     6,
-    9
+    8
    ],
    "tafsir": 16,
    "excerpt": "لتسكنوا فيه وتستريحوا",

@@ -28,7 +28,7 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "الشجرتان",
+   "title": "بين شجرتين",
    "verses": [
     25,
     26
@@ -163,7 +163,7 @@
       "size": "m"
      }
     ],
-    "transition": "dissolve"
+    "transition": "morph"
    }
   },
   {
@@ -229,7 +229,7 @@
      }
     ],
     "motifs": [],
-    "transition": "dissolve"
+    "transition": "page_turn"
    }
   }
  ],
@@ -240,8 +240,8 @@
     1,
     6
    ],
-   "tafsir": 16,
-   "excerpt": "وكذلك شجرة الإيمان أصلها ثابت في قلب المؤمن علمًا واعتقادًا",
+   "tafsir": 91,
+   "excerpt": "الأعمال والأقوال التي تخرجها شجرة الإيمان",
    "target": "",
    "tone": "green"
   },
@@ -407,8 +407,8 @@
  "cover": {
   "series_ar": "أمثال وعبر",
   "series_en": "Parables and lessons",
-  "title_ar": "الثبات في الدارين",
-  "title_en": "Firmness in both worlds",
+  "title_ar": "ثبات القلوب",
+  "title_en": "Steadfast hearts",
   "at": [
    27,
    5

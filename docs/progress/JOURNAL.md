@@ -1180,3 +1180,32 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
   - 14 chapter transitions are now slide, page_turn or morph.
   - 13_1-3 and 13_4 motion fixes.
 - The 16 Ar-Ra'd videos are queued for building (13:37 stays held, DECISIONS_NEEDED §7).
+
+### Ibrahim review applied; Ibrahim queued; Al-Hijr 1-67 written (2026-11-21)
+
+- **Ibrahim** independent review: 1 SERIOUS and 29 MINOR, all applied. All 13 storyboards re-verified PASSED, with no
+  plate over the Name.
+- **SERIOUS:** the 42-52 cover showed the book plate of «هذا بلاغ» under the Day series, so it could read as the
+  record of deeds handed out at the Judgement. The cover is now the hourglass at 42:8.
+- **Boxes that misread when seen alone:**
+  - 22:28-33 (it made Satan sound like "your rescuer").
+  - 4:10-16, now split into 10-13 and 14-16.
+  - 17:5-12 now keeps «ولكن الله قضى أن لا يموتوا».
+  - 20:1-5, 7:4-6 (keeps its condition), 4:1-9 and 33:6-9.
+- **Where the tafsirs differ:**
+  - 14:6-10 «مقامي».
+  - 43:8-9: As-Sa'di says the hearts are «مملوءة من كل هم».
+  - 37:1-5: «لأن إسحاق في الشام» is dropped.
+- **Removed:** Quran echoes in 16:1-3, 52:6-10 and 25:1-6.
+- **Boxes:** three that were too fast to read are fixed.
+- **Titles:**
+  - Nine titles, covers and series reworded: «موعظة موسى», «دروس الماضي», «ثبات القلوب», «العلم المحيط», «شكر إبراهيم»
+    and «أهوال القيامة» (not «يوم الحساب»).
+  - Al-Hijr 22-24 is now «الرياح والإحياء», because «علم الله» is a Quran pair.
+- **Pictures:**
+  - The ship plate now leaves before «بأمره».
+  - 16 of the 21 transitions now vary.
+- **For the human reviewer:** 14:11 word 9 «ولكن» has an 8.9 s timing segment with continuous voice, which is likely
+  an unmarked repeat. Listen at 6-15 s of 14_11-12.
+- The 13 Ibrahim videos are queued for building.
+- **Al-Hijr:** 1-67 written (8 storyboards, all PASSED). 68-99 are next.
