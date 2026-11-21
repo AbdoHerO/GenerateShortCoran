@@ -28,41 +28,332 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة المائدة",
+   "title": "انكشاف المنافقين",
    "verses": [
     53
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       53,
+       4
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       53,
+       5
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       53,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       53,
+       13
+      ],
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": []
    }
   },
   {
    "id": "c2",
-   "title": "سورة المائدة",
+   "title": "قوم يحبهم ربهم",
    "verses": [
-    54
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "geometric"
-   }
-  },
-  {
-   "id": "c3",
-   "title": "سورة المائدة",
-   "verses": [
+    54,
     55
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light"
+    "mood": "dawn",
+    "beats": [
+     {
+      "at": [
+       54,
+       5
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       54,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       54,
+       13
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       54,
+       17
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       54,
+       22
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       54,
+       25
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       54,
+       28
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       54,
+       30
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       54,
+       32
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       54,
+       36
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       54,
+       37
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       55,
+       1
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       55,
+       8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       55,
+       11
+      ],
+      "do": "pan_left"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       54,
+       14
+      ],
+      "until": [
+       54,
+       15
+      ],
+      "motif": "light",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       55,
+       3
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "dissolve"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 53,
+   "words": [
+    1,
+    3
+   ],
+   "tafsir": 91,
+   "excerpt": "متعجبين من حال هؤلاء الذين في قلوبهم مرض",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 53,
+   "words": [
+    4,
+    11
+   ],
+   "tafsir": 91,
+   "excerpt": "حلفوا وأكدوا حلفهم، وغلظوه بأنواع التأكيدات",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 53,
+   "words": [
+    12,
+    15
+   ],
+   "tafsir": 16,
+   "excerpt": "لأنهم عملوها على غير إيمان، فخسروا الدنيا والآخرة",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 54,
+   "words": [
+    4,
+    8
+   ],
+   "tafsir": 16,
+   "excerpt": "ويستبدل به اليهودية أو النصرانية أو غير ذلك",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 54,
+   "words": [
+    9,
+    12
+   ],
+   "tafsir": 16,
+   "excerpt": "بقوم خير منهم",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 54,
+   "words": [
+    13,
+    14
+   ],
+   "tafsir": 91,
+   "excerpt": "فإن محبة الله للعبد هي أجل نعمة أنعم بها",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 54,
+   "words": [
+    15,
+    17
+   ],
+   "tafsir": 16,
+   "excerpt": "رحماء بالمؤمنين",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 54,
+   "words": [
+    21,
+    24
+   ],
+   "tafsir": 16,
+   "excerpt": "يجاهدون أعداء الله",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 54,
+   "words": [
+    35,
+    37
+   ],
+   "tafsir": 16,
+   "excerpt": "واسع الفضل، عليم بمن يستحقه من عباده",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 55,
+   "words": [
+    1,
+    4
+   ],
+   "tafsir": 91,
+   "excerpt": "فولاية الله تدرك بالإيمان والتقوى",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 55,
+   "words": [
+    7,
+    11
+   ],
+   "tafsir": 16,
+   "excerpt": "يحافظون على الصلاة المفروضة، ويؤدون الزكاة عن رضا نفس",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 55,
+   "words": [
+    12,
+    13
+   ],
+   "tafsir": 16,
+   "excerpt": "وهم خاضعون لله",
+   "target": "",
+   "tone": "green"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "53 (the hypocrites exposed) under a night sky with no motif. Light for «ويحبونه», geometric for «إنما وليكم الله». No people, no fighting drawn."
+ },
+ "cover": {
+  "series_ar": "الولاء والبراء",
+  "series_en": "Loyalty and disavowal",
+  "title_ar": "أهل المحبة",
+  "title_en": "Those Allah loves",
+  "at": [
+   54,
+   13
+  ]
+ },
+ "motion": 3
 }
