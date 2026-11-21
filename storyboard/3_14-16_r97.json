@@ -127,9 +127,9 @@
      {
       "at": [
        15,
-       9
+       8
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -169,9 +169,9 @@
      {
       "at": [
        15,
-       21
+       20
       ],
-      "do": "shot_wide"
+      "do": "shot_sky"
      },
      {
       "at": [

@@ -46,9 +46,9 @@
      {
       "at": [
        84,
-       10
+       9
       ],
-      "do": "push_in"
+      "do": "shot_sky"
      },
      {
       "at": [
@@ -60,9 +60,16 @@
      {
       "at": [
        84,
-       13
+       12
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       84,
+       14
+      ],
+      "do": "push_in"
      },
      {
       "at": [
@@ -159,9 +166,9 @@
      {
       "at": [
        86,
-       14
+       15
       ],
-      "do": "shot_sky"
+      "do": "push_in"
      }
     ],
     "motifs": [

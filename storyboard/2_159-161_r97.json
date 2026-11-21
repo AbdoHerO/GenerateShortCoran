@@ -75,9 +75,9 @@
      {
       "at": [
        159,
-       18
+       17
       ],
-      "do": "shot_sky"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -159,9 +159,16 @@
      {
       "at": [
        161,
+       9
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       161,
        11
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [

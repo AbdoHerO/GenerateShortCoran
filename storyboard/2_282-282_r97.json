@@ -67,7 +67,14 @@
      {
       "at": [
        282,
-       30
+       27
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       282,
+       31
       ],
       "do": "push_in"
      },
@@ -83,112 +90,119 @@
        282,
        45
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        282,
        55
       ],
-      "do": "shot_wide"
+      "do": "push_in"
      },
      {
       "at": [
        282,
        58
       ],
-      "do": "shot_ground"
+      "do": "shot_wide"
      },
      {
       "at": [
        282,
        62
       ],
-      "do": "push_in"
+      "do": "pan_left"
      },
      {
       "at": [
        282,
        64
       ],
-      "do": "pan_left"
+      "do": "shot_ground"
      },
      {
       "at": [
        282,
        68
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        282,
        71
       ],
-      "do": "pan_right"
+      "do": "shot_sky"
      },
      {
       "at": [
        282,
        77
       ],
-      "do": "shot_sky"
+      "do": "push_in"
      },
      {
       "at": [
        282,
        86
       ],
-      "do": "push_in"
+      "do": "pan_right"
      },
      {
       "at": [
        282,
        92
       ],
-      "do": "pan_left"
+      "do": "shot_ground"
      },
      {
       "at": [
        282,
        95
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        282,
-       102
-      ],
-      "do": "shot_ground"
-     },
-     {
-      "at": [
-       282,
-       113
-      ],
-      "do": "push_in"
-     },
-     {
-      "at": [
-       282,
-       115
+       103
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        282,
-       119
+       113
       ],
       "do": "pan_left"
      },
      {
       "at": [
        282,
-       125
+       115
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       282,
+       119
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       282,
+       123
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       282,
+       126
+      ],
+      "do": "shot_sky"
      }
     ],
     "motifs": [

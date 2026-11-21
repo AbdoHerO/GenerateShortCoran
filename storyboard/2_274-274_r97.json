@@ -46,9 +46,9 @@
      {
       "at": [
        274,
-       11
+       12
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [

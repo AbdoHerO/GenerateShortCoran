@@ -40,9 +40,9 @@
      {
       "at": [
        97,
-       5
+       4
       ],
-      "do": "shot_wide"
+      "do": "shot_ground"
      },
      {
       "at": [
@@ -82,9 +82,9 @@
      {
       "at": [
        98,
-       4
+       3
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -99,13 +99,6 @@
        8
       ],
       "do": "shot_wide"
-     },
-     {
-      "at": [
-       98,
-       10
-      ],
-      "do": "shot_ground"
      },
      {
       "at": [
@@ -203,7 +196,7 @@
      {
       "at": [
        101,
-       3
+       4
       ],
       "do": "pan_left"
      },
@@ -231,9 +224,9 @@
      {
       "at": [
        101,
-       17
+       18
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [

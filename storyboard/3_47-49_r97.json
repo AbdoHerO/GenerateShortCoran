@@ -173,9 +173,16 @@
      {
       "at": [
        49,
-       30
+       29
       ],
-      "do": "shot_ground"
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       49,
+       32
+      ],
+      "do": "shot_sky"
      },
      {
       "at": [

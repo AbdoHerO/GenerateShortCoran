@@ -53,16 +53,23 @@
      {
       "at": [
        37,
-       9
+       10
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        37,
-       13
+       12
       ],
-      "do": "pan_right"
+      "do": "push_in"
+     },
+     {
+      "at": [
+       37,
+       15
+      ],
+      "do": "pan_left"
      },
      {
       "at": [

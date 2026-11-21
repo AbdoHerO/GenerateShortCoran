@@ -53,9 +53,9 @@
      {
       "at": [
        283,
-       19
+       18
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -151,9 +151,9 @@
      {
       "at": [
        284,
-       17
+       16
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [

@@ -40,16 +40,16 @@
      {
       "at": [
        62,
-       8
+       7
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        62,
-       12
+       11
       ],
-      "do": "pan_right"
+      "do": "shot_sky"
      },
      {
       "at": [

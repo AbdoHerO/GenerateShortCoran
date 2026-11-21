@@ -53,16 +53,16 @@
      {
       "at": [
        246,
-       13
+       12
       ],
-      "do": "pan_left"
+      "do": "push_in"
      },
      {
       "at": [
        246,
-       21
+       20
       ],
-      "do": "push_in"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -168,9 +168,9 @@
      {
       "at": [
        247,
-       5
+       6
       ],
-      "do": "shot_wide"
+      "do": "shot_ground"
      },
      {
       "at": [
@@ -231,7 +231,7 @@
      {
       "at": [
        247,
-       41
+       42
       ],
       "do": "shot_wide"
      }

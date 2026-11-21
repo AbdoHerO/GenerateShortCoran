@@ -54,16 +54,16 @@
      {
       "at": [
        268,
-       6
+       7
       ],
       "do": "pan_left"
      },
      {
       "at": [
        268,
-       11
+       12
       ],
-      "do": "pan_right"
+      "do": "shot_ground"
      },
      {
       "at": [

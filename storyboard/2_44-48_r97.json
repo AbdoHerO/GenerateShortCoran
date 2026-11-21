@@ -121,9 +121,9 @@
      {
       "at": [
        46,
-       5
+       6
       ],
-      "do": "pan_right"
+      "do": "shot_sky"
      }
     ],
     "motifs": [

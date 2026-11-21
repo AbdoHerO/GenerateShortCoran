@@ -117,9 +117,9 @@
      {
       "at": [
        278,
-       5
+       4
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -159,16 +159,16 @@
      {
       "at": [
        279,
-       7
+       6
       ],
-      "do": "shot_ground"
+      "do": "shot_wide"
      },
      {
       "at": [
        279,
-       8
+       9
       ],
-      "do": "pan_left"
+      "do": "shot_ground"
      },
      {
       "at": [

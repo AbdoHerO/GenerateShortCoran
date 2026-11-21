@@ -40,13 +40,6 @@
      {
       "at": [
        33,
-       4
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       33,
        6
       ],
       "do": "push_in"
@@ -108,9 +101,9 @@
      {
       "at": [
        35,
-       5
+       4
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -143,9 +136,16 @@
      {
       "at": [
        36,
-       8
+       7
       ],
-      "do": "pan_right"
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       36,
+       9
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
@@ -157,9 +157,9 @@
      {
       "at": [
        36,
-       17
+       16
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [

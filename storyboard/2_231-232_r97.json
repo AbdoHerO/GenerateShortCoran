@@ -88,9 +88,9 @@
      {
       "at": [
        231,
-       24
+       25
       ],
-      "do": "shot_ground"
+      "do": "push_in"
      },
      {
       "at": [
@@ -137,9 +137,9 @@
      {
       "at": [
        231,
-       42
+       41
       ],
-      "do": "shot_sky"
+      "do": "pan_right"
      },
      {
       "at": [

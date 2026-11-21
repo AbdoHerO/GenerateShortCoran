@@ -70,7 +70,8 @@ def main(pid, gap=4.5):
                 if b - a <= gap:
                     continue
                 # words that can take a beat: >= 0.9 s from both neighbours
-                ok = [w for w in words if a + 0.9 <= w[0] <= b - 0.9 and not w[4]]
+                inside = [w for w in words if a + 0.9 <= w[0] <= b - 0.9]
+                ok = [w for w in inside if not w[4]] or inside   # a sacred word only when nothing else is there
                 if not ok:
                     continue
                 mid = (a + b) / 2
@@ -80,6 +81,8 @@ def main(pid, gap=4.5):
             if not cand:
                 break
             beat = {"at": [cand[1], cand[2]], "do": rot[k % len(rot)]}
+            if cand[4]:   # on a sacred word: only a sideways pan, never a zoom or a tilt into the light
+                beat["do"] = "pan_left" if k % 2 else "pan_right"
             k += 1
             prm.setdefault("beats", []).append(beat)
             added += 1

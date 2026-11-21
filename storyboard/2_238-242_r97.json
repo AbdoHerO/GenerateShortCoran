@@ -75,9 +75,9 @@
      {
       "at": [
        239,
-       9
+       10
       ],
-      "do": "shot_sky"
+      "do": "pan_right"
      },
      {
       "at": [
