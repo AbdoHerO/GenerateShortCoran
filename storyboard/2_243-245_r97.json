@@ -171,7 +171,7 @@
      {
       "at": [
        245,
-       8
+       10
       ],
       "until": null,
       "motif": "wheat",
@@ -313,8 +313,8 @@
  "cover": {
   "series_ar": "طالوت وجالوت",
   "series_en": "Talut and Jalut",
-  "title_ar": "الفرار من القدر والإنفاق",
-  "title_en": "Fleeing fate, and giving",
+  "title_ar": "القدر والعطاء المضاعف",
+  "title_en": "Fate, and giving multiplied",
   "at": [
    243,
    17

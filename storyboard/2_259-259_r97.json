@@ -146,10 +146,10 @@
      {
       "at": [
        259,
-       5
+       7
       ],
       "until": null,
-      "motif": "bricks",
+      "motif": "leaf",
       "place": "top",
       "size": "m"
      },
@@ -196,7 +196,7 @@
    ],
    "tafsir": 91,
    "excerpt": "قد باد أهلها وفني سكانها وسقطت حيطانها",
-   "target": "motif",
+   "target": "",
    "tone": "amber"
   },
   {

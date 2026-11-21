@@ -969,8 +969,8 @@
     {
      "from": 243,
      "to": 245,
-     "title_ar": "الفرار من القدر والإنفاق",
-     "title_en": "Fleeing fate, and giving",
+     "title_ar": "القدر والعطاء المضاعف",
+     "title_en": "Fate, and giving multiplied",
      "visual": "ambient",
      "care": "",
      "est_s": 60
@@ -987,8 +987,8 @@
     {
      "from": 248,
      "to": 249,
-     "title_ar": "التابوت والنهر",
-     "title_en": "The Ark and the river",
+     "title_ar": "تابوت السكينة والنهر",
+     "title_en": "The Ark of tranquillity and the river",
      "visual": "ambient",
      "care": "The Ark carried by angels (248): angels never drawn.",
      "est_s": 114
@@ -1033,8 +1033,8 @@
     {
      "from": 257,
      "to": 257,
-     "title_ar": "بين الولايتين",
-     "title_en": "Two kinds of allegiance",
+     "title_ar": "نور الإيمان وظلمة الكفر",
+     "title_en": "The light of faith, the dark of disbelief",
      "visual": "ambient",
      "care": "",
      "est_s": 44
@@ -1079,16 +1079,16 @@
    ]
   },
   {
-   "title_ar": "الإنفاق",
-   "title_en": "Spending",
+   "title_ar": "فضل الإنفاق وآدابه",
+   "title_en": "Giving: its merit and manners",
    "from": 261,
    "to": 274,
    "videos": [
     {
      "from": 261,
      "to": 263,
-     "title_ar": "مضاعفة النفقة",
-     "title_en": "Spending multiplied",
+     "title_ar": "مضاعفة أجر المنفقين",
+     "title_en": "The givers' reward multiplied",
      "visual": "ambient",
      "care": "",
      "est_s": 77
@@ -1096,8 +1096,8 @@
     {
      "from": 264,
      "to": 265,
-     "title_ar": "إبطال الصدقات",
-     "title_en": "What cancels charity",
+     "title_ar": "مبطلات الصدقة",
+     "title_en": "What voids charity",
      "visual": "ambient",
      "care": "",
      "est_s": 83
@@ -1106,7 +1106,7 @@
      "from": 266,
      "to": 267,
      "title_ar": "البستان المحترق",
-     "title_en": "The burnt garden; give the good",
+     "title_en": "The burnt garden",
      "visual": "ambient",
      "care": "",
      "est_s": 91
@@ -1115,7 +1115,7 @@
      "from": 268,
      "to": 271,
      "title_ar": "الحكمة والصدقة",
-     "title_en": "Wisdom, and charity in secret",
+     "title_en": "Wisdom and charity",
      "visual": "ambient",
      "care": "",
      "est_s": 87
@@ -1159,7 +1159,7 @@
      "from": 277,
      "to": 279,
      "title_ar": "ترك الربا",
-     "title_en": "Give up usury",
+     "title_en": "Giving up usury",
      "visual": "ambient",
      "care": "",
      "est_s": 83
@@ -1167,8 +1167,8 @@
     {
      "from": 280,
      "to": 281,
-     "title_ar": "إنظار المعسر",
-     "title_en": "Grant the debtor time",
+     "title_ar": "إمهال المعسر",
+     "title_en": "Respite for the struggling debtor",
      "visual": "ambient",
      "care": "JOINED after 280 (inside).",
      "est_s": 63
@@ -1184,8 +1184,8 @@
     {
      "from": 282,
      "to": 282,
-     "title_ar": "آية الدين",
-     "title_en": "The verse of debt",
+     "title_ar": "توثيق الديون",
+     "title_en": "Recording debts",
      "visual": "ambient",
      "care": "One verse of 140 s: the only video above 120 s (a verse is never cut).",
      "est_s": 149

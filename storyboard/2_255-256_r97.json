@@ -125,21 +125,21 @@
        255,
        40
       ],
-      "do": "shot_sky"
+      "do": "pan_left"
      },
      {
       "at": [
        255,
        41
       ],
-      "do": "push_in"
+      "do": "pan_right"
      },
      {
       "at": [
        255,
        44
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -346,8 +346,8 @@
     1,
     4
    ],
-   "tafsir": 16,
-   "excerpt": "لكمال هذا الدين واتضاح آياته",
+   "tafsir": 91,
+   "excerpt": "لعدم الحاجة إلى الإكراه عليه",
    "target": "",
    "tone": "green"
   },

@@ -28,7 +28,7 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "النفقة لوجه الله",
+   "title": "إخلاص النفقة",
    "verses": [
     272
    ],
@@ -225,7 +225,7 @@
   {
    "verse": 272,
    "words": [
-    12,
+    9,
     13
    ],
    "tafsir": 16,
@@ -261,8 +261,8 @@
     1,
     1
    ],
-   "tafsir": 16,
-   "excerpt": "اجعلوا صدقاتكم لفقراء المسلمين",
+   "tafsir": 91,
+   "excerpt": "مصرف النفقات الذين هم أولى الناس بها",
    "target": "",
    "tone": "blue"
   },
@@ -349,8 +349,8 @@
   "notes": "Nothing on «وجه الله» (272:18) and nothing on the negated travel (273:7-11). No faces for «بسيماهم»: a candle for their patient restraint."
  },
  "cover": {
-  "series_ar": "الإنفاق",
-  "series_en": "Spending",
+  "series_ar": "فضل الإنفاق وآدابه",
+  "series_en": "Giving: its merit and manners",
   "title_ar": "الفقراء المتعففون",
   "title_en": "The poor who do not ask",
   "at": [

@@ -274,3 +274,37 @@ or by eye. The per-surah summary goes into each `plans/<n>.json` "notes"; this f
   - In fiqh verses, quote the point both tafsirs share, or As-Sa'di's attributed «عند جمهور العلماء», never one
     school's ruling as the verse's meaning.
   - A title must not state a ruling the verse does not state.
+
+### Al-Baqarah 2:243–286 reviews (two independent sub-agents): 7 SERIOUS and 31 MINOR, all applied
+- **Serious:**
+  - Chips without their condition or negation:
+    - 249:13–14 «فمن شرب منه»;
+    - 270:13–15 «وما»;
+    - 271:10–12 «وإن تخفوها … الفقراء»;
+    - 282:118–120 «وإن تفعلوا»: the box could attach «فسوق» to *not* writing.
+  - One side taken:
+    - 256:1–4: Al-Muyassar was cut before his own jizya limit. Now As-Sa'di's shared «لعدم الحاجة إلى الإكراه عليه».
+    - 276:10–11 «كفار»: Al-Muyassar's «مستحل أكل الربا» against As-Sa'di's «لنعم الله».
+    - 283:10–13: whether writing and witnessing may be dropped. Now As-Sa'di's point about the pledge.
+- **Minor:**
+  - Titles:
+    - «التابوت» reads as "coffin" today → «تابوت السكينة»;
+    - «آية الدين» reads «الدِّين» → «توثيق الديون»;
+    - «إنظار» reads «أنظار» → «إمهال المعسر»;
+    - «مضاعفة النفقة» reads "doubled expenses";
+    - «الملك/المَلَك» → «إحاطة علم الله»;
+    - «المحق» reads «المُحِق»;
+    - «إنفاق الطيب» reads «الطِّيب» (perfume);
+    - «بين الولايتين» reads as provinces;
+    - «الفرار من القدر والإنفاق» reads "fleeing from spending";
+    - «النفقة لوجه الله» repeated 76:9;
+    - the one-word series «الإنفاق» → «فضل الإنفاق وآدابه».
+  - Camera: no tilt-and-zoom into the glowing centre at «وسع كرسيه».
+  - Motifs:
+    - bricks → leaf for the fallen town;
+    - the lamp leaves before «أصحاب النار»;
+    - no pen on the negated «ألا تكتبوها»;
+    - several arrow drifts fixed.
+- **Lessons:**
+  - Read every title as a modern reader would: «التابوت», «الدين», «إنظار», «النفقة», «الطيب», «الولاية».
+  - A conditional sentence's «إن/فإن/وإن» belongs in the chip.

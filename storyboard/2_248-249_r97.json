@@ -28,7 +28,7 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "عودة التابوت",
+   "title": "تابوت السكينة",
    "verses": [
     248
    ],
@@ -105,6 +105,19 @@
       "at": [
        248,
        5
+      ],
+      "until": [
+       248,
+       12
+      ],
+      "motif": "burst",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       248,
+       26
       ],
       "until": null,
       "motif": "burst",
@@ -360,7 +373,7 @@
   {
    "verse": 249,
    "words": [
-    13,
+    10,
     14
    ],
    "tafsir": 91,
@@ -464,8 +477,8 @@
  "cover": {
   "series_ar": "طالوت وجالوت",
   "series_en": "Talut and Jalut",
-  "title_ar": "التابوت والنهر",
-  "title_en": "The Ark and the river",
+  "title_ar": "تابوت السكينة والنهر",
+  "title_en": "The Ark of tranquillity and the river",
   "at": [
    249,
    9

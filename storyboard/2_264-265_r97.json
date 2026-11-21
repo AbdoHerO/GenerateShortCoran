@@ -273,7 +273,7 @@
     38
    ],
    "tafsir": 16,
-   "excerpt": "لا يوفق الكافرين لإصابة الحق في نفقاتهم",
+   "excerpt": "لا يوفق الكافرين لإصابة الحق في نفقاتهم وغيرها",
    "target": "",
    "tone": "red"
   },
@@ -285,17 +285,6 @@
    ],
    "tafsir": 16,
    "excerpt": "طلبًا لرضا الله",
-   "target": "",
-   "tone": "green"
-  },
-  {
-   "verse": 265,
-   "words": [
-    8,
-    10
-   ],
-   "tafsir": 16,
-   "excerpt": "واعتقادًا راسخًا بصدق وعده",
    "target": "",
    "tone": "green"
   },
@@ -349,10 +338,10 @@
   "notes": "Two parables: rain washing the soil off a bare rock (coins, cloud_rain) and a garden on a hill (palm, cloud_rain). No crowd for the onlookers."
  },
  "cover": {
-  "series_ar": "الإنفاق",
-  "series_en": "Spending",
-  "title_ar": "إبطال الصدقات",
-  "title_en": "What cancels charity",
+  "series_ar": "فضل الإنفاق وآدابه",
+  "series_en": "Giving: its merit and manners",
+  "title_ar": "مبطلات الصدقة",
+  "title_en": "What voids charity",
   "at": [
    265,
    12

@@ -28,7 +28,7 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "آية الدين",
+   "title": "توثيق الديون",
    "verses": [
     282
    ],
@@ -285,10 +285,10 @@
      {
       "at": [
        282,
-       107
+       108
       ],
       "until": null,
-      "motif": "pen",
+      "motif": "seal",
       "place": "top",
       "size": "m"
      },
@@ -507,11 +507,11 @@
   {
    "verse": 282,
    "words": [
-    118,
+    116,
     120
    ],
    "tafsir": 16,
-   "excerpt": "خروج عن طاعة الله، وعاقبة ذلك حالَّة بكم",
+   "excerpt": "ما نهيتم عنه فإنه خروج عن طاعة الله، وعاقبة ذلك حالَّة بكم",
    "target": "",
    "tone": "red"
   },
@@ -545,8 +545,8 @@
  "cover": {
   "series_ar": "خواتيم البقرة",
   "series_en": "The close of Al-Baqarah",
-  "title_ar": "آية الدين",
-  "title_en": "The verse of debt",
+  "title_ar": "توثيق الديون",
+  "title_en": "Recording debts",
   "at": [
    282,
    10
