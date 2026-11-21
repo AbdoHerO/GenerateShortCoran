@@ -332,8 +332,8 @@
     {
      "from": 96,
      "to": 99,
-     "title_ar": "فرعون وقومه",
-     "title_en": "Pharaoh and his people",
+     "title_ar": "زعامة الضلال",
+     "title_en": "Leaders into error",
      "visual": "ambient",
      "care": "Musa and Pharaoh never drawn.",
      "est_s": 48
@@ -341,8 +341,8 @@
     {
      "from": 100,
      "to": 104,
-     "title_ar": "أنباء القرى",
-     "title_en": "News of the towns",
+     "title_ar": "مصارع الظالمين",
+     "title_en": "Where the wrongdoers fell",
      "visual": "ambient",
      "care": "",
      "est_s": 98
@@ -350,8 +350,8 @@
     {
      "from": 105,
      "to": 108,
-     "title_ar": "الشقي والسعيد",
-     "title_en": "The wretched and the blessed",
+     "title_ar": "مصير الفريقين",
+     "title_en": "The two destinies",
      "visual": "ambient",
      "care": "Paradise and Hell never drawn.",
      "est_s": 86
@@ -359,8 +359,8 @@
     {
      "from": 109,
      "to": 109,
-     "title_ar": "لا شك في المصير",
-     "title_en": "No doubt of the end",
+     "title_ar": "بطلان التقليد",
+     "title_en": "Blind imitation fails",
      "visual": "ambient",
      "care": "",
      "est_s": 37
