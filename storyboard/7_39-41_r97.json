@@ -172,7 +172,7 @@
       "size": "m"
      }
     ],
-    "transition": "dissolve"
+    "transition": "wipe"
    }
   }
  ],

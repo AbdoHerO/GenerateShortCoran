@@ -90,73 +90,66 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn",
+    "mood": "night_sky",
     "beats": [
+     {
+      "at": [
+       136,
+       4
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        136,
        9
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        136,
        13
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        136,
        14
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        136,
        18
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        136,
        23
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        136,
        27
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        136,
        31
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      }
     ],
-    "motifs": [
-     {
-      "at": [
-       136,
-       4
-      ],
-      "until": [
-       136,
-       8
-      ],
-      "motif": "wheat",
-      "place": "top",
-      "size": "m"
-     }
-    ],
+    "motifs": [],
     "transition": "dissolve"
    }
   },

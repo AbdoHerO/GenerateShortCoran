@@ -342,7 +342,7 @@
      }
     ],
     "motifs": [],
-    "transition": "dissolve"
+    "transition": "wipe"
    }
   },
   {
@@ -490,7 +490,7 @@
       "size": "m"
      }
     ],
-    "transition": "dissolve"
+    "transition": "light_sweep"
    }
   }
  ],

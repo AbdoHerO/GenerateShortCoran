@@ -248,7 +248,7 @@
      }
     ],
     "motifs": [],
-    "transition": "dissolve"
+    "transition": "morph"
    }
   }
  ],

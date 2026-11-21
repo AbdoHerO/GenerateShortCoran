@@ -178,8 +178,11 @@
        57,
        22
       ],
-      "until": null,
-      "motif": "scales",
+      "until": [
+       58,
+       1
+      ],
+      "motif": "geometric",
       "place": "top",
       "size": "m"
      }

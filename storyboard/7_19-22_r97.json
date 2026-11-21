@@ -229,7 +229,7 @@
       "size": "m"
      }
     ],
-    "transition": "dissolve"
+    "transition": "page_turn"
    }
   }
  ],

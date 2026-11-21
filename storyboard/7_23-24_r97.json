@@ -98,7 +98,7 @@
       "size": "m"
      }
     ],
-    "transition": "dissolve"
+    "transition": "slide"
    }
   }
  ],
