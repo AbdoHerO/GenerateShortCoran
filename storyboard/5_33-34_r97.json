@@ -28,30 +28,219 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة المائدة",
+   "title": "جزاء الإفساد",
    "verses": [
     33
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       33,
+       4
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       33,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       33,
+       10
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       33,
+       12
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       33,
+       15
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       33,
+       18
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       33,
+       21
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       33,
+       22
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       33,
+       24
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       33,
+       29
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       33,
+       33
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": []
    }
   },
   {
    "id": "c2",
-   "title": "سورة المائدة",
+   "title": "توبة قبل القدرة",
    "verses": [
     34
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "dawn",
+    "beats": [
+     {
+      "at": [
+       34,
+       6
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       34,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       34,
+       10
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       34,
+       13
+      ],
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       34,
+       3
+      ],
+      "until": null,
+      "motif": "light",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       34,
+       12
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "dissolve"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 33,
+   "words": [
+    1,
+    10
+   ],
+   "tafsir": 91,
+   "excerpt": "والمشهور أن هذه الآية الكريمة في أحكام قطاع الطريق",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 33,
+   "words": [
+    30,
+    34
+   ],
+   "tafsir": 16,
+   "excerpt": "إن لم يتوبوا",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 34,
+   "words": [
+    1,
+    8
+   ],
+   "tafsir": 16,
+   "excerpt": "وجاء طائعًا نادمًا",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 34,
+   "words": [
+    9,
+    13
+   ],
+   "tafsir": 91,
+   "excerpt": "فيسقط عنه ما كان لله",
+   "target": "",
+   "tone": "green"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "Penalties: nothing drawn, no people, no weapon; 33 under a night sky with no motif. The penalties themselves (33:11-24) are not glossed: their recitation is shown as text only. 33:30-34 carries Al-Muyassar's «إن لم يتوبوا». Light for «تابوا», geometric for «غفور رحيم»."
+ },
+ "cover": {
+  "series_ar": "الحدود والوسيلة",
+  "series_en": "Penalties and the means",
+  "title_ar": "جزاء المحاربين",
+  "title_en": "Punishing highway robbery",
+  "at": [
+   34,
+   1
+  ]
+ },
+ "motion": 3
 }

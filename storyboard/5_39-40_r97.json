@@ -28,30 +28,166 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة المائدة",
+   "title": "باب التوبة",
    "verses": [
-    39
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "dawn"
-   }
-  },
-  {
-   "id": "c2",
-   "title": "سورة المائدة",
-   "verses": [
+    39,
     40
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "dawn",
+    "beats": [
+     {
+      "at": [
+       39,
+       7
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       39,
+       10
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       39,
+       11
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       40,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       40,
+       11
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       40,
+       14
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       40,
+       15
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       40,
+       16
+      ],
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       39,
+       2
+      ],
+      "until": null,
+      "motif": "light",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       40,
+       7
+      ],
+      "until": null,
+      "motif": "stars",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       40,
+       19
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 39,
+   "words": [
+    1,
+    6
+   ],
+   "tafsir": 91,
+   "excerpt": "فترك الذنوب، وأصلح الأعمال والعيوب",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 39,
+   "words": [
+    9,
+    10
+   ],
+   "tafsir": 16,
+   "excerpt": "يقبل توبته",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 40,
+   "words": [
+    1,
+    8
+   ],
+   "tafsir": 16,
+   "excerpt": "خالق الكون ومُدبِّره ومالكه",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 40,
+   "words": [
+    9,
+    14
+   ],
+   "tafsir": 91,
+   "excerpt": "بحسب ما اقتضته حكمته ورحمته الواسعة ومغفرته",
+   "target": "",
+   "tone": "green"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "Light for «تاب», stars for the heavens, geometric for «قدير». No people."
+ },
+ "cover": {
+  "series_ar": "الحدود والوسيلة",
+  "series_en": "Penalties and the means",
+  "title_ar": "توبة السارق",
+  "title_en": "The thief's repentance",
+  "at": [
+   39,
+   1
+  ]
+ },
+ "motion": 3
 }

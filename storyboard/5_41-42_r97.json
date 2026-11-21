@@ -28,30 +28,374 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة المائدة",
+   "title": "المسارعة إلى الجحود",
    "verses": [
     41
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       41,
+       4
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       41,
+       8
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       41,
+       12
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       41,
+       13
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       41,
+       14
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       41,
+       17
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       41,
+       21
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       41,
+       25
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       41,
+       31
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       41,
+       34
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       41,
+       37
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       41,
+       42
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       41,
+       47
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       41,
+       52
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       41,
+       58
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       41,
+       63
+      ],
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       41,
+       28
+      ],
+      "until": [
+       41,
+       32
+      ],
+      "motif": "scroll",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
    "id": "c2",
-   "title": "سورة المائدة",
+   "title": "التخيير في الحكم",
    "verses": [
     42
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "light",
+    "beats": [
+     {
+      "at": [
+       42,
+       3
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       42,
+       5
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       42,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       42,
+       11
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       42,
+       14
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       42,
+       17
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       42,
+       20
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       42,
+       25
+      ],
+      "do": "pan_left"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       42,
+       22
+      ],
+      "until": null,
+      "motif": "scales",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "dissolve"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 41,
+   "words": [
+    5,
+    8
+   ],
+   "tafsir": 16,
+   "excerpt": "في جحود نبوتك",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 41,
+   "words": [
+    9,
+    16
+   ],
+   "tafsir": 16,
+   "excerpt": "من المنافقين الذين أظهروا الإسلام وقلوبهم خالية منه",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 41,
+   "words": [
+    17,
+    21
+   ],
+   "tafsir": 16,
+   "excerpt": "يستمعون للكذب، ويقبلون ما يَفْتَريه أحبارُهم",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 41,
+   "words": [
+    25,
+    26
+   ],
+   "tafsir": 16,
+   "excerpt": "لا يحضرون مجلسك",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 41,
+   "words": [
+    27,
+    31
+   ],
+   "tafsir": 16,
+   "excerpt": "يُبَدِّلون كلام الله",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 41,
+   "words": [
+    41,
+    44
+   ],
+   "tafsir": 16,
+   "excerpt": "ومن يشأ الله ضلالته",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 41,
+   "words": [
+    45,
+    50
+   ],
+   "tafsir": 16,
+   "excerpt": "دَفْعَ ذلك عنه، ولا تقدر على هدايته",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 41,
+   "words": [
+    51,
+    58
+   ],
+   "tafsir": 16,
+   "excerpt": "من دنس الكفر",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 41,
+   "words": [
+    59,
+    67
+   ],
+   "tafsir": 16,
+   "excerpt": "الذلُّ والفضيحة",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 42,
+   "words": [
+    1,
+    4
+   ],
+   "tafsir": 91,
+   "excerpt": "فجمعوا بين اتباع الكذب وأكل الحرام",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 42,
+   "words": [
+    5,
+    11
+   ],
+   "tafsir": 91,
+   "excerpt": "فأنت مخير في ذلك",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 42,
+   "words": [
+    12,
+    17
+   ],
+   "tafsir": 16,
+   "excerpt": "فلن يقدروا على أن يضروك بشيء",
+   "target": "",
+   "tone": "blue"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "No motif on the Prophet ﷺ. A scroll for «الكلم» (leaving before their words), scales for «بالقسط» (justice, not the Mizan). Their instruction «إن أوتيتم هذا فخذوه…» (41:32-40) is not glossed. Al-Muyassar's first-person «فإني ناصرك» not used."
+ },
+ "cover": {
+  "series_ar": "الحكم بما أنزل الله",
+  "series_en": "Judging by revelation",
+  "title_ar": "تحريف الأحكام",
+  "title_en": "Twisting the rulings",
+  "at": [
+   41,
+   27
+  ]
+ },
+ "motion": 3
 }

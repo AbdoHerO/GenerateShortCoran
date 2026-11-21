@@ -28,52 +28,313 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة المائدة",
+   "title": "ابتغاء الوسيلة",
    "verses": [
     35
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "dawn",
+    "beats": [
+     {
+      "at": [
+       35,
+       4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       35,
+       12
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       35,
+       13
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       35,
+       8
+      ],
+      "until": null,
+      "motif": "light",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
    "id": "c2",
-   "title": "سورة المائدة",
+   "title": "لا فداء يومئذ",
    "verses": [
-    36
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "geometric"
-   }
-  },
-  {
-   "id": "c3",
-   "title": "سورة المائدة",
-   "verses": [
+    36,
     37
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       36,
+       6
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       36,
+       12
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       36,
+       15
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       36,
+       21
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       37,
+       1
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       37,
+       6
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       37,
+       8
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       37,
+       10
+      ],
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": [],
+    "transition": "dissolve"
    }
   },
   {
-   "id": "c4",
-   "title": "سورة المائدة",
+   "id": "c3",
+   "title": "حد السرقة",
    "verses": [
     38
    ],
    "scene": "ambient",
    "params": {
-    "mood": "night_sky"
+    "mood": "light",
+    "beats": [
+     {
+      "at": [
+       38,
+       4
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       38,
+       6
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       38,
+       9
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       38,
+       10
+      ],
+      "do": "pan_left"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       38,
+       12
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "dissolve"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 35,
+   "words": [
+    6,
+    8
+   ],
+   "tafsir": 16,
+   "excerpt": "وتَقَرَّبوا إليه بطاعته والعمل بما يرضيه",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 35,
+   "words": [
+    9,
+    13
+   ],
+   "tafsir": 16,
+   "excerpt": "كي تفوزوا بجناته",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 36,
+   "words": [
+    1,
+    3
+   ],
+   "tafsir": 16,
+   "excerpt": "جحدوا وحدانية الله، وشريعته",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 36,
+   "words": [
+    19,
+    21
+   ],
+   "tafsir": 91,
+   "excerpt": "لأن محل الافتداء قد فات",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 37,
+   "words": [
+    1,
+    5
+   ],
+   "tafsir": 16,
+   "excerpt": "لما يلاقونه من أهوالها",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 37,
+   "words": [
+    6,
+    9
+   ],
+   "tafsir": 16,
+   "excerpt": "ولا سبيل لهم إلى ذلك",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 37,
+   "words": [
+    11,
+    12
+   ],
+   "tafsir": 16,
+   "excerpt": "عذاب دائم",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 38,
+   "words": [
+    1,
+    2
+   ],
+   "tafsir": 91,
+   "excerpt": "هو من أخذ مال غيره المحترم خفية، بغير رضاه",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 38,
+   "words": [
+    3,
+    4
+   ],
+   "tafsir": 16,
+   "excerpt": "يا ولاة الأمر",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 38,
+   "words": [
+    5,
+    10
+   ],
+   "tafsir": 16,
+   "excerpt": "وعقوبةً يمنع الله بها غيرهما أن يصنع مثل صنيعهما",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 38,
+   "words": [
+    11,
+    13
+   ],
+   "tafsir": 16,
+   "excerpt": "عزيز في ملكه، حكيم في أمره ونهيه",
+   "target": "",
+   "tone": "green"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "Light for «الوسيلة», geometric for «عزيز حكيم». 36-37 (the Fire): night sky, no gold for «ما في الأرض جميعا», nothing literal. The theft penalty: no hand drawn, no people; 38:3-4 shows only that it is carried out by those in authority. «وجاهدوا» not illustrated."
+ },
+ "cover": {
+  "series_ar": "الحدود والوسيلة",
+  "series_en": "Penalties and the means",
+  "title_ar": "الوسيلة والسرقة",
+  "title_en": "The means and theft",
+  "at": [
+   35,
+   6
+  ]
+ },
+ "motion": 3
 }
