@@ -28,41 +28,307 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة البقرة",
+   "title": "الإيمان والزكاة",
    "verses": [
     277
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "light",
+    "beats": [
+     {
+      "at": [
+       277,
+       3
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       277,
+       7
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       277,
+       12
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       277,
+       14
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       277,
+       16
+      ],
+      "do": "shot_sky"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       277,
+       6
+      ],
+      "until": null,
+      "motif": "hands",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       277,
+       8
+      ],
+      "until": null,
+      "motif": "coins",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
    "id": "c2",
-   "title": "سورة البقرة",
+   "title": "إنذار المرابين",
    "verses": [
-    278
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "geometric"
-   }
-  },
-  {
-   "id": "c3",
-   "title": "سورة البقرة",
-   "verses": [
+    278,
     279
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       278,
+       2
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       278,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       278,
+       6
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       278,
+       12
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       278,
+       13
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       279,
+       1
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       279,
+       5
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       279,
+       7
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       279,
+       8
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       279,
+       15
+      ],
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       278,
+       10
+      ],
+      "until": null,
+      "motif": "leaf",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       279,
+       12
+      ],
+      "until": null,
+      "motif": "coins",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "wipe"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 277,
+   "words": [
+    6,
+    7
+   ],
+   "tafsir": 16,
+   "excerpt": "وأدَّوا الصلاة كما أمر الله",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 277,
+   "words": [
+    8,
+    9
+   ],
+   "tafsir": 16,
+   "excerpt": "وأخرجوا زكاة أموالهم",
+   "target": "motif",
+   "tone": "green"
+  },
+  {
+   "verse": 277,
+   "words": [
+    10,
+    11
+   ],
+   "tafsir": 16,
+   "excerpt": "ثواب عظيم خاص بهم",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 277,
+   "words": [
+    14,
+    16
+   ],
+   "tafsir": 16,
+   "excerpt": "ولا يلحقهم خوف في آخرتهم",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 277,
+   "words": [
+    17,
+    19
+   ],
+   "tafsir": 16,
+   "excerpt": "ولا حزن على ما فاتهم من حظوظ دنياهم",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 278,
+   "words": [
+    7,
+    10
+   ],
+   "tafsir": 91,
+   "excerpt": "المعاملات الحاضرة الموجودة",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 278,
+   "words": [
+    11,
+    13
+   ],
+   "tafsir": 16,
+   "excerpt": "محققين إيمانكم قولا وعملا",
+   "target": "",
+   "tone": "amber"
+  },
+  {
+   "verse": 279,
+   "words": [
+    1,
+    3
+   ],
+   "tafsir": 16,
+   "excerpt": "لم ترتدعوا عما نهاكم الله عنه",
+   "target": "",
+   "tone": "amber"
+  },
+  {
+   "verse": 279,
+   "words": [
+    9,
+    13
+   ],
+   "tafsir": 16,
+   "excerpt": "فلكم أَخْذُ ما لكم من ديون دون زيادة",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 279,
+   "words": [
+    16,
+    17
+   ],
+   "tafsir": 16,
+   "excerpt": "ولا يظلمكم أحد بنقص ما أقرضتم",
+   "target": "",
+   "tone": "blue"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "No motif and no gloss on «بحرب من الله ورسوله» (279:4-8). Nothing on the negated «لا تظلمون ولا تظلمون»."
+ },
+ "cover": {
+  "series_ar": "الربا",
+  "series_en": "Usury",
+  "title_ar": "ترك الربا",
+  "title_en": "Give up usury",
+  "at": [
+   277,
+   8
+  ]
+ },
+ "motion": 3
 }

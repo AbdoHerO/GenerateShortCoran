@@ -28,30 +28,210 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة البقرة",
+   "title": "إمهال المدين",
    "verses": [
     280
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "dawn",
+    "beats": [
+     {
+      "at": [
+       280,
+       8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       280,
+       14
+      ],
+      "do": "push_in"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       280,
+       5
+      ],
+      "until": null,
+      "motif": "hourglass",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       280,
+       10
+      ],
+      "until": null,
+      "motif": "burst",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
    "id": "c2",
-   "title": "سورة البقرة",
+   "title": "التذكير بالحساب",
    "verses": [
     281
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       281,
+       2
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       281,
+       6
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       281,
+       7
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       281,
+       10
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       281,
+       12
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       281,
+       13
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       281,
+       15
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       281,
+       3
+      ],
+      "until": null,
+      "motif": "hourglass",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "light_sweep"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 280,
+   "words": [
+    3,
+    4
+   ],
+   "tafsir": 16,
+   "excerpt": "المدين غير قادر على السداد",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 280,
+   "words": [
+    5,
+    7
+   ],
+   "tafsir": 16,
+   "excerpt": "فأمهلوه إلى أن ييسِّر الله له رزقًا",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 280,
+   "words": [
+    8,
+    11
+   ],
+   "tafsir": 16,
+   "excerpt": "وإن تتركوا رأس المال كله أو بعضه وتضعوه عن المدين",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 281,
+   "words": [
+    2,
+    6
+   ],
+   "tafsir": 16,
+   "excerpt": "وهو يوم القيامة، حيث تعرضون على الله ليحاسبكم",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 281,
+   "words": [
+    7,
+    12
+   ],
+   "tafsir": 16,
+   "excerpt": "فيجازي كل واحد منكم بما عمل من خير أو شر",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 281,
+   "words": [
+    13,
+    15
+   ],
+   "tafsir": 16,
+   "excerpt": "دون أن يناله ظلم",
+   "target": "",
+   "tone": "green"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "JOINED after 280 is inside the video. The Day of return (281) gets only an hourglass, no scales and nothing literal."
+ },
+ "cover": {
+  "series_ar": "الربا",
+  "series_en": "Usury",
+  "title_ar": "إنظار المعسر",
+  "title_en": "Grant the debtor time",
+  "at": [
+   280,
+   5
+  ]
+ },
+ "motion": 3
 }
