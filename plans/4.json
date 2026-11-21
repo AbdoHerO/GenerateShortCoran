@@ -422,7 +422,7 @@
      "from": 88,
      "to": 90,
      "title_ar": "حكم المنافقين",
-     "title_en": "The hypocrites' case",
+     "title_en": "The ruling on the hypocrites",
      "visual": "ambient",
      "care": "",
      "est_s": 96
@@ -431,7 +431,7 @@
      "from": 91,
      "to": 91,
      "title_ar": "فئة متقلبة",
-     "title_en": "A wavering party",
+     "title_en": "A wavering group",
      "visual": "ambient",
      "care": "",
      "est_s": 45
@@ -449,7 +449,7 @@
      "from": 93,
      "to": 94,
      "title_ar": "حرمة الدم",
-     "title_en": "The sanctity of life",
+     "title_en": "The sanctity of blood",
      "visual": "ambient",
      "care": "Killing: nothing drawn.",
      "est_s": 75
