@@ -620,3 +620,30 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
   - Every «هذا ربي» is glossed as argument with the opponent, as both tafsirs say.
   - 71:11-17 (a rhetorical question) is not glossed.
   - The unseen, the Horn and the Fire are not drawn.
+
+### Al-An'am: all 45 unblocked storyboards written; reviews started (2026-11-21)
+
+- 59-165 written in seven batches, all verified PASSED and cut-checked.
+- **Care points:**
+  - No first-person paraphrase of Allah.
+  - Every claim, invented rule (136-140), excuse (156-157) and the fate argument (148) is framed by the tafsir.
+  - Disputed points are left unglossed: 89 «قوما», 91:31-37, 125 «الرجس», 128 «إلا ما شاء الله», 131, 151 «إلا
+    بالحق».
+  - 145 is glossed so the list is not read as exhaustive.
+  - No prophet, angel, jinn, idol, killing, slaughter or the unseen drawn.
+- Three independent reviewers are running: glosses 1-90, glosses 91-165, and motifs (reports in `out/wip/`).
+
+### Al-A'raf: audit and plan (2026-11-21)
+
+- **Recitation:** 69.3 min.
+  - 47 JOINED boundaries and 15 with no clean cut.
+  - Three long units cannot be split: 47-53 (258 s), 96-102 (167 s), 142-147 (165 s).
+- **Text:** two encoding differences from Tanzil, both cases already in DECISIONS_NEEDED §1:
+  - 7:161 (hamza with dagger alef);
+  - 7:196 (small yā').
+  - Videos 160-162 and 196-198 are blocked.
+- **Timing:**
+  - 7:203 overlaps 7:202 by 40 ms; video 201-203 is blocked (§2).
+  - Short-word flags: 81, 169, 180, 197, 201.
+- **Plan:** `plans/7.json`, 60 videos in 12 series. 193-198 and 199-203 were split at clean pauses, so that only the
+  part with the affected verse is blocked.

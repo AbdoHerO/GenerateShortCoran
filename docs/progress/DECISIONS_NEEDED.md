@@ -61,6 +61,11 @@ decision. The agent checked: with only this one substitution, each verse is iden
     - **B.** Keep the video blocked.
     - **C.** Report the error to the Quran Foundation and wait for a fix.
 
+**Also affected: Al-A'raf (surah 7).**
+- 7:161 «خطيئاتكم»: the second case (hamza with dagger alef: QF `ءَٰ`, Tanzil `ـَٰٔ`).
+- 7:196 «وليي»: the first case (QF tatweel + small high yā' `ـِّۧ`, Tanzil `ۦِّ`).
+- Videos 7:160–162 and 7:196–198 are blocked by the same decision.
+
 ## 2. Al-Baqarah: verse boundaries that overlap by 20–80 ms in the timing data (found 2026-11-21)
 
 In the Quran Foundation word timings for Yasser ad-Dussary, the first word of some verses starts slightly before the
@@ -108,6 +113,7 @@ start with 2:253–254, which decision 2 blocks (2:253).
   - Overlaps: 6:29 by 80 ms, 6:48 by 60 ms, 6:63 by 20 ms, 6:98 by 20 ms and 6:143 by 80 ms.
   - Blocked videos: 6:27–30, 47–49, 61–62, 63–66, 96–103 and 141–144 (61–62 and 141–142 end right before an
     overlapping verse).
+- Al-A'raf (surah 7): 7:203 overlaps 7:202 by 40 ms, so video 7:201–203 is blocked.
 
 ## 3. Published drafts: glosses caught by the stricter wording check (found 2026-11-21)
 

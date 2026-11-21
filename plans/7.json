@@ -1,0 +1,656 @@
+{
+ "surah": 7,
+ "summary": "60 short videos (reciter Yasser ad-Dussary) covering all 206 verses; 3 of them wait for the owner's decisions",
+ "made_by": "Research 2026-11-21 (cloud agent): audit_surah.py 7 --reciter 97 (with the nocut check), plan_split.py with thematic sections, Saheeh translation and both tafsirs.",
+ "reciter": {
+  "id": 97,
+  "name": "Yasser ad-Dussary"
+ },
+ "notes": [
+  "Recitation: 69.3 minutes. 47 JOINED boundaries and 15 more with no clean audio cut; videos start and end only at clean pauses. Three long units cannot be split (47-53, 96-102, 142-147).",
+  "Text: two encoding differences from Tanzil (7:161 hamza after tatweel, 7:196 small yā'); their videos are BLOCKED (DECISIONS_NEEDED §1).",
+  "Timing: 7:203 overlaps 7:202 by 40 ms (video 201-203 BLOCKED, §2). Short-word flags to hear: 81, 169, 180, 197, 201.",
+  "Pictures: ambient throughout. Allah, Adam, Hawwa, every prophet (Nuh, Hud, Salih, Lut, Shu'ayb, Musa, Harun, the Prophet ﷺ), angels, Iblis and the Shaytan, Paradise, the Fire, the heights, the Day and the Hour are never drawn as figures or literally; no destruction, drowning, killing, mutilation or transformation drawn; no idol or calf drawn; no scales at the Mizan."
+ ],
+ "groups": [
+  {
+   "title_ar": "الكتاب والإنذار",
+   "title_en": "The Book and the warning",
+   "from": 1,
+   "to": 9,
+   "videos": [
+    {
+     "from": 1,
+     "to": 4,
+     "title_ar": "رسالة الإنذار",
+     "title_en": "The message of warning",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 70
+    },
+    {
+     "from": 5,
+     "to": 9,
+     "title_ar": "وزن الأعمال",
+     "title_en": "The weighing of deeds",
+     "visual": "ambient",
+     "care": "The weighing: no scales motif, nothing literal.",
+     "est_s": 77
+    }
+   ]
+  },
+  {
+   "title_ar": "آدم وإبليس",
+   "title_en": "Adam and Iblis",
+   "from": 10,
+   "to": 24,
+   "videos": [
+    {
+     "from": 10,
+     "to": 13,
+     "title_ar": "تكريم الإنسان",
+     "title_en": "Honouring mankind",
+     "visual": "ambient",
+     "care": "Adam only as a blue labelled drop; angels gold drops; Iblis never drawn.",
+     "est_s": 67
+    },
+    {
+     "from": 14,
+     "to": 18,
+     "title_ar": "توعد إبليس",
+     "title_en": "Iblis's vow",
+     "visual": "ambient",
+     "care": "Iblis never drawn; nothing literal.",
+     "est_s": 65
+    },
+    {
+     "from": 19,
+     "to": 22,
+     "title_ar": "الأكل من الشجرة",
+     "title_en": "Eating from the tree",
+     "visual": "ambient",
+     "care": "The garden: nothing literal; Adam and Hawwa not drawn as figures; no nakedness.",
+     "est_s": 108
+    },
+    {
+     "from": 23,
+     "to": 24,
+     "title_ar": "توبة الأبوين",
+     "title_en": "The parents' repentance",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 33
+    }
+   ]
+  },
+  {
+   "title_ar": "الزينة والتقوى",
+   "title_en": "Adornment and piety",
+   "from": 25,
+   "to": 36,
+   "videos": [
+    {
+     "from": 25,
+     "to": 27,
+     "title_ar": "الستر والتقوى",
+     "title_en": "Covering and piety",
+     "visual": "ambient",
+     "care": "No nakedness; the Shaytan never drawn.",
+     "est_s": 80
+    },
+    {
+     "from": 28,
+     "to": 30,
+     "title_ar": "العدل والإخلاص",
+     "title_en": "Justice and sincerity",
+     "visual": "ambient",
+     "care": "Their claim «والله أمرنا بها» never shown as a statement.",
+     "est_s": 74
+    },
+    {
+     "from": 31,
+     "to": 33,
+     "title_ar": "الزينة المباحة",
+     "title_en": "Permitted adornment",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 72
+    },
+    {
+     "from": 34,
+     "to": 36,
+     "title_ar": "آجال الأمم",
+     "title_en": "The terms of nations",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 60
+    }
+   ]
+  },
+  {
+   "title_ar": "مشاهد الآخرة",
+   "title_en": "Scenes of the Hereafter",
+   "from": 37,
+   "to": 53,
+   "videos": [
+    {
+     "from": 37,
+     "to": 38,
+     "title_ar": "تبرؤ الأتباع",
+     "title_en": "Followers disowned",
+     "visual": "ambient",
+     "care": "The Fire: nothing literal.",
+     "est_s": 103
+    },
+    {
+     "from": 39,
+     "to": 41,
+     "title_ar": "حرمان المكذبين",
+     "title_en": "The deniers' loss",
+     "visual": "ambient",
+     "care": "Paradise and the Fire: nothing literal.",
+     "est_s": 76
+    },
+    {
+     "from": 42,
+     "to": 43,
+     "title_ar": "جزاء المؤمنين",
+     "title_en": "The believers' reward",
+     "visual": "ambient",
+     "care": "Paradise: nothing literal; no river or gold motif.",
+     "est_s": 92
+    },
+    {
+     "from": 44,
+     "to": 45,
+     "title_ar": "حوار الفريقين",
+     "title_en": "The two parties speak",
+     "visual": "ambient",
+     "care": "Nothing literal.",
+     "est_s": 68
+    },
+    {
+     "from": 46,
+     "to": 46,
+     "title_ar": "أهل الأعراف",
+     "title_en": "The people of the heights",
+     "visual": "ambient",
+     "care": "Nothing literal; no countable group.",
+     "est_s": 36
+    },
+    {
+     "from": 47,
+     "to": 53,
+     "title_ar": "الندم بعد الفوات",
+     "title_en": "Regret too late",
+     "visual": "ambient",
+     "care": "One unit: the reciter joins 47→53 (about 258 s). Nothing literal.",
+     "est_s": 265
+    }
+   ]
+  },
+  {
+   "title_ar": "آيات الخلق",
+   "title_en": "Signs of creation",
+   "from": 54,
+   "to": 58,
+   "videos": [
+    {
+     "from": 54,
+     "to": 56,
+     "title_ar": "الخالق المدبر",
+     "title_en": "The Creator and Disposer",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 68
+    },
+    {
+     "from": 57,
+     "to": 58,
+     "title_ar": "إحياء الأرض",
+     "title_en": "Reviving the earth",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 86
+    }
+   ]
+  },
+  {
+   "title_ar": "دعوة الرسل",
+   "title_en": "The messengers' call",
+   "from": 59,
+   "to": 95,
+   "videos": [
+    {
+     "from": 59,
+     "to": 64,
+     "title_ar": "نوح وقومه",
+     "title_en": "Nuh and his people",
+     "visual": "ambient",
+     "care": "Nuh: no motif; the flood: no drowning drawn.",
+     "est_s": 89
+    },
+    {
+     "from": 65,
+     "to": 70,
+     "title_ar": "هود وعاد",
+     "title_en": "Hud and 'Ad",
+     "visual": "ambient",
+     "care": "Hud: no motif.",
+     "est_s": 110
+    },
+    {
+     "from": 71,
+     "to": 72,
+     "title_ar": "هلاك عاد",
+     "title_en": "The end of 'Ad",
+     "visual": "ambient",
+     "care": "No destruction drawn.",
+     "est_s": 68
+    },
+    {
+     "from": 73,
+     "to": 74,
+     "title_ar": "صالح وثمود",
+     "title_en": "Salih and Thamud",
+     "visual": "ambient",
+     "care": "Salih: no motif.",
+     "est_s": 77
+    },
+    {
+     "from": 75,
+     "to": 79,
+     "title_ar": "هلاك ثمود",
+     "title_en": "The end of Thamud",
+     "visual": "ambient",
+     "care": "No killing of the she-camel or destruction drawn.",
+     "est_s": 87
+    },
+    {
+     "from": 80,
+     "to": 84,
+     "title_ar": "قوم لوط",
+     "title_en": "The people of Lut",
+     "visual": "ambient",
+     "care": "Lut: no motif; nothing explicit; 81: short-word flag (listen).",
+     "est_s": 87
+    },
+    {
+     "from": 85,
+     "to": 86,
+     "title_ar": "شعيب ومدين",
+     "title_en": "Shu'ayb and Madyan",
+     "visual": "ambient",
+     "care": "Shu'ayb: no motif.",
+     "est_s": 70
+    },
+    {
+     "from": 87,
+     "to": 89,
+     "title_ar": "تهديد المستكبرين",
+     "title_en": "The arrogant threaten",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 87
+    },
+    {
+     "from": 90,
+     "to": 92,
+     "title_ar": "عاقبة مدين",
+     "title_en": "The end of Madyan",
+     "visual": "ambient",
+     "care": "No destruction drawn.",
+     "est_s": 40
+    },
+    {
+     "from": 93,
+     "to": 95,
+     "title_ar": "سنة الابتلاء",
+     "title_en": "The way of trial",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 80
+    }
+   ]
+  },
+  {
+   "title_ar": "سنن الله في الأمم",
+   "title_en": "Allah's ways with nations",
+   "from": 96,
+   "to": 102,
+   "videos": [
+    {
+     "from": 96,
+     "to": 102,
+     "title_ar": "الغفلة والأمان الزائف",
+     "title_en": "Heedless and falsely secure",
+     "visual": "ambient",
+     "care": "One unit: the reciter joins 96→102 (about 167 s).",
+     "est_s": 174
+    }
+   ]
+  },
+  {
+   "title_ar": "موسى وفرعون",
+   "title_en": "Musa and Pharaoh",
+   "from": 103,
+   "to": 137,
+   "videos": [
+    {
+     "from": 103,
+     "to": 108,
+     "title_ar": "معجزات موسى",
+     "title_en": "The signs of Musa",
+     "visual": "ambient",
+     "care": "Musa: no motif; the staff and the hand not drawn literally.",
+     "est_s": 75
+    },
+    {
+     "from": 109,
+     "to": 112,
+     "title_ar": "مشورة الملأ",
+     "title_en": "The chiefs confer",
+     "visual": "ambient",
+     "care": "Pharaoh and the chiefs faceless; ambient preferred.",
+     "est_s": 34
+    },
+    {
+     "from": 113,
+     "to": 117,
+     "title_ar": "تحدي السحرة",
+     "title_en": "The sorcerers' challenge",
+     "visual": "ambient",
+     "care": "No snakes or sorcery drawn.",
+     "est_s": 73
+    },
+    {
+     "from": 118,
+     "to": 124,
+     "title_ar": "إيمان السحرة",
+     "title_en": "The sorcerers believe",
+     "visual": "ambient",
+     "care": "Pharaoh's threat of mutilation: nothing drawn.",
+     "est_s": 67
+    },
+    {
+     "from": 125,
+     "to": 126,
+     "title_ar": "ثبات المؤمنين",
+     "title_en": "The believers stand firm",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 48
+    },
+    {
+     "from": 127,
+     "to": 129,
+     "title_ar": "تهديد فرعون",
+     "title_en": "Pharaoh's threat",
+     "visual": "ambient",
+     "care": "Killing of sons: nothing drawn.",
+     "est_s": 67
+    },
+    {
+     "from": 130,
+     "to": 135,
+     "title_ar": "سنوات الشدة",
+     "title_en": "Years of hardship",
+     "visual": "ambient",
+     "care": "No plague drawn literally.",
+     "est_s": 111
+    },
+    {
+     "from": 136,
+     "to": 137,
+     "title_ar": "نهاية الطغيان",
+     "title_en": "The end of tyranny",
+     "visual": "ambient",
+     "care": "No drowning drawn.",
+     "est_s": 53
+    }
+   ]
+  },
+  {
+   "title_ar": "بنو إسرائيل بعد النجاة",
+   "title_en": "The Children of Israel after rescue",
+   "from": 138,
+   "to": 157,
+   "videos": [
+    {
+     "from": 138,
+     "to": 141,
+     "title_ar": "فتنة الأصنام",
+     "title_en": "The lure of idols",
+     "visual": "ambient",
+     "care": "No idols drawn.",
+     "est_s": 77
+    },
+    {
+     "from": 142,
+     "to": 147,
+     "title_ar": "ميقات موسى",
+     "title_en": "Musa's appointment",
+     "visual": "ambient",
+     "care": "One unit: the reciter joins 142→147 (about 165 s). Allah: nothing literal for «تجلى ربه للجبل»; Musa: no motif.",
+     "est_s": 173
+    },
+    {
+     "from": 148,
+     "to": 149,
+     "title_ar": "عبادة العجل",
+     "title_en": "Worshipping the calf",
+     "visual": "ambient",
+     "care": "The calf never drawn.",
+     "est_s": 44
+    },
+    {
+     "from": 150,
+     "to": 153,
+     "title_ar": "غضب موسى",
+     "title_en": "Musa's anger",
+     "visual": "ambient",
+     "care": "Musa and Harun: no motif.",
+     "est_s": 94
+    },
+    {
+     "from": 154,
+     "to": 156,
+     "title_ar": "دعاء موسى",
+     "title_en": "Musa's prayer",
+     "visual": "ambient",
+     "care": "The earthquake: nothing drawn.",
+     "est_s": 107
+    },
+    {
+     "from": 157,
+     "to": 157,
+     "title_ar": "صفة الرسول الخاتم",
+     "title_en": "The final Messenger",
+     "visual": "ambient",
+     "care": "No motif on the Prophet ﷺ.",
+     "est_s": 60
+    }
+   ]
+  },
+  {
+   "title_ar": "رسالة عامة",
+   "title_en": "A message for all",
+   "from": 158,
+   "to": 171,
+   "videos": [
+    {
+     "from": 158,
+     "to": 159,
+     "title_ar": "رسالة للعالمين",
+     "title_en": "A message for the worlds",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 49
+    },
+    {
+     "from": 160,
+     "to": 162,
+     "title_ar": "الأسباط والسقيا",
+     "title_en": "The tribes and the water",
+     "visual": "ambient",
+     "care": "Musa: no motif.",
+     "est_s": 89,
+     "blocked": "7:161 word «خطيئاتكم»: QF encodes the hamza after a tatweel differently from Tanzil (encoding case): docs/progress/DECISIONS_NEEDED.md section 1"
+    },
+    {
+     "from": 163,
+     "to": 165,
+     "title_ar": "حيلة السبت",
+     "title_en": "The Sabbath ruse",
+     "visual": "ambient",
+     "care": "Fish allowed; no punishment drawn.",
+     "est_s": 68
+    },
+    {
+     "from": 166,
+     "to": 169,
+     "title_ar": "عاقبة العصاة",
+     "title_en": "The end of the defiant",
+     "visual": "ambient",
+     "care": "The transformation never drawn; 169: short-word flag (listen).",
+     "est_s": 90
+    },
+    {
+     "from": 170,
+     "to": 171,
+     "title_ar": "رفع الجبل",
+     "title_en": "The mountain raised",
+     "visual": "ambient",
+     "care": "Nothing literal.",
+     "est_s": 43
+    }
+   ]
+  },
+  {
+   "title_ar": "الميثاق والهدى",
+   "title_en": "The covenant and guidance",
+   "from": 172,
+   "to": 188,
+   "videos": [
+    {
+     "from": 172,
+     "to": 173,
+     "title_ar": "الميثاق الأول",
+     "title_en": "The first covenant",
+     "visual": "ambient",
+     "care": "The covenant: nothing literal.",
+     "est_s": 60
+    },
+    {
+     "from": 174,
+     "to": 176,
+     "title_ar": "مثل العالم الضال",
+     "title_en": "The scholar who strayed",
+     "visual": "ambient",
+     "care": "No dog motif.",
+     "est_s": 71
+    },
+    {
+     "from": 177,
+     "to": 178,
+     "title_ar": "هداية الله",
+     "title_en": "Allah's guidance",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 36
+    },
+    {
+     "from": 179,
+     "to": 181,
+     "title_ar": "القلوب الغافلة",
+     "title_en": "Heedless hearts",
+     "visual": "ambient",
+     "care": "180: short-word flag (listen).",
+     "est_s": 82
+    },
+    {
+     "from": 182,
+     "to": 186,
+     "title_ar": "الاستدراج والإملاء",
+     "title_en": "Respite and gradual ruin",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 70
+    },
+    {
+     "from": 187,
+     "to": 188,
+     "title_ar": "موعد القيامة",
+     "title_en": "The time of the Hour",
+     "visual": "ambient",
+     "care": "The Hour: nothing literal.",
+     "est_s": 76
+    }
+   ]
+  },
+  {
+   "title_ar": "التوحيد والذكر",
+   "title_en": "Tawhid and remembrance",
+   "from": 189,
+   "to": 206,
+   "videos": [
+    {
+     "from": 189,
+     "to": 192,
+     "title_ar": "الشكر والشرك",
+     "title_en": "Gratitude and shirk",
+     "visual": "ambient",
+     "care": "189-190: the tafsirs differ on who the couple are; never take a side.",
+     "est_s": 70
+    },
+    {
+     "from": 193,
+     "to": 195,
+     "title_ar": "عجز الأوثان",
+     "title_en": "The idols' helplessness",
+     "visual": "ambient",
+     "care": "No idols drawn.",
+     "est_s": 60
+    },
+    {
+     "from": 196,
+     "to": 198,
+     "title_ar": "ولاية الله",
+     "title_en": "Allah's protection",
+     "visual": "ambient",
+     "care": "No idols drawn; 197: short-word flag (listen).",
+     "est_s": 42,
+     "blocked": "7:196 «وليي»: small yā' encoding differs from Tanzil (same case as 5:111): docs/progress/DECISIONS_NEEDED.md section 1"
+    },
+    {
+     "from": 199,
+     "to": 200,
+     "title_ar": "مكارم الأخلاق",
+     "title_en": "Noble conduct",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 28
+    },
+    {
+     "from": 201,
+     "to": 203,
+     "title_ar": "تذكر المتقين",
+     "title_en": "The mindful remember",
+     "visual": "ambient",
+     "care": "201: short-word flag (listen).",
+     "est_s": 58,
+     "blocked": "7:203 overlaps 7:202 by 40 ms: docs/progress/DECISIONS_NEEDED.md section 2"
+    },
+    {
+     "from": 204,
+     "to": 206,
+     "title_ar": "الإنصات والذكر",
+     "title_en": "Listening and remembrance",
+     "visual": "ambient",
+     "care": "206 is a verse of prostration: nothing drawn.",
+     "est_s": 54
+    }
+   ]
+  }
+ ]
+}
