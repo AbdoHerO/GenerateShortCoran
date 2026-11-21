@@ -32,35 +32,93 @@
    "verses": [
     22
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "fields",
+    "time": "day",
+    "actors": [
+     {
+      "id": "f",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     },
+     {
+      "id": "c",
+      "type": "camel",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [
+     {
+      "type": "rain",
+      "at": [
+       22,
+       4
+      ],
+      "until": null
+     },
+     {
+      "type": "growth",
+      "at": [
+       22,
+       8
+      ],
+      "until": null
+     }
+    ],
     "beats": [
      {
       "at": [
        22,
-       6
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       22,
-       7
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       22,
-       8
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        22,
-       10
+       2
+      ],
+      "do": "wind"
+     },
+     {
+      "at": [
+       22,
+       6
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       22,
+       7
+      ],
+      "do": "look_up",
+      "who": "f"
+     },
+     {
+      "at": [
+       22,
+       9
+      ],
+      "do": "shot_close",
+      "who": "f"
+     },
+     {
+      "at": [
+       22,
+       12
       ],
       "do": "shot_wide"
      }
@@ -77,7 +135,7 @@
       ],
       "motif": "wind",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -90,7 +148,7 @@
       ],
       "motif": "cloud_rain",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -243,7 +301,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Wind and a rain cloud for 22 (gone before the negated «وما أنتم له بخازنين»). Geometric for «وإنا لنحن نحيي ونميت». 23:5-6 is not glossed (Al-Muyassar's wording repeats 19:40). An hourglass for the earlier and later generations (24); Al-Muyassar's «إلى يوم القيامة» is left out (a Quran phrase)."
+  "notes": "Wind and a rain cloud for 22 (gone before the negated «وما أنتم له بخازنين»). Geometric for «وإنا لنحن نحيي ونميت». 23:5-6 is not glossed (Al-Muyassar's wording repeats 19:40). An hourglass for the earlier and later generations (24); Al-Muyassar's «إلى يوم القيامة» is left out (a Quran phrase). STAGING v4: 22: fields; wind on 22:2, rain from 22:4, the land turns green on 22:8 (both tafsirs: water for people, their livestock and their land), a man and a camel. 23 (giving life and death, Allah's acts) and 24 (His knowledge of the generations) stay ambient."
  },
  "cover": {
   "series_ar": "آيات الكون",
@@ -252,8 +310,9 @@
   "title_en": "Winds and giving life",
   "at": [
    22,
-   4
+   10
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

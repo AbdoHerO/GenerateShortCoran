@@ -48,19 +48,26 @@
        87,
        15
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        87,
        17
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        87,
-       20
+       18
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       87,
+       22
       ],
       "do": "pan_left"
      },
@@ -69,14 +76,14 @@
        87,
        23
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        87,
        25
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -92,7 +99,10 @@
        87,
        4
       ],
-      "until": null,
+      "until": [
+       87,
+       10
+      ],
       "motif": "book",
       "place": "top",
       "size": "m"
@@ -119,16 +129,47 @@
    "verses": [
     88
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "rain",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 5,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        88,
-       5
+       1
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "d"
+     },
+     {
+      "at": [
+       88,
+       3
+      ],
+      "do": "shake_head",
+      "who": "d"
+     },
+     {
+      "at": [
+       88,
+       7
+      ],
+      "do": "turn",
+      "who": "d"
      },
      {
       "at": [
@@ -142,10 +183,22 @@
        88,
        10
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "d"
      }
     ],
-    "motifs": [],
+    "motifs": [
+     {
+      "at": [
+       88,
+       5
+      ],
+      "until": null,
+      "motif": "seal",
+      "place": "top",
+      "size": "s"
+     }
+    ],
     "transition": "wipe"
    }
   },
@@ -155,51 +208,95 @@
    "verses": [
     89
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "left",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        89,
-       6
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       89,
-       10
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       89,
-       12
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       89,
-       16
+       2
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        89,
-       19
+       7
       ],
       "do": "pan_left"
      },
      {
       "at": [
        89,
-       24
+       9
       ],
-      "do": "pan_right"
+      "do": "read",
+      "who": "p"
+     },
+     {
+      "at": [
+       89,
+       13
+      ],
+      "do": "speak",
+      "who": "p"
+     },
+     {
+      "at": [
+       89,
+       16
+      ],
+      "do": "point",
+      "who": "p",
+      "to": "d"
+     },
+     {
+      "at": [
+       89,
+       18
+      ],
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       89,
+       21
+      ],
+      "do": "turn",
+      "who": "p"
+     },
+     {
+      "at": [
+       89,
+       23
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -208,10 +305,23 @@
        89,
        3
       ],
-      "until": null,
+      "until": [
+       89,
+       6
+      ],
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       89,
+       18
+      ],
+      "until": null,
+      "motif": "light",
+      "place": "top",
+      "size": "s"
      }
     ],
     "transition": "morph"
@@ -299,7 +409,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Isa, Maryam and Jibril are never drawn and get no motif; the killing of prophets (87) is never shown. Their claim «قلوبنا غلف» (88) is not glossed; the reply is."
+  "notes": "Isa, Maryam and Jibril are never drawn and get no motif; the killing of prophets (87) is never shown. Their claim «قلوبنا غلف» (88) is not glossed; the reply is. STAGING v4: 87 stays ambient: Isa and Jibril are never drawn and the verse ends on the killing of prophets. 88: the rejecting crowd voices their excuse and shakes heads; a seal plate on «لعنهم» (Al-Muyassar: مطبوع عليها). 89: the People of the Book hold their Torah (لما معهم), speak against the Arab polytheists (يستفتحون, both tafsirs), then turn away when the truth came (light plate, the Prophet is not shown)."
  },
  "cover": {
   "series_ar": "موقفهم من الرسل",
@@ -311,5 +421,6 @@
    13
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

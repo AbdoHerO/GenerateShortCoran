@@ -32,79 +32,169 @@
    "verses": [
     259
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "w",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       259,
+       17
+      ],
+      "look": "traveller"
+     },
+     {
+      "id": "v",
+      "type": "man",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       259,
+       22
+      ],
+      "exit": null,
+      "look": "traveller"
+     }
+    ],
+    "events": [
+     {
+      "type": "ruin",
+      "at": [
+       259,
+       7
+      ],
+      "until": null
+     },
+     {
+      "type": "light",
+      "at": [
+       259,
+       58
+      ],
+      "until": null
+     }
+    ],
     "beats": [
+     {
+      "at": [
+       259,
+       3
+      ],
+      "do": "walk_to",
+      "who": "w",
+      "to": "center"
+     },
+     {
+      "at": [
+       259,
+       9
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        259,
        10
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "w"
      },
      {
       "at": [
        259,
-       12
+       13
       ],
-      "do": "shot_wide"
+      "do": "point",
+      "who": "w",
+      "to": "right"
      },
      {
       "at": [
        259,
        16
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "w"
      },
      {
       "at": [
        259,
        22
       ],
+      "do": "sparkle",
+      "who": "v"
+     },
+     {
+      "at": [
+       259,
+       26
+      ],
+      "do": "speak",
+      "who": "v"
+     },
+     {
+      "at": [
+       259,
+       28
+      ],
+      "do": "shot_close",
+      "who": "v"
+     },
+     {
+      "at": [
+       259,
+       31
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       259,
+       33
+      ],
       "do": "shot_wide"
      },
      {
       "at": [
        259,
-       25
+       37
       ],
-      "do": "pan_right"
+      "do": "turn",
+      "who": "v"
      },
      {
       "at": [
        259,
-       29
+       40
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       259,
-       34
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       259,
-       42
-      ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "v"
      },
      {
       "at": [
        259,
        43
       ],
-      "do": "shot_wide"
+      "do": "turn",
+      "who": "v"
      },
      {
       "at": [
        259,
-       46
+       47
       ],
-      "do": "pan_left"
+      "do": "sparkle",
+      "who": "v"
      },
      {
       "at": [
@@ -123,65 +213,88 @@
      {
       "at": [
        259,
-       55
+       53
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       259,
+       56
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
        259,
        58
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "v"
      },
      {
       "at": [
        259,
-       64
+       60
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "v"
+     },
+     {
+      "at": [
+       259,
+       62
+      ],
+      "do": "bow",
+      "who": "v"
+     },
+     {
+      "at": [
+       259,
+       65
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
      {
       "at": [
        259,
-       7
-      ],
-      "until": null,
-      "motif": "leaf",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       259,
        19
       ],
-      "until": null,
+      "until": [
+       259,
+       22
+      ],
       "motif": "hourglass",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        259,
        39
       ],
-      "until": null,
+      "until": [
+       259,
+       43
+      ],
       "motif": "wheat",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        259,
-       51
+       53
       ],
-      "until": null,
+      "until": [
+       259,
+       57
+      ],
       "motif": "growth",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -290,7 +403,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The man is never named, drawn or judged (scholars differ on who he was; As-Sa'di's view that he doubted the resurrection is not used). No donkey or bones drawn: growth stands for life after death as a parable. Title avoids the verse's «مائة عام»."
+  "notes": "The man is never named, drawn or judged (scholars differ on who he was; As-Sa'di's view that he doubted the resurrection is not used). No donkey or bones drawn: growth stands for life after death as a parable. Title avoids the verse's «مائة عام». STAGING v4: The man is a plain faceless traveller (never named, never a prophet: Al-Muyassar does not say who he was and As-Sa'di holds he was not a prophet). He walks into the town, which falls to ruins on «خاوية» (it was already ruined: the ruin is shown as the town's state, not an event he saw), speaks and points at it. His death is not shown: he fades out on «فأماته», an hourglass on «مائة عام», and he reappears in the same place on «بعثه». No donkey, no bones, no flesh are drawn; he turns to look on each «وانظر». The town is NOT shown rebuilt (As-Sa'di: the verse does not say it was). Light on «تبين», he bows on «أعلم»."
  },
  "cover": {
   "series_ar": "آيات الإحياء",
@@ -299,8 +412,9 @@
   "title_en": "Raised after a century",
   "at": [
    259,
-   39
+   13
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

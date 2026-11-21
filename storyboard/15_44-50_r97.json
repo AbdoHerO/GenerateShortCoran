@@ -370,7 +370,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Hell and its gates (44) are never drawn: no door, no fire, no number of figures. Paradise (45-48) is light only: no river, gold, fruit or couches. 49 addresses the Prophet ﷺ: no plate starts on «نبئ عبادي»; geometric from «أني أنا الغفور الرحيم» on. 49:3-6 is not glossed (Al-Muyassar's «للمؤمنين التائبين» narrows the promise). The light plate of 47 lives across the reciter's repeat of 48:2-5."
+  "notes": "Hell and its gates (44) are never drawn: no door, no fire, no number of figures. Paradise (45-48) is light only: no river, gold, fruit or couches. 49 addresses the Prophet ﷺ: no plate starts on «نبئ عبادي»; geometric from «أني أنا الغفور الرحيم» on. 49:3-6 is not glossed (Al-Muyassar's «للمؤمنين التائبين» narrows the promise). The light plate of 47 lives across the reciter's repeat of 48:2-5. STAGING v4: All chapters stay ambient: the gates of Hell (44), Paradise (45-48) are the unseen; 49-50 are Allah's names and attributes (forgiveness, mercy, punishment)."
  },
  "cover": {
   "series_ar": "جزاء المتقين",
@@ -382,5 +382,6 @@
    3
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

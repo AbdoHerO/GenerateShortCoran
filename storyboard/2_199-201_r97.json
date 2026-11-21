@@ -32,16 +32,66 @@
    "verses": [
     199
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "mountains",
+    "setting": "desert",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 4,
+      "pose": "walk",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "c",
+      "type": "camel",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        199,
-       4
+       1
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       199,
+       2
+      ],
+      "do": "walk_to",
+      "who": "b",
+      "to": "left"
+     },
+     {
+      "at": [
+       199,
+       5
+      ],
+      "do": "walk_to",
+      "who": "c",
+      "to": "left"
+     },
+     {
+      "at": [
+       199,
+       7
+      ],
+      "do": "raise_hands",
+      "who": "b"
      },
      {
       "at": [
@@ -53,21 +103,25 @@
      {
       "at": [
        199,
-       12
+       11
       ],
-      "do": "pan_right"
+      "do": "sparkle",
+      "who": "b"
      }
     ],
     "motifs": [
      {
       "at": [
        199,
-       7
+       2
       ],
-      "until": null,
-      "motif": "hands",
+      "until": [
+       199,
+       8
+      ],
+      "motif": "footsteps",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -79,58 +133,109 @@
     200,
     201
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       200,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        200,
        4
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "b"
      },
      {
       "at": [
        200,
        7
       ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       200,
-       10
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       200,
-       13
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       200,
-       16
-      ],
       "do": "shot_wide"
      },
      {
       "at": [
        200,
-       24
+       8
       ],
-      "do": "pan_right"
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       200,
+       12
+      ],
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       200,
+       14
+      ],
+      "do": "raise_hands",
+      "who": "p"
+     },
+     {
+      "at": [
+       200,
+       20
+      ],
+      "do": "turn",
+      "who": "p"
+     },
+     {
+      "at": [
+       200,
+       23
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       201,
+       1
+      ],
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        201,
        3
       ],
-      "do": "shot_wide"
+      "do": "raise_hands",
+      "who": "b"
      },
      {
       "at": [
@@ -142,19 +247,47 @@
      {
       "at": [
        201,
-       9
+       7
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        201,
+       9
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       201,
+       12
+      ],
+      "do": "bow",
+      "who": "b"
+     },
+     {
+      "at": [
+       201,
        14
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      }
     ],
     "motifs": [
+     {
+      "at": [
+       200,
+       18
+      ],
+      "until": [
+       201,
+       4
+      ],
+      "motif": "coins",
+      "place": "top",
+      "size": "s"
+     },
      {
       "at": [
        201,
@@ -163,7 +296,7 @@
       "until": null,
       "motif": "burst",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -173,7 +306,7 @@
       "until": null,
       "motif": "seal",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "iris"
@@ -250,7 +383,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Paradise and the Fire (201) only in words; motifs burst (the good of this world) and seal (the good of the Hereafter)."
+  "notes": "Paradise and the Fire (201) only in words; motifs burst (the good of this world) and seal (the good of the Hereafter). STAGING v4: 199: pilgrims moving on at dusk, then raising hands to ask forgiveness (no hands plate on the Name). 200-201: after the rites, two kinds of people as the verse names them: one group asks only for this world (coins) and turns from the Hereafter (Al-Muyassar: their wish is turned away from it); believers ask for good in both and lower their heads on 'protect us from the Fire'. Nothing of Paradise or the Fire is drawn. STAGING v4: 199: pilgrims moving on at dusk, then raising hands to ask forgiveness (no hands plate on the Name). 200-201: after the rites, two kinds of people as the verse names them: one group asks only for this world (coins) and turns from the Hereafter (Al-Muyassar: their wish is turned away from it); believers ask for good in both and lower their heads on 'protect us from the Fire'. Nothing of Paradise or the Fire is drawn."
  },
  "cover": {
   "series_ar": "القتال والحج",
@@ -262,5 +395,6 @@
    8
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

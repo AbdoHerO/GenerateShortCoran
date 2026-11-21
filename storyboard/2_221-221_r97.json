@@ -32,10 +32,32 @@
    "verses": [
     221
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "home",
+    "time": "day",
+    "actors": [
+     {
+      "id": "f",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       221,
+       2
+      ],
+      "do": "speak",
+      "who": "f"
+     },
      {
       "at": [
        221,
@@ -46,7 +68,15 @@
      {
       "at": [
        221,
-       12
+       7
+      ],
+      "do": "shot_close",
+      "who": "f"
+     },
+     {
+      "at": [
+       221,
+       10
       ],
       "do": "pan_left"
      },
@@ -55,84 +85,86 @@
        221,
        14
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "f"
      },
      {
       "at": [
        221,
-       17
+       16
       ],
       "do": "pan_right"
      },
      {
       "at": [
        221,
-       19
+       18
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       221,
+       20
       ],
       "do": "pan_left"
      },
      {
       "at": [
        221,
-       22
+       23
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        221,
-       24
+       25
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       221,
-       26
-      ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        221,
        28
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        221,
        30
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        221,
-       31
+       33
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        221,
        35
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "f"
      },
      {
       "at": [
        221,
        37
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        221,
        39
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -145,9 +177,32 @@
        221,
        26
       ],
-      "motif": "house",
+      "motif": "scales",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       221,
+       26
+      ],
+      "until": [
+       221,
+       29
+      ],
+      "motif": "two_paths",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       221,
+       36
+      ],
+      "until": null,
+      "motif": "book",
+      "place": "top",
+      "size": "s"
      }
     ]
    }
@@ -190,7 +245,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Re-split from 2_221-222_r97 (reviewed): the audit found no clean audio cut at the old edge. Chapters, glosses and motifs are unchanged."
+  "notes": "Re-split from 2_221-222_r97 (reviewed): the audit found no clean audio cut at the old edge. Chapters, glosses and motifs are unchanged. STAGING v4: Marriage ruling: a family sitting at home and speaking (deliberating), nothing else; no couple, no polytheists drawn. Scales for 'better than', the two paths for the two invitations (ending before the Name), the book for 'He makes His verses clear'. Nothing of the Fire or Paradise is drawn. STAGING v4: Marriage ruling: a family sitting at home and speaking (deliberating), nothing else; no couple, no polytheists drawn. Scales for 'better than', the two paths for the two invitations (ending before the Name), the book for 'He makes His verses clear'. Nothing of the Fire or Paradise is drawn."
  },
  "cover": {
   "series_ar": "أحكام الأسرة",
@@ -202,5 +257,6 @@
    8
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

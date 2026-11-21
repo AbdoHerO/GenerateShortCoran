@@ -33,65 +33,88 @@
     236,
     237
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "home",
+    "time": "day",
+    "actors": [
+     {
+      "id": "f",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        236,
-       5
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       236,
-       7
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        236,
-       11
+       6
       ],
       "do": "pan_left"
      },
      {
       "at": [
        236,
-       18
+       10
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       236,
+       14
+      ],
+      "do": "speak",
+      "who": "f"
+     },
+     {
+      "at": [
+       236,
+       16
+      ],
+      "do": "shot_close",
+      "who": "f"
+     },
+     {
+      "at": [
+       236,
+       21
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       236,
+       23
       ],
       "do": "pan_left"
-     },
-     {
-      "at": [
-       236,
-       22
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       236,
-       25
-      ],
-      "do": "pan_right"
      },
      {
       "at": [
        237,
-       2
+       1
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        237,
        4
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -103,23 +126,32 @@
      {
       "at": [
        237,
-       15
+       16
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "f"
      },
      {
       "at": [
        237,
-       20
+       19
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       237,
+       22
       ],
       "do": "pan_left"
      },
      {
       "at": [
        237,
-       23
+       24
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "f"
      },
      {
       "at": [
@@ -131,23 +163,24 @@
      {
       "at": [
        237,
-       28
+       29
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "f"
      },
      {
       "at": [
        237,
-       31
+       33
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        237,
        35
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -159,17 +192,20 @@
       "until": null,
       "motif": "coins",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        237,
        11
       ],
-      "until": null,
+      "until": [
+       237,
+       32
+      ],
       "motif": "scales",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -234,7 +270,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "JOINED after 236 is inside the video. Scales here are the fairness of the half dowry (this world)."
+  "notes": "JOINED after 236 is inside the video. Scales here are the fairness of the half dowry (this world). STAGING v4: Divorce before consummation: a family sitting at home and speaking (the gift by one's means, half the dowry, forgoing it); no couple, nothing private. Coins for the gift and dowry, scales for the half, ending before the Name. STAGING v4: Divorce before consummation: a family sitting at home and speaking (the gift by one's means, half the dowry, forgoing it); no couple, nothing private. Coins for the gift and dowry, scales for the half, ending before the Name."
  },
  "cover": {
   "series_ar": "أحكام الأسرة",
@@ -246,5 +282,6 @@
    14
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

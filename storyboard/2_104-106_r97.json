@@ -32,33 +32,74 @@
    "verses": [
     104
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        104,
-       4
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       104,
-       8
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        104,
-       11
+       3
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       104,
+       7
+      ],
+      "do": "speak",
+      "who": "b"
+     },
+     {
+      "at": [
+       104,
+       10
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       104,
+       12
+      ],
+      "do": "shot_wide"
      }
     ],
-    "motifs": []
+    "motifs": [
+     {
+      "at": [
+       104,
+       9
+      ],
+      "until": null,
+      "motif": "book",
+      "place": "top",
+      "size": "s"
+     }
+    ]
    }
   },
   {
@@ -67,51 +108,111 @@
    "verses": [
     105
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 5,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [
+     {
+      "type": "light",
+      "at": [
+       105,
+       11
+      ],
+      "until": [
+       105,
+       15
+      ]
+     }
+    ],
     "beats": [
      {
       "at": [
        105,
-       8
+       2
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        105,
-       11
+       4
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       105,
+       9
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       105,
+       12
+      ],
+      "do": "shake_head",
+      "who": "d"
      },
      {
       "at": [
        105,
        18
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        105,
        21
       ],
-      "do": "pan_right"
+      "do": "turn",
+      "who": "d"
      },
      {
       "at": [
        105,
-       23
+       22
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       105,
+       24
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        105,
        25
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -121,9 +222,9 @@
        14
       ],
       "until": null,
-      "motif": "burst",
+      "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "wipe"
@@ -135,23 +236,47 @@
    "verses": [
     106
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       106,
+       2
+      ],
+      "do": "read",
+      "who": "b"
+     },
      {
       "at": [
        106,
        7
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        106,
-       11
+       10
       ],
-      "do": "shot_wide"
+      "do": "read",
+      "who": "b"
      },
      {
       "at": [
@@ -163,9 +288,16 @@
      {
       "at": [
        106,
-       18
+       17
       ],
-      "do": "pan_right"
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       106,
+       19
+      ],
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -174,10 +306,13 @@
        106,
        4
       ],
-      "until": null,
+      "until": [
+       106,
+       15
+      ],
       "motif": "scroll",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "page_turn"
@@ -265,7 +400,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Al-Muyassar paraphrases 106 in Allah's first person: only the neutral parts were taken. No motif on Allah's mercy or favour (105)."
+  "notes": "Al-Muyassar paraphrases 106 in Allah's first person: only the neutral parts were taken. No motif on Allah's mercy or favour (105). STAGING v4: 104: believers sitting to learn (As-Sa'di: حين خطابهم للرسول عند تعلمهم أمر الدين) say the right word and listen (book plate, Al-Muyassar: ما يتلى عليكم); the Prophet is not shown. 105: the disbelievers of the People of the Book and the polytheists dislike the good sent down on the believers (light on the believers, shake_head, turn); no plate on Allah's mercy or favour. 106: believers reading the verses; the scroll plate ends before the Name. STAGING v4: 104: believers sitting to learn (As-Sa'di: حين خطابهم للرسول عند تعلمهم أمر الدين) say the right word and listen (book plate, Al-Muyassar: ما يتلى عليكم); the Prophet is not shown. 105: the disbelievers of the People of the Book and the polytheists dislike the good sent down on the believers (light on the believers, shake_head, turn); no plate on Allah's mercy or favour. 106: believers reading the verses; the scroll plate ends before the Name. STAGING v4: 104: believers sitting to learn (As-Sa'di: حين خطابهم للرسول عند تعلمهم أمر الدين) say the right word and listen (book plate, Al-Muyassar: ما يتلى عليكم); the Prophet is not shown. 105: the disbelievers of the People of the Book and the polytheists dislike the good sent down on the believers (light on the believers, shake_head, turn); no plate on Allah's mercy or favour. 106: believers reading the verses; the scroll plate ends before the Name."
  },
  "cover": {
   "series_ar": "النسخ والحسد",
@@ -277,5 +412,6 @@
    4
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

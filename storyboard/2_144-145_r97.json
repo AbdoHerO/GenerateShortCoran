@@ -32,58 +32,105 @@
    "verses": [
     144
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 5,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       144,
+       2
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        144,
        6
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        144,
-       9
+       10
       ],
       "do": "pan_right"
      },
      {
       "at": [
        144,
-       12
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       144,
-       17
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       144,
-       20
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       144,
-       24
+       15
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        144,
-       32
+       18
+      ],
+      "do": "turn",
+      "who": "b"
+     },
+     {
+      "at": [
+       144,
+       19
+      ],
+      "do": "pray",
+      "who": "b"
+     },
+     {
+      "at": [
+       144,
+       21
+      ],
+      "do": "ruku",
+      "who": "b"
+     },
+     {
+      "at": [
+       144,
+       25
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       144,
+       27
+      ],
+      "do": "sujud",
+      "who": "b"
+     },
+     {
+      "at": [
+       144,
+       30
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       144,
+       34
+      ],
+      "do": "sit",
+      "who": "b"
      }
     ],
     "motifs": [
@@ -95,17 +142,20 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        144,
-       27
+       24
       ],
-      "until": null,
-      "motif": "lamp",
+      "until": [
+       144,
+       29
+      ],
+      "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -116,44 +166,112 @@
    "verses": [
     145
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "j",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "n",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        145,
-       4
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        145,
-       11
+       4
       ],
       "do": "pan_right"
      },
      {
       "at": [
        145,
-       14
+       9
       ],
-      "do": "pan_left"
+      "do": "shake_head",
+      "who": "j"
+     },
+     {
+      "at": [
+       145,
+       11
+      ],
+      "do": "shake_head",
+      "who": "n"
+     },
+     {
+      "at": [
+       145,
+       13
+      ],
+      "do": "shake_head",
+      "who": "b"
+     },
+     {
+      "at": [
+       145,
+       16
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        145,
        17
       ],
-      "do": "pan_left"
+      "do": "turn",
+      "who": "j"
+     },
+     {
+      "at": [
+       145,
+       19
+      ],
+      "do": "turn",
+      "who": "n"
      },
      {
       "at": [
        145,
        22
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "j"
      },
      {
       "at": [
@@ -165,7 +283,14 @@
      {
       "at": [
        145,
-       28
+       26
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       145,
+       32
       ],
       "do": "shot_wide"
      }
@@ -179,7 +304,17 @@
       "until": null,
       "motif": "burst",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       145,
+       28
+      ],
+      "until": null,
+      "motif": "book",
+      "place": "top",
+      "size": "s"
      }
     ],
     "transition": "wipe"
@@ -256,7 +391,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on the Prophet's ﷺ face turning to the sky (144). The Kaaba only as the abstract geometric motif."
+  "notes": "No motif on the Prophet's ﷺ face turning to the sky (144). The Kaaba only as the abstract geometric motif. STAGING v4: 144: the Prophet's face turning to the sky is not pictured (no look_up, no sky shot); the Kaaba only as the abstract geometric plate; «فولوا وجوهكم» = the believers turn and pray in a prayer hall; their Book = book plate. 145: the Jews and the Christians refuse the qibla and turn away from each other's (both are `people`); the believers refuse theirs (Al-Muyassar: خطاب لجميع الأمة)."
  },
  "cover": {
   "series_ar": "القبلة",
@@ -268,5 +403,6 @@
    8
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

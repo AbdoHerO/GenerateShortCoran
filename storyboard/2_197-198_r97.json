@@ -32,58 +32,129 @@
    "verses": [
     197
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "w",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "walk",
+      "enter": null,
+      "exit": null,
+      "look": "traveller"
+     },
+     {
+      "id": "c",
+      "type": "camel",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       197,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        197,
        3
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        197,
-       4
+       5
+      ],
+      "do": "walk_to",
+      "who": "w",
+      "to": "center"
+     },
+     {
+      "at": [
+       197,
+       9
       ],
       "do": "pan_right"
      },
      {
       "at": [
        197,
-       10
+       15
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        197,
-       17
+       19
       ],
-      "do": "shot_wide"
+      "do": "give",
+      "who": "w",
+      "to": "b"
      },
      {
       "at": [
        197,
        20
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        197,
-       23
+       22
       ],
-      "do": "shot_wide"
+      "do": "point",
+      "who": "w",
+      "to": "c"
+     },
+     {
+      "at": [
+       197,
+       25
+      ],
+      "do": "shot_close",
+      "who": "w"
      },
      {
       "at": [
        197,
        27
       ],
-      "do": "pan_left"
+      "do": "bow",
+      "who": "b"
+     },
+     {
+      "at": [
+       197,
+       29
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -92,10 +163,23 @@
        197,
        2
       ],
-      "until": null,
+      "until": [
+       197,
+       21
+      ],
       "motif": "moon",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       197,
+       26
+      ],
+      "until": null,
+      "motif": "lamp",
+      "place": "top",
+      "size": "s"
      }
     ]
    }
@@ -106,21 +190,100 @@
    "verses": [
     198
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "mountains",
+    "setting": "desert",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "w",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "traveller"
+     },
+     {
+      "id": "t",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     }
+    ],
+    "events": [
+     {
+      "type": "light",
+      "at": [
+       198,
+       20
+      ],
+      "until": null
+     }
+    ],
     "beats": [
      {
       "at": [
        198,
-       9
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        198,
-       17
+       5
+      ],
+      "do": "give",
+      "who": "w",
+      "to": "t"
+     },
+     {
+      "at": [
+       198,
+       7
+      ],
+      "do": "speak",
+      "who": "t"
+     },
+     {
+      "at": [
+       198,
+       10
+      ],
+      "do": "walk_to",
+      "who": "b",
+      "to": "left"
+     },
+     {
+      "at": [
+       198,
+       13
+      ],
+      "do": "speak",
+      "who": "b"
+     },
+     {
+      "at": [
+       198,
+       16
       ],
       "do": "pan_left"
      },
@@ -129,43 +292,46 @@
        198,
        18
       ],
-      "do": "pan_right"
+      "do": "raise_hands",
+      "who": "b"
      },
      {
       "at": [
        198,
        22
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       198,
+       23
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        198,
        26
       ],
-      "do": "pan_right"
+      "do": "bow",
+      "who": "b"
      }
     ],
     "motifs": [
      {
       "at": [
        198,
-       6
+       10
       ],
-      "until": null,
-      "motif": "coins",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
+      "until": [
        198,
-       12
+       14
       ],
-      "until": null,
-      "motif": "mountain",
+      "motif": "footsteps",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -175,7 +341,7 @@
       "until": null,
       "motif": "hands",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "light_sweep"
@@ -252,7 +418,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Arafat as the abstract mountain motif."
+  "notes": "Arafat as the abstract mountain motif. STAGING v4: Pilgrims on the road, never a sanctuary, Arafat or Muzdalifa (the old mountain plate on «عرفات» is removed). 197: the hajj months (moon), a good deed between travellers, provision (Al-Muyassar: food and drink for the journey) shown by pointing at the camel, the lamp for taqwa. 198: a traveller buys from a trader (Al-Muyassar: profit from trade in the hajj days), then the pilgrims move on at dusk (Al-Muyassar: after sunset) and remember Allah: speak (tasbih, talbiya) then du'a with raised hands, light on «هداكم». STAGING v4: Pilgrims on the road, never a sanctuary, Arafat or Muzdalifa (the old mountain plate on «عرفات» is removed). 197: the hajj months (moon), a good deed between travellers, provision (Al-Muyassar: food and drink for the journey) shown by pointing at the camel, the lamp for taqwa. 198: a traveller buys from a trader (Al-Muyassar: profit from trade in the hajj days), then the pilgrims move on at dusk (Al-Muyassar: after sunset) and remember Allah: speak (tasbih, talbiya) then du'a with raised hands, light on «هداكم»."
  },
  "cover": {
   "series_ar": "القتال والحج",
@@ -264,5 +430,6 @@
    12
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

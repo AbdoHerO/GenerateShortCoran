@@ -32,86 +32,138 @@
    "verses": [
     266
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "garden",
+    "time": "day",
+    "actors": [
+     {
+      "id": "o",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     }
+    ],
+    "events": [
+     {
+      "type": "storm",
+      "at": [
+       266,
+       25
+      ],
+      "until": null
+     },
+     {
+      "type": "fire",
+      "at": [
+       266,
+       27
+      ],
+      "until": null
+     },
+     {
+      "type": "wither",
+      "at": [
+       266,
+       28
+      ],
+      "until": null
+     }
+    ],
     "beats": [
      {
       "at": [
        266,
-       9
+       1
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       266,
+       8
+      ],
+      "do": "shot_close",
+      "who": "o"
      },
      {
       "at": [
        266,
        10
       ],
-      "do": "pan_left"
+      "do": "shot_ground"
      },
      {
       "at": [
        266,
-       12
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       266,
-       17
+       15
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       266,
+       18
+      ],
+      "do": "sparkle",
+      "who": "center"
+     },
+     {
+      "at": [
+       266,
+       20
+      ],
+      "do": "sit",
+      "who": "o"
      },
      {
       "at": [
        266,
        22
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "o"
      },
      {
       "at": [
        266,
-       25
+       24
       ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       266,
-       26
-      ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        266,
        28
       ],
-      "do": "shot_wide"
+      "do": "bow",
+      "who": "o"
      },
      {
       "at": [
        266,
        30
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        266,
        33
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        266,
        35
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -120,30 +172,39 @@
        266,
        6
       ],
-      "until": null,
+      "until": [
+       266,
+       19
+      ],
       "motif": "palm",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        266,
        19
       ],
-      "until": null,
+      "until": [
+       266,
+       24
+      ],
       "motif": "hourglass",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        266,
        24
       ],
-      "until": null,
+      "until": [
+       266,
+       31
+      ],
       "motif": "wind",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -154,49 +215,124 @@
    "verses": [
     267
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "g",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     },
+     {
+      "id": "p",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "sit",
+      "enter": null,
+      "exit": null,
+      "look": "poor"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        267,
-       6
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        267,
-       13
+       4
+      ],
+      "do": "give",
+      "who": "g",
+      "to": "p"
+     },
+     {
+      "at": [
+       267,
+       6
+      ],
+      "do": "shot_close",
+      "who": "g"
+     },
+     {
+      "at": [
+       267,
+       8
+      ],
+      "do": "raise_hands",
+      "who": "p"
+     },
+     {
+      "at": [
+       267,
+       10
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       267,
+       13
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       267,
+       15
+      ],
+      "do": "shake_head",
+      "who": "g"
      },
      {
       "at": [
        267,
        17
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "g"
      },
      {
       "at": [
        267,
        20
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
        267,
        21
       ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       267,
+       23
+      ],
       "do": "pan_right"
      },
      {
       "at": [
        267,
-       24
+       25
       ],
       "do": "shot_wide"
      },
@@ -205,7 +341,7 @@
        267,
        26
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -214,20 +350,26 @@
        267,
        4
       ],
-      "until": null,
+      "until": [
+       267,
+       10
+      ],
       "motif": "coins",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        267,
        10
       ],
-      "until": null,
+      "until": [
+       267,
+       27
+      ],
       "motif": "wheat",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "page_turn"
@@ -337,7 +479,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No river motif (the phrase recalls Paradise) and no fire motif: wind for the whirlwind. The parable's application is not glossed: Al-Muyassar (insincere spending) and As-Sa'di (good deeds later spoiled) differ."
+  "notes": "No river motif (the phrase recalls Paradise) and no fire motif: wind for the whirlwind. The parable's application is not glossed: Al-Muyassar (insincere spending) and As-Sa'di (good deeds later spoiled) differ. STAGING v4: 266: the parable's garden (palms, vines, a river); the owner sits down on «الكبر» (weakness of age); the weak children are not drawn (no child figure). The whirlwind with fire is the storm and fire events on the garden, away from him, then the garden withers on «فاحترقت»; he lowers his head (grief, As-Sa'di). The parable's application (where the tafsirs differ) is not acted. 267: in the market a man gives of the good produce; he shakes his head on «ولا تيمموا الخبيث»."
  },
  "cover": {
   "series_ar": "فضل الإنفاق وآدابه",
@@ -349,5 +491,6 @@
    6
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

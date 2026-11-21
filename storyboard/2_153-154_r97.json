@@ -32,23 +32,54 @@
    "verses": [
     153
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "prayer_hall",
+    "time": "dawn",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        153,
-       3
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        153,
+       4
+      ],
+      "do": "raise_hands",
+      "who": "b"
+     },
+     {
+      "at": [
+       153,
+       6
+      ],
+      "do": "pray",
+      "who": "b"
+     },
+     {
+      "at": [
+       153,
        7
       ],
-      "do": "pan_right"
+      "do": "ruku",
+      "who": "b"
      },
      {
       "at": [
@@ -62,7 +93,8 @@
        153,
        9
       ],
-      "do": "pan_left"
+      "do": "sujud",
+      "who": "b"
      }
     ],
     "motifs": [
@@ -71,10 +103,13 @@
        153,
        4
       ],
-      "until": null,
+      "until": [
+       153,
+       8
+      ],
       "motif": "hands",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -89,6 +124,13 @@
    "params": {
     "mood": "night_sky",
     "beats": [
+     {
+      "at": [
+       154,
+       4
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        154,
@@ -164,7 +206,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Re-split from 2_153-155_r97 (reviewed): the audit found no clean audio cut at the old edge. Chapters, glosses and motifs are unchanged."
+  "notes": "Re-split from 2_153-155_r97 (reviewed): the audit found no clean audio cut at the old edge. Chapters, glosses and motifs are unchanged. STAGING v4: 153: seeking help through patience and prayer = du'a then prayer at dawn. 154 (the martyrs, their life is unseen) stays ambient."
  },
  "cover": {
   "series_ar": "الصبر والبلاء",
@@ -176,5 +218,6 @@
    6
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

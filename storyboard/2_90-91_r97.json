@@ -32,72 +32,92 @@
    "verses": [
     90
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 5,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       90,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        90,
        4
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
        90,
        6
       ],
-      "do": "pan_left"
+      "do": "shake_head",
+      "who": "p"
      },
      {
       "at": [
        90,
        10
       ],
-      "do": "shot_wide"
+      "do": "turn",
+      "who": "p"
      },
      {
       "at": [
        90,
-       13
+       14
       ],
       "do": "pan_right"
      },
      {
       "at": [
        90,
-       17
+       18
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        90,
-       20
+       21
       ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       90,
-       22
-      ],
-      "do": "pan_left"
+      "do": "walk_to",
+      "who": "p",
+      "to": "left"
      },
      {
       "at": [
        90,
        24
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
        90,
-       27
+       26
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -107,9 +127,9 @@
        8
       ],
       "until": null,
-      "motif": "book",
+      "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -120,51 +140,117 @@
    "verses": [
     91
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 5,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       91,
+       2
+      ],
+      "do": "speak",
+      "who": "b"
+     },
+     {
+      "at": [
+       91,
+       4
+      ],
+      "do": "point",
+      "who": "b",
+      "to": "p"
+     },
      {
       "at": [
        91,
        6
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        91,
-       10
+       8
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "p"
+     },
+     {
+      "at": [
+       91,
+       11
+      ],
+      "do": "read",
+      "who": "p"
      },
      {
       "at": [
        91,
        13
       ],
+      "do": "shake_head",
+      "who": "p"
+     },
+     {
+      "at": [
+       91,
+       18
+      ],
       "do": "pan_left"
      },
      {
       "at": [
        91,
-       22
+       21
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       91,
+       24
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       91,
+       26
       ],
       "do": "pan_right"
      },
      {
       "at": [
        91,
-       25
+       28
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       91,
-       29
-      ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "p"
      }
     ],
     "motifs": [
@@ -176,7 +262,7 @@
       "until": null,
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "light_sweep"
@@ -231,7 +317,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on the prophets (91); the killing of prophets is never shown."
+  "notes": "No motif on the prophets (91); the killing of prophets is never shown. STAGING v4: 90: the People of the Book refuse the revelation out of envy (shake_head, turn) and walk away on «فباءوا»; the wrath and punishment are not pictured. 91: some Muslims call them to believe (Al-Muyassar: إذا قال بعض المسلمين لليهود); they answer holding their own book and refuse the rest. The killing of prophets (91:23) is never shown; at «قل» only the people are shown."
  },
  "cover": {
   "series_ar": "موقفهم من الرسل",
@@ -243,5 +329,6 @@
    8
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

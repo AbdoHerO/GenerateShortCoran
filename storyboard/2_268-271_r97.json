@@ -33,72 +33,135 @@
     268,
     269
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "g",
+      "type": "man",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     },
+     {
+      "id": "p",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "sit",
+      "enter": null,
+      "exit": null,
+      "look": "poor"
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       268,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        268,
        3
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
        268,
        5
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        268,
        7
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       268,
+       8
+      ],
+      "do": "give",
+      "who": "g",
+      "to": "p"
+     },
+     {
+      "at": [
+       268,
+       10
+      ],
+      "do": "raise_hands",
+      "who": "p"
      },
      {
       "at": [
        268,
        12
       ],
-      "do": "pan_left"
+      "do": "sparkle",
+      "who": "g"
+     },
+     {
+      "at": [
+       269,
+       2
+      ],
+      "do": "read",
+      "who": "g"
      },
      {
       "at": [
        269,
        4
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "g"
      },
      {
       "at": [
        269,
-       5
+       7
       ],
       "do": "pan_left"
      },
      {
       "at": [
        269,
-       8
+       10
+      ],
+      "do": "sparkle",
+      "who": "g"
+     },
+     {
+      "at": [
+       269,
+       13
+      ],
+      "do": "read",
+      "who": "g"
+     },
+     {
+      "at": [
+       269,
+       15
       ],
       "do": "shot_wide"
-     },
-     {
-      "at": [
-       269,
-       11
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       269,
-       14
-      ],
-      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -107,10 +170,13 @@
        268,
        8
       ],
-      "until": null,
+      "until": [
+       269,
+       2
+      ],
       "motif": "seal",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -120,7 +186,7 @@
       "until": null,
       "motif": "lamp",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -132,30 +198,92 @@
     270,
     271
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "g",
+      "type": "man",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     },
+     {
+      "id": "p",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "sit",
+      "enter": null,
+      "exit": null,
+      "look": "poor"
+     },
+     {
+      "id": "q",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "sit",
+      "enter": null,
+      "exit": null,
+      "look": "poor"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        270,
-       4
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       270,
-       8
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        270,
-       11
+       2
       ],
-      "do": "pan_right"
+      "do": "give",
+      "who": "g",
+      "to": "p"
+     },
+     {
+      "at": [
+       270,
+       4
+      ],
+      "do": "raise_hands",
+      "who": "p"
+     },
+     {
+      "at": [
+       270,
+       6
+      ],
+      "do": "speak",
+      "who": "g"
+     },
+     {
+      "at": [
+       270,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       270,
+       13
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
@@ -169,49 +297,72 @@
        271,
        1
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "g"
      },
      {
       "at": [
        271,
-       4
+       3
       ],
-      "do": "pan_left"
+      "do": "sparkle",
+      "who": "g"
      },
      {
       "at": [
        271,
-       5
+       6
       ],
-      "do": "shot_wide"
+      "do": "walk_to",
+      "who": "g",
+      "to": "left"
      },
      {
       "at": [
        271,
        8
       ],
-      "do": "pan_right"
+      "do": "give",
+      "who": "g",
+      "to": "q"
      },
      {
       "at": [
        271,
-       14
+       9
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "q"
+     },
+     {
+      "at": [
+       271,
+       11
+      ],
+      "do": "raise_hands",
+      "who": "q"
+     },
+     {
+      "at": [
+       271,
+       13
+      ],
+      "do": "sparkle",
+      "who": "g"
      },
      {
       "at": [
        271,
        16
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        271,
-       18
+       19
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -220,20 +371,26 @@
        270,
        2
       ],
-      "until": null,
+      "until": [
+       270,
+       10
+      ],
       "motif": "coins",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        271,
        11
       ],
-      "until": null,
+      "until": [
+       271,
+       17
+      ],
       "motif": "burst",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "iris"
@@ -387,7 +544,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on the Shaytan's words (268:1-5); a seal for Allah's promise, a lamp for wisdom. 271: no two_paths (open charity is also praised), a burst on «خير لكم»."
+  "notes": "No motif on the Shaytan's words (268:1-5); a seal for Allah's promise, a lamp for wisdom. 271: no two_paths (open charity is also praised), a burst on «خير لكم». STAGING v4: 268: Shaytan is not drawn; the camera rests on the poor man while his threat of poverty is recited; the man gives on «مغفرة» (Allah's promise, a seal plate). 269: wisdom shown as the man reading (useful knowledge, As-Sa'di) with a lamp plate. 270-271: giving in the open market, then he steps aside and gives a second poor man quietly on «تخفوها وتؤتوها الفقراء»."
  },
  "cover": {
   "series_ar": "فضل الإنفاق وآدابه",
@@ -399,5 +556,6 @@
    2
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

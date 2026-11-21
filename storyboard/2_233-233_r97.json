@@ -32,28 +32,71 @@
    "verses": [
     233
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "home",
+    "time": "day",
+    "actors": [
+     {
+      "id": "f",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        233,
-       9
+       1
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       233,
+       7
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       233,
+       10
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       233,
+       12
+      ],
+      "do": "shot_close",
+      "who": "f"
      },
      {
       "at": [
        233,
        16
       ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       233,
+       17
+      ],
       "do": "shot_wide"
      },
      {
       "at": [
        233,
-       19
+       21
       ],
       "do": "pan_right"
      },
@@ -69,42 +112,37 @@
        233,
        24
       ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       233,
-       27
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       233,
-       31
-      ],
       "do": "pan_right"
      },
      {
       "at": [
        233,
-       34
+       25
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        233,
-       38
+       30
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       233,
+       35
+      ],
+      "do": "speak",
+      "who": "f"
      },
      {
       "at": [
        233,
        40
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "f"
      },
      {
       "at": [
@@ -116,35 +154,50 @@
      {
       "at": [
        233,
-       47
+       45
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        233,
-       50
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       233,
-       54
+       48
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        233,
-       56
+       53
+      ],
+      "do": "shot_close",
+      "who": "f"
+     },
+     {
+      "at": [
+       233,
+       55
       ],
       "do": "pan_right"
      },
      {
       "at": [
        233,
+       56
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       233,
        57
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       233,
+       60
       ],
       "do": "shot_wide"
      },
@@ -165,7 +218,7 @@
       "until": null,
       "motif": "hourglass",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -175,7 +228,17 @@
       "until": null,
       "motif": "wheat",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       233,
+       38
+      ],
+      "until": null,
+      "motif": "seal",
+      "place": "top",
+      "size": "s"
      }
     ]
    }
@@ -207,7 +270,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "One verse; no mother or child pictured."
+  "notes": "One verse; no mother or child pictured. STAGING v4: Nursing: a family sitting at home; no mother and child are drawn, nothing private. Hourglass for the two years, wheat for food and clothing provided, the seal on «تراض» (mutual consent), the family speaking on «وتشاور» (consultation). STAGING v4: Nursing: a family sitting at home; no mother and child are drawn, nothing private. Hourglass for the two years, wheat for food and clothing provided, the seal on «تراض» (mutual consent), the family speaking on «وتشاور» (consultation)."
  },
  "cover": {
   "series_ar": "أحكام الأسرة",
@@ -219,5 +282,6 @@
    4
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

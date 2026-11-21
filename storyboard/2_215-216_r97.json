@@ -32,10 +32,71 @@
    "verses": [
     215
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "g",
+      "type": "man",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     },
+     {
+      "id": "f",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       215,
+       13
+      ],
+      "look": "poor"
+     },
+     {
+      "id": "t",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       215,
+       13
+      ],
+      "exit": null,
+      "look": "traveller"
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       215,
+       1
+      ],
+      "do": "speak",
+      "who": "f"
+     },
      {
       "at": [
        215,
@@ -46,37 +107,66 @@
      {
       "at": [
        215,
+       4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       215,
+       6
+      ],
+      "do": "shot_close",
+      "who": "g"
+     },
+     {
+      "at": [
+       215,
+       9
+      ],
+      "do": "give",
+      "who": "g",
+      "to": "f"
+     },
+     {
+      "at": [
+       215,
        12
       ],
-      "do": "pan_right"
+      "do": "give",
+      "who": "g",
+      "to": "p"
      },
      {
       "at": [
        215,
        14
       ],
-      "do": "pan_right"
+      "do": "give",
+      "who": "g",
+      "to": "t"
      },
      {
       "at": [
        215,
-       17
+       16
       ],
-      "do": "pan_left"
+      "do": "raise_hands",
+      "who": "t"
      },
      {
       "at": [
        215,
        19
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        215,
        22
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -85,20 +175,13 @@
        215,
        6
       ],
-      "until": null,
+      "until": [
+       215,
+       20
+      ],
       "motif": "coins",
       "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       215,
-       9
-      ],
-      "until": null,
-      "motif": "house",
-      "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -111,7 +194,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "mountains",
+    "mood": "geometric",
     "beats": [
      {
       "at": [
@@ -123,9 +206,9 @@
      {
       "at": [
        216,
-       13
+       12
       ],
-      "do": "pan_left"
+      "do": "pattern_turn"
      },
      {
       "at": [
@@ -137,16 +220,16 @@
      {
       "at": [
        216,
-       20
+       19
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        216,
-       23
+       22
       ],
-      "do": "pan_right"
+      "do": "pattern_turn"
      }
     ],
     "motifs": [
@@ -155,8 +238,21 @@
        216,
        9
       ],
-      "until": null,
+      "until": [
+       216,
+       21
+      ],
       "motif": "two_paths",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       216,
+       22
+      ],
+      "until": null,
+      "motif": "light",
       "place": "top",
       "size": "m"
      }
@@ -213,7 +309,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on fighting (216); two_paths for «you may dislike what is good for you»."
+  "notes": "No motif on fighting (216); two_paths for «you may dislike what is good for you». STAGING v4: 215 in a town: people ask (the Prophet is not shown); a man gives to his family (parents and relatives), to a poor man and to a traveller as the verse lists them; the poor man raises his hands. Orphans are not drawn (no child figures). 216 (fighting prescribed) stays ambient: the two paths end before the Name, light after it. STAGING v4: 215 in a town: people ask (the Prophet is not shown); a man gives to his family (parents and relatives), to a poor man and to a traveller as the verse lists them; the poor man raises his hands. Orphans are not drawn (no child figures). 216 (fighting prescribed) stays ambient: the two paths end before the Name, light after it. STAGING v4: 215 in a town: people ask (the Prophet is not shown); a man gives to his family (parents and relatives), to a poor man and then to a traveller who takes his place, as the verse lists them; the traveller raises his hands. Orphans are not drawn (no child figures). 216 (fighting prescribed) stays ambient: the two paths end before the Name, light after it."
  },
  "cover": {
   "series_ar": "أسئلة وأحكام",
@@ -225,5 +321,6 @@
    9
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

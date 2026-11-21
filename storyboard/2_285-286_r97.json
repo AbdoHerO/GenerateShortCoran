@@ -32,63 +32,128 @@
    "verses": [
     285
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 5,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        285,
-       8
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       285,
+       4
       ],
       "do": "pan_left"
      },
      {
       "at": [
        285,
-       10
+       8
       ],
-      "do": "shot_wide"
+      "do": "read",
+      "who": "b"
+     },
+     {
+      "at": [
+       285,
+       9
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       285,
+       12
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
        285,
        13
       ],
-      "do": "shot_wide"
+      "do": "read",
+      "who": "b"
      },
      {
       "at": [
        285,
        16
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        285,
        20
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        285,
-       26
+       21
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "b"
+     },
+     {
+      "at": [
+       285,
+       23
+      ],
+      "do": "bow",
+      "who": "b"
+     },
+     {
+      "at": [
+       285,
+       24
+      ],
+      "do": "raise_hands",
+      "who": "b"
+     },
+     {
+      "at": [
+       285,
+       27
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
      {
       "at": [
        285,
-       4
+       8
       ],
-      "until": null,
+      "until": [
+       285,
+       11
+      ],
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -96,9 +161,9 @@
        24
       ],
       "until": null,
-      "motif": "hands",
+      "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -109,114 +174,168 @@
    "verses": [
     286
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "prayer_hall",
+    "time": "night",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 5,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        286,
-       5
+       2
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        286,
-       12
+       6
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        286,
-       14
+       9
       ],
-      "do": "pan_left"
+      "do": "sparkle",
+      "who": "b"
      },
      {
       "at": [
        286,
-       16
+       13
       ],
-      "do": "pan_left"
+      "do": "raise_hands",
+      "who": "b"
      },
      {
       "at": [
        286,
-       19
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       286,
-       21
+       15
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       286,
+       17
+      ],
+      "do": "bow",
+      "who": "b"
+     },
+     {
+      "at": [
+       286,
+       20
+      ],
+      "do": "raise_hands",
+      "who": "b"
+     },
+     {
+      "at": [
+       286,
+       23
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
        286,
        24
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        286,
-       25
+       28
       ],
       "do": "pan_left"
      },
      {
       "at": [
        286,
-       30
+       31
       ],
-      "do": "pan_right"
+      "do": "raise_hands",
+      "who": "b"
      },
      {
       "at": [
        286,
-       32
+       33
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        286,
-       34
+       36
       ],
-      "do": "shot_wide"
+      "do": "bow",
+      "who": "b"
+     },
+     {
+      "at": [
+       286,
+       39
+      ],
+      "do": "raise_hands",
+      "who": "b"
      },
      {
       "at": [
        286,
        40
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       286,
+       41
+      ],
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        286,
        43
       ],
+      "do": "sparkle",
+      "who": "b"
+     },
+     {
+      "at": [
+       286,
+       44
+      ],
       "do": "pan_left"
      },
      {
       "at": [
        286,
-       45
+       46
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       286,
-       47
-      ],
-      "do": "pan_left"
+      "do": "raise_hands",
+      "who": "b"
      },
      {
       "at": [
@@ -232,20 +351,26 @@
        286,
        7
       ],
-      "until": null,
+      "until": [
+       286,
+       13
+      ],
       "motif": "two_paths",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        286,
        39
       ],
-      "until": null,
+      "until": [
+       286,
+       44
+      ],
       "motif": "hands",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "light_sweep"
@@ -410,7 +535,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on the Messenger, the angels or the messengers (285:2, 12, 14), nor on «ربنا» or any negated plea. A book for what was revealed, hands for the supplications, two_paths for good and evil earned. As-Sa'di has no entry for 286: Al-Muyassar only. Cover title changed from «خواتيم البقرة» (same as the series)."
+  "notes": "No motif on the Messenger, the angels or the messengers (285:2, 12, 14), nor on «ربنا» or any negated plea. A book for what was revealed, hands for the supplications, two_paths for good and evil earned. As-Sa'di has no entry for 286: Al-Muyassar only. Cover title changed from «خواتيم البقرة» (same as the series). STAGING v4: 285: the Messenger ﷺ is not shown, nor the angels or messengers: believers sit in a prayer hall reading (what was revealed), say «سمعنا وأطعنا» and raise their hands on «غفرانك». 286: the same believers at night making the closing du'a: raised hands on each «ربنا», heads lowered on «نسينا» and «لا طاقة». No battle on «فانصرنا»."
  },
  "cover": {
   "series_ar": "خواتيم البقرة",
@@ -419,8 +544,9 @@
   "title_en": "Faith and supplication",
   "at": [
    285,
-   4
+   8
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

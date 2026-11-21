@@ -32,23 +32,87 @@
    "verses": [
     257
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "night",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "uncountable": true
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       257,
+       19
+      ],
+      "uncountable": true
+     }
+    ],
+    "events": [
+     {
+      "type": "light",
+      "at": [
+       257,
+       9
+      ],
+      "until": null
+     }
+    ],
     "beats": [
      {
       "at": [
        257,
-       5
+       2
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        257,
-       10
+       4
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       257,
+       5
+      ],
+      "do": "walk_to",
+      "who": "b",
+      "to": "center"
+     },
+     {
+      "at": [
+       257,
+       9
+      ],
+      "do": "sparkle",
+      "who": "b"
+     },
+     {
+      "at": [
+       257,
+       11
+      ],
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
@@ -62,21 +126,24 @@
        257,
        13
       ],
-      "do": "shot_wide"
+      "do": "turn",
+      "who": "d"
      },
      {
       "at": [
        257,
-       15
+       14
       ],
-      "do": "pan_left"
+      "do": "walk_to",
+      "who": "d",
+      "to": "right"
      },
      {
       "at": [
        257,
        16
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -90,12 +157,12 @@
        257,
        20
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        257,
-       22
+       23
       ],
       "do": "pan_left"
      }
@@ -108,11 +175,11 @@
       ],
       "until": [
        257,
-       14
+       13
       ],
       "motif": "lamp",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -177,7 +244,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A lamp lights on «النور» and goes out when the verse turns to those taken out of the light. Nothing for the Fire (257:21). Title changed from «ولي المؤمنين», which is the wording of 3:68."
+  "notes": "A lamp lights on «النور» and goes out when the verse turns to those taken out of the light. Nothing for the Fire (257:21). Title changed from «ولي المؤمنين», which is the wording of 3:68. STAGING v4: A town at night: the believers (uncountable) walk into a soft beam of light on «النور» (from the darkness of disbelief to the light of faith); the disbelievers turn their backs and walk off into the dark on «يخرجونهم» and leave the stage before «أصحاب النار». Nothing worshipped is drawn, and nothing for the Fire."
  },
  "cover": {
   "series_ar": "الرسل وآية الكرسي",
@@ -189,5 +256,6 @@
    9
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

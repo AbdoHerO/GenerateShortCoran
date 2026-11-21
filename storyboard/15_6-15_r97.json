@@ -34,30 +34,56 @@
     7,
     8
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "gather",
+      "enter": null,
+      "exit": null,
+      "uncountable": true
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        6,
-       3
+       1
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "d"
+     },
+     {
+      "at": [
+       6,
+       4
+      ],
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        6,
        8
       ],
-      "do": "pan_left"
+      "do": "shake_head",
+      "who": "d"
      },
      {
       "at": [
        7,
-       3
+       1
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "d"
      },
      {
       "at": [
@@ -68,27 +94,57 @@
      },
      {
       "at": [
-       8,
-       1
+       7,
+       8
       ],
-      "do": "pan_left"
+      "do": "shake_head",
+      "who": "d"
      },
      {
       "at": [
        8,
-       4
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       8,
+       3
       ],
       "do": "pan_right"
      },
      {
       "at": [
        8,
-       8
+       6
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "d"
      }
     ],
-    "motifs": []
+    "motifs": [
+     {
+      "at": [
+       8,
+       5
+      ],
+      "until": null,
+      "motif": "seal",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       8,
+       8
+      ],
+      "until": null,
+      "motif": "hourglass",
+      "place": "top",
+      "size": "s"
+     }
+    ]
    }
   },
   {
@@ -97,16 +153,46 @@
    "verses": [
     9
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        9,
-       7
+       1
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       9,
+       4
+      ],
+      "do": "read",
+      "who": "b"
+     },
+     {
+      "at": [
+       9,
+       6
+      ],
+      "do": "shot_close",
+      "who": "b"
      }
     ],
     "motifs": [
@@ -118,10 +204,10 @@
       "until": null,
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "light_sweep"
    }
   },
   {
@@ -133,55 +219,122 @@
     12,
     13
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "gather",
+      "enter": null,
+      "exit": [
+       13,
+       4
+      ],
+      "uncountable": true
+     }
+    ],
+    "events": [
+     {
+      "type": "ruin",
+      "at": [
+       13,
+       6
+      ],
+      "until": null
+     }
+    ],
     "beats": [
      {
       "at": [
        10,
-       7
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       11,
-       3
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       11,
-       8
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       12,
-       2
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       13,
        1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
-       13,
-       5
+       10,
+       6
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       11,
+       2
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       11,
+       6
+      ],
+      "do": "speak",
+      "who": "d"
+     },
+     {
+      "at": [
+       11,
+       8
+      ],
+      "do": "shake_head",
+      "who": "d"
+     },
+     {
+      "at": [
+       12,
+       1
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       12,
+       4
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       13,
+       1
+      ],
+      "do": "turn",
+      "who": "d"
+     },
+     {
+      "at": [
+       13,
+       7
+      ],
+      "do": "shot_wide"
      }
     ],
-    "motifs": [],
-    "transition": "dissolve"
+    "motifs": [
+     {
+      "at": [
+       10,
+       6
+      ],
+      "until": [
+       11,
+       3
+      ],
+      "motif": "crowd",
+      "place": "top",
+      "size": "s"
+     }
+    ],
+    "transition": "page_turn"
    }
   },
   {
@@ -191,48 +344,108 @@
     14,
     15
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "night",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "uncountable": true
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        14,
-       6
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       14,
-       9
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       15,
        1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
-       15,
-       4
+       14,
+       3
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       14,
+       6
+      ],
+      "do": "look_up",
+      "who": "d"
+     },
+     {
+      "at": [
+       14,
+       8
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       15,
+       1
+      ],
+      "do": "speak",
+      "who": "d"
+     },
+     {
+      "at": [
+       15,
+       3
+      ],
+      "do": "shake_head",
+      "who": "d"
+     },
+     {
+      "at": [
+       15,
+       5
+      ],
+      "do": "speak",
+      "who": "d"
      },
      {
       "at": [
        15,
        7
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       15,
+       8
+      ],
+      "do": "turn",
+      "who": "d"
      }
     ],
-    "motifs": [],
-    "transition": "dissolve"
+    "motifs": [
+     {
+      "at": [
+       14,
+       6
+      ],
+      "until": null,
+      "motif": "stars",
+      "place": "top",
+      "size": "s"
+     }
+    ],
+    "transition": "morph"
    }
   }
  ],
@@ -361,7 +574,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Their slander (6-7) is framed («استهزاء وسخرية», «وهذا من أعظم الظلم والجهل»). The angels (7-8) and the door in the sky (14) are never drawn. A book only for «إنا نحن نزلنا الذكر وإنا له لحافظون». Not glossed: 6:7-8 (As-Sa'di's line echoes 5:104), 12 and 13:1-3 (first-person paraphrase), 15:5-8 (their claim). 11 keeps «وما يأتيهم من رسول إلا…» whole."
+  "notes": "Their slander (6-7) is framed («استهزاء وسخرية», «وهذا من أعظم الظلم والجهل»). The angels (7-8) and the door in the sky (14) are never drawn. A book only for «إنا نحن نزلنا الذكر وإنا له لحافظون». Not glossed: 6:7-8 (As-Sa'di's line echoes 5:104), 12 and 13:1-3 (first-person paraphrase), 15:5-8 (their claim). 11 keeps «وما يأتيهم من رسول إلا…» whole. STAGING v4: 6-8: the deniers (uncountable) in a town at dusk speak and shake their heads; the Prophet is not shown and nobody points at him; the angels are not drawn; a seal on 8:5 (after the word for the angels) and an hourglass on 8:8. 9: believers read in a prayer hall (As-Sa'di: kept in the hearts of his nation), a book plate. 10-13: a former nation mocks (speak, shake_head), turns away and leaves the stage on 13:4, then the ruin event on the empty town on 13:6 (both tafsirs: Allah's way of destroying those who did not believe); no messenger is drawn (unnamed). 14-15: deniers at night look up at the sky (no door is drawn), then speak and shake their heads; stars on 14:6."
  },
  "cover": {
   "series_ar": "القرآن والمستهزئون",
@@ -370,8 +583,9 @@
   "title_en": "The mockers' obstinacy",
   "at": [
    9,
-   3
+   5
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

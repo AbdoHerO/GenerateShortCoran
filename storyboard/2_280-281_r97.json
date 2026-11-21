@@ -32,23 +32,98 @@
    "verses": [
     280
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "r",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "rich"
+     },
+     {
+      "id": "d",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "sit",
+      "enter": null,
+      "exit": null,
+      "look": "poor"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        280,
-       8
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        280,
+       4
+      ],
+      "do": "bow",
+      "who": "d"
+     },
+     {
+      "at": [
+       280,
+       5
+      ],
+      "do": "speak",
+      "who": "r"
+     },
+     {
+      "at": [
+       280,
+       7
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       280,
+       9
+      ],
+      "do": "give",
+      "who": "r",
+      "to": "d"
+     },
+     {
+      "at": [
+       280,
+       11
+      ],
+      "do": "raise_hands",
+      "who": "d"
+     },
+     {
+      "at": [
+       280,
+       13
+      ],
+      "do": "sparkle",
+      "who": "r"
+     },
+     {
+      "at": [
+       280,
        14
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -57,10 +132,13 @@
        280,
        5
       ],
-      "until": null,
+      "until": [
+       280,
+       10
+      ],
       "motif": "hourglass",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -70,7 +148,7 @@
       "until": null,
       "motif": "burst",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -90,7 +168,7 @@
        281,
        2
       ],
-      "do": "shot_wide"
+      "do": "stars"
      },
      {
       "at": [
@@ -104,45 +182,58 @@
        281,
        7
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        281,
        10
       ],
-      "do": "pan_left"
+      "do": "stars"
      },
      {
       "at": [
        281,
        12
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        281,
        13
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        281,
        15
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
      {
       "at": [
        281,
-       3
+       2
+      ],
+      "until": [
+       281,
+       6
+      ],
+      "motif": "hourglass",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       281,
+       8
       ],
       "until": null,
-      "motif": "hourglass",
+      "motif": "light",
       "place": "top",
       "size": "m"
      }
@@ -221,7 +312,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "JOINED after 280 is inside the video. The Day of return (281) gets only an hourglass, no scales and nothing literal."
+  "notes": "JOINED after 280 is inside the video. The Day of return (281) gets only an hourglass, no scales and nothing literal. STAGING v4: 280: a creditor and a debtor in hardship in the market: he grants him time (speaks, hourglass) and, on «وأن تصدقوا», gives (remits). 281 (the Day of return, the reckoning) stays ambient: the hourglass now leaves before the Name; a light plate afterwards (no scales)."
  },
  "cover": {
   "series_ar": "الربا",
@@ -233,5 +324,6 @@
    5
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

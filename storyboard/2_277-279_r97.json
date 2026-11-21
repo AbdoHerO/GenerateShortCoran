@@ -32,9 +32,34 @@
    "verses": [
     277
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "sit",
+      "enter": null,
+      "exit": null,
+      "look": "poor"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
@@ -46,30 +71,73 @@
      {
       "at": [
        277,
+       6
+      ],
+      "do": "pray",
+      "who": "b"
+     },
+     {
+      "at": [
+       277,
        7
       ],
-      "do": "shot_wide"
+      "do": "ruku",
+      "who": "b"
+     },
+     {
+      "at": [
+       277,
+       8
+      ],
+      "do": "stand_up",
+      "who": "b"
+     },
+     {
+      "at": [
+       277,
+       9
+      ],
+      "do": "give",
+      "who": "b",
+      "to": "p"
+     },
+     {
+      "at": [
+       277,
+       11
+      ],
+      "do": "raise_hands",
+      "who": "p"
      },
      {
       "at": [
        277,
        12
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        277,
        14
       ],
-      "do": "pan_left"
+      "do": "sparkle",
+      "who": "b"
      },
      {
       "at": [
        277,
-       16
+       15
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       277,
+       18
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -78,20 +146,26 @@
        277,
        6
       ],
-      "until": null,
+      "until": [
+       277,
+       8
+      ],
       "motif": "hands",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        277,
        8
       ],
-      "until": null,
+      "until": [
+       277,
+       13
+      ],
       "motif": "coins",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -103,23 +177,58 @@
     278,
     279
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "r",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "rich"
+     },
+     {
+      "id": "p",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        278,
-       2
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        278,
+       3
+      ],
+      "do": "shot_close",
+      "who": "r"
+     },
+     {
+      "at": [
+       278,
        4
       ],
-      "do": "pan_left"
+      "do": "bow",
+      "who": "r"
      },
      {
       "at": [
@@ -133,6 +242,22 @@
        278,
        6
       ],
+      "do": "shake_head",
+      "who": "r"
+     },
+     {
+      "at": [
+       278,
+       8
+      ],
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       278,
+       10
+      ],
       "do": "pan_left"
      },
      {
@@ -140,7 +265,15 @@
        278,
        12
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       278,
+       13
+      ],
+      "do": "sparkle",
+      "who": "r"
      },
      {
       "at": [
@@ -152,7 +285,7 @@
      {
       "at": [
        279,
-       5
+       3
       ],
       "do": "pan_right"
      },
@@ -168,12 +301,37 @@
        279,
        9
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        279,
-       15
+       10
+      ],
+      "do": "bow",
+      "who": "r"
+     },
+     {
+      "at": [
+       279,
+       12
+      ],
+      "do": "give",
+      "who": "p",
+      "to": "r"
+     },
+     {
+      "at": [
+       279,
+       14
+      ],
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       279,
+       16
       ],
       "do": "shot_wide"
      }
@@ -184,10 +342,14 @@
        278,
        10
       ],
-      "until": null,
+      "until": [
+       279,
+       1
+      ],
       "motif": "leaf",
       "place": "top",
-      "size": "m"
+      "size": "s",
+      "exit": "undraw"
      },
      {
       "at": [
@@ -197,7 +359,7 @@
       "until": null,
       "motif": "coins",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "wipe"
@@ -318,7 +480,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif and no gloss on «بحرب من الله ورسوله» (279:4-8). Nothing on the negated «لا تظلمون ولا تظلمون»."
+  "notes": "No motif and no gloss on «بحرب من الله ورسوله» (279:4-8). Nothing on the negated «لا تظلمون ولا تظلمون». STAGING v4: 277: believers pray in a prayer hall, then give zakat to a poor man. 278-279: a lender and a borrower in the market: the lender lowers his head on «اتقوا» and shakes his head on «وذروا ما بقي من الربا» (he gives up the extra); nothing is drawn or acted for the war warning (279:4-8, camera only); on «رءوس أموالكم» the borrower repays the capital."
  },
  "cover": {
   "series_ar": "الربا",
@@ -330,5 +492,6 @@
    8
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

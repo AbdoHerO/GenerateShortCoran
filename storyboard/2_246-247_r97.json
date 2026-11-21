@@ -32,10 +32,67 @@
    "verses": [
     246
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "mountains",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "n",
+      "type": "prophet",
+      "label": "نبي",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "m",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 5,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       246,
+       52
+      ],
+      "uncountable": true
+     },
+     {
+      "id": "f",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": [
+       246,
+       51
+      ],
+      "exit": null,
+      "uncountable": true
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       246,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       246,
+       4
+      ],
+      "do": "shot_close",
+      "who": "m"
+     },
      {
       "at": [
        246,
@@ -46,79 +103,152 @@
      {
       "at": [
        246,
-       9
+       8
       ],
-      "do": "shot_wide"
+      "do": "walk_to",
+      "who": "m",
+      "to": "center"
      },
      {
       "at": [
        246,
        12
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "m"
+     },
+     {
+      "at": [
+       246,
+       13
+      ],
+      "do": "glow",
+      "who": "n"
+     },
+     {
+      "at": [
+       246,
+       15
+      ],
+      "do": "speak",
+      "who": "m"
      },
      {
       "at": [
        246,
        20
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "m"
      },
      {
       "at": [
        246,
        22
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "n"
      },
      {
       "at": [
        246,
-       27
+       26
+      ],
+      "do": "shot_close",
+      "who": "m"
+     },
+     {
+      "at": [
+       246,
+       29
       ],
       "do": "pan_right"
      },
      {
       "at": [
        246,
-       30
+       31
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "m"
      },
      {
       "at": [
        246,
        33
       ],
-      "do": "pan_right"
+      "do": "shake_head",
+      "who": "m"
      },
      {
       "at": [
        246,
-       36
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       246,
-       40
+       35
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        246,
-       44
+       40
       ],
-      "do": "pan_left"
+      "do": "point",
+      "who": "m",
+      "to": "left"
+     },
+     {
+      "at": [
+       246,
+       41
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       246,
+       43
+      ],
+      "do": "bow",
+      "who": "m"
+     },
+     {
+      "at": [
+       246,
+       45
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       246,
+       48
+      ],
+      "do": "walk_to",
+      "who": "m",
+      "to": "left"
+     },
+     {
+      "at": [
+       246,
+       51
+      ],
+      "do": "shot_close",
+      "who": "f"
      },
      {
       "at": [
        246,
        53
       ],
-      "do": "pan_left"
+      "do": "sparkle",
+      "who": "f"
+     },
+     {
+      "at": [
+       246,
+       54
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -127,30 +257,26 @@
        246,
        17
       ],
-      "until": null,
+      "until": [
+       246,
+       21
+      ],
       "motif": "crown",
       "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       246,
-       42
-      ],
-      "until": null,
-      "motif": "house",
-      "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        246,
        48
       ],
-      "until": null,
+      "until": [
+       246,
+       52
+      ],
       "motif": "footsteps",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -161,44 +287,127 @@
    "verses": [
     247
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "n",
+      "type": "prophet",
+      "label": "نبي",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "m",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 5,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "uncountable": true
+     },
+     {
+      "id": "t",
+      "type": "man",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       247,
+       9
+      ],
+      "exit": null,
+      "look": "plain"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        247,
-       6
+       1
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "n"
      },
      {
       "at": [
        247,
-       13
+       3
       ],
-      "do": "pan_right"
+      "do": "glow",
+      "who": "n"
      },
      {
       "at": [
        247,
-       17
+       7
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       247,
+       9
+      ],
+      "do": "shot_close",
+      "who": "t"
+     },
+     {
+      "at": [
+       247,
+       11
+      ],
+      "do": "speak",
+      "who": "m"
+     },
+     {
+      "at": [
+       247,
+       12
+      ],
+      "do": "shake_head",
+      "who": "m"
+     },
+     {
+      "at": [
+       247,
+       15
+      ],
+      "do": "point",
+      "who": "m",
+      "to": "t"
+     },
+     {
+      "at": [
+       247,
+       18
+      ],
+      "do": "shot_close",
+      "who": "m"
      },
      {
       "at": [
        247,
        20
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        247,
-       21
+       22
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "t"
      },
      {
       "at": [
@@ -210,23 +419,47 @@
      {
       "at": [
        247,
-       27
+       26
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "n"
      },
      {
       "at": [
        247,
-       31
+       29
+      ],
+      "do": "sparkle",
+      "who": "t"
+     },
+     {
+      "at": [
+       247,
+       32
+      ],
+      "do": "shot_close",
+      "who": "t"
+     },
+     {
+      "at": [
+       247,
+       35
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       247,
+       39
       ],
       "do": "pan_left"
      },
      {
       "at": [
        247,
-       40
+       41
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -242,20 +475,26 @@
        247,
        10
       ],
-      "until": null,
+      "until": [
+       247,
+       26
+      ],
       "motif": "crown",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        247,
-       34
+       31
       ],
-      "until": null,
+      "until": [
+       247,
+       36
+      ],
       "motif": "lamp",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "iris"
@@ -398,7 +637,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on the prophet of Bani Israel, on fighting, or on the negated wealth (247:21-25). Crown only for the kingship asked for and given (Talut is not a prophet). Title changed from «طلب ملك», which reads as «طلب مَلَك» (asking for an angel) without diacritics."
+  "notes": "No motif on the prophet of Bani Israel, on fighting, or on the negated wealth (247:21-25). Crown only for the kingship asked for and given (Talut is not a prophet). Title changed from «طلب ملك», which reads as «طلب مَلَك» (asking for an angel) without diacritics. STAGING v4: Their prophet (unnamed in the verse and in both tafsirs) is a blue light drop labelled «نبي» only, no name. The chiefs are an uncountable group in a town (no place is named; town chosen as neutral). No battle: on «تولوا» the chiefs walk away and leave; a few believers (uncountable) remain, sparkle on «قليلا منهم». Talut is a plain faceless man (not a prophet, not the ruler costume: the sources give no detail of his dress), appearing when named; the chiefs point at him in objection; sparkle on «اصطفاه»."
  },
  "cover": {
   "series_ar": "طالوت وجالوت",
@@ -410,5 +649,6 @@
    10
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

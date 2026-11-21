@@ -32,10 +32,68 @@
    "verses": [
     243
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 6,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       243,
+       12
+      ],
+      "uncountable": true
+     }
+    ],
+    "events": [
+     {
+      "type": "light",
+      "at": [
+       243,
+       17
+      ],
+      "until": null
+     }
+    ],
     "beats": [
+     {
+      "at": [
+       243,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       243,
+       5
+      ],
+      "do": "walk_to",
+      "who": "p",
+      "to": "right"
+     },
+     {
+      "at": [
+       243,
+       7
+      ],
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       243,
+       9
+      ],
+      "do": "pan_right"
+     },
      {
       "at": [
        243,
@@ -46,30 +104,31 @@
      {
       "at": [
        243,
-       13
+       15
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        243,
-       20
+       21
+      ],
+      "do": "sparkle",
+      "who": "center"
+     },
+     {
+      "at": [
+       243,
+       25
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        243,
-       24
+       27
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       243,
-       26
-      ],
-      "do": "pan_right"
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -78,20 +137,26 @@
        243,
        5
       ],
-      "until": null,
+      "until": [
+       243,
+       14
+      ],
       "motif": "footsteps",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        243,
-       17
+       15
       ],
-      "until": null,
-      "motif": "growth",
+      "until": [
+       243,
+       19
+      ],
+      "motif": "hourglass",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -103,51 +168,145 @@
     244,
     245
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "rain",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "sit",
+      "enter": null,
+      "exit": null,
+      "look": "poor"
+     },
+     {
+      "id": "g",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "rich"
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       244,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        244,
        5
       ],
-      "do": "pan_right"
+      "do": "bow",
+      "who": "b"
      },
      {
       "at": [
        244,
+       6
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       245,
+       1
+      ],
+      "do": "shot_close",
+      "who": "g"
+     },
+     {
+      "at": [
+       245,
+       4
+      ],
+      "do": "give",
+      "who": "g",
+      "to": "p"
+     },
+     {
+      "at": [
+       245,
+       7
+      ],
+      "do": "raise_hands",
+      "who": "p"
+     },
+     {
+      "at": [
+       245,
        8
+      ],
+      "do": "sparkle",
+      "who": "g"
+     },
+     {
+      "at": [
+       245,
+       9
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       245,
+       10
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        245,
-       2
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       245,
-       8
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       245,
        11
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       245,
+       13
+      ],
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
        245,
        14
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "g"
+     },
+     {
+      "at": [
+       245,
+       16
+      ],
+      "do": "bow",
+      "who": "b"
      }
     ],
     "motifs": [
@@ -159,17 +318,20 @@
       "until": null,
       "motif": "coins",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        245,
        10
       ],
-      "until": null,
+      "until": [
+       245,
+       12
+      ],
       "motif": "wheat",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "light_sweep"
@@ -301,7 +463,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No crowd for the thousands (number left vague), no motif on death or fighting; growth for the revival, coins and wheat for the loan multiplied. 243:15 and 243:17 glosses from As-Sa'di (Muyassar's 'punishment' reading avoided)."
+  "notes": "No crowd for the thousands (number left vague), no motif on death or fighting; growth for the revival, coins and wheat for the loan multiplied. 243:15 and 243:17 glosses from As-Sa'di (Muyassar's 'punishment' reading avoided). STAGING v4: 243: the people (uncountable: the verse gives only «thousands») walk out of their town and leave the stage; their death is not shown (no bodies, no darkness): an hourglass on «موتوا» (no caution outruns the decree, As-Sa'di) and a soft light on «أحياهم» (mercy). 244: believers standing, heads lowered (sincere intention); no weapons, no fighting. 245: a man gives to a poor man (the goodly loan); on «يقبض/يبسط» the camera goes to the poor man, then the rich man."
  },
  "cover": {
   "series_ar": "طالوت وجالوت",
@@ -310,8 +472,9 @@
   "title_en": "Fate, and giving multiplied",
   "at": [
    243,
-   17
+   7
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

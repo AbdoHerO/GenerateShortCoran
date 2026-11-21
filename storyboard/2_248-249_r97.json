@@ -32,37 +32,111 @@
    "verses": [
     248
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "n",
+      "type": "prophet",
+      "label": "نبي",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "m",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 5,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "uncountable": true
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       248,
+       1
+      ],
+      "do": "speak",
+      "who": "n"
+     },
+     {
+      "at": [
+       248,
+       3
+      ],
+      "do": "glow",
+      "who": "n"
+     },
+     {
+      "at": [
+       248,
+       5
+      ],
+      "do": "shot_close",
+      "who": "m"
+     },
      {
       "at": [
        248,
        8
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "n"
+     },
+     {
+      "at": [
+       248,
+       9
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        248,
        11
       ],
-      "do": "pan_right"
+      "do": "sparkle",
+      "who": "m"
      },
      {
       "at": [
        248,
        12
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       248,
+       14
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
        248,
        16
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "n"
+     },
+     {
+      "at": [
+       248,
+       19
+      ],
+      "do": "glow",
+      "who": "n"
      },
      {
       "at": [
@@ -76,14 +150,30 @@
        248,
        23
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       248,
+       26
+      ],
+      "do": "sparkle",
+      "who": "m"
+     },
+     {
+      "at": [
+       248,
+       29
+      ],
+      "do": "shot_close",
+      "who": "m"
      },
      {
       "at": [
        248,
        30
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -96,9 +186,9 @@
        248,
        12
       ],
-      "motif": "burst",
+      "motif": "crown",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -108,7 +198,7 @@
       "until": null,
       "motif": "burst",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -119,93 +209,206 @@
    "verses": [
     249
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "mountains",
+    "setting": "river",
+    "time": "day",
+    "actors": [
+     {
+      "id": "t",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     },
+     {
+      "id": "s",
+      "type": "soldiers",
+      "label": "",
+      "place": "center",
+      "count": 6,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       249,
+       30
+      ],
+      "uncountable": true
+     },
+     {
+      "id": "f",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": [
+       249,
+       28
+      ],
+      "exit": null,
+      "uncountable": true
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       249,
+       2
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        249,
        5
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "t"
      },
      {
       "at": [
        249,
        8
       ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       249,
-       12
-      ],
       "do": "shot_wide"
      },
      {
       "at": [
        249,
-       15
+       9
       ],
-      "do": "pan_right"
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       249,
+       13
+      ],
+      "do": "shake_head",
+      "who": "t"
+     },
+     {
+      "at": [
+       249,
+       17
+      ],
+      "do": "shot_close",
+      "who": "s"
      },
      {
       "at": [
        249,
        19
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       249,
-       24
-      ],
       "do": "pan_left"
      },
      {
       "at": [
        249,
-       26
+       25
       ],
-      "do": "pan_right"
+      "do": "bow",
+      "who": "s"
+     },
+     {
+      "at": [
+       249,
+       28
+      ],
+      "do": "shot_close",
+      "who": "f"
+     },
+     {
+      "at": [
+       249,
+       31
+      ],
+      "do": "walk_to",
+      "who": "t",
+      "to": "left"
+     },
+     {
+      "at": [
+       249,
+       34
+      ],
+      "do": "shot_close",
+      "who": "f"
      },
      {
       "at": [
        249,
        36
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "f"
      },
      {
       "at": [
        249,
-       42
+       38
+      ],
+      "do": "bow",
+      "who": "f"
+     },
+     {
+      "at": [
+       249,
+       41
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        249,
-       46
+       43
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "f"
+     },
+     {
+      "at": [
+       249,
+       45
+      ],
+      "do": "sparkle",
+      "who": "f"
+     },
+     {
+      "at": [
+       249,
+       47
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       249,
+       49
+      ],
+      "do": "speak",
+      "who": "f"
      },
      {
       "at": [
        249,
        50
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        249,
        51
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "f"
      },
      {
       "at": [
@@ -219,46 +422,50 @@
        249,
        55
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        249,
        56
       ],
-      "do": "pan_right"
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       249,
+       60
+      ],
+      "do": "sparkle",
+      "who": "f"
      }
     ],
     "motifs": [
      {
       "at": [
        249,
-       9
-      ],
-      "until": null,
-      "motif": "river",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       249,
        22
       ],
-      "until": null,
+      "until": [
+       249,
+       25
+      ],
       "motif": "drop",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        249,
        31
       ],
-      "until": null,
+      "until": [
+       249,
+       48
+      ],
       "motif": "footsteps",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -268,7 +475,7 @@
       "until": null,
       "motif": "mountain",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "wipe"
@@ -444,7 +651,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Angels carrying the Ark (248:21-22) and the relics of the families of Musa and Harun get no motif and no gloss. burst for the sign; river for the test (not a Paradise river); drop for the single scoop; footsteps for the crossing; mountain for the steadfast. No crowd for the few or the many; the believers' number is not given."
+  "notes": "Angels carrying the Ark (248:21-22) and the relics of the families of Musa and Harun get no motif and no gloss. burst for the sign; river for the test (not a Paradise river); drop for the single scoop; footsteps for the crossing; mountain for the steadfast. No crowd for the few or the many; the believers' number is not given. STAGING v4: 248: the prophet (blue drop «نبي») speaks to the people. The Ark, its contents and the angels carrying it are NOT drawn (no motif, no camera move toward the sky on «التابوت» or «الملائكة»); a crown plate on «آية ملكه», a burst on «لآية». 249: Talut (plain faceless man) and his army (uncountable) at a river; on «فشربوا» the army bends to the water and then leaves the stage (the disobedient stayed behind); the few believers (uncountable) appear on «قليلا منهم», Talut walks over to them on «جاوزه». Jalut and his army are never drawn; no fighting."
  },
  "cover": {
   "series_ar": "طالوت وجالوت",
@@ -456,5 +663,6 @@
    9
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

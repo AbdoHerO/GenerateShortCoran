@@ -32,28 +32,109 @@
    "verses": [
     274
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "night",
+    "actors": [
+     {
+      "id": "g",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     },
+     {
+      "id": "p",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "sit",
+      "enter": null,
+      "exit": null,
+      "look": "poor"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        274,
-       6
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        274,
-       12
+       2
       ],
-      "do": "pan_right"
+      "do": "give",
+      "who": "g",
+      "to": "p"
      },
      {
       "at": [
        274,
-       17
+       4
+      ],
+      "do": "raise_hands",
+      "who": "p"
+     },
+     {
+      "at": [
+       274,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       274,
+       6
+      ],
+      "do": "shot_close",
+      "who": "g"
+     },
+     {
+      "at": [
+       274,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       274,
+       9
+      ],
+      "do": "sparkle",
+      "who": "g"
+     },
+     {
+      "at": [
+       274,
+       12
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       274,
+       14
+      ],
+      "do": "shot_close",
+      "who": "g"
+     },
+     {
+      "at": [
+       274,
+       16
       ],
       "do": "pan_right"
      }
@@ -62,22 +143,15 @@
      {
       "at": [
        274,
-       2
-      ],
-      "until": null,
-      "motif": "coins",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       274,
        4
       ],
-      "until": null,
+      "until": [
+       274,
+       9
+      ],
       "motif": "night_day",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -85,9 +159,9 @@
        9
       ],
       "until": null,
-      "motif": "burst",
+      "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -141,7 +215,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "night_day for «بالليل والنهار», a burst for the reward."
+  "notes": "night_day for «بالليل والنهار», a burst for the reward. STAGING v4: A man gives to a poor man in a town at night; the night_day plate on «بالليل والنهار»; camera close on «سرا», wide on «علانية»; a light plate for the reward."
  },
  "cover": {
   "series_ar": "فضل الإنفاق وآدابه",
@@ -153,5 +227,6 @@
    4
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

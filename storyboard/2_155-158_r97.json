@@ -32,23 +32,45 @@
    "verses": [
     155
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "rain",
+    "setting": "garden",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 5,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        155,
-       2
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        155,
+       2
+      ],
+      "do": "wind"
+     },
+     {
+      "at": [
+       155,
        5
       ],
-      "do": "shot_wide"
+      "do": "bow",
+      "who": "b"
      },
      {
       "at": [
@@ -60,9 +82,32 @@
      {
       "at": [
        155,
+       9
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       155,
+       10
+      ],
+      "do": "leaves"
+     },
+     {
+      "at": [
+       155,
+       11
+      ],
+      "do": "clouds_part"
+     },
+     {
+      "at": [
+       155,
        12
       ],
-      "do": "pan_right"
+      "do": "sparkle",
+      "who": "b"
      }
     ],
     "motifs": [
@@ -77,8 +122,7 @@
       ],
       "motif": "coins",
       "place": "top",
-      "size": "m",
-      "exit": "undraw"
+      "size": "s"
      },
      {
       "at": [
@@ -88,7 +132,7 @@
       "until": null,
       "motif": "leaf",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -98,7 +142,7 @@
       "until": null,
       "motif": "burst",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -110,58 +154,101 @@
     156,
     157
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "garden",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 5,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [
+     {
+      "type": "light",
+      "at": [
+       157,
+       9
+      ],
+      "until": null
+     }
+    ],
     "beats": [
+     {
+      "at": [
+       156,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        156,
        3
       ],
-      "do": "shot_wide"
+      "do": "bow",
+      "who": "b"
+     },
+     {
+      "at": [
+       156,
+       4
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       156,
+       5
+      ],
+      "do": "speak",
+      "who": "b"
      },
      {
       "at": [
        156,
        8
       ],
-      "do": "pan_right"
+      "do": "raise_hands",
+      "who": "b"
      },
      {
       "at": [
        156,
        9
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        156,
        10
       ],
-      "do": "shot_wide"
+      "do": "bow",
+      "who": "b"
      },
      {
       "at": [
        157,
        1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        157,
-       2
+       3
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       157,
-       4
-      ],
-      "do": "pan_left"
+      "do": "sparkle",
+      "who": "b"
      },
      {
       "at": [
@@ -169,13 +256,6 @@
        7
       ],
       "do": "pan_left"
-     },
-     {
-      "at": [
-       157,
-       9
-      ],
-      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -184,10 +264,13 @@
        156,
        5
       ],
-      "until": null,
+      "until": [
+       156,
+       7
+      ],
       "motif": "hands",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "dissolve"
@@ -199,35 +282,96 @@
    "verses": [
     158
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "mountains",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "t",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "traveller"
+     },
+     {
+      "id": "c",
+      "type": "camel",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       158,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        158,
        5
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "t"
      },
      {
       "at": [
        158,
-       14
+       8
       ],
-      "do": "pan_right"
+      "do": "walk_to",
+      "who": "t",
+      "to": "center"
      },
      {
       "at": [
        158,
-       18
+       11
+      ],
+      "do": "walk_to",
+      "who": "c",
+      "to": "center"
+     },
+     {
+      "at": [
+       158,
+       13
       ],
       "do": "pan_left"
      },
      {
       "at": [
        158,
-       21
+       16
+      ],
+      "do": "walk_to",
+      "who": "t",
+      "to": "left"
+     },
+     {
+      "at": [
+       158,
+       19
+      ],
+      "do": "raise_hands",
+      "who": "t"
+     },
+     {
+      "at": [
+       158,
+       23
       ],
       "do": "shot_wide"
      }
@@ -238,10 +382,13 @@
        158,
        2
       ],
-      "until": null,
+      "until": [
+       158,
+       6
+      ],
       "motif": "mountain",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -251,7 +398,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "light_sweep"
@@ -394,7 +541,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Re-split from 2_153-155_r97, 2_156-158_r97 (reviewed): the audit found no clean audio cut at the old edge. Chapters, glosses and motifs are unchanged."
+  "notes": "Re-split from 2_153-155_r97, 2_156-158_r97 (reviewed): the audit found no clean audio cut at the old edge. Chapters, glosses and motifs are unchanged. STAGING v4: 155: the trial in a garden of palms, vines and crops (Al-Muyassar: النخيل والأعناب والحبوب): wind on fear, heads bowed, leaves falling on «الثمرات» (a decrease, not a destroyed garden); clouds part on the glad tidings. 156-157: the same believers say the istirja' and raise their hands; light on «المهتدون», far from «ربهم». 158: no hills and no sanctuary are drawn: a traveller and his camel on the road (hajj and umrah); Safa and Marwa only as the abstract mountain plate (brief caution), the House only as the geometric plate."
  },
  "cover": {
   "series_ar": "الصبر والبلاء",
@@ -406,5 +553,6 @@
    5
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -33,44 +33,85 @@
     183,
     184
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "home",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "f",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "m",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "sit",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       183,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        183,
        2
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        183,
        5
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        183,
-       10
+       6
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "f"
+     },
+     {
+      "at": [
+       183,
+       12
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
        183,
        14
       ],
-      "do": "pan_right"
+      "do": "bow",
+      "who": "f"
      },
      {
       "at": [
        184,
        1
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -89,42 +130,73 @@
      {
       "at": [
        184,
-       7
+       6
+      ],
+      "do": "bow",
+      "who": "m"
+     },
+     {
+      "at": [
+       184,
+       9
       ],
       "do": "pan_left"
      },
      {
       "at": [
        184,
-       11
+       10
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        184,
-       16
+       13
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       184,
+       17
+      ],
+      "do": "shot_close",
+      "who": "m"
      },
      {
       "at": [
        184,
        21
       ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       184,
+       23
+      ],
       "do": "pan_left"
      },
      {
       "at": [
        184,
-       25
+       27
+      ],
+      "do": "shot_close",
+      "who": "f"
+     },
+     {
+      "at": [
+       184,
+       30
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        184,
-       29
+       32
       ],
       "do": "pan_right"
      }
@@ -138,7 +210,17 @@
       "until": null,
       "motif": "moon",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       184,
+       1
+      ],
+      "until": null,
+      "motif": "hourglass",
+      "place": "top",
+      "size": "s"
      },
      {
       "at": [
@@ -148,7 +230,7 @@
       "until": null,
       "motif": "wheat",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -159,23 +241,53 @@
    "verses": [
     185
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "prayer_hall",
+    "time": "night",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        185,
-       3
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        185,
-       8
+       3
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       185,
+       6
+      ],
+      "do": "read",
+      "who": "b"
+     },
+     {
+      "at": [
+       185,
+       9
+      ],
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
@@ -187,30 +299,31 @@
      {
       "at": [
        185,
-       15
+       13
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        185,
        17
       ],
-      "do": "pan_left"
+      "do": "bow",
+      "who": "b"
      },
      {
       "at": [
        185,
        20
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        185,
        24
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -222,16 +335,41 @@
      {
       "at": [
        185,
-       35
+       31
       ],
-      "do": "shot_wide"
+      "do": "sparkle",
+      "who": "b"
      },
      {
       "at": [
        185,
-       42
+       36
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       185,
+       38
+      ],
+      "do": "speak",
+      "who": "b"
+     },
+     {
+      "at": [
+       185,
+       41
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       185,
+       44
+      ],
+      "do": "bow",
+      "who": "b"
      }
     ],
     "motifs": [
@@ -243,27 +381,33 @@
       "until": null,
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       185,
+       16
+      ],
+      "until": [
+       185,
+       29
+      ],
+      "motif": "moon",
+      "place": "top",
+      "size": "s"
      },
      {
       "at": [
        185,
        31
       ],
-      "until": null,
+      "until": [
+       185,
+       39
+      ],
       "motif": "door",
       "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       185,
-       38
-      ],
-      "until": null,
-      "motif": "hands",
-      "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "light_sweep"
@@ -384,7 +528,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Fasting (183-185): the crescent for the month, wheat for feeding a poor person, the book for the Quran, a door for ease, hands for the takbir."
+  "notes": "Fasting (183-185): the crescent for the month, wheat for feeding a poor person, the book for the Quran, a door for ease, hands for the takbir. STAGING v4: Fasting: a family sitting at home at dusk (183-184); the moon for the fast, the counted days, wheat for the ransom of feeding (no purse: the ransom is food). One of them lowers his head on «مريضا». 185: believers reading in a prayer hall at night (the month the Quran was sent down), then saying the takbir (Al-Muyassar: takbir at the end of the fast)."
  },
  "cover": {
   "series_ar": "البر والصيام",
@@ -396,5 +540,6 @@
    6
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -53,7 +53,7 @@
      {
       "at": [
        222,
-       12
+       11
       ],
       "do": "pan_left"
      },
@@ -62,7 +62,7 @@
        222,
        14
       ],
-      "do": "pan_right"
+      "do": "light_up"
      },
      {
       "at": [
@@ -76,7 +76,7 @@
        222,
        22
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -92,8 +92,21 @@
        222,
        16
       ],
-      "until": null,
+      "until": [
+       222,
+       21
+      ],
       "motif": "drop",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       222,
+       24
+      ],
+      "until": null,
+      "motif": "light",
       "place": "top",
       "size": "m"
      }
@@ -122,7 +135,7 @@
        223,
        9
       ],
-      "do": "pan_left"
+      "do": "bloom"
      },
      {
       "at": [
@@ -145,7 +158,10 @@
        223,
        2
       ],
-      "until": null,
+      "until": [
+       223,
+       11
+      ],
       "motif": "growth",
       "place": "top",
       "size": "m"
@@ -172,86 +188,133 @@
     225,
     226
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "home",
+    "time": "day",
+    "actors": [
+     {
+      "id": "f",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       224,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       224,
+       5
+      ],
+      "do": "speak",
+      "who": "f"
+     },
      {
       "at": [
        224,
        9
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "f"
      },
      {
       "at": [
        224,
        11
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "f"
      },
      {
       "at": [
        224,
-       13
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       225,
-       1
+       14
       ],
       "do": "pan_right"
      },
      {
       "at": [
        225,
-       5
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       225,
-       7
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       225,
-       10
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       225,
-       13
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       226,
        2
       ],
       "do": "pan_left"
      },
      {
       "at": [
-       226,
+       225,
+       6
+      ],
+      "do": "speak",
+      "who": "f"
+     },
+     {
+      "at": [
+       225,
        8
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       225,
+       11
+      ],
+      "do": "shot_close",
+      "who": "f"
+     },
+     {
+      "at": [
+       225,
+       13
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        226,
-       12
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       226,
+       4
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       226,
+       7
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       226,
+       9
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       226,
+       12
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -263,17 +326,20 @@
       "until": null,
       "motif": "seal",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        226,
        6
       ],
-      "until": null,
+      "until": [
+       226,
+       11
+      ],
       "motif": "hourglass",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "morph"
@@ -405,7 +471,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Re-split from 2_221-222_r97, 2_223-226_r97 (reviewed): the audit found no clean audio cut at the old edge. Chapters, glosses and motifs are unchanged."
+  "notes": "Re-split from 2_221-222_r97, 2_223-226_r97 (reviewed): the audit found no clean audio cut at the old edge. Chapters, glosses and motifs are unchanged. STAGING v4: 222 (menstruation) and 223 stay ambient: private matters, a picture could be misread. The drop now ends before the Name, the growth plate before the Name. 224-226: a family sitting at home and speaking (oaths and making peace between people); for 226 (the vow to keep away from one's wife) nothing is acted, only the hourglass for the four months. STAGING v4: 222 (menstruation) and 223 stay ambient: private matters, a picture could be misread. The drop now ends before the Name, the growth plate before the Name. 224-226: a family sitting at home and speaking (oaths and making peace between people); for 226 (the vow to keep away from one's wife) nothing is acted, only the hourglass for the four months."
  },
  "cover": {
   "series_ar": "أحكام الأسرة",
@@ -417,5 +483,6 @@
    5
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

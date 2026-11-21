@@ -33,14 +33,54 @@
     111,
     112
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 5,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        111,
-       5
+       1
+      ],
+      "do": "speak",
+      "who": "p"
+     },
+     {
+      "at": [
+       111,
+       4
+      ],
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       111,
+       6
       ],
       "do": "pan_left"
      },
@@ -49,56 +89,83 @@
        111,
        10
       ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       111,
-       12
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       111,
-       16
-      ],
       "do": "pan_right"
      },
      {
       "at": [
        111,
-       18
+       13
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       111,
+       15
+      ],
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       111,
+       17
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       112,
+       1
+      ],
+      "do": "pray",
+      "who": "b"
+     },
+     {
+      "at": [
+       112,
+       3
+      ],
+      "do": "sujud",
+      "who": "b"
      },
      {
       "at": [
        112,
        7
       ],
-      "do": "pan_left"
+      "do": "rise",
+      "who": "b"
      },
      {
       "at": [
        112,
        8
       ],
-      "do": "pan_right"
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       112,
+       9
+      ],
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        112,
        13
       ],
-      "do": "pan_left"
+      "do": "sit",
+      "who": "b"
      },
      {
       "at": [
        112,
        17
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -108,9 +175,9 @@
        3
       ],
       "until": null,
-      "motif": "hands",
+      "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -120,7 +187,7 @@
       "until": null,
       "motif": "seal",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -131,44 +198,134 @@
    "verses": [
     113
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "j",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "n",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": [
+       113,
+       16
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        113,
-       4
+       1
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "j"
+     },
+     {
+      "at": [
+       113,
+       3
+      ],
+      "do": "point",
+      "who": "j",
+      "to": "n"
+     },
+     {
+      "at": [
+       113,
+       6
+      ],
+      "do": "shake_head",
+      "who": "j"
      },
      {
       "at": [
        113,
        7
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "n"
      },
      {
       "at": [
        113,
-       11
+       9
+      ],
+      "do": "point",
+      "who": "n",
+      "to": "j"
+     },
+     {
+      "at": [
+       113,
+       12
+      ],
+      "do": "shake_head",
+      "who": "n"
+     },
+     {
+      "at": [
+       113,
+       14
+      ],
+      "do": "read",
+      "who": "j"
+     },
+     {
+      "at": [
+       113,
+       15
+      ],
+      "do": "read",
+      "who": "n"
+     },
+     {
+      "at": [
+       113,
+       17
+      ],
+      "do": "speak",
+      "who": "d"
+     },
+     {
+      "at": [
+       113,
+       22
       ],
       "do": "pan_left"
      },
      {
       "at": [
        113,
-       18
+       24
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       113,
-       23
-      ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -184,10 +341,13 @@
        113,
        15
       ],
-      "until": null,
+      "until": [
+       113,
+       23
+      ],
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "wipe"
@@ -275,7 +435,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Their claim (111) is glossed as «أوهامهم» and answered (112). No scales for Allah's judgement on the Day (113). As-Sa'di has no entry for 111."
+  "notes": "Their claim (111) is glossed as «أوهامهم» and answered (112). No scales for Allah's judgement on the Day (113). As-Sa'di has no entry for 111. STAGING v4: 111: the People of the Book voice their claim (framed by the gloss «أوهامهم»); Paradise is not pictured. 112: «أسلم وجهه لله» as believers prostrating; light and seal plates over the Name and «ربه». 113: the Jews and the Christians speak against each other while holding their books; the polytheists (Al-Muyassar: من مشركي العرب) join on «قال الذين لا يعلمون»; the Judgement is not pictured. STAGING v4: 111: the People of the Book voice their claim (framed by the gloss «أوهامهم»); Paradise is not pictured. 112: «أسلم وجهه لله» as believers prostrating; light and seal plates over the Name and «ربه». 113: the Jews and the Christians speak against each other while holding their books; the polytheists (Al-Muyassar: من مشركي العرب) join on «قال الذين لا يعلمون»; the Judgement is not pictured. STAGING v4: 111: the People of the Book voice their claim (framed by the gloss «أوهامهم»); Paradise is not pictured. 112: «أسلم وجهه لله» as believers prostrating; light and seal plates over the Name and «ربه». 113: the Jews and the Christians speak against each other while holding their books; the polytheists (Al-Muyassar: من مشركي العرب) join on «قال الذين لا يعلمون»; the Judgement is not pictured."
  },
  "cover": {
   "series_ar": "دعاوى أهل الكتاب",
@@ -287,5 +447,6 @@
    3
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -32,105 +32,144 @@
    "verses": [
     229
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "home",
+    "time": "day",
+    "actors": [
+     {
+      "id": "f",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       229,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       229,
+       3
+      ],
+      "do": "speak",
+      "who": "f"
+     },
      {
       "at": [
        229,
        5
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        229,
        7
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        229,
        9
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        229,
        12
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "f"
      },
      {
       "at": [
        229,
        14
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        229,
        15
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        229,
        18
       ],
+      "do": "speak",
+      "who": "f"
+     },
+     {
+      "at": [
+       229,
+       19
+      ],
       "do": "pan_right"
      },
      {
       "at": [
        229,
-       20
+       21
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        229,
-       23
+       24
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        229,
-       26
+       30
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        229,
-       31
+       33
       ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       229,
-       35
-      ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "f"
      },
      {
       "at": [
        229,
        39
       ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       229,
+       41
+      ],
       "do": "pan_right"
      },
      {
       "at": [
        229,
-       42
+       44
       ],
       "do": "pan_left"
      },
@@ -139,7 +178,7 @@
        229,
        46
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -148,10 +187,23 @@
        229,
        3
       ],
-      "until": null,
+      "until": [
+       229,
+       22
+      ],
       "motif": "scales",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       229,
+       35
+      ],
+      "until": null,
+      "motif": "seal",
+      "place": "top",
+      "size": "s"
      }
     ]
    }
@@ -185,40 +237,33 @@
        230,
        16
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        230,
-       17
+       18
+      ],
+      "do": "light_up"
+     },
+     {
+      "at": [
+       230,
+       20
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        230,
-       19
+       21
       ],
       "do": "pan_left"
-     },
-     {
-      "at": [
-       230,
-       22
-      ],
-      "do": "pan_right"
      },
      {
       "at": [
        230,
        25
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       230,
-       29
       ],
       "do": "pan_left"
      }
@@ -229,8 +274,21 @@
        230,
        9
       ],
+      "until": [
+       230,
+       24
+      ],
+      "motif": "seal",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       230,
+       28
+      ],
       "until": null,
-      "motif": "house",
+      "motif": "light",
       "place": "top",
       "size": "m"
      }
@@ -309,7 +367,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Rulings kept modest: two_paths (keep with kindness or part with kindness), a house (a new marriage)."
+  "notes": "Rulings kept modest: two_paths (keep with kindness or part with kindness), a house (a new marriage). STAGING v4: 229: a family sitting at home and speaking (keeping with kindness or parting with goodness); no couple, nothing of the ransom handed over. Scales end before the Name; the seal for 'the limits of Allah'. 230 (third divorce, remarriage) stays ambient: a family picture could be misread there. STAGING v4: 229: a family sitting at home and speaking (keeping with kindness or parting with goodness); no couple, nothing of the ransom handed over. Scales end before the Name; the seal for 'the limits of Allah'. 230 (third divorce, remarriage) stays ambient: a family picture could be misread there."
  },
  "cover": {
   "series_ar": "أحكام الأسرة",
@@ -321,5 +379,6 @@
    3
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

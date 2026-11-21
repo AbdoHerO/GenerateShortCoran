@@ -33,23 +33,60 @@
     95,
     96
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 5,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "m",
+      "type": "man",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       96,
+       10
+      ],
+      "exit": null,
+      "look": "plain"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        95,
-       3
+       1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        95,
-       6
+       2
       ],
-      "do": "shot_wide"
+      "do": "shake_head",
+      "who": "p"
+     },
+     {
+      "at": [
+       95,
+       5
+      ],
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
@@ -68,6 +105,14 @@
      {
       "at": [
        96,
+       2
+      ],
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       96,
        5
       ],
       "do": "pan_left"
@@ -75,16 +120,17 @@
      {
       "at": [
        96,
-       6
+       8
       ],
       "do": "pan_right"
      },
      {
       "at": [
        96,
-       10
+       12
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "m"
      },
      {
       "at": [
@@ -96,16 +142,30 @@
      {
       "at": [
        96,
-       18
+       17
       ],
       "do": "pan_left"
      },
      {
       "at": [
        96,
-       23
+       19
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       96,
+       21
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       96,
+       24
+      ],
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -114,10 +174,13 @@
        96,
        13
       ],
-      "until": null,
+      "until": [
+       96,
+       22
+      ],
       "motif": "hourglass",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -182,7 +245,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "One chapter; the hourglass on «ألف سنة»."
+  "notes": "One chapter; the hourglass on «ألف سنة». STAGING v4: 95: they refuse to wish for death (shake_head on «يتمنوه»). 96: «أحدهم» shown as one man stepping out of the group; the thousand years as the hourglass plate, ended before the Name."
  },
  "cover": {
   "series_ar": "موقفهم من الرسل",
@@ -194,5 +257,6 @@
    13
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

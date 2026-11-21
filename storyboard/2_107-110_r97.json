@@ -33,63 +33,101 @@
     107,
     108
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 5,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        107,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       107,
+       7
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       107,
+       8
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       107,
        10
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        107,
-       14
+       15
       ],
       "do": "pan_left"
      },
      {
       "at": [
-       107,
-       17
+       108,
+       2
+      ],
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       108,
+       4
+      ],
+      "do": "speak",
+      "who": "p"
+     },
+     {
+      "at": [
+       108,
+       9
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        108,
-       3
+       13
+      ],
+      "do": "turn",
+      "who": "p"
+     },
+     {
+      "at": [
+       108,
+       16
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        108,
-       6
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       108,
-       10
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       108,
-       14
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       108,
-       17
+       18
       ],
       "do": "pan_right"
      }
@@ -103,7 +141,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -113,7 +151,7 @@
       "until": null,
       "motif": "two_paths",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -125,63 +163,130 @@
     109,
     110
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "d",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       110,
+       1
+      ]
+     },
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "pm",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "sit",
+      "enter": [
+       110,
+       1
+      ],
+      "exit": null,
+      "look": "poor"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        109,
-       7
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       109,
-       9
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       109,
-       12
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       109,
-       15
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       109,
-       16
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        109,
-       19
+       4
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        109,
-       22
+       7
+      ],
+      "do": "point",
+      "who": "d",
+      "to": "b"
+     },
+     {
+      "at": [
+       109,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       109,
+       12
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       109,
+       15
       ],
       "do": "pan_right"
      },
      {
       "at": [
        109,
-       27
+       16
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       109,
+       19
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       109,
+       22
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       109,
+       25
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       109,
+       28
       ],
       "do": "shot_wide"
      },
@@ -190,21 +295,55 @@
        109,
        32
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        110,
-       7
+       1
       ],
-      "do": "pan_right"
+      "do": "pray",
+      "who": "b"
+     },
+     {
+      "at": [
+       110,
+       2
+      ],
+      "do": "ruku",
+      "who": "b"
+     },
+     {
+      "at": [
+       110,
+       4
+      ],
+      "do": "stand_up",
+      "who": "b"
+     },
+     {
+      "at": [
+       110,
+       6
+      ],
+      "do": "give",
+      "who": "b",
+      "to": "pm"
+     },
+     {
+      "at": [
+       110,
+       9
+      ],
+      "do": "raise_hands",
+      "who": "pm"
      },
      {
       "at": [
        110,
        11
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -216,7 +355,7 @@
      {
       "at": [
        110,
-       17
+       16
       ],
       "do": "shot_wide"
      }
@@ -230,7 +369,7 @@
       "until": null,
       "motif": "hands",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -240,7 +379,7 @@
       "until": null,
       "motif": "coins",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -250,7 +389,7 @@
       "until": null,
       "motif": "seal",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "light_sweep"
@@ -327,7 +466,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "As-Sa'di has no entry for 107 and 109: Al-Muyassar only. The gloss on 109:25-27 (fighting) is left out."
+  "notes": "As-Sa'di has no entry for 107 and 109: Al-Muyassar only. The gloss on 109:25-27 (fighting) is left out. STAGING v4: 107: the dominion of the heavens and the earth as a geometric plate with a camera tilt to sky and ground. 108: people asking (Al-Muyassar: أيها الناس) and turning on «الكفر»; Musa and the Messenger are not drawn. 109: many of the People of the Book wish to turn the believers back (point); «حتى يأتي الله بأمره» (fighting, per Al-Muyassar) is not pictured. 110: the believers pray, then give the zakah to a poor man who raises his hands; seal plate over the Names. STAGING v4: 107: the dominion of the heavens and the earth as a geometric plate with a camera tilt to sky and ground. 108: people asking (Al-Muyassar: أيها الناس) and turning on «الكفر»; Musa and the Messenger are not drawn. 109: many of the People of the Book wish to turn the believers back (point); «حتى يأتي الله بأمره» (fighting, per Al-Muyassar) is not pictured. 110: the believers pray, then give the zakah to a poor man who raises his hands; seal plate over the Names. STAGING v4: 107: the dominion of the heavens and the earth as a geometric plate with a camera tilt to sky and ground. 108: people asking (Al-Muyassar: أيها الناس) and turning on «الكفر»; Musa and the Messenger are not drawn. 109: many of the People of the Book wish to turn the believers back (point); «حتى يأتي الله بأمره» (fighting, per Al-Muyassar) is not pictured. 110: the believers pray, then give the zakah to a poor man who raises his hands; seal plate over the Names."
  },
  "cover": {
   "series_ar": "النسخ والحسد",
@@ -339,5 +478,6 @@
    12
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

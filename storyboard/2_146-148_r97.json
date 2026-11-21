@@ -33,35 +33,81 @@
     146,
     147
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 5,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       146,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       146,
+       4
+      ],
+      "do": "read",
+      "who": "p"
+     },
      {
       "at": [
        146,
        7
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
        146,
-       9
+       8
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
-       147,
-       1
+       146,
+       11
       ],
-      "do": "pan_right"
+      "do": "turn",
+      "who": "p"
+     },
+     {
+      "at": [
+       146,
+       14
+      ],
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
        147,
        4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       147,
+       7
       ],
       "do": "pan_left"
      }
@@ -75,17 +121,30 @@
       "until": null,
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        146,
        12
       ],
-      "until": null,
+      "until": [
+       147,
+       3
+      ],
       "motif": "lamp",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       147,
+       1
+      ],
+      "until": null,
+      "motif": "light",
+      "place": "top",
+      "size": "s"
      }
     ]
    }
@@ -96,16 +155,75 @@
    "verses": [
     148
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "pm",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "sit",
+      "enter": null,
+      "exit": null,
+      "look": "poor"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        148,
-       8
+       1
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       148,
+       2
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       148,
+       5
+      ],
+      "do": "walk_to",
+      "who": "b",
+      "to": "center"
+     },
+     {
+      "at": [
+       148,
+       7
+      ],
+      "do": "give",
+      "who": "b",
+      "to": "pm"
+     },
+     {
+      "at": [
+       148,
+       10
+      ],
+      "do": "raise_hands",
+      "who": "pm"
      },
      {
       "at": [
@@ -128,10 +246,13 @@
        148,
        5
       ],
-      "until": null,
+      "until": [
+       148,
+       12
+      ],
       "motif": "footsteps",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "slide"
@@ -208,7 +329,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Verse 149 moved to the held video 149-152 (timing overlap at 150)."
+  "notes": "Verse 149 moved to the held video 149-152 (timing overlap at 150). STAGING v4: 146: the scholars of the People of the Book read their book (his description in their books, Al-Muyassar) and turn away on «ليكتمون»; their sons are not drawn. 147: light plate for the truth before «ربك». 148: «فاستبقوا الخيرات» = believers hurry to give to a poor man; the Gathering is not pictured."
  },
  "cover": {
   "series_ar": "القبلة",
@@ -220,5 +341,6 @@
    5
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

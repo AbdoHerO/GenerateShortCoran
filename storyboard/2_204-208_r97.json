@@ -34,36 +34,113 @@
     205,
     206
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "garden",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "m",
+      "type": "man",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       206,
+       9
+      ],
+      "look": "plain"
+     },
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [
+     {
+      "type": "wither",
+      "at": [
+       205,
+       9
+      ],
+      "until": null
+     }
+    ],
     "beats": [
      {
       "at": [
        204,
-       7
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       204,
-       14
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        204,
-       17
+       4
+      ],
+      "do": "speak",
+      "who": "m"
+     },
+     {
+      "at": [
+       204,
+       7
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       204,
+       11
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       204,
+       16
+      ],
+      "do": "shot_close",
+      "who": "m"
      },
      {
       "at": [
        205,
        2
       ],
+      "do": "turn",
+      "who": "m"
+     },
+     {
+      "at": [
+       205,
+       3
+      ],
+      "do": "walk_to",
+      "who": "m",
+      "to": "left"
+     },
+     {
+      "at": [
+       205,
+       8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       205,
+       12
+      ],
       "do": "pan_right"
      },
      {
@@ -76,21 +153,31 @@
      {
       "at": [
        206,
-       4
+       2
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "p"
+     },
+     {
+      "at": [
+       206,
+       7
+      ],
+      "do": "shake_head",
+      "who": "m"
      },
      {
       "at": [
        206,
        8
       ],
-      "do": "pan_left"
+      "do": "turn",
+      "who": "m"
      },
      {
       "at": [
        206,
-       10
+       11
       ],
       "do": "shot_wide"
      }
@@ -99,16 +186,15 @@
      {
       "at": [
        205,
-       9
+       6
       ],
       "until": [
        205,
        11
       ],
-      "motif": "wheat",
+      "motif": "leaf",
       "place": "top",
-      "size": "m",
-      "exit": "undraw"
+      "size": "s"
      }
     ]
    }
@@ -120,65 +206,130 @@
     207,
     208
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "w",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": [
+       208,
+       1
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       207,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       207,
+       4
+      ],
+      "do": "pray",
+      "who": "w"
+     },
+     {
+      "at": [
+       207,
+       6
+      ],
+      "do": "ruku",
+      "who": "w"
+     },
      {
       "at": [
        207,
        7
       ],
-      "do": "pan_left"
+      "do": "sujud",
+      "who": "w"
+     },
+     {
+      "at": [
+       207,
+       10
+      ],
+      "do": "rise",
+      "who": "w"
      },
      {
       "at": [
        207,
        11
       ],
-      "do": "shot_wide"
+      "do": "sparkle",
+      "who": "w"
      },
      {
       "at": [
        208,
        1
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        208,
-       2
+       4
       ],
-      "do": "pan_left"
+      "do": "walk_to",
+      "who": "b",
+      "to": "center"
      },
      {
       "at": [
        208,
-       8
+       7
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        208,
        9
       ],
-      "do": "pan_left"
+      "do": "turn",
+      "who": "b"
      },
      {
       "at": [
        208,
-       11
+       12
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        208,
-       15
+       14
       ],
-      "do": "pan_left"
+      "do": "shake_head",
+      "who": "b"
      }
     ],
     "motifs": [
@@ -188,19 +339,29 @@
        4
       ],
       "until": null,
-      "motif": "hands",
+      "motif": "seal",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        208,
-       6
+       4
       ],
       "until": null,
       "motif": "door",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       208,
+       9
+      ],
+      "until": null,
+      "motif": "two_paths",
+      "place": "top",
+      "size": "s"
      }
     ],
     "transition": "light_sweep"
@@ -310,7 +471,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The crops undraw as the corrupter destroys them (205). No motif on Satan's footsteps (208, negated) or on Hell (206)."
+  "notes": "The crops undraw as the corrupter destroys them (205). No motif on Satan's footsteps (208, negated) or on Hell (206). STAGING v4: 204-206 among farms at dusk: a man speaks pleasing words to people (the Prophet, who is addressed, is not shown), turns away and goes off; the crops wither on «الحرث» (Al-Muyassar: he ruins people's crops; As-Sa'di: crops lose their blessing through sin). Nothing is done to animals or people. Told to fear Allah, he shakes his head (arrogance) and leaves before «جهنم», which is not drawn. 207-208 in a prayer hall: a man gives himself to obedience (prayer; Al-Muyassar: holding to His obedience), then believers walk in on «ادخلوا» (door) and turn away from the other path on Satan's footsteps (no figure of Satan). STAGING v4: 204-206 among farms at dusk: a man speaks pleasing words to people (the Prophet, who is addressed, is not shown), turns away and goes off; the crops wither on «الحرث» (Al-Muyassar: he ruins people's crops; As-Sa'di: crops lose their blessing through sin). Nothing is done to animals or people. Told to fear Allah, he shakes his head (arrogance) and leaves before «جهنم», which is not drawn. 207-208 in a prayer hall: a man gives himself to obedience (prayer; Al-Muyassar: holding to His obedience), then believers walk in on «ادخلوا» (door) and turn away from the other path on Satan's footsteps (no figure of Satan). STAGING v4: 204-206 among farms at dusk: a man speaks pleasing words to people (the Prophet, who is addressed, is not shown), turns away and goes off; the crops wither on «الحرث» (Al-Muyassar: he ruins people's crops; As-Sa'di: crops lose their blessing through sin). Nothing is done to animals or people. Told to fear Allah, he shakes his head (arrogance) and leaves before «جهنم», which is not drawn. 207-208 in a prayer hall: a man gives himself to obedience (prayer; Al-Muyassar: holding to His obedience), then believers walk in on «ادخلوا» (door) and turn away from the other path on Satan's footsteps (no figure of Satan)."
  },
  "cover": {
   "series_ar": "بين الفساد والإخلاص",
@@ -322,5 +483,6 @@
    6
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

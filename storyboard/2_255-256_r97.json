@@ -67,6 +67,13 @@
      {
       "at": [
        255,
+       12
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       255,
        19
       ],
       "do": "pan_left"
@@ -82,6 +89,13 @@
       "at": [
        255,
        26
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       255,
+       29
       ],
       "do": "pan_right"
      },
@@ -175,16 +189,49 @@
    "verses": [
     256
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "desert",
+    "time": "dawn",
+    "actors": [
+     {
+      "id": "w",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "traveller"
+     }
+    ],
+    "events": [
+     {
+      "type": "light",
+      "at": [
+       256,
+       7
+      ],
+      "until": null
+     }
+    ],
     "beats": [
+     {
+      "at": [
+       256,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        256,
        4
       ],
-      "do": "shot_wide"
+      "do": "walk_to",
+      "who": "w",
+      "to": "center"
      },
      {
       "at": [
@@ -196,14 +243,40 @@
      {
       "at": [
        256,
-       13
+       12
       ],
-      "do": "pan_right"
+      "do": "turn",
+      "who": "w"
      },
      {
       "at": [
        256,
-       21
+       13
+      ],
+      "do": "raise_hands",
+      "who": "w"
+     },
+     {
+      "at": [
+       256,
+       16
+      ],
+      "do": "walk_to",
+      "who": "w",
+      "to": "right"
+     },
+     {
+      "at": [
+       256,
+       20
+      ],
+      "do": "shot_close",
+      "who": "w"
+     },
+     {
+      "at": [
+       256,
+       23
       ],
       "do": "shot_wide"
      }
@@ -214,10 +287,13 @@
        256,
        6
       ],
-      "until": null,
+      "until": [
+       256,
+       14
+      ],
       "motif": "two_paths",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -227,7 +303,7 @@
       "until": null,
       "motif": "seal",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "light_sweep"
@@ -370,7 +446,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Allah's names and attributes: geometric only, no arrows; stars on «السماوات» leave before «كرسيه» so nothing on screen can read as the Kursi. 255:29-32 (بين أيديهم / خلفهم) is not glossed: Al-Muyassar and As-Sa'di give opposite readings (future/past). The Kursi itself is not glossed. 256:1-4 gloss stops at the reason both tafsirs share, before Al-Muyassar's jizya restriction, which it does not cut into."
+  "notes": "Allah's names and attributes: geometric only, no arrows; stars on «السماوات» leave before «كرسيه» so nothing on screen can read as the Kursi. 255:29-32 (بين أيديهم / خلفهم) is not glossed: Al-Muyassar and As-Sa'di give opposite readings (future/past). The Kursi itself is not glossed. 256:1-4 gloss stops at the reason both tafsirs share, before Al-Muyassar's jizya restriction, which it does not cut into. STAGING v4: 255 (Ayat al-Kursi: Allah's names and attributes) stays ambient as it was. 256: a traveller on the road at dawn: light on «الرشد», he turns his back on «الطاغوت» (nothing worshipped is drawn), raises his hands on «ويؤمن», and walks on, a seal on «العروة الوثقى»."
  },
  "cover": {
   "series_ar": "الرسل وآية الكرسي",
@@ -382,5 +458,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

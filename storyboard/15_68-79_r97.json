@@ -34,23 +34,103 @@
     69,
     70
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "lut",
+      "type": "prophet",
+      "label": "لوط",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "uncountable": true
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       68,
+       1
+      ],
+      "do": "speak",
+      "who": "lut"
+     },
+     {
+      "at": [
+       68,
+       3
+      ],
+      "do": "pan_right"
+     },
      {
       "at": [
        68,
        4
       ],
+      "do": "shot_close",
+      "who": "lut"
+     },
+     {
+      "at": [
+       68,
+       6
+      ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       69,
+       1
+      ],
+      "do": "speak",
+      "who": "lut"
+     },
+     {
+      "at": [
+       69,
+       4
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       70,
+       1
+      ],
+      "do": "speak",
+      "who": "d"
      },
      {
       "at": [
        70,
        2
       ],
-      "do": "pan_left"
+      "do": "shake_head",
+      "who": "d"
+     },
+     {
+      "at": [
+       70,
+       5
+      ],
+      "do": "shot_close",
+      "who": "d"
      }
     ],
     "motifs": [
@@ -65,7 +145,7 @@
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -77,30 +157,80 @@
     71,
     72
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "lut",
+      "type": "prophet",
+      "label": "لوط",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "uncountable": true
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       71,
+       1
+      ],
+      "do": "speak",
+      "who": "lut"
+     },
      {
       "at": [
        71,
        3
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "lut"
      },
      {
       "at": [
        71,
-       6
+       5
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       72,
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        72,
-       3
+       2
       ],
-      "do": "pan_right"
+      "do": "turn",
+      "who": "d"
+     },
+     {
+      "at": [
+       72,
+       5
+      ],
+      "do": "shot_close",
+      "who": "d"
      }
     ],
     "motifs": [],
@@ -114,30 +244,72 @@
     73,
     74
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [],
+    "events": [
+     {
+      "type": "blast",
+      "at": [
+       73,
+       2
+      ],
+      "until": null
+     },
+     {
+      "type": "ruin",
+      "at": [
+       74,
+       2
+      ],
+      "until": null
+     },
+     {
+      "type": "stones",
+      "at": [
+       74,
+       6
+      ],
+      "until": null
+     }
+    ],
     "beats": [
      {
       "at": [
-       74,
+       73,
        1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       73,
+       3
       ],
       "do": "pan_left"
      },
      {
       "at": [
        74,
-       4
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        74,
-       7
+       4
       ],
-      "do": "pan_right"
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       74,
+       8
+      ],
+      "do": "shot_ground"
      }
     ],
     "motifs": [],
@@ -152,23 +324,88 @@
     76,
     77
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "w",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "walk",
+      "enter": null,
+      "exit": null,
+      "look": "traveller"
+     }
+    ],
+    "events": [
+     {
+      "type": "ruin",
+      "at": [
+       75,
+       1
+      ],
+      "until": null
+     }
+    ],
     "beats": [
      {
       "at": [
        75,
-       5
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
-       77,
+       75,
+       4
+      ],
+      "do": "point",
+      "who": "w",
+      "to": "center"
+     },
+     {
+      "at": [
+       75,
+       5
+      ],
+      "do": "shot_close",
+      "who": "w"
+     },
+     {
+      "at": [
+       76,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       76,
        2
       ],
+      "do": "walk_to",
+      "who": "w",
+      "to": "left"
+     },
+     {
+      "at": [
+       77,
+       1
+      ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       77,
+       5
+      ],
+      "do": "bow",
+      "who": "w"
      }
     ],
     "motifs": [
@@ -183,7 +420,7 @@
       ],
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -196,7 +433,7 @@
       ],
       "motif": "footsteps",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "morph"
@@ -209,33 +446,114 @@
     78,
     79
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "garden",
+    "time": "day",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       79,
+       1
+      ],
+      "uncountable": true
+     },
+     {
+      "id": "w",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "walk",
+      "enter": [
+       79,
+       3
+      ],
+      "exit": null,
+      "look": "traveller"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        78,
-       5
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       79,
        1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
-       79,
-       3
+       78,
+       4
       ],
-      "do": "pan_right"
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       78,
+       5
+      ],
+      "do": "turn",
+      "who": "d"
+     },
+     {
+      "at": [
+       79,
+       2
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       79,
+       4
+      ],
+      "do": "walk_to",
+      "who": "w",
+      "to": "center"
+     },
+     {
+      "at": [
+       79,
+       5
+      ],
+      "do": "shot_close",
+      "who": "w"
      }
     ],
-    "motifs": [],
+    "motifs": [
+     {
+      "at": [
+       78,
+       4
+      ],
+      "until": [
+       79,
+       1
+      ],
+      "motif": "palm",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       79,
+       4
+      ],
+      "until": null,
+      "motif": "footsteps",
+      "place": "top",
+      "size": "s"
+     }
+    ],
     "transition": "page_turn"
    }
   }
@@ -387,7 +705,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Lut, his guests, his people and the people of al-Ayka are never drawn; nothing of the punishment is drawn (no stones, no overturned city, no sun at the blast). Geometric only on «واتقوا الله». 71 «هؤلاء بناتي» is glossed only with As-Sa'di's «من شدة الأمر الذي أصابه». 72 addresses the Prophet ﷺ: no plate; both tafsirs read «لعمرك» as Allah's oath by his life. Not glossed: 74:1-6 and 79:1-2 (the tafsirs' wording is in Allah's first person or repeats «عذاب يوم الظلة»). Light for the signs (75), footsteps for «لبسبيل مقيم»."
+  "notes": "Lut, his guests, his people and the people of al-Ayka are never drawn; nothing of the punishment is drawn (no stones, no overturned city, no sun at the blast). Geometric only on «واتقوا الله». 71 «هؤلاء بناتي» is glossed only with As-Sa'di's «من شدة الأمر الذي أصابه». 72 addresses the Prophet ﷺ: no plate; both tafsirs read «لعمرك» as Allah's oath by his life. Not glossed: 74:1-6 and 79:1-2 (the tafsirs' wording is in Allah's first person or repeats «عذاب يوم الظلة»). Light for the signs (75), footsteps for «لبسبيل مقيم». STAGING v4: Restaged under Staging v4: Lut is a blue drop labelled Lut, his people an uncountable faceless crowd in the town. His guests, his daughters and his wife are not drawn. 68-70: Lut speaks (geometric only on 69:2, the Name), they answer and shake their heads. 71-72: Lut speaks, they turn away (As-Sa'di: they paid no heed); 72:1 addresses the Prophet: not shown, no plate. 73-74: the town is empty (no person on stage): the blast on 73:2, the ruin event on 74:2 (the closest event to the town turned upside down), stones on 74:6; time is day, not dawn (no dawn over a punishment), although 73:3 is sunrise. 75-77: a traveller passes the ruins on the road (Al-Muyassar: the travellers who pass by see them). 78-79: the people of al-Ayka (uncountable) in a garden (As-Sa'di: a garden of many trees), they turn away and leave the stage on 79:1; no punishment event (the verse names none); Shu'ayb is not drawn (not named in these verses); a traveller on the clear road (79:3-5). The garden setting also has a stream (decor, not in the sources)."
  },
  "cover": {
   "series_ar": "لوط وقومه",
@@ -396,8 +714,9 @@
   "title_en": "A lesson for those who reflect",
   "at": [
    75,
-   4
+   5
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

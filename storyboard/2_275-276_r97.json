@@ -32,91 +32,169 @@
    "verses": [
     275
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "r",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "rich"
+     },
+     {
+      "id": "p",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        275,
-       7
+       1
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        275,
-       11
+       3
+      ],
+      "do": "shot_close",
+      "who": "r"
+     },
+     {
+      "at": [
+       275,
+       6
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       275,
+       10
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        275,
        14
       ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       275,
-       17
-      ],
       "do": "pan_right"
      },
      {
       "at": [
        275,
-       20
+       16
+      ],
+      "do": "speak",
+      "who": "r"
+     },
+     {
+      "at": [
+       275,
+       19
+      ],
+      "do": "shot_close",
+      "who": "r"
+     },
+     {
+      "at": [
+       275,
+       21
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        275,
-       26
+       23
       ],
-      "do": "pan_right"
+      "do": "give",
+      "who": "p",
+      "to": "r"
+     },
+     {
+      "at": [
+       275,
+       25
+      ],
+      "do": "shake_head",
+      "who": "p"
+     },
+     {
+      "at": [
+       275,
+       27
+      ],
+      "do": "shot_close",
+      "who": "r"
+     },
+     {
+      "at": [
+       275,
+       28
+      ],
+      "do": "read",
+      "who": "r"
      },
      {
       "at": [
        275,
        31
       ],
-      "do": "pan_left"
+      "do": "bow",
+      "who": "r"
      },
      {
       "at": [
        275,
        34
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "r"
      },
      {
       "at": [
        275,
        35
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        275,
        36
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       275,
-       40
-      ],
       "do": "pan_left"
      },
      {
       "at": [
        275,
-       44
+       39
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       275,
+       42
       ],
       "do": "pan_right"
      }
@@ -127,33 +205,26 @@
        275,
        3
       ],
-      "until": null,
+      "until": [
+       275,
+       9
+      ],
       "motif": "coins",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        275,
        23
       ],
-      "until": null,
-      "motif": "two_paths",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       275,
-       28
-      ],
       "until": [
        275,
-       39
+       30
       ],
-      "motif": "lamp",
+      "motif": "two_paths",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -164,14 +235,64 @@
    "verses": [
     276
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "g",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     },
+     {
+      "id": "p",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "sit",
+      "enter": null,
+      "exit": null,
+      "look": "poor"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        276,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       276,
+       4
+      ],
+      "do": "give",
+      "who": "g",
+      "to": "p"
+     },
+     {
+      "at": [
+       276,
        7
+      ],
+      "do": "raise_hands",
+      "who": "p"
+     },
+     {
+      "at": [
+       276,
+       10
       ],
       "do": "shot_wide"
      }
@@ -182,20 +303,27 @@
        276,
        3
       ],
-      "until": null,
+      "until": [
+       276,
+       5
+      ],
       "motif": "leaf",
       "place": "top",
-      "size": "m"
+      "size": "s",
+      "exit": "undraw"
      },
      {
       "at": [
        276,
        5
       ],
-      "until": null,
+      "until": [
+       276,
+       6
+      ],
       "motif": "growth",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "morph"
@@ -316,7 +444,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Nothing drawn for the one struck by the Shaytan (275:10-13) or for the Fire (275:42). 275:4-5 (how they rise) is not glossed: As-Sa'di gives two readings. The usurers' claim (275:16-20) is glossed only with «فأكذبهم الله»."
+  "notes": "Nothing drawn for the one struck by the Shaytan (275:10-13) or for the Fire (275:42). 275:4-5 (how they rise) is not glossed: As-Sa'di gives two readings. The usurers' claim (275:16-20) is glossed only with «فأكذبهم الله». STAGING v4: 275: two traders in a market. The rising of the usurers in the Hereafter, the one struck by Shaytan and the Fire are not drawn (camera only). The usurer speaks on «قالوا» (the claim stays framed by the gloss «فأكذبهم الله»); on «وأحل الله البيع» the other man pays for goods, and shakes his head on «وحرم الربا»; on «موعظة» the usurer reads and lowers his head on «فانتهى». 276: a man gives to a poor man on «ويربي الصدقات»."
  },
  "cover": {
   "series_ar": "الربا",
@@ -328,5 +456,6 @@
    23
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

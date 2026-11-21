@@ -33,70 +33,165 @@
     238,
     239
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "c",
+      "type": "camel",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        238,
-       5
+       1
       ],
-      "do": "pan_left"
+      "do": "pray",
+      "who": "b"
+     },
+     {
+      "at": [
+       238,
+       3
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       238,
+       4
+      ],
+      "do": "ruku",
+      "who": "b"
+     },
+     {
+      "at": [
+       238,
+       6
+      ],
+      "do": "rise",
+      "who": "b"
      },
      {
       "at": [
        238,
        8
       ],
-      "do": "pan_left"
+      "do": "bow",
+      "who": "b"
      },
      {
       "at": [
        239,
        1
       ],
-      "do": "pan_right"
+      "do": "wind"
+     },
+     {
+      "at": [
+       239,
+       3
+      ],
+      "do": "walk_to",
+      "who": "b",
+      "to": "center"
      },
      {
       "at": [
        239,
        5
       ],
-      "do": "shot_wide"
+      "do": "walk_to",
+      "who": "b",
+      "to": "right"
      },
      {
       "at": [
        239,
        7
       ],
-      "do": "shot_wide"
+      "do": "pray",
+      "who": "b"
+     },
+     {
+      "at": [
+       239,
+       8
+      ],
+      "do": "ruku",
+      "who": "b"
      },
      {
       "at": [
        239,
        10
       ],
-      "do": "pan_right"
+      "do": "sujud",
+      "who": "b"
      },
      {
       "at": [
        239,
        12
       ],
-      "do": "pan_right"
+      "do": "sit",
+      "who": "b"
+     },
+     {
+      "at": [
+       239,
+       15
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
      {
       "at": [
        238,
-       3
+       8
       ],
-      "until": null,
+      "until": [
+       239,
+       1
+      ],
       "motif": "hands",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       239,
+       3
+      ],
+      "until": [
+       239,
+       8
+      ],
+      "motif": "footsteps",
+      "place": "top",
+      "size": "s"
      }
     ]
    }
@@ -109,63 +204,126 @@
     241,
     242
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "home",
+    "time": "day",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 4,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "m",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        240,
-       3
+       2
       ],
-      "do": "shot_wide"
+      "do": "bow",
+      "who": "p"
      },
      {
       "at": [
        240,
        5
       ],
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       240,
+       8
+      ],
+      "do": "give",
+      "who": "m",
+      "to": "p"
+     },
+     {
+      "at": [
+       240,
+       12
+      ],
       "do": "shot_wide"
      },
      {
       "at": [
        240,
-       7
+       14
       ],
-      "do": "pan_left"
+      "do": "stand_up",
+      "who": "p"
      },
      {
       "at": [
        240,
-       15
+       17
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "m"
      },
      {
       "at": [
        240,
-       22
+       20
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        240,
        24
       ],
-      "do": "pan_right"
+      "do": "sparkle",
+      "who": "p"
      },
      {
       "at": [
        240,
        26
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       241,
+       1
+      ],
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
        241,
        2
+      ],
+      "do": "give",
+      "who": "m",
+      "to": "p"
+     },
+     {
+      "at": [
+       241,
+       4
       ],
       "do": "shot_wide"
      },
@@ -174,14 +332,32 @@
        241,
        6
       ],
-      "do": "pan_right"
+      "do": "bow",
+      "who": "m"
      },
      {
       "at": [
        242,
-       1
+       2
       ],
-      "do": "shot_wide"
+      "do": "read",
+      "who": "m"
+     },
+     {
+      "at": [
+       242,
+       5
+      ],
+      "do": "shot_close",
+      "who": "m"
+     },
+     {
+      "at": [
+       242,
+       7
+      ],
+      "do": "sparkle",
+      "who": "p"
      }
     ],
     "motifs": [
@@ -190,10 +366,13 @@
        240,
        10
       ],
-      "until": null,
+      "until": [
+       240,
+       25
+      ],
       "motif": "hourglass",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -203,7 +382,7 @@
       "until": null,
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "wipe"
@@ -280,7 +459,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The middle prayer glossed as Asr (Al-Muyassar; the view of most scholars)."
+  "notes": "The middle prayer glossed as Asr (Al-Muyassar; the view of most scholars). STAGING v4: 238-239: believers praying on a journey (the camel: riding, As-Sa'di); on «فرجالا/ركبانا» they walk, then pray in full when safe. No enemy is drawn. 240-242: a family at home (people group), the man of the house (heir/guardian) hands them their provision on «متاعا» and «متاع»; no widow or divorcee is singled out; the husband's death is not shown. STAGING v4: 238-239: believers praying on a journey (the camel: riding, As-Sa'di); on «فرجالا/ركبانا» they walk, then pray in full when safe. No enemy is drawn. 240-242: a family at home (people group), the man of the house (heir/guardian) hands them their provision on «متاعا» and «متاع»; no widow or divorcee is singled out; the husband's death is not shown. STAGING v4: 238-239: believers praying on a journey (the camel: riding, As-Sa'di); on «فرجالا/ركبانا» they walk, then pray in full when safe. No enemy is drawn. 240-242: a family at home (people group), the man of the house (heir/guardian) hands them their provision on «متاعا» and «متاع»; no widow or divorcee is singled out; the husband's death is not shown."
  },
  "cover": {
   "series_ar": "أحكام الأسرة",
@@ -292,5 +471,6 @@
    3
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

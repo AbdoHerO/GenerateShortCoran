@@ -32,65 +32,156 @@
    "verses": [
     283
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "a",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "traveller"
+     },
+     {
+      "id": "b",
+      "type": "man",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "traveller"
+     },
+     {
+      "id": "w",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "traveller"
+     },
+     {
+      "id": "c",
+      "type": "camel",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       283,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       283,
+       4
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       283,
+       7
+      ],
+      "do": "shot_close",
+      "who": "a"
+     },
+     {
+      "at": [
+       283,
+       8
+      ],
+      "do": "give",
+      "who": "b",
+      "to": "a"
+     },
      {
       "at": [
        283,
        11
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "a"
      },
      {
       "at": [
        283,
        14
       ],
-      "do": "pan_left"
+      "do": "give",
+      "who": "b",
+      "to": "a"
      },
      {
       "at": [
        283,
        18
       ],
-      "do": "pan_left"
+      "do": "bow",
+      "who": "b"
+     },
+     {
+      "at": [
+       283,
+       21
+      ],
+      "do": "shot_close",
+      "who": "w"
      },
      {
       "at": [
        283,
        23
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "w"
      },
      {
       "at": [
        283,
        25
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        283,
        27
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        283,
        28
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        283,
-       32
+       31
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -99,10 +190,13 @@
        283,
        4
       ],
-      "until": null,
+      "until": [
+       283,
+       8
+      ],
       "motif": "footsteps",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -112,7 +206,7 @@
       "until": null,
       "motif": "seal",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -161,6 +255,13 @@
        18
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       284,
+       20
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
@@ -342,7 +443,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "JOINED after 283 is inside the video. footsteps for the journey, a seal for the pledge; stars on «السماوات» leave before the Name; geometric for «والله على كل شيء قدير». 284:15-17 carries Al-Muyassar's note that inner thoughts not acted on are forgiven, so the verse is not misread."
+  "notes": "JOINED after 283 is inside the video. footsteps for the journey, a seal for the pledge; stars on «السماوات» leave before the Name; geometric for «والله على كل شيء قدير». 284:15-17 carries Al-Muyassar's note that inner thoughts not acted on are forgiven, so the verse is not misread. STAGING v4: 283: travellers on the road (no scribe): the debtor hands the creditor a pledge on «فرهان مقبوضة», later pays what he was trusted with on «فليؤد»; a fellow traveller who witnessed speaks on «الشهادة» (do not conceal testimony). 284 (Allah's dominion, knowledge and reckoning) stays ambient."
  },
  "cover": {
   "series_ar": "خواتيم البقرة",
@@ -354,5 +455,6 @@
    8
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -32,93 +32,118 @@
    "verses": [
     231
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "home",
+    "time": "day",
+    "actors": [
+     {
+      "id": "f",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       231,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        231,
        4
       ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       231,
+       6
+      ],
+      "do": "speak",
+      "who": "f"
+     },
+     {
+      "at": [
+       231,
+       9
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       231,
+       11
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       231,
+       13
+      ],
+      "do": "shot_close",
+      "who": "f"
+     },
+     {
+      "at": [
+       231,
+       16
+      ],
       "do": "shot_wide"
      },
      {
       "at": [
        231,
-       8
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       231,
-       10
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       231,
-       12
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       231,
-       15
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       231,
-       18
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       231,
-       22
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       231,
-       25
+       20
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       231,
+       23
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       231,
+       26
+      ],
+      "do": "speak",
+      "who": "f"
      },
      {
       "at": [
        231,
        30
       ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       231,
-       35
-      ],
       "do": "pan_right"
      },
      {
       "at": [
        231,
-       37
+       36
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "f"
      },
      {
       "at": [
        231,
        40
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -130,9 +155,9 @@
      {
       "at": [
        231,
-       45
+       44
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -141,10 +166,26 @@
        231,
        6
       ],
-      "until": null,
+      "until": [
+       231,
+       24
+      ],
       "motif": "house",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       231,
+       31
+      ],
+      "until": [
+       231,
+       39
+      ],
+      "motif": "book",
+      "place": "top",
+      "size": "s"
      }
     ]
    }
@@ -155,65 +196,111 @@
    "verses": [
     232
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "home",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "f",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       232,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        232,
        4
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        232,
        6
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        232,
        9
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "f"
      },
      {
       "at": [
        232,
-       15
+       12
+      ],
+      "do": "shot_close",
+      "who": "f"
+     },
+     {
+      "at": [
+       232,
+       14
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       232,
+       16
+      ],
+      "do": "speak",
+      "who": "f"
+     },
+     {
+      "at": [
+       232,
+       21
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        232,
-       20
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       232,
-       23
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       232,
-       28
+       24
       ],
       "do": "pan_left"
      },
      {
       "at": [
        232,
-       31
+       26
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "f"
+     },
+     {
+      "at": [
+       232,
+       30
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       232,
+       33
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -225,7 +312,17 @@
       "until": null,
       "motif": "seal",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       232,
+       26
+      ],
+      "until": null,
+      "motif": "light",
+      "place": "top",
+      "size": "s"
      }
     ],
     "transition": "slide"
@@ -291,7 +388,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Family rulings; no people pictured."
+  "notes": "Family rulings; no people pictured. STAGING v4: 231-232: a family sitting at home and speaking (retaining with kindness, remembering the Book and wisdom; the guardians not preventing a remarriage the two agree to). No couple, nothing private. The house plate ends before the Name; the book on «أنزل» ends before the Name; the seal for their agreement. STAGING v4: 231-232: a family sitting at home and speaking (retaining with kindness, remembering the Book and wisdom; the guardians not preventing a remarriage the two agree to). No couple, nothing private. The house plate ends before the Name; the book on «أنزل» ends before the Name; the seal for their agreement."
  },
  "cover": {
   "series_ar": "أحكام الأسرة",
@@ -303,5 +400,6 @@
    6
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

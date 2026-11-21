@@ -42,21 +42,14 @@
        97,
        4
       ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       97,
-       10
-      ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        97,
        15
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -77,19 +70,26 @@
        98,
        3
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        98,
        6
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        98,
        8
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       98,
+       11
       ],
       "do": "shot_wide"
      },
@@ -108,6 +108,16 @@
        7
       ],
       "until": null,
+      "motif": "light",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       97,
+       12
+      ],
+      "until": null,
       "motif": "book",
       "place": "top",
       "size": "m"
@@ -117,7 +127,10 @@
        97,
        16
       ],
-      "until": null,
+      "until": [
+       98,
+       4
+      ],
       "motif": "lamp",
       "place": "top",
       "size": "m"
@@ -133,10 +146,31 @@
     100,
     101
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 6,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       99,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        99,
@@ -147,42 +181,54 @@
      {
       "at": [
        99,
-       8
+       7
       ],
-      "do": "shot_wide"
+      "do": "shake_head",
+      "who": "p"
      },
      {
       "at": [
        99,
        10
       ],
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       100,
+       2
+      ],
+      "do": "speak",
+      "who": "p"
+     },
+     {
+      "at": [
+       100,
+       4
+      ],
+      "do": "turn",
+      "who": "p"
+     },
+     {
+      "at": [
+       100,
+       8
+      ],
       "do": "pan_left"
      },
      {
       "at": [
-       100,
-       1
+       101,
+       2
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       100,
-       6
-      ],
-      "do": "pan_right"
+      "do": "turn",
+      "who": "p"
      },
      {
       "at": [
        101,
-       1
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       101,
-       4
+       5
       ],
       "do": "pan_left"
      },
@@ -191,28 +237,29 @@
        101,
        10
       ],
-      "do": "pan_left"
+      "do": "turn",
+      "who": "p"
      },
      {
       "at": [
        101,
-       14
+       15
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        101,
        18
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        101,
        20
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -224,21 +271,17 @@
       "until": null,
       "motif": "burst",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        100,
        3
       ],
-      "until": [
-       100,
-       5
-      ],
+      "until": null,
       "motif": "seal",
       "place": "top",
-      "size": "m",
-      "exit": "undraw"
+      "size": "s"
      }
     ],
     "transition": "slide"
@@ -348,7 +391,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Jibril and Mikail are angels: never drawn, no motif. The Book thrown behind their backs (101) is never pictured."
+  "notes": "Jibril and Mikail are angels: never drawn, no motif. The Book thrown behind their backs (101) is never pictured. STAGING v4: 97-98 stay ambient: Jibril, Mikail, the angels and the revelation to the Prophet's heart are not drawn. 99-101: the people deny the clear signs, make a covenant (speak, seal plate) and turn their backs on it; when the messenger came they face him, then turn their backs again on «نبذ». No book is drawn being thrown; the Prophet is not shown."
  },
  "cover": {
   "series_ar": "بين الوحي والسحر",
@@ -360,5 +403,6 @@
    7
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -32,51 +32,123 @@
    "verses": [
     282
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "c",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "rich"
+     },
+     {
+      "id": "d",
+      "type": "man",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     },
+     {
+      "id": "s",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "sit",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     },
+     {
+      "id": "w",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 2,
+      "pose": "stand",
+      "enter": [
+       282,
+       52
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        282,
-       4
+       3
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        282,
-       6
+       5
       ],
-      "do": "pan_left"
+      "do": "give",
+      "who": "c",
+      "to": "d"
      },
      {
       "at": [
        282,
-       12
+       11
       ],
-      "do": "pan_right"
+      "do": "read",
+      "who": "s"
      },
      {
       "at": [
        282,
-       19
+       14
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "s"
      },
      {
       "at": [
        282,
-       27
+       18
       ],
-      "do": "shot_wide"
+      "do": "read",
+      "who": "s"
      },
      {
       "at": [
        282,
-       31
+       24
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "d"
+     },
+     {
+      "at": [
+       282,
+       28
+      ],
+      "do": "bow",
+      "who": "d"
+     },
+     {
+      "at": [
+       282,
+       32
+      ],
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
@@ -88,7 +160,7 @@
      {
       "at": [
        282,
-       45
+       42
       ],
       "do": "pan_left"
      },
@@ -97,112 +169,106 @@
        282,
        55
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "w"
      },
      {
       "at": [
        282,
-       58
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       282,
-       62
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       282,
-       64
+       60
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       282,
+       66
+      ],
+      "do": "shot_close",
+      "who": "w"
      },
      {
       "at": [
        282,
        68
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        282,
-       71
+       72
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        282,
        77
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "w"
      },
      {
       "at": [
        282,
-       86
+       89
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        282,
-       92
+       96
       ],
       "do": "pan_left"
      },
      {
       "at": [
        282,
-       95
+       101
       ],
-      "do": "pan_right"
+      "do": "give",
+      "who": "d",
+      "to": "c"
      },
      {
       "at": [
        282,
-       103
+       104
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        282,
-       113
+       110
+      ],
+      "do": "speak",
+      "who": "c"
+     },
+     {
+      "at": [
+       282,
+       114
+      ],
+      "do": "shot_close",
+      "who": "w"
+     },
+     {
+      "at": [
+       282,
+       118
       ],
       "do": "pan_right"
      },
      {
       "at": [
        282,
-       115
+       121
       ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       282,
-       119
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       282,
-       123
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       282,
-       126
-      ],
-      "do": "pan_right"
+      "do": "bow",
+      "who": "c"
      }
     ],
     "motifs": [
@@ -211,40 +277,52 @@
        282,
        8
       ],
-      "until": null,
+      "until": [
+       282,
+       10
+      ],
       "motif": "hourglass",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        282,
        10
       ],
-      "until": null,
+      "until": [
+       282,
+       22
+      ],
       "motif": "pen",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        282,
-       14
+       23
       ],
-      "until": null,
-      "motif": "scales",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
+      "until": [
        282,
-       24
+       29
       ],
-      "until": null,
       "motif": "scroll",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       282,
+       49
+      ],
+      "until": [
+       282,
+       52
+      ],
+      "motif": "scroll",
+      "place": "top",
+      "size": "s"
      },
      {
       "at": [
@@ -254,47 +332,82 @@
       "until": null,
       "motif": "seal",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       282,
+       63
+      ],
+      "until": [
+       282,
+       72
+      ],
+      "motif": "scales",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       282,
+       75
+      ],
+      "until": [
+       282,
+       81
+      ],
+      "motif": "footsteps",
+      "place": "top",
+      "size": "s"
      },
      {
       "at": [
        282,
        81
       ],
-      "until": null,
-      "motif": "scroll",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
+      "until": [
        282,
-       88
+       86
       ],
-      "until": null,
-      "motif": "scales",
+      "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        282,
-       74
+       86
+      ],
+      "until": [
+       282,
+       90
+      ],
+      "motif": "hourglass",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       282,
+       93
       ],
       "until": null,
       "motif": "seal",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        282,
-       99
+       98
       ],
-      "until": null,
+      "until": [
+       282,
+       108
+      ],
       "motif": "coins",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -304,27 +417,40 @@
       "until": null,
       "motif": "seal",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        282,
-       110
+       113
       ],
-      "until": null,
-      "motif": "coins",
+      "until": [
+       282,
+       122
+      ],
+      "motif": "pen",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        282,
-       121
+       123
       ],
       "until": null,
-      "motif": "lamp",
+      "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       282,
+       126
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "s"
      }
     ]
    }
@@ -554,7 +680,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "One verse of 140 s (never cut). No people drawn (scribe, witnesses): hourglass for the term, pen for writing, scales for justice in writing (worldly justice, not the Mizan), seal for witnessing (twice), scroll, coins for present trade and the sale, a lamp for taqwa. 282:108-115 (witnessing a sale, harm to/by scribes) not glossed: the tafsirs give more than one reading. 282:15-22 not glossed («علمه الله» cannot be excerpted)."
+  "notes": "One verse of 140 s (never cut). No people drawn (scribe, witnesses): hourglass for the term, pen for writing, scales for justice in writing (worldly justice, not the Mizan), seal for witnessing (twice), scroll, coins for present trade and the sale, a lamp for taqwa. 282:108-115 (witnessing a sale, harm to/by scribes) not glossed: the tafsirs give more than one reading. 282:15-22 not glossed («علمه الله» cannot be excerpted). STAGING v4: The written debt in a market: the creditor lends to the debtor on «تداينتم»; the scribe (seated) writes on «وليكتب» and «أن يكتب»; the debtor dictates on «وليملل» and lowers his head on «وليتق»; two witnesses come in on «واستشهدوا». The women witnesses, the weak or incapable debtor and his guardian are not drawn (a scroll plate for the guardian's dictation). Present trade: the debtor pays the trader on «تديرونها». Scales only for upright witnesses («ممن ترضون»), worldly justice, far from the Name; never the Mizan."
  },
  "cover": {
   "series_ar": "خواتيم البقرة",
@@ -566,5 +692,6 @@
    10
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

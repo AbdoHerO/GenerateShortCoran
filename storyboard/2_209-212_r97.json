@@ -40,37 +40,44 @@
      {
       "at": [
        209,
-       6
+       1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        209,
-       7
+       5
       ],
       "do": "pan_right"
      },
      {
       "at": [
        209,
+       7
+      ],
+      "do": "light_up"
+     },
+     {
+      "at": [
+       209,
        9
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        209,
        11
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        210,
-       3
+       2
       ],
-      "do": "shot_wide"
+      "do": "stars"
      },
      {
       "at": [
@@ -82,16 +89,23 @@
      {
       "at": [
        210,
-       10
+       7
       ],
       "do": "pan_left"
      },
      {
       "at": [
        210,
-       13
+       10
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       210,
+       14
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -101,10 +115,33 @@
        2
       ],
       "until": [
+       209,
+       10
+      ],
+      "motif": "leaf",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
        210,
        1
       ],
-      "motif": "leaf",
+      "until": [
+       210,
+       6
+      ],
+      "motif": "hourglass",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       210,
+       12
+      ],
+      "until": null,
+      "motif": "seal",
       "place": "top",
       "size": "m"
      }
@@ -118,16 +155,60 @@
     211,
     212
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "rain",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": [
+       212,
+       1
+      ],
+      "exit": null
+     },
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": [
+       212,
+       1
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        211,
-       4
+       1
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       211,
+       3
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       211,
+       5
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
@@ -139,51 +220,78 @@
      {
       "at": [
        211,
-       16
+       14
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        211,
-       19
+       17
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       211,
+       20
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
        212,
        1
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       212,
+       5
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       212,
+       6
+      ],
+      "do": "point",
+      "who": "d",
+      "to": "b"
      },
      {
       "at": [
        212,
        7
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "d"
      },
      {
       "at": [
        212,
-       10
+       11
       ],
-      "do": "pan_left"
+      "do": "sparkle",
+      "who": "b"
      },
      {
       "at": [
        212,
        13
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        212,
-       19
+       18
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -192,10 +300,13 @@
        211,
        7
       ],
-      "until": null,
+      "until": [
+       211,
+       12
+      ],
       "motif": "burst",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -208,7 +319,7 @@
       ],
       "motif": "jewel",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -218,7 +329,7 @@
       "until": null,
       "motif": "wheat",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "wipe"
@@ -328,7 +439,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "210 (the coming of Allah and the angels on the Day) has no motif at all and is glossed «على الوجه اللائق به سبحانه» (Al-Muyassar)."
+  "notes": "210 (the coming of Allah and the angels on the Day) has no motif at all and is glossed «على الوجه اللائق به سبحانه» (Al-Muyassar). STAGING v4: 209-210 stay ambient (210: the coming on the Day, the angels; no clouds, nothing drawn). 211 over an empty market: the clear signs (burst), Bani Israel are not drawn. 212: the worldly life made attractive (jewel) to the disbelievers, who point at the believers and speak (mocking, Al-Muyassar); a sparkle on the believers who fear Him; provision (wheat) after the Name. STAGING v4: 209-210 stay ambient (210: the coming on the Day, the angels; no clouds, nothing drawn). 211 over an empty market: the clear signs (burst), Bani Israel are not drawn. 212: the worldly life made attractive (jewel) to the disbelievers, who point at the believers and speak (mocking, Al-Muyassar); a sparkle on the believers who fear Him; provision (wheat) after the Name. STAGING v4: 209-210 stay ambient (210: the coming on the Day, the angels; no clouds, nothing drawn). 211 over an empty market: the clear signs (burst), Bani Israel are not drawn. 212: the worldly life made attractive (jewel) to the disbelievers, who point at the believers and speak (mocking, Al-Muyassar); a sparkle on the believers who fear Him; provision (wheat) after the Name."
  },
  "cover": {
   "series_ar": "بين الفساد والإخلاص",
@@ -340,5 +451,6 @@
    4
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

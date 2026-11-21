@@ -33,28 +33,61 @@
     175,
     176
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "g1",
+      "type": "disbelievers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "g2",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        175,
-       2
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        175,
-       8
+       3
       ],
-      "do": "pan_left"
+      "do": "shake_head",
+      "who": "g1"
      },
      {
       "at": [
        175,
-       11
+       7
+      ],
+      "do": "shake_head",
+      "who": "g2"
+     },
+     {
+      "at": [
+       175,
+       9
       ],
       "do": "pan_right"
      },
@@ -63,28 +96,39 @@
        176,
        1
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        176,
        9
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "g1"
      },
      {
       "at": [
        176,
-       12
+       11
       ],
-      "do": "shot_wide"
+      "do": "shake_head",
+      "who": "g2"
+     },
+     {
+      "at": [
+       176,
+       13
+      ],
+      "do": "turn",
+      "who": "g1"
      },
      {
       "at": [
        176,
        14
       ],
-      "do": "pan_right"
+      "do": "turn",
+      "who": "g2"
      }
     ],
     "motifs": [
@@ -99,7 +143,7 @@
       ],
       "motif": "lamp",
       "place": "top",
-      "size": "m",
+      "size": "s",
       "exit": "undraw"
      },
      {
@@ -110,7 +154,7 @@
       "until": null,
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -153,7 +197,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The lamp (guidance) undraws as they exchange it for error. No fire motif (175)."
+  "notes": "The lamp (guidance) undraws as they exchange it for error. No fire motif (175). STAGING v4: 175-176 on a town street at dusk: those who chose error turn down guidance (As-Sa'di: they turned away from the Book), the lamp of guidance undraws; nothing is shown for the Fire. 176: the Book plate, then two groups argue and turn apart (As-Sa'di: their dispute led to their division)."
  },
  "cover": {
   "series_ar": "الكتمان والطيبات",
@@ -165,5 +209,6 @@
    5
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

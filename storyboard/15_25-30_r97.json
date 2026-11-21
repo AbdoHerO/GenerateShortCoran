@@ -42,6 +42,13 @@
        5
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       25,
+       7
+      ],
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -89,6 +96,13 @@
        1
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       27,
+       2
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
@@ -154,14 +168,14 @@
        30,
        1
       ],
-      "do": "pan_right"
+      "do": "leaves"
      },
      {
       "at": [
        30,
        3
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -308,7 +322,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Adam, the angels, the jinn and Iblis are never drawn; no fire for «نار السموم» and no clay figure. Geometric only on «وإن ربك» and «قال ربك» (gone before «للملائكة»). 29:3-6 («ونفخت فيه من روحي») is not glossed; 29:7-9 carries Al-Muyassar's «سجود تحية وتكريم، لا سجود عبادة». 27:2-4 is not glossed (the vocalised «قبل» would repeat the passage)."
+  "notes": "Adam, the angels, the jinn and Iblis are never drawn; no fire for «نار السموم» and no clay figure. Geometric only on «وإن ربك» and «قال ربك» (gone before «للملائكة»). 29:3-6 («ونفخت فيه من روحي») is not glossed; 29:7-9 carries Al-Muyassar's «سجود تحية وتكريم، لا سجود عبادة». 27:2-4 is not glossed (the vocalised «قبل» would repeat the passage). STAGING v4: All chapters stay ambient: the Gathering (25), the creation of Adam and of the jinn (26-27) and the angels' prostration (28-30) are the unseen. c3 unchanged except a leaves beat on 30:1 (in place of a pan) and a pan on 30:3, so the picture is not still during the long word 30:2 (no camera move may fall on it)."
  },
  "cover": {
   "series_ar": "خلق الإنسان وإبليس",
@@ -320,5 +334,6 @@
    2
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

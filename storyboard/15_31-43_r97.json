@@ -188,6 +188,13 @@
      {
       "at": [
        39,
+       3
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       39,
        8
       ],
       "do": "pan_left"
@@ -479,7 +486,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Iblis, the angels, the Garden and Hell are never drawn; no plate in 43. «فاخرج منها» is not glossed with a place (Al-Muyassar says the Garden; As-Sa'di does not say). The day of 38 is not named (Al-Muyassar: the first blast; As-Sa'di does not say); 37-38 carry As-Sa'di's «وليس إجابة الله لدعائه كرامة في حقه… وإنما ذلك امتحان». 39:1-4 and 41 are not glossed (Iblis's «بما أغويتني»; the tafsirs' paraphrase of 41 is in Allah's first person). 42 is one chip so «ليس… إلا» stays whole. The hourglass and two paths start after «رب» (36:2, 39:2); the two paths live across the reciter's repeat of 39:5-8."
+  "notes": "Iblis, the angels, the Garden and Hell are never drawn; no plate in 43. «فاخرج منها» is not glossed with a place (Al-Muyassar says the Garden; As-Sa'di does not say). The day of 38 is not named (Al-Muyassar: the first blast; As-Sa'di does not say); 37-38 carry As-Sa'di's «وليس إجابة الله لدعائه كرامة في حقه… وإنما ذلك امتحان». 39:1-4 and 41 are not glossed (Iblis's «بما أغويتني»; the tafsirs' paraphrase of 41 is in Allah's first person). 42 is one chip so «ليس… إلا» stays whole. The hourglass and two paths start after «رب» (36:2, 39:2); the two paths live across the reciter's repeat of 39:5-8. STAGING v4: All chapters stay ambient: Iblis, his expulsion, his request and his vow (31-40), Allah's answer (41-42) and the gates of Hell (43) are the unseen."
  },
  "cover": {
   "series_ar": "خلق الإنسان وإبليس",
@@ -491,5 +498,6 @@
    3
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

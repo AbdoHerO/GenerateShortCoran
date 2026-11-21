@@ -33,37 +33,84 @@
     118,
     119
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 5,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [
+     {
+      "type": "light",
+      "at": [
+       118,
+       22
+      ],
+      "until": [
+       119,
+       1
+      ]
+     }
+    ],
     "beats": [
      {
       "at": [
        118,
-       5
+       1
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "d"
+     },
+     {
+      "at": [
+       118,
+       4
+      ],
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        118,
        9
       ],
-      "do": "pan_right"
+      "do": "point",
+      "who": "d",
+      "to": "center"
      },
      {
       "at": [
        118,
        10
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        118,
        12
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -75,16 +122,18 @@
      {
       "at": [
        118,
-       19
+       18
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        118,
        24
       ],
-      "do": "shot_wide"
+      "do": "sparkle",
+      "who": "b"
      },
      {
       "at": [
@@ -98,28 +147,37 @@
        119,
        2
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       119,
+       4
+      ],
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        119,
        5
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        119,
        7
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        119,
        10
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -131,7 +189,7 @@
       "until": null,
       "motif": "burst",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -143,93 +201,171 @@
     120,
     121
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 5,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "r",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": [
+       121,
+       1
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        120,
-       3
+       2
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
        120,
-       6
+       5
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       120,
+       8
+      ],
+      "do": "speak",
+      "who": "p"
+     },
+     {
+      "at": [
+       120,
+       10
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        120,
-       9
+       16
       ],
-      "do": "pan_left"
+      "do": "shake_head",
+      "who": "b"
      },
      {
       "at": [
        120,
        18
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
        120,
        19
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       120,
+       21
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
        120,
        23
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       120,
-       28
-      ],
       "do": "pan_left"
      },
      {
       "at": [
        120,
-       31
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       121,
-       7
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       121,
-       9
+       29
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        121,
+       1
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       121,
+       4
+      ],
+      "do": "read",
+      "who": "r"
+     },
+     {
+      "at": [
+       121,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       121,
+       8
+      ],
+      "do": "shot_close",
+      "who": "r"
+     },
+     {
+      "at": [
+       121,
+       11
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       121,
        13
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        121,
        15
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -239,9 +375,9 @@
        12
       ],
       "until": null,
-      "motif": "lamp",
+      "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -251,7 +387,7 @@
       "until": null,
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "light_sweep"
@@ -350,7 +486,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on the Prophet ﷺ (119) or on Hell (119). The gloss on 120 notes that the address concerns the whole ummah (Al-Muyassar)."
+  "notes": "No motif on the Prophet ﷺ (119) or on Hell (119). The gloss on 120 notes that the address concerns the whole ummah (Al-Muyassar). STAGING v4: 118: the ignorant demand a sign (speak, point); the signs made clear for the people of certainty = light on the believers. 119: the Prophet is never shown: glad tidings on the believers, warning on the stubborn; Hell is not pictured. 120: the People of the Book call to their religion; the believers (the address includes the whole ummah, Al-Muyassar) refuse their desires; light plate for «هدى الله». 121: those of the People of the Book who recite it as it should be recited read the book (both tafsirs). STAGING v4: 118: the ignorant demand a sign (speak, point); the signs made clear for the people of certainty = light on the believers. 119: the Prophet is never shown: glad tidings on the believers, warning on the stubborn; Hell is not pictured. 120: the People of the Book call to their religion; the believers (the address includes the whole ummah, Al-Muyassar) refuse their desires; light plate for «هدى الله». 121: those of the People of the Book who recite it as it should be recited read the book (both tafsirs). STAGING v4: 118: the ignorant demand a sign (speak, point); the signs made clear for the people of certainty = light on the believers. 119: the Prophet is never shown: glad tidings on the believers, warning on the stubborn; Hell is not pictured. 120: the People of the Book call to their religion; the believers (the address includes the whole ummah, Al-Muyassar) refuse their desires; light plate for «هدى الله». 121: those of the People of the Book who recite it as it should be recited read the book (both tafsirs)."
  },
  "cover": {
   "series_ar": "دعاوى أهل الكتاب",
@@ -362,5 +498,6 @@
    12
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

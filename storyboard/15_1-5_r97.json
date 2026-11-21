@@ -32,16 +32,46 @@
    "verses": [
     1
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        1,
-       5
+       1
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       1,
+       4
+      ],
+      "do": "read",
+      "who": "b"
+     },
+     {
+      "at": [
+       1,
+       6
+      ],
+      "do": "shot_close",
+      "who": "b"
      }
     ],
     "motifs": [
@@ -53,7 +83,7 @@
       "until": null,
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -65,23 +95,69 @@
     2,
     3
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "market",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "gather",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        2,
-       5
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       2,
+       4
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       2,
+       7
       ],
       "do": "pan_left"
      },
      {
       "at": [
        3,
-       1
+       2
       ],
-      "do": "shot_wide"
+      "do": "sit",
+      "who": "d"
+     },
+     {
+      "at": [
+       3,
+       4
+      ],
+      "do": "speak",
+      "who": "d"
+     },
+     {
+      "at": [
+       3,
+       7
+      ],
+      "do": "shot_close",
+      "who": "d"
      }
     ],
     "motifs": [
@@ -93,7 +169,7 @@
       "until": null,
       "motif": "hourglass",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "dissolve"
@@ -106,30 +182,71 @@
     4,
     5
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       5,
+       5
+      ]
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        4,
-       3
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        4,
-       8
+       2
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       4,
+       4
       ],
       "do": "pan_right"
      },
      {
       "at": [
-       5,
-       3
+       4,
+       6
       ],
-      "do": "pan_left"
+      "do": "walk_to",
+      "who": "p",
+      "to": "center"
+     },
+     {
+      "at": [
+       5,
+       2
+      ],
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       5,
+       7
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -141,7 +258,7 @@
       "until": null,
       "motif": "hourglass",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "dissolve"
@@ -240,7 +357,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The isolated letters (1:1) are not glossed. A book for «آيات الكتاب وقرآن مبين». 2: the tafsirs place the wish at different times (leaving the Fire / at death and in the Hereafter), so only As-Sa'di's neutral «وقد فات وقت الإمكان». «ذرهم» addresses the Prophet ﷺ: no plate on it; an hourglass for «فسوف يعلمون» and «ولها كتاب معلوم». 4 keeps «وما أهلكنا… إلا» whole."
+  "notes": "The isolated letters (1:1) are not glossed. A book for «آيات الكتاب وقرآن مبين». 2: the tafsirs place the wish at different times (leaving the Fire / at death and in the Hereafter), so only As-Sa'di's neutral «وقد فات وقت الإمكان». «ذرهم» addresses the Prophet ﷺ: no plate on it; an hourglass for «فسوف يعلمون» and «ولها كتاب معلوم». 4 keeps «وما أهلكنا… إلا» whole. STAGING v4: 1: believers sitting in a prayer hall read the Book (As-Sa'di: it must be received with acceptance); a book plate on 1:3. 2-3: a group of deniers in a market at dusk sits down to eat and talk (3:2-5: eating, enjoying, diverted by hope); the wish of verse 2 is not acted out (the tafsirs place it at different moments, in the Hereafter or at death); hourglass on 3:6. 4-5: the people of a town walk off the stage on 5:5 (their term); no destruction is drawn; hourglass on 4:7 for the known term."
  },
  "cover": {
   "series_ar": "القرآن والمستهزئون",
@@ -249,8 +366,9 @@
   "title_en": "What the deniers will wish",
   "at": [
    1,
-   3
+   5
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

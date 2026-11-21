@@ -32,23 +32,71 @@
    "verses": [
     16
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "desert",
+    "time": "night",
+    "actors": [
+     {
+      "id": "w",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "traveller"
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       16,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       16,
+       2
+      ],
+      "do": "walk_to",
+      "who": "w",
+      "to": "center"
+     },
+     {
+      "at": [
+       16,
+       4
+      ],
+      "do": "shot_sky"
+     },
      {
       "at": [
        16,
        5
       ],
-      "do": "pan_left"
+      "do": "look_up",
+      "who": "w"
      },
      {
       "at": [
        16,
        6
       ],
-      "do": "shot_wide"
+      "do": "sparkle",
+      "who": "sky"
+     },
+     {
+      "at": [
+       16,
+       7
+      ],
+      "do": "shot_close",
+      "who": "w"
      }
     ],
     "motifs": [
@@ -57,13 +105,10 @@
        16,
        4
       ],
-      "until": [
-       16,
-       6
-      ],
+      "until": null,
       "motif": "stars",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -112,21 +157,99 @@
     19,
     20
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "fields",
+    "time": "day",
+    "actors": [
+     {
+      "id": "f",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     },
+     {
+      "id": "c",
+      "type": "camel",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       20,
+       5
+      ],
+      "exit": null
+     }
+    ],
+    "events": [
+     {
+      "type": "growth",
+      "at": [
+       19,
+       6
+      ],
+      "until": null
+     }
+    ],
     "beats": [
+     {
+      "at": [
+       19,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       19,
+       2
+      ],
+      "do": "pan_right"
+     },
      {
       "at": [
        19,
        8
       ],
-      "do": "pan_left"
+      "do": "walk_to",
+      "who": "f",
+      "to": "center"
      },
      {
       "at": [
        19,
        11
+      ],
+      "do": "shot_close",
+      "who": "f"
+     },
+     {
+      "at": [
+       20,
+       3
+      ],
+      "do": "point",
+      "who": "f",
+      "to": "right"
+     },
+     {
+      "at": [
+       20,
+       6
+      ],
+      "do": "shot_close",
+      "who": "c"
+     },
+     {
+      "at": [
+       20,
+       8
       ],
       "do": "shot_wide"
      }
@@ -137,39 +260,20 @@
        19,
        5
       ],
-      "until": [
-       19,
-       6
-      ],
+      "until": null,
       "motif": "mountain",
       "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       19,
-       6
-      ],
-      "until": [
-       20,
-       1
-      ],
-      "motif": "growth",
-      "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        20,
        4
       ],
-      "until": [
-       20,
-       5
-      ],
+      "until": null,
       "motif": "wheat",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "slide"
@@ -181,30 +285,70 @@
    "verses": [
     21
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "fields",
+    "time": "day",
+    "actors": [
+     {
+      "id": "f",
+      "type": "man",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     }
+    ],
+    "events": [
+     {
+      "type": "rain",
+      "at": [
+       21,
+       8
+      ],
+      "until": null
+     }
+    ],
     "beats": [
      {
       "at": [
        21,
-       6
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       21,
-       8
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        21,
+       3
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       21,
+       6
+      ],
+      "do": "shot_close",
+      "who": "f"
+     },
+     {
+      "at": [
+       21,
+       8
+      ],
+      "do": "look_up",
+      "who": "f"
+     },
+     {
+      "at": [
+       21,
        10
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -216,7 +360,17 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       21,
+       10
+      ],
+      "until": null,
+      "motif": "cloud_rain",
+      "place": "top",
+      "size": "s"
      }
     ],
     "transition": "morph"
@@ -370,7 +524,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Stars for «في السماء بروجا» (gone before «وحفظناها»). The devils and the shooting flame (17-18) are never drawn. 18 keeps «إلا من استرق السمع» whole in one chip, framed as «في بعض الأوقات». Mountain, growth and wheat for 19-20. Geometric for «عندنا خزائنه», nothing on the negated «لستم له برازقين». 21 keeps «إن… إلا» and «ما… إلا» whole. No first-person paraphrase (Al-Muyassar's «أنا جعلنا» is not used)."
+  "notes": "Stars for «في السماء بروجا» (gone before «وحفظناها»). The devils and the shooting flame (17-18) are never drawn. 18 keeps «إلا من استرق السمع» whole in one chip, framed as «في بعض الأوقات». Mountain, growth and wheat for 19-20. Geometric for «عندنا خزائنه», nothing on the negated «لستم له برازقين». 21 keeps «إن… إلا» and «ما… إلا» whole. No first-person paraphrase (Al-Muyassar's «أنا جعلنا» is not used). STAGING v4: 16: a traveller in the desert at night looks up at the stars (As-Sa'di: stars guide in the darkness of land and sea; Al-Muyassar: for those who look at them). 17-18 (devils, the shooting flame: the unseen) stay ambient as they were. 19-20: fields; the growth event on 19:6, a mountain plate on 19:5, a man in the fields and wheat on 20:4 (tillage), a camel enters on 20:5 (both tafsirs: livestock and beasts that people do not feed). 21: geometric on 21:5 (His treasuries); rain on the fields from 21:8 (As-Sa'di: what is sent down in measure, rain and other things), a rain cloud plate on 21:10."
  },
  "cover": {
   "series_ar": "آيات الكون",
@@ -378,9 +532,10 @@
   "title_ar": "آيات الخلق والرزق",
   "title_en": "Signs of creation and provision",
   "at": [
-   19,
-   6
+   20,
+   4
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

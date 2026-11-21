@@ -33,10 +33,52 @@
     202,
     203
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b1",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": [
+       203,
+       12
+      ]
+     },
+     {
+      "id": "b2",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       202,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       202,
+       3
+      ],
+      "do": "sparkle",
+      "who": "center"
+     },
      {
       "at": [
        202,
@@ -49,54 +91,75 @@
        202,
        8
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        203,
        1
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "b1"
+     },
+     {
+      "at": [
+       203,
+       4
+      ],
+      "do": "speak",
+      "who": "b2"
      },
      {
       "at": [
        203,
        5
       ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       203,
+       7
+      ],
+      "do": "stand_up",
+      "who": "b1"
+     },
+     {
+      "at": [
+       203,
+       9
+      ],
+      "do": "walk_to",
+      "who": "b1",
+      "to": "left"
+     },
+     {
+      "at": [
+       203,
+       11
+      ],
       "do": "shot_wide"
      },
      {
       "at": [
        203,
-       6
+       14
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "b2"
      },
      {
       "at": [
        203,
-       10
+       19
       ],
-      "do": "pan_left"
+      "do": "bow",
+      "who": "b2"
      },
      {
       "at": [
        203,
-       13
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       203,
-       17
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       203,
-       20
+       22
       ],
       "do": "shot_wide"
      },
@@ -112,7 +175,7 @@
        203,
        25
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -124,17 +187,20 @@
       "until": null,
       "motif": "seal",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        203,
        4
       ],
-      "until": null,
+      "until": [
+       203,
+       21
+      ],
       "motif": "night_day",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -199,7 +265,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The days of Tashriq; no motif on Allah's reckoning."
+  "notes": "The days of Tashriq; no motif on Allah's reckoning. STAGING v4: Pilgrims resting in the tents in the counted days (Al-Muyassar: the days of Tashriq) and remembering Allah; on «تعجل» one group rises and leaves early, the other stays (both without sin, as the verse says). The night_day plate ends before the Name. Nothing is shown for the Gathering. STAGING v4: Pilgrims resting in the tents in the counted days (Al-Muyassar: the days of Tashriq) and remembering Allah; on «تعجل» one group rises and leaves early, the other stays (both without sin, as the verse says). The night_day plate ends before the Name. Nothing is shown for the Gathering."
  },
  "cover": {
   "series_ar": "القتال والحج",
@@ -211,5 +277,6 @@
    4
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

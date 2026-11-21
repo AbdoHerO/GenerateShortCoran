@@ -33,40 +33,103 @@
     51,
     52
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "home",
+    "time": "day",
+    "actors": [
+     {
+      "id": "ib",
+      "type": "prophet",
+      "label": "إبراهيم",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "an",
+      "type": "angel",
+      "label": "الملائكة",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       52,
+       2
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        51,
-       3
+       1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
-       52,
-       1
+       51,
+       2
       ],
       "do": "pan_right"
      },
      {
       "at": [
+       51,
+       4
+      ],
+      "do": "glow",
+      "who": "ib"
+     },
+     {
+      "at": [
        52,
-       3
+       2
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        52,
-       7
+       4
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "an"
+     },
+     {
+      "at": [
+       52,
+       6
+      ],
+      "do": "speak",
+      "who": "ib"
+     },
+     {
+      "at": [
+       52,
+       9
+      ],
+      "do": "shot_close",
+      "who": "ib"
      }
     ],
-    "motifs": []
+    "motifs": [
+     {
+      "at": [
+       52,
+       2
+      ],
+      "until": null,
+      "motif": "footsteps",
+      "place": "top",
+      "size": "s"
+     }
+    ]
    }
   },
   {
@@ -77,61 +140,116 @@
     54,
     55
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "home",
+    "time": "day",
+    "actors": [
+     {
+      "id": "ib",
+      "type": "prophet",
+      "label": "إبراهيم",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "an",
+      "type": "angel",
+      "label": "الملائكة",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        53,
-       4
+       1
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "an"
+     },
+     {
+      "at": [
+       53,
+       5
+      ],
+      "do": "glow",
+      "who": "ib"
      },
      {
       "at": [
        53,
        7
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        54,
-       2
+       1
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "ib"
      },
      {
       "at": [
        54,
        4
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "ib"
      },
      {
       "at": [
        54,
-       8
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       55,
+       1
+      ],
+      "do": "speak",
+      "who": "an"
+     },
+     {
+      "at": [
+       55,
+       4
       ],
       "do": "pan_left"
      },
      {
       "at": [
        55,
-       2
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       55,
        7
       ],
-      "do": "shot_wide"
+      "do": "glow",
+      "who": "ib"
      }
     ],
-    "motifs": [],
+    "motifs": [
+     {
+      "at": [
+       53,
+       5
+      ],
+      "until": null,
+      "motif": "scroll",
+      "place": "top",
+      "size": "s"
+     }
+    ],
     "transition": "dissolve"
    }
   },
@@ -142,21 +260,77 @@
     56,
     57
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "home",
+    "time": "day",
+    "actors": [
+     {
+      "id": "ib",
+      "type": "prophet",
+      "label": "إبراهيم",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "an",
+      "type": "angel",
+      "label": "الملائكة",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       56,
+       1
+      ],
+      "do": "speak",
+      "who": "ib"
+     },
+     {
+      "at": [
+       56,
+       3
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        56,
        8
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        57,
        1
+      ],
+      "do": "speak",
+      "who": "ib"
+     },
+     {
+      "at": [
+       57,
+       3
+      ],
+      "do": "point",
+      "who": "ib",
+      "to": "an"
+     },
+     {
+      "at": [
+       57,
+       5
       ],
       "do": "shot_wide"
      }
@@ -170,7 +344,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "morph"
@@ -184,21 +358,53 @@
     59,
     60
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "home",
+    "time": "day",
+    "actors": [
+     {
+      "id": "ib",
+      "type": "prophet",
+      "label": "إبراهيم",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "an",
+      "type": "angel",
+      "label": "الملائكة",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        58,
-       2
+       1
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "an"
      },
      {
       "at": [
        58,
-       4
+       3
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       58,
+       5
       ],
       "do": "pan_left"
      },
@@ -214,31 +420,53 @@
        59,
        2
       ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       59,
-       6
-      ],
       "do": "pan_left"
      },
      {
       "at": [
-       60,
-       3
+       59,
+       5
       ],
-      "do": "pan_right"
+      "do": "glow",
+      "who": "an"
+     },
+     {
+      "at": [
+       60,
+       1
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        60,
        4
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      }
     ],
-    "motifs": [],
+    "motifs": [
+     {
+      "at": [
+       59,
+       5
+      ],
+      "until": null,
+      "motif": "light",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       60,
+       3
+      ],
+      "until": null,
+      "motif": "seal",
+      "place": "top",
+      "size": "s"
+     }
+    ],
     "transition": "page_turn"
    }
   }
@@ -412,7 +640,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Ibrahim, the angels, Lut and his family are never drawn: no door, no food, no figures. No plate starts on the words of Ibrahim about himself or of the angels; the only plate is geometric from «من رحمة ربه». 56 is one chip so «ومن يقنط… إلا الضالون» stays whole; 59 and 60 each keep their «إلا» with what follows. The son is named Ishaq by both tafsirs."
+  "notes": "Ibrahim, the angels, Lut and his family are never drawn: no door, no food, no figures. No plate starts on the words of Ibrahim about himself or of the angels; the only plate is geometric from «من رحمة ربه». 56 is one chip so «ومن يقنط… إلا الضالون» stays whole; 59 and 60 each keep their «إلا» with what follows. The son is named Ishaq by both tafsirs. STAGING v4: Restaged under the owner's Staging v4 decision: Ibrahim is now a blue drop labelled Ibrahim and his guests one gold angel drop labelled 'the angels' (one drop for the group: neither tafsir gives their number). Setting: his home (As-Sa'di mentions his house and the people of this house). Still never drawn: food, the calf, his wife, Lut, his family and his people; no door. The angels enter on 52:2; speak beats follow who speaks in the verses. Plates: footsteps on 52:2, a scroll on 53:5 (the good news), geometric on 56:5, light on 59:5, a seal on 60:3; no other plate is alive over the names of Ibrahim, Lut or the Lord."
  },
  "cover": {
   "series_ar": "بشرى الخليل",
@@ -420,9 +648,10 @@
   "title_ar": "بشارة وإنذار",
   "title_en": "Good news and a warning",
   "at": [
-   56,
-   5
+   53,
+   6
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

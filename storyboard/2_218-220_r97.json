@@ -32,30 +32,95 @@
    "verses": [
     218
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "desert",
+    "time": "dawn",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "walk",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "c",
+      "type": "camel",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        218,
-       10
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       218,
-       12
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        218,
-       15
+       3
+      ],
+      "do": "sparkle",
+      "who": "b"
+     },
+     {
+      "at": [
+       218,
+       5
+      ],
+      "do": "walk_to",
+      "who": "b",
+      "to": "left"
+     },
+     {
+      "at": [
+       218,
+       6
+      ],
+      "do": "walk_to",
+      "who": "c",
+      "to": "center"
+     },
+     {
+      "at": [
+       218,
+       10
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       218,
+       11
+      ],
+      "do": "raise_hands",
+      "who": "b"
+     },
+     {
+      "at": [
+       218,
+       13
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       218,
+       15
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -64,10 +129,13 @@
        218,
        5
       ],
-      "until": null,
+      "until": [
+       218,
+       9
+      ],
       "motif": "footsteps",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -79,84 +147,180 @@
     219,
     220
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "rain",
+    "setting": "home",
+    "time": "day",
+    "actors": [
+     {
+      "id": "f",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "m",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "sit",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     },
+     {
+      "id": "p",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       219,
+       15
+      ],
+      "exit": [
+       219,
+       26
+      ],
+      "look": "poor"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        219,
-       5
+       1
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "m"
      },
      {
       "at": [
        219,
-       8
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       219,
-       10
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       219,
-       11
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       219,
-       13
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       219,
-       20
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       219,
-       25
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       220,
        3
       ],
       "do": "shot_wide"
      },
      {
       "at": [
-       220,
-       10
+       219,
+       5
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       219,
+       7
+      ],
+      "do": "shake_head",
+      "who": "f"
+     },
+     {
+      "at": [
+       219,
+       9
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       219,
+       11
+      ],
+      "do": "shake_head",
+      "who": "m"
+     },
+     {
+      "at": [
+       219,
+       13
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       219,
+       15
+      ],
+      "do": "speak",
+      "who": "f"
+     },
+     {
+      "at": [
+       219,
+       17
+      ],
+      "do": "stand_up",
+      "who": "m"
+     },
+     {
+      "at": [
+       219,
+       19
+      ],
+      "do": "give",
+      "who": "m",
+      "to": "p"
+     },
+     {
+      "at": [
+       219,
+       21
+      ],
+      "do": "raise_hands",
+      "who": "p"
+     },
+     {
+      "at": [
+       219,
+       26
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       220,
+       4
+      ],
+      "do": "speak",
+      "who": "f"
+     },
+     {
+      "at": [
+       220,
+       8
+      ],
+      "do": "shot_close",
+      "who": "f"
+     },
+     {
+      "at": [
+       220,
+       12
+      ],
+      "do": "sit",
+      "who": "m"
      },
      {
       "at": [
        220,
        13
       ],
-      "do": "pan_right"
+      "do": "sparkle",
+      "who": "f"
      },
      {
       "at": [
        220,
-       18
+       19
       ],
       "do": "shot_wide"
      },
@@ -165,14 +329,14 @@
        220,
        22
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        220,
-       25
+       23
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -181,20 +345,39 @@
        219,
        17
       ],
-      "until": null,
+      "until": [
+       219,
+       22
+      ],
       "motif": "coins",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        220,
        6
       ],
-      "until": null,
+      "until": [
+       220,
+       14
+      ],
       "motif": "house",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       220,
+       16
+      ],
+      "until": [
+       220,
+       21
+      ],
+      "motif": "scales",
+      "place": "top",
+      "size": "s"
      }
     ],
     "transition": "slide"
@@ -260,7 +443,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No wine or gambling pictured."
+  "notes": "No wine or gambling pictured. STAGING v4: 218: emigrants on the road at dawn (Al-Muyassar: they left their homes), raising hands in hope of mercy; no fighting is shown. 219-220 at home: the family asks; heads shake on 'great sin' (nothing of wine or gambling is drawn); the surplus is given to a poor man, who raises his hands; on 'if you mix with them' the man sits back with the family (sharing the household); scales for 'the corrupter from the amender'. Orphans are not drawn as children. STAGING v4: 218: emigrants on the road at dawn (Al-Muyassar: they left their homes), raising hands in hope of mercy; no fighting is shown. 219-220 at home: the family asks; heads shake on 'great sin' (nothing of wine or gambling is drawn); the surplus is given to a poor man, who raises his hands; on 'if you mix with them' the man sits back with the family (sharing the household); scales for 'the corrupter from the amender'. Orphans are not drawn as children. STAGING v4: 218: emigrants on the road at dawn (Al-Muyassar: they left their homes), raising hands in hope of mercy; no fighting is shown. 219-220 at home: the family asks; heads shake on 'great sin' (nothing of wine or gambling is drawn); the surplus is given to a poor man, who raises his hands; on 'if you mix with them' the man sits back with the family (sharing the household); scales for 'the corrupter from the amender'. Orphans are not drawn as children."
  },
  "cover": {
   "series_ar": "أسئلة وأحكام",
@@ -272,5 +455,6 @@
    6
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

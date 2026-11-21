@@ -33,10 +33,31 @@
     92,
     93
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "mountains",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 6,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       92,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        92,
@@ -47,58 +68,109 @@
      {
       "at": [
        92,
-       8
+       6
       ],
-      "do": "pan_left"
+      "do": "turn",
+      "who": "p"
+     },
+     {
+      "at": [
+       92,
+       9
+      ],
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
        92,
        11
       ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       93,
+       2
+      ],
+      "do": "turn",
+      "who": "p"
+     },
+     {
+      "at": [
+       93,
+       5
+      ],
       "do": "shot_wide"
      },
      {
       "at": [
        93,
-       3
+       10
       ],
-      "do": "pan_right"
+      "do": "read",
+      "who": "p"
      },
      {
       "at": [
        93,
-       11
+       12
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "p"
+     },
+     {
+      "at": [
+       93,
+       14
+      ],
+      "do": "shake_head",
+      "who": "p"
      },
      {
       "at": [
        93,
        15
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
        93,
-       19
+       18
       ],
-      "do": "pan_left"
+      "do": "turn",
+      "who": "p"
      },
      {
       "at": [
        93,
-       22
+       20
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        93,
-       25
+       23
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       93,
+       24
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       93,
+       27
+      ],
+      "do": "shot_close",
+      "who": "p"
      }
     ],
     "motifs": [
@@ -110,17 +182,17 @@
       "until": null,
       "motif": "burst",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        93,
-       6
+       3
       ],
       "until": null,
-      "motif": "mountain",
+      "motif": "seal",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -130,7 +202,7 @@
       "until": null,
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -141,16 +213,46 @@
    "verses": [
     94
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 5,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       94,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       94,
+       4
+      ],
+      "do": "shot_close",
+      "who": "p"
+     },
      {
       "at": [
        94,
        9
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "p"
      },
      {
       "at": [
@@ -162,16 +264,10 @@
      {
       "at": [
        94,
-       14
+       16
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       94,
-       15
-      ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "p"
      }
     ],
     "motifs": [
@@ -181,9 +277,19 @@
        6
       ],
       "until": null,
+      "motif": "light",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       94,
+       14
+      ],
+      "until": null,
       "motif": "hourglass",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "iris"
@@ -249,7 +355,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No idol drawn. Their claim (94) is glossed with «يدّعون» (they claim). The mountain is a symbol, never a scene over people."
+  "notes": "No idol drawn. Their claim (94) is glossed with «يدّعون» (they claim). The mountain is a symbol, never a scene over people. STAGING v4: 92-93: Bani Israel in the valley of the Tur (named in the verse); no Musa drop because the two tafsirs differ on «من بعده» (after his going away / after his coming); the calf is never drawn, they only turn away; the mountain raised over them is not pictured (no plate, no look_up). Covenant = seal plate, the Torah = book plate, «سمعنا وعصينا» = speak then shake_head. 94: the people challenged about their claim (speak on «خالصة», glossed as a claim); the Hereafter only as a light plate, death as an hourglass."
  },
  "cover": {
   "series_ar": "موقفهم من الرسل",
@@ -261,5 +367,6 @@
    6
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -32,14 +32,35 @@
    "verses": [
     234
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "home",
+    "time": "night",
+    "actors": [
+     {
+      "id": "f",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        234,
-       5
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       234,
+       4
       ],
       "do": "shot_wide"
      },
@@ -48,35 +69,30 @@
        234,
        6
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "f"
      },
      {
       "at": [
        234,
-       10
+       11
       ],
       "do": "pan_left"
      },
      {
       "at": [
        234,
-       13
+       14
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       234,
-       16
-      ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "f"
      },
      {
       "at": [
        234,
        19
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -88,9 +104,9 @@
      {
       "at": [
        234,
-       24
+       23
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -99,10 +115,13 @@
        234,
        8
       ],
-      "until": null,
+      "until": [
+       234,
+       22
+      ],
       "motif": "hourglass",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -115,7 +134,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn",
+    "mood": "geometric",
     "beats": [
      {
       "at": [
@@ -129,7 +148,7 @@
        235,
        11
       ],
-      "do": "pan_left"
+      "do": "pattern_turn"
      },
      {
       "at": [
@@ -141,9 +160,16 @@
      {
       "at": [
        235,
+       13
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       235,
        16
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -157,21 +183,21 @@
        235,
        21
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        235,
-       23
+       24
       ],
-      "do": "pan_left"
+      "do": "pattern_turn"
      },
      {
       "at": [
        235,
        27
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -185,12 +211,19 @@
        235,
        35
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        235,
        40
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       235,
+       42
       ],
       "do": "pan_left"
      },
@@ -206,7 +239,7 @@
        235,
        44
       ],
-      "do": "shot_wide"
+      "do": "pattern_turn"
      }
     ],
     "motifs": [
@@ -215,8 +248,24 @@
        235,
        8
       ],
-      "until": null,
+      "until": [
+       235,
+       15
+      ],
       "motif": "house",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       235,
+       32
+      ],
+      "until": [
+       235,
+       37
+      ],
+      "motif": "hourglass",
       "place": "top",
       "size": "m"
      }
@@ -273,7 +322,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The waiting period of the widow (hourglass)."
+  "notes": "The waiting period of the widow (hourglass). STAGING v4: 234: the household sitting at home at night (Al-Muyassar: the widow does not leave the marital home during her waiting); hourglass for four months and ten, ending before the Name. 235 (hinting at a proposal during the waiting period) stays ambient: a picture of people speaking could be read as an open proposal; geometric mood (the verse ends on a warning). STAGING v4: 234: the household sitting at home at night (Al-Muyassar: the widow does not leave the marital home during her waiting); hourglass for four months and ten, ending before the Name. 235 (hinting at a proposal during the waiting period) stays ambient: a picture of people speaking could be read as an open proposal; geometric mood (the verse ends on a warning)."
  },
  "cover": {
   "series_ar": "أحكام الأسرة",
@@ -285,5 +334,6 @@
    8
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

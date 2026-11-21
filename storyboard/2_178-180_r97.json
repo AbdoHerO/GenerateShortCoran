@@ -47,42 +47,49 @@
      {
       "at": [
        178,
-       11
+       8
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       178,
+       12
       ],
       "do": "pan_right"
      },
      {
       "at": [
        178,
-       15
+       14
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        178,
        16
       ],
-      "do": "pan_right"
+      "do": "pattern_turn"
      },
      {
       "at": [
        178,
-       22
+       21
       ],
       "do": "pan_left"
      },
      {
       "at": [
        178,
-       24
+       26
       ],
       "do": "pan_right"
      },
      {
       "at": [
        178,
-       27
+       28
       ],
       "do": "shot_wide"
      },
@@ -91,28 +98,42 @@
        178,
        30
       ],
-      "do": "shot_wide"
+      "do": "pattern_turn"
      },
      {
       "at": [
        178,
-       34
+       33
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       178,
+       37
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
        179,
        1
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       179,
+       4
+      ],
+      "do": "light_up"
      },
      {
       "at": [
        179,
        6
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -121,8 +142,34 @@
        178,
        6
       ],
-      "until": null,
+      "until": [
+       178,
+       23
+      ],
       "motif": "scales",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       178,
+       23
+      ],
+      "until": [
+       178,
+       29
+      ],
+      "motif": "coins",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       178,
+       30
+      ],
+      "until": null,
+      "motif": "light",
       "place": "top",
       "size": "m"
      },
@@ -145,35 +192,110 @@
    "verses": [
     180
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "home",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "m",
+      "type": "man",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "sit",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     },
+     {
+      "id": "f",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        180,
-       5
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        180,
+       4
+      ],
+      "do": "shot_close",
+      "who": "m"
+     },
+     {
+      "at": [
+       180,
+       6
+      ],
+      "do": "bow",
+      "who": "m"
+     },
+     {
+      "at": [
+       180,
+       10
+      ],
+      "do": "speak",
+      "who": "m"
+     },
+     {
+      "at": [
+       180,
+       11
+      ],
+      "do": "point",
+      "who": "m",
+      "to": "f"
+     },
+     {
+      "at": [
+       180,
        13
       ],
-      "do": "pan_left"
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       180,
+       15
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
      {
       "at": [
        180,
-       10
+       9
+      ],
+      "until": null,
+      "motif": "coins",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       180,
+       14
       ],
       "until": null,
       "motif": "scroll",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "page_turn"
@@ -261,7 +383,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No violence shown: scales (justice of this world) and growth (life). The gloss on 180 notes that the will was before the inheritance verses (Al-Muyassar)."
+  "notes": "No violence shown: scales (justice of this world) and growth (life). The gloss on 180 notes that the will was before the inheritance verses (Al-Muyassar). STAGING v4: 178-179 (retribution for killing) stay ambient: no violence. Scales end before «ربكم», diya coins on the payment, light on the mercy. 180: a man near death sits at home with his family and makes his will, pointing to his relatives (the will for parents and relatives)."
  },
  "cover": {
   "series_ar": "البر والصيام",
@@ -273,5 +395,6 @@
    4
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

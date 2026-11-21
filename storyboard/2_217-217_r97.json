@@ -55,7 +55,7 @@
        217,
        13
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -69,14 +69,14 @@
        217,
        23
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        217,
        25
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -88,16 +88,23 @@
      {
       "at": [
        217,
+       32
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       217,
        34
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        217,
        37
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -109,9 +116,9 @@
      {
       "at": [
        217,
-       43
+       45
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -125,19 +132,19 @@
        217,
        47
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        217,
-       48
+       49
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        217,
-       52
+       53
       ],
       "do": "pan_right"
      },
@@ -146,7 +153,14 @@
        217,
        54
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       217,
+       57
+      ],
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -155,7 +169,10 @@
        217,
        3
       ],
-      "until": null,
+      "until": [
+       217,
+       14
+      ],
       "motif": "moon",
       "place": "top",
       "size": "m"
@@ -167,6 +184,16 @@
       ],
       "until": null,
       "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       217,
+       47
+      ],
+      "until": null,
+      "motif": "leaf",
       "place": "top",
       "size": "m"
      }
@@ -211,7 +238,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "One verse; no fighting shown; the Sacred Mosque only as the geometric motif."
+  "notes": "One verse; no fighting shown; the Sacred Mosque only as the geometric motif. STAGING v4: Fighting in the sacred month stays ambient. The moon (sacred month) now ends before the Name; a falling leaf on «حبطت» (deeds that come to nothing). No fire motif. STAGING v4: Fighting in the sacred month stays ambient. The moon (sacred month) now ends before the Name; a falling leaf on «حبطت» (deeds that come to nothing). No fire motif. STAGING v4: Fighting in the sacred month stays ambient. The moon (sacred month) now ends before the Name; a falling leaf on «حبطت» (deeds that come to nothing). No fire motif."
  },
  "cover": {
   "series_ar": "أسئلة وأحكام",
@@ -223,5 +250,6 @@
    3
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

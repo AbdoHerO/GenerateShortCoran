@@ -32,37 +32,98 @@
    "verses": [
     142
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [
+     {
+      "type": "light",
+      "at": [
+       142,
+       16
+      ],
+      "until": null
+     }
+    ],
     "beats": [
      {
       "at": [
        142,
-       3
+       1
+      ],
+      "do": "speak",
+      "who": "d"
+     },
+     {
+      "at": [
+       142,
+       2
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       142,
+       6
+      ],
+      "do": "point",
+      "who": "d",
+      "to": "b"
+     },
+     {
+      "at": [
+       142,
+       8
+      ],
+      "do": "turn",
+      "who": "b"
+     },
+     {
+      "at": [
+       142,
+       12
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        142,
-       7
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       142,
-       11
+       18
       ],
       "do": "pan_left"
      },
      {
       "at": [
        142,
-       17
+       21
       ],
-      "do": "pan_right"
+      "do": "walk_to",
+      "who": "b",
+      "to": "center"
      }
     ],
     "motifs": [
@@ -74,7 +135,7 @@
       "until": null,
       "motif": "night_day",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -84,7 +145,7 @@
       "until": null,
       "motif": "two_paths",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -95,79 +156,119 @@
    "verses": [
     143
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 6,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "m",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       143,
+       28
+      ],
+      "look": "plain"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        143,
-       5
+       1
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       143,
+       4
+      ],
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        143,
        7
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        143,
        11
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        143,
        15
       ],
-      "do": "pan_right"
+      "do": "pray",
+      "who": "b"
      },
      {
       "at": [
        143,
        18
       ],
-      "do": "shot_wide"
+      "do": "turn",
+      "who": "b"
      },
      {
       "at": [
        143,
-       24
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       143,
-       25
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       143,
-       27
+       21
       ],
       "do": "pan_left"
      },
      {
       "at": [
        143,
+       25
+      ],
+      "do": "turn",
+      "who": "m"
+     },
+     {
+      "at": [
+       143,
+       27
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       143,
        30
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        143,
        33
       ],
-      "do": "shot_wide"
+      "do": "sparkle",
+      "who": "b"
      },
      {
       "at": [
@@ -181,21 +282,16 @@
        143,
        40
       ],
-      "do": "pan_left"
+      "do": "sujud",
+      "who": "b"
      },
      {
       "at": [
        143,
-       43
+       44
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       143,
-       45
-      ],
-      "do": "pan_left"
+      "do": "sit",
+      "who": "b"
      }
     ],
     "motifs": [
@@ -204,20 +300,26 @@
        143,
        3
       ],
-      "until": null,
+      "until": [
+       143,
+       10
+      ],
       "motif": "crowd",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        143,
-       22
+       24
       ],
-      "until": null,
+      "until": [
+       143,
+       35
+      ],
       "motif": "two_paths",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "light_sweep"
@@ -294,7 +396,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The Kaaba appears only as the abstract geometric motif. The gloss «ليظهر ما علمناه» (143) is left out: a first-person paraphrase. Short-word flag 143:25 to check by ear."
+  "notes": "The Kaaba appears only as the abstract geometric motif. The gloss «ليظهر ما علمناه» (143) is left out: a first-person paraphrase. Short-word flag 143:25 to check by ear. STAGING v4: Qibla: no Kaaba, no Bayt al-Maqdis, no qibla building is ever drawn. 142: the foolish (Al-Muyassar: من اليهود وأمثالهم) mock the believers in a town street (speak, point); the believers turn; light on the believers on «يهدي». 143: the middle nation praying in a prayer hall; they turn in prayer (the change of qibla, the most the rules allow); one man turns back and leaves on «ينقلب على عقبيه» (Al-Muyassar gloss); the Messenger is never shown."
  },
  "cover": {
   "series_ar": "القبلة",
@@ -303,8 +405,9 @@
   "title_en": "The change of the qibla",
   "at": [
    143,
-   22
+   4
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

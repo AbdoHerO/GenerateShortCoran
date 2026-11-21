@@ -32,37 +32,110 @@
    "verses": [
     272
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "n",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "g",
+      "type": "man",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     },
+     {
+      "id": "p",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "sit",
+      "enter": null,
+      "exit": null,
+      "look": "poor"
+     }
+    ],
+    "events": [
+     {
+      "type": "light",
+      "at": [
+       272,
+       6
+      ],
+      "until": null
+     }
+    ],
     "beats": [
      {
       "at": [
        272,
-       4
+       1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       272,
+       3
+      ],
+      "do": "shot_close",
+      "who": "n"
      },
      {
       "at": [
        272,
        7
       ],
-      "do": "shot_wide"
+      "do": "sparkle",
+      "who": "n"
+     },
+     {
+      "at": [
+       272,
+       10
+      ],
+      "do": "give",
+      "who": "g",
+      "to": "p"
+     },
+     {
+      "at": [
+       272,
+       12
+      ],
+      "do": "raise_hands",
+      "who": "p"
      },
      {
       "at": [
        272,
        13
       ],
-      "do": "pan_right"
+      "do": "sparkle",
+      "who": "g"
      },
      {
       "at": [
        272,
-       14
+       15
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "g"
      },
      {
       "at": [
@@ -83,14 +156,24 @@
        272,
        21
       ],
-      "do": "pan_right"
+      "do": "give",
+      "who": "g",
+      "to": "p"
      },
      {
       "at": [
        272,
-       28
+       24
       ],
-      "do": "pan_left"
+      "do": "sparkle",
+      "who": "g"
+     },
+     {
+      "at": [
+       272,
+       27
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -99,10 +182,13 @@
        272,
        10
       ],
-      "until": null,
+      "until": [
+       272,
+       16
+      ],
       "motif": "coins",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -112,7 +198,7 @@
       "until": null,
       "motif": "wheat",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -123,16 +209,50 @@
    "verses": [
     273
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "f",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null,
+      "uncountable": true
+     },
+     {
+      "id": "g",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        273,
-       4
+       1
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "f"
+     },
+     {
+      "at": [
+       273,
+       5
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
@@ -144,23 +264,73 @@
      {
       "at": [
        273,
-       13
+       12
       ],
-      "do": "pan_left"
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       273,
+       14
+      ],
+      "do": "shot_close",
+      "who": "f"
+     },
+     {
+      "at": [
+       273,
+       17
+      ],
+      "do": "walk_to",
+      "who": "g",
+      "to": "center"
+     },
+     {
+      "at": [
+       273,
+       18
+      ],
+      "do": "shot_close",
+      "who": "f"
      },
      {
       "at": [
        273,
        20
       ],
-      "do": "pan_right"
+      "do": "bow",
+      "who": "f"
      },
      {
       "at": [
        273,
-       27
+       22
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       273,
+       24
+      ],
+      "do": "give",
+      "who": "g",
+      "to": "f"
+     },
+     {
+      "at": [
+       273,
+       26
+      ],
+      "do": "raise_hands",
+      "who": "f"
+     },
+     {
+      "at": [
+       273,
+       29
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -172,17 +342,20 @@
       "until": null,
       "motif": "candle",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        273,
        24
       ],
-      "until": null,
+      "until": [
+       273,
+       28
+      ],
       "motif": "coins",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "slide"
@@ -325,7 +498,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Nothing on «وجه الله» (272:18) and nothing on the negated travel (273:7-11). No faces for «بسيماهم»: a candle for their patient restraint."
+  "notes": "Nothing on «وجه الله» (272:18) and nothing on the negated travel (273:7-11). No faces for «بسيماهم»: a candle for their patient restraint. STAGING v4: 272: the Prophet ﷺ is not shown; the people he addresses are in the market, a soft light on «يهدي» (guidance is Allah's); a man gives to a poor man. Nothing on «وجه الله». 273: the poor who do not ask are believers sitting in light robes (they look well-off to the one who does not know them); the negated travel is not acted; a man recognises them, walks over and gives; they lower their heads (restraint) and raise their hands after receiving."
  },
  "cover": {
   "series_ar": "فضل الإنفاق وآدابه",
@@ -337,5 +510,6 @@
    16
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }
