@@ -103,3 +103,8 @@ start with 2:253–254, which decision 2 blocks (2:253).
   has five word segments of 70–100 ms. `verify.py` fails it («segment with end<start»), so 3:24–26 is blocked as
   well. A `timing_corrections` entry cannot fix an end time and must be confirmed by ear in any case.
 - Al-Ma'idah: 5:84 overlaps 5:83 by 20 ms, so video 5:82–84 is blocked.
+- Al-An'am (surah 6):
+  - 6:27 word 14 has no timing.
+  - Overlaps: 6:29 by 80 ms, 6:48 by 60 ms, 6:63 by 20 ms, 6:98 by 20 ms and 6:143 by 80 ms.
+  - Blocked videos: 6:27–30, 47–49, 61–62, 63–66, 96–103 and 141–144 (61–62 and 141–142 end right before an
+    overlapping verse).
