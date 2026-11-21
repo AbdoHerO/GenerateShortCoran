@@ -116,11 +116,92 @@ def font_cmap(name):
 
 
 def scene_anchors(c):
+    p = c.get("params") or {}
+    extra = {"motif"} if p.get("motifs") else set()   # v3: the arrow may point at the motif on screen
     if c["scene"] == "ambient":
-        return set(CATALOG["ambient"]["anchors"])
+        return set(CATALOG["ambient"]["anchors"]) | extra
     if c["scene"] == "stage":
-        return set(CATALOG["stage"]["anchors_base"]) | {a.get("id") for a in (c.get("params") or {}).get("actors", [])}
+        return set(CATALOG["stage"]["anchors_base"]) | {a.get("id") for a in p.get("actors", [])} | extra
     return None   # hand-made scene: anchors are whatever the scene defines
+
+
+def check_motifs(c, p, word_ref, errs, seg_start):
+    """Motion graphics v3: params.motifs and params.transition (contract: scene_catalog.json motifs/transitions)."""
+    MO = CATALOG["motifs"]
+    if "transition" in p and p["transition"] not in CATALOG["transitions"]["kinds"]:
+        errs.append(f"transition '{p['transition']}' unknown (use one of {', '.join(CATALOG['transitions']['kinds'])})")
+    motifs = p.get("motifs")
+    if motifs is None:
+        return
+    if not isinstance(motifs, list):
+        errs.append("motifs must be a list"); return
+    if len(motifs) > MO["max_per_chapter"]:
+        errs.append(f"{len(motifs)} motifs (max {MO['max_per_chapter']})")
+    starts = []
+    for m in motifs:
+        mid = m.get("motif")
+        if mid not in MO["library"]:
+            errs.append(f"motif '{mid}' unknown"); continue
+        if m.get("place") not in MO["places"]:
+            errs.append(f"motif {mid}: place '{m.get('place')}' unknown ({', '.join(MO['places'])})")
+        if m.get("size") not in MO["sizes"]:
+            errs.append(f"motif {mid}: size '{m.get('size')}' unknown ({', '.join(MO['sizes'])})")
+        if "exit" in m and m["exit"] not in MO["exits"]:
+            errs.append(f"motif {mid}: exit '{m['exit']}' unknown ({', '.join(MO['exits'])})")
+        if m.get("at") is None:
+            errs.append(f"motif {mid} needs 'at'"); continue
+        word_ref(m.get("at"), f"motif {mid} at")
+        word_ref(m.get("until"), f"motif {mid} until")
+        ok_ref = lambda r: isinstance(r, list) and len(r) == 2
+        ts = seg_start.get(tuple(m["at"])) if ok_ref(m.get("at")) else None
+        te = seg_start.get(tuple(m["until"])) if ok_ref(m.get("until")) else None
+        if ts is not None:
+            starts.append(ts)
+            if te is not None and te <= ts:
+                errs.append(f"motif {mid}: 'until' {m['until']} is not after 'at' {m['at']}")
+    starts.sort()
+    for x, y in zip(starts, starts[1:]):
+        if y - x < 800:
+            errs.append(f"two motifs start only {y - x} ms apart (min 800 ms)"); break
+
+
+def check_motion(sb, T, fail, ok):
+    """v3 storyboards (\"motion\": 3): something must happen on screen at least every 6 s of recitation in every
+    chapter (a beat, a motif or an event), and the video must use motifs."""
+    if sb.get("motion") != 3:
+        return
+    ch = sb["passage"]["chapter"]
+    total_motifs, static = 0, 0
+    for c in sb["chapters"]:
+        p = c.get("params") or {}
+        if c.get("scene") not in ("ambient", "stage"):
+            continue
+        segs = [s for n in c["verses"] for s in (T.get(f"{ch}:{n}") or {}).get("segments") or [] if len(s) >= 3]
+        if not segs:
+            continue
+        start = {}
+        for n in c["verses"]:
+            for s in (T.get(f"{ch}:{n}") or {}).get("segments") or []:
+                start.setdefault((n, s[0]), s[1])
+        a, b = min(s[1] for s in segs), max(s[2] for s in segs)
+        acts = [start.get(tuple(x["at"])) for k in ("beats", "motifs", "events") for x in (p.get(k) or [])
+                if isinstance(x.get("at"), list) and len(x["at"]) == 2]
+        acts = sorted(t for t in acts if t is not None)
+        total_motifs += len(p.get("motifs") or [])
+        pts = [a] + acts + [b]
+        # a gap counts only where a word starts inside it (+-1 s): actions are tied to word starts, so a single word
+        # held for a long time cannot be filled (the motifs and the scene keep living through it)
+        wstarts = sorted(start.values())
+        gaps = [((y - x), x) for x, y in zip(pts, pts[1:]) if any(x + 1000 < w < y - 1000 for w in wstarts)]
+        gap, where = max(gaps) if gaps else (0, a)
+        if gap > 6000:
+            static += 1
+            fail("scenes", f"chapter '{c['id']}': {gap / 1000:.1f} s of recitation with no beat, motif or event "
+                           f"(from {(where - a) / 1000:.1f} s into the chapter); motion graphics v3 needs one every 4-6 s")
+    if total_motifs == 0:
+        fail("scenes", "motion graphics v3: the storyboard has no motifs")
+    elif not static:
+        ok("scenes", f"motion v3: {total_motifs} motifs, no chapter is static for more than 6 s")
 
 
 EVENT_NEEDS = {   # event -> (allowed settings or None, actor type that must be present or None)
@@ -208,6 +289,7 @@ def check_scenes(sb, verses, ok, fail, info, q_bigrams=frozenset(), seg_start=No
             if p.get("mood") not in amb["moods"]:
                 errs.append(f"ambient mood '{p.get('mood')}' unknown (use one of {', '.join(amb['moods'])})")
             check_beats(c, p, word_ref, errs, seg_start)
+            check_motifs(c, p, word_ref, errs, seg_start)
         elif scene == "stage":
             if p.get("setting") not in stg["settings"]:
                 errs.append(f"stage setting '{p.get('setting')}' unknown")
@@ -256,6 +338,7 @@ def check_scenes(sb, verses, ok, fail, info, q_bigrams=frozenset(), seg_start=No
                 if needs_actor and needs_actor not in types:
                     errs.append(f"event {e['type']} needs an actor of type '{needs_actor}'")
             check_beats(c, p, word_ref, errs, seg_start)
+            check_motifs(c, p, word_ref, errs, seg_start)
         elif scene in custom:
             pass
         else:
@@ -381,6 +464,7 @@ def check(sb, src, data_dir):
         for sg in t.get("segments") or []:
             seg_start0.setdefault((int(t["verse_key"].split(":")[1]), sg[0]), sg[1])
     check_scenes(sb, verses, ok, fail, info, q_bigrams, seg_start0)
+    check_motion(sb, {t["verse_key"]: t for t in src["recitation"]["timestamps"]}, fail, ok)
     # cover (first frame / thumbnail): UI text, same rules as titles
     cv = sb.get("cover")
     if cv is not None:

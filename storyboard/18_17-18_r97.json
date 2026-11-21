@@ -120,6 +120,52 @@
       ],
       "do": "shot_wide"
      }
+    ],
+    "motifs": [
+     {
+      "at": [
+       17,
+       2
+      ],
+      "until": [
+       17,
+       14
+      ],
+      "motif": "sun",
+      "place": "top",
+      "size": "s",
+      "exit": "fly"
+     },
+     {
+      "at": [
+       17,
+       21
+      ],
+      "until": null,
+      "motif": "burst",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       17,
+       24
+      ],
+      "until": null,
+      "motif": "light",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       17,
+       29
+      ],
+      "until": null,
+      "motif": "two_paths",
+      "place": "top",
+      "size": "s"
+     }
     ]
    }
   },
@@ -218,7 +264,31 @@
       ],
       "do": "shot_ground"
      }
-    ]
+    ],
+    "motifs": [
+     {
+      "at": [
+       18,
+       4
+      ],
+      "until": null,
+      "motif": "hourglass",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       18,
+       17
+      ],
+      "until": null,
+      "motif": "footsteps",
+      "place": "top",
+      "size": "s",
+      "exit": "fly"
+     }
+    ],
+    "transition": "iris"
    }
   }
  ],
@@ -325,5 +395,6 @@
    18,
    11
   ]
- }
+ },
+ "motion": 3
 }

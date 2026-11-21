@@ -80,6 +80,18 @@
       "do": "shot_close",
       "who": "center"
      }
+    ],
+    "motifs": [
+     {
+      "at": [
+       27,
+       6
+      ],
+      "until": null,
+      "motif": "book",
+      "place": "top",
+      "size": "m"
+     }
     ]
    }
   },
@@ -171,7 +183,50 @@
       ],
       "do": "shot_wide"
      }
-    ]
+    ],
+    "motifs": [
+     {
+      "at": [
+       28,
+       5
+      ],
+      "until": null,
+      "motif": "hands",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       28,
+       7
+      ],
+      "until": null,
+      "motif": "night_day",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       28,
+       16
+      ],
+      "until": null,
+      "motif": "jewel",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       28,
+       27
+      ],
+      "until": null,
+      "motif": "wind",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "slide"
    }
   }
  ],
@@ -267,5 +322,6 @@
    28,
    1
   ]
- }
+ },
+ "motion": 3
 }

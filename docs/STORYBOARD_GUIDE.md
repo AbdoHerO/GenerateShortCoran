@@ -56,6 +56,62 @@ enforces it.
   ink_waves.
 - Events (stage) are the big moments (`at` = the word that states them). Beats are the small ones in between.
 
+## Motion graphics v3 (required for every video)
+
+Every storyboard that is built and published must carry `"motion": 3` at the top level. `produce.py build` refuses
+anything else, and `verify.py` then enforces the v3 rules below.
+
+### Motifs (`params.motifs`, on ambient and stage chapters)
+
+```json
+"motifs": [{"at": [17, 2], "until": [17, 14], "motif": "sun", "place": "top", "size": "s", "exit": "fly"}]
+```
+
+- A motif is a line-art symbol on a cream plate with a gold ring. It **draws itself on** at the word `at`, then
+  **lives**: it breathes with every recited word and has its own motion and particles. It **leaves** at `until`,
+  when the next motif at the same place starts (the match cut, done automatically), or at the chapter end.
+- `motif`: one of the library in `renderer/js/scene_catalog.json` → `motifs.library` (44 symbols: book, scroll, pen,
+  scales, hourglass, two_paths, door, key, lamp, candle, sun, moon, stars, cloud_rain, drop, wave, growth, leaf,
+  mountain, wind, coins, jewel, crown, house, ship, fish, cave, dog, hands, chains, burst, crowd, geometric, light,
+  palm, wheat, fire, lightning, footsteps, bricks, bird, night_day, river, seal). Proof sheet:
+  `node renderer/tests/lib_shot.mjs motifs`.
+- `place`: `top` (best over stage scenes: it stays above the actors), `center`, `left`, `right` or `bottom`.
+  `size`: `s` (170 px, use on stage scenes), `m` (240 px, ambient scenes), `l` (320 px, a single big symbol).
+- `exit` (optional): `dissolve` (default), `fly` (rises out), `undraw` (the strokes retract).
+- Put each motif on the word that **names** the concept. Aim for one motif every 4–8 s in ambient chapters and
+  1–3 per stage chapter (the actors and events carry the story there).
+- At least 0.8 s between motif starts; at most 16 per chapter.
+- A gloss may point at the motif on screen with `"target": "motif"`.
+- **Adab:**
+  - Allah and His attributes are never a figure: for His names, attributes and words, use `geometric`, `light` or
+    `seal`.
+  - Prophets, angels and honoured people stay as light drops in the scene, never as motifs.
+  - `fire` is only worldly fire, never Hell. The unseen gets no literal motif: use `light`, `geometric`, `hourglass`
+    or `scales` as symbols.
+  - `crowd` is drawn uncountable; `crown` is never on a prophet.
+
+### Transitions (`params.transition`, on the chapter that begins)
+
+`dissolve` (default), `wipe`, `iris`, `light_sweep`, `slide`, `page_turn` or `morph`. Forward motion follows the
+right-to-left reading direction. Vary them across a video, and match them to the meaning:
+- `light_sweep` for guidance or revelation;
+- `page_turn` for a new episode of a story;
+- `iris` to focus in on a scene;
+- `morph` for "and then";
+- `wipe` or `slide` for a change of place.
+
+### Density rule
+
+In every chapter, at least one beat, motif or event must start every 6 s of recitation (from the first word to
+the last). The verifier names the gap when it fails. `renderer/tests/motion_check.mjs` also renders the whole video
+and fails if any 2-second window of the picture is still.
+
+### Kinetic UI text (automatic)
+
+Chapter titles arrive word by word with a light sweep. Gloss boxes draw their border and type the explanation in.
+The Quranic text is **never** animated, deformed or revealed letter by letter: the verse card keeps its exact
+Mushaf rendering, with only the gold highlight.
+
 ## Glosses
 
 - Copy the excerpt **character for character** from the tafsir text of **that verse**, as printed by `brief.py`:

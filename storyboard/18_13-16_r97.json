@@ -98,6 +98,28 @@
       "do": "sparkle",
       "who": "youths"
      }
+    ],
+    "motifs": [
+     {
+      "at": [
+       13,
+       2
+      ],
+      "until": null,
+      "motif": "book",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       13,
+       10
+      ],
+      "until": null,
+      "motif": "lamp",
+      "place": "top",
+      "size": "s"
+     }
     ]
    }
   },
@@ -212,7 +234,30 @@
       ],
       "do": "shot_wide"
      }
-    ]
+    ],
+    "motifs": [
+     {
+      "at": [
+       14,
+       7
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       14,
+       9
+      ],
+      "until": null,
+      "motif": "stars",
+      "place": "top",
+      "size": "s"
+     }
+    ],
+    "transition": "page_turn"
    }
   },
   {
@@ -306,7 +351,20 @@
       "do": "shot_close",
       "who": "people"
      }
-    ]
+    ],
+    "motifs": [
+     {
+      "at": [
+       15,
+       10
+      ],
+      "until": null,
+      "motif": "scroll",
+      "place": "top",
+      "size": "s"
+     }
+    ],
+    "transition": "morph"
    }
   },
   {
@@ -405,7 +463,30 @@
       ],
       "do": "push_in"
      }
-    ]
+    ],
+    "motifs": [
+     {
+      "at": [
+       16,
+       9
+      ],
+      "until": null,
+      "motif": "cave",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       16,
+       15
+      ],
+      "until": null,
+      "motif": "door",
+      "place": "top",
+      "size": "s"
+     }
+    ],
+    "transition": "wipe"
    }
   }
  ],
@@ -534,5 +615,6 @@
    14,
    6
   ]
- }
+ },
+ "motion": 3
 }

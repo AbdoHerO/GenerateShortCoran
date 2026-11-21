@@ -64,6 +64,18 @@
       ],
       "do": "pan_right"
      }
+    ],
+    "motifs": [
+     {
+      "at": [
+       25,
+       6
+      ],
+      "until": null,
+      "motif": "hourglass",
+      "place": "top",
+      "size": "m"
+     }
     ]
    }
   },
@@ -141,7 +153,30 @@
       ],
       "do": "shot_wide"
      }
-    ]
+    ],
+    "motifs": [
+     {
+      "at": [
+       26,
+       7
+      ],
+      "until": null,
+      "motif": "key",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       26,
+       22
+      ],
+      "until": null,
+      "motif": "seal",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "morph"
    }
   }
  ],
@@ -193,5 +228,6 @@
    25,
    3
   ]
- }
+ },
+ "motion": 3
 }

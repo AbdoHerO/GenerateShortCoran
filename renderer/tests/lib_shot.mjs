@@ -139,6 +139,23 @@ suites.amb_beats = () => {
 };
 // zero beats over ~32 s: automatic recomposition only
 suites.auto = () => [0, 4, 6, 8, 12, 16, 20, 24, 28].map((t) => ({ scene: 'stage', params: st('cave', 'day', [SLEEP, DOGS]), t, label: 'auto cam', o: LONG }));
+
+// ---------------- v3: motifs ----------------
+// every motif of the library, fully drawn (t = 2.2 s after its word), on a light and a dark mood
+suites.motifs = async (page) => {
+  const ids = await page.evaluate(() => window.MOTIF_IDS);
+  return ids.map((id, i) => ({ scene: 'ambient', params: { mood: i % 2 ? 'night_sky' : 'dawn', motifs: [{ at: [1, 2], until: null, motif: id, place: 'center', size: 'l' }] }, t: wt(1, 2) + 2.2, label: id, o: LONG }));
+};
+// draw-on phases and places/sizes, plus a match-cut handoff between two motifs at one place
+suites.motif_phases = () => {
+  const M = (motif, place, size, at = [1, 2], until = null, exit) => ({ at, until, motif, place, size, ...(exit ? { exit } : {}) });
+  const P = { mood: 'sea', motifs: [M('ship', 'top', 'm', [1, 2]), M('wave', 'top', 'm', [2, 1]), M('fish', 'bottom', 's', [1, 5], [2, 6], 'fly'), M('growth', 'left', 's', [1, 3]), M('coins', 'right', 's', [1, 6], [3, 2], 'undraw')] };
+  return [0.15, 0.35, 0.6, 0.9, 1.3, 2.0, 3.5, 5.0, 5.6, 6.1, 8, 11.6].map((dt) => ({ scene: 'ambient', params: P, t: wt(1, 2) + dt, label: `phases +${dt}s`, o: LONG }));
+};
+suites.motif_stage = () => {
+  const P = { setting: 'cave', time: 'day', actors: [SLEEP, DOGS], events: [], beats: [], motifs: [{ at: [1, 2], until: null, motif: 'cave', place: 'top', size: 's' }, { at: [2, 1], until: null, motif: 'sun', place: 'top', size: 's' }] };
+  return [wt(1, 2) + 1.5, wt(2, 1) + 0.3, wt(2, 1) + 2].map((t) => ({ scene: 'stage', params: P, t, label: 'stage + motif', o: LONG }));
+};
 suites.perf = () => [...suites.moods(), ...suites.settings(), ...suites.events(), ...suites.kahf_settings(), ...suites.kahf_actors(), ...suites.kahf_events(), ...suites.beats(), ...suites.amb_beats()];
 
 const browser = await launchBrowser();
@@ -148,7 +165,7 @@ page.on('pageerror', (e) => errors.push(String(e)));
 page.on('console', (m) => { if (m.type() === 'error') errors.push(m.text()); });
 await page.goto(`http://127.0.0.1:${srv.address().port}/renderer/tests/lib.html`);
 await page.waitForFunction('window.done', null, { timeout: 30000 });
-const cases = suite === 'custom' ? JSON.parse(customJson) : suites[suite] ? suites[suite]() : [];
+const cases = suite === 'custom' ? JSON.parse(customJson) : suites[suite] ? await suites[suite](page) : [];
 if (suite === 'camprobe') {
   // camera path with zero beats (auto recomposition) and with beats; prints t, x, y, z
   const times = [...Array(66).keys()].map((i) => i * 0.5);

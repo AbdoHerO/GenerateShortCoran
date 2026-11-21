@@ -135,6 +135,48 @@
       ],
       "do": "light_up"
      }
+    ],
+    "motifs": [
+     {
+      "at": [
+       110,
+       6
+      ],
+      "until": null,
+      "motif": "light",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       110,
+       11
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       110,
+       17
+      ],
+      "until": null,
+      "motif": "growth",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       110,
+       22
+      ],
+      "until": null,
+      "motif": "hands",
+      "place": "top",
+      "size": "m"
+     }
     ]
    }
   }
@@ -220,5 +262,6 @@
    110,
    11
   ]
- }
+ },
+ "motion": 3
 }

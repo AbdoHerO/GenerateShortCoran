@@ -80,6 +80,28 @@
       ],
       "do": "push_in"
      }
+    ],
+    "motifs": [
+     {
+      "at": [
+       99,
+       4
+      ],
+      "until": null,
+      "motif": "wave",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       99,
+       10
+      ],
+      "until": null,
+      "motif": "hourglass",
+      "place": "top",
+      "size": "m"
+     }
     ]
    }
   },
@@ -128,7 +150,20 @@
       ],
       "do": "wind"
      }
-    ]
+    ],
+    "motifs": [
+     {
+      "at": [
+       101,
+       7
+      ],
+      "until": null,
+      "motif": "book",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "morph"
    }
   },
   {
@@ -190,7 +225,9 @@
       ],
       "do": "shot_ground"
      }
-    ]
+    ],
+    "motifs": [],
+    "transition": "iris"
    }
   }
  ],
@@ -275,5 +312,6 @@
    99,
    10
   ]
- }
+ },
+ "motion": 3
 }

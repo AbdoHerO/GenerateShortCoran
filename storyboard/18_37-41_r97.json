@@ -141,6 +141,38 @@
       ],
       "do": "push_in"
      }
+    ],
+    "motifs": [
+     {
+      "at": [
+       37,
+       13
+      ],
+      "until": null,
+      "motif": "drop",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       37,
+       15
+      ],
+      "until": null,
+      "motif": "growth",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       38,
+       3
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "s"
+     }
     ]
    }
   },
@@ -243,7 +275,30 @@
       "do": "shot_close",
       "who": "owner"
      }
-    ]
+    ],
+    "motifs": [
+     {
+      "at": [
+       39,
+       5
+      ],
+      "until": null,
+      "motif": "hands",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       39,
+       18
+      ],
+      "until": null,
+      "motif": "coins",
+      "place": "top",
+      "size": "s"
+     }
+    ],
+    "transition": "morph"
    }
   },
   {
@@ -357,7 +412,31 @@
       "do": "shot_close",
       "who": "owner"
      }
-    ]
+    ],
+    "motifs": [
+     {
+      "at": [
+       40,
+       10
+      ],
+      "until": null,
+      "motif": "lightning",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       41,
+       3
+      ],
+      "until": null,
+      "motif": "drop",
+      "place": "top",
+      "size": "s",
+      "exit": "undraw"
+     }
+    ],
+    "transition": "slide"
    }
   }
  ],
@@ -475,5 +554,6 @@
    37,
    6
   ]
- }
+ },
+ "motion": 3
 }

@@ -114,6 +114,28 @@
       ],
       "do": "shot_wide"
      }
+    ],
+    "motifs": [
+     {
+      "at": [
+       57,
+       5
+      ],
+      "until": null,
+      "motif": "book",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       57,
+       24
+      ],
+      "until": null,
+      "motif": "two_paths",
+      "place": "top",
+      "size": "m"
+     }
     ]
    }
   },
@@ -176,7 +198,30 @@
       ],
       "do": "shot_ground"
      }
-    ]
+    ],
+    "motifs": [
+     {
+      "at": [
+       58,
+       4
+      ],
+      "until": null,
+      "motif": "cloud_rain",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       58,
+       14
+      ],
+      "until": null,
+      "motif": "hourglass",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "light_sweep"
    }
   },
   {
@@ -224,7 +269,30 @@
       ],
       "do": "stars"
      }
-    ]
+    ],
+    "motifs": [
+     {
+      "at": [
+       59,
+       1
+      ],
+      "until": null,
+      "motif": "house",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       59,
+       8
+      ],
+      "until": null,
+      "motif": "hourglass",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "morph"
    }
   }
  ],
@@ -342,5 +410,6 @@
    59,
    2
   ]
- }
+ },
+ "motion": 3
 }

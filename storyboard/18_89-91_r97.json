@@ -140,6 +140,28 @@
       "do": "sparkle",
       "who": "ruler"
      }
+    ],
+    "motifs": [
+     {
+      "at": [
+       89,
+       2
+      ],
+      "until": null,
+      "motif": "footsteps",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       91,
+       3
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "s"
+     }
     ]
    }
   }
@@ -192,5 +214,6 @@
    90,
    7
   ]
- }
+ },
+ "motion": 3
 }

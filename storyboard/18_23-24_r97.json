@@ -102,6 +102,48 @@
       "do": "sparkle",
       "who": "center"
      }
+    ],
+    "motifs": [
+     {
+      "at": [
+       23,
+       7
+      ],
+      "until": null,
+      "motif": "sun",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       24,
+       4
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       24,
+       5
+      ],
+      "until": null,
+      "motif": "hands",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       24,
+       12
+      ],
+      "until": null,
+      "motif": "lamp",
+      "place": "top",
+      "size": "m"
+     }
     ]
    }
   }
@@ -165,5 +207,6 @@
    24,
    3
   ]
- }
+ },
+ "motion": 3
 }

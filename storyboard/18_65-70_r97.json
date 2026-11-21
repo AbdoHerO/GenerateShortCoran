@@ -127,6 +127,28 @@
       "who": "musa",
       "to": "khidr"
      }
+    ],
+    "motifs": [
+     {
+      "at": [
+       65,
+       6
+      ],
+      "until": null,
+      "motif": "light",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       65,
+       9
+      ],
+      "until": null,
+      "motif": "book",
+      "place": "top",
+      "size": "s"
+     }
     ]
    }
   },
@@ -246,7 +268,30 @@
       ],
       "do": "push_in"
      }
-    ]
+    ],
+    "motifs": [
+     {
+      "at": [
+       66,
+       8
+      ],
+      "until": null,
+      "motif": "pen",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       67,
+       6
+      ],
+      "until": null,
+      "motif": "hourglass",
+      "place": "top",
+      "size": "s"
+     }
+    ],
+    "transition": "iris"
    }
   },
   {
@@ -364,7 +409,20 @@
       ],
       "do": "shot_wide"
      }
-    ]
+    ],
+    "motifs": [
+     {
+      "at": [
+       70,
+       5
+      ],
+      "until": null,
+      "motif": "seal",
+      "place": "top",
+      "size": "s"
+     }
+    ],
+    "transition": "morph"
    }
   }
  ],
@@ -460,5 +518,6 @@
    66,
    5
   ]
- }
+ },
+ "motion": 3
 }

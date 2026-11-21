@@ -41,6 +41,11 @@ as DRAFTS to the owner's Creative Hub (platform « Coran »).
    includes `cover.jpg`.
 8. **Every video must be motion graphics, animated, never static** (section 8 of the master documentation:
    motifs, continuous motion, designed transitions). Something must move in every 2-second window.
+   - Storyboards carry `"motion": 3`, with `params.motifs` and `params.transition` (STORYBOARD_GUIDE.md →
+     "Motion graphics v3").
+   - `verify.py` enforces an action at least every 6 s; `renderer/tests/motion_check.mjs` checks the frames.
+   - Motifs are symbols only: never for Allah, prophets or angels; nothing literal for the unseen. No `fire`, river
+     or gold motif in a Paradise or Hell passage, and no scales at the Mizan.
 9. **Human review is mandatory.**
    - Upload to Creative Hub only as drafts (`--confirm`, **never `--approve`**), with the review sheet PDF.
    - Never re-import an id that is in `publish/ledger.json`: duplicates become « (2) ».

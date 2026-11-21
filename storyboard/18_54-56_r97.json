@@ -71,6 +71,18 @@
       ],
       "do": "wind"
      }
+    ],
+    "motifs": [
+     {
+      "at": [
+       54,
+       5
+      ],
+      "until": null,
+      "motif": "book",
+      "place": "top",
+      "size": "m"
+     }
     ]
    }
   },
@@ -148,7 +160,30 @@
       ],
       "do": "push_in"
      }
-    ]
+    ],
+    "motifs": [
+     {
+      "at": [
+       55,
+       8
+      ],
+      "until": null,
+      "motif": "lamp",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       55,
+       14
+      ],
+      "until": null,
+      "motif": "footsteps",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "slide"
    }
   },
   {
@@ -232,7 +267,30 @@
       ],
       "do": "wind"
      }
-    ]
+    ],
+    "motifs": [
+     {
+      "at": [
+       56,
+       3
+      ],
+      "until": null,
+      "motif": "scroll",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       56,
+       15
+      ],
+      "until": null,
+      "motif": "book",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "light_sweep"
    }
   }
  ],
@@ -339,5 +397,6 @@
    56,
    13
   ]
- }
+ },
+ "motion": 3
 }

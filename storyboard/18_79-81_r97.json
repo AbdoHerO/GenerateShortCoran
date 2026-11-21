@@ -86,6 +86,28 @@
       ],
       "do": "waves"
      }
+    ],
+    "motifs": [
+     {
+      "at": [
+       79,
+       2
+      ],
+      "until": null,
+      "motif": "ship",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       79,
+       13
+      ],
+      "until": null,
+      "motif": "crown",
+      "place": "top",
+      "size": "m"
+     }
     ]
    }
   },
@@ -164,7 +186,30 @@
       ],
       "do": "light_up"
      }
-    ]
+    ],
+    "motifs": [
+     {
+      "at": [
+       80,
+       4
+      ],
+      "until": null,
+      "motif": "house",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       81,
+       5
+      ],
+      "until": null,
+      "motif": "growth",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "light_sweep"
    }
   }
  ],
@@ -260,5 +305,6 @@
    79,
    7
   ]
- }
+ },
+ "motion": 3
 }

@@ -100,6 +100,28 @@
       ],
       "do": "pan_right"
      }
+    ],
+    "motifs": [
+     {
+      "at": [
+       60,
+       6
+      ],
+      "until": null,
+      "motif": "footsteps",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       60,
+       10
+      ],
+      "until": null,
+      "motif": "wave",
+      "place": "top",
+      "size": "s"
+     }
     ]
    }
   },
@@ -204,7 +226,9 @@
       ],
       "do": "shot_wide"
      }
-    ]
+    ],
+    "motifs": [],
+    "transition": "wipe"
    }
   },
   {
@@ -288,7 +312,20 @@
       "do": "sit",
       "who": "musa"
      }
-    ]
+    ],
+    "motifs": [
+     {
+      "at": [
+       62,
+       6
+      ],
+      "until": null,
+      "motif": "wheat",
+      "place": "top",
+      "size": "s"
+     }
+    ],
+    "transition": "slide"
    }
   },
   {
@@ -389,7 +426,30 @@
       "do": "stand_up",
       "who": "musa"
      }
-    ]
+    ],
+    "motifs": [
+     {
+      "at": [
+       63,
+       9
+      ],
+      "until": null,
+      "motif": "fish",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       63,
+       20
+      ],
+      "until": null,
+      "motif": "burst",
+      "place": "top",
+      "size": "s"
+     }
+    ],
+    "transition": "morph"
    }
   },
   {
@@ -477,7 +537,20 @@
       ],
       "do": "shot_ground"
      }
-    ]
+    ],
+    "motifs": [
+     {
+      "at": [
+       64,
+       8
+      ],
+      "until": null,
+      "motif": "footsteps",
+      "place": "top",
+      "size": "s"
+     }
+    ],
+    "transition": "page_turn"
    }
   }
  ],
@@ -584,5 +657,6 @@
    61,
    7
   ]
- }
+ },
+ "motion": 3
 }

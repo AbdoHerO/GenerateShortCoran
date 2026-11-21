@@ -178,6 +178,38 @@
       "do": "bow",
       "who": "musa"
      }
+    ],
+    "motifs": [
+     {
+      "at": [
+       82,
+       10
+      ],
+      "until": null,
+      "motif": "coins",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       82,
+       14
+      ],
+      "until": null,
+      "motif": "light",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       82,
+       30
+      ],
+      "until": null,
+      "motif": "key",
+      "place": "top",
+      "size": "s"
+     }
     ]
    }
   }
@@ -252,5 +284,6 @@
    82,
    10
   ]
- }
+ },
+ "motion": 3
 }

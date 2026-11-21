@@ -57,8 +57,12 @@ def cmd_build(a):
     sb = json.loads(sb_path.read_text(encoding="utf-8"))
     if (sb.get("director") or {}).get("mode") not in ("hand", "claude"):
         raise SystemExit(f"{pid}: the storyboard is still the automatic base one - write it by hand first (docs/STORYBOARD_GUIDE.md)")
+    if sb.get("motion") != 3:
+        raise SystemExit(f"{pid}: the storyboard is not motion graphics v3 yet (\"motion\": 3 with motifs, beats and transitions; "
+                         f"docs/STORYBOARD_GUIDE.md). Every published video must be v3.")
     run(PY + ["pipeline/verify.py", f"storyboard/{pid}.json"], "verify")
     run(PY + ["pipeline/prepare.py", f"storyboard/{pid}.json"], "prepare (alignment + audio)")
+    run([NODE, "renderer/tests/motion_check.mjs", "--data", f"data/{pid}/render_data.json"], "motion check (something moves in every 2 s)")
     if a.no_video:
         return
     rd = json.loads((ROOT / "data" / pid / "render_data.json").read_text(encoding="utf-8"))

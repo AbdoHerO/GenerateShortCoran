@@ -106,6 +106,48 @@
       ],
       "do": "light_up"
      }
+    ],
+    "motifs": [
+     {
+      "at": [
+       45,
+       7
+      ],
+      "until": null,
+      "motif": "cloud_rain",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       45,
+       12
+      ],
+      "until": null,
+      "motif": "growth",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       45,
+       15
+      ],
+      "until": null,
+      "motif": "leaf",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       45,
+       17
+      ],
+      "until": null,
+      "motif": "wind",
+      "place": "top",
+      "size": "m"
+     }
     ]
    }
   },
@@ -162,7 +204,30 @@
       ],
       "do": "birds"
      }
-    ]
+    ],
+    "motifs": [
+     {
+      "at": [
+       46,
+       1
+      ],
+      "until": null,
+      "motif": "coins",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       46,
+       6
+      ],
+      "until": null,
+      "motif": "light",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "wipe"
    }
   },
   {
@@ -246,7 +311,30 @@
       ],
       "do": "shot_wide"
      }
-    ]
+    ],
+    "motifs": [
+     {
+      "at": [
+       47,
+       1
+      ],
+      "until": null,
+      "motif": "hourglass",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       48,
+       3
+      ],
+      "until": null,
+      "motif": "light",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "morph"
    }
   },
   {
@@ -339,7 +427,30 @@
       ],
       "do": "pattern_turn"
      }
-    ]
+    ],
+    "motifs": [
+     {
+      "at": [
+       49,
+       2
+      ],
+      "until": null,
+      "motif": "scroll",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       49,
+       25
+      ],
+      "until": null,
+      "motif": "scales",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "page_turn"
    }
   }
  ],
@@ -545,5 +656,6 @@
    45,
    6
   ]
- }
+ },
+ "motion": 3
 }

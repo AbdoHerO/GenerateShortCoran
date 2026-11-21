@@ -145,6 +145,28 @@
       "do": "sparkle",
       "who": "ground"
      }
+    ],
+    "motifs": [
+     {
+      "at": [
+       32,
+       11
+      ],
+      "until": null,
+      "motif": "palm",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       33,
+       11
+      ],
+      "until": null,
+      "motif": "river",
+      "place": "top",
+      "size": "s"
+     }
     ]
    }
   },
@@ -247,7 +269,20 @@
       "do": "shake_head",
       "who": "companion"
      }
-    ]
+    ],
+    "motifs": [
+     {
+      "at": [
+       34,
+       11
+      ],
+      "until": null,
+      "motif": "coins",
+      "place": "top",
+      "size": "s"
+     }
+    ],
+    "transition": "iris"
    }
   },
   {
@@ -367,7 +402,30 @@
       ],
       "do": "shot_wide"
      }
-    ]
+    ],
+    "motifs": [
+     {
+      "at": [
+       35,
+       4
+      ],
+      "until": null,
+      "motif": "crown",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       36,
+       3
+      ],
+      "until": null,
+      "motif": "hourglass",
+      "place": "top",
+      "size": "s"
+     }
+    ],
+    "transition": "page_turn"
    }
   }
  ],
@@ -507,5 +565,6 @@
    34,
    10
   ]
- }
+ },
+ "motion": 3
 }

@@ -6,6 +6,7 @@ import { scenes as SC_MUSA } from './scenes_musa.js';
 import { scenes as SC_LIB } from './scenes_lib.js';
 const scenes = { ...SC_HIJR, ...SC_MUSA, ...SC_LIB };
 import * as A from './art.js';
+import { drawMotifs, motifAnchor } from './motifs.js';
 
 const W = 1080, H = 1920;
 const FRAME = { x: 60, y: 222, w: SW, h: SH, r: 150, bulge: 12 };
@@ -400,11 +401,40 @@ function drawTitle(t, uiA) {
     const a = i === 0 && cd ? (k === 0 ? sw : 1 - sw)
       : k === i ? (i === 0 ? 1 : ease.outCubic(prog(t, c.start - 0.1, c.start + 0.35))) : 1 - prog(t, c.start - 0.3, c.start + 0.05);
     if (a <= 0.01) continue;
-    ctx.globalAlpha = uiA * a;
     ctx.fillStyle = CREAM;
-    ctx.fillText(ttl, 0, 4 + (k === i ? (1 - a) * 14 : -(1 - a) * 14));
+    if (k === i) kineticTitle(ttl, a, uiA);   // UI text only: words arrive one by one, right to left
+    else { ctx.globalAlpha = uiA * a; ctx.fillText(ttl, 0, 4 - (1 - a) * 14); }
+  }
+  // a light sweep crosses the pill once the new title has landed
+  const t0 = i === 0 ? (cd || 0) + 0.25 : c.start + 0.3, sp = prog(t, t0, t0 + 0.8);
+  if (sp > 0 && sp < 1) {
+    ctx.globalAlpha = uiA * Math.sin(sp * Math.PI) * 0.55;
+    const x = lerp(wNow / 2 + 60, -wNow / 2 - 60, ease.inOutSine(sp));
+    const g = ctx.createLinearGradient(x - 50, 0, x + 50, 0);
+    g.addColorStop(0, 'rgba(255,236,190,0)'); g.addColorStop(0.5, 'rgba(255,236,190,0.9)'); g.addColorStop(1, 'rgba(255,236,190,0)');
+    ctx.fillStyle = g; ctx.fillRect(x - 50, -h / 2, 100, h);
   }
   ctx.restore();
+}
+function kineticTitle(ttl, a, uiA) {
+  const words = ttl.split(' ');
+  if (words.length < 2 || a >= 0.999) { ctx.globalAlpha = uiA * a; ctx.fillText(ttl, 0, 4 + (1 - a) * 14); return; }
+  const sp = ctx.measureText(' ').width, ws = words.map((w) => ctx.measureText(w).width);
+  const tw = ws.reduce((x, y) => x + y, 0) + sp * (words.length - 1);
+  const align = ctx.textAlign;
+  ctx.textAlign = 'right';
+  let x = tw / 2;
+  const n = words.length, span = 0.45;
+  words.forEach((w, j) => {
+    const aj = ease.outCubic(clamp((a * (1 + span) - (j / Math.max(1, n - 1)) * span)));
+    if (aj > 0.01) {
+      ctx.save(); ctx.globalAlpha = uiA * aj;
+      ctx.translate(x - ws[j] / 2, 4 + (1 - aj) * 18); ctx.scale(0.85 + 0.15 * aj, 0.85 + 0.15 * aj);
+      ctx.fillText(w, ws[j] / 2, 0); ctx.restore();
+    }
+    x -= ws[j] + sp;
+  });
+  ctx.textAlign = align;
 }
 
 function renderScene(sx, idx, t) {
@@ -414,23 +444,62 @@ function renderScene(sx, idx, t) {
   sx.clearRect(0, 0, SW, SH);
   scenes[c.scene].draw(sx, t, chT[idx]);
   sx.restore();
+  // motion graphics v3: a living light layer over every scene, then the chapter's motifs
+  sx.save(); sx.setTransform(1, 0, 0, 1, 0, 0);
+  lifeLayer(sx, t, idx);
+  drawMotifs(sx, t, chT[idx], c.params);
+  sx.restore();
 }
+
+// deterministic drifting motes and a slow light sweep, so no 2-second window of any scene is ever still
+function lifeLayer(sx, t, idx) {
+  const seed = 97 + idx * 13;
+  for (let j = 0; j < 16; j++) {
+    const sp = 10 + hash(seed + j * 7) * 18, ph = (t * sp + hash(seed + j * 11) * 900) % 900;
+    const x = (hash(seed + j * 3) * 1100 - 70) + Math.sin(t * 0.7 + j) * 22, y = 860 - ph;
+    const a = Math.sin((ph / 900) * Math.PI) * (0.22 + 0.25 * hash(seed + j * 5));
+    if (a < 0.02) continue;
+    const r = 2.5 + 4 * hash(seed + j * 17);
+    const g = sx.createRadialGradient(x, y, 0, x, y, r * 3);
+    g.addColorStop(0, `rgba(255,246,214,${a})`); g.addColorStop(1, 'rgba(255,246,214,0)');
+    sx.fillStyle = g; sx.beginPath(); sx.arc(x, y, r * 3, 0, TAU); sx.fill();
+  }
+  // a soft diagonal sheen crosses the picture every 9 s
+  const ph = ((t + idx * 3.1) % 9) / 9;
+  if (ph < 0.3) {
+    const u = ph / 0.3, x = lerp(-400, 1360, ease.inOutSine(u));
+    sx.save();
+    sx.globalCompositeOperation = 'screen';
+    const g = sx.createLinearGradient(x - 160, 0, x + 160, 0);
+    const a = 0.10 * Math.sin(u * Math.PI);
+    g.addColorStop(0, 'rgba(255,248,225,0)'); g.addColorStop(0.5, `rgba(255,248,225,${a})`); g.addColorStop(1, 'rgba(255,248,225,0)');
+    sx.setTransform(1, 0, -0.35, 1, 150, 0);
+    sx.fillStyle = g; sx.fillRect(x - 160, 0, 320, SH);
+    sx.restore();
+  }
+}
+
+// designed chapter transitions (params.transition of the chapter that begins): dissolve (default), wipe, iris,
+// light_sweep, slide, page_turn, morph. Arabic reads right to left, so "forward" moves leftward.
+const TRANS = new Set(['dissolve', 'wipe', 'iris', 'light_sweep', 'slide', 'page_turn', 'morph']);
+const transOf = (i) => { const x = D.chapters[i]?.params?.transition; return TRANS.has(x) ? x : 'dissolve'; };
+const halfOf = (i) => (transOf(i) === 'dissolve' ? 0.35 : 0.5);
 
 function drawFrame(t) {
   const cd = coverDur();
   // with a cover the frame is already in place on the very first frame (it is the thumbnail)
   const pin = cd ? 1 : ease.outBack(prog(t, 0, 0.6)), fa = cd ? 1 : ease.outCubic(prog(t, 0, 0.35));
   const i = chapterAt(t);
-  // which scenes: crossfade 0.35 s either side of a chapter start
-  let from = i, to = i, mix = 0, tA = t;
+  let from = i, to = i, mix = 0, tA = t, kind = 'dissolve';
   const cs = D.chapters[i].start;
   const nx = D.chapters[i + 1];
   if (cd && t < cd + 0.6) {
     // cover picture = the scene frozen at the chosen moment, dissolving into the live opening scene
     from = chapterAt(D.cover.t); tA = D.cover.t; to = i; mix = ease.inOutSine(prog(t, cd, cd + 0.6));
     if (mix <= 0) to = from;
-  } else if (i > 0 && t < cs + 0.35) { from = i - 1; to = i; mix = ease.inOutSine(prog(t, cs - 0.35, cs + 0.35)); }
-  else if (nx && t > nx.start - 0.35) { from = i; to = i + 1; mix = ease.inOutSine(prog(t, nx.start - 0.35, nx.start + 0.35)); }
+  } else if (i > 0 && t < cs + halfOf(i)) { from = i - 1; to = i; kind = transOf(i); mix = prog(t, cs - halfOf(i), cs + halfOf(i)); }
+  else if (nx && t > nx.start - halfOf(i + 1)) { from = i; to = i + 1; kind = transOf(i + 1); mix = prog(t, nx.start - halfOf(i + 1), nx.start + halfOf(i + 1)); }
+  if (kind === 'dissolve') mix = ease.inOutSine(mix);
   renderScene(sAx, from, tA);
   const useB = mix > 0 && (to !== from || tA !== t);
   if (useB) renderScene(sBx, to, t);
@@ -444,8 +513,7 @@ function drawFrame(t) {
   ctx.restore();
   ctx.save();
   framePath(ctx); ctx.clip();
-  ctx.drawImage(sA, FRAME.x, FRAME.y);
-  if (useB) { ctx.globalAlpha = fa * mix; ctx.drawImage(sB, FRAME.x, FRAME.y); ctx.globalAlpha = fa; }
+  if (useB) composeTransition(kind, mix, fa); else ctx.drawImage(sA, FRAME.x, FRAME.y);
   const op = prog(t, D.outro_start, D.outro_start + 0.9);
   if (op > 0) { ctx.fillStyle = rgba('#fbf6ec', 0.9 * ease.inOutSine(op)); ctx.fillRect(FRAME.x - 20, FRAME.y - 20, FRAME.w + 40, FRAME.h + 40); }
   ctx.restore();
@@ -453,9 +521,80 @@ function drawFrame(t) {
   ctx.restore();
 }
 
+function composeTransition(kind, m, fa) {
+  const X = FRAME.x, Y = FRAME.y, FW = FRAME.w, FH = FRAME.h;
+  const e = ease.inOutCubic(m);
+  const edge = (fn) => { ctx.save(); ctx.globalAlpha = fa * Math.sin(m * Math.PI); fn(); ctx.restore(); };
+  switch (kind) {
+    case 'wipe': {   // the new picture is revealed from the right edge, moving left (reading direction)
+      ctx.drawImage(sA, X, Y);
+      const ex = X + FW * (1 - e);
+      ctx.save(); ctx.beginPath(); ctx.rect(ex, Y, FW, FH); ctx.clip(); ctx.drawImage(sB, X, Y); ctx.restore();
+      edge(() => { const g = ctx.createLinearGradient(ex - 40, 0, ex + 40, 0); g.addColorStop(0, rgba(GOLD, 0)); g.addColorStop(0.5, rgba(GOLD_HI, 0.95)); g.addColorStop(1, rgba(GOLD, 0));
+        ctx.fillStyle = g; ctx.fillRect(ex - 40, Y, 80, FH); });
+      break;
+    }
+    case 'iris': {
+      ctx.drawImage(sA, X, Y);
+      const r = Math.hypot(FW, FH) * 0.55 * e, cx = X + FW / 2, cy = Y + FH / 2;
+      ctx.save(); ctx.beginPath(); ctx.arc(cx, cy, Math.max(0.5, r), 0, TAU); ctx.clip(); ctx.drawImage(sB, X, Y); ctx.restore();
+      edge(() => { ctx.strokeStyle = GOLD_HI; ctx.lineWidth = 10; ctx.beginPath(); ctx.arc(cx, cy, Math.max(0.5, r), 0, TAU); ctx.stroke();
+        ctx.strokeStyle = rgba(CREAM, 0.8); ctx.lineWidth = 3; ctx.beginPath(); ctx.arc(cx, cy, Math.max(0.5, r - 12), 0, TAU); ctx.stroke(); });
+      break;
+    }
+    case 'light_sweep': {   // a band of light crosses the frame; behind it the new picture
+      ctx.drawImage(sA, X, Y);
+      const sx = lerp(X + FW + 260, X - 260, e), sk = 180;
+      ctx.save(); ctx.beginPath(); ctx.moveTo(sx, Y); ctx.lineTo(X + FW + 400, Y); ctx.lineTo(X + FW + 400, Y + FH); ctx.lineTo(sx - sk, Y + FH); ctx.closePath(); ctx.clip();
+      ctx.drawImage(sB, X, Y); ctx.restore();
+      edge(() => {
+        ctx.globalCompositeOperation = 'screen';
+        ctx.save(); ctx.transform(1, 0, -sk / FH, 1, sx - X, 0);
+        const g = ctx.createLinearGradient(X - 150, 0, X + 150, 0);
+        g.addColorStop(0, 'rgba(255,240,200,0)'); g.addColorStop(0.5, 'rgba(255,244,214,0.95)'); g.addColorStop(1, 'rgba(255,240,200,0)');
+        ctx.fillStyle = g; ctx.fillRect(X - 150, Y, 300, FH + 10); ctx.restore();
+      });
+      break;
+    }
+    case 'slide': {   // the old picture moves right, the new one comes in from the left (right-to-left reading)
+      ctx.save(); ctx.globalAlpha = fa * (1 - e * 0.6); ctx.drawImage(sA, X + FW * 0.45 * e, Y); ctx.restore();
+      ctx.save(); ctx.shadowColor = 'rgba(30,20,10,0.35)'; ctx.shadowBlur = 30; ctx.shadowOffsetX = 12;
+      ctx.drawImage(sB, X - FW * (1 - e), Y); ctx.restore();
+      break;
+    }
+    case 'page_turn': {   // the page lifts from the left edge and folds to the right, uncovering the new picture
+      const fx = X + FW * e;
+      ctx.drawImage(sB, X, Y);
+      ctx.save(); ctx.beginPath(); ctx.rect(fx, Y, FW, FH); ctx.clip(); ctx.drawImage(sA, X, Y); ctx.restore();
+      const bw = 90 * Math.sin(m * Math.PI);
+      if (bw > 1) {
+        ctx.save();
+        const sh = ctx.createLinearGradient(fx - bw - 40, 0, fx - bw, 0); sh.addColorStop(0, 'rgba(0,0,0,0)'); sh.addColorStop(1, 'rgba(0,0,0,0.25)');
+        ctx.fillStyle = sh; ctx.fillRect(fx - bw - 40, Y, 40, FH);
+        const pg = ctx.createLinearGradient(fx - bw, 0, fx, 0); pg.addColorStop(0, '#efe4cc'); pg.addColorStop(0.7, '#fbf6ec'); pg.addColorStop(1, '#d9cbb0');
+        ctx.fillStyle = pg; ctx.fillRect(fx - bw, Y, bw, FH);
+        ctx.restore();
+      }
+      break;
+    }
+    case 'morph': {   // zoom through: the old picture grows and fades, the new one settles in
+      const cx = X + FW / 2, cy = Y + FH / 2;
+      ctx.save(); ctx.globalAlpha = fa * (1 - e); ctx.translate(cx, cy); ctx.scale(1 + 0.16 * e, 1 + 0.16 * e); ctx.drawImage(sA, -FW / 2, -FH / 2); ctx.restore();
+      ctx.save(); ctx.globalAlpha = fa * e; ctx.translate(cx, cy); ctx.scale(0.9 + 0.1 * e, 0.9 + 0.1 * e); ctx.drawImage(sB, -FW / 2, -FH / 2); ctx.restore();
+      break;
+    }
+    default: {
+      ctx.drawImage(sA, X, Y);
+      ctx.save(); ctx.globalAlpha = fa * m; ctx.drawImage(sB, X, Y); ctx.restore();
+    }
+  }
+}
+
 function anchorsAt(t) {
   const i = chapterAt(t), c = D.chapters[i];
-  const a = scenes[c.scene].anchors?.(t, chT[i]) ?? {};
+  const a = { ...(scenes[c.scene].anchors?.(t, chT[i]) ?? {}) };
+  const ma = motifAnchor(t, chT[i], c.params);
+  if (ma) a.motif = ma;
   const out = {};
   for (const k in a) out[k] = [FRAME.x + a[k][0], FRAME.y + a[k][1]];
   return out;
@@ -516,9 +655,13 @@ function drawGlosses(t, uiA) {
       ctx.shadowColor = 'rgba(40,30,20,0.22)'; ctx.shadowBlur = 16; ctx.shadowOffsetY = 6;
       ctx.fillStyle = '#fcf8ef'; rr(ctx, bx, by, g.bw, g.bh, 24); ctx.fill();
       ctx.shadowColor = 'transparent';
-      ctx.strokeStyle = tone; ctx.lineWidth = 3.5; rr(ctx, bx, by, g.bw, g.bh, 24); ctx.stroke();
-      ctx.fillStyle = INK; ctx.font = `700 30px ${UIF}`; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.direction = 'rtl';
-      g.lines.forEach((ln, k) => ctx.fillText(ln, cx, by + 15 + 21 + k * 42 + 2));
+      // the border draws itself on, then the explanation is typed in word by word (tafsir text: UI, never Quran)
+      const per = 2 * (g.bw + g.bh), bp = ease.inOutCubic(prog(t, g.start, g.start + 0.45));
+      ctx.strokeStyle = tone; ctx.lineWidth = 3.5;
+      if (bp < 0.999) { ctx.setLineDash([per * bp, per + 10]); ctx.lineDashOffset = -per * 0.25; }
+      rr(ctx, bx, by, g.bw, g.bh, 24); ctx.stroke(); ctx.setLineDash([]);
+      ctx.fillStyle = INK; ctx.font = `700 30px ${UIF}`; ctx.textBaseline = 'middle'; ctx.direction = 'rtl';
+      typeLines(g, cx, by, t);
       // chip with the Quranic word(s) - text from API words
       const chx = left ? bx + 10 : bx + g.bw - g.cw - 10, chy = by - g.ch - 8;
       ctx.shadowColor = 'rgba(20,24,45,0.3)'; ctx.shadowBlur = 10; ctx.shadowOffsetY = 4;
@@ -532,6 +675,25 @@ function drawGlosses(t, uiA) {
       ctx.restore();
     }
   }
+}
+
+function typeLines(g, cx, by, t) {
+  let idx = 0;
+  const t0 = g.start + 0.18, rate = 0.075;
+  g.lines.forEach((ln, k) => {
+    const words = ln.split(' '), y = by + 15 + 21 + k * 42 + 2;
+    const all = t >= t0 + rate * (idx + words.length) + 0.3;
+    if (all) { ctx.textAlign = 'center'; ctx.fillText(ln, cx, y); idx += words.length; return; }
+    const sp = ctx.measureText(' ').width, ws = words.map((w) => ctx.measureText(w).width);
+    let x = cx + (ws.reduce((a, b) => a + b, 0) + sp * (words.length - 1)) / 2;
+    ctx.textAlign = 'right';
+    words.forEach((w, j) => {
+      const a = ease.outCubic(prog(t, t0 + rate * idx, t0 + rate * idx + 0.3));
+      if (a > 0.01) { ctx.save(); ctx.globalAlpha *= a; ctx.fillText(w, x, y + (1 - a) * 8); ctx.restore(); }
+      x -= ws[j] + sp; idx++;
+    });
+  });
+  ctx.textAlign = 'center';
 }
 
 function badge(x, y, num, sx) {

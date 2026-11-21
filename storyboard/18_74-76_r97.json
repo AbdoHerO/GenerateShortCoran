@@ -85,7 +85,8 @@
       ],
       "do": "waves"
      }
-    ]
+    ],
+    "motifs": []
    }
   },
   {
@@ -156,7 +157,30 @@
       "do": "sparkle",
       "who": "center"
      }
-    ]
+    ],
+    "motifs": [
+     {
+      "at": [
+       75,
+       9
+      ],
+      "until": null,
+      "motif": "hourglass",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       76,
+       8
+      ],
+      "until": null,
+      "motif": "seal",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "morph"
    }
   }
  ],
@@ -230,5 +254,6 @@
    74,
    1
   ]
- }
+ },
+ "motion": 3
 }

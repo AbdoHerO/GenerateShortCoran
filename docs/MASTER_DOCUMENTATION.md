@@ -255,7 +255,21 @@ The renderer adds automatic camera reframes wherever nothing happens for 5 s.
 
 ---
 
-## 8. Motion graphics v3 (REQUIRED before mass production)
+## 8. Motion graphics v3 (REQUIRED; implemented 2026-11-21)
+
+**Status: implemented.**
+
+| Part | Where |
+|---|---|
+| Motif library (44 symbols) | `renderer/js/motifs.js` |
+| Chapter transitions, life layer, kinetic titles and glosses | `renderer/js/main.js` |
+| Contract | `scene_catalog.json` → `motifs`, `transitions` |
+| Checks | `verify.py` → `check_motifs`, `check_motion` |
+| Motion acceptance test | `renderer/tests/motion_check.mjs` (run by `produce.py build`) |
+| Proof sheets | `node renderer/tests/lib_shot.mjs motifs` / `motif_phases` / `motif_stage` |
+| How to write it | STORYBOARD_GUIDE.md → "Motion graphics v3" |
+
+A storyboard is v3 when it has `"motion": 3`; `produce.py build` refuses any other.
 
 The owner's direction: **every video must be motion graphics, animated and interactive**. Several calm videos
 today show a mostly static background with gentle drift. That is not enough. Before producing new surahs, extend
@@ -526,8 +540,8 @@ data/catalog.json            surahs + reciters (data/* otherwise ignored: re-fet
 - **First productions:** Al-Hijr 15:57–77 and Ash-Shu'ara 26:60–68 (Alafasy). Hand-made scenes, re-rendered with
   covers, not yet human-approved.
 - Test passages from the app: 2:255 (Husary), 103 (Alafasy), 112 (Sudais), 11:40–44 (test storyboard).
+- **Motion graphics v3: done** (section 8). All 33 Al-Kahf storyboards were upgraded on 2026-11-21.
 - **Not done yet:**
-  - motion graphics v3;
   - the extra creative files;
   - more reciters (mp3quran.net has about 96 more, with verse-level timings only: whole-verse highlight);
   - QF production credentials;

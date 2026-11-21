@@ -115,6 +115,28 @@
       ],
       "do": "shot_wide"
      }
+    ],
+    "motifs": [
+     {
+      "at": [
+       92,
+       2
+      ],
+      "until": null,
+      "motif": "footsteps",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       93,
+       5
+      ],
+      "until": null,
+      "motif": "mountain",
+      "place": "top",
+      "size": "s"
+     }
     ]
    }
   },
@@ -267,7 +289,30 @@
       ],
       "do": "push_in"
      }
-    ]
+    ],
+    "motifs": [
+     {
+      "at": [
+       94,
+       13
+      ],
+      "until": null,
+      "motif": "coins",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       94,
+       19
+      ],
+      "until": null,
+      "motif": "bricks",
+      "place": "top",
+      "size": "s"
+     }
+    ],
+    "transition": "wipe"
    }
   },
   {
@@ -396,7 +441,20 @@
       ],
       "do": "push_in"
      }
-    ]
+    ],
+    "motifs": [
+     {
+      "at": [
+       96,
+       14
+      ],
+      "until": null,
+      "motif": "fire",
+      "place": "top",
+      "size": "s"
+     }
+    ],
+    "transition": "iris"
    }
   },
   {
@@ -523,7 +581,30 @@
       "do": "bow",
       "who": "ruler"
      }
-    ]
+    ],
+    "motifs": [
+     {
+      "at": [
+       98,
+       3
+      ],
+      "until": null,
+      "motif": "light",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       98,
+       8
+      ],
+      "until": null,
+      "motif": "seal",
+      "place": "top",
+      "size": "s"
+     }
+    ],
+    "transition": "light_sweep"
    }
   }
  ],
@@ -685,5 +766,6 @@
    96,
    14
   ]
- }
+ },
+ "motion": 3
 }

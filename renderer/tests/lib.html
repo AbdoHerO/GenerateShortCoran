@@ -17,6 +17,8 @@
 <canvas id="c" width="960" height="870"></canvas>
 <script type="module">
   import { scenes, _debug } from '../js/scenes_lib.js';
+  import { drawMotifs, MOTIF_IDS } from '../js/motifs.js';
+  window.MOTIF_IDS = MOTIF_IDS;
   // synthetic timeline: verses 1..3, 8 words each, 0.5 s per word, 0.6 s pause between verses
   function fakeT(scene, params, o = {}) {
     const start = o.start ?? 0, verses = o.verses ?? [1, 2, 3], wpv = o.wpv ?? 8, dur = o.dur ?? 0.5;
@@ -46,6 +48,7 @@
     ox.save(); ox.setTransform(1, 0, 0, 1, 0, 0); ox.clearRect(0, 0, 960, 870);
     scenes[scene].draw(ox, t, T);
     ox.restore();
+    ox.save(); ox.setTransform(1, 0, 0, 1, 0, 0); drawMotifs(ox, t, T, params); ox.restore();
     if (window.flush) ox.getImageData(0, 0, 1, 1);   // force rasterisation so the timing is real
     const ms = performance.now() - t0;
     const an = scenes[scene].anchors(t, T);

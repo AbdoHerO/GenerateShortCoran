@@ -100,6 +100,48 @@
       ],
       "do": "shot_wide"
      }
+    ],
+    "motifs": [
+     {
+      "at": [
+       21,
+       8
+      ],
+      "until": null,
+      "motif": "seal",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       21,
+       9
+      ],
+      "until": null,
+      "motif": "hourglass",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       21,
+       15
+      ],
+      "until": null,
+      "motif": "crowd",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       21,
+       21
+      ],
+      "until": null,
+      "motif": "bricks",
+      "place": "top",
+      "size": "m"
+     }
     ]
    }
   }
@@ -185,5 +227,6 @@
    21,
    2
   ]
- }
+ },
+ "motion": 3
 }

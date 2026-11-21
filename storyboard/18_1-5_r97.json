@@ -65,6 +65,39 @@
       ],
       "do": "light_up"
      }
+    ],
+    "motifs": [
+     {
+      "at": [
+       1,
+       2
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       1,
+       7
+      ],
+      "until": null,
+      "motif": "book",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       1,
+       11
+      ],
+      "until": null,
+      "motif": "scales",
+      "place": "top",
+      "size": "s",
+      "exit": "undraw"
+     }
     ]
    }
   },
@@ -130,7 +163,40 @@
       ],
       "do": "light_up"
      }
-    ]
+    ],
+    "motifs": [
+     {
+      "at": [
+       2,
+       3
+      ],
+      "until": null,
+      "motif": "lightning",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       2,
+       7
+      ],
+      "until": null,
+      "motif": "burst",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       2,
+       14
+      ],
+      "until": null,
+      "motif": "seal",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "light_sweep"
    }
   },
   {
@@ -194,7 +260,40 @@
       ],
       "do": "shot_wide"
      }
-    ]
+    ],
+    "motifs": [
+     {
+      "at": [
+       4,
+       2
+      ],
+      "until": null,
+      "motif": "crowd",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       5,
+       8
+      ],
+      "until": null,
+      "motif": "scales",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       5,
+       12
+      ],
+      "until": null,
+      "motif": "wind",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "morph"
    }
   }
  ],
@@ -290,5 +389,6 @@
    1,
    7
   ]
- }
+ },
+ "motion": 3
 }

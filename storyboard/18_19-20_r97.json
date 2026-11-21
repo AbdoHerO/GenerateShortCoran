@@ -224,6 +224,42 @@
       ],
       "do": "shot_wide"
      }
+    ],
+    "motifs": [
+     {
+      "at": [
+       19,
+       9
+      ],
+      "until": [
+       19,
+       21
+      ],
+      "motif": "hourglass",
+      "place": "top",
+      "size": "s",
+      "exit": "fly"
+     },
+     {
+      "at": [
+       19,
+       23
+      ],
+      "until": null,
+      "motif": "coins",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       19,
+       30
+      ],
+      "until": null,
+      "motif": "wheat",
+      "place": "top",
+      "size": "s"
+     }
     ]
    }
   },
@@ -311,7 +347,20 @@
       "who": "messenger",
       "to": "right"
      }
-    ]
+    ],
+    "motifs": [
+     {
+      "at": [
+       20,
+       10
+      ],
+      "until": null,
+      "motif": "two_paths",
+      "place": "top",
+      "size": "s"
+     }
+    ],
+    "transition": "slide"
    }
   }
  ],
@@ -429,5 +478,6 @@
    19,
    23
   ]
- }
+ },
+ "motion": 3
 }

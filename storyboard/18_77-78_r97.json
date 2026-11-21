@@ -192,6 +192,28 @@
       "do": "glow",
       "who": "musa"
      }
+    ],
+    "motifs": [
+     {
+      "at": [
+       77,
+       7
+      ],
+      "until": null,
+      "motif": "wheat",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       77,
+       22
+      ],
+      "until": null,
+      "motif": "coins",
+      "place": "top",
+      "size": "s"
+     }
     ]
    }
   },
@@ -267,7 +289,30 @@
       ],
       "do": "push_in"
      }
-    ]
+    ],
+    "motifs": [
+     {
+      "at": [
+       78,
+       3
+      ],
+      "until": null,
+      "motif": "two_paths",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       78,
+       7
+      ],
+      "until": null,
+      "motif": "key",
+      "place": "top",
+      "size": "s"
+     }
+    ],
+    "transition": "page_turn"
    }
   }
  ],
@@ -352,5 +397,6 @@
    77,
    18
   ]
- }
+ },
+ "motion": 3
 }

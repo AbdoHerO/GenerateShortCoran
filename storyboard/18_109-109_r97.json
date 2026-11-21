@@ -93,6 +93,48 @@
       "do": "sparkle",
       "who": "light"
      }
+    ],
+    "motifs": [
+     {
+      "at": [
+       109,
+       5
+      ],
+      "until": null,
+      "motif": "pen",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       109,
+       8
+      ],
+      "until": null,
+      "motif": "hourglass",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       109,
+       13
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       109,
+       17
+      ],
+      "until": null,
+      "motif": "wave",
+      "place": "top",
+      "size": "m"
+     }
     ]
    }
   }
@@ -145,5 +187,6 @@
    109,
    5
   ]
- }
+ },
+ "motion": 3
 }

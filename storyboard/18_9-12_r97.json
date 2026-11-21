@@ -68,6 +68,18 @@
       ],
       "do": "shot_sky"
      }
+    ],
+    "motifs": [
+     {
+      "at": [
+       9,
+       9
+      ],
+      "until": null,
+      "motif": "burst",
+      "place": "top",
+      "size": "s"
+     }
     ]
    }
   },
@@ -168,7 +180,50 @@
       ],
       "do": "clouds_part"
      }
-    ]
+    ],
+    "motifs": [
+     {
+      "at": [
+       10,
+       2
+      ],
+      "until": null,
+      "motif": "cave",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       10,
+       7
+      ],
+      "until": null,
+      "motif": "hands",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       10,
+       11
+      ],
+      "until": null,
+      "motif": "light",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       10,
+       16
+      ],
+      "until": null,
+      "motif": "lamp",
+      "place": "top",
+      "size": "s"
+     }
+    ],
+    "transition": "slide"
    }
   },
   {
@@ -284,7 +339,34 @@
       ],
       "do": "push_in"
      }
-    ]
+    ],
+    "motifs": [
+     {
+      "at": [
+       11,
+       6
+      ],
+      "until": [
+       12,
+       1
+      ],
+      "motif": "hourglass",
+      "place": "top",
+      "size": "s",
+      "exit": "fly"
+     },
+     {
+      "at": [
+       12,
+       5
+      ],
+      "until": null,
+      "motif": "two_paths",
+      "place": "top",
+      "size": "s"
+     }
+    ],
+    "transition": "iris"
    }
   }
  ],
@@ -391,5 +473,6 @@
    10,
    8
   ]
- }
+ },
+ "motion": 3
 }

@@ -71,6 +71,38 @@
       ],
       "do": "stars"
      }
+    ],
+    "motifs": [
+     {
+      "at": [
+       6,
+       3
+      ],
+      "until": null,
+      "motif": "candle",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       6,
+       5
+      ],
+      "until": null,
+      "motif": "footsteps",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       6,
+       10
+      ],
+      "until": null,
+      "motif": "book",
+      "place": "top",
+      "size": "m"
+     }
     ]
    }
   },
@@ -142,7 +174,40 @@
       ],
       "do": "leaves"
      }
-    ]
+    ],
+    "motifs": [
+     {
+      "at": [
+       7,
+       6
+      ],
+      "until": null,
+      "motif": "jewel",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       7,
+       8
+      ],
+      "until": null,
+      "motif": "scales",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       8,
+       5
+      ],
+      "until": null,
+      "motif": "leaf",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "wipe"
    }
   }
  ],
@@ -205,5 +270,6 @@
    7,
    6
   ]
- }
+ },
+ "motion": 3
 }

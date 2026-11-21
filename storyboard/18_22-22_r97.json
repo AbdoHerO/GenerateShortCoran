@@ -113,6 +113,60 @@
       ],
       "do": "shot_ground"
      }
+    ],
+    "motifs": [
+     {
+      "at": [
+       22,
+       4
+      ],
+      "until": [
+       22,
+       5
+      ],
+      "motif": "dog",
+      "place": "top",
+      "size": "m",
+      "exit": "undraw"
+     },
+     {
+      "at": [
+       22,
+       8
+      ],
+      "until": [
+       22,
+       9
+      ],
+      "motif": "dog",
+      "place": "top",
+      "size": "m",
+      "exit": "undraw"
+     },
+     {
+      "at": [
+       22,
+       14
+      ],
+      "until": [
+       22,
+       16
+      ],
+      "motif": "dog",
+      "place": "top",
+      "size": "m",
+      "exit": "fly"
+     },
+     {
+      "at": [
+       22,
+       16
+      ],
+      "until": null,
+      "motif": "light",
+      "place": "top",
+      "size": "m"
+     }
     ]
    }
   }
@@ -176,5 +230,6 @@
    22,
    17
   ]
- }
+ },
+ "motion": 3
 }

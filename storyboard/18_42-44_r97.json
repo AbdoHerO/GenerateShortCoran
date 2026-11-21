@@ -168,6 +168,18 @@
       "do": "sit",
       "who": "owner"
      }
+    ],
+    "motifs": [
+     {
+      "at": [
+       42,
+       11
+      ],
+      "until": null,
+      "motif": "leaf",
+      "place": "top",
+      "size": "s"
+     }
     ]
    }
   },
@@ -216,7 +228,30 @@
       ],
       "do": "push_in"
      }
-    ]
+    ],
+    "motifs": [
+     {
+      "at": [
+       44,
+       2
+      ],
+      "until": null,
+      "motif": "seal",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       44,
+       7
+      ],
+      "until": null,
+      "motif": "burst",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "light_sweep"
    }
   }
  ],
@@ -312,5 +347,6 @@
    42,
    5
   ]
- }
+ },
+ "motion": 3
 }

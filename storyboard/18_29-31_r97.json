@@ -127,6 +127,32 @@
       ],
       "do": "shot_wide"
      }
+    ],
+    "motifs": [
+     {
+      "at": [
+       29,
+       5
+      ],
+      "until": null,
+      "motif": "two_paths",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       29,
+       13
+      ],
+      "until": [
+       29,
+       18
+      ],
+      "motif": "scales",
+      "place": "top",
+      "size": "m",
+      "exit": "undraw"
+     }
     ]
    }
   },
@@ -183,7 +209,30 @@
       ],
       "do": "light_up"
      }
-    ]
+    ],
+    "motifs": [
+     {
+      "at": [
+       30,
+       3
+      ],
+      "until": null,
+      "motif": "light",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       30,
+       9
+      ],
+      "until": null,
+      "motif": "seal",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "light_sweep"
    }
   },
   {
@@ -283,7 +332,30 @@
       ],
       "do": "shot_sky"
      }
-    ]
+    ],
+    "motifs": [
+     {
+      "at": [
+       31,
+       3
+      ],
+      "until": null,
+      "motif": "burst",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       31,
+       26
+      ],
+      "until": null,
+      "motif": "seal",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "iris"
    }
   }
  ],
@@ -434,5 +506,6 @@
    29,
    2
   ]
- }
+ },
+ "motion": 3
 }
