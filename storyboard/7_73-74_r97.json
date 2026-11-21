@@ -28,30 +28,254 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة الأعراف",
+   "title": "دعوة صالح",
    "verses": [
     73
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "mountains",
+    "beats": [
+     {
+      "at": [
+       73,
+       13
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       73,
+       16
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       73,
+       17
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       73,
+       19
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       73,
+       23
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       73,
+       27
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       73,
+       29
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       73,
+       32
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       73,
+       33
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       73,
+       7
+      ],
+      "until": [
+       73,
+       14
+      ],
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
    "id": "c2",
-   "title": "سورة الأعراف",
+   "title": "عمران ثمود",
    "verses": [
     74
    ],
    "scene": "ambient",
    "params": {
-    "mood": "mountains"
+    "mood": "mountains",
+    "beats": [
+     {
+      "at": [
+       74,
+       4
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       74,
+       8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       74,
+       11
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       74,
+       19
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       74,
+       21
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       74,
+       13
+      ],
+      "until": [
+       74,
+       16
+      ],
+      "motif": "house",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       74,
+       16
+      ],
+      "until": [
+       74,
+       18
+      ],
+      "motif": "mountain",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "slide"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 73,
+   "words": [
+    1,
+    4
+   ],
+   "tafsir": 91,
+   "excerpt": "القبيلة المعروفة الذين كانوا يسكنون الحجر وما حوله",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 73,
+   "words": [
+    14,
+    18
+   ],
+   "tafsir": 16,
+   "excerpt": "البرهان على صدق ما أدعوكم إليه",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 73,
+   "words": [
+    29,
+    34
+   ],
+   "tafsir": 16,
+   "excerpt": "ولا تتعرضوا لها بأي أذى",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 74,
+   "words": [
+    1,
+    7
+   ],
+   "tafsir": 91,
+   "excerpt": "تتمتعون بها وتدركون مطالبكم",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 74,
+   "words": [
+    8,
+    10
+   ],
+   "tafsir": 91,
+   "excerpt": "مكن لكم فيها، وسهل لكم الأسباب الموصلة إلى ما تريدون",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 74,
+   "words": [
+    11,
+    17
+   ],
+   "tafsir": 16,
+   "excerpt": "فتبنون في سهولها البيوت العظيمة",
+   "target": "",
+   "tone": "blue"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "Salih: no motif. The she-camel is not drawn and its origin is not glossed (Al-Muyassar's «من الصخرة» is a report, not in the verse). Geometric for «اعبدوا الله», a house and a mountain for «قصورا… الجبال بيوتا»."
+ },
+ "cover": {
+  "series_ar": "دعوة الرسل",
+  "series_en": "The messengers' call",
+  "title_ar": "صالح وثمود",
+  "title_en": "Salih and Thamud",
+  "at": [
+   73,
+   1
+  ]
+ },
+ "motion": 3
 }

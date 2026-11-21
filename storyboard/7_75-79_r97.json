@@ -28,53 +28,331 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة الأعراف",
+   "title": "المستكبرون والمستضعفون",
    "verses": [
-    75
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "dawn"
-   }
-  },
-  {
-   "id": "c2",
-   "title": "سورة الأعراف",
-   "verses": [
+    75,
     76
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "mountains",
+    "beats": [
+     {
+      "at": [
+       75,
+       4
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       75,
+       7
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       75,
+       10
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       75,
+       13
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       75,
+       14
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       75,
+       15
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       75,
+       22
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       76,
+       3
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       76,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       76,
+       6
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       75,
+       19
+      ],
+      "until": null,
+      "motif": "light",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
-   "id": "c3",
-   "title": "سورة الأعراف",
+   "id": "c2",
+   "title": "العتو والعقاب",
    "verses": [
     77,
-    78
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "light"
-   }
-  },
-  {
-   "id": "c4",
-   "title": "سورة الأعراف",
-   "verses": [
+    78,
     79
    ],
    "scene": "ambient",
    "params": {
-    "mood": "night_sky"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       77,
+       4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       77,
+       7
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       77,
+       11
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       77,
+       13
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       78,
+       1
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       78,
+       6
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       79,
+       3
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       79,
+       7
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       79,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       79,
+       10
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       79,
+       12
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [],
+    "transition": "wipe"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 75,
+   "words": [
+    1,
+    8
+   ],
+   "tafsir": 91,
+   "excerpt": "الرؤساء والأشراف الذين تكبروا عن الحق",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 75,
+   "words": [
+    9,
+    17
+   ],
+   "tafsir": 91,
+   "excerpt": "ولما كان المستضعفون ليسوا كلهم مؤمنين",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 75,
+   "words": [
+    18,
+    23
+   ],
+   "tafsir": 16,
+   "excerpt": "مصدقون بما أرسله الله به، متَّبعون لشرعه",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 76,
+   "words": [
+    1,
+    8
+   ],
+   "tafsir": 91,
+   "excerpt": "حملهم الكبر أن لا ينقادوا للحق الذي انقاد له الضعفاء",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 77,
+   "words": [
+    1,
+    2
+   ],
+   "tafsir": 91,
+   "excerpt": "التي توعدهم إن مسوها بسوء أن يصيبهم عذاب أليم",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 77,
+   "words": [
+    3,
+    6
+   ],
+   "tafsir": 91,
+   "excerpt": "قسوا عنه، واستكبروا عن أمره",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 77,
+   "words": [
+    7,
+    15
+   ],
+   "tafsir": 16,
+   "excerpt": "على سبيل الاستهزاء واستبعاد العذاب",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 78,
+   "words": [
+    1,
+    6
+   ],
+   "tafsir": 16,
+   "excerpt": "الزلزلةُ الشديدة التي خلعت قلوبهم",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 79,
+   "words": [
+    1,
+    2
+   ],
+   "tafsir": 91,
+   "excerpt": "صالح عليه السلام حين أحل اللّه بهم العذاب",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 79,
+   "words": [
+    3,
+    4
+   ],
+   "tafsir": 91,
+   "excerpt": "مخاطبا لهم توبيخا وعتابا بعدما أهلكهم اللّه",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 79,
+   "words": [
+    5,
+    10
+   ],
+   "tafsir": 91,
+   "excerpt": "قد أبلغتكم به وحرصت على هدايتكم",
+   "target": "",
+   "tone": "green"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "Salih: no motif. The killing of the she-camel and the earthquake are not drawn (night sky, no motif in 77-79). Their challenge (77:7-15) is framed «على سبيل الاستهزاء». Light only for the believers' answer (75:19). 79:11-14 avoids Al-Muyassar's «شيطان رجيم» (Quran wording)."
+ },
+ "cover": {
+  "series_ar": "دعوة الرسل",
+  "series_en": "The messengers' call",
+  "title_ar": "نهاية ثمود",
+  "title_en": "The end of Thamud",
+  "at": [
+   75,
+   1
+  ]
+ },
+ "motion": 3
 }

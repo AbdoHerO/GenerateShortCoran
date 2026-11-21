@@ -28,30 +28,249 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة الأعراف",
+   "title": "وعيد هود",
    "verses": [
     71
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       71,
+       5
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       71,
+       8
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       71,
+       10
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       71,
+       12
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       71,
+       13
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       71,
+       14
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       71,
+       18
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       71,
+       22
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       71,
+       23
+      ],
+      "do": "pan_left"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       71,
+       21
+      ],
+      "until": null,
+      "motif": "hourglass",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
    "id": "c2",
-   "title": "سورة الأعراف",
+   "title": "النجاة والهلاك",
    "verses": [
     72
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "dawn",
+    "beats": [
+     {
+      "at": [
+       72,
+       3
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       72,
+       5
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       72,
+       8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       72,
+       10
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       72,
+       13
+      ],
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       72,
+       1
+      ],
+      "until": [
+       72,
+       6
+      ],
+      "motif": "light",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "wipe"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 71,
+   "words": [
+    1,
+    8
+   ],
+   "tafsir": 91,
+   "excerpt": "لا بد من وقوعه، فإنه قد انعقدت أسبابه، وحان وقت الهلاك",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 71,
+   "words": [
+    9,
+    14
+   ],
+   "tafsir": 91,
+   "excerpt": "على أمور، لا حقائق لها، وعلى أصنام سميتوها آلهة",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 71,
+   "words": [
+    15,
+    20
+   ],
+   "tafsir": 16,
+   "excerpt": "من حجة ولا برهان",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 71,
+   "words": [
+    21,
+    25
+   ],
+   "tafsir": 16,
+   "excerpt": "وهذا غاية في التهديد والوعيد",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 72,
+   "words": [
+    1,
+    5
+   ],
+   "tafsir": 91,
+   "excerpt": "فإنه الذي هداهم للإيمان، وجعل إيمانهم سببا ينالون به رحمته",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 72,
+   "words": [
+    6,
+    10
+   ],
+   "tafsir": 16,
+   "excerpt": "فوقع عذاب الله بإرسال الريح الشديدة عليهم",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 72,
+   "words": [
+    11,
+    13
+   ],
+   "tafsir": 16,
+   "excerpt": "لجمعهم بين التكذيب بآيات الله وترك العمل الصالح",
+   "target": "",
+   "tone": "red"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "Hud: no motif. No idols, wind storm or destruction drawn: an hourglass for «فانتظروا», light for «برحمة منا». First-person «استأصلناهم» not used."
+ },
+ "cover": {
+  "series_ar": "دعوة الرسل",
+  "series_en": "The messengers' call",
+  "title_ar": "نهاية عاد",
+  "title_en": "The end of 'Ad",
+  "at": [
+   71,
+   1
+  ]
+ },
+ "motion": 3
 }
