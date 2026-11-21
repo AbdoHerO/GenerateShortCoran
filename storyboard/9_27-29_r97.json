@@ -191,7 +191,7 @@
   },
   {
    "id": "c3",
-   "title": "عقد الذمة",
+   "title": "حكم الجزية",
    "verses": [
     29
    ],
@@ -284,7 +284,7 @@
     6
    ],
    "tafsir": 91,
-   "excerpt": "نجاستهم المعنوية، بالشرك",
+   "excerpt": "وليس المراد هنا، نجاسة البدن، فإن الكافر كغيره طاهر البدن",
    "target": "",
    "tone": "blue"
   },
@@ -335,22 +335,11 @@
   {
    "verse": 29,
    "words": [
-    2,
+    7,
     8
    ],
-   "tafsir": 91,
-   "excerpt": "إيمانا صحيحا يصدقونه بأفعالهم وأعمالهم",
-   "target": "",
-   "tone": "blue"
-  },
-  {
-   "verse": 29,
-   "words": [
-    9,
-    14
-   ],
-   "tafsir": 91,
-   "excerpt": "فلا يتبعون شرعه في تحريم المحرمات",
+   "tafsir": 16,
+   "excerpt": "بالبعث والجزاء",
    "target": "",
    "tone": "blue"
   },
@@ -368,7 +357,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Fighting passage: only what the tafsirs say with their restrictions; the command itself is not glossed; no battle, weapon, captive or killing drawn; no present-day reading and no people targeted. No motif on the Prophet ﷺ. 28:4-6 «نجس» carries As-Sa'di's «نجاستهم المعنوية، بالشرك» (he states it is not bodily impurity); 28:11-13 is dated (the year 9 AH). 29: the command, «من الذين أوتوا الكتاب» and «عن يد وهم صاغرون» are not glossed; no group is named; the jizya carries As-Sa'di's «…لترك المسلمين قتالهم، وإقامتهم آمنين». Nothing drawn in 29."
+  "notes": "Fighting passage: only what the tafsirs say with their restrictions; the command itself is not glossed; no battle, weapon, captive or killing drawn; no present-day reading and no people targeted. No motif on the Prophet ﷺ. 28:4-6 «نجس» carries As-Sa'di's «وليس المراد هنا، نجاسة البدن…» (the impurity is shirk, not the body); 28:11-13 is dated (the year 9 AH). 29: the command, «من الذين أوتوا الكتاب» and «عن يد وهم صاغرون» are not glossed; no group is named; the jizya carries As-Sa'di's «…لترك المسلمين قتالهم، وإقامتهم آمنين». Nothing drawn in 29."
  },
  "cover": {
   "series_ar": "صفاء التوحيد",

@@ -105,7 +105,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn",
+    "mood": "geometric",
     "beats": [
      {
       "at": [
@@ -153,7 +153,7 @@
        14,
        8
       ],
-      "motif": "light",
+      "motif": "seal",
       "place": "top",
       "size": "m"
      },
@@ -171,7 +171,7 @@
       "size": "m"
      }
     ],
-    "transition": "light_sweep"
+    "transition": "dissolve"
    }
   },
   {
@@ -182,7 +182,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "mountains",
+    "mood": "light",
     "beats": [
      {
       "at": [
@@ -250,7 +250,7 @@
        16,
        11
       ],
-      "motif": "two_paths",
+      "motif": "geometric",
       "place": "top",
       "size": "m"
      },
@@ -276,8 +276,8 @@
     6,
     8
    ],
-   "tafsir": 16,
-   "excerpt": "وعملوا على إخراج الرسول من (مكة)",
+   "tafsir": 91,
+   "excerpt": "وهم هموا أن يجلوه ويخرجوه من وطنه",
    "target": "",
    "tone": "red"
   },
@@ -299,7 +299,7 @@
     12
    ],
    "tafsir": 91,
-   "excerpt": "عاونت قريش ـ وهم معاهدون ـ بني بكر حلفاءهم على خزاعة",
+   "excerpt": "حيث نقضوا العهد وأعانوا عليكم",
    "target": "",
    "tone": "blue"
   },
@@ -343,7 +343,7 @@
     3
    ],
    "tafsir": 91,
-   "excerpt": "شفاء لما في قلوب المؤمنين من الغم والهم",
+   "excerpt": "وهذا يدل على محبة اللّه لعباده المؤمنين، واعتنائه بأحوالهم",
    "target": "",
    "tone": "green"
   },
@@ -387,7 +387,7 @@
     10
    ],
    "tafsir": 16,
-   "excerpt": "ليعلم الله علمًا ظاهرًا للخلق الذين أخلصوا في جهادهم",
+   "excerpt": "علمًا ظاهرًا للخلق الذين أخلصوا في جهادهم",
    "target": "",
    "tone": "blue"
   },
@@ -405,7 +405,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Fighting passage: only what the tafsirs say with their restrictions (the treaty-holders of that time, the four months, those who broke oaths and attacked); no battle, weapon, captive or killing drawn; no present-day reading. No motif on the Prophet ﷺ. 13:9-12 is anchored in its history (As-Sa'di: Quraysh, under treaty, helped Banu Bakr against Khuza'a). The commands in 13:1-5 and 14:1-4 are not glossed. 14:6-7 «هذا وعد… قد أنجزها» (fulfilled). Geometric near Allah's name, light for victory and for «ويتوب الله على من يشاء», an hourglass and two paths for the trial that sorts the sincere."
+  "notes": "Fighting passage: only what the tafsirs say with their restrictions (the treaty-holders of that time, the four months, those who broke oaths and attacked); no battle, weapon, captive or killing drawn; no present-day reading. No motif on the Prophet ﷺ. 13:9-12 keeps As-Sa'di's «حيث نقضوا العهد وأعانوا عليكم» (they broke the treaty first). The commands in 13:1-5 and 14:1-4 are not glossed. 14:6-7 «هذا وعد… قد أنجزها» (fulfilled). Geometric near Allah's name, light for victory and for «ويتوب الله على من يشاء», an hourglass and two paths for the trial that sorts the sincere."
  },
  "cover": {
   "series_ar": "العهود والمواثيق",

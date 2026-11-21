@@ -150,7 +150,7 @@
        6,
        11
       ],
-      "motif": "book",
+      "motif": "light",
       "place": "top",
       "size": "m"
      },
@@ -269,7 +269,7 @@
  "cover": {
   "series_ar": "العهود والمواثيق",
   "series_en": "Treaties and covenants",
-  "title_ar": "انقضاء المهلة والأمان",
+  "title_ar": "انقضاء المهلة وبقاء الأمان",
   "title_en": "The term ends; safe conduct remains",
   "at": [
    5,

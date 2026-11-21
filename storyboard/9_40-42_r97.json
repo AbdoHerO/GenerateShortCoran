@@ -190,7 +190,7 @@
       "size": "m"
      }
     ],
-    "transition": "wipe"
+    "transition": "dissolve"
    }
   },
   {
@@ -201,7 +201,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "mountains",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
@@ -269,7 +269,7 @@
        42,
        12
       ],
-      "motif": "footsteps",
+      "motif": "mountain",
       "place": "top",
       "size": "m"
      }
@@ -285,8 +285,8 @@
     1,
     5
    ],
-   "tafsir": 91,
-   "excerpt": "فاللّه غني عنكم، لا تضرونه شيئا",
+   "tafsir": 16,
+   "excerpt": "يا معشر أصحاب رسول الله صلى الله عليه وسلم",
    "target": "",
    "tone": "blue"
   },
@@ -326,13 +326,13 @@
   {
    "verse": 40,
    "words": [
-    16,
+    18,
     20
    ],
-   "tafsir": 91,
-   "excerpt": "أبي بكر لما حزن واشتد قلقه",
+   "tafsir": 16,
+   "excerpt": "وفي هذه الآية منقبة عظيمة لأبي بكر الصديق رضي الله عنه",
    "target": "",
-   "tone": "blue"
+   "tone": "green"
   },
   {
    "verse": 40,
@@ -407,7 +407,7 @@
     3
    ],
    "tafsir": 16,
-   "excerpt": "شبابًا وشيوخًا في العسر واليسر",
+   "excerpt": "في العسر واليسر",
    "target": "",
    "tone": "blue"
   },

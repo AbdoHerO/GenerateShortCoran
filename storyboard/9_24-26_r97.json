@@ -155,7 +155,7 @@
       ],
       "until": [
        24,
-       29
+       27
       ],
       "motif": "hourglass",
       "place": "top",
@@ -275,7 +275,7 @@
       ],
       "until": [
        26,
-       5
+       6
       ],
       "motif": "light",
       "place": "top",
@@ -348,8 +348,8 @@
     24,
     28
    ],
-   "tafsir": 91,
-   "excerpt": "انتظروا ما يحل بكم من العقاب",
+   "tafsir": 16,
+   "excerpt": "إن فَضَّلتم ذلك على حب الله",
    "target": "",
    "tone": "red"
   },

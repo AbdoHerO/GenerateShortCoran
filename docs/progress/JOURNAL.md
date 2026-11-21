@@ -878,3 +878,38 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
   - then Aal Imran 144-195.
 - All 250 queued videos were cut-checked (`cutcheck.py`): no other joined edge.
 - The two At-Tawba reviewers stopped at the 5-hour quota and were resumed after the reset.
+
+### At-Tawba 1-59 reviews applied (2026-11-21)
+
+- **Glosses** (6 SERIOUS, 17 MINOR), all applied:
+  - SERIOUS:
+    - The 9:5-6 cover «انقضاء المهلة والأمان» read as "the respite and the safety have expired"; it is now
+      «انقضاء المهلة وبقاء الأمان».
+    - 9:12: «عابوه، وسخروا منه» stayed on screen through the held «فقاتلوا» with only "they mocked" as the reason;
+      it is dropped.
+    - 9:12: «الرؤساء الطاعنين في دين الرحمن» read as a general licence; it is now «وخصهم بالذكر لعظم جنايتهم…».
+    - 9:12: «حتى ينتهوا عن كفرهم» read as "fight until they leave disbelief", and the tafsirs differ; it is
+      dropped.
+    - 9:24: the threat had lost its condition; it is now «إن فَضَّلتم ذلك على حب الله».
+    - 9:29: «إيمانا صحيحا…» dropped the negation and widened the target; it is now «بالبعث والجزاء» on words 7-8
+      only.
+  - MINOR:
+    - Removed: the hijra-recruitment formula (9:20), «فلا يتبعون شرعه» as a reason to fight (9:29), tatweels
+      (9:13), echoes of the chip or the Quran (9:13, 9:15, 9:16, 9:40, 9:43, 9:59), «ما قدره» (9:51).
+    - Narrowed: «شبابًا وشيوخًا» (9:41).
+    - The 9:58 chip is widened to keep «إن… إذا هم يسخطون» together.
+    - Abu Bakr now gets Al-Muyassar's honorific line (9:40).
+  - Titles: «عقد الذمة» is now «حكم الجزية»; «الطاعة في التشريع» (a hakimiyya slogan) is now «إخلاص العبادة».
+  - 9:28 now shows As-Sa'di's «وليس المراد هنا، نجاسة البدن، فإن الكافر كغيره طاهر البدن».
+- **Motifs** (1 SERIOUS, 17 MINOR), all applied:
+  - SERIOUS: the sunrise over «قاتلوهم يعذبهم الله بأيديكم» (14) is gone; that chapter is now `geometric` with a
+    dissolve.
+  - Removed: the `mountains` summit sparkles on Allah's name (16, 42), plates over Allah's name (3, 6, 24, 36),
+    plates over the Prophet's name ﷺ (7, 59), the march footsteps (42), the gleam on «وينصركم» (now a seal), the
+    loot coins (34; now scales), and the dark branch for «إحدى الحسنيين» (now light).
+  - Three transitions that peaked on a command or a plot are now dissolves or morphs.
+- **Lessons:**
+  - In a fighting verse, the reciter holding the command for seconds turns any gloss into its stated reason: keep
+    only the tafsir's restriction there, or nothing.
+  - A cover title is read on its own: «X والأمان» after «انقضاء» negates both.
+  - `mountains` lights a summit on every word, Allah's name included: never use it where His name is recited.

@@ -192,7 +192,7 @@
       ],
       "until": [
        59,
-       16
+       15
       ],
       "motif": "light",
       "place": "top",
@@ -296,7 +296,7 @@
    "verse": 58,
    "words": [
     6,
-    13
+    16
    ],
    "tafsir": 91,
    "excerpt": "وليس انتقادهم فيها وعيبهم لقصد صحيح",
@@ -331,8 +331,8 @@
     11,
     15
    ],
-   "tafsir": 16,
-   "excerpt": "لو فعلوا ذلك لكان خيرًا لهم وأجدى",
+   "tafsir": 91,
+   "excerpt": "لسلموا من النفاق ولهدوا إلى الإيمان والأحوال العالية",
    "target": "",
    "tone": "green"
   },
@@ -350,7 +350,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "56: the oath is framed («كذبًا وباطلا»). 57: a mountain for «مغارات» (no people, no cave opening). 58 frames the criticism («ليس… لقصد صحيح»). 59:11-15 supplies the unspoken answer with Al-Muyassar's «لو فعلوا ذلك لكان خيرًا لهم وأجدى». Coins for «الصدقات», geometric for «حسبنا الله», light for «سيؤتينا الله من فضله». 59: short-word flag, listen."
+  "notes": "56: the oath is framed («كذبًا وباطلا»). 57: a mountain for «مغارات» (no people, no cave opening). 58 frames the criticism («ليس… لقصد صحيح»). 59:11-15 supplies the unspoken answer with As-Sa'di's «لسلموا من النفاق ولهدوا إلى الإيمان…». Coins for «الصدقات», geometric for «حسبنا الله», light for «سيؤتينا الله من فضله». 59: short-word flag, listen."
  },
  "cover": {
   "series_ar": "غزوة تبوك",

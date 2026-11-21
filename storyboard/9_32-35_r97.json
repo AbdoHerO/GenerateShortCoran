@@ -218,7 +218,7 @@
        34,
        13
       ],
-      "motif": "coins",
+      "motif": "scales",
       "place": "top",
       "size": "m"
      },
@@ -318,7 +318,7 @@
    "tafsir": 16,
    "excerpt": "ويبطلوا حجج الله وبراهينه على توحيده",
    "target": "",
-   "tone": "green"
+   "tone": "red"
   },
   {
    "verse": 32,
@@ -370,8 +370,8 @@
     4,
     8
    ],
-   "tafsir": 16,
-   "excerpt": "علماء أهل الكتاب وعُبَّادهم",
+   "tafsir": 91,
+   "excerpt": "هذا تحذير من اللّه تعالى لعباده المؤمنين",
    "target": "",
    "tone": "blue"
   },
