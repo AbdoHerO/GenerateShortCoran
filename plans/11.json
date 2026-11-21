@@ -1,0 +1,406 @@
+{
+ "surah": 11,
+ "summary": "34 short videos (reciter Yasser ad-Dussary) covering all 123 verses; 3 of them wait for the owner's decisions",
+ "made_by": "Research 2026-11-21 (cloud agent): audit_surah.py 11 --reciter 97 (with the nocut check), plan_split.py with thematic sections, Saheeh translation and both tafsirs.",
+ "reciter": {
+  "id": 97,
+  "name": "Yasser ad-Dussary"
+ },
+ "notes": [
+  "Recitation: 37.8 minutes. 14 JOINED boundaries and 8 more with no clean audio cut; 41-49 has no clean cut at all.",
+  "Text: 11:13 «افتراه» differs from Tanzil in its spelling (new case, DECISIONS_NEEDED §5): 12-13 BLOCKED.",
+  "Timing: 11:16 overlaps 11:15 by 80 ms; 11:48 word 11 has no timing (§2): 15-17 and 41-49 BLOCKED. Short-word flags to hear: 12, 27, 61.",
+  "Pictures: ambient throughout. Nuh, Hud, Salih, Ibrahim, Lut, Shu'ayb, Musa and the Prophet ﷺ never drawn and get no motif; the angels (69-81), the flood, the she-camel, the destructions, Paradise and Hell never drawn; Sarah is never drawn; the people of Lut's sin is never described."
+ ],
+ "groups": [
+  {
+   "title_ar": "الكتاب والإنسان",
+   "title_en": "The Book and man",
+   "from": 1,
+   "to": 11,
+   "videos": [
+    {
+     "from": 1,
+     "to": 4,
+     "title_ar": "الكتاب المحكم",
+     "title_en": "The perfected Book",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 75
+    },
+    {
+     "from": 5,
+     "to": 8,
+     "title_ar": "علم الله ورزقه",
+     "title_en": "Allah's knowledge and provision",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 111
+    },
+    {
+     "from": 9,
+     "to": 11,
+     "title_ar": "الإنسان بين النعمة والشدة",
+     "title_en": "Man in ease and hardship",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 62
+    }
+   ]
+  },
+  {
+   "title_ar": "الحجة والإعراض",
+   "title_en": "The proof and turning away",
+   "from": 12,
+   "to": 24,
+   "videos": [
+    {
+     "from": 12,
+     "to": 13,
+     "title_ar": "تحدي المكذبين",
+     "title_en": "Challenging the deniers",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 76,
+     "blocked": "11:13 «افتراه»: the QF word text is written «افْتَرَاهُ» (alef, no wasla) where the Uthmani text (Tanzil) has «ٱفْتَرَىٰهُ» (alef wasla, alef maqsura + dagger alef). New case for DECISIONS_NEEDED; 12-13 must stay one unit (12 is JOINED to 13)."
+    },
+    {
+     "from": 14,
+     "to": 14,
+     "title_ar": "عجز المعارضين",
+     "title_en": "The challengers fail",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 40
+    },
+    {
+     "from": 15,
+     "to": 17,
+     "title_ar": "طلاب الدنيا",
+     "title_en": "Seekers of this world",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 104,
+     "blocked": "11:16 overlaps 11:15 by 80 ms (DECISIONS_NEEDED section 2)."
+    },
+    {
+     "from": 18,
+     "to": 20,
+     "title_ar": "أظلم الناس",
+     "title_en": "The worst wrongdoers",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 70
+    },
+    {
+     "from": 21,
+     "to": 24,
+     "title_ar": "الفريقان",
+     "title_en": "The two parties",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 67
+    }
+   ]
+  },
+  {
+   "title_ar": "نوح وقومه",
+   "title_en": "Nuh and his people",
+   "from": 25,
+   "to": 49,
+   "videos": [
+    {
+     "from": 25,
+     "to": 28,
+     "title_ar": "دعوة نوح",
+     "title_en": "Nuh's call",
+     "visual": "ambient",
+     "care": "Nuh: no motif, figure or drop. 27: short-word flag (listen).",
+     "est_s": 82
+    },
+    {
+     "from": 29,
+     "to": 31,
+     "title_ar": "لا أطلب أجرا",
+     "title_en": "No wage asked",
+     "visual": "ambient",
+     "care": "Nuh: no motif.",
+     "est_s": 82
+    },
+    {
+     "from": 32,
+     "to": 35,
+     "title_ar": "جدال القوم",
+     "title_en": "The people's dispute",
+     "visual": "ambient",
+     "care": "Nuh: no motif.",
+     "est_s": 71
+    },
+    {
+     "from": 36,
+     "to": 39,
+     "title_ar": "صنع السفينة",
+     "title_en": "Building the ark",
+     "visual": "ambient",
+     "care": "The ark only as a symbol; no flood drawn.",
+     "est_s": 73
+    },
+    {
+     "from": 40,
+     "to": 40,
+     "title_ar": "الأمر بالحمل",
+     "title_en": "The order to embark",
+     "visual": "ambient",
+     "care": "No flood, animals or people drawn.",
+     "est_s": 38
+    },
+    {
+     "from": 41,
+     "to": 49,
+     "title_ar": "الطوفان والنجاة",
+     "title_en": "The flood and the rescue",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 221,
+     "blocked": "11:48 word 11 has no timing (section 2); 41-49 is also one 214 s unit (no clean cut from 41 to 48)."
+    }
+   ]
+  },
+  {
+   "title_ar": "هود وعاد",
+   "title_en": "Hud and 'Ad",
+   "from": 50,
+   "to": 60,
+   "videos": [
+    {
+     "from": 50,
+     "to": 54,
+     "title_ar": "دعوة هود",
+     "title_en": "Hud's call",
+     "visual": "ambient",
+     "care": "Hud: no motif.",
+     "est_s": 87
+    },
+    {
+     "from": 55,
+     "to": 58,
+     "title_ar": "توكل هود",
+     "title_en": "Hud's reliance",
+     "visual": "ambient",
+     "care": "Hud: no motif.",
+     "est_s": 83
+    },
+    {
+     "from": 59,
+     "to": 60,
+     "title_ar": "عاقبة عاد",
+     "title_en": "The end of 'Ad",
+     "visual": "ambient",
+     "care": "No destruction drawn.",
+     "est_s": 42
+    }
+   ]
+  },
+  {
+   "title_ar": "صالح وثمود",
+   "title_en": "Salih and Thamud",
+   "from": 61,
+   "to": 68,
+   "videos": [
+    {
+     "from": 61,
+     "to": 63,
+     "title_ar": "دعوة صالح",
+     "title_en": "Salih's call",
+     "visual": "ambient",
+     "care": "Salih: no motif. 61: short-word flag (listen).",
+     "est_s": 77
+    },
+    {
+     "from": 64,
+     "to": 68,
+     "title_ar": "آية الناقة",
+     "title_en": "The she-camel",
+     "visual": "ambient",
+     "care": "The she-camel never drawn; no destruction drawn.",
+     "est_s": 92
+    }
+   ]
+  },
+  {
+   "title_ar": "إبراهيم والبشرى",
+   "title_en": "Ibrahim and the good news",
+   "from": 69,
+   "to": 75,
+   "videos": [
+    {
+     "from": 69,
+     "to": 72,
+     "title_ar": "ضيف إبراهيم",
+     "title_en": "Ibrahim's guests",
+     "visual": "ambient",
+     "care": "The angels (guests) never drawn; Ibrahim and Sarah: no motif or figure; Sarah is not drawn.",
+     "est_s": 76
+    },
+    {
+     "from": 73,
+     "to": 75,
+     "title_ar": "رحمة وبركات",
+     "title_en": "Mercy and blessings",
+     "visual": "ambient",
+     "care": "Angels never drawn.",
+     "est_s": 43
+    }
+   ]
+  },
+  {
+   "title_ar": "لوط وقومه",
+   "title_en": "Lut and his people",
+   "from": 76,
+   "to": 83,
+   "videos": [
+    {
+     "from": 76,
+     "to": 79,
+     "title_ar": "قدوم الرسل",
+     "title_en": "The messengers arrive",
+     "visual": "ambient",
+     "care": "Angels and Lut never drawn; the indecency never described.",
+     "est_s": 81
+    },
+    {
+     "from": 80,
+     "to": 83,
+     "title_ar": "نجاة لوط",
+     "title_en": "Lut is rescued",
+     "visual": "ambient",
+     "care": "No destruction or stones drawn.",
+     "est_s": 93
+    }
+   ]
+  },
+  {
+   "title_ar": "شعيب ومدين",
+   "title_en": "Shu'ayb and Madyan",
+   "from": 84,
+   "to": 95,
+   "videos": [
+    {
+     "from": 84,
+     "to": 86,
+     "title_ar": "الوفاء بالكيل",
+     "title_en": "Full measure",
+     "visual": "ambient",
+     "care": "Shu'ayb: no motif.",
+     "est_s": 64
+    },
+    {
+     "from": 87,
+     "to": 89,
+     "title_ar": "الإصلاح ما استطعت",
+     "title_en": "Reform as far as I can",
+     "visual": "ambient",
+     "care": "Shu'ayb: no motif.",
+     "est_s": 84
+    },
+    {
+     "from": 90,
+     "to": 93,
+     "title_ar": "رهط شعيب",
+     "title_en": "Shu'ayb's clan",
+     "visual": "ambient",
+     "care": "Shu'ayb: no motif.",
+     "est_s": 74
+    },
+    {
+     "from": 94,
+     "to": 95,
+     "title_ar": "عاقبة مدين",
+     "title_en": "The end of Madyan",
+     "visual": "ambient",
+     "care": "No destruction drawn.",
+     "est_s": 48
+    }
+   ]
+  },
+  {
+   "title_ar": "عبر الأمم",
+   "title_en": "Lessons of nations",
+   "from": 96,
+   "to": 109,
+   "videos": [
+    {
+     "from": 96,
+     "to": 99,
+     "title_ar": "فرعون وقومه",
+     "title_en": "Pharaoh and his people",
+     "visual": "ambient",
+     "care": "Musa and Pharaoh never drawn.",
+     "est_s": 48
+    },
+    {
+     "from": 100,
+     "to": 104,
+     "title_ar": "أنباء القرى",
+     "title_en": "News of the towns",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 98
+    },
+    {
+     "from": 105,
+     "to": 108,
+     "title_ar": "الشقي والسعيد",
+     "title_en": "The wretched and the blessed",
+     "visual": "ambient",
+     "care": "Paradise and Hell never drawn.",
+     "est_s": 86
+    },
+    {
+     "from": 109,
+     "to": 109,
+     "title_ar": "لا شك في المصير",
+     "title_en": "No doubt of the end",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 37
+    }
+   ]
+  },
+  {
+   "title_ar": "الاستقامة والختام",
+   "title_en": "Steadfastness and closing",
+   "from": 110,
+   "to": 123,
+   "videos": [
+    {
+     "from": 110,
+     "to": 113,
+     "title_ar": "الاستقامة",
+     "title_en": "Steadfastness",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 73
+    },
+    {
+     "from": 114,
+     "to": 119,
+     "title_ar": "إقامة الصلاة",
+     "title_en": "Establishing the prayer",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 95
+    },
+    {
+     "from": 120,
+     "to": 123,
+     "title_ar": "تثبيت الفؤاد",
+     "title_en": "Strengthening the heart",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 67
+    }
+   ]
+  }
+ ]
+}

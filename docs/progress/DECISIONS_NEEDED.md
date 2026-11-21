@@ -167,3 +167,22 @@ import it again. Re-importing would create « (2) » next to the PDF-only creati
 **Also affected: Yunus (surah 10), found 2026-11-21.**
 - Decision 1 (the hamza in «الآن»): 10:51 and 10:91 «ءَآلْـَٔـٰنَ» (QF: U+0640 U+0654 U+064E U+0640 U+0670). Blocked: 10:50-51 and 10:91.
 - Decision 2 (overlaps): 10:34 overlaps 10:33 by 20 ms; 10:107 overlaps 10:106 by 80 ms. Blocked: 10:31-34 and 10:104-107.
+
+## 5. Hud 11:13: the Quran Foundation word text spells «افتراه» differently (found 2026-11-21)
+
+`audit_surah.py 11` reports a text mismatch with Tanzil at **11:13**. Character by character, the only difference is
+word 3:
+- Quran Foundation word-level text: «افْتَرَاهُ» (plain alef U+0627, «را» with a full alef), followed by the waqf mark
+  inside the same token;
+- Tanzil Uthmani: «ٱفْتَرَىٰهُ» (alef wasla U+0671, alef maqsura + dagger alef).
+
+This is a spelling difference in the drawn letters, not an encoding equivalence. The Uthmani mushaf writes «ٱفْتَرَىٰهُ».
+The QF *verse-level* text should be compared before deciding.
+
+**Please choose:**
+- **A.** Render this word from the QF verse-level text or the King Fahd Complex text (QPC Hafs), if that text matches
+  Tanzil.
+- **B.** Keep the rule. Hud 12-13 is not made (12 is joined to 13 in the recitation).
+
+**Also affected by decision 2 in Hud:** 11:16 overlaps 11:15 by 80 ms (15-17 blocked); 11:48 word 11 has no timing
+(41-49 blocked; that passage is also one 214 s unit with no clean audio cut).
