@@ -28,74 +28,382 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة آل عمران",
+   "title": "الخروج إلى أحد",
    "verses": [
-    121
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "dawn"
-   }
-  },
-  {
-   "id": "c2",
-   "title": "سورة آل عمران",
-   "verses": [
-    122
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "geometric"
-   }
-  },
-  {
-   "id": "c3",
-   "title": "سورة آل عمران",
-   "verses": [
+    121,
+    122,
     123
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light"
+    "mood": "dawn",
+    "beats": [
+     {
+      "at": [
+       121,
+       5
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       121,
+       8
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       121,
+       10
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       122,
+       2
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       122,
+       4
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       122,
+       5
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       122,
+       8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       123,
+       1
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       123,
+       5
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       123,
+       7
+      ],
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       122,
+       11
+      ],
+      "until": null,
+      "motif": "mountain",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
-   "id": "c4",
-   "title": "سورة آل عمران",
+   "id": "c2",
+   "title": "المدد والبشارة",
    "verses": [
-    124
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "night_sky"
-   }
-  },
-  {
-   "id": "c5",
-   "title": "سورة آل عمران",
-   "verses": [
-    125
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "mountains"
-   }
-  },
-  {
-   "id": "c6",
-   "title": "سورة آل عمران",
-   "verses": [
+    124,
+    125,
     126
    ],
    "scene": "ambient",
    "params": {
-    "mood": "sea"
+    "mood": "light",
+    "beats": [
+     {
+      "at": [
+       124,
+       5
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       124,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       124,
+       13
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       125,
+       5
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       125,
+       8
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       125,
+       11
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       125,
+       12
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       125,
+       15
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       126,
+       1
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       126,
+       8
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       126,
+       10
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       126,
+       14
+      ],
+      "do": "pan_left"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       125,
+       3
+      ],
+      "until": null,
+      "motif": "mountain",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       126,
+       5
+      ],
+      "until": null,
+      "motif": "burst",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "light_sweep"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 121,
+   "words": [
+    1,
+    4
+   ],
+   "tafsir": 16,
+   "excerpt": "حين خَرَجْتَ من بيتك لابسًا عُدَّة الحرب",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 121,
+   "words": [
+    5,
+    8
+   ],
+   "tafsir": 16,
+   "excerpt": "وتُنْزِل كل واحد في منزله للقاء المشركين في غزوة «أُحُد»",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 122,
+   "words": [
+    2,
+    6
+   ],
+   "tafsir": 16,
+   "excerpt": "حين حدثتهم أنفسهم بالرجوع",
+   "target": "",
+   "tone": "amber"
+  },
+  {
+   "verse": 122,
+   "words": [
+    7,
+    8
+   ],
+   "tafsir": 16,
+   "excerpt": "ولكن الله عصمهم وحفظهم",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 123,
+   "words": [
+    4,
+    6
+   ],
+   "tafsir": 16,
+   "excerpt": "مع قلة عَدَدكم وعُدَدكم",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 123,
+   "words": [
+    7,
+    10
+   ],
+   "tafsir": 16,
+   "excerpt": "فخافوا الله بفعل أوامره واجتناب نواهيه",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 124,
+   "words": [
+    4,
+    13
+   ],
+   "tafsir": 16,
+   "excerpt": "يثبتونكم، ويقاتلون معكم",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 125,
+   "words": [
+    1,
+    1
+   ],
+   "tafsir": 16,
+   "excerpt": "بلى يكفيكم هذا المَدَد",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 125,
+   "words": [
+    2,
+    4
+   ],
+   "tafsir": 16,
+   "excerpt": "على لقاء العدو وتتقوا الله بفِعْل ما أمركم به",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 125,
+   "words": [
+    5,
+    8
+   ],
+   "tafsir": 16,
+   "excerpt": "ويأت كفار «مكة» على الفور مسرعين لقتالكم",
+   "target": "",
+   "tone": "amber"
+  },
+  {
+   "verse": 125,
+   "words": [
+    15,
+    15
+   ],
+   "tafsir": 16,
+   "excerpt": "قد أعلموا أنفسهم وخيولهم بعلامات واضحات",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 126,
+   "words": [
+    7,
+    9
+   ],
+   "tafsir": 16,
+   "excerpt": "وتطيب بوعد الله لكم",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 126,
+   "words": [
+    10,
+    17
+   ],
+   "tafsir": 16,
+   "excerpt": "العزيز الذي لا يغالَب، الحكيم في تدبيره وفعله",
+   "target": "",
+   "tone": "green"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "Ambient only: no army, no angels, no battle drawn; no motif on the Prophet's ﷺ going out (121). A mountain for reliance and patience, a burst for the glad tidings. 125: short-word flag at 11 (listen)."
+ },
+ "cover": {
+  "series_ar": "من بدر إلى أحد",
+  "series_en": "From Badr to Uhud",
+  "title_ar": "بين بدر وأحد",
+  "title_en": "Between Badr and Uhud",
+  "at": [
+   126,
+   5
+  ]
+ },
+ "motion": 3
 }

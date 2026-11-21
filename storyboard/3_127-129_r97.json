@@ -28,31 +28,213 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة آل عمران",
+   "title": "حكمة النصر",
    "verses": [
     127,
     128
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       127,
+       4
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       127,
+       7
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       127,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       128,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       128,
+       6
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       128,
+       10
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       128,
+       12
+      ],
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": []
    }
   },
   {
    "id": "c2",
-   "title": "سورة آل عمران",
+   "title": "سعة المغفرة",
    "verses": [
     129
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "light",
+    "beats": [
+     {
+      "at": [
+       129,
+       7
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       129,
+       10
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       129,
+       11
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       129,
+       15
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       129,
+       16
+      ],
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       129,
+       4
+      ],
+      "until": [
+       129,
+       8
+      ],
+      "motif": "stars",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       129,
+       14
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "iris"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 127,
+   "words": [
+    1,
+    5
+   ],
+   "tafsir": 16,
+   "excerpt": "ليهلك فريقًا من الكفار",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 127,
+   "words": [
+    6,
+    9
+   ],
+   "tafsir": 16,
+   "excerpt": "رجع حزينًا قد ضاقت عليه نفسه",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 128,
+   "words": [
+    1,
+    5
+   ],
+   "tafsir": 16,
+   "excerpt": "بل الأمر كله لله تعالى وحده لا شريك له",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 128,
+   "words": [
+    6,
+    8
+   ],
+   "tafsir": 16,
+   "excerpt": "تنشرح صدورهم للإسلام فيسلموا",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 129,
+   "words": [
+    15,
+    16
+   ],
+   "tafsir": 16,
+   "excerpt": "غفور لذنوب عباده، رحيم بهم",
+   "target": "",
+   "tone": "green"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "Nothing drawn for the defeat of the enemy (127). Stars on «السماوات» leave before Allah's forgiveness; geometric for «والله غفور رحيم»."
+ },
+ "cover": {
+  "series_ar": "من بدر إلى أحد",
+  "series_en": "From Badr to Uhud",
+  "title_ar": "تفويض الأمر",
+  "title_en": "Leaving the matter to Allah",
+  "at": [
+   129,
+   14
+  ]
+ },
+ "motion": 3
 }
