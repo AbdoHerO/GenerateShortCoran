@@ -92,8 +92,8 @@
     {
      "from": 21,
      "to": 21,
-     "title_ar": "مكر بعد رحمة",
-     "title_en": "Scheming after mercy",
+     "title_ar": "نسيان النعمة",
+     "title_en": "Forgetting the blessing",
      "visual": "ambient",
      "care": "",
      "est_s": 34
@@ -110,8 +110,8 @@
     {
      "from": 24,
      "to": 26,
-     "title_ar": "مثل الحياة الدنيا",
-     "title_en": "The likeness of this life",
+     "title_ar": "الدنيا والدار الباقية",
+     "title_en": "This life and the lasting home",
      "visual": "ambient",
      "care": "The end of 25 has no clean cut (-26 dB), so 24-26 is one unit. Paradise never drawn.",
      "est_s": 122
