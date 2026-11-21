@@ -28,43 +28,330 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة يونس",
+   "title": "اليقين بالوحي",
    "verses": [
-    94
+    94,
+    95
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "light",
+    "beats": [
+     {
+      "at": [
+       94,
+       5
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       94,
+       6
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       94,
+       7
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       94,
+       11
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       94,
+       15
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       94,
+       20
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       95,
+       2
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       95,
+       6
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       95,
+       10
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": []
    }
   },
   {
    "id": "c2",
-   "title": "سورة يونس",
+   "title": "حين لا تنفع الآيات",
    "verses": [
-    95,
     96,
     97
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       96,
+       5
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       97,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       97,
+       5
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [],
+    "transition": "dissolve"
    }
   },
   {
    "id": "c3",
-   "title": "سورة يونس",
+   "title": "توبة قبل العذاب",
    "verses": [
     98
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light"
+    "mood": "dawn",
+    "beats": [
+     {
+      "at": [
+       98,
+       5
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       98,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       98,
+       9
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       98,
+       13
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       98,
+       20
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       98,
+       10
+      ],
+      "until": [
+       98,
+       14
+      ],
+      "motif": "light",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       98,
+       19
+      ],
+      "until": null,
+      "motif": "hourglass",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "light_sweep"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 94,
+   "words": [
+    1,
+    7
+   ],
+   "tafsir": 16,
+   "excerpt": "والمقصود من الآية إقامة الحجة على المشركين بشهادة أهل الكتاب",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 94,
+   "words": [
+    8,
+    13
+   ],
+   "tafsir": 91,
+   "excerpt": "أهل الكتب المنصفين، والعلماء الراسخين",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 94,
+   "words": [
+    14,
+    18
+   ],
+   "tafsir": 16,
+   "excerpt": "بأنك رسول الله",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 94,
+   "words": [
+    19,
+    22
+   ],
+   "tafsir": 16,
+   "excerpt": "من الشاكِّين في صحة ذلك وحقيقته",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 95,
+   "words": [
+    1,
+    7
+   ],
+   "tafsir": 91,
+   "excerpt": "وأشد من ذلك، التكذيب به",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 95,
+   "words": [
+    8,
+    10
+   ],
+   "tafsir": 91,
+   "excerpt": "وهو عدم الربح أصلاً",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 96,
+   "words": [
+    1,
+    8
+   ],
+   "tafsir": 91,
+   "excerpt": "بردهم للحق، لما جاءهم أول مرة",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 97,
+   "words": [
+    1,
+    8
+   ],
+   "tafsir": 16,
+   "excerpt": "فحينئذ يؤمنون، ولا ينفعهم إيمانهم",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 98,
+   "words": [
+    1,
+    9
+   ],
+   "tafsir": 91,
+   "excerpt": "حين رأت العذاب",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 98,
+   "words": [
+    10,
+    18
+   ],
+   "tafsir": 16,
+   "excerpt": "أيقنوا أن العذاب نازل بهم تابوا إلى الله تعالى",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 98,
+   "words": [
+    19,
+    21
+   ],
+   "tafsir": 16,
+   "excerpt": "إلى وقت إنهاء آجالهم",
+   "target": "",
+   "tone": "blue"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "94:1-7 carries Al-Muyassar's purpose of the verse («إقامة الحجة على المشركين بشهادة أهل الكتاب»), so the conditional addressed to the Prophet ﷺ is not misread. 94-95 address him: no motif. Yunus (98:9) gets no motif; light for «لما آمنوا» starts after his name. Al-Muyassar's «توبة نصوحا» (66:8) is cut before."
+ },
+ "cover": {
+  "series_ar": "اليقين والنجاة",
+  "series_en": "Certainty and salvation",
+  "title_ar": "توبة قبل العذاب",
+  "title_en": "Repentance before the punishment",
+  "at": [
+   98,
+   1
+  ]
+ },
+ "motion": 3
 }
