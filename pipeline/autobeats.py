@@ -16,6 +16,18 @@ WAQF = re.compile(r"[ۖ-ۜ]")
 CAM = ["shot_wide", "push_in", "pan_left", "pan_right", "shot_sky", "push_in", "pan_right", "pan_left", "shot_ground"]
 AMB = {}
 STAGE = ["shot_wide", "push_in", "pan_left", "pan_right", "shot_wide", "push_in"]
+# Never put a camera move on the Name, «رب», «إله», an angel or a prophet: a push_in or shot_sky there zooms into the
+# scene's light exactly as the Name is recited, which reads as depicting Him (Aal Imran review, 2026-11-21).
+sys.path.insert(0, str(ROOT / "pipeline"))
+import verify  # noqa: E402
+PROPHETS = ("محمد|احمد|موسي|عيسي|مريم|ابراهيم|ابرهيم|اسماعيل|اسحاق|يعقوب|يوسف|نوح|لوط|هارون|داود|داوود|سليمان|زكريا|"
+            "يحيي|ادم|ايوب|يونس|ادريس|شعيب|صالح|هود|الياس|اليسع|عزير|جبريل|ميكال")
+SACRED = re.compile(r"الله|لله|الاه|الرحمان|ملايك|^(و|ف|ب|ل|يا)*رب(ي|ك|كم|كما|نا|ه|هم|هما|هن|كن)?$|"
+                    rf"^(و|ف|ب|ل|يا)*(ال)?(نبي|رسول)(ه|ك|نا|هم|كم)?$|^(و|ف|ب|ل|يا)*({PROPHETS})ا?$")
+
+
+def sacred(text):
+    return any(SACRED.search(w) for w in verify.skel(text))
 
 
 def main(pid, gap=4.5):
@@ -38,11 +50,12 @@ def main(pid, gap=4.5):
                 first.setdefault(s[0], s[1] / 1000)
             for w in ws:
                 if w["position"] in first:
-                    words.append((first[w["position"]], n, w["position"], w["position"] == len(ws) or bool(WAQF.search(w["text_uthmani"]))))
+                    words.append((first[w["position"]], n, w["position"], w["position"] == len(ws) or bool(WAQF.search(w["text_uthmani"])),
+                                  sacred(w["text_uthmani"])))
         words.sort()
         if not words:
             continue
-        start = {(n, k): t for t, n, k, _ in words}
+        start = {(n, k): t for t, n, k, _, _ in words}
         end = max(s[2] for n in c["verses"] for s in T[f"{ch}:{n}"]["segments"]) / 1000
         rot = CAM if c["scene"] == "ambient" else STAGE
         allowed = set(CAT["beats"]["camera"]) | set(CAT["beats"]["scene"]) | (set(CAT["beats"]["ambient"]) if c["scene"] == "ambient" else set())
@@ -57,7 +70,7 @@ def main(pid, gap=4.5):
                 if b - a <= gap:
                     continue
                 # words that can take a beat: >= 0.9 s from both neighbours
-                ok = [w for w in words if a + 0.9 <= w[0] <= b - 0.9]
+                ok = [w for w in words if a + 0.9 <= w[0] <= b - 0.9 and not w[4]]
                 if not ok:
                     continue
                 mid = (a + b) / 2
