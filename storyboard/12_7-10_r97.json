@@ -28,7 +28,7 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "عبر للسائلين",
+   "title": "عبر القصة",
    "verses": [
     7
    ],
@@ -208,17 +208,6 @@
    "verse": 8,
    "words": [
     1,
-    2
-   ],
-   "tafsir": 91,
-   "excerpt": "فيما بينهم",
-   "target": "",
-   "tone": "blue"
-  },
-  {
-   "verse": 8,
-   "words": [
-    3,
     4
    ],
    "tafsir": 91,

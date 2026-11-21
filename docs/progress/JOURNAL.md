@@ -1124,3 +1124,21 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
 - Transitions now vary: page_turn, slide and morph on eight chapters.
 - Lesson: in a story about a dream of stars and a moon, the night_sky mood itself is a picture of the dream. Keep it
   away from the dream, its covers and the brothers.
+
+### Yusuf gloss review applied; Yusuf queued (2026-11-21)
+
+- 1 SERIOUS, 25 MINOR, all applied. All 28 storyboards were re-verified PASSED and have no plate over the Name.
+- SERIOUS: at 33:15-17 the box «فإن هذا جهل، لأنه آثر لذة قليلة منغصة», read without its condition, sounded like
+  something Yusuf did. The 33:9-17 chip now keeps the condition «إن لم تدفع عني السوء».
+- MINOR:
+  - 25:11-23 keeps «ما… إلا» whole.
+  - 79 keeps its condition.
+  - 80:24-34 keeps «حتى…».
+  - Quran echoes removed: 3:154, 2:67, 12:51 (the Uthmani «امرأت» hid it from the check), 12:55, 6:50.
+  - Too-short boxes merged: 8, 108.
+  - 15 titles, covers and the series renamed: «بيت العزيز», «عفة يوسف», «مجلس الضيافة» (not «مكر النساء»),
+    «حسن التدبير», «الأمانة والكفاءة», «ثمرة التقوى» (not «جزاء الإحسان», 55:60), «اللقاء الأول», «بشائر الفرج»,
+    «طريق التوحيد», and others.
+- Plan note corrected: both tafsirs give 12:53 to the wife of al-Aziz.
+- The 28 Yusuf videos are queued for building.
+- The unused Ibrahim bases 14_42-42 and 14_43-52 are removed (merged into 42-52).

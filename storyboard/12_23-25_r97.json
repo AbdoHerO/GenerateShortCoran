@@ -28,7 +28,7 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "الاعتصام بالله",
+   "title": "عفة يوسف",
    "verses": [
     23
    ],
@@ -244,7 +244,7 @@
     15
    ],
    "tafsir": 91,
-   "excerpt": "أعوذ بالله أن أفعل هذا الفعل القبيح",
+   "excerpt": "لأنه مما يسخط الله ويبعد منه",
    "target": "",
    "tone": "green"
   },
@@ -307,7 +307,7 @@
    "verse": 25,
    "words": [
     11,
-    17
+    23
    ],
    "tafsir": 91,
    "excerpt": "فبادرت إلى الكذب، أن المراودة قد كانت من يوسف",
@@ -322,8 +322,8 @@
  "cover": {
   "series_ar": "الابتلاء بالفتنة",
   "series_en": "The trial of temptation",
-  "title_ar": "الاعتصام بالله",
-  "title_en": "Seeking refuge in Allah",
+  "title_ar": "عفة يوسف",
+  "title_en": "Yusuf's chastity",
   "at": [
    23,
    14

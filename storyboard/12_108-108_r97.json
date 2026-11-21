@@ -28,7 +28,7 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سبيل الدعوة",
+   "title": "طريق التوحيد",
    "verses": [
     108
    ],
@@ -110,23 +110,12 @@
    "verse": 108,
    "words": [
     12,
-    13
+    17
    ],
    "tafsir": 91,
    "excerpt": "عما نسب إليه مما لا يليق بجلاله، أو ينافي كماله",
    "target": "",
    "tone": "green"
-  },
-  {
-   "verse": 108,
-   "words": [
-    14,
-    17
-   ],
-   "tafsir": 91,
-   "excerpt": "في جميع أموري",
-   "target": "",
-   "tone": "blue"
   }
  ],
  "director": {
@@ -136,8 +125,8 @@
  "cover": {
   "series_ar": "خاتمة السورة",
   "series_en": "The surah's close",
-  "title_ar": "سبيل الدعوة",
-  "title_en": "The way of the call",
+  "title_ar": "طريق التوحيد",
+  "title_en": "The path of tawhid",
   "at": [
    108,
    12

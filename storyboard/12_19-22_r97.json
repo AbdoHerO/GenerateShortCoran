@@ -349,17 +349,6 @@
    "tone": "blue"
   },
   {
-   "verse": 21,
-   "words": [
-    28,
-    32
-   ],
-   "tafsir": 16,
-   "excerpt": "أن الأمر كله بيد الله",
-   "target": "",
-   "tone": "blue"
-  },
-  {
    "verse": 22,
    "words": [
     1,
@@ -387,8 +376,8 @@
   "notes": "No well, bucket, caravan, sale, coins or boy drawn (19-20 have no plate). 19:11-16 is not glossed (who hid him is disputed). A house for «أكرمي مثواه», a book for «تأويل الأحاديث» (after Yusuf's name), geometric for «والله غالب على أمره», light for «آتيناه حكما وعلما». 21:15-19 and 22:4-6 are not glossed (first person)."
  },
  "cover": {
-  "series_ar": "يوسف في مصر",
-  "series_en": "Yusuf in Egypt",
+  "series_ar": "بيت العزيز",
+  "series_en": "The house of al-Aziz",
   "title_ar": "من البئر إلى مصر",
   "title_en": "From the well to Egypt",
   "at": [

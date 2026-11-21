@@ -75,8 +75,8 @@
    ]
   },
   {
-   "title_ar": "يوسف في مصر",
-   "title_en": "Yusuf in Egypt",
+   "title_ar": "بيت العزيز",
+   "title_en": "The house of al-Aziz",
    "from": 19,
    "to": 22,
    "videos": [
@@ -100,8 +100,8 @@
     {
      "from": 23,
      "to": 25,
-     "title_ar": "الاعتصام بالله",
-     "title_en": "Seeking refuge in Allah",
+     "title_ar": "عفة يوسف",
+     "title_en": "Yusuf's chastity",
      "visual": "ambient",
      "care": "The woman and the scene are never drawn or described beyond the tafsir; nothing suggestive.",
      "est_s": 94
@@ -181,8 +181,8 @@
     {
      "from": 43,
      "to": 47,
-     "title_ar": "تعبير الحلم",
-     "title_en": "Interpreting the dream",
+     "title_ar": "حسن التدبير",
+     "title_en": "Good planning",
      "visual": "ambient",
      "care": "No cows, ears of grain eaten, or famine drawn literally.",
      "est_s": 105
@@ -217,10 +217,10 @@
     {
      "from": 53,
      "to": 57,
-     "title_ar": "خزائن مصر",
-     "title_en": "The stores of Egypt",
+     "title_ar": "الأمانة والكفاءة",
+     "title_en": "Trust and competence",
      "visual": "ambient",
-     "care": "53: the tafsirs differ on who speaks (the wife or Yusuf): no gloss may take a side.",
+     "care": "53 opens the video: both tafsirs give it to the wife of al-Aziz (As-Sa'di: «وهذا هو الصواب»); she is never drawn.",
      "est_s": 90
     }
    ]
@@ -234,8 +234,8 @@
     {
      "from": 58,
      "to": 62,
-     "title_ar": "قدوم الإخوة",
-     "title_en": "The brothers arrive",
+     "title_ar": "اللقاء الأول",
+     "title_en": "The first meeting",
      "visual": "ambient",
      "care": "",
      "est_s": 70
@@ -341,8 +341,8 @@
     {
      "from": 94,
      "to": 99,
-     "title_ar": "عودة البصر",
-     "title_en": "Sight restored",
+     "title_ar": "بشائر الفرج",
+     "title_en": "Signs of relief",
      "visual": "ambient",
      "care": "No shirt on a face or eyes drawn.",
      "est_s": 99
@@ -376,8 +376,8 @@
     {
      "from": 108,
      "to": 108,
-     "title_ar": "سبيل الدعوة",
-     "title_en": "The way of the call",
+     "title_ar": "طريق التوحيد",
+     "title_en": "The path of tawhid",
      "visual": "ambient",
      "care": "«قل»: no plate on the Prophet ﷺ.",
      "est_s": 29
