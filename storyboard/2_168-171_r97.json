@@ -33,51 +33,97 @@
     168,
     169
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "garden",
+    "setting": "garden",
+    "time": "day",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 5,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       168,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        168,
        3
       ],
-      "do": "shot_wide"
+      "do": "sit",
+      "who": "p"
+     },
+     {
+      "at": [
+       168,
+       6
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       168,
+       8
+      ],
+      "do": "birds"
      },
      {
       "at": [
        168,
        10
       ],
-      "do": "pan_right"
+      "do": "shake_head",
+      "who": "p"
      },
      {
       "at": [
        168,
        13
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        168,
-       16
+       15
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        169,
        1
       ],
-      "do": "pan_left"
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       169,
+       2
+      ],
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
        169,
        4
       ],
-      "do": "pan_right"
+      "do": "shake_head",
+      "who": "p"
      },
      {
       "at": [
@@ -89,9 +135,16 @@
      {
       "at": [
        169,
-       7
+       6
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       169,
+       9
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -100,10 +153,13 @@
        168,
        7
       ],
-      "until": null,
+      "until": [
+       169,
+       8
+      ],
       "motif": "wheat",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -115,14 +171,55 @@
     170,
     171
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 5,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        170,
-       5
+       2
+      ],
+      "do": "speak",
+      "who": "b"
+     },
+     {
+      "at": [
+       170,
+       4
+      ],
+      "do": "point",
+      "who": "b",
+      "to": "d"
+     },
+     {
+      "at": [
+       170,
+       6
       ],
       "do": "shot_wide"
      },
@@ -131,49 +228,70 @@
        170,
        8
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "d"
      },
      {
       "at": [
        170,
-       11
+       10
       ],
-      "do": "pan_left"
+      "do": "shake_head",
+      "who": "d"
+     },
+     {
+      "at": [
+       170,
+       14
+      ],
+      "do": "turn",
+      "who": "d"
      },
      {
       "at": [
        170,
        17
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        170,
        19
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        171,
        1
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       171,
-       5
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       171,
-       11
-      ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       171,
+       6
+      ],
+      "do": "speak",
+      "who": "b"
+     },
+     {
+      "at": [
+       171,
+       9
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       171,
+       12
+      ],
+      "do": "speak",
+      "who": "b"
      },
      {
       "at": [
@@ -185,7 +303,14 @@
      {
       "at": [
        171,
-       15
+       14
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       171,
+       16
       ],
       "do": "shot_wide"
      }
@@ -199,7 +324,7 @@
       "until": null,
       "motif": "footsteps",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "wipe"
@@ -287,7 +412,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on Satan's footsteps (168, negated). Footsteps (170) are the forefathers' tracks they follow."
+  "notes": "No motif on Satan's footsteps (168, negated). Footsteps (170) are the forefathers' tracks they follow. STAGING v4: 168-169: people sit to eat of the lawful good things of a garden (wheat plate, ended before the Name) and shake their heads at evil; Satan and his footsteps are never drawn. 170: the believers advise (Al-Muyassar: قال المؤمنون ناصحين) and the misguided refuse, turning to their forefathers' tracks (footsteps plate). 171: the caller keeps calling (As-Sa'di: دعاء الداعي) while they do not hear; the shepherd and the animals of the parable are not drawn."
  },
  "cover": {
   "series_ar": "الكتمان والطيبات",
@@ -299,5 +424,6 @@
    7
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

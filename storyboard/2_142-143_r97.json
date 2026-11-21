@@ -178,7 +178,10 @@
       "place": "right",
       "count": 1,
       "pose": "stand",
-      "enter": null,
+      "enter": [
+       143,
+       21
+      ],
       "exit": [
        143,
        28
@@ -396,7 +399,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The Kaaba appears only as the abstract geometric motif. The gloss «ليظهر ما علمناه» (143) is left out: a first-person paraphrase. Short-word flag 143:25 to check by ear. STAGING v4: Qibla: no Kaaba, no Bayt al-Maqdis, no qibla building is ever drawn. 142: the foolish (Al-Muyassar: من اليهود وأمثالهم) mock the believers in a town street (speak, point); the believers turn; light on the believers on «يهدي». 143: the middle nation praying in a prayer hall; they turn in prayer (the change of qibla, the most the rules allow); one man turns back and leaves on «ينقلب على عقبيه» (Al-Muyassar gloss); the Messenger is never shown."
+  "notes": "The Kaaba appears only as the abstract geometric motif. The gloss «ليظهر ما علمناه» (143) is left out: a first-person paraphrase. Short-word flag 143:25 to check by ear. STAGING v4: Qibla: no Kaaba, no Bayt al-Maqdis, no qibla building is ever drawn. 142: the foolish (Al-Muyassar: من اليهود وأمثالهم) mock the believers in a town street (speak, point); the believers turn; light on the believers on «يهدي». 143: the middle nation praying in a prayer hall; they turn in prayer (the change of qibla, the most the rules allow); one man turns back and leaves on «ينقلب على عقبيه» (Al-Muyassar gloss); the Messenger is never shown. STAGING v4: Qibla: no Kaaba, no Bayt al-Maqdis, no qibla building is ever drawn. 142: the foolish (Al-Muyassar: من اليهود وأمثالهم) mock the believers in a town street (speak, point); the believers turn; light on the believers on «يهدي». 143: the middle nation praying in a prayer hall; they turn in prayer (the change of qibla, the most the rules allow); one man turns back and leaves on «ينقلب على عقبيه» (Al-Muyassar gloss); the Messenger is never shown."
  },
  "cover": {
   "series_ar": "القبلة",

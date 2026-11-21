@@ -32,23 +32,56 @@
    "verses": [
     165
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       165,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        165,
        4
       ],
-      "do": "pan_right"
+      "do": "turn",
+      "who": "d"
      },
      {
       "at": [
        165,
        8
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
@@ -62,21 +95,31 @@
        165,
        13
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        165,
        15
       ],
-      "do": "pan_left"
+      "do": "raise_hands",
+      "who": "b"
      },
      {
       "at": [
        165,
-       18
+       17
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       165,
+       20
+      ],
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
@@ -90,7 +133,7 @@
        165,
        27
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -104,10 +147,34 @@
        165,
        31
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      }
     ],
-    "motifs": []
+    "motifs": [
+     {
+      "at": [
+       165,
+       12
+      ],
+      "until": [
+       165,
+       16
+      ],
+      "motif": "two_paths",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       165,
+       25
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "s"
+     }
+    ]
    }
   },
   {
@@ -133,21 +200,21 @@
        166,
        12
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        167,
        1
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        167,
        5
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -168,7 +235,7 @@
        167,
        14
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -184,7 +251,10 @@
        166,
        10
       ],
-      "until": null,
+      "until": [
+       167,
+       15
+      ],
       "motif": "wind",
       "place": "top",
       "size": "m"
@@ -285,7 +355,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on the rivals (idols) or on Allah's love and power (165). The Hereafter scene (166-167) only as wind (ties cut) and a falling leaf (regret)."
+  "notes": "No motif on the rivals (idols) or on Allah's love and power (165). The Hereafter scene (166-167) only as wind (ties cut) and a falling leaf (regret). STAGING v4: 165: those who take rivals turn away (the rivals and idols are never drawn, no plate on them); the believers raise their hands in du'a (stronger in love for Allah); «القوة لله» only as the geometric plate; the punishment they will see is not pictured. 166-167 (the Hereafter) stay ambient: wind (ties cut) and a falling leaf (regret)."
  },
  "cover": {
   "series_ar": "الكتمان والطيبات",
@@ -297,5 +367,6 @@
    10
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

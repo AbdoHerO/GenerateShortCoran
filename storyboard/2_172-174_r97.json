@@ -33,72 +33,112 @@
     172,
     173
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "home",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        172,
-       3
+       1
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       172,
+       4
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       172,
+       9
+      ],
+      "do": "raise_hands",
+      "who": "b"
      },
      {
       "at": [
        172,
        11
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        172,
        14
       ],
-      "do": "pan_right"
+      "do": "bow",
+      "who": "b"
      },
      {
       "at": [
        173,
        1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        173,
-       6
+       4
       ],
-      "do": "pan_left"
+      "do": "shake_head",
+      "who": "b"
      },
      {
       "at": [
        173,
-       9
+       8
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        173,
-       13
+       11
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       173,
+       14
+      ],
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        173,
        18
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        173,
-       21
+       20
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -114,20 +154,23 @@
        172,
        6
       ],
-      "until": null,
+      "until": [
+       172,
+       10
+      ],
       "motif": "wheat",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
-       172,
-       9
+       173,
+       2
       ],
       "until": null,
-      "motif": "hands",
+      "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -138,16 +181,53 @@
    "verses": [
     174
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "market",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        174,
-       4
+       1
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       174,
+       3
+      ],
+      "do": "turn",
+      "who": "p"
+     },
+     {
+      "at": [
+       174,
+       5
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       174,
+       9
+      ],
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
@@ -159,37 +239,31 @@
      {
       "at": [
        174,
-       14
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       174,
-       18
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       174,
-       20
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       174,
-       24
+       15
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        174,
-       27
+       19
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       174,
+       21
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       174,
+       26
+      ],
+      "do": "shot_close",
+      "who": "p"
      }
     ],
     "motifs": [
@@ -201,17 +275,20 @@
       "until": null,
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        174,
        11
       ],
-      "until": null,
+      "until": [
+       174,
+       22
+      ],
       "motif": "coins",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "slide"
@@ -288,7 +365,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No forbidden food is pictured. The fire in their bellies (174) gets no picture."
+  "notes": "No forbidden food is pictured. The fire in their bellies (174) gets no picture. STAGING v4: 172-173: believers at home eat of the good things and thank (raise_hands); no forbidden food is pictured, they shake their heads at the list; the ruling as a geometric plate (safe over the Names). 174: those who hide the Book for a small worldly price: a group in a market turning their backs, book then coins plates; the fire in their bellies and the Day are not pictured."
  },
  "cover": {
   "series_ar": "الكتمان والطيبات",
@@ -300,5 +377,6 @@
    9
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -33,65 +33,112 @@
     159,
     160
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        159,
-       4
+       1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       159,
+       3
+      ],
+      "do": "turn",
+      "who": "p"
      },
      {
       "at": [
        159,
        7
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
        159,
-       9
+       10
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        159,
        11
       ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       159,
+       12
+      ],
       "do": "pan_right"
      },
      {
       "at": [
        159,
-       17
+       16
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        159,
-       20
+       19
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       160,
+       3
+      ],
+      "do": "turn",
+      "who": "p"
+     },
+     {
+      "at": [
+       160,
+       5
+      ],
+      "do": "speak",
+      "who": "p"
      },
      {
       "at": [
        160,
        6
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        160,
        7
       ],
-      "do": "pan_left"
+      "do": "sparkle",
+      "who": "p"
      },
      {
       "at": [
@@ -107,20 +154,26 @@
        159,
        15
       ],
-      "until": null,
+      "until": [
+       159,
+       18
+      ],
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        160,
        3
       ],
-      "until": null,
+      "until": [
+       160,
+       7
+      ],
       "motif": "hands",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -147,14 +200,14 @@
        161,
        9
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        161,
        11
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -170,7 +223,10 @@
        161,
        4
       ],
-      "until": null,
+      "until": [
+       161,
+       10
+      ],
       "motif": "hourglass",
       "place": "top",
       "size": "m"
@@ -261,7 +317,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on the curse, the angels or the Name."
+  "notes": "No motif on the curse, the angels or the Name. STAGING v4: 159: the scholars who conceal (Al-Muyassar: أحبار اليهود وعلماء النصارى وغيرهم) turn their backs on what was made clear in the Book (book plate, ended before the Name); the curse is not pictured. 160: those who repent turn back and make clear what they hid (turn, speak); the hands plate ends before Allah's first-person words. 161 (dying in disbelief, the curse of Allah, the angels and all people) stays ambient."
  },
  "cover": {
   "series_ar": "الكتمان والطيبات",
@@ -273,5 +329,6 @@
    3
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

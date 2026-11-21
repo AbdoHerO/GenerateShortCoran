@@ -100,78 +100,183 @@
    "verses": [
     164
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "sea",
+    "setting": "sea_shore",
+    "time": "day",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "s",
+      "type": "ship",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       164,
+       9
+      ],
+      "exit": null
+     },
+     {
+      "id": "c",
+      "type": "camel",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       164,
+       33
+      ],
+      "exit": null
+     }
+    ],
+    "events": [
+     {
+      "type": "rain",
+      "at": [
+       164,
+       23
+      ],
+      "until": [
+       164,
+       29
+      ]
+     },
+     {
+      "type": "growth",
+      "at": [
+       164,
+       24
+      ],
+      "until": null
+     }
+    ],
     "beats": [
      {
       "at": [
        164,
-       14
+       1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       164,
+       4
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       164,
+       7
+      ],
+      "do": "look_up",
+      "who": "p"
+     },
+     {
+      "at": [
+       164,
+       11
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       164,
+       15
+      ],
+      "do": "point",
+      "who": "p",
+      "to": "s"
      },
      {
       "at": [
        164,
        17
       ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       164,
-       20
-      ],
       "do": "pan_left"
      },
      {
       "at": [
        164,
-       30
+       21
       ],
-      "do": "pan_right"
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       164,
+       26
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       164,
+       33
+      ],
+      "do": "shot_close",
+      "who": "c"
+     },
+     {
+      "at": [
+       164,
+       35
+      ],
+      "do": "wind"
      },
      {
       "at": [
        164,
        36
       ],
-      "do": "shot_wide"
+      "do": "shot_sky"
      },
      {
       "at": [
        164,
-       39
+       38
       ],
-      "do": "pan_left"
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       164,
+       41
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        164,
        42
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
        164,
        43
       ],
-      "do": "pan_right"
+      "do": "look_up",
+      "who": "p"
      }
     ],
     "motifs": [
-     {
-      "at": [
-       164,
-       4
-      ],
-      "until": null,
-      "motif": "stars",
-      "place": "top",
-      "size": "m"
-     },
      {
       "at": [
        164,
@@ -180,17 +285,20 @@
       "until": null,
       "motif": "night_day",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        164,
        9
       ],
-      "until": null,
+      "until": [
+       164,
+       19
+      ],
       "motif": "ship",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -200,7 +308,7 @@
       "until": null,
       "motif": "cloud_rain",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -210,7 +318,7 @@
       "until": null,
       "motif": "growth",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -220,7 +328,7 @@
       "until": null,
       "motif": "wind",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "light_sweep"
@@ -330,7 +438,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Tawhid (163) only as the abstract geometric motif, never with an arrow. The signs of 164 follow the verse: sky, night and day, ships, rain, revived land, winds."
+  "notes": "Tawhid (163) only as the abstract geometric motif, never with an arrow. The signs of 164 follow the verse: sky, night and day, ships, rain, revived land, winds. STAGING v4: 162-163 (the curse and the Fire; Allah's oneness and names) stay ambient. 164: the signs on a sea shore, in the verse's order: sky, night and day (plate), the ship that sails, rain from the sky, the land revived (growth), a creature spread on it (a camel), the winds and clouds; people who reason look up. The ship plate ends before the Name."
  },
  "cover": {
   "series_ar": "الكتمان والطيبات",
@@ -342,5 +450,6 @@
    9
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }
