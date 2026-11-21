@@ -333,3 +333,18 @@ or by eye. The per-surah summary goes into each `plans/<n>.json` "notes"; this f
   cover and the review sheet PDF for each). All are DRAFTS needing human review: imported with `--confirm`,
   never `--approve`.
 - Recorded in `publish/ledger.json`.
+
+### Camera beats: wide shots and sideways pans only (policy change)
+- The Aal Imran reviews flagged camera moves that drift toward a scene's light source (the sun, the glow, the
+  geometric centre) while the Name, «رب», an attribute of Allah, an angel or a prophet is recited:
+  - push_in;
+  - shot_sky;
+  - shot_ground toward a low sun.
+
+  Such a move reads as depicting Him.
+- `pipeline/autobeats.py` now places only `shot_wide`, `pan_left` and `pan_right`. A beat lands on a sacred word only
+  when nothing else is in the gap, and then only as a sideways pan.
+- Every unbuilt storyboard was swept: automatic zooms and tilts were removed and the gaps refilled. So were 18 built
+  but unpublished Al-Baqarah videos, which are being rebuilt. Hand beats with a subject («who») are kept.
+- **For the owner:** the 33 Al-Kahf drafts and Al-Fatihah were built before this change. Some of them push in toward
+  the light on the Name. Listen and look for it in the review.

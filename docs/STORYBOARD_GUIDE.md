@@ -158,3 +158,12 @@ Mushaf rendering, with only the gold highlight.
   («إن فعلتم ذلك»). Never show a disbeliever's claim on its own as if it were a statement. Never let a first-person
   paraphrase of Allah's words read like a quotation.
 - Follow the cautions printed by `brief.py` for each video.
+
+
+### Camera beats and edges (added 2026-11-21)
+- Automatic camera beats (`pipeline/autobeats.py`) are `shot_wide`, `pan_left` and `pan_right` only. No push_in,
+  shot_sky or shot_ground drifts toward a scene's light while the Name, «رب», an attribute, an angel or a prophet is
+  recited. Zooms are written by hand, on chosen words, and never there.
+- Video edges: `audit_surah.py` marks "nocut" boundaries, which have a pause but no clean audio cut.
+  `plan_split.py` treats them like JOINED. When an edge turns out to be "nocut", re-split along chapter lines; never
+  cut a chapter.
