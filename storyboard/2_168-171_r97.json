@@ -28,7 +28,7 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "الحلال الطيب",
+   "title": "الرزق الحلال",
    "verses": [
     168,
     169
@@ -277,7 +277,7 @@
    "verse": 171,
    "words": [
     13,
-    15
+    13
    ],
    "tafsir": 16,
    "excerpt": "سدُّوا أسماعهم عن الحق",
@@ -292,8 +292,8 @@
  "cover": {
   "series_ar": "الكتمان والطيبات",
   "series_en": "Concealment and the good things",
-  "title_ar": "الحلال الطيب",
-  "title_en": "The lawful and good",
+  "title_ar": "الرزق الحلال",
+  "title_en": "Lawful provision",
   "at": [
    168,
    7

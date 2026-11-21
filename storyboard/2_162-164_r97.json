@@ -28,7 +28,7 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "التوحيد",
+   "title": "وحدانية الله",
    "verses": [
     162,
     163
@@ -175,7 +175,7 @@
      {
       "at": [
        164,
-       7
+       6
       ],
       "until": null,
       "motif": "night_day",
@@ -215,7 +215,7 @@
      {
       "at": [
        164,
-       35
+       34
       ],
       "until": null,
       "motif": "wind",
@@ -242,11 +242,11 @@
   {
    "verse": 162,
    "words": [
-    9,
+    7,
     9
    ],
-   "tafsir": 16,
-   "excerpt": "يمهلون بمعذرة يعتذرون بها",
+   "tafsir": 91,
+   "excerpt": "وقت الإمهال وهو الدنيا قد مضى, ولم يبق لهم عذر فيعتذرون",
    "target": "",
    "tone": "red"
   },
@@ -267,8 +267,8 @@
     4,
     7
    ],
-   "tafsir": 16,
-   "excerpt": "لا معبود بحق",
+   "tafsir": 91,
+   "excerpt": "المستحق لأن يُؤله ويعبد بجميع أنواع العبادة",
    "target": "",
    "tone": "green"
   },
@@ -297,6 +297,17 @@
   {
    "verse": 164,
    "words": [
+    23,
+    23
+   ],
+   "tafsir": 16,
+   "excerpt": "ماء المطر",
+   "target": "motif",
+   "tone": "blue"
+  },
+  {
+   "verse": 164,
+   "words": [
     24,
     28
    ],
@@ -304,6 +315,17 @@
    "excerpt": "فصارت مخضرَّة ذات بهجة",
    "target": "motif",
    "tone": "green"
+  },
+  {
+   "verse": 164,
+   "words": [
+    34,
+    35
+   ],
+   "tafsir": 16,
+   "excerpt": "تقليب الرياح وتوجيهها",
+   "target": "motif",
+   "tone": "amber"
   }
  ],
  "director": {

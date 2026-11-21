@@ -215,7 +215,7 @@
      {
       "at": [
        117,
-       1
+       2
       ],
       "until": null,
       "motif": "stars",
@@ -228,7 +228,7 @@
        10
       ],
       "until": null,
-      "motif": "burst",
+      "motif": "light",
       "place": "top",
       "size": "m"
      }
@@ -338,7 +338,7 @@
   "title_en": "The mosques, and Allah's transcendence",
   "at": [
    117,
-   1
+   2
   ]
  },
  "motion": 3

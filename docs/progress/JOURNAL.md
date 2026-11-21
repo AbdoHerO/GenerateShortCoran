@@ -200,3 +200,43 @@ or by eye. The per-surah summary goes into each `plans/<n>.json` "notes"; this f
   - The gloss chip shows exactly the Quran words in its range, so a range must never leave out a negation («ولا»,
     «وما») or the «حتى» that marks a demand.
   - Nothing that reads as a prophet's own act or body (Adam's slip, Musa's isti'adha) gets a motif.
+
+### Al-Baqarah 2:111–176 review (independent sub-agent): 9 SERIOUS and 21 MINOR, all applied
+- **Serious:** the meaning was reversed because a chip left out its negation or the claim's speaker:
+  - 113:5–6 «ليست»;
+  - 119:7 «ولا»;
+  - 145:9–10 «ما»;
+  - 154:13 «لا»;
+  - 162:9 «ولا هم».
+
+  Each range now includes it, and 162 uses As-Sa'di's «وقت الإمهال … قد مضى».
+
+  Other serious items:
+  - 117:1: stars on «بديع», a Name of Allah. Moved to «السماوات».
+  - 120:24–31: the gloss dropped the condition «ولئن اتبعت أهواءهم». Now As-Sa'di's «النهي العظيم عن اتباع أهواء اليهود
+    والنصارى».
+  - 158:12–13: the gloss was cut before Al-Muyassar's «بل يجب عليه ذلك», so sa'y read as optional. The excerpt now
+    includes it.
+  - 163:4–7: «لا معبود بحق» was cut before «إلا هو». Now As-Sa'di's «المستحق لأن يؤله ويعبد».
+- **Minor:**
+  - Motifs:
+    - light instead of burst on «كن»;
+    - lamp instead of light on «الحق» before «من ربهم/ربك»;
+    - no geometric on the former qibla;
+    - the hands moved to their gloss.
+  - Arrows:
+    - none on «إنا لله» or on the gloss about Allah's dominion;
+    - two drifts fixed with new glosses («ماء المطر», «تقليب الرياح»).
+  - Glosses:
+    - «صلوات» explained as «ثناء»;
+    - «كمعرفتهم أبناءهم» no longer just restated;
+    - ranges set to the words actually explained.
+  - Titles:
+    - «أماني باطلة» (was «أوهام الاختصاص», "specialisation");
+    - «معرفة وكتمان» («معرفة الحق» can read as knowing God);
+    - «أنواع الابتلاء» («سنة» can read as "year");
+    - «وحدانية الله»;
+    - «الرزق الحلال» (was the verse's «حلالا طيبا»).
+- **Lessons:**
+  - Check every chip for a negation that sits before its first word: «ليست», «ولا», «ما», «لا», «ولا هم».
+  - A gloss must never end just before «إلا هو» or the tafsir's own «بل يجب».

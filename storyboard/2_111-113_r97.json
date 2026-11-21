@@ -28,7 +28,7 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "دعوى الاختصاص",
+   "title": "زعم احتكار الجنة",
    "verses": [
     111,
     112
@@ -242,7 +242,7 @@
   {
    "verse": 113,
    "words": [
-    5,
+    1,
     6
    ],
    "tafsir": 16,
@@ -280,8 +280,8 @@
  "cover": {
   "series_ar": "دعاوى أهل الكتاب",
   "series_en": "Claims of the People of the Book",
-  "title_ar": "أوهام الاختصاص",
-  "title_en": "Claims of exclusive salvation",
+  "title_ar": "أماني باطلة",
+  "title_en": "Vain wishes",
   "at": [
    112,
    3

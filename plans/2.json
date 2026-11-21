@@ -455,8 +455,8 @@
     {
      "from": 111,
      "to": 113,
-     "title_ar": "أوهام الاختصاص",
-     "title_en": "Claims of exclusive salvation",
+     "title_ar": "أماني باطلة",
+     "title_en": "Vain wishes",
      "visual": "ambient",
      "care": "As-Sa'di has no entry for 111.",
      "est_s": 77
@@ -576,8 +576,8 @@
     {
      "from": 146,
      "to": 148,
-     "title_ar": "معرفة الحق",
-     "title_en": "They know the truth",
+     "title_ar": "معرفة وكتمان",
+     "title_en": "Knowing, yet concealing",
      "visual": "ambient",
      "care": "",
      "est_s": 50
@@ -656,8 +656,8 @@
     {
      "from": 168,
      "to": 171,
-     "title_ar": "الحلال الطيب",
-     "title_en": "The lawful and good",
+     "title_ar": "الرزق الحلال",
+     "title_en": "Lawful provision",
      "visual": "ambient",
      "care": "",
      "est_s": 85

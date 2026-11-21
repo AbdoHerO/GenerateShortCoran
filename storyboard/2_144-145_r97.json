@@ -103,7 +103,7 @@
        27
       ],
       "until": null,
-      "motif": "light",
+      "motif": "lamp",
       "place": "top",
       "size": "m"
      }
@@ -237,7 +237,7 @@
   {
    "verse": 145,
    "words": [
-    9,
+    8,
     10
    ],
    "tafsir": 16,
@@ -263,7 +263,7 @@
     32
    ],
    "tafsir": 16,
-   "excerpt": "وهذا خطاب لجميع الأمة",
+   "excerpt": "تهديد ووعيد لمن يتبع أهواء المخالفين لشريعة الإسلام",
    "target": "",
    "tone": "amber"
   }

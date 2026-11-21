@@ -123,6 +123,13 @@
      {
       "at": [
        143,
+       15
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       143,
        19
       ],
       "do": "push_in"
@@ -205,10 +212,10 @@
      {
       "at": [
        143,
-       15
+       22
       ],
       "until": null,
-      "motif": "geometric",
+      "motif": "two_paths",
       "place": "top",
       "size": "m"
      }
@@ -248,7 +255,7 @@
    ],
    "tafsir": 16,
    "excerpt": "ملك لله، فليست جهة من الجهات خارجة عن ملكه",
-   "target": "motif",
+   "target": "",
    "tone": "amber"
   },
   {
@@ -296,7 +303,7 @@
   "title_en": "The change of the qibla",
   "at": [
    143,
-   15
+   22
   ]
  },
  "motion": 3

@@ -90,7 +90,7 @@
        12
       ],
       "until": null,
-      "motif": "light",
+      "motif": "lamp",
       "place": "top",
       "size": "m"
      }
@@ -163,8 +163,8 @@
     7,
     7
    ],
-   "tafsir": 16,
-   "excerpt": "مثل معرفتهم أبنائهم",
+   "tafsir": 91,
+   "excerpt": "بحيث لا يشتبهون عليهم بغيرهم",
    "target": "",
    "tone": "blue"
   },
@@ -220,8 +220,8 @@
  "cover": {
   "series_ar": "القبلة",
   "series_en": "The qibla",
-  "title_ar": "معرفة الحق",
-  "title_en": "They know the truth",
+  "title_ar": "معرفة وكتمان",
+  "title_en": "Knowing, yet concealing",
   "at": [
    148,
    5
