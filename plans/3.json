@@ -493,7 +493,7 @@
      "from": 146,
      "to": 148,
      "title_ar": "قدوة من السابقين",
-     "title_en": "Examples from those before",
+     "title_en": "A model from those before",
      "visual": "ambient",
      "care": "",
      "est_s": 69
@@ -509,8 +509,8 @@
     {
      "from": 149,
      "to": 151,
-     "title_ar": "نصر الله ورعب أعدائه",
-     "title_en": "Allah's help, and terror for His enemies",
+     "title_ar": "عون الله ورعب أعدائه",
+     "title_en": "Allah's aid, and terror for His enemies",
      "visual": "ambient",
      "care": "Re-split: no clean audio cut at the old edge (audit 'nocut'). No fighting drawn. No fleeing soldiers drawn.",
      "est_s": 46
@@ -518,7 +518,7 @@
     {
      "from": 152,
      "to": 153,
-     "title_ar": "الوعد والعصيان",
+     "title_ar": "الوعد والزلة",
      "title_en": "The promise and the slip",
      "visual": "ambient",
      "care": "Re-split: no clean audio cut at the old edge (audit 'nocut'). No fighting drawn. No fleeing soldiers drawn.",
@@ -545,8 +545,8 @@
     {
      "from": 163,
      "to": 166,
-     "title_ar": "منة البعثة",
-     "title_en": "The gift of the Messenger",
+     "title_ar": "منة البعثة النبوية",
+     "title_en": "The gift of the Prophet's mission",
      "visual": "ambient",
      "care": "",
      "est_s": 85
@@ -572,8 +572,8 @@
     {
      "from": 172,
      "to": 174,
-     "title_ar": "الاستجابة بعد الجراح",
-     "title_en": "Answering despite the wounds",
+     "title_ar": "استجابة رغم الآلام",
+     "title_en": "Answering despite the pain",
      "visual": "ambient",
      "care": "173: short-word flag (listen).",
      "est_s": 74
@@ -582,7 +582,7 @@
      "from": 175,
      "to": 175,
      "title_ar": "تخويف الشيطان",
-     "title_en": "Satan frightens his allies",
+     "title_en": "Satan's intimidation",
      "visual": "ambient",
      "care": "No motif on the Shaytan.",
      "est_s": 28

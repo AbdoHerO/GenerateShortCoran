@@ -411,3 +411,34 @@ or by eye. The per-surah summary goes into each `plans/<n>.json` "notes"; this f
     - English titles reworded.
 - **Lesson:** a motif from this world (coins, a house, a jewel) must leave before the verse turns to the Hereafter,
   or it reads as part of it.
+
+### Aal Imran 3:140–175 review (independent sub-agent): 12 SERIOUS and 25 MINOR, all applied
+- **Serious, the condition or negation dropped (prophecy or statement in place of a condition):**
+  - 149 «إن تطيعوا»;
+  - 157 «ولئن قتلتم»;
+  - 159 «ولو كنت» (the excerpt described the Prophet ﷺ as harsh);
+  - 169 «ولا تحسبن» (the excerpt said the martyrs are dead);
+  - 144:10–16 «رجعتم عن دينكم» (stated that the Companions apostatised).
+- **Serious, other:**
+  - 161: cut before Al-Muyassar's limit «غير ما اختصه الله به»;
+  - 168: the hypocrites' claim shown as a statement;
+  - 154 and 167: one tafsir's reading.
+  - Motifs:
+    - two_paths at 152 ranked the Companions into guided and misguided;
+    - a lamp on the Prophet's ﷺ act «ويعلمهم» (evoking «سراجا منيرا»).
+  - The 175 English title took one reading.
+- **Minor:**
+  - glosses restored to explain their own words;
+  - motifs moved off Allah's acts («ويعلم», «عفا»);
+  - a falling leaf for «مصيبة» read as the fallen, now waves;
+  - Titles:
+    - «الولاء لله» («ولاية» reads as a province or mandate);
+    - «الوعد والزلة» («العصيان» reads as mutiny);
+    - «منة البعثة النبوية» («البعثة» reads as a delegation or scholarship);
+    - «ثواب محفوظ» («حفظ الأجور» reads as wage protection);
+    - «استجابة رغم الآلام» («الجراح» reads as «الجرّاح», surgeon);
+    - «الأجل المحتوم» and «عون الله» (both avoid Quran wording).
+- **Lessons:**
+  - In battle passages, never rank the Companions with a motif.
+  - Never let an excerpt say what the verse negates (the martyrs dead, the Companions apostate) even if the chip
+    carries the negation.
