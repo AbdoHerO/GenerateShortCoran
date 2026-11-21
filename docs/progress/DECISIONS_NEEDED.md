@@ -40,3 +40,28 @@ to you. The automatic safety review also refused a change to the verifier, corre
 
 Until you decide, Al-Baqarah is planned in full, and only the videos that contain **none** of these verses are
 produced.
+
+## 2. Al-Baqarah: verse boundaries that overlap by 20–80 ms in the timing data (found 2026-11-21)
+
+In the Quran Foundation word timings for Yasser ad-Dussary, the first word of some verses starts slightly before the
+previous verse's last word ends:
+
+| Verse | Overlap |
+|---|---|
+| 14 | 40 ms |
+| 74 | 40 ms |
+| 124 | 40 ms |
+| 141 | 20 ms |
+| 150 | 80 ms |
+| 253 | 20 ms |
+
+`verify.py` treats any overlap as a failure, and the master documentation (2.2) says overlaps block a video. Blocked
+videos: **2:13–16, 2:74, 2:150–152 and 2:253–254**. 2:122–125 and 2:138–141 are already held by decision 1.
+
+**The agent's reading:** the overlaps are aligner jitter, far shorter than a word. `prepare.py` (through `align.py`)
+already moves every verse change onto the reciter's measured pause, and lists each move on the review sheet.
+
+**Please choose one:**
+- **A.** Allow overlaps under 100 ms only where the measured-pause alignment resolves them. Each would be reported as
+  INFO and listed on the review sheet for listening.
+- **B.** Keep the rule. These 4 videos are not made.

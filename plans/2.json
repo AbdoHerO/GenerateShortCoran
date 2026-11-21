@@ -1,6 +1,6 @@
 {
  "surah": 2,
- "summary": "104 short videos (reciter Yasser ad-Dussary) covering all 286 verses; 14 of them wait for the owner's decision on Tanzil encoding differences",
+ "summary": "104 short videos (reciter Yasser ad-Dussary) covering all 286 verses; 18 of them wait for the owner's decisions (Tanzil encoding, timing overlaps)",
  "made_by": "Research 2026-11-21 (cloud agent): audit_surah.py 2 --reciter 97, plan_split.py with thematic sections, Saheeh translation and both tafsirs.",
  "reciter": {
   "id": 97,
@@ -63,7 +63,8 @@
      "title_en": "A losing trade",
      "visual": "ambient",
      "care": "short-word flag 14 overlap 40 ms (listen)",
-     "est_s": 76
+     "est_s": 76,
+     "blocked": "timing overlap between verses: docs/progress/DECISIONS_NEEDED.md section 2"
     },
     {
      "from": 17,
@@ -292,7 +293,8 @@
      "title_en": "Hardened hearts",
      "visual": "ambient",
      "care": "74 overlaps the previous verse by 40 ms (listen at the start).",
-     "est_s": 62
+     "est_s": 62,
+     "blocked": "timing overlap between verses: docs/progress/DECISIONS_NEEDED.md section 2"
     }
    ]
   },
@@ -587,7 +589,8 @@
      "title_en": "The completed favour",
      "visual": "ambient",
      "care": "150 overlaps the previous verse by 80 ms; short-word flag 151:9 (listen).",
-     "est_s": 73
+     "est_s": 73,
+     "blocked": "timing overlap between verses: docs/progress/DECISIONS_NEEDED.md section 2"
     }
    ]
   },
@@ -1014,7 +1017,8 @@
      "title_en": "Ranks among the messengers",
      "visual": "ambient",
      "care": "253 overlaps the previous verse by 20 ms; short-word flags 254:8 and 254:18 (listen).",
-     "est_s": 100
+     "est_s": 100,
+     "blocked": "timing overlap between verses: docs/progress/DECISIONS_NEEDED.md section 2"
     },
     {
      "from": 255,
