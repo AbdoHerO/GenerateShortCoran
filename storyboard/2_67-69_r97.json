@@ -79,7 +79,7 @@
        15
       ],
       "until": null,
-      "motif": "hands",
+      "motif": "geometric",
       "place": "top",
       "size": "m"
      }
@@ -197,7 +197,7 @@
    ],
    "tafsir": 16,
    "excerpt": "من المستهزئين",
-   "target": "motif",
+   "target": "",
    "tone": "blue"
   },
   {

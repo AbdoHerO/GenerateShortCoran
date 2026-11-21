@@ -162,3 +162,41 @@ or by eye. The per-surah summary goes into each `plans/<n>.json` "notes"; this f
   - Never cut just before a tafsir's own restriction.
   - An arrow targets the motif on screen at the gloss's start, so place glosses after their motif appears.
   - Read every title without diacritics for a second meaning.
+
+### Al-Baqarah 2:21–69 review (independent sub-agent): 5 SERIOUS and 20 MINOR, all applied
+- **Serious:**
+  - 57:14: the chip «ظلمونا» with «بكفران النعم» read "they wronged Us", the opposite of «وما ظلمونا». The range now
+    includes «وما».
+  - 35:13–15: the chip started after «ولا», so it read "approach this tree". The range now starts at «ولا».
+  - 55:8–10: «نرى الله جهرة» shown as a bare statement. The range now starts at «حتى».
+  - 67:20: the «من المستهزئين» arrow landed on the motif of Musa's isti'adha. The arrow was removed.
+  - 36:1: a falling leaf stood for Adam's slip (a prophet) and recalled the leaves of the Garden. Replaced by
+    footsteps at «اهبطوا», with a camera beat at 36:1.
+- **Minor:**
+  - 46:2 «يظنون» now gets As-Sa'di's «يستيقنون»;
+  - 41:7–10 includes «ولا تكونوا»;
+  - 33:4 no longer reads as Allah's command;
+  - 33:14 no longer repeats the verse's word pair;
+  - 49:13–15 gets the reading both tafsirs share («نعمة عظيمة»);
+  - 57:4–6 gets As-Sa'di's general meaning of المن;
+  - 25:27 drops a dangling «وإن».
+  - Motifs:
+    - lamp instead of light next to «الحق … من ربهم»;
+    - leaf instead of wind for «يفسدون»;
+    - the hourglass moved off the pronoun of Allah onto «ترجعون»;
+    - light instead of hands on «كلمات» from his Lord;
+    - geometric instead of hands on «أعوذ».
+  - Arrows:
+    - none on «عهد الله» with the Name in range;
+    - none to the moon from the Torah gloss;
+    - the book motif moved so the Tur arrow does not drift.
+  - Camera: no close-up of the army as the sea covers them.
+  - Titles:
+    - «التحدي بالقرآن»;
+    - «الصاعقة والإحياء»;
+    - «ثواب الإيمان والعمل» (was the wording of 3:171);
+    - "Where trickery leads".
+- **Lessons:**
+  - The gloss chip shows exactly the Quran words in its range, so a range must never leave out a negation («ولا»,
+    «وما») or the «حتى» that marks a demand.
+  - Nothing that reads as a prophet's own act or body (Adam's slip, Musa's isti'adha) gets a motif.

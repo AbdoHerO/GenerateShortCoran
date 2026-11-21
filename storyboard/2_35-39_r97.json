@@ -75,6 +75,13 @@
      {
       "at": [
        36,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       36,
        4
       ],
       "do": "pan_right"
@@ -105,10 +112,10 @@
      {
       "at": [
        36,
-       1
+       9
       ],
       "until": null,
-      "motif": "leaf",
+      "motif": "footsteps",
       "place": "top",
       "size": "m"
      },
@@ -157,7 +164,7 @@
        5
       ],
       "until": null,
-      "motif": "hands",
+      "motif": "light",
       "place": "top",
       "size": "m"
      }
@@ -278,7 +285,7 @@
   {
    "verse": 35,
    "words": [
-    13,
+    12,
     15
    ],
    "tafsir": 16,
@@ -294,7 +301,7 @@
    ],
    "tafsir": 16,
    "excerpt": "فأوقعهما الشيطان في الخطيئة",
-   "target": "motif",
+   "target": "",
    "tone": "red"
   },
   {
@@ -327,7 +334,7 @@
    ],
    "tafsir": 16,
    "excerpt": "ألهمه الله إياها توبة واستغفارًا",
-   "target": "motif",
+   "target": "",
    "tone": "green"
   },
   {

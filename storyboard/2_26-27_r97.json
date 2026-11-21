@@ -121,7 +121,7 @@
        17
       ],
       "until": null,
-      "motif": "light",
+      "motif": "lamp",
       "place": "top",
       "size": "m"
      },
@@ -198,7 +198,7 @@
        15
       ],
       "until": null,
-      "motif": "wind",
+      "motif": "leaf",
       "place": "top",
       "size": "m"
      }
@@ -238,7 +238,7 @@
    ],
    "tafsir": 16,
    "excerpt": "حكمة الله في التمثيل بالصغير والكبير من خلقه",
-   "target": "motif",
+   "target": "",
    "tone": "green"
   },
   {
@@ -267,7 +267,7 @@
    "verse": 27,
    "words": [
     3,
-    4
+    3
    ],
    "tafsir": 16,
    "excerpt": "الذي أخذه عليهم بالتوحيد والطاعة",

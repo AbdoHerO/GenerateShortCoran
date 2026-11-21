@@ -179,8 +179,7 @@
        50,
        7
       ],
-      "do": "shot_close",
-      "who": "army"
+      "do": "shot_sky"
      },
      {
       "at": [
@@ -315,13 +314,13 @@
   {
    "verse": 49,
    "words": [
-    15,
+    13,
     15
    ],
    "tafsir": 16,
-   "excerpt": "اختبار",
+   "excerpt": "وفي إنجائكم منه نعمة عظيمة",
    "target": "",
-   "tone": "amber"
+   "tone": "green"
   },
   {
    "verse": 50,
@@ -353,7 +352,7 @@
    ],
    "tafsir": 16,
    "excerpt": "لإنزال التوراة هدايةً ونورًا لكم",
-   "target": "motif",
+   "target": "",
    "tone": "green"
   },
   {
