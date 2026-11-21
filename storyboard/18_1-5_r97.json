@@ -86,17 +86,6 @@
       "motif": "book",
       "place": "top",
       "size": "m"
-     },
-     {
-      "at": [
-       1,
-       11
-      ],
-      "until": null,
-      "motif": "scales",
-      "place": "top",
-      "size": "s",
-      "exit": "undraw"
      }
     ]
    }

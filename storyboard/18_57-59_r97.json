@@ -206,7 +206,7 @@
        4
       ],
       "until": null,
-      "motif": "cloud_rain",
+      "motif": "light",
       "place": "top",
       "size": "m"
      },
@@ -271,16 +271,6 @@
      }
     ],
     "motifs": [
-     {
-      "at": [
-       59,
-       1
-      ],
-      "until": null,
-      "motif": "house",
-      "place": "top",
-      "size": "m"
-     },
      {
       "at": [
        59,

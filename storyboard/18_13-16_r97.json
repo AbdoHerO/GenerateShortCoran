@@ -352,18 +352,7 @@
       "who": "people"
      }
     ],
-    "motifs": [
-     {
-      "at": [
-       15,
-       10
-      ],
-      "until": null,
-      "motif": "scroll",
-      "place": "top",
-      "size": "s"
-     }
-    ],
+    "motifs": [],
     "transition": "morph"
    }
   },

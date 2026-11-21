@@ -297,7 +297,7 @@
        3
       ],
       "until": null,
-      "motif": "two_paths",
+      "motif": "footsteps",
       "place": "top",
       "size": "s"
      },
@@ -307,7 +307,7 @@
        7
       ],
       "until": null,
-      "motif": "key",
+      "motif": "door",
       "place": "top",
       "size": "s"
      }

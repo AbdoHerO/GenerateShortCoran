@@ -279,13 +279,12 @@
      {
       "at": [
        18,
-       17
+       10
       ],
       "until": null,
-      "motif": "footsteps",
+      "motif": "dog",
       "place": "top",
-      "size": "s",
-      "exit": "fly"
+      "size": "s"
      }
     ],
     "transition": "iris"

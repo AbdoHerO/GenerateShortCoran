@@ -178,7 +178,7 @@
        14
       ],
       "until": null,
-      "motif": "footsteps",
+      "motif": "lightning",
       "place": "top",
       "size": "m"
      }
@@ -272,10 +272,10 @@
      {
       "at": [
        56,
-       3
+       5
       ],
       "until": null,
-      "motif": "scroll",
+      "motif": "burst",
       "place": "top",
       "size": "m"
      },

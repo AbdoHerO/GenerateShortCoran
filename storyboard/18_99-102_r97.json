@@ -85,16 +85,6 @@
      {
       "at": [
        99,
-       4
-      ],
-      "until": null,
-      "motif": "wave",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       99,
        10
       ],
       "until": null,

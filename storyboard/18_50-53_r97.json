@@ -104,16 +104,6 @@
      {
       "at": [
        50,
-       6
-      ],
-      "until": null,
-      "motif": "light",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       50,
        16
       ],
       "until": null,

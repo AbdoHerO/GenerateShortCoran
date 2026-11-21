@@ -74,6 +74,13 @@
      {
       "at": [
        22,
+       13
+      ],
+      "do": "pattern_turn"
+     },
+     {
+      "at": [
+       22,
        15
       ],
       "do": "shot_sky"
@@ -132,38 +139,10 @@
      {
       "at": [
        22,
-       8
-      ],
-      "until": [
-       22,
-       9
-      ],
-      "motif": "dog",
-      "place": "top",
-      "size": "m",
-      "exit": "undraw"
-     },
-     {
-      "at": [
-       22,
-       14
-      ],
-      "until": [
-       22,
-       16
-      ],
-      "motif": "dog",
-      "place": "top",
-      "size": "m",
-      "exit": "fly"
-     },
-     {
-      "at": [
-       22,
        16
       ],
       "until": null,
-      "motif": "light",
+      "motif": "geometric",
       "place": "top",
       "size": "m"
      }

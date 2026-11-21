@@ -83,16 +83,6 @@
     "motifs": [
      {
       "at": [
-       103,
-       4
-      ],
-      "until": null,
-      "motif": "scales",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
        104,
        3
       ],

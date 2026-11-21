@@ -76,16 +76,6 @@
      {
       "at": [
        6,
-       3
-      ],
-      "until": null,
-      "motif": "candle",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       6,
        5
       ],
       "until": null,

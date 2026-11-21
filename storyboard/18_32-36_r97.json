@@ -406,16 +406,6 @@
     "motifs": [
      {
       "at": [
-       35,
-       4
-      ],
-      "until": null,
-      "motif": "crown",
-      "place": "top",
-      "size": "s"
-     },
-     {
-      "at": [
        36,
        3
       ],

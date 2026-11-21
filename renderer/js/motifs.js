@@ -463,11 +463,12 @@ function sparkle(ctx, x, y, r, a, col) {
 }
 
 // one motif at time t (scene-canvas coordinates, 960 x 870)
-function drawOne(ctx, m, t, T) {
+function drawOne(ctx, m, t, T, settle = false) {
   const C = compiled(m.id);
   if (!C || t < m.ts - 0.05 || t > m.te + 0.05) return;
-  const age = t - m.ts, life = Math.max(0, age);
   const D = C.dur;
+  // on the cover (a frozen frame used as thumbnail) a motif that has started is shown complete, never half drawn
+  const age = settle && t >= m.ts ? Math.max(t - m.ts, D + 0.45) : t - m.ts, life = Math.max(0, age);
   // leaving
   const leaveD = m.exit === 'undraw' || m.handoff ? 0.55 : 0.5;
   const lv = prog(t, m.te - leaveD, m.te);
@@ -542,9 +543,9 @@ function drawOne(ctx, m, t, T) {
 }
 
 // all motifs of a chapter, drawn on top of its scene
-export function drawMotifs(ctx, t, T, P) {
+export function drawMotifs(ctx, t, T, P, settle = false) {
   const plan = motifPlan(P, T);
-  for (const m of plan) drawOne(ctx, m, t, T);
+  for (const m of plan) drawOne(ctx, m, t, T, settle);
 }
 // motif anchors (scene coordinates) for gloss arrows: 'motif' = the motif visible now (latest started)
 export function motifAnchor(t, T, P) {

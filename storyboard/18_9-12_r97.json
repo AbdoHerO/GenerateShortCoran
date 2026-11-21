@@ -354,16 +354,6 @@
       "place": "top",
       "size": "s",
       "exit": "fly"
-     },
-     {
-      "at": [
-       12,
-       5
-      ],
-      "until": null,
-      "motif": "two_paths",
-      "place": "top",
-      "size": "s"
      }
     ],
     "transition": "iris"

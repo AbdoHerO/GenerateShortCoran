@@ -68,3 +68,40 @@ or by eye. The per-surah summary goes into each `plans/<n>.json` "notes"; this f
   - 1:7: «فهم أهل الهداية والاستقامة» replaces the list of the four groups, which is the wording of An-Nisa 4:69.
 - **Lesson for every surah:** a gloss arrow must never make a motif look like it stands for Allah. Use no arrow on
   glosses about Allah's names and attributes.
+
+### Al-Kahf motif review (independent sub-agent): 6 SERIOUS and 19 MINOR, all applied
+- **Serious:**
+  - 6:3 «نفسك»: a candle burning down stood for the Prophet ﷺ himself. Removed.
+  - 15:10 «بسلطان»: a scroll showed the proof the verse says they do not have. Removed.
+  - 48:3 «ربك» (the Day of Judgement): light on the Lord's name read as Allah appearing as light. Removed.
+  - 49:2 «الكتاب»: a scroll was a literal Book of deeds. Removed.
+  - 58:4 «الرحمة» (an attribute of Allah): cloud_rain → light.
+  - 78:3 «فراق»: a fork with a dark path could rank Musa against al-Khidr. two_paths → footsteps.
+- **Minor:**
+  - Removed:
+    - 1:11 scales on a negated word;
+    - 12:5 two_paths on «the two parties»;
+    - 35:4 crown on the garden owner;
+    - 50:6 light at the angels' prostration;
+    - 59:1 a warm lit house for destroyed towns;
+    - 65:9 a book that leaned toward al-Khidr being a prophet;
+    - 99:4 waves that could draw the surging crowd (Gog and Magog in one view);
+    - 103:4 scales that read as the Mizan;
+    - at 18:22, two of the three dog motifs, which repeated the guessed counts.
+  - Replaced or moved:
+    - 18:17 footsteps → dog at 18:10;
+    - 20:10 → 20:9;
+    - 21:9 → 21:10 (with a camera beat added);
+    - 22:16 light → geometric;
+    - 28:27 wind → two_paths;
+    - 49:25 scales → geometric;
+    - 55:14 footsteps → lightning;
+    - 56:3 scroll → burst at 56:5;
+    - 78:7 and 82:30 key → door (the key's sense "keys of the unseen" must not attach to al-Khidr).
+- **Lessons kept for every surah:**
+  - Never put a motif on a word that the verse negates.
+  - Never put a motif on a word naming a prophet, angels, or Allah's name or attributes; at most use geometric.
+  - Keep scales away from Judgement passages.
+  - Never use a motif that ranks one honoured person against another.
+- **Renderer fix:** on the cover frame (the thumbnail), a motif that has started is now always drawn complete.
+  Eight covers had caught a motif in its first 0.6 s.

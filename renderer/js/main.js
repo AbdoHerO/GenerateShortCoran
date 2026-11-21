@@ -437,7 +437,7 @@ function kineticTitle(ttl, a, uiA) {
   ctx.textAlign = align;
 }
 
-function renderScene(sx, idx, t) {
+function renderScene(sx, idx, t, settle = false) {
   const c = D.chapters[idx];
   sx.save();
   sx.setTransform(1, 0, 0, 1, 0, 0);
@@ -447,7 +447,7 @@ function renderScene(sx, idx, t) {
   // motion graphics v3: a living light layer over every scene, then the chapter's motifs
   sx.save(); sx.setTransform(1, 0, 0, 1, 0, 0);
   lifeLayer(sx, t, idx);
-  drawMotifs(sx, t, chT[idx], c.params);
+  drawMotifs(sx, t, chT[idx], c.params, settle);
   sx.restore();
 }
 
@@ -500,7 +500,7 @@ function drawFrame(t) {
   } else if (i > 0 && t < cs + halfOf(i)) { from = i - 1; to = i; kind = transOf(i); mix = prog(t, cs - halfOf(i), cs + halfOf(i)); }
   else if (nx && t > nx.start - halfOf(i + 1)) { from = i; to = i + 1; kind = transOf(i + 1); mix = prog(t, nx.start - halfOf(i + 1), nx.start + halfOf(i + 1)); }
   if (kind === 'dissolve') mix = ease.inOutSine(mix);
-  renderScene(sAx, from, tA);
+  renderScene(sAx, from, tA, cd > 0 && tA === D.cover.t);
   const useB = mix > 0 && (to !== from || tA !== t);
   if (useB) renderScene(sBx, to, t);
 

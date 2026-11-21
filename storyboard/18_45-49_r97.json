@@ -322,16 +322,6 @@
       "motif": "hourglass",
       "place": "top",
       "size": "m"
-     },
-     {
-      "at": [
-       48,
-       3
-      ],
-      "until": null,
-      "motif": "light",
-      "place": "top",
-      "size": "m"
      }
     ],
     "transition": "morph"
@@ -432,20 +422,10 @@
      {
       "at": [
        49,
-       2
-      ],
-      "until": null,
-      "motif": "scroll",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       49,
        25
       ],
       "until": null,
-      "motif": "scales",
+      "motif": "geometric",
       "place": "top",
       "size": "m"
      }
