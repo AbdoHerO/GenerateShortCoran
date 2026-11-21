@@ -28,52 +28,369 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة البقرة",
+   "title": "وعدان متقابلان",
    "verses": [
-    268
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "dawn"
-   }
-  },
-  {
-   "id": "c2",
-   "title": "سورة البقرة",
-   "verses": [
+    268,
     269
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       268,
+       3
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       268,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       268,
+       6
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       268,
+       11
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       269,
+       4
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       269,
+       5
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       269,
+       10
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       269,
+       11
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       269,
+       14
+      ],
+      "do": "pan_left"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       268,
+       8
+      ],
+      "until": null,
+      "motif": "seal",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       269,
+       2
+      ],
+      "until": null,
+      "motif": "lamp",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
-   "id": "c3",
-   "title": "سورة البقرة",
+   "id": "c2",
+   "title": "صدقة السر والعلن",
    "verses": [
-    270
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "light"
-   }
-  },
-  {
-   "id": "c4",
-   "title": "سورة البقرة",
-   "verses": [
+    270,
     271
    ],
    "scene": "ambient",
    "params": {
-    "mood": "night_sky"
+    "mood": "dawn",
+    "beats": [
+     {
+      "at": [
+       270,
+       4
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       270,
+       8
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       270,
+       11
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       270,
+       15
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       271,
+       2
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       271,
+       5
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       271,
+       8
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       271,
+       14
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       271,
+       16
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       271,
+       18
+      ],
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       270,
+       2
+      ],
+      "until": null,
+      "motif": "coins",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       271,
+       11
+      ],
+      "until": null,
+      "motif": "burst",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "iris"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 268,
+   "words": [
+    1,
+    3
+   ],
+   "tafsir": 16,
+   "excerpt": "يخوفكم الفقر، ويغريكم بالبخل",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 268,
+   "words": [
+    7,
+    10
+   ],
+   "tafsir": 16,
+   "excerpt": "على إنفاقكم غفرانًا لذنوبكم ورزقا واسعا",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 268,
+   "words": [
+    12,
+    13
+   ],
+   "tafsir": 16,
+   "excerpt": "واسع الفضل، عليم بالنيَّات والأعمال",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 269,
+   "words": [
+    2,
+    2
+   ],
+   "tafsir": 91,
+   "excerpt": "العلم النافع والعمل الصالح",
+   "target": "motif",
+   "tone": "green"
+  },
+  {
+   "verse": 269,
+   "words": [
+    15,
+    16
+   ],
+   "tafsir": 16,
+   "excerpt": "أصحاب العقول المستنيرة بنور الله وهدايته",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 270,
+   "words": [
+    2,
+    4
+   ],
+   "tafsir": 16,
+   "excerpt": "من مال أو غيره كثير أو قليل",
+   "target": "motif",
+   "tone": "blue"
+  },
+  {
+   "verse": 270,
+   "words": [
+    5,
+    8
+   ],
+   "tafsir": 16,
+   "excerpt": "أوجبتم على أنفسكم شيئًا من مال أو غيره",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 270,
+   "words": [
+    9,
+    11
+   ],
+   "tafsir": 16,
+   "excerpt": "وهو المُطَّلِع على نياتكم، وسوف يثيبكم على ذلك",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 270,
+   "words": [
+    13,
+    15
+   ],
+   "tafsir": 16,
+   "excerpt": "ليس لهم أنصار يمنعونهم من عذاب الله",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 271,
+   "words": [
+    1,
+    5
+   ],
+   "tafsir": 16,
+   "excerpt": "إن تظهروا ما تتصدقون به لله فنِعْمَ ما تصدقتم به",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 271,
+   "words": [
+    10,
+    12
+   ],
+   "tafsir": 16,
+   "excerpt": "فهذا أفضل لكم; لأنه أبعد عن الرياء",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 271,
+   "words": [
+    13,
+    16
+   ],
+   "tafsir": 16,
+   "excerpt": "وفي الصدقة -مع الإخلاص- محو لذنوبكم",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 271,
+   "words": [
+    18,
+    20
+   ],
+   "tafsir": 16,
+   "excerpt": "لا يخفى عليه شيء من أحوالكم",
+   "target": "",
+   "tone": "green"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "No motif on the Shaytan's words (268:1-5); a seal for Allah's promise, a lamp for wisdom. 271: no two_paths (open charity is also praised), a burst on «خير لكم»."
+ },
+ "cover": {
+  "series_ar": "الإنفاق",
+  "series_en": "Spending",
+  "title_ar": "الحكمة والصدقة",
+  "title_en": "Wisdom, and charity in secret",
+  "at": [
+   269,
+   2
+  ]
+ },
+ "motion": 3
 }

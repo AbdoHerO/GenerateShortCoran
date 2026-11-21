@@ -28,19 +28,137 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة البقرة",
+   "title": "إنفاق في كل حال",
    "verses": [
     274
    ],
    "scene": "ambient",
    "params": {
-    "mood": "night_sky"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       274,
+       6
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       274,
+       11
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       274,
+       15
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       274,
+       17
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       274,
+       2
+      ],
+      "until": null,
+      "motif": "coins",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       274,
+       4
+      ],
+      "until": null,
+      "motif": "night_day",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       274,
+       9
+      ],
+      "until": null,
+      "motif": "burst",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 274,
+   "words": [
+    2,
+    3
+   ],
+   "tafsir": 16,
+   "excerpt": "يُخْرجون أموالهم مرضاة لله",
+   "target": "motif",
+   "tone": "green"
+  },
+  {
+   "verse": 274,
+   "words": [
+    6,
+    7
+   ],
+   "tafsir": 16,
+   "excerpt": "مسرِّين ومعلنين",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 274,
+   "words": [
+    12,
+    14
+   ],
+   "tafsir": 16,
+   "excerpt": "فيما يستقبلونه من أمر الآخرة",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 274,
+   "words": [
+    15,
+    17
+   ],
+   "tafsir": 16,
+   "excerpt": "على ما فاتهم من حظوظ الدنيا",
+   "target": "",
+   "tone": "green"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "night_day for «بالليل والنهار», a burst for the reward."
+ },
+ "cover": {
+  "series_ar": "الإنفاق",
+  "series_en": "Spending",
+  "title_ar": "إنفاق في كل حال",
+  "title_en": "Spending at all times",
+  "at": [
+   274,
+   4
+  ]
+ },
+ "motion": 3
 }

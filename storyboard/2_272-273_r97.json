@@ -28,30 +28,335 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة البقرة",
+   "title": "النفقة لوجه الله",
    "verses": [
     272
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "light",
+    "beats": [
+     {
+      "at": [
+       272,
+       4
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       272,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       272,
+       13
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       272,
+       14
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       272,
+       17
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       272,
+       19
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       272,
+       21
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       272,
+       26
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       272,
+       28
+      ],
+      "do": "pan_left"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       272,
+       10
+      ],
+      "until": null,
+      "motif": "coins",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       272,
+       24
+      ],
+      "until": null,
+      "motif": "wheat",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
    "id": "c2",
-   "title": "سورة البقرة",
+   "title": "الفقراء المتعففون",
    "verses": [
     273
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "dawn",
+    "beats": [
+     {
+      "at": [
+       273,
+       4
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       273,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       273,
+       13
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       273,
+       18
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       273,
+       20
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       273,
+       22
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       273,
+       27
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       273,
+       16
+      ],
+      "until": null,
+      "motif": "candle",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       273,
+       24
+      ],
+      "until": null,
+      "motif": "coins",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "slide"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 272,
+   "words": [
+    1,
+    3
+   ],
+   "tafsir": 16,
+   "excerpt": "لست -أيها الرسول- مسئولا عن توفيق الكافرين للهداية",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 272,
+   "words": [
+    12,
+    13
+   ],
+   "tafsir": 16,
+   "excerpt": "يَعُدْ عليكم نَفْعُه من الله",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 272,
+   "words": [
+    14,
+    19
+   ],
+   "tafsir": 16,
+   "excerpt": "والمؤمنون لا ينفقون إلا طلبًا لمرضاة الله",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 272,
+   "words": [
+    24,
+    28
+   ],
+   "tafsir": 16,
+   "excerpt": "توفوا ثوابه، ولا تُنْقَصُوا شيئا من ذلك",
+   "target": "motif",
+   "tone": "green"
+  },
+  {
+   "verse": 273,
+   "words": [
+    1,
+    1
+   ],
+   "tafsir": 16,
+   "excerpt": "اجعلوا صدقاتكم لفقراء المسلمين",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 273,
+   "words": [
+    3,
+    6
+   ],
+   "tafsir": 91,
+   "excerpt": "قصروها على طاعة الله من جهاد وغيره",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 273,
+   "words": [
+    7,
+    11
+   ],
+   "tafsir": 91,
+   "excerpt": "سفرا للتكسب",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 273,
+   "words": [
+    12,
+    14
+   ],
+   "tafsir": 16,
+   "excerpt": "يظنهم مَن لا يعرفهم غير محتاجين",
+   "target": "",
+   "tone": "amber"
+  },
+  {
+   "verse": 273,
+   "words": [
+    16,
+    16
+   ],
+   "tafsir": 91,
+   "excerpt": "بيان لصدق صبرهم وحسن تعففهم",
+   "target": "motif",
+   "tone": "green"
+  },
+  {
+   "verse": 273,
+   "words": [
+    17,
+    18
+   ],
+   "tafsir": 16,
+   "excerpt": "بعلاماتهم وآثار الحاجة فيهم",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 273,
+   "words": [
+    19,
+    22
+   ],
+   "tafsir": 16,
+   "excerpt": "وإن سألوا اضطرارًا لم يُلِحُّوا في السؤال",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 273,
+   "words": [
+    29,
+    30
+   ],
+   "tafsir": 16,
+   "excerpt": "وسيجزي عليه أوفر الجزاء وأتمَّه يوم القيامة",
+   "target": "",
+   "tone": "green"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "Nothing on «وجه الله» (272:18) and nothing on the negated travel (273:7-11). No faces for «بسيماهم»: a candle for their patient restraint."
+ },
+ "cover": {
+  "series_ar": "الإنفاق",
+  "series_en": "Spending",
+  "title_ar": "الفقراء المتعففون",
+  "title_en": "The poor who do not ask",
+  "at": [
+   273,
+   16
+  ]
+ },
+ "motion": 3
 }
