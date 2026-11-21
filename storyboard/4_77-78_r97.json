@@ -132,6 +132,19 @@
      {
       "at": [
        77,
+       34
+      ],
+      "until": [
+       77,
+       38
+      ],
+      "motif": "hourglass",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       77,
        42
       ],
       "until": null,
