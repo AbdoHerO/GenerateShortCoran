@@ -28,41 +28,364 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة آل عمران",
+   "title": "صفات المتقين",
    "verses": [
     17
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       17,
+       5
+      ],
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       17,
+       1
+      ],
+      "until": null,
+      "motif": "mountain",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       17,
+       4
+      ],
+      "until": null,
+      "motif": "coins",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       17,
+       6
+      ],
+      "until": null,
+      "motif": "stars",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
    "id": "c2",
-   "title": "سورة آل عمران",
+   "title": "شهادة التوحيد",
    "verses": [
-    18
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "geometric"
-   }
-  },
-  {
-   "id": "c3",
-   "title": "سورة آل عمران",
-   "verses": [
+    18,
     19
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light"
+    "mood": "geometric",
+    "beats": [
+     {
+      "at": [
+       18,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       18,
+       11
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       18,
+       12
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       18,
+       13
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       18,
+       14
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       18,
+       18
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       19,
+       2
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       19,
+       5
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       19,
+       10
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       19,
+       13
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       19,
+       16
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       19,
+       18
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       19,
+       23
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       18,
+       2
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       18,
+       9
+      ],
+      "until": null,
+      "motif": "lamp",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       19,
+       7
+      ],
+      "until": null,
+      "motif": "wind",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "iris"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 17,
+   "words": [
+    1,
+    1
+   ],
+   "tafsir": 91,
+   "excerpt": "على ما يحبه الله من طاعته، وعن معصيته، وعلى أقداره المؤلمة",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 17,
+   "words": [
+    2,
+    2
+   ],
+   "tafsir": 91,
+   "excerpt": "في إيمانهم وأقوالهم وأحوالهم",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 17,
+   "words": [
+    3,
+    3
+   ],
+   "tafsir": 16,
+   "excerpt": "وبالطاعة التامة",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 17,
+   "words": [
+    4,
+    4
+   ],
+   "tafsir": 91,
+   "excerpt": "مما رزقهم الله بأنواع النفقات",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 17,
+   "words": [
+    6,
+    6
+   ],
+   "tafsir": 16,
+   "excerpt": "في آخر الليل; لأنه مَظِنَّة القبول وإجابة الدعاء",
+   "target": "motif",
+   "tone": "green"
+  },
+  {
+   "verse": 18,
+   "words": [
+    1,
+    7
+   ],
+   "tafsir": 16,
+   "excerpt": "أنه المتفرد بالإلهية",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 18,
+   "words": [
+    8,
+    10
+   ],
+   "tafsir": 91,
+   "excerpt": "وهم الملائكة وأهل العلم",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 18,
+   "words": [
+    11,
+    12
+   ],
+   "tafsir": 16,
+   "excerpt": "وقيامه بالعدل",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 18,
+   "words": [
+    17,
+    18
+   ],
+   "tafsir": 16,
+   "excerpt": "العزيز الذي لا يمتنع عليه شيء أراده، الحكيم في أقواله وأفعاله",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 19,
+   "words": [
+    2,
+    5
+   ],
+   "tafsir": 16,
+   "excerpt": "وهو الانقياد لله وحده بالطاعة والاستسلام له بالعبودية",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 19,
+   "words": [
+    7,
+    10
+   ],
+   "tafsir": 16,
+   "excerpt": "فتفرقوا شيعًا وأحزابًا",
+   "target": "motif",
+   "tone": "red"
+  },
+  {
+   "verse": 19,
+   "words": [
+    13,
+    16
+   ],
+   "tafsir": 91,
+   "excerpt": "تحثهم على الاجتماع على دين الله",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 19,
+   "words": [
+    17,
+    18
+   ],
+   "tafsir": 16,
+   "excerpt": "بغيًا وحسدًا طلبًا للدنيا",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 19,
+   "words": [
+    19,
+    22
+   ],
+   "tafsir": 16,
+   "excerpt": "المنزلة وآياته الدالة على ربوبيته وألوهيته",
+   "target": "",
+   "tone": "red"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "No motif on the angels (18:8) or on «قائما بالقسط» (an attribute): geometric for the testimony, a lamp for the people of knowledge, wind for the scattering into sects."
+ },
+ "cover": {
+  "series_ar": "حقيقة الدين",
+  "series_en": "What religion is",
+  "title_ar": "شهادة التوحيد",
+  "title_en": "The testimony of oneness",
+  "at": [
+   18,
+   2
+  ]
+ },
+ "motion": 3
 }

@@ -28,52 +28,375 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة آل عمران",
+   "title": "مصير المكذبين",
    "verses": [
-    10
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "dawn"
-   }
-  },
-  {
-   "id": "c2",
-   "title": "سورة آل عمران",
-   "verses": [
+    10,
     11
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       10,
+       4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       10,
+       9
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       10,
+       12
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       10,
+       14
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       11,
+       4
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       11,
+       6
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       11,
+       8
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       11,
+       9
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       11,
+       12
+      ],
+      "do": "shot_ground"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       10,
+       7
+      ],
+      "until": null,
+      "motif": "leaf",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       11,
+       1
+      ],
+      "until": null,
+      "motif": "footsteps",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
-   "id": "c3",
-   "title": "سورة آل عمران",
+   "id": "c2",
+   "title": "آية يوم بدر",
    "verses": [
-    12
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "light"
-   }
-  },
-  {
-   "id": "c4",
-   "title": "سورة آل عمران",
-   "verses": [
+    12,
     13
    ],
    "scene": "ambient",
    "params": {
-    "mood": "night_sky"
+    "mood": "dawn",
+    "beats": [
+     {
+      "at": [
+       12,
+       4
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       12,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       12,
+       8
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       13,
+       12
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       13,
+       14
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       13,
+       15
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       13,
+       18
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       13,
+       20
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       13,
+       23
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       13,
+       24
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       13,
+       29
+      ],
+      "do": "push_in"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       13,
+       4
+      ],
+      "until": null,
+      "motif": "burst",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       13,
+       8
+      ],
+      "until": null,
+      "motif": "two_paths",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       13,
+       27
+      ],
+      "until": null,
+      "motif": "lamp",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "wipe"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 10,
+   "words": [
+    4,
+    12
+   ],
+   "tafsir": 91,
+   "excerpt": "وليس للأولاد والأموال قدر عند الله",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 10,
+   "words": [
+    15,
+    16
+   ],
+   "tafsir": 91,
+   "excerpt": "حطبها، الملازمون لها دائما أبدا",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 11,
+   "words": [
+    1,
+    1
+   ],
+   "tafsir": 16,
+   "excerpt": "شأن الكافرين في تكذيبهم وما ينزل بهم",
+   "target": "motif",
+   "tone": "blue"
+  },
+  {
+   "verse": 11,
+   "words": [
+    9,
+    11
+   ],
+   "tafsir": 91,
+   "excerpt": "عدلا منه لا ظلما",
+   "target": "",
+   "tone": "amber"
+  },
+  {
+   "verse": 11,
+   "words": [
+    13,
+    14
+   ],
+   "tafsir": 91,
+   "excerpt": "على من أتى بأسباب العقاب",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 12,
+   "words": [
+    4,
+    4
+   ],
+   "tafsir": 16,
+   "excerpt": "ستُهْزَمون في الدنيا",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 12,
+   "words": [
+    8,
+    9
+   ],
+   "tafsir": 16,
+   "excerpt": "وبئس الفراش",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 13,
+   "words": [
+    4,
+    4
+   ],
+   "tafsir": 91,
+   "excerpt": "عبرة عظيمة",
+   "target": "motif",
+   "tone": "blue"
+  },
+  {
+   "verse": 13,
+   "words": [
+    6,
+    7
+   ],
+   "tafsir": 91,
+   "excerpt": "وهذا يوم بدر",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 13,
+   "words": [
+    8,
+    12
+   ],
+   "tafsir": 91,
+   "excerpt": "وهم الرسول صلى الله عليه وسلم وأصحابه",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 13,
+   "words": [
+    13,
+    14
+   ],
+   "tafsir": 91,
+   "excerpt": "كفار قريش الذين خرجوا من ديارهم بطرا وفخرا",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 13,
+   "words": [
+    27,
+    29
+   ],
+   "tafsir": 91,
+   "excerpt": "أصحاب البصائر النافذة والعقول الكاملة",
+   "target": "motif",
+   "tone": "green"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "Badr: no fighting, no crowd, no countable group; two_paths for the two parties. 13:15-18 (who saw whom as twice their number) is not glossed: Al-Muyassar and As-Sa'di differ. A leaf for wealth that will not avail (no coins on the negated benefit). Nothing for the Fire or Pharaoh."
+ },
+ "cover": {
+  "series_ar": "حقيقة الدين",
+  "series_en": "What religion is",
+  "title_ar": "عبرة الفئتين",
+  "title_en": "The lesson of the two armies",
+  "at": [
+   13,
+   8
+  ]
+ },
+ "motion": 3
 }
