@@ -28,30 +28,266 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة يونس",
+   "title": "سعة الفضل",
    "verses": [
     60
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "dawn",
+    "beats": [
+     {
+      "at": [
+       60,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       60,
+       16
+      ],
+      "do": "pan_left"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       60,
+       10
+      ],
+      "until": [
+       60,
+       16
+      ],
+      "motif": "light",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
    "id": "c2",
-   "title": "سورة يونس",
+   "title": "رقابة الله",
    "verses": [
     61
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       61,
+       5
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       61,
+       9
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       61,
+       13
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       61,
+       14
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       61,
+       18
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       61,
+       21
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       61,
+       26
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       61,
+       32
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       61,
+       33
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       61,
+       36
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       61,
+       38
+      ],
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       61,
+       28
+      ],
+      "until": [
+       61,
+       33
+      ],
+      "motif": "stars",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       61,
+       41
+      ],
+      "until": null,
+      "motif": "book",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "dissolve"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 60,
+   "words": [
+    1,
+    9
+   ],
+   "tafsir": 16,
+   "excerpt": "أيحسبون أنه يصفح عنهم ويغفر لهم؟",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 60,
+   "words": [
+    10,
+    15
+   ],
+   "tafsir": 16,
+   "excerpt": "بتركه معاجلة مَن افترى عليه الكذب بالعقوبة في الدنيا",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 60,
+   "words": [
+    16,
+    19
+   ],
+   "tafsir": 91,
+   "excerpt": "إما أن لا يقوموا بشكرها، وإما أن يستعينوا بها على معاصيه",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 61,
+   "words": [
+    1,
+    4
+   ],
+   "tafsir": 91,
+   "excerpt": "حال من أحوالك الدينية والدنيوية",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 61,
+   "words": [
+    5,
+    9
+   ],
+   "tafsir": 91,
+   "excerpt": "وما تتلو من القرآن الذي أوحاه الله إليك",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 61,
+   "words": [
+    10,
+    20
+   ],
+   "tafsir": 91,
+   "excerpt": "وقت شروعكم فيه، واستمراركم على العمل به",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 61,
+   "words": [
+    21,
+    32
+   ],
+   "tafsir": 16,
+   "excerpt": "من زنة نملة صغيرة",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 61,
+   "words": [
+    33,
+    42
+   ],
+   "tafsir": 16,
+   "excerpt": "أحاط به علمه وجرى به قلمه",
+   "target": "",
+   "tone": "green"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "61:1-9 addresses the Prophet ﷺ: no motif there. 61:10-20 is one chip, so «إلا كنا عليكم شهودا» stays with «ولا تعملون من عمل». Al-Muyassar's first-person «فنحفظه… ونجزيكم» is not used. Stars for «في الأرض ولا في السماء», a book for «في كتاب مبين». 61: short-word flag, listen."
+ },
+ "cover": {
+  "series_ar": "القرآن والطمأنينة",
+  "series_en": "The Quran and serenity",
+  "title_ar": "رقابة الله",
+  "title_en": "Allah watches",
+  "at": [
+   61,
+   1
+  ]
+ },
+ "motion": 3
 }

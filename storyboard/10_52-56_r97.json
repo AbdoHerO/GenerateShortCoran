@@ -28,53 +28,329 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة يونس",
+   "title": "جزاء الأعمال",
    "verses": [
     52
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       52,
+       6
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       52,
+       10
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       52,
+       13
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": []
    }
   },
   {
    "id": "c2",
-   "title": "سورة يونس",
+   "title": "القسم على البعث",
    "verses": [
-    53
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "geometric"
-   }
-  },
-  {
-   "id": "c3",
-   "title": "سورة يونس",
-   "verses": [
+    53,
     54
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light"
+    "mood": "geometric",
+    "beats": [
+     {
+      "at": [
+       53,
+       3
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       53,
+       8
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       53,
+       11
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       54,
+       4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       54,
+       10
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       54,
+       15
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       54,
+       16
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       54,
+       18
+      ],
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": [],
+    "transition": "dissolve"
    }
   },
   {
-   "id": "c4",
-   "title": "سورة يونس",
+   "id": "c3",
+   "title": "ملك الله المطلق",
    "verses": [
     55,
     56
    ],
    "scene": "ambient",
    "params": {
-    "mood": "night_sky"
+    "mood": "light",
+    "beats": [
+     {
+      "at": [
+       55,
+       8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       55,
+       14
+      ],
+      "do": "pan_left"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       55,
+       5
+      ],
+      "until": [
+       55,
+       8
+      ],
+      "motif": "stars",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       55,
+       10
+      ],
+      "until": [
+       55,
+       13
+      ],
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       56,
+       2
+      ],
+      "until": [
+       56,
+       4
+      ],
+      "motif": "night_day",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "light_sweep"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 52,
+   "words": [
+    1,
+    4
+   ],
+   "tafsir": 91,
+   "excerpt": "حين يوفون أعمالهم يوم القيامة",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 52,
+   "words": [
+    5,
+    7
+   ],
+   "tafsir": 91,
+   "excerpt": "العذاب الذي تخلدون فيه، ولا يفتر عنكم ساعة",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 52,
+   "words": [
+    8,
+    13
+   ],
+   "tafsir": 91,
+   "excerpt": "من الكفر والتكذيب والمعاصي",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 53,
+   "words": [
+    1,
+    3
+   ],
+   "tafsir": 91,
+   "excerpt": "يستخبرك المكذبون على وجه التعنت والعناد",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 53,
+   "words": [
+    4,
+    8
+   ],
+   "tafsir": 91,
+   "excerpt": "مقسمًا على صحته، مستدلا عليه بالدليل الواضح والبرهان",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 53,
+   "words": [
+    9,
+    11
+   ],
+   "tafsir": 16,
+   "excerpt": "فأنتم في قبضته وسلطانه",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 54,
+   "words": [
+    1,
+    10
+   ],
+   "tafsir": 91,
+   "excerpt": "من ذهب وفضة وغيرهما، لتفتدي به من عذاب الله",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 54,
+   "words": [
+    11,
+    15
+   ],
+   "tafsir": 16,
+   "excerpt": "حسرتهم حين أبصروا عذاب الله واقعا بهم",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 54,
+   "words": [
+    16,
+    21
+   ],
+   "tafsir": 16,
+   "excerpt": "لأن الله تعالى لا يعاقب أحدا إلا بذنبه",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 55,
+   "words": [
+    1,
+    7
+   ],
+   "tafsir": 91,
+   "excerpt": "يحكم فيهم بحكمه الديني والقدري، وسيحكم فيهم بحكمه الجزائي",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 55,
+   "words": [
+    8,
+    16
+   ],
+   "tafsir": 91,
+   "excerpt": "فلذلك لا يستعدون للقاء الله",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 56,
+   "words": [
+    1,
+    5
+   ],
+   "tafsir": 91,
+   "excerpt": "هو المتصرف بالإحياء والإماتة، وسائر أنواع التدبير",
+   "target": "",
+   "tone": "green"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "52 and 54 (Hell, the ransom): nothing drawn, no gold motif. 53 is the Prophet's ﷺ answer: no motif. Their question is framed («على وجه التعنت والعناد»). Stars for the heavens, geometric for «إن وعد الله حق», night and day for «يحيي ويميت»."
+ },
+ "cover": {
+  "series_ar": "الوعد والوعيد",
+  "series_en": "Promise and warning",
+  "title_ar": "القسم على البعث",
+  "title_en": "The oath on the resurrection",
+  "at": [
+   53,
+   1
+  ]
+ },
+ "motion": 3
 }

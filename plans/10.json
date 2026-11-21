@@ -217,8 +217,8 @@
     {
      "from": 52,
      "to": 56,
-     "title_ar": "الحق والوعد",
-     "title_en": "The truth and the promise",
+     "title_ar": "القسم على البعث",
+     "title_en": "The oath on the resurrection",
      "visual": "ambient",
      "care": "",
      "est_s": 80
@@ -234,8 +234,8 @@
     {
      "from": 57,
      "to": 59,
-     "title_ar": "موعظة القرآن",
-     "title_en": "The Quran's counsel",
+     "title_ar": "دواء القلوب",
+     "title_en": "A cure for hearts",
      "visual": "ambient",
      "care": "",
      "est_s": 69
@@ -252,8 +252,8 @@
     {
      "from": 62,
      "to": 66,
-     "title_ar": "أولياء الله",
-     "title_en": "The friends of Allah",
+     "title_ar": "أمن أهل التقوى",
+     "title_en": "The security of the pious",
      "visual": "ambient",
      "care": "",
      "est_s": 80
@@ -261,8 +261,8 @@
     {
      "from": 67,
      "to": 70,
-     "title_ar": "نفي الولد",
-     "title_en": "No son for Allah",
+     "title_ar": "تنزيه الخالق",
+     "title_en": "Glorifying the Creator",
      "visual": "ambient",
      "care": "The claim of a son framed as a claim.",
      "est_s": 73
