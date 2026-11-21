@@ -1,0 +1,770 @@
+{
+ "surah": 4,
+ "summary": "68 short videos (reciter Yasser ad-Dussary) covering all 176 verses; 5 of them wait for the owner's decisions (Tanzil encoding, timing defects)",
+ "made_by": "Research 2026-11-21 (cloud agent): audit_surah.py 4 --reciter 97 (with the nocut check), plan_split.py with thematic sections, Saheeh translation and both tafsirs.",
+ "reciter": {
+  "id": 97,
+  "name": "Yasser ad-Dussary"
+ },
+ "notes": [
+  "Recitation: 72.4 minutes. JOINED after 55, 145, 146, 167; no clean audio cut after 43, 47, 73, 161, 168, 171 (both treated as never a video edge).",
+  "Text: 4:18 (hamza of «الآن») and 4:69, 4:163 (small yeh of «النبيين») differ from Tanzil only in the encodings of DECISIONS_NEEDED section 1. Their videos are BLOCKED.",
+  "Timing: 4:74 word 1 has no timing; 4:162 overlaps 4:161 by 40 ms. Their videos are BLOCKED. Short-word flags to hear: 6, 27, 47, 61, 63, 75, 141.",
+  "Pictures: ambient throughout. Prophets, Maryam, angels, the Shaytan, Paradise, the Fire, fighting and killing are never drawn; nothing immodest in the family-law verses."
+ ],
+ "groups": [
+  {
+   "title_ar": "اليتامى والأرحام",
+   "title_en": "Orphans and kin",
+   "from": 1,
+   "to": 10,
+   "videos": [
+    {
+     "from": 1,
+     "to": 2,
+     "title_ar": "الأصل الواحد وحق اليتيم",
+     "title_en": "One origin; the orphan's right",
+     "visual": "ambient",
+     "care": "Adam and Hawwa never drawn.",
+     "est_s": 68
+    },
+    {
+     "from": 3,
+     "to": 5,
+     "title_ar": "تعدد الزوجات والمهر",
+     "title_en": "Marrying more than one; the dowry",
+     "visual": "ambient",
+     "care": "Rulings: glosses only where both tafsirs agree.",
+     "est_s": 73
+    },
+    {
+     "from": 6,
+     "to": 7,
+     "title_ar": "أموال اليتامى",
+     "title_en": "The orphans' wealth",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 78
+    },
+    {
+     "from": 8,
+     "to": 10,
+     "title_ar": "الإحسان عند القسمة",
+     "title_en": "Kindness at the division",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 60
+    }
+   ]
+  },
+  {
+   "title_ar": "أحكام المواريث",
+   "title_en": "Inheritance",
+   "from": 11,
+   "to": 14,
+   "videos": [
+    {
+     "from": 11,
+     "to": 11,
+     "title_ar": "ميراث الأولاد والوالدين",
+     "title_en": "Inheritance of children and parents",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 85
+    },
+    {
+     "from": 12,
+     "to": 12,
+     "title_ar": "ميراث الأزواج والكلالة",
+     "title_en": "Inheritance of spouses and kalala",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 100
+    },
+    {
+     "from": 13,
+     "to": 14,
+     "title_ar": "حدود المواريث",
+     "title_en": "The limits of inheritance",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 54
+    }
+   ]
+  },
+  {
+   "title_ar": "الفاحشة والتوبة",
+   "title_en": "Indecency and repentance",
+   "from": 15,
+   "to": 18,
+   "videos": [
+    {
+     "from": 15,
+     "to": 17,
+     "title_ar": "شروط التوبة",
+     "title_en": "The conditions of repentance",
+     "visual": "ambient",
+     "care": "Indecency: nothing drawn; text only.",
+     "est_s": 71
+    },
+    {
+     "from": 18,
+     "to": 18,
+     "title_ar": "توبة بعد الأوان",
+     "title_en": "Repentance too late",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 33,
+     "blocked": "Tanzil encoding difference (4:18, «الآن»): docs/progress/DECISIONS_NEEDED.md section 1"
+    }
+   ]
+  },
+  {
+   "title_ar": "أحكام الزواج",
+   "title_en": "Marriage",
+   "from": 19,
+   "to": 25,
+   "videos": [
+    {
+     "from": 19,
+     "to": 20,
+     "title_ar": "حسن المعاشرة",
+     "title_en": "Living together kindly",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 70
+    },
+    {
+     "from": 21,
+     "to": 23,
+     "title_ar": "المحرمات من النساء",
+     "title_en": "Women one may not marry",
+     "visual": "ambient",
+     "care": "Prohibited relations: text only, nothing drawn.",
+     "est_s": 112
+    },
+    {
+     "from": 24,
+     "to": 24,
+     "title_ar": "عقد النكاح",
+     "title_en": "The marriage contract",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 51
+    },
+    {
+     "from": 25,
+     "to": 25,
+     "title_ar": "نكاح الإماء",
+     "title_en": "Marrying slave women",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 78
+    }
+   ]
+  },
+  {
+   "title_ar": "يسر الشريعة",
+   "title_en": "The ease of the law",
+   "from": 26,
+   "to": 35,
+   "videos": [
+    {
+     "from": 26,
+     "to": 29,
+     "title_ar": "يسر الشريعة",
+     "title_en": "The ease of the law",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 79
+    },
+    {
+     "from": 30,
+     "to": 33,
+     "title_ar": "اجتناب الكبائر",
+     "title_en": "Avoiding the major sins",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 83
+    },
+    {
+     "from": 34,
+     "to": 35,
+     "title_ar": "القوامة والإصلاح",
+     "title_en": "Guardianship and reconciliation",
+     "visual": "ambient",
+     "care": "34: wording and glosses with great care; only what both tafsirs share.",
+     "est_s": 74
+    }
+   ]
+  },
+  {
+   "title_ar": "الإحسان والحساب",
+   "title_en": "Kindness and the reckoning",
+   "from": 36,
+   "to": 42,
+   "videos": [
+    {
+     "from": 36,
+     "to": 38,
+     "title_ar": "حقوق العباد",
+     "title_en": "Rights owed to people",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 81
+    },
+    {
+     "from": 39,
+     "to": 42,
+     "title_ar": "يوم الشهادة",
+     "title_en": "The day of witness",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 66
+    }
+   ]
+  },
+  {
+   "title_ar": "الطهارة وأهل الكتاب",
+   "title_en": "Purity and the People of the Book",
+   "from": 43,
+   "to": 57,
+   "videos": [
+    {
+     "from": 43,
+     "to": 44,
+     "title_ar": "أحكام الطهارة",
+     "title_en": "Purity before prayer",
+     "visual": "ambient",
+     "care": "Wine and impurity: no cup, no water drawn for ghusl in an immodest way.",
+     "est_s": 82
+    },
+    {
+     "from": 45,
+     "to": 46,
+     "title_ar": "تبديل الكلام",
+     "title_en": "Twisting the words",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 59
+    },
+    {
+     "from": 47,
+     "to": 48,
+     "title_ar": "ذنب لا يغفر",
+     "title_en": "The sin not forgiven",
+     "visual": "ambient",
+     "care": "47: short-word flag (listen).",
+     "est_s": 66
+    },
+    {
+     "from": 49,
+     "to": 52,
+     "title_ar": "مدح النفس",
+     "title_en": "Praising oneself",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 76
+    },
+    {
+     "from": 53,
+     "to": 56,
+     "title_ar": "حسد الناس",
+     "title_en": "Envying people",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 85
+    },
+    {
+     "from": 57,
+     "to": 57,
+     "title_ar": "نعيم المؤمنين",
+     "title_en": "The believers' bliss",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 49
+    }
+   ]
+  },
+  {
+   "title_ar": "الأمانة والطاعة",
+   "title_en": "Trust and obedience",
+   "from": 58,
+   "to": 70,
+   "videos": [
+    {
+     "from": 58,
+     "to": 59,
+     "title_ar": "أداء الأمانات",
+     "title_en": "Returning trusts",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 67
+    },
+    {
+     "from": 60,
+     "to": 62,
+     "title_ar": "تحكيم غير الشرع",
+     "title_en": "Seeking judgement elsewhere",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 76
+    },
+    {
+     "from": 63,
+     "to": 65,
+     "title_ar": "تحكيم الرسول",
+     "title_en": "The Prophet's judgement",
+     "visual": "ambient",
+     "care": "63: short-word flag (listen).",
+     "est_s": 77
+    },
+    {
+     "from": 66,
+     "to": 68,
+     "title_ar": "ثمرة الطاعة",
+     "title_en": "The fruit of obedience",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 48
+    },
+    {
+     "from": 69,
+     "to": 70,
+     "title_ar": "رفقة الصالحين",
+     "title_en": "Companionship of the righteous",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 43,
+     "blocked": "Tanzil encoding difference (4:69, small yeh): docs/progress/DECISIONS_NEEDED.md section 1"
+    }
+   ]
+  },
+  {
+   "title_ar": "النفير والمنافقون",
+   "title_en": "Mobilisation and the hypocrites",
+   "from": 71,
+   "to": 87,
+   "videos": [
+    {
+     "from": 71,
+     "to": 72,
+     "title_ar": "الحذر والتثاقل",
+     "title_en": "Caution and holding back",
+     "visual": "ambient",
+     "care": "Fighting: no weapon, battle or death drawn (71-104).",
+     "est_s": 34
+    },
+    {
+     "from": 73,
+     "to": 74,
+     "title_ar": "بيع الدنيا بالآخرة",
+     "title_en": "Trading this world for the next",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 54,
+     "blocked": "4:74 word 1 has no timing, and the boundary after 73 has no clean audio cut: docs/progress/DECISIONS_NEEDED.md section 2"
+    },
+    {
+     "from": 75,
+     "to": 76,
+     "title_ar": "نصرة المستضعفين",
+     "title_en": "Helping the oppressed",
+     "visual": "ambient",
+     "care": "75: short-word flag (listen).",
+     "est_s": 72
+    },
+    {
+     "from": 77,
+     "to": 78,
+     "title_ar": "حين فرض القتال",
+     "title_en": "When fighting was prescribed",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 93
+    },
+    {
+     "from": 79,
+     "to": 81,
+     "title_ar": "الحسنة والسيئة",
+     "title_en": "Good and harm",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 70
+    },
+    {
+     "from": 82,
+     "to": 84,
+     "title_ar": "تدبر القرآن",
+     "title_en": "Reflecting on the Quran",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 71
+    },
+    {
+     "from": 85,
+     "to": 87,
+     "title_ar": "الشفاعة والتحية",
+     "title_en": "Intercession and greeting",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 69
+    }
+   ]
+  },
+  {
+   "title_ar": "الدماء والهجرة والصلاة",
+   "title_en": "Life, emigration and prayer",
+   "from": 88,
+   "to": 104,
+   "videos": [
+    {
+     "from": 88,
+     "to": 90,
+     "title_ar": "حكم المنافقين",
+     "title_en": "The hypocrites' case",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 96
+    },
+    {
+     "from": 91,
+     "to": 91,
+     "title_ar": "فئة متقلبة",
+     "title_en": "A wavering party",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 45
+    },
+    {
+     "from": 92,
+     "to": 92,
+     "title_ar": "قتل الخطأ",
+     "title_en": "Accidental killing",
+     "visual": "ambient",
+     "care": "Killing: nothing drawn.",
+     "est_s": 82
+    },
+    {
+     "from": 93,
+     "to": 94,
+     "title_ar": "حرمة الدم",
+     "title_en": "The sanctity of life",
+     "visual": "ambient",
+     "care": "Killing: nothing drawn.",
+     "est_s": 75
+    },
+    {
+     "from": 95,
+     "to": 97,
+     "title_ar": "فضل المجاهدين",
+     "title_en": "The merit of those who strive",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 83
+    },
+    {
+     "from": 98,
+     "to": 101,
+     "title_ar": "الهجرة وقصر الصلاة",
+     "title_en": "Emigration; shortening prayer",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 77
+    },
+    {
+     "from": 102,
+     "to": 102,
+     "title_ar": "صلاة الخوف",
+     "title_en": "The prayer of fear",
+     "visual": "ambient",
+     "care": "The prayer of fear: no soldiers or weapons drawn.",
+     "est_s": 77
+    },
+    {
+     "from": 103,
+     "to": 104,
+     "title_ar": "المحافظة على الصلاة",
+     "title_en": "Keeping up the prayer",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 50
+    }
+   ]
+  },
+  {
+   "title_ar": "العدل في القضاء",
+   "title_en": "Justice in judgement",
+   "from": 105,
+   "to": 115,
+   "videos": [
+    {
+     "from": 105,
+     "to": 108,
+     "title_ar": "العدل في الحكم",
+     "title_en": "Judging justly",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 74
+    },
+    {
+     "from": 109,
+     "to": 112,
+     "title_ar": "الجدال عن الخائنين",
+     "title_en": "Defending the treacherous",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 77
+    },
+    {
+     "from": 113,
+     "to": 115,
+     "title_ar": "فضل الله على رسوله",
+     "title_en": "Allah's favour on His Messenger",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 94
+    }
+   ]
+  },
+  {
+   "title_ar": "الشرك والتوحيد",
+   "title_en": "Shirk and oneness",
+   "from": 116,
+   "to": 126,
+   "videos": [
+    {
+     "from": 116,
+     "to": 119,
+     "title_ar": "الشرك وتلبيس الشيطان",
+     "title_en": "Shirk and Satan's deception",
+     "visual": "ambient",
+     "care": "No motif on the Shaytan.",
+     "est_s": 97
+    },
+    {
+     "from": 120,
+     "to": 122,
+     "title_ar": "وعود الشيطان",
+     "title_en": "Satan's promises",
+     "visual": "ambient",
+     "care": "No motif on the Shaytan.",
+     "est_s": 68
+    },
+    {
+     "from": 123,
+     "to": 126,
+     "title_ar": "العمل لا التمني",
+     "title_en": "Deeds, not wishes",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 82
+    }
+   ]
+  },
+  {
+   "title_ar": "النساء والصلح",
+   "title_en": "Women and reconciliation",
+   "from": 127,
+   "to": 134,
+   "videos": [
+    {
+     "from": 127,
+     "to": 128,
+     "title_ar": "الصلح بين الزوجين",
+     "title_en": "Reconciling spouses",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 79
+    },
+    {
+     "from": 129,
+     "to": 131,
+     "title_ar": "العدل بين الزوجات",
+     "title_en": "Fairness among wives",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 68
+    },
+    {
+     "from": 132,
+     "to": 134,
+     "title_ar": "غنى الله",
+     "title_en": "Allah's self-sufficiency",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 40
+    }
+   ]
+  },
+  {
+   "title_ar": "القسط والنفاق",
+   "title_en": "Justice and hypocrisy",
+   "from": 135,
+   "to": 147,
+   "videos": [
+    {
+     "from": 135,
+     "to": 136,
+     "title_ar": "الشهادة بالعدل",
+     "title_en": "Bearing witness justly",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 86
+    },
+    {
+     "from": 137,
+     "to": 140,
+     "title_ar": "مجالسة المستهزئين",
+     "title_en": "Sitting with the mockers",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 85
+    },
+    {
+     "from": 141,
+     "to": 142,
+     "title_ar": "خداع المنافقين",
+     "title_en": "The hypocrites' deceit",
+     "visual": "ambient",
+     "care": "141: short-word flag (listen).",
+     "est_s": 69
+    },
+    {
+     "from": 143,
+     "to": 147,
+     "title_ar": "مصير المنافقين",
+     "title_en": "The hypocrites' end",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 101
+    }
+   ]
+  },
+  {
+   "title_ar": "أهل الكتاب وعيسى",
+   "title_en": "The People of the Book and Isa",
+   "from": 148,
+   "to": 162,
+   "videos": [
+    {
+     "from": 148,
+     "to": 151,
+     "title_ar": "الكلام السيئ والعفو",
+     "title_en": "Evil speech and pardon",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 73
+    },
+    {
+     "from": 152,
+     "to": 153,
+     "title_ar": "طلب كتاب من السماء",
+     "title_en": "Asking for a book from the sky",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 67
+    },
+    {
+     "from": 154,
+     "to": 157,
+     "title_ar": "نقض الميثاق ونجاة عيسى",
+     "title_en": "The covenant broken; Isa saved",
+     "visual": "ambient",
+     "care": "Musa, Isa, Maryam (156 slander): no motif; 157 the crucifixion is never drawn and glossed only as both tafsirs say.",
+     "est_s": 95
+    },
+    {
+     "from": 158,
+     "to": 160,
+     "title_ar": "رفع عيسى",
+     "title_en": "Isa raised up",
+     "visual": "ambient",
+     "care": "Isa raised: no motif on him.",
+     "est_s": 42
+    },
+    {
+     "from": 161,
+     "to": 162,
+     "title_ar": "أهل العلم المؤمنون",
+     "title_en": "The believing scholars",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 66,
+     "blocked": "4:162 overlaps the previous verse by 40 ms: docs/progress/DECISIONS_NEEDED.md section 2"
+    }
+   ]
+  },
+  {
+   "title_ar": "الوحي والتوحيد",
+   "title_en": "Revelation and oneness",
+   "from": 163,
+   "to": 175,
+   "videos": [
+    {
+     "from": 163,
+     "to": 163,
+     "title_ar": "وحي واحد",
+     "title_en": "One revelation",
+     "visual": "ambient",
+     "care": "Prophets named: no motif.",
+     "est_s": 48,
+     "blocked": "Tanzil encoding difference (4:163, small yeh): docs/progress/DECISIONS_NEEDED.md section 1"
+    },
+    {
+     "from": 164,
+     "to": 165,
+     "title_ar": "حجة الرسل",
+     "title_en": "Messengers as proof",
+     "visual": "ambient",
+     "care": "Musa spoken to: no motif.",
+     "est_s": 41
+    },
+    {
+     "from": 166,
+     "to": 170,
+     "title_ar": "شهادة الله",
+     "title_en": "Allah's testimony",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 85
+    },
+    {
+     "from": 171,
+     "to": 172,
+     "title_ar": "النهي عن الغلو",
+     "title_en": "No excess in religion",
+     "visual": "ambient",
+     "care": "Isa, Maryam, the Trinity refuted: no motif on Isa; the claim never shown as a statement.",
+     "est_s": 85
+    },
+    {
+     "from": 173,
+     "to": 175,
+     "title_ar": "الحجة والهدى",
+     "title_en": "Proof and guidance",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 73
+    }
+   ]
+  },
+  {
+   "title_ar": "ميراث الكلالة",
+   "title_en": "Inheritance of kalala",
+   "from": 176,
+   "to": 176,
+   "videos": [
+    {
+     "from": 176,
+     "to": 176,
+     "title_ar": "ميراث الكلالة",
+     "title_en": "Inheritance of kalala",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 61
+    }
+   ]
+  }
+ ]
+}

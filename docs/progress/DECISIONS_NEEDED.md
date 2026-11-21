@@ -41,6 +41,8 @@ to you. The automatic safety review also refused a change to the verifier, corre
 Until you decide, Al-Baqarah is planned in full, and only the videos that contain **none** of these verses are
 produced.
 
+**Also affected: An-Nisa (surah 4):** 4:18 («الآن», case 2) and 4:69, 4:163 (small yā', case 1); videos 4:18, 4:69–70 and 4:163 are blocked.
+
 **Also affected: Aal Imran (surah 3).** 3:20, 21, 75, 79, 80 and 81 differ from Tanzil only in the first case (the
 small yā' in «الأميين», «النبيين», «ربانيين»). Their videos (3:20, 21–23, 74–76, 79–80, 81–83) are blocked by the same
 decision. The agent checked: with only this one substitution, each verse is identical to Tanzil.
@@ -82,6 +84,7 @@ start with 2:253–254, which decision 2 blocks (2:253).
   - 177: 80 ms.
 - 3:135 words 1–2 have no timing at all, so option A would not unblock that one.
 - Blocked videos: 3:133–136, 3:137–139 and 3:176–179.
+- An-Nisa: 4:74 word 1 has no timing (with no clean cut after 4:73, so 4:73–74 is blocked); 4:162 overlaps 4:161 by 40 ms (4:161–162 blocked).
 - 3:25 has a broken word segment: word 15 is timed 576180–576170 ms, so it ends before it starts. The verse also
   has five word segments of 70–100 ms. `verify.py` fails it («segment with end<start»), so 3:24–26 is blocked as
   well. A `timing_corrections` entry cannot fix an end time and must be confirmed by ear in any case.
