@@ -192,6 +192,19 @@
       "motif": "geometric",
       "place": "top",
       "size": "m"
+     },
+     {
+      "at": [
+       25,
+       40
+      ],
+      "until": [
+       25,
+       45
+      ],
+      "motif": "book",
+      "place": "top",
+      "size": "m"
      }
     ]
    }
