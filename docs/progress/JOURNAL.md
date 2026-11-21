@@ -482,3 +482,29 @@ or by eye. The per-surah summary goes into each `plans/<n>.json` "notes"; this f
   in the app.
 - Builds now run in one detached manager (`buildall.sh`, 3 workers) because background shells are stopped after
   2 hours; the chained queues lost two runs that way.
+
+### An-Nisa 4:58–115 gloss review (independent sub-agent): 4 SERIOUS and 13 MINOR, all applied (2026-11-21)
+
+- **Serious:**
+  - 76:13–15: «أهل الكفر والشرك الذين يتولون الشيطان» under «فقاتلوا» read as a general command against all
+    non-Muslims. The chip is narrowed to «أولياء الشيطان», with only who they are.
+  - 75:1–7: As-Sa'di's «تهييج… على القتال» read as a general call to fight. It is replaced by his own restriction:
+    «من باب القتال والذب عن عيلاتكم وأولادكم ومحارمكم».
+  - 91:15–22: the excerpt dropped «ويكفوا أيديهم» and took Al-Muyassar's «الاستسلام التام» before «فخذوهم
+    واقتلوهم». It is now As-Sa'di's «اعتزال المؤمنين وترك قتالهم».
+  - 93:7–8: «فلا يجازيهم بالخلود» under «خالدا فيها» looked like a contradiction of the recited words. It is now
+    Al-Muyassar's hinge «إن جازاه على ذنبه», in red.
+- **Minor:**
+  - Glosses:
+    - dropped Al-Muyassar's «مستسلمين» for «السلم» in 90;
+    - kept «لمن اتقى» out of a chip whose excerpt lacked it;
+    - kept the fourth condition of istighfar (110);
+    - kept Al-Muyassar's «قولا مؤثرا» instead of As-Sa'di's «سرا» (63);
+    - narrowed «كل من حكم بغير شرع الله فهو طاغوت» to the hypocrites' disputes (60);
+    - fixed «أمر أولئك» (read as "He commanded").
+    - replaced three dangling or headless fragments (68, 83, 87).
+  - Titles: «الجمع للحساب» («يوم الجمع» is a Quranic name of the Day), «الذكر بعد الصلاة».
+- **Lessons:**
+  - In fighting passages, never gloss the object of «قاتلوا» with a general label: keep the tafsir's own restriction
+    (defence, those who fight).
+  - Never put a gloss that seems to deny the recited words under them; use the tafsir's hinge.
