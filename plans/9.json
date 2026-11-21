@@ -76,8 +76,8 @@
    ]
   },
   {
-   "title_ar": "عمارة المساجد",
-   "title_en": "Tending the mosques",
+   "title_ar": "مراتب الأعمال",
+   "title_en": "The ranks of deeds",
    "from": 17,
    "to": 23,
    "videos": [
@@ -93,8 +93,8 @@
     {
      "from": 19,
      "to": 21,
-     "title_ar": "أعظم الأعمال",
-     "title_en": "The greatest deeds",
+     "title_ar": "أفضل الأعمال",
+     "title_en": "The best of deeds",
      "visual": "ambient",
      "care": "",
      "est_s": 79
@@ -111,16 +111,16 @@
    ]
   },
   {
-   "title_ar": "يوم حنين",
-   "title_en": "The day of Hunayn",
+   "title_ar": "غزوة حنين",
+   "title_en": "The battle of Hunayn",
    "from": 24,
    "to": 26,
    "videos": [
     {
      "from": 24,
      "to": 26,
-     "title_ar": "حنين والسكينة",
-     "title_en": "Hunayn and tranquillity",
+     "title_ar": "نصر بعد شدة",
+     "title_en": "Victory after hardship",
      "visual": "ambient",
      "care": "One unit with 24-26 (24 is joined to 25). Angels never drawn. Fighting verse: only what both tafsirs say, with their restrictions; no battle, weapon or killing drawn; no present-day reading or people targeted.",
      "est_s": 108
@@ -128,37 +128,37 @@
    ]
   },
   {
-   "title_ar": "أهل الكتاب",
-   "title_en": "The People of the Book",
+   "title_ar": "صفاء التوحيد",
+   "title_en": "The purity of tawhid",
    "from": 27,
    "to": 35,
    "videos": [
     {
      "from": 27,
      "to": 29,
-     "title_ar": "التوبة وأحكام المسجد",
-     "title_en": "Repentance and the Sacred Mosque",
+     "title_ar": "حرمة الحرم",
+     "title_en": "The sanctity of the Sanctuary",
      "visual": "ambient",
      "care": "29: Fighting verse: only what both tafsirs say, with their restrictions; no battle, weapon or killing drawn; no present-day reading or people targeted.",
      "est_s": 90
     },
     {
      "from": 30,
-     "to": 32,
+     "to": 31,
      "title_ar": "دعاوى باطلة",
      "title_en": "False claims",
      "visual": "ambient",
      "care": "Their claims never shown as statements; no people named politically.",
-     "est_s": 77
+     "est_s": 54
     },
     {
-     "from": 33,
+     "from": 32,
      "to": 35,
-     "title_ar": "ظهور الدين وكنز المال",
-     "title_en": "The religion prevails; hoarded wealth",
+     "title_ar": "الإسلام والمال",
+     "title_en": "Islam and wealth",
      "visual": "ambient",
-     "care": "Gold and silver not drawn in the punishment (35); Their claims never shown as statements; no people named politically.",
-     "est_s": 84
+     "care": "The reciter joins 32 to 33 (no clean cut at the 32/33 boundary in the project-level check), so 32-35 is one unit. Gold and silver not drawn in the punishment (35); Their claims never shown as statements; no people named politically.",
+     "est_s": 101
     }
    ]
   },
