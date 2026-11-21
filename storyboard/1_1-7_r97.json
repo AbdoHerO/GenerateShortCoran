@@ -262,7 +262,7 @@
     2
    ],
    "tafsir": 16,
-   "excerpt": "علم على الرب -تبارك وتعالى- المعبود بحق دون سواه",
+   "excerpt": "المعبود بحق دون سواه، وهو أخص أسماء الله تعالى",
    "target": "",
    "tone": "blue"
   },
@@ -274,7 +274,7 @@
    ],
    "tafsir": 16,
    "excerpt": "المربي لجميع خلقه بنعمه",
-   "target": "motif",
+   "target": "",
    "tone": "green"
   },
   {
@@ -283,8 +283,8 @@
     1,
     2
    ],
-   "tafsir": 16,
-   "excerpt": "ذي الرحمة العامة الذي وسعت رحمته جميع الخلق",
+   "tafsir": 91,
+   "excerpt": "اسمان دالان على أنه تعالى ذو الرحمة الواسعة العظيمة",
    "target": "light",
    "tone": "green"
   },
@@ -295,7 +295,7 @@
     3
    ],
    "tafsir": 16,
-   "excerpt": "وهو يوم الجزاء على الأعمال",
+   "excerpt": "يوم الجزاء على الأعمال",
    "target": "motif",
    "tone": "amber"
   },
@@ -328,7 +328,7 @@
     4
    ],
    "tafsir": 16,
-   "excerpt": "من النبيين والصدِّيقين والشهداء والصالحين",
+   "excerpt": "فهم أهل الهداية والاستقامة",
    "target": "motif",
    "tone": "green"
   },
@@ -357,7 +357,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Al-Fatihah, one video. Ambient only (names and attributes of Allah, worship, du'a). Glosses from Al-Muyassar and As-Sa'di; the excerpts on 7:6 and 7:9 describe the two groups without naming them."
+  "notes": "Al-Fatihah, one video. Ambient only (names and attributes of Allah, worship, du'a). Glosses from Al-Muyassar and As-Sa'di; the excerpts on 7:6 and 7:9 describe the two groups without naming them. Independent review 2026-11-21: 1 serious (arrow from «رب العالمين» to the stars motif removed) and 4 minor gloss fixes applied."
  },
  "cover": {
   "series_ar": "فاتحة الكتاب",

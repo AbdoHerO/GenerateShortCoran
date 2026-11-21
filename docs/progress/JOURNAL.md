@@ -58,3 +58,13 @@ or by eye. The per-surah summary goes into each `plans/<n>.json` "notes"; this f
   - Dussary joins 6→7. That boundary is inside the video, so nothing is cut there.
 - One video, 1:1–7, about 54 s: three ambient chapters, 9 glosses, motifs geometric / stars / light / hourglass /
   hands / lamp / two_paths.
+- Independent review (a separate sub-agent) found 1 SERIOUS and 4 MINOR items, all fixed:
+  - **Serious:** the gloss «المربي لجميع خلقه بنعمه» on «رب العالمين» pointed its arrow at the stars motif. It could
+    read as if the stars were the Rabb (compare the star scene in 6:76), so the arrow was removed.
+  - 1:1: a clearer excerpt, «المعبود بحق دون سواه، وهو أخص أسماء الله تعالى». The old one began with «علم», easily
+    read as "knowledge".
+  - 1:3: now As-Sa'di's joint explanation of both names. Muyassar gives الرحمن and الرحيم different meanings.
+  - 1:4: dropped the loose «وهو».
+  - 1:7: «فهم أهل الهداية والاستقامة» replaces the list of the four groups, which is the wording of An-Nisa 4:69.
+- **Lesson for every surah:** a gloss arrow must never make a motif look like it stands for Allah. Use no arrow on
+  glosses about Allah's names and attributes.
