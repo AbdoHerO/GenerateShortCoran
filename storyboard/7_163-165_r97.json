@@ -170,7 +170,10 @@
        164,
        14
       ],
-      "until": null,
+      "until": [
+       165,
+       1
+      ],
       "motif": "light",
       "place": "top",
       "size": "m"
@@ -265,7 +268,7 @@
     10
    ],
    "tafsir": 91,
-   "excerpt": "إذا نـزلت نجا منها الآمرون بالمعروف والناهون عن المنكر",
+   "excerpt": "من العذاب",
    "target": "",
    "tone": "green"
   },
@@ -286,8 +289,8 @@
   "notes": "Fish only for «تأتيهم حيتانهم»; no people, trick or punishment drawn. Light for the admonishers' answer. The fate of the silent group is not glossed (only that the forbidders were saved)."
  },
  "cover": {
-  "series_ar": "رسالة عامة",
-  "series_en": "A message for all",
+  "series_ar": "عبر من بني إسرائيل",
+  "series_en": "Lessons from the Children of Israel",
   "title_ar": "حيلة السبت",
   "title_en": "The Sabbath ruse",
   "at": [

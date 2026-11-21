@@ -428,8 +428,8 @@
     {
      "from": 142,
      "to": 147,
-     "title_ar": "ميقات موسى",
-     "title_en": "Musa's appointment",
+     "title_ar": "موعد المناجاة",
+     "title_en": "The appointed meeting",
      "visual": "ambient",
      "care": "One unit: the reciter joins 142→147 (about 165 s). Allah: nothing literal for «تجلى ربه للجبل»; Musa: no motif.",
      "est_s": 173
@@ -446,8 +446,8 @@
     {
      "from": 150,
      "to": 153,
-     "title_ar": "غضب موسى",
-     "title_en": "Musa's anger",
+     "title_ar": "الغيرة لله",
+     "title_en": "Zeal for Allah",
      "visual": "ambient",
      "care": "Musa and Harun: no motif.",
      "est_s": 94
@@ -473,8 +473,8 @@
    ]
   },
   {
-   "title_ar": "رسالة عامة",
-   "title_en": "A message for all",
+   "title_ar": "عبر من بني إسرائيل",
+   "title_en": "Lessons from the Children of Israel",
    "from": 158,
    "to": 171,
    "videos": [
@@ -535,8 +535,8 @@
     {
      "from": 172,
      "to": 173,
-     "title_ar": "الميثاق الأول",
-     "title_en": "The first covenant",
+     "title_ar": "ميثاق الفطرة",
+     "title_en": "The covenant of the fitrah",
      "visual": "ambient",
      "care": "The covenant: nothing literal.",
      "est_s": 60
@@ -544,8 +544,8 @@
     {
      "from": 174,
      "to": 176,
-     "title_ar": "مثل العالم الضال",
-     "title_en": "The scholar who strayed",
+     "title_ar": "الهوى بعد العلم",
+     "title_en": "Desire after knowledge",
      "visual": "ambient",
      "care": "No dog motif.",
      "est_s": 71
@@ -553,8 +553,8 @@
     {
      "from": 177,
      "to": 178,
-     "title_ar": "هداية الله",
-     "title_en": "Allah's guidance",
+     "title_ar": "التوفيق والخذلان",
+     "title_en": "Guided or forsaken",
      "visual": "ambient",
      "care": "",
      "est_s": 36

@@ -726,3 +726,46 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
   - «فشرد بهم», «ترهبون به» and the striking in 12 and 50 are not glossed.
   - No people are named politically (Al-Muyassar's naming in 56 is not used), and As-Sa'di's «حزب الله» is avoided.
 - Two independent reviewers are running (glosses; motifs).
+
+### Al-A'raf reviews applied: glosses 103-206 and motifs (2026-11-21)
+
+- **Glosses 103-206** (0 serious, 25 minor), all applied:
+  - 157 now names the Prophet with ﷺ: «الذي لا يقرأ ولا يكتب، وهو محمد صلى الله عليه وسلم».
+  - Fixed:
+    - a misspelt salutation (150);
+    - a first-person reading (142);
+    - a dropped condition (185);
+    - a side taken on the dog simile (176);
+    - a pronoun with no referent (133);
+    - «مدبر», which reads as "fleeing" (188);
+    - unmarked quotations of 33:23, 9:112 and 6:157 (174, 165, 177);
+    - a restated verse (155);
+    - a stray comma (149);
+    - «احبسهما», As-Sa'di's view alone (111);
+    - two tatweels (114, 165).
+  - Five optional gloss notes (168, 180, 181, 192, 199) were also applied.
+- **Titles:**
+  - Covers:
+    - «ميثاق الفطرة»: «الميثاق الأول» implied the 'alam al-dharr reading that As-Sa'di rejects.
+    - «الهوى بعد العلم»: «العالم» read as "the world".
+    - «التوفيق والخذلان».
+    - «موعد المناجاة».
+    - «الغيرة لله».
+  - Eleven chapter titles no longer restate the verse; «المستضعفين» (a political slogan word) is gone.
+  - Series 158-171 is renamed «عبر من بني إسرائيل».
+- **Motifs** (2 serious, 15 minor):
+  - SERIOUS:
+    - The `mountains` mood lit a sparkle on the summit at «فلما تجلى ربه للجبل»; 142-143 is now `geometric`.
+    - The rising sun stood over the prostration verse 206; it is now `light`.
+  - Dawn removed from four threat or blame chapters (34-36, 52-53, 168-169, 189-190).
+  - Sea removed under «وأغرقنا» (63-64) and the idol request (138-139).
+  - Palm groves removed under «الشجرة» (20-22).
+  - Eight motif spans trimmed: off the Prophet's self-description, off «ربكم», off the angels and «نوح», and off the
+    disbelievers' reply and the punishment.
+- **Lesson:**
+  - A mood is a picture too.
+  - `mountains` draws light on a summit and `dawn` draws a sun: never use either where the verse speaks of Allah's
+    manifestation, a prostration, a threat or a punishment.
+  - The glosses 1-102 reviewer is still running.
+- **For the human reviewer:** at 7:193 the English translation (believers inviting the idolaters) differs from both
+  tafsirs (idolaters calling their idols).

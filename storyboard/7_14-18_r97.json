@@ -51,10 +51,7 @@
        15,
        1
       ],
-      "until": [
-       15,
-       4
-      ],
+      "until": null,
       "motif": "hourglass",
       "place": "top",
       "size": "m"

@@ -116,7 +116,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn",
+    "mood": "light",
     "beats": [
      {
       "at": [
@@ -338,8 +338,8 @@
     10,
     12
    ],
-   "tafsir": 16,
-   "excerpt": "بالرخاء في العيش والسَّعَة في الرزق",
+   "tafsir": 91,
+   "excerpt": "بالعسر واليسر",
    "target": "",
    "tone": "blue"
   },
@@ -437,8 +437,8 @@
   "notes": "The transformation (166) is never drawn; glossed only «قولا قدريا… وأبعدهم اللّه من رحمته». 167:4-12 is glossed «يهينهم، ويذلهم» without naming any present-day people. Their claim «سيغفر لنا» is framed «تمنيًا على الله الأباطيل». First-person «قطعناهم… بلوناهم» not used; As-Sa'di's «خير وأبقى» avoided. 169: short-word flag, listen."
  },
  "cover": {
-  "series_ar": "رسالة عامة",
-  "series_en": "A message for all",
+  "series_ar": "عبر من بني إسرائيل",
+  "series_en": "Lessons from the Children of Israel",
   "title_ar": "عاقبة العصاة",
   "title_en": "The end of the defiant",
   "at": [

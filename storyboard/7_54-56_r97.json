@@ -139,30 +139,23 @@
      {
       "at": [
        55,
-       3
+       4
       ],
       "do": "pan_right"
      },
      {
       "at": [
        55,
-       5
+       6
       ],
       "do": "pan_left"
      },
      {
       "at": [
        56,
-       1
+       2
       ],
       "do": "shot_wide"
-     },
-     {
-      "at": [
-       56,
-       5
-      ],
-      "do": "pan_right"
      },
      {
       "at": [
@@ -176,21 +169,21 @@
        56,
        9
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        56,
        15
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      }
     ],
     "motifs": [
      {
       "at": [
        55,
-       1
+       3
       ],
       "until": [
        55,

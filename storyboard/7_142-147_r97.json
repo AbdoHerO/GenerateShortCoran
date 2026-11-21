@@ -35,7 +35,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "mountains",
+    "mood": "geometric",
     "beats": [
      {
       "at": [
@@ -261,7 +261,7 @@
   },
   {
    "id": "c3",
-   "title": "صرف المتكبرين",
+   "title": "حرمان المتكبرين",
    "verses": [
     146,
     147
@@ -396,8 +396,8 @@
     19,
     23
    ],
-   "tafsir": 16,
-   "excerpt": "وأحمِلَهم على طاعة الله وعبادته",
+   "tafsir": 91,
+   "excerpt": "اتبع طريق الصلاح",
    "target": "",
    "tone": "green"
   },
@@ -618,8 +618,8 @@
  "cover": {
   "series_ar": "بنو إسرائيل بعد النجاة",
   "series_en": "The Children of Israel after rescue",
-  "title_ar": "ميقات موسى",
-  "title_en": "Musa's appointment",
+  "title_ar": "موعد المناجاة",
+  "title_en": "The appointed meeting",
   "at": [
    142,
    1

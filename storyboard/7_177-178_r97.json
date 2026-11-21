@@ -63,7 +63,7 @@
   },
   {
    "id": "c2",
-   "title": "الهداية بيد الله",
+   "title": "مصدر الهداية",
    "verses": [
     178
    ],
@@ -119,8 +119,8 @@
     1,
     6
    ],
-   "tafsir": 91,
-   "excerpt": "ساء وقبح، مثل من كذب بآيات اللّه",
+   "tafsir": 16,
+   "excerpt": "بحجج الله وأدلته، فجحدوها",
    "target": "",
    "tone": "red"
   },
@@ -165,8 +165,8 @@
  "cover": {
   "series_ar": "الميثاق والهدى",
   "series_en": "The covenant and guidance",
-  "title_ar": "هداية الله",
-  "title_en": "Allah's guidance",
+  "title_ar": "التوفيق والخذلان",
+  "title_en": "Guided or forsaken",
   "at": [
    178,
    1

@@ -28,7 +28,7 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "العالم الضال",
+   "title": "نبذ العلم",
    "verses": [
     174,
     175
@@ -99,7 +99,7 @@
   },
   {
    "id": "c2",
-   "title": "مثل المكذبين",
+   "title": "إيثار الدنيا",
    "verses": [
     176
    ],
@@ -184,7 +184,7 @@
     5
    ],
    "tafsir": 91,
-   "excerpt": "إلى ما أودع اللّه في فطرهم، وإلى ما عاهدوا اللّه عليه",
+   "excerpt": "إلى ما أودع اللّه في فطرهم",
    "target": "",
    "tone": "blue"
   },
@@ -250,7 +250,7 @@
     20
    ],
    "tafsir": 91,
-   "excerpt": "في شدة حرصه على الدنيا وانقطاع قلبه إليها",
+   "excerpt": "لا يزال لاهثا في كل حال",
    "target": "",
    "tone": "red"
   },
@@ -268,13 +268,13 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The man is not identified (Al-Muyassar's «رجل من بني إسرائيل» is one view; As-Sa'di leaves it open). No dog motif and no Shaytan; the simile is glossed by its meaning («في شدة حرصه على الدنيا»). First-person «آتيناه… لرفعناه» not paraphrased. 176:21-26 not glossed."
+  "notes": "The man is not identified (Al-Muyassar's «رجل من بني إسرائيل» is one view; As-Sa'di leaves it open). No dog motif and no Shaytan; the simile is glossed only by the image both tafsirs share («لا يزال لاهثا في كل حال»). First-person «آتيناه… لرفعناه» not paraphrased. 176:21-26 not glossed."
  },
  "cover": {
   "series_ar": "الميثاق والهدى",
   "series_en": "The covenant and guidance",
-  "title_ar": "مثل العالم الضال",
-  "title_en": "The scholar who strayed",
+  "title_ar": "الهوى بعد العلم",
+  "title_en": "Desire after knowledge",
   "at": [
    175,
    1
