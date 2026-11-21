@@ -928,3 +928,23 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
   - `mountains` is not used anywhere Allah's name is recited.
 - **Series renamed:** «أصناف الناس», «رحمة التوبة».
 - Two independent reviewers (glosses; motifs) are running on 60-129.
+
+### At-Tawba 60-129 motif review applied; Yunus 1-93 written (2026-11-21)
+
+- **At-Tawba 60-129 motifs:** 0 serious, 7 minor, all applied, plus five draw-time fixes.
+  - Wind moved off «بالله» (62).
+  - Geometric replaces scales on «فما كان الله ليظلمهم» (70).
+  - Mood changes:
+    - verse 79 (blame only): `geometric`;
+    - 128: `night_sky` instead of a light falling on «رسول».
+  - Motif changes:
+    - 92 «ما ينفقون» (what they did not have): light instead of coins, which dropped the negation;
+    - 109 «شفا جرف هار»: wind instead of the "steadfast" mountain;
+    - 111 (lives sold for Paradise): a seal instead of coins.
+  - The gloss reviewer for 60-129 is still running.
+- **Yunus:**
+  - 24 storyboards for 1-93 are written, verified and cut-checked.
+  - 24-26 is one unit: the end of 25 has no clean cut.
+  - Blocked: 31-34, 50-51, 91 and 104-107 (decisions 1 and 2).
+  - 89-90 ends on Pharaoh's late declaration of faith, whose refutation (91) is blocked. Its chapter title
+    «إيمان بعد فوات» and the gloss «وجزم بهلاكه» frame it; the reviewer should confirm this is enough.

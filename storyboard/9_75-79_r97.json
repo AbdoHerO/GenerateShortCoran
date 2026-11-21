@@ -176,7 +176,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light",
+    "mood": "geometric",
     "beats": [
      {
       "at": [
@@ -215,7 +215,7 @@
       ],
       "until": [
        79,
-       8
+       9
       ],
       "motif": "coins",
       "place": "top",
