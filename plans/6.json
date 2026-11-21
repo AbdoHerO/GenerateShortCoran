@@ -201,8 +201,8 @@
     {
      "from": 59,
      "to": 60,
-     "title_ar": "علم الغيب",
-     "title_en": "Knowledge of the unseen",
+     "title_ar": "العلم المحيط",
+     "title_en": "The all-encompassing knowledge",
      "visual": "ambient",
      "care": "Nothing literal for the unseen; sleep and death: nothing drawn.",
      "est_s": 72
@@ -230,8 +230,8 @@
     {
      "from": 67,
      "to": 70,
-     "title_ar": "مجالس الخائضين",
-     "title_en": "Sittings of mockers",
+     "title_ar": "اجتناب مجالس الباطل",
+     "title_en": "Leaving sittings of falsehood",
      "visual": "ambient",
      "care": "",
      "est_s": 95
@@ -239,8 +239,8 @@
     {
      "from": 71,
      "to": 73,
-     "title_ar": "هدى الله",
-     "title_en": "Allah's guidance",
+     "title_ar": "الثبات بعد الهداية",
+     "title_en": "Steadfast after guidance",
      "visual": "ambient",
      "care": "The Horn and the Day: nothing literal; 73: short-word flag (listen).",
      "est_s": 80
@@ -256,8 +256,8 @@
     {
      "from": 74,
      "to": 77,
-     "title_ar": "إبراهيم والكواكب",
-     "title_en": "Ibrahim and the stars",
+     "title_ar": "إبراهيم يحاور قومه",
+     "title_en": "Ibrahim reasons with his people",
      "visual": "ambient",
      "care": "Ibrahim: no motif; no star, moon or sun motif (they would illustrate what his people worshipped).",
      "est_s": 73
@@ -265,8 +265,8 @@
     {
      "from": 78,
      "to": 79,
-     "title_ar": "البراءة من الشرك",
-     "title_en": "Disowning shirk",
+     "title_ar": "براءة إبراهيم",
+     "title_en": "Ibrahim's disavowal",
      "visual": "ambient",
      "care": "No sun motif.",
      "est_s": 42

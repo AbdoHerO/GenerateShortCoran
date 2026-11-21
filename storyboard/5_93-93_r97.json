@@ -69,11 +69,11 @@
      {
       "at": [
        93,
-       6
+       4
       ],
       "until": [
        93,
-       8
+       7
       ],
       "motif": "growth",
       "place": "top",
@@ -146,8 +146,8 @@
  "cover": {
   "series_ar": "الأيمان والخمر والصيد",
   "series_en": "Oaths, wine and hunting",
-  "title_ar": "رفع الحرج",
-  "title_en": "No blame",
+  "title_ar": "ما قبل التحريم",
+  "title_en": "Before the prohibition",
   "at": [
    93,
    1

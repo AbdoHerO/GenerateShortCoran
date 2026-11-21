@@ -36,7 +36,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
@@ -196,7 +196,7 @@
    "verse": 27,
    "words": [
     10,
-    16
+    12
    ],
    "tafsir": 16,
    "excerpt": "لأنه كان تقيًّا",

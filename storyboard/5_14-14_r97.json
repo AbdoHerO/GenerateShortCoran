@@ -99,7 +99,10 @@
        14,
        7
       ],
-      "until": null,
+      "until": [
+       14,
+       8
+      ],
       "motif": "seal",
       "place": "top",
       "size": "m"

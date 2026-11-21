@@ -101,8 +101,8 @@
     {
      "from": 15,
      "to": 17,
-     "title_ar": "النور والكتاب",
-     "title_en": "The light and the Book",
+     "title_ar": "نور القرآن",
+     "title_en": "The light of the Quran",
      "visual": "ambient",
      "care": "17: the claim «إن الله هو المسيح» never shown as a statement; no motif on Isa or Maryam.",
      "est_s": 93
@@ -206,7 +206,7 @@
    ]
   },
   {
-   "title_ar": "الحكم بما أنزل الله",
+   "title_ar": "الحكم بالوحي",
    "title_en": "Judging by revelation",
    "from": 41,
    "to": 50,
@@ -250,8 +250,8 @@
     {
      "from": 49,
      "to": 50,
-     "title_ar": "حكم الجاهلية",
-     "title_en": "Pre-Islamic judgement",
+     "title_ar": "الوحي أو الهوى",
+     "title_en": "Revelation or desire",
      "visual": "ambient",
      "care": "",
      "est_s": 64
@@ -312,7 +312,7 @@
     {
      "from": 61,
      "to": 63,
-     "title_ar": "أكل السحت",
+     "title_ar": "أكل الحرام",
      "title_en": "Consuming the unlawful",
      "visual": "ambient",
      "care": "",
@@ -437,8 +437,8 @@
     {
      "from": 93,
      "to": 93,
-     "title_ar": "رفع الحرج",
-     "title_en": "No blame",
+     "title_ar": "ما قبل التحريم",
+     "title_en": "Before the prohibition",
      "visual": "ambient",
      "care": "93: short-word flag (listen).",
      "est_s": 35

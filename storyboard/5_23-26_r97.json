@@ -71,7 +71,10 @@
        23,
        11
       ],
-      "until": null,
+      "until": [
+       23,
+       16
+      ],
       "motif": "door",
       "place": "top",
       "size": "m"
@@ -189,7 +192,10 @@
        26,
        5
       ],
-      "until": null,
+      "until": [
+       26,
+       10
+      ],
       "motif": "hourglass",
       "place": "top",
       "size": "m"
@@ -303,10 +309,10 @@
    "verse": 26,
    "words": [
     1,
-    4
+    6
    ],
-   "tafsir": 16,
-   "excerpt": "إن الأرض المقدَّسة محرَّم على هؤلاء اليهود دخولها",
+   "tafsir": 91,
+   "excerpt": "وهذه عقوبة دنيوية",
    "target": "",
    "tone": "red"
   },

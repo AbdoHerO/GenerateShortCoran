@@ -39,30 +39,23 @@
      {
       "at": [
        49,
-       5
+       8
       ],
       "do": "pan_right"
      },
      {
       "at": [
        49,
-       8
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       49,
-       9
+       10
       ],
       "do": "pan_left"
      },
      {
       "at": [
        49,
-       13
+       14
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -76,48 +69,48 @@
        49,
        19
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        49,
        22
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        49,
        25
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        49,
        27
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        49,
        31
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      }
     ],
     "motifs": [
      {
       "at": [
        49,
-       2
+       4
       ],
       "until": [
        49,
        7
       ],
-      "motif": "scales",
+      "motif": "book",
       "place": "top",
       "size": "m"
      }
@@ -224,7 +217,7 @@
     3
    ],
    "tafsir": 91,
-   "excerpt": "فلا ثم إلا حكم الله ورسوله أو حكم الجاهلية",
+   "excerpt": "المبني على الجهل والظلم والغي",
    "target": "",
    "tone": "red"
   },
@@ -245,10 +238,10 @@
   "notes": "Scales for «احكم» (justice, leaving before «ولا تتبع أهواءهم»), geometric for «ومن أحسن من الله حكما». No motif on the Prophet ﷺ."
  },
  "cover": {
-  "series_ar": "الحكم بما أنزل الله",
+  "series_ar": "الحكم بالوحي",
   "series_en": "Judging by revelation",
-  "title_ar": "حكم الجاهلية",
-  "title_en": "Pre-Islamic judgement",
+  "title_ar": "الوحي أو الهوى",
+  "title_en": "Revelation or desire",
   "at": [
    50,
    1

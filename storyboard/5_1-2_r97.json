@@ -71,7 +71,10 @@
        1,
        5
       ],
-      "until": null,
+      "until": [
+       1,
+       10
+      ],
       "motif": "seal",
       "place": "top",
       "size": "m"
@@ -91,7 +94,7 @@
   },
   {
    "id": "c2",
-   "title": "حرمات الله",
+   "title": "صيانة الحرمات",
    "verses": [
     2
    ],
@@ -210,7 +213,10 @@
        2,
        38
       ],
-      "until": null,
+      "until": [
+       2,
+       42
+      ],
       "motif": "hands",
       "place": "top",
       "size": "m"

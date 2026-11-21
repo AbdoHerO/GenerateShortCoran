@@ -41,129 +41,122 @@
        41,
        4
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        41,
        8
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        41,
        12
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        41,
        13
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        41,
        14
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        41,
        17
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        41,
        21
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        41,
        25
       ],
-      "do": "pan_left"
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       41,
+       28
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        41,
        31
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        41,
        34
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        41,
        37
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        41,
        42
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        41,
        47
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        41,
        52
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        41,
        58
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        41,
        63
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      }
     ],
-    "motifs": [
-     {
-      "at": [
-       41,
-       28
-      ],
-      "until": [
-       41,
-       32
-      ],
-      "motif": "scroll",
-      "place": "top",
-      "size": "m"
-     }
-    ]
+    "motifs": []
    }
   },
   {
@@ -179,23 +172,16 @@
      {
       "at": [
        42,
-       3
+       4
       ],
       "do": "pan_right"
      },
      {
       "at": [
        42,
-       5
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       42,
        7
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -209,35 +195,35 @@
        42,
        14
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        42,
        17
       ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       42,
+       21
+      ],
       "do": "pan_right"
      },
      {
       "at": [
        42,
-       20
+       23
       ],
       "do": "shot_wide"
-     },
-     {
-      "at": [
-       42,
-       25
-      ],
-      "do": "pan_left"
      }
     ],
     "motifs": [
      {
       "at": [
        42,
-       22
+       26
       ],
       "until": null,
       "motif": "scales",
@@ -388,7 +374,7 @@
   "notes": "No motif on the Prophet ﷺ. A scroll for «الكلم» (leaving before their words), scales for «بالقسط» (justice, not the Mizan). Their instruction «إن أوتيتم هذا فخذوه…» (41:32-40) is not glossed. Al-Muyassar's first-person «فإني ناصرك» not used."
  },
  "cover": {
-  "series_ar": "الحكم بما أنزل الله",
+  "series_ar": "الحكم بالوحي",
   "series_en": "Judging by revelation",
   "title_ar": "تحريف الأحكام",
   "title_en": "Twisting the rulings",

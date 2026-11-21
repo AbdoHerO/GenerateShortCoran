@@ -165,61 +165,61 @@
      {
       "at": [
        13,
-       5
+       4
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       13,
+       7
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       13,
+       11
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        13,
-       13
+       14
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        13,
        16
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        13,
-       20
+       21
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        13,
-       22
+       25
       ],
       "do": "pan_left"
      },
      {
       "at": [
        13,
-       28
+       29
       ],
       "do": "pan_left"
      }
     ],
-    "motifs": [
-     {
-      "at": [
-       13,
-       9
-      ],
-      "until": [
-       13,
-       12
-      ],
-      "motif": "scroll",
-      "place": "top",
-      "size": "m"
-     }
-    ],
+    "motifs": [],
     "transition": "dissolve"
    }
   }

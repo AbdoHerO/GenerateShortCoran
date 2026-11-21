@@ -28,7 +28,7 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "النور والكتاب المبين",
+   "title": "الرسول والقرآن",
    "verses": [
     15,
     16
@@ -359,8 +359,8 @@
     25,
     28
    ],
-   "tafsir": 16,
-   "excerpt": "فهذا دليلٌ على أنه بشر كسائر بني آدم",
+   "tafsir": 91,
+   "excerpt": "دل على بطلان إلهية من لا يمتنع من الإهلاك",
    "target": "",
    "tone": "blue"
   },
@@ -383,8 +383,8 @@
  "cover": {
   "series_ar": "دعوة أهل الكتاب",
   "series_en": "Call to the People of the Book",
-  "title_ar": "النور والكتاب",
-  "title_en": "The light and the Book",
+  "title_ar": "نور القرآن",
+  "title_en": "The light of the Quran",
   "at": [
    15,
    17

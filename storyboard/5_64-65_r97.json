@@ -239,7 +239,10 @@
        65,
        9
       ],
-      "until": null,
+      "until": [
+       65,
+       10
+      ],
       "motif": "light",
       "place": "top",
       "size": "m"

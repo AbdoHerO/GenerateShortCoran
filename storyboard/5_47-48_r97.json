@@ -237,7 +237,10 @@
        48,
        42
       ],
-      "until": null,
+      "until": [
+       48,
+       43
+      ],
       "motif": "growth",
       "place": "top",
       "size": "m"
@@ -364,7 +367,7 @@
   "notes": "A book for «الإنجيل» and «الكتاب», footsteps for «ومنهاجا», growth for «الخيرات». No motif on Isa or the Prophet ﷺ. 47:1-7 is set in Isa's time (Al-Muyassar: «الذين أرسل إليهم عيسى»). Al-Muyassar's first-person «فقد جعلنا» not used."
  },
  "cover": {
-  "series_ar": "الحكم بما أنزل الله",
+  "series_ar": "الحكم بالوحي",
   "series_en": "Judging by revelation",
   "title_ar": "القرآن المهيمن",
   "title_en": "The Quran as guardian",

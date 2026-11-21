@@ -565,3 +565,58 @@ or by eye. The per-surah summary goes into each `plans/<n>.json` "notes"; this f
   - The end-cut search after a verse with no next verse was limited to 0.6 s, so the check failed at -21 dB.
   - It now looks up to 2.5 s when nothing follows. `find_cut` still takes the quiet point nearest the timed end
     under the same -26 dB limit, so every cut that was found before is unchanged (re-checked on 2:286, 3:200, 4:176).
+
+### Al-Ma'idah: independent reviews applied (2026-11-21)
+
+Three independent reviewer sub-agents: glosses 1-58 (228 glosses), glosses 59-120 (204 glosses), and motifs over
+all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `review_5_motif.md` (not committed).
+
+- **Glosses 1-58: 2 serious, 14 minor.**
+  - Serious:
+    - 5:26 no longer stops before «أربعين سنة»: it is now As-Sa'di's «وهذه عقوبة دنيوية» over words 1-6.
+    - 5:21 no longer reads as a present-day command to fight; only «فتخسروا خير الدنيا وخير الآخرة» is kept.
+  - Minor:
+    - 5:27 chip narrowed, so «لأنه كان تقيًّا» is not under «ولم يتقبل من الآخر».
+    - Dangling or headless fragments replaced (5:8, 5:43, 5:58), and 5:56 is narrowed.
+    - 5:50 no longer repeats «حكم الجاهلية».
+  - Titles:
+    - Series «الحكم بالوحي» (was a doctrinal phrase of the Quran).
+    - Covers «الوحي أو الهوى» and «نور القرآن».
+    - Chapters «الرسول والقرآن», «المحبة والولاية», «صرف بطش الأعداء» and «صيانة الحرمات».
+- **Glosses 59-120: 2 serious, 19 minor.**
+  - Serious:
+    - 5:74 lost a leading «من», so it no longer reads "seek forgiveness *for* tawhid".
+    - Cover «رفع الحرج» became «ما قبل التحريم»: under the wine series, the old title read as "no blame".
+  - Minor:
+    - 5:115 no longer takes a side on whether the table came down.
+    - 5:66 is reduced to «فريقًا معتدلا»; 5:118 is now Al-Muyassar's «تفعل بهم ما تشاء بعدلك».
+    - Dropped: 5:106 «صلاة المسلمين» and 5:87 «ولا تعتدوا»; the tafsirs differ on both.
+    - Chips narrowed (5:60, 5:90, 5:92, 5:106).
+  - Titles:
+    - «وحدانية الله», «صلاح الناس وأمنهم», «أكل الحرام», «ما يعيبونه علينا» and «أسوأ الجزاء».
+    - «السكوت عن المعاصي» («التناهي» reads as finiteness).
+    - «ترك السؤال المنهي عنه» (was 5 words) and «المباح والممنوع في الإحرام».
+- **Motifs: 2 serious, 14 minor.**
+  - Serious:
+    - The light after 90:15 no longer stays over the Shaytan, wine and gambling of 91.
+    - The dog of 4:13 leaves before the Name in 4:17.
+  - Minor:
+    - Lingering motifs cut with `until` (1:5, 2:38, 14:7, 23:11, 26:5, 48:42, 65:9).
+    - Scroll removed from «يحرفون الكلم» (13:9, 41:28).
+    - Scales moved off the Prophet's ﷺ own act to «المقسطين», and 49:2 replaced by a book.
+    - 55 geometric limited to the Name; 93 growth leaves before the negated «جناح».
+    - Mood of 27-29 is now night_sky.
+- **Verifier gaps the reviewers found** (to strengthen, never weaken):
+  - The title skeleton reads the dagger alif as a full alif, so «إله واحد» against «إِلَـٰهٌۭ وَٰحِدٌۭ» was missed.
+  - Prefixes such as «أف» are not stripped in the bigram check, so «حكم الجاهلية» against «أفحكم الجاهلية» was missed.
+- All 46 storyboards re-verified PASSED and are queued for building.
+
+### Al-An'am 59-83: six storyboards (2026-11-21)
+
+- 59-60, 67-70, 71-73, 74-77, 78-79 and 80-83 are written, verified and cut-checked.
+- Care points:
+  - Ibrahim has no motif or figure.
+  - No star, moon, sun or idol is drawn; 76-78 use the geometric mood (no sky).
+  - Every «هذا ربي» is glossed as argument with the opponent, as both tafsirs say.
+  - 71:11-17 (a rhetorical question) is not glossed.
+  - The unseen, the Horn and the Fire are not drawn.
