@@ -139,31 +139,47 @@
    "verses": [
     5
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
-    "transition": "iris",
+    "setting": "prayer_hall",
+    "time": "dawn",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        5,
        1
       ],
-      "do": "shot_wide"
+      "do": "pray",
+      "who": "b"
      },
      {
       "at": [
        5,
-       3
+       2
       ],
-      "do": "pattern_turn"
+      "do": "ruku",
+      "who": "b"
      },
      {
       "at": [
        5,
        4
       ],
-      "do": "light_up"
+      "do": "sujud",
+      "who": "b"
      }
     ],
     "motifs": [
@@ -175,9 +191,10 @@
       "until": null,
       "motif": "hands",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
-    ]
+    ],
+    "transition": "iris"
    }
   },
   {
@@ -187,46 +204,74 @@
     6,
     7
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
-    "transition": "light_sweep",
+    "setting": "desert",
+    "time": "dawn",
+    "actors": [
+     {
+      "id": "w",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "walk",
+      "enter": null,
+      "exit": null,
+      "look": "traveller"
+     }
+    ],
+    "events": [
+     {
+      "type": "light",
+      "at": [
+       6,
+       2
+      ],
+      "until": null
+     }
+    ],
     "beats": [
      {
       "at": [
        6,
        1
       ],
-      "do": "shot_wide"
+      "do": "raise_hands",
+      "who": "w"
      },
      {
       "at": [
        6,
        3
       ],
-      "do": "light_up"
+      "do": "walk_to",
+      "who": "w",
+      "to": "center"
      },
      {
       "at": [
        7,
        3
       ],
-      "do": "sparkle",
-      "who": "light"
+      "do": "shot_close",
+      "who": "w"
      },
      {
       "at": [
        7,
        5
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        7,
        9
       ],
-      "do": "push_in"
+      "do": "walk_to",
+      "who": "w",
+      "to": "right"
      }
     ],
     "motifs": [
@@ -238,7 +283,7 @@
       "until": null,
       "motif": "lamp",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -248,9 +293,10 @@
       "until": null,
       "motif": "two_paths",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
-    ]
+    ],
+    "transition": "light_sweep"
    }
   }
  ],
@@ -357,7 +403,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Al-Fatihah, one video. Ambient only (names and attributes of Allah, worship, du'a). Glosses from Al-Muyassar and As-Sa'di; the excerpts on 7:6 and 7:9 describe the two groups without naming them. Independent review 2026-11-21: 1 serious (arrow from «رب العالمين» to the stars motif removed) and 4 minor gloss fixes applied."
+  "notes": "Al-Fatihah, one video. Ambient only (names and attributes of Allah, worship, du'a). Glosses from Al-Muyassar and As-Sa'di; the excerpts on 7:6 and 7:9 describe the two groups without naming them. Independent review 2026-11-21: 1 serious (arrow from «رب العالمين» to the stars motif removed) and 4 minor gloss fixes applied. STAGING v4: Names and attributes (1-4) stay ambient. 5: believers praying at dawn (worship and asking help). 6-7: a traveller on the road at dawn, light on «الصراط»; the two other groups are not drawn. STAGING v4: Names and attributes (1-4) stay ambient. 5: believers praying at dawn (worship and asking help). 6-7: a traveller on the road at dawn, light on «الصراط»; the two other groups are not drawn."
  },
  "cover": {
   "series_ar": "فاتحة الكتاب",
@@ -369,5 +415,6 @@
    3
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

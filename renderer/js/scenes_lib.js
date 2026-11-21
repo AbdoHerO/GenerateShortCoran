@@ -1837,7 +1837,7 @@ function drawHuman(ctx, a, i, x, y, s, t, st, g, extra = {}, lookOverride = null
   const rd = g.read || 0;
   if (rd > 0.01) { armL = lerp(armL ?? rest, -0.42, ease.outCubic(rd)); armR = lerp(armR ?? rest, -0.42, ease.outCubic(rd)); }
   const pr = g.pray || 0;
-  if (pr > 0.01) prayerFig(ctx, x, y, s, g.pFrom, g.pTo, g.pU, look, al * pr, flip);
+  if (pr > 0.01) prayerFig(ctx, x, y, s * 1.18, g.pFrom, g.pTo, g.pU, look, al * pr, flip);
   if (pr < 0.99) fig(ctx, x, y, s, {
     ...look, walk: st.moving, phase: t * st.speed + i * 1.3, lean: st.lean + (extra.sway || 0), alpha: al * (1 - g.lie) * (1 - pr),
     flip, sx: g.sx, back: g.back, armL, armR, bob: extra.bob || 0, sit: g.sit,
