@@ -133,3 +133,8 @@ or by eye. The per-surah summary goes into each `plans/<n>.json` "notes"; this f
 - **Systematic fix:** `pipeline/autobeats.py` now adds camera moves only. Before, it placed `light_up` and `stars` on
   whatever word fell in a gap: a negated word, «شياطينهم», the punishment, just before the Name. Every Al-Baqarah
   storyboard was regenerated.
+
+### First upload to Creative Hub
+- Al-Fatihah 1:1–7, import `cmwpq653l00023cnyuo6lagqk`: COMPLETED with 4 files and 1 creative, as a DRAFT (nothing
+  approved). The platform « Coran » was created by this import.
+- Creative: https://creatives.abdocloud.com/creatives/cmwpq6hvo00040uo8zox4vyer
