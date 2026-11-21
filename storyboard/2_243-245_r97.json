@@ -28,41 +28,297 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة البقرة",
+   "title": "الفرار من القدر",
    "verses": [
     243
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "dawn",
+    "beats": [
+     {
+      "at": [
+       243,
+       8
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       243,
+       11
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       243,
+       14
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       243,
+       20
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       243,
+       24
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       243,
+       26
+      ],
+      "do": "push_in"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       243,
+       5
+      ],
+      "until": null,
+      "motif": "footsteps",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       243,
+       17
+      ],
+      "until": null,
+      "motif": "growth",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
    "id": "c2",
-   "title": "سورة البقرة",
+   "title": "الإنفاق المضاعف",
    "verses": [
-    244
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "geometric"
-   }
-  },
-  {
-   "id": "c3",
-   "title": "سورة البقرة",
-   "verses": [
+    244,
     245
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light"
+    "mood": "rain",
+    "beats": [
+     {
+      "at": [
+       244,
+       5
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       244,
+       8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       245,
+       2
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       245,
+       9
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       245,
+       11
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       245,
+       14
+      ],
+      "do": "push_in"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       245,
+       6
+      ],
+      "until": null,
+      "motif": "coins",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       245,
+       8
+      ],
+      "until": null,
+      "motif": "wheat",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "light_sweep"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 243,
+   "words": [
+    1,
+    2
+   ],
+   "tafsir": 16,
+   "excerpt": "ألم تعلم -أيها الرسول-",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 243,
+   "words": [
+    10,
+    11
+   ],
+   "tafsir": 91,
+   "excerpt": "يقصدون بهذا الخروج السلامة من الموت",
+   "target": "motif",
+   "tone": "amber"
+  },
+  {
+   "verse": 243,
+   "words": [
+    15,
+    15
+   ],
+   "tafsir": 91,
+   "excerpt": "لا يغني حذر عن قدر",
+   "target": "",
+   "tone": "amber"
+  },
+  {
+   "verse": 243,
+   "words": [
+    17,
+    17
+   ],
+   "tafsir": 91,
+   "excerpt": "رحمة بهم ولطفا وحلما",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 243,
+   "words": [
+    21,
+    21
+   ],
+   "tafsir": 16,
+   "excerpt": "بنعمه الكثيرة",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 243,
+   "words": [
+    27,
+    28
+   ],
+   "tafsir": 91,
+   "excerpt": "فلا تزيدهم النعمة شكرا",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 244,
+   "words": [
+    1,
+    4
+   ],
+   "tafsir": 16,
+   "excerpt": "لنصرة دين الله",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 244,
+   "words": [
+    8,
+    9
+   ],
+   "tafsir": 16,
+   "excerpt": "سميع لأقوالكم، عليم بنيَّاتكم وأعمالكم",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 245,
+   "words": [
+    6,
+    7
+   ],
+   "tafsir": 16,
+   "excerpt": "إنفاقًا حسنًا احتسابًا للأجر",
+   "target": "motif",
+   "tone": "green"
+  },
+  {
+   "verse": 245,
+   "words": [
+    10,
+    11
+   ],
+   "tafsir": 16,
+   "excerpt": "لا تحصى من الثواب وحسن الجزاء",
+   "target": "motif",
+   "tone": "green"
+  },
+  {
+   "verse": 245,
+   "words": [
+    13,
+    14
+   ],
+   "tafsir": 16,
+   "excerpt": "يُضيِّق على مَن يشاء من عباده في الرزق، ويوسعه على آخرين",
+   "target": "",
+   "tone": "blue"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "No crowd for the thousands (number left vague), no motif on death or fighting; growth for the revival, coins and wheat for the loan multiplied. 243:15 and 243:17 glosses from As-Sa'di (Muyassar's 'punishment' reading avoided)."
+ },
+ "cover": {
+  "series_ar": "طالوت وجالوت",
+  "series_en": "Talut and Jalut",
+  "title_ar": "الفرار من القدر والإنفاق",
+  "title_en": "Fleeing fate, and giving",
+  "at": [
+   243,
+   17
+  ]
+ },
+ "motion": 3
 }

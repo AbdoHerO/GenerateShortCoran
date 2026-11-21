@@ -28,30 +28,448 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة البقرة",
+   "title": "عودة التابوت",
    "verses": [
     248
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "light",
+    "beats": [
+     {
+      "at": [
+       248,
+       8
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       248,
+       11
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       248,
+       12
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       248,
+       15
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       248,
+       18
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       248,
+       22
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       248,
+       23
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       248,
+       26
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       248,
+       30
+      ],
+      "do": "shot_ground"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       248,
+       5
+      ],
+      "until": null,
+      "motif": "burst",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
    "id": "c2",
-   "title": "سورة البقرة",
+   "title": "اختبار النهر",
    "verses": [
     249
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "mountains",
+    "beats": [
+     {
+      "at": [
+       249,
+       2
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       249,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       249,
+       8
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       249,
+       12
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       249,
+       15
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       249,
+       19
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       249,
+       24
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       249,
+       26
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       249,
+       36
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       249,
+       42
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       249,
+       46
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       249,
+       48
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       249,
+       50
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       249,
+       51
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       249,
+       53
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       249,
+       55
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       249,
+       56
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       249,
+       9
+      ],
+      "until": null,
+      "motif": "river",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       249,
+       22
+      ],
+      "until": null,
+      "motif": "drop",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       249,
+       31
+      ],
+      "until": null,
+      "motif": "footsteps",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       249,
+       60
+      ],
+      "until": null,
+      "motif": "mountain",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "wipe"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 248,
+   "words": [
+    5,
+    6
+   ],
+   "tafsir": 16,
+   "excerpt": "علامة ملكه",
+   "target": "motif",
+   "tone": "blue"
+  },
+  {
+   "verse": 248,
+   "words": [
+    9,
+    9
+   ],
+   "tafsir": 91,
+   "excerpt": "الذي قد فقدوه زمانا طويلا",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 248,
+   "words": [
+    11,
+    11
+   ],
+   "tafsir": 91,
+   "excerpt": "تسكن بها قلوبهم، وتطمئن لها خواطرهم",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 248,
+   "words": [
+    26,
+    30
+   ],
+   "tafsir": 16,
+   "excerpt": "لأعظم برهان لكم على اختيار طالوت ملكًا عليكم",
+   "target": "motif",
+   "tone": "green"
+  },
+  {
+   "verse": 249,
+   "words": [
+    2,
+    4
+   ],
+   "tafsir": 16,
+   "excerpt": "خرج طالوت بجنوده",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 249,
+   "words": [
+    8,
+    8
+   ],
+   "tafsir": 16,
+   "excerpt": "ممتحنكم على الصبر",
+   "target": "",
+   "tone": "amber"
+  },
+  {
+   "verse": 249,
+   "words": [
+    13,
+    14
+   ],
+   "tafsir": 91,
+   "excerpt": "فهو عاص ولا يتبعنا لعدم صبره وثباته",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 249,
+   "words": [
+    20,
+    24
+   ],
+   "tafsir": 16,
+   "excerpt": "فلا لوم عليه",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 249,
+   "words": [
+    25,
+    26
+   ],
+   "tafsir": 16,
+   "excerpt": "انكبوا على الماء، وأفرطوا في الشرب منه",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 249,
+   "words": [
+    28,
+    29
+   ],
+   "tafsir": 16,
+   "excerpt": "صبروا على العطش والحر",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 249,
+   "words": [
+    33,
+    35
+   ],
+   "tafsir": 16,
+   "excerpt": "والقلة المؤمنة معه",
+   "target": "motif",
+   "tone": "green"
+  },
+  {
+   "verse": 249,
+   "words": [
+    45,
+    48
+   ],
+   "tafsir": 16,
+   "excerpt": "يوقنون بلقاء الله",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 249,
+   "words": [
+    51,
+    52
+   ],
+   "tafsir": 16,
+   "excerpt": "جماعة قليلة مؤمنة صابرة",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 249,
+   "words": [
+    54,
+    55
+   ],
+   "tafsir": 16,
+   "excerpt": "جماعة كثيرة كافرة باغية",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 249,
+   "words": [
+    59,
+    60
+   ],
+   "tafsir": 16,
+   "excerpt": "بتوفيقه ونصره، وحسن مثوبته",
+   "target": "",
+   "tone": "green"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "Angels carrying the Ark (248:21-22) and the relics of the families of Musa and Harun get no motif and no gloss. burst for the sign; river for the test (not a Paradise river); drop for the single scoop; footsteps for the crossing; mountain for the steadfast. No crowd for the few or the many; the believers' number is not given."
+ },
+ "cover": {
+  "series_ar": "طالوت وجالوت",
+  "series_en": "Talut and Jalut",
+  "title_ar": "التابوت والنهر",
+  "title_en": "The Ark and the river",
+  "at": [
+   249,
+   9
+  ]
+ },
+ "motion": 3
 }

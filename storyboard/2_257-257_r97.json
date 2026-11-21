@@ -28,19 +28,159 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة البقرة",
+   "title": "بين الولايتين",
    "verses": [
     257
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       257,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       257,
+       10
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       257,
+       12
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       257,
+       14
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       257,
+       16
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       257,
+       18
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       257,
+       20
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       257,
+       22
+      ],
+      "do": "pan_left"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       257,
+       9
+      ],
+      "until": [
+       257,
+       14
+      ],
+      "motif": "lamp",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 257,
+   "words": [
+    2,
+    4
+   ],
+   "tafsir": 16,
+   "excerpt": "يتولى المؤمنين بنصره وتوفيقه وحفظه",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 257,
+   "words": [
+    7,
+    9
+   ],
+   "tafsir": 16,
+   "excerpt": "من ظلمات الكفر، إلى نور الإيمان",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 257,
+   "words": [
+    13,
+    13
+   ],
+   "tafsir": 16,
+   "excerpt": "الأنداد والأوثان الذين يعبدونهم من دون الله",
+   "target": "",
+   "tone": "amber"
+  },
+  {
+   "verse": 257,
+   "words": [
+    16,
+    18
+   ],
+   "tafsir": 16,
+   "excerpt": "من نور الإيمان إلى ظلمات الكفر",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 257,
+   "words": [
+    22,
+    24
+   ],
+   "tafsir": 16,
+   "excerpt": "باقون بقاء أبديًا لا يخرجون منها",
+   "target": "",
+   "tone": "red"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "A lamp lights on «النور» and goes out when the verse turns to those taken out of the light. Nothing for the Fire (257:21). Title changed from «ولي المؤمنين», which is the wording of 3:68."
+ },
+ "cover": {
+  "series_ar": "الرسل وآية الكرسي",
+  "series_en": "The messengers and Ayat al-Kursi",
+  "title_ar": "بين الولايتين",
+  "title_en": "Two kinds of allegiance",
+  "at": [
+   257,
+   9
+  ]
+ },
+ "motion": 3
 }

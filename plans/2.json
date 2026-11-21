@@ -970,7 +970,7 @@
      "from": 243,
      "to": 245,
      "title_ar": "الفرار من القدر والإنفاق",
-     "title_en": "Fleeing fate; a goodly loan",
+     "title_en": "Fleeing fate, and giving",
      "visual": "ambient",
      "care": "",
      "est_s": 60
@@ -978,10 +978,10 @@
     {
      "from": 246,
      "to": 247,
-     "title_ar": "طلب ملك",
-     "title_en": "Asking for a king",
+     "title_ar": "اختيار طالوت",
+     "title_en": "Talut is chosen",
      "visual": "ambient",
-     "care": "JOINED after 246 (inside). The prophet of Bani Israel only as a light drop if any stage is used.",
+     "care": "JOINED after 246 (inside). The prophet of Bani Israel only as a light drop if any stage is used. Title «طلب ملك» changed: without diacritics it reads «طلب مَلَك» (asking for an angel).",
      "est_s": 107
     },
     {
@@ -1033,8 +1033,8 @@
     {
      "from": 257,
      "to": 257,
-     "title_ar": "ولي المؤمنين",
-     "title_en": "The ally of the believers",
+     "title_ar": "بين الولايتين",
+     "title_en": "Two kinds of allegiance",
      "visual": "ambient",
      "care": "",
      "est_s": 44
@@ -1060,8 +1060,8 @@
     {
      "from": 259,
      "to": 259,
-     "title_ar": "إحياء بعد مئة عام",
-     "title_en": "Raised after a hundred years",
+     "title_ar": "إحياء بعد قرن",
+     "title_en": "Raised after a century",
      "visual": "ambient",
      "care": "Scholars differ on who the man was: never named or drawn as a prophet; ambient.",
      "est_s": 79

@@ -28,30 +28,387 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة البقرة",
+   "title": "الوعد والنكوص",
    "verses": [
     246
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "mountains",
+    "beats": [
+     {
+      "at": [
+       246,
+       7
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       246,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       246,
+       13
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       246,
+       21
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       246,
+       22
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       246,
+       27
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       246,
+       30
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       246,
+       33
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       246,
+       36
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       246,
+       40
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       246,
+       44
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       246,
+       53
+      ],
+      "do": "pan_left"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       246,
+       17
+      ],
+      "until": null,
+      "motif": "crown",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       246,
+       42
+      ],
+      "until": null,
+      "motif": "house",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       246,
+       48
+      ],
+      "until": null,
+      "motif": "footsteps",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
    "id": "c2",
-   "title": "سورة البقرة",
+   "title": "اختيار طالوت",
    "verses": [
     247
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "geometric",
+    "beats": [
+     {
+      "at": [
+       247,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       247,
+       13
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       247,
+       17
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       247,
+       20
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       247,
+       21
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       247,
+       25
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       247,
+       27
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       247,
+       31
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       247,
+       40
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       247,
+       41
+      ],
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       247,
+       10
+      ],
+      "until": null,
+      "motif": "crown",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       247,
+       34
+      ],
+      "until": null,
+      "motif": "lamp",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "iris"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 246,
+   "words": [
+    4,
+    4
+   ],
+   "tafsir": 16,
+   "excerpt": "الأشراف والوجهاء",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 246,
+   "words": [
+    17,
+    17
+   ],
+   "tafsir": 16,
+   "excerpt": "يجتمعون تحت قيادته",
+   "target": "motif",
+   "tone": "blue"
+  },
+  {
+   "verse": 246,
+   "words": [
+    23,
+    24
+   ],
+   "tafsir": 16,
+   "excerpt": "فإني أتوقع جبنكم وفراركم من القتال",
+   "target": "",
+   "tone": "amber"
+  },
+  {
+   "verse": 246,
+   "words": [
+    32,
+    35
+   ],
+   "tafsir": 16,
+   "excerpt": "وأي مانع يمنعنا عن القتال",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 246,
+   "words": [
+    48,
+    48
+   ],
+   "tafsir": 16,
+   "excerpt": "جَبُنوا وفرُّوا عن القتال",
+   "target": "motif",
+   "tone": "red"
+  },
+  {
+   "verse": 246,
+   "words": [
+    50,
+    51
+   ],
+   "tafsir": 16,
+   "excerpt": "ثبتوا بفضل الله",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 246,
+   "words": [
+    54,
+    54
+   ],
+   "tafsir": 16,
+   "excerpt": "الناكثين عهودهم",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 247,
+   "words": [
+    10,
+    10
+   ],
+   "tafsir": 16,
+   "excerpt": "إجابة لطلبكم، يقودكم لقتال عدوكم كما طلبتم",
+   "target": "motif",
+   "tone": "blue"
+  },
+  {
+   "verse": 247,
+   "words": [
+    17,
+    20
+   ],
+   "tafsir": 91,
+   "excerpt": "وهذا بناء منهم على ظن فاسد",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 247,
+   "words": [
+    29,
+    30
+   ],
+   "tafsir": 91,
+   "excerpt": "فلزمكم الانقياد لذلك",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 247,
+   "words": [
+    32,
+    35
+   ],
+   "tafsir": 91,
+   "excerpt": "بقوة الرأي والجسم اللذين بهما تتم أمور الملك",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 247,
+   "words": [
+    42,
+    43
+   ],
+   "tafsir": 16,
+   "excerpt": "واسع الفضل والعطاء، عليم بحقائق الأمور",
+   "target": "",
+   "tone": "green"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "No motif on the prophet of Bani Israel, on fighting, or on the negated wealth (247:21-25). Crown only for the kingship asked for and given (Talut is not a prophet). Title changed from «طلب ملك», which reads as «طلب مَلَك» (asking for an angel) without diacritics."
+ },
+ "cover": {
+  "series_ar": "طالوت وجالوت",
+  "series_en": "Talut and Jalut",
+  "title_ar": "اختيار طالوت",
+  "title_en": "Talut is chosen",
+  "at": [
+   247,
+   10
+  ]
+ },
+ "motion": 3
 }

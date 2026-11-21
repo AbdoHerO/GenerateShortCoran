@@ -28,30 +28,387 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة البقرة",
+   "title": "آية الكرسي",
    "verses": [
     255
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "geometric",
+    "beats": [
+     {
+      "at": [
+       255,
+       2
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       255,
+       3
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       255,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       255,
+       10
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       255,
+       12
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       255,
+       19
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       255,
+       23
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       255,
+       26
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       255,
+       29
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       255,
+       32
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       255,
+       34
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       255,
+       37
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       255,
+       40
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       255,
+       41
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       255,
+       44
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       255,
+       47
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       255,
+       48
+      ],
+      "do": "pan_left"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       255,
+       1
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       255,
+       16
+      ],
+      "until": [
+       255,
+       20
+      ],
+      "motif": "stars",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
    "id": "c2",
-   "title": "سورة البقرة",
+   "title": "وضوح طريق الهدى",
    "verses": [
     256
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "dawn",
+    "beats": [
+     {
+      "at": [
+       256,
+       4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       256,
+       9
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       256,
+       12
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       256,
+       14
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       256,
+       21
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       256,
+       23
+      ],
+      "do": "push_in"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       256,
+       6
+      ],
+      "until": null,
+      "motif": "two_paths",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       256,
+       17
+      ],
+      "until": null,
+      "motif": "seal",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "light_sweep"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 255,
+   "words": [
+    2,
+    5
+   ],
+   "tafsir": 91,
+   "excerpt": "لا معبود بحق سواه",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 255,
+   "words": [
+    6,
+    7
+   ],
+   "tafsir": 91,
+   "excerpt": "هذان الاسمان الكريمان يدلان على سائر الأسماء الحسنى",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 255,
+   "words": [
+    8,
+    10
+   ],
+   "tafsir": 16,
+   "excerpt": "نعاس",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 255,
+   "words": [
+    20,
+    26
+   ],
+   "tafsir": 91,
+   "excerpt": "الشفاعة كلها لله تعالى",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 255,
+   "words": [
+    33,
+    40
+   ],
+   "tafsir": 91,
+   "excerpt": "ولا من العلم مثقال ذرة إلا ما علمهم تعالى",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 255,
+   "words": [
+    45,
+    47
+   ],
+   "tafsir": 16,
+   "excerpt": "ولا يثقله سبحانه حفظهما",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 255,
+   "words": [
+    49,
+    50
+   ],
+   "tafsir": 16,
+   "excerpt": "العلي بذاته وصفاته على جميع مخلوقاته",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 256,
+   "words": [
+    1,
+    4
+   ],
+   "tafsir": 16,
+   "excerpt": "لكمال هذا الدين واتضاح آياته",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 256,
+   "words": [
+    7,
+    9
+   ],
+   "tafsir": 16,
+   "excerpt": "يتضح بها الحق من الباطل، والهدى من الضلال",
+   "target": "motif",
+   "tone": "green"
+  },
+  {
+   "verse": 256,
+   "words": [
+    12,
+    12
+   ],
+   "tafsir": 16,
+   "excerpt": "بكل ما عُبِد من دون الله",
+   "target": "",
+   "tone": "amber"
+  },
+  {
+   "verse": 256,
+   "words": [
+    17,
+    18
+   ],
+   "tafsir": 16,
+   "excerpt": "من الدين بأقوى سبب لا انقطاع له",
+   "target": "motif",
+   "tone": "green"
+  },
+  {
+   "verse": 256,
+   "words": [
+    23,
+    24
+   ],
+   "tafsir": 16,
+   "excerpt": "سميع لأقوال عباده، عليم بأفعالهم ونياتهم",
+   "target": "",
+   "tone": "green"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "Allah's names and attributes: geometric only, no arrows; stars on «السماوات» leave before «كرسيه» so nothing on screen can read as the Kursi. 255:29-32 (بين أيديهم / خلفهم) is not glossed: Al-Muyassar and As-Sa'di give opposite readings (future/past). The Kursi itself is not glossed. 256:1-4 gloss stops at the reason both tafsirs share, before Al-Muyassar's jizya restriction, which it does not cut into."
+ },
+ "cover": {
+  "series_ar": "الرسل وآية الكرسي",
+  "series_en": "The messengers and Ayat al-Kursi",
+  "title_ar": "آية الكرسي",
+  "title_en": "Ayat al-Kursi",
+  "at": [
+   255,
+   1
+  ]
+ },
+ "motion": 3
 }
