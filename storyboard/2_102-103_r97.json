@@ -214,65 +214,39 @@
    "verses": [
     103
    ],
-   "scene": "stage",
+   "scene": "ambient",
    "params": {
-    "setting": "prayer_hall",
-    "time": "day",
-    "actors": [
-     {
-      "id": "b",
-      "type": "believers",
-      "label": "",
-      "place": "center",
-      "count": 4,
-      "pose": "stand",
-      "enter": null,
-      "exit": null
-     }
-    ],
-    "events": [],
+    "mood": "light",
     "beats": [
      {
       "at": [
        103,
        3
       ],
-      "do": "pray",
-      "who": "b"
-     },
-     {
-      "at": [
-       103,
-       4
-      ],
-      "do": "ruku",
-      "who": "b"
-     },
-     {
-      "at": [
-       103,
-       6
-      ],
-      "do": "sujud",
-      "who": "b"
+      "do": "pan_left"
      },
      {
       "at": [
        103,
        9
       ],
-      "do": "sit",
-      "who": "b"
-     },
-     {
-      "at": [
-       103,
-       12
-      ],
       "do": "shot_wide"
      }
     ],
     "motifs": [
+     {
+      "at": [
+       103,
+       1
+      ],
+      "until": [
+       103,
+       5
+      ],
+      "motif": "two_paths",
+      "place": "top",
+      "size": "m"
+     },
      {
       "at": [
        103,
@@ -284,7 +258,7 @@
       ],
       "motif": "burst",
       "place": "top",
-      "size": "s"
+      "size": "m"
      }
     ],
     "transition": "light_sweep"
@@ -339,7 +313,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Harut and Marut, the devils, Sulayman and magic are never drawn and get no motif; no gloss takes a side on who Harut and Marut were. STAGING v4: 102 (Sulayman, the devils, Harut and Marut, magic) stays ambient. 103: «آمنوا واتقوا» shown as believers praying in a prayer hall; the reward (burst plate) ends before the Name. The verse is conditional about the People of the Book: the prayer is a generic picture of faith and piety, not a scene of them."
+  "notes": "Harut and Marut, the devils, Sulayman and magic are never drawn and get no motif; no gloss takes a side on who Harut and Marut were. STAGING v4: 102 (Sulayman, the devils, Harut and Marut, magic) and 103 stay ambient (light): two paths for the choice, then the reward (burst plate) ended before the Name."
  },
  "cover": {
   "series_ar": "بين الوحي والسحر",
@@ -348,7 +322,7 @@
   "title_en": "The harm of magic",
   "at": [
    103,
-   5
+   2
   ]
  },
  "motion": 3,

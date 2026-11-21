@@ -107,15 +107,7 @@
        108,
        9
       ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       108,
-       13
-      ],
-      "do": "turn",
-      "who": "p"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -129,7 +121,7 @@
        108,
        18
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [

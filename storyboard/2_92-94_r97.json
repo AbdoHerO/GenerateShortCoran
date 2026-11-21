@@ -47,6 +47,22 @@
       "pose": "stand",
       "enter": null,
       "exit": null
+     },
+     {
+      "id": "m",
+      "type": "prophet",
+      "label": "موسى",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       92,
+       3
+      ],
+      "exit": [
+       92,
+       5
+      ]
      }
     ],
     "events": [],
@@ -63,7 +79,15 @@
        92,
        2
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       92,
+       4
+      ],
+      "do": "glow",
+      "who": "m"
      },
      {
       "at": [
@@ -86,7 +110,7 @@
        92,
        11
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -155,14 +179,14 @@
        93,
        23
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        93,
        24
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -276,7 +300,10 @@
        94,
        6
       ],
-      "until": null,
+      "until": [
+       94,
+       9
+      ],
       "motif": "light",
       "place": "top",
       "size": "s"
@@ -355,7 +382,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No idol drawn. Their claim (94) is glossed with «يدّعون» (they claim). The mountain is a symbol, never a scene over people. STAGING v4: 92-93: Bani Israel in the valley of the Tur (named in the verse); no Musa drop because the two tafsirs differ on «من بعده» (after his going away / after his coming); the calf is never drawn, they only turn away; the mountain raised over them is not pictured (no plate, no look_up). Covenant = seal plate, the Torah = book plate, «سمعنا وعصينا» = speak then shake_head. 94: the people challenged about their claim (speak on «خالصة», glossed as a claim); the Hereafter only as a light plate, death as an hourglass."
+  "notes": "No idol drawn. Their claim (94) is glossed with «يدّعون» (they claim). The mountain is a symbol, never a scene over people. STAGING v4: 92-93: Bani Israel in the valley of the Tur (named in the verse); Musa appears as a labelled light drop only on «موسى بالبينات» and leaves before the calf (no zoom on him); the calf is never drawn, they only turn away; the mountain raised over them is not pictured. Covenant = seal plate, the Torah = book plate, «سمعنا وعصينا» = speak then shake_head. 94: the people challenged about their claim; the Hereafter only as a light plate ended before «خالصة», death as an hourglass."
  },
  "cover": {
   "series_ar": "موقفهم من الرسل",

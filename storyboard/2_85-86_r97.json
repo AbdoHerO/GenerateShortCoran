@@ -177,7 +177,7 @@
    ],
    "scene": "stage",
    "params": {
-    "setting": "market",
+    "setting": "city",
     "time": "dusk",
     "actors": [
      {
@@ -238,7 +238,7 @@
        4
       ],
       "until": null,
-      "motif": "coins",
+      "motif": "two_paths",
       "place": "top",
       "size": "s"
      }
@@ -295,7 +295,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Fighting and expulsion (85) are never shown; the chains (freeing the captives by ransom) and the book (believing in part of it) carry the meaning. STAGING v4: 85 (killing and expelling one another, captives) stays ambient: violence. 86: the verse's own image of buying the worldly life, shown as a group in a market at dusk turning their backs on «بالآخرة»; the punishment is not pictured."
+  "notes": "Fighting and expulsion (85) are never shown; the chains (freeing the captives by ransom) and the book (believing in part of it) carry the meaning. STAGING v4: 85 (killing and expelling one another, captives) stays ambient: violence. 86: a group in a town at dusk turning their backs on «بالآخرة»; two_paths plate on the choice of this life over the Hereafter; the punishment is not pictured."
  },
  "cover": {
   "series_ar": "الميثاق المنقوض",

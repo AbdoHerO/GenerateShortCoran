@@ -136,15 +136,16 @@
        114,
        24
       ],
-      "do": "sujud",
-      "who": "b"
+      "do": "wring_hands",
+      "who": "d"
      },
      {
       "at": [
        114,
        28
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "d"
      }
     ],
     "motifs": [
@@ -153,7 +154,10 @@
        114,
        8
       ],
-      "until": null,
+      "until": [
+       114,
+       14
+      ],
       "motif": "lamp",
       "place": "top",
       "size": "s"
@@ -240,7 +244,7 @@
       ],
       "until": [
        115,
-       8
+       6
       ],
       "motif": "night_day",
       "place": "top",

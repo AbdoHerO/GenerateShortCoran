@@ -43,7 +43,17 @@
       "type": "people",
       "label": "",
       "place": "center",
-      "count": 5,
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "q",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 2,
       "pose": "stand",
       "enter": null,
       "exit": null
@@ -61,10 +71,10 @@
      {
       "at": [
        146,
-       4
+       6
       ],
       "do": "read",
-      "who": "p"
+      "who": "q"
      },
      {
       "at": [
@@ -79,7 +89,7 @@
        146,
        8
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -102,7 +112,7 @@
        147,
        4
       ],
-      "do": "shot_wide"
+      "do": "clouds_part"
      },
      {
       "at": [
@@ -329,7 +339,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Verse 149 moved to the held video 149-152 (timing overlap at 150). STAGING v4: 146: the scholars of the People of the Book read their book (his description in their books, Al-Muyassar) and turn away on «ليكتمون»; their sons are not drawn. 147: light plate for the truth before «ربك». 148: «فاستبقوا الخيرات» = believers hurry to give to a poor man; the Gathering is not pictured."
+  "notes": "Verse 149 moved to the held video 149-152 (timing overlap at 150). STAGING v4: 146: the People of the Book know him from their book: part of them read (q); «فريقا منهم ليكتمون»: only the other part (p) turns away; their sons are not drawn. 147: light plate for the truth, then the clouds part. 148: «فاستبقوا الخيرات» = believers hurry to give to a poor man; the Gathering is not pictured."
  },
  "cover": {
   "series_ar": "القبلة",
@@ -337,8 +347,8 @@
   "title_ar": "معرفة وكتمان",
   "title_en": "Knowing, yet concealing",
   "at": [
-   148,
-   5
+   146,
+   4
   ]
  },
  "motion": 3,

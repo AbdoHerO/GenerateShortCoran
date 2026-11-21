@@ -155,7 +155,7 @@
       ],
       "until": [
        169,
-       8
+       1
       ],
       "motif": "wheat",
       "place": "top",
@@ -221,7 +221,7 @@
        170,
        6
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -298,7 +298,8 @@
        171,
        13
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [

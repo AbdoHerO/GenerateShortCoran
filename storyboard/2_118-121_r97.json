@@ -94,9 +94,8 @@
        118,
        9
       ],
-      "do": "point",
-      "who": "d",
-      "to": "center"
+      "do": "speak",
+      "who": "d"
      },
      {
       "at": [

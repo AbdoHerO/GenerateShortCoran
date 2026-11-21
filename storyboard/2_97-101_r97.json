@@ -42,76 +42,73 @@
        97,
        4
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       97,
+       8
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
        97,
        15
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        97,
        18
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        98,
        1
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        98,
        3
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        98,
        6
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        98,
        8
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        98,
        11
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        98,
        12
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
-     {
-      "at": [
-       97,
-       7
-      ],
-      "until": null,
-      "motif": "light",
-      "place": "top",
-      "size": "m"
-     },
      {
       "at": [
        97,
@@ -156,7 +153,17 @@
       "type": "people",
       "label": "",
       "place": "center",
-      "count": 6,
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "q",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 2,
       "pose": "stand",
       "enter": null,
       "exit": null
@@ -391,7 +398,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Jibril and Mikail are angels: never drawn, no motif. The Book thrown behind their backs (101) is never pictured. STAGING v4: 97-98 stay ambient: Jibril, Mikail, the angels and the revelation to the Prophet's heart are not drawn. 99-101: the people deny the clear signs, make a covenant (speak, seal plate) and turn their backs on it; when the messenger came they face him, then turn their backs again on «نبذ». No book is drawn being thrown; the Prophet is not shown."
+  "notes": "Jibril and Mikail are angels: never drawn, no motif. The Book thrown behind their backs (101) is never pictured. STAGING v4: 97-98 stay ambient: Jibril, Mikail, the angels and the revelation to the Prophet's heart are not drawn. 99-101: «فريق منهم»: only part of the People of the Book (p) makes the covenant and turns their backs on it; the others (q) do nothing. No book is drawn being thrown; the Prophet is not shown."
  },
  "cover": {
   "series_ar": "بين الوحي والسحر",
@@ -400,7 +407,7 @@
   "title_en": "Enmity to Jibril",
   "at": [
    97,
-   7
+   12
   ]
  },
  "motion": 3,

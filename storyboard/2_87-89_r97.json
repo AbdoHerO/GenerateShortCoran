@@ -248,7 +248,7 @@
        89,
        7
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -297,6 +297,14 @@
        23
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       89,
+       26
+      ],
+      "do": "shot_close",
+      "who": "p"
      }
     ],
     "motifs": [
@@ -318,8 +326,11 @@
        89,
        18
       ],
-      "until": null,
-      "motif": "light",
+      "until": [
+       89,
+       24
+      ],
+      "motif": "book",
       "place": "top",
       "size": "s"
      }
@@ -409,7 +420,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Isa, Maryam and Jibril are never drawn and get no motif; the killing of prophets (87) is never shown. Their claim «قلوبنا غلف» (88) is not glossed; the reply is. STAGING v4: 87 stays ambient: Isa and Jibril are never drawn and the verse ends on the killing of prophets. 88: the rejecting crowd voices their excuse and shakes heads; a seal plate on «لعنهم» (Al-Muyassar: مطبوع عليها). 89: the People of the Book hold their Torah (لما معهم), speak against the Arab polytheists (يستفتحون, both tafsirs), then turn away when the truth came (light plate, the Prophet is not shown)."
+  "notes": "Isa, Maryam and Jibril are never drawn and get no motif; the killing of prophets (87) is never shown. Their claim «قلوبنا غلف» (88) is not glossed; the reply is. STAGING v4: 87 stays ambient: Isa and Jibril are never drawn and the verse ends on the killing of prophets. 88: the rejecting crowd voices their excuse and shakes heads; a seal plate on «لعنهم» (Al-Muyassar: مطبوع عليها). 89: the People of the Book hold their Torah (لما معهم), speak against the Arab polytheists (يستفتحون, both tafsirs), then turn away when what they knew came (book plate, ended before the Name); the Prophet is not shown."
  },
  "cover": {
   "series_ar": "موقفهم من الرسل",

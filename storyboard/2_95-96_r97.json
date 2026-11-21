@@ -52,7 +52,7 @@
       "id": "m",
       "type": "man",
       "label": "",
-      "place": "center",
+      "place": "left",
       "count": 1,
       "pose": "stand",
       "enter": [
@@ -129,8 +129,9 @@
        96,
        12
       ],
-      "do": "shot_close",
-      "who": "m"
+      "do": "walk_to",
+      "who": "m",
+      "to": "center"
      },
      {
       "at": [
@@ -245,7 +246,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "One chapter; the hourglass on «ألف سنة». STAGING v4: 95: they refuse to wish for death (shake_head on «يتمنوه»). 96: «أحدهم» shown as one man stepping out of the group; the thousand years as the hourglass plate, ended before the Name."
+  "notes": "One chapter; the hourglass on «ألف سنة». STAGING v4: 95: they refuse to wish for death (shake_head on «يتمنوه»). 96: «أحدهم» is one man who appears beside the group and steps forward; the thousand years as the hourglass plate, ended before the Name."
  },
  "cover": {
   "series_ar": "موقفهم من الرسل",

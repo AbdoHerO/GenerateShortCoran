@@ -67,6 +67,14 @@
      {
       "at": [
        144,
+       8
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       144,
        10
       ],
       "do": "pan_right"
@@ -112,17 +120,10 @@
      {
       "at": [
        144,
-       27
+       30
       ],
       "do": "sujud",
       "who": "b"
-     },
-     {
-      "at": [
-       144,
-       30
-      ],
-      "do": "shot_wide"
      },
      {
       "at": [
@@ -134,16 +135,6 @@
      }
     ],
     "motifs": [
-     {
-      "at": [
-       144,
-       8
-      ],
-      "until": null,
-      "motif": "geometric",
-      "place": "top",
-      "size": "s"
-     },
      {
       "at": [
        144,
@@ -176,7 +167,7 @@
       "type": "people",
       "label": "",
       "place": "left",
-      "count": 4,
+      "count": 3,
       "pose": "stand",
       "enter": null,
       "exit": null
@@ -186,7 +177,7 @@
       "type": "people",
       "label": "",
       "place": "right",
-      "count": 4,
+      "count": 3,
       "pose": "stand",
       "enter": null,
       "exit": null
@@ -391,7 +382,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on the Prophet's ﷺ face turning to the sky (144). The Kaaba only as the abstract geometric motif. STAGING v4: 144: the Prophet's face turning to the sky is not pictured (no look_up, no sky shot); the Kaaba only as the abstract geometric plate; «فولوا وجوهكم» = the believers turn and pray in a prayer hall; their Book = book plate. 145: the Jews and the Christians refuse the qibla and turn away from each other's (both are `people`); the believers refuse theirs (Al-Muyassar: خطاب لجميع الأمة)."
+  "notes": "No motif on the Prophet's ﷺ face turning to the sky (144). The Kaaba only as the abstract geometric motif. STAGING v4: 144: the Prophet's face turning to the sky is not pictured; no plate for the Kaaba or the qibla: the believers turning in prayer (144:18) is the only sign of the change; their Book = book plate. 145: the Jews and the Christians refuse the qibla and turn away from each other's (both are `people`); the believers refuse theirs (Al-Muyassar: خطاب لجميع الأمة)."
  },
  "cover": {
   "series_ar": "القبلة",
@@ -400,7 +391,7 @@
   "title_en": "Facing the Kaaba",
   "at": [
    144,
-   8
+   19
   ]
  },
  "motion": 3,

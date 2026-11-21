@@ -217,7 +217,7 @@
        156,
        8
       ],
-      "do": "raise_hands",
+      "do": "bow",
       "who": "b"
      },
      {
@@ -225,15 +225,14 @@
        156,
        9
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        156,
        10
       ],
-      "do": "bow",
-      "who": "b"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -349,16 +348,14 @@
        158,
        13
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        158,
        16
       ],
-      "do": "walk_to",
-      "who": "t",
-      "to": "left"
+      "do": "birds"
      },
      {
       "at": [
@@ -386,14 +383,14 @@
        158,
        6
       ],
-      "motif": "mountain",
+      "motif": "footsteps",
       "place": "top",
       "size": "s"
      },
      {
       "at": [
        158,
-       9
+       21
       ],
       "until": null,
       "motif": "geometric",
@@ -541,7 +538,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Re-split from 2_153-155_r97, 2_156-158_r97 (reviewed): the audit found no clean audio cut at the old edge. Chapters, glosses and motifs are unchanged. STAGING v4: 155: the trial in a garden of palms, vines and crops (Al-Muyassar: النخيل والأعناب والحبوب): wind on fear, heads bowed, leaves falling on «الثمرات» (a decrease, not a destroyed garden); clouds part on the glad tidings. 156-157: the same believers say the istirja' and raise their hands; light on «المهتدون», far from «ربهم». 158: no hills and no sanctuary are drawn: a traveller and his camel on the road (hajj and umrah); Safa and Marwa only as the abstract mountain plate (brief caution), the House only as the geometric plate."
+  "notes": "Re-split from 2_153-155_r97, 2_156-158_r97 (reviewed): the audit found no clean audio cut at the old edge. Chapters, glosses and motifs are unchanged. STAGING v4: 155: the trial in a garden of palms, vines and crops (Al-Muyassar: النخيل والأعناب والحبوب): wind on fear, heads bowed, leaves falling on «الثمرات»; clouds part on the glad tidings. 156-157: the same believers say the istirja' and bow; light on «المهتدون», far from «ربهم». 158: no hills, no sanctuary and no House are drawn: a traveller and his camel on the road (hajj and umrah); the sa'i only as a footsteps plate; birds on «يطوف»; the geometric plate only on «الله شاكر عليم»."
  },
  "cover": {
   "series_ar": "الصبر والبلاء",

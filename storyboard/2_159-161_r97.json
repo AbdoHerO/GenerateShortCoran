@@ -47,6 +47,20 @@
       "pose": "stand",
       "enter": null,
       "exit": null
+     },
+     {
+      "id": "r",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       160,
+       1
+      ],
+      "exit": null,
+      "look": "plain"
      }
     ],
     "events": [],
@@ -79,14 +93,14 @@
        159,
        10
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        159,
        11
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -105,9 +119,17 @@
      {
       "at": [
        159,
-       19
+       17
       ],
-      "do": "pan_right"
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       159,
+       20
+      ],
+      "do": "turn",
+      "who": "r"
      },
      {
       "at": [
@@ -115,7 +137,7 @@
        3
       ],
       "do": "turn",
-      "who": "p"
+      "who": "r"
      },
      {
       "at": [
@@ -123,14 +145,14 @@
        5
       ],
       "do": "speak",
-      "who": "p"
+      "who": "r"
      },
      {
       "at": [
        160,
        6
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -138,14 +160,14 @@
        7
       ],
       "do": "sparkle",
-      "who": "p"
+      "who": "r"
      },
      {
       "at": [
        160,
        10
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -317,7 +339,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on the curse, the angels or the Name. STAGING v4: 159: the scholars who conceal (Al-Muyassar: أحبار اليهود وعلماء النصارى وغيرهم) turn their backs on what was made clear in the Book (book plate, ended before the Name); the curse is not pictured. 160: those who repent turn back and make clear what they hid (turn, speak); the hands plate ends before Allah's first-person words. 161 (dying in disbelief, the curse of Allah, the angels and all people) stays ambient."
+  "notes": "No motif on the curse, the angels or the Name. STAGING v4: 159: the scholars who conceal (Al-Muyassar: أحبار اليهود وعلماء النصارى وغيرهم) turn their backs on what was made clear in the Book (book plate, ended before the Name); the curse is not pictured. 160: one man, back turned like them, turns back, makes clear what he hid and is given a sparkle (those who repent); the others keep their backs turned; the hands plate ends before Allah's first-person words. 161 stays ambient."
  },
  "cover": {
   "series_ar": "الكتمان والطيبات",
@@ -325,8 +347,8 @@
   "title_ar": "كتمان الحق",
   "title_en": "Concealing the truth",
   "at": [
-   160,
-   3
+   159,
+   15
   ]
  },
  "motion": 3,

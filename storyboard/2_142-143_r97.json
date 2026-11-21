@@ -218,7 +218,8 @@
        143,
        11
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
