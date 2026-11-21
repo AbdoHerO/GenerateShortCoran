@@ -1,7 +1,12 @@
 """Publish built videos to Creative Hub, platform « Coran », as DRAFTS for human review (never auto-approved).
 
-  python pipeline/publish_hub.py plan <chapter> [--ids id1,id2]   build the Creative Hub plan + ZIP for every built,
-                                                                  not-yet-published video of the surah, and validate it
+  python pipeline/publish_hub.py plan <chapter> [--ids id1,id2] [--version N]
+                                                                  build the Creative Hub plan + ZIP for every built,
+                                                                  not-yet-published video of the surah, and validate it.
+                                                                  --version N (N >= 2, owner decision 2026-11-21): a
+                                                                  restaged NEW version of a video already published; it
+                                                                  is uploaded NEXT TO the old draft with « - vN » at the
+                                                                  end of its name and recorded under the key « id@vN »
   python pipeline/publish_hub.py upload <plan.json>              import that ZIP (--confirm, WITHOUT --approve), check the
                                                                   result, and record everything in publish/ledger.json
   python pipeline/publish_hub.py check                           test the token and show platforms/badges (GET /me)
@@ -40,13 +45,18 @@ def tag(s):
     return "#" + re.sub(r"[^\w]+", "_", s, flags=re.UNICODE).strip("_")
 
 
-def creative_for(rel, out):
+def ledger_key(vid, version):
+    return vid if version <= 1 else f"{vid}@v{version}"
+
+
+def creative_for(rel, out, version=1):
     cv = rel.get("cover") or {}
     ch, a, b = rel["chapter"], rel["from"], rel["to"]
     rng = f"{a}" if a == b else f"{a}-{b}"
     rng_ar = (f"الآية {str(a).translate(AR_DIGITS)}" if a == b else f"الآيات {str(a).translate(AR_DIGITS)}–{str(b).translate(AR_DIGITS)}")
     rec_short = rel["reciter_en"].split(" ")[-1].replace("ad-", "").replace("al-", "").title() if rel["reciter_en"] else "Reciter"
-    name = f"Reel - {ch}:{rng} {rel['surah_en']} - {cv.get('title_ar', '')} - {rec_short}"[:190]
+    vtag = f" - v{version}" if version > 1 else ""
+    name = f"Reel - {ch}:{rng} {rel['surah_en']} - {cv.get('title_ar', '')} - {rec_short}"[:185] + vtag
     caption = "\n".join([
         cv.get("title_ar", ""),
         f"سورة {rel['surah_ar']} · {rng_ar}",
@@ -76,7 +86,7 @@ def creative_for(rel, out):
                    {"label": "YouTube description", "text": yt_desc}, {"label": "Alt text", "text": alt}],
         "tags": [rel["surah_en"].lower(), f"{ch}:{rng}", rel["reciter_en"].lower()[:40]],
         "keywords": ["quran", "tafsir", rel["surah_en"].lower()],
-        "description": f"{rel['id']} · storyboard sha256 {rel['storyboard_sha256'][:12]} · video sha256 {rel['video_sha256'][:12]}",
+        "description": f"{ledger_key(rel['id'], version)} · storyboard sha256 {rel['storyboard_sha256'][:12]} · video sha256 {rel['video_sha256'][:12]}",
         "files": [
             {"source": str(out / f["video"])},
             {"source": str(out / f["preview"]), "versionType": "PREVIEW"},
@@ -86,7 +96,7 @@ def creative_for(rel, out):
     }
 
 
-def cmd_plan(chapter, ids=None):
+def cmd_plan(chapter, ids=None, version=1):
     ledger = load_ledger()
     rels = []
     for d in sorted((ROOT / "out").glob(f"{chapter}_*")):
@@ -94,8 +104,15 @@ def cmd_plan(chapter, ids=None):
         if not rf.exists() or (ids and d.name not in ids):
             continue
         rel = json.loads(rf.read_text(encoding="utf-8"))
-        if rel["id"] in ledger:
-            if ledger[rel["id"]]["video_sha256"] != rel["video_sha256"]:
+        key = ledger_key(rel["id"], version)
+        if version > 1 and rel["id"] not in ledger:
+            print(f"SKIP {rel['id']}: --version {version} is only for videos already published (publish it normally)")
+            continue
+        if version > 1 and ledger[rel["id"]]["video_sha256"] == rel["video_sha256"]:
+            print(f"SKIP {rel['id']}: this render is the one already published, not a new version")
+            continue
+        if key in ledger:
+            if ledger[key]["video_sha256"] != rel["video_sha256"]:
                 print(f"SKIP {rel['id']}: already published, and this is a NEW render. Re-importing would create a duplicate « (2) »: ask the owner first.")
             continue
         if sha256(d / rel["files"]["video"]) != rel["video_sha256"]:
@@ -106,17 +123,19 @@ def cmd_plan(chapter, ids=None):
         return
     rels.sort(key=lambda x: (x[0]["chapter"], x[0]["from"]))
     stamp = datetime.datetime.now(datetime.timezone.utc).strftime("%Y%m%d-%H%M%S")
-    creatives = [creative_for(r, d) for r, d in rels]
+    creatives = [creative_for(r, d, version) for r, d in rels]
     badges = {}
     for c, (r, _) in zip(creatives, rels):
         kinds = ["surah", "series", "reciter", "format", "status"]
         for k, b in zip(kinds, c["badges"]):
             badges.setdefault(b, COLORS[k])
-    zip_path = ROOT / "out" / "_publish" / f"coran-{chapter:03d}-{stamp}.zip"
+    vs = f"-v{version}" if version > 1 else ""
+    zip_path = ROOT / "out" / "_publish" / f"coran-{chapter:03d}{vs}-{stamp}.zip"
     plan = {"platform": PLATFORM, "zip": str(zip_path), "badges": [{"name": n, "color": col} for n, col in badges.items()],
-            "creatives": creatives, "_ids": [r["id"] for r, _ in rels], "_video_sha256": {r["id"]: r["video_sha256"] for r, _ in rels}}
+            "creatives": creatives, "_ids": [ledger_key(r["id"], version) for r, _ in rels],
+            "_video_sha256": {ledger_key(r["id"], version): r["video_sha256"] for r, _ in rels}}
     pdir = ROOT / "publish" / "plans"; pdir.mkdir(parents=True, exist_ok=True)
-    plan_path = pdir / f"coran-{chapter:03d}-{stamp}.json"
+    plan_path = pdir / f"coran-{chapter:03d}{vs}-{stamp}.json"
     plan_path.write_text(json.dumps(plan, ensure_ascii=False, indent=1), encoding="utf-8")
     r = subprocess.run([sys.executable, str(TOOLS / "build_creative_zip.py"), str(plan_path)], capture_output=True, text=True, encoding="utf-8")
     print(r.stdout[-2000:])
@@ -178,7 +197,9 @@ if __name__ == "__main__":
     if a[0] == "plan":
         ids = next((x.split(",") for x in a if x.startswith("--ids=")), None)
         if "--ids" in a: ids = a[a.index("--ids") + 1].split(",")
-        cmd_plan(int(a[1]), ids)
+        ver = int(a[a.index("--version") + 1]) if "--version" in a else 1
+        if ver < 1: raise SystemExit("--version must be >= 1")
+        cmd_plan(int(a[1]), ids, ver)
     elif a[0] == "upload":
         cmd_upload(a[1])
     else:

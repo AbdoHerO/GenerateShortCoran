@@ -1209,3 +1209,23 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
   an unmarked repeat. Listen at 6-15 s of 14_11-12.
 - The 13 Ibrahim videos are queued for building.
 - **Al-Hijr:** 1-67 written (8 storyboards, all PASSED). 68-99 are next.
+
+### Owner feedback: the reels need people and places (2026-11-21)
+
+- **Feedback:** the reels of surahs 2-4 only switch between a sky and a round symbol, with no place, no people
+  and no story. The owner wants them like Al-Kahf.
+- **Owner decisions (asked in session):**
+  1. Every this-world passage gets a `stage` scene: stories, believers' deeds, rulings shown as everyday life, and
+     signs in nature. `ambient` stays only for Allah's names, the unseen and battles.
+  2. The roughly 200 drafts already in Creative Hub are restaged and uploaded as new versions next to the old ones,
+     with « - v2 » at the end of the name.
+- **Renderer daily-life pack:**
+  - New settings: `home`, `prayer_hall` (arcade and carpet rows; no Kaaba, no writing), `market` and `fields`.
+  - New actor beats: `pray`, `ruku`, `sujud`, `rise` (a side-view prayer figure; `sit` sits in prayer), `give`
+    (a purse travels to the receiver) and `read` (an open book in both hands).
+  - Indoors, the night tint is softened.
+- **Publishing:** `publish_hub.py plan <ch> --ids … --version 2` keys the ledger `id@v2` and names the creative
+  « … - v2 ». It refuses a version of a video that was never published, and the very same render.
+- **Guide:** a new section "Staging v4" in docs/STORYBOARD_GUIDE.md gives a recipe for each kind of passage.
+- **Builds:** batch 6 was stopped. The ambient videos it built (4_93-101 and 3_90-94, 4_25, 4_77-78, 4_82-91) are
+  not published; they will be restaged first.

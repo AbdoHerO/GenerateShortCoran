@@ -34,9 +34,10 @@ enforces it.
 - **Titles** are UI text, 2–4 words of Modern Standard Arabic, no diacritics, max 28 characters. A title is a
   descriptive heading and **never quotes the Quran**: the verifier rejects any two consecutive words of the passage,
   so also avoid famous Quran phrases from other verses.
-- `scene: "stage"` is for events narrated in this world. Everything else is `scene: "ambient"`: rulings,
-  admonition, Allah's names and attributes, the unseen (Paradise, Hell, the Hereafter, angels, jinn, Iblis), and
-  violence.
+- `scene: "stage"` is for every passage about this world (owner decision 2026-11-21, see "Staging v4" below):
+  stories, people's deeds, rulings shown as everyday life, signs in nature. `scene: "ambient"` is only for Allah's
+  names and attributes, the unseen (Paradise, Hell, the Day, the Hereafter, angels in the unseen, jinn, Iblis), and
+  battles or violence.
 
 ## Beats (this is what makes the video alive)
 
@@ -139,6 +140,68 @@ Mushaf rendering, with only the gold highlight.
 - The Arabic titles follow the title rules: no diacritics, never quoting the Quran (a story's well-known name, like
   أصحاب الكهف, is allowed as the series name).
 - `at` is the word whose picture is the most telling for the thumbnail.
+
+## Staging v4: people and places in every this-world passage (owner decision 2026-11-21)
+
+The owner saw that the reels of surahs 2-4 only switch between a sky and a round symbol: no place, no people, no
+story. From now on every chapter about this world is a `stage` scene, like Al-Kahf: a setting, faceless people, and
+beats that act out the words. The sky + symbol (`ambient`) look stays only where nothing may be drawn.
+
+**Use `ambient` only for:**
+- Allah's names and attributes, His acts described directly (creating, decreeing, forgiving) when no this-world
+  picture fits;
+- the unseen: Paradise, Hell, the Day, the Gathering, the Throne, the Hereafter, jinn, Iblis, angels at the unseen;
+- battles, fighting, killing, punishment of people (never shown).
+
+**Everything else is `stage`.** A recipe for each kind of passage:
+- **Stories of prophets and nations:** the prophet is a blue `prophet` drop with his name. His people are
+  `people`/`disbelievers`/`believers`; the tyrant is `king` (label «فرعون» for Pharaoh). Use the story's place
+  (`desert`, `city`, `palace`, `sea_shore`, `river`, `mountains`, `garden`). Dialogue: `speak` on the speaker,
+  `shake_head` on refusal, `point`, `walk_to`. A punishment is an event on the place (`flood`, `storm`, `blast`,
+  `quake`, `stones`, `ruin`) after the people have left the stage (`exit`). Never show anyone being hurt.
+- **Believers' worship:**
+  - prayer: `prayer_hall` or `home`, with `pray`, `ruku`, `sujud`, `sit`, `rise`;
+  - du'a: `raise_hands`;
+  - the Quran: `read`, plus the `book` motif;
+  - night worship: `time: "night"`.
+- **Charity, spending, orphans, the poor:** `market` or `city`. A `believers` group or a `man` gives (`give`, with
+  `to`) to a `man` whose look is `poor`. The receiver answers with `raise_hands`.
+- **Family, marriage, inheritance, children:**
+  - `home`, with a `people` group (it includes women, faceless with a scarf), `sit`, `speak` and `give`;
+  - never a private or intimate moment.
+- **Trade, debts, contracts, measure and weight:** `market`, two `man` actors (`look: "rich"`/`"plain"`). Use
+  `speak`, `give`, and `read` for a written contract.
+- **Travel, hajj, emigration:**
+  - `desert`/`mountains`, with `man` `look: "traveller"`, a `camel`, `walk_to`;
+  - never the Kaaba;
+  - hajj is shown as travellers on the road.
+- **Hypocrites and disbelievers (this world):**
+  - `disbelievers`/`people` in a `city` or `market`, with `turn`, `shake_head`, `speak`;
+  - their claims stay framed by the glosses.
+- **Signs in nature:**
+  - rain: `fields`/`garden` with the `rain` event and the `bloom` beat;
+  - ships: `sea_shore` with the `ship` actor;
+  - growth and harvest: `fields` with the `growth`/`wither` events;
+  - night and day: `time`, `shot_sky`;
+  - birds: the `birds` actor or beat.
+- **Admonition to people in general («يا أيها الناس»):** a `people` group in a `city`/`market`, `shot_wide`.
+- **The Prophet Muhammad ﷺ is never shown, not even as a drop.** When he is addressed («قل», «يسألونك»), show
+  the people he speaks to (`people` with `speak`/`look_up`), or the scene of the subject.
+- **Mothers of the Believers and Maryam:** only `honored` drops. Other women of the stories (the wife of al-Aziz,
+  Pharaoh's wife) are not drawn as figures. Use the place, or an `honored` drop for a woman the Quran praises,
+  following the owner's list in CLAUDE.md.
+
+**Keep from v3:**
+- motifs (size `s` on stage) and designed transitions;
+- an action at least every 6 s;
+- only geometric or light on screen at the Name or «رب»;
+- no plate starting on a prophet, an angel or «قل»;
+- no dawn over threats;
+- a countable group never where the Quran leaves the number to Allah (`"uncountable": true`).
+
+**Workflow:** glosses do not change when a video is restaged; only `chapters[].scene` and `params` do.
+Before building, run `verify.py`, then `renderer/tests/motion_check.mjs`, then look at a frame sheet. A video
+already in `publish/ledger.json` is published again as a new version with `publish_hub.py plan <ch> --ids … --version 2`.
 
 ## Picture rules (critical)
 

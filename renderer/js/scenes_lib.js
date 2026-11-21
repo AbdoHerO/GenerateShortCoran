@@ -767,6 +767,7 @@ const GY = 705;                                   // feet baseline of the actors
 const PLACE_X = { left: 230, center: 480, right: 730 };
 const HUMAN = new Set(['believers', 'people', 'disbelievers', 'soldiers', 'king', 'ruler', 'man', 'workers']);
 const DROPS = { prophet: 'blue', angel: 'gold', honored: 'green' };
+const PRAY_DO = { pray: 'stand', ruku: 'ruku', sujud: 'sujud', sit: 'julus', rise: 'stand' };
 const DOOMED = new Set(['disbelievers', 'soldiers', 'king']);   // fade under destructive events
 const DESTRUCTIVE = ['blast', 'stones', 'quake', 'flood', 'storm', 'lightning'];
 
@@ -997,9 +998,30 @@ function gest(a, t, B, L, x) {
       case 'look_up': g.look = Math.max(g.look, env(t, b.t, b.t + 2.0, 0.4, 0.55)); break;
       case 'wring_hands': g.wring = Math.max(g.wring, env(t, b.t, b.t + 2.0, 0.3, 0.45)); break;
       case 'glow': g.glow = Math.max(g.glow, env(t, b.t, b.t + 2.0, 0.4, 0.6)); break;
+      case 'read': g.read = Math.max(g.read || 0, env(t, b.t, b.t + 3.6, 0.4, 0.5)); break;
+      case 'give': {
+        const k = env(t, b.t, b.t + 2.0, 0.3, 0.5);
+        const o = L.actors.find((q) => q.id === b.to && q !== a);
+        const tx = o ? o.x : targetX(b.to, a, L);
+        if (age < 2.2) { g.giveAge = age; g.giveTx = tx; }
+        if (k > (g.give || 0)) { g.give = k; g.gdir = Math.abs(tx - x) < 4 ? 1 : Math.sign(tx - x); }
+        break;
+      }
       default: break;
     }
   }
+  // prayer: 'pray' stands with folded hands (side view), then 'ruku', 'sujud', 'sit' (julus) and 'rise' change the
+  // posture; 'stand_up' or 'walk_to' ends the prayer
+  let pOn = -1, pOff = -1, pose = 'stand', prev = 'stand', pT = -BIG;
+  for (const b of Bw) {
+    if (b.t > t) break;
+    if (PRAY_DO[b.do] && (b.do !== 'sit' || pOn > pOff)) {
+      if (pOn <= pOff) { pOn = b.t; prev = PRAY_DO[b.do]; } else prev = pose;
+      pose = PRAY_DO[b.do]; pT = b.t;
+    } else if ((b.do === 'stand_up' || b.do === 'walk_to') && pOn > pOff) pOff = b.t;
+  }
+  g.pray = pOn < 0 ? 0 : pOn > pOff ? ease.inOutSine(prog(t, pOn, pOn + 0.5)) : 1 - ease.inOutSine(prog(t, pOff, pOff + 0.5));
+  g.pFrom = prev; g.pTo = pose; g.pU = prog(t, pT, pT + (pose === 'sujud' ? 1.1 : 0.75));
   g.back = turns % 2 === 1;
   g.sit = rampState(Bw, t, a.pose === 'sit' ? 1 : 0, { sit: 1, stand_up: 0, walk_to: 0 }, 0.7);
   g.lie = rampState(Bw, t, a.pose === 'sleep' ? 1 : 0, { stand_up: 0, sit: 0, walk_to: 0 }, 0.9);
@@ -1811,11 +1833,18 @@ function drawHuman(ctx, a, i, x, y, s, t, st, g, extra = {}, lookOverride = null
   if (g.raise > 0.01) armL = armR = lerp(armL ?? rest, 2.55, ease.outCubic(g.raise)) + Math.sin(t * 3 + i) * 0.08 * g.raise;
   const flip = !!st.flip;
   if (g.point > 0.01) { const side = g.pdir * (flip ? -1 : 1), v = lerp(rest, 1.85, ease.outCubic(g.point)); if (side > 0) armR = v; else armL = v; }
-  fig(ctx, x, y, s, {
-    ...look, walk: st.moving, phase: t * st.speed + i * 1.3, lean: st.lean + (extra.sway || 0), alpha: al * (1 - g.lie),
+  if ((g.give || 0) > 0.01) { const side = g.gdir * (flip ? -1 : 1), v = lerp(rest, 1.3, ease.outCubic(g.give)); if (side > 0) armR = v; else armL = v; }
+  const rd = g.read || 0;
+  if (rd > 0.01) { armL = lerp(armL ?? rest, -0.42, ease.outCubic(rd)); armR = lerp(armR ?? rest, -0.42, ease.outCubic(rd)); }
+  const pr = g.pray || 0;
+  if (pr > 0.01) prayerFig(ctx, x, y, s, g.pFrom, g.pTo, g.pU, look, al * pr, flip);
+  if (pr < 0.99) fig(ctx, x, y, s, {
+    ...look, walk: st.moving, phase: t * st.speed + i * 1.3, lean: st.lean + (extra.sway || 0), alpha: al * (1 - g.lie) * (1 - pr),
     flip, sx: g.sx, back: g.back, armL, armR, bob: extra.bob || 0, sit: g.sit,
-    headDy: 10 * g.bow - 6 * g.look, headDx: Math.sin(t * 22) * 6 * g.shake, wring: g.wring > 0.05, wringPh: t * 6,
+    headDy: 10 * g.bow - 6 * g.look + 7 * rd, headDx: Math.sin(t * 22) * 6 * g.shake, wring: g.wring > 0.05, wringPh: t * 6,
   });
+  if (rd > 0.01 && pr < 0.5) heldBook(ctx, x, y - (48 - 30 * g.sit * 0.55) * s, s, al * rd * (1 - pr));
+  if (pr > 0.5) return;
   const hy = y - (100 - 30 * g.sit) * s;
   if (g.speak >= 0) speakArcs(ctx, x + (flip ? -1 : 1) * 12 * s, hy, g.speak, flip ? -1 : 1, s);
   if (g.look > 0.3) A.sparkle(ctx, x + 6 * s, hy - 70 * s, 8 * s, (g.look - 0.3) * 1.2);
@@ -2023,6 +2052,207 @@ Object.assign(SETTINGS, {
   },
 });
 
+// ================================================================ daily-life pack (home, prayer hall, market, fields)
+// a small oil lamp hanging on a chain; the flame flickers and glows more at night
+function hangLamp(ctx, x, y, s, t, night, seed = 0) {
+  ctx.save(); ctx.translate(x, y); ctx.scale(s, s);
+  ctx.strokeStyle = '#6b5638'; ctx.lineWidth = 2;
+  ctx.beginPath(); ctx.moveTo(0, -400); ctx.lineTo(0, -18); ctx.stroke();
+  ctx.fillStyle = '#b8893f';
+  ctx.beginPath(); ctx.moveTo(-20, -18); ctx.lineTo(20, -18); ctx.lineTo(12, 8); ctx.lineTo(-12, 8); ctx.closePath(); ctx.fill();
+  ctx.fillStyle = '#e0b860'; ctx.beginPath(); ctx.ellipse(0, -18, 20, 5, 0, 0, TAU); ctx.fill();
+  const fl = 1 + Math.sin(t * 9 + seed) * 0.08 + Math.sin(t * 13.7 + seed * 2) * 0.05;
+  A.glowDisc(ctx, 0, -30, 6 * fl, '#fff3c4', '#ffc760', 60 + 70 * night, 1, 0.35 + 0.35 * night);
+  ctx.fillStyle = '#ffd77a'; ctx.beginPath(); ctx.ellipse(0, -30, 4.5 * fl, 9 * fl, 0, 0, TAU); ctx.fill();
+  ctx.restore();
+}
+// the sky seen through a window or an arch, by time of day
+function skyThrough(ctx, t, X, x, y, w, h) {
+  const tm = TIMES[X.time];
+  const g = ctx.createLinearGradient(0, y, 0, y + h);
+  g.addColorStop(0, tm.top); g.addColorStop(0.6, tm.mid); g.addColorStop(1, tm.bot);
+  ctx.fillStyle = g; ctx.fillRect(x, y, w, h);
+  if (X.time === 'night') { ctx.save(); ctx.translate(x, y); A.stars(ctx, w, h, 12, 31, t, 1); ctx.restore(); crescent(ctx, x + w * 0.7, y + h * 0.3, 14, 1); }
+  else if (X.time === 'day' || X.time === 'dawn') A.glowDisc(ctx, x + w * 0.68, y + h * (X.time === 'dawn' ? 0.7 : 0.3), 16, '#fff8e6', '#ffe7a8', 70, 1, 0.5);
+}
+function carpet(ctx, x0, x1, y0, y1, base, border, stripe, rows = 0) {
+  ctx.fillStyle = base; ctx.beginPath(); ctx.moveTo(x0 + 40, y0); ctx.lineTo(x1 - 40, y0); ctx.lineTo(x1, y1); ctx.lineTo(x0, y1); ctx.closePath(); ctx.fill();
+  ctx.strokeStyle = border; ctx.lineWidth = 10; ctx.stroke();
+  ctx.strokeStyle = stripe; ctx.lineWidth = 3;
+  if (rows) for (let k = 1; k < rows; k++) { const y = lerp(y0, y1, k / rows), dx = lerp(40, 0, k / rows); ctx.beginPath(); ctx.moveTo(x0 + dx + 8, y); ctx.lineTo(x1 - dx - 8, y); ctx.stroke(); }
+  else { ctx.beginPath(); ctx.moveTo(x0 + 70, y0 + 24); ctx.lineTo(x1 - 70, y0 + 24); ctx.lineTo(x1 - 34, y1 - 24); ctx.lineTo(x0 + 34, y1 - 24); ctx.closePath(); ctx.stroke(); }
+}
+function homeSet(ctx, t, X) {
+  const g = ctx.createLinearGradient(0, -300, 0, 660);
+  g.addColorStop(0, '#d9c6a4'); g.addColorStop(1, '#ead9bb');
+  ctx.fillStyle = g; ctx.fillRect(-500, -400, 2000, 1060);
+  ctx.fillStyle = 'rgba(170,140,100,0.18)';
+  for (let i = 0; i < 14; i++) { ctx.beginPath(); ctx.ellipse(-300 + H(i, 301) * 1500, -100 + H(i, 302) * 700, 60 + H(i, 303) * 90, 20 + H(i, 304) * 30, 0, 0, TAU); ctx.fill(); }
+  // ceiling beams
+  ctx.fillStyle = '#7a5a3a'; ctx.fillRect(-500, -60, 2000, 26);
+  for (let i = 0; i < 9; i++) { ctx.fillStyle = '#6a4c30'; ctx.fillRect(-380 + i * 190, -60, 16, 34); }
+  // window with a wooden lattice
+  const wx = 600, wy = 170, ww = 200, wh = 250;
+  ctx.fillStyle = '#7a5a3a'; A.archRect(ctx, wx - 14, wy - 14, ww + 28, wh + 28);
+  ctx.save(); ctx.beginPath(); const r = ww / 2; ctx.moveTo(wx, wy + wh); ctx.lineTo(wx, wy + r); ctx.arc(wx + r, wy + r, r, Math.PI, 0); ctx.lineTo(wx + ww, wy + wh); ctx.closePath(); ctx.clip();
+  skyThrough(ctx, t, X, wx, wy, ww, wh);
+  ctx.strokeStyle = 'rgba(110,80,50,0.75)'; ctx.lineWidth = 4;
+  for (let k = 1; k < 4; k++) { ctx.beginPath(); ctx.moveTo(wx + (ww * k) / 4, wy); ctx.lineTo(wx + (ww * k) / 4, wy + wh); ctx.stroke(); }
+  for (let k = 1; k < 5; k++) { ctx.beginPath(); ctx.moveTo(wx, wy + (wh * k) / 5); ctx.lineTo(wx + ww, wy + (wh * k) / 5); ctx.stroke(); }
+  ctx.restore();
+  ctx.fillStyle = '#6a4c30'; ctx.fillRect(wx - 24, wy + wh + 10, ww + 48, 14);
+  // shelf with jars, a lamp hanging
+  ctx.fillStyle = '#7a5a3a'; ctx.fillRect(70, 360, 250, 12);
+  A.pot(ctx, 120, 360, 0.75, '#b5683c'); A.pot(ctx, 200, 360, 0.6, '#c98a4a'); A.pot(ctx, 270, 360, 0.7, '#9a5a32');
+  hangLamp(ctx, 380, 200, 1, t, X.night, 1);
+  // floor, cushions, rug
+  ctx.fillStyle = '#c8ad84'; ctx.fillRect(-500, 640, 2000, 600);
+  ctx.fillStyle = '#b39670'; ctx.fillRect(-500, 640, 2000, 8);
+  for (const [x, col] of [[-60, '#a8453a'], [120, '#2f6b8a'], [300, '#b8893f'], [760, '#3f7a5a'], [940, '#8a3f6a']]) {
+    ctx.fillStyle = col; ctx.beginPath(); ctx.ellipse(x, 640, 82, 26, 0, Math.PI, 0); ctx.fill(); ctx.fillRect(x - 82, 640, 164, 14);
+  }
+  carpet(ctx, 60, 900, 676, 860, '#9b3d32', '#6e2a22', '#e0b860');
+  if (X.night > 0) { ctx.save(); ctx.globalAlpha = 0.35 * X.night; A.glowDisc(ctx, 380, 170, 1, 'rgba(0,0,0,0)', '#ffcf6b', 380, 1, 0.5); ctx.restore(); }
+}
+function prayerHallSet(ctx, t, X) {
+  const g = ctx.createLinearGradient(0, -300, 0, 660);
+  g.addColorStop(0, '#e2d4b8'); g.addColorStop(1, '#f1e7d2');
+  ctx.fillStyle = g; ctx.fillRect(-500, -400, 2000, 1060);
+  // an arcade: arches open onto a bright courtyard, columns between them
+  const cols = [-200, 40, 280, 520, 760, 1000, 1240];
+  for (let i = 0; i < cols.length - 1; i++) {
+    const x0 = cols[i] + 26, w = cols[i + 1] - cols[i] - 52;
+    ctx.save(); ctx.beginPath(); const r = w / 2; ctx.moveTo(x0, 600); ctx.lineTo(x0, 150 + r); ctx.arc(x0 + r, 150 + r, r, Math.PI, 0); ctx.lineTo(x0 + w, 600); ctx.closePath(); ctx.clip();
+    skyThrough(ctx, t, X, x0, 120, w, 300);
+    ctx.fillStyle = X.time === 'night' ? '#3a3a52' : '#e8d8b4'; ctx.fillRect(x0, 420, w, 200);
+    ctx.fillStyle = X.time === 'night' ? '#2e2e44' : '#d9c49a'; ctx.fillRect(x0, 470, w, 140);
+    ctx.restore();
+    ctx.strokeStyle = '#c9b48a'; ctx.lineWidth = 10;
+    ctx.beginPath(); const r2 = w / 2; ctx.moveTo(x0, 600); ctx.lineTo(x0, 150 + r2); ctx.arc(x0 + r2, 150 + r2, r2, Math.PI, 0); ctx.lineTo(x0 + w, 600); ctx.stroke();
+    hangLamp(ctx, x0 + w / 2, 250, 0.8, t, X.night, i);
+  }
+  for (const x of cols) { ctx.fillStyle = '#d6c29a'; ctx.fillRect(x - 26, 120, 52, 520); ctx.fillStyle = '#c4ad82'; ctx.fillRect(x - 32, 120, 64, 20); ctx.fillRect(x - 32, 610, 64, 30); }
+  ctx.fillStyle = '#c9b48a'; ctx.fillRect(-500, 96, 2000, 26);
+  // floor: a green carpet with straight prayer rows
+  ctx.fillStyle = '#d6c4a0'; ctx.fillRect(-500, 640, 2000, 600);
+  carpet(ctx, -260, 1220, 648, 900, '#2f6b55', '#244f40', 'rgba(230,200,110,0.75)', 6);
+  if (X.night > 0) { ctx.save(); ctx.globalAlpha = 0.3 * X.night; for (let i = 0; i < cols.length - 1; i++) A.glowDisc(ctx, (cols[i] + cols[i + 1]) / 2, 230, 1, 'rgba(0,0,0,0)', '#ffcf6b', 200, 1, 0.5); ctx.restore(); }
+  if (X.time === 'day' || X.time === 'dawn') for (let k = 0; k < 4; k++) A.dust(ctx, 160 + k * 220, 520, 160, 0.10, '#fff3d0');
+}
+function stall(ctx, x, y, t, X, seed, cols) {
+  const wv = Math.sin(t * 2 + seed) * 3 * (0.4 + X.wind);
+  ctx.fillStyle = '#7a5a3a'; ctx.fillRect(x - 96, y - 150, 8, 150); ctx.fillRect(x + 88, y - 150, 8, 150);
+  // striped awning
+  for (let k = 0; k < 6; k++) {
+    ctx.fillStyle = k % 2 ? cols[0] : cols[1];
+    ctx.beginPath(); ctx.moveTo(x - 110 + k * 37, y - 160); ctx.lineTo(x - 73 + k * 37, y - 160);
+    ctx.lineTo(x - 73 + k * 37 + wv, y - 120); ctx.quadraticCurveTo(x - 91 + k * 37 + wv, y - 110, x - 110 + k * 37 + wv, y - 120); ctx.closePath(); ctx.fill();
+  }
+  // counter and goods
+  ctx.fillStyle = '#9a7448'; ctx.fillRect(x - 92, y - 58, 184, 58); ctx.fillStyle = '#7d5c36'; ctx.fillRect(x - 92, y - 58, 184, 8);
+  const goods = H(seed, 7) > 0.5;
+  for (let k = 0; k < 3; k++) {
+    const gx = x - 60 + k * 60;
+    if (goods) { ctx.fillStyle = ['#d8c38e', '#c9a46a', '#e2cf9a'][k]; ctx.beginPath(); ctx.ellipse(gx, y - 78, 24, 22, 0, 0, TAU); ctx.fill(); ctx.fillStyle = 'rgba(120,90,50,0.35)'; ctx.fillRect(gx - 10, y - 102, 20, 6); }
+    else { ctx.fillStyle = '#8a6a3a'; ctx.beginPath(); ctx.ellipse(gx, y - 66, 26, 12, 0, 0, TAU); ctx.fill(); for (let f = 0; f < 5; f++) { ctx.fillStyle = ['#d9533b', '#f0a73a', '#7cb850', '#c0392b', '#e8c547'][(f + k) % 5]; ctx.beginPath(); ctx.arc(gx - 14 + f * 7, y - 74 - (f % 2) * 6, 7, 0, TAU); ctx.fill(); } }
+  }
+}
+function marketSet(ctx, t, X) {
+  buildings(ctx, SETTINGS.city.houses, t, X, 0);
+  stall(ctx, 90, 690, t, X, 1, ['#c8483f', '#f1e4c8']);
+  stall(ctx, 860, 684, t, X, 2, ['#2f7fb8', '#f1e4c8']);
+  ctx.save(); ctx.globalAlpha = 0.95; stall(ctx, 470, 640, t, X, 3, ['#3f9a6b', '#f1e4c8']); ctx.restore();
+  A.pot(ctx, 220, 740, 0.8, '#b5683c'); A.pot(ctx, 735, 744, 0.7, '#9a5a32');
+}
+function fieldsSet(ctx, t, X) {
+  const w = X.wither;
+  palmC(ctx, -40, 640, 0.6, t, 41, 0.1 + X.wind * 0.2, w); palmC(ctx, 1000, 636, 0.62, t, 42, -0.08 + X.wind * 0.2, w);
+  for (let r = 0; r < 7; r++) {
+    const y = 600 + r * 26 + r * r * 3.2, sc = 0.55 + r * 0.12;
+    const col = mixHex(mixHex('#d8b44a', '#9cc06e', X.grow || 0), '#a88d62', w);
+    for (let x = -60 + (r % 2) * 14; x < 1020; x += 18 + r * 3) {
+      const sway = Math.sin(t * 1.5 + x * 0.02 + r) * 4 * sc * (1 + X.wind * 2), hgt = (46 + H(x, r) * 12) * sc * (1 - 0.45 * w);
+      ctx.strokeStyle = A.shade(col, -0.18); ctx.lineWidth = 2.2 * sc;
+      ctx.beginPath(); ctx.moveTo(x, y); ctx.quadraticCurveTo(x + sway * 0.4, y - hgt * 0.6, x + sway, y - hgt); ctx.stroke();
+      ctx.fillStyle = col; ctx.beginPath(); ctx.ellipse(x + sway, y - hgt - 6 * sc, 3.4 * sc, 9 * sc, sway * 0.03, 0, TAU); ctx.fill();
+    }
+  }
+}
+Object.assign(SETTINGS, {
+  home: { interior: true, tint: ['#c9a87a', 0.12], back(ctx, t, X) { homeSet(ctx, t, X); } },
+  prayer_hall: { interior: true, back(ctx, t, X) { prayerHallSet(ctx, t, X); } },
+  market: {
+    ground: ['#dcbf92', '#c8a474', 'rgba(150,105,60,0.3)'],
+    far(ctx) { band(ctx, HY - 16, 28, 117, '#dcc09a'); band(ctx, HY - 2, 16, 119, '#d6b68c'); },
+    mid(ctx, t, X) { marketSet(ctx, t, X); },
+  },
+  fields: {
+    ground: ['#d7c48a', '#bfa86c', 'rgba(255,255,255,0.10)'],
+    far(ctx, t) { band(ctx, HY - 8, 30, 171, '#c9cf98'); for (let i = 0; i < 5; i++) palmSil(ctx, 80 + i * 210 + H(i, 171) * 50, HY - 2, 0.3 + H(i, 172) * 0.08, t, '#a3ad7a', i + 40); },
+    mid(ctx, t, X) { fieldsSet(ctx, t, X); },
+  },
+});
+
+// a faceless person in prayer, seen from the side (facing +x): standing with folded hands, bowing, prostrating, sitting.
+// Joint keyframes (feet baseline at y = 0); poses blend by lerping the joints.
+const PRAY_POSES = {
+  stand: { F: [0, 0], K: [0, -26], Hp: [0, -50], Sh: [3, -84], Hd: [5, -103], Hn: [16, -64] },
+  ruku: { F: [0, 0], K: [0, -26], Hp: [-6, -52], Sh: [34, -58], Hd: [54, -62], Hn: [8, -30] },
+  sujud: { F: [-38, 0], K: [0, -2], Hp: [-20, -30], Sh: [20, -24], Hd: [38, -12], Hn: [44, -3] },
+  julus: { F: [-30, 0], K: [20, -2], Hp: [-16, -14], Sh: [-10, -50], Hd: [-8, -69], Hn: [16, -16] },
+};
+function prayerFig(ctx, x, y, s, from, to, u, look, alpha, flip) {
+  const A0 = PRAY_POSES[from] || PRAY_POSES.stand, A1 = PRAY_POSES[to] || PRAY_POSES.stand, k = ease.inOutSine(clamp(u));
+  const P = (j) => [lerp(A0[j][0], A1[j][0], k), lerp(A0[j][1], A1[j][1], k)];
+  const F = P('F'), K = P('K'), Hp = P('Hp'), Sh = P('Sh'), Hd = P('Hd'), Hn = P('Hn');
+  const robe = look.robe ?? '#f1ece0', skin = '#e7b98f', scarf = look.scarf ?? '#ffffff';
+  ctx.save(); ctx.translate(x, y); ctx.scale(s * (flip ? -1 : 1), s); ctx.globalAlpha *= alpha;
+  ctx.fillStyle = 'rgba(40,25,10,0.18)'; ctx.beginPath(); ctx.ellipse(4, 0, 34, 6, 0, 0, TAU); ctx.fill();
+  ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+  ctx.strokeStyle = A.shade(robe, -0.12); ctx.lineWidth = 24;
+  ctx.beginPath(); ctx.moveTo(F[0], F[1] - 6); ctx.lineTo(K[0], K[1]); ctx.lineTo(Hp[0], Hp[1]); ctx.stroke();
+  ctx.strokeStyle = robe; ctx.lineWidth = 36;
+  ctx.beginPath(); ctx.moveTo(Hp[0], Hp[1]); ctx.lineTo(Sh[0], Sh[1]); ctx.stroke();
+  ctx.fillStyle = '#3b2a22'; ctx.beginPath(); ctx.ellipse(F[0] + 8, F[1] - 3, 10, 4, 0, 0, TAU); ctx.fill();
+  if (look.belt) { const m = [lerp(Hp[0], Sh[0], 0.18), lerp(Hp[1], Sh[1], 0.18)]; ctx.strokeStyle = look.belt; ctx.lineWidth = 8; ctx.beginPath(); ctx.moveTo(m[0] - 1, m[1]); ctx.lineTo(m[0] + 1, m[1]); ctx.stroke(); }
+  // head: skin, covered by the head cloth on the top and the back (no features)
+  ctx.fillStyle = skin; ctx.beginPath(); ctx.arc(Hd[0], Hd[1], 14, 0, TAU); ctx.fill();
+  const ang = Math.atan2(Hd[1] - Sh[1], Hd[0] - Sh[0]) + Math.PI / 2;
+  ctx.save(); ctx.translate(Hd[0], Hd[1]); ctx.rotate(ang);
+  ctx.fillStyle = scarf;
+  ctx.beginPath(); ctx.arc(0, 0, 17, Math.PI * 0.9, Math.PI * 2.05); ctx.lineTo(-6, 22); ctx.lineTo(-16, 20); ctx.closePath(); ctx.fill();
+  ctx.strokeStyle = '#2a2420'; ctx.lineWidth = 3.2; ctx.beginPath(); ctx.ellipse(-1, -10, 15, 4, 0, 0, TAU); ctx.stroke();
+  ctx.restore();
+  // arm
+  ctx.strokeStyle = A.shade(robe, -0.06); ctx.lineWidth = 11;
+  const El = [lerp(Sh[0], Hn[0], 0.5) + 6, lerp(Sh[1], Hn[1], 0.5) + 4];
+  ctx.beginPath(); ctx.moveTo(Sh[0], Sh[1] + 4); ctx.quadraticCurveTo(El[0], El[1], Hn[0], Hn[1]); ctx.stroke();
+  ctx.fillStyle = skin; ctx.beginPath(); ctx.arc(Hn[0], Hn[1], 5.5, 0, TAU); ctx.fill();
+  ctx.restore();
+}
+// an open book held in both hands
+function heldBook(ctx, x, y, s, a) {
+  if (a <= 0.01) return;
+  ctx.save(); ctx.translate(x, y); ctx.scale(s, s); ctx.globalAlpha *= a;
+  ctx.fillStyle = '#7a4a2a'; ctx.beginPath(); ctx.moveTo(-26, -4); ctx.lineTo(0, 2); ctx.lineTo(26, -4); ctx.lineTo(26, 14); ctx.lineTo(0, 20); ctx.lineTo(-26, 14); ctx.closePath(); ctx.fill();
+  ctx.fillStyle = '#fbf6e6'; ctx.beginPath(); ctx.moveTo(-23, -6); ctx.quadraticCurveTo(-11, -10, 0, -2); ctx.lineTo(0, 15); ctx.quadraticCurveTo(-11, 8, -23, 11); ctx.closePath(); ctx.fill();
+  ctx.beginPath(); ctx.moveTo(23, -6); ctx.quadraticCurveTo(11, -10, 0, -2); ctx.lineTo(0, 15); ctx.quadraticCurveTo(11, 8, 23, 11); ctx.closePath(); ctx.fill();
+  ctx.strokeStyle = 'rgba(120,100,70,0.5)'; ctx.lineWidth = 1.2;
+  for (let k = 0; k < 3; k++) { ctx.beginPath(); ctx.moveTo(-19, -2 + k * 5); ctx.lineTo(-4, 0 + k * 5); ctx.moveTo(4, 0 + k * 5); ctx.lineTo(19, -2 + k * 5); ctx.stroke(); }
+  ctx.restore();
+}
+// a small cloth purse that travels from the giver to the receiver, then a sparkle
+function givePurse(ctx, x0, x1, y, age) {
+  if (age < 0.25 || age > 2.2) return;
+  const p = ease.inOutSine(clamp((age - 0.25) / 1.0)), x = lerp(x0, x1, p), yy = y - Math.sin(Math.PI * p) * 50;
+  const fade = 1 - prog(age, 1.6, 2.2);
+  ctx.save(); ctx.globalAlpha *= fade;
+  ctx.fillStyle = '#c9a046'; ctx.beginPath(); ctx.ellipse(x, yy, 11, 10, 0, 0, TAU); ctx.fill();
+  ctx.fillStyle = '#a8803a'; ctx.beginPath(); ctx.moveTo(x - 6, yy - 8); ctx.lineTo(x + 6, yy - 8); ctx.lineTo(x + 3, yy - 15); ctx.lineTo(x - 3, yy - 15); ctx.closePath(); ctx.fill();
+  ctx.restore();
+  if (p >= 1) A.sparkle(ctx, x1, y - 18, 12, fade * (1 - prog(age, 1.25, 2.0)) * 0.9 + 0.1 * fade);
+}
+
 // the fish slips from the basket into the water and leaves a tunnel-like trail
 function fishEscape(ctx, t, age, a, st, L) {
   if (age < 0) return;
@@ -2184,7 +2414,8 @@ function stageDraw(ctx, t, T) {
     stonesDraw(ctx, t, E);
     birdsBeat(ctx, B, t);
   });
-  const tints = [tm.tint, set.tint].filter(Boolean);
+  // indoors the lamps light the room: the time-of-day tint is much weaker
+  const tints = [tm.tint && set.interior ? [tm.tint[0], tm.tint[1] * 0.35] : tm.tint, set.tint].filter(Boolean);
   for (const ti of tints) { ctx.save(); ctx.globalCompositeOperation = 'multiply'; ctx.fillStyle = rgba(ti[0], ti[1]); ctx.fillRect(0, 0, SW, SH); ctx.restore(); }
   const dk = E.k('darkness', 1.5, 1);
   if (dk > 0) { ctx.fillStyle = `rgba(11,16,34,${0.62 * dk})`; ctx.fillRect(0, 0, SW, SH); }
@@ -2335,6 +2566,10 @@ function drawActors(ctx, t, T, L, E, c, X, pass, B) {
         const gi = n > 1 ? gest(a, t - i * 0.07, B, L, st.x) : g;
         const sway = pulseOf(B, t, 'wind', 2.6, 0.4) * Math.sin(t * 3 + i) * 0.05;
         drawHuman(ctx, a, i, x, y, sc, t, { ...st, flip: a.pose === 'gather' ? (i % 2 === 1) !== st.flip : st.flip }, gi, { alpha: al, sway, bob: a.pose === 'gather' ? Math.abs(Math.sin(t * 2 + i)) * 3 : 0 });
+      }
+      if ((g.giveAge ?? -1) >= 0) {
+        const x0 = st.x + g.gdir * (((n - 1) / 2) * sp + 34), x1 = g.giveTx - g.gdir * 26;
+        ctx.save(); ctx.globalAlpha = al; givePurse(ctx, x0, x1, GY - 70, g.giveAge); ctx.restore();
       }
       if (a.pose === 'flee' && st.alpha > 0.1) {
         for (let i = 0; i < Math.min(n, 6); i += 2) A.bubble(ctx, st.x + (i - (Math.min(n, 6) - 1) / 2) * sp + 8, GY - 150 - Math.abs(Math.sin(t * 6 + i)) * 8, 0.7, '!', st.alpha);

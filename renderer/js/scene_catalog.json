@@ -6,7 +6,7 @@
     "Maryam and the Mothers of the Believers are drawn ONLY as labelled light drops (type 'honored'), never as women.",
     "Ordinary people are always faceless.",
     "The unseen (Paradise, Hell, the Day of Judgement, the Throne, Jinn, the grave, the Hereafter) is never illustrated literally: use the 'ambient' scene for those passages.",
-    "Rulings, du'a, Allah's names and attributes, and admonition use the 'ambient' scene.",
+    "Owner decision 2026-11-21: rulings, du'a, admonition and descriptions of people are shown on the stage as everyday life of faceless people (prayer, charity, family, trade, travel, work) whenever a this-world picture fits; the 'ambient' scene is only for Allah's names and attributes, the unseen and battles.",
     "Where the Quran leaves a number to Allah's knowledge, never show a countable group (use 'sleepers', which is drawn uncountable).",
     "Killing and violence are never shown; use the 'ambient' scene for such verses.",
     "No text is baked into the art; the only scene text is the prophet/angel name label."
@@ -28,6 +28,12 @@
       "point":       "who points toward 'to' (left|center|right or an actor id)",
       "raise_hands": "who raises hands (du'a, joy)",
       "bow":         "who lowers the head (humility, sorrow, regret)",
+      "pray": "who stands in prayer (seen from the side, hands folded); then ruku / sujud / sit / rise change the posture; stand_up or walk_to ends the prayer",
+      "ruku": "who bows in prayer (back level, hands on knees)",
+      "sujud": "who prostrates in prayer (forehead on the ground)",
+      "rise": "who rises back to standing in prayer",
+      "give": "who hands a small purse to 'to' (an actor id or a place): charity, a gift, paying what is due",
+      "read": "who holds an open book and reads",
       "speak":       "who speaks: small sound waves near the head (dialogue)",
       "shake_head":  "who shakes the head (refusal, objection)",
       "walk_to":     "who walks to 'to' (left|center|right)",
@@ -128,7 +134,7 @@
     }
   },
   "stage": {
-    "description": "A simple flat-vector story stage: one setting, a few actors, timed events and beats. Use for narrated events in the life of this world (stories of prophets and nations).",
+    "description": "A simple flat-vector story stage: one setting, a few actors, timed events and beats. Use it for every passage about this world: stories of prophets and nations, the deeds of believers, hypocrites and disbelievers, rulings shown as everyday life (prayer, charity, family, trade, travel), and signs in nature (rain, ships, gardens, fields). Use 'ambient' only for Allah's names and attributes, the unseen and battles.",
     "anchors_base": ["center", "sky", "ground"],
     "settings": {
       "desert":       { "label": "Desert & tents",                "bg": "#efe6d6" },
@@ -141,7 +147,11 @@
       "cave":         { "label": "Inside a cave, the bright entrance on one side", "bg": "#e3ded5" },
       "cave_mouth":   { "label": "Rocky mountainside with a cave entrance",       "bg": "#e8e2d6" },
       "pass":         { "label": "A narrow pass between two high mountains",      "bg": "#e6e3dc" },
-      "sea_junction": { "label": "Where two seas meet, a large rock on the shore", "bg": "#dfe7ea" }
+      "sea_junction": { "label": "Where two seas meet, a large rock on the shore", "bg": "#dfe7ea" },
+      "home": {"label": "Inside a home: plastered walls, a lattice window (sky by time of day), a hanging lamp, cushions and a rug", "bg": "#e6d6b8"},
+      "prayer_hall": {"label": "A prayer hall: an arcade of arches, hanging lamps, a green carpet with straight rows (no Kaaba, no writing)", "bg": "#ece2cc"},
+      "market": {"label": "A market street: stalls with striped awnings, sacks of grain, baskets of fruit, jars", "bg": "#e9dcc4"},
+      "fields": {"label": "Fields of wheat swaying, palms at the edges (growth/wither change them)", "bg": "#e6e2c8"}
     },
     "times": ["day", "dawn", "dusk", "night"],
     "places": ["left", "center", "right"],
