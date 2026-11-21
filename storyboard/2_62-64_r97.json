@@ -41,22 +41,21 @@
        62,
        3
       ],
-      "do": "push_in"
+      "do": "pan_left"
      },
      {
       "at": [
        62,
        6
       ],
-      "do": "light_up"
+      "do": "push_in"
      },
      {
       "at": [
        62,
        8
       ],
-      "do": "sparkle",
-      "who": "light"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -70,21 +69,21 @@
        62,
        12
       ],
-      "do": "light_up"
+      "do": "push_in"
      },
      {
       "at": [
        62,
        13
       ],
-      "do": "pan_left"
+      "do": "shot_sky"
      },
      {
       "at": [
        62,
        19
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -138,42 +137,42 @@
        63,
        14
       ],
-      "do": "push_in"
+      "do": "pan_left"
      },
      {
       "at": [
        64,
        1
       ],
-      "do": "light_up"
+      "do": "shot_sky"
      },
      {
       "at": [
        64,
        3
       ],
-      "do": "wind"
+      "do": "push_in"
      },
      {
       "at": [
        64,
        6
       ],
-      "do": "birds"
+      "do": "pan_right"
      },
      {
       "at": [
        64,
        10
       ],
-      "do": "pan_left"
+      "do": "push_in"
      },
      {
       "at": [
        64,
        13
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      }
     ],
     "motifs": [

@@ -28,7 +28,7 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سفه مزعوم",
+   "title": "سفه المنافقين",
    "verses": [
     13
    ],
@@ -39,61 +39,61 @@
      {
       "at": [
        13,
-       5
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       13,
-       9
+       6
       ],
       "do": "pan_left"
      },
      {
       "at": [
        13,
-       11
+       8
       ],
       "do": "push_in"
      },
      {
       "at": [
        13,
-       13
-      ],
-      "do": "light_up"
-     },
-     {
-      "at": [
-       13,
-       14
-      ],
-      "do": "stars"
-     },
-     {
-      "at": [
-       13,
-       17
+       11
       ],
       "do": "pan_right"
      },
      {
       "at": [
        13,
-       19
+       13
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       13,
+       14
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       13,
+       16
       ],
       "do": "shot_sky"
+     },
+     {
+      "at": [
+       13,
+       18
+      ],
+      "do": "pan_right"
      }
     ],
     "motifs": [
      {
       "at": [
        13,
-       7
+       4
       ],
       "until": null,
-      "motif": "crowd",
+      "motif": "lamp",
       "place": "top",
       "size": "m"
      }
@@ -114,23 +114,16 @@
      {
       "at": [
        14,
-       5
+       4
       ],
-      "do": "shot_wide"
+      "do": "push_in"
      },
      {
       "at": [
        14,
        6
       ],
-      "do": "wind"
-     },
-     {
-      "at": [
-       14,
-       10
-      ],
-      "do": "light_up"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -144,21 +137,21 @@
        14,
        16
       ],
-      "do": "push_in"
+      "do": "pan_left"
      },
      {
       "at": [
        15,
        2
       ],
-      "do": "pan_left"
+      "do": "shot_sky"
      }
     ],
     "motifs": [
      {
       "at": [
        14,
-       7
+       8
       ],
       "until": null,
       "motif": "two_paths",
@@ -201,14 +194,14 @@
        16,
        5
       ],
-      "do": "push_in"
+      "do": "pan_left"
      },
      {
       "at": [
        16,
        8
       ],
-      "do": "light_up"
+      "do": "push_in"
      }
     ],
     "motifs": [
@@ -240,7 +233,7 @@
    ],
    "tafsir": 16,
    "excerpt": "مثل إيمان الصحابة",
-   "target": "motif",
+   "target": "",
    "tone": "green"
   },
   {

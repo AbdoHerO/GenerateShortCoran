@@ -10,18 +10,12 @@ import json, pathlib, re, sys
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 CAT = json.loads((ROOT / "renderer" / "js" / "scene_catalog.json").read_text(encoding="utf-8"))
 WAQF = re.compile(r"[ۖ-ۜ]")
-# neutral beats per mood / scene, used in rotation
-AMB = {
-    "night_sky": ["shot_wide", "stars", "push_in", "pan_left", "light_up", "pan_right", "shot_sky"],
-    "dawn": ["shot_wide", "light_up", "push_in", "birds", "pan_right", "clouds_part", "pan_left"],
-    "sea": ["shot_wide", "waves", "push_in", "pan_left", "light_up", "pan_right", "birds"],
-    "mountains": ["shot_wide", "wind", "push_in", "pan_right", "light_up", "pan_left", "birds"],
-    "garden": ["shot_wide", "leaves", "push_in", "birds", "pan_left", "light_up", "pan_right"],
-    "rain": ["shot_wide", "light_up", "push_in", "pan_left", "wind", "pan_right", "shot_ground"],
-    "geometric": ["shot_wide", "pattern_turn", "push_in", "light_up", "pan_left", "pattern_turn", "pan_right"],
-    "light": ["shot_wide", "light_up", "push_in", "sparkle", "pan_left", "light_up", "pan_right"],
-}
-STAGE = ["shot_wide", "push_in", "pan_left", "wind", "pan_right", "shot_wide", "birds"]
+# Only CAMERA moves are added automatically. Beats that carry meaning (light swelling, stars, rain, bloom, sparkle,
+# birds, wind) land on whatever word happens to be in the gap: a light swelling on a negated word, on "their devils"
+# or just before the Name is wrong (Al-Baqarah review, 2026-11-21). Such beats are written by hand, on chosen words.
+CAM = ["shot_wide", "push_in", "pan_left", "pan_right", "shot_sky", "push_in", "pan_right", "pan_left", "shot_ground"]
+AMB = {}
+STAGE = ["shot_wide", "push_in", "pan_left", "pan_right", "shot_wide", "push_in"]
 
 
 def main(pid, gap=4.5):
@@ -50,7 +44,7 @@ def main(pid, gap=4.5):
             continue
         start = {(n, k): t for t, n, k, _ in words}
         end = max(s[2] for n in c["verses"] for s in T[f"{ch}:{n}"]["segments"]) / 1000
-        rot = AMB.get(prm.get("mood"), AMB["light"]) if c["scene"] == "ambient" else STAGE
+        rot = CAM if c["scene"] == "ambient" else STAGE
         allowed = set(CAT["beats"]["camera"]) | set(CAT["beats"]["scene"]) | (set(CAT["beats"]["ambient"]) if c["scene"] == "ambient" else set())
         rot = [b for b in rot if b in allowed]
         k = len(prm.get("beats") or [])
@@ -73,8 +67,6 @@ def main(pid, gap=4.5):
             if not cand:
                 break
             beat = {"at": [cand[1], cand[2]], "do": rot[k % len(rot)]}
-            if beat["do"] == "sparkle":
-                beat["who"] = "light" if c["scene"] == "ambient" else "center"
             k += 1
             prm.setdefault("beats", []).append(beat)
             added += 1

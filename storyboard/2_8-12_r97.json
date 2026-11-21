@@ -43,49 +43,49 @@
        8,
        5
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        8,
        7
       ],
-      "do": "push_in"
+      "do": "pan_left"
      },
      {
       "at": [
        8,
        11
       ],
-      "do": "light_up"
+      "do": "shot_sky"
      },
      {
       "at": [
        9,
        1
       ],
-      "do": "stars"
+      "do": "push_in"
      },
      {
       "at": [
        9,
        4
       ],
-      "do": "shot_sky"
+      "do": "pan_right"
      },
      {
       "at": [
        9,
        7
       ],
-      "do": "pan_right"
+      "do": "push_in"
      },
      {
       "at": [
        9,
        8
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -99,21 +99,21 @@
        10,
        1
       ],
-      "do": "pan_left"
+      "do": "push_in"
      },
      {
       "at": [
        10,
        2
       ],
-      "do": "push_in"
+      "do": "shot_wide"
      },
      {
       "at": [
        10,
        4
       ],
-      "do": "stars"
+      "do": "shot_ground"
      },
      {
       "at": [
@@ -127,7 +127,7 @@
        10,
        9
       ],
-      "do": "light_up"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -167,7 +167,7 @@
        11,
        7
       ],
-      "do": "wind"
+      "do": "push_in"
      },
      {
       "at": [
@@ -181,7 +181,7 @@
        12,
        1
       ],
-      "do": "push_in"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -215,9 +215,9 @@
     4
    ],
    "tafsir": 16,
-   "excerpt": "وهم المنافقون",
-   "target": "motif",
-   "tone": "amber"
+   "excerpt": "فريق يتردد متحيِّرًا بين المؤمنين والكافرين، وهم المنافقون",
+   "target": "",
+   "tone": "red"
   },
   {
    "verse": 8,

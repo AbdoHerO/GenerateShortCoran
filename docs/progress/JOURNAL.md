@@ -117,3 +117,19 @@ or by eye. The per-surah summary goes into each `plans/<n>.json` "notes"; this f
   - The rule reserves this decision for the owner, because the renders are not identical. The agent's change to the
     verifier was refused by the automatic safety review, and nothing was changed.
   - Until the owner decides, only the Al-Baqarah videos with none of those verses are produced.
+
+### Al-Baqarah batch 1 review (2:1–20, independent sub-agent): 2 SERIOUS and 20 MINOR, all applied
+- **Serious:**
+  - 2:1 «الٓمٓ»: Al-Muyassar's "a sign of the Quran's inimitability" took one side where As-Sa'di prefers silence.
+    Replaced by As-Sa'di's «الله تعالى لم ينزلها عبثا بل لحكمة», which both sides accept.
+  - 2:13: the gloss «مثل إيمان الصحابة» pointed its arrow at the crowd motif, turning faceless figures into the
+    Companions. The arrow was removed and the crowd replaced by a lamp.
+- **Minor:**
+  - series «أصناف الناس» (was «صفات الناس»);
+  - motifs: geometric on «الٓمٓ», lamp on «هدى», no lightning on the Prophet's ﷺ warning;
+  - arrows: none on glosses whose words include the Name;
+  - wording: «سفه المنافقين», «المثلان الناري والمائي», «حيرة في العاصفة»;
+  - excerpts: clearer glosses on 2:8, 17, 20.
+- **Systematic fix:** `pipeline/autobeats.py` now adds camera moves only. Before, it placed `light_up` and `stars` on
+  whatever word fell in a gap: a negated word, «شياطينهم», the punishment, just before the Name. Every Al-Baqarah
+  storyboard was regenerated.

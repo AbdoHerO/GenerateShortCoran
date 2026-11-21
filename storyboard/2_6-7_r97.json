@@ -42,6 +42,13 @@
        6,
        4
       ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       6,
+       6
+      ],
       "do": "shot_wide"
      },
      {
@@ -49,28 +56,28 @@
        6,
        7
       ],
-      "do": "stars"
+      "do": "pan_left"
      },
      {
       "at": [
        6,
        11
       ],
-      "do": "push_in"
+      "do": "pan_right"
      },
      {
       "at": [
        7,
        6
       ],
-      "do": "light_up"
+      "do": "push_in"
      },
      {
       "at": [
        7,
        8
       ],
-      "do": "pan_left"
+      "do": "shot_sky"
      },
      {
       "at": [
@@ -81,16 +88,6 @@
      }
     ],
     "motifs": [
-     {
-      "at": [
-       6,
-       6
-      ],
-      "until": null,
-      "motif": "lightning",
-      "place": "top",
-      "size": "m"
-     },
      {
       "at": [
        7,
@@ -132,11 +129,11 @@
    "verse": 7,
    "words": [
     1,
-    2
+    1
    ],
    "tafsir": 16,
    "excerpt": "بسبب كفرهم وعنادهم مِن بعد ما تبيَّن لهم الحق",
-   "target": "motif",
+   "target": "",
    "tone": "red"
   }
  ],
@@ -145,8 +142,8 @@
   "notes": "Disbelievers (6-7). The seal motif on «ختم» stands for the sealing; no eye is drawn for «أبصارهم»; the punishment (7) gets no picture."
  },
  "cover": {
-  "series_ar": "صفات الناس",
-  "series_en": "Three kinds of people",
+  "series_ar": "أصناف الناس",
+  "series_en": "Kinds of people",
   "title_ar": "قلوب مختومة",
   "title_en": "Sealed hearts",
   "at": [

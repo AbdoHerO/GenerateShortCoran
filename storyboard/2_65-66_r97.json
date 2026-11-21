@@ -49,35 +49,35 @@
        65,
        10
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        65,
        12
       ],
-      "do": "push_in"
+      "do": "pan_left"
      },
      {
       "at": [
        66,
        1
       ],
-      "do": "waves"
+      "do": "push_in"
      },
      {
       "at": [
        66,
        4
       ],
-      "do": "light_up"
+      "do": "shot_sky"
      },
      {
       "at": [
        66,
        9
       ],
-      "do": "pan_right"
+      "do": "push_in"
      }
     ],
     "motifs": [

@@ -48,7 +48,7 @@
        28,
        9
       ],
-      "do": "light_up"
+      "do": "push_in"
      }
     ],
     "motifs": [
@@ -97,21 +97,21 @@
        29,
        12
       ],
-      "do": "stars"
+      "do": "push_in"
      },
      {
       "at": [
        29,
        13
       ],
-      "do": "push_in"
+      "do": "pan_left"
      },
      {
       "at": [
        29,
        17
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      }
     ],
     "motifs": [

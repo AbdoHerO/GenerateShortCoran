@@ -42,14 +42,14 @@
        35,
        3
       ],
-      "do": "push_in"
+      "do": "pan_left"
      },
      {
       "at": [
        35,
        6
       ],
-      "do": "light_up"
+      "do": "push_in"
      },
      {
       "at": [
@@ -63,15 +63,14 @@
        35,
        13
       ],
-      "do": "pan_left"
+      "do": "shot_sky"
      },
      {
       "at": [
        35,
        16
       ],
-      "do": "sparkle",
-      "who": "light"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -85,21 +84,21 @@
        36,
        7
       ],
-      "do": "light_up"
+      "do": "push_in"
      },
      {
       "at": [
        36,
        12
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        36,
        17
       ],
-      "do": "light_up"
+      "do": "shot_ground"
      }
     ],
     "motifs": [
@@ -141,7 +140,7 @@
        37,
        7
       ],
-      "do": "light_up"
+      "do": "push_in"
      },
      {
       "at": [
@@ -182,7 +181,7 @@
        38,
        4
       ],
-      "do": "pattern_turn"
+      "do": "push_in"
      },
      {
       "at": [
@@ -196,21 +195,21 @@
        38,
        13
       ],
-      "do": "pan_left"
+      "do": "shot_sky"
      },
      {
       "at": [
        38,
        15
       ],
-      "do": "pattern_turn"
+      "do": "push_in"
      },
      {
       "at": [
        38,
        17
       ],
-      "do": "light_up"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -224,28 +223,28 @@
        39,
        4
       ],
-      "do": "push_in"
+      "do": "pan_left"
      },
      {
       "at": [
        39,
        5
       ],
-      "do": "pattern_turn"
+      "do": "shot_ground"
      },
      {
       "at": [
        39,
        7
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        39,
        8
       ],
-      "do": "push_in"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
