@@ -283,8 +283,8 @@
     {
      "from": 84,
      "to": 87,
-     "title_ar": "ذرية الأنبياء",
-     "title_en": "The prophets' line",
+     "title_ar": "موكب الأنبياء",
+     "title_en": "The line of prophets",
      "visual": "ambient",
      "care": "Prophets named: no motif.",
      "est_s": 70
@@ -292,8 +292,8 @@
     {
      "from": 88,
      "to": 90,
-     "title_ar": "الاقتداء بالهدى",
-     "title_en": "Following their guidance",
+     "title_ar": "هدى الأنبياء",
+     "title_en": "The guidance of the prophets",
      "visual": "ambient",
      "care": "Prophets: no motif.",
      "est_s": 64
@@ -309,8 +309,8 @@
     {
      "from": 91,
      "to": 92,
-     "title_ar": "تعظيم الوحي",
-     "title_en": "Honouring revelation",
+     "title_ar": "الوحي والبشر",
+     "title_en": "Revelation to humankind",
      "visual": "ambient",
      "care": "Musa: no motif; 91: short-word flag (listen).",
      "est_s": 82
@@ -318,8 +318,8 @@
     {
      "from": 93,
      "to": 93,
-     "title_ar": "الافتراء على الله",
-     "title_en": "Inventing lies about Allah",
+     "title_ar": "أشد الظلم",
+     "title_en": "The gravest wrong",
      "visual": "ambient",
      "care": "Death throes and angels: nothing drawn; 93: short-word flag (listen).",
      "est_s": 82
@@ -327,8 +327,8 @@
     {
      "from": 94,
      "to": 95,
-     "title_ar": "آيات الخلق",
-     "title_en": "Signs in creation",
+     "title_ar": "آيات الحياة",
+     "title_en": "Signs of life",
      "visual": "ambient",
      "care": "94: the Day, nothing literal.",
      "est_s": 64
