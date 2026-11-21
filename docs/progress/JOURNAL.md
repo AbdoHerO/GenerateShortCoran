@@ -1094,3 +1094,17 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
   the word boundary differs. This is new decision §7, and 37 is blocked.
 - 17 videos planned. 16 have base storyboards, all cut-checked clean; 35-36 is planned apart from 37, so that 35-36
   is not held with it.
+
+### Ar-Ra'd written; Ibrahim audit and plan (2026-11-21)
+
+- **Ar-Ra'd:** 16 storyboards, all verified PASSED and cut-checked. 37 is blocked (§7).
+  - Care points:
+    - The angels (11, 13, 23), Paradise (23-24, 35), Hell, the Throne and the Tablet are never drawn.
+    - Lightning appears only as a sign, never striking anyone.
+    - The prostration of 15 is not drawn; its chapter is light, not dawn.
+    - Not glossed where the tafsirs differ: 8:7-11, 11 «من أمر الله», 31:1-14, 39:1-5, 41:1-8, 43:12-15.
+    - Al-Muyassar's battle readings (31, 34, 41) are not used.
+  - A combined reviewer (glosses and pictures) is running.
+- **Ibrahim:** 17.8 minutes recited. The text is identical to Tanzil. Short-word flags at 22 and 31.
+  - 19 JOINED boundaries; 43-52 is one 181 s unit, kept long as in 3:102-108 and 7:47-53.
+  - 14 videos planned. All have base storyboards and cut-check clean.

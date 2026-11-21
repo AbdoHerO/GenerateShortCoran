@@ -1,0 +1,190 @@
+{
+ "surah": 14,
+ "summary": "14 short videos (reciter Yasser ad-Dussary) covering all 52 verses",
+ "made_by": "Research 2026-11-21 (cloud agent): audit_surah.py 14 --reciter 97 (with the nocut check), plan_split.py with thematic sections, Saheeh translation and both tafsirs.",
+ "reciter": {
+  "id": 97,
+  "name": "Yasser ad-Dussary"
+ },
+ "notes": [
+  "Recitation: 17.8 minutes. 19 JOINED boundaries and 1 with no clean audio cut; 43-52 is one 181 s unit.",
+  "Text: identical to Tanzil. Short-word flags to hear: 22, 31.",
+  "Pictures: ambient throughout. Musa, Ibrahim, the messengers and the Prophet ﷺ get no motif; Satan, the Gathering, Hell and the Day never drawn."
+ ],
+ "groups": [
+  {
+   "title_ar": "الكتاب الهادي",
+   "title_en": "The guiding Book",
+   "from": 1,
+   "to": 3,
+   "videos": [
+    {
+     "from": 1,
+     "to": 3,
+     "title_ar": "رسالة الهداية",
+     "title_en": "The message of guidance",
+     "visual": "ambient",
+     "care": "«لتخرج» addresses the Prophet ﷺ: no plate on him.",
+     "est_s": 67
+    }
+   ]
+  },
+  {
+   "title_ar": "موسى وقومه",
+   "title_en": "Musa and his people",
+   "from": 4,
+   "to": 8,
+   "videos": [
+    {
+     "from": 4,
+     "to": 6,
+     "title_ar": "التذكير بالنعم",
+     "title_en": "A reminder of blessings",
+     "visual": "ambient",
+     "care": "Musa: no motif; Pharaoh's crimes (6) never drawn.",
+     "est_s": 98
+    },
+    {
+     "from": 7,
+     "to": 8,
+     "title_ar": "سنة الشكر",
+     "title_en": "The law of gratitude",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 41
+    }
+   ]
+  },
+  {
+   "title_ar": "الرسل وأقوامهم",
+   "title_en": "Messengers and their peoples",
+   "from": 9,
+   "to": 17,
+   "videos": [
+    {
+     "from": 9,
+     "to": 10,
+     "title_ar": "شبهات الأقوام",
+     "title_en": "The peoples' doubts",
+     "visual": "ambient",
+     "care": "The messengers get no motif; the peoples' claims framed.",
+     "est_s": 101
+    },
+    {
+     "from": 11,
+     "to": 12,
+     "title_ar": "توكل الرسل",
+     "title_en": "The messengers' trust",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 65
+    },
+    {
+     "from": 13,
+     "to": 17,
+     "title_ar": "تهديد المكذبين",
+     "title_en": "The deniers threatened",
+     "visual": "ambient",
+     "care": "Hell (16-17) never drawn.",
+     "est_s": 75
+    }
+   ]
+  },
+  {
+   "title_ar": "أمثال وعبر",
+   "title_en": "Parables and lessons",
+   "from": 18,
+   "to": 34,
+   "videos": [
+    {
+     "from": 18,
+     "to": 21,
+     "title_ar": "ضياع الأعمال",
+     "title_en": "Deeds that vanish",
+     "visual": "ambient",
+     "care": "The Gathering and the dialogue of the weak and the arrogant (21) never drawn.",
+     "est_s": 114
+    },
+    {
+     "from": 22,
+     "to": 24,
+     "title_ar": "تبرؤ الشيطان",
+     "title_en": "Satan disowns them",
+     "visual": "ambient",
+     "care": "Satan never drawn; 22: short-word flag (listen).",
+     "est_s": 115
+    },
+    {
+     "from": 25,
+     "to": 30,
+     "title_ar": "الثبات في الدارين",
+     "title_en": "Firmness in both worlds",
+     "visual": "ambient",
+     "care": "The questioning in the grave and the Fire never drawn.",
+     "est_s": 89
+    },
+    {
+     "from": 31,
+     "to": 34,
+     "title_ar": "فيض النعم",
+     "title_en": "Abundant blessings",
+     "visual": "ambient",
+     "care": "31: short-word flag (listen).",
+     "est_s": 105
+    }
+   ]
+  },
+  {
+   "title_ar": "دعاء إبراهيم",
+   "title_en": "Ibrahim's prayer",
+   "from": 35,
+   "to": 41,
+   "videos": [
+    {
+     "from": 35,
+     "to": 37,
+     "title_ar": "دعاء الخليل",
+     "title_en": "The prayer of al-Khalil",
+     "visual": "ambient",
+     "care": "Ibrahim and his family: no plate; the Kaaba and idols never drawn.",
+     "est_s": 69
+    },
+    {
+     "from": 38,
+     "to": 41,
+     "title_ar": "علم الله بالسرائر",
+     "title_en": "Allah knows what is hidden",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 61
+    }
+   ]
+  },
+  {
+   "title_ar": "يوم الحساب",
+   "title_en": "The Day of Reckoning",
+   "from": 42,
+   "to": 52,
+   "videos": [
+    {
+     "from": 42,
+     "to": 42,
+     "title_ar": "إمهال الظالمين",
+     "title_en": "Respite for the wrongdoers",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 24
+    },
+    {
+     "from": 43,
+     "to": 52,
+     "title_ar": "مشاهد الجزاء",
+     "title_en": "Scenes of recompense",
+     "visual": "ambient",
+     "care": "One unit (the reciter joins 43-52). The Day, the changed earth, chains and fire never drawn; no plate on the Prophet ﷺ addressed (44, 47).",
+     "est_s": 189
+    }
+   ]
+  }
+ ]
+}
