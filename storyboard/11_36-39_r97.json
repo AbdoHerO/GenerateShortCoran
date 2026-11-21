@@ -202,7 +202,7 @@
     17
    ],
    "tafsir": 91,
-   "excerpt": "فلا تحزن، ولا تبال بهم, وبأفعالهم",
+   "excerpt": "فلا تحزن، ولا تبال بهم",
    "target": "",
    "tone": "blue"
   },
@@ -212,8 +212,8 @@
     10,
     11
    ],
-   "tafsir": 91,
-   "excerpt": "قد حق عليهم القول، ونفذ فيهم القدر",
+   "tafsir": 16,
+   "excerpt": "بالطوفان",
    "target": "",
    "tone": "red"
   },
@@ -221,17 +221,6 @@
    "verse": 38,
    "words": [
     1,
-    2
-   ],
-   "tafsir": 16,
-   "excerpt": "ويصنع نوح السفينة",
-   "target": "",
-   "tone": "blue"
-  },
-  {
-   "verse": 38,
-   "words": [
-    3,
     10
    ],
    "tafsir": 91,
@@ -268,7 +257,7 @@
     6
    ],
    "tafsir": 16,
-   "excerpt": "إذا جاء أمر الله بذلك",
+   "excerpt": "في الدنيا",
    "target": "",
    "tone": "blue"
   },
@@ -291,7 +280,7 @@
  "cover": {
   "series_ar": "نوح وقومه",
   "series_en": "Nuh and his people",
-  "title_ar": "صنع السفينة",
+  "title_ar": "بناء السفينة",
   "title_en": "Building the ark",
   "at": [
    38,

@@ -28,7 +28,7 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "علم السرائر",
+   "title": "العلم المحيط",
    "verses": [
     5
    ],
@@ -438,8 +438,8 @@
  "cover": {
   "series_ar": "الكتاب والإنسان",
   "series_en": "The Book and man",
-  "title_ar": "علم السرائر",
-  "title_en": "Knowing what is hidden",
+  "title_ar": "العلم المحيط",
+  "title_en": "The all-encompassing knowledge",
   "at": [
    5,
    1

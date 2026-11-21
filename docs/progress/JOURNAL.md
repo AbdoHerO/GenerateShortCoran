@@ -1059,3 +1059,30 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
 - Motion fixes: 29:8 geometric, 84:19 wheat.
 - Lesson: a burst or star on a cover can be read as an angel or a blast. On a cover, prefer a plate whose meaning
   cannot be mistaken.
+
+### Hud gloss review applied; Hud queued (2026-11-21)
+
+- 0 SERIOUS, 53 MINOR, all applied. All 31 storyboards were re-verified PASSED and have no plate over the Name.
+- Fixed first: four boxes that, read alone, dropped the negation the pill keeps.
+  - 88:14-21 now «وأنا أول مبتدر لتركه». Before, Shu'ayb seemed to say he commits what he forbids.
+  - 20:7-14, 113:8-14 and 63:13-18 now keep the question or negation.
+- Also fixed:
+  - 34: a condition shown alone; now one 34:1-14 chip.
+  - 109:16-20: the tafsirs differ on «نصيبهم».
+  - 83:4-8: the qualifier is restored.
+  - 65:2-7: the threat is now shown as a threat.
+  - 78:23-26: «مروجهم» could read as "meadows".
+  - Quran echoes removed: 8:39, 61:5, 11:27, 28:63, 40:78, 3:5, 2:27.
+  - Seven Latin commas trimmed.
+  - 17 boxes that were too short are merged or dropped.
+- Titles:
+  - «كمال القرآن», «العلم المحيط», «الدعوة إلى التوحيد», «بناء السفينة», «تحدي هود», «نجاة الموحدين»,
+    «التوحيد والاستغفار», «تقليد الآباء», «شفقة إبراهيم» (not «حلم الخليل», "the dream of Hebron"), «حكمة الإمهال»,
+    «سبب الهلاك» (not «بقايا الصالحين», "relics"), «المشيئة النافذة» (not «حكمة الاختلاف», a pluralism slogan),
+    «وعيد المعرضين», «ختام السورة».
+  - Series name: «إبراهيم والملائكة».
+- Lessons:
+  - Read the box alone: it must keep the pill's negation or question.
+  - Remove Latin commas from excerpts.
+  - Avoid words whose modern sense differs («انحلال», «مروج», «بقايا», «حلم»).
+- The 31 Hud videos are queued for building.

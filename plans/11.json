@@ -31,8 +31,8 @@
     {
      "from": 5,
      "to": 8,
-     "title_ar": "علم السرائر",
-     "title_en": "Knowing what is hidden",
+     "title_ar": "العلم المحيط",
+     "title_en": "The all-encompassing knowledge",
      "visual": "ambient",
      "care": "",
      "est_s": 111
@@ -139,7 +139,7 @@
     {
      "from": 36,
      "to": 39,
-     "title_ar": "صنع السفينة",
+     "title_ar": "بناء السفينة",
      "title_en": "Building the ark",
      "visual": "ambient",
      "care": "The ark only as a symbol; no flood drawn.",
@@ -228,8 +228,8 @@
    ]
   },
   {
-   "title_ar": "إبراهيم والبشارة",
-   "title_en": "Ibrahim and the good news",
+   "title_ar": "إبراهيم والملائكة",
+   "title_en": "Ibrahim and the angels",
    "from": 69,
    "to": 75,
    "videos": [
