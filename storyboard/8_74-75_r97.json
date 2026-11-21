@@ -28,30 +28,252 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة الأنفال",
+   "title": "المؤمنون الصادقون",
    "verses": [
     74
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "light",
+    "beats": [
+     {
+      "at": [
+       74,
+       4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       74,
+       12
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       74,
+       17
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       74,
+       9
+      ],
+      "until": [
+       74,
+       11
+      ],
+      "motif": "house",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       74,
+       15
+      ],
+      "until": null,
+      "motif": "light",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
    "id": "c2",
-   "title": "سورة الأنفال",
+   "title": "اللاحقون والأقارب",
    "verses": [
     75
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "dawn",
+    "beats": [
+     {
+      "at": [
+       75,
+       4
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       75,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       75,
+       13
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       75,
+       15
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       75,
+       22
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       75,
+       10
+      ],
+      "until": [
+       75,
+       15
+      ],
+      "motif": "hands",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       75,
+       18
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "morph"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 74,
+   "words": [
+    1,
+    3
+   ],
+   "tafsir": 16,
+   "excerpt": "وتركوا ديارهم قاصدين دار الإسلام",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 74,
+   "words": [
+    4,
+    7
+   ],
+   "tafsir": 16,
+   "excerpt": "وجاهدوا لإعلاء كلمة الله",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 74,
+   "words": [
+    8,
+    10
+   ],
+   "tafsir": 16,
+   "excerpt": "نصروا إخوانهم المهاجرين وآووهم وواسوهم بالمال والتأييد",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 74,
+   "words": [
+    11,
+    14
+   ],
+   "tafsir": 91,
+   "excerpt": "لأنهم صدقوا إيمانهم بما قاموا به من الهجرة والنصرة",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 74,
+   "words": [
+    15,
+    16
+   ],
+   "tafsir": 16,
+   "excerpt": "مغفرة لذنوبهم",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 75,
+   "words": [
+    1,
+    7
+   ],
+   "tafsir": 91,
+   "excerpt": "وكذلك من جاء بعد هؤلاء المهاجرين والأنصار",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 75,
+   "words": [
+    8,
+    9
+   ],
+   "tafsir": 91,
+   "excerpt": "لهم ما لكم وعليهم ما عليكم",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 75,
+   "words": [
+    10,
+    17
+   ],
+   "tafsir": 16,
+   "excerpt": "في التوارث في حكم الله من عامة المسلمين",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 75,
+   "words": [
+    18,
+    22
+   ],
+   "tafsir": 16,
+   "excerpt": "دون التوارث بالحِلْف، وغير ذلك مما كان في أول الإسلام",
+   "target": "",
+   "tone": "blue"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "A house for «آووا», light for the reward, hands for «وأولو الأرحام», geometric for «إن الله بكل شيء عليم». Paradise only named in the recitation; Al-Muyassar's «جنات النعيم» and As-Sa'di's «اتبعهم بإحسان» (Quran wording) not used."
+ },
+ "cover": {
+  "series_ar": "الولاية بين المؤمنين",
+  "series_en": "Alliance among believers",
+  "title_ar": "جزاء المهاجرين",
+  "title_en": "The emigrants' reward",
+  "at": [
+   74,
+   1
+  ]
+ },
+ "motion": 3
 }

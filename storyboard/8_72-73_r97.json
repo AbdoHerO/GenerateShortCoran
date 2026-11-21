@@ -28,30 +28,295 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة الأنفال",
+   "title": "المهاجرون والأنصار",
    "verses": [
     72
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "dawn",
+    "beats": [
+     {
+      "at": [
+       72,
+       3
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       72,
+       6
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       72,
+       8
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       72,
+       13
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       72,
+       14
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       72,
+       15
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       72,
+       18
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       72,
+       24
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       72,
+       29
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       72,
+       31
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       72,
+       34
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       72,
+       39
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       72,
+       41
+      ],
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       72,
+       11
+      ],
+      "until": [
+       72,
+       14
+      ],
+      "motif": "house",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       72,
+       42
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
    "id": "c2",
-   "title": "سورة الأنفال",
+   "title": "تحذير من الفرقة",
    "verses": [
     73
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       73,
+       4
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       73,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       73,
+       10
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [],
+    "transition": "wipe"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 72,
+   "words": [
+    1,
+    10
+   ],
+   "tafsir": 16,
+   "excerpt": "إلى دار الإسلام، أو بلد يتمكنون فيه من عبادة ربهم",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 72,
+   "words": [
+    11,
+    13
+   ],
+   "tafsir": 16,
+   "excerpt": "أنزلوا المهاجرين في دورهم، وواسوهم بأموالهم",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 72,
+   "words": [
+    14,
+    17
+   ],
+   "tafsir": 91,
+   "excerpt": "هذا عقد موالاة ومحبة",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 72,
+   "words": [
+    18,
+    29
+   ],
+   "tafsir": 16,
+   "excerpt": "فلستم مكلفين بحمايتهم ونصرتهم",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 72,
+   "words": [
+    30,
+    35
+   ],
+   "tafsir": 16,
+   "excerpt": "وإن وقع عليهم ظلم من الكفار فطلبوا نصرتكم فاستجيبوا لهم",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 72,
+   "words": [
+    36,
+    41
+   ],
+   "tafsir": 16,
+   "excerpt": "عهد مؤكد لم ينقضوه",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 72,
+   "words": [
+    42,
+    45
+   ],
+   "tafsir": 16,
+   "excerpt": "يجزي كلا على قدر نيته وعمله",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 73,
+   "words": [
+    1,
+    5
+   ],
+   "tafsir": 91,
+   "excerpt": "حيث جمعهم الكفر فبعضهم أولياء لبعض",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 73,
+   "words": [
+    6,
+    7
+   ],
+   "tafsir": 91,
+   "excerpt": "موالاة المؤمنين ومعاداة الكافرين",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 73,
+   "words": [
+    8,
+    13
+   ],
+   "tafsir": 16,
+   "excerpt": "فتنة للمؤمنين عن دين الله",
+   "target": "",
+   "tone": "red"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "No present-day political reading; the treaty exception of 72 is kept («عهد مؤكد لم ينقضوه»). A house for «آووا», geometric for «والله بما تعملون بصير». No people drawn."
+ },
+ "cover": {
+  "series_ar": "الولاية بين المؤمنين",
+  "series_en": "Alliance among believers",
+  "title_ar": "ولاية المؤمنين",
+  "title_en": "Believers' alliance",
+  "at": [
+   72,
+   1
+  ]
+ },
+ "motion": 3
 }
