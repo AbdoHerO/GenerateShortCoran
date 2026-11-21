@@ -1,4 +1,268 @@
 {
+ "18_1-5_r97": {
+  "creative": "Reel - 18:1-5 Al-Kahf - الكتاب والإنذار - Dussary",
+  "import_id": "cmwpsnkf0000d3cny22mps0mo",
+  "published_at": "2026-11-21T02:45:39+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwpswblz000m0uo8ziyc8yno",
+  "video_sha256": "7fe4e2e6678bf6b56d67555faba3581cbcb8b8aa011eae7d2e8b2fd2668216ce"
+ },
+ "18_103-108_r97": {
+  "creative": "Reel - 18:103-108 Al-Kahf - الخاسرون والفائزون - Dussary",
+  "import_id": "cmwpsnkf0000d3cny22mps0mo",
+  "published_at": "2026-11-21T02:45:39+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwpt23o200cc0uo8g3ji75c4",
+  "video_sha256": "e8527a1d3bbf3c46abe2ff8737852e2a84258d61d99e8e0c3356650d06aa4638"
+ },
+ "18_109-109_r97": {
+  "creative": "Reel - 18:109 Al-Kahf - سعة كلام الله - Dussary",
+  "import_id": "cmwpsnkf0000d3cny22mps0mo",
+  "published_at": "2026-11-21T02:45:39+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwpt290800cq0uo84lgycohd",
+  "video_sha256": "ec2bbac96c43dd89db82b5b9b87a8ff6d54f891289364f40ac88f64bf513cf1c"
+ },
+ "18_110-110_r97": {
+  "creative": "Reel - 18:110 Al-Kahf - الآية الأخيرة - Dussary",
+  "import_id": "cmwpsnkf0000d3cny22mps0mo",
+  "published_at": "2026-11-21T02:45:39+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwpt2hzs00d40uo824l927s9",
+  "video_sha256": "54d554139d73e57cf824cdd222564a149db17cbc99ea90fcaf53a602b370b87e"
+ },
+ "18_13-16_r97": {
+  "creative": "Reel - 18:13-16 Al-Kahf - ثبات الفتية - Dussary",
+  "import_id": "cmwpsnkf0000d3cny22mps0mo",
+  "published_at": "2026-11-21T02:45:39+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwpswt4h001s0uo8qmg55c93",
+  "video_sha256": "007580607d41001b34309672a65a65dd244c854eccf6c2428e749b2447fa61ff"
+ },
+ "18_17-18_r97": {
+  "creative": "Reel - 18:17-18 Al-Kahf - داخل الكهف - Dussary",
+  "import_id": "cmwpsnkf0000d3cny22mps0mo",
+  "published_at": "2026-11-21T02:45:39+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwpsx0mv00260uo8py9yfhst",
+  "video_sha256": "fa9dcc34da8bc6e5fbc3521349018482fb176e4a65e649931b1e0232073e0df6"
+ },
+ "18_19-20_r97": {
+  "creative": "Reel - 18:19-20 Al-Kahf - اليقظة بعد النوم - Dussary",
+  "import_id": "cmwpsnkf0000d3cny22mps0mo",
+  "published_at": "2026-11-21T02:45:39+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwpsx7bd002k0uo8pzpextwr",
+  "video_sha256": "0cb40bfde3b25def0547d0370f1a0c5f3fdcef6e814b0a7562b2d2873fad3558"
+ },
+ "18_21-21_r97": {
+  "creative": "Reel - 18:21 Al-Kahf - العثور عليهم - Dussary",
+  "import_id": "cmwpsnkf0000d3cny22mps0mo",
+  "published_at": "2026-11-21T02:45:39+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwpsxcvs002y0uo82l1kb2wo",
+  "video_sha256": "5a103d5b37e60576d3b5bdee5288d3962eb42fb162a4eac20c9bfe334e068cfd"
+ },
+ "18_22-22_r97": {
+  "creative": "Reel - 18:22 Al-Kahf - الخلاف في عددهم - Dussary",
+  "import_id": "cmwpsnkf0000d3cny22mps0mo",
+  "published_at": "2026-11-21T02:45:39+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwpsxgu0003c0uo8oyp20as5",
+  "video_sha256": "b5070376c3549efccf698659ca662af68a6805c427e930d6cf5cb05a31c13709"
+ },
+ "18_23-24_r97": {
+  "creative": "Reel - 18:23-24 Al-Kahf - أدب المشيئة - Dussary",
+  "import_id": "cmwpsnkf0000d3cny22mps0mo",
+  "published_at": "2026-11-21T02:45:39+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwpsxtrb003q0uo8oe7yihz8",
+  "video_sha256": "b52674cd3992e172b8fc1ea2832c73bd72be440f6d04ac4db2c7bd29c414f428"
+ },
+ "18_25-26_r97": {
+  "creative": "Reel - 18:25-26 Al-Kahf - مدة لبثهم - Dussary",
+  "import_id": "cmwpsnkf0000d3cny22mps0mo",
+  "published_at": "2026-11-21T02:45:39+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwpsxxpr00440uo8b1kn8rb5",
+  "video_sha256": "cf5e24ac0c11bd27ba9e1ff9b7e2df95d22cc7cc0a60b5a47b02d9da29ad1d1c"
+ },
+ "18_27-28_r97": {
+  "creative": "Reel - 18:27-28 Al-Kahf - الصبر مع الذاكرين - Dussary",
+  "import_id": "cmwpsnkf0000d3cny22mps0mo",
+  "published_at": "2026-11-21T02:45:39+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwpsy308004j0uo8ytr8j338",
+  "video_sha256": "59440d2f0b88e9521b6b8cab41c55ada1001efeef3a9d7eff7ab18efbf207391"
+ },
+ "18_29-31_r97": {
+  "creative": "Reel - 18:29-31 Al-Kahf - الحق والجزاء - Dussary",
+  "import_id": "cmwpsnkf0000d3cny22mps0mo",
+  "published_at": "2026-11-21T02:45:39+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwpsy7gx004x0uo8rze0eofy",
+  "video_sha256": "40776cab3f118a289e2e65aa6d39e19d153212dafd6eec84c4042e788c35dccf"
+ },
+ "18_32-36_r97": {
+  "creative": "Reel - 18:32-36 Al-Kahf - الجنتان والغرور - Dussary",
+  "import_id": "cmwpsnkf0000d3cny22mps0mo",
+  "published_at": "2026-11-21T02:45:39+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwpsyeup005b0uo8hw9rrb3u",
+  "video_sha256": "ac1f37745a3ac9c7c07afcaa35e505238047267b76c062dd4fa712925ec1f2f3"
+ },
+ "18_37-41_r97": {
+  "creative": "Reel - 18:37-41 Al-Kahf - نصيحة الصاحب المؤمن - Dussary",
+  "import_id": "cmwpsnkf0000d3cny22mps0mo",
+  "published_at": "2026-11-21T02:45:39+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwpsyl3h005p0uo8pdpvq2vm",
+  "video_sha256": "c92cbb7568ffcb3b593e620d06585173fc0293971882c27020c5f8ac01713051"
+ },
+ "18_42-44_r97": {
+  "creative": "Reel - 18:42-44 Al-Kahf - الهلاك والندم - Dussary",
+  "import_id": "cmwpsnkf0000d3cny22mps0mo",
+  "published_at": "2026-11-21T02:45:39+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwpsytp600630uo86n58au62",
+  "video_sha256": "aadf8103a487a2f4b4be10a0a0aac3c3f31c67a4cf0d363505be7de8e9d56305"
+ },
+ "18_45-49_r97": {
+  "creative": "Reel - 18:45-49 Al-Kahf - من الدنيا إلى الآخرة - Dussary",
+  "import_id": "cmwpsnkf0000d3cny22mps0mo",
+  "published_at": "2026-11-21T02:45:39+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwpsyzqe006h0uo8xes7psfq",
+  "video_sha256": "c818409af042979fc983372e8bc1ef91fe597fa722e3d64de06346255fd483e4"
+ },
+ "18_50-53_r97": {
+  "creative": "Reel - 18:50-53 Al-Kahf - إبليس والسجود لآدم - Dussary",
+  "import_id": "cmwpsnkf0000d3cny22mps0mo",
+  "published_at": "2026-11-21T02:45:39+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwpszbnt006v0uo8jlogpje5",
+  "video_sha256": "d244f24c579a05a35af8816a029b8c21e39ecc2c99e6477dfdfafc46c9703388"
+ },
+ "18_54-56_r97": {
+  "creative": "Reel - 18:54-56 Al-Kahf - الجدال بالباطل - Dussary",
+  "import_id": "cmwpsnkf0000d3cny22mps0mo",
+  "published_at": "2026-11-21T02:45:39+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwpsznp6007a0uo861q6vwly",
+  "video_sha256": "251fe53d52718020909541c91c66bdd947c79294d6b30223a337d58a5c131e8f"
+ },
+ "18_57-59_r97": {
+  "creative": "Reel - 18:57-59 Al-Kahf - مصير القرى الظالمة - Dussary",
+  "import_id": "cmwpsnkf0000d3cny22mps0mo",
+  "published_at": "2026-11-21T02:45:39+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwpsztsz007o0uo810nzd2n6",
+  "video_sha256": "019215ceffdd1a3d3274bc124700f2a2c153b1240795eb35ef06820324ade4cc"
+ },
+ "18_6-8_r97": {
+  "creative": "Reel - 18:6-8 Al-Kahf - الدنيا دار اختبار - Dussary",
+  "import_id": "cmwpsnkf0000d3cny22mps0mo",
+  "published_at": "2026-11-21T02:45:39+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwpswjzs00100uo8sn2nycyq",
+  "video_sha256": "d228dad4e1d3d949fd26824d7ee81512ab681f0b42864101fa991e4d22f44043"
+ },
+ "18_60-64_r97": {
+  "creative": "Reel - 18:60-64 Al-Kahf - رحلة ملتقى البحرين - Dussary",
+  "import_id": "cmwpsnkf0000d3cny22mps0mo",
+  "published_at": "2026-11-21T02:45:39+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwpszz5d00820uo8ek6pbvtf",
+  "video_sha256": "e77ccf46041a995101032460f63588a67c7a90f55fef13d74457b057c4d14cbb"
+ },
+ "18_65-70_r97": {
+  "creative": "Reel - 18:65-70 Al-Kahf - شرط الصبر - Dussary",
+  "import_id": "cmwpsnkf0000d3cny22mps0mo",
+  "published_at": "2026-11-21T02:45:39+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwpt05sw008g0uo8mnnve604",
+  "video_sha256": "d2e47524901899f96c75618d7a3e487dcab480edc386e7072d3ec1c942cc6cce"
+ },
+ "18_71-73_r97": {
+  "creative": "Reel - 18:71-73 Al-Kahf - خرق السفينة - Dussary",
+  "import_id": "cmwpsnkf0000d3cny22mps0mo",
+  "published_at": "2026-11-21T02:45:39+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwpt0c4g008u0uo829pzie92",
+  "video_sha256": "3278cab680292408d065a97d8ceb5db995f41345f78244989e4f8bde70a45a28"
+ },
+ "18_74-76_r97": {
+  "creative": "Reel - 18:74-76 Al-Kahf - الغلام - Dussary",
+  "import_id": "cmwpsnkf0000d3cny22mps0mo",
+  "published_at": "2026-11-21T02:45:39+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwpt0fqa00980uo888q2oq9f",
+  "video_sha256": "ab1b16991e52c6d6e777dc0755c444041ac4b51439b96fa95799fda9c70dda1a"
+ },
+ "18_77-78_r97": {
+  "creative": "Reel - 18:77-78 Al-Kahf - الجدار والفراق - Dussary",
+  "import_id": "cmwpsnkf0000d3cny22mps0mo",
+  "published_at": "2026-11-21T02:45:39+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwpt0lil009m0uo8tpah5yot",
+  "video_sha256": "9ac1e2cfd54ea6dd09a998705e9d37f868d99898c7fad806aac9ea7771b65a89"
+ },
+ "18_79-81_r97": {
+  "creative": "Reel - 18:79-81 Al-Kahf - تأويل السفينة والغلام - Dussary",
+  "import_id": "cmwpsnkf0000d3cny22mps0mo",
+  "published_at": "2026-11-21T02:45:39+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwpt0tl700a00uo8vx24tfsi",
+  "video_sha256": "c90d4f372f39a28fccd5cb74806a3cda5858b575dd9f8df80526c3501fe36c05"
+ },
+ "18_82-82_r97": {
+  "creative": "Reel - 18:82 Al-Kahf - تأويل الجدار - Dussary",
+  "import_id": "cmwpsnkf0000d3cny22mps0mo",
+  "published_at": "2026-11-21T02:45:39+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwpt0xiu00ae0uo8rxbpzohg",
+  "video_sha256": "8dd5838f67f18d11121e650c74eb99cd8e03ba1e415634c009576d0f4acacc25"
+ },
+ "18_83-88_r97": {
+  "creative": "Reel - 18:83-88 Al-Kahf - الرحلة غربا - Dussary",
+  "import_id": "cmwpsnkf0000d3cny22mps0mo",
+  "published_at": "2026-11-21T02:45:39+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwpt131x00as0uo8yleqlyra",
+  "video_sha256": "e285834b4601920b30870358b057b0eac1ef8f4d4c749112c1fff2270038a031"
+ },
+ "18_89-91_r97": {
+  "creative": "Reel - 18:89-91 Al-Kahf - الرحلة شرقا - Dussary",
+  "import_id": "cmwpsnkf0000d3cny22mps0mo",
+  "published_at": "2026-11-21T02:45:39+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwpt1d8i00b60uo8okvaibha",
+  "video_sha256": "e83e1e1ccd5908cdd5be4cd93fc42d61539e2f88d27f97ea38b1f9b635dca46f"
+ },
+ "18_9-12_r97": {
+  "creative": "Reel - 18:9-12 Al-Kahf - القصة في إيجاز - Dussary",
+  "import_id": "cmwpsnkf0000d3cny22mps0mo",
+  "published_at": "2026-11-21T02:45:39+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwpswp3c001e0uo8ktygb9ur",
+  "video_sha256": "1be04b52df288207f28dae7bc8a63b0081fad6c2c87683e93c0189255b62513b"
+ },
+ "18_92-98_r97": {
+  "creative": "Reel - 18:92-98 Al-Kahf - السد - Dussary",
+  "import_id": "cmwpsnkf0000d3cny22mps0mo",
+  "published_at": "2026-11-21T02:45:39+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwpt1hjy00bk0uo84nny1usw",
+  "video_sha256": "a9584f428f41193bfda686b69ea79211d2e542344c913e84b0e4657e6f9ca05a"
+ },
+ "18_99-102_r97": {
+  "creative": "Reel - 18:99-102 Al-Kahf - يوم الحشر - Dussary",
+  "import_id": "cmwpsnkf0000d3cny22mps0mo",
+  "published_at": "2026-11-21T02:45:39+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwpt1xzz00by0uo8x4hg2cd6",
+  "video_sha256": "9ef25a22d4d85786333529731abeff2960971d53c49c9926996f957745d3e224"
+ },
  "1_1-7_r97": {
   "creative": "Reel - 1:1-7 Al-Fatihah - أعظم سورة - Dussary",
   "import_id": "cmwpq653l00023cnyuo6lagqk",

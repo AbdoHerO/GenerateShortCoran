@@ -325,3 +325,11 @@ or by eye. The per-surah summary goes into each `plans/<n>.json` "notes"; this f
   - No check was relaxed. The audit now refuses earlier what the build would refuse later.
 - The affected videos are re-split. Their reviewed storyboards are merged where two neighbouring videos must become
   one.
+
+### Al-Kahf published (motion graphics v3)
+- All 33 Al-Kahf videos were rebuilt in motion graphics v3. Before upload, every video's frames were checked on
+  contact sheets: cover, motifs, glosses, Quran text and outro.
+- They were imported into Creative Hub as one ZIP of 758 MB: 33 creatives, 132 files (the MP4, a 720p preview, the
+  cover and the review sheet PDF for each). All are DRAFTS needing human review: imported with `--confirm`,
+  never `--approve`.
+- Recorded in `publish/ledger.json`.
