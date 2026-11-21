@@ -22,8 +22,8 @@
     {
      "from": 1,
      "to": 4,
-     "title_ar": "الكتاب المحكم",
-     "title_en": "The perfected Book",
+     "title_ar": "رسالة القرآن",
+     "title_en": "The Quran's message",
      "visual": "ambient",
      "care": "",
      "est_s": 75
@@ -31,8 +31,8 @@
     {
      "from": 5,
      "to": 8,
-     "title_ar": "علم الله ورزقه",
-     "title_en": "Allah's knowledge and provision",
+     "title_ar": "علم السرائر",
+     "title_en": "Knowing what is hidden",
      "visual": "ambient",
      "care": "",
      "est_s": 111
