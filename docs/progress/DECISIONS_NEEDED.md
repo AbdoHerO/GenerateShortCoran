@@ -189,3 +189,24 @@ The QF *verse-level* text should be compared before deciding.
 
 **Also affected by decision 2 in Hud:** 11:16 overlaps 11:15 by 80 ms (15-17 blocked); 11:48 word 11 has no timing
 (41-49 blocked; that passage is also one 214 s unit with no clean audio cut).
+
+## 6. Yusuf 12:39 and 12:41: «يا صاحبي» is spelled differently (found 2026-11-21)
+
+`audit_surah.py 12` reports a text mismatch with Tanzil at **12:39** and **12:41**. In both verses the only difference
+is word 1:
+- Quran Foundation word-level text: «يَٰصَٰحِبَىِ» (U+064A U+064E U+0670 U+0635 U+064E **U+0670** U+062D …): a dagger
+  alef after the sad;
+- Tanzil Uthmani: «يَٰصَىٰحِبَىِ» (… U+0635 U+064E **U+0649 U+0670** U+062D …): alef maqsura + dagger alef after the sad.
+
+This is the same kind of difference as Hud 11:13 (§5): a drawn letter, not an encoding equivalence.
+The QF *verse-level* text agrees with the QF word text here («يَـٰصَـٰحِبَىِ»: tatweel + dagger alef after the sad), so
+option A would need the QPC Hafs text.
+
+**Please choose:** the same options as §5 (render from the QF verse-level or QPC Hafs text if it matches Tanzil, or
+keep the rule).
+- Blocked meanwhile: Yusuf 39-40 and 41-42.
+
+**Also affected in Yusuf:**
+- Decision 1 (the hamza in «الآن»): 12:51 «ٱلْءَٰنَ» (QF: standalone hamza + fatha + dagger alef; Tanzil: tatweel + fatha +
+  dagger alef + hamza above). Blocked: 50-52.
+- Decision 2 (overlaps): 12:91 overlaps 12:90 by 20 ms. Blocked: 90-93.

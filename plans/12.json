@@ -1,0 +1,397 @@
+{
+ "surah": 12,
+ "summary": "32 short videos (reciter Yasser ad-Dussary) covering all 111 verses; 4 of them wait for the owner's decisions",
+ "made_by": "Research 2026-11-21 (cloud agent): audit_surah.py 12 --reciter 97 (with the nocut check), plan_split.py with thematic sections, Saheeh translation and both tafsirs.",
+ "reciter": {
+  "id": 97,
+  "name": "Yasser ad-Dussary"
+ },
+ "notes": [
+  "Recitation: 34.3 minutes. 6 JOINED boundaries (after 3, 23, 86, 98, 109, 110) and 12 more with no clean audio cut.",
+  "Text: 12:39 and 12:41 «يا صاحبي» are spelled differently by QF and Tanzil (new case, DECISIONS_NEEDED §6); 12:51 «الآن» is decision 1: 39-40, 41-42 and 50-52 BLOCKED.",
+  "Timing: 12:91 overlaps 12:90 by 20 ms (decision 2): 90-93 BLOCKED. Short-word flag to hear: 76.",
+  "Pictures: ambient throughout. Yusuf, Ya'qub and the Prophet ﷺ never drawn and get no motif; the dream, the well, the wolf, blood, the wife of al-Aziz, the women and the prostration are never drawn; nothing suggestive in 23-35."
+ ],
+ "groups": [
+  {
+   "title_ar": "بداية الرؤيا",
+   "title_en": "The first dream",
+   "from": 1,
+   "to": 6,
+   "videos": [
+    {
+     "from": 1,
+     "to": 4,
+     "title_ar": "الرؤيا الصادقة",
+     "title_en": "The true dream",
+     "visual": "ambient",
+     "care": "Yusuf: no motif, figure or drop. The dream is never drawn literally: no prostrating sun, moon or eleven stars.",
+     "est_s": 65
+    },
+    {
+     "from": 5,
+     "to": 6,
+     "title_ar": "تحذير الأب",
+     "title_en": "A father's warning",
+     "visual": "ambient",
+     "care": "Ya'qub: no motif.",
+     "est_s": 59
+    }
+   ]
+  },
+  {
+   "title_ar": "كيد الإخوة",
+   "title_en": "The brothers' plot",
+   "from": 7,
+   "to": 18,
+   "videos": [
+    {
+     "from": 7,
+     "to": 10,
+     "title_ar": "حسد الإخوة",
+     "title_en": "The brothers' envy",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 71
+    },
+    {
+     "from": 11,
+     "to": 15,
+     "title_ar": "مكيدة البئر",
+     "title_en": "The plot of the well",
+     "visual": "ambient",
+     "care": "No well, throwing or child drawn.",
+     "est_s": 80
+    },
+    {
+     "from": 16,
+     "to": 18,
+     "title_ar": "حيلة الإخوة",
+     "title_en": "The brothers' ruse",
+     "visual": "ambient",
+     "care": "No wolf, blood or shirt drawn; Ya'qub: no motif.",
+     "est_s": 79
+    }
+   ]
+  },
+  {
+   "title_ar": "يوسف في مصر",
+   "title_en": "Yusuf in Egypt",
+   "from": 19,
+   "to": 22,
+   "videos": [
+    {
+     "from": 19,
+     "to": 22,
+     "title_ar": "من البئر إلى مصر",
+     "title_en": "From the well to Egypt",
+     "visual": "ambient",
+     "care": "No sale, coins for a person, or slave drawn.",
+     "est_s": 97
+    }
+   ]
+  },
+  {
+   "title_ar": "الابتلاء بالفتنة",
+   "title_en": "The trial of temptation",
+   "from": 23,
+   "to": 35,
+   "videos": [
+    {
+     "from": 23,
+     "to": 25,
+     "title_ar": "العفة في الخلوة",
+     "title_en": "Chastity when alone",
+     "visual": "ambient",
+     "care": "The woman and the scene are never drawn or described beyond the tafsir; nothing suggestive.",
+     "est_s": 94
+    },
+    {
+     "from": 26,
+     "to": 29,
+     "title_ar": "براءة يوسف",
+     "title_en": "Yusuf's innocence",
+     "visual": "ambient",
+     "care": "No shirt drawn torn; no witness figure.",
+     "est_s": 76
+    },
+    {
+     "from": 30,
+     "to": 31,
+     "title_ar": "حديث النساء",
+     "title_en": "The women's talk",
+     "visual": "ambient",
+     "care": "No women, knives, hands or blood drawn.",
+     "est_s": 71
+    },
+    {
+     "from": 32,
+     "to": 35,
+     "title_ar": "اختيار السجن",
+     "title_en": "Choosing prison",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 68
+    }
+   ]
+  },
+  {
+   "title_ar": "في السجن",
+   "title_en": "In prison",
+   "from": 36,
+   "to": 42,
+   "videos": [
+    {
+     "from": 36,
+     "to": 38,
+     "title_ar": "الدعوة في السجن",
+     "title_en": "Calling to Allah in prison",
+     "visual": "ambient",
+     "care": "The two prisoners and their dreams are not drawn (no bread, birds or wine).",
+     "est_s": 96
+    },
+    {
+     "from": 39,
+     "to": 40,
+     "title_ar": "توحيد العبادة",
+     "title_en": "Worship of One",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 67,
+     "blocked": "12:39 «يا صاحبي»: QF «يَٰصَٰحِبَىِ» (dagger alef after sad) where Tanzil has «يَٰصَىٰحِبَىِ» (alef maqsura + dagger alef). New case (DECISIONS_NEEDED §6)."
+    },
+    {
+     "from": 41,
+     "to": 42,
+     "title_ar": "تأويل الرؤيا",
+     "title_en": "Interpreting the dreams",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 42,
+     "blocked": "12:41 «يا صاحبي»: the same spelling difference as 12:39 (DECISIONS_NEEDED §6)."
+    }
+   ]
+  },
+  {
+   "title_ar": "حلم الملك",
+   "title_en": "The king's dream",
+   "from": 43,
+   "to": 49,
+   "videos": [
+    {
+     "from": 43,
+     "to": 47,
+     "title_ar": "تعبير الحلم",
+     "title_en": "Interpreting the dream",
+     "visual": "ambient",
+     "care": "No cows, ears of grain eaten, or famine drawn literally.",
+     "est_s": 105
+    },
+    {
+     "from": 48,
+     "to": 49,
+     "title_ar": "بعد الشدة رخاء",
+     "title_en": "Ease after hardship",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 37
+    }
+   ]
+  },
+  {
+   "title_ar": "ظهور البراءة",
+   "title_en": "Innocence revealed",
+   "from": 50,
+   "to": 57,
+   "videos": [
+    {
+     "from": 50,
+     "to": 52,
+     "title_ar": "إعلان البراءة",
+     "title_en": "Innocence declared",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 70,
+     "blocked": "12:51 «الآن»: hamza encoding (decision 1, as 10:51)."
+    },
+    {
+     "from": 53,
+     "to": 57,
+     "title_ar": "خزائن مصر",
+     "title_en": "The stores of Egypt",
+     "visual": "ambient",
+     "care": "53: the tafsirs differ on who speaks (the wife or Yusuf): no gloss may take a side.",
+     "est_s": 90
+    }
+   ]
+  },
+  {
+   "title_ar": "لقاء الإخوة",
+   "title_en": "Meeting the brothers",
+   "from": 58,
+   "to": 79,
+   "videos": [
+    {
+     "from": 58,
+     "to": 62,
+     "title_ar": "قدوم الإخوة",
+     "title_en": "The brothers arrive",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 70
+    },
+    {
+     "from": 63,
+     "to": 65,
+     "title_ar": "طلب الأخ",
+     "title_en": "Asking for the brother",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 78
+    },
+    {
+     "from": 66,
+     "to": 68,
+     "title_ar": "الموثق والحذر",
+     "title_en": "The pledge and caution",
+     "visual": "ambient",
+     "care": "Ya'qub: no motif.",
+     "est_s": 96
+    },
+    {
+     "from": 69,
+     "to": 73,
+     "title_ar": "خطة الصواع",
+     "title_en": "The plan of the cup",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 75
+    },
+    {
+     "from": 74,
+     "to": 77,
+     "title_ar": "حيلة الإبقاء",
+     "title_en": "The ruse to keep him",
+     "visual": "ambient",
+     "care": "76: short-word flag (listen).",
+     "est_s": 86
+    },
+    {
+     "from": 78,
+     "to": 79,
+     "title_ar": "رجاء الإخوة",
+     "title_en": "The brothers plead",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 39
+    }
+   ]
+  },
+  {
+   "title_ar": "صبر يعقوب",
+   "title_en": "Ya'qub's patience",
+   "from": 80,
+   "to": 93,
+   "videos": [
+    {
+     "from": 80,
+     "to": 82,
+     "title_ar": "مشورة الكبير",
+     "title_en": "The eldest's counsel",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 74
+    },
+    {
+     "from": 83,
+     "to": 85,
+     "title_ar": "حزن الأب",
+     "title_en": "A father's grief",
+     "visual": "ambient",
+     "care": "Ya'qub: no motif; his eyes are never drawn.",
+     "est_s": 66
+    },
+    {
+     "from": 86,
+     "to": 89,
+     "title_ar": "الأمل في الله",
+     "title_en": "Hope in Allah",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 78
+    },
+    {
+     "from": 90,
+     "to": 93,
+     "title_ar": "اللقاء والعفو",
+     "title_en": "Meeting and forgiveness",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 64,
+     "blocked": "12:91 overlaps 12:90 by 20 ms (decision 2)."
+    }
+   ]
+  },
+  {
+   "title_ar": "لم الشمل",
+   "title_en": "Reunion",
+   "from": 94,
+   "to": 101,
+   "videos": [
+    {
+     "from": 94,
+     "to": 99,
+     "title_ar": "عودة البصر",
+     "title_en": "Sight restored",
+     "visual": "ambient",
+     "care": "No shirt on a face or eyes drawn.",
+     "est_s": 99
+    },
+    {
+     "from": 100,
+     "to": 101,
+     "title_ar": "تحقق الرؤيا",
+     "title_en": "The dream fulfilled",
+     "visual": "ambient",
+     "care": "The prostration is never drawn; no dawn mood over it; Yusuf's prayer (101): no motif.",
+     "est_s": 80
+    }
+   ]
+  },
+  {
+   "title_ar": "خاتمة السورة",
+   "title_en": "The surah's close",
+   "from": 102,
+   "to": 111,
+   "videos": [
+    {
+     "from": 102,
+     "to": 107,
+     "title_ar": "غفلة البشر",
+     "title_en": "Human heedlessness",
+     "visual": "ambient",
+     "care": "Addressed to the Prophet ﷺ: no plate on him.",
+     "est_s": 77
+    },
+    {
+     "from": 108,
+     "to": 108,
+     "title_ar": "سبيل الدعوة",
+     "title_en": "The way of the call",
+     "visual": "ambient",
+     "care": "«قل»: no plate on the Prophet ﷺ.",
+     "est_s": 29
+    },
+    {
+     "from": 109,
+     "to": 111,
+     "title_ar": "سنة النصر",
+     "title_en": "The law of victory",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 107
+    }
+   ]
+  }
+ ]
+}

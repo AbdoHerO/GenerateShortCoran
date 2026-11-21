@@ -1028,3 +1028,17 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
   - 50-60 re-split to 50-52 / 53-56 / 57-60, so Hud's oath (54:8-55:7, one sentence) stays in one video.
   - The chiefs' claims are framed with As-Sa'di's «رادين», «بزعمهم», «يعنون بذلك», «وكذبوا في قولهم هذا».
   - 11:35: the tafsirs differ on who is meant (Nuh, or the Prophet ﷺ), so the gloss is neutral and nothing is drawn.
+
+### Yusuf: audit and plan (2026-11-21)
+
+- 34.3 minutes recited. 6 JOINED boundaries (after 3, 23, 86, 98, 109, 110) and 12 more with no clean audio cut.
+- Text: 12:39 and 12:41 «يا صاحبي» differ from Tanzil in a drawn letter (QF dagger alef; Tanzil alef maqsura +
+  dagger alef). This is new decision §6. 12:51 «الآن» falls under decision 1, and 12:91 (20 ms overlap) under
+  decision 2.
+- 32 videos planned; 4 are blocked (39-40, 41-42, 50-52, 90-93). The other 28 have base storyboards and all
+  cut-check clean.
+- Care:
+  - Yusuf, Ya'qub and the Prophet ﷺ get no motif.
+  - Never drawn: the dream, the well, the wolf, blood, the wife of al-Aziz, the women and the prostration.
+  - 53: the tafsirs differ on who speaks, so its glosses must stay neutral.
+- Hud reviewers (glosses; motifs) are running on all 30 Hud storyboards.
