@@ -3,9 +3,9 @@
  "passage": {
   "chapter": 2,
   "from": 26,
-  "to": 27
+  "to": 29
  },
- "data_dir": "data/2_26-27_r97",
+ "data_dir": "data/2_26-29_r97",
  "recitation_id": 97,
  "intro_s": 1.4,
  "outro_s": 4.6,
@@ -205,6 +205,120 @@
     ],
     "transition": "wipe"
    }
+  },
+  {
+   "id": "c3",
+   "title": "من الموت إلى الحياة",
+   "verses": [
+    28
+   ],
+   "scene": "ambient",
+   "params": {
+    "mood": "dawn",
+    "beats": [
+     {
+      "at": [
+       28,
+       4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       28,
+       9
+      ],
+      "do": "push_in"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       28,
+       6
+      ],
+      "until": null,
+      "motif": "growth",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       28,
+       13
+      ],
+      "until": null,
+      "motif": "hourglass",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "dissolve"
+   }
+  },
+  {
+   "id": "c4",
+   "title": "خلق الأرض والسماء",
+   "verses": [
+    29
+   ],
+   "scene": "ambient",
+   "params": {
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       29,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       29,
+       12
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       29,
+       13
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       29,
+       17
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       29,
+       7
+      ],
+      "until": null,
+      "motif": "mountain",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       29,
+       15
+      ],
+      "until": null,
+      "motif": "stars",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "iris"
+   }
   }
  ],
  "glosses": [
@@ -295,17 +409,83 @@
    "excerpt": "في الدنيا والآخرة",
    "target": "",
    "tone": "red"
+  },
+  {
+   "verse": 28,
+   "words": [
+    5,
+    6
+   ],
+   "tafsir": 16,
+   "excerpt": "فأوجدكم ونفخ فيكم الحياة",
+   "target": "motif",
+   "tone": "green"
+  },
+  {
+   "verse": 28,
+   "words": [
+    8,
+    8
+   ],
+   "tafsir": 16,
+   "excerpt": "بعد انقضاء آجالكم التي حددها لكم",
+   "target": "",
+   "tone": "amber"
+  },
+  {
+   "verse": 28,
+   "words": [
+    10,
+    10
+   ],
+   "tafsir": 16,
+   "excerpt": "ثم يعيدكم أحياء يوم البعث",
+   "target": "",
+   "tone": "amber"
+  },
+  {
+   "verse": 28,
+   "words": [
+    13,
+    13
+   ],
+   "tafsir": 16,
+   "excerpt": "للحساب والجزاء",
+   "target": "motif",
+   "tone": "amber"
+  },
+  {
+   "verse": 29,
+   "words": [
+    3,
+    4
+   ],
+   "tafsir": 16,
+   "excerpt": "من النِّعم التي تنتفعون بها",
+   "target": "motif",
+   "tone": "green"
+  },
+  {
+   "verse": 29,
+   "words": [
+    16,
+    19
+   ],
+   "tafsir": 16,
+   "excerpt": "فعِلْمُه -سبحانه- محيط بجميع ما خلق",
+   "target": "",
+   "tone": "amber"
   }
  ],
  "director": {
   "mode": "hand",
-  "notes": "Parables (26) and the covenant-breakers (27). The disbelievers' question (26:24) gets no gloss; the answer (26:29) is explained. The seal (covenant) undraws at «يقطعون»."
+  "notes": "Merged from 2_26-27_r97, 2_28-29_r97 (reviewed) because the boundary between them has no clean audio cut. [2_26-27_r97] Parables (26) and the covenant-breakers (27). The disbelievers' question (26:24) gets no gloss; the answer (26:29) is explained. The seal (covenant) undraws at «يقطعون». [2_28-29_r97] Life, death and creation (28-29). No motif or gloss on «استوى» (Allah's istiwa); no motif on Allah's attributes."
  },
  "cover": {
   "series_ar": "الأمثال والخلق",
   "series_en": "Parables and creation",
-  "title_ar": "حكمة ضرب الأمثال",
-  "title_en": "Why parables are given",
+  "title_ar": "حكمة الأمثال وآية الخلق",
+  "title_en": "Parables, and the sign of creation",
   "at": [
    26,
    29

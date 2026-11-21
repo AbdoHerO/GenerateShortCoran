@@ -111,21 +111,12 @@
    "videos": [
     {
      "from": 26,
-     "to": 27,
-     "title_ar": "حكمة ضرب الأمثال",
-     "title_en": "Why parables are given",
-     "visual": "ambient",
-     "care": "",
-     "est_s": 74
-    },
-    {
-     "from": 28,
      "to": 29,
-     "title_ar": "من الموت إلى الحياة",
-     "title_en": "From death to life",
+     "title_ar": "حكمة الأمثال وآية الخلق",
+     "title_en": "Parables, and the sign of creation",
      "visual": "ambient",
-     "care": "",
-     "est_s": 54
+     "care": "Merged from 26-27 and 28-29: the boundary after 27 has no clean audio cut (2:28 is timed 10 ms after 2:27).  ",
+     "est_s": 121
     }
    ]
   },

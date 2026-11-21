@@ -308,3 +308,20 @@ or by eye. The per-surah summary goes into each `plans/<n>.json` "notes"; this f
 - **Lessons:**
   - Read every title as a modern reader would: «التابوت», «الدين», «إنظار», «النفقة», «الطيب», «الولاية».
   - A conditional sentence's «إن/فإن/وإن» belongs in the chip.
+
+### Audio edges: a new "nocut" boundary state (pipeline fix)
+- The 2:26–27 build stopped in `prepare.py`: «audio end cut: no pause found». The audit had called the boundary after
+  2:27 "ok", but the timing data starts 2:28 only 10 ms after 2:27's last word. That leaves `prepare.py` no window to
+  cut in without reaching into the next verse.
+- A read-only replica of `prepare.py`'s edge logic over every unbuilt storyboard found 8 such edges:
+  - Al-Baqarah 26–27/28–29, 153–155/156–158, 183–185, 221–222/223–226 and 255–256;
+  - Aal Imran 37–39.
+- **Fix:**
+  - `prepare.py`'s edge-cut computation moved into `audio_cuts()`. Its behaviour is identical: 2:1–5 gives the same
+    cut points.
+  - `audit_surah.py` now runs it for every verse boundary. Where no clean cut exists in either direction, it marks
+    the boundary "nocut".
+  - `plan_split.py` treats "nocut" like JOINED.
+  - No check was relaxed. The audit now refuses earlier what the build would refuse later.
+- The affected videos are re-split. Their reviewed storyboards are merged where two neighbouring videos must become
+  one.
