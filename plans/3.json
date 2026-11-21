@@ -1,6 +1,6 @@
 {
  "surah": 3,
- "summary": "63 short videos (reciter Yasser ad-Dussary) covering all 200 verses; 9 of them wait for the owner's decisions (Tanzil encoding, timing overlaps)",
+ "summary": "62 short videos (reciter Yasser ad-Dussary) covering all 200 verses; 9 of them wait for the owner's decisions (Tanzil encoding, timing overlaps)",
  "made_by": "Research 2026-11-21 (cloud agent): audit_surah.py 3 --reciter 97, plan_split.py with thematic sections, Saheeh translation and both tafsirs.",
  "reciter": {
   "id": 97,
@@ -11,7 +11,8 @@
   "Text: 3:20, 21, 75, 79, 80, 81 differ from Tanzil only in the small yeh of «الأميين/النبيين/ربانيين» (U+0640 U+06E7 vs U+06E6), the same case as Al-Baqarah (DECISIONS_NEEDED 1). Their videos are BLOCKED.",
   "Timing: overlaps at 134 (40 ms), 139 (80 ms), 177 (80 ms); 135 words 1-2 untimed; short-word flags at 25, 45, 55, 91, 103, 125, 140, 173 (listen).",
   "Two videos exceed 120 s because the reciter joins every verse in them: 102-108 (~170 s) and 154-158 (~151 s).",
-  "Pictures: ambient throughout. Prophets (Zakariya, Isa, Ibrahim, Muhammad ﷺ), Maryam, the angels, the Shaytan, Paradise, the Fire and the battles are never drawn; the Kaaba only as geometric."
+  "Pictures: ambient throughout. Prophets (Zakariya, Isa, Ibrahim, Muhammad ﷺ), Maryam, the angels, the Shaytan, Paradise, the Fire and the battles are never drawn; the Kaaba only as geometric.",
+  "Audit re-run 2026-11-21 with the 'nocut' check (boundaries with a pause but no clean audio cut: after 36, 43, 55, 70, 98, 130, 152, 176, 199): videos re-split to 33-37/38-39, 95-97/98-101, 149-151/152-153, 196-200."
  ],
  "groups": [
   {
@@ -148,21 +149,21 @@
    "videos": [
     {
      "from": 33,
-     "to": 36,
+     "to": 37,
      "title_ar": "نذر أم مريم",
      "title_en": "The vow of Maryam's mother",
      "visual": "ambient",
-     "care": "Imran's wife and Maryam: ambient, no figures.",
-     "est_s": 78
+     "care": "Re-split: no clean audio cut at the old edge (audit 'nocut'). Imran's wife and Maryam: ambient, no figures. Zakariya (prophet) and the angels' call: no motif on them; ambient.",
+     "est_s": 112
     },
     {
-     "from": 37,
+     "from": 38,
      "to": 39,
-     "title_ar": "كفالة زكريا",
-     "title_en": "In Zakariya's care",
+     "title_ar": "بشارة زكريا",
+     "title_en": "Zakariya's glad tidings",
      "visual": "ambient",
-     "care": "Zakariya (prophet) and the angels' call: no motif on them; ambient.",
-     "est_s": 96
+     "care": "Re-split: no clean audio cut at the old edge (audit 'nocut'). Imran's wife and Maryam: ambient, no figures. Zakariya (prophet) and the angels' call: no motif on them; ambient.",
+     "est_s": 57
     },
     {
      "from": 40,
@@ -346,21 +347,21 @@
     },
     {
      "from": 95,
-     "to": 98,
+     "to": 97,
      "title_ar": "فرض الحج",
      "title_en": "Hajj is prescribed",
      "visual": "ambient",
-     "care": "The Kaaba only as geometric, never as an object of worship; Maqam Ibrahim not drawn.",
-     "est_s": 73
+     "care": "Re-split: no clean audio cut at the old edge (audit 'nocut'). The Kaaba only as geometric, never as an object of worship; Maqam Ibrahim not drawn.",
+     "est_s": 60
     },
     {
-     "from": 99,
+     "from": 98,
      "to": 101,
      "title_ar": "تحذير من طاعتهم",
      "title_en": "A warning against obeying them",
      "visual": "ambient",
-     "care": "",
-     "est_s": 66
+     "care": "Re-split: no clean audio cut at the old edge (audit 'nocut'). The Kaaba only as geometric, never as an object of worship; Maqam Ibrahim not drawn.",
+     "est_s": 74
     }
    ]
   },
@@ -507,21 +508,21 @@
    "videos": [
     {
      "from": 149,
-     "to": 152,
+     "to": 151,
      "title_ar": "الوعد والعصيان",
      "title_en": "The promise and the slip",
      "visual": "ambient",
-     "care": "No fighting drawn.",
-     "est_s": 90
+     "care": "Re-split: no clean audio cut at the old edge (audit 'nocut'). No fighting drawn. No fleeing soldiers drawn.",
+     "est_s": 46
     },
     {
-     "from": 153,
+     "from": 152,
      "to": 153,
      "title_ar": "ساعة الشدة",
      "title_en": "The hour of hardship",
      "visual": "ambient",
-     "care": "No fleeing soldiers drawn.",
-     "est_s": 40
+     "care": "Re-split: no clean audio cut at the old edge (audit 'nocut'). No fighting drawn. No fleeing soldiers drawn.",
+     "est_s": 79
     },
     {
      "from": 154,
@@ -668,21 +669,12 @@
     },
     {
      "from": 196,
-     "to": 199,
+     "to": 200,
      "title_ar": "عاقبة الفريقين",
      "title_en": "Where each side ends",
      "visual": "ambient",
-     "care": "198: Paradise — nothing literal (no river).",
-     "est_s": 96
-    },
-    {
-     "from": 200,
-     "to": 200,
-     "title_ar": "الصبر والمرابطة",
-     "title_en": "Patience and steadfastness",
-     "visual": "ambient",
-     "care": "",
-     "est_s": 30
+     "care": "Re-split: no clean audio cut at the old edge (audit 'nocut'). 198: Paradise — nothing literal (no river).",
+     "est_s": 114
     }
    ]
   }
