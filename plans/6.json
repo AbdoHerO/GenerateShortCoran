@@ -193,8 +193,8 @@
    ]
   },
   {
-   "title_ar": "علم الغيب",
-   "title_en": "Knowledge of the unseen",
+   "title_ar": "العلم والتدبير",
+   "title_en": "Knowledge and disposal",
    "from": 59,
    "to": 73,
    "videos": [
@@ -301,7 +301,7 @@
    ]
   },
   {
-   "title_ar": "قدر الله وآياته",
+   "title_ar": "عظمة الخالق وآياته",
    "title_en": "Allah's majesty and signs",
    "from": 91,
    "to": 103,
@@ -354,8 +354,8 @@
     {
      "from": 104,
      "to": 107,
-     "title_ar": "اتباع الوحي",
-     "title_en": "Following the revelation",
+     "title_ar": "مهمة الرسول",
+     "title_en": "The Messenger's task",
      "visual": "ambient",
      "care": "",
      "est_s": 70
@@ -399,8 +399,8 @@
    ]
   },
   {
-   "title_ar": "النور والظلمات",
-   "title_en": "Light and darkness",
+   "title_ar": "الهداية والضلال",
+   "title_en": "Guidance and misguidance",
    "from": 121,
    "to": 134,
    "videos": [
@@ -416,8 +416,8 @@
     {
      "from": 125,
      "to": 127,
-     "title_ar": "انشراح الصدر",
-     "title_en": "An open heart",
+     "title_ar": "قبول الحق",
+     "title_en": "Accepting the truth",
      "visual": "ambient",
      "care": "",
      "est_s": 71
@@ -443,8 +443,8 @@
     {
      "from": 133,
      "to": 134,
-     "title_ar": "غنى الله ورحمته",
-     "title_en": "Allah's self-sufficiency and mercy",
+     "title_ar": "الدنيا دار ممر",
+     "title_en": "This world is a passage",
      "visual": "ambient",
      "care": "",
      "est_s": 41
@@ -498,8 +498,8 @@
     {
      "from": 145,
      "to": 146,
-     "title_ar": "المحرمات من الطعام",
-     "title_en": "Forbidden foods",
+     "title_ar": "مصدر التحريم",
+     "title_en": "Who makes things unlawful",
      "visual": "ambient",
      "care": "No dead animal, blood or pig drawn.",
      "est_s": 78
@@ -507,8 +507,8 @@
     {
      "from": 147,
      "to": 149,
-     "title_ar": "حجة الله القاطعة",
-     "title_en": "Allah's conclusive proof",
+     "title_ar": "لا عذر بالقدر",
+     "title_en": "Fate is no excuse",
      "visual": "ambient",
      "care": "Their argument from fate never shown as a statement.",
      "est_s": 72
@@ -534,7 +534,7 @@
      "from": 151,
      "to": 153,
      "title_ar": "الوصايا العشر",
-     "title_en": "The ten commandments",
+     "title_en": "Allah's ten counsels",
      "visual": "ambient",
      "care": "Killing children, killing a soul: nothing drawn.",
      "est_s": 100

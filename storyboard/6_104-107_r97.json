@@ -105,7 +105,7 @@
   },
   {
    "id": "c2",
-   "title": "اتباع الوحي",
+   "title": "الثبات على التوحيد",
    "verses": [
     106,
     107
@@ -223,7 +223,7 @@
     15
    ],
    "tafsir": 16,
-   "excerpt": "أحصي أعمالكم، وإنما أنا مبلغ",
+   "excerpt": "وإنما أنا مبلغ",
    "target": "",
    "tone": "blue"
   },
@@ -292,28 +292,6 @@
    "excerpt": "عليم بما سيكون من سوء اختيارهم واتباعهم أهواءهم المنحرفة",
    "target": "",
    "tone": "blue"
-  },
-  {
-   "verse": 107,
-   "words": [
-    6,
-    9
-   ],
-   "tafsir": 16,
-   "excerpt": "رقيبًا تحفظ عليهم أعمالهم",
-   "target": "",
-   "tone": "blue"
-  },
-  {
-   "verse": 107,
-   "words": [
-    10,
-    13
-   ],
-   "tafsir": 16,
-   "excerpt": "بقَيِّمٍ عليهم تدبر مصالحهم",
-   "target": "",
-   "tone": "blue"
   }
  ],
  "director": {
@@ -323,8 +301,8 @@
  "cover": {
   "series_ar": "البصائر والأحكام",
   "series_en": "Insights and rulings",
-  "title_ar": "اتباع الوحي",
-  "title_en": "Following the revelation",
+  "title_ar": "مهمة الرسول",
+  "title_en": "The Messenger's task",
   "at": [
    104,
    1

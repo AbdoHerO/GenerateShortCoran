@@ -28,7 +28,7 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سعة الصدر وضيقه",
+   "title": "علامة السعادة والشقاء",
    "verses": [
     125
    ],
@@ -105,7 +105,7 @@
   },
   {
    "id": "c2",
-   "title": "الطريق المستقيم",
+   "title": "المنهج القويم",
    "verses": [
     126,
     127
@@ -222,8 +222,8 @@
     17,
     20
    ],
-   "tafsir": 16,
-   "excerpt": "في طبقات الجو العليا، فيصاب بضيق شديد في التنفس",
+   "tafsir": 91,
+   "excerpt": "كأنه يكلف الصعود إلى السماء، الذي لا حيلة له فيه",
    "target": "",
    "tone": "blue"
   },
@@ -244,8 +244,8 @@
     5,
     9
    ],
-   "tafsir": 91,
-   "excerpt": "ولكن هذا التفصيل والبيان، ليس لكل أحد",
+   "tafsir": 16,
+   "excerpt": "لمن يتذكر من أهل العقول الراجحة",
    "target": "",
    "tone": "blue"
   },
@@ -277,10 +277,10 @@
   "notes": "No person and no sky ascent drawn for 125:17-20. 125:21-28 «الرجس» is not glossed (Al-Muyassar reads it as punishment; the tafsirs word it differently). 127 (Paradise, «دار السلام»): light mood only; no garden, river or gold motif. Light for «يشرح صدره للإسلام», footsteps for «صراط ربك مستقيما», geometric for «وهو وليهم»."
  },
  "cover": {
-  "series_ar": "النور والظلمات",
-  "series_en": "Light and darkness",
-  "title_ar": "انشراح الصدر",
-  "title_en": "An open heart",
+  "series_ar": "الهداية والضلال",
+  "series_en": "Guidance and misguidance",
+  "title_ar": "قبول الحق",
+  "title_en": "Accepting the truth",
   "at": [
    125,
    1

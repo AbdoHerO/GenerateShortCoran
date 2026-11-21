@@ -131,6 +131,7 @@ please check them while reviewing:
 | 18_45-49 | 18:48 «مصطَفِّين لا يُحجب منهم أحد» | «منهم أحدا» | Al-Muyassar's wording; reads as explanation. |
 | 18_79-81 | 18:81 «بمن هو خير منه صلاحًا ودينًا وبرًا بهما» | «خيرا منه» | Al-Muyassar's wording; reads as explanation. |
 | 2_97-101 | 2:97 «لما سبقه من كتب الله» | «كتاب الله» (2:101) | False positive: «كتب» (books) is not «كتاب». |
+| 2_107-110 | 2:107 gloss containing «السموات والأرض» | «السماوات والأرض» | Found when the check also read the dagger alef as an alef in only one place («السموات»). |
 
 Unpublished videos with the same issue were corrected before building: 2:85, 4:19, 4:92 and 4:170, plus the title
 of 6:12–14.

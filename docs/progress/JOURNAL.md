@@ -647,3 +647,49 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
   - Short-word flags: 81, 169, 180, 197, 201.
 - **Plan:** `plans/7.json`, 60 videos in 12 series. 193-198 and 199-203 were split at clean pauses, so that only the
   part with the affected verse is blocked.
+
+### Al-An'am: the three independent reviews applied (2026-11-21)
+
+- **Motifs: 1 serious, 9 minor.**
+  - Serious: the `dawn` mood draws a rising sun, and it sat under Ibrahim's argument (6:74-75, and 80-81). The moods
+    are now `light` and `geometric`.
+  - Minor:
+    - Spans shortened so no motif sits over the Name, a claim, «ولا يُطعم» or a blamed act (14, 57, 118, 126, 136,
+      150).
+    - Night sky for the threat and claim chapters (10-11, 136).
+- **Glosses 1-90: 3 serious, 25 minor.**
+  - Serious:
+    - 6:50 chip widened, so «عندي خزائن الله» never shows without «لا أقول لكم».
+    - 6:78-79 no longer read as Ibrahim's own conversion; now As-Sa'di's «المقام مقام مناظرة».
+    - 6:55 no longer has a first-person paraphrase.
+  - Minor:
+    - Chips realigned (25, 31, 32, 46).
+    - Glosses replaced where they quoted other verses (17 «فلا راد لفضله», 45, 59 «علم الساعة… الأرحام», 79).
+    - Renunciation and condition readings fixed (24, 70, 82).
+  - Titles:
+    - Sixteen changed, e.g. «طلب رسول ملائكي» (was «طلب الملك», "seeking kingship").
+    - Series «العلم والتدبير» (was «علم الغيب», 53:35).
+- **Glosses 91-165: 9 serious, 17 minor.**
+  - Serious:
+    - 6:104 had lost its negation («أحصي أعمالكم»).
+    - 6:130 stated a disputed point without its hedge.
+    - 6:145-146: the exhaustiveness question is now framed as «واختلف العلماء… في هذا الحصر», and the tafsirs'
+      disagreement on the rump fat is left out.
+    - 6:148 had a dangling «إلا».
+    - 6:158 had lost its condition.
+    - 6:94 dropped the exception for deeds.
+    - 6:108 generalised «عقوبة لهم».
+  - Minor:
+    - Quotations of other verses removed (139, 150, 163, 91, 118).
+    - Chips realigned (109, 121, 156).
+    - 107's two affirmative definitions of negated words dropped.
+  - Titles:
+    - Fifteen changed.
+    - Series «عظمة الخالق وآياته» and «الهداية والضلال».
+    - English «Allah's ten counsels» for «الوصايا العشر».
+- **Verifier made stricter (never looser):**
+  - A gloss must start and end on word boundaries of the tafsir; only a leading «و/ف/ب/ل/ك» may be left out. This
+    catches «لا مستند له» cut from «لهم».
+  - Each dagger alef may be read as an alef or as nothing, independently («السموات»).
+  - All storyboards were re-verified; the only new failure is the published 2:107-110 (DECISIONS_NEEDED §3).
+- **Data note:** As-Sa'di's 6:89 entry repeats his 6:88 text, so no 6:89 excerpt may come from tafsir 91.

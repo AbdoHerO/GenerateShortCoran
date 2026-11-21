@@ -133,7 +133,7 @@
   },
   {
    "id": "c2",
-   "title": "من يرد السمع والبصر",
+   "title": "من يعيد الحواس",
    "verses": [
     46
    ],
@@ -229,8 +229,8 @@
     1,
     5
    ],
-   "tafsir": 91,
-   "excerpt": "اصطلموا بالعذاب، وتقطعت بهم الأسباب",
+   "tafsir": 16,
+   "excerpt": "فاستؤصل هؤلاء القوم وأُهلكوا",
    "target": "",
    "tone": "red"
   },
@@ -248,11 +248,11 @@
   {
    "verse": 46,
    "words": [
-    8,
+    3,
     10
    ],
-   "tafsir": 16,
-   "excerpt": "فأصبحتم لا تفقهون قولا",
+   "tafsir": 91,
+   "excerpt": "فبقيتم بلا سمع ولا بصر ولا عقل",
    "target": "",
    "tone": "red"
   },
@@ -286,7 +286,7 @@
  "cover": {
   "series_ar": "تسلية الرسول",
   "series_en": "Consoling the Messenger",
-  "title_ar": "الاستدراج",
+  "title_ar": "الاستدراج بالنعم",
   "title_en": "Gradual seizing",
   "at": [
    44,

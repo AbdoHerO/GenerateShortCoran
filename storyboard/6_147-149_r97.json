@@ -28,7 +28,7 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سعة الرحمة وشدة البأس",
+   "title": "الترغيب والترهيب",
    "verses": [
     147
    ],
@@ -263,8 +263,8 @@
     30,
     37
    ],
-   "tafsir": 16,
-   "excerpt": "في أمور هذا الدين إلا مجرد الظن",
+   "tafsir": 91,
+   "excerpt": "ومَنْ بنى حججه على الخرص والظن، فهو مبطل خاسر",
    "target": "",
    "tone": "red"
   },
@@ -298,8 +298,8 @@
  "cover": {
   "series_ar": "تشريعات الجاهلية",
   "series_en": "Pre-Islamic customs",
-  "title_ar": "حجة الله القاطعة",
-  "title_en": "Allah's conclusive proof",
+  "title_ar": "لا عذر بالقدر",
+  "title_en": "Fate is no excuse",
   "at": [
    149,
    1

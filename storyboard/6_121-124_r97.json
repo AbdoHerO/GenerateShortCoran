@@ -155,7 +155,7 @@
   },
   {
    "id": "c3",
-   "title": "مكر الأكابر",
+   "title": "كيد رؤوس الضلال",
    "verses": [
     123,
     124
@@ -313,7 +313,7 @@
    "verse": 121,
    "words": [
     17,
-    18
+    20
    ],
    "tafsir": 16,
    "excerpt": "في تحليل الميتة",
@@ -404,7 +404,7 @@
     3
    ],
    "tafsir": 16,
-   "excerpt": "حجة ظاهرة على نبوة محمد",
+   "excerpt": "حجة ظاهرة",
    "target": "",
    "tone": "blue"
   },
@@ -458,8 +458,8 @@
   "notes": "121: no carrion or slaughter drawn; «وإن أطعتموهم» carries Al-Muyassar's restriction «في تحليل الميتة», and «إنكم لمشركون» is not glossed alone. A lamp for «نورا يمشي به في الناس». Al-Muyassar's first-person «خذلتُ… زيَّنْتُ» (122:19-24) not used. Their demand in 124 is only attributed («قال بعض كبرائهم»), never glossed as a statement; geometric for «الله أعلم حيث يجعل رسالته»."
  },
  "cover": {
-  "series_ar": "النور والظلمات",
-  "series_en": "Light and darkness",
+  "series_ar": "الهداية والضلال",
+  "series_en": "Guidance and misguidance",
   "title_ar": "حياة القلوب",
   "title_en": "Hearts brought to life",
   "at": [

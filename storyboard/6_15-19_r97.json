@@ -85,7 +85,7 @@
   },
   {
    "id": "c2",
-   "title": "شهادة الله",
+   "title": "أعظم الشهادات",
    "verses": [
     17,
     18,
@@ -309,9 +309,9 @@
     17
    ],
    "tafsir": 16,
-   "excerpt": "فلا راد لفضله ولا مانع لقضائه",
+   "excerpt": "كالغنى والصحة",
    "target": "",
-   "tone": "green"
+   "tone": "blue"
   },
   {
    "verse": 18,
@@ -387,7 +387,7 @@
  "cover": {
   "series_ar": "الشهادة والحساب",
   "series_en": "Testimony and reckoning",
-  "title_ar": "شهادة الله لرسوله",
+  "title_ar": "إثبات صدق الرسول",
   "title_en": "Allah's testimony for His Messenger",
   "at": [
    19,

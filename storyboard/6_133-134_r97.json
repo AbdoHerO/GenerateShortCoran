@@ -28,7 +28,7 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "غنى الله ورحمته",
+   "title": "الغنى المطلق",
    "verses": [
     133
    ],
@@ -162,7 +162,7 @@
     18
    ],
    "tafsir": 91,
-   "excerpt": "وترحلون منها وتخلونها لمن بعدكم",
+   "excerpt": "كما رحل عنها من قبلكم وخلوها لكم",
    "target": "",
    "tone": "blue"
   },
@@ -194,10 +194,10 @@
   "notes": "Geometric for «وربك الغني ذو الرحمة», an hourglass for the generations that pass. 134 (the promised punishment): night sky, nothing drawn."
  },
  "cover": {
-  "series_ar": "النور والظلمات",
-  "series_en": "Light and darkness",
-  "title_ar": "غنى الله ورحمته",
-  "title_en": "Allah's self-sufficiency and mercy",
+  "series_ar": "الهداية والضلال",
+  "series_en": "Guidance and misguidance",
+  "title_ar": "الدنيا دار ممر",
+  "title_en": "This world is a passage",
   "at": [
    133,
    1

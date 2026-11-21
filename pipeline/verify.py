@@ -12,7 +12,7 @@ Checks
 
 Usage: python pipeline/verify.py storyboard/15_57-77.json
 """
-import json, pathlib, re, sys, unicodedata, urllib.request
+import itertools, json, pathlib, re, sys, unicodedata, urllib.request
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 UA = "quran-video-builder/0.1"
@@ -108,8 +108,11 @@ def word_variants(w):
     the dagger alef read as a written alef («السماوات») or as nothing («إله», «ذلك»), and an accusative tanween
     alef dropped («قياما» -> «قيام»). Returns a set of token tuples."""
     out = {tuple(skel(w))}
-    if "ٰ" in w:
-        out.add(tuple(skel(nfc(w).replace("ـٰ", "").replace("ٰ", ""))))
+    s = nfc(w).replace("ىٰ", "ى").replace("ـٰ", "ٰ")
+    parts = s.split("ٰ")
+    if 1 < len(parts) <= 4:   # each dagger alef written as an alef or left out («السموات», «إله», «ذلك»)
+        for combo in itertools.product(("ا", ""), repeat=len(parts) - 1):
+            out.add(tuple(skel("".join(p + c for p, c in zip(parts, combo + ("",))))))
     if "ً" in w:
         out |= {t[:-1] + (t[-1][:-1],) for t in list(out) if t and len(t[-1]) > 2 and t[-1].endswith("ا")}
     return {t for t in out if t}
@@ -147,6 +150,20 @@ def _prod(lists):
     for l in lists:
         out = [o + (x,) for o in out for x in l]
     return out
+
+
+AR_LETTER = re.compile(r"[\u0621-\u064A\u0671-\u06D3\u06FA-\u06FF]")
+def _whole_words(body, i, j):
+    """True if body[i:j] neither starts nor ends inside a word (diacritics after the end are allowed)."""
+    s = i
+    while s > 0 and body[s - 1] in "وفبلك" and i - s < 2:   # a leading conjunction/preposition may be left out
+        s -= 1
+    before = body[s - 1] if s > 0 else " "
+    k = j
+    while k < len(body) and AR_MARKS.match(body[k]):
+        k += 1
+    after = body[k] if k < len(body) else " "
+    return not AR_LETTER.match(before) and not AR_LETTER.match(after)
 
 
 def first_diff(a, b):
@@ -564,6 +581,8 @@ def check(sb, src, data_dir):
             fail("gloss", f"{k}: excerpt repeats Quran wording ({', '.join(shared)}) - choose explanation text only")
         elif vocal:
             fail("gloss", f"{k}: excerpt contains a vocalised Quran word ({', '.join(vocal)}) - likely an unmarked quotation")
+        elif ex in body and not any(_whole_words(body, m.start(), m.end()) for m in re.finditer(re.escape(ex), body)):
+            fail("gloss", f"{k}: excerpt cuts a word of tafsir {tid} (it must start and end on word boundaries): '{ex}'")
         elif ex not in body:
             # help the editor: locate the closest start
             i = body.find(ex[:6])
