@@ -868,3 +868,13 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
   - 75: Tha'laba is not named.
   - 72 (Paradise): `light` mood only.
   - Series renamed: «فريضة الزكاة», «وجوه النفاق».
+
+### Batch 2 published; batch 3 started (2026-11-21, after the quota reset)
+
+- **Batch 2:** 19 videos (Aal Imran 53-86 and 95-143). Frame-checked on three sheets, then published as Creative Hub
+  drafts: 76 files, 0 failed. The ledger now has 147 entries.
+- **Batch 3 is building:**
+  - first the four rebuilds: 3:38-39 and 3:42-46 (motif off the prophets' names), 3:87-89 and 3:90-94 (the re-split);
+  - then Aal Imran 144-195.
+- All 250 queued videos were cut-checked (`cutcheck.py`): no other joined edge.
+- The two At-Tawba reviewers stopped at the 5-hour quota and were resumed after the reset.
