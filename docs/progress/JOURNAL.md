@@ -769,3 +769,14 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
   - The glosses 1-102 reviewer is still running.
 - **For the human reviewer:** at 7:193 the English translation (believers inviting the idolaters) differs from both
   tafsirs (idolaters calling their idols).
+
+### Al-Anfal motif review applied (2026-11-21)
+
+- 0 serious, 7 minor; all applied:
+  - Light no longer stays over the threat to the captives (71) or over «فقد خانوا».
+  - Coins leave before «أولئك هم المؤمنون حقا».
+  - Light moves off the Messenger's call onto «لما يحييكم».
+  - The light now stays on «يستغفرون» (33).
+  - Dawn removed under «فأخذهم الله بذنوبهم» (52-53) and under the hypocrites' claim (49).
+  - The c2 transition of 38-40 is now a dissolve, so no gleam falls on the command to fight.
+- Left for the human reviewer: the dawn over 60 and 65, and the mountains for Badr's valley (42).

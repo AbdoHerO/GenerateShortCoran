@@ -220,7 +220,10 @@
        70,
        20
       ],
-      "until": null,
+      "until": [
+       71,
+       1
+      ],
       "motif": "light",
       "place": "top",
       "size": "m"

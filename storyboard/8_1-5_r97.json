@@ -198,7 +198,10 @@
        3,
        4
       ],
-      "until": null,
+      "until": [
+       4,
+       1
+      ],
       "motif": "coins",
       "place": "top",
       "size": "m"

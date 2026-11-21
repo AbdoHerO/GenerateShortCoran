@@ -171,74 +171,81 @@
        24,
        5
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        24,
-       10
+       7
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        24,
        12
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        24,
-       16
+       14
       ],
-      "do": "pan_right"
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       24,
+       17
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        24,
        20
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        25,
        5
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        25,
        8
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        25,
        9
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        25,
        10
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
      {
       "at": [
        24,
-       7
+       9
       ],
       "until": [
        24,
-       11
+       12
       ],
       "motif": "light",
       "place": "top",

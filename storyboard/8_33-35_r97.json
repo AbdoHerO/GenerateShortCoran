@@ -57,10 +57,7 @@
        33,
        7
       ],
-      "until": [
-       33,
-       12
-      ],
+      "until": null,
       "motif": "light",
       "place": "top",
       "size": "m"
