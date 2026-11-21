@@ -28,30 +28,211 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة آل عمران",
+   "title": "إجابة المنادي",
    "verses": [
     193
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "dawn",
+    "beats": [
+     {
+      "at": [
+       193,
+       3
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       193,
+       5
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       193,
+       6
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       193,
+       10
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       193,
+       16
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       193,
+       17
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       193,
+       20
+      ],
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       193,
+       12
+      ],
+      "until": null,
+      "motif": "hands",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
    "id": "c2",
-   "title": "سورة آل عمران",
+   "title": "سؤال الوعد",
    "verses": [
     194
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "light",
+    "beats": [
+     {
+      "at": [
+       194,
+       10
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       194,
+       11
+      ],
+      "do": "pan_left"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       194,
+       4
+      ],
+      "until": null,
+      "motif": "seal",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "light_sweep"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 193,
+   "words": [
+    4,
+    6
+   ],
+   "tafsir": 16,
+   "excerpt": "هو نبيك محمد صلى الله عليه وسلم",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 193,
+   "words": [
+    7,
+    10
+   ],
+   "tafsir": 16,
+   "excerpt": "فأجبنا دعوته وصدَّقنا رسالته",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 193,
+   "words": [
+    15,
+    17
+   ],
+   "tafsir": 16,
+   "excerpt": "واستر عيوبنا",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 193,
+   "words": [
+    18,
+    20
+   ],
+   "tafsir": 16,
+   "excerpt": "وألحقنا بالصالحين",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 194,
+   "words": [
+    2,
+    6
+   ],
+   "tafsir": 16,
+   "excerpt": "من نصر وتمكين وتوفيق وهداية",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 194,
+   "words": [
+    7,
+    10
+   ],
+   "tafsir": 16,
+   "excerpt": "ولا تفضحنا بذنوبنا",
+   "target": "",
+   "tone": "amber"
+  },
+  {
+   "verse": 194,
+   "words": [
+    11,
+    14
+   ],
+   "tafsir": 16,
+   "excerpt": "فإنك كريم",
+   "target": "",
+   "tone": "green"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "No motif on the caller (the Prophet ﷺ, 193:4); hands for the supplication, a seal for the promise asked for. Both tafsirs name the caller as Muhammad ﷺ."
+ },
+ "cover": {
+  "series_ar": "تفكر ودعاء",
+  "series_en": "Reflection and prayer",
+  "title_ar": "دعاء المؤمنين",
+  "title_en": "The believers' prayer",
+  "at": [
+   193,
+   12
+  ]
+ },
+ "motion": 3
 }

@@ -28,19 +28,215 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة آل عمران",
+   "title": "إجابة الدعاء",
    "verses": [
     195
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "dawn",
+    "beats": [
+     {
+      "at": [
+       195,
+       4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       195,
+       10
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       195,
+       13
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       195,
+       14
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       195,
+       26
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       195,
+       30
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       195,
+       31
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       195,
+       35
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       195,
+       38
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       195,
+       39
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       195,
+       41
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       195,
+       43
+      ],
+      "do": "pan_left"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       195,
+       7
+      ],
+      "until": null,
+      "motif": "wheat",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       195,
+       17
+      ],
+      "until": null,
+      "motif": "footsteps",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       195,
+       21
+      ],
+      "until": null,
+      "motif": "house",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 195,
+   "words": [
+    1,
+    3
+   ],
+   "tafsir": 16,
+   "excerpt": "فأجاب الله دعاءهم",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 195,
+   "words": [
+    4,
+    13
+   ],
+   "tafsir": 16,
+   "excerpt": "لا يضيع جهد مَن عمل منهم عملا صالحًا",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 195,
+   "words": [
+    14,
+    16
+   ],
+   "tafsir": 16,
+   "excerpt": "وهم في أُخُوَّة الدين وقَبول الأعمال والجزاء عليها سواء",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 195,
+   "words": [
+    17,
+    18
+   ],
+   "tafsir": 16,
+   "excerpt": "رغبةً في رضا الله تعالى",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 195,
+   "words": [
+    22,
+    24
+   ],
+   "tafsir": 16,
+   "excerpt": "في طاعة ربهم وعبادتهم إيّاه",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 195,
+   "words": [
+    27,
+    29
+   ],
+   "tafsir": 16,
+   "excerpt": "ليسترنَّ الله عليهم ما ارتكبوه من المعاصي",
+   "target": "",
+   "tone": "green"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "Wheat for the deeds never lost, footsteps for the emigrants, a house for those driven from their homes. Nothing for the fighting or for Paradise (195:30-43, no river)."
+ },
+ "cover": {
+  "series_ar": "تفكر ودعاء",
+  "series_en": "Reflection and prayer",
+  "title_ar": "إجابة الدعاء",
+  "title_en": "The prayer answered",
+  "at": [
+   195,
+   7
+  ]
+ },
+ "motion": 3
 }

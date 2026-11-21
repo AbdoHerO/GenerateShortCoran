@@ -28,53 +28,449 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة آل عمران",
+   "title": "متاع زائل",
    "verses": [
     196,
     197
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       196,
+       7
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       197,
+       2
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       197,
+       5
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       197,
+       7
+      ],
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       196,
+       3
+      ],
+      "until": null,
+      "motif": "leaf",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
    "id": "c2",
-   "title": "سورة آل عمران",
+   "title": "جزاء المتقين",
    "verses": [
     198
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "light",
+    "beats": [
+     {
+      "at": [
+       198,
+       5
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       198,
+       6
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       198,
+       9
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       198,
+       15
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       198,
+       18
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       198,
+       21
+      ],
+      "do": "pan_left"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       198,
+       13
+      ],
+      "until": null,
+      "motif": "light",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "light_sweep"
    }
   },
   {
    "id": "c3",
-   "title": "سورة آل عمران",
+   "title": "الصادقون من الكتابيين",
    "verses": [
     199
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light"
+    "mood": "dawn",
+    "beats": [
+     {
+      "at": [
+       199,
+       6
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       199,
+       11
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       199,
+       12
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       199,
+       14
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       199,
+       16
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       199,
+       18
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       199,
+       21
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       199,
+       27
+      ],
+      "do": "pan_left"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       199,
+       9
+      ],
+      "until": null,
+      "motif": "book",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       199,
+       24
+      ],
+      "until": null,
+      "motif": "wheat",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "slide"
    }
   },
   {
    "id": "c4",
-   "title": "سورة آل عمران",
+   "title": "وصية الختام",
    "verses": [
     200
    ],
    "scene": "ambient",
    "params": {
-    "mood": "night_sky"
+    "mood": "dawn",
+    "beats": [
+     {
+      "at": [
+       200,
+       2
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       200,
+       6
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       200,
+       7
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       200,
+       8
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       200,
+       9
+      ],
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       200,
+       4
+      ],
+      "until": null,
+      "motif": "mountain",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "iris"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 196,
+   "words": [
+    1,
+    7
+   ],
+   "tafsir": 16,
+   "excerpt": "بما عليه أهل الكفر بالله من بسطة في العيش، وسَعَة في الرزق",
+   "target": "",
+   "tone": "amber"
+  },
+  {
+   "verse": 197,
+   "words": [
+    3,
+    7
+   ],
+   "tafsir": 16,
+   "excerpt": "ثم يكون مصيرهم يوم القيامة إلى النار",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 198,
+   "words": [
+    1,
+    4
+   ],
+   "tafsir": 16,
+   "excerpt": "خافوا ربهم، وامتثلوا أوامره، واجتنبوا نواهيه",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 198,
+   "words": [
+    11,
+    13
+   ],
+   "tafsir": 16,
+   "excerpt": "هي منزلهم الدائم لا يخرجون منه",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 198,
+   "words": [
+    17,
+    21
+   ],
+   "tafsir": 16,
+   "excerpt": "أعظم وأفضل لأهل الطاعة",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 199,
+   "words": [
+    1,
+    7
+   ],
+   "tafsir": 16,
+   "excerpt": "لَيصدِّق بالله ربًّا واحدًا وإلهًا معبودًا",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 199,
+   "words": [
+    11,
+    13
+   ],
+   "tafsir": 16,
+   "excerpt": "من التوراة والإنجيل",
+   "target": "motif",
+   "tone": "blue"
+  },
+  {
+   "verse": 199,
+   "words": [
+    14,
+    15
+   ],
+   "tafsir": 16,
+   "excerpt": "متذللين لله، خاضعين له",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 199,
+   "words": [
+    16,
+    21
+   ],
+   "tafsir": 16,
+   "excerpt": "ولا يكتمون ما أنزل الله، ولا يحرفونه",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 199,
+   "words": [
+    22,
+    26
+   ],
+   "tafsir": 16,
+   "excerpt": "ثواب عظيم عنده يوم يلقونه",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 199,
+   "words": [
+    27,
+    30
+   ],
+   "tafsir": 16,
+   "excerpt": "لا يعجزه إحصاء أعمالهم، ومحاسبتهم عليها",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 200,
+   "words": [
+    4,
+    5
+   ],
+   "tafsir": 16,
+   "excerpt": "اصبروا على طاعة ربكم، وعلى ما ينزل بكم من ضر وبلاء",
+   "target": "motif",
+   "tone": "green"
+  },
+  {
+   "verse": 200,
+   "words": [
+    6,
+    6
+   ],
+   "tafsir": 91,
+   "excerpt": "لزوم المحل الذي يخاف من وصول العدو منه",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 200,
+   "words": [
+    7,
+    10
+   ],
+   "tafsir": 16,
+   "excerpt": "رجاء أن تفوزوا برضاه في الدنيا والآخرة",
+   "target": "",
+   "tone": "green"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "One unit of about 107 s (the reciter joins 196 to 199, and 199/200 has no clean cut). A leaf for the passing enjoyment, light for the hospitality from Allah (no river or gardens drawn), a book for the scriptures, wheat for the reward, a mountain for patience. No coins on the negated «لا يشترون ... ثمنا قليلا». Nothing for Hell."
+ },
+ "cover": {
+  "series_ar": "تفكر ودعاء",
+  "series_en": "Reflection and prayer",
+  "title_ar": "عاقبة الفريقين",
+  "title_en": "Where each side ends",
+  "at": [
+   200,
+   4
+  ]
+ },
+ "motion": 3
 }
