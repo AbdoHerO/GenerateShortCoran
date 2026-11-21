@@ -1,16 +1,16 @@
 # Production status (generated - do not edit by hand)
 
-Regenerated 2026-11-21 02:46 UTC by `pipeline/progress.py` for reciter 97.
+Regenerated 2026-11-21 02:56 UTC by `pipeline/progress.py` for reciter 97.
 Columns: videos in the surah plan · storyboards written by hand · of those with motion graphics v3 (motifs) · built locally in this session · published to Creative Hub (drafts).
 `built` only counts files present on this machine; `published` (publish/ledger.json) is the durable record.
 
-**Totals:** planned 199 · written 162 · built 51 · published 34
+**Totals:** planned 199 · written 175 · built 37 · published 34
 
 | # | Surah | Name | Verses | Planned | Written | Motion v3 | Built | Published | State |
 |---|---|---|---|---|---|---|---|---|---|
 | 1 | الفاتحة | Al-Fatihah | 7 | 1 | 1 | 1 | 1 | 1 | published |
-| 2 | البقرة | Al-Baqarah | 286 | 103 | 85 | 85 | 17 | - | storyboards |
-| 3 | آل عمران | Ali 'Imran | 200 | 62 | 43 | 43 | - | - | storyboards |
+| 2 | البقرة | Al-Baqarah | 286 | 103 | 85 | 85 | 3 | - | storyboards |
+| 3 | آل عمران | Ali 'Imran | 200 | 62 | 56 | 56 | - | - | storyboards |
 | 4 | النساء | An-Nisa | 176 | - | - | - | - | - | not started |
 | 5 | المائدة | Al-Ma'idah | 120 | - | - | - | - | - | not started |
 | 6 | الأنعام | Al-An'am | 165 | - | - | - | - | - | not started |
