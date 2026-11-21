@@ -1229,3 +1229,32 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
 - **Guide:** a new section "Staging v4" in docs/STORYBOARD_GUIDE.md gives a recipe for each kind of passage.
 - **Builds:** batch 6 was stopped. The ambient videos it built (4_93-101 and 3_90-94, 4_25, 4_77-78, 4_82-91) are
   not published; they will be restaged first.
+
+### Staging v4 progress (2026-11-21, evening)
+
+- **Restaged (verify PASSED):**
+  - Al-Fatiha: built and published as v2.
+  - Al-Baqara: all 85 storyboards, in 4 parallel batches.
+  - Al-Hijr: all 12.
+- **Independent picture reviews:**
+  - **2:1-84: 4 SERIOUS, 6 MINOR.**
+    - Bani Isra'il were shown praying with the Muslims (2:43 is a command).
+    - The sea crossing misread (2:50).
+    - The Sabbath-breakers faded out on «فقلنا» before «كونوا قردة» (2:65).
+    - The "few" were drawn as a crowd (2:83).
+  - **2:175-237: 4 SERIOUS, 10 MINOR.**
+    - A family on screen during the vow (2:226) and during the waiting period (2:228). Both are now ambient.
+    - The Paradise gloss appeared over a close-up of the disbelievers (2:212).
+    - A burst plate was on screen at a repeated «ربنا» (2:201).
+  - Fixes are being applied by the restagers, then checked again.
+- **allahcheck.py (tools/restage/) now times every recited occurrence**, the reciter's repeats included. Over all
+  storyboards it flags:
+  - Aal Imran: 48 plates over the Name. They are fixed during its restage.
+  - Al-Kahf (published): 26 plates over the Name, a stricter lesson adopted after Al-Kahf was published. To be fixed
+    in an Al-Kahf v2 later.
+- **Blocked:**
+  - 2_255-256 (published) cannot be rebuilt: the reciter joins 2:254-255, and this "nocut" edge has been refused
+    since today's audio audit. It needs a re-split or an owner decision.
+  - 2_13-16, 2_183-185 and 3_24-26 stay audio-blocked, as before.
+- **Fixed:** `render.mjs sheet` used one shared temp folder, so sheets rendered in parallel could show another
+  storyboard. Each run now has its own folder.
