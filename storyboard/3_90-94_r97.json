@@ -312,6 +312,16 @@
       "motif": "scroll",
       "place": "top",
       "size": "m"
+     },
+     {
+      "at": [
+       94,
+       9
+      ],
+      "until": null,
+      "motif": "scroll",
+      "place": "top",
+      "size": "m"
      }
     ],
     "transition": "page_turn"

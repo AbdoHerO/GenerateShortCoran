@@ -86,8 +86,8 @@
     {
      "from": 18,
      "to": 20,
-     "title_ar": "أظلم الناس",
-     "title_en": "The worst wrongdoers",
+     "title_ar": "أعظم الظلم",
+     "title_en": "The greatest wrong",
      "visual": "ambient",
      "care": "",
      "est_s": 70
@@ -95,8 +95,8 @@
     {
      "from": 21,
      "to": 24,
-     "title_ar": "الفريقان",
-     "title_en": "The two parties",
+     "title_ar": "السعداء والأشقياء",
+     "title_en": "The blessed and the wretched",
      "visual": "ambient",
      "care": "",
      "est_s": 67
@@ -121,8 +121,8 @@
     {
      "from": 29,
      "to": 31,
-     "title_ar": "لا أطلب أجرا",
-     "title_en": "No wage asked",
+     "title_ar": "الدعوة بلا مقابل",
+     "title_en": "A call without reward",
      "visual": "ambient",
      "care": "Nuh: no motif.",
      "est_s": 82
@@ -130,8 +130,8 @@
     {
      "from": 32,
      "to": 35,
-     "title_ar": "جدال القوم",
-     "title_en": "The people's dispute",
+     "title_ar": "استعجال العذاب",
+     "title_en": "Hastening the punishment",
      "visual": "ambient",
      "care": "Nuh: no motif.",
      "est_s": 71
@@ -148,8 +148,8 @@
     {
      "from": 40,
      "to": 40,
-     "title_ar": "الأمر بالحمل",
-     "title_en": "The order to embark",
+     "title_ar": "الاستعداد للنجاة",
+     "title_en": "Ready for the rescue",
      "visual": "ambient",
      "care": "No flood, animals or people drawn.",
      "est_s": 38
