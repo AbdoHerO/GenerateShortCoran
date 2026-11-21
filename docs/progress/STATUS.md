@@ -1,19 +1,19 @@
 # Production status (generated - do not edit by hand)
 
-Regenerated 2026-11-21 05:26 UTC by `pipeline/progress.py` for reciter 97.
+Regenerated 2026-11-21 06:42 UTC by `pipeline/progress.py` for reciter 97.
 Columns: videos in the surah plan · storyboards written by hand · of those with motion graphics v3 (motifs) · built locally in this session · published to Creative Hub (drafts).
 `built` only counts files present on this machine; `published` (publish/ledger.json) is the durable record.
 
-**Totals:** planned 267 · written 225 · built 60 · published 57
+**Totals:** planned 368 · written 305 · built 91 · published 84
 
 | # | Surah | Name | Verses | Planned | Written | Motion v3 | Built | Published | State |
 |---|---|---|---|---|---|---|---|---|---|
 | 1 | الفاتحة | Al-Fatihah | 7 | 1 | 1 | 1 | 1 | 1 | published |
-| 2 | البقرة | Al-Baqarah | 286 | 103 | 85 | 85 | 26 | 23 | storyboards |
+| 2 | البقرة | Al-Baqarah | 286 | 103 | 85 | 85 | 57 | 50 | storyboards |
 | 3 | آل عمران | Ali 'Imran | 200 | 62 | 56 | 56 | - | - | storyboards |
-| 4 | النساء | An-Nisa | 176 | 68 | 50 | 50 | - | - | storyboards |
-| 5 | المائدة | Al-Ma'idah | 120 | - | - | - | - | - | not started |
-| 6 | الأنعام | Al-An'am | 165 | - | - | - | - | - | not started |
+| 4 | النساء | An-Nisa | 176 | 68 | 63 | 63 | - | - | storyboards |
+| 5 | المائدة | Al-Ma'idah | 120 | 49 | 46 | 46 | - | - | storyboards |
+| 6 | الأنعام | Al-An'am | 165 | 52 | 21 | 21 | - | - | storyboards |
 | 7 | الأعراف | Al-A'raf | 206 | - | - | - | - | - | not started |
 | 8 | الأنفال | Al-Anfal | 75 | - | - | - | - | - | not started |
 | 9 | التوبة | At-Tawbah | 129 | - | - | - | - | - | not started |
