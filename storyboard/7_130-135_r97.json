@@ -28,74 +28,444 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة الأعراف",
+   "title": "التطير والعناد",
    "verses": [
-    130
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "dawn"
-   }
-  },
-  {
-   "id": "c2",
-   "title": "سورة الأعراف",
-   "verses": [
-    131
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "geometric"
-   }
-  },
-  {
-   "id": "c3",
-   "title": "سورة الأعراف",
-   "verses": [
+    130,
+    131,
     132
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       130,
+       10
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       131,
+       2
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       131,
+       3
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       131,
+       6
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       131,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       131,
+       12
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       131,
+       16
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       131,
+       19
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       131,
+       22
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       132,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       132,
+       5
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       132,
+       9
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       132,
+       12
+      ],
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       130,
+       5
+      ],
+      "until": [
+       130,
+       9
+      ],
+      "motif": "hourglass",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       131,
+       14
+      ],
+      "until": [
+       131,
+       19
+      ],
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
-   "id": "c4",
-   "title": "سورة الأعراف",
+   "id": "c2",
+   "title": "الآيات المتتابعة",
    "verses": [
-    133
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "night_sky"
-   }
-  },
-  {
-   "id": "c5",
-   "title": "سورة الأعراف",
-   "verses": [
-    134
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "mountains"
-   }
-  },
-  {
-   "id": "c6",
-   "title": "سورة الأعراف",
-   "verses": [
+    133,
+    134,
     135
    ],
    "scene": "ambient",
    "params": {
-    "mood": "sea"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       133,
+       3
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       133,
+       7
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       133,
+       8
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       133,
+       9
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       133,
+       11
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       133,
+       13
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       134,
+       1
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       134,
+       3
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       134,
+       7
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       134,
+       11
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       134,
+       15
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       134,
+       18
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       134,
+       22
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       135,
+       1
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       135,
+       8
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       135,
+       5
+      ],
+      "until": [
+       135,
+       9
+      ],
+      "motif": "hourglass",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "page_turn"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 130,
+   "words": [
+    1,
+    4
+   ],
+   "tafsir": 91,
+   "excerpt": "على عادته وسنته في الأمم",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 130,
+   "words": [
+    5,
+    8
+   ],
+   "tafsir": 16,
+   "excerpt": "بالقحط والجدب",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 130,
+   "words": [
+    9,
+    10
+   ],
+   "tafsir": 16,
+   "excerpt": "ليتذكروا، وينزجروا عن ضلالاتهم، ويفزعوا إلى ربهم بالتوبة",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 131,
+   "words": [
+    1,
+    6
+   ],
+   "tafsir": 91,
+   "excerpt": "فلم يشكروا اللّه عليها",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 131,
+   "words": [
+    14,
+    18
+   ],
+   "tafsir": 16,
+   "excerpt": "إنما هو بقضاء الله وقدره، وبسبب ذنوبهم وكفرهم",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 131,
+   "words": [
+    19,
+    22
+   ],
+   "tafsir": 16,
+   "excerpt": "لانغمارهم في الجهل والضلال",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 132,
+   "words": [
+    1,
+    8
+   ],
+   "tafsir": 91,
+   "excerpt": "مبينين لموسى أنهم لا يزالون، ولا يزولون عن باطلهم",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 133,
+   "words": [
+    3,
+    3
+   ],
+   "tafsir": 91,
+   "excerpt": "الماء الكثير الذي أغرق أشجارهم وزروعهم",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 133,
+   "words": [
+    8,
+    8
+   ],
+   "tafsir": 16,
+   "excerpt": "لا يقدر عليها غيره",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 133,
+   "words": [
+    9,
+    9
+   ],
+   "tafsir": 16,
+   "excerpt": "مفرقات بعضها عن بعض",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 133,
+   "words": [
+    10,
+    13
+   ],
+   "tafsir": 16,
+   "excerpt": "عتوًّا وتمردًا",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 134,
+   "words": [
+    5,
+    9
+   ],
+   "tafsir": 16,
+   "excerpt": "فزعوا إلى موسى",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 135,
+   "words": [
+    1,
+    8
+   ],
+   "tafsir": 91,
+   "excerpt": "إلى مدة قدر اللّه بقاءهم إليها، وليس كشفا مؤبدا",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 135,
+   "words": [
+    9,
+    11
+   ],
+   "tafsir": 91,
+   "excerpt": "العهد الذي عاهدوا عليه موسى، ووعدوه بالإيمان به",
+   "target": "",
+   "tone": "red"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "The flood, locusts, lice, frogs and blood are not drawn (night sky). Their claims in 131 and 132 are framed («فلم يشكروا», «لا يزولون عن باطلهم»); their superstition about Musa (131:7-13) is not glossed. The kinds of «القمل» and «الرجز» are not glossed (the tafsirs hedge). Hourglasses for «بالسنين» and «إلى أجل هم بالغوه», geometric for «ألا إنما طائرهم عند الله»."
+ },
+ "cover": {
+  "series_ar": "موسى وفرعون",
+  "series_en": "Musa and Pharaoh",
+  "title_ar": "سنوات الشدة",
+  "title_en": "Years of hardship",
+  "at": [
+   130,
+   1
+  ]
+ },
+ "motion": 3
 }

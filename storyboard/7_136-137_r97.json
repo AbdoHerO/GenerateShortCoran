@@ -28,30 +28,174 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة الأعراف",
+   "title": "جزاء التكذيب",
    "verses": [
     136
    ],
    "scene": "ambient",
    "params": {
-    "mood": "sea"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       136,
+       4
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       136,
+       8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       136,
+       9
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": []
    }
   },
   {
    "id": "c2",
-   "title": "سورة الأعراف",
+   "title": "وراثة المستضعفين",
    "verses": [
     137
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "dawn",
+    "beats": [
+     {
+      "at": [
+       137,
+       4
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       137,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       137,
+       17
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       137,
+       20
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       137,
+       25
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       137,
+       12
+      ],
+      "until": [
+       137,
+       19
+      ],
+      "motif": "light",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "light_sweep"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 136,
+   "words": [
+    1,
+    2
+   ],
+   "tafsir": 16,
+   "excerpt": "حين جاء الأجل المحدد لإهلاكهم",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 136,
+   "words": [
+    6,
+    11
+   ],
+   "tafsir": 16,
+   "excerpt": "وتلك الغفلة هي سبب التكذيب",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 137,
+   "words": [
+    1,
+    5
+   ],
+   "tafsir": 16,
+   "excerpt": "يُستَذَلُّون للخدمة",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 137,
+   "words": [
+    12,
+    20
+   ],
+   "tafsir": 16,
+   "excerpt": "بالتمكين لهم في الأرض; بسبب صبرهم",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 137,
+   "words": [
+    21,
+    29
+   ],
+   "tafsir": 16,
+   "excerpt": "من العمارات والمزارع",
+   "target": "",
+   "tone": "red"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "No sea, drowning or destruction drawn. Which land is meant in 137:6-11 is not glossed (Al-Muyassar: Syria; As-Sa'di: Egypt). Light for «وتمت كلمت ربك الحسنى». First-person «فانتقمنا… فأغرقناهم… دمرنا» not used."
+ },
+ "cover": {
+  "series_ar": "موسى وفرعون",
+  "series_en": "Musa and Pharaoh",
+  "title_ar": "نهاية الطغيان",
+  "title_en": "The end of tyranny",
+  "at": [
+   136,
+   1
+  ]
+ },
+ "motion": 3
 }
