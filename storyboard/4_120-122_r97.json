@@ -28,31 +28,240 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة النساء",
+   "title": "غرور الشيطان",
    "verses": [
     120,
     121
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       120,
+       4
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       121,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       121,
+       3
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       121,
+       5
+      ],
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": []
    }
   },
   {
    "id": "c2",
-   "title": "سورة النساء",
+   "title": "جزاء المؤمنين",
    "verses": [
     122
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "dawn",
+    "beats": [
+     {
+      "at": [
+       122,
+       6
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       122,
+       7
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       122,
+       8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       122,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       122,
+       11
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       122,
+       14
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       122,
+       15
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       122,
+       16
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       122,
+       21
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       122,
+       4
+      ],
+      "until": null,
+      "motif": "light",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "dissolve"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 120,
+   "words": [
+    1,
+    2
+   ],
+   "tafsir": 16,
+   "excerpt": "بالوعود الكاذبة، ويغريهم بالأماني الباطلة الخادعة",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 120,
+   "words": [
+    3,
+    7
+   ],
+   "tafsir": 16,
+   "excerpt": "إلا خديعة لا صحة لها، ولا دليل عليها",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 121,
+   "words": [
+    1,
+    3
+   ],
+   "tafsir": 91,
+   "excerpt": "من انقاد للشيطان وأعرض عن ربه",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 121,
+   "words": [
+    7,
+    7
+   ],
+   "tafsir": 91,
+   "excerpt": "مخلصا ولا ملجأ",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 122,
+   "words": [
+    1,
+    4
+   ],
+   "tafsir": 91,
+   "excerpt": "بالله وملائكته وكتبه ورسله واليوم الآخر",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 122,
+   "words": [
+    5,
+    13
+   ],
+   "tafsir": 16,
+   "excerpt": "سيدخلهم الله -بفضله-",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 122,
+   "words": [
+    14,
+    16
+   ],
+   "tafsir": 16,
+   "excerpt": "الذي لا يخلف وعده",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 122,
+   "words": [
+    17,
+    21
+   ],
+   "tafsir": 16,
+   "excerpt": "في قوله ووعده",
+   "target": "",
+   "tone": "green"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "No motif on the Shaytan; 120-121 (the Fire) under a night sky, nothing literal. 122 (Paradise): light on «الصالحات» only, no river or garden motif."
+ },
+ "cover": {
+  "series_ar": "الشرك والتوحيد",
+  "series_en": "Shirk and tawhid",
+  "title_ar": "وعود الشيطان",
+  "title_en": "The Shaytan's promises",
+  "at": [
+   120,
+   1
+  ]
+ },
+ "motion": 3
 }

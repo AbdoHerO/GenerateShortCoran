@@ -28,52 +28,337 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة النساء",
+   "title": "ذنب الشرك",
    "verses": [
     116
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       116,
+       8
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       116,
+       13
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       116,
+       14
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       116,
+       2
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       116,
+       19
+      ],
+      "until": null,
+      "motif": "two_paths",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
    "id": "c2",
-   "title": "سورة النساء",
+   "title": "عداوة الشيطان",
    "verses": [
-    117
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "geometric"
-   }
-  },
-  {
-   "id": "c3",
-   "title": "سورة النساء",
-   "verses": [
-    118
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "light"
-   }
-  },
-  {
-   "id": "c4",
-   "title": "سورة النساء",
-   "verses": [
+    117,
+    118,
     119
    ],
    "scene": "ambient",
    "params": {
-    "mood": "night_sky"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       117,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       117,
+       8
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       117,
+       11
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       118,
+       1
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       118,
+       3
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       118,
+       5
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       118,
+       8
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       119,
+       2
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       119,
+       3
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       119,
+       4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       119,
+       7
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       119,
+       8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       119,
+       11
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       119,
+       13
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       119,
+       16
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       119,
+       21
+      ],
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": [],
+    "transition": "dissolve"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 116,
+   "words": [
+    1,
+    7
+   ],
+   "tafsir": 91,
+   "excerpt": "الشرك لا يغفره الله تعالى",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 116,
+   "words": [
+    14,
+    16
+   ],
+   "tafsir": 16,
+   "excerpt": "ومن يجعل لله تعالى الواحد الأحد شريكًا من خلقه",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 116,
+   "words": [
+    17,
+    20
+   ],
+   "tafsir": 16,
+   "excerpt": "فقد بَعُدَ عن الحق بعدًا كبيرًا",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 117,
+   "words": [
+    1,
+    6
+   ],
+   "tafsir": 91,
+   "excerpt": "أوثانا وأصناما مسميات بأسماء الإناث",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 117,
+   "words": [
+    7,
+    11
+   ],
+   "tafsir": 16,
+   "excerpt": "شيطانًا متمردًا على الله، بلغ في الفساد والإفساد حدّاً كبيرًا",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 118,
+   "words": [
+    1,
+    2
+   ],
+   "tafsir": 16,
+   "excerpt": "طرده الله تعالى من رحمته",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 118,
+   "words": [
+    3,
+    8
+   ],
+   "tafsir": 91,
+   "excerpt": "علم اللعين أنه لا يقدر على إغواء جميع عباد الله",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 119,
+   "words": [
+    1,
+    1
+   ],
+   "tafsir": 91,
+   "excerpt": "ضلالا في العلم، وضلالا في العمل",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 119,
+   "words": [
+    2,
+    2
+   ],
+   "tafsir": 91,
+   "excerpt": "لأمنينهم أن ينالوا ما ناله المهتدون",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 119,
+   "words": [
+    8,
+    10
+   ],
+   "tafsir": 16,
+   "excerpt": "في الفطرة، وهيئة ما عليه الخلق",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 119,
+   "words": [
+    11,
+    17
+   ],
+   "tafsir": 16,
+   "excerpt": "ومن يستجب للشيطان ويتخذه ناصرًا له",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 119,
+   "words": [
+    18,
+    21
+   ],
+   "tafsir": 16,
+   "excerpt": "فقد هلك هلاكًا بيِّنًا",
+   "target": "",
+   "tone": "red"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "No motif on the Shaytan (117-119 under a night sky with no symbol). Geometric on the Name in 116:2 (not on the negated «لا يغفر»), two paths for «ضلالا بعيدا». 116:8-13 is not glossed (no excerpt keeps «لمن يشاء» without repeating it). 118:3-8 adds As-Sa'di's note that he cannot mislead all of Allah's servants. Nothing drawn for 119:4-6 (cutting the cattle's ears)."
+ },
+ "cover": {
+  "series_ar": "الشرك والتوحيد",
+  "series_en": "Shirk and tawhid",
+  "title_ar": "الشرك وتلبيس الشيطان",
+  "title_en": "Shirk and the Shaytan's deceit",
+  "at": [
+   116,
+   1
+  ]
+ },
+ "motion": 3
 }
