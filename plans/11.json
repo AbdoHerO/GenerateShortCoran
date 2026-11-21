@@ -376,8 +376,8 @@
     {
      "from": 110,
      "to": 113,
-     "title_ar": "الاستقامة",
-     "title_en": "Steadfastness",
+     "title_ar": "طريق الاستقامة",
+     "title_en": "The path of steadfastness",
      "visual": "ambient",
      "care": "",
      "est_s": 73
@@ -385,8 +385,8 @@
     {
      "from": 114,
      "to": 119,
-     "title_ar": "إقامة الصلاة",
-     "title_en": "Establishing the prayer",
+     "title_ar": "عماد الثبات",
+     "title_en": "The pillar of steadfastness",
      "visual": "ambient",
      "care": "",
      "est_s": 95
@@ -394,8 +394,8 @@
     {
      "from": 120,
      "to": 123,
-     "title_ar": "تثبيت الفؤاد",
-     "title_en": "Strengthening the heart",
+     "title_ar": "حكمة القصص",
+     "title_en": "Why the stories are told",
      "visual": "ambient",
      "care": "",
      "est_s": 67
