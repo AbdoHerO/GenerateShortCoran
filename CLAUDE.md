@@ -46,6 +46,15 @@ as DRAFTS to the owner's Creative Hub (platform « Coran »).
    - `verify.py` enforces an action at least every 6 s; `renderer/tests/motion_check.mjs` checks the frames.
    - Motifs are symbols only: never for Allah, prophets or angels; nothing literal for the unseen. No `fire`, river
      or gold motif in a Paradise or Hell passage, and no scales at the Mizan.
+   - **Staging v4 (owner decision 2026-11-21):** every this-world passage is a `stage` scene with a place, faceless
+     people and gestures, like Al-Kahf. `ambient` is only for Allah's names and attributes, the unseen and battles
+     (STORYBOARD_GUIDE.md → "Staging v4").
+   - Every person, place, object, number and gesture on stage comes from the verse or the Al-Muyassar / As-Sa'di
+     tafsir. Nothing is invented. When unsure, check official sources or draw less.
+   - The Prophet Muhammad ﷺ is never shown, not even as a drop.
+   - Every restaged surah gets an independent picture review.
+   - Videos already published are re-published as new versions « - v2 »
+     (`publish_hub.py plan <ch> --ids … --version 2`).
 9. **Human review is mandatory.**
    - Upload to Creative Hub only as drafts (`--confirm`, **never `--approve`**), with the review sheet PDF.
    - Never re-import an id that is in `publish/ledger.json`: duplicates become « (2) ».
