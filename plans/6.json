@@ -461,7 +461,7 @@
      "from": 135,
      "to": 137,
      "title_ar": "نصيب الأوثان",
-     "title_en": "The idols' share",
+     "title_en": "A share for the idols",
      "visual": "ambient",
      "care": "No idols drawn; 137: killing of children, nothing drawn.",
      "est_s": 89
@@ -469,8 +469,8 @@
     {
      "from": 138,
      "to": 140,
-     "title_ar": "قتل الأولاد",
-     "title_en": "Killing their children",
+     "title_ar": "تحريم بلا برهان",
+     "title_en": "Forbidding without proof",
      "visual": "ambient",
      "care": "Nothing drawn for the killing.",
      "est_s": 87
@@ -499,7 +499,7 @@
      "from": 145,
      "to": 146,
      "title_ar": "المحرمات من الطعام",
-     "title_en": "Forbidden food",
+     "title_en": "Forbidden foods",
      "visual": "ambient",
      "care": "No dead animal, blood or pig drawn.",
      "est_s": 78
@@ -507,8 +507,8 @@
     {
      "from": 147,
      "to": 149,
-     "title_ar": "الحجة البالغة",
-     "title_en": "The conclusive argument",
+     "title_ar": "حجة الله القاطعة",
+     "title_en": "Allah's conclusive proof",
      "visual": "ambient",
      "care": "Their argument from fate never shown as a statement.",
      "est_s": 72
