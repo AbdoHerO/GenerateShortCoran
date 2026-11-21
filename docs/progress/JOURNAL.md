@@ -693,3 +693,19 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
   - Each dagger alef may be read as an alef or as nothing, independently («السموات»).
   - All storyboards were re-verified; the only new failure is the published 2:107-110 (DECISIONS_NEEDED §3).
 - **Data note:** As-Sa'di's 6:89 entry repeats his 6:88 text, so no 6:89 excerpt may come from tafsir 91.
+
+### Al-A'raf: all 57 unblocked storyboards written; reviews started (2026-11-21)
+
+- 1-206 written in twelve batches, all verified PASSED and cut-checked. Transitions now vary with the meaning
+  (light_sweep, page_turn, wipe, iris, morph, slide).
+- **Care points:**
+  - Adam, Hawwa and every prophet are never drawn or given a motif.
+  - Iblis's and the Shaytan's claims are framed («معارضا لربه», «في محاولة المكر بهما», «وهو كاذب في ذلك»).
+  - The garden, the Mizan, the heights, the Fire and the Hour are not drawn.
+  - Disputed points are left unglossed: 37 «نصيبهم من الكتاب», 46 who the men of the heights are, 93 when Shu'ayb
+    turned away, 137 which land, 145 «دار الفاسقين», 175 who the man was.
+  - 189 carries Al-Muyassar's «والمراد جنس الزوجين من ذرية آدم».
+  - Allah's own speech in 143 and 156 is not paraphrased.
+- **Lesson:** trimming an excerpt to avoid a Quran bigram must never drop a negation. 7:89 «وليس لنا أن…» was cut to
+  «نتحول إلى غير دين ربنا» and was removed at once.
+- Three independent reviewers are running: glosses 1-102, glosses 103-206, and motifs/moods/transitions.
