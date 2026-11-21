@@ -1,0 +1,19 @@
+{
+ "surah": 1,
+ "summary": "1 short video covering all 7 verses (reciter Yasser ad-Dussary): the surah is 45 s of recitation and one unit of meaning",
+ "made_by": "Research 2026-11-21 (cloud agent): audit_surah.py with reciter 97, Saheeh translation, Al-Muyassar and As-Sa'di read verse by verse.",
+ "reciter": {"id": 97, "name": "Yasser ad-Dussary"},
+ "notes": [
+  "Text: all 7 verses identical to Tanzil Uthmani. Verse 1 is the basmala (Hafs numbering).",
+  "Timing: complete for every word, no short-word flags, no repetitions.",
+  "Boundaries: 1-5 end in real pauses; Dussary joins verse 6 to verse 7 without a pause (JOINED). The video covers 1-7 whole, so nothing is cut there; the highlight follows the timing data at 6->7.",
+  "Pictures: ambient only (names and attributes of Allah, worship, du'a). The Day of Recompense (4) gets only an hourglass symbol, never a scene.",
+  "Explanations: the two groups in verse 7 are explained by their description from As-Sa'di (knew the truth and left it / left it out of ignorance), without naming them; both tafsirs agree."
+ ],
+ "groups": [
+  {"title_ar": "فاتحة الكتاب", "title_en": "The Opening", "from": 1, "to": 7, "intro": "The whole surah in one video.",
+   "videos": [
+    {"from": 1, "to": 7, "title_ar": "أعظم سورة", "title_en": "The greatest surah of the Quran", "visual": "ambient", "care": "Ambient only; no figure; the Day of Recompense as a symbol only.", "est_s": 54}
+   ]}
+ ]
+}

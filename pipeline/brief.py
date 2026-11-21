@@ -2,7 +2,9 @@
 (seconds from the first word), translation, both tafsirs (exact text that gloss excerpts must be copied from),
 and the surah plan entry (title + cautions) if there is one.
 
-Usage: python pipeline/brief.py 18_17-18_r97
+Usage: python pipeline/brief.py 18_17-18_r97 [--only 16|91] [--verses 5-12]
+  --only 16     print only Al-Muyassar (shorter; As-Sa'di can be very long)
+  --verses a-b  print only these verses (for a whole-surah analysis folder such as _analysis/2_r97)
 """
 import json, pathlib, sys
 
@@ -11,7 +13,7 @@ sys.path.insert(0, str(ROOT / "pipeline"))
 import verify  # noqa: E402
 
 
-def main(pid):
+def main(pid, only=None, vr=None):
     src = json.loads((ROOT / "data" / pid / "source.json").read_text(encoding="utf-8"))
     m = src["meta"]
     T = {t["verse_key"]: t for t in src["recitation"]["timestamps"]}
@@ -26,6 +28,8 @@ def main(pid):
                     print(f"PLAN: series «{g['title_ar']}» / {g['title_en']} -> video «{v['title_ar']}» / {v['title_en']} | visual {v['visual']}"
                           + (f"\nCAUTION: {v['care']}" if v.get("care") else ""))
     for v in src["verses"]:
+        if vr and not (vr[0] <= v["verse_number"] <= vr[1]):
+            continue
         k = v["verse_key"]; segs = T[k]["segments"]
         first = {}
         for s in segs:
@@ -36,8 +40,13 @@ def main(pid):
         print("words: " + " | ".join(f"{w['position']} {w['text_uthmani']} @{first.get(w['position'], 0):.1f}" for w in v["words"] if w["char_type_name"] == "word"))
         print("translation: " + verify.clean_translation(v["translations"][0]["text"]))
         for tid, label in (("16", "Al-Muyassar"), ("91", "As-Sa'di")):
+            if only and tid != only:
+                continue
             print(f"tafsir {tid} ({label}): " + verify.nfc(verify.strip_html(src["tafsirs"][tid][k]["text"])))
 
 
 if __name__ == "__main__":
-    main(sys.argv[1])
+    a = sys.argv
+    only = a[a.index("--only") + 1] if "--only" in a else None
+    vr = tuple(map(int, a[a.index("--verses") + 1].split("-"))) if "--verses" in a else None
+    main(a[1], only, vr)
