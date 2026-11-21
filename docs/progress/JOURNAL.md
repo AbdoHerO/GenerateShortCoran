@@ -138,3 +138,27 @@ or by eye. The per-surah summary goes into each `plans/<n>.json` "notes"; this f
 - Al-Fatihah 1:1–7, import `cmwpq653l00023cnyuo6lagqk`: COMPLETED with 4 files and 1 creative, as a DRAFT (nothing
   approved). The platform « Coran » was created by this import.
 - Creative: https://creatives.abdocloud.com/creatives/cmwpq6hvo00040uo8zox4vyer
+
+### Al-Baqarah 2:75–110 review (independent sub-agent): 6 SERIOUS and 21 MINOR, all applied
+- **Serious:**
+  - The series «جبريل والسحر» paired Jibril's name with magic: now «بين الوحي والسحر».
+  - The cover «تعلم السحر» read as the imperative "learn magic!": now «ضرر السحر».
+  - 2:104: «يقصدون سبّه» lost its subject and read as if the believers meant the insult. Replaced by As-Sa'di's
+    sentence, which names who meant what.
+  - 2:81: the gloss was cut just before Al-Muyassar's limit (only shirk makes the sins encompass the person). Now it
+    includes «حتى جرّته إلى الكفر».
+  - 2:90: a red "injustice and envy" gloss pointed at the book motif (the revealed Book). The arrow was removed.
+  - 2:94: «فادعوا ... بالموت» lost its condition and took one tafsir's side. Replaced by As-Sa'di's «نوع مباهلة»,
+    the point both tafsirs share.
+- **Minor:**
+  - glosses that only restated the verse, or that took one side (أماني);
+  - dangling «لأن» or «لليهود» at the start of a gloss;
+  - three chapter titles: «كتابة الباطل», «عذر مردود», «التسليم لأمر الله» (which can't be misread as «مَلَك
+    الله»);
+  - arrows that pointed at the previous motif before the right one appeared;
+  - English titles that read as idioms ("love of the calf").
+- **Lessons:**
+  - Check the subject of every cut sentence.
+  - Never cut just before a tafsir's own restriction.
+  - An arrow targets the motif on screen at the gloss's start, so place glosses after their motif appears.
+  - Read every title without diacritics for a second meaning.

@@ -223,17 +223,17 @@
    "verse": 83,
    "words": [
     24,
-    24
+    26
    ],
-   "tafsir": 16,
-   "excerpt": "أَعْرَضْتم ونقضتم العهد",
-   "target": "motif",
-   "tone": "red"
+   "tafsir": 91,
+   "excerpt": "هذا استثناء, لئلا يوهم أنهم تولوا كلهم",
+   "target": "",
+   "tone": "amber"
   },
   {
    "verse": 84,
    "words": [
-    5,
+    4,
     6
    ],
    "tafsir": 16,

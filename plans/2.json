@@ -343,7 +343,7 @@
      "from": 85,
      "to": 86,
      "title_ar": "تجزئة الدين",
-     "title_en": "Taking part of the Book",
+     "title_en": "Dividing up the religion",
      "visual": "ambient",
      "care": "Fighting and expulsion (85) not shown.",
      "est_s": 85
@@ -378,7 +378,7 @@
      "from": 92,
      "to": 94,
      "title_ar": "حب العجل",
-     "title_en": "The love of the calf",
+     "title_en": "Devotion to the calf",
      "visual": "ambient",
      "care": "No idol drawn.",
      "est_s": 75
@@ -395,8 +395,8 @@
    ]
   },
   {
-   "title_ar": "جبريل والسحر",
-   "title_en": "Jibril and magic",
+   "title_ar": "بين الوحي والسحر",
+   "title_en": "Between revelation and magic",
    "from": 97,
    "to": 103,
    "videos": [
@@ -412,8 +412,8 @@
     {
      "from": 102,
      "to": 103,
-     "title_ar": "تعلم السحر",
-     "title_en": "The learning of magic",
+     "title_ar": "ضرر السحر",
+     "title_en": "The harm of magic",
      "visual": "ambient",
      "care": "Harut and Marut, the devils and Sulayman: never drawn. Explanations must not take sides on Harut and Marut.",
      "est_s": 99

@@ -232,13 +232,13 @@
   {
    "verse": 76,
    "words": [
-    18,
-    18
+    14,
+    17
    ],
    "tafsir": 16,
-   "excerpt": "لتكون لهم الحجة عليكم",
+   "excerpt": "بما بيَّن الله لكم في التوراة من أمر محمد",
    "target": "",
-   "tone": "red"
+   "tone": "blue"
   },
   {
    "verse": 77,
@@ -266,12 +266,12 @@
    "verse": 78,
    "words": [
     7,
-    7
+    11
    ],
-   "tafsir": 16,
-   "excerpt": "أكاذيبُ وظنون فاسدة",
+   "tafsir": 91,
+   "excerpt": "إنما معهم ظنون وتقاليد لأهل العلم منهم",
    "target": "motif",
-   "tone": "red"
+   "tone": "blue"
   }
  ],
  "director": {
