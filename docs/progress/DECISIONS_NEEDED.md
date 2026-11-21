@@ -108,3 +108,23 @@ start with 2:253–254, which decision 2 blocks (2:253).
   - Overlaps: 6:29 by 80 ms, 6:48 by 60 ms, 6:63 by 20 ms, 6:98 by 20 ms and 6:143 by 80 ms.
   - Blocked videos: 6:27–30, 47–49, 61–62, 63–66, 96–103 and 141–144 (61–62 and 141–142 end right before an
     overlapping verse).
+
+## 3. Published drafts: glosses caught by the stricter wording check (found 2026-11-21)
+
+`verify.py` now also compares UI text against two alternative spellings of each Quran word:
+- the dagger alef read as nothing («إلـٰه» = «إله»);
+- the accusative tanween alef dropped («أحدا» = «أحد»).
+
+Titles are also compared after leading prefixes are stripped («أفحكم» = «حكم»). This is stricter only.
+
+Three drafts that are already on Creative Hub would now fail. They cannot be re-imported (the ledger rule), so
+please check them while reviewing:
+
+| Draft | Gloss | Close to the Quran's | Note |
+|---|---|---|---|
+| 18_45-49 | 18:48 «مصطَفِّين لا يُحجب منهم أحد» | «منهم أحدا» | Al-Muyassar's wording; reads as explanation. |
+| 18_79-81 | 18:81 «بمن هو خير منه صلاحًا ودينًا وبرًا بهما» | «خيرا منه» | Al-Muyassar's wording; reads as explanation. |
+| 2_97-101 | 2:97 «لما سبقه من كتب الله» | «كتاب الله» (2:101) | False positive: «كتب» (books) is not «كتاب». |
+
+Unpublished videos with the same issue were corrected before building: 2:85, 4:19, 4:92 and 4:170, plus the title
+of 6:12–14.

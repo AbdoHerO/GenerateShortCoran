@@ -103,6 +103,52 @@ def skel(s):
     return re.findall(r"[ء-ي]+", s)
 
 
+def word_variants(w):
+    """Skeleton spellings a plain-text writer may use for one Quran word (stricter wording checks, never looser):
+    the dagger alef read as a written alef («السماوات») or as nothing («إله», «ذلك»), and an accusative tanween
+    alef dropped («قياما» -> «قيام»). Returns a set of token tuples."""
+    out = {tuple(skel(w))}
+    if "ٰ" in w:
+        out.add(tuple(skel(nfc(w).replace("ـٰ", "").replace("ٰ", ""))))
+    if "ً" in w:
+        out |= {t[:-1] + (t[-1][:-1],) for t in list(out) if t and len(t[-1]) > 2 and t[-1].endswith("ا")}
+    return {t for t in out if t}
+
+
+PREFIXES = ("اف", "او", "و", "ف", "ب", "ك", "ل", "ا")
+def unprefixed(t):
+    """Token without a leading conjunction, preposition or interrogative («أفحكم» -> «حكم», «والكتاب» -> «الكتاب»,
+    «للناس» -> «الناس»): used for titles only, which must not restate the passage at all."""
+    out = {t}
+    if t.startswith("لل") and len(t) > 4:
+        out.add("ا" + t[2:])
+    for p in PREFIXES:
+        if t.startswith(p) and len(t) - len(p) >= 3 and not (p == "ا" and t.startswith("ال")):
+            out.add(t[len(p):])
+    return out
+
+
+def quran_bigrams(word_texts, prefixes=False):
+    """All skeleton bigrams of consecutive Quran words, over every spelling variant of each word."""
+    seqs = [word_variants(w) for w in word_texts]
+    if prefixes:
+        seqs = [{tuple(x) for t in s for x in _prod([unprefixed(y) for y in t])} for s in seqs]
+    bg = set()
+    for s in seqs:
+        for t in s:
+            bg |= set(zip(t, t[1:]))
+    for a, b in zip(seqs, seqs[1:]):
+        bg |= {(x[-1], y[0]) for x in a for y in b}
+    return bg
+
+
+def _prod(lists):
+    out = [()]
+    for l in lists:
+        out = [o + (x,) for o in out for x in l]
+    return out
+
+
 def first_diff(a, b):
     for i, (x, y) in enumerate(zip(a, b)):
         if x != y:
@@ -455,15 +501,19 @@ def check(sb, src, data_dir):
     else:
         fail("storyboard", f"chapters cover {flat}, expected {want}")
     taf = src["tafsirs"]
-    q_bigrams, q_words = set(), set()
+    q_bigrams, q_words, t_bigrams = set(), set(), set()
     for v in verses.values():
-        sk = skel(" ".join(w["text_uthmani"] for w in v["words"] if w["char_type_name"] == "word"))
+        wt = [w["text_uthmani"] for w in v["words"] if w["char_type_name"] == "word"]
+        sk = skel(" ".join(wt))
         q_words |= set(sk); q_bigrams |= set(zip(sk, sk[1:]))
+        q_bigrams |= quran_bigrams(wt)
+        t_bigrams |= quran_bigrams(wt, prefixes=True)
+    t_bigrams |= q_bigrams
     seg_start0 = {}
     for t in src["recitation"]["timestamps"]:
         for sg in t.get("segments") or []:
             seg_start0.setdefault((int(t["verse_key"].split(":")[1]), sg[0]), sg[1])
-    check_scenes(sb, verses, ok, fail, info, q_bigrams, seg_start0)
+    check_scenes(sb, verses, ok, fail, info, t_bigrams, seg_start0)
     check_motion(sb, {t["verse_key"]: t for t in src["recitation"]["timestamps"]}, fail, ok)
     # cover (first frame / thumbnail): UI text, same rules as titles
     cv = sb.get("cover")
@@ -476,7 +526,7 @@ def check(sb, src, data_dir):
             if len(s) > 26: errs.append(f"cover {k} too long ({len(s)} chars, max 26)")
             if AR_MARKS.search(s): errs.append(f"cover {k} must not carry diacritics")
             tsk = skel(s)
-            shared = [" ".join(x) for x in zip(tsk, tsk[1:]) if x in q_bigrams]
+            shared = [" ".join(x) for x in zip(tsk, tsk[1:]) if x in t_bigrams]
             if shared and k == "title_ar":
                 errs.append(f"cover title repeats Quran wording ({', '.join(shared)}); use a descriptive title")
             elif shared:
