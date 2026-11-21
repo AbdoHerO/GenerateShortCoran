@@ -31,7 +31,7 @@
     {
      "from": 4,
      "to": 5,
-     "title_ar": "المرجع والجزاء",
+     "title_ar": "المعاد والجزاء",
      "title_en": "The return and the reward",
      "visual": "ambient",
      "care": "",
@@ -109,21 +109,21 @@
     },
     {
      "from": 24,
-     "to": 25,
+     "to": 26,
      "title_ar": "مثل الحياة الدنيا",
      "title_en": "The likeness of this life",
      "visual": "ambient",
-     "care": "",
-     "est_s": 104
+     "care": "The end of 25 has no clean cut (-26 dB), so 24-26 is one unit. Paradise never drawn.",
+     "est_s": 122
     },
     {
-     "from": 26,
+     "from": 27,
      "to": 28,
-     "title_ar": "جزاء المحسنين",
-     "title_en": "The reward of the good",
+     "title_ar": "جزاء المسيئين",
+     "title_en": "The recompense of evil",
      "visual": "ambient",
-     "care": "Paradise and Hell never drawn.",
-     "est_s": 82
+     "care": "Hell and the Gathering never drawn.",
+     "est_s": 63
     },
     {
      "from": 29,
