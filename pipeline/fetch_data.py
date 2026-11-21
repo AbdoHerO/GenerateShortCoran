@@ -53,13 +53,15 @@ class Client:
                 tok = json.load(r)["access_token"]
             self.headers.update({"x-auth-token": tok, "x-client-id": cid})
 
-    def get(self, path, **params):
+    def get(self, path, allow_404=False, **params):
         url = self.cfg["base"] + path + ("?" + urllib.parse.urlencode(params) if params else "")
         for attempt in range(4):
             try:
                 with urllib.request.urlopen(urllib.request.Request(url, headers=self.headers), timeout=60) as r:
                     return json.load(r)
             except urllib.error.HTTPError as e:
+                if e.code == 404 and allow_404:
+                    return None
                 if e.code in (429, 500, 502, 503, 504) and attempt < 3:
                     time.sleep(2 ** attempt); continue
                 raise SystemExit(f"HTTP {e.code} on {path}: {e.read()[:200].decode('utf-8', 'replace')}")
@@ -123,7 +125,11 @@ def main():
         src["tafsirs"][str(tid)] = {}
         for i, k in enumerate(keys):
             progress(step="fetch", what=f"tafsir {tid}", done=i, total=len(keys))
-            src["tafsirs"][str(tid)][k] = c.get(f"/tafsirs/{tid}/by_ayah/{k}")["tafsir"]
+            got = c.get(f"/tafsirs/{tid}/by_ayah/{k}", allow_404=True)
+            # some tafsirs have no entry for a verse (e.g. As-Sa'di 2:107): recorded as empty, so no gloss can use it
+            src["tafsirs"][str(tid)][k] = got["tafsir"] if got else {"text": "", "missing": True, "resource_id": tid}
+            if not got:
+                print(f"tafsir {tid} has no entry for {k} (recorded as empty)")
         print("tafsir", tid, "ok")
 
     rec = c.get(f"/chapter_recitations/{a.recitation}/{a.chapter}", segments="true")["audio_file"]
