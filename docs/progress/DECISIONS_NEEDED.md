@@ -210,3 +210,16 @@ keep the rule).
 - Decision 1 (the hamza in «الآن»): 12:51 «ٱلْءَٰنَ» (QF: standalone hamza + fatha + dagger alef; Tanzil: tatweel + fatha +
   dagger alef + hamza above). Blocked: 50-52.
 - Decision 2 (overlaps): 12:91 overlaps 12:90 by 20 ms. Blocked: 90-93.
+
+## 7. Ar-Ra'd 13:37: «بعدما» is one word in Tanzil, two in the Quran Foundation text (found 2026-11-21)
+
+`audit_surah.py 13` reports a text mismatch with Tanzil at **13:37**. The letters and marks are identical; only the
+word boundary differs:
+- Quran Foundation word-level text: «بَعْدَ» «مَا» (two words, 21 in the verse);
+- Tanzil Uthmani: «بَعْدَمَا» (one word, 20 in the verse).
+
+Treating this as equal would be a new equivalence in `verify.py` (a space inside a word), which is the owner's call.
+
+**Please choose:**
+- **A.** Accept a word-boundary-only difference when the joined letters are identical.
+- **B.** Keep the rule. Ar-Ra'd 37 is not made. 35-36 is planned apart so that it is not held.

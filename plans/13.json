@@ -1,0 +1,250 @@
+{
+ "surah": 13,
+ "summary": "17 short videos (reciter Yasser ad-Dussary) covering all 43 verses; 1 of them waits for the owner's decision",
+ "made_by": "Research 2026-11-21 (cloud agent): audit_surah.py 13 --reciter 97 (with the nocut check), plan_split.py with thematic sections, Saheeh translation and both tafsirs.",
+ "reciter": {
+  "id": 97,
+  "name": "Yasser ad-Dussary"
+ },
+ "notes": [
+  "Recitation: 15.9 minutes. 1 JOINED boundary (after 39); no timing defects.",
+  "Text: 13:37 is split «بعد ما» by QF and joined «بعدما» by Tanzil (word boundary only; new case, DECISIONS_NEEDED §7): 37 BLOCKED (35-36 is made separately).",
+  "Pictures: ambient throughout. The Throne, the angels (11, 13, 23), Paradise (23-24, 35) and Hell never drawn; no thunderbolt striking anyone; the Prophet ﷺ gets no plate on «قل»."
+ ],
+ "groups": [
+  {
+   "title_ar": "آيات الخلق",
+   "title_en": "Signs of creation",
+   "from": 1,
+   "to": 4,
+   "videos": [
+    {
+     "from": 1,
+     "to": 3,
+     "title_ar": "آيات في الكون",
+     "title_en": "Signs in the universe",
+     "visual": "ambient",
+     "care": "The Throne (2) is never drawn.",
+     "est_s": 88
+    },
+    {
+     "from": 4,
+     "to": 4,
+     "title_ar": "تفاضل الثمار",
+     "title_en": "Fruits that differ",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 43
+    }
+   ]
+  },
+  {
+   "title_ar": "إنكار البعث",
+   "title_en": "Denial of the resurrection",
+   "from": 5,
+   "to": 7,
+   "videos": [
+    {
+     "from": 5,
+     "to": 7,
+     "title_ar": "عجب المنكرين",
+     "title_en": "The deniers' wonder",
+     "visual": "ambient",
+     "care": "Hell (5) never drawn.",
+     "est_s": 83
+    }
+   ]
+  },
+  {
+   "title_ar": "إحاطة العلم",
+   "title_en": "All-encompassing knowledge",
+   "from": 8,
+   "to": 11,
+   "videos": [
+    {
+     "from": 8,
+     "to": 11,
+     "title_ar": "إحاطة العلم",
+     "title_en": "All-encompassing knowledge",
+     "visual": "ambient",
+     "care": "No womb or pregnancy drawn; the guardian angels (11) never drawn.",
+     "est_s": 90
+    }
+   ]
+  },
+  {
+   "title_ar": "مظاهر القدرة",
+   "title_en": "Signs of power",
+   "from": 12,
+   "to": 15,
+   "videos": [
+    {
+     "from": 12,
+     "to": 15,
+     "title_ar": "آيات السماء",
+     "title_en": "Signs in the sky",
+     "visual": "ambient",
+     "care": "Angels (13) never drawn; no thunderbolt striking anyone; prostration (15) never drawn, no dawn over it.",
+     "est_s": 83
+    }
+   ]
+  },
+  {
+   "title_ar": "أمثال التوحيد",
+   "title_en": "Parables of tawhid",
+   "from": 16,
+   "to": 18,
+   "videos": [
+    {
+     "from": 16,
+     "to": 17,
+     "title_ar": "بقاء النافع",
+     "title_en": "What benefits remains",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 100
+    },
+    {
+     "from": 18,
+     "to": 18,
+     "title_ar": "جزاء المستجيبين",
+     "title_en": "The reward of those who answer",
+     "visual": "ambient",
+     "care": "Hell never drawn.",
+     "est_s": 40
+    }
+   ]
+  },
+  {
+   "title_ar": "صفات العقلاء",
+   "title_en": "Traits of the wise",
+   "from": 19,
+   "to": 24,
+   "videos": [
+    {
+     "from": 19,
+     "to": 22,
+     "title_ar": "صفات العقلاء",
+     "title_en": "Traits of the wise",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 74
+    },
+    {
+     "from": 23,
+     "to": 24,
+     "title_ar": "دار الكرامة",
+     "title_en": "The home of honour",
+     "visual": "ambient",
+     "care": "Paradise and the angels never drawn: light only, no garden, river or gold.",
+     "est_s": 44
+    }
+   ]
+  },
+  {
+   "title_ar": "المفسدون والمؤمنون",
+   "title_en": "Corrupters and believers",
+   "from": 25,
+   "to": 30,
+   "videos": [
+    {
+     "from": 25,
+     "to": 26,
+     "title_ar": "صفات المفسدين",
+     "title_en": "Traits of the corrupters",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 53
+    },
+    {
+     "from": 27,
+     "to": 30,
+     "title_ar": "سكينة الذكر",
+     "title_en": "The calm of remembrance",
+     "visual": "ambient",
+     "care": "«قل» (27, 30): no plate on the Prophet ﷺ.",
+     "est_s": 93
+    }
+   ]
+  },
+  {
+   "title_ar": "حجج المعاندين",
+   "title_en": "The obstinate's arguments",
+   "from": 31,
+   "to": 34,
+   "videos": [
+    {
+     "from": 31,
+     "to": 32,
+     "title_ar": "عناد المكذبين",
+     "title_en": "The deniers' obstinacy",
+     "visual": "ambient",
+     "care": "No moving mountains, split earth or speaking dead drawn.",
+     "est_s": 69
+    },
+    {
+     "from": 33,
+     "to": 34,
+     "title_ar": "الرقيب على النفوس",
+     "title_en": "Watcher over every soul",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 58
+    }
+   ]
+  },
+  {
+   "title_ar": "الوعد والوعيد",
+   "title_en": "Promise and warning",
+   "from": 35,
+   "to": 37,
+   "videos": [
+    {
+     "from": 35,
+     "to": 36,
+     "title_ar": "وعد المتقين",
+     "title_en": "The promise to the God-fearing",
+     "visual": "ambient",
+     "care": "Paradise never drawn: no garden, river or gold motif.",
+     "est_s": 50
+    },
+    {
+     "from": 37,
+     "to": 37,
+     "title_ar": "اتباع الوحي",
+     "title_en": "Following the revelation",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 27,
+     "blocked": "13:37: QF splits «بعد ما» into two words where Tanzil writes «بعدما» as one (same letters, different word boundary). New case (DECISIONS_NEEDED §7)."
+    }
+   ]
+  },
+  {
+   "title_ar": "سنن الرسالة",
+   "title_en": "Laws of the message",
+   "from": 38,
+   "to": 43,
+   "videos": [
+    {
+     "from": 38,
+     "to": 40,
+     "title_ar": "سنن الرسل",
+     "title_en": "The ways of the messengers",
+     "visual": "ambient",
+     "care": "39 is JOINED to 40.",
+     "est_s": 54
+    },
+    {
+     "from": 41,
+     "to": 43,
+     "title_ar": "شهادة الحق",
+     "title_en": "The witness of truth",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 56
+    }
+   ]
+  }
+ ]
+}

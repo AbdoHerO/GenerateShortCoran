@@ -1086,3 +1086,11 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
   - Remove Latin commas from excerpts.
   - Avoid words whose modern sense differs («انحلال», «مروج», «بقايا», «حلم»).
 - The 31 Hud videos are queued for building.
+
+### Ar-Ra'd: audit and plan (2026-11-21)
+
+- 15.9 minutes recited. 1 JOINED boundary (after 39). No timing defects.
+- Text: at 13:37 QF writes «بعد ما» as two words where Tanzil has one word, «بعدما». The letters are the same; only
+  the word boundary differs. This is new decision §7, and 37 is blocked.
+- 17 videos planned. 16 have base storyboards, all cut-checked clean; 35-36 is planned apart from 37, so that 35-36
+  is not held with it.
