@@ -28,7 +28,7 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "الكلالة",
+   "title": "حكم الكلالة",
    "verses": [
     176
    ],
@@ -177,8 +177,8 @@
     19,
     25
    ],
-   "tafsir": 16,
-   "excerpt": "ويرث أخوها شقيقًا كان أو لأب جميع مالها",
+   "tafsir": 91,
+   "excerpt": "أخوها الشقيق أو الذي للأب",
    "target": "",
    "tone": "blue"
   },
@@ -186,7 +186,7 @@
    "verse": 176,
    "words": [
     26,
-    32
+    28
    ],
    "tafsir": 16,
    "excerpt": "فإن كان لمن مات كلالةً أختان",
@@ -197,7 +197,7 @@
    "verse": 176,
    "words": [
     33,
-    41
+    37
    ],
    "tafsir": 16,
    "excerpt": "وإذا اجتمع الذكور من الإخوة لغير أم مع الإناث",
@@ -234,8 +234,8 @@
  "cover": {
   "series_ar": "ميراث الكلالة",
   "series_en": "The kalala inheritance",
-  "title_ar": "ميراث الكلالة",
-  "title_en": "The kalala inheritance",
+  "title_ar": "إرث الإخوة والأخوات",
+  "title_en": "Inheritance of brothers and sisters",
   "at": [
    176,
    1

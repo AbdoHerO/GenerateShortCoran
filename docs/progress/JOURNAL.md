@@ -527,3 +527,22 @@ or by eye. The per-surah summary goes into each `plans/<n>.json` "notes"; this f
   - 171's mood changed from light to geometric (rays could read as the spirit descending on Maryam).
 - **Rule:** `until` is exclusive (the exit starts when that word begins). The same check was applied at once to
   the Al-Ma'idah storyboards written so far (8 motifs given an `until`).
+
+### An-Nisa 4:116–176 gloss review (independent sub-agent): 2 SERIOUS and 14 MINOR, all applied (2026-11-21)
+
+- **Serious:**
+  - 157:32–34: «بل شاكين متوهمين» under «وما قتلوه يقينا» could read as "they killed him but were unsure". It was
+    dropped; 157:10–16 already says what both tafsirs say.
+  - 140:15–17: «فلا تجلسوا مع الكافرين والمستهزئين» read as a general ban. The chip is now 15–22, with As-Sa'di's
+    «غير الكفر بآيات الله والاستهزاء بها».
+- **Minor:**
+  - Glosses:
+    - 171 «وروح منه» reduced to what both tafsirs share, «نفخها جبريل بأمر ربه»;
+    - 150 keeps only the refutation «إن هذا إلا مجرد أماني»;
+    - 148 keeps the limit «ليبين مظلمته»;
+    - 176 no longer drops «إن لم يكن لها ولد»;
+    - dangling conditionals narrowed (143, 176);
+    - «سلطانا» glossed as «حجة ظاهرة».
+  - Titles: «خداع الشيطان» («غرور» reads as conceit), «حقيقة المسيح» («الحق في…» reads as "the right to"), «فضل
+    الصلح», «تربص المنافقين», «تردد المنافقين», «حكم الكلالة», cover «إرث الإخوة والأخوات».
+- With this, all 63 unblocked An-Nisa storyboards have had both independent reviews and are queued for building.
