@@ -28,41 +28,276 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة آل عمران",
+   "title": "استجابة رغم الجراح",
    "verses": [
     172
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "dawn",
+    "beats": [
+     {
+      "at": [
+       172,
+       6
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       172,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       172,
+       13
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       172,
+       2
+      ],
+      "until": null,
+      "motif": "footsteps",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
    "id": "c2",
-   "title": "سورة آل عمران",
+   "title": "التوكل في الشدة",
    "verses": [
-    173
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "geometric"
-   }
-  },
-  {
-   "id": "c3",
-   "title": "سورة آل عمران",
-   "verses": [
+    173,
     174
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light"
+    "mood": "light",
+    "beats": [
+     {
+      "at": [
+       173,
+       5
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       173,
+       10
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       173,
+       14
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       173,
+       15
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       173,
+       16
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       174,
+       1
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       174,
+       7
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       174,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       174,
+       13
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       173,
+       11
+      ],
+      "until": null,
+      "motif": "mountain",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       174,
+       2
+      ],
+      "until": null,
+      "motif": "burst",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "iris"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 172,
+   "words": [
+    1,
+    4
+   ],
+   "tafsir": 16,
+   "excerpt": "الذين لبُّوا نداء الله ورسوله",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 172,
+   "words": [
+    5,
+    9
+   ],
+   "tafsir": 16,
+   "excerpt": "مع ما كان بهم من آلام وجراح",
+   "target": "",
+   "tone": "amber"
+  },
+  {
+   "verse": 173,
+   "words": [
+    1,
+    10
+   ],
+   "tafsir": 16,
+   "excerpt": "إن أبا سفيان ومن معه قد أجمعوا أمرهم على الرجوع إليكم",
+   "target": "",
+   "tone": "amber"
+  },
+  {
+   "verse": 173,
+   "words": [
+    11,
+    12
+   ],
+   "tafsir": 16,
+   "excerpt": "يقينًا وتصديقًا بوعد الله لهم",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 173,
+   "words": [
+    14,
+    15
+   ],
+   "tafsir": 16,
+   "excerpt": "كافينا",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 173,
+   "words": [
+    16,
+    17
+   ],
+   "tafsir": 16,
+   "excerpt": "المفوَّض إليه تدبير عباده",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 174,
+   "words": [
+    1,
+    5
+   ],
+   "tafsir": 16,
+   "excerpt": "بالثواب الجزيل وبفضل منه بالمنزلة العالية",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 174,
+   "words": [
+    6,
+    8
+   ],
+   "tafsir": 16,
+   "excerpt": "وفازوا بالسلامة من القتل والقتال",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 174,
+   "words": [
+    9,
+    11
+   ],
+   "tafsir": 16,
+   "excerpt": "بطاعتهم له ولرسوله",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 174,
+   "words": [
+    12,
+    15
+   ],
+   "tafsir": 16,
+   "excerpt": "ذو إحسان وعطاء كثير واسع عليهم وعلى غيرهم",
+   "target": "",
+   "tone": "green"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "Footsteps for setting out again, a mountain for the faith that grew, a burst for the favour they returned with. No army, no wounded drawn. 173: short-word flag at 11 (listen)."
+ },
+ "cover": {
+  "series_ar": "دروس أحد",
+  "series_en": "Lessons of Uhud",
+  "title_ar": "الاستجابة بعد الجراح",
+  "title_en": "Answering despite the wounds",
+  "at": [
+   173,
+   11
+  ]
+ },
+ "motion": 3
 }
