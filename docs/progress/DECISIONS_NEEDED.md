@@ -128,3 +128,25 @@ please check them while reviewing:
 
 Unpublished videos with the same issue were corrected before building: 2:85, 4:19, 4:92 and 4:170, plus the title
 of 6:12–14.
+
+## 4. Al-Baqarah import with failed files (2026-11-21)
+
+Import `cmwq13gbp000q3cnypy1tpwde` (27 videos) completed, but 11 of its 108 files failed with a storage error
+(`@aws-sdk XML parse error`).
+
+| Video | What happened | Ledger |
+|---|---|---|
+| 2:62–64 «رفع الجبل والميثاق» | All 4 files failed; no creative was created. | Kept, marked IMPORT FAILED. |
+| 2:65–66 «عاقبة التحايل» | All 4 files failed; no creative was created. | Kept, marked IMPORT FAILED. |
+| 2:67–69 «ذبح البقرة» | The creative exists, but only its review PDF is attached (video, preview and cover failed). | DRAFT, with the note. |
+
+The documentation says to re-import only the missing creatives. The ledger guard, however, refuses any id it
+already holds. I kept the two entries rather than remove them on my own.
+
+**Options:**
+- **A. Re-import 2:62–64 and 2:65–66.** I remove their two ledger lines and import a ZIP of only those two. No
+  duplicate is possible, because no creative exists for them.
+- **B. Leave them.**
+
+For 2:67–69, please attach the files from `out/2_67-69_r97/` to the existing creative in the app, or tell me to
+import it again. Re-importing would create « (2) » next to the PDF-only creative.
