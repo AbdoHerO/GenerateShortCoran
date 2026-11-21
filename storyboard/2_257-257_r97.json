@@ -41,7 +41,7 @@
       "id": "b",
       "type": "believers",
       "label": "",
-      "place": "right",
+      "place": "center",
       "count": 4,
       "pose": "stand",
       "enter": null,
@@ -61,7 +61,7 @@
       ],
       "exit": [
        257,
-       19
+       17
       ],
       "uncountable": true
      }
@@ -99,7 +99,7 @@
       ],
       "do": "walk_to",
       "who": "b",
-      "to": "center"
+      "to": "right"
      },
      {
       "at": [
@@ -122,7 +122,7 @@
        257,
        12
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -135,23 +135,21 @@
      {
       "at": [
        257,
-       14
-      ],
-      "do": "walk_to",
-      "who": "d",
-      "to": "left"
-     },
-     {
-      "at": [
-       257,
-       16
+       15
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        257,
-       18
+       16
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       257,
+       17
       ],
       "do": "pan_left"
      },
@@ -247,7 +245,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A lamp lights on «النور» and goes out when the verse turns to those taken out of the light. Nothing for the Fire (257:21). Title changed from «ولي المؤمنين», which is the wording of 3:68. STAGING v4: A town at night: the believers (uncountable) walk into a soft beam of light on «النور» (from the darkness of disbelief to the light of faith); the disbelievers turn their backs and walk off into the dark on «يخرجونهم» and leave the stage before «أصحاب النار». Nothing worshipped is drawn, and nothing for the Fire. STAGING v4: A town at night: the believers (uncountable) walk into a soft beam of light on «النور» (from the darkness of disbelief to the light of faith); the disbelievers turn their backs and walk off into the dark on «يخرجونهم» and leave the stage before «أصحاب النار». Nothing worshipped is drawn, and nothing for the Fire."
+  "notes": "A lamp lights on «النور» and goes out when the verse turns to those taken out of the light. Nothing for the Fire (257:21). Title changed from «ولي المؤمنين», which is the wording of 3:68. STAGING v4: A town at night: the believers (uncountable) walk into a soft beam of light on «النور» (from the darkness of disbelief to the light of faith); the disbelievers turn their backs and walk off into the dark on «يخرجونهم» and leave the stage before «أصحاب النار». Nothing worshipped is drawn, and nothing for the Fire. STAGING v4: A town at night: the believers (uncountable) walk into a soft beam of light on «النور» (from the darkness of disbelief to the light of faith); the disbelievers turn their backs and walk off into the dark on «يخرجونهم» and leave the stage before «أصحاب النار». Nothing worshipped is drawn, and nothing for the Fire. STAGING v4: A town at night: the believers (uncountable) walk into a soft beam of light on «النور» (from the darkness of disbelief to the light of faith); the disbelievers, apart in the dark, turn their backs on «الطاغوت» and fade away on «إلى الظلمات», before «أصحاب النار». Nothing worshipped is drawn, and nothing for the Fire."
  },
  "cover": {
   "series_ar": "الرسل وآية الكرسي",
