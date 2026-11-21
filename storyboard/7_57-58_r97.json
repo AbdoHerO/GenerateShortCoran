@@ -28,30 +28,335 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة الأعراف",
+   "title": "الرياح والمطر",
    "verses": [
     57
    ],
    "scene": "ambient",
    "params": {
-    "mood": "rain"
+    "mood": "rain",
+    "beats": [
+     {
+      "at": [
+       57,
+       6
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       57,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       57,
+       10
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       57,
+       13
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       57,
+       14
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       57,
+       15
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       57,
+       17
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       57,
+       18
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       57,
+       19
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       57,
+       24
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       57,
+       26
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       57,
+       27
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       57,
+       28
+      ],
+      "do": "pan_left"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       57,
+       3
+      ],
+      "until": [
+       57,
+       9
+      ],
+      "motif": "wind",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       57,
+       12
+      ],
+      "until": [
+       57,
+       20
+      ],
+      "motif": "cloud_rain",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       57,
+       20
+      ],
+      "until": [
+       57,
+       25
+      ],
+      "motif": "growth",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
    "id": "c2",
-   "title": "سورة الأعراف",
+   "title": "الأرض الطيبة والخبيثة",
    "verses": [
     58
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "garden",
+    "beats": [
+     {
+      "at": [
+       58,
+       5
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       58,
+       8
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       58,
+       12
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       58,
+       14
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       58,
+       16
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       58,
+       17
+      ],
+      "do": "pan_left"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       58,
+       1
+      ],
+      "until": [
+       58,
+       7
+      ],
+      "motif": "growth",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "morph"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 57,
+   "words": [
+    1,
+    8
+   ],
+   "tafsir": 91,
+   "excerpt": "الرياح المبشرات بالغيث، التي تثيره بإذن اللّه من الأرض",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 57,
+   "words": [
+    9,
+    13
+   ],
+   "tafsir": 91,
+   "excerpt": "قد أثاره بعضها، وألفه ريح أخرى، وألحقه ريح أخرى",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 57,
+   "words": [
+    14,
+    16
+   ],
+   "tafsir": 16,
+   "excerpt": "قد أجدبت أرضه، ويَبِست أشجاره وزرعه",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 57,
+   "words": [
+    17,
+    24
+   ],
+   "tafsir": 16,
+   "excerpt": "فأخرج به الكلأ والأشجار والزروع",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 57,
+   "words": [
+    25,
+    29
+   ],
+   "tafsir": 16,
+   "excerpt": "لتتعظوا، فتستدلوا على توحيد الله وقدرته على البعث",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 58,
+   "words": [
+    1,
+    4
+   ],
+   "tafsir": 91,
+   "excerpt": "طيب التربة والمادة",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 58,
+   "words": [
+    5,
+    6
+   ],
+   "tafsir": 91,
+   "excerpt": "فليست الأسباب مستقلة بوجود الأشياء",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 58,
+   "words": [
+    7,
+    12
+   ],
+   "tafsir": 91,
+   "excerpt": "نباتا خاسا لا نفع فيه ولا بركة",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 58,
+   "words": [
+    13,
+    17
+   ],
+   "tafsir": 16,
+   "excerpt": "لأناس يشكرون نعم الله، ويطيعونه",
+   "target": "",
+   "tone": "green"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "Wind, cloud and rain, then growth for the revived land and the good land. The resurrection («كذلك نخرج الموتى») is not drawn. First-person «سقناه… فأنزلنا… نصرف» not used."
+ },
+ "cover": {
+  "series_ar": "آيات الخلق",
+  "series_en": "Signs of creation",
+  "title_ar": "إحياء الأرض",
+  "title_en": "Reviving the earth",
+  "at": [
+   57,
+   1
+  ]
+ },
+ "motion": 3
 }

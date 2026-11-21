@@ -28,41 +28,351 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة الأعراف",
+   "title": "خلق الكون وتسخيره",
    "verses": [
     54
    ],
    "scene": "ambient",
    "params": {
-    "mood": "night_sky"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       54,
+       10
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       54,
+       18
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       54,
+       23
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       54,
+       24
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       54,
+       32
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       54,
+       5
+      ],
+      "until": [
+       54,
+       11
+      ],
+      "motif": "stars",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       54,
+       15
+      ],
+      "until": [
+       54,
+       20
+      ],
+      "motif": "night_day",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       54,
+       20
+      ],
+      "until": [
+       54,
+       25
+      ],
+      "motif": "stars",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       54,
+       29
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
    "id": "c2",
-   "title": "سورة الأعراف",
+   "title": "أدب الدعاء",
    "verses": [
-    55
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "geometric"
-   }
-  },
-  {
-   "id": "c3",
-   "title": "سورة الأعراف",
-   "verses": [
+    55,
     56
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light"
+    "mood": "dawn",
+    "beats": [
+     {
+      "at": [
+       55,
+       3
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       55,
+       5
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       56,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       56,
+       5
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       56,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       56,
+       9
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       56,
+       15
+      ],
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       55,
+       1
+      ],
+      "until": [
+       55,
+       5
+      ],
+      "motif": "hands",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       56,
+       11
+      ],
+      "until": null,
+      "motif": "light",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "light_sweep"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 54,
+   "words": [
+    1,
+    10
+   ],
+   "tafsir": 91,
+   "excerpt": "وما فيهما على عظمهما وسعتهما، وإحكامهما، وإتقانهما، وبديع خلقهما",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 54,
+   "words": [
+    11,
+    14
+   ],
+   "tafsir": 16,
+   "excerpt": "استواءً يليق بجلاله وعظمته",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 54,
+   "words": [
+    15,
+    19
+   ],
+   "tafsir": 16,
+   "excerpt": "وكل واحد منهما يطلب الآخر سريعًا دائمًا",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 54,
+   "words": [
+    20,
+    24
+   ],
+   "tafsir": 16,
+   "excerpt": "وهنَّ من آيات الله العظيمة",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 54,
+   "words": [
+    25,
+    28
+   ],
+   "tafsir": 16,
+   "excerpt": "الخلق كله وله الأمر كله",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 54,
+   "words": [
+    29,
+    32
+   ],
+   "tafsir": 16,
+   "excerpt": "تعالى الله وتعاظم وتنزَّه عن كل نقص",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 55,
+   "words": [
+    1,
+    2
+   ],
+   "tafsir": 91,
+   "excerpt": "الدعاء يدخل فيه دعاء المسألة، ودعاء العبادة",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 55,
+   "words": [
+    3,
+    3
+   ],
+   "tafsir": 91,
+   "excerpt": "إلحاحا في المسألة، ودُءُوبا في العبادة",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 55,
+   "words": [
+    4,
+    4
+   ],
+   "tafsir": 91,
+   "excerpt": "لا جهرا وعلانية، يخاف منه الرياء",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 55,
+   "words": [
+    5,
+    8
+   ],
+   "tafsir": 91,
+   "excerpt": "المتجاوزين للحد في كل الأمور",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 56,
+   "words": [
+    1,
+    4
+   ],
+   "tafsir": 91,
+   "excerpt": "بعمل المعاصي",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 56,
+   "words": [
+    5,
+    6
+   ],
+   "tafsir": 91,
+   "excerpt": "بالطاعات",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 56,
+   "words": [
+    7,
+    9
+   ],
+   "tafsir": 16,
+   "excerpt": "خوفًا من عقابه ورجاء لثوابه",
+   "target": "",
+   "tone": "green"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "«ثم استوى على العرش» (54:11-14): no motif, nothing literal; glossed with Al-Muyassar's «استواءً يليق بجلاله وعظمته». Stars for the heavens and the subjected bodies, night and day for «يغشي الليل النهار», geometric for «تبارك الله», hands for «ادعوا ربكم», light for «إن رحمت الله قريب»."
+ },
+ "cover": {
+  "series_ar": "آيات الخلق",
+  "series_en": "Signs of creation",
+  "title_ar": "الخالق المدبر",
+  "title_en": "The Creator and Disposer",
+  "at": [
+   54,
+   1
+  ]
+ },
+ "motion": 3
 }

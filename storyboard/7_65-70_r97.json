@@ -28,64 +28,437 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة الأعراف",
+   "title": "دعوة هود",
    "verses": [
-    65
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "dawn"
-   }
-  },
-  {
-   "id": "c2",
-   "title": "سورة الأعراف",
-   "verses": [
-    66
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "geometric"
-   }
-  },
-  {
-   "id": "c3",
-   "title": "سورة الأعراف",
-   "verses": [
+    65,
+    66,
     67,
     68
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light"
+    "mood": "mountains",
+    "beats": [
+     {
+      "at": [
+       65,
+       3
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       65,
+       13
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       65,
+       15
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       66,
+       1
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       66,
+       4
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       66,
+       7
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       66,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       66,
+       11
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       66,
+       14
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       67,
+       3
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       67,
+       6
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       67,
+       10
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       68,
+       2
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       68,
+       5
+      ],
+      "do": "pan_left"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       65,
+       7
+      ],
+      "until": [
+       65,
+       14
+      ],
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
-   "id": "c4",
-   "title": "سورة الأعراف",
+   "id": "c2",
+   "title": "تذكير بالنعم",
    "verses": [
-    69
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "night_sky"
-   }
-  },
-  {
-   "id": "c5",
-   "title": "سورة الأعراف",
-   "verses": [
+    69,
     70
    ],
    "scene": "ambient",
    "params": {
-    "mood": "mountains"
+    "mood": "dawn",
+    "beats": [
+     {
+      "at": [
+       69,
+       3
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       69,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       69,
+       9
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       69,
+       14
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       69,
+       16
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       69,
+       19
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       69,
+       24
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       69,
+       27
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       70,
+       2
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       70,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       70,
+       10
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       70,
+       12
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       70,
+       15
+      ],
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       69,
+       11
+      ],
+      "until": [
+       69,
+       19
+      ],
+      "motif": "hourglass",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       69,
+       23
+      ],
+      "until": [
+       69,
+       26
+      ],
+      "motif": "light",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "morph"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 65,
+   "words": [
+    1,
+    2
+   ],
+   "tafsir": 91,
+   "excerpt": "الذين كانوا في أرض اليمن",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 65,
+   "words": [
+    3,
+    4
+   ],
+   "tafsir": 91,
+   "excerpt": "في النسب",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 65,
+   "words": [
+    5,
+    13
+   ],
+   "tafsir": 91,
+   "excerpt": "يدعوهم إلى التوحيد وينهاهم عن الشرك والطغيان في الأرض",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 65,
+   "words": [
+    14,
+    15
+   ],
+   "tafsir": 16,
+   "excerpt": "عذاب الله وسخطه عليكم",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 66,
+   "words": [
+    1,
+    6
+   ],
+   "tafsir": 91,
+   "excerpt": "رادين لدعوته، قادحين في رأيه",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 67,
+   "words": [
+    1,
+    5
+   ],
+   "tafsir": 91,
+   "excerpt": "بوجه من الوجوه، بل هو الرسول المرشد الرشيد",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 68,
+   "words": [
+    1,
+    3
+   ],
+   "tafsir": 16,
+   "excerpt": "ما أرسلني به ربي إليكم",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 68,
+   "words": [
+    4,
+    6
+   ],
+   "tafsir": 16,
+   "excerpt": "فيما دعوتكم إليه من توحيد الله والعمل بشريعته",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 68,
+   "words": [
+    7,
+    7
+   ],
+   "tafsir": 16,
+   "excerpt": "أمين على وحي الله تعالى",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 69,
+   "words": [
+    1,
+    10
+   ],
+   "tafsir": 91,
+   "excerpt": "كيف تعجبون من أمر لا يتعجب منه",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 69,
+   "words": [
+    11,
+    18
+   ],
+   "tafsir": 16,
+   "excerpt": "تخلفون في الأرض مَن قبلكم",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 69,
+   "words": [
+    19,
+    22
+   ],
+   "tafsir": 16,
+   "excerpt": "وزاد في أجسامكم قوة وضخامة",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 69,
+   "words": [
+    23,
+    27
+   ],
+   "tafsir": 16,
+   "excerpt": "رجاء أن تفوزوا الفوز العظيم في الدنيا والآخرة",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 70,
+   "words": [
+    1,
+    10
+   ],
+   "tafsir": 91,
+   "excerpt": "متعجبين من دعوته، ومخبرين له أنهم من المحال أن يطيعوه",
+   "target": "",
+   "tone": "red"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "Hud: no motif, no figure. Their accusations (66:7-14) are not glossed, only framed «رادين لدعوته، قادحين في رأيه»; their challenge (70:11-17) not glossed. Geometric for «اعبدوا الله», an hourglass for «خلفاء من بعد قوم نوح», light for «فاذكروا آلاء الله»."
+ },
+ "cover": {
+  "series_ar": "دعوة الرسل",
+  "series_en": "The messengers' call",
+  "title_ar": "هود وعاد",
+  "title_en": "Hud and 'Ad",
+  "at": [
+   65,
+   1
+  ]
+ },
+ "motion": 3
 }
