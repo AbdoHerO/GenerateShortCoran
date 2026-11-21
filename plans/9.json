@@ -348,16 +348,16 @@
    ]
   },
   {
-   "title_ar": "المتخلفون",
-   "title_en": "Those who stayed behind",
+   "title_ar": "بعد تبوك",
+   "title_en": "After Tabuk",
    "from": 81,
    "to": 96,
    "videos": [
     {
      "from": 81,
      "to": 83,
-     "title_ar": "فرحة المتخلفين",
-     "title_en": "Glad to stay behind",
+     "title_ar": "التبجح بالقعود",
+     "title_en": "Boasting of staying behind",
      "visual": "ambient",
      "care": "81, 83: short-word flags (listen).",
      "est_s": 79
@@ -365,8 +365,8 @@
     {
      "from": 84,
      "to": 86,
-     "title_ar": "النهي عن الصلاة عليهم",
-     "title_en": "No funeral prayer for them",
+     "title_ar": "شفاعة لا تنفع",
+     "title_en": "Intercession of no avail",
      "visual": "ambient",
      "care": "",
      "est_s": 67
@@ -383,8 +383,8 @@
     {
      "from": 91,
      "to": 93,
-     "title_ar": "من لا حرج عليهم",
-     "title_en": "Those without blame",
+     "title_ar": "دموع الصادقين",
+     "title_en": "The tears of the sincere",
      "visual": "ambient",
      "care": "92: short-word flag (listen).",
      "est_s": 94
@@ -392,8 +392,8 @@
     {
      "from": 94,
      "to": 96,
-     "title_ar": "اعتذار الكاذبين",
-     "title_en": "False apologies",
+     "title_ar": "أعذار مردودة",
+     "title_en": "Excuses refused",
      "visual": "ambient",
      "care": "94: short-word flag (listen).",
      "est_s": 71
