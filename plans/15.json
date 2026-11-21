@@ -73,8 +73,8 @@
     {
      "from": 25,
      "to": 30,
-     "title_ar": "خلق آدم",
-     "title_en": "The creation of Adam",
+     "title_ar": "تكريم الإنسان",
+     "title_en": "Man honoured",
      "visual": "ambient",
      "care": "The jinn, the fire, the angels and their prostration never drawn.",
      "est_s": 70
@@ -82,8 +82,8 @@
     {
      "from": 31,
      "to": 43,
-     "title_ar": "إباء إبليس",
-     "title_en": "Iblis refuses",
+     "title_ar": "عداوة الشيطان",
+     "title_en": "Satan's enmity",
      "visual": "ambient",
      "care": "Iblis never drawn; Hell (43) never drawn.",
      "est_s": 108
