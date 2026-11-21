@@ -28,7 +28,7 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "ريبة لا تزول",
+   "title": "أثر النية الفاسدة",
    "verses": [
     110
    ],
@@ -74,7 +74,7 @@
   },
   {
    "id": "c2",
-   "title": "الصفقة الرابحة",
+   "title": "أصدق الوعود",
    "verses": [
     111
    ],
@@ -203,7 +203,7 @@
     5
    ],
    "tafsir": 16,
-   "excerpt": "الذي بنوه مضارَّة لمسجد (قباء)",
+   "excerpt": "مضارَّة لمسجد (قباء)",
    "target": "",
    "tone": "red"
   },
@@ -236,18 +236,7 @@
     7
    ],
    "tafsir": 91,
-   "excerpt": "يخبر تعالى خبرا صدقا، ويعد وعدا حقا بمبايعة عظيمة",
-   "target": "",
-   "tone": "green"
-  },
-  {
-   "verse": 111,
-   "words": [
-    8,
-    10
-   ],
-   "tafsir": 16,
-   "excerpt": "وما أعد الله فيها من النعيم",
+   "excerpt": "يخبر تعالى خبرا صدقا",
    "target": "",
    "tone": "green"
   },
@@ -272,17 +261,6 @@
    "excerpt": "وبما وعدكم به من الجنة والرضوان",
    "target": "",
    "tone": "green"
-  },
-  {
-   "verse": 111,
-   "words": [
-    34,
-    37
-   ],
-   "tafsir": 16,
-   "excerpt": "وذلك البيع هو الفلاح العظيم",
-   "target": "",
-   "tone": "green"
   }
  ],
  "director": {
@@ -292,8 +270,8 @@
  "cover": {
   "series_ar": "مسجد الضرار",
   "series_en": "The mosque of harm",
-  "title_ar": "الصفقة الرابحة",
-  "title_en": "The winning bargain",
+  "title_ar": "أصدق الوعود",
+  "title_en": "The truest promise",
   "at": [
    111,
    1

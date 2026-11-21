@@ -28,7 +28,7 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "شفاعة لا تنفع",
+   "title": "جنازة المنافق",
    "verses": [
     84
    ],
@@ -70,7 +70,7 @@
   },
   {
    "id": "c2",
-   "title": "مال لا يغني",
+   "title": "عطاء ليس كرامة",
    "verses": [
     85
    ],
@@ -284,8 +284,8 @@
  "cover": {
   "series_ar": "بعد تبوك",
   "series_en": "After Tabuk",
-  "title_ar": "شفاعة لا تنفع",
-  "title_en": "Intercession of no avail",
+  "title_ar": "جنازة المنافق",
+  "title_en": "The hypocrite's funeral",
   "at": [
    84,
    1

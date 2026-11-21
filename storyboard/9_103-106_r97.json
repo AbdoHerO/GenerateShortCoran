@@ -28,7 +28,7 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "الصدقة المطهرة",
+   "title": "بركة الزكاة",
    "verses": [
     103,
     104
@@ -373,17 +373,6 @@
   {
    "verse": 105,
    "words": [
-    8,
-    12
-   ],
-   "tafsir": 16,
-   "excerpt": "إلى مَن يعلم سركم وجهركم",
-   "target": "",
-   "tone": "blue"
-  },
-  {
-   "verse": 105,
-   "words": [
     13,
     16
    ],
@@ -400,17 +389,6 @@
    ],
    "tafsir": 16,
    "excerpt": "وهؤلاء هم الذين ندموا على ما فعلوا",
-   "target": "",
-   "tone": "blue"
-  },
-  {
-   "verse": 106,
-   "words": [
-    2,
-    4
-   ],
-   "tafsir": 16,
-   "excerpt": "وهم: مُرارة بن الربيع، وكعب بن مالك، وهلال بن أُميَّة",
    "target": "",
    "tone": "blue"
   },
@@ -439,7 +417,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "103 is addressed to the Prophet ﷺ: no hands or other plate on «وصل عليهم» or «صلاتك»; coins for the charity, geometric for «سميع عليم». 105:1-2 «اعملوا» is not glossed: the tafsirs differ on who is addressed. 106 names the three (Al-Muyassar). An hourglass for «مرجون», two paths for «إما… وإما»."
+  "notes": "103 is addressed to the Prophet ﷺ: no hands or other plate on «وصل عليهم» or «صلاتك»; coins for the charity, geometric for «سميع عليم». 105:1-2 «اعملوا» is not glossed: the tafsirs differ on who is addressed. An hourglass for «مرجون», two paths for «إما… وإما»."
  },
  "cover": {
   "series_ar": "أصناف الناس",

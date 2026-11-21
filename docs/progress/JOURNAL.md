@@ -948,3 +948,25 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
   - Blocked: 31-34, 50-51, 91 and 104-107 (decisions 1 and 2).
   - 89-90 ends on Pharaoh's late declaration of faith, whose refutation (91) is blocked. Its chapter title
     «إيمان بعد فوات» and the gloss «وجزم بهلاكه» frame it; the reviewer should confirm this is enough.
+
+### At-Tawba 60-129 gloss review applied; long-chip renderer fix (2026-11-21)
+
+- **Glosses** (6 SERIOUS, 35 MINOR), all applied.
+  - SERIOUS:
+    - 9:63: «بأن تهاون بأوامر الله…» stayed over the eternal Fire and read as the Khariji view (any sinner); it is
+      now «هؤلاء المنافقون» on words 1-2.
+    - 9:91: the chip had lost «ليس على».
+    - 9:120: a «لا… إلا» chip was split.
+    - 9:111: «وما أعد الله…» read as a negation, and over «يقاتلون… ويقتلون» as a reward for killing. It is dropped,
+      and the «بمبايعة» wording is gone.
+    - The 9:110-111 cover «الصفقة الرابحة» is a recruitment slogan; it is now «أصدق الوعود».
+    - 9:121: the chip ran off the screen.
+  - MINOR: chapter titles with modern misreadings (cover «جنازة المنافق», «لمز المتصدقين», «عقوبة المتثاقلين»…);
+    unmarked Quran echoes dropped; chips widened to keep «إلا» and «ألا يجدوا ما ينفقون» whole; As-Sa'di's
+    qualified comparison for the Bedouins; the three Companions' names in a "punish or forgive" frame dropped.
+- **Renderer** (`renderer/js/main.js`):
+  - A chip wider than W-80 now shrinks its Quran font, never below 26 px. Every chip is clamped inside the frame.
+  - Checked on two stills of 3:183-186 (70- and 65-letter chips).
+  - Chips at normal length render exactly as before.
+  - 22 chips in unpublished storyboards exceed 60 letters; none is published.
+  - 3:183-186 was built with the old renderer and is queued for a rebuild before publishing.

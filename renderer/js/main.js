@@ -234,7 +234,15 @@ function layoutGlosses() {
       g.bw = Math.max(...g.lines.map((l) => ctx.measureText(l).width)) + 64;
       g.bh = g.lines.length * 42 + 30;
       ctx.font = `38px ${QFONT}`;
+      g.cfs = 38;
       g.cw = ctx.measureText(g.chip).width + 48; g.ch = 62;
+      // a long chip must stay inside the frame: shrink its Quran font (never below 26 px) so it fits W - 80
+      const CHIP_MAX = W - 80;
+      if (g.cw > CHIP_MAX) {
+        g.cfs = Math.max(26, Math.floor(38 * (CHIP_MAX - 48) / (g.cw - 48)));
+        ctx.font = `${g.cfs}px ${QFONT}`;
+        g.cw = ctx.measureText(g.chip).width + 48;
+      }
     }
   }
 }
@@ -663,11 +671,11 @@ function drawGlosses(t, uiA) {
       ctx.fillStyle = INK; ctx.font = `700 30px ${UIF}`; ctx.textBaseline = 'middle'; ctx.direction = 'rtl';
       typeLines(g, cx, by, t);
       // chip with the Quranic word(s) - text from API words
-      const chx = left ? bx + 10 : bx + g.bw - g.cw - 10, chy = by - g.ch - 8;
+      const chx = Math.max(24, Math.min(left ? bx + 10 : bx + g.bw - g.cw - 10, W - g.cw - 24)), chy = by - g.ch - 8;
       ctx.shadowColor = 'rgba(20,24,45,0.3)'; ctx.shadowBlur = 10; ctx.shadowOffsetY = 4;
       ctx.fillStyle = NAVY; rr(ctx, chx, chy, g.cw, g.ch, g.ch / 2); ctx.fill();
       ctx.shadowColor = 'transparent';
-      ctx.fillStyle = CREAM; ctx.font = `38px ${QFONT}`;
+      ctx.fillStyle = CREAM; ctx.font = `${g.cfs || 38}px ${QFONT}`;
       ctx.fillText(g.chip, chx + g.cw / 2, chy + g.ch / 2 + 4);
       // source
       ctx.fillStyle = '#8d8778'; ctx.font = `500 22px ${UIF}`;

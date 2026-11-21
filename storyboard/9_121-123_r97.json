@@ -28,7 +28,7 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "أجر لا يضيع",
+   "title": "كل عمل مكتوب",
    "verses": [
     121
    ],
@@ -201,7 +201,7 @@
   {
    "verse": 121,
    "words": [
-    1,
+    11,
     18
    ],
    "tafsir": 91,
@@ -249,7 +249,7 @@
     22
    ],
    "tafsir": 16,
-   "excerpt": "بما تعلموه عند رجوعهم إليهم",
+   "excerpt": "بما تعلموه",
    "target": "",
    "tone": "green"
   },
@@ -267,7 +267,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Fighting verse: the command is not glossed; no battle, weapon, march or army drawn; no present-day reading and no people targeted. No motif on the Prophet ﷺ. 123:1-11 is not glossed and nothing is drawn in 123 (Al-Muyassar's «ابدؤوا بقتال الأقرب…» is not used); only As-Sa'di's «المعونة من اللّه تنزل بحسب التقوى». 121 is one chip so its «إلا» stays with its negation. Coins for «نفقة», a book for «ليتفقهوا في الدين»."
+  "notes": "Fighting verse: the command is not glossed; no battle, weapon, march or army drawn; no present-day reading and no people targeted. No motif on the Prophet ﷺ. 123:1-11 is not glossed and nothing is drawn in 123 (Al-Muyassar's «ابدؤوا بقتال الأقرب…» is not used); only As-Sa'di's «المعونة من اللّه تنزل بحسب التقوى». 121: the chip starts at «إلا كتب لهم» (a full-verse chip was wider than the screen). Coins for «نفقة», a book for «ليتفقهوا في الدين»."
  },
  "cover": {
   "series_ar": "الصدق والختام",
