@@ -28,31 +28,172 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة الأعراف",
+   "title": "الخسارة الحقيقية",
    "verses": [
     90,
-    91
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "dawn"
-   }
-  },
-  {
-   "id": "c2",
-   "title": "سورة الأعراف",
-   "verses": [
+    91,
     92
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       90,
+       5
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       90,
+       8
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       90,
+       12
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       91,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       91,
+       6
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       92,
+       2
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       92,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       92,
+       11
+      ],
+      "do": "pan_left"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       92,
+       4
+      ],
+      "until": [
+       92,
+       8
+      ],
+      "motif": "wind",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 90,
+   "words": [
+    1,
+    6
+   ],
+   "tafsir": 91,
+   "excerpt": "محذرين عن اتباع شعيب",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 90,
+   "words": [
+    7,
+    12
+   ],
+   "tafsir": 91,
+   "excerpt": "هذا ما سولت لهم أنفسهم",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 91,
+   "words": [
+    1,
+    2
+   ],
+   "tafsir": 91,
+   "excerpt": "الزلزلة الشديدة",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 91,
+   "words": [
+    3,
+    6
+   ],
+   "tafsir": 91,
+   "excerpt": "صرعى ميتين هامدين",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 92,
+   "words": [
+    1,
+    7
+   ],
+   "tafsir": 91,
+   "excerpt": "كأنهم ما أقاموا في ديارهم، وكأنهم ما تمتعوا في عرصاتها",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 92,
+   "words": [
+    8,
+    13
+   ],
+   "tafsir": 16,
+   "excerpt": "وأصابهم الخسران والهلاك في الدنيا والآخرة",
+   "target": "",
+   "tone": "red"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "Shu'ayb: no motif. No earthquake, bodies or destruction drawn; wind only for «كأن لم يغنوا فيها». Their claim (90:7-12) is framed «هذا ما سولت لهم أنفسهم»."
+ },
+ "cover": {
+  "series_ar": "دعوة الرسل",
+  "series_en": "The messengers' call",
+  "title_ar": "نهاية مدين",
+  "title_en": "The end of Madyan",
+  "at": [
+   90,
+   1
+  ]
+ },
+ "motion": 3
 }

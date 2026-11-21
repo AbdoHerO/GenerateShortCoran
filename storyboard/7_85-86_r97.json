@@ -28,30 +28,327 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة الأعراف",
+   "title": "الوفاء والإصلاح",
    "verses": [
     85
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "dawn",
+    "beats": [
+     {
+      "at": [
+       85,
+       13
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       85,
+       15
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       85,
+       17
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       85,
+       22
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       85,
+       25
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       85,
+       27
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       85,
+       29
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       85,
+       33
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       85,
+       35
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       85,
+       7
+      ],
+      "until": [
+       85,
+       14
+      ],
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       85,
+       19
+      ],
+      "until": [
+       85,
+       22
+      ],
+      "motif": "scales",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
    "id": "c2",
-   "title": "سورة الأعراف",
+   "title": "التذكير بالنعمة والعاقبة",
    "verses": [
     86
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "dawn",
+    "beats": [
+     {
+      "at": [
+       86,
+       5
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       86,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       86,
+       12
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       86,
+       17
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       86,
+       19
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       86,
+       21
+      ],
+      "do": "pan_left"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       86,
+       15
+      ],
+      "until": [
+       86,
+       20
+      ],
+      "motif": "growth",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "morph"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 85,
+   "words": [
+    1,
+    4
+   ],
+   "tafsir": 91,
+   "excerpt": "القبيلة المعروفة بمدين",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 85,
+   "words": [
+    5,
+    13
+   ],
+   "tafsir": 91,
+   "excerpt": "يدعوهم إلى عبادة اللّه وحده لا شريك له",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 85,
+   "words": [
+    14,
+    18
+   ],
+   "tafsir": 16,
+   "excerpt": "على صِدْق ما أدعوكم إليه",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 85,
+   "words": [
+    19,
+    21
+   ],
+   "tafsir": 16,
+   "excerpt": "فأدوا للناس حقوقهم بإيفاء الكيل",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 85,
+   "words": [
+    22,
+    25
+   ],
+   "tafsir": 16,
+   "excerpt": "ولا تنقصوهم حقوقهم فتظلموهم",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 85,
+   "words": [
+    26,
+    31
+   ],
+   "tafsir": 16,
+   "excerpt": "بالكفر والظلم",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 85,
+   "words": [
+    32,
+    37
+   ],
+   "tafsir": 16,
+   "excerpt": "في دنياكم وأخراكم",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 86,
+   "words": [
+    1,
+    4
+   ],
+   "tafsir": 91,
+   "excerpt": "طريق من الطرق التي يكثر سلوكها",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 86,
+   "words": [
+    6,
+    12
+   ],
+   "tafsir": 91,
+   "excerpt": "من أراد الاهتداء به",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 86,
+   "words": [
+    13,
+    14
+   ],
+   "tafsir": 91,
+   "excerpt": "وتميلونها اتباعا لأهوائكم",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 86,
+   "words": [
+    15,
+    19
+   ],
+   "tafsir": 16,
+   "excerpt": "فأصبحتم أقوياء عزيزين",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 86,
+   "words": [
+    20,
+    24
+   ],
+   "tafsir": 16,
+   "excerpt": "وما حلَّ بهم من الهلاك والدمار",
+   "target": "",
+   "tone": "red"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "Shu'ayb: no motif. Scales for «فأوفوا الكيل والميزان» (worldly weights), geometric for «اعبدوا الله», growth for «فكثركم». 86:5 «توعدون» is not glossed (Al-Muyassar: robbery; As-Sa'di: threatening those who follow the call); no path motif on the blamed act."
+ },
+ "cover": {
+  "series_ar": "دعوة الرسل",
+  "series_en": "The messengers' call",
+  "title_ar": "شعيب ومدين",
+  "title_en": "Shu'ayb and Madyan",
+  "at": [
+   85,
+   1
+  ]
+ },
+ "motion": 3
 }
