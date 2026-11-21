@@ -369,3 +369,22 @@ or by eye. The per-surah summary goes into each `plans/<n>.json` "notes"; this f
   - The excerpt itself must carry the negation when the tafsir restates it. A chip alone is not enough when the
     excerpt opens with the positive verb.
   - Never place a motif that can read as the refuge or object of «يعتصم/يعوذ» right before the Name.
+
+### Aal Imran 3:102–132 review (independent sub-agent): 3 SERIOUS and 14 MINOR, all applied
+- **Serious:**
+  - 113:1–2: the excerpt «متساوين» dropped the tafsir's «ليس». Now As-Sa'di's «لا يستوون عنده…».
+  - 116:4–12: the excerpt dropped its governing «لن تدفع». Now «لا تدفع عنهم شيئا من عذاب الله».
+  - 117:1–7: took Al-Muyassar's side («في وجوه الخير») against As-Sa'di. Now the shared «بأنها تبطل وتضمحل».
+- **Minor:**
+  - no wind motif on the object of «ولا تكونوا كالذين تفرقوا»;
+  - no lamp on Allah's first-person «بيّنّا»;
+  - «موتوا بغيظكم» is attributed («قل لهم -أيها الرسول-»);
+  - 125 and 127: As-Sa'di's shared readings;
+  - 127: the subject restored, so the singular "he" cannot attach to the Prophet ﷺ;
+  - 128: keeps the hedge «ولعل بعض».
+  - Titles:
+    - the series «الاعتصام والأخوة» reads today as "the sit-in", now «التمسك بالدين»;
+    - «تفويض الأمر» reads as administrative delegation, now «الأمر لله وحده»;
+    - «الصبر والتقوى» no longer drops the condition.
+- **Lesson:** when the tafsir's own sentence starts with a negation («ليس», «لن تدفع»), the excerpt must keep it. A
+  chip with the Quran's negation does not save an excerpt that reads positively on its own.

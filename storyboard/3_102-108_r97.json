@@ -251,6 +251,13 @@
      {
       "at": [
        105,
+       4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       105,
        8
       ],
       "do": "pan_right"
@@ -278,16 +285,6 @@
       ],
       "until": null,
       "motif": "two_paths",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       105,
-       4
-      ],
-      "until": null,
-      "motif": "wind",
       "place": "top",
       "size": "m"
      }
@@ -660,8 +657,8 @@
     7,
     11
    ],
-   "tafsir": 16,
-   "excerpt": "لأنه الحاكم العدل الذي لا يجور",
+   "tafsir": 91,
+   "excerpt": "نفى إرادته ظلمهم فضلا عن كونه يفعل ذلك",
    "target": "",
    "tone": "green"
   }
@@ -671,10 +668,10 @@
   "notes": "One unit of about 170 s: the reciter joins every verse from 102 to 108. A seal for holding fast together (no rope drawn), a house for brotherhood, two_paths for right and wrong, wind for the scattering of those who split. The Day (106-107): no faces drawn, nothing literal; only light on «رحمة» (mercy). Nothing for the Fire (103:22-25). 103: short-word flag at 17 (listen)."
  },
  "cover": {
-  "series_ar": "الاعتصام والأخوة",
-  "series_en": "Holding together",
+  "series_ar": "التمسك بالدين",
+  "series_en": "Holding fast to the faith",
   "title_ar": "وحدة الأمة",
-  "title_en": "One ummah, held together",
+  "title_en": "The unity of the ummah",
   "at": [
    103,
    17

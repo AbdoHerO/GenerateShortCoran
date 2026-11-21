@@ -366,8 +366,8 @@
    ]
   },
   {
-   "title_ar": "الاعتصام والأخوة",
-   "title_en": "Holding together",
+   "title_ar": "التمسك بالدين",
+   "title_en": "Holding fast to the faith",
    "from": 102,
    "to": 120,
    "videos": [
@@ -375,7 +375,7 @@
      "from": 102,
      "to": 108,
      "title_ar": "وحدة الأمة",
-     "title_en": "One ummah, held together",
+     "title_en": "The unity of the ummah",
      "visual": "ambient",
      "care": "102-108 is one unit: the reciter joins every verse from 102 to 108 (no pause to cut), so this video runs about 170 s. 103: short-word flag (listen).",
      "est_s": 178
@@ -393,7 +393,7 @@
      "from": 113,
      "to": 115,
      "title_ar": "الصالحون من الكتابيين",
-     "title_en": "The righteous among them",
+     "title_en": "The righteous among the People of the Book",
      "visual": "ambient",
      "care": "",
      "est_s": 69
@@ -436,8 +436,8 @@
     {
      "from": 127,
      "to": 129,
-     "title_ar": "تفويض الأمر",
-     "title_en": "Leaving the matter to Allah",
+     "title_ar": "الأمر لله وحده",
+     "title_en": "The matter is Allah's alone",
      "visual": "ambient",
      "care": "",
      "est_s": 55

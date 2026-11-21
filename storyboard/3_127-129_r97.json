@@ -172,10 +172,10 @@
     1,
     5
    ],
-   "tafsir": 16,
-   "excerpt": "ليهلك فريقًا من الكفار",
+   "tafsir": 91,
+   "excerpt": "جانبا منهم وركنا من أركانهم",
    "target": "",
-   "tone": "red"
+   "tone": "blue"
   },
   {
    "verse": 127,
@@ -183,8 +183,8 @@
     6,
     9
    ],
-   "tafsir": 16,
-   "excerpt": "رجع حزينًا قد ضاقت عليه نفسه",
+   "tafsir": 91,
+   "excerpt": "لم ينالوا مقصودهم، بل يرجعون بخسارة وغم وحسرة",
    "target": "",
    "tone": "red"
   },
@@ -206,7 +206,7 @@
     8
    ],
    "tafsir": 16,
-   "excerpt": "تنشرح صدورهم للإسلام فيسلموا",
+   "excerpt": "ولعل بعض هؤلاء الذين قاتلوك تنشرح صدورهم للإسلام فيسلموا",
    "target": "",
    "tone": "green"
   },
@@ -229,8 +229,8 @@
  "cover": {
   "series_ar": "من بدر إلى أحد",
   "series_en": "From Badr to Uhud",
-  "title_ar": "تفويض الأمر",
-  "title_en": "Leaving the matter to Allah",
+  "title_ar": "الأمر لله وحده",
+  "title_en": "The matter is Allah's alone",
   "at": [
    129,
    14

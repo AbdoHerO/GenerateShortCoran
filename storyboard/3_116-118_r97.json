@@ -215,6 +215,13 @@
      {
       "at": [
        118,
+       23
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       118,
        28
       ],
       "do": "shot_wide"
@@ -224,7 +231,7 @@
      {
       "at": [
        118,
-       25
+       27
       ],
       "until": null,
       "motif": "lamp",
@@ -243,8 +250,8 @@
     4,
     12
    ],
-   "tafsir": 16,
-   "excerpt": "شيئًا من عذاب الله في الدنيا ولا في الآخرة",
+   "tafsir": 91,
+   "excerpt": "لا تدفع عنهم شيئا من عذاب الله",
    "target": "",
    "tone": "red"
   },
@@ -265,8 +272,8 @@
     1,
     7
    ],
-   "tafsir": 16,
-   "excerpt": "ما ينفق الكافرون في وجوه الخير",
+   "tafsir": 91,
+   "excerpt": "بأنها تبطل وتضمحل",
    "target": "",
    "tone": "blue"
   },
@@ -353,8 +360,8 @@
   "notes": "A leaf for wealth that will not avail, wind for the frosty blast of the parable (no crop destroyed on screen), a lamp for the signs made clear. Nothing for the Fire. No motif on the negated «لا تتخذوا بطانة»."
  },
  "cover": {
-  "series_ar": "الاعتصام والأخوة",
-  "series_en": "Holding together",
+  "series_ar": "التمسك بالدين",
+  "series_en": "Holding fast to the faith",
   "title_ar": "إنفاق لا ينفع",
   "title_en": "Spending that brings no good",
   "at": [
