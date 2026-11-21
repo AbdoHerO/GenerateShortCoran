@@ -33,21 +33,56 @@
     1,
     2
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
-    "beats": [],
-    "motifs": [
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "r",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
+    "beats": [
      {
       "at": [
        1,
        1
       ],
-      "until": null,
-      "motif": "geometric",
-      "place": "top",
-      "size": "m"
+      "do": "shot_wide"
      },
+     {
+      "at": [
+       2,
+       2
+      ],
+      "do": "read",
+      "who": "r"
+     },
+     {
+      "at": [
+       2,
+       5
+      ],
+      "do": "shot_close",
+      "who": "r"
+     },
+     {
+      "at": [
+       2,
+       7
+      ],
+      "do": "pan_left"
+     }
+    ],
+    "motifs": [
      {
       "at": [
        2,
@@ -56,7 +91,7 @@
       "until": null,
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -66,7 +101,7 @@
       "until": null,
       "motif": "lamp",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -78,43 +113,135 @@
     3,
     4
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "prayer_hall",
+    "time": "dawn",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "g",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     },
+     {
+      "id": "p",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "sit",
+      "enter": null,
+      "exit": null,
+      "look": "poor"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
-       4,
+       3,
        2
       ],
       "do": "shot_wide"
      },
      {
       "at": [
-       4,
-       6
+       3,
+       4
       ],
-      "do": "pan_right"
+      "do": "pray",
+      "who": "b"
      },
-     {
-      "at": [
-       4,
-       8
-      ],
-      "do": "pan_left"
-     }
-    ],
-    "motifs": [
      {
       "at": [
        3,
        5
       ],
-      "until": null,
-      "motif": "hands",
-      "place": "top",
-      "size": "m"
+      "do": "ruku",
+      "who": "b"
      },
+     {
+      "at": [
+       3,
+       7
+      ],
+      "do": "sujud",
+      "who": "b"
+     },
+     {
+      "at": [
+       3,
+       8
+      ],
+      "do": "give",
+      "who": "g",
+      "to": "p"
+     },
+     {
+      "at": [
+       4,
+       1
+      ],
+      "do": "raise_hands",
+      "who": "p"
+     },
+     {
+      "at": [
+       4,
+       2
+      ],
+      "do": "sit",
+      "who": "b"
+     },
+     {
+      "at": [
+       4,
+       4
+      ],
+      "do": "read",
+      "who": "g"
+     },
+     {
+      "at": [
+       4,
+       7
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       4,
+       9
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       4,
+       12
+      ],
+      "do": "rise",
+      "who": "b"
+     }
+    ],
+    "motifs": [
      {
       "at": [
        3,
@@ -123,7 +250,7 @@
       "until": null,
       "motif": "coins",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -133,7 +260,7 @@
       "until": null,
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -143,7 +270,7 @@
       "until": null,
       "motif": "hourglass",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "light_sweep"
@@ -155,16 +282,63 @@
    "verses": [
     5
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "prayer_hall",
+    "time": "dawn",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [
+     {
+      "type": "light",
+      "at": [
+       5,
+       3
+      ],
+      "until": null
+     }
+    ],
     "beats": [
+     {
+      "at": [
+       5,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       5,
+       2
+      ],
+      "do": "raise_hands",
+      "who": "b"
+     },
      {
       "at": [
        5,
        6
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       5,
+       8
+      ],
+      "do": "sparkle",
+      "who": "b"
      }
     ],
     "motifs": [
@@ -173,10 +347,13 @@
        5,
        3
       ],
-      "until": null,
+      "until": [
+       5,
+       5
+      ],
       "motif": "lamp",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -186,7 +363,7 @@
       "until": null,
       "motif": "burst",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "iris"
@@ -274,7 +451,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Opening of Al-Baqarah. Ambient only. The unseen (3) and the Hereafter (4) get no literal picture: hourglass only."
+  "notes": "Opening of Al-Baqarah. Ambient only. The unseen (3) and the Hereafter (4) get no literal picture: hourglass only. STAGING v4: 1-2: believers reading the Book in a prayer hall (the Quran: guidance for the God-fearing). 3-4: they pray (ruku, sujud), one gives to a poor man on «ينفقون», reading on «أنزل»; the unseen and the Hereafter get only the hourglass. 5: light on «هدى» (Muyassar: على نور من ربهم), raised hands; nothing on «ربهم»."
  },
  "cover": {
   "series_ar": "أصناف الناس",
@@ -286,5 +463,6 @@
    5
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }
