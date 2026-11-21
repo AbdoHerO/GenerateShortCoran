@@ -1,0 +1,180 @@
+{
+ "surah": 15,
+ "summary": "12 short videos (reciter Yasser ad-Dussary) covering all 99 verses",
+ "made_by": "Research 2026-11-21 (cloud agent): audit_surah.py 15 --reciter 97 (with the nocut check), plan_split.py with thematic sections (short units merged by hand), Saheeh translation and both tafsirs.",
+ "reciter": {
+  "id": 97,
+  "name": "Yasser ad-Dussary"
+ },
+ "notes": [
+  "Recitation: 13.0 minutes. 7 JOINED boundaries and 5 more with no clean audio cut.",
+  "Text: identical to Tanzil. Short-word flag to hear: 65.",
+  "Pictures: ambient throughout. The angels, Iblis, the jinn, the devils, Paradise, Hell, the prophets and the destructions are never drawn."
+ ],
+ "groups": [
+  {
+   "title_ar": "القرآن والمستهزئون",
+   "title_en": "The Quran and the mockers",
+   "from": 1,
+   "to": 15,
+   "videos": [
+    {
+     "from": 1,
+     "to": 5,
+     "title_ar": "تمني الكافرين",
+     "title_en": "What the deniers will wish",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 52
+    },
+    {
+     "from": 6,
+     "to": 15,
+     "title_ar": "عناد المستهزئين",
+     "title_en": "The mockers' obstinacy",
+     "visual": "ambient",
+     "care": "Angels (7-8) never drawn; no plate on the Prophet ﷺ.",
+     "est_s": 100
+    }
+   ]
+  },
+  {
+   "title_ar": "آيات الكون",
+   "title_en": "Signs of the universe",
+   "from": 16,
+   "to": 24,
+   "videos": [
+    {
+     "from": 16,
+     "to": 21,
+     "title_ar": "آيات الخلق والرزق",
+     "title_en": "Signs of creation and provision",
+     "visual": "ambient",
+     "care": "The devils and the shooting flame (17-18) never drawn.",
+     "est_s": 73
+    },
+    {
+     "from": 22,
+     "to": 24,
+     "title_ar": "علم الله المحيط",
+     "title_en": "Allah's all-encompassing knowledge",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 44
+    }
+   ]
+  },
+  {
+   "title_ar": "خلق الإنسان وإبليس",
+   "title_en": "Man and Iblis",
+   "from": 25,
+   "to": 44,
+   "videos": [
+    {
+     "from": 25,
+     "to": 30,
+     "title_ar": "خلق آدم",
+     "title_en": "The creation of Adam",
+     "visual": "ambient",
+     "care": "The jinn, the fire, the angels and their prostration never drawn.",
+     "est_s": 70
+    },
+    {
+     "from": 31,
+     "to": 43,
+     "title_ar": "إباء إبليس",
+     "title_en": "Iblis refuses",
+     "visual": "ambient",
+     "care": "Iblis never drawn; Hell (43) never drawn.",
+     "est_s": 108
+    }
+   ]
+  },
+  {
+   "title_ar": "جزاء المتقين",
+   "title_en": "The reward of the God-fearing",
+   "from": 44,
+   "to": 50,
+   "videos": [
+    {
+     "from": 44,
+     "to": 50,
+     "title_ar": "دار الأمان",
+     "title_en": "The abode of safety",
+     "visual": "ambient",
+     "care": "44 (the gates of Hell) is JOINED to 45: nothing drawn. Paradise: light only, no garden, river or gold.",
+     "est_s": 79
+    }
+   ]
+  },
+  {
+   "title_ar": "بشرى الخليل",
+   "title_en": "Good news for al-Khalil",
+   "from": 51,
+   "to": 60,
+   "videos": [
+    {
+     "from": 51,
+     "to": 60,
+     "title_ar": "بشرى الخليل",
+     "title_en": "Good news for al-Khalil",
+     "visual": "ambient",
+     "care": "The angels never drawn; Ibrahim: no plate.",
+     "est_s": 91
+    }
+   ]
+  },
+  {
+   "title_ar": "لوط وقومه",
+   "title_en": "Lut and his people",
+   "from": 61,
+   "to": 79,
+   "videos": [
+    {
+     "from": 61,
+     "to": 67,
+     "title_ar": "قدوم الرسل",
+     "title_en": "The messengers arrive",
+     "visual": "ambient",
+     "care": "Angels and Lut never drawn; the indecency never described. 65: short-word flag (listen).",
+     "est_s": 72
+    },
+    {
+     "from": 68,
+     "to": 79,
+     "title_ar": "عاقبة المجرمين",
+     "title_en": "The end of the criminals",
+     "visual": "ambient",
+     "care": "No destruction, stones or town drawn; Ayka (78-79) is joined here.",
+     "est_s": 90
+    }
+   ]
+  },
+  {
+   "title_ar": "عبر وتسلية",
+   "title_en": "Lessons and consolation",
+   "from": 80,
+   "to": 99,
+   "videos": [
+    {
+     "from": 80,
+     "to": 89,
+     "title_ar": "بين الهلاك والصفح",
+     "title_en": "Between ruin and forbearance",
+     "visual": "ambient",
+     "care": "Thamud's destruction never drawn; 84 cannot be cut from 85. 85-89 address the Prophet ﷺ: no plate on him.",
+     "est_s": 96
+    },
+    {
+     "from": 90,
+     "to": 99,
+     "title_ar": "الثبات حتى الممات",
+     "title_en": "Steadfast until death",
+     "visual": "ambient",
+     "care": "No plate on the Prophet ﷺ addressed; nothing on the mockers.",
+     "est_s": 76
+    }
+   ]
+  }
+ ]
+}

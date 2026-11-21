@@ -1142,3 +1142,16 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
 - Plan note corrected: both tafsirs give 12:53 to the wife of al-Aziz.
 - The 28 Yusuf videos are queued for building.
 - The unused Ibrahim bases 14_42-42 and 14_43-52 are removed (merged into 42-52).
+
+### Ibrahim written; Al-Hijr audit and plan (2026-11-21)
+
+- **Ibrahim:** 13 storyboards, all PASSED.
+  - 42 is merged into 42-52 because 43 «مهطعين» continues its sentence. 42-52 is a 213 s video.
+  - The Day, Satan, Hell, Paradise and the Kaaba are never drawn.
+  - Not glossed where the tafsirs differ: 9 «فردوا أيديهم», 15 «واستفتحوا», 23 the greeting, 46 «لتزول منه الجبال»,
+    48 the change of the earth.
+  - A combined reviewer is running.
+- **Al-Hijr:** 13.0 minutes recited. Text identical to Tanzil. Short-word flag at 65.
+  - 12 videos. Short units are merged by hand: 6-15, 68-79 (Ayka joined to Lut's end), 80-89 (84 cannot be cut
+    from 85).
+  - All base storyboards cut-check clean.
