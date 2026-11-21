@@ -19,7 +19,7 @@ def main(ch, sections, rec=97, target=60.0, mx=110.0):
     a = json.loads((ROOT / "data" / "_analysis" / f"{ch}_r{rec}" / "audit.json").read_text(encoding="utf-8"))
     n = a["verses"]
     dur = {int(k): v for k, v in a["durations_s"].items()}
-    joined = set(a["joined_after"])
+    joined = set(a["joined_after"]) | set(a.get("nocut_after", []))   # nocut: a pause, but no clean audio cut (audit_surah.py)
     defects = {int(k): v for k, v in a["timing_defects"].items()}
     # a cut "after v" is allowed if v is the last verse or the boundary after v is not JOINED
     can_cut = lambda v: v == n or v not in joined

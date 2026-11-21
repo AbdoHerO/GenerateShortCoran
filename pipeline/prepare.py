@@ -23,6 +23,34 @@ def edge_level(mp3, at):
     return 20 * math.log10((math.sqrt(sum(v * v for v in x) / max(len(x), 1)) or 1e-9) / 32768)
 
 
+CUT_LIMIT_DB = -26   # an audio cut whose quietest 100 ms window is louder than this would cut the reciter's voice
+
+
+def audio_cuts(src, mp3, nums, ch):
+    """Where the video's audio slice starts and ends: the quietest point next to the first and last word, never
+    reaching into the neighbouring verses' words. Returns (slice_start, level_start_db, slice_end, level_end_db).
+    Call align.snap_boundaries(src, ...) first, as prepare does. audit_surah.py uses this same function to mark the
+    verse boundaries where no video may start or end ("nocut")."""
+    T = {t["verse_key"]: t for t in src["recitation"]["timestamps"]}
+    first = T[f"{ch}:{nums[0]}"]; last = T[f"{ch}:{nums[-1]}"]
+    first_word = min(s[1] for s in first["segments"]) / 1000
+    last_word_end = max(s[2] for s in last["segments"]) / 1000
+    ideal_start = min(first["timestamp_from"] / 1000, first_word) - 0.06
+    # end 100 ms before the next verse's boundary so not a single sample of the next verse leaks in
+    ideal_end = max(last_word_end * 1000, last["timestamp_to"] - 100) / 1000
+    nb = src["recitation"].get("neighbors") or {}
+    prev_end, next_start = nb.get("prev_end"), nb.get("next_start")
+    # search windows stay clear of the neighbouring verses' words
+    lo_s = max(prev_end / 1000 + 0.04, ideal_start - 0.8) if prev_end else ideal_start - 0.6
+    hi_e = min(next_start / 1000 - 0.04, ideal_end + 0.8) if next_start else ideal_end + 0.6
+    if first_word <= 0.12:   # the recitation starts at the very beginning of the file: nothing before it to exclude
+        slice_start, lvl_s = 0.0, -99.0
+    else:
+        slice_start, lvl_s = find_cut(mp3, max(0.0, ideal_start), max(0.0, lo_s), first_word - 0.02)
+    slice_end, lvl_e = find_cut(mp3, ideal_end, ideal_end, max(ideal_end, hi_e))
+    return slice_start, lvl_s, slice_end, lvl_e
+
+
 def find_cut(mp3, ideal, lo, hi, limit=-30.0):
     """Quiet cut point closest to `ideal` inside [lo, hi]: RMS of a 100 ms window, scanned every 10 ms.
     The window never leaves [lo, hi], which callers keep clear of the neighbouring verses' words."""
@@ -87,24 +115,9 @@ def main(sb_path):
     # every video opens on a cover frame (thumbnail) held for COVER_S, then the usual intro
     COVER_S = 1.0
     INTRO, OUTRO = sb["intro_s"] + COVER_S, sb["outro_s"]
-    first = T[f"{ch}:{nums[0]}"]; last = T[f"{ch}:{nums[-1]}"]
-    first_word = min(s[1] for s in first["segments"]) / 1000
-    last_word_end = max(s[2] for s in last["segments"]) / 1000
-    ideal_start = min(first["timestamp_from"] / 1000, first_word) - 0.06
-    # end 100 ms before the next verse's boundary so not a single sample of the next verse leaks in
-    ideal_end = max(last_word_end * 1000, last["timestamp_to"] - 100) / 1000
-    nb = src["recitation"].get("neighbors") or {}
-    prev_end, next_start = nb.get("prev_end"), nb.get("next_start")
-    # search windows stay clear of the neighbouring verses' words
-    lo_s = max(prev_end / 1000 + 0.04, ideal_start - 0.8) if prev_end else ideal_start - 0.6
-    hi_e = min(next_start / 1000 - 0.04, ideal_end + 0.8) if next_start else ideal_end + 0.6
-    if first_word <= 0.12:   # the recitation starts at the very beginning of the file: nothing before it to exclude
-        slice_start, lvl_s = 0.0, -99.0
-    else:
-        slice_start, lvl_s = find_cut(src_mp3, max(0.0, ideal_start), max(0.0, lo_s), first_word - 0.02)
-    slice_end, lvl_e = find_cut(src_mp3, ideal_end, ideal_end, max(ideal_end, hi_e))
+    slice_start, lvl_s, slice_end, lvl_e = audio_cuts(src, src_mp3, nums, ch)
     for label, at, lvl in (("start", slice_start, lvl_s), ("end", slice_end, lvl_e)):
-        if lvl > -26:
+        if lvl > CUT_LIMIT_DB:
             raise SystemExit(f"audio {label} cut: no pause found near {at:.3f}s (quietest {lvl:.0f} dB) - the word timings for this reciter look off here")
         print(f"audio {label} cut at {at:.3f}s " + ("= start of the recitation file" if lvl <= -99 else f"sits in a pause ({lvl:.0f} dB RMS over +/-50 ms)"))
     audio_len = slice_end - slice_start

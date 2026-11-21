@@ -75,19 +75,45 @@ def main(ch, rec):
             bounds[a] = {"after": a, "state": "aligned", "shift_s": moves[0]["shift_s"]}
         else:
             bounds[a] = {"after": a, "state": "ok"}
+    # ---- can a video actually start or end here? Run prepare.py's own edge logic (align the edge, then look for a
+    # quiet cut point that stays clear of the neighbouring verses' words). A boundary can lie in a pause and still give
+    # no clean cut, e.g. when the next verse is timed 10 ms after the previous one's last word: "nocut", treated like
+    # JOINED when planning.
+    from prepare import audio_cuts, CUT_LIMIT_DB
+    seg_lo = lambda n: min(s[1] for s in T[f"{ch}:{n}"]["segments"] if len(s) >= 3)
+    seg_hi = lambda n: max(s[2] for s in T[f"{ch}:{n}"]["segments"] if len(s) >= 3)
+
+    def edge(n, side):
+        probe = json.loads(json.dumps(src))
+        probe["recitation"]["neighbors"] = {"prev_end": seg_hi(n - 1) if n - 1 in dur else None,
+                                            "next_start": seg_lo(n + 1) if n + 1 in dur else None}
+        _, unresolved = align.snap_boundaries(probe, mp3, [n], ch)
+        if any(u["kind"] == ("after" if side == "end" else "before") for u in unresolved):
+            return None
+        s0, ls, s1, le = audio_cuts(probe, mp3, [n], ch)
+        return round(le if side == "end" else ls, 1)
+
+    for a, x in bounds.items():
+        if x["state"] == "JOINED" or a + 1 not in dur:
+            continue
+        le, ls = edge(a, "end"), edge(a + 1, "start")
+        if le is None or ls is None or le > CUT_LIMIT_DB or ls > CUT_LIMIT_DB:
+            x.update({"state": "nocut", "was": x["state"], "end_cut_db": le, "start_cut_db": ls})
     joined = [a for a, x in bounds.items() if x["state"] == "JOINED"]
     aligned = [a for a, x in bounds.items() if x["state"] == "aligned"]
+    nocut = [a for a, x in bounds.items() if x["state"] == "nocut"]
 
     out = {"chapter": ch, "surah": S["name_en"], "reciter": rec, "verses": S["verses"], "audio_file": src["recitation"].get("audio_url"),
            "text_mismatch_vs_tanzil": text_fail, "basmala_note": ed.get("basmala_note"), "timing_defects": timing, "repetitions": reps,
-           "boundaries": list(bounds.values()), "joined_after": joined, "aligned_after": aligned, "durations_s": dur,
+           "boundaries": list(bounds.values()), "joined_after": joined, "aligned_after": aligned, "nocut_after": nocut, "durations_s": dur,
            "total_recited_min": round(sum(dur.values()) / 60, 1)}
     (d / "audit.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"Surah {ch} {S['name_en']} ({S['verses']} verses), reciter {rec}: {out['total_recited_min']} min recited")
     print(f"  text vs Tanzil: {'all identical' if not text_fail else 'MISMATCH in ' + str(text_fail) + ' - investigate before anything else'}")
     print(f"  timing defects: {len(timing)} verse(s) {dict(list(timing.items())[:8])}")
-    print(f"  verse boundaries: {len(bounds) - len(aligned) - len(joined)} ok, {len(aligned)} aligned to a measured pause, "
+    print(f"  verse boundaries: {len(bounds) - len(aligned) - len(joined) - len(nocut)} ok, {len(aligned)} aligned to a measured pause, "
           f"{len(joined)} JOINED (never start/end a video after verse(s) {joined})")
+    print(f"  no clean audio cut (treated like JOINED when planning): {nocut}")
     print(f"  written: {(d / 'audit.json').relative_to(ROOT)}")
 
 
