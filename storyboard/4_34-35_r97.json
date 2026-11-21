@@ -182,7 +182,10 @@
        35,
        14
       ],
-      "until": null,
+      "until": [
+       35,
+       16
+      ],
       "motif": "hands",
       "place": "top",
       "size": "m"

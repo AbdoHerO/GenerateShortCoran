@@ -168,7 +168,10 @@
        92,
        52
       ],
-      "until": null,
+      "until": [
+       92,
+       56
+      ],
       "motif": "hourglass",
       "place": "top",
       "size": "m"

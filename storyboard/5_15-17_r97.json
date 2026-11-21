@@ -107,7 +107,10 @@
        15,
        22
       ],
-      "until": null,
+      "until": [
+       16,
+       3
+      ],
       "motif": "book",
       "place": "top",
       "size": "m"
@@ -222,7 +225,10 @@
        17,
        31
       ],
-      "until": null,
+      "until": [
+       17,
+       38
+      ],
       "motif": "stars",
       "place": "top",
       "size": "m"

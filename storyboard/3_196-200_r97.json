@@ -221,7 +221,10 @@
        199,
        9
       ],
-      "until": null,
+      "until": [
+       199,
+       15
+      ],
       "motif": "book",
       "place": "top",
       "size": "m"
@@ -231,7 +234,10 @@
        199,
        24
       ],
-      "until": null,
+      "until": [
+       199,
+       26
+      ],
       "motif": "wheat",
       "place": "top",
       "size": "m"
@@ -250,6 +256,13 @@
    "params": {
     "mood": "dawn",
     "beats": [
+     {
+      "at": [
+       200,
+       1
+      ],
+      "do": "pan_left"
+     },
      {
       "at": [
        200,
@@ -292,7 +305,10 @@
        200,
        4
       ],
-      "until": null,
+      "until": [
+       200,
+       8
+      ],
       "motif": "mountain",
       "place": "top",
       "size": "m"

@@ -79,7 +79,10 @@
        39,
        8
       ],
-      "until": null,
+      "until": [
+       39,
+       11
+      ],
       "motif": "coins",
       "place": "top",
       "size": "m"

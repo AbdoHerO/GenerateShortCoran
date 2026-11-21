@@ -135,7 +135,10 @@
        143,
        1
       ],
-      "until": null,
+      "until": [
+       143,
+       12
+      ],
       "motif": "two_paths",
       "place": "top",
       "size": "m"
@@ -262,16 +265,6 @@
       ],
       "until": null,
       "motif": "light",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       146,
-       5
-      ],
-      "until": null,
-      "motif": "hands",
       "place": "top",
       "size": "m"
      },

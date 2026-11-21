@@ -106,7 +106,10 @@
        113,
        22
       ],
-      "until": null,
+      "until": [
+       113,
+       31
+      ],
       "motif": "book",
       "place": "top",
       "size": "m"
@@ -176,7 +179,10 @@
        114,
        14
       ],
-      "until": null,
+      "until": [
+       114,
+       22
+      ],
       "motif": "hands",
       "place": "top",
       "size": "m"

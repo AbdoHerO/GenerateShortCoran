@@ -175,7 +175,10 @@
        11,
        51
       ],
-      "until": null,
+      "until": [
+       11,
+       66
+      ],
       "motif": "scroll",
       "place": "top",
       "size": "m"

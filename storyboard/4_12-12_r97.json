@@ -213,7 +213,10 @@
        12,
        73
       ],
-      "until": null,
+      "until": [
+       12,
+       85
+      ],
       "motif": "coins",
       "place": "top",
       "size": "m"

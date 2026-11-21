@@ -182,7 +182,10 @@
        32,
        13
       ],
-      "until": null,
+      "until": [
+       32,
+       19
+      ],
       "motif": "wheat",
       "place": "top",
       "size": "m"

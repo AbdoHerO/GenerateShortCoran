@@ -125,7 +125,10 @@
        100,
        2
       ],
-      "until": null,
+      "until": [
+       100,
+       5
+      ],
       "motif": "footsteps",
       "place": "top",
       "size": "m"

@@ -107,7 +107,10 @@
        89,
        3
       ],
-      "until": null,
+      "until": [
+       89,
+       9
+      ],
       "motif": "door",
       "place": "top",
       "size": "m"

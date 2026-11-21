@@ -81,7 +81,10 @@
        58,
        15
       ],
-      "until": null,
+      "until": [
+       58,
+       17
+      ],
       "motif": "scales",
       "place": "top",
       "size": "m"
@@ -167,7 +170,7 @@
       ],
       "until": [
        59,
-       19
+       17
       ],
       "motif": "book",
       "place": "top",

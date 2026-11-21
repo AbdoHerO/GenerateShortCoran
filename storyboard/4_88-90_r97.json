@@ -64,7 +64,10 @@
        88,
        7
       ],
-      "until": null,
+      "until": [
+       88,
+       15
+      ],
       "motif": "two_paths",
       "place": "top",
       "size": "m"

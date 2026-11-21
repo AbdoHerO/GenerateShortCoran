@@ -116,7 +116,10 @@
        127,
        31
       ],
-      "until": null,
+      "until": [
+       127,
+       37
+      ],
       "motif": "scales",
       "place": "top",
       "size": "m"

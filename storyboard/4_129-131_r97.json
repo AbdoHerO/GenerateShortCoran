@@ -39,6 +39,13 @@
      {
       "at": [
        129,
+       3
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       129,
        5
       ],
       "do": "pan_left"
@@ -64,7 +71,10 @@
        129,
        16
       ],
-      "until": null,
+      "until": [
+       129,
+       19
+      ],
       "motif": "hands",
       "place": "top",
       "size": "m"
@@ -93,6 +103,13 @@
    "params": {
     "mood": "dawn",
     "beats": [
+     {
+      "at": [
+       130,
+       5
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        130,
@@ -160,20 +177,13 @@
     "motifs": [
      {
       "at": [
-       130,
-       3
-      ],
-      "until": null,
-      "motif": "growth",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
        131,
        4
       ],
-      "until": null,
+      "until": [
+       131,
+       18
+      ],
       "motif": "stars",
       "place": "top",
       "size": "m"

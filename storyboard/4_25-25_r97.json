@@ -175,7 +175,10 @@
        25,
        53
       ],
-      "until": null,
+      "until": [
+       25,
+       56
+      ],
       "motif": "hourglass",
       "place": "top",
       "size": "m"

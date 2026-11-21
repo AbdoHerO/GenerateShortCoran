@@ -113,7 +113,10 @@
        19,
        22
       ],
-      "until": null,
+      "until": [
+       19,
+       31
+      ],
       "motif": "house",
       "place": "top",
       "size": "m"

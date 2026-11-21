@@ -82,7 +82,10 @@
        149,
        7
       ],
-      "until": null,
+      "until": [
+       149,
+       11
+      ],
       "motif": "hands",
       "place": "top",
       "size": "m"

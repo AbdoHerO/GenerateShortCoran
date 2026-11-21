@@ -187,7 +187,7 @@
       ],
       "until": [
        125,
-       10
+       7
       ],
       "motif": "hands",
       "place": "top",
@@ -198,7 +198,10 @@
        126,
        4
       ],
-      "until": null,
+      "until": [
+       126,
+       9
+      ],
       "motif": "stars",
       "place": "top",
       "size": "m"

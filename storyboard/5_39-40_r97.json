@@ -110,7 +110,10 @@
        40,
        7
       ],
-      "until": null,
+      "until": [
+       40,
+       15
+      ],
       "motif": "stars",
       "place": "top",
       "size": "m"

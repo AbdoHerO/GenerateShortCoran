@@ -100,7 +100,10 @@
        15,
        6
       ],
-      "until": null,
+      "until": [
+       15,
+       20
+      ],
       "motif": "scroll",
       "place": "top",
       "size": "m"
@@ -120,7 +123,10 @@
        16,
        7
       ],
-      "until": null,
+      "until": [
+       16,
+       11
+      ],
       "motif": "growth",
       "place": "top",
       "size": "m"
@@ -186,7 +192,10 @@
        17,
        12
       ],
-      "until": null,
+      "until": [
+       17,
+       15
+      ],
       "motif": "hourglass",
       "place": "top",
       "size": "m"

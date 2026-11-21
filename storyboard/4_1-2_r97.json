@@ -99,7 +99,10 @@
        1,
        13
       ],
-      "until": null,
+      "until": [
+       1,
+       19
+      ],
       "motif": "growth",
       "place": "top",
       "size": "m"
@@ -109,7 +112,10 @@
        1,
        23
       ],
-      "until": null,
+      "until": [
+       1,
+       25
+      ],
       "motif": "house",
       "place": "top",
       "size": "m"

@@ -64,7 +64,10 @@
        82,
        3
       ],
-      "until": null,
+      "until": [
+       82,
+       9
+      ],
       "motif": "book",
       "place": "top",
       "size": "m"

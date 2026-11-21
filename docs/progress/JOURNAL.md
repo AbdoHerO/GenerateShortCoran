@@ -970,3 +970,24 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
   - Chips at normal length render exactly as before.
   - 22 chips in unpublished storyboards exceed 60 letters; none is published.
   - 3:183-186 was built with the old renderer and is queued for a rebuild before publishing.
+
+### Aal Imran batch 3 checked; motif plates over the Name removed from all queued storyboards (2026-11-21)
+
+- **Batch 3:** 21 Aal Imran videos built.
+  - 7 checked on frame sheets and published as drafts: 3:38-39, 152-153, 170-171, 175, 187-189, 193-194, 195.
+  - 3:183-186 is being rebuilt with the chip fix.
+  - 3:196-200 failed the motion check at 88.6 s (0.39 % < 0.40 %, the switch into verse 200); a camera beat now
+    opens 200:1.
+- **Sweep (new scratch check):** a motif other than geometric, light or seal must not stay on screen while the Name
+  or «رب» is recited, and `mountains` must not be used where His name is recited (the At-Tawba review lessons).
+  - Run on every queued storyboard (surahs 3-9): 74 motifs over the Name and 8 `mountains` moods.
+  - All fixed in the JSON:
+    - each motif now leaves (`until`) at the first such word;
+    - 5 motifs that would have lived for fewer than 2 words are dropped (3:172, 3:191, 4:13, 4:130, 4:146);
+    - the `mountains` moods are now `dawn` (3:146, 7:65-89, 7:155, 8:42).
+  - Two motifs now also leave before a named honoured person or the Messenger: 3:44 «مريم», 4:136 «رسوله».
+  - 4:13 now uses geometric for «تلك حدود الله». 4:130 got 2 neutral camera beats.
+  - All re-verified PASSED.
+  - 13 built Aal Imran videos are being rebuilt.
+  - Already published drafts (surahs 1-2, early Aal Imran) are not changed. The reviewer may see such plates there.
+- Yunus still to fix with its review: 10:9, 10:19, 10:57, 10:85.

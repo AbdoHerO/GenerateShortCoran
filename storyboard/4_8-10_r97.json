@@ -96,7 +96,10 @@
        9,
        7
       ],
-      "until": null,
+      "until": [
+       9,
+       12
+      ],
       "motif": "house",
       "place": "top",
       "size": "m"

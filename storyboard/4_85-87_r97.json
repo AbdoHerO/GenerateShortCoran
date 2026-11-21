@@ -127,7 +127,10 @@
        86,
        5
       ],
-      "until": null,
+      "until": [
+       86,
+       10
+      ],
       "motif": "growth",
       "place": "top",
       "size": "m"

@@ -167,7 +167,10 @@
        4,
        3
       ],
-      "until": null,
+      "until": [
+       5,
+       7
+      ],
       "motif": "coins",
       "place": "top",
       "size": "m"

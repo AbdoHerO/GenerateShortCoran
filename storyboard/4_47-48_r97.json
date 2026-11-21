@@ -106,7 +106,10 @@
        47,
        7
       ],
-      "until": null,
+      "until": [
+       47,
+       27
+      ],
       "motif": "book",
       "place": "top",
       "size": "m"

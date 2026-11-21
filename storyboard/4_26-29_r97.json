@@ -121,7 +121,10 @@
        27,
        11
       ],
-      "until": null,
+      "until": [
+       28,
+       2
+      ],
       "motif": "two_paths",
       "place": "top",
       "size": "m"
