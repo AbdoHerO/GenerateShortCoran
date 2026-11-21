@@ -546,3 +546,22 @@ or by eye. The per-surah summary goes into each `plans/<n>.json` "notes"; this f
   - Titles: «خداع الشيطان» («غرور» reads as conceit), «حقيقة المسيح» («الحق في…» reads as "the right to"), «فضل
     الصلح», «تربص المنافقين», «تردد المنافقين», «حكم الكلالة», cover «إرث الإخوة والأخوات».
 - With this, all 63 unblocked An-Nisa storyboards have had both independent reviews and are queued for building.
+
+### Al-Ma'idah: audit, plan and all 46 unblocked storyboards written (2026-11-21)
+
+- **Audit:**
+  - Recitation: 55.3 min.
+  - JOINED after 64, 97, 117 and 119; no clean cut after 13 more verses.
+  - Short-word flags: 90, 93.
+- **Text:**
+  - 5:111 is the small-yā' case of DECISIONS_NEEDED §1.
+  - **5:52 is a new kind of case:** the Quran Foundation API serves word 12 «دائرة» with a space inside the word
+    (`'دَآئِرَ ةٌۭ ۚ'`). QPC Hafs and Tanzil have one word. The text was not touched; video 5:51–52 is blocked and
+    the case is in DECISIONS_NEEDED §1.
+- **Timing:** 5:84 overlaps 5:83 by 20 ms, so video 5:82–84 is blocked (§2).
+- **prepare.py fix (surah-final verse):**
+  - The timing data ends 5:120 at 3418.0 s, but the reciter's last elongation sounds until 3419.1 s; silence
+    (-30 to -47 dB) follows.
+  - The end-cut search after a verse with no next verse was limited to 0.6 s, so the check failed at -21 dB.
+  - It now looks up to 2.5 s when nothing follows. `find_cut` still takes the quiet point nearest the timed end
+    under the same -26 dB limit, so every cut that was found before is unchanged (re-checked on 2:286, 3:200, 4:176).

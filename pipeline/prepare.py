@@ -42,7 +42,10 @@ def audio_cuts(src, mp3, nums, ch):
     prev_end, next_start = nb.get("prev_end"), nb.get("next_start")
     # search windows stay clear of the neighbouring verses' words
     lo_s = max(prev_end / 1000 + 0.04, ideal_start - 0.8) if prev_end else ideal_start - 0.6
-    hi_e = min(next_start / 1000 - 0.04, ideal_end + 0.8) if next_start else ideal_end + 0.6
+    # no next verse (last verse of the recording): nothing to protect after it, and the reciter's last elongation can
+    # run past the timed end (5:120 sounds 1.1 s after it), so look up to 2.5 s; find_cut still takes the quiet point
+    # nearest the timed end, so any cut that was found before is unchanged.
+    hi_e = min(next_start / 1000 - 0.04, ideal_end + 0.8) if next_start else ideal_end + 2.5
     if first_word <= 0.12:   # the recitation starts at the very beginning of the file: nothing before it to exclude
         slice_start, lvl_s = 0.0, -99.0
     else:
