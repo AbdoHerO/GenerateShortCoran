@@ -407,8 +407,8 @@
     {
      "from": 121,
      "to": 124,
-     "title_ar": "الحي والميت",
-     "title_en": "The living and the dead",
+     "title_ar": "حياة القلوب",
+     "title_en": "Hearts brought to life",
      "visual": "ambient",
      "care": "",
      "est_s": 116
@@ -417,7 +417,7 @@
      "from": 125,
      "to": 127,
      "title_ar": "انشراح الصدر",
-     "title_en": "The opened heart",
+     "title_en": "An open heart",
      "visual": "ambient",
      "care": "",
      "est_s": 71
@@ -426,7 +426,7 @@
      "from": 128,
      "to": 129,
      "title_ar": "حشر الثقلين",
-     "title_en": "Gathering jinn and men",
+     "title_en": "Mankind and jinn gathered",
      "visual": "ambient",
      "care": "Jinn and the Day: nothing literal.",
      "est_s": 60
@@ -434,8 +434,8 @@
     {
      "from": 130,
      "to": 132,
-     "title_ar": "حجة على الثقلين",
-     "title_en": "Proof against jinn and men",
+     "title_ar": "الحجة على الثقلين",
+     "title_en": "The proof against mankind and jinn",
      "visual": "ambient",
      "care": "Jinn: nothing drawn.",
      "est_s": 70
