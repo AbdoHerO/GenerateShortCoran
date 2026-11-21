@@ -354,8 +354,8 @@
     {
      "from": 104,
      "to": 107,
-     "title_ar": "البصائر",
-     "title_en": "Clear insights",
+     "title_ar": "اتباع الوحي",
+     "title_en": "Following the revelation",
      "visual": "ambient",
      "care": "",
      "est_s": 70
@@ -363,8 +363,8 @@
     {
      "from": 108,
      "to": 110,
-     "title_ar": "أدب الدعوة",
-     "title_en": "Courtesy in calling",
+     "title_ar": "سد الذريعة",
+     "title_en": "Closing the door to harm",
      "visual": "ambient",
      "care": "No idols drawn.",
      "est_s": 78
@@ -372,8 +372,8 @@
     {
      "from": 111,
      "to": 113,
-     "title_ar": "أعداء الأنبياء",
-     "title_en": "The prophets' enemies",
+     "title_ar": "أعداء الرسل",
+     "title_en": "The enemies of the messengers",
      "visual": "ambient",
      "care": "Shaytans and angels: no motif.",
      "est_s": 79
@@ -381,8 +381,8 @@
     {
      "from": 114,
      "to": 117,
-     "title_ar": "الحكم العدل",
-     "title_en": "The just judge",
+     "title_ar": "لا عبرة بالكثرة",
+     "title_en": "Numbers prove nothing",
      "visual": "ambient",
      "care": "",
      "est_s": 76
@@ -390,8 +390,8 @@
     {
      "from": 118,
      "to": 120,
-     "title_ar": "التسمية على الذبائح",
-     "title_en": "Naming Allah over slaughter",
+     "title_ar": "الأصل في الأطعمة",
+     "title_en": "The rule for food",
      "visual": "ambient",
      "care": "No slaughter or animal drawn; 118: short-word flag (listen).",
      "est_s": 64
