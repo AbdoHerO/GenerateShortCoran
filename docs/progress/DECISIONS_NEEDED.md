@@ -78,3 +78,6 @@ already moves every verse change onto the reciter's measured pause, and lists ea
   - 177: 80 ms.
 - 3:135 words 1–2 have no timing at all, so option A would not unblock that one.
 - Blocked videos: 3:133–136, 3:137–139 and 3:176–179.
+- 3:25 has a broken word segment: word 15 is timed 576180–576170 ms, so it ends before it starts. The verse also
+  has five word segments of 70–100 ms. `verify.py` fails it («segment with end<start»), so 3:24–26 is blocked as
+  well. A `timing_corrections` entry cannot fix an end time and must be confirmed by ear in any case.

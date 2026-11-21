@@ -1,6 +1,6 @@
 {
  "surah": 3,
- "summary": "63 short videos (reciter Yasser ad-Dussary) covering all 200 verses; 8 of them wait for the owner's decisions (Tanzil encoding, timing overlaps)",
+ "summary": "63 short videos (reciter Yasser ad-Dussary) covering all 200 verses; 9 of them wait for the owner's decisions (Tanzil encoding, timing overlaps)",
  "made_by": "Research 2026-11-21 (cloud agent): audit_surah.py 3 --reciter 97, plan_split.py with thematic sections, Saheeh translation and both tafsirs.",
  "reciter": {
   "id": 97,
@@ -116,8 +116,9 @@
      "title_ar": "عطاء الملك ونزعه",
      "title_en": "Power given and taken",
      "visual": "ambient",
-     "care": "",
-     "est_s": 96
+     "care": "3:25 word 15 has a segment 576180-576170 ms (end before start) and several 70-100 ms word segments; verify refuses it.",
+     "est_s": 96,
+     "blocked": "timing data defect in 3:25 (a word segment ends before it starts): docs/progress/DECISIONS_NEEDED.md section 2"
     },
     {
      "from": 27,
