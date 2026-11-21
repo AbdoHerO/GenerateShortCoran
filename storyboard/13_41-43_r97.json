@@ -28,41 +28,235 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة الرعد",
+   "title": "حكم لا يرد",
    "verses": [
-    41
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "dawn"
-   }
-  },
-  {
-   "id": "c2",
-   "title": "سورة الرعد",
-   "verses": [
+    41,
     42
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "geometric",
+    "beats": [
+     {
+      "at": [
+       41,
+       6
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       41,
+       13
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       41,
+       16
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       42,
+       2
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       42,
+       9
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       42,
+       13
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       42,
+       16
+      ],
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       41,
+       9
+      ],
+      "until": [
+       42,
+       1
+      ],
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       42,
+       6
+      ],
+      "until": [
+       42,
+       14
+      ],
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
-   "id": "c3",
-   "title": "سورة الرعد",
+   "id": "c2",
+   "title": "شهادة الحق",
    "verses": [
     43
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light"
+    "mood": "light",
+    "beats": [
+     {
+      "at": [
+       43,
+       6
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       43,
+       10
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       43,
+       13
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [],
+    "transition": "dissolve"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 41,
+   "words": [
+    9,
+    13
+   ],
+   "tafsir": 91,
+   "excerpt": "ويدخل في هذا حكمه الشرعي",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 41,
+   "words": [
+    14,
+    16
+   ],
+   "tafsir": 16,
+   "excerpt": "فإن كل آت قريب",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 42,
+   "words": [
+    1,
+    5
+   ],
+   "tafsir": 91,
+   "excerpt": "برسلهم وبالحق الذي جاءت به الرسل",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 42,
+   "words": [
+    6,
+    8
+   ],
+   "tafsir": 91,
+   "excerpt": "لا يقدر أحد أن يمكر مكرا إلا بإذنه، وتحت قضائه وقدره",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 42,
+   "words": [
+    9,
+    13
+   ],
+   "tafsir": 91,
+   "excerpt": "هومها وإراداتها وأعمالها الظاهرة والباطنة",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 42,
+   "words": [
+    14,
+    18
+   ],
+   "tafsir": 16,
+   "excerpt": "إنها لأتباع الرسل",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 43,
+   "words": [
+    1,
+    5
+   ],
+   "tafsir": 91,
+   "excerpt": "يكذبونك ويكذبون ما أرسلت به",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 43,
+   "words": [
+    6,
+    11
+   ],
+   "tafsir": 91,
+   "excerpt": "وشهادته بقوله وفعله وإقراره",
+   "target": "",
+   "tone": "green"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "41:1-8 is not glossed: the tafsirs give several readings (and Al-Muyassar's is conquest). Geometric for «والله يحكم لا معقب لحكمه» and «فلله المكر جميعا يعلم ما تكسب كل نفس». 43 is the Prophet's ﷺ «قل»: no plate; 43:12-15 is not glossed (who «من عنده علم الكتاب» is differs)."
+ },
+ "cover": {
+  "series_ar": "سنن الرسالة",
+  "series_en": "Laws of the message",
+  "title_ar": "شهادة الحق",
+  "title_en": "The witness of truth",
+  "at": [
+   41,
+   9
+  ]
+ },
+ "motion": 3
 }

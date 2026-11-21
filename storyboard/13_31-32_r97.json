@@ -28,30 +28,243 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة الرعد",
+   "title": "مشيئة الهداية",
    "verses": [
     31
    ],
    "scene": "ambient",
    "params": {
-    "mood": "mountains"
+    "mood": "geometric",
+    "beats": [
+     {
+      "at": [
+       31,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       31,
+       20
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       31,
+       27
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       31,
+       30
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       31,
+       33
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       31,
+       36
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       31,
+       40
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       31,
+       42
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       31,
+       45
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       31,
+       15
+      ],
+      "until": [
+       31,
+       19
+      ],
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       31,
+       24
+      ],
+      "until": [
+       31,
+       30
+      ],
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       31,
+       47
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
    "id": "c2",
-   "title": "سورة الرعد",
+   "title": "الإمهال ثم الأخذ",
    "verses": [
     32
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       32,
+       9
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       32,
+       10
+      ],
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       32,
+       6
+      ],
+      "until": [
+       32,
+       9
+      ],
+      "motif": "hourglass",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "dissolve"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 31,
+   "words": [
+    15,
+    18
+   ],
+   "tafsir": 91,
+   "excerpt": "فيأتي بالآيات التي تقتضيها حكمته",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 31,
+   "words": [
+    19,
+    29
+   ],
+   "tafsir": 91,
+   "excerpt": "فليعلموا أنه قادر على هدايتهم جميعا ولكنه لا يشاء ذلك",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 31,
+   "words": [
+    30,
+    33
+   ],
+   "tafsir": 91,
+   "excerpt": "على كفرهم، لا يعتبرون ولا يتعظون",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 32,
+   "words": [
+    1,
+    5
+   ],
+   "tafsir": 91,
+   "excerpt": "فلست أول رسول كذب وأوذي",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 32,
+   "words": [
+    9,
+    10
+   ],
+   "tafsir": 91,
+   "excerpt": "بأنواع العذاب",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 32,
+   "words": [
+    11,
+    13
+   ],
+   "tafsir": 91,
+   "excerpt": "كان عقابا شديدا وعذابا أليما",
+   "target": "",
+   "tone": "red"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "No moving mountains, split earth or speaking dead drawn; 31:1-14 is not glossed (the tafsirs read the unstated answer differently). 31:34-46 is not glossed (Al-Muyassar names battles). Geometric for «بل لله الأمر جميعا», «لو يشاء الله لهدى الناس جميعا» and «إن الله لا يخلف الميعاد»; an hourglass for «فأمليت». 32:6-8 is not glossed (first person)."
+ },
+ "cover": {
+  "series_ar": "حجج المعاندين",
+  "series_en": "The obstinate's arguments",
+  "title_ar": "عناد المكذبين",
+  "title_en": "The deniers' obstinacy",
+  "at": [
+   31,
+   15
+  ]
+ },
+ "motion": 3
 }

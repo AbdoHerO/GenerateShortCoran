@@ -28,30 +28,246 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة الرعد",
+   "title": "صفة الجنة",
    "verses": [
     35
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "light",
+    "beats": [
+     {
+      "at": [
+       35,
+       5
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       35,
+       8
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       35,
+       11
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       35,
+       12
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       35,
+       17
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       35,
+       1
+      ],
+      "until": [
+       35,
+       17
+      ],
+      "motif": "light",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
    "id": "c2",
-   "title": "سورة الرعد",
+   "title": "أهل الكتاب والقرآن",
    "verses": [
     36
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "geometric",
+    "beats": [
+     {
+      "at": [
+       36,
+       4
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       36,
+       7
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       36,
+       10
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       36,
+       12
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       36,
+       15
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       36,
+       19
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       36,
+       22
+      ],
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": [],
+    "transition": "dissolve"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 35,
+   "words": [
+    1,
+    5
+   ],
+   "tafsir": 91,
+   "excerpt": "الذين تركوا ما نهاهم الله عنه، ولم يقصروا فيما أمرهم به",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 35,
+   "words": [
+    6,
+    9
+   ],
+   "tafsir": 16,
+   "excerpt": "من تحت أشجارها وقصورها",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 35,
+   "words": [
+    10,
+    12
+   ],
+   "tafsir": 16,
+   "excerpt": "ثمرها لا ينقطع، وظلها لا يزول ولا ينقص",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 35,
+   "words": [
+    13,
+    16
+   ],
+   "tafsir": 91,
+   "excerpt": "عاقبتهم ومآلهم التي إليها يصيرون",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 35,
+   "words": [
+    17,
+    19
+   ],
+   "tafsir": 91,
+   "excerpt": "فكم بين الفريقين من الفرق المبين؟",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 36,
+   "words": [
+    1,
+    7
+   ],
+   "tafsir": 91,
+   "excerpt": "فيؤمنون به ويصدقونه، ويفرحون بموافقة الكتب بعضها لبعض",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 36,
+   "words": [
+    8,
+    12
+   ],
+   "tafsir": 91,
+   "excerpt": "طوائف الكفار المنحرفين عن الحق",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 36,
+   "words": [
+    13,
+    21
+   ],
+   "tafsir": 91,
+   "excerpt": "بإخلاص الدين لله وحده",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 36,
+   "words": [
+    22,
+    25
+   ],
+   "tafsir": 16,
+   "excerpt": "إلى عبادته أدعو الناس، وإليه مرجعي ومآبي",
+   "target": "",
+   "tone": "green"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "Paradise is never drawn: light mood and a light plate only (no river, garden, fruit or gold), and it leaves before «وعقبى الكافرين النار». 36 addresses the Prophet ﷺ («إليك», «قل»): no plate. Al-Muyassar's named individuals (36) are not used. 37 is blocked (decision §7), so this video ends at 36."
+ },
+ "cover": {
+  "series_ar": "الوعد والوعيد",
+  "series_en": "Promise and warning",
+  "title_ar": "وعد المتقين",
+  "title_en": "The promise to the God-fearing",
+  "at": [
+   35,
+   1
+  ]
+ },
+ "motion": 3
 }

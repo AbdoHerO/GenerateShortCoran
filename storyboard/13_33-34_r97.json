@@ -28,30 +28,220 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة الرعد",
+   "title": "بطلان الشركاء",
    "verses": [
     33
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "geometric",
+    "beats": [
+     {
+      "at": [
+       33,
+       5
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       33,
+       9
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       33,
+       13
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       33,
+       15
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       33,
+       19
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       33,
+       24
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       33,
+       27
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       33,
+       30
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       33,
+       32
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       33,
+       34
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       33,
+       1
+      ],
+      "until": [
+       33,
+       9
+      ],
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
    "id": "c2",
-   "title": "سورة الرعد",
+   "title": "عذاب الدارين",
    "verses": [
     34
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       34,
+       5
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       34,
+       8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       34,
+       11
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [],
+    "transition": "dissolve"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 33,
+   "words": [
+    1,
+    8
+   ],
+   "tafsir": 91,
+   "excerpt": "بالجزاء العاجل والآجل، بالعدل والقسط",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 33,
+   "words": [
+    12,
+    13
+   ],
+   "tafsir": 16,
+   "excerpt": "ولن يجدوا من صفاتهم ما يجعلهم أهلا للعبادة",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 33,
+   "words": [
+    14,
+    20
+   ],
+   "tafsir": 91,
+   "excerpt": "علم بذلك بطلان دعوى الشريك له",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 33,
+   "words": [
+    21,
+    24
+   ],
+   "tafsir": 16,
+   "excerpt": "من غير أن يكون لهم حقيقة",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 34,
+   "words": [
+    6,
+    8
+   ],
+   "tafsir": 91,
+   "excerpt": "من عذاب الدنيا لشدته ودوامه",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 34,
+   "words": [
+    9,
+    14
+   ],
+   "tafsir": 91,
+   "excerpt": "فعذابه إذا وجهه إليهم لا مانع منه",
+   "target": "",
+   "tone": "red"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "Geometric for «أفمن هو قائم على كل نفس بما كسبت»; no plate on «قل سموهم» or on the punishment (34). Not glossed: 33:9-11 (every excerpt repeats Quran wording), 33:25-39, 34:1-5 (Al-Muyassar names battles)."
+ },
+ "cover": {
+  "series_ar": "حجج المعاندين",
+  "series_en": "The obstinate's arguments",
+  "title_ar": "الرقيب على النفوس",
+  "title_en": "Watcher over every soul",
+  "at": [
+   33,
+   1
+  ]
+ },
+ "motion": 3
 }

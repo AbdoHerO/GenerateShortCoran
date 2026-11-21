@@ -28,52 +28,361 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة الرعد",
+   "title": "اقتراح الآيات",
    "verses": [
     27
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       27,
+       4
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       27,
+       6
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       27,
+       15
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       27,
+       17
+      ],
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       27,
+       12
+      ],
+      "until": [
+       27,
+       16
+      ],
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       27,
+       16
+      ],
+      "until": null,
+      "motif": "light",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
    "id": "c2",
-   "title": "سورة الرعد",
+   "title": "سكينة القلوب",
    "verses": [
-    28
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "geometric"
-   }
-  },
-  {
-   "id": "c3",
-   "title": "سورة الرعد",
-   "verses": [
+    28,
     29
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light"
+    "mood": "light",
+    "beats": [
+     {
+      "at": [
+       28,
+       4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       28,
+       5
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       28,
+       7
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       28,
+       11
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       29,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       29,
+       4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       29,
+       6
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       29,
+       8
+      ],
+      "do": "pan_left"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       28,
+       3
+      ],
+      "until": null,
+      "motif": "light",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "dissolve"
    }
   },
   {
-   "id": "c4",
-   "title": "سورة الرعد",
+   "id": "c3",
+   "title": "ثبات الرسول",
    "verses": [
     30
    ],
    "scene": "ambient",
    "params": {
-    "mood": "night_sky"
+    "mood": "dawn",
+    "beats": [
+     {
+      "at": [
+       30,
+       4
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       30,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       30,
+       10
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       30,
+       14
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       30,
+       19
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       30,
+       25
+      ],
+      "do": "pan_left"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       30,
+       12
+      ],
+      "until": [
+       30,
+       15
+      ],
+      "motif": "light",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "dissolve"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 27,
+   "words": [
+    1,
+    9
+   ],
+   "tafsir": 91,
+   "excerpt": "وبزعمهم أنها لو جاءت لآمنوا",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 27,
+   "words": [
+    10,
+    15
+   ],
+   "tafsir": 16,
+   "excerpt": "من المعاندين عن الهداية ولا تنفعه المعجزات",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 27,
+   "words": [
+    16,
+    19
+   ],
+   "tafsir": 91,
+   "excerpt": "طلب رضوانه",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 28,
+   "words": [
+    1,
+    6
+   ],
+   "tafsir": 91,
+   "excerpt": "يزول قلقها واضطرابها، وتحضرها أفراحها ولذاتها",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 28,
+   "words": [
+    7,
+    11
+   ],
+   "tafsir": 91,
+   "excerpt": "فإنه لا شيء ألذ للقلوب ولا أشهى ولا أحلى من محبة خالقها",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 29,
+   "words": [
+    1,
+    4
+   ],
+   "tafsir": 91,
+   "excerpt": "وصدقوا هذا الإيمان بالأعمال الصالحة",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 29,
+   "words": [
+    5,
+    8
+   ],
+   "tafsir": 91,
+   "excerpt": "لهم حالة طيبة ومرجع حسن",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 30,
+   "words": [
+    1,
+    9
+   ],
+   "tafsir": 91,
+   "excerpt": "إلى قومك تدعوهم إلى الهدى",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 30,
+   "words": [
+    10,
+    14
+   ],
+   "tafsir": 91,
+   "excerpt": "التي تطهر القلوب وتزكي النفوس",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 30,
+   "words": [
+    15,
+    17
+   ],
+   "tafsir": 91,
+   "excerpt": "فلم يقابلوا رحمته وإحسانه",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 30,
+   "words": [
+    18,
+    28
+   ],
+   "tafsir": 16,
+   "excerpt": "عليه اعتمدت ووثقت، وإليه مرجعي وإنابتي",
+   "target": "",
+   "tone": "green"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "«قل» (27:10, 30:18): no plate starts on it, and none on the Prophet's ﷺ words about himself. 27:10-15 keeps Al-Muyassar's «من المعاندين عن الهداية». Geometric for «الله يضل من يشاء», light for «ويهدي إليه من أناب», «تطمئن القلوب… طوبى لهم» (no tree or Paradise drawn) and «الذي أوحينا إليك» (the revelation)."
+ },
+ "cover": {
+  "series_ar": "المفسدون والمؤمنون",
+  "series_en": "Corrupters and believers",
+  "title_ar": "سكينة الذكر",
+  "title_en": "The calm of remembrance",
+  "at": [
+   28,
+   3
+  ]
+ },
+ "motion": 3
 }
