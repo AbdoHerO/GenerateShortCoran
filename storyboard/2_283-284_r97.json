@@ -28,30 +28,338 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة البقرة",
+   "title": "الرهن والأمانة",
    "verses": [
     283
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "dawn",
+    "beats": [
+     {
+      "at": [
+       283,
+       11
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       283,
+       15
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       283,
+       19
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       283,
+       23
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       283,
+       26
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       283,
+       27
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       283,
+       28
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       283,
+       32
+      ],
+      "do": "pan_left"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       283,
+       4
+      ],
+      "until": null,
+      "motif": "footsteps",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       283,
+       8
+      ],
+      "until": null,
+      "motif": "seal",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
    "id": "c2",
-   "title": "سورة البقرة",
+   "title": "إحاطة الملك والعلم",
    "verses": [
     284
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       284,
+       8
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       284,
+       12
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       284,
+       15
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       284,
+       17
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       284,
+       18
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       284,
+       20
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       284,
+       21
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       284,
+       26
+      ],
+      "do": "pan_left"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       284,
+       4
+      ],
+      "until": [
+       284,
+       8
+      ],
+      "motif": "stars",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       284,
+       24
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "iris"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 283,
+   "words": [
+    5,
+    7
+   ],
+   "tafsir": 16,
+   "excerpt": "مَن يكتب لكم",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 283,
+   "words": [
+    8,
+    9
+   ],
+   "tafsir": 16,
+   "excerpt": "شيئًا يكون عنده ضمانًا لحقِّه",
+   "target": "motif",
+   "tone": "blue"
+  },
+  {
+   "verse": 283,
+   "words": [
+    10,
+    13
+   ],
+   "tafsir": 16,
+   "excerpt": "فلا حرج في ترك الكتابة والإشهاد والرهن",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 283,
+   "words": [
+    14,
+    17
+   ],
+   "tafsir": 16,
+   "excerpt": "ويبقى الدَّين أمانة في ذمَّة المدين، عليه أداؤه",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 283,
+   "words": [
+    18,
+    20
+   ],
+   "tafsir": 16,
+   "excerpt": "فلا يخون صاحبه",
+   "target": "",
+   "tone": "amber"
+  },
+  {
+   "verse": 283,
+   "words": [
+    21,
+    23
+   ],
+   "tafsir": 16,
+   "excerpt": "فعليه أن يظهر شهادته",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 283,
+   "words": [
+    24,
+    28
+   ],
+   "tafsir": 16,
+   "excerpt": "فهو صاحب قلب غادر فاجر",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 283,
+   "words": [
+    30,
+    32
+   ],
+   "tafsir": 16,
+   "excerpt": "المحيط علمه بكل أموركم",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 284,
+   "words": [
+    1,
+    7
+   ],
+   "tafsir": 16,
+   "excerpt": "ملكًا وتدبيرًا وإحاطة، لا يخفى عليه شيء",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 284,
+   "words": [
+    15,
+    17
+   ],
+   "tafsir": 16,
+   "excerpt": "فعفا عن حديث النفس وخطرات القلب ما لم يتبعها كلام أو عمل",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 284,
+   "words": [
+    18,
+    20
+   ],
+   "tafsir": 91,
+   "excerpt": "لمن أتى بأسباب المغفرة",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 284,
+   "words": [
+    21,
+    23
+   ],
+   "tafsir": 91,
+   "excerpt": "بذنبه الذي لم يحصل له ما يكفره",
+   "target": "",
+   "tone": "red"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "JOINED after 283 is inside the video. footsteps for the journey, a seal for the pledge; stars on «السماوات» leave before the Name; geometric for «والله على كل شيء قدير». 284:15-17 carries Al-Muyassar's note that inner thoughts not acted on are forgiven, so the verse is not misread."
+ },
+ "cover": {
+  "series_ar": "خواتيم البقرة",
+  "series_en": "The close of Al-Baqarah",
+  "title_ar": "الرهن والشهادة",
+  "title_en": "Pledges and testimony",
+  "at": [
+   283,
+   8
+  ]
+ },
+ "motion": 3
 }

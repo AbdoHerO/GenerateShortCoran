@@ -28,30 +28,399 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة البقرة",
+   "title": "إيمان الرسول والمؤمنين",
    "verses": [
     285
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "light",
+    "beats": [
+     {
+      "at": [
+       285,
+       8
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       285,
+       9
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       285,
+       12
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       285,
+       13
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       285,
+       16
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       285,
+       20
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       285,
+       26
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       285,
+       4
+      ],
+      "until": null,
+      "motif": "book",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       285,
+       24
+      ],
+      "until": null,
+      "motif": "hands",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
    "id": "c2",
-   "title": "سورة البقرة",
+   "title": "دعاء الختام",
    "verses": [
     286
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "dawn",
+    "beats": [
+     {
+      "at": [
+       286,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       286,
+       13
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       286,
+       15
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       286,
+       16
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       286,
+       19
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       286,
+       23
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       286,
+       25
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       286,
+       30
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       286,
+       33
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       286,
+       34
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       286,
+       40
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       286,
+       43
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       286,
+       44
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       286,
+       46
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       286,
+       49
+      ],
+      "do": "push_in"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       286,
+       7
+      ],
+      "until": null,
+      "motif": "two_paths",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       286,
+       39
+      ],
+      "until": null,
+      "motif": "hands",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "light_sweep"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 285,
+   "words": [
+    1,
+    5
+   ],
+   "tafsir": 16,
+   "excerpt": "صدَّق وأيقن رسول الله محمد صلى الله عليه وسلم",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 285,
+   "words": [
+    8,
+    8
+   ],
+   "tafsir": 16,
+   "excerpt": "صدقوا وعملوا بالقرآن العظيم",
+   "target": "motif",
+   "tone": "green"
+  },
+  {
+   "verse": 285,
+   "words": [
+    15,
+    20
+   ],
+   "tafsir": 16,
+   "excerpt": "بل نؤمن بهم جميعًا",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 285,
+   "words": [
+    21,
+    23
+   ],
+   "tafsir": 16,
+   "excerpt": "سمعنا يا ربنا ما أوحيت به، وأطعنا في كل ذلك",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 285,
+   "words": [
+    24,
+    25
+   ],
+   "tafsir": 16,
+   "excerpt": "نرجو أن تغفر -بفضلك- ذنوبنا",
+   "target": "motif",
+   "tone": "green"
+  },
+  {
+   "verse": 285,
+   "words": [
+    26,
+    27
+   ],
+   "tafsir": 16,
+   "excerpt": "وإليك -وحدك- مرجعنا ومصيرنا",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 286,
+   "words": [
+    1,
+    6
+   ],
+   "tafsir": 16,
+   "excerpt": "دين الله يسر لا مشقة فيه",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 286,
+   "words": [
+    7,
+    12
+   ],
+   "tafsir": 16,
+   "excerpt": "فمن فعل خيرًا نال خيرًا، ومن فعل شرّاً نال شرّاً",
+   "target": "motif",
+   "tone": "blue"
+  },
+  {
+   "verse": 286,
+   "words": [
+    14,
+    15
+   ],
+   "tafsir": 16,
+   "excerpt": "لا تعاقبنا",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 286,
+   "words": [
+    21,
+    24
+   ],
+   "tafsir": 16,
+   "excerpt": "من الأعمال الشاقة",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 286,
+   "words": [
+    32,
+    38
+   ],
+   "tafsir": 16,
+   "excerpt": "من التكاليف والمصائب",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 286,
+   "words": [
+    39,
+    43
+   ],
+   "tafsir": 16,
+   "excerpt": "وامح ذنوبنا، واستر عيوبنا، وأحسن إلينا",
+   "target": "motif",
+   "tone": "green"
+  },
+  {
+   "verse": 286,
+   "words": [
+    44,
+    45
+   ],
+   "tafsir": 16,
+   "excerpt": "أنت مالك أمرنا ومدبره",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 286,
+   "words": [
+    46,
+    49
+   ],
+   "tafsir": 16,
+   "excerpt": "على مَن جحدوا دينك وأنكروا وحدانيتك",
+   "target": "",
+   "tone": "amber"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "No motif on the Messenger, the angels or the messengers (285:2, 12, 14), nor on «ربنا» or any negated plea. A book for what was revealed, hands for the supplications, two_paths for good and evil earned. As-Sa'di has no entry for 286: Al-Muyassar only. Cover title changed from «خواتيم البقرة» (same as the series)."
+ },
+ "cover": {
+  "series_ar": "خواتيم البقرة",
+  "series_en": "The close of Al-Baqarah",
+  "title_ar": "الإيمان والدعاء",
+  "title_en": "Faith and supplication",
+  "at": [
+   285,
+   4
+  ]
+ },
+ "motion": 3
 }
