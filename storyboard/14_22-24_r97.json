@@ -28,41 +28,435 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة ابراهيم",
+   "title": "اعتراف الشيطان",
    "verses": [
     22
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       22,
+       4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       22,
+       8
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       22,
+       10
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       22,
+       13
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       22,
+       17
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       22,
+       20
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       22,
+       22
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       22,
+       26
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       22,
+       28
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       22,
+       29
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       22,
+       30
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       22,
+       32
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       22,
+       34
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       22,
+       37
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       22,
+       39
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       22,
+       42
+      ],
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": []
    }
   },
   {
    "id": "c2",
-   "title": "سورة ابراهيم",
+   "title": "جزاء الطائعين",
    "verses": [
     23
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "light",
+    "beats": [
+     {
+      "at": [
+       23,
+       5
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       23,
+       6
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       23,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       23,
+       12
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       23,
+       13
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       23,
+       16
+      ],
+      "do": "pan_left"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       23,
+       1
+      ],
+      "until": null,
+      "motif": "light",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "dissolve"
    }
   },
   {
    "id": "c3",
-   "title": "سورة ابراهيم",
+   "title": "شجرة التوحيد",
    "verses": [
     24
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light"
+    "mood": "dawn",
+    "beats": [
+     {
+      "at": [
+       24,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       24,
+       10
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       24,
+       11
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       24,
+       15
+      ],
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       24,
+       4
+      ],
+      "until": [
+       24,
+       7
+      ],
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       24,
+       9
+      ],
+      "until": null,
+      "motif": "palm",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "dissolve"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 22,
+   "words": [
+    1,
+    5
+   ],
+   "tafsir": 91,
+   "excerpt": "مخاطبا لأهل النار ومتبرئا منهم",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 22,
+   "words": [
+    6,
+    10
+   ],
+   "tafsir": 91,
+   "excerpt": "على ألسنة رسله فلم تطيعوه",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 22,
+   "words": [
+    11,
+    12
+   ],
+   "tafsir": 91,
+   "excerpt": "لم يحصل ولن يحصل لكم ما منيتكم به من الأماني الباطلة",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 22,
+   "words": [
+    13,
+    23
+   ],
+   "tafsir": 91,
+   "excerpt": "هذا نهاية ما عندي أني دعوتكم إلى مرادي وزينته لكم",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 22,
+   "words": [
+    24,
+    27
+   ],
+   "tafsir": 91,
+   "excerpt": "فأنتم السبب وعليكم المدار في موجب العقاب",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 22,
+   "words": [
+    28,
+    33
+   ],
+   "tafsir": 91,
+   "excerpt": "بمغيثكم من الشدة التي أنتم بها",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 22,
+   "words": [
+    34,
+    39
+   ],
+   "tafsir": 16,
+   "excerpt": "إني تبرَّأت مِن جَعْلِكم لي شريكًا مع الله في طاعته في الدنيا",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 22,
+   "words": [
+    40,
+    44
+   ],
+   "tafsir": 16,
+   "excerpt": "في إعراضهم عن الحق واتباعهم الباطل",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 23,
+   "words": [
+    1,
+    5
+   ],
+   "tafsir": 91,
+   "excerpt": "قاموا بالدين، قولا، وعملا، واعتقادا",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 23,
+   "words": [
+    6,
+    10
+   ],
+   "tafsir": 16,
+   "excerpt": "من تحت أشجارها وقصورها",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 23,
+   "words": [
+    11,
+    14
+   ],
+   "tafsir": 91,
+   "excerpt": "لا بحولهم وقوتهم بل بحول الله وقوته",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 24,
+   "words": [
+    1,
+    8
+   ],
+   "tafsir": 16,
+   "excerpt": "لكلمة التوحيد",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 24,
+   "words": [
+    9,
+    10
+   ],
+   "tafsir": 91,
+   "excerpt": "وهي النخلة",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 24,
+   "words": [
+    11,
+    15
+   ],
+   "tafsir": 91,
+   "excerpt": "وهي كثيرة النفع دائما",
+   "target": "",
+   "tone": "green"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "Satan, the Fire and Paradise are never drawn: no plate in 22; light only in 23 (no garden or river). 23:15-17 is not glossed (the tafsirs differ on who greets them). A palm for the parable «كشجرة طيبة» (both tafsirs: the palm), geometric for «ضرب الله مثلا». Cut: «لا إله إلا الله» (47:19) and passage echoes. 22: short-word flag (word 9, 70 ms), listen."
+ },
+ "cover": {
+  "series_ar": "أمثال وعبر",
+  "series_en": "Parables and lessons",
+  "title_ar": "تبرؤ الشيطان",
+  "title_en": "Satan disowns them",
+  "at": [
+   22,
+   1
+  ]
+ },
+ "motion": 3
 }

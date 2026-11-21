@@ -28,52 +28,462 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة ابراهيم",
+   "title": "اغتنام الفرصة",
    "verses": [
     31
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "light",
+    "beats": [
+     {
+      "at": [
+       31,
+       4
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       31,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       31,
+       10
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       31,
+       15
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       31,
+       16
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       31,
+       19
+      ],
+      "do": "pan_left"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       31,
+       7
+      ],
+      "until": [
+       31,
+       12
+      ],
+      "motif": "coins",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       31,
+       12
+      ],
+      "until": [
+       31,
+       16
+      ],
+      "motif": "hourglass",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
    "id": "c2",
-   "title": "سورة ابراهيم",
+   "title": "تسخير الكون",
    "verses": [
     32
    ],
    "scene": "ambient",
    "params": {
-    "mood": "rain"
+    "mood": "dawn",
+    "beats": [
+     {
+      "at": [
+       32,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       32,
+       12
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       32,
+       19
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       32,
+       1
+      ],
+      "until": [
+       32,
+       6
+      ],
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       32,
+       6
+      ],
+      "until": [
+       32,
+       10
+      ],
+      "motif": "cloud_rain",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       32,
+       10
+      ],
+      "until": [
+       32,
+       16
+      ],
+      "motif": "wheat",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       32,
+       16
+      ],
+      "until": [
+       32,
+       23
+      ],
+      "motif": "ship",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       32,
+       23
+      ],
+      "until": null,
+      "motif": "river",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "dissolve"
    }
   },
   {
    "id": "c3",
-   "title": "سورة ابراهيم",
+   "title": "جحود الإنسان",
    "verses": [
-    33
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "night_sky"
-   }
-  },
-  {
-   "id": "c4",
-   "title": "سورة ابراهيم",
-   "verses": [
+    33,
     34
    ],
    "scene": "ambient",
    "params": {
-    "mood": "mountains"
+    "mood": "light",
+    "beats": [
+     {
+      "at": [
+       33,
+       5
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       33,
+       6
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       33,
+       9
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       34,
+       5
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       34,
+       6
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       34,
+       11
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       34,
+       12
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       34,
+       14
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       34,
+       15
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       33,
+       3
+      ],
+      "until": [
+       34,
+       1
+      ],
+      "motif": "night_day",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       34,
+       1
+      ],
+      "until": [
+       34,
+       6
+      ],
+      "motif": "growth",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "dissolve"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 31,
+   "words": [
+    1,
+    4
+   ],
+   "tafsir": 91,
+   "excerpt": "آمرا لهم بما فيه غاية صلاحهم",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 31,
+   "words": [
+    5,
+    6
+   ],
+   "tafsir": 91,
+   "excerpt": "ظاهرا وباطنا",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 31,
+   "words": [
+    7,
+    11
+   ],
+   "tafsir": 16,
+   "excerpt": "في وجوه الخير الواجبة والمستحبة",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 31,
+   "words": [
+    12,
+    21
+   ],
+   "tafsir": 16,
+   "excerpt": "الذي لا ينفع فيه فداء ولا صداقة",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 32,
+   "words": [
+    1,
+    5
+   ],
+   "tafsir": 91,
+   "excerpt": "على اتساعهما وعظمهما",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 32,
+   "words": [
+    6,
+    9
+   ],
+   "tafsir": 91,
+   "excerpt": "وهو: المطر الذي ينزله الله من السحاب",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 32,
+   "words": [
+    10,
+    15
+   ],
+   "tafsir": 91,
+   "excerpt": "ورزقا لأنعامكم",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 32,
+   "words": [
+    16,
+    22
+   ],
+   "tafsir": 91,
+   "excerpt": "فهو الذي يسر لكم صنعتها وأقدركم عليها",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 32,
+   "words": [
+    23,
+    25
+   ],
+   "tafsir": 16,
+   "excerpt": "لسقياكم وسقيا دوابكم وزروعكم وسائر منافعكم",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 33,
+   "words": [
+    1,
+    5
+   ],
+   "tafsir": 91,
+   "excerpt": "لا يفتران، ولا ينيان، يسعيان لمصالحكم",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 33,
+   "words": [
+    6,
+    9
+   ],
+   "tafsir": 16,
+   "excerpt": "لتسكنوا فيه وتستريحوا",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 34,
+   "words": [
+    1,
+    5
+   ],
+   "tafsir": 91,
+   "excerpt": "مما تسألونه إياه بلسان الحال، أو بلسان المقال",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 34,
+   "words": [
+    6,
+    11
+   ],
+   "tafsir": 91,
+   "excerpt": "فضلا عن قيامكم بشكرها",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 34,
+   "words": [
+    12,
+    15
+   ],
+   "tafsir": 91,
+   "excerpt": "هذه طبيعة الإنسان من حيث هو ظالم متجرئ على المعاصي",
+   "target": "",
+   "tone": "red"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "One unit (the reciter joins 31-34). «قل» (31:1): no plate on it. Coins for «وينفقوا مما رزقناهم سرا وعلانية», an hourglass for «من قبل أن يأتي يوم» (the Day is not drawn). The blessings of 32-33 in symbols: geometric, rain, wheat, ship, river, night-and-day; growth for «وآتاكم من كل ما سألتموه» (it leaves before «نعمت الله»). 31: short-word flag (word 8, 70 ms), listen."
+ },
+ "cover": {
+  "series_ar": "أمثال وعبر",
+  "series_en": "Parables and lessons",
+  "title_ar": "فيض النعم",
+  "title_en": "Abundant blessings",
+  "at": [
+   32,
+   10
+  ]
+ },
+ "motion": 3
 }

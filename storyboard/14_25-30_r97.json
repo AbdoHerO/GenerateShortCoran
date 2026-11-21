@@ -28,64 +28,391 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة ابراهيم",
+   "title": "الشجرتان",
    "verses": [
-    25
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "dawn"
-   }
-  },
-  {
-   "id": "c2",
-   "title": "سورة ابراهيم",
-   "verses": [
+    25,
     26
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "light",
+    "beats": [
+     {
+      "at": [
+       25,
+       4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       25,
+       11
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       26,
+       1
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       26,
+       4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       26,
+       11
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       25,
+       1
+      ],
+      "until": [
+       25,
+       5
+      ],
+      "motif": "palm",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       25,
+       7
+      ],
+      "until": [
+       25,
+       11
+      ],
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       26,
+       6
+      ],
+      "until": [
+       26,
+       13
+      ],
+      "motif": "wind",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
-   "id": "c3",
-   "title": "سورة ابراهيم",
+   "id": "c2",
+   "title": "رسوخ اليقين",
    "verses": [
     27
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light"
+    "mood": "light",
+    "beats": [
+     {
+      "at": [
+       27,
+       9
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       27,
+       12
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       27,
+       15
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       27,
+       5
+      ],
+      "until": [
+       27,
+       12
+      ],
+      "motif": "mountain",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "dissolve"
    }
   },
   {
-   "id": "c4",
-   "title": "سورة ابراهيم",
+   "id": "c3",
+   "title": "جحود النعم",
    "verses": [
     28,
-    29
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "night_sky"
-   }
-  },
-  {
-   "id": "c5",
-   "title": "سورة ابراهيم",
-   "verses": [
+    29,
     30
    ],
    "scene": "ambient",
    "params": {
-    "mood": "mountains"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       28,
+       5
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       28,
+       10
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       29,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       29,
+       4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       30,
+       3
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       30,
+       6
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       30,
+       10
+      ],
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": [],
+    "transition": "dissolve"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 25,
+   "words": [
+    1,
+    6
+   ],
+   "tafsir": 16,
+   "excerpt": "وكذلك شجرة الإيمان أصلها ثابت في قلب المؤمن علمًا واعتقادًا",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 25,
+   "words": [
+    7,
+    12
+   ],
+   "tafsir": 16,
+   "excerpt": "ليتذكروا ويتعظوا، فيعتبروا",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 26,
+   "words": [
+    1,
+    3
+   ],
+   "tafsir": 91,
+   "excerpt": "وهي كلمة الكفر وفروعها",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 26,
+   "words": [
+    4,
+    5
+   ],
+   "tafsir": 91,
+   "excerpt": "المأكل والمطعم وهي: شجرة الحنظل ونحوها",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 26,
+   "words": [
+    6,
+    13
+   ],
+   "tafsir": 91,
+   "excerpt": "فلا عروق تمسكها، ولا ثمرة صالحة، تنتجها",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 27,
+   "words": [
+    1,
+    6
+   ],
+   "tafsir": 91,
+   "excerpt": "الذين قاموا بما عليهم من إيمان القلب التام",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 27,
+   "words": [
+    7,
+    9
+   ],
+   "tafsir": 91,
+   "excerpt": "عند ورود الشبهات بالهداية إلى اليقين",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 27,
+   "words": [
+    10,
+    11
+   ],
+   "tafsir": 16,
+   "excerpt": "وعند مماتهم بالخاتمة الحسنة",
+   "target": "",
+   "tone": "green"
+  },
+  {
+   "verse": 27,
+   "words": [
+    12,
+    14
+   ],
+   "tafsir": 16,
+   "excerpt": "عن الصواب في الدنيا والآخرة",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 27,
+   "words": [
+    15,
+    18
+   ],
+   "tafsir": 16,
+   "excerpt": "من توفيق أهل الإيمان وخِذْلان أهل الكفر والطغيان",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 28,
+   "words": [
+    1,
+    8
+   ],
+   "tafsir": 91,
+   "excerpt": "هي إرسال محمد صلى الله عليه وسلم إليهم",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 29,
+   "words": [
+    1,
+    4
+   ],
+   "tafsir": 91,
+   "excerpt": "يحيط بهم حرها من جميع جوانبهم",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 30,
+   "words": [
+    1,
+    3
+   ],
+   "tafsir": 91,
+   "excerpt": "نظراء وشركاء",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 30,
+   "words": [
+    4,
+    6
+   ],
+   "tafsir": 91,
+   "excerpt": "ودعوهم إلى عبادتها",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 30,
+   "words": [
+    7,
+    12
+   ],
+   "tafsir": 91,
+   "excerpt": "بكفركم وضلالكم قليلا، فليس ذلك بنافعكم",
+   "target": "",
+   "tone": "red"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "One unit (the reciter joins 25-30). A palm for «تؤتي أكلها كل حين» (it leaves before «ربها»), geometric for «ويضرب الله الأمثال», wind for the uprooted tree, a mountain for «بالقول الثابت» (it leaves before «ويضل الله»). The grave's questioning, Hell (29-30) and Badr are never drawn; Al-Muyassar's battle reading (28) is not used; 28:9-12 is not glossed. «قل» (30:7): no plate."
+ },
+ "cover": {
+  "series_ar": "أمثال وعبر",
+  "series_en": "Parables and lessons",
+  "title_ar": "الثبات في الدارين",
+  "title_en": "Firmness in both worlds",
+  "at": [
+   27,
+   5
+  ]
+ },
+ "motion": 3
 }
