@@ -99,25 +99,10 @@
        62,
        3
       ],
-      "do": "shot_close",
-      "who": "lut"
+      "do": "shot_wide"
      }
     ],
-    "motifs": [
-     {
-      "at": [
-       61,
-       2
-      ],
-      "until": [
-       61,
-       4
-      ],
-      "motif": "footsteps",
-      "place": "top",
-      "size": "s"
-     }
-    ]
+    "motifs": []
    }
   },
   {
@@ -221,17 +206,6 @@
     "time": "night",
     "actors": [
      {
-      "id": "fam",
-      "type": "believers",
-      "label": "",
-      "place": "center",
-      "count": 3,
-      "pose": "stand",
-      "enter": null,
-      "exit": null,
-      "uncountable": true
-     },
-     {
       "id": "lut",
       "type": "prophet",
       "label": "لوط",
@@ -250,7 +224,7 @@
        1
       ],
       "do": "walk_to",
-      "who": "fam",
+      "who": "lut",
       "to": "left"
      },
      {
@@ -265,35 +239,44 @@
        65,
        6
       ],
-      "do": "walk_to",
-      "who": "lut",
-      "to": "center"
+      "do": "pan_left"
      },
      {
       "at": [
        65,
        8
       ],
-      "do": "shot_close",
-      "who": "fam"
+      "do": "shot_wide"
      },
      {
       "at": [
        65,
        12
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        65,
        14
       ],
-      "do": "shot_close",
-      "who": "lut"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
+     {
+      "at": [
+       65,
+       2
+      ],
+      "until": [
+       65,
+       12
+      ],
+      "motif": "footsteps",
+      "place": "left",
+      "size": "s"
+     },
      {
       "at": [
        65,
@@ -367,14 +350,14 @@
        66,
        4
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        66,
        7
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -389,13 +372,6 @@
        1
       ],
       "do": "shot_wide"
-     },
-     {
-      "at": [
-       67,
-       3
-      ],
-      "do": "pan_right"
      },
      {
       "at": [
@@ -528,7 +504,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Lut, his family, the angels and the people of the city are never drawn; no plate starts on an imperative to Lut. A moon from «الليل» (it lives across the reciter's repeats of 65:7-8 and 65:14), an hourglass for the decree (66), gone before the city's people come (67). 65:8-11 «ولا يلتفت منكم أحد» is not glossed (Al-Muyassar: beware of turning; As-Sa'di: hurry). 66:1-4 is not glossed (both tafsirs paraphrase in Allah's first person). STAGING v4: Restaged under Staging v4: Lut is a blue drop labelled Lut, the messengers one gold drop labelled 'the angels' (no number: neither tafsir gives one), in his town. 61-64: the angels arrive (61:2), Lut speaks, the angels answer; a seal on 64:2. 65: at night his family (an uncountable faceless believers group; Al-Muyassar: his believing family) walks ahead and Lut follows behind them; nobody turns round; his wife is never drawn. 66: a glow on Lut on 66:2 (Allah informed him), hourglass for the decree; no punishment event in this video. 67: the people of the city (uncountable, faceless) come and speak to one another (rejoicing at the news); their intent is never shown."
+  "notes": "Lut, his family, the angels and the people of the city are never drawn; no plate starts on an imperative to Lut. A moon from «الليل» (it lives across the reciter's repeats of 65:7-8 and 65:14), an hourglass for the decree (66), gone before the city's people come (67). 65:8-11 «ولا يلتفت منكم أحد» is not glossed (Al-Muyassar: beware of turning; As-Sa'di: hurry). 66:1-4 is not glossed (both tafsirs paraphrase in Allah's first person). STAGING v4: Restaged under Staging v4: Lut is a blue drop labelled Lut, the messengers one gold drop labelled 'the angels' (no number: neither tafsir gives one), in his town. 61-64: the angels arrive (61:2), Lut speaks, the angels answer; a seal on 64:2; no plate for the angels, no close-up on the drops. 65: at night Lut walks out alone; his household walking ahead is only a footsteps plate (65:2 to 65:12), no family figures; nobody turns round; his wife is never drawn. 66: a glow on Lut on 66:2 (Allah informed him), hourglass for the decree; no punishment event in this video. 67: the people of the city (uncountable, faceless) come and speak to one another (rejoicing at the news); their intent is never shown."
  },
  "cover": {
   "series_ar": "لوط وقومه",

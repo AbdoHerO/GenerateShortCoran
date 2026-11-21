@@ -109,6 +109,13 @@
     "beats": [
      {
       "at": [
+       92,
+       3
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
        93,
        1
       ],
@@ -145,6 +152,13 @@
     "beats": [
      {
       "at": [
+       94,
+       6
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
        95,
        1
       ],
@@ -161,6 +175,13 @@
       "at": [
        96,
        2
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       96,
+       6
       ],
       "do": "shot_wide"
      },
@@ -217,7 +238,7 @@
    "scene": "stage",
    "params": {
     "setting": "prayer_hall",
-    "time": "night",
+    "time": "day",
     "actors": [
      {
       "id": "b",
@@ -243,9 +264,17 @@
      {
       "at": [
        98,
+       2
+      ],
+      "do": "ruku",
+      "who": "b"
+     },
+     {
+      "at": [
+       98,
        4
       ],
-      "do": "shot_close",
+      "do": "rise",
       "who": "b"
      },
      {
@@ -261,7 +290,15 @@
        99,
        1
       ],
-      "do": "rise",
+      "do": "sit",
+      "who": "b"
+     },
+     {
+      "at": [
+       99,
+       3
+      ],
+      "do": "sujud",
       "who": "b"
      },
      {
@@ -269,15 +306,7 @@
        99,
        4
       ],
-      "do": "ruku",
-      "who": "b"
-     },
-     {
-      "at": [
-       99,
-       5
-      ],
-      "do": "sujud",
+      "do": "shot_close",
       "who": "b"
      }
     ],
@@ -435,7 +464,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Staging v4. 90-91: a group of deniers in a town at dusk, speaking and shaking their heads; a book plate for «القرآن» (no book in their hands). 92-93 (the questioning on the Day) stay ambient. 94-97 address the Prophet ﷺ, who is never shown: ambient light, a book plate for the call, light for consolation. 98-99: believers in a prayer hall at night stand, prostrate, rise and bow (the remedy As-Sa'di names: remembrance, glorification and prayer). Not glossed: 90 (Al-Muyassar: those who divided the Quran; As-Sa'di: those who divided against the message), 96:1-6 (both tafsirs repeat «مع الله»). «اليقين» is death by both tafsirs."
+  "notes": "Staging v4. 90-91: a group of deniers in a town at dusk, speaking and shaking their heads; a book plate for «القرآن» (no book in their hands). 92-93 (the questioning on the Day) stay ambient. 94-97 address the Prophet ﷺ, who is never shown: ambient light, a book plate for the call, light for consolation. 98-99: believers in a prayer hall by day stand, bow, rise, prostrate, sit and prostrate again, in prayer order (the remedy As-Sa'di names: remembrance, glorification and prayer). Not glossed: 90 (Al-Muyassar: those who divided the Quran; As-Sa'di: those who divided against the message), 96:1-6 (both tafsirs repeat «مع الله»). «اليقين» is death by both tafsirs."
  },
  "cover": {
   "series_ar": "عبر وتسلية",

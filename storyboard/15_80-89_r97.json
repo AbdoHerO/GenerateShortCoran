@@ -56,7 +56,10 @@
       "count": 4,
       "pose": "stand",
       "enter": null,
-      "exit": null,
+      "exit": [
+       81,
+       5
+      ],
       "uncountable": true
      }
     ],
@@ -82,8 +85,7 @@
        80,
        4
       ],
-      "do": "shot_close",
-      "who": "salih"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -135,22 +137,7 @@
    "params": {
     "setting": "mountains",
     "time": "day",
-    "actors": [
-     {
-      "id": "d",
-      "type": "disbelievers",
-      "label": "",
-      "place": "right",
-      "count": 4,
-      "pose": "stand",
-      "enter": null,
-      "exit": [
-       83,
-       1
-      ],
-      "uncountable": true
-     }
-    ],
+    "actors": [],
     "events": [
      {
       "type": "blast",
@@ -181,8 +168,7 @@
        82,
        6
       ],
-      "do": "sit",
-      "who": "d"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -425,8 +411,7 @@
        89,
        2
       ],
-      "do": "look_up",
-      "who": "b"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -637,7 +622,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Thamud, Salih, the she-camel and the blast are never drawn; a mountain plate for «ينحتون من الجبال بيوتا» leaves before the blast. 84 and 85:1-8 keep «فما…» and «وما… إلا» whole. Not glossed: 85:9-11 (the tafsirs' wording repeats Quran phrases), 87 «سبعا من المثاني» (Al-Muyassar: al-Fatiha; As-Sa'di: the seven long surahs, or al-Fatiha). 85:12-14, 88 and 89 address the Prophet ﷺ: no plate starts on them; the book for «والقرآن العظيم» leaves before 88. Stars for the heavens and the earth, an hourglass for «وإن الساعة لآتية» (the Hour is not drawn), geometric for «إن ربك». STAGING v4: Restaged under Staging v4. 80-81: Thamud (uncountable, faceless) in the mountain valley (Al-Muyassar: the valley of al-Hijr) shake their heads and turn away from Salih, a blue drop labelled Salih (named by both tafsirs); light on 81:2 (the signs); the she-camel is not drawn. 82-84: a house plate on 82:5 for the houses cut in the mountains, they sit secure (82:6), then leave the stage before the blast falls on the empty valley (83:2; time day, not dawn); coins on 84:6 (their earnings, wealth). 85-86 stay ambient (creation, the Hour, Allah's names). 87-89 address the Prophet, who is never shown: believers read the Quran (book plate; the tafsirs differ on the seven oft-repeated, so no prayer is drawn), a rich man stands for the enjoyment given to some of them (88:6, coins), the believers for 88:13-15, and they look up for 89 (the clear warner)."
+  "notes": "Thamud, Salih, the she-camel and the blast are never drawn; a mountain plate for «ينحتون من الجبال بيوتا» leaves before the blast. 84 and 85:1-8 keep «فما…» and «وما… إلا» whole. Not glossed: 85:9-11 (the tafsirs' wording repeats Quran phrases), 87 «سبعا من المثاني» (Al-Muyassar: al-Fatiha; As-Sa'di: the seven long surahs, or al-Fatiha). 85:12-14, 88 and 89 address the Prophet ﷺ: no plate starts on them; the book for «والقرآن العظيم» leaves before 88. Stars for the heavens and the earth, an hourglass for «وإن الساعة لآتية» (the Hour is not drawn), geometric for «إن ربك». STAGING v4: Restaged under Staging v4. 80-81: Thamud (uncountable, faceless) in the mountain valley (Al-Muyassar: the valley of al-Hijr) shake their heads, turn away and leave (81:5) from Salih, a blue drop labelled Salih (named by both tafsirs); light on 81:2 (the signs); the she-camel is not drawn. 82-84: the valley is empty (no people drawn): a house plate on 82:5 for the houses cut in the mountains, the blast on the empty valley (83:2; time day, not dawn); coins on 84:6 (their earnings, wealth). 85-86 stay ambient (creation, the Hour, Allah's names). 87-89 address the Prophet, who is never shown: believers read the Quran (book plate; the tafsirs differ on the seven oft-repeated, so no prayer is drawn), a rich man stands for the enjoyment given to some of them (88:6, coins) and the believers for 88:13-15."
  },
  "cover": {
   "series_ar": "عبر وتسلية",

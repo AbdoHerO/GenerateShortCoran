@@ -215,7 +215,7 @@
        4,
        2
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -236,9 +236,17 @@
      {
       "at": [
        5,
-       2
+       1
       ],
       "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       5,
+       3
+      ],
+      "do": "turn",
       "who": "p"
      },
      {
@@ -357,7 +365,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The isolated letters (1:1) are not glossed. A book for «آيات الكتاب وقرآن مبين». 2: the tafsirs place the wish at different times (leaving the Fire / at death and in the Hereafter), so only As-Sa'di's neutral «وقد فات وقت الإمكان». «ذرهم» addresses the Prophet ﷺ: no plate on it; an hourglass for «فسوف يعلمون» and «ولها كتاب معلوم». 4 keeps «وما أهلكنا… إلا» whole. STAGING v4: 1: believers sitting in a prayer hall read the Book (As-Sa'di: it must be received with acceptance); a book plate on 1:3. 2-3: a group of deniers in a market at dusk sits down to eat and talk (3:2-5: eating, enjoying, diverted by hope); the wish of verse 2 is not acted out (the tafsirs place it at different moments, in the Hereafter or at death); hourglass on 3:6. 4-5: the people of a town walk off the stage on 5:5 (their term); no destruction is drawn; hourglass on 4:7 for the known term."
+  "notes": "The isolated letters (1:1) are not glossed. A book for «آيات الكتاب وقرآن مبين». 2: the tafsirs place the wish at different times (leaving the Fire / at death and in the Hereafter), so only As-Sa'di's neutral «وقد فات وقت الإمكان». «ذرهم» addresses the Prophet ﷺ: no plate on it; an hourglass for «فسوف يعلمون» and «ولها كتاب معلوم». 4 keeps «وما أهلكنا… إلا» whole. STAGING v4: 1: believers sitting in a prayer hall read the Book (As-Sa'di: it must be received with acceptance); a book plate on 1:3. 2-3: a group of deniers in a market at dusk sits down to eat and talk (3:2-5: eating, enjoying, diverted by hope); the wish of verse 2 is not acted out (the tafsirs place it at different moments, in the Hereafter or at death); hourglass on 3:6. 4-5: the people of a town turn (5:3) and walk off the stage on 5:5 (their term); no destruction is drawn; hourglass on 4:7 for the known term."
  },
  "cover": {
   "series_ar": "القرآن والمستهزئون",
@@ -365,8 +373,8 @@
   "title_ar": "تمني الكافرين",
   "title_en": "What the deniers will wish",
   "at": [
-   1,
-   5
+   3,
+   3
   ]
  },
  "motion": 3,

@@ -76,15 +76,16 @@
        68,
        3
       ],
-      "do": "shot_close",
-      "who": "lut"
+      "do": "shot_wide"
      },
      {
       "at": [
        68,
        5
       ],
-      "do": "shot_wide"
+      "do": "point",
+      "who": "lut",
+      "to": "d"
      },
      {
       "at": [
@@ -192,15 +193,15 @@
        71,
        3
       ],
-      "do": "shot_close",
-      "who": "lut"
+      "do": "shot_wide"
      },
      {
       "at": [
        71,
        5
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
@@ -215,8 +216,7 @@
        72,
        5
       ],
-      "do": "shot_close",
-      "who": "d"
+      "do": "shot_wide"
      }
     ],
     "motifs": [],
@@ -446,8 +446,8 @@
       "pose": "stand",
       "enter": null,
       "exit": [
-       79,
-       1
+       78,
+       5
       ],
       "uncountable": true
      },
@@ -525,7 +525,7 @@
        79,
        1
       ],
-      "motif": "palm",
+      "motif": "leaf",
       "place": "top",
       "size": "s"
      },
@@ -691,7 +691,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Lut, his guests, his people and the people of al-Ayka are never drawn; nothing of the punishment is drawn (no stones, no overturned city, no sun at the blast). Geometric only on «واتقوا الله». 71 «هؤلاء بناتي» is glossed only with As-Sa'di's «من شدة الأمر الذي أصابه». 72 addresses the Prophet ﷺ: no plate; both tafsirs read «لعمرك» as Allah's oath by his life. Not glossed: 74:1-6 and 79:1-2 (the tafsirs' wording is in Allah's first person or repeats «عذاب يوم الظلة»). Light for the signs (75), footsteps for «لبسبيل مقيم». STAGING v4: Restaged under Staging v4: Lut is a blue drop labelled Lut, his people an uncountable faceless crowd in the town. His guests, his daughters and his wife are not drawn. 68-70: Lut speaks (geometric only on 69:2, the Name), they answer and shake their heads. 71-72: Lut speaks, they turn away (As-Sa'di: they paid no heed); 72:1 addresses the Prophet: not shown, no plate. 73-74: the town is empty (no person on stage): the blast on 73:2, the ruin event on 74:2 (the closest event to the town turned upside down), stones on 74:6; time is day, not dawn (no dawn over a punishment), although 73:3 is sunrise. 75-77: a traveller passes the ruins on the road (Al-Muyassar: the travellers who pass by see them). 78-79: the people of al-Ayka (uncountable) in a garden (As-Sa'di: a garden of many trees), they turn away and leave the stage on 79:1; no punishment event (the verse names none); Shu'ayb is not drawn (not named in these verses); a traveller on the clear road (79:3-5). The garden setting also has a stream (decor, not in the sources)."
+  "notes": "Lut, his guests, his people and the people of al-Ayka are never drawn; nothing of the punishment is drawn (no stones, no overturned city, no sun at the blast). Geometric only on «واتقوا الله». 71 «هؤلاء بناتي» is glossed only with As-Sa'di's «من شدة الأمر الذي أصابه». 72 addresses the Prophet ﷺ: no plate; both tafsirs read «لعمرك» as Allah's oath by his life. Not glossed: 74:1-6 and 79:1-2 (the tafsirs' wording is in Allah's first person or repeats «عذاب يوم الظلة»). Light for the signs (75), footsteps for «لبسبيل مقيم». STAGING v4: Restaged under Staging v4: Lut is a blue drop labelled Lut, his people an uncountable faceless crowd in the town. His guests, his daughters and his wife are not drawn. 68-70: Lut speaks (geometric only on 69:2, the Name), they answer and shake their heads. 71-72: Lut speaks, they turn away (As-Sa'di: they paid no heed); 72:1 addresses the Prophet: not shown, no plate. 73-74: the town is empty (no person on stage): the blast on 73:2, the ruin event on 74:2 (the closest event to the town turned upside down), stones on 74:6; time is day, not dawn (no dawn over a punishment), although 73:3 is sunrise. 75-77: a traveller passes the ruins on the road (Al-Muyassar: the travellers who pass by see them). 78-79: the people of al-Ayka (uncountable) in a garden (As-Sa'di: a garden of many trees), they turn away and leave the stage on 78:5, so 79:1 falls on the empty garden (a leaf plate); no punishment event (the verse names none); Shu'ayb is not drawn (not named in these verses); a traveller on the clear road (79:3-5). The garden setting also has a stream (decor, not in the sources)."
  },
  "cover": {
   "series_ar": "لوط وقومه",

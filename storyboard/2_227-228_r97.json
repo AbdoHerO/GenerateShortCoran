@@ -49,7 +49,7 @@
        227,
        6
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -63,7 +63,7 @@
        228,
        3
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -77,14 +77,14 @@
        228,
        12
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        228,
        15
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -96,23 +96,16 @@
      {
       "at": [
        228,
-       17
+       18
       ],
       "do": "pan_left"
      },
      {
       "at": [
        228,
-       18
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       228,
        20
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -126,7 +119,7 @@
        228,
        25
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -140,7 +133,7 @@
        228,
        34
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -154,7 +147,7 @@
        228,
        37
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -175,6 +168,16 @@
        13
       ],
       "motif": "hourglass",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       228,
+       17
+      ],
+      "until": null,
+      "motif": "light",
       "place": "top",
       "size": "m"
      },
@@ -275,7 +278,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The gloss on «قروء» gives both readings (purities or menstrual periods), as Al-Muyassar does. Short-word flag 228:32 to check by ear. STAGING v4: Divorce and waiting period: a family sitting at home, speaking only on 'if they want reconciliation'; no couple, nothing private. The hourglass (three periods) ends before the Name; house for taking them back; scales for rights like obligations, ending before the Name. STAGING v4: Divorce and waiting period: a family sitting at home, speaking only on 'if they want reconciliation'; no couple, nothing private. The hourglass (three periods) ends before the Name; house for taking them back; scales for rights like obligations, ending before the Name. STAGING v4: Divorce and waiting period stay ambient (review): no family on screen during the waiting period and the wombs. The hourglass (three periods) ends before the Name; house for taking them back; scales for rights like obligations, ending before the Name."
+  "notes": "The gloss on «قروء» gives both readings (purities or menstrual periods), as Al-Muyassar does. Short-word flag 228:32 to check by ear. STAGING v4: Divorce and waiting period stay ambient (review): no family on screen during the waiting period and the wombs. The hourglass (three periods) ends before the Name; a light plate on «إن كن يؤمن» (motion during the long held word); house for taking them back; scales for rights like obligations, ending before the Name."
  },
  "cover": {
   "series_ar": "أحكام الأسرة",

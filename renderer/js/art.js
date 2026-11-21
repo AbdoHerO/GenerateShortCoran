@@ -177,25 +177,25 @@ export function bird(ctx, x, y, s, t, seed = 0) {
 }
 
 export function tent(ctx, x, y, s) {
+  // a light woven Bedouin tent with a shaded opening: no black cube-like mass, no glowing gold doorway
+  // (a dark tent with a gold-lit door could read as the Kaaba in a hajj scene; Al-Baqara picture review)
   ctx.save();
   ctx.translate(x, y); ctx.scale(s, s);
-  ctx.fillStyle = '#3d2a1f';
+  ctx.fillStyle = '#b08a5e';
   ctx.beginPath();
   ctx.moveTo(-170, 0);
   ctx.bezierCurveTo(-170, -120, -120, -175, 0, -180);
   ctx.bezierCurveTo(120, -175, 170, -120, 170, 0);
   ctx.closePath(); ctx.fill();
-  ctx.strokeStyle = '#523829'; ctx.lineWidth = 10;
+  ctx.strokeStyle = '#9a7650'; ctx.lineWidth = 10;
   for (const k of [-0.55, 0, 0.55]) {
     ctx.beginPath(); ctx.moveTo(k * 170, 0); ctx.quadraticCurveTo(k * 150, -120, k * 60, -176); ctx.stroke();
   }
-  const g = ctx.createRadialGradient(0, -40, 10, 0, -40, 110);
-  g.addColorStop(0, '#ffd77a'); g.addColorStop(1, '#f39a2c');
-  ctx.fillStyle = g;
+  ctx.fillStyle = '#7a5a3c';
   ctx.beginPath();
   ctx.moveTo(-58, 0); ctx.lineTo(-58, -78); ctx.quadraticCurveTo(-58, -118, 0, -120);
   ctx.quadraticCurveTo(58, -118, 58, -78); ctx.lineTo(58, 0); ctx.closePath(); ctx.fill();
-  ctx.fillStyle = '#2b1d15';
+  ctx.fillStyle = '#5e432c';
   ctx.fillRect(-178, -6, 356, 8);
   ctx.restore();
 }
