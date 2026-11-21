@@ -83,7 +83,7 @@
        197,
        3
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -122,16 +122,7 @@
        197,
        20
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       197,
-       22
-      ],
-      "do": "point",
-      "who": "w",
-      "to": "c"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -168,6 +159,19 @@
        21
       ],
       "motif": "moon",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       197,
+       22
+      ],
+      "until": [
+       197,
+       26
+      ],
+      "motif": "palm",
       "place": "top",
       "size": "s"
      },
@@ -252,8 +256,8 @@
        5
       ],
       "do": "give",
-      "who": "w",
-      "to": "t"
+      "who": "t",
+      "to": "w"
      },
      {
       "at": [
@@ -418,7 +422,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Arafat as the abstract mountain motif. STAGING v4: Pilgrims on the road, never a sanctuary, Arafat or Muzdalifa (the old mountain plate on «عرفات» is removed). 197: the hajj months (moon), a good deed between travellers, provision (Al-Muyassar: food and drink for the journey) shown by pointing at the camel, the lamp for taqwa. 198: a traveller buys from a trader (Al-Muyassar: profit from trade in the hajj days), then the pilgrims move on at dusk (Al-Muyassar: after sunset) and remember Allah: speak (tasbih, talbiya) then du'a with raised hands, light on «هداكم». STAGING v4: Pilgrims on the road, never a sanctuary, Arafat or Muzdalifa (the old mountain plate on «عرفات» is removed). 197: the hajj months (moon), a good deed between travellers, provision (Al-Muyassar: food and drink for the journey) shown by pointing at the camel, the lamp for taqwa. 198: a traveller buys from a trader (Al-Muyassar: profit from trade in the hajj days), then the pilgrims move on at dusk (Al-Muyassar: after sunset) and remember Allah: speak (tasbih, talbiya) then du'a with raised hands, light on «هداكم»."
+  "notes": "Arafat as the abstract mountain motif. STAGING v4: Pilgrims on the road, never a sanctuary, Arafat or Muzdalifa (the old mountain plate on «عرفات» is removed). 197: the hajj months (moon), a good deed between travellers, provision (Al-Muyassar: food and drink for the journey) shown by pointing at the camel, the lamp for taqwa. 198: a traveller buys from a trader (Al-Muyassar: profit from trade in the hajj days), then the pilgrims move on at dusk (Al-Muyassar: after sunset) and remember Allah: speak (tasbih, talbiya) then du'a with raised hands, light on «هداكم». STAGING v4: Pilgrims on the road, never a sanctuary, Arafat or Muzdalifa (the old mountain plate on «عرفات» is removed). 197: the hajj months (moon), a good deed between travellers, provision (Al-Muyassar: food and drink for the journey) shown by pointing at the camel, the lamp for taqwa. 198: a traveller buys from a trader (Al-Muyassar: profit from trade in the hajj days), then the pilgrims move on at dusk (Al-Muyassar: after sunset) and remember Allah: speak (tasbih, talbiya) then du'a with raised hands, light on «هداكم». STAGING v4: Pilgrims on the road, never a sanctuary, Arafat or Muzdalifa (the old mountain plate on «عرفات» is removed). 197: the hajj months (moon), a good deed between travellers, a palm plate for provision (Al-Muyassar: food and drink for the journey), the lamp for taqwa. 198: a trader pays a pilgrim: he gains from trade (Al-Muyassar: profit from trade in the hajj days), then the pilgrims move on at dusk (Al-Muyassar: after sunset) and remember Allah: speak (tasbih, talbiya) then du'a with raised hands, light on «هداكم». STAGING v4: Pilgrims on the road, never a sanctuary, Arafat or Muzdalifa (the old mountain plate on «عرفات» is removed). 197: the hajj months (moon), a good deed between travellers, a palm plate for provision (Al-Muyassar: food and drink for the journey), the lamp for taqwa. 198: a trader pays a pilgrim: he gains from trade (Al-Muyassar: profit from trade in the hajj days), then the pilgrims move on at dusk (Al-Muyassar: after sunset) and remember Allah: speak (tasbih, talbiya) then du'a with raised hands, light on «هداكم»."
  },
  "cover": {
   "series_ar": "القتال والحج",

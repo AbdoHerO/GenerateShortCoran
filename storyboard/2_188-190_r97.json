@@ -97,15 +97,14 @@
        188,
        9
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        188,
        11
       ],
-      "do": "shot_close",
-      "who": "r"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -124,16 +123,6 @@
      }
     ],
     "motifs": [
-     {
-      "at": [
-       188,
-       3
-      ],
-      "until": null,
-      "motif": "coins",
-      "place": "top",
-      "size": "s"
-     },
      {
       "at": [
        188,
@@ -334,7 +323,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif inside the negated commands of 188 (no coins). Fighting (190) is never shown; the gloss on «ولا تعتدوا» states who may not be harmed. STAGING v4: 188 in a market: two traders; each shakes his head at taking wealth falsely. Nothing is shown of bribes or judges. 189-190 stay ambient (190 is fighting): night sky with the crescent (from «مواقيت», the checker reads «الأهلة» as a Name), the door for entering houses by their doors, scales for 'do not transgress'."
+  "notes": "No motif inside the negated commands of 188 (no coins). Fighting (190) is never shown; the gloss on «ولا تعتدوا» states who may not be harmed. STAGING v4: 188 in a market: two traders; each shakes his head at taking wealth falsely. Nothing is shown of bribes or judges. 189-190 stay ambient (190 is fighting): night sky with the crescent (from «مواقيت», the checker reads «الأهلة» as a Name), the door for entering houses by their doors, scales for 'do not transgress'. STAGING v4: 188 in a market: two traders; each shakes his head (no plate inside the prohibition; scales on «بالإثم») at taking wealth falsely. Nothing is shown of bribes or judges. 189-190 stay ambient (190 is fighting): night sky with the crescent (from «مواقيت», the checker reads «الأهلة» as a Name), the door for entering houses by their doors, scales for 'do not transgress'."
  },
  "cover": {
   "series_ar": "القتال والحج",

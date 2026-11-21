@@ -94,7 +94,7 @@
       ],
       "until": [
        222,
-       21
+       17
       ],
       "motif": "drop",
       "place": "top",
@@ -160,7 +160,7 @@
       ],
       "until": [
        223,
-       11
+       4
       ],
       "motif": "growth",
       "place": "top",
@@ -188,23 +188,9 @@
     225,
     226
    ],
-   "scene": "stage",
+   "scene": "ambient",
    "params": {
-    "setting": "home",
-    "time": "day",
-    "actors": [
-     {
-      "id": "f",
-      "type": "people",
-      "label": "",
-      "place": "center",
-      "count": 4,
-      "pose": "sit",
-      "enter": null,
-      "exit": null
-     }
-    ],
-    "events": [],
+    "mood": "light",
     "beats": [
      {
       "at": [
@@ -216,33 +202,23 @@
      {
       "at": [
        224,
-       5
-      ],
-      "do": "speak",
-      "who": "f"
-     },
-     {
-      "at": [
-       224,
        9
       ],
-      "do": "shot_close",
-      "who": "f"
+      "do": "light_up"
      },
      {
       "at": [
        224,
        11
       ],
-      "do": "speak",
-      "who": "f"
+      "do": "pan_right"
      },
      {
       "at": [
        224,
-       14
+       13
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -254,32 +230,30 @@
      {
       "at": [
        225,
-       6
+       5
       ],
-      "do": "speak",
-      "who": "f"
+      "do": "shot_wide"
      },
      {
       "at": [
        225,
        8
       ],
-      "do": "pan_left"
+      "do": "light_up"
      },
      {
       "at": [
        225,
        11
       ],
-      "do": "shot_close",
-      "who": "f"
+      "do": "pan_right"
      },
      {
       "at": [
        225,
        13
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -293,7 +267,7 @@
        226,
        4
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -307,7 +281,7 @@
        226,
        9
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -326,7 +300,7 @@
       "until": null,
       "motif": "seal",
       "place": "top",
-      "size": "s"
+      "size": "m"
      },
      {
       "at": [
@@ -339,7 +313,7 @@
       ],
       "motif": "hourglass",
       "place": "top",
-      "size": "s"
+      "size": "m"
      }
     ],
     "transition": "morph"
@@ -471,7 +445,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Re-split from 2_221-222_r97, 2_223-226_r97 (reviewed): the audit found no clean audio cut at the old edge. Chapters, glosses and motifs are unchanged. STAGING v4: 222 (menstruation) and 223 stay ambient: private matters, a picture could be misread. The drop now ends before the Name, the growth plate before the Name. 224-226: a family sitting at home and speaking (oaths and making peace between people); for 226 (the vow to keep away from one's wife) nothing is acted, only the hourglass for the four months. STAGING v4: 222 (menstruation) and 223 stay ambient: private matters, a picture could be misread. The drop now ends before the Name, the growth plate before the Name. 224-226: a family sitting at home and speaking (oaths and making peace between people); for 226 (the vow to keep away from one's wife) nothing is acted, only the hourglass for the four months."
+  "notes": "Re-split from 2_221-222_r97, 2_223-226_r97 (reviewed): the audit found no clean audio cut at the old edge. Chapters, glosses and motifs are unchanged. STAGING v4: 222 (menstruation) and 223 stay ambient: private matters, a picture could be misread. The drop now ends before the Name, the growth plate before the Name. 224-226: a family sitting at home and speaking (oaths and making peace between people); for 226 (the vow to keep away from one's wife) nothing is acted, only the hourglass for the four months. STAGING v4: 222 (menstruation) and 223 stay ambient: private matters, a picture could be misread. The drop now ends before the Name, the growth plate before the Name. 224-226: a family sitting at home and speaking (oaths and making peace between people); for 226 (the vow to keep away from one's wife) nothing is acted, only the hourglass for the four months. STAGING v4: 222 (menstruation) and 223 stay ambient: private matters, a picture could be misread. The drop now ends before the Name, the growth plate before the Name. 224-226 ambient too (review): no people on screen during 226 (the vow to keep away from one's wife); the seal for oaths, the hourglass for the four months."
  },
  "cover": {
   "series_ar": "أحكام الأسرة",

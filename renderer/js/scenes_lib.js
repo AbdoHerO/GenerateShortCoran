@@ -902,8 +902,9 @@ function stageFrame(b, tb, L, T, E, B) {
   switch (b.do) {
     case 'shot_sky': return { x: 480, y: 300, z: 1.12 };
     case 'shot_ground': return { x: 480, y: 560, z: 1.3 };
-    case 'pan_left': return { x: 330, y: 445, z: 1.16 };
-    case 'pan_right': return { x: 630, y: 445, z: 1.16 };
+    // gentler pans: at 1.16 / ±150 px they cropped a drop's name label at the left or right place (Al-Hijr review)
+    case 'pan_left': return { x: 375, y: 445, z: 1.11 };
+    case 'pan_right': return { x: 585, y: 445, z: 1.11 };
     case 'push_in': return { x: 480, y: 470, z: 1.38 };
     case 'shot_close': {
       const a = L.actors.find((x) => x.id === b.who);
@@ -1093,8 +1094,8 @@ function fig(ctx, x, y, s, o = {}) {
     ctx.strokeStyle = 'rgba(60,45,30,0.5)'; ctx.lineWidth = 1.2; ctx.setLineDash([2, 2]); ctx.strokeRect(-16, -40 + sy * 0.5, 11, 10); ctx.strokeRect(7, -26, 12, 9); ctx.setLineDash([]);
   }
   if (o.trim) {
+    // hem and neckline only: a vertical band crossed by the belt reads as a cross (Al-Hijr picture review)
     ctx.fillStyle = o.trim; ctx.fillRect(-26.5, -17, 53, 4);
-    ctx.fillRect(-2, -76 + sy, 4, 62 - sy);
     ctx.beginPath(); ctx.moveTo(-12, -82 + sy); ctx.quadraticCurveTo(0, -72 + sy, 12, -82 + sy); ctx.lineWidth = 3; ctx.strokeStyle = o.trim; ctx.stroke();
   }
   ctx.fillStyle = belt; ctx.fillRect(-23.5, -48 + sy * 0.55, 47, 9);
@@ -1524,7 +1525,7 @@ const SETTINGS = {
     far(ctx) {
       const far = peaks(141, 6, -160, 1120, 220, 320, 320, 440);
       A.mountains(ctx, far, HY + 5, '#b8c3cf', '#a0aebd');
-      ctx.fillStyle = '#f4f6f9';
+      ctx.fillStyle = '#e6dccb';   // pale stone, not snow: the Quran's mountains are in arid lands
       for (const p of far) { const ay = HY + 5 - p.h, k = 0.18; ctx.beginPath(); ctx.moveTo(p.x, ay); ctx.lineTo(p.x + p.w * k * 0.5, ay + p.h * k); ctx.lineTo(p.x, ay + p.h * k * 0.8); ctx.lineTo(p.x - p.w * k * 0.5, ay + p.h * k); ctx.closePath(); ctx.fill(); }
       mistBand(ctx, HY - 20, 40, 0.45);
     },
@@ -1801,7 +1802,7 @@ function boltDraw(ctx, LT) {
 // ---- people: looks per type ----
 const MAN_LOOKS = {
   plain: { robe: '#b08d63', belt: '#6d5236', scarf: '#ffffff', beard: true },
-  rich: { robe: '#5a2a6a', belt: '#e2b13c', scarf: '#fbf6ea', cape: '#2f2a5e', trim: '#e2b13c', beard: true },
+  rich: { robe: '#5a2a6a', belt: '#8a5a2a', scarf: '#fbf6ea', cape: '#2f2a5e', trim: '#e2b13c', beard: true },
   poor: { robe: '#9c8f78', belt: '#6f6450', scarf: '#e9e2d2', patches: true },
   traveller: { robe: '#8a6a4a', belt: '#5a4430', scarf: '#efe7d6', staff: true, bundle: true, beard: true },
 };
