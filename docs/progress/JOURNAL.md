@@ -709,3 +709,20 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
 - **Lesson:** trimming an excerpt to avoid a Quran bigram must never drop a negation. 7:89 «وليس لنا أن…» was cut to
   «نتحول إلى غير دين ربنا» and was removed at once.
 - Three independent reviewers are running: glosses 1-102, glosses 103-206, and motifs/moods/transitions.
+
+### Al-Anfal: audit, plan and all 23 unblocked storyboards (2026-11-21)
+
+- **Audit:**
+  - 25.0 min of recitation.
+  - Text: two cases already in DECISIONS_NEEDED §1, 8:6 «بعد ما» (spacing) and 8:66 «الآن» (hamza).
+  - Timing: 8:47 overlaps 8:46 by 60 ms (§2).
+  - Short-word flags: 44, 54, 70.
+- **Plan:** `plans/8.json`, 26 videos. Blocked: 6-8, 46-47 and 66. One long unit, 56-61.
+- **Care:**
+  - The battle, the angels, the Shaytan, weapons, killing and captives are never drawn.
+  - Fighting verses keep only what both tafsirs say, with their restrictions: 15-16 exceptions, 39 «فتنة» = «شرك
+    وصد عن سبيل اللّه», 45 «طائفة من الكفار تقاتلكم», 57 «في حال المحاربة… لا يكون لهم عهد», 58 «من قرائن
+    أحوالهم… وأخبرهم», 60 «الساعين في هلاككم», 61 peace, 72 the treaty exception.
+  - «فشرد بهم», «ترهبون به» and the striking in 12 and 50 are not glossed.
+  - No people are named politically (Al-Muyassar's naming in 56 is not used), and As-Sa'di's «حزب الله» is avoided.
+- Two independent reviewers are running (glosses; motifs).
