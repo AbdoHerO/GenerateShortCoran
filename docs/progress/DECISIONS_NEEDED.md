@@ -71,6 +71,10 @@ already moves every verse change onto the reciter's measured pause, and lists ea
   INFO and listed on the review sheet for listening.
 - **B.** Keep the rule. These 4 videos are not made.
 
+**Also waiting for this decision (no clean audio cut):** 2:183–185 can only start after 2:182, where the audio has no
+clean cut. 2:182 belongs to 2:180–182, which decision 1 blocks (2:181). Likewise Ayat al-Kursi, 2:255–256, can only
+start with 2:253–254, which decision 2 blocks (2:253).
+
 **Also affected: Aal Imran (surah 3).**
 - Overlaps:
   - 134: 40 ms;

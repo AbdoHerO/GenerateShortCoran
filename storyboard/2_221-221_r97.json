@@ -3,9 +3,9 @@
  "passage": {
   "chapter": 2,
   "from": 221,
-  "to": 222
+  "to": 221
  },
- "data_dir": "data/2_221-222_r97",
+ "data_dir": "data/2_221-221_r97",
  "recitation_id": 97,
  "intro_s": 1.4,
  "outro_s": 4.6,
@@ -151,81 +151,6 @@
      }
     ]
    }
-  },
-  {
-   "id": "c2",
-   "title": "أحكام الطهارة",
-   "verses": [
-    222
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "light",
-    "beats": [
-     {
-      "at": [
-       222,
-       4
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       222,
-       8
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       222,
-       12
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       222,
-       14
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       222,
-       19
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       222,
-       22
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       222,
-       26
-      ],
-      "do": "pan_right"
-     }
-    ],
-    "motifs": [
-     {
-      "at": [
-       222,
-       16
-      ],
-      "until": null,
-      "motif": "drop",
-      "place": "top",
-      "size": "m"
-     }
-    ],
-    "transition": "light_sweep"
-   }
   }
  ],
  "glosses": [
@@ -261,44 +186,11 @@
    "excerpt": "ولا تُزَوِّجوا نساءكم المؤمنات -إماء أو حرائر- للمشركين",
    "target": "",
    "tone": "amber"
-  },
-  {
-   "verse": 222,
-   "words": [
-    3,
-    3
-   ],
-   "tafsir": 16,
-   "excerpt": "الدم الذي يسيل من أرحام النساء جِبِلَّة في أوقات مخصوصة",
-   "target": "",
-   "tone": "blue"
-  },
-  {
-   "verse": 222,
-   "words": [
-    6,
-    6
-   ],
-   "tafsir": 16,
-   "excerpt": "أذى مستقذر يضر من يَقْرَبُه",
-   "target": "",
-   "tone": "amber"
-  },
-  {
-   "verse": 222,
-   "words": [
-    16,
-    16
-   ],
-   "tafsir": 91,
-   "excerpt": "اغتسلن",
-   "target": "motif",
-   "tone": "blue"
   }
  ],
  "director": {
   "mode": "hand",
-  "notes": "Family rulings kept modest: no people pictured; glosses chosen from the plain legal wording of Al-Muyassar."
+  "notes": "Re-split from 2_221-222_r97 (reviewed): the audit found no clean audio cut at the old edge. Chapters, glosses and motifs are unchanged."
  },
  "cover": {
   "series_ar": "أحكام الأسرة",
