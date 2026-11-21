@@ -147,7 +147,7 @@
       ],
       "until": [
        19,
-       13
+       12
       ],
       "motif": "hourglass",
       "place": "top",
@@ -165,7 +165,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
@@ -240,10 +240,10 @@
     15,
     25
    ],
-   "tafsir": 16,
-   "excerpt": "فإنه لو كان فيهما شفعاء يشفعون لكم عنده لكان أعلم بهم منكم",
+   "tafsir": 91,
+   "excerpt": "فهل يوجد قول أبطل من هذا القول",
    "target": "",
-   "tone": "blue"
+   "tone": "red"
   },
   {
    "verse": 18,
@@ -330,8 +330,8 @@
  "cover": {
   "series_ar": "الإنسان والإمهال",
   "series_en": "Man and respite",
-  "title_ar": "شفعاء بلا نفع",
-  "title_en": "Intercessors of no use",
+  "title_ar": "شفعاء مزعومون",
+  "title_en": "So-called intercessors",
   "at": [
    18,
    1

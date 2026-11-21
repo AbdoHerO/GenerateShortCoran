@@ -283,8 +283,8 @@
     20,
     22
    ],
-   "tafsir": 16,
-   "excerpt": "فأعدُّوا أمركم، وادعوا شركاءكم",
+   "tafsir": 91,
+   "excerpt": "كلكم، بحيث لا يتخلف منكم أحد، ولا تدخروا من مجهودكم شيئًا",
    "target": "",
    "tone": "blue"
   },
@@ -305,8 +305,8 @@
     1,
     2
    ],
-   "tafsir": 91,
-   "excerpt": "عن ما دعوتكم إليه",
+   "tafsir": 16,
+   "excerpt": "فإن أعرضتم عن دعوتي",
    "target": "",
    "tone": "red"
   },
@@ -393,8 +393,8 @@
   "notes": "Nuh and the messengers of 74 are never drawn and get no motif; 71-72 (his words) have no motif at all. The flood and the drowning (73:9-12) are not drawn or glossed; a ship for «في الفلك» that leaves before «وأغرقنا». Al-Muyassar's first-person «فنجيناه… وجعلناهم» and As-Sa'di's «ليلا ونهارا» (71:5) are not used."
  },
  "cover": {
-  "series_ar": "نوح ومن بعده",
-  "series_en": "Nuh and those after him",
+  "series_ar": "نوح والرسل",
+  "series_en": "Nuh and the messengers",
   "title_ar": "قصة نوح",
   "title_en": "The story of Nuh",
   "at": [

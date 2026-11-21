@@ -28,13 +28,13 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "إجابة الدعاء",
+   "title": "الأمر بالاستقامة",
    "verses": [
     89
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn",
+    "mood": "geometric",
     "beats": [
      {
       "at": [
@@ -70,7 +70,7 @@
   },
   {
    "id": "c2",
-   "title": "إيمان بعد فوات",
+   "title": "إيمان بعد فوات الأوان",
    "verses": [
     90
    ],
@@ -176,17 +176,6 @@
   {
    "verse": 89,
    "words": [
-    5,
-    5
-   ],
-   "tafsir": 91,
-   "excerpt": "على دينكما، واستمرا على دعوتكما",
-   "target": "",
-   "tone": "green"
-  },
-  {
-   "verse": 89,
-   "words": [
     6,
     11
    ],
@@ -225,8 +214,8 @@
  "cover": {
   "series_ar": "موسى وفرعون",
   "series_en": "Musa and Pharaoh",
-  "title_ar": "نهاية الطغيان",
-  "title_en": "The end of tyranny",
+  "title_ar": "نهاية فرعون",
+  "title_en": "Pharaoh's end",
   "at": [
    89,
    1

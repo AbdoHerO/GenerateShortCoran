@@ -34,7 +34,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn",
+    "mood": "geometric",
     "beats": [
      {
       "at": [
@@ -166,7 +166,7 @@
        61,
        33
       ],
-      "motif": "stars",
+      "motif": "geometric",
       "place": "top",
       "size": "m"
      },
@@ -226,18 +226,7 @@
     4
    ],
    "tafsir": 91,
-   "excerpt": "حال من أحوالك الدينية والدنيوية",
-   "target": "",
-   "tone": "blue"
-  },
-  {
-   "verse": 61,
-   "words": [
-    5,
-    9
-   ],
-   "tafsir": 91,
-   "excerpt": "وما تتلو من القرآن الذي أوحاه الله إليك",
+   "excerpt": "يخبر تعالى، عن عموم مشاهدته، واطلاعه على جميع أحوال العباد",
    "target": "",
    "tone": "blue"
   },

@@ -28,7 +28,7 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "المعاد والجزاء",
+   "title": "يقين البعث",
    "verses": [
     4
    ],
@@ -195,7 +195,7 @@
       "size": "m"
      }
     ],
-    "transition": "light_sweep"
+    "transition": "dissolve"
    }
   }
  ],
@@ -285,8 +285,8 @@
  "cover": {
   "series_ar": "آيات الخلق والبعث",
   "series_en": "Signs of creation and resurrection",
-  "title_ar": "المعاد والجزاء",
-  "title_en": "The return and the reward",
+  "title_ar": "يقين البعث",
+  "title_en": "Certainty of the resurrection",
   "at": [
    4,
    1

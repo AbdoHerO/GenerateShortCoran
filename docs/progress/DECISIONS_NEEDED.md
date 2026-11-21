@@ -166,6 +166,9 @@ import it again. Re-importing would create « (2) » next to the PDF-only creati
 
 **Also affected: Yunus (surah 10), found 2026-11-21.**
 - Decision 1 (the hamza in «الآن»): 10:51 and 10:91 «ءَآلْـَٔـٰنَ» (QF: U+0640 U+0654 U+064E U+0640 U+0670). Blocked: 10:50-51 and 10:91.
+- Also held because of 10:91: 10:89-90 and 10:92-93 (gloss review, SERIOUS). 89-90 alone ends on Pharaoh's «آمنت» with nothing to
+  refute it, and neither tafsir of 89-90 can. Once 10:91 is unblocked, 89-90 becomes 89-91 (91 carries the refutation; the cuts
+  after 88 and 91 are clean), and 92-93 («ننجيك ببدنك») is published after it.
 - Decision 2 (overlaps): 10:34 overlaps 10:33 by 20 ms; 10:107 overlaps 10:106 by 80 ms. Blocked: 10:31-34 and 10:104-107.
 
 ## 5. Hud 11:13: the Quran Foundation word text spells «افتراه» differently (found 2026-11-21)

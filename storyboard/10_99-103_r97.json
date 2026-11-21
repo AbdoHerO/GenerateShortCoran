@@ -28,7 +28,7 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "مشيئة الله والإيمان",
+   "title": "التوفيق للإيمان",
    "verses": [
     99,
     100
@@ -287,11 +287,11 @@
   {
    "verse": 100,
    "words": [
-    9,
+    12,
     14
    ],
-   "tafsir": 91,
-   "excerpt": "الشر والضلال",
+   "tafsir": 16,
+   "excerpt": "أمره ونهيه",
    "target": "",
    "tone": "red"
   },
@@ -335,7 +335,7 @@
     15
    ],
    "tafsir": 91,
-   "excerpt": "فستعلمون من تكون له العاقبة الحسنة",
+   "excerpt": "والنجاة في الدنيا والآخرة، وليست إلا للرسل وأتباعهم",
    "target": "",
    "tone": "blue"
   },
@@ -357,7 +357,7 @@
     10
    ],
    "tafsir": 91,
-   "excerpt": "فإنه -بحسب ما مع العبد من الإيمان- تحصل له النجاة من المكاره",
+   "excerpt": "وهذا من دفعه عن المؤمنين",
    "target": "",
    "tone": "green"
   }
@@ -369,8 +369,8 @@
  "cover": {
   "series_ar": "اليقين والنجاة",
   "series_en": "Certainty and salvation",
-  "title_ar": "مشيئة الله والإيمان",
-  "title_en": "Allah's will and faith",
+  "title_ar": "التوفيق للإيمان",
+  "title_en": "Guided to faith",
   "at": [
    99,
    1

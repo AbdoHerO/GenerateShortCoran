@@ -171,17 +171,6 @@
    "tone": "red"
   },
   {
-   "verse": 108,
-   "words": [
-    19,
-    22
-   ],
-   "tafsir": 16,
-   "excerpt": "إنما أنا رسول مبلِّغ أبلِّغكم ما أُرْسِلْت به",
-   "target": "",
-   "tone": "blue"
-  },
-  {
    "verse": 109,
    "words": [
     1,
@@ -220,8 +209,8 @@
   "notes": "Both verses address the Prophet ﷺ; no plate on his self-description («وما أنا عليكم بوكيل»): the two paths leave before it. As-Sa'di's «ولا يضر الله شيئًا» (3:144 wording) and his closing «بالسيف والسنان» are not used. Light for «قد جاءكم الحق», two paths for «فمن اهتدى… ومن ضل», geometric for «حتى يحكم الله»."
  },
  "cover": {
-  "series_ar": "الدين الخالص",
-  "series_en": "Pure religion",
+  "series_ar": "التوحيد الخالص",
+  "series_en": "Pure monotheism",
   "title_ar": "الثبات على الوحي",
   "title_en": "Holding to the revelation",
   "at": [

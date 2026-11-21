@@ -28,7 +28,7 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "جزاء المسيئين",
+   "title": "مصير العصاة",
    "verses": [
     27
    ],
@@ -224,7 +224,7 @@
     12
    ],
    "tafsir": 91,
-   "excerpt": "بالبعد البدني والقلبي، وحصلت بينهم العداوة الشديدة",
+   "excerpt": "بالبعد البدني والقلبي",
    "target": "",
    "tone": "red"
   },
@@ -247,8 +247,8 @@
  "cover": {
   "series_ar": "حقيقة الدنيا",
   "series_en": "What this life is",
-  "title_ar": "جزاء المسيئين",
-  "title_en": "The recompense of evil",
+  "title_ar": "مصير العصاة",
+  "title_en": "The fate of the sinners",
   "at": [
    27,
    1

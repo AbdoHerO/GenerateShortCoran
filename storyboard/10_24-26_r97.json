@@ -253,7 +253,7 @@
   },
   {
    "id": "c3",
-   "title": "جزاء الإحسان",
+   "title": "ثواب المحسنين",
    "verses": [
     26
    ],
@@ -413,17 +413,6 @@
   {
    "verse": 26,
    "words": [
-    5,
-    10
-   ],
-   "tafsir": 91,
-   "excerpt": "لا ينالهم مكروه، بوجه من الوجوه",
-   "target": "",
-   "tone": "green"
-  },
-  {
-   "verse": 26,
-   "words": [
     11,
     16
    ],
@@ -443,8 +432,8 @@
   "title_ar": "الدنيا والدار الباقية",
   "title_en": "This life and the lasting home",
   "at": [
-   24,
-   1
+   25,
+   2
   ]
  },
  "motion": 3

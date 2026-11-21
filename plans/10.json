@@ -31,8 +31,8 @@
     {
      "from": 4,
      "to": 5,
-     "title_ar": "المعاد والجزاء",
-     "title_en": "The return and the reward",
+     "title_ar": "يقين البعث",
+     "title_en": "Certainty of the resurrection",
      "visual": "ambient",
      "care": "",
      "est_s": 68
@@ -66,8 +66,8 @@
     {
      "from": 14,
      "to": 17,
-     "title_ar": "طلب قرآن آخر",
-     "title_en": "Demanding another Quran",
+     "title_ar": "تعنت المكذبين",
+     "title_en": "The deniers' obstinacy",
      "visual": "ambient",
      "care": "",
      "est_s": 101
@@ -75,8 +75,8 @@
     {
      "from": 18,
      "to": 20,
-     "title_ar": "شفعاء بلا نفع",
-     "title_en": "Intercessors of no use",
+     "title_ar": "شفعاء مزعومون",
+     "title_en": "So-called intercessors",
      "visual": "ambient",
      "care": "",
      "est_s": 86
@@ -119,8 +119,8 @@
     {
      "from": 27,
      "to": 28,
-     "title_ar": "جزاء المسيئين",
-     "title_en": "The recompense of evil",
+     "title_ar": "مصير العصاة",
+     "title_en": "The fate of the sinners",
      "visual": "ambient",
      "care": "Hell and the Gathering never drawn.",
      "est_s": 63
@@ -252,8 +252,8 @@
     {
      "from": 62,
      "to": 66,
-     "title_ar": "أمن أهل التقوى",
-     "title_en": "The security of the pious",
+     "title_ar": "أمن المتقين",
+     "title_en": "The security of the God-fearing",
      "visual": "ambient",
      "care": "",
      "est_s": 80
@@ -270,8 +270,8 @@
    ]
   },
   {
-   "title_ar": "نوح ومن بعده",
-   "title_en": "Nuh and those after him",
+   "title_ar": "نوح والرسل",
+   "title_en": "Nuh and the messengers",
    "from": 71,
    "to": 74,
    "videos": [
@@ -322,11 +322,12 @@
     {
      "from": 89,
      "to": 90,
-     "title_ar": "نهاية الطغيان",
-     "title_en": "The end of tyranny",
+     "title_ar": "نهاية فرعون",
+     "title_en": "Pharaoh's end",
      "visual": "ambient",
      "care": "The sea crossing and Pharaoh's drowning never drawn; his late faith framed.",
-     "est_s": 66
+     "est_s": 66,
+     "blocked": "Held (Yunus gloss review S1): 89-90 alone ends on Pharaoh's declaration with no refutation; it must become 89-91 (91 carries «الآن وقد عصيت قبل») once decision §1 settles 10:91. 92-93 is published only after 89-91."
     },
     {
      "from": 91,
@@ -345,7 +346,8 @@
      "title_en": "A lesson for generations",
      "visual": "ambient",
      "care": "Pharaoh's body never drawn.",
-     "est_s": 50
+     "est_s": 50,
+     "blocked": "Held (Yunus gloss review S1): 89-90 alone ends on Pharaoh's declaration with no refutation; it must become 89-91 (91 carries «الآن وقد عصيت قبل») once decision §1 settles 10:91. 92-93 is published only after 89-91."
     }
    ]
   },
@@ -367,8 +369,8 @@
     {
      "from": 99,
      "to": 103,
-     "title_ar": "مشيئة الله والإيمان",
-     "title_en": "Allah's will and faith",
+     "title_ar": "التوفيق للإيمان",
+     "title_en": "Guided to faith",
      "visual": "ambient",
      "care": "",
      "est_s": 84
@@ -376,16 +378,16 @@
    ]
   },
   {
-   "title_ar": "الدين الخالص",
-   "title_en": "Pure religion",
+   "title_ar": "التوحيد الخالص",
+   "title_en": "Pure monotheism",
    "from": 104,
    "to": 109,
    "videos": [
     {
      "from": 104,
      "to": 107,
-     "title_ar": "الدين الخالص",
-     "title_en": "Pure religion",
+     "title_ar": "صفاء العبادة",
+     "title_en": "Pure worship",
      "visual": "ambient",
      "care": "",
      "est_s": 97,

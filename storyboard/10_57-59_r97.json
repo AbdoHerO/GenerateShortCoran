@@ -95,7 +95,7 @@
       ],
       "until": [
        57,
-       8
+       7
       ],
       "motif": "book",
       "place": "top",
@@ -106,7 +106,10 @@
        57,
        12
       ],
-      "until": null,
+      "until": [
+       58,
+       1
+      ],
       "motif": "light",
       "place": "top",
       "size": "m"

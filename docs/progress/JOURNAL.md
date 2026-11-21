@@ -991,3 +991,40 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
   - 13 built Aal Imran videos are being rebuilt.
   - Already published drafts (surahs 1-2, early Aal Imran) are not changed. The reviewer may see such plates there.
 - Yunus still to fix with its review: 10:9, 10:19, 10:57, 10:85.
+
+### Yunus reviews applied; Hud 18-60 written (2026-11-21)
+
+- **Yunus motifs** (1 SERIOUS, 13 MINOR), all applied:
+  - SERIOUS: the 24-26 cover was the garden mood under «الدنيا والدار الباقية», with Paradise in the same video. The
+    cover now sits on 25:2 (light).
+  - Plates leave before «ربهم/ربك/ربكم» (9, 19, 57, 85; 61 stars → geometric).
+  - The lamp flame in a Paradise passage (9) is now light.
+  - Scales on «لا يظلم الناس» (44) → geometric.
+  - Plates no longer start on «وبشر», «قل» or «قل» (2, 35, 58).
+  - Moods changed:
+    - 20 → night_sky (ultimatum);
+    - 60 → geometric (threat);
+    - 89 → geometric (Pharaoh's punishment).
+  - The light_sweep peaking on «هو الذي جعل الشمس ضياء» (5) is now a dissolve.
+- **Yunus glosses** (2 SERIOUS, 36 MINOR), all applied:
+  - S1: 10:89-90 alone ends on Pharaoh's «آمنت… وأنا من المسلمين» with no refutation possible inside 89-90.
+    - 89-90 and 92-93 are held (plans/10.json, DECISIONS_NEEDED §1 Yunus).
+    - They become 89-91 then 92-93 once 10:91 is unblocked.
+  - S2: 10:61 split «وما تتلو… إلا» across chips (addressed to the Prophet ﷺ). Words 1-4 now carry As-Sa'di's «يخبر تعالى،
+    عن عموم مشاهدته…», and the 5-9 gloss is dropped.
+  - MINOR:
+    - Framed: the chiefs' accusation (78).
+    - Disputed reading dropped (100 → «أمره ونهيه»).
+    - Musa-only gloss narrowed (75).
+    - Source slip fixed (88).
+    - Quran echoes removed (13, 16, 18, 41, 46, 71, 79, 96, 102, 108).
+    - Unreadably short boxes merged (26, 28, 68, 89).
+    - 16 titles, covers and series renamed: «نوح والرسل», «التوحيد الخالص», «نهاية فرعون» (not a slogan), «أمن المتقين»
+      (74:56 describes Allah), and others.
+  - All 29 re-verified PASSED.
+  - 27 Yunus videos queued (89-90 and 92-93 held).
+- **Hud 18-60:** 10 storyboards, all PASSED and cut-checked.
+  - Nuh 25-40 (no plate for Nuh; the ark only as a symbol, never the flood).
+  - 50-60 re-split to 50-52 / 53-56 / 57-60, so Hud's oath (54:8-55:7, one sentence) stays in one video.
+  - The chiefs' claims are framed with As-Sa'di's «رادين», «بزعمهم», «يعنون بذلك», «وكذبوا في قولهم هذا».
+  - 11:35: the tafsirs differ on who is meant (Nuh, or the Prophet ﷺ), so the gloss is neutral and nothing is drawn.
