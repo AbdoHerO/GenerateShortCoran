@@ -329,21 +329,21 @@
     },
     {
      "from": 87,
-     "to": 91,
+     "to": 89,
      "title_ar": "عاقبة الردة",
      "title_en": "Where apostasy leads",
      "visual": "ambient",
-     "care": "",
-     "est_s": 95
+     "care": "Re-split at build time: the reciter joins 90-91-92 without a pause, so 87-91 could not end at 91.",
+     "est_s": 36
     },
     {
-     "from": 92,
+     "from": 90,
      "to": 94,
      "title_ar": "الإنفاق من المحبوب",
      "title_en": "Giving what you love",
      "visual": "ambient",
-     "care": "",
-     "est_s": 77
+     "care": "One unit 90-94: the reciter joins 90-91-92.",
+     "est_s": 122
     },
     {
      "from": 95,

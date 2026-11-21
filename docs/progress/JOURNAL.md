@@ -851,3 +851,20 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
   - From now on, fix already-reviewed storyboards in the JSON, never by re-running an old spec.
 - **Clean-up:** removed `storyboard/3_33-36` and `3_37-39`. They were superseded by the 33-37 / 38-39 re-split, and
   they are in no plan and not in the ledger.
+
+### Aal Imran 87-94 re-split; At-Tawba 60-80 written (2026-11-21)
+
+- **Aal Imran 87-94:**
+  - `prepare.py` refused 3_87-91: the reciter joins 90-91-92 with no pause, so no video may end at 91. The surah
+    audit had not flagged it.
+  - Re-split as 87-89 (33 s) and 90-94 (119 s).
+  - The reviewed chapters, glosses and covers were carried over unchanged, except one 3:91 excerpt: «ليفتدي به نفسه
+    من عذاب الله» now meets 3:93's «نفسه من», so it is As-Sa'di's «ليفتدي به من عذاب الله ما نفعه ذلك».
+  - 92-94 was removed before its build finished. Neither old id was ever published.
+- **At-Tawba 60-80:** nine storyboards, all verified PASSED and cut-checked.
+  - 60: the eight zakat categories; «وفي سبيل الله» is not glossed.
+  - 61-79: the hypocrites' sayings and oaths are framed.
+  - 73: only As-Sa'di's restriction «حيث اقتضت الحال الغلظة عليهم» is glossed; Al-Muyassar's «بالسيف» is not used.
+  - 75: Tha'laba is not named.
+  - 72 (Paradise): `light` mood only.
+  - Series renamed: «فريضة الزكاة», «وجوه النفاق».

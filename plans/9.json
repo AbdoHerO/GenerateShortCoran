@@ -276,8 +276,8 @@
     {
      "from": 61,
      "to": 63,
-     "title_ar": "أذى الرسول",
-     "title_en": "Harming the Messenger",
+     "title_ar": "حرمة الرسول",
+     "title_en": "Honouring the Messenger",
      "visual": "ambient",
      "care": "",
      "est_s": 66
@@ -285,8 +285,8 @@
     {
      "from": 64,
      "to": 66,
-     "title_ar": "الاستهزاء بالدين",
-     "title_en": "Mocking the religion",
+     "title_ar": "تعظيم الدين",
+     "title_en": "Revering the religion",
      "visual": "ambient",
      "care": "",
      "est_s": 72
@@ -294,8 +294,8 @@
     {
      "from": 67,
      "to": 69,
-     "title_ar": "صفات المنافقين",
-     "title_en": "The hypocrites' traits",
+     "title_ar": "أوصاف النفاق",
+     "title_en": "The marks of hypocrisy",
      "visual": "ambient",
      "care": "Hell: nothing literal.",
      "est_s": 107
@@ -312,8 +312,8 @@
     {
      "from": 71,
      "to": 72,
-     "title_ar": "صفات المؤمنين",
-     "title_en": "The believers' traits",
+     "title_ar": "أوصاف المؤمنين",
+     "title_en": "The marks of the believers",
      "visual": "ambient",
      "care": "Paradise: nothing literal; no river or gold motif.",
      "est_s": 85
@@ -321,8 +321,8 @@
     {
      "from": 73,
      "to": 74,
-     "title_ar": "الحزم مع المنافقين",
-     "title_en": "Firmness with the hypocrites",
+     "title_ar": "الحزم والتوبة",
+     "title_en": "Firmness and repentance",
      "visual": "ambient",
      "care": "Fighting verse: only what both tafsirs say, with their restrictions; no battle, weapon or killing drawn; no present-day reading or people targeted.",
      "est_s": 66
@@ -330,8 +330,8 @@
     {
      "from": 75,
      "to": 79,
-     "title_ar": "نقض العهد مع الله",
-     "title_en": "Breaking the pledge to Allah",
+     "title_ar": "العهد المنكوث",
+     "title_en": "The broken pledge",
      "visual": "ambient",
      "care": "",
      "est_s": 85
@@ -339,8 +339,8 @@
     {
      "from": 80,
      "to": 80,
-     "title_ar": "لا نفع للاستغفار",
-     "title_en": "Seeking forgiveness avails not",
+     "title_ar": "استغفار بلا أثر",
+     "title_en": "Forgiveness sought in vain",
      "visual": "ambient",
      "care": "",
      "est_s": 34
