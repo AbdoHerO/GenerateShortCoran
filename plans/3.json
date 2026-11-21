@@ -256,8 +256,8 @@
     {
      "from": 66,
      "to": 69,
-     "title_ar": "النسب إلى إبراهيم",
-     "title_en": "Who belongs to Ibrahim",
+     "title_ar": "الانتساب إلى إبراهيم",
+     "title_en": "Claiming Ibrahim",
      "visual": "ambient",
      "care": "Ibrahim (prophet): no motif on him.",
      "est_s": 83
@@ -330,8 +330,8 @@
     {
      "from": 87,
      "to": 91,
-     "title_ar": "جزاء المرتدين",
-     "title_en": "Those who disbelieve after faith",
+     "title_ar": "عاقبة الردة",
+     "title_en": "Where apostasy leads",
      "visual": "ambient",
      "care": "",
      "est_s": 95
@@ -357,8 +357,8 @@
     {
      "from": 98,
      "to": 101,
-     "title_ar": "تحذير من طاعتهم",
-     "title_en": "A warning against obeying them",
+     "title_ar": "الثبات على الإيمان",
+     "title_en": "Standing firm in faith",
      "visual": "ambient",
      "care": "Re-split: no clean audio cut at the old edge (audit 'nocut'). The Kaaba only as geometric, never as an object of worship; Maqam Ibrahim not drawn.",
      "est_s": 74
@@ -509,8 +509,8 @@
     {
      "from": 149,
      "to": 151,
-     "title_ar": "الوعد والعصيان",
-     "title_en": "The promise and the slip",
+     "title_ar": "نصر الله ورعب أعدائه",
+     "title_en": "Allah's help, and terror for His enemies",
      "visual": "ambient",
      "care": "Re-split: no clean audio cut at the old edge (audit 'nocut'). No fighting drawn. No fleeing soldiers drawn.",
      "est_s": 46
@@ -518,8 +518,8 @@
     {
      "from": 152,
      "to": 153,
-     "title_ar": "ساعة الشدة",
-     "title_en": "The hour of hardship",
+     "title_ar": "الوعد والعصيان",
+     "title_en": "The promise and the slip",
      "visual": "ambient",
      "care": "Re-split: no clean audio cut at the old edge (audit 'nocut'). No fighting drawn. No fleeing soldiers drawn.",
      "est_s": 79

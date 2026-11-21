@@ -348,3 +348,24 @@ or by eye. The per-surah summary goes into each `plans/<n>.json` "notes"; this f
   but unpublished Al-Baqarah videos, which are being rebuilt. Hand beats with a subject («who») are kept.
 - **For the owner:** the 33 Al-Kahf drafts and Al-Fatihah were built before this change. Some of them push in toward
   the light on the Name. Listen and look for it in the review.
+
+### Aal Imran 3:64–101 review (independent sub-agent): 6 SERIOUS and 13 MINOR, all applied
+- **Serious:**
+  - 77:23–24: the negation sat only in the chip, not in As-Sa'di's excerpt, so the box read "He purifies them". Now
+    Al-Muyassar's «ولا يطهرهم…».
+  - 85:1–5: cut before Al-Muyassar's own restriction, so Islam read as any monotheism. Now As-Sa'di's «…وانقيادا
+    لرسله».
+  - 91:11–16: the chip left out «فلن يقبل», so the ransom read as possible.
+  - 92:1–3: the chip left out «حتى».
+  - 100:11–14: «يردوكم … كافرين» without «إن تطيعوا» read as a prediction.
+  - 101:11: a mountain right before «بالله» read as the refuge one holds to (and recalls 11:43). Now geometric.
+- **Minor:**
+  - book instead of lamp for their knowledge, and coins leave before the Hereafter;
+  - no first-person paraphrase of the Prophet ﷺ;
+  - the plotters' order «فاخرجوا منه» is not shown alone;
+  - titles: «الانتساب إلى إبراهيم» (was «النسب»), «عاقبة الردة» (was «جزاء المرتدين», which reads as a legal
+    penalty), «الطعام الحلال» (was «حل», "solution"), «الثبات على الإيمان».
+- **Lessons:**
+  - The excerpt itself must carry the negation when the tafsir restates it. A chip alone is not enough when the
+    excerpt opens with the positive verb.
+  - Never place a motif that can read as the refuge or object of «يعتصم/يعوذ» right before the Name.
