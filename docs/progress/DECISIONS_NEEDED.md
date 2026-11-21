@@ -41,6 +41,10 @@ to you. The automatic safety review also refused a change to the verifier, corre
 Until you decide, Al-Baqarah is planned in full, and only the videos that contain **none** of these verses are
 produced.
 
+**Also affected: Aal Imran (surah 3).** 3:20, 21, 75, 79, 80 and 81 differ from Tanzil only in the first case (the
+small yā' in «الأميين», «النبيين», «ربانيين»). Their videos (3:20, 21–23, 74–76, 79–80, 81–83) are blocked by the same
+decision. The agent checked: with only this one substitution, each verse is identical to Tanzil.
+
 ## 2. Al-Baqarah: verse boundaries that overlap by 20–80 ms in the timing data (found 2026-11-21)
 
 In the Quran Foundation word timings for Yasser ad-Dussary, the first word of some verses starts slightly before the
@@ -66,3 +70,11 @@ already moves every verse change onto the reciter's measured pause, and lists ea
 - **A.** Allow overlaps under 100 ms only where the measured-pause alignment resolves them. Each would be reported as
   INFO and listed on the review sheet for listening.
 - **B.** Keep the rule. These 4 videos are not made.
+
+**Also affected: Aal Imran (surah 3).**
+- Overlaps:
+  - 134: 40 ms;
+  - 139: 80 ms;
+  - 177: 80 ms.
+- 3:135 words 1–2 have no timing at all, so option A would not unblock that one.
+- Blocked videos: 3:133–136, 3:137–139 and 3:176–179.

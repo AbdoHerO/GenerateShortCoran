@@ -1,0 +1,689 @@
+{
+ "surah": 3,
+ "summary": "63 short videos (reciter Yasser ad-Dussary) covering all 200 verses; 8 of them wait for the owner's decisions (Tanzil encoding, timing overlaps)",
+ "made_by": "Research 2026-11-21 (cloud agent): audit_surah.py 3 --reciter 97, plan_split.py with thematic sections, Saheeh translation and both tafsirs.",
+ "reciter": {
+  "id": 97,
+  "name": "Yasser ad-Dussary"
+ },
+ "notes": [
+  "Recitation: 71.4 minutes. 47 JOINED boundaries (never a video edge); 46 boundaries aligned to measured pauses.",
+  "Text: 3:20, 21, 75, 79, 80, 81 differ from Tanzil only in the small yeh of «الأميين/النبيين/ربانيين» (U+0640 U+06E7 vs U+06E6), the same case as Al-Baqarah (DECISIONS_NEEDED 1). Their videos are BLOCKED.",
+  "Timing: overlaps at 134 (40 ms), 139 (80 ms), 177 (80 ms); 135 words 1-2 untimed; short-word flags at 25, 45, 55, 91, 103, 125, 140, 173 (listen).",
+  "Two videos exceed 120 s because the reciter joins every verse in them: 102-108 (~170 s) and 154-158 (~151 s).",
+  "Pictures: ambient throughout. Prophets (Zakariya, Isa, Ibrahim, Muhammad ﷺ), Maryam, the angels, the Shaytan, Paradise, the Fire and the battles are never drawn; the Kaaba only as geometric."
+ ],
+ "groups": [
+  {
+   "title_ar": "فاتحة آل عمران",
+   "title_en": "The opening of Aal Imran",
+   "from": 1,
+   "to": 9,
+   "videos": [
+    {
+     "from": 1,
+     "to": 5,
+     "title_ar": "تنزيل الكتب",
+     "title_en": "The Books sent down",
+     "visual": "ambient",
+     "care": "Allah's names (2): geometric only.",
+     "est_s": 68
+    },
+    {
+     "from": 6,
+     "to": 7,
+     "title_ar": "المحكم والمتشابه",
+     "title_en": "Clear and ambiguous verses",
+     "visual": "ambient",
+     "care": "Muhkam/mutashabih: glosses must not take sides where the tafsirs differ (the waqf on «والراسخون»).",
+     "est_s": 87
+    },
+    {
+     "from": 8,
+     "to": 9,
+     "title_ar": "دعاء الراسخين",
+     "title_en": "The prayer of the firmly grounded",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 43
+    }
+   ]
+  },
+  {
+   "title_ar": "حقيقة الدين",
+   "title_en": "What religion is",
+   "from": 10,
+   "to": 20,
+   "videos": [
+    {
+     "from": 10,
+     "to": 13,
+     "title_ar": "عبرة الفئتين",
+     "title_en": "The lesson of the two armies",
+     "visual": "ambient",
+     "care": "13: the two armies at Badr — no fighting drawn, no countable crowd.",
+     "est_s": 101
+    },
+    {
+     "from": 14,
+     "to": 16,
+     "title_ar": "زينة الشهوات",
+     "title_en": "The lure of desires",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 111
+    },
+    {
+     "from": 17,
+     "to": 19,
+     "title_ar": "شهادة التوحيد",
+     "title_en": "The testimony of oneness",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 77
+    },
+    {
+     "from": 20,
+     "to": 20,
+     "title_ar": "المحاجة في الدين",
+     "title_en": "Arguing about the religion",
+     "visual": "ambient",
+     "care": "BLOCKED: Tanzil encoding [20] (small yeh).",
+     "est_s": 41,
+     "blocked": "Tanzil encoding difference: docs/progress/DECISIONS_NEEDED.md section 1"
+    }
+   ]
+  },
+  {
+   "title_ar": "الملك والمحبة",
+   "title_en": "Dominion and love",
+   "from": 21,
+   "to": 32,
+   "videos": [
+    {
+     "from": 21,
+     "to": 23,
+     "title_ar": "المعرضون عن الحكم",
+     "title_en": "Turning away from judgement",
+     "visual": "ambient",
+     "care": "BLOCKED (21). The killing of prophets (21) is never shown. BLOCKED: Tanzil encoding [21] (small yeh).",
+     "est_s": 73,
+     "blocked": "Tanzil encoding difference: docs/progress/DECISIONS_NEEDED.md section 1"
+    },
+    {
+     "from": 24,
+     "to": 26,
+     "title_ar": "عطاء الملك ونزعه",
+     "title_en": "Power given and taken",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 96
+    },
+    {
+     "from": 27,
+     "to": 29,
+     "title_ar": "الولاء للمؤمنين",
+     "title_en": "Allegiance to the believers",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 82
+    },
+    {
+     "from": 30,
+     "to": 32,
+     "title_ar": "علامة المحبة",
+     "title_en": "The sign of loving Allah",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 74
+    }
+   ]
+  },
+  {
+   "title_ar": "آل عمران",
+   "title_en": "The family of Imran",
+   "from": 33,
+   "to": 41,
+   "videos": [
+    {
+     "from": 33,
+     "to": 36,
+     "title_ar": "نذر امرأة عمران",
+     "title_en": "The vow of Imran's wife",
+     "visual": "ambient",
+     "care": "Imran's wife and Maryam: ambient, no figures.",
+     "est_s": 78
+    },
+    {
+     "from": 37,
+     "to": 39,
+     "title_ar": "كفالة زكريا",
+     "title_en": "In Zakariya's care",
+     "visual": "ambient",
+     "care": "Zakariya (prophet) and the angels' call: no motif on them; ambient.",
+     "est_s": 96
+    },
+    {
+     "from": 40,
+     "to": 41,
+     "title_ar": "آية زكريا",
+     "title_en": "Zakariya's sign",
+     "visual": "ambient",
+     "care": "Zakariya: no motif on him; the angels never drawn.",
+     "est_s": 48
+    }
+   ]
+  },
+  {
+   "title_ar": "مريم وعيسى",
+   "title_en": "Maryam and Isa",
+   "from": 42,
+   "to": 63,
+   "videos": [
+    {
+     "from": 42,
+     "to": 46,
+     "title_ar": "اصطفاء مريم",
+     "title_en": "Maryam chosen",
+     "visual": "ambient",
+     "care": "Maryam honoured: ambient, no figure; angels never drawn. 45: short-word flag (listen).",
+     "est_s": 82
+    },
+    {
+     "from": 47,
+     "to": 49,
+     "title_ar": "معجزات عيسى",
+     "title_en": "The signs of Isa",
+     "visual": "ambient",
+     "care": "Isa (prophet): no motif on him or Maryam; the clay bird (49) not drawn as a creature coming to life.",
+     "est_s": 96
+    },
+    {
+     "from": 50,
+     "to": 52,
+     "title_ar": "دعوة عيسى وأنصاره",
+     "title_en": "Isa's call and his helpers",
+     "visual": "ambient",
+     "care": "No motif on Isa or the disciples as people.",
+     "est_s": 70
+    },
+    {
+     "from": 53,
+     "to": 56,
+     "title_ar": "رفع عيسى",
+     "title_en": "Isa raised up",
+     "visual": "ambient",
+     "care": "55 «متوفيك»: the tafsirs differ in wording — gloss only what both share (he was raised). 55: short-word flag (listen).",
+     "est_s": 78
+    },
+    {
+     "from": 57,
+     "to": 61,
+     "title_ar": "الدعوة إلى المباهلة",
+     "title_en": "The call to mutual prayer",
+     "visual": "ambient",
+     "care": "Mubahala (61): no people drawn.",
+     "est_s": 92
+    },
+    {
+     "from": 62,
+     "to": 63,
+     "title_ar": "الخبر الصادق",
+     "title_en": "The true account",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 38
+    }
+   ]
+  },
+  {
+   "title_ar": "حوار أهل الكتاب",
+   "title_en": "Dialogue with the People of the Book",
+   "from": 64,
+   "to": 80,
+   "videos": [
+    {
+     "from": 64,
+     "to": 65,
+     "title_ar": "دعوة إلى التوحيد",
+     "title_en": "A call to one God",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 70
+    },
+    {
+     "from": 66,
+     "to": 69,
+     "title_ar": "النسب إلى إبراهيم",
+     "title_en": "Who belongs to Ibrahim",
+     "visual": "ambient",
+     "care": "Ibrahim (prophet): no motif on him.",
+     "est_s": 83
+    },
+    {
+     "from": 70,
+     "to": 73,
+     "title_ar": "خطة التشكيك",
+     "title_en": "A plot to sow doubt",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 98
+    },
+    {
+     "from": 74,
+     "to": 76,
+     "title_ar": "الأمانة والخيانة",
+     "title_en": "Trust and betrayal",
+     "visual": "ambient",
+     "care": "BLOCKED: Tanzil encoding [75] (small yeh).",
+     "est_s": 69,
+     "blocked": "Tanzil encoding difference: docs/progress/DECISIONS_NEEDED.md section 1"
+    },
+    {
+     "from": 77,
+     "to": 78,
+     "title_ar": "بيع العهد",
+     "title_en": "Selling the covenant",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 71
+    },
+    {
+     "from": 79,
+     "to": 80,
+     "title_ar": "الأنبياء والعبودية",
+     "title_en": "Prophets call to Allah alone",
+     "visual": "ambient",
+     "care": "BLOCKED (79, 80). BLOCKED: Tanzil encoding [79, 80] (small yeh).",
+     "est_s": 59,
+     "blocked": "Tanzil encoding difference: docs/progress/DECISIONS_NEEDED.md section 1"
+    }
+   ]
+  },
+  {
+   "title_ar": "الميثاق والإسلام",
+   "title_en": "The covenant and Islam",
+   "from": 81,
+   "to": 101,
+   "videos": [
+    {
+     "from": 81,
+     "to": 83,
+     "title_ar": "ميثاق الأنبياء",
+     "title_en": "The prophets' covenant",
+     "visual": "ambient",
+     "care": "BLOCKED (81). BLOCKED: Tanzil encoding [81] (small yeh).",
+     "est_s": 69,
+     "blocked": "Tanzil encoding difference: docs/progress/DECISIONS_NEEDED.md section 1"
+    },
+    {
+     "from": 84,
+     "to": 86,
+     "title_ar": "دين الأنبياء جميعا",
+     "title_en": "One faith of all prophets",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 81
+    },
+    {
+     "from": 87,
+     "to": 91,
+     "title_ar": "جزاء المرتدين",
+     "title_en": "Those who disbelieve after faith",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 95
+    },
+    {
+     "from": 92,
+     "to": 94,
+     "title_ar": "الإنفاق من المحبوب",
+     "title_en": "Giving what you love",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 77
+    },
+    {
+     "from": 95,
+     "to": 98,
+     "title_ar": "فرض الحج",
+     "title_en": "Hajj is prescribed",
+     "visual": "ambient",
+     "care": "The Kaaba only as geometric, never as an object of worship; Maqam Ibrahim not drawn.",
+     "est_s": 73
+    },
+    {
+     "from": 99,
+     "to": 101,
+     "title_ar": "تحذير من طاعتهم",
+     "title_en": "A warning against obeying them",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 66
+    }
+   ]
+  },
+  {
+   "title_ar": "الاعتصام والأخوة",
+   "title_en": "Holding together",
+   "from": 102,
+   "to": 120,
+   "videos": [
+    {
+     "from": 102,
+     "to": 108,
+     "title_ar": "وحدة الأمة",
+     "title_en": "One ummah, held together",
+     "visual": "ambient",
+     "care": "102-108 is one unit: the reciter joins every verse from 102 to 108 (no pause to cut), so this video runs about 170 s. 103: short-word flag (listen).",
+     "est_s": 178
+    },
+    {
+     "from": 109,
+     "to": 112,
+     "title_ar": "خيرية الأمة",
+     "title_en": "The best community",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 99
+    },
+    {
+     "from": 113,
+     "to": 115,
+     "title_ar": "المنصفون من أهل الكتاب",
+     "title_en": "The fair-minded among them",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 69
+    },
+    {
+     "from": 116,
+     "to": 118,
+     "title_ar": "إنفاق لا ينفع",
+     "title_en": "Spending that brings no good",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 89
+    },
+    {
+     "from": 119,
+     "to": 120,
+     "title_ar": "كيد الأعداء",
+     "title_en": "The enemy's scheming",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 63
+    }
+   ]
+  },
+  {
+   "title_ar": "من بدر إلى أحد",
+   "title_en": "From Badr to Uhud",
+   "from": 121,
+   "to": 148,
+   "videos": [
+    {
+     "from": 121,
+     "to": 126,
+     "title_ar": "بين بدر وأحد",
+     "title_en": "Between Badr and Uhud",
+     "visual": "ambient",
+     "care": "Badr and Uhud: no fighting, no angels drawn (124-125). 125: short-word flag (listen).",
+     "est_s": 101
+    },
+    {
+     "from": 127,
+     "to": 129,
+     "title_ar": "تفويض الأمر",
+     "title_en": "Leaving the matter to Allah",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 55
+    },
+    {
+     "from": 130,
+     "to": 132,
+     "title_ar": "النهي عن الربا",
+     "title_en": "Usury forbidden",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 38
+    },
+    {
+     "from": 133,
+     "to": 136,
+     "title_ar": "صفات المتقين",
+     "title_en": "The marks of the God-fearing",
+     "visual": "ambient",
+     "care": "133 Paradise: nothing literal (no river, no gold). 135: words 1-2 have no timing.",
+     "est_s": 125,
+     "blocked": "timing overlap between verses / missing timing: docs/progress/DECISIONS_NEEDED.md section 2"
+    },
+    {
+     "from": 137,
+     "to": 139,
+     "title_ar": "سنن الأمم",
+     "title_en": "The ways of past nations",
+     "visual": "ambient",
+     "care": "139 overlaps the previous verse by 80 ms.",
+     "est_s": 48,
+     "blocked": "timing overlap between verses / missing timing: docs/progress/DECISIONS_NEEDED.md section 2"
+    },
+    {
+     "from": 140,
+     "to": 143,
+     "title_ar": "حكمة الابتلاء",
+     "title_en": "Why trials come",
+     "visual": "ambient",
+     "care": "140: short-word flag (listen).",
+     "est_s": 84
+    },
+    {
+     "from": 144,
+     "to": 145,
+     "title_ar": "الثبات على الدين",
+     "title_en": "Holding firm to the faith",
+     "visual": "ambient",
+     "care": "144: the Prophet ﷺ is never drawn or symbolised.",
+     "est_s": 68
+    },
+    {
+     "from": 146,
+     "to": 148,
+     "title_ar": "قدوة من السابقين",
+     "title_en": "Examples from those before",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 69
+    }
+   ]
+  },
+  {
+   "title_ar": "دروس أحد",
+   "title_en": "Lessons of Uhud",
+   "from": 149,
+   "to": 175,
+   "videos": [
+    {
+     "from": 149,
+     "to": 152,
+     "title_ar": "الوعد والعصيان",
+     "title_en": "The promise and the slip",
+     "visual": "ambient",
+     "care": "No fighting drawn.",
+     "est_s": 90
+    },
+    {
+     "from": 153,
+     "to": 153,
+     "title_ar": "ساعة الشدة",
+     "title_en": "The hour of hardship",
+     "visual": "ambient",
+     "care": "No fleeing soldiers drawn.",
+     "est_s": 40
+    },
+    {
+     "from": 154,
+     "to": 158,
+     "title_ar": "طمأنينة بعد الخوف",
+     "title_en": "Calm after fear",
+     "visual": "ambient",
+     "care": "154-158 is one unit: the reciter joins 154→158, about 151 s. Nothing drawn for the killed.",
+     "est_s": 159
+    },
+    {
+     "from": 159,
+     "to": 162,
+     "title_ar": "اللين والشورى",
+     "title_en": "Gentleness and consultation",
+     "visual": "ambient",
+     "care": "The Prophet ﷺ: no motif on him.",
+     "est_s": 93
+    },
+    {
+     "from": 163,
+     "to": 166,
+     "title_ar": "منة البعثة",
+     "title_en": "The gift of the Messenger",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 85
+    },
+    {
+     "from": 167,
+     "to": 169,
+     "title_ar": "حياة الشهداء",
+     "title_en": "The martyrs live",
+     "visual": "ambient",
+     "care": "169-171: martyrs alive with their Lord — nothing literal, no Paradise imagery.",
+     "est_s": 80
+    },
+    {
+     "from": 170,
+     "to": 171,
+     "title_ar": "فرح الشهداء",
+     "title_en": "The martyrs' joy",
+     "visual": "ambient",
+     "care": "Martyrs: nothing literal.",
+     "est_s": 44
+    },
+    {
+     "from": 172,
+     "to": 174,
+     "title_ar": "الاستجابة بعد الجراح",
+     "title_en": "Answering despite the wounds",
+     "visual": "ambient",
+     "care": "173: short-word flag (listen).",
+     "est_s": 74
+    },
+    {
+     "from": 175,
+     "to": 175,
+     "title_ar": "تخويف الشيطان",
+     "title_en": "Satan frightens his allies",
+     "visual": "ambient",
+     "care": "No motif on the Shaytan.",
+     "est_s": 28
+    }
+   ]
+  },
+  {
+   "title_ar": "الإمهال والابتلاء",
+   "title_en": "Respite and trial",
+   "from": 176,
+   "to": 189,
+   "videos": [
+    {
+     "from": 176,
+     "to": 179,
+     "title_ar": "حكمة الإمهال",
+     "title_en": "Why respite is given",
+     "visual": "ambient",
+     "care": "BLOCKED: 177 overlaps the previous verse by 80 ms.",
+     "est_s": 98,
+     "blocked": "timing overlap between verses / missing timing: docs/progress/DECISIONS_NEEDED.md section 2"
+    },
+    {
+     "from": 180,
+     "to": 182,
+     "title_ar": "عاقبة البخل",
+     "title_en": "The end of miserliness",
+     "visual": "ambient",
+     "care": "181: the Jews' claim about Allah is never glossed as a statement.",
+     "est_s": 76
+    },
+    {
+     "from": 183,
+     "to": 186,
+     "title_ar": "حتمية الموت والابتلاء",
+     "title_en": "Death and trials are certain",
+     "visual": "ambient",
+     "care": "185: Paradise and Fire — nothing literal.",
+     "est_s": 117
+    },
+    {
+     "from": 187,
+     "to": 189,
+     "title_ar": "كتمان الميثاق",
+     "title_en": "Hiding the covenant",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 71
+    }
+   ]
+  },
+  {
+   "title_ar": "تفكر ودعاء",
+   "title_en": "Reflection and prayer",
+   "from": 190,
+   "to": 200,
+   "videos": [
+    {
+     "from": 190,
+     "to": 192,
+     "title_ar": "تفكر في الخلق",
+     "title_en": "Reflecting on creation",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 75
+    },
+    {
+     "from": 193,
+     "to": 194,
+     "title_ar": "دعاء المؤمنين",
+     "title_en": "The believers' prayer",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 60
+    },
+    {
+     "from": 195,
+     "to": 195,
+     "title_ar": "إجابة الدعاء",
+     "title_en": "The prayer answered",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 68
+    },
+    {
+     "from": 196,
+     "to": 199,
+     "title_ar": "عاقبة الفريقين",
+     "title_en": "Where each side ends",
+     "visual": "ambient",
+     "care": "198: Paradise — nothing literal (no river).",
+     "est_s": 96
+    },
+    {
+     "from": 200,
+     "to": 200,
+     "title_ar": "الصبر والمرابطة",
+     "title_en": "Patience and steadfastness",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 30
+    }
+   ]
+  }
+ ]
+}
