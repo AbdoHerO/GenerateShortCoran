@@ -1,0 +1,406 @@
+{
+ "surah": 10,
+ "summary": "33 short videos (reciter Yasser ad-Dussary) covering all 109 verses; 4 of them wait for the owner's decisions",
+ "made_by": "Research 2026-11-21 (cloud agent): audit_surah.py 10 --reciter 97 (with the nocut check), plan_split.py with thematic sections, Saheeh translation and both tafsirs.",
+ "reciter": {
+  "id": 97,
+  "name": "Yasser ad-Dussary"
+ },
+ "notes": [
+  "Recitation: 35.5 minutes. 10 JOINED boundaries and 6 more with no clean audio cut.",
+  "Text: 10:51 and 10:91 «ءآلآن» differ from Tanzil in the hamza encoding (DECISIONS_NEEDED §1): 50-51 and 91 BLOCKED.",
+  "Timing: 10:34 overlaps 10:33 by 20 ms and 10:107 overlaps 10:106 by 80 ms (§2): 31-34 and 104-107 BLOCKED. Short-word flags to hear: 61, 87.",
+  "Pictures: ambient throughout. Musa, Harun, Nuh, Yunus and the Prophet ﷺ never drawn and get no motif; the sea crossing, the drowning, sorcery, the angels, Paradise, Hell and the Day never drawn."
+ ],
+ "groups": [
+  {
+   "title_ar": "آيات الخلق والبعث",
+   "title_en": "Signs of creation and resurrection",
+   "from": 1,
+   "to": 10,
+   "videos": [
+    {
+     "from": 1,
+     "to": 3,
+     "title_ar": "القرآن والرسالة",
+     "title_en": "The Book and the message",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 79
+    },
+    {
+     "from": 4,
+     "to": 5,
+     "title_ar": "المرجع والجزاء",
+     "title_en": "The return and the reward",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 68
+    },
+    {
+     "from": 6,
+     "to": 10,
+     "title_ar": "الغفلة والهداية",
+     "title_en": "Heedlessness and guidance",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 93
+    }
+   ]
+  },
+  {
+   "title_ar": "الإنسان والإمهال",
+   "title_en": "Man and respite",
+   "from": 11,
+   "to": 20,
+   "videos": [
+    {
+     "from": 11,
+     "to": 13,
+     "title_ar": "الإنسان عند الشدة",
+     "title_en": "Man in hardship",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 75
+    },
+    {
+     "from": 14,
+     "to": 17,
+     "title_ar": "طلب قرآن آخر",
+     "title_en": "Demanding another Quran",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 101
+    },
+    {
+     "from": 18,
+     "to": 20,
+     "title_ar": "شفعاء بلا نفع",
+     "title_en": "Intercessors of no use",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 86
+    }
+   ]
+  },
+  {
+   "title_ar": "حقيقة الدنيا",
+   "title_en": "What this life is",
+   "from": 21,
+   "to": 30,
+   "videos": [
+    {
+     "from": 21,
+     "to": 21,
+     "title_ar": "مكر بعد رحمة",
+     "title_en": "Scheming after mercy",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 34
+    },
+    {
+     "from": 22,
+     "to": 23,
+     "title_ar": "الإخلاص في الشدة",
+     "title_en": "Sincerity in distress",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 102
+    },
+    {
+     "from": 24,
+     "to": 25,
+     "title_ar": "مثل الحياة الدنيا",
+     "title_en": "The likeness of this life",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 104
+    },
+    {
+     "from": 26,
+     "to": 28,
+     "title_ar": "جزاء المحسنين",
+     "title_en": "The reward of the good",
+     "visual": "ambient",
+     "care": "Paradise and Hell never drawn.",
+     "est_s": 82
+    },
+    {
+     "from": 29,
+     "to": 30,
+     "title_ar": "تبرؤ المعبودين",
+     "title_en": "The worshipped disown",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 41
+    }
+   ]
+  },
+  {
+   "title_ar": "براهين التوحيد",
+   "title_en": "Proofs of tawhid",
+   "from": 31,
+   "to": 36,
+   "videos": [
+    {
+     "from": 31,
+     "to": 34,
+     "title_ar": "براهين التوحيد",
+     "title_en": "Proofs of tawhid",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 82,
+     "blocked": "10:34 overlaps 10:33 by 20 ms in the timing data (DECISIONS_NEEDED section 2)."
+    },
+    {
+     "from": 35,
+     "to": 36,
+     "title_ar": "اتباع الظن",
+     "title_en": "Following conjecture",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 53
+    }
+   ]
+  },
+  {
+   "title_ar": "إعجاز القرآن",
+   "title_en": "The inimitable Quran",
+   "from": 37,
+   "to": 44,
+   "videos": [
+    {
+     "from": 37,
+     "to": 41,
+     "title_ar": "تحدي القرآن",
+     "title_en": "The Quran's challenge",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 100
+    },
+    {
+     "from": 42,
+     "to": 44,
+     "title_ar": "الصم والعمي",
+     "title_en": "The deaf and the blind",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 45
+    }
+   ]
+  },
+  {
+   "title_ar": "الوعد والوعيد",
+   "title_en": "Promise and warning",
+   "from": 45,
+   "to": 56,
+   "videos": [
+    {
+     "from": 45,
+     "to": 49,
+     "title_ar": "لكل أمة أجل",
+     "title_en": "Every nation has a term",
+     "visual": "ambient",
+     "care": "The Day never drawn.",
+     "est_s": 91
+    },
+    {
+     "from": 50,
+     "to": 51,
+     "title_ar": "استعجال العذاب",
+     "title_en": "Hastening the punishment",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 35,
+     "blocked": "10:51 «ءآلآن»: QF and Tanzil encode the hamza differently (the «الآن» case of DECISIONS_NEEDED section 1)."
+    },
+    {
+     "from": 52,
+     "to": 56,
+     "title_ar": "الحق والوعد",
+     "title_en": "The truth and the promise",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 80
+    }
+   ]
+  },
+  {
+   "title_ar": "القرآن والطمأنينة",
+   "title_en": "The Quran and serenity",
+   "from": 57,
+   "to": 70,
+   "videos": [
+    {
+     "from": 57,
+     "to": 59,
+     "title_ar": "موعظة القرآن",
+     "title_en": "The Quran's counsel",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 69
+    },
+    {
+     "from": 60,
+     "to": 61,
+     "title_ar": "رقابة الله",
+     "title_en": "Allah watches",
+     "visual": "ambient",
+     "care": "61: short-word flag (listen).",
+     "est_s": 83
+    },
+    {
+     "from": 62,
+     "to": 66,
+     "title_ar": "أولياء الله",
+     "title_en": "The friends of Allah",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 80
+    },
+    {
+     "from": 67,
+     "to": 70,
+     "title_ar": "نفي الولد",
+     "title_en": "No son for Allah",
+     "visual": "ambient",
+     "care": "The claim of a son framed as a claim.",
+     "est_s": 73
+    }
+   ]
+  },
+  {
+   "title_ar": "نوح ومن بعده",
+   "title_en": "Nuh and those after him",
+   "from": 71,
+   "to": 74,
+   "videos": [
+    {
+     "from": 71,
+     "to": 74,
+     "title_ar": "قصة نوح",
+     "title_en": "The story of Nuh",
+     "visual": "ambient",
+     "care": "Nuh: no motif, figure or drop; the flood and drowning never drawn.",
+     "est_s": 106
+    }
+   ]
+  },
+  {
+   "title_ar": "موسى وفرعون",
+   "title_en": "Musa and Pharaoh",
+   "from": 75,
+   "to": 93,
+   "videos": [
+    {
+     "from": 75,
+     "to": 78,
+     "title_ar": "دعوة فرعون",
+     "title_en": "Calling Pharaoh",
+     "visual": "ambient",
+     "care": "Musa and Harun: no motif, figure or drop. Pharaoh's claims framed.",
+     "est_s": 73
+    },
+    {
+     "from": 79,
+     "to": 84,
+     "title_ar": "السحرة والإيمان",
+     "title_en": "The sorcerers and faith",
+     "visual": "ambient",
+     "care": "Sorcery never drawn; Musa: no motif.",
+     "est_s": 97
+    },
+    {
+     "from": 85,
+     "to": 88,
+     "title_ar": "دعاء موسى",
+     "title_en": "Musa's prayer",
+     "visual": "ambient",
+     "care": "Musa and Harun: no motif. 87: short-word flag (listen).",
+     "est_s": 79
+    },
+    {
+     "from": 89,
+     "to": 90,
+     "title_ar": "الغرق والنجاة",
+     "title_en": "Drowning and rescue",
+     "visual": "ambient",
+     "care": "The sea crossing and Pharaoh's drowning never drawn; his late faith framed.",
+     "est_s": 66
+    },
+    {
+     "from": 91,
+     "to": 91,
+     "title_ar": "توبة بعد فوات",
+     "title_en": "Repentance too late",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 17,
+     "blocked": "10:91 «ءآلآن»: the hamza encoding case of DECISIONS_NEEDED section 1."
+    },
+    {
+     "from": 92,
+     "to": 93,
+     "title_ar": "آية للناس",
+     "title_en": "A sign for people",
+     "visual": "ambient",
+     "care": "Pharaoh's body never drawn.",
+     "est_s": 50
+    }
+   ]
+  },
+  {
+   "title_ar": "اليقين والنجاة",
+   "title_en": "Certainty and salvation",
+   "from": 94,
+   "to": 103,
+   "videos": [
+    {
+     "from": 94,
+     "to": 98,
+     "title_ar": "قوم يونس",
+     "title_en": "The people of Yunus",
+     "visual": "ambient",
+     "care": "Yunus and the Prophet ﷺ: no motif.",
+     "est_s": 90
+    },
+    {
+     "from": 99,
+     "to": 103,
+     "title_ar": "لا إكراه في الإيمان",
+     "title_en": "No compulsion in faith",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 84
+    }
+   ]
+  },
+  {
+   "title_ar": "الدين الخالص",
+   "title_en": "Pure religion",
+   "from": 104,
+   "to": 109,
+   "videos": [
+    {
+     "from": 104,
+     "to": 107,
+     "title_ar": "الدين الخالص",
+     "title_en": "Pure religion",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 97,
+     "blocked": "10:107 overlaps 10:106 by 80 ms (section 2); no clean cut after 106, so 104-107 is one unit."
+    },
+    {
+     "from": 108,
+     "to": 109,
+     "title_ar": "الصبر والحكم",
+     "title_en": "Patience and judgement",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 50
+    }
+   ]
+  }
+ ]
+}

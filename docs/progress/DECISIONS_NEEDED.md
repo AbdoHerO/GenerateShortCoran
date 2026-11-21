@@ -163,3 +163,7 @@ already holds. I kept the two entries rather than remove them on my own.
 
 For 2:67–69, please attach the files from `out/2_67-69_r97/` to the existing creative in the app, or tell me to
 import it again. Re-importing would create « (2) » next to the PDF-only creative.
+
+**Also affected: Yunus (surah 10), found 2026-11-21.**
+- Decision 1 (the hamza in «الآن»): 10:51 and 10:91 «ءَآلْـَٔـٰنَ» (QF: U+0640 U+0654 U+064E U+0640 U+0670). Blocked: 10:50-51 and 10:91.
+- Decision 2 (overlaps): 10:34 overlaps 10:33 by 20 ms; 10:107 overlaps 10:106 by 80 ms. Blocked: 10:31-34 and 10:104-107.
