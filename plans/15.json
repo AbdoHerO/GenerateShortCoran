@@ -99,8 +99,8 @@
     {
      "from": 44,
      "to": 50,
-     "title_ar": "دار الأمان",
-     "title_en": "The abode of safety",
+     "title_ar": "بين الخوف والرجاء",
+     "title_en": "Between fear and hope",
      "visual": "ambient",
      "care": "44 (the gates of Hell) is JOINED to 45: nothing drawn. Paradise: light only, no garden, river or gold.",
      "est_s": 79
@@ -116,8 +116,8 @@
     {
      "from": 51,
      "to": 60,
-     "title_ar": "بشرى الخليل",
-     "title_en": "Good news for al-Khalil",
+     "title_ar": "بشارة وإنذار",
+     "title_en": "Good news and a warning",
      "visual": "ambient",
      "care": "The angels never drawn; Ibrahim: no plate.",
      "est_s": 91
