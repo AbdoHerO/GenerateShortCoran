@@ -1,0 +1,565 @@
+{
+ "surah": 5,
+ "summary": "49 short videos (reciter Yasser ad-Dussary) covering all 120 verses; 3 of them wait for the owner's decisions (QF text error, Tanzil encoding, timing overlap)",
+ "made_by": "Research 2026-11-21 (cloud agent): audit_surah.py 5 --reciter 97 (with the nocut check), plan_split.py with thematic sections, Saheeh translation and both tafsirs.",
+ "reciter": {
+  "id": 97,
+  "name": "Yasser ad-Dussary"
+ },
+ "notes": [
+  "Recitation: 55.3 minutes. JOINED after 64, 97, 117, 119; no clean audio cut after 9, 19, 20, 21, 31, 41, 54, 72, 83, 90, 95, 106, 112 (both treated as never a video edge).",
+  "Text: 5:52 word 12 «دائرة» is stored by the Quran Foundation API with a space inside the word ('دَآئِرَ ةٌۭ'); QPC Hafs ('دَآئِرَةٞۚ') and Tanzil have one word. 5:111 differs from Tanzil only in the small yeh of DECISIONS_NEEDED section 1. Their videos are BLOCKED.",
+  "Timing: 5:84 overlaps 5:83 by 20 ms (BLOCKED). Short-word flags to hear: 90, 93.",
+  "Pictures: ambient throughout. Prophets (Musa, Harun, Isa, Dawud), Maryam, angels, the Shaytan, Paradise, the Fire, killing, penalties, wine and idols are never drawn."
+ ],
+ "groups": [
+  {
+   "title_ar": "العقود والحلال",
+   "title_en": "Contracts and the lawful",
+   "from": 1,
+   "to": 7,
+   "videos": [
+    {
+     "from": 1,
+     "to": 2,
+     "title_ar": "الوفاء بالعقود",
+     "title_en": "Keeping contracts",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 91
+    },
+    {
+     "from": 3,
+     "to": 3,
+     "title_ar": "المحرمات من الأطعمة",
+     "title_en": "Forbidden foods",
+     "visual": "ambient",
+     "care": "Dead animals and slaughter: nothing drawn.",
+     "est_s": 71
+    },
+    {
+     "from": 4,
+     "to": 5,
+     "title_ar": "الطيبات والزواج",
+     "title_en": "Good food and marriage",
+     "visual": "ambient",
+     "care": "5:4 hunting animals: a dog motif is allowed, no prey or blood; 5:5 marriage: nothing drawn.",
+     "est_s": 93
+    },
+    {
+     "from": 6,
+     "to": 7,
+     "title_ar": "الطهارة للصلاة",
+     "title_en": "Purity for prayer",
+     "visual": "ambient",
+     "care": "Wudu, ghusl, tayammum: no body or water drawn.",
+     "est_s": 103
+    }
+   ]
+  },
+  {
+   "title_ar": "العدل والميثاق",
+   "title_en": "Justice and the covenant",
+   "from": 8,
+   "to": 14,
+   "videos": [
+    {
+     "from": 8,
+     "to": 11,
+     "title_ar": "العدل مع الأعداء",
+     "title_en": "Justice even with enemies",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 85
+    },
+    {
+     "from": 12,
+     "to": 13,
+     "title_ar": "نقض العهد",
+     "title_en": "Breaking the covenant",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 96
+    },
+    {
+     "from": 14,
+     "to": 14,
+     "title_ar": "ميثاق النصارى",
+     "title_en": "The Christians' covenant",
+     "visual": "ambient",
+     "care": "No motif on Isa.",
+     "est_s": 42
+    }
+   ]
+  },
+  {
+   "title_ar": "دعوة أهل الكتاب",
+   "title_en": "Call to the People of the Book",
+   "from": 15,
+   "to": 18,
+   "videos": [
+    {
+     "from": 15,
+     "to": 17,
+     "title_ar": "النور والكتاب",
+     "title_en": "The light and the Book",
+     "visual": "ambient",
+     "care": "17: the claim «إن الله هو المسيح» never shown as a statement; no motif on Isa or Maryam.",
+     "est_s": 93
+    },
+    {
+     "from": 18,
+     "to": 18,
+     "title_ar": "دعوى البنوة",
+     "title_en": "The claim of sonship",
+     "visual": "ambient",
+     "care": "Their claim never shown as a statement.",
+     "est_s": 45
+    }
+   ]
+  },
+  {
+   "title_ar": "موسى والأرض المقدسة",
+   "title_en": "Musa and the Holy Land",
+   "from": 19,
+   "to": 26,
+   "videos": [
+    {
+     "from": 19,
+     "to": 22,
+     "title_ar": "الفترة والأرض المقدسة",
+     "title_en": "The interval and the Holy Land",
+     "visual": "ambient",
+     "care": "Musa: no motif on him.",
+     "est_s": 95
+    },
+    {
+     "from": 23,
+     "to": 26,
+     "title_ar": "سنوات التيه",
+     "title_en": "The years of wandering",
+     "visual": "ambient",
+     "care": "Musa and Harun: no motif; no fighting drawn.",
+     "est_s": 84
+    }
+   ]
+  },
+  {
+   "title_ar": "ابنا آدم",
+   "title_en": "Adam's two sons",
+   "from": 27,
+   "to": 32,
+   "videos": [
+    {
+     "from": 27,
+     "to": 29,
+     "title_ar": "قربان الأخوين",
+     "title_en": "The brothers' offering",
+     "visual": "ambient",
+     "care": "No violence: the killing is never drawn; no people.",
+     "est_s": 70
+    },
+    {
+     "from": 30,
+     "to": 32,
+     "title_ar": "حرمة النفس",
+     "title_en": "The sanctity of life",
+     "visual": "ambient",
+     "care": "The killing and the burial are never drawn; no crow motif on the body.",
+     "est_s": 89
+    }
+   ]
+  },
+  {
+   "title_ar": "الحدود والوسيلة",
+   "title_en": "Penalties and the means",
+   "from": 33,
+   "to": 40,
+   "videos": [
+    {
+     "from": 33,
+     "to": 34,
+     "title_ar": "جزاء المحاربين",
+     "title_en": "Punishing highway robbery",
+     "visual": "ambient",
+     "care": "Penalties: text only, nothing drawn.",
+     "est_s": 74
+    },
+    {
+     "from": 35,
+     "to": 38,
+     "title_ar": "الوسيلة والسرقة",
+     "title_en": "The means and theft",
+     "visual": "ambient",
+     "care": "Penalties: text only, no hand drawn.",
+     "est_s": 88
+    },
+    {
+     "from": 39,
+     "to": 40,
+     "title_ar": "توبة السارق",
+     "title_en": "The thief's repentance",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 51
+    }
+   ]
+  },
+  {
+   "title_ar": "الحكم بما أنزل الله",
+   "title_en": "Judging by revelation",
+   "from": 41,
+   "to": 50,
+   "videos": [
+    {
+     "from": 41,
+     "to": 42,
+     "title_ar": "تحريف الأحكام",
+     "title_en": "Twisting the rulings",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 106
+    },
+    {
+     "from": 43,
+     "to": 44,
+     "title_ar": "حكم التوراة",
+     "title_en": "The Torah's judgement",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 78
+    },
+    {
+     "from": 45,
+     "to": 46,
+     "title_ar": "القصاص والإنجيل",
+     "title_en": "Retribution and the Injil",
+     "visual": "ambient",
+     "care": "Isa: no motif; retribution text only.",
+     "est_s": 74
+    },
+    {
+     "from": 47,
+     "to": 48,
+     "title_ar": "القرآن المهيمن",
+     "title_en": "The Quran as guardian",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 103
+    },
+    {
+     "from": 49,
+     "to": 50,
+     "title_ar": "حكم الجاهلية",
+     "title_en": "Pre-Islamic judgement",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 64
+    }
+   ]
+  },
+  {
+   "title_ar": "الولاء والبراء",
+   "title_en": "Loyalty and disavowal",
+   "from": 51,
+   "to": 58,
+   "videos": [
+    {
+     "from": 51,
+     "to": 52,
+     "title_ar": "موالاة الأعداء",
+     "title_en": "Allying with enemies",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 72,
+     "blocked": "QF text error: 5:52 word 12 «دائرة» has a stray space inside the word (QPC Hafs and Tanzil: one word): docs/progress/DECISIONS_NEEDED.md section 1"
+    },
+    {
+     "from": 53,
+     "to": 55,
+     "title_ar": "أهل المحبة",
+     "title_en": "Those Allah loves",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 89
+    },
+    {
+     "from": 56,
+     "to": 58,
+     "title_ar": "المستهزئون بالصلاة",
+     "title_en": "Mocking the prayer",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 61
+    }
+   ]
+  },
+  {
+   "title_ar": "أحوال أهل الكتاب",
+   "title_en": "The People of the Book",
+   "from": 59,
+   "to": 71,
+   "videos": [
+    {
+     "from": 59,
+     "to": 60,
+     "title_ar": "سبب العداوة",
+     "title_en": "The cause of enmity",
+     "visual": "ambient",
+     "care": "60: no apes or pigs drawn.",
+     "est_s": 71
+    },
+    {
+     "from": 61,
+     "to": 63,
+     "title_ar": "أكل السحت",
+     "title_en": "Consuming the unlawful",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 56
+    },
+    {
+     "from": 64,
+     "to": 65,
+     "title_ar": "افتراء على الله",
+     "title_en": "Slander against Allah",
+     "visual": "ambient",
+     "care": "64: their claim never shown; Allah never depicted; no hand motif.",
+     "est_s": 110
+    },
+    {
+     "from": 66,
+     "to": 66,
+     "title_ar": "إقامة الكتب",
+     "title_en": "Upholding the scriptures",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 43
+    },
+    {
+     "from": 67,
+     "to": 69,
+     "title_ar": "تبليغ الرسالة",
+     "title_en": "Conveying the message",
+     "visual": "ambient",
+     "care": "No motif on the Prophet ﷺ.",
+     "est_s": 90
+    },
+    {
+     "from": 70,
+     "to": 71,
+     "title_ar": "عمى وصمم",
+     "title_en": "Blind and deaf",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 55
+    }
+   ]
+  },
+  {
+   "title_ar": "غلو النصارى",
+   "title_en": "The Christians' excess",
+   "from": 72,
+   "to": 86,
+   "videos": [
+    {
+     "from": 72,
+     "to": 73,
+     "title_ar": "دعوى الألوهية",
+     "title_en": "The claim of divinity",
+     "visual": "ambient",
+     "care": "Isa, Maryam: no motif; the claims (72, 73) never shown as statements.",
+     "est_s": 71
+    },
+    {
+     "from": 74,
+     "to": 77,
+     "title_ar": "حقيقة المسيح",
+     "title_en": "The truth about the Messiah",
+     "visual": "ambient",
+     "care": "Isa, Maryam: no motif.",
+     "est_s": 87
+    },
+    {
+     "from": 78,
+     "to": 81,
+     "title_ar": "ترك النهي عن المنكر",
+     "title_en": "Abandoning the forbidding of evil",
+     "visual": "ambient",
+     "care": "Dawud, Isa named: no motif.",
+     "est_s": 73
+    },
+    {
+     "from": 82,
+     "to": 84,
+     "title_ar": "أقرب الناس مودة",
+     "title_en": "Nearest in affection",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 96,
+     "blocked": "5:84 overlaps 5:83 by 20 ms in the timing data: docs/progress/DECISIONS_NEEDED.md section 2"
+    },
+    {
+     "from": 85,
+     "to": 86,
+     "title_ar": "جزاء المحسنين",
+     "title_en": "The reward of good-doers",
+     "visual": "ambient",
+     "care": "Paradise: nothing literal.",
+     "est_s": 46
+    }
+   ]
+  },
+  {
+   "title_ar": "الأيمان والخمر والصيد",
+   "title_en": "Oaths, wine and hunting",
+   "from": 87,
+   "to": 100,
+   "videos": [
+    {
+     "from": 87,
+     "to": 89,
+     "title_ar": "كفارة اليمين",
+     "title_en": "Expiating an oath",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 88
+    },
+    {
+     "from": 90,
+     "to": 92,
+     "title_ar": "تحريم الخمر",
+     "title_en": "Wine forbidden",
+     "visual": "ambient",
+     "care": "No cup, wine, dice or idols drawn. 90: short-word flag (listen).",
+     "est_s": 76
+    },
+    {
+     "from": 93,
+     "to": 93,
+     "title_ar": "رفع الحرج",
+     "title_en": "No blame",
+     "visual": "ambient",
+     "care": "93: short-word flag (listen).",
+     "est_s": 35
+    },
+    {
+     "from": 94,
+     "to": 96,
+     "title_ar": "صيد المحرم",
+     "title_en": "Hunting in ihram",
+     "visual": "ambient",
+     "care": "No prey killed or blood drawn.",
+     "est_s": 115
+    },
+    {
+     "from": 97,
+     "to": 100,
+     "title_ar": "الكعبة والشعائر",
+     "title_en": "The Kaaba and the rites",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 87
+    }
+   ]
+  },
+  {
+   "title_ar": "السؤال والوصية",
+   "title_en": "Questions and bequests",
+   "from": 101,
+   "to": 108,
+   "videos": [
+    {
+     "from": 101,
+     "to": 104,
+     "title_ar": "كثرة السؤال",
+     "title_en": "Asking too much",
+     "visual": "ambient",
+     "care": "103: no idols or animals drawn.",
+     "est_s": 86
+    },
+    {
+     "from": 105,
+     "to": 105,
+     "title_ar": "إصلاح النفس",
+     "title_en": "Reforming oneself",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 32
+    },
+    {
+     "from": 106,
+     "to": 107,
+     "title_ar": "الشهادة على الوصية",
+     "title_en": "Witnessing a bequest",
+     "visual": "ambient",
+     "care": "Death mentioned: nothing drawn.",
+     "est_s": 97
+    },
+    {
+     "from": 108,
+     "to": 108,
+     "title_ar": "الشهادة بالحق",
+     "title_en": "Testifying truly",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 36
+    }
+   ]
+  },
+  {
+   "title_ar": "عيسى والمائدة",
+   "title_en": "Isa and the table",
+   "from": 109,
+   "to": 120,
+   "videos": [
+    {
+     "from": 109,
+     "to": 110,
+     "title_ar": "معجزات عيسى",
+     "title_en": "Isa's miracles",
+     "visual": "ambient",
+     "care": "Isa, Maryam, Jibril: no motif; the miracles are never drawn; the Day: nothing literal.",
+     "est_s": 89
+    },
+    {
+     "from": 111,
+     "to": 114,
+     "title_ar": "طلب المائدة",
+     "title_en": "Asking for the table",
+     "visual": "ambient",
+     "care": "Isa: no motif; the table is never drawn.",
+     "est_s": 97,
+     "blocked": "Tanzil encoding difference (5:111, small yeh of «الحواريين»): docs/progress/DECISIONS_NEEDED.md section 1"
+    },
+    {
+     "from": 115,
+     "to": 115,
+     "title_ar": "شرط المائدة",
+     "title_en": "The table's condition",
+     "visual": "ambient",
+     "care": "",
+     "est_s": 32
+    },
+    {
+     "from": 116,
+     "to": 118,
+     "title_ar": "سؤال عيسى",
+     "title_en": "Isa questioned",
+     "visual": "ambient",
+     "care": "Isa, Maryam: no motif; the claim of worship never shown as a statement; the Day: nothing literal.",
+     "est_s": 111
+    },
+    {
+     "from": 119,
+     "to": 120,
+     "title_ar": "جزاء الصادقين",
+     "title_en": "The reward of the truthful",
+     "visual": "ambient",
+     "care": "Paradise: nothing literal.",
+     "est_s": 79
+    }
+   ]
+  }
+ ]
+}

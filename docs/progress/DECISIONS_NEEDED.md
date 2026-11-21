@@ -47,6 +47,20 @@ produced.
 small yā' in «الأميين», «النبيين», «ربانيين»). Their videos (3:20, 21–23, 74–76, 79–80, 81–83) are blocked by the same
 decision. The agent checked: with only this one substitution, each verse is identical to Tanzil.
 
+**Also affected: Al-Ma'idah (surah 5).**
+- 5:111 differs from Tanzil only in the first case (the small yā' in «الحواريين»). Video 5:111–114 is blocked by the
+  same decision.
+- **New case, 5:52 (a text error in the Quran Foundation data, not an encoding variant).** Word 12, «دائرة», is
+  served as `'دَآئِرَ ةٌۭ ۚ'`, with a space inside the word. On screen the word would be split in two.
+  - The King Fahd Complex text (QPC Hafs, from the same API) has one word, `'دَآئِرَةٞۚ'`, and so does Tanzil.
+  - The agent did not change the text: the rules forbid "fixing" Quranic text.
+  - Video 5:51–52 is blocked.
+  - **Please choose:**
+    - **A.** Allow `verify.py` and the renderer to remove that one space, only where QPC Hafs and Tanzil both
+      have a single word.
+    - **B.** Keep the video blocked.
+    - **C.** Report the error to the Quran Foundation and wait for a fix.
+
 ## 2. Al-Baqarah: verse boundaries that overlap by 20–80 ms in the timing data (found 2026-11-21)
 
 In the Quran Foundation word timings for Yasser ad-Dussary, the first word of some verses starts slightly before the
@@ -88,3 +102,4 @@ start with 2:253–254, which decision 2 blocks (2:253).
 - 3:25 has a broken word segment: word 15 is timed 576180–576170 ms, so it ends before it starts. The verse also
   has five word segments of 70–100 ms. `verify.py` fails it («segment with end<start»), so 3:24–26 is blocked as
   well. A `timing_corrections` entry cannot fix an end time and must be confirmed by ear in any case.
+- Al-Ma'idah: 5:84 overlaps 5:83 by 20 ms, so video 5:82–84 is blocked.
