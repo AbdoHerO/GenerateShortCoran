@@ -105,3 +105,15 @@ or by eye. The per-surah summary goes into each `plans/<n>.json` "notes"; this f
   - Never use a motif that ranks one honoured person against another.
 - **Renderer fix:** on the cover frame (the thumbnail), a motif that has started is now always drawn complete.
   Eight covers had caught a motif in its first 0.6 s.
+
+### Al-Baqarah (surah 2): audit
+- 118.8 minutes of recitation. 9 JOINED boundaries (after 9, 38, 51, 156, 157, 236, 246, 280, 283); 85 boundaries
+  aligned to a measured pause.
+- 19 verses have timing remarks: short-word flags to listen to, or 20–80 ms overlaps between verses.
+- As-Sa'di has no entry for 2:107, 109, 111 and 286 (recorded as empty; glosses there come from Al-Muyassar).
+- **Text: 18 verses differ from Tanzil** in three encoding cases. In all of them the Quran Foundation text equals
+  the King Fahd Complex text (QPC Hafs). See `docs/progress/DECISIONS_NEEDED.md` §1 and
+  `docs/proofs/baqarah_tanzil_vs_qf.png`.
+  - The rule reserves this decision for the owner, because the renders are not identical. The agent's change to the
+    verifier was refused by the automatic safety review, and nothing was changed.
+  - Until the owner decides, only the Al-Baqarah videos with none of those verses are produced.
