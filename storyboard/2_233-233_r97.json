@@ -28,19 +28,189 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة البقرة",
+   "title": "الرضاعة",
    "verses": [
     233
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "dawn",
+    "beats": [
+     {
+      "at": [
+       233,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       233,
+       16
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       233,
+       19
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       233,
+       23
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       233,
+       24
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       233,
+       27
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       233,
+       31
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       233,
+       36
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       233,
+       40
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       233,
+       43
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       233,
+       47
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       233,
+       50
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       233,
+       54
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       233,
+       56
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       233,
+       59
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       233,
+       62
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       233,
+       4
+      ],
+      "until": null,
+      "motif": "hourglass",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       233,
+       14
+      ],
+      "until": null,
+      "motif": "wheat",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 233,
+   "words": [
+    4,
+    5
+   ],
+   "tafsir": 16,
+   "excerpt": "مدة سنتين كاملتين",
+   "target": "motif",
+   "tone": "amber"
+  },
+  {
+   "verse": 233,
+   "words": [
+    14,
+    15
+   ],
+   "tafsir": 16,
+   "excerpt": "أن يكفُلوا للمرضعات المطلقات طعامهن وكسوتهن",
+   "target": "motif",
+   "tone": "green"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "One verse; no mother or child pictured."
+ },
+ "cover": {
+  "series_ar": "أحكام الأسرة",
+  "series_en": "Family rulings",
+  "title_ar": "الرضاعة",
+  "title_en": "Nursing",
+  "at": [
+   233,
+   4
+  ]
+ },
+ "motion": 3
 }

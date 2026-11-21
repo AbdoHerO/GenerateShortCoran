@@ -28,30 +28,237 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة البقرة",
+   "title": "المهر قبل الدخول",
    "verses": [
-    236
-   ],
-   "scene": "ambient",
-   "params": {
-    "mood": "dawn"
-   }
-  },
-  {
-   "id": "c2",
-   "title": "سورة البقرة",
-   "verses": [
+    236,
     237
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "dawn",
+    "beats": [
+     {
+      "at": [
+       236,
+       5
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       236,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       236,
+       11
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       236,
+       17
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       236,
+       20
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       236,
+       22
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       236,
+       25
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       237,
+       2
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       237,
+       4
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       237,
+       8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       237,
+       15
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       237,
+       20
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       237,
+       22
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       237,
+       23
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       237,
+       25
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       237,
+       28
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       237,
+       31
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       237,
+       35
+      ],
+      "do": "shot_ground"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       236,
+       14
+      ],
+      "until": null,
+      "motif": "coins",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       237,
+       11
+      ],
+      "until": null,
+      "motif": "scales",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 236,
+   "words": [
+    9,
+    9
+   ],
+   "tafsir": 16,
+   "excerpt": "وقبل أن تجامعوهن",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 236,
+   "words": [
+    14,
+    14
+   ],
+   "tafsir": 16,
+   "excerpt": "بشيء ينتفعن به جبرًا لهن، ودفعًا لوحشة الطلاق",
+   "target": "motif",
+   "tone": "green"
+  },
+  {
+   "verse": 236,
+   "words": [
+    16,
+    17
+   ],
+   "tafsir": 16,
+   "excerpt": "على الغني قَدْر سَعَة رزقه",
+   "target": "",
+   "tone": "amber"
+  },
+  {
+   "verse": 237,
+   "words": [
+    11,
+    13
+   ],
+   "tafsir": 16,
+   "excerpt": "نصف المهر المتفق عليه",
+   "target": "motif",
+   "tone": "amber"
+  },
+  {
+   "verse": 237,
+   "words": [
+    16,
+    16
+   ],
+   "tafsir": 16,
+   "excerpt": "تُسامِح المطلقات، فيتركن نصف المهر المستحق لهن",
+   "target": "",
+   "tone": "green"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "JOINED after 236 is inside the video. Scales here are the fairness of the half dowry (this world)."
+ },
+ "cover": {
+  "series_ar": "أحكام الأسرة",
+  "series_en": "Family rulings",
+  "title_ar": "المهر قبل الدخول",
+  "title_en": "The dowry before consummation",
+  "at": [
+   236,
+   14
+  ]
+ },
+ "motion": 3
 }

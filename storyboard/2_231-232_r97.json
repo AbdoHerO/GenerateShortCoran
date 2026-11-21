@@ -28,30 +28,301 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة البقرة",
+   "title": "الإمساك بالمعروف",
    "verses": [
     231
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "dawn",
+    "beats": [
+     {
+      "at": [
+       231,
+       4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       231,
+       8
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       231,
+       10
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       231,
+       12
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       231,
+       15
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       231,
+       18
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       231,
+       22
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       231,
+       24
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       231,
+       27
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       231,
+       30
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       231,
+       32
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       231,
+       35
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       231,
+       37
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       231,
+       40
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       231,
+       42
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       231,
+       45
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       231,
+       6
+      ],
+      "until": null,
+      "motif": "house",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
    "id": "c2",
-   "title": "سورة البقرة",
+   "title": "حق المطلقة في العودة",
    "verses": [
     232
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "light",
+    "beats": [
+     {
+      "at": [
+       232,
+       4
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       232,
+       6
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       232,
+       9
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       232,
+       14
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       232,
+       16
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       232,
+       20
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       232,
+       23
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       232,
+       28
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       232,
+       31
+      ],
+      "do": "shot_ground"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       232,
+       12
+      ],
+      "until": null,
+      "motif": "seal",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "slide"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 231,
+   "words": [
+    4,
+    5
+   ],
+   "tafsir": 16,
+   "excerpt": "فقاربن انتهاء عدتهن",
+   "target": "",
+   "tone": "amber"
+  },
+  {
+   "verse": 231,
+   "words": [
+    7,
+    7
+   ],
+   "tafsir": 16,
+   "excerpt": "على الوجه المستحسن شرعًا وعرفًا",
+   "target": "motif",
+   "tone": "green"
+  },
+  {
+   "verse": 231,
+   "words": [
+    13,
+    13
+   ],
+   "tafsir": 16,
+   "excerpt": "بقصد الإضرار بهن",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 232,
+   "words": [
+    7,
+    7
+   ],
+   "tafsir": 16,
+   "excerpt": "فلا تضيقوا -أيها الأولياء- على المطلقات",
+   "target": "",
+   "tone": "red"
+  },
+  {
+   "verse": 232,
+   "words": [
+    14,
+    14
+   ],
+   "tafsir": 16,
+   "excerpt": "وحدث التراضي شرعًا وعرفًا",
+   "target": "motif",
+   "tone": "green"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "Family rulings; no people pictured."
+ },
+ "cover": {
+  "series_ar": "أحكام الأسرة",
+  "series_en": "Family rulings",
+  "title_ar": "الإمساك بالمعروف",
+  "title_en": "Keep or part with kindness",
+  "at": [
+   231,
+   6
+  ]
+ },
+ "motion": 3
 }

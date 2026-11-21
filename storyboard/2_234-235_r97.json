@@ -28,30 +28,283 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة البقرة",
+   "title": "عدة الوفاة",
    "verses": [
     234
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       234,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       234,
+       6
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       234,
+       10
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       234,
+       13
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       234,
+       16
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       234,
+       19
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       234,
+       21
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       234,
+       22
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       234,
+       25
+      ],
+      "do": "shot_ground"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       234,
+       8
+      ],
+      "until": null,
+      "motif": "hourglass",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
    "id": "c2",
-   "title": "سورة البقرة",
+   "title": "التعريض بالخطبة",
    "verses": [
     235
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "dawn",
+    "beats": [
+     {
+      "at": [
+       235,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       235,
+       11
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       235,
+       12
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       235,
+       15
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       235,
+       18
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       235,
+       21
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       235,
+       23
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       235,
+       26
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       235,
+       29
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       235,
+       32
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       235,
+       35
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       235,
+       38
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       235,
+       42
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       235,
+       43
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       235,
+       44
+      ],
+      "do": "push_in"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       235,
+       8
+      ],
+      "until": null,
+      "motif": "house",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "light_sweep"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 234,
+   "words": [
+    6,
+    6
+   ],
+   "tafsir": 16,
+   "excerpt": "يجب عليهن الانتظار بأنفسهن",
+   "target": "",
+   "tone": "amber"
+  },
+  {
+   "verse": 234,
+   "words": [
+    8,
+    10
+   ],
+   "tafsir": 16,
+   "excerpt": "لا يخرجن من منزل الزوجية، ولا يتزيَّنَّ، ولا يتزوجن",
+   "target": "motif",
+   "tone": "amber"
+  },
+  {
+   "verse": 235,
+   "words": [
+    5,
+    5
+   ],
+   "tafsir": 16,
+   "excerpt": "فيما تُلَمِّحون به",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 235,
+   "words": [
+    11,
+    11
+   ],
+   "tafsir": 16,
+   "excerpt": "من نية الزواج بهن بعد انتهاء عدتهن",
+   "target": "",
+   "tone": "blue"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "The waiting period of the widow (hourglass)."
+ },
+ "cover": {
+  "series_ar": "أحكام الأسرة",
+  "series_en": "Family rulings",
+  "title_ar": "عدة الوفاة",
+  "title_en": "Widowhood",
+  "at": [
+   234,
+   8
+  ]
+ },
+ "motion": 3
 }

@@ -28,30 +28,298 @@
  "chapters": [
   {
    "id": "c1",
-   "title": "سورة البقرة",
+   "title": "حدود الطلاق",
    "verses": [
     229
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn"
+    "mood": "geometric",
+    "beats": [
+     {
+      "at": [
+       229,
+       5
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       229,
+       7
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       229,
+       10
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       229,
+       13
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       229,
+       15
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       229,
+       18
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       229,
+       20
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       229,
+       22
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       229,
+       26
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       229,
+       31
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       229,
+       35
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       229,
+       39
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       229,
+       42
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       229,
+       44
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       229,
+       46
+      ],
+      "do": "shot_sky"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       229,
+       3
+      ],
+      "until": null,
+      "motif": "two_paths",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
    "id": "c2",
-   "title": "سورة البقرة",
+   "title": "الطلقة الثالثة",
    "verses": [
     230
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric"
+    "mood": "dawn",
+    "beats": [
+     {
+      "at": [
+       230,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       230,
+       13
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       230,
+       16
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       230,
+       18
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       230,
+       20
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       230,
+       22
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       230,
+       25
+      ],
+      "do": "push_in"
+     },
+     {
+      "at": [
+       230,
+       29
+      ],
+      "do": "pan_left"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       230,
+       10
+      ],
+      "until": null,
+      "motif": "house",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "transition": "page_turn"
    }
   }
  ],
- "glosses": [],
+ "glosses": [
+  {
+   "verse": 229,
+   "words": [
+    1,
+    2
+   ],
+   "tafsir": 16,
+   "excerpt": "الذي تحصل به الرجعة",
+   "target": "",
+   "tone": "blue"
+  },
+  {
+   "verse": 229,
+   "words": [
+    6,
+    7
+   ],
+   "tafsir": 16,
+   "excerpt": "مع حسن معاملتها بأداء حقوقها",
+   "target": "motif",
+   "tone": "green"
+  },
+  {
+   "verse": 229,
+   "words": [
+    12,
+    14
+   ],
+   "tafsir": 16,
+   "excerpt": "من المهر ونحوه",
+   "target": "",
+   "tone": "amber"
+  },
+  {
+   "verse": 230,
+   "words": [
+    2,
+    2
+   ],
+   "tafsir": 16,
+   "excerpt": "الطلقة الثالثة",
+   "target": "",
+   "tone": "amber"
+  },
+  {
+   "verse": 230,
+   "words": [
+    9,
+    11
+   ],
+   "tafsir": 16,
+   "excerpt": "لا بنية تحليل المرأة لزوجها الأول",
+   "target": "motif",
+   "tone": "amber"
+  },
+  {
+   "verse": 230,
+   "words": [
+    18,
+    18
+   ],
+   "tafsir": 16,
+   "excerpt": "بعقد جديد، ومهر جديد",
+   "target": "",
+   "tone": "blue"
+  }
+ ],
  "director": {
-  "mode": "auto",
-  "notes": "Calm visuals chosen automatically. Chapter titles are the surah name; edit them in the app if you like."
- }
+  "mode": "hand",
+  "notes": "Rulings kept modest: two_paths (keep with kindness or part with kindness), a house (a new marriage)."
+ },
+ "cover": {
+  "series_ar": "أحكام الأسرة",
+  "series_en": "Family rulings",
+  "title_ar": "حدود الطلاق",
+  "title_en": "The limits of divorce",
+  "at": [
+   229,
+   3
+  ]
+ },
+ "motion": 3
 }
