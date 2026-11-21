@@ -174,30 +174,30 @@
    "videos": [
     {
      "from": 50,
-     "to": 54,
+     "to": 52,
      "title_ar": "دعوة هود",
      "title_en": "Hud's call",
      "visual": "ambient",
      "care": "Hud: no motif.",
-     "est_s": 87
+     "est_s": 45
     },
     {
-     "from": 55,
-     "to": 58,
+     "from": 53,
+     "to": 56,
      "title_ar": "توكل هود",
      "title_en": "Hud's reliance",
      "visual": "ambient",
-     "care": "Hud: no motif.",
-     "est_s": 83
+     "care": "Hud: no motif. 54-55 is one sentence (the oath): kept together.",
+     "est_s": 66
     },
     {
-     "from": 59,
+     "from": 57,
      "to": 60,
      "title_ar": "عاقبة عاد",
      "title_en": "The end of 'Ad",
      "visual": "ambient",
-     "care": "No destruction drawn.",
-     "est_s": 42
+     "care": "No destruction or wind of punishment drawn.",
+     "est_s": 90
     }
    ]
   },
