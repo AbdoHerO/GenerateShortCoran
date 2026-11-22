@@ -380,7 +380,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Adam, the angels and Iblis are never drawn; no prostration scene. Wheat for «معايش», geometric for «خلقناكم ثم صورناكم». Iblis's claim (12:8-17) is framed «معارضا لربه… الدعوى الباطلة». The garden: nothing literal. STAGING v4: c1 (10): people walk into fields by day (As-Sa'di: the earth made ready for building and ploughing; livelihoods from trees and plants); the fields grow on 10:8 with a wheat plate for the livelihoods; on 10:11 they turn away (Muyassar: your thanks for Allah's blessings are little). c2 (11-13: the creation of Adam, the angels' prostration, Iblis's refusal and his expulsion from the Garden) stays ambient: the unseen; Adam, the angels and Iblis are not drawn."
+  "notes": "Adam, the angels and Iblis are never drawn; no prostration scene. Wheat for «معايش», geometric for «خلقناكم ثم صورناكم». Iblis's claim (12:8-17) is framed «معارضا لربه… الدعوى الباطلة». The garden: nothing literal. STAGING v4: c1 (10): people walk into fields by day (As-Sa'di: the earth made ready for building and ploughing; livelihoods from trees and plants); the fields grow on 10:8 with a wheat plate for the livelihoods; on 10:11 they turn away (Muyassar: your thanks for Allah's blessings are little). c2 (11-13: the creation of Adam, the angels' prostration, Iblis's refusal and his expulsion from the Garden) stays ambient: the unseen; Adam, the angels and Iblis are not drawn. The cover is on the geometric plate of 11:4, so the three men in the fields are not taken for Adam or Iblis under the series name."
  },
  "cover": {
   "series_ar": "آدم وإبليس",
@@ -388,8 +388,8 @@
   "title_ar": "تكريم الإنسان",
   "title_en": "Honouring mankind",
   "at": [
-   10,
-   9
+   11,
+   4
   ]
  },
  "motion": 3,

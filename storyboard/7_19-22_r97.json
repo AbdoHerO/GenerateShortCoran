@@ -34,7 +34,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
@@ -394,7 +394,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Adam and Hawwa are never drawn; no tree, garden or nakedness drawn (dawn and night sky only). The Shaytan's claim (20:11-25) is framed «في محاولة المكر بهما» and his oath (21) «وهو كاذب في ذلك»; «ملكين» is never glossed. The tree is not identified (As-Sa'di). Geometric only for «وناداهما ربهما». STAGING v4: Staging v4: kept ambient. 19-22 happen in the Garden (the unseen): Adam, his wife, the tree and the Shaytan are not drawn, and nothing about the uncovering is shown or suggested. c2 mood geometric -> night_sky: geometric is the mood of the Names, and this chapter is about Adam and the Shaytan's deception; the geometric plate stays only on 22:15-16 (their Lord called them)."
+  "notes": "Adam and Hawwa are never drawn; no tree, garden or nakedness drawn (dawn and night sky only). The Shaytan's claim (20:11-25) is framed «في محاولة المكر بهما» and his oath (21) «وهو كاذب في ذلك»; «ملكين» is never glossed. The tree is not identified (As-Sa'di). Geometric only for «وناداهما ربهما». STAGING v4: Staging v4: kept ambient. 19-22 happen in the Garden (the unseen): Adam, his wife, the tree and the Shaytan are not drawn, and nothing about the uncovering is shown or suggested. c1 mood dawn -> night_sky (19 ends with a warning, and no dawn stands over a warning). c2 mood geometric -> night_sky: geometric is the mood of the Names, and this chapter is about Adam and the Shaytan's deception; the geometric plate stays only on 22:15-16 (their Lord called them)."
  },
  "cover": {
   "series_ar": "آدم وإبليس",

@@ -71,15 +71,15 @@
        31,
        5
       ],
-      "do": "sujud",
+      "do": "ruku",
       "who": "b"
      },
      {
       "at": [
        31,
-       8
+       7
       ],
-      "do": "stand_up",
+      "do": "rise",
       "who": "b"
      },
      {
@@ -87,20 +87,28 @@
        31,
        9
       ],
+      "do": "stand_up",
+      "who": "b"
+     },
+     {
+      "at": [
+       31,
+       11
+      ],
       "do": "sit",
       "who": "b"
      },
      {
       "at": [
        31,
-       12
+       13
       ],
       "do": "pan_right"
      },
      {
       "at": [
        31,
-       14
+       15
       ],
       "do": "shot_wide"
      }
@@ -109,11 +117,11 @@
      {
       "at": [
        31,
-       8
+       10
       ],
       "until": [
        31,
-       12
+       13
       ],
       "motif": "wheat",
       "place": "top",
@@ -122,7 +130,7 @@
      {
       "at": [
        31,
-       12
+       13
       ],
       "until": null,
       "motif": "two_paths",
@@ -168,8 +176,7 @@
        32,
        7
       ],
-      "do": "shot_close",
-      "who": "b"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -477,7 +484,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Wheat for «وكلوا واشربوا», growth for «والطيبات من الرزق». No jewel near «زينة الله» (the Name). 33 (the forbidden things): night sky, no motif. STAGING v4: c1 (31): three believers (men only) at home, in clean clothes: they stand in prayer from the start, the camera comes close on 31:3 (take your adornment; As-Sa'di: cover yourselves at every prayer), and they prostrate on 31:5-7 (at every place of prostration), rise on 31:8 and sit on 31:9 while a wheat plate stands for eating and drinking; on 31:12 (He does not love the excessive) the camera leaves them for the window and a two_paths plate. No excess is acted out. c2 (32): believers walk through a market of good provisions; growth plate on 32:9 (the good things of provision), sparkle on 32:15 (they are for those who believe), and on 32:23 (thus We detail the verses for a people who know) they read, with a book plate. No plate near 32:5 (the Name) or on either «قل». c3 (33: the prohibitions) stays ambient so that no sin is acted out: a seal plate on 33:3 (He has forbidden) and a geometric plate for 33:15-22 (associating others with Him)."
+  "notes": "Wheat for «وكلوا واشربوا», growth for «والطيبات من الرزق». No jewel near «زينة الله» (the Name). 33 (the forbidden things): night sky, no motif. STAGING v4: c1 (31): three believers (men only) at home, in clean clothes: they stand in prayer from the start, the camera comes close on 31:3 (take your adornment; As-Sa'di: cover yourselves at every prayer), they bow on 31:5 (at every place of prayer), rise on 31:7 and end the prayer on 31:9; no plate is on screen during the prayer. Then a wheat plate for eating and drinking (31:10) and they sit down on 31:11; on 31:13 (He does not love the excessive) the camera leaves them for the window and a two_paths plate. No excess is acted out. c2 (32): believers walk through a market of good provisions; on 32:7 the camera pans over the stalls (the rebuke of those who forbade them is not put on the believers); growth plate on 32:9 (the good things of provision), sparkle on 32:15 (they are for those who believe), and on 32:23 (thus We detail the verses for a people who know) they read, with a book plate. No plate near 32:5 (the Name) or on either «قل». c3 (33: the prohibitions) stays ambient so that no sin is acted out: a seal plate on 33:3 (He has forbidden) and a geometric plate for 33:15-22 (associating others with Him)."
  },
  "cover": {
   "series_ar": "الزينة والتقوى",

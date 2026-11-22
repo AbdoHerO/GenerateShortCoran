@@ -44,7 +44,10 @@
       "place": "center",
       "count": 3,
       "pose": "stand",
-      "enter": null,
+      "enter": [
+       25,
+       3
+      ],
       "exit": null
      }
     ],
@@ -183,7 +186,7 @@
        11
       ],
       "do": "sparkle",
-      "who": "p"
+      "who": "center"
      },
      {
       "at": [
@@ -476,7 +479,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No clothing, nakedness, garden or figure drawn; the Shaytan and his kind never drawn and no motif during 27. An hourglass for life and death, light for «ولباس التقوى». First-person «جعلنا» (26, 27) not used. STAGING v4: c1 (25: on the earth you live, die and are brought out): people in fields by day (Muyassar: on the earth you spend your worldly life); the fields grow on 25:3 (you live), an hourglass on 25:4 for the term; nobody leaves on the word of death and the resurrection is not pictured. c2 (26: clothing that covers, and adornment): a market street; a group in plain covering clothes (camera on them at 26:6) and a man in fine robes for the adornment (26:9, Muyassar: clothing for adornment and beauty) with a jewel plate; on the clothing of piety (26:10) a light plate and a soft sparkle on the group (As-Sa'di: the beauty of the heart and soul); on 26:19 (that they may remember) they look up. Only men are drawn; nothing about nakedness is shown. c3 (27: the Shaytan who removed the parents from the Garden and sees you unseen) stays ambient with no motif: the Garden, the uncovering, the Shaytan and his kind are not drawn."
+  "notes": "No clothing, nakedness, garden or figure drawn; the Shaytan and his kind never drawn and no motif during 27. An hourglass for life and death, light for «ولباس التقوى». First-person «جعلنا» (26, 27) not used. STAGING v4: c1 (25: on the earth you live, die and are brought out): the fields are empty at first (the address is to Adam, his wife and their offspring, who are not drawn); on 25:3 (you live) people walk in as the generations living on the earth (Muyassar: on the earth you spend your worldly life) and the fields grow, an hourglass on 25:4 for the term; nobody leaves on the word of death and the resurrection is not pictured. c2 (26: clothing that covers, and adornment): a market street; a group in plain covering clothes (camera on them at 26:6) and a man in fine robes for the adornment (26:9, Muyassar: clothing for adornment and beauty) with a jewel plate; on the clothing of piety (26:10) a light plate and a soft sparkle over the whole stage, the plainly dressed group and the man in fine robes alike (As-Sa'di: the beauty of the heart and soul; adornment itself is a favour); on 26:19 (that they may remember) they look up. Only men are drawn; nothing about nakedness is shown. c3 (27: the Shaytan who removed the parents from the Garden and sees you unseen) stays ambient with no motif: the Garden, the uncovering, the Shaytan and his kind are not drawn."
  },
  "cover": {
   "series_ar": "الزينة والتقوى",

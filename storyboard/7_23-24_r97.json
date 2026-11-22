@@ -83,7 +83,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
@@ -95,7 +95,7 @@
      {
       "at": [
        24,
-       10
+       9
       ],
       "do": "pan_left"
      }
@@ -104,7 +104,7 @@
      {
       "at": [
        24,
-       9
+       10
       ],
       "until": null,
       "motif": "hourglass",
@@ -175,7 +175,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Adam and Hawwa are never drawn. Light for «تغفر لنا وترحمنا», an hourglass for «ومتاع إلى حين». Al-Muyassar's bracketed note quoting 2:37 not used. STAGING v4: Staging v4: kept ambient, as for the same words in Al-Baqara (2:36-37). 23 is the du'a of Adam and his wife after the call in the Garden; 24 is the command to descend, addressed to Adam, his wife and Iblis (Al-Muyassar). The plate on 23:7 (asking His forgiveness) is now geometric instead of light, as a light plate must not start on His act. Adam's wife and Iblis are never drawn; drawing Adam alone at the descent would suggest he descended alone, so he is not drawn either."
+  "notes": "Adam and Hawwa are never drawn. Light for «تغفر لنا وترحمنا», an hourglass for «ومتاع إلى حين». Al-Muyassar's bracketed note quoting 2:37 not used. STAGING v4: Staging v4: kept ambient, as for the same words in Al-Baqara (2:36-37). 23 is the du'a of Adam and his wife after the call in the Garden; 24 is the command to descend, addressed to Adam, his wife and Iblis (Al-Muyassar). The plate on 23:7 (asking His forgiveness) is now geometric instead of light, as a light plate must not start on His act. c2 (24) mood light -> night_sky, so no light appears as Allah speaks (24:1); the hourglass moves to 24:10 (enjoyment for a time). Adam's wife and Iblis are never drawn; drawing Adam alone at the descent would suggest he descended alone, so he is not drawn either."
  },
  "cover": {
   "series_ar": "آدم وإبليس",

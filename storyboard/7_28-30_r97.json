@@ -44,7 +44,10 @@
       "place": "center",
       "count": 3,
       "pose": "gather",
-      "enter": null,
+      "enter": [
+       28,
+       4
+      ],
       "exit": null
      }
     ],
@@ -217,17 +220,17 @@
      {
       "at": [
        29,
-       15
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       30,
-       1
+       14
       ],
       "do": "stand_up",
       "who": "b"
+     },
+     {
+      "at": [
+       29,
+       16
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -295,20 +298,7 @@
      {
       "at": [
        29,
-       6
-      ],
-      "until": [
-       29,
-       10
-      ],
-      "motif": "lamp",
-      "place": "top",
-      "size": "s"
-     },
-     {
-      "at": [
-       29,
-       14
+       15
       ],
       "until": [
        30,
@@ -483,7 +473,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Their claim «والله أمرنا بها» (28:8-10) is glossed with As-Sa'di's «وكذبوا في هذا». No motif in 28 and none on the devils. A lamp for «عند كل مسجد», growth for «كما بدأكم تعودون», two paths for the two parties. STAGING v4: c1 (28): three deniers in a town at dusk, gathered and talking among themselves (no speech toward an empty side, which could stand for the Prophet); the camera is on them on 28:4 (they excuse their deed by their fathers and claim a command, framed by As-Sa'di's gloss that they lied); a geometric plate on 28:12-16 (Allah does not command immorality); the camera holds on them from 28:15 to the end of the rebuke and never pans to an empty side. Nothing of the deed itself is drawn: no circling, no House, no uncovering. c2 (29-30): the command is shown through the believers, not the addressed mushrikin: on the left they pray (29:5), bow, prostrate on 29:9 (place of prostration, Muyassar: in every place of worship) and sit; a lamp plate, then growth for 29:14-16 (as He began you, you return; the return itself is not pictured). On 30:1 (a party He guided) they rise and a soft sparkle falls on them; on 30:3 (a party deserved error) three deniers enter on the right, shake their heads and turn away on 30:8 (they took the devils as allies, who are not drawn); the camera stays on them to the end. Nobody prostrates toward people: the right side is empty until 30:3."
+  "notes": "Their claim «والله أمرنا بها» (28:8-10) is glossed with As-Sa'di's «وكذبوا في هذا». No motif in 28 and none on the devils. A lamp for «عند كل مسجد», growth for «كما بدأكم تعودون», two paths for the two parties. STAGING v4: c1 (28): the town at dusk is empty under the first gloss; on 28:4 three deniers come in, gathered and talking among themselves (no speech toward an empty side, which could stand for the Prophet), while they excuse their deed by their fathers and claim a command (framed by As-Sa'di's gloss that they lied). A geometric plate on 28:12-16 (Allah does not command immorality); the camera holds on them from 28:15 to the end of the rebuke and never pans to an empty side. Nothing of the deed is drawn: no circling, no House, nothing about nakedness. c2 (29-30): the command is shown through the believers, not the addressed mushrikin, and no plate is on screen while they pray: on the left they stand in prayer (29:5), bow (29:7), prostrate on 29:9 (place of prostration, Muyassar: in every place of worship), sit (29:11) and end the prayer on 29:14; only then a growth plate for 29:15-16 (as He began you, you return; the return is not pictured). On 30:1 a two_paths plate and on 30:2 (He guided) a soft sparkle on the believers; on 30:3 (a party deserved error) three deniers enter on the right, shake their heads and turn away on 30:8 (they took the devils as allies, who are not drawn); the camera stays on them to the end. Nobody prostrates toward people: the right side is empty until 30:3. Cover on 30:2 (the believers after the prayer, no plate over a prayer)."
  },
  "cover": {
   "series_ar": "الزينة والتقوى",
@@ -491,8 +481,8 @@
   "title_ar": "العدل والإخلاص",
   "title_en": "Justice and sincerity",
   "at": [
-   29,
-   6
+   30,
+   2
   ]
  },
  "motion": 3,

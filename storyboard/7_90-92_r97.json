@@ -49,7 +49,7 @@
       "enter": null,
       "exit": [
        90,
-       12
+       7
       ]
      },
      {
@@ -62,7 +62,7 @@
       "enter": null,
       "exit": [
        90,
-       12
+       7
       ]
      }
     ],
@@ -99,15 +99,7 @@
      {
       "at": [
        90,
-       7
-      ],
-      "do": "shot_close",
-      "who": "p"
-     },
-     {
-      "at": [
-       90,
-       10
+       5
       ],
       "do": "turn",
       "who": "d"
@@ -115,31 +107,52 @@
      {
       "at": [
        90,
-       11
+       6
       ],
       "do": "turn",
       "who": "p"
      },
      {
       "at": [
+       90,
+       8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       90,
+       10
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       90,
+       12
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
        91,
        1
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        91,
        4
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        92,
        1
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -153,7 +166,7 @@
        92,
        8
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -167,7 +180,7 @@
        92,
        13
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -258,7 +271,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Shu'ayb: no motif. No earthquake, bodies or destruction drawn; wind only for «كأن لم يغنوا فيها». Their claim (90:7-12) is framed «هذا ما سولت لهم أنفسهم». STAGING v4: Shu'ayb is named but not drawn (not placed in the scene). 90: the chiefs who disbelieved (three faceless men in dark robes) speak (90:1) to the people of the town (three faceless men, left), warning them against following Shu'ayb (the camera on them on 90:7); both groups turn (90:10-11) and leave the stage on 90:12, before 91:1, so nobody is there at the quake. 91: the quake shakes the empty town (91:2 to 92:1): no body, no ruin, day (not dawn). 92 (as though they had never lived there): the wind blows through the empty street with a wind plate (92:4-7, after Shu'ayb's name and ending before it again) and a few leaves."
+  "notes": "Shu'ayb: no motif. No earthquake, bodies or destruction drawn; wind only for «كأن لم يغنوا فيها». Their claim (90:7-12) is framed «هذا ما سولت لهم أنفسهم». STAGING v4: Shu'ayb is named but not drawn (not placed in the scene). 90: the chiefs who disbelieved (three faceless men in dark robes) speak (90:1) to the people of the town (three faceless men, left), the camera on the chiefs (90:3); both groups turn (90:5-6) and leave the stage on 90:7, before the chiefs' conditional saying (90:7-12) is recited, so no gesture is acted inside it and the street is empty long before 91:1. 91: the quake shakes the empty town (91:2 to 92:1): no body, no ruin, day (not dawn). 92 (as though they had never lived there): the wind blows through the empty street with a wind plate (92:4-7, after Shu'ayb's name and ending before it again) and a few leaves."
  },
  "cover": {
   "series_ar": "دعوة الرسل",

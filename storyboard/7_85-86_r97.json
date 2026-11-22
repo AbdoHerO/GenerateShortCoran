@@ -224,7 +224,7 @@
       "label": "",
       "place": "right",
       "count": 3,
-      "pose": "stand",
+      "pose": "sit",
       "enter": null,
       "exit": null
      }
@@ -236,7 +236,7 @@
        86,
        2
       ],
-      "do": "sit",
+      "do": "shot_close",
       "who": "d"
      },
      {
@@ -482,7 +482,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Shu'ayb: no motif. Scales for «فأوفوا الكيل والميزان» (worldly weights), geometric for «اعبدوا الله», growth for «فكثركم». 86:5 «توعدون» is not glossed (Al-Muyassar: robbery; As-Sa'di: threatening those who follow the call); no path motif on the blamed act. STAGING v4: Shu'ayb is a blue drop labelled Shu'ayb (no motif on his name); Madyan in a market street (85: measure and weight). c1 (85): Shu'ayb speaks (85:5), geometric on 85:7-13 (worship Allah); scales plate for the measure and the weight (85:19-21, worldly weights, not the Mizan of the Hereafter); the camera on a merchant (85:20) and on the people (85:23, do not deprive people of their things); nobody is shown giving short or full measure (a command to them is not acted as obeyed). c2 (86): the men in dark robes sit by the street (86:2: both tafsirs: they sat on the roads), speak (86:5: what they threatened is not shown, as the tafsirs differ) and point at two believers walking by (86:6, averting from the way of Allah those who believed); Shu'ayb speaks (86:15); a crowd plate for He increased you (86:19), the camera on them and an hourglass for see the end of the corrupters (86:20-24). No weapon, no violence."
+  "notes": "Shu'ayb: no motif. Scales for «فأوفوا الكيل والميزان» (worldly weights), geometric for «اعبدوا الله», growth for «فكثركم». 86:5 «توعدون» is not glossed (Al-Muyassar: robbery; As-Sa'di: threatening those who follow the call); no path motif on the blamed act. STAGING v4: Shu'ayb is a blue drop labelled Shu'ayb (no motif on his name); Madyan in a market street (85: measure and weight). c1 (85): Shu'ayb speaks (85:5), geometric on 85:7-13 (worship Allah); scales plate for the measure and the weight (85:19-21, worldly weights, not the Mizan of the Hereafter); the camera on a merchant (85:20) and on the people (85:23, do not deprive people of their things); nobody is shown giving short or full measure (a command to them is not acted as obeyed). c2 (86): the men in dark robes are already seated by the street (both tafsirs: they sat on the roads; no sit gesture is acted on the prohibited verb 86:2, only the camera on them), speak (86:5: what they threatened is not shown, as the tafsirs differ) and point at two believers walking by (86:6, averting from the way of Allah those who believed); Shu'ayb speaks (86:15); a crowd plate for He increased you (86:19), the camera on them and an hourglass for see the end of the corrupters (86:20-24). No weapon, no violence."
  },
  "cover": {
   "series_ar": "دعوة الرسل",
