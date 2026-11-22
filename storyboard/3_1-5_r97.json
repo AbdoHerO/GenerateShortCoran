@@ -92,7 +92,7 @@
       "id": "d",
       "type": "disbelievers",
       "label": "",
-      "place": "right",
+      "place": "center",
       "count": 3,
       "pose": "stand",
       "enter": [
@@ -140,7 +140,7 @@
        4,
        1
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -187,14 +187,15 @@
        4,
        16
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        4,
        18
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "d"
      }
     ],
     "motifs": [
