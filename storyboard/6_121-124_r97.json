@@ -178,16 +178,7 @@
       "exit": null
      }
     ],
-    "events": [
-     {
-      "type": "light",
-      "at": [
-       122,
-       7
-      ],
-      "until": null
-     }
-    ],
+    "events": [],
     "beats": [
      {
       "at": [
@@ -217,7 +208,14 @@
        122,
        5
       ],
-      "do": "shot_close",
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       122,
+       7
+      ],
+      "do": "sparkle",
       "who": "w"
      },
      {
@@ -673,7 +671,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "121: no carrion or slaughter drawn; «وإن أطعتموهم» carries Al-Muyassar's restriction «في تحليل الميتة», and «إنكم لمشركون» is not glossed alone. A lamp for «نورا يمشي به في الناس». Al-Muyassar's first-person «خذلتُ… زيَّنْتُ» (122:19-24) not used. Their demand in 124 is only attributed («قال بعض كبرائهم»), never glossed as a statement; geometric for «الله أعلم حيث يجعل رسالته». STAGING v4: c1 (121): a market by day; the believers (left) shake their heads on 121:2 (not eating what is unlawful); the allies of the devils (3 men in dark robes, Al-Muyassar: they dispute about carrion) argue with them on 121:16. The devils (jinn) are never drawn. The condition 121:17-20 is not acted (a two-paths plate only). c2 (122): the parable at night: a believer sitting with his head lowered (122:3, dead in misguidance) stands up on 122:4 (given life), a soft light falls on him on 122:7 (with the lamp plate; the beam follows him) and he walks over to stand beside a group of people on 122:8 (As-Sa'di: he walks among the people in the light), so he is never a lone man at the centre; the one in darkness (a man in dark robes) turns this way and that on 122:17-18 (no way out); the camera holds on him for 122:19-24. c3 (123-124): the chiefs of a town (3 men in dark robes gathered at the centre) plot on 123:8; when a proof comes (scroll plate, 124:3) they speak and shake their heads (124:4-6, framed by the gloss «قال بعض كبرائهم»); geometric for 124:14-18; the camera holds on them during the threat (124:19-29); their humiliation and punishment are not acted."
+  "notes": "121: no carrion or slaughter drawn; «وإن أطعتموهم» carries Al-Muyassar's restriction «في تحليل الميتة», and «إنكم لمشركون» is not glossed alone. A lamp for «نورا يمشي به في الناس». Al-Muyassar's first-person «خذلتُ… زيَّنْتُ» (122:19-24) not used. Their demand in 124 is only attributed («قال بعض كبرائهم»), never glossed as a statement; geometric for «الله أعلم حيث يجعل رسالته». STAGING v4: c1 (121): a market by day; the believers (left) shake their heads on 121:2 (not eating what is unlawful); the allies of the devils (3 men in dark robes, Al-Muyassar: they dispute about carrion) argue with them on 121:16. The devils (jinn) are never drawn. The condition 121:17-20 is not acted (a two-paths plate only). c2 (122): the parable at night: a believer sitting with his head lowered (122:3, dead in misguidance) stands up on 122:4 (given life), a soft sparkle on him on 122:7 (with the lamp plate; no beam from the sky, and the camera stays wide with the group in frame) and he walks over to stand beside a group of people on 122:8 (As-Sa'di: he walks among the people in the light), so he is never a lone man at the centre; the one in darkness (a man in dark robes) turns this way and that on 122:17-18 (no way out); the camera holds on him for 122:19-24. c3 (123-124): the chiefs of a town (3 men in dark robes gathered at the centre) plot on 123:8; when a proof comes (scroll plate, 124:3) they speak and shake their heads (124:4-6, framed by the gloss «قال بعض كبرائهم»); geometric for 124:14-18; the camera holds on them during the threat (124:19-29); their humiliation and punishment are not acted."
  },
  "cover": {
   "series_ar": "الهداية والضلال",
