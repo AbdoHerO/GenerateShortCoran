@@ -32,107 +32,152 @@
    "verses": [
     12
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       12,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       12,
+       5
+      ],
+      "do": "pan_right"
+     },
      {
       "at": [
        12,
        7
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
        12,
        11
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        12,
-       15
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       12,
-       19
+       14
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       12,
+       17
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       12,
+       21
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
        12,
        22
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        12,
        24
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        12,
        27
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        12,
        28
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
        12,
-       30
+       31
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        12,
        32
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        12,
        33
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        12,
        36
       ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       12,
+       37
+      ],
       "do": "shot_wide"
      },
      {
       "at": [
        12,
-       39
+       41
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
        12,
-       43
+       44
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -147,7 +192,27 @@
       ],
       "motif": "seal",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       12,
+       28
+      ],
+      "until": null,
+      "motif": "light",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       12,
+       37
+      ],
+      "until": null,
+      "motif": "two_paths",
+      "place": "top",
+      "size": "s"
      }
     ]
    }
@@ -158,28 +223,64 @@
    "verses": [
     13
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "desert",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "f",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 2,
+      "pose": "stand",
+      "enter": [
+       13,
+       23
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       13,
+       2
+      ],
+      "do": "turn",
+      "who": "p"
+     },
      {
       "at": [
        13,
        4
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        13,
-       7
+       6
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
        13,
-       11
+       10
       ],
       "do": "shot_wide"
      },
@@ -188,12 +289,13 @@
        13,
        14
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
        13,
-       16
+       18
       ],
       "do": "shot_wide"
      },
@@ -202,25 +304,58 @@
        13,
        21
       ],
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       13,
+       24
+      ],
+      "do": "shot_close",
+      "who": "f"
+     },
+     {
+      "at": [
+       13,
+       26
+      ],
       "do": "shot_wide"
      },
      {
       "at": [
        13,
-       25
+       31
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       13,
+       9
+      ],
+      "until": [
+       13,
+       12
+      ],
+      "motif": "scroll",
+      "place": "top",
+      "size": "s"
      },
      {
       "at": [
        13,
-       29
+       30
       ],
-      "do": "pan_left"
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "s"
      }
     ],
-    "motifs": [],
-    "transition": "dissolve"
+    "transition": "morph"
    }
   }
  ],
@@ -360,7 +495,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A seal for the covenant «ميثاق», a scroll for «الكلم» (leaving before «ونسوا»). No people (no twelve figures for the chiefs), no motif on Musa, nothing literal for the gardens. Al-Muyassar's first-person «بحفظي ونصري», «برسلي», «سبيلي», «طردناهم» are not used."
+  "notes": "A seal for the covenant «ميثاق», a scroll for «الكلم» (leaving before «ونسوا»). No people (no twelve figures for the chiefs), no motif on Musa, nothing literal for the gardens. Al-Muyassar's first-person «بحفظي ونصري», «برسلي», «سبيلي», «طردناهم» are not used. STAGING v4: 12: the Children of Israel as a small group (3) on open land; the place of the covenant is not given by the tafsirs, so a plain desert, and Musa (named only by Al-Muyassar) is not drawn. The twelve chiefs are not drawn (a group of 12 cannot be shown, and fewer would be a wrong number). Nothing is acted during the conditions (12:16-27: no prayer, no giving), Paradise is not drawn (light plate on the forgiveness 12:28), two-paths plate for straying (12:37). 13: the same group (3, no woman) turns its back on 13:2 (breaking the covenant); scroll plate for the altered words (13:9-11, leaving before forgetting). The few who kept the covenant are 2 countable believers who appear on 13:23. The pardon is the Prophet's own conduct: shown only by a wide shot, nobody faces an empty side. Geometric on the Name 13:30."
  },
  "cover": {
   "series_ar": "العدل والميثاق",
@@ -368,9 +503,10 @@
   "title_ar": "نقض العهد",
   "title_en": "Breaking the covenant",
   "at": [
-   12,
-   1
+   13,
+   3
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

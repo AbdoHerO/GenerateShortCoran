@@ -32,51 +32,123 @@
    "verses": [
     4
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "h",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       4,
+       6
+      ],
+      "exit": null,
+      "look": "plain"
+     },
+     {
+      "id": "d",
+      "type": "dog",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "sit",
+      "enter": [
+       4,
+       12
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        4,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       4,
        4
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       4,
-       16
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       4,
-       18
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       4,
-       20
       ],
       "do": "pan_left"
      },
      {
       "at": [
        4,
-       25
+       9
+      ],
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       4,
+       13
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       4,
+       14
+      ],
+      "do": "point",
+      "who": "h",
+      "to": "d"
+     },
+     {
+      "at": [
+       4,
+       17
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       4,
+       19
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       4,
+       22
+      ],
+      "do": "speak",
+      "who": "h"
+     },
+     {
+      "at": [
+       4,
+       24
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        4,
        26
       ],
-      "do": "pan_left"
+      "do": "bow",
+      "who": "h"
+     },
+     {
+      "at": [
+       4,
+       30
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -85,23 +157,13 @@
        4,
        8
       ],
-      "until": null,
-      "motif": "wheat",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       4,
-       13
-      ],
       "until": [
        4,
-       16
+       12
       ],
-      "motif": "dog",
+      "motif": "wheat",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -111,7 +173,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -124,61 +186,54 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn",
+    "mood": "geometric",
     "beats": [
      {
       "at": [
        5,
-       6
+       2
+      ],
+      "do": "pattern_turn"
+     },
+     {
+      "at": [
+       5,
+       8
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        5,
-       10
+       11
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       5,
-       13
-      ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        5,
        16
       ],
-      "do": "pan_left"
+      "do": "pattern_turn"
      },
      {
       "at": [
        5,
-       18
+       19
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       5,
+       23
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        5,
-       22
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       5,
        25
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       5,
-       26
       ],
       "do": "shot_wide"
      },
@@ -187,42 +242,42 @@
        5,
        27
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        5,
-       30
+       29
       ],
-      "do": "pan_right"
+      "do": "light_up"
      },
      {
       "at": [
        5,
        32
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        5,
        35
       ],
-      "do": "shot_wide"
+      "do": "pattern_turn"
      },
      {
       "at": [
        5,
-       39
+       41
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        5,
        43
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -236,6 +291,42 @@
        13
       ],
       "motif": "wheat",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       5,
+       14
+      ],
+      "until": [
+       5,
+       24
+      ],
+      "motif": "house",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       5,
+       26
+      ],
+      "until": [
+       5,
+       33
+      ],
+      "motif": "coins",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       5,
+       37
+      ],
+      "until": null,
+      "motif": "leaf",
       "place": "top",
       "size": "m"
      }
@@ -402,7 +493,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Wheat for «الطيبات», a dog for «مكلبين» (hunting animals; no prey or blood), geometric near «سريع الحساب». Nothing drawn for the marriage verses (5:14-32): the wheat leaves at 5:13. No people."
+  "notes": "Wheat for «الطيبات», a dog for «مكلبين» (hunting animals; no prey or blood), geometric near «سريع الحساب». Nothing drawn for the marriage verses (5:14-32): the wheat leaves at 5:13. No people. STAGING v4: 4: the stage stays empty while the asking and 4:5 are recited (nobody stands for the asker or the one asked). A man enters on 4:6, wheat plate for the good things (4:8). A trained hunting dog (named in both tafsirs: dogs, cheetahs, falcons) enters on 4:12 and sits by him; he points to it on 4:14 (teaching it), says the Name over it on 4:22 (when sending it, Al-Muyassar) and lowers his head on 4:26. No prey, no hunt, no blood. Geometric on the Name 4:29. 5: marriage and its conditions stay ambient with no people (geometric mood for rulings, no dawn over the closing warning): wheat for the food (5:4), a house for chaste marriage (5:14), coins for the dowries (5:26), a falling leaf for the deeds made void (5:37); nothing literal for the Hereafter."
  },
  "cover": {
   "series_ar": "العقود والحلال",
@@ -410,9 +501,10 @@
   "title_ar": "الطيبات والزواج",
   "title_en": "Good food and marriage",
   "at": [
-   5,
-   1
+   4,
+   9
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -32,35 +32,93 @@
    "verses": [
     23
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "r",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 2,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "q",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        23,
-       6
+       2
+      ],
+      "do": "speak",
+      "who": "r"
+     },
+     {
+      "at": [
+       23,
+       5
+      ],
+      "do": "shot_close",
+      "who": "r"
+     },
+     {
+      "at": [
+       23,
+       9
+      ],
+      "do": "speak",
+      "who": "r"
+     },
+     {
+      "at": [
+       23,
+       12
+      ],
+      "do": "shot_close",
+      "who": "q"
+     },
+     {
+      "at": [
+       23,
+       15
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        23,
-       13
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       23,
        16
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "r"
      },
      {
       "at": [
        23,
        19
+      ],
+      "do": "shot_close",
+      "who": "r"
+     },
+     {
+      "at": [
+       23,
+       21
       ],
       "do": "shot_wide"
      }
@@ -77,7 +135,7 @@
       ],
       "motif": "door",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -90,16 +148,49 @@
     25,
     26
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "desert",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "m",
+      "type": "prophet",
+      "label": "موسى",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "q",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        24,
-       6
+       1
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "q"
+     },
+     {
+      "at": [
+       24,
+       4
+      ],
+      "do": "shake_head",
+      "who": "q"
      },
      {
       "at": [
@@ -111,72 +202,126 @@
      {
       "at": [
        24,
+       9
+      ],
+      "do": "shot_close",
+      "who": "q"
+     },
+     {
+      "at": [
+       24,
        11
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        24,
        14
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "q"
      },
      {
       "at": [
        24,
-       15
+       16
       ],
-      "do": "pan_right"
+      "do": "sit",
+      "who": "q"
      },
      {
       "at": [
        25,
        1
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "m"
      },
      {
       "at": [
        25,
        4
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        25,
-       6
+       7
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        25,
-       11
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       25,
+       12
+      ],
+      "do": "shot_close",
+      "who": "q"
+     },
+     {
+      "at": [
+       26,
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        26,
-       2
+       3
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "q"
+     },
+     {
+      "at": [
+       26,
+       6
+      ],
+      "do": "stand_up",
+      "who": "q"
      },
      {
       "at": [
        26,
        7
       ],
-      "do": "pan_left"
+      "do": "walk_to",
+      "who": "q",
+      "to": "center"
+     },
+     {
+      "at": [
+       26,
+       9
+      ],
+      "do": "walk_to",
+      "who": "q",
+      "to": "right"
      },
      {
       "at": [
        26,
        11
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       26,
+       13
+      ],
+      "do": "shot_close",
+      "who": "q"
      },
      {
       "at": [
@@ -198,10 +343,10 @@
       ],
       "motif": "hourglass",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "morph"
    }
   }
  ],
@@ -330,7 +475,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A door for «الباب», an hourglass for the forty years (a number the Quran states). No motif on Musa, Harun or the two men; their words «فاذهب أنت وربك» are never illustrated and are glossed only as As-Sa'di's condemnation; Allah is never depicted. Al-Muyassar's first-person «طاعتي» and As-Sa'di's «نحرم» not used."
+  "notes": "A door for «الباب», an hourglass for the forty years (a number the Quran states). No motif on Musa, Harun or the two men; their words «فاذهب أنت وربك» are never illustrated and are glossed only as As-Sa'di's condemnation; Allah is never depicted. Al-Muyassar's first-person «طاعتي» and As-Sa'di's «نحرم» not used. STAGING v4: 23: the two men who feared Allah are 2 countable believers (not named by the tafsirs, so no drops); they speak to the people (3) on 23:2, 23:9 and 23:16; door plate for the gate of the city (23:11), which is never drawn, nor its mighty people; no soldiers, no weapon, no fighting. 24-26: Musa is a blue drop with his name. The people answer him and shake their heads (24:1, 24:4); nothing is acted on 24:10-13 (no pointing, no camera move on the Lord); they sit on 24:16 as they said. Musa speaks his prayer on 25:1 (no glow, no camera move on the Lord); his brother is not drawn (not named in the verse or the tafsirs). Allah's answer (26:1) has no speaker on screen. Hourglass for the forty years (a number the Quran states); the people stand and walk to and fro on 26:7-9 for the wandering (a this-world penalty, As-Sa'di), nobody fades or is hurt."
  },
  "cover": {
   "series_ar": "موسى والأرض المقدسة",
@@ -339,8 +484,9 @@
   "title_en": "The years of wandering",
   "at": [
    26,
-   1
+   8
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

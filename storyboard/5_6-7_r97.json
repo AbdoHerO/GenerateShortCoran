@@ -32,51 +32,105 @@
    "verses": [
     6
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "m",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "sit",
+      "enter": null,
+      "exit": [
+       6,
+       15
+      ],
+      "look": "plain"
+     },
+     {
+      "id": "w",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "walk",
+      "enter": [
+       6,
+       40
+      ],
+      "exit": null,
+      "look": "traveller"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        6,
-       4
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        6,
-       9
+       2
       ],
       "do": "pan_right"
      },
      {
       "at": [
        6,
-       13
+       5
       ],
-      "do": "pan_right"
+      "do": "stand_up",
+      "who": "m"
      },
      {
       "at": [
        6,
-       16
+       11
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       6,
+       14
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       6,
+       17
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
        6,
        19
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        6,
-       22
+       21
       ],
-      "do": "pan_left"
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       6,
+       23
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -88,14 +142,21 @@
      {
       "at": [
        6,
-       30
+       27
       ],
-      "do": "shot_wide"
+      "do": "wind"
      },
      {
       "at": [
        6,
-       33
+       32
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       6,
+       35
       ],
       "do": "pan_right"
      },
@@ -111,45 +172,92 @@
        6,
        39
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        6,
        41
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        6,
        43
       ],
-      "do": "pan_left"
+      "do": "sit",
+      "who": "w"
      },
      {
       "at": [
        6,
        46
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       6,
+       47
+      ],
+      "do": "shot_close",
+      "who": "w"
      },
      {
       "at": [
        6,
        51
       ],
-      "do": "pan_right"
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       6,
+       54
+      ],
+      "do": "stand_up",
+      "who": "w"
+     },
+     {
+      "at": [
+       6,
+       57
+      ],
+      "do": "pray",
+      "who": "w"
      },
      {
       "at": [
        6,
        59
       ],
-      "do": "shot_wide"
+      "do": "ruku",
+      "who": "w"
+     },
+     {
+      "at": [
+       6,
+       61
+      ],
+      "do": "sujud",
+      "who": "w"
      }
     ],
     "motifs": [
+     {
+      "at": [
+       6,
+       8
+      ],
+      "until": [
+       6,
+       18
+      ],
+      "motif": "drop",
+      "place": "top",
+      "size": "s"
+     },
      {
       "at": [
        6,
@@ -158,7 +266,7 @@
       "until": null,
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -169,37 +277,84 @@
    "verses": [
     7
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        7,
-       8
+       1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       7,
+       2
+      ],
+      "do": "pray",
+      "who": "b"
+     },
+     {
+      "at": [
+       7,
+       6
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       7,
+       9
+      ],
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        7,
        12
       ],
-      "do": "shot_wide"
+      "do": "ruku",
+      "who": "b"
      },
      {
       "at": [
        7,
        13
       ],
-      "do": "shot_wide"
+      "do": "rise",
+      "who": "b"
      },
      {
       "at": [
        7,
        15
       ],
-      "do": "pan_right"
+      "do": "sujud",
+      "who": "b"
+     },
+     {
+      "at": [
+       7,
+       18
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -211,7 +366,7 @@
       "until": null,
       "motif": "seal",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -221,10 +376,10 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "light_sweep"
    }
   }
  ],
@@ -364,7 +519,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Wudu, ghusl, tayammum: no body, no water drawn; light only on «ليطهركم». A seal for «وميثاقه», geometric for «عليم بذات الصدور». 6:22-39 (illness, travel, «لامستم») not glossed: the tafsirs word «لامستم» differently."
+  "notes": "Wudu, ghusl, tayammum: no body, no water drawn; light only on «ليطهركم». A seal for «وميثاقه», geometric for «عليم بذات الصدور». 6:22-39 (illness, travel, «لامستم») not glossed: the tafsirs word «لامستم» differently. STAGING v4: 6: a man sits, rises on 6:5 (rising to the prayer); no washing gesture, no body part and no water on him: only a water-drop plate as a symbol (6:8-17). He leaves on 6:15, so nobody is on screen for the major impurity, illness, need and touching (6:18-39, camera and wind only). On 6:40 a traveller (no water on a journey) walks in and sits; tayammum is not acted. He stands on 6:54 and prays after the light plate (6:56): standing, bowing, prostrating on the gratitude words. 7: believers pray in a prayer hall (remembering the favour of what Allah legislated); nobody speaks on 7:10, as As-Sa'di says the pledge was not spoken but meant by their faith. Seal for the covenant, geometric on the Name 7:16, prostration before it."
  },
  "cover": {
   "series_ar": "العقود والحلال",
@@ -373,8 +528,9 @@
   "title_en": "Purity for prayer",
   "at": [
    6,
-   1
+   58
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -39,6 +39,13 @@
      {
       "at": [
        33,
+       2
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       33,
        4
       ],
       "do": "pan_right"
@@ -96,6 +103,13 @@
       "at": [
        33,
        24
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       33,
+       27
       ],
       "do": "shot_wide"
      },
@@ -230,7 +244,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Penalties: nothing drawn, no people, no weapon; 33 under a night sky with no motif. The penalties themselves (33:11-24) are not glossed: their recitation is shown as text only. 33:30-34 carries Al-Muyassar's «إن لم يتوبوا». Light for «تابوا», geometric for «غفور رحيم»."
+  "notes": "Penalties: nothing drawn, no people, no weapon; 33 under a night sky with no motif. The penalties themselves (33:11-24) are not glossed: their recitation is shown as text only. 33:30-34 carries Al-Muyassar's «إن لم يتوبوا». Light for «تابوا», geometric for «غفور رحيم». STAGING v4: Both chapters stay ambient: the penalties for highway robbery and the exception for those who repent before they are caught (killing and punishment are never staged)."
  },
  "cover": {
   "series_ar": "الحدود والوسيلة",
@@ -242,5 +256,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

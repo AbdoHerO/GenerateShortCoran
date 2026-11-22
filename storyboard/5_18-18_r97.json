@@ -32,68 +32,117 @@
    "verses": [
     18
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       18,
+       1
+      ],
+      "do": "speak",
+      "who": "p"
+     },
      {
       "at": [
        18,
        4
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
        18,
        7
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        18,
-       10
+       9
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       18,
+       11
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
        18,
        13
       ],
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       18,
+       16
+      ],
       "do": "shot_wide"
      },
      {
       "at": [
        18,
-       15
+       20
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
        18,
-       19
+       23
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       18,
+       27
       ],
       "do": "pan_right"
      },
      {
       "at": [
        18,
-       22
+       30
       ],
       "do": "shot_wide"
-     },
-     {
-      "at": [
-       18,
-       28
-      ],
-      "do": "pan_left"
      }
     ],
     "motifs": [
+     {
+      "at": [
+       18,
+       17
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "s"
+     },
      {
       "at": [
        18,
@@ -102,7 +151,7 @@
       "until": null,
       "motif": "stars",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -167,7 +216,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Their claim «نحن أبناء الله وأحباؤه» is glossed only as «دعوى باطلة». Stars for the heavens; nothing else drawn."
+  "notes": "Their claim «نحن أبناء الله وأحباؤه» is glossed only as «دعوى باطلة». Stars for the heavens; nothing else drawn. STAGING v4: A small group (3, no woman) of those who made the claim, in a town at dusk: they speak on 18:1 (the gloss frames it as a false claim). On the reply the camera stays on them (no empty side for the one told to answer): close on 18:13 (they are humans He created) and 18:20. Geometric plate for forgiving and punishing (18:17), stars for the heavens and the earth (18:25); nothing literal for the return."
  },
  "cover": {
   "series_ar": "دعوة أهل الكتاب",
@@ -176,8 +225,9 @@
   "title_en": "The claim of sonship",
   "at": [
    18,
-   8
+   4
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

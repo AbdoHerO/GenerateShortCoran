@@ -61,6 +61,13 @@
      {
       "at": [
        31,
+       5
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       31,
        8
       ],
       "do": "shot_wide"
@@ -100,6 +107,13 @@
    "params": {
     "mood": "dawn",
     "beats": [
+     {
+      "at": [
+       32,
+       5
+      ],
+      "do": "pan_left"
+     },
      {
       "at": [
        32,
@@ -347,7 +361,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "30-31 under a night sky with no motif: the killing, the body, the crow and the burial are never drawn. Growth only on «ومن أحياها» (saving a life). Names not used. As-Sa'di's «الذي ذكرناه» (first person) not used."
+  "notes": "30-31 under a night sky with no motif: the killing, the body, the crow and the burial are never drawn. Growth only on «ومن أحياها» (saving a life). Names not used. As-Sa'di's «الذي ذكرناه» (first person) not used. STAGING v4: Both chapters stay ambient: 30-31 the killing, the body and the raven are never drawn; 32 is the ruling on killing a soul (killing and its punishment are never staged)."
  },
  "cover": {
   "series_ar": "ابنا آدم",
@@ -359,5 +373,6 @@
    22
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

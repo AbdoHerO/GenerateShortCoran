@@ -32,30 +32,85 @@
    "verses": [
     35
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        35,
-       4
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        35,
-       12
+       2
       ],
       "do": "pan_left"
      },
      {
       "at": [
        35,
+       4
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       35,
+       6
+      ],
+      "do": "pray",
+      "who": "b"
+     },
+     {
+      "at": [
+       35,
+       8
+      ],
+      "do": "ruku",
+      "who": "b"
+     },
+     {
+      "at": [
+       35,
+       10
+      ],
+      "do": "rise",
+      "who": "b"
+     },
+     {
+      "at": [
+       35,
+       12
+      ],
+      "do": "sujud",
+      "who": "b"
+     },
+     {
+      "at": [
+       35,
        13
       ],
-      "do": "pan_right"
+      "do": "sit",
+      "who": "b"
      }
     ],
     "motifs": [
@@ -67,7 +122,7 @@
       "until": null,
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -83,6 +138,13 @@
    "params": {
     "mood": "night_sky",
     "beats": [
+     {
+      "at": [
+       36,
+       2
+      ],
+      "do": "pan_right"
+     },
      {
       "at": [
        36,
@@ -121,6 +183,13 @@
      {
       "at": [
        37,
+       4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       37,
        6
       ],
       "do": "pan_right"
@@ -138,6 +207,13 @@
        10
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       37,
+       12
+      ],
+      "do": "pan_right"
      }
     ],
     "motifs": [],
@@ -164,9 +240,23 @@
      {
       "at": [
        38,
+       5
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       38,
        6
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       38,
+       7
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
@@ -181,6 +271,13 @@
        10
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       38,
+       13
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -324,7 +421,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Light for «الوسيلة», geometric for «عزيز حكيم». 36-37 (the Fire): night sky, no gold for «ما في الأرض جميعا», nothing literal. The theft penalty: no hand drawn, no people; 38:3-4 shows only that it is carried out by those in authority. «وجاهدوا» not illustrated."
+  "notes": "Light for «الوسيلة», geometric for «عزيز حكيم». 36-37 (the Fire): night sky, no gold for «ما في الأرض جميعا», nothing literal. The theft penalty: no hand drawn, no people; 38:3-4 shows only that it is carried out by those in authority. «وجاهدوا» not illustrated. STAGING v4: 35: believers pray in a prayer hall for seeking nearness to Allah by obedience (prayer is among the acts As-Sa'di lists): standing on 35:6, bowing on 35:8 with the light plate, rising, prostrating on 35:12, sitting on 35:13. Nothing is drawn for striving (35:9): no weapon, no fighting. 36-37 (the Fire, no ransom) stay ambient: the unseen. 38 (the penalty for theft) stays ambient: no people, no hand."
  },
  "cover": {
   "series_ar": "الحدود والوسيلة",
@@ -336,5 +433,6 @@
    6
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -32,14 +32,61 @@
    "verses": [
     14
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "a",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 2,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "b",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 2,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        14,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       14,
+       3
+      ],
+      "do": "speak",
+      "who": "a"
+     },
+     {
+      "at": [
+       14,
        4
+      ],
+      "do": "speak",
+      "who": "b"
+     },
+     {
+      "at": [
+       14,
+       6
       ],
       "do": "shot_wide"
      },
@@ -48,33 +95,50 @@
        14,
        9
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        14,
        12
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        14,
        13
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       14,
+       14
+      ],
+      "do": "turn",
+      "who": "a"
+     },
+     {
+      "at": [
+       14,
+       15
+      ],
+      "do": "turn",
+      "who": "b"
      },
      {
       "at": [
        14,
        16
       ],
-      "do": "pan_left"
+      "do": "shake_head",
+      "who": "a"
      },
      {
       "at": [
        14,
-       19
+       18
       ],
       "do": "shot_wide"
      },
@@ -83,7 +147,15 @@
        14,
        21
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       14,
+       24
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -105,7 +177,17 @@
       ],
       "motif": "seal",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       14,
+       22
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "s"
      }
     ]
    }
@@ -159,7 +241,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A seal for «ميثاقهم»; no motif on Isa. 14:1-5 frames their name as a claim (Al-Muyassar). 14:13-19 is not glossed: both tafsirs paraphrase «فأغرينا» in Allah's first person."
+  "notes": "A seal for «ميثاقهم»; no motif on Isa. 14:1-5 frames their name as a claim (Al-Muyassar). 14:13-19 is not glossed: both tafsirs paraphrase «فأغرينا» in Allah's first person. STAGING v4: Two small groups (2 each, no woman) in a town at dusk: both say their claim on 14:3-4 (the gloss frames it as a claim). Seal for the covenant (14:7). The enmity and hatred among them (14:13-16, a this-world fact in As-Sa'di) is shown only as the two groups turning their backs on each other and one shaking its head: no fighting, no weapon. Isa is not drawn. Geometric on the Name 14:22 while they are told of their deeds; nothing literal for the Day."
  },
  "cover": {
   "series_ar": "العدل والميثاق",
@@ -168,8 +250,9 @@
   "title_en": "The Christians' covenant",
   "at": [
    14,
-   6
+   8
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -108,30 +108,64 @@
     21,
     22
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "m",
+      "type": "prophet",
+      "label": "موسى",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "q",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        20,
-       7
+       2
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "m"
      },
      {
       "at": [
        20,
-       12
+       6
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "q"
+     },
+     {
+      "at": [
+       20,
+       9
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        20,
        14
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "q"
      },
      {
       "at": [
@@ -143,82 +177,124 @@
      {
       "at": [
        20,
-       16
+       17
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "q"
      },
      {
       "at": [
        20,
-       18
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       20,
-       22
+       20
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        21,
-       8
+       1
+      ],
+      "do": "speak",
+      "who": "m"
+     },
+     {
+      "at": [
+       21,
+       3
+      ],
+      "do": "point",
+      "who": "m",
+      "to": "left"
+     },
+     {
+      "at": [
+       21,
+       6
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       21,
+       9
+      ],
+      "do": "shot_close",
+      "who": "q"
      },
      {
       "at": [
        21,
        12
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        21,
        14
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        22,
        1
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "q"
      },
      {
       "at": [
        22,
-       3
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       22,
-       6
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       22,
-       10
+       4
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        22,
-       14
+       8
       ],
-      "do": "pan_right"
+      "do": "shake_head",
+      "who": "q"
+     },
+     {
+      "at": [
+       22,
+       11
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       22,
+       13
+      ],
+      "do": "shot_close",
+      "who": "q"
+     },
+     {
+      "at": [
+       22,
+       16
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
+     {
+      "at": [
+       20,
+       15
+      ],
+      "until": [
+       21,
+       1
+      ],
+      "motif": "chains",
+      "place": "top",
+      "size": "s"
+     },
      {
       "at": [
        21,
@@ -230,10 +306,10 @@
       ],
       "motif": "footsteps",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "page_turn"
    }
   }
  ],
@@ -351,7 +427,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on Musa, the prophets (20:13) or the Prophet ﷺ; no crown for «ملوكا» (they were not literal kings: «تملكون أمركم»). Footsteps for «ادخلوا». No fighting drawn. Their refusal (22) is glossed only as As-Sa'di's verdict on it."
+  "notes": "No motif on Musa, the prophets (20:13) or the Prophet ﷺ; no crown for «ملوكا» (they were not literal kings: «تملكون أمركم»). Footsteps for «ادخلوا». No fighting drawn. Their refusal (22) is glossed only as As-Sa'di's verdict on it. STAGING v4: 19 stays ambient: the Messenger coming to the People of the Book after a gap in the messengers (his coming and conduct cannot be staged without implying him), and Allah's power. 20-22: Musa is a blue drop with his name in the desert near the land (As-Sa'di: they had set out for it and come close); his people are a small group (3, no woman, as they refuse). Musa speaks on 20:2 and 21:1 and points ahead toward the land on 21:2 (footsteps plate for entering). A breaking-chain plate on 20:15 for being free after slavery to Pharaoh (both tafsirs), no crown. No motif or camera move on Musa or on the prophets (20:13); wide shots instead of pans for the label. The people answer on 22:1 and shake their heads on 22:8. The mighty people in the land are never drawn, no soldiers, no weapon and no fighting."
  },
  "cover": {
   "series_ar": "موسى والأرض المقدسة",
@@ -363,5 +439,6 @@
    2
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

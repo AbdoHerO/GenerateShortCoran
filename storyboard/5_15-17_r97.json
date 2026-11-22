@@ -54,6 +54,13 @@
      {
       "at": [
        15,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       15,
        11
       ],
       "do": "shot_wide"
@@ -81,6 +88,13 @@
      },
      {
       "at": [
+       15,
+       23
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
        16,
        1
       ],
@@ -92,6 +106,13 @@
        6
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       16,
+       8
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
@@ -384,7 +405,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A book for «وكتاب مبين», light for «النور», footsteps for «صراط مستقيم». 17 (the claim that Allah is the Messiah): night sky, no motif on Isa or Maryam; the claim is glossed only as «الاعتقاد الباطل» and refuted («لو كان… كما يدعون»). Stars for the heavens, geometric for «قدير»."
+  "notes": "A book for «وكتاب مبين», light for «النور», footsteps for «صراط مستقيم». 17 (the claim that Allah is the Messiah): night sky, no motif on Isa or Maryam; the claim is glossed only as «الاعتقاد الباطل» and refuted («لو كان… كما يدعون»). Stars for the heavens, geometric for «قدير». STAGING v4: Both chapters stay ambient. 15-16: the Messenger coming to the People of the Book and his own conduct (making clear, overlooking) cannot be staged without implying him (no lone man, no group facing an empty side), and 16 is Allah's guidance described directly (book, light and footsteps plates). 17: a claim about Allah and its refutation through His power and dominion (Names and attributes): night sky, no figure for Isa or Maryam."
  },
  "cover": {
   "series_ar": "دعوة أهل الكتاب",
@@ -396,5 +417,6 @@
    17
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

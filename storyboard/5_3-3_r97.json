@@ -32,63 +32,91 @@
    "verses": [
     3
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "sit",
+      "enter": [
+       3,
+       51
+      ],
+      "exit": null,
+      "look": "poor"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        3,
-       6
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       3,
+       5
       ],
       "do": "pan_right"
      },
      {
       "at": [
        3,
-       8
+       9
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        3,
-       12
+       13
       ],
       "do": "pan_left"
      },
      {
       "at": [
        3,
-       14
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       3,
-       16
+       15
       ],
       "do": "pan_right"
      },
      {
       "at": [
        3,
-       19
+       17
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        3,
-       23
+       21
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        3,
-       26
+       25
       ],
       "do": "shot_wide"
      },
@@ -97,26 +125,27 @@
        3,
        28
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        3,
        29
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        3,
-       32
+       31
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        3,
-       36
+       35
       ],
       "do": "shot_wide"
      },
@@ -125,26 +154,57 @@
        3,
        39
       ],
-      "do": "pan_left"
+      "do": "bow",
+      "who": "b"
      },
      {
       "at": [
        3,
-       47
+       41
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       3,
+       45
       ],
       "do": "pan_right"
      },
      {
       "at": [
        3,
+       49
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       3,
        52
+      ],
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       3,
+       56
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       3,
+       58
       ],
       "do": "pan_left"
      },
      {
       "at": [
        3,
-       57
+       60
       ],
       "do": "shot_wide"
      }
@@ -153,12 +213,25 @@
      {
       "at": [
        3,
+       29
+      ],
+      "until": [
+       3,
+       40
+      ],
+      "motif": "two_paths",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       3,
        43
       ],
       "until": null,
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -168,7 +241,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -365,7 +438,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Nothing drawn for the dead animals, blood, pork, idols or divining arrows. Light for «اليوم أكملت لكم دينكم», geometric for «غفور رحيم». Al-Muyassar's first-person «فلا تخافوهم وخافوني» not used (3:37-39 not glossed)."
+  "notes": "Nothing drawn for the dead animals, blood, pork, idols or divining arrows. Light for «اليوم أكملت لكم دينكم», geometric for «غفور رحيم». Al-Muyassar's first-person «فلا تخافوهم وخافوني» not used (3:37-39 not glossed). STAGING v4: A town, not a market: no food, animal, altar, stone, arrow or slaughter is drawn while the forbidden things are recited (3:1-28, only the camera). Two-paths plate on 3:29 (leaving obedience). Believers (3) hold the frame from 3:31 (their religion secure); they lower their heads on 3:39 (fearing Allah alone). Light plate on 3:43 (the religion perfected); no gathering, desert or tents, so nothing stages the day of Arafat or the Farewell Hajj (As-Sa'di) and the Prophet is never implied. A poor man sits on 3:51 for the one forced by famine (both tafsirs); nothing is shown of what he eats. Geometric on 3:60 for the closing names."
  },
  "cover": {
   "series_ar": "العقود والحلال",
@@ -377,5 +450,6 @@
    40
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -32,35 +32,113 @@
    "verses": [
     1
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "s",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "rich"
+     },
+     {
+      "id": "b",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     },
+     {
+      "id": "c",
+      "type": "camel",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       1,
+       8
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        1,
-       2
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        1,
-       7
+       2
       ],
       "do": "pan_right"
      },
      {
       "at": [
        1,
-       11
+       4
+      ],
+      "do": "speak",
+      "who": "b"
+     },
+     {
+      "at": [
+       1,
+       5
+      ],
+      "do": "give",
+      "who": "b",
+      "to": "s"
+     },
+     {
+      "at": [
+       1,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       1,
+       9
+      ],
+      "do": "shot_close",
+      "who": "c"
+     },
+     {
+      "at": [
+       1,
+       14
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       1,
+       17
       ],
       "do": "pan_left"
      },
      {
       "at": [
        1,
-       17
+       21
       ],
       "do": "shot_wide"
      }
@@ -73,11 +151,11 @@
       ],
       "until": [
        1,
-       10
+       8
       ],
       "motif": "seal",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -87,7 +165,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -98,14 +176,67 @@
    "verses": [
     2
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "t",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "traveller"
+     },
+     {
+      "id": "u",
+      "type": "man",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "traveller"
+     },
+     {
+      "id": "c",
+      "type": "camel",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       2,
+       12
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        2,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       2,
        5
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       2,
+       9
       ],
       "do": "shot_wide"
      },
@@ -114,7 +245,7 @@
        2,
        14
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -128,70 +259,107 @@
        2,
        16
       ],
-      "do": "pan_right"
+      "do": "walk_to",
+      "who": "u",
+      "to": "left"
      },
      {
       "at": [
        2,
-       18
+       17
       ],
-      "do": "pan_left"
+      "do": "walk_to",
+      "who": "t",
+      "to": "center"
      },
      {
       "at": [
        2,
-       21
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       2,
-       25
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       2,
-       29
+       19
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        2,
-       33
+       23
+      ],
+      "do": "shot_close",
+      "who": "t"
+     },
+     {
+      "at": [
+       2,
+       26
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       2,
+       30
       ],
       "do": "pan_right"
      },
      {
       "at": [
        2,
-       42
+       34
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       2,
+       38
+      ],
+      "do": "give",
+      "who": "t",
+      "to": "u"
+     },
+     {
+      "at": [
+       2,
+       41
+      ],
+      "do": "shot_close",
+      "who": "u"
+     },
+     {
+      "at": [
+       2,
+       44
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        2,
        47
       ],
-      "do": "shot_wide"
+      "do": "bow",
+      "who": "t"
      },
      {
       "at": [
        2,
        49
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       2,
+       50
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
        2,
        51
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -206,23 +374,33 @@
       ],
       "motif": "moon",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        2,
-       38
+       42
       ],
       "until": [
        2,
-       42
+       48
       ],
-      "motif": "hands",
+      "motif": "two_paths",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       2,
+       48
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "wipe"
    }
   }
  ],
@@ -395,7 +573,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A seal for «بالعقود», geometric for «إن الله يحكم ما يريد», a moon for «الشهر الحرام», hands for «وتعاونوا على البر». No motif on the sacrificial animals or the Kaaba. 2:8-10 does not gloss Al-Muyassar's «وكان ذلك في صدر الإسلام» (As-Sa'di words it differently)."
+  "notes": "A seal for «بالعقود», geometric for «إن الله يحكم ما يريد», a moon for «الشهر الحرام», hands for «وتعاونوا على البر». No motif on the sacrificial animals or the Kaaba. 2:8-10 does not gloss Al-Muyassar's «وكان ذلك في صدر الإسلام» (As-Sa'di words it differently). STAGING v4: 1: two men in a market keep a sale: the buyer agrees (1:4) and pays what is due (1:5), the trusts and sales of Al-Muyassar; seal plate for the contracts. A camel enters on 1:8 for the grazing livestock (camels, cattle, sheep in both tafsirs); no slaughter, no carrion, no blood, no game and no hunt are drawn (1:10-18 only the camera). Geometric on the Name 1:20. 2: hajj travellers on a desert road with a camel (the hady); the camel has no garland drawn, the gloss explains it. No Kaaba, no sanctuary, nothing gold or cube-like. Moon plate for the sacred month (2:9). The travellers walk on toward the left on 2:16 (those heading to the House). Nothing is drawn for hunting (2:24-26) nor for the people who barred the believers (2:27-37): no second group, so no Hudaybiya scene. On 2:38 one traveller hands the other a purse (helping one another in good, As-Sa'di), two-paths plate on 2:42 for sin versus righteousness, one traveller lowers his head on 2:47, geometric on the Name 2:48 through the warning."
  },
  "cover": {
   "series_ar": "العقود والحلال",
@@ -404,8 +582,9 @@
   "title_en": "Keeping contracts",
   "at": [
    1,
-   4
+   6
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

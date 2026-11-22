@@ -32,35 +32,107 @@
    "verses": [
     8
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "o",
+      "type": "disbelievers",
+      "label": "",
+      "place": "left",
+      "count": 2,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "w",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        8,
-       4
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        8,
-       11
+       5
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "w"
      },
      {
       "at": [
        8,
-       15
+       7
+      ],
+      "do": "speak",
+      "who": "w"
+     },
+     {
+      "at": [
+       8,
+       10
       ],
       "do": "pan_left"
      },
      {
       "at": [
        8,
+       12
+      ],
+      "do": "shot_close",
+      "who": "o"
+     },
+     {
+      "at": [
+       8,
+       16
+      ],
+      "do": "speak",
+      "who": "w"
+     },
+     {
+      "at": [
+       8,
+       18
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       8,
        20
+      ],
+      "do": "bow",
+      "who": "w"
+     },
+     {
+      "at": [
+       8,
+       22
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       8,
+       24
       ],
       "do": "shot_wide"
      }
@@ -69,15 +141,15 @@
      {
       "at": [
        8,
-       8
+       16
       ],
       "until": [
        8,
-       9
+       21
       ],
       "motif": "scales",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -87,7 +159,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -106,9 +178,16 @@
      {
       "at": [
        9,
-       5
+       1
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       9,
+       5
+      ],
+      "do": "light_up"
      },
      {
       "at": [
@@ -116,6 +195,13 @@
        10
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       10,
+       1
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -128,6 +214,13 @@
       "at": [
        10,
        5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       10,
+       6
       ],
       "do": "shot_wide"
      }
@@ -143,6 +236,16 @@
        10
       ],
       "motif": "light",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       10,
+       2
+      ],
+      "until": null,
+      "motif": "two_paths",
       "place": "top",
       "size": "m"
      }
@@ -163,6 +266,20 @@
      {
       "at": [
        11,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       11,
+       9
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       11,
        12
       ],
       "do": "pan_left"
@@ -170,7 +287,14 @@
      {
       "at": [
        11,
-       16
+       15
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       11,
+       18
       ],
       "do": "shot_wide"
      },
@@ -180,13 +304,20 @@
        20
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       11,
+       23
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
      {
       "at": [
        11,
-       6
+       5
       ],
       "until": [
        11,
@@ -336,7 +467,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Scales for «بالقسط» (justice, not the Mizan), geometric near Allah's names, light for «مغفرة» (leaving before the Fire in 10), light for «نعمت الله». No people, no hands raised against anyone."
+  "notes": "Scales for «بالقسط» (justice, not the Mizan), geometric near Allah's names, light for «مغفرة» (leaving before the Fire in 10), light for «نعمت الله». No people, no hands raised against anyone. STAGING v4: 8: a witness in a market facing two men of a people he dislikes (at most 2, no woman): he speaks his testimony on 8:7 and again on 8:16 (justice even toward an enemy or a disbeliever, As-Sa'di); scales plate for justice 8:16-20 (not the Mizan), he lowers his head on 8:20, geometric on the Name 8:23. Nobody is judged, struck or paid. 9-10: the promise and the Fire stay ambient (the unseen): light for the forgiveness, a two-paths plate from 10:2; nothing literal. 11: the enemies who meant to attack are a battle context, so ambient with no people and no hands; the light plate now starts on 11:5 instead of the Name; geometric for 11:21."
  },
  "cover": {
   "series_ar": "العدل والميثاق",
@@ -345,8 +476,9 @@
   "title_en": "Justice even with enemies",
   "at": [
    8,
-   16
+   17
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }
