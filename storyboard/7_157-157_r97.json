@@ -138,6 +138,45 @@
      {
       "at": [
        157,
+       13
+      ],
+      "until": [
+       157,
+       18
+      ],
+      "motif": "two_paths",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       157,
+       18
+      ],
+      "until": [
+       157,
+       21
+      ],
+      "motif": "wheat",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       157,
+       24
+      ],
+      "until": [
+       157,
+       31
+      ],
+      "motif": "chains",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       157,
        37
       ],
       "until": [
@@ -266,7 +305,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on the Prophet ﷺ: a book for «التوراة والإنجيل», light for «النور الذي أنزل معه». No pig or forbidden food drawn. STAGING v4: Kept ambient (light) on purpose: 157 describes the Prophet Muhammad, peace be upon him, and how people follow, honour and support him; he is never shown or implied, and a stage of people following, honouring or gathering would imply him. Only a book plate for the Torah and the Gospel (157:11-12) and a light plate for the light sent down with him, the Quran (157:37-40); no motif on the Messenger; no food or pig drawn."
+  "notes": "No motif on the Prophet ﷺ: a book for «التوراة والإنجيل», light for «النور الذي أنزل معه». No pig or forbidden food drawn. STAGING v4: Kept ambient (light) on purpose: 157 describes the Prophet Muhammad, peace be upon him, and how people follow, honour and support him; he is never shown or implied, and a stage of people following, honouring or gathering would imply him. No plate starts on or stays over the Messenger or the Prophet (157:3-4). Plates: a book for the Torah and the Gospel (157:11-12), two paths for he enjoins what is right and forbids what is wrong (157:13-17), an ear of grain for he makes the good things lawful (157:18-20; no forbidden food or pig is drawn), a breaking chain for he relieves them of their burden and the shackles (157:24-30), and a light plate for the light sent down with him, the Quran (157:37-40). The camera beats are the earlier ones."
  },
  "cover": {
   "series_ar": "بنو إسرائيل بعد النجاة",

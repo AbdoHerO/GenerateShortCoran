@@ -42,8 +42,9 @@ async function init(data) {
 
 // Sacred words (the Name, «رب», al-Rahman, a prophet, Maryam, «رسول»/«نبي»): the ambient backgrounds never pulse on
 // them, so no light or pattern brightens as the Name or a prophet is recited (An-Nisa picture review, 2026-11-22).
+// Also His acts that light could seem to depict: «تجلى» (7:143), «استوى» (on the Throne), «وجهه» (Al-A'raf review).
 const PROPHETS = 'محمد|احمد|موسي|عيسي|مريم|ابراهيم|ابرهيم|اسماعيل|اسحاق|يعقوب|يوسف|نوح|لوط|هارون|داود|داوود|سليمان|زكريا|يحيي|ادم|ايوب|يونس|ادريس|شعيب|صالح|هود|الياس|اليسع|عزير';
-const SACRED_RE = new RegExp(`الله|لله|الاه|الرحمن|^(و|ف|ب|ل|يا)*رب(ي|ك|كم|كما|نا|ه|هم|هما|هن|كن)?$|^(و|ف|ب|ل|يا)*(ال)?(نبي|رسول|رسل)(ه|ك|نا|هم|كم)?$|^(و|ف|ب|ل|يا)*(${PROPHETS})ا?$|^(و|ف|ب|ل|يا)*(ال)?مسيح$`);
+const SACRED_RE = new RegExp(`الله|لله|الاه|الرحمن|^(و|ف|ب|ل|يا)*رب(ي|ك|كم|كما|نا|ه|هم|هما|هن|كن)?$|^(و|ف|ب|ل|يا)*(ال)?(نبي|رسول|رسل)(ه|ك|نا|هم|كم)?$|^(و|ف|ب|ل|يا)*(${PROPHETS})ا?$|^(و|ف|ب|ل|يا)*(ال)?مسيح$|^(و|ف)*(تجلي|استوي)$|^(و|ف|ب|ل)*وجهه$`);
 function skel(t) {
   return String(t).normalize('NFC').replace(/[\u0610-\u061A\u064B-\u065F\u0670\u06D6-\u06ED\u0640]/g, '')
     .replace(/[ٱأإآ]/g, 'ا').replace(/ى/g, 'ي').replace(/ة/g, 'ه').replace(/ؤ/g, 'و').replace(/ئ/g, 'ي').replace(/ءا/g, 'ا').replace(/[^\u0621-\u064A]/g, '');

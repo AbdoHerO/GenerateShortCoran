@@ -1323,3 +1323,13 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
 - **Re-render:** 10 built renders use ruku or sujud and were made with the old poses. They are queued for rebuild and
   re-publication as the next version: 7 Al-Baqara drafts and 3 Aal Imran.
   The 63 renders already queued for the Name-plate fix get the new poses too.
+
+### No ambient pulse on His acts (2026-11-22)
+
+- **Why:** the Al-A'raf 109-165 restager found that ambient moods light a star or pattern tile on every word that is
+  not marked sacred. At «تجلى» (7:143) a gold star lit up exactly as Allah's manifestation to the mountain is recited.
+- **Change (`renderer/js/main.js`):** «تجلى», «استوى» and «وجهه» are added to the sacred words, so the ambient
+  backgrounds never pulse on them.
+- **Affected published renders:**
+  - 2:26-29 («استوى»): already queued for rebuild.
+  - 18:27-28 («وجهه»): will be fixed in the Al-Kahf v2.

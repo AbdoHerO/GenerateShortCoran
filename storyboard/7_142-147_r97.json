@@ -239,23 +239,9 @@
     144,
     145
    ],
-   "scene": "stage",
+   "scene": "ambient",
    "params": {
-    "setting": "mountains",
-    "time": "day",
-    "actors": [
-     {
-      "id": "musa",
-      "type": "prophet",
-      "label": "موسى",
-      "place": "center",
-      "count": 1,
-      "pose": "stand",
-      "enter": null,
-      "exit": null
-     }
-    ],
-    "events": [],
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
@@ -354,7 +340,7 @@
       ],
       "motif": "scroll",
       "place": "top",
-      "size": "s"
+      "size": "m"
      },
      {
       "at": [
@@ -367,7 +353,7 @@
       ],
       "motif": "book",
       "place": "top",
-      "size": "s"
+      "size": "m"
      }
     ],
     "transition": "dissolve"
@@ -814,7 +800,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "One unit: the reciter joins 142→147 (about 165 s). 143 (Allah speaking, «أرني أنظر إليك», «فلما تجلى ربه للجبل»): no motif, nothing literal, mountains mood only; Allah's answer «لن تراني» is not paraphrased (first person). Musa: no motif. An hourglass for the forty nights, a book for the tablets, two paths for «سبيل الرشد… سبيل الغي». 145:18-20 «دار الفاسقين» is not glossed (the tafsirs differ). First-person «سأصرف… آياتي» not paraphrased. STAGING v4: c1 (142-143) stays ambient (geometric) on purpose: 143 is Allah speaking to Musa, his request to see Him, and the manifestation to the mountain; one chapter, so 142 stays with it. Nothing is drawn for Musa, Harun, the mountain or its levelling; no light, glow, plate or camera move on 143:25-29: the camera holds wide from 143:22 to 143:30 (holds only). An hourglass for the forty nights (142:3-8), a two-paths plate for the way of reform and the way of the corrupters (142:19-23), a geometric plate for his glorification of Allah (143:36). c2 (144-145): Musa alone at the place of the appointment, a mountain valley by day (blue drop, no people: his people are not with him). Allah speaks, so nothing on the stage is a voice: no speak beat, no glow, no close-up, transition dissolve (no light sweep after 143). A scroll plate for take what I have given you (144:9-11) and a book plate for the tablets (145:4-11); 145:18-20 (the abode of the defiantly disobedient: Al-Muyassar the Fire, As-Sa'di their ruined homes) is not drawn. c3 (146-147): the arrogant deniers, three faceless men in dark robes in a town: the camera on them for their arrogance (146:5); a two-paths plate for the way of guidance and the way of error (146:19-29); they shake their heads on 146:32 (they denied) and turn away on 146:36 (heedless); a leaf plate for their deeds come to nothing (147:6). Nothing of the Hereafter is drawn."
+  "notes": "One unit: the reciter joins 142→147 (about 165 s). 143 (Allah speaking, «أرني أنظر إليك», «فلما تجلى ربه للجبل»): no motif, nothing literal, mountains mood only; Allah's answer «لن تراني» is not paraphrased (first person). Musa: no motif. An hourglass for the forty nights, a book for the tablets, two paths for «سبيل الرشد… سبيل الغي». 145:18-20 «دار الفاسقين» is not glossed (the tafsirs differ). First-person «سأصرف… آياتي» not paraphrased. STAGING v4: c1 (142-143) stays ambient (geometric, as the main session suggested) on purpose: 143 is Allah speaking to Musa, his request to see Him, and the manifestation to the mountain; one chapter, so 142 stays with it. Nothing is drawn for Musa, Harun, the mountain or its levelling; no light, glow, plate or camera move on 143:25-29: the camera holds wide from 143:22 to 143:30 (holds only). An hourglass for the forty nights (142:3-8), a two-paths plate for the way of reform and the way of the corrupters (142:19-23), a geometric plate for his glorification of Allah (143:36). c2 (144-145) also stays ambient (night_sky: the appointment is counted in nights; not light, as 145:18-20 can be a threat): it is Allah speaking to Musa alone and writing the tablets for him, with no one else present, and a mountain stage right after 143 would show an intact mountain behind Musa as Allah speaks; nothing is a voice source; transition dissolve (no light sweep after 143). A scroll plate for take what I have given you (144:9-11) and a book plate for the tablets (145:4-11); 145:18-20 (the abode of the defiantly disobedient: Al-Muyassar the Fire, As-Sa'di their ruined homes) is not drawn. c3 (146-147): the arrogant deniers, three faceless men in dark robes in a town: the camera on them for their arrogance (146:5); a two-paths plate for the way of guidance and the way of error (146:19-29); they shake their heads on 146:32 (they denied) and turn away on 146:36 (heedless); a leaf plate for their deeds come to nothing (147:6). Nothing of the Hereafter is drawn."
  },
  "cover": {
   "series_ar": "بنو إسرائيل بعد النجاة",
