@@ -78,7 +78,7 @@
        64,
        7
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -101,14 +101,6 @@
        15
       ],
       "do": "shot_close",
-      "who": "h"
-     },
-     {
-      "at": [
-       64,
-       17
-      ],
-      "do": "bow",
       "who": "h"
      }
     ],
@@ -148,7 +140,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
@@ -257,6 +249,18 @@
       "size": "m"
      }
     ],
+    "quiet": [
+     [
+      [
+       65,
+       1
+      ],
+      [
+       66,
+       16
+      ]
+     ]
+    ],
     "transition": "wipe"
    }
   }
@@ -342,7 +346,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Their excuse «إنما كنا نخوض ونلعب» (65:4-7) is not glossed; As-Sa'di's «مبينا عدم عذرهم وكذبهم» follows. Their mockery is not quoted (As-Sa'di's report of it is not used). A book for «سورة», light for «إن نعف عن طائفة». STAGING v4: c1 (64): a town by day; three men (the hypocrites) lower their heads in fear on 64:1 and again on 64:17 (both tafsirs: they fear a surah exposing what they hide); a book plate on 64:6 (the surah) and a geometric plate from 64:13 (Allah will bring out what they fear). Their mockery is not acted (64:12 is an ironic command; nothing is shown as obeying it), and no plate starts on 64:11. c2 (65-66) stays ambient: their excuse is given to the Prophet (As-Sa'di: they came to him apologising), so it cannot be acted without an addressee; the pardon plate of 66:7 is now geometric instead of light (a light plate must not start next to His act of pardoning). The cover moves to the ambient chapter (66:8, the geometric plate), matching the title about revering the religion."
+  "notes": "Their excuse «إنما كنا نخوض ونلعب» (65:4-7) is not glossed; As-Sa'di's «مبينا عدم عذرهم وكذبهم» follows. Their mockery is not quoted (As-Sa'di's report of it is not used). A book for «سورة», light for «إن نعف عن طائفة». STAGING v4: c1 (64): a town by day; three men (the hypocrites) lower their heads in fear on 64:1 (both tafsirs: they fear a surah exposing what they hide; no head-lowering under the geometric plate); a book plate on 64:6 (the surah) and a geometric plate from 64:13 (Allah will bring out what they fear). Their mockery is not acted (64:12 is an ironic command; nothing is shown as obeying it), and no plate starts on 64:11. c2 (65-66) stays ambient under a night sky (no central light source) with the background quiet over both verses (Allah addresses the Prophet, the command to say, and His own first-person speech in 66:7-13): their excuse is given to the Prophet (As-Sa'di: they came to him apologising), so it cannot be acted without an addressee; the pardon plate of 66:7 is now geometric instead of light (a light plate must not start next to His act of pardoning). The cover moves to the ambient chapter (66:8, the geometric plate on the night sky), matching the title about revering the religion."
  },
  "cover": {
   "series_ar": "وجوه النفاق",

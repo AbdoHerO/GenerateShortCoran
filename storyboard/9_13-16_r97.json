@@ -196,7 +196,7 @@
      [
       [
        14,
-       2
+       1
       ],
       [
        14,
@@ -225,7 +225,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
@@ -244,9 +244,9 @@
      {
       "at": [
        16,
-       12
+       14
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -307,6 +307,28 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       16,
+       5
+      ],
+      [
+       16,
+       7
+      ]
+     ],
+     [
+      [
+       16,
+       21
+      ],
+      [
+       16,
+       24
+      ]
+     ]
     ],
     "transition": "slide"
    }
@@ -448,7 +470,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Fighting passage: only what the tafsirs say with their restrictions (the treaty-holders of that time, the four months, those who broke oaths and attacked); no battle, weapon, captive or killing drawn; no present-day reading. No motif on the Prophet ﷺ. 13:9-12 keeps As-Sa'di's «حيث نقضوا العهد وأعانوا عليكم» (they broke the treaty first). The commands in 13:1-5 and 14:1-4 are not glossed. 14:6-7 «هذا وعد… قد أنجزها» (fulfilled). Geometric near Allah's name, light for victory and for «ويتوب الله على من يشاء», an hourglass and two paths for the trial that sorts the sincere. STAGING v4: Fighting passage: stays ambient (owner rule, Staging v4). The light plate that started on 15:4 (Allah turning to whom He wills, His act, the Name 1 s later) becomes geometric. The background stays quiet on 14:2-8 and 15:1-8 (His acts on them)."
+  "notes": "Fighting passage: only what the tafsirs say with their restrictions (the treaty-holders of that time, the four months, those who broke oaths and attacked); no battle, weapon, captive or killing drawn; no present-day reading. No motif on the Prophet ﷺ. 13:9-12 keeps As-Sa'di's «حيث نقضوا العهد وأعانوا عليكم» (they broke the treaty first). The commands in 13:1-5 and 14:1-4 are not glossed. 14:6-7 «هذا وعد… قد أنجزها» (fulfilled). Geometric near Allah's name, light for victory and for «ويتوب الله على من يشاء», an hourglass and two paths for the trial that sorts the sincere. STAGING v4: Fighting passage: stays ambient (owner rule, Staging v4); nobody is drawn. c1 (13): night sky, a geometric plate on the Name (13:14). c2 (14-15): geometric; a seal for the promise of victory (14:6; As-Sa'di: a promise fulfilled), a geometric plate for Allah turning to whom He wills (15:4); the background stays quiet on 14:1-8 and 15:1-8 (the command and His acts). c3 (16): night_sky, so no light source sits behind the Name's plate; an hourglass for the trial, geometric plates for His knowledge (16:5) and for 16:21; the background stays quiet on 16:5-7 and 16:21-24."
  },
  "cover": {
   "series_ar": "العهود والمواثيق",

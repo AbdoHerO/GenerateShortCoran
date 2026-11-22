@@ -724,9 +724,12 @@ const AMB = {
   },
 
   light: {
-    light: [480, 40],
+    light: [60, 40],
     draw(ctx, t, T, c, P, X) {
-      const bg = ctx.createRadialGradient(480, -60, 40, 480, -60, 1150);
+      // the light comes from the top-left corner, like sunlight through a window: a plate at top centre (often for the
+      // Name) sits inside the light but never at its source (At-Tawbah review, 2026-11-22)
+      const OX = 40, OY = -160;
+      const bg = ctx.createRadialGradient(OX, -60, 40, OX, -60, 1250);
       bg.addColorStop(0, '#fffaf0'); bg.addColorStop(0.4, '#f6e2b8'); bg.addColorStop(1, '#dcae6c');
       ctx.fillStyle = bg; ctx.fillRect(0, 0, SW, SH);
       const beams = 11;
@@ -735,31 +738,40 @@ const AMB = {
       // while a plate is on screen the rays and their source fade: a plate (often for the Name) must never sit at the
       // origin of rays from above, which would read as the Name radiating light (At-Tawbah review, 2026-11-22)
       const plateK = motifPlan(T?.c?.params, T).reduce((a, m) => Math.max(a, env(t, m.ts - 0.6, m.te + 0.3, 0.6, 0.5)), 0);
-      const rayK = 1 - 0.85 * plateK;
+      const rayK = 1 - 0.35 * plateK;
       withCam(ctx, par(c, 0.3), () => {
         ctx.save();
         for (let i = 0; i < beams; i++) {
-          const a = Math.PI / 2 + (i - (beams - 1) / 2) * 0.115 + Math.sin(t * 0.18 + i * 0.7) * 0.02;
+          const a = Math.PI / 2 - 0.62 + (i - (beams - 1) / 2) * 0.115 + Math.sin(t * 0.55 + i * 0.7) * 0.055;
           const wA = 0.028 + H(i, 5) * 0.02;
-          const g = ctx.createLinearGradient(480, -160, 480 + Math.cos(a) * 1100, -160 + Math.sin(a) * 1100);
-          const b = (0.42 + 0.16 * Math.sin(t * 0.5 + i * 1.3) + 0.4 * (lit.get(i) || 0) + 0.35 * X.lightUp) * rayK;
+          const g = ctx.createLinearGradient(OX, OY, OX + Math.cos(a) * 1300, OY + Math.sin(a) * 1300);
+          const b = (0.42 + 0.2 * Math.sin(t * 1.1 + i * 1.3) + 0.4 * (lit.get(i) || 0) + 0.35 * X.lightUp) * rayK;
           g.addColorStop(0, `rgba(255,255,255,${b})`); g.addColorStop(0.7, `rgba(255,236,190,${b * 0.25})`); g.addColorStop(1, 'rgba(255,236,190,0)');
           ctx.fillStyle = g;
-          ctx.beginPath(); ctx.moveTo(480, -160);
-          ctx.lineTo(480 + Math.cos(a - wA) * 1100, -160 + Math.sin(a - wA) * 1100); ctx.lineTo(480 + Math.cos(a + wA) * 1100, -160 + Math.sin(a + wA) * 1100);
+          ctx.beginPath(); ctx.moveTo(OX, OY);
+          ctx.lineTo(OX + Math.cos(a - wA) * 1300, OY + Math.sin(a - wA) * 1300); ctx.lineTo(OX + Math.cos(a + wA) * 1300, OY + Math.sin(a + wA) * 1300);
           ctx.closePath(); ctx.fill();
         }
         ctx.restore();
-        A.glowDisc(ctx, 480, 40, 1, 'rgba(0,0,0,0)', '#fffaf0', 300, 1, 0.9 * rayK);
+        A.glowDisc(ctx, OX, 40, 1, 'rgba(0,0,0,0)', '#fffaf0', 300, 1, 0.9 * rayK);
       });
-      motes(ctx, 50, 81, t, 20, SW - 20, 120, SH, 18, '#fff4d6', 0.9, 4.2);
+      motes(ctx, 90, 81, t, 20, SW - 20, 60, SH, 22, '#fff4d6', 0.95, 4.8);
       motes(ctx, 24, 83, t, 20, SW - 20, 200, SH, 11, '#c98f2e', 0.5, 3);
       for (const w of P) {
         const a = pulseA(w.age); if (a < 0.02) continue;
         const k = wordKey(w);
         A.sparkle(ctx, 120 + H(k, 2) * 720, 180 + H(k, 3) * 420 - w.age * 30, 6 + a * 8, a, '#fff6dc');
       }
-      // no cloud bank: rays over clouds read as a picture of heaven (nothing literal for the unseen)
+      // no cloud bank: rays over clouds read as a picture of heaven (nothing literal for the unseen). Instead soft warm
+      // light veils drift slowly across the lower frame (they keep the picture moving when the rays fade under a plate)
+      for (let i = 0; i < 6; i++) {
+        const x = ((i * 230 + t * (26 + i * 5)) % 1400) - 220, y = 600 + (i % 3) * 100 + Math.sin(t * 0.5 + i) * 26;
+        const r = 190 + (i % 2) * 70, a = 0.34 + 0.14 * Math.sin(t * 0.8 + i * 1.7);
+        const g = ctx.createRadialGradient(x, y, 10, x, y, r);
+        g.addColorStop(0, `rgba(255,244,214,${a})`); g.addColorStop(1, 'rgba(255,244,214,0)');
+        ctx.fillStyle = g; ctx.fillRect(x - r, y - r, r * 2, r * 2);
+      }
+      if (plateK > 0.05) motes(ctx, 40, 87, t, 20, SW - 20, 150, SH, 14, '#fff8e2', 0.9 * plateK, 5);
     },
   },
 };

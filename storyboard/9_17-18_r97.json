@@ -39,7 +39,7 @@
      {
       "at": [
        17,
-       4
+       5
       ],
       "do": "pan_left"
      },
@@ -73,19 +73,6 @@
      }
     ],
     "motifs": [
-     {
-      "at": [
-       17,
-       7
-      ],
-      "until": [
-       17,
-       9
-      ],
-      "motif": "geometric",
-      "place": "top",
-      "size": "m"
-     },
      {
       "at": [
        17,
@@ -130,7 +117,10 @@
       "place": "left",
       "count": 1,
       "pose": "sit",
-      "enter": null,
+      "enter": [
+       18,
+       12
+      ],
       "exit": null,
       "look": "poor"
      }
@@ -157,7 +147,7 @@
        18,
        4
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -346,7 +336,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "18:1-4 «إنما يعمر مساجد الله» is not glossed (any cut of Al-Muyassar's «لا يعتني… إلا» would split the restriction). No mosque building drawn: geometric near «مساجد الله», light for the prayer, coins for the zakat, a lamp for «المهتدين». The Fire (17:15-18): text only, nothing drawn. STAGING v4: c1 (17) stays ambient: a negated clause (it is not for the polytheists to maintain the mosques), their deeds void (Al-Muyassar: on the Day of Resurrection) and the Fire; nobody is drawn and nothing is acted. The geometric plate now starts on the Name (17:7) instead of on the mosques; a wind plate for the deeds made void (17:13), gone before the Fire is named. c2 (18): a prayer hall by day (no Kaaba, no Sacred Mosque): three believers at the centre stand in prayer on 18:2 (maintaining the mosques; As-Sa'di: by worship and prayer), bow on 18:5, prostrate on 18:10 (they establish the prayer; they face right, away from the poor man), stand up on 18:11 and give their zakat to a poor man sitting at the left on 18:13 (As-Sa'di: to those entitled to it); he raises his hands on 18:14; the believers lower their heads on 18:16 (they fear none but Allah). A lamp plate for the rightly guided (18:23). No lone man at the centre, no imam."
+  "notes": "18:1-4 «إنما يعمر مساجد الله» is not glossed (any cut of Al-Muyassar's «لا يعتني… إلا» would split the restriction). No mosque building drawn: geometric near «مساجد الله», light for the prayer, coins for the zakat, a lamp for «المهتدين». The Fire (17:15-18): text only, nothing drawn. STAGING v4: c1 (17) stays ambient: a negated clause (it is not for the polytheists to maintain the mosques), their deeds void (Al-Muyassar: on the Day of Resurrection) and the Fire; nobody is drawn, no plate stands for the mosques; a wind plate for the deeds made void (17:13), gone before the Fire is named. c2 (18): a prayer hall by day (no Kaaba, no Sacred Mosque, no writing): three believers at the centre stand in prayer on 18:2 (maintaining the mosques; As-Sa'di: by worship and prayer), bow on 18:5 and prostrate on 18:10 (they establish the prayer), facing an empty part of the hall; the camera stays wide on the Name (18:4). They stand up on 18:11; a poor man comes in and sits at the left on 18:12 (after the prayer), and they give him their zakat on 18:13 (As-Sa'di: to those entitled to it); he raises his hands on 18:14; the believers lower their heads on 18:16 (they fear none but Allah). A lamp plate for the rightly guided (18:23). No lone man at the centre, no imam."
  },
  "cover": {
   "series_ar": "مراتب الأعمال",

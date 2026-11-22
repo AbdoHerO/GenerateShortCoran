@@ -105,6 +105,18 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       7,
+       12
+      ],
+      [
+       7,
+       14
+      ]
+     ]
     ]
    }
   },
@@ -323,7 +335,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A seal for the treaty, geometric for the Sacred Mosque (no building drawn), scales for keeping faith with those who keep it, coins for «ثمنا قليلا». Al-Muyassar's «في صلح (الحديبية)» is not used (As-Sa'di does not name it). 8 describes the treaty-breakers of that time only. STAGING v4: Treaty passage: stays ambient (owner rule, Staging v4). The geometric plate on the Sacred Mosque (7:13-14) is removed (the geometric plate is kept for Allah's Names; no symbol for the Mosque); a seal plate on 7:11 (the treaty made there) ends before 7:13."
+  "notes": "A seal for the treaty, geometric for the Sacred Mosque (no building drawn), scales for keeping faith with those who keep it, coins for «ثمنا قليلا». Al-Muyassar's «في صلح (الحديبية)» is not used (As-Sa'di does not name it). 8 describes the treaty-breakers of that time only. STAGING v4: Treaty passage: stays ambient (owner rule, Staging v4); nobody is drawn. c1 (7): seal plates for the treaty (7:4) and for the treaty made at the Sacred Mosque (7:11, gone before it is named); no plate stands for the Mosque, and the background stays quiet on 7:12-14 so no star flashes on it; scales for keeping faith with those who keep it (7:16). c2 (8-9): night sky; a coins plate for the small price (9:4)."
  },
  "cover": {
   "series_ar": "العهود والمواثيق",

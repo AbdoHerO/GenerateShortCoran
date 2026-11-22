@@ -149,7 +149,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
@@ -253,6 +253,18 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       58,
+       1
+      ],
+      [
+       58,
+       5
+      ]
+     ]
     ],
     "transition": "page_turn"
    }
@@ -405,7 +417,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "56: the oath is framed («كذبًا وباطلا»). 57: a mountain for «مغارات» (no people, no cave opening). 58 frames the criticism («ليس… لقصد صحيح»). 59:11-15 supplies the unspoken answer with As-Sa'di's «لسلموا من النفاق ولهدوا إلى الإيمان…». Coins for «الصدقات», geometric for «حسبنا الله», light for «سيؤتينا الله من فضله». 59: short-word flag, listen. STAGING v4: c1 (56-57): a town by day. Three men (the hypocrites) walk in from the right and swear toward three believers standing on the left (Al-Muyassar: they swear to you, believers); they speak on 56:1 and 56:4; the believers do nothing. 57 is a counterfactual (if they found a refuge they would rush to it): nobody flees; only the mountain plate (57:5, caves) and the camera on them. c2 (58-59) stays ambient: 58 is their criticism of the Prophet's own distribution of the alms (no giver may stand in for him and nobody may speak toward an empty side) and 59 is a counterfactual full of the Name. The plates of 59 are now one geometric plate from 59:9 to the end (the light plate that drew one word before the Name on 59:11 is removed). The cover now shows them swearing to the believers (56:4)."
+  "notes": "56: the oath is framed («كذبًا وباطلا»). 57: a mountain for «مغارات» (no people, no cave opening). 58 frames the criticism («ليس… لقصد صحيح»). 59:11-15 supplies the unspoken answer with As-Sa'di's «لسلموا من النفاق ولهدوا إلى الإيمان…». Coins for «الصدقات», geometric for «حسبنا الله», light for «سيؤتينا الله من فضله». 59: short-word flag, listen. STAGING v4: c1 (56-57): a town by day. Three men (the hypocrites) walk in from the right and swear toward three believers standing on the left (Al-Muyassar: they swear to you, believers); they speak on 56:1 and 56:4; the believers do nothing. 57 is a counterfactual (if they found a refuge they would rush to it): nobody flees; only the mountain plate (57:5, caves) and the camera on them. c2 (58-59) stays ambient under a night sky (no central light source), with the background quiet over 58:1-5 (Allah addresses the Prophet about those who find fault with him): 58 is their criticism of the Prophet's own distribution of the alms (no giver may stand in for him and nobody may speak toward an empty side) and 59 is a counterfactual full of the Name. The plates of 59 are now one geometric plate from 59:9 to the end (the light plate that drew one word before the Name on 59:11 is removed). The cover now shows them swearing to the believers (56:4)."
  },
  "cover": {
   "series_ar": "غزوة تبوك",

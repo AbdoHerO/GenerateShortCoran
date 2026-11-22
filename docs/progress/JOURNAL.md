@@ -1375,7 +1375,8 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
     radiating light from above.
   - The cloud bank under the rays made it a near-literal picture of heaven over the Paradise verses.
 - **Change (`renderer/js/scenes_lib.js`):**
-  - While a plate is on screen, the rays and their glow fade to 15%.
+  - The light now comes from the top-left corner, like sunlight through a window, so a plate at top centre is never at its source; the rays dim slightly while a plate is on.
+  - More drifting motes and soft light veils keep the picture moving.
   - The cloud bank is gone, so the light mood is an abstract warm light with drifting motes.
 - **Re-render:** every published draft whose storyboard has a light-mood chapter is listed for a final consistency
   re-render, published as the next version once the restaging of surahs 1-15 is done (low priority, after new

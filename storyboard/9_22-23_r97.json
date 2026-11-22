@@ -34,7 +34,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
@@ -48,21 +48,21 @@
        22,
        3
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        22,
        6
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        22,
        7
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -79,6 +79,18 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       22,
+       4
+      ],
+      [
+       22,
+       8
+      ]
+     ]
     ]
    }
   },
@@ -250,7 +262,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "22 continues the Paradise of 21: light mood, nothing drawn. 23 carries Al-Muyassar's restriction («ما داموا على الكفر معادين للإسلام») and his meaning of «أولياء» (sharing the Muslims' secrets, taking counsel); kindness and family ties are not forbidden. A house for «آباءكم وإخوانكم», two paths for «استحبوا الكفر على الإيمان». STAGING v4: c1 (22) stays ambient (abiding in Paradise). c2 (23): a home by day; three believers seated at the left (the addressed); on 23:6 three men in dark robes come in from the right (the fathers and brothers named in the verse; only men are drawn). Nothing is acted on the prohibition (23:4-8), on the condition (23:9-13) or on 23:14-19: nobody turns away from his family (Al-Muyassar's restriction: while they stay in disbelief and hostile; kindness is not forbidden). A two-paths plate for preferring disbelief over faith (23:10) stays to the end, so the camera does not hold on the believers while the last words are recited."
+  "notes": "22 continues the Paradise of 21: light mood, nothing drawn. 23 carries Al-Muyassar's restriction («ما داموا على الكفر معادين للإسلام») and his meaning of «أولياء» (sharing the Muslims' secrets, taking counsel); kindness and family ties are not forbidden. A house for «آباءكم وإخوانكم», two paths for «استحبوا الكفر على الإيمان». STAGING v4: c1 (22) stays ambient (abiding in Paradise) on a night sky: no rays or clouds that would picture Paradise, and no light source behind the Name's geometric plate (22:4); the background stays quiet on 22:4-8. c2 (23): a home by day; three believers seated at the left (the addressed); on 23:6 three men in dark robes come in from the right (the fathers and brothers named in the verse; only men are drawn). Nothing is acted on the prohibition (23:4-8), on the condition (23:9-13) or on 23:14-19: nobody turns away from his family (Al-Muyassar's restriction: while they stay in disbelief and hostile; kindness is not forbidden). A two-paths plate for preferring disbelief over faith (23:10) stays to the end, so the camera does not hold on the believers while the last words are recited."
  },
  "cover": {
   "series_ar": "مراتب الأعمال",

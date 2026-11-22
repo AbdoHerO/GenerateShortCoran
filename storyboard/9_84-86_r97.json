@@ -242,6 +242,18 @@
       "size": "m"
      }
     ],
+    "quiet": [
+     [
+      [
+       86,
+       6
+      ],
+      [
+       86,
+       14
+      ]
+     ]
+    ],
     "transition": "wipe"
    }
   }
@@ -349,7 +361,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "84 is addressed to the Prophet ﷺ: no motif, no grave or prayer drawn; the ruling keeps As-Sa'di's «كل من علم منه الكفر والنفاق». Coins for «أموالهم», a book for «سورة»; the call in 86:4-9 is not glossed (only As-Sa'di's framing). STAGING v4: c1 (84) stays ambient: the prohibition is addressed to the Prophet about his own prayer over them; no grave, no funeral and nobody standing in prayer is drawn; background quiet. c2 (85): a market by day; three men (the hypocrites); a coins plate on their wealth (85:3, gone before the Name); their children are not drawn. They hurry to the middle and back on 85:9 and 85:12 (both tafsirs: the hardship of gaining it); a falling-leaf plate on 85:13 (the passing away) while they stand still: nobody leaves or fades on that word. c3 (86) stays ambient: the rich among them ask the Prophet's leave and speak to him (an empty-side address)."
+  "notes": "84 is addressed to the Prophet ﷺ: no motif, no grave or prayer drawn; the ruling keeps As-Sa'di's «كل من علم منه الكفر والنفاق». Coins for «أموالهم», a book for «سورة»; the call in 86:4-9 is not glossed (only As-Sa'di's framing). STAGING v4: c1 (84) stays ambient: the prohibition is addressed to the Prophet about his own prayer over them; no grave, no funeral and nobody standing in prayer is drawn; background quiet. c2 (85): a market by day; three men (the hypocrites); a coins plate on their wealth (85:3, gone before the Name); their children are not drawn. They hurry to the middle and back on 85:9 and 85:12 (both tafsirs: the hardship of gaining it); a falling-leaf plate on 85:13 (the passing away) while they stand still: nobody leaves or fades on that word. c3 (86) stays ambient: the rich among them ask the Prophet's leave and speak to him (an empty-side address); the background is quiet over 86:6-14 (their asking him for leave); only the book plate on 86:3-6 (the surah)."
  },
  "cover": {
   "series_ar": "بعد تبوك",

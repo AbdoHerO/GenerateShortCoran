@@ -34,7 +34,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
@@ -86,7 +86,19 @@
       "do": "shot_wide"
      }
     ],
-    "motifs": []
+    "motifs": [],
+    "quiet": [
+     [
+      [
+       61,
+       1
+      ],
+      [
+       61,
+       26
+      ]
+     ]
+    ]
    }
   },
   {
@@ -145,14 +157,14 @@
        62,
        6
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        62,
-       7
+       8
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -350,7 +362,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The hypocrites' saying «هو أذن» is framed («ويقولون:…»). No motif anywhere in 61 (the Prophet ﷺ is its subject); wind for the empty oaths of 62; nothing drawn for the Fire of 63. STAGING v4: c1 (61) stays ambient: the Prophet is its subject (their hurting him and calling him an ear, and his answer). c2 (62-63): a town by day. Three men (the hypocrites) walk in from the right and swear toward three believers on the left (Al-Muyassar: to please the believers); they speak on 62:1 and 62:4; a wind plate on their oaths (62:3, gone before the Name). On 63:5 they turn their backs (opposing Allah and His Messenger: As-Sa'di, being in a side apart) and from 63:8 to the end the camera holds on them only (it is wide while the Messenger is named on 63:7) (the threat and the Fire are words only, nothing is drawn for them, and the believers are not held during the threat). The cover stays on the first, ambient chapter (its title is about honouring the Messenger)."
+  "notes": "The hypocrites' saying «هو أذن» is framed («ويقولون:…»). No motif anywhere in 61 (the Prophet ﷺ is its subject); wind for the empty oaths of 62; nothing drawn for the Fire of 63. STAGING v4: c1 (61) stays ambient: the Prophet is its subject (their hurting him and calling him an ear, and his answer); the mood moves from geometric to night_sky (no central light source) and the background is quiet over the whole verse; no motif. c2 (62-63): a town by day. Three men (the hypocrites) walk in from the right and swear toward three believers on the left (Al-Muyassar: to please the believers); they speak on 62:1 and 62:4; the shot stays wide (no camera drift) while the Messenger is named on 62:6, the pan comes on 62:8; a wind plate on their oaths (62:3, gone before the Name). On 63:5 they turn their backs (opposing Allah and His Messenger: As-Sa'di, being in a side apart) and from 63:8 to the end the camera holds on them only (it is wide while the Messenger is named on 63:7) (the threat and the Fire are words only, nothing is drawn for them, and the believers are not held during the threat). The cover stays on the first, ambient chapter (its title is about honouring the Messenger)."
  },
  "cover": {
   "series_ar": "وجوه النفاق",

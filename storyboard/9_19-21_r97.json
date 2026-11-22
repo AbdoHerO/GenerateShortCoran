@@ -120,6 +120,18 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       19,
+       4
+      ],
+      [
+       19,
+       6
+      ]
+     ]
     ]
    }
   },
@@ -152,21 +164,6 @@
        20,
        1
       ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       20,
-       2
-      ],
-      "do": "shot_close",
-      "who": "e"
-     },
-     {
-      "at": [
-       20,
-       3
-      ],
       "do": "walk_to",
       "who": "e",
       "to": "center"
@@ -174,17 +171,23 @@
      {
       "at": [
        20,
-       6
+       2
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        20,
+       5
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       20,
        9
       ],
-      "do": "shot_close",
-      "who": "e"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -218,7 +221,7 @@
       ],
       "until": [
        20,
-       5
+       4
       ],
       "motif": "footsteps",
       "place": "top",
@@ -436,7 +439,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No well, cup, mosque or people drawn. Geometric for the Sacred Mosque, scales for «لا يستوون» (not the Mizan), footsteps for the emigration, coins for «بأموالهم», light for «برحمة منه». Paradise (21:6-10): no garden, river or gold; text only («مما لا يعلم وصفه… إلا الله»). STAGING v4: c1 (19) stays ambient: the watering of the pilgrims and the upkeep of the Sacred Mosque cannot be drawn without the Sanctuary, and the striving is not pictured. The geometric plate on the Sacred Mosque is removed; a water-drop plate for the watering (19:2; As-Sa'di: Zamzam water), scales for the deeds that are not equal (19:16, not the Mizan). The old chapter 20-21 is split (owner rule: an unseen verse is ambient): c2 (20) is staged in the desert by day: three believers (the emigrants; Al-Muyassar: they left the land of disbelief for the land of Islam) walk from the right to the centre on 20:3 under a footsteps plate; their striving (20:4-7) is not pictured: no war, no weapon; a coins plate for their wealth (20:8; As-Sa'di: spending); a soft sparkle on 20:16 (success). No camel or other object is added. c3 (21, new title) stays ambient: the glad tidings of mercy, approval and gardens (Paradise is never drawn); the light plate that started on mercy from Him (21:3) becomes a geometric plate starting on the Lord (21:2) and gone before the gardens are named; its mood moves from light to night_sky (the glad tidings are His word: no central light source) and the background stays quiet on 21:1-5."
+  "notes": "No well, cup, mosque or people drawn. Geometric for the Sacred Mosque, scales for «لا يستوون» (not the Mizan), footsteps for the emigration, coins for «بأموالهم», light for «برحمة منه». Paradise (21:6-10): no garden, river or gold; text only («مما لا يعلم وصفه… إلا الله»). STAGING v4: c1 (19) stays ambient: the watering of the pilgrims and the upkeep of the Sacred Mosque cannot be drawn without the Sanctuary, and the striving is not pictured. A water-drop plate for the watering (19:2; As-Sa'di: Zamzam water), gone before the Mosque is named; the background stays quiet on 19:4-6 so no star flashes on it; scales for the deeds that are not equal (19:16, not the Mizan). The old chapter 20-21 is split (owner rule: an unseen verse is ambient). c2 (20) is staged in the desert by day: three believers (the emigrants; Al-Muyassar: they left the land of disbelief for the land of Islam) walk from the right to the centre from 20:1, and the walk ends before 20:4; a footsteps plate on the emigration (20:3), gone before 20:4. Their striving (20:4-9) is not pictured: no war, no weapon, nobody walks, and the camera stays wide or drifts toward the tents, never framing the men alone; a coins plate for their wealth (20:8; As-Sa'di: spending). The camera closes on them on 20:14 and a soft sparkle falls on 20:16 (success). No camel or other object is added. c3 (21, new title) stays ambient on a night sky: the glad tidings of mercy, approval and gardens (Paradise is never drawn); a geometric plate starting on the Lord (21:2), gone before the gardens are named; the background stays quiet on 21:1-5."
  },
  "cover": {
   "series_ar": "مراتب الأعمال",

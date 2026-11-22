@@ -218,6 +218,18 @@
       "exit": "undraw"
      }
     ],
+    "quiet": [
+     [
+      [
+       12,
+       10
+      ],
+      [
+       12,
+       12
+      ]
+     ]
+    ],
     "transition": "wipe"
    }
   }
@@ -314,7 +326,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Fighting passage: only what the tafsirs say with their restrictions (the treaty-holders of that time, the four months, those who broke oaths and attacked); no battle, weapon, captive or killing drawn; no present-day reading. No motif on the Prophet ﷺ. 12:1-6 carries As-Sa'di's restriction (they broke their oaths by fighting you, helping others fight you, or diminishing you). Light for the prayer, hands for brotherhood, a book for «نفصل الآيات», a seal for the broken oaths. Al-Muyassar's first-person «ونبين الآيات» is not used. STAGING v4: Fighting and treaty passage: stays ambient (owner rule, Staging v4). The hands plate on 11:7 (du'a in the catalog) becomes a seal plate for the bond of brotherhood (as in Al-Anfal 72). The seal of the broken oaths (12:2) now leaves by undrawing. The background stays quiet on 11:10-11 (He details the verses)."
+  "notes": "Fighting passage: only what the tafsirs say with their restrictions (the treaty-holders of that time, the four months, those who broke oaths and attacked); no battle, weapon, captive or killing drawn; no present-day reading. No motif on the Prophet ﷺ. 12:1-6 carries As-Sa'di's restriction (they broke their oaths by fighting you, helping others fight you, or diminishing you). Light for the prayer, hands for brotherhood, a book for «نفصل الآيات», a seal for the broken oaths. Al-Muyassar's first-person «ونبين الآيات» is not used. STAGING v4: Fighting and treaty passage: stays ambient (owner rule, Staging v4); nobody is drawn. c1 (10): night sky. c2 (11): dawn; light for their repentance and prayer, a seal plate for the bond of brotherhood (as in Al-Anfal 72), a book for the verses made clear; the background stays quiet on 11:10-11 (He details the verses). c3 (12): geometric; the seal of the broken oaths (12:2) leaves by undrawing; the background stays quiet on the command 12:10-12."
  },
  "cover": {
   "series_ar": "العهود والمواثيق",

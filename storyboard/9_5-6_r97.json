@@ -113,6 +113,18 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       5,
+       5
+      ],
+      [
+       5,
+       14
+      ]
+     ]
     ]
    }
   },
@@ -274,7 +286,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Fighting passage: only what the tafsirs say with their restrictions (the treaty-holders of that time, the four months, those who broke oaths and attacked); no battle, weapon, captive or killing drawn; no present-day reading. No motif on the Prophet ﷺ. 5:1-4 carries As-Sa'di's restriction (the four months, and the full term for longer treaties). The command itself (5:5-14) is left unglossed: no chip may read as a general call. An hourglass for the months ending, light for repentance, a house for «فأجره», a book for «كلام الله», footsteps for «أبلغه مأمنه». STAGING v4: Fighting and treaty passage: stays ambient (owner rule, Staging v4). In 6 the words addressed to the Prophet (6:5-6 and 6:12) get no plate: the house plate moves to 6:13 (his place of safety, As-Sa'di: the place where he is safe) and the footsteps plate is dropped; the light plate over 6:8-10 becomes a geometric plate on 6:9-10 (the speech of Allah is His attribute: no light plate there). c2 moves from dawn to night_sky (a passage on hearing His speech: no central light source), and the background stays quiet on 6:8-10."
+  "notes": "Fighting passage: only what the tafsirs say with their restrictions (the treaty-holders of that time, the four months, those who broke oaths and attacked); no battle, weapon, captive or killing drawn; no present-day reading. No motif on the Prophet ﷺ. 5:1-4 carries As-Sa'di's restriction (the four months, and the full term for longer treaties). The command itself (5:5-14) is left unglossed: no chip may read as a general call. An hourglass for the months ending, light for repentance, a house for «فأجره», a book for «كلام الله», footsteps for «أبلغه مأمنه». STAGING v4: Fighting and treaty passage: stays ambient (owner rule, Staging v4); nobody is drawn. c1 (5): geometric mood; an hourglass for the months ending (5:1-4), a light plate for their repentance, prayer and zakat (5:15-22, gone before the Name); the background stays quiet on the command 5:5-14, so nothing pulses in rhythm with it. c2 (6): night_sky (a passage on hearing His speech: no central light source); the words addressed to the Prophet (6:5-6, 6:12) carry no plate; a geometric plate for the speech of Allah (6:9-10, His attribute) and the background stays quiet on 6:8-10; a house plate for his place of safety (6:13; As-Sa'di: the place where he is safe)."
  },
  "cover": {
   "series_ar": "العهود والمواثيق",

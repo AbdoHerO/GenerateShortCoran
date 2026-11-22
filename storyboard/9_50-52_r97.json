@@ -139,9 +139,16 @@
      {
       "at": [
        51,
-       3
+       2
       ],
-      "do": "shot_wide"
+      "do": "birds"
+     },
+     {
+      "at": [
+       51,
+       4
+      ],
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -169,7 +176,7 @@
       "size": "m"
      }
     ],
-    "transition": "light_sweep"
+    "transition": "dissolve"
    }
   },
   {
@@ -364,7 +371,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "50: the hypocrites' saying is framed («متبجحين…»). 52:8-22 is not glossed: both tafsirs speak of killing them by the believers' hands, and Al-Muyassar's closing «ما الله فاعل…» reads as a negation when cut. No motif on the Prophet ﷺ (50 is addressed to him). Geometric for «كتب الله لنا», light for «فليتوكل المؤمنون», two paths for «إحدى الحسنيين», an hourglass for «فتربصوا». STAGING v4: c1 (50): a town by day; two small groups of three men (the hypocrites who stayed behind, Al-Muyassar) react to what befalls the Prophet, who is never drawn, and nothing of the good or the harm (victory, defeat) is drawn or symbolised. They lower their heads on 50:4 (it grieves them, both tafsirs), say their boast on 50:8 and 50:10 to one another (the left group speaks toward the right group, which answers toward it; nobody speaks toward an empty side) and turn away on 50:14 and 50:16 (Al-Muyassar: they go away pleased). No gesture of joy (a raised-hands gesture could read as a supplication). c2 (51) stays ambient (the decree, His protection and reliance on Him); the second plate (51:11) is now geometric instead of light, because a light plate drawing one word before the Name reads as Him appearing as light. c3 (52) stays ambient: martyrdom or victory and punishment at the believers' hands (battle and killing). The cover now shows the two groups in the town (50:10)."
+  "notes": "50: the hypocrites' saying is framed («متبجحين…»). 52:8-22 is not glossed: both tafsirs speak of killing them by the believers' hands, and Al-Muyassar's closing «ما الله فاعل…» reads as a negation when cut. No motif on the Prophet ﷺ (50 is addressed to him). Geometric for «كتب الله لنا», light for «فليتوكل المؤمنون», two paths for «إحدى الحسنيين», an hourglass for «فتربصوا». STAGING v4: c1 (50): a town by day; two small groups of three men (the hypocrites who stayed behind, Al-Muyassar) react to what befalls the Prophet, who is never drawn, and nothing of the good or the harm (victory, defeat) is drawn or symbolised. They lower their heads on 50:4 (it grieves them, both tafsirs), say their boast on 50:8 and 50:10 to one another (the left group speaks toward the right group, which answers toward it; nobody speaks toward an empty side) and turn away on 50:14 and 50:16 (Al-Muyassar: they go away pleased). No gesture of joy (a raised-hands gesture could read as a supplication). c2 (51) stays ambient (the decree, His protection and reliance on Him); it opens with a dissolve (no light sweep crossing the frame as 51:1 is recited) and a few birds cross the sky on 51:2 to keep the picture moving; the second plate (51:11) is now geometric instead of light, because a light plate drawing one word before the Name reads as Him appearing as light. c3 (52) stays ambient: martyrdom or victory and punishment at the believers' hands (battle and killing). The cover now shows the two groups in the town (50:10)."
  },
  "cover": {
   "series_ar": "غزوة تبوك",

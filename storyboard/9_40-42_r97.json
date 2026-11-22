@@ -48,12 +48,19 @@
        40,
        7
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        40,
        10
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       40,
+       12
       ],
       "do": "pan_left"
      },
@@ -62,72 +69,59 @@
        40,
        17
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        40,
        18
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        40,
        21
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        40,
        27
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        40,
        30
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        40,
        33
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        40,
        42
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        40,
        43
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      }
     ],
     "motifs": [
-     {
-      "at": [
-       40,
-       12
-      ],
-      "until": [
-       40,
-       16
-      ],
-      "motif": "mountain",
-      "place": "top",
-      "size": "m"
-     },
      {
       "at": [
        40,
@@ -199,39 +193,37 @@
      {
       "at": [
        41,
-       7
+       5
       ],
       "do": "pan_right"
      },
      {
       "at": [
        41,
-       10
+       8
       ],
       "do": "pan_left"
      },
      {
       "at": [
        41,
-       14
+       13
       ],
       "do": "shot_wide"
      }
     ],
-    "motifs": [
-     {
-      "at": [
+    "motifs": [],
+    "quiet": [
+     [
+      [
        41,
-       5
+       1
       ],
-      "until": [
+      [
        41,
-       7
-      ],
-      "motif": "coins",
-      "place": "top",
-      "size": "m"
-     }
+       9
+      ]
+     ]
     ],
     "transition": "dissolve"
    }
@@ -263,11 +255,8 @@
       "label": "",
       "place": "right",
       "count": 3,
-      "pose": "walk",
-      "enter": [
-       42,
-       1
-      ],
+      "pose": "stand",
+      "enter": null,
       "exit": null
      }
     ],
@@ -285,8 +274,7 @@
        42,
        4
       ],
-      "do": "shot_close",
-      "who": "h"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -294,6 +282,14 @@
        7
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       42,
+       8
+      ],
+      "do": "shot_close",
+      "who": "h"
      },
      {
       "at": [
@@ -315,8 +311,9 @@
        42,
        12
       ],
-      "do": "stand_up",
-      "who": "h"
+      "do": "walk_to",
+      "who": "h",
+      "to": "center"
      },
      {
       "at": [
@@ -376,7 +373,10 @@
        42,
        20
       ],
-      "until": null,
+      "until": [
+       42,
+       22
+      ],
       "motif": "geometric",
       "place": "top",
       "size": "s"
@@ -599,7 +599,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Fighting passage: anchored in its history (the Tabuk expedition, 9 AH); the command itself is not glossed; no battle, weapon, march or army drawn; no present-day reading and no people targeted. No motif on the Prophet ﷺ. The cave: no figures; the Prophet ﷺ and Abu Bakr are never drawn and get no motif (a mountain for «في الغار», with no cave opening or people). The angels («بجنود لم تروها») are text only. The light leaves before «عليه». 41: only «خفافا وثقالا» (young and old, hardship and ease) and the reward are glossed; the commands are not. 42 is Al-Muyassar's and As-Sa'di's reproach of the hypocrites of Tabuk (framed: «حالفين بأنهم…»). STAGING v4: c1 (40, the cave) stays ambient: the Prophet and Abu Bakr are never drawn or implied; a mountain plate for the place only; the light plate that started on the sending down of His tranquillity becomes geometric (it starts one word before the Name) and still leaves before 40:27. c2 (41) stays ambient: a call to go forth and strive. c3 (42): a town by day; three men (the hypocrites of Tabuk; Al-Muyassar: a group of hypocrites) walk in at the right, three believers stand at the left. Nothing is acted on the counterfactual 42:1-7, and the camera stays wide on 42:7 (followed you: no empty side). On 42:9 they sit down (the journey was long for them; they stayed behind: both tafsirs) under a footsteps plate; on 42:12 they get up and on 42:14 they speak toward the believers (their sworn excuse, addressed to you all; framed by Al-Muyassar's gloss); the camera stays wide from 42:11 to 42:17 so the believers they speak to are in frame (never an empty side); the camera holds on them, not on the believers, through 42:18-23; a geometric plate on the Name (42:20, Allah knows they lie). Nobody marches and no fighting is pictured. The background of c1 stays quiet on 40:1-5 and 40:19-40 (His support, His tranquillity, the soldiers, His word)."
+  "notes": "Fighting passage: anchored in its history (the Tabuk expedition, 9 AH); the command itself is not glossed; no battle, weapon, march or army drawn; no present-day reading and no people targeted. No motif on the Prophet ﷺ. The cave: no figures; the Prophet ﷺ and Abu Bakr are never drawn and get no motif (a mountain for «في الغار», with no cave opening or people). The angels («بجنود لم تروها») are text only. The light leaves before «عليه». 41: only «خفافا وثقالا» (young and old, hardship and ease) and the reward are glossed; the commands are not. 42 is Al-Muyassar's and As-Sa'di's reproach of the hypocrites of Tabuk (framed: «حالفين بأنهم…»). STAGING v4: c1 (40, the cave) stays ambient on a night sky: the Prophet and Abu Bakr are never drawn or implied; the cave is text only (no plate for it); a geometric plate for the tranquillity sent down (one word before the Name, gone before 40:27) and one for the word of Allah (40:37); the angels are text only; the background stays quiet on 40:1-5 and 40:19-40. c2 (41) stays ambient: a call to go forth and strive; no plate illustrates the command, and the background stays quiet on 41:1-9. c3 (42): a town by day; three men (the hypocrites of Tabuk; Al-Muyassar: a group of hypocrites) stand at the right from the start, three believers at the left. Nothing is acted on the counterfactual 42:1-7 (nobody travels), and the camera stays wide on 42:7 (followed you: no empty side). On 42:9 they sit down (the journey was long for them; they stayed behind: both tafsirs) under a footsteps plate for the journey; on 42:12 they get up and come forward, and on 42:14 they speak toward the believers (their sworn excuse, addressed to you all; framed by Al-Muyassar's gloss); the camera stays wide from 42:11 to 42:17 so the believers they speak to are in frame (never an empty side). The camera holds on them, not on the believers, through 42:18-23; a geometric plate on the Name (42:20, Allah knows they lie) leaves before 42:22, so no plate hangs over them at the end. Nobody marches and no fighting is pictured."
  },
  "cover": {
   "series_ar": "غزوة تبوك",
