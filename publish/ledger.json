@@ -423,6 +423,14 @@
   "url": "https://creatives.abdocloud.com/creatives/cmwri16x3034l0uo8mdnjvt2r",
   "video_sha256": "0254eeaa6e96525c52e5a35b70737ae9feb3ad4708a4f6847c6ce17af73284ae"
  },
+ "1_1-7_r97@v4": {
+  "creative": "Reel - 1:1-7 Al-Fatihah - أعظم سورة - Dussary - v4",
+  "import_id": "cmwsfxen0005c3cnyi0hf5lt0",
+  "published_at": "2026-11-22T23:01:08+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwsfxn7r041b0uo84i4m0rtv",
+  "video_sha256": "77432b557562c04fcae6f4fca2581f2c0de11c9ec1534c9b5d8fb8ba6f0d3794"
+ },
  "2_1-5_r97": {
   "creative": "Reel - 2:1-5 Al-Baqarah - صفات المتقين - Dussary",
   "import_id": "cmwq13gbp000q3cnypy1tpwde",
@@ -1463,6 +1471,14 @@
   "url": "https://creatives.abdocloud.com/creatives/cmwrhpky602xx0uo8eytsgbv8",
   "video_sha256": "7fd5618a8549788434573329a43db6e7c38f4d27c5f505fe2f9293c01c266963"
  },
+ "2_277-279_r97@v3": {
+  "creative": "Reel - 2:277-279 Al-Baqarah - ترك الربا - Dussary - v3",
+  "import_id": "cmwsfxt46005h3cnytrww8tp8",
+  "published_at": "2026-11-22T23:03:11+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwsfze7y041r0uo8h7eu9919",
+  "video_sha256": "770177858b48bf960fb0fe509ea10a4263dabc54731b1da44ce260304b3ebb2a"
+ },
  "2_280-281_r97": {
   "creative": "Reel - 2:280-281 Al-Baqarah - إمهال المعسر - Dussary",
   "import_id": "cmwq59srf00103cnyjbunb2b2",
@@ -1478,6 +1494,14 @@
   "status": "DRAFT (needs human review)",
   "url": "https://creatives.abdocloud.com/creatives/cmwrhprx202ya0uo85kn1vt93",
   "video_sha256": "834980ee6bc156cf6f93c810a53e90f93a7c201a100d9d2105873b3d5f17cafb"
+ },
+ "2_280-281_r97@v3": {
+  "creative": "Reel - 2:280-281 Al-Baqarah - إمهال المعسر - Dussary - v3",
+  "import_id": "cmwsfxt46005h3cnytrww8tp8",
+  "published_at": "2026-11-22T23:03:11+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwsfzizq04240uo83kzi3w6k",
+  "video_sha256": "b560537177dafd4602def0606a38dd2a7598619eab19b514906b25145419736d"
  },
  "2_282-282_r97": {
   "creative": "Reel - 2:282 Al-Baqarah - توثيق الديون - Dussary",
@@ -1495,6 +1519,14 @@
   "url": "https://creatives.abdocloud.com/creatives/cmwrhpvbx02yn0uo8n1i91l4i",
   "video_sha256": "906c3ed42f211343561612904bb845e943d2a88df121fb95a30f80c8762a8b4d"
  },
+ "2_282-282_r97@v3": {
+  "creative": "Reel - 2:282 Al-Baqarah - توثيق الديون - Dussary - v3",
+  "import_id": "cmwsfxt46005h3cnytrww8tp8",
+  "published_at": "2026-11-22T23:03:11+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwsfznmh042h0uo8s24h1e1v",
+  "video_sha256": "6d3ac9dddafd3d78ca68b8dc8c3e57b27c67f6a1ebaf2144bc2272b461d3f3cb"
+ },
  "2_283-284_r97": {
   "creative": "Reel - 2:283-284 Al-Baqarah - الرهن والشهادة - Dussary",
   "import_id": "cmwq59srf00103cnyjbunb2b2",
@@ -1511,6 +1543,14 @@
   "url": "https://creatives.abdocloud.com/creatives/cmwrhq4dw02z00uo88mrjsead",
   "video_sha256": "39aa72d8eaaa5a9ffab8e6a5a79b6c41290286c7be47938845bc949a613c4dd0"
  },
+ "2_283-284_r97@v3": {
+  "creative": "Reel - 2:283-284 Al-Baqarah - الرهن والشهادة - Dussary - v3",
+  "import_id": "cmwsfxt46005h3cnytrww8tp8",
+  "published_at": "2026-11-22T23:03:11+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwsfzxn6042u0uo8p5lxxyoi",
+  "video_sha256": "84e53c7edc4364bd32f324ce24615e1739e4ef7b8c4ad7e3db87f99d86b23df0"
+ },
  "2_285-286_r97": {
   "creative": "Reel - 2:285-286 Al-Baqarah - الإيمان والدعاء - Dussary",
   "import_id": "cmwq59srf00103cnyjbunb2b2",
@@ -1526,6 +1566,14 @@
   "status": "DRAFT (needs human review)",
   "url": "https://creatives.abdocloud.com/creatives/cmwrhq9xk02zd0uo841n5aqdy",
   "video_sha256": "eceda023d96c02ec6828e16b4a66aecca1284e9d473d741ba76bddb1b6dc59d9"
+ },
+ "2_285-286_r97@v3": {
+  "creative": "Reel - 2:285-286 Al-Baqarah - الإيمان والدعاء - Dussary - v3",
+  "import_id": "cmwsfxt46005h3cnytrww8tp8",
+  "published_at": "2026-11-22T23:03:11+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwsg08po04370uo893p4l0gi",
+  "video_sha256": "41e10a7811e91712bf3499564aafc2c54dc652ecf84434c8f31b8d6056a33d63"
  },
  "2_30-31_r97": {
   "creative": "Reel - 2:30-31 Al-Baqarah - استخلاف آدم - Dussary",
@@ -2431,6 +2479,14 @@
   "url": "https://creatives.abdocloud.com/creatives/cmwqfga4v01o20uo8s89ur1go",
   "video_sha256": "621157217394e37124b24244a9e9c877e298de67c835d358151fd5a934790df8"
  },
+ "3_195-195_r97@v2": {
+  "creative": "Reel - 3:195 Ali 'Imran - إجابة الدعاء - Dussary - v2",
+  "import_id": "cmwsg0g5j005m3cnyo1yvv7yb",
+  "published_at": "2026-11-22T23:04:05+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwsg1670043n0uo8e7y0ngy7",
+  "video_sha256": "9a79567b820029f1d1579736ef77761661e3e83fce7b323ce3e4f26cf8240ca0"
+ },
  "3_196-200_r97": {
   "creative": "Reel - 3:196-200 Ali 'Imran - عاقبة الفريقين - Dussary",
   "import_id": "cmwqha17d001p3cnyf4v996dz",
@@ -2438,6 +2494,14 @@
   "status": "DRAFT (needs human review)",
   "url": "https://creatives.abdocloud.com/creatives/cmwqhbxdm01to0uo80jaozhdu",
   "video_sha256": "414a3bd79ec0ccd4a6e3469d07196a83244186c7e71b026c610c7dc5c64a1d76"
+ },
+ "3_196-200_r97@v2": {
+  "creative": "Reel - 3:196-200 Ali 'Imran - عاقبة الفريقين - Dussary - v2",
+  "import_id": "cmwsg0g5j005m3cnyo1yvv7yb",
+  "published_at": "2026-11-22T23:04:05+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwsg1cn304400uo8v8fkpj50",
+  "video_sha256": "31de0b7bb56abbe90f3c9335d4ec7276a4c15651ace3508b0d24023df6f4c059"
  },
  "3_27-29_r97": {
   "creative": "Reel - 3:27-29 Ali 'Imran - الولاء للمؤمنين - Dussary",
@@ -2799,6 +2863,22 @@
   "url": "https://creatives.abdocloud.com/creatives/cmwqhdoaq01u60uo85p3rj55u",
   "video_sha256": "240b9c5dc4375ec79c6369daa79cfc8e32b72e91db30444e367ba90ec2d41d93"
  },
+ "4_102-102_r97": {
+  "creative": "Reel - 4:102 An-Nisa - صلاة الخوف - Dussary",
+  "import_id": "cmwsg1lq0005r3cny667m1qe2",
+  "published_at": "2026-11-22T23:09:46+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwsg891a048e0uo8yweihnkd",
+  "video_sha256": "1a890a3b992b3c7a9c8e439584a8732f332a1efd18919156234abff59d864d37"
+ },
+ "4_103-104_r97": {
+  "creative": "Reel - 4:103-104 An-Nisa - المحافظة على الصلاة - Dussary",
+  "import_id": "cmwsg1lq0005r3cny667m1qe2",
+  "published_at": "2026-11-22T23:09:46+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwsg8no9048s0uo83wy9cggz",
+  "video_sha256": "6bb95b488aca2e20ea92c3de6b93297259ef07452ff6f9951cff00f92d672816"
+ },
  "4_11-11_r97": {
   "creative": "Reel - 4:11 An-Nisa - ميراث الأولاد والوالدين - Dussary",
   "import_id": "cmwqhc837001u3cnyf6k2vxmc",
@@ -2854,6 +2934,14 @@
   "status": "DRAFT (needs human review)",
   "url": "https://creatives.abdocloud.com/creatives/cmwqidlco01y50uo81yetwugh",
   "video_sha256": "6026e1a1f249be70085872b39962f9e2d4c45a373374384d1b054d6641e6602a"
+ },
+ "4_25-25_r97": {
+  "creative": "Reel - 4:25 An-Nisa - نكاح الإماء - Dussary",
+  "import_id": "cmwsg1lq0005r3cny667m1qe2",
+  "published_at": "2026-11-22T23:09:46+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwsg612m044h0uo8i4kp97il",
+  "video_sha256": "4415cbd81f4849184de1569e93e610a045d28868bee7c58f2538e6f8255d24e9"
  },
  "4_26-29_r97": {
   "creative": "Reel - 4:26-29 An-Nisa - التيسير ورفع الحرج - Dussary",
@@ -3007,6 +3095,14 @@
   "url": "https://creatives.abdocloud.com/creatives/cmwqulqgh024u0uo8a69ndx79",
   "video_sha256": "9e187afc3677dc6af135cbce08da0734b33fd83ef467a8b184c27c5840ff4955"
  },
+ "4_77-78_r97": {
+  "creative": "Reel - 4:77-78 An-Nisa - حين فرض القتال - Dussary",
+  "import_id": "cmwsg1lq0005r3cny667m1qe2",
+  "published_at": "2026-11-22T23:09:46+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwsg672n044v0uo8ytdffwcf",
+  "video_sha256": "411356159e00c02161e57873580495f95eb38c8d24ae12c0d4b2f010c0baaec2"
+ },
  "4_79-81_r97": {
   "creative": "Reel - 4:79-81 An-Nisa - الحسنة والسيئة - Dussary",
   "import_id": "cmwquipeu00243cnyrzfnzetz",
@@ -3022,5 +3118,69 @@
   "status": "DRAFT (needs human review)",
   "url": "https://creatives.abdocloud.com/creatives/cmwqhe8ci01vc0uo8biajv27t",
   "video_sha256": "a9df7796ce50151ec0670ef72aa07fb6da869073d38328e2c1d728896a060076"
+ },
+ "4_82-84_r97": {
+  "creative": "Reel - 4:82-84 An-Nisa - تدبر القرآن - Dussary",
+  "import_id": "cmwsg1lq0005r3cny667m1qe2",
+  "published_at": "2026-11-22T23:09:46+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwsg6ius04590uo889qm4n6o",
+  "video_sha256": "959e3516c931c3435f133581c87c5c014e4edd87181a18f2f0b3023a7dfd1715"
+ },
+ "4_85-87_r97": {
+  "creative": "Reel - 4:85-87 An-Nisa - الشفاعة والتحية - Dussary",
+  "import_id": "cmwsg1lq0005r3cny667m1qe2",
+  "published_at": "2026-11-22T23:09:46+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwsg6tn9045n0uo86d3l88s5",
+  "video_sha256": "9f0364869b749d6794ce0217312c9d0575692a6edd269f534c4cb2baf92da409"
+ },
+ "4_88-90_r97": {
+  "creative": "Reel - 4:88-90 An-Nisa - حكم المنافقين - Dussary",
+  "import_id": "cmwsg1lq0005r3cny667m1qe2",
+  "published_at": "2026-11-22T23:09:46+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwsg724504620uo828d5u5si",
+  "video_sha256": "c66ffb4b31e92529191b881f5858902aaf23be64b3d030428324029eedd0e823"
+ },
+ "4_91-91_r97": {
+  "creative": "Reel - 4:91 An-Nisa - فئة متقلبة - Dussary",
+  "import_id": "cmwsg1lq0005r3cny667m1qe2",
+  "published_at": "2026-11-22T23:09:46+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwsg7fan046g0uo8ix1zywqx",
+  "video_sha256": "854134c26a46d4b143d78997679ae4bc135e00620b676e9e1dcf30c7e7a617fa"
+ },
+ "4_92-92_r97": {
+  "creative": "Reel - 4:92 An-Nisa - قتل الخطأ - Dussary",
+  "import_id": "cmwsg1lq0005r3cny667m1qe2",
+  "published_at": "2026-11-22T23:09:46+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwsg7jtq046u0uo8v0og9lbn",
+  "video_sha256": "4f9b6e37554ad60b590efe429c69d883764d64de294f0e2a175ab9c67af62443"
+ },
+ "4_93-94_r97": {
+  "creative": "Reel - 4:93-94 An-Nisa - حرمة الدم - Dussary",
+  "import_id": "cmwsg1lq0005r3cny667m1qe2",
+  "published_at": "2026-11-22T23:09:46+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwsg7qhq04780uo8gl3bdhqm",
+  "video_sha256": "0901fb77f95c14316172316fabe756113e86012de2393d53c6c4e0e49e545033"
+ },
+ "4_95-97_r97": {
+  "creative": "Reel - 4:95-97 An-Nisa - فضل المجاهدين - Dussary",
+  "import_id": "cmwsg1lq0005r3cny667m1qe2",
+  "published_at": "2026-11-22T23:09:46+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwsg7yic047m0uo88m8eap4o",
+  "video_sha256": "3a424eaf1d5f54101b46eaaa8d2f78ff8cc22cfd96be5a28a64fa273d1f805c6"
+ },
+ "4_98-101_r97": {
+  "creative": "Reel - 4:98-101 An-Nisa - الهجرة وقصر الصلاة - Dussary",
+  "import_id": "cmwsg1lq0005r3cny667m1qe2",
+  "published_at": "2026-11-22T23:09:46+00:00",
+  "status": "DRAFT (needs human review)",
+  "url": "https://creatives.abdocloud.com/creatives/cmwsg83pe04800uo83gjaacbc",
+  "video_sha256": "6f8c4b62c18436bf21ebbeff32a7ca7a7729a660479c3255383967d52d91b002"
  }
 }
