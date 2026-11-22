@@ -34,14 +34,14 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "night_sky",
+    "mood": "mountains",
     "beats": [
      {
       "at": [
        128,
        2
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -69,7 +69,7 @@
        128,
        10
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -260,7 +260,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "128 is about the Prophet ﷺ: no motif, figure or drop anywhere in it; camera moves only. 129: geometric from «حسبي الله» to the end; the Throne is not drawn (no throne, no light plate on «العرش»). STAGING v4: Both chapters stay ambient: 128 describes the Messenger himself (nothing may stand in for him: no figure, drop or motif) and 129 is his own declaration of reliance on Allah with the Lord of the Throne (the Throne is never drawn). The only change: the background is now quiet over both verses (no pulse in rhythm with the words that could read as a presence)."
+  "notes": "128 is about the Prophet ﷺ: no motif, figure or drop anywhere in it; camera moves only. 129: geometric from «حسبي الله» to the end; the Throne is not drawn (no throne, no light plate on «العرش»). STAGING v4: Both chapters stay ambient: 128 describes the Messenger himself (nothing may stand in for him: no figure, drop or motif) and 129 is his own declaration of reliance on Allah with the Lord of the Throne (the Throne is never drawn). 128 is now a mountains landscape (the Name is not recited in it) instead of the night sky, so no lone crescent can read as an image of him; wide shots on «جاءكم رسول» and on 128:10 (no drift toward the sky). The background is quiet over both verses (no pulse in rhythm with the words that could read as a presence). The cover (128:1) is the mountain landscape under the title."
  },
  "cover": {
   "series_ar": "الصدق والختام",

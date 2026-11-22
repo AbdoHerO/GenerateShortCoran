@@ -33,63 +33,127 @@
     69,
     70
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "home",
+    "time": "day",
+    "actors": [
+     {
+      "id": "ib",
+      "type": "prophet",
+      "label": "إبراهيم",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "an",
+      "type": "angel",
+      "label": "الملائكة",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       69,
+       2
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        69,
-       3
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       69,
-       7
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       69,
-       14
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       70,
        1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
-       70,
+       69,
        3
       ],
-      "do": "pan_left"
+      "do": "glow",
+      "who": "an"
+     },
+     {
+      "at": [
+       69,
+       6
+      ],
+      "do": "speak",
+      "who": "an",
+      "to": "ib"
+     },
+     {
+      "at": [
+       69,
+       8
+      ],
+      "do": "speak",
+      "who": "ib",
+      "to": "an"
+     },
+     {
+      "at": [
+       69,
+       10
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       69,
+       13
+      ],
+      "do": "walk_to",
+      "who": "ib",
+      "to": "center"
+     },
+     {
+      "at": [
+       69,
+       15
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        70,
-       8
+       2
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       70,
+       7
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        70,
        11
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "an",
+      "to": "ib"
      },
      {
       "at": [
        70,
-       15
+       14
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       70,
+       16
       ],
       "do": "shot_wide"
      }
@@ -102,24 +166,11 @@
       ],
       "until": [
        69,
-       6
+       8
       ],
       "motif": "scroll",
       "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       69,
-       11
-      ],
-      "until": [
-       70,
-       1
-      ],
-      "motif": "house",
-      "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -131,28 +182,68 @@
     71,
     72
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "home",
+    "time": "day",
+    "actors": [
+     {
+      "id": "ib",
+      "type": "prophet",
+      "label": "إبراهيم",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "an",
+      "type": "angel",
+      "label": "الملائكة",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       71,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       71,
+       2
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        71,
        4
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "an",
+      "to": "ib"
      },
      {
       "at": [
        71,
        5
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        71,
-       7
+       6
       ],
       "do": "shot_wide"
      },
@@ -161,7 +252,7 @@
        72,
        1
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -173,12 +264,39 @@
      {
       "at": [
        72,
-       8
+       9
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
-    "motifs": [],
+    "motifs": [
+     {
+      "at": [
+       71,
+       4
+      ],
+      "until": [
+       72,
+       1
+      ],
+      "motif": "seal",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       72,
+       5
+      ],
+      "until": [
+       72,
+       9
+      ],
+      "motif": "hourglass",
+      "place": "top",
+      "size": "s"
+     }
+    ],
     "transition": "dissolve"
    }
   }
@@ -308,7 +426,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The angels are never drawn or symbolised; Ibrahim and his wife get no plate, figure or drop. A scroll for «بالبشرى» (the news as a message, after Ibrahim's name; a gold burst could read as the angels), a house for his hospitality («فما لبث أن جاء بعجل حنيذ»); no calf, hands or people drawn. 71:1-2 «قائمة» is not glossed: the tafsirs differ (serving the guests / listening behind the curtain). No plate on «إسحاق» or «يعقوب». The plan's title «ضيف إبراهيم» is Quran wording (15:51, 51:24): now «بشارة الملائكة»."
+  "notes": "The angels are never drawn or symbolised; Ibrahim and his wife get no plate, figure or drop. A scroll for «بالبشرى» (the news as a message, after Ibrahim's name; a gold burst could read as the angels), a house for his hospitality («فما لبث أن جاء بعجل حنيذ»); no calf, hands or people drawn. 71:1-2 «قائمة» is not glossed: the tafsirs differ (serving the guests / listening behind the curtain). No plate on «إسحاق» or «يعقوب». The plan's title «ضيف إبراهيم» is Quran wording (15:51, 51:24): now «بشارة الملائكة». STAGING v4: Restaged under Staging v4, as in 15_51-60: Ibrahim is a blue drop labelled Ibrahim, his guests one gold angel drop labelled the angels (neither tafsir gives their number), in his home by day (As-Sa'di: he hurried to his house). c1 (69-70): the angels appear on 69:2 and glow softly on 69:3; a scroll plate for the good news (69:5-7, after Ibrahim's name); the greeting is spoken by the angels (69:6) and returned by Ibrahim (69:8), each toward the other drop; on 69:13 Ibrahim's drop moves toward his guests (As-Sa'di: he brought it near them); no food, calf or plate is drawn. 70: no gesture for his unease (Al-Muyassar: he concealed it), the camera holds wide; the angels speak (70:11). No plate for the angels or their mission, no close-up and no pan on the drops. c2 (71-72): Sarah is never drawn, and nothing acts her standing, her laughter or her words (72 is held wide with no speech beat). The good news is spoken by the angels (71:4, Al-Muyassar: on the tongues of the angels; Al-Muyassar 69: they gave him and his wife the news, so the speech toward Ibrahim's drop is supported); a seal plate for the good news (71:4-9, a safe plate over the names of Ishaq and Ya'qub), an hourglass for old age (72:5-8). No glow or light on the news of the son. Cover: the angels greeting Ibrahim in his home, scroll plate on."
  },
  "cover": {
   "series_ar": "إبراهيم والملائكة",
@@ -317,8 +435,9 @@
   "title_en": "The angels' good news",
   "at": [
    69,
-   11
+   7
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

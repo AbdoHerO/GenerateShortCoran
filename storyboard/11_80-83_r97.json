@@ -33,51 +33,112 @@
     80,
     81
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "lut",
+      "type": "prophet",
+      "label": "لوط",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       81,
+       9
+      ]
+     },
+     {
+      "id": "an",
+      "type": "angel",
+      "label": "الملائكة",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       81,
+       1
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        80,
-       8
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       81,
        1
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "lut",
+      "to": "d"
      },
      {
       "at": [
-       81,
-       4
+       80,
+       6
       ],
       "do": "shot_wide"
      },
      {
       "at": [
-       81,
-       8
+       80,
+       10
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        81,
-       15
+       2
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "an",
+      "to": "lut"
      },
      {
       "at": [
        81,
-       19
+       7
       ],
-      "do": "pan_right"
+      "do": "turn",
+      "who": "d"
+     },
+     {
+      "at": [
+       81,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       81,
+       14
+      ],
+      "do": "speak",
+      "who": "an",
+      "to": "lut"
+     },
+     {
+      "at": [
+       81,
+       18
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -89,9 +150,11 @@
      {
       "at": [
        81,
-       26
+       27
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "an",
+      "to": "lut"
      }
     ],
     "motifs": [
@@ -106,7 +169,7 @@
       ],
       "motif": "moon",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -116,7 +179,7 @@
       "until": null,
       "motif": "hourglass",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -128,21 +191,41 @@
     82,
     83
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "city",
+    "time": "day",
+    "actors": [],
+    "events": [
+     {
+      "type": "ruin",
+      "at": [
+       82,
+       4
+      ],
+      "until": null
+     },
+     {
+      "type": "stones",
+      "at": [
+       82,
+       7
+      ],
+      "until": null
+     }
+    ],
     "beats": [
      {
       "at": [
        82,
-       2
+       1
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        82,
-       3
+       2
       ],
       "do": "pan_left"
      },
@@ -152,41 +235,34 @@
        6
       ],
       "do": "shot_wide"
-     },
-     {
-      "at": [
-       82,
-       7
-      ],
-      "do": "pan_right"
      },
      {
       "at": [
        82,
        9
       ],
-      "do": "shot_wide"
+      "do": "shot_sky"
      },
      {
       "at": [
        82,
        10
       ],
-      "do": "pan_left"
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       82,
+       11
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        82,
        12
       ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       83,
-       1
-      ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -198,20 +274,44 @@
      {
       "at": [
        83,
-       6
+       7
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        83,
        8
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
-    "motifs": [],
-    "transition": "dissolve"
+    "motifs": [
+     {
+      "at": [
+       83,
+       1
+      ],
+      "until": [
+       83,
+       4
+      ],
+      "motif": "seal",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       83,
+       5
+      ],
+      "until": null,
+      "motif": "hourglass",
+      "place": "top",
+      "size": "s"
+     }
+    ],
+    "transition": "wipe"
    }
   }
  ],
@@ -340,7 +440,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No destruction, overturned town or stones drawn: 82-83 are geometric with no plate. A moon for «بقطع من الليل», an hourglass for «إن موعدهم الصبح». 80:7-11 keeps As-Sa'di's «وهذا بحسب الأسباب المحسوسة». 81:14-19 keeps «ولا يلتفت منكم أحد إلا امرأتك» in one chip. Not glossed where the tafsirs differ: «سجيل» (82:10-11) and who «الظالمين» are (83: only Al-Muyassar's general «تهديد لكل عاص»). 82:4-9 is not glossed (first person)."
+  "notes": "No destruction, overturned town or stones drawn: 82-83 are geometric with no plate. A moon for «بقطع من الليل», an hourglass for «إن موعدهم الصبح». 80:7-11 keeps As-Sa'di's «وهذا بحسب الأسباب المحسوسة». 81:14-19 keeps «ولا يلتفت منكم أحد إلا امرأتك» in one chip. Not glossed where the tafsirs differ: «سجيل» (82:10-11) and who «الظالمين» are (83: only Al-Muyassar's general «تهديد لكل عاص»). 82:4-9 is not glossed (first person). STAGING v4: Lut's town by day, as in 11_76-79 (Lut a blue drop labelled Lut, the angels one gold drop labelled the angels). Their sin is never shown or suggested; Lut's family, his daughters and his wife are never drawn. c1 (80-81): his people (three faceless men in dark robes, at a distance on the right) are still there while Lut speaks to them (80:1); no gesture inside his wish (80:2-11), and the angels do not appear on the strong support (80:10-11): they appear on 81:1, between Lut and the men, and speak to Lut (81:2, 81:14, 81:27). The men turn (81:7) and leave the stage on 81:9 (As-Sa'di: they went away threatening Lut with the morning; the blinding is not shown), so they leave on a word of rescue, not of punishment. A moon plate for a part of the night (81:11-13); nobody turns on 81:14-19 (let none of you look back) and nothing stands for his wife; an hourglass for their appointment is the morning (81:24-29). c2 (82-83): the empty town by day (Al-Muyassar 81: their appointment was the morning; never dawn): no person on stage. The ruin event for the town turned upside down (82:4), stones falling on it from 82:7 (rain of stones); the camera tilts to the sky on 82:9 (stones) and goes wide; a seal plate for marked (83:1-3, safe over your Lord), an hourglass for not far from the wrongdoers (83:5-8). Cover: Lut and the angels by day with the moon plate (Lut is rescued)."
  },
  "cover": {
   "series_ar": "لوط وقومه",
@@ -349,8 +449,9 @@
   "title_en": "Lut is rescued",
   "at": [
    81,
-   11
+   12
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

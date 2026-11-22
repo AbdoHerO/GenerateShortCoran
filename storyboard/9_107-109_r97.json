@@ -174,7 +174,7 @@
      {
       "at": [
        107,
-       21
+       22
       ],
       "until": null,
       "motif": "geometric",
@@ -192,7 +192,7 @@
    ],
    "scene": "stage",
    "params": {
-    "setting": "prayer_hall",
+    "setting": "city",
     "time": "day",
     "actors": [
      {
@@ -237,7 +237,7 @@
        108,
        12
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -259,7 +259,7 @@
        108,
        22
       ],
-      "do": "pray",
+      "do": "sparkle",
       "who": "b"
      }
     ],
@@ -290,6 +290,18 @@
       "place": "top",
       "size": "s"
      }
+    ],
+    "quiet": [
+     [
+      [
+       108,
+       1
+      ],
+      [
+       108,
+       15
+      ]
+     ]
     ],
     "transition": "light_sweep"
    }
@@ -363,7 +375,7 @@
        109,
        18
       ],
-      "motif": "wind",
+      "motif": "mountain",
       "place": "top",
       "size": "m"
      }
@@ -508,7 +520,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No mosque or building drawn, and nothing of its destruction (Al-Muyassar's «وقد هُدِم… وأُحرِق» is not used); Abu 'Amir is not named. Their oath (107:16-20) is not glossed; 107:21-24 «فيما يحلفون عليه». Wind for «وتفريقا بين المؤمنين», light for «أسس على التقوى», rain for «يتطهروا», geometric for «تقوى من الله», a mountain for «شفا جرف هار» that leaves before the Fire. STAGING v4: c1 (107): a town by day (As-Sa'di: hypocrites of the people of Quba). Three men (the hypocrites) on the right, three believers on the left. A brick-wall plate on 107:3-4 (they built a mosque: Al-Muyassar); the mosque itself is never drawn and nothing of its destruction is drawn or suggested (the plate dissolves, it does not undraw). A wind plate on 107:6-8 (dividing the believers); the camera holds on the hypocrites for 107:9 (the station prepared for the one who fought); the one who fought is not drawn or named; the shot is wide while the Name and the Messenger are recited (107:11-13). They swear on 107:16 (Al-Muyassar: kindness to the Muslims and room for the weak), toward the believers who are present (nobody speaks toward an empty side); a geometric plate on 107:21 (Allah testifies) and the camera on them for 107:23-24. c2 (108): a prayer hall by day (the mosque founded on piety: Quba, both tafsirs). It is empty while 108:1-4 is recited (the prohibition is addressed to the Messenger; nobody stands in the hall then); three believers walk in on 108:5 (the mosque founded on piety); a light plate on 108:8-11 (piety); no prayer is started on «تقوم» (108:14) so no imam is implied; the camera closes on them on 108:16 (in it are men); a water-drop plate on 108:18-20 (they love to purify themselves: Al-Muyassar, with water) that leaves before the Name; they stand in prayer on 108:22 facing the empty side of the hall (nobody stands there; no plate during the prayer). c3 (109) is kept ambient: the parable ends in the collapse into the Fire. Cover: the believers in the mosque founded on piety (108:17)."
+  "notes": "No mosque or building drawn, and nothing of its destruction (Al-Muyassar's «وقد هُدِم… وأُحرِق» is not used); Abu 'Amir is not named. Their oath (107:16-20) is not glossed; 107:21-24 «فيما يحلفون عليه». Wind for «وتفريقا بين المؤمنين», light for «أسس على التقوى», rain for «يتطهروا», geometric for «تقوى من الله», a mountain for «شفا جرف هار» that leaves before the Fire. STAGING v4: No mosque or prayer hall is drawn anywhere in this video. c1 (107): a town by day (As-Sa'di: hypocrites of the people of Quba). Three men (the hypocrites) on the right, three believers on the left. A brick-wall plate on 107:3-4 (they built it: Al-Muyassar); the building itself is never drawn and nothing of its destruction is drawn or suggested (the plate dissolves, it does not undraw). A wind plate on 107:6-8 (dividing the believers); the camera holds on the hypocrites for 107:9 (the station prepared for the one who fought); the one who fought is not drawn or named; the shot is wide while the Name and the Messenger are recited (107:11-13). They swear on 107:16 (Al-Muyassar: kindness to the Muslims and room for the weak); the speech arcs point at the believers who are present; a geometric plate from 107:22 (Allah testifies; it starts on the verb, not on the Name) and the camera on them for 107:23-24. c2 (108): the town again, by day. 108:1-15 is addressed to the Messenger (do not stand in it; the mosque founded on piety is worthier for you to stand in): the background is quiet there and only wide shots are used; nobody stands or prays where he is addressed. Three believers walk in on 108:5 (the mosque founded on piety: Quba, both tafsirs); a light plate on 108:8-11 (piety); the camera closes on them on 108:16 (in it are men); a water-drop plate on 108:18-20 (they love to purify themselves: Al-Muyassar, with water) that leaves before the Name; a soft sparkle on them on 108:22 (Allah loves those who purify themselves); nobody prays. c3 (109) stays ambient: the parable ends in the collapse into the Fire; a geometric plate on 109:2-8 (piety from Allah) and a mountain plate on 109:15-17 (the edge of a crumbling bank: no wind, nothing that suggests a cause of the collapse; it leaves before the Fire). Cover: the geometric plate on piety from Allah (109:5), no people and no building."
  },
  "cover": {
   "series_ar": "مسجد الضرار",
@@ -516,8 +528,8 @@
   "title_ar": "المسجدان",
   "title_en": "The two mosques",
   "at": [
-   108,
-   17
+   109,
+   5
   ]
  },
  "motion": 3,

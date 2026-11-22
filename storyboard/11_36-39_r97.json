@@ -61,6 +61,13 @@
      {
       "at": [
        36,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       36,
        9
       ],
       "do": "shot_wide"
@@ -76,6 +83,13 @@
       "at": [
        36,
        16
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       37,
+       2
       ],
       "do": "shot_wide"
      },
@@ -98,7 +112,7 @@
        37,
        11
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -310,6 +324,13 @@
       "at": [
        39,
        9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       39,
+       10
       ],
       "do": "shot_wide"
      }

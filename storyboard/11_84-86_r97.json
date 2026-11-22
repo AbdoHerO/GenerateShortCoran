@@ -32,30 +32,88 @@
    "verses": [
     84
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "shuayb",
+      "type": "prophet",
+      "label": "شعيب",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        84,
-       14
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        84,
-       22
+       5
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "shuayb",
+      "to": "d"
+     },
+     {
+      "at": [
+       84,
+       12
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       84,
+       15
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       84,
+       18
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       84,
+       21
+      ],
+      "do": "speak",
+      "who": "shuayb",
+      "to": "d"
      },
      {
       "at": [
        84,
        23
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "d"
      }
     ],
     "motifs": [
@@ -70,12 +128,12 @@
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        84,
-       19
+       20
       ],
       "until": [
        84,
@@ -83,7 +141,7 @@
       ],
       "motif": "wheat",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -95,51 +153,121 @@
     85,
     86
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "shuayb",
+      "type": "prophet",
+      "label": "شعيب",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       85,
+       1
+      ],
+      "do": "speak",
+      "who": "shuayb",
+      "to": "d"
+     },
+     {
+      "at": [
+       85,
+       4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       85,
+       6
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        85,
        8
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
        85,
-       9
+       10
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        85,
-       11
+       13
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        86,
-       5
+       1
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "shuayb",
+      "to": "d"
      },
      {
       "at": [
        86,
-       7
+       4
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        86,
-       9
+       8
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "shuayb",
+      "to": "d"
+     },
+     {
+      "at": [
+       86,
+       10
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -154,7 +282,7 @@
       ],
       "motif": "scales",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -165,12 +293,12 @@
        86,
        5
       ],
-      "motif": "light",
+      "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "slide"
    }
   }
  ],
@@ -299,7 +427,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Shu'ayb: no motif, figure or drop; the plates start after his name. Geometric for «اعبدوا الله ما لكم من إله غيره», wheat for «بخير», scales for «أوفوا المكيال والميزان بالقسط» (trade, not the Mizan; nothing on the negated «ولا تنقصوا»), light for «بقيت الله». The plan's «الوفاء بالكيل» restated two passage words."
+  "notes": "Shu'ayb: no motif, figure or drop; the plates start after his name. Geometric for «اعبدوا الله ما لكم من إله غيره», wheat for «بخير», scales for «أوفوا المكيال والميزان بالقسط» (trade, not the Mizan; nothing on the negated «ولا تنقصوا»), light for «بقيت الله». The plan's «الوفاء بالكيل» restated two passage words. STAGING v4: Madyan in a market street by day (84-85: measure and weight), as in 7_85-86. Shu'ayb is a blue drop labelled Shu'ayb (no plate on his name, no close-up or pan on his drop); his people three faceless men in dark robes (the series' sign for a group). c1 (84): wide on the narration (84:1-4); Shu'ayb speaks to them (84:5, 84:21); geometric for worship Allah, you have no god but Him (84:7-13); the camera on them for do not decrease the measure (84:15; nothing is acted inside the prohibition); a wheat plate for I see you in prosperity (84:20, As-Sa'di: much blessing); the camera on them for the warning of the encompassing Day (84:23). c2 (85-86): a scales plate for give full measure and weight in justice (85:2-5; worldly weights, not the Mizan); nobody is shown measuring, giving short or giving full (a command to them is not acted as obeyed). Three townspeople (light robes, the people of 85:8) stand by the stalls: the camera on them for do not deprive people of their things (85:8), on the men in dark robes for do not spread corruption (85:13). Geometric (not light) for what Allah leaves you (86:1-4, the Name follows at once); no gesture inside the condition (86:5-7); Shu'ayb speaks again for I am not a guardian over you (86:8). No close-up on a single man during his speech. Cover: the market with the scales plate."
  },
  "cover": {
   "series_ar": "شعيب ومدين",
@@ -308,8 +436,9 @@
   "title_en": "Fair dealing",
   "at": [
    85,
-   2
+   5
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

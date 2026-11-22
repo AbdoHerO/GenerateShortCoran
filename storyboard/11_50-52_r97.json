@@ -214,11 +214,25 @@
      {
       "at": [
        52,
+       11
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       52,
        15
       ],
       "do": "speak",
       "who": "hud",
       "to": "d"
+     },
+     {
+      "at": [
+       52,
+       17
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [

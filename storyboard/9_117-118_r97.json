@@ -81,6 +81,13 @@
      {
       "at": [
        117,
+       23
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       117,
        25
       ],
       "do": "shot_wide"
@@ -103,7 +110,7 @@
      {
       "at": [
        117,
-       24
+       26
       ],
       "until": null,
       "motif": "geometric",
@@ -271,7 +278,7 @@
      {
       "at": [
        118,
-       28
+       30
       ],
       "until": null,
       "motif": "geometric",
@@ -397,7 +404,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "117:1-7 uses Al-Muyassar's respectful reading for the Prophet ﷺ («وفَّق الله نبيه… إلى الإنابة إليه وطاعته»); no motif near «النبي». The expedition is glossed by its hardship only (heat, provisions, mounts), not by fighting. The three are named (Al-Muyassar). A sun for «ساعة العسرة», geometric for «لا ملجأ من الله إلا إليه», light for the turning in mercy. STAGING v4: c1 (117) stays ambient: Allah's turning to the Prophet, the Muhajirun and the Ansar who followed him in the hour of hardship (the Tabuk expedition: battle context); the background is now quiet over the whole verse (His act toward the Prophet); the plate on 117:24 is now geometric instead of light (a light plate must not start on a pronoun of Allah). c2 (118): a town by day (Al-Muyassar: the three were of the Ansar). Three men sit at the centre: the verse itself says three; they are never named on screen and carry no label (the pre-existing gloss on 118:1-4 names them from Al-Muyassar). Nobody else is on the stage: no one shuns, leaves or punishes them; only their grief is acted, as both tafsirs say: they lower their heads on 118:7 (the earth closed in on them), a slow push-in on 118:12 (their souls were straitened), they wring their hands on 118:14 (Al-Muyassar: grief and regret); the camera closes on them for 118:18 and they raise their hands on 118:21, just after the Name (As-Sa'di: they turned to Allah alone); then a door that opens on light on 118:24 (He turned to them: relief; it leaves before the Name) and a soft sparkle on them on 118:26 (so they could repent); a geometric plate on 118:28 (the Accepting of repentance, the Merciful). No plate is on screen while they raise their hands. Cover: the three and the opening door (118:25)."
+  "notes": "117:1-7 uses Al-Muyassar's respectful reading for the Prophet ﷺ («وفَّق الله نبيه… إلى الإنابة إليه وطاعته»); no motif near «النبي». The expedition is glossed by its hardship only (heat, provisions, mounts), not by fighting. The three are named (Al-Muyassar). A sun for «ساعة العسرة», geometric for «لا ملجأ من الله إلا إليه», light for the turning in mercy. STAGING v4: c1 (117) stays ambient: Allah's turning to the Prophet, the Muhajirun and the Ansar who followed him in the hour of hardship (the Tabuk expedition: battle context); the background is now quiet over the whole verse (His act toward the Prophet); a geometric plate from 117:26 (Kind, Merciful: it starts on the attribute, not on His pronoun). c2 (118): a town by day (Al-Muyassar: the three were of the Ansar). Three men sit at the centre: the verse itself says three; they are never named on screen and carry no label (the pre-existing gloss on 118:1-4 names them from Al-Muyassar). Nobody else is on the stage: no one shuns, leaves or punishes them; only their grief is acted, as both tafsirs say: they lower their heads on 118:7 (the earth closed in on them), a slow push-in on 118:12 (their souls were straitened), they wring their hands on 118:14 (Al-Muyassar: grief and regret); the camera closes on them for 118:18 and they raise their hands on 118:21, just after the Name (As-Sa'di: they turned to Allah alone); then a door that opens on light on 118:24 (He turned to them: relief; it leaves before the Name) and a soft sparkle on them on 118:26 (so they could repent); a geometric plate from 118:30 (the Accepting of repentance, the Merciful: it starts on the attribute, not on the Name). No plate is on screen while they raise their hands. Cover: the three and the opening door (118:25)."
  },
  "cover": {
   "series_ar": "رحمة التوبة",

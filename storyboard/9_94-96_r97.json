@@ -223,8 +223,7 @@
        95,
        6
       ],
-      "do": "shot_close",
-      "who": "h"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -303,31 +302,7 @@
       "who": "h"
      }
     ],
-    "motifs": [
-     {
-      "at": [
-       96,
-       1
-      ],
-      "until": [
-       96,
-       8
-      ],
-      "motif": "wind",
-      "place": "top",
-      "size": "s"
-     },
-     {
-      "at": [
-       96,
-       9
-      ],
-      "until": null,
-      "motif": "geometric",
-      "place": "top",
-      "size": "s"
-     }
-    ],
+    "motifs": [],
     "transition": "dissolve"
    }
   }
@@ -457,7 +432,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Anchored in Tabuk (94:1-5). The oaths of 95-96 are framed («كاذبين معتذرين», «كذبًا»). 96 keeps Al-Muyassar's «ممن استمروا على الفسوق» (As-Sa'di: the door of repentance stays open). Geometric for «عالم الغيب والشهادة»; nothing drawn for the Fire (95). STAGING v4: c1 (94): a town by day. Three believers walk in from the left (returning: Al-Muyassar, from Tabuk; nothing of the expedition is drawn) and three men (the hypocrites who stayed behind) stand on the right and speak toward the believers on 94:2 (they make excuses to you, the believers: Al-Muyassar). The answer of 94:6-11 is the Messenger's («قل»): nobody acts it; the camera holds on the hypocrites; the shot is wide while the Messenger is named (94:17-20); a geometric plate on the Knower of the unseen (94:24-26); nothing is drawn for the return to Him. c2 (95-96): the same town. The hypocrites swear on 95:1 toward the believers (to you: both tafsirs); the believers turn their backs on 95:9 (the command to them: Al-Muyassar, avoid them; As-Sa'di, no rebuke and no punishment, only turning away); during the threat and the Fire (95:11-18) the camera holds on the hypocrites, nothing is drawn for the Fire. They swear again on 96:1 under a wind plate (empty oaths) that leaves before the Name; nothing is acted on the conditional 96:5-7; a geometric plate on 96:9 and the camera on the hypocrites for the end of the verse. Cover: the hypocrites making excuses (94:2)."
+  "notes": "Anchored in Tabuk (94:1-5). The oaths of 95-96 are framed («كاذبين معتذرين», «كذبًا»). 96 keeps Al-Muyassar's «ممن استمروا على الفسوق» (As-Sa'di: the door of repentance stays open). Geometric for «عالم الغيب والشهادة»; nothing drawn for the Fire (95). STAGING v4: c1 (94): a town by day. Three believers walk in from the left (returning: Al-Muyassar, from Tabuk; nothing of the expedition is drawn) and three men (the hypocrites who stayed behind) stand on the right and speak toward the believers on 94:2 (they make excuses to you, the believers: Al-Muyassar). The answer of 94:6-11 is the Messenger's («قل»): nobody acts it; the camera holds on the hypocrites; the shot is wide while the Messenger is named (94:17-20); a geometric plate on the Knower of the unseen (94:24-26); nothing is drawn for the return to Him. c2 (95-96): the same town. The hypocrites swear on 95:1 toward the believers (to you: both tafsirs); the shot is wide from 95:6 so the believers are in frame when they turn their backs on 95:9 (the command to them: Al-Muyassar, avoid them; As-Sa'di, no rebuke and no punishment, only turning away); during the threat and the Fire (95:11-18) the camera holds on the hypocrites, nothing is drawn for the Fire. They swear again on 96:1 toward the believers' turned backs; no plate in this chapter; nothing is acted on the conditional 96:5-7; the camera holds on the hypocrites for the end of the verse. The speech arcs point at the believers (renderer: arcs aim at the nearest person). Cover: the hypocrites making excuses (94:2)."
  },
  "cover": {
   "series_ar": "بعد تبوك",

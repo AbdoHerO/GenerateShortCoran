@@ -141,7 +141,7 @@
      {
       "at": [
        110,
-       13
+       14
       ],
       "until": null,
       "motif": "geometric",
@@ -270,7 +270,7 @@
       "size": "m"
      }
     ],
-    "transition": "light_sweep"
+    "transition": "dissolve"
    }
   }
  ],
@@ -344,7 +344,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Fighting verse: the command is not glossed; no battle, weapon, march or army drawn; no present-day reading and no people targeted. No motif on the Prophet ﷺ. 111:11-16 is not glossed and nothing is drawn there. 110:9-12 «إلا أن تقطع قلوبهم» is not glossed: the tafsirs differ (Al-Muyassar: death or repentance; As-Sa'di: repentance). As-Sa'di's «ما تشتهيه الأنفس، وتلذ الأعين» (43:71) is not used. Coins for «وأموالهم», a book for the three Scriptures, light for «فاستبشروا». STAGING v4: c1 (110): a town by day; three men (the hypocrites who built it). A brick-wall plate on their building (110:3-5; the mosque is not drawn, nothing is destroyed); on 110:6 and 110:8 they turn one way and back (doubt lasting in their hearts, as for wavering in 9:45), under a wind plate (110:6-8); nothing is drawn or acted for 110:9-12 (the tafsirs differ: death or repentance), nobody leaves or fades; a geometric plate on 110:13 (Knowing, Wise). c2 (111) is kept ambient: Allah's purchase from the believers and the fighting verse; no battle, weapon or march."
+  "notes": "Fighting verse: the command is not glossed; no battle, weapon, march or army drawn; no present-day reading and no people targeted. No motif on the Prophet ﷺ. 111:11-16 is not glossed and nothing is drawn there. 110:9-12 «إلا أن تقطع قلوبهم» is not glossed: the tafsirs differ (Al-Muyassar: death or repentance; As-Sa'di: repentance). As-Sa'di's «ما تشتهيه الأنفس، وتلذ الأعين» (43:71) is not used. Coins for «وأموالهم», a book for the three Scriptures, light for «فاستبشروا». STAGING v4: c1 (110): a town by day; three men (the hypocrites who built it). A brick-wall plate on their building (110:3-5; the mosque is not drawn, nothing is destroyed); on 110:6 and 110:8 they turn one way and back (doubt lasting in their hearts, as for wavering in 9:45), under a wind plate (110:6-8); nothing is drawn or acted for 110:9-12 (the tafsirs differ: death or repentance), nobody leaves or fades; a geometric plate from 110:14 (Knowing, Wise; it starts on the attribute, not on the Name). c2 (111) stays ambient: Allah's purchase from the believers and the fighting verse; no battle, weapon or march; it now opens with a dissolve (no band of light just before the Name); seal, book and light plates as before. Cover: the book plate on the three Scriptures (111:21)."
  },
  "cover": {
   "series_ar": "مسجد الضرار",
@@ -353,7 +353,7 @@
   "title_en": "The truest promise",
   "at": [
    111,
-   1
+   21
   ]
  },
  "motion": 3,

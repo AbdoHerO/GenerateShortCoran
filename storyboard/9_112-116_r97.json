@@ -166,18 +166,7 @@
       "who": "b"
      }
     ],
-    "motifs": [
-     {
-      "at": [
-       112,
-       14
-      ],
-      "until": null,
-      "motif": "geometric",
-      "place": "top",
-      "size": "s"
-     }
-    ]
+    "motifs": []
    }
   },
   {
@@ -683,7 +672,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "One unit: the reciter joins 112→116. 112:4 «السائحون» is not glossed: the tafsirs differ (Al-Muyassar: fasting; As-Sa'di: travel in acts of worship). Ibrahim (114) and the Prophet ﷺ (113): no motif, figure or drop; nothing drawn in 113-114. Al-Muyassar's «والتشريع» (116) is not used. Light for the bowing and prostrating and for «بعد إذ هداهم», stars for the heavens, night and day for «يحيي ويميت». 113: short-word flag, listen. STAGING v4: Chapter split (glosses untouched): the old c2 (113-114) is now c2 = 113 (ambient, kept title) and c2b = 114 (stage, new title «إبراهيم وأبوه»), because 113 is about the Prophet and must stay ambient while 114 is a this-world story. c1 (112): a prayer hall by day; three believers lower their heads on 112:1 (the repentant), stand in prayer on 112:2 (the worshippers), bow on 112:5 and prostrate on 112:6 (facing the empty side of the hall: nobody stands there); nothing is acted for 112:4 (the tafsirs differ: fasting or travel in worship). They stand up on 112:7 and three people sitting on the right appear only then (after the prostration, so nobody prostrates toward people); the believers speak to them on 112:8 (enjoining good: both tafsirs, they command the people) and shake their heads on 112:9 (forbidding evil); a geometric plate on 112:14 (the limits of Allah); a soft sparkle on the believers on 112:16 (good tidings), with no one giving it (the Messenger is never shown). c2 (113) stays ambient: the ruling about the Prophet and the believers, night sky, background quiet over the whole verse; no motif. c2b (114): a town by day (as in 6:74). Ibrahim is only a blue light drop labelled «إبراهيم» at the centre; his father is a plain faceless man on the right; no grave, no death and no seeking of forgiveness at a grave. Ibrahim speaks to him on 114:8 (the promise: both tafsirs, his saying that he would ask forgiveness for him) under a seal plate (a promise, 114:8-10); the father shakes his head on 114:12 (both tafsirs: admonition did not benefit him); the camera closes on the father for 114:14-15 (an enemy), wide on the Name (114:16); on 114:17 Ibrahim moves away from him to the left (he disassociated himself from him); a soft glow on the drop on 114:21 (compassionate, forbearing; the Name was recited five seconds before). Wide shots only around the drop (no pan, no close shot on it). c3 (115-116) stays ambient (Allah's acts and Names); the plate on 115:8 (after He guided them) is now geometric instead of light (a light plate must not start on His act). Cover: Ibrahim and his father, with no plate (114:13)."
+  "notes": "One unit: the reciter joins 112→116. 112:4 «السائحون» is not glossed: the tafsirs differ (Al-Muyassar: fasting; As-Sa'di: travel in acts of worship). Ibrahim (114) and the Prophet ﷺ (113): no motif, figure or drop; nothing drawn in 113-114. Al-Muyassar's «والتشريع» (116) is not used. Light for the bowing and prostrating and for «بعد إذ هداهم», stars for the heavens, night and day for «يحيي ويميت». 113: short-word flag, listen. STAGING v4: Chapter split (glosses untouched): the old c2 (113-114) is now c2 = 113 (ambient, kept title) and c2b = 114 (stage, new title «إبراهيم وأبوه»), because 113 is about the Prophet and must stay ambient while 114 is a this-world story. c1 (112): a prayer hall by day; three believers lower their heads on 112:1 (the repentant), stand in prayer on 112:2 (the worshippers), bow on 112:5 and prostrate on 112:6 (facing the empty side of the hall: nobody stands there); nothing is acted for 112:4 (the tafsirs differ: fasting or travel in worship). They stand up on 112:7 and three people sitting on the right appear only then (after the prostration, so nobody prostrates toward people); the believers speak to them on 112:8 (enjoining good: both tafsirs, they command the people) and shake their heads on 112:9 (forbidding evil), the speech arcs pointing at the people; no plate in this chapter; a soft sparkle on the believers on 112:16 (good tidings), with no one giving it (the Messenger is never shown). c2 (113) stays ambient: the ruling about the Prophet and the believers, night sky, background quiet over the whole verse; no motif. c2b (114): a town by day (as in 6:74). Ibrahim is only a blue light drop labelled «إبراهيم» at the centre; his father is a plain faceless man on the right; no grave, no death and no seeking of forgiveness at a grave. Ibrahim speaks to him on 114:8 (the promise: both tafsirs, his saying that he would ask forgiveness for him) under a seal plate (a promise, 114:8-10); the father shakes his head on 114:12 (both tafsirs: admonition did not benefit him); the camera closes on the father for 114:14-15 (an enemy), wide on the Name (114:16); on 114:17 Ibrahim moves away from him to the left (he disassociated himself from him); a soft glow on the drop on 114:21 (compassionate, forbearing; the Name was recited five seconds before). Wide shots only around the drop (no pan, no close shot on it). c3 (115-116) stays ambient (Allah's acts and Names); the plate on 115:8 (after He guided them) is now geometric instead of light (a light plate must not start on His act). Cover: Ibrahim and his father, with no plate (114:13)."
  },
  "cover": {
   "series_ar": "رحمة التوبة",

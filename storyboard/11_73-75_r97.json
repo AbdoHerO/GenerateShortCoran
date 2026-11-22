@@ -32,14 +32,68 @@
    "verses": [
     73
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "home",
+    "time": "day",
+    "actors": [
+     {
+      "id": "ib",
+      "type": "prophet",
+      "label": "إبراهيم",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "an",
+      "type": "angel",
+      "label": "الملائكة",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        73,
+       1
+      ],
+      "do": "speak",
+      "who": "an",
+      "to": "ib"
+     },
+     {
+      "at": [
+       73,
+       3
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       73,
+       6
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       73,
        9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       73,
+       13
       ],
       "do": "shot_wide"
      }
@@ -48,15 +102,28 @@
      {
       "at": [
        73,
-       6
+       4
+      ],
+      "until": [
+       73,
+       10
+      ],
+      "motif": "geometric",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       73,
+       10
       ],
       "until": [
        73,
        12
       ],
-      "motif": "light",
+      "motif": "house",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -66,7 +133,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -78,21 +145,61 @@
     74,
     75
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "home",
+    "time": "day",
+    "actors": [
+     {
+      "id": "ib",
+      "type": "prophet",
+      "label": "إبراهيم",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "an",
+      "type": "angel",
+      "label": "الملائكة",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        74,
-       6
+       1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        74,
-       9
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       74,
+       8
+      ],
+      "do": "speak",
+      "who": "ib",
+      "to": "an"
+     },
+     {
+      "at": [
+       75,
+       1
       ],
       "do": "shot_wide"
      },
@@ -101,10 +208,32 @@
        75,
        3
       ],
-      "do": "pan_right"
+      "do": "glow",
+      "who": "ib"
+     },
+     {
+      "at": [
+       75,
+       5
+      ],
+      "do": "shot_wide"
      }
     ],
-    "motifs": [],
+    "motifs": [
+     {
+      "at": [
+       74,
+       6
+      ],
+      "until": [
+       74,
+       8
+      ],
+      "motif": "scroll",
+      "place": "top",
+      "size": "s"
+     }
+    ],
     "transition": "dissolve"
    }
   }
@@ -201,7 +330,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The angels speak in 73: no plate for them. Light for «رحمت الله وبركاته» and geometric for «إنه حميد مجيد». 74-75 are about Ibrahim: no plate at all. The plan's title «رحمة وبركات» restated the verse: now «بيت النبوة» (Al-Muyassar's «أهل بيت النبوة»)."
+  "notes": "The angels speak in 73: no plate for them. Light for «رحمت الله وبركاته» and geometric for «إنه حميد مجيد». 74-75 are about Ibrahim: no plate at all. The plan's title «رحمة وبركات» restated the verse: now «بيت النبوة» (Al-Muyassar's «أهل بيت النبوة»). STAGING v4: Same home as 11_69-72 (by day): Ibrahim a blue drop labelled Ibrahim, the angels one gold drop labelled the angels. Sarah is never drawn. c1 (73): the angels speak (73:1; Al-Muyassar: to her; their words reach the whole household, so the speech arcs toward Ibrahim's drop are not wrong); a geometric plate for the decree of Allah and His mercy and blessings (73:4-9; no light plate on the mercy, an attribute), a house plate for the people of the house (73:10-11, both tafsirs: the household of prophethood), geometric again for His names (73:12-14). c2 (74-75): a scroll plate for the good news (74:6-7); Ibrahim speaks to the angels when he pleads for the people of Lut (74:8, Al-Muyassar: he argued with Our messengers); a soft glow on his drop for his forbearance (75:3; no Name or Lord is recited in 75), no hands plate (it would draw a prophet's hands). No close-up or pan on the drops. Cover: the angels addressing the household, geometric plate on."
  },
  "cover": {
   "series_ar": "إبراهيم والملائكة",
@@ -210,8 +339,9 @@
   "title_en": "The house of prophethood",
   "at": [
    73,
-   6
+   8
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

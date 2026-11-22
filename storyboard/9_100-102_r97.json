@@ -51,13 +51,10 @@
       "id": "m",
       "type": "believers",
       "label": "",
-      "place": "right",
+      "place": "center",
       "count": 3,
-      "pose": "walk",
-      "enter": [
-       100,
-       4
-      ],
+      "pose": "stand",
+      "enter": null,
       "exit": null
      }
     ],
@@ -82,9 +79,8 @@
        100,
        5
       ],
-      "do": "walk_to",
-      "who": "a",
-      "to": "center"
+      "do": "shot_close",
+      "who": "a"
      },
      {
       "at": [
@@ -206,6 +202,13 @@
      {
       "at": [
        101,
+       13
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       101,
        16
       ],
       "do": "pan_right"
@@ -225,21 +228,7 @@
       "do": "pan_left"
      }
     ],
-    "motifs": [
-     {
-      "at": [
-       101,
-       14
-      ],
-      "until": [
-       101,
-       16
-      ],
-      "motif": "geometric",
-      "place": "top",
-      "size": "m"
-     }
-    ],
+    "motifs": [],
     "quiet": [
      [
       [
@@ -350,7 +339,7 @@
      {
       "at": [
        102,
-       15
+       16
       ],
       "until": null,
       "motif": "geometric",
@@ -509,7 +498,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "100: the Companions are praised in the tafsirs' words; no people drawn; Paradise (14-22): light only, no river. 101:14-17 «سنعذبهم مرتين» is not glossed: the tafsirs differ on the two punishments. 102: two paths for the mixed deeds, light for «عسى الله أن يتوب عليهم». STAGING v4: c1 (100): a town by day (Medina). Three believers stand on the left (the Ansar); three believers walk in from the right on 100:4 (the Muhajirun: Al-Muyassar, they left their people and moved to the abode of Islam); on 100:5 the Ansar walk to the middle of the town to meet them (As-Sa'di, quoting 59:9: they love those who emigrated to them) and the two groups stand side by side; a footsteps plate on 100:7-8 (those who followed them); a geometric plate from 100:9 to the end (Allah pleased with them, His reward; a light plate would start on His attribute). Paradise (100:14-25) is words only: the camera stays on the believers in the town, no garden, river or gold is drawn. Nobody speaks, bows or turns toward an empty side. c2 (101) stays ambient: hypocrites hidden among them, Allah tells the Messenger that he does not know them and that He will punish them twice (the tafsirs differ on the two punishments); the background is quiet over 101:12-22 (Allah's speech in the first person). c3 (102): inside a home by day; three believers (those who confessed: Medina and around it). They lower their heads on 102:2 (they admitted their sins and regretted them: both tafsirs); the two-paths plate on 102:4-5 (they mixed good with bad; it leaves before 102:6, whose spelling the name check reads as a prophet's name); they raise their hands on 102:12 (As-Sa'di: hoping that Allah forgives them; no plate over the raised hands); a geometric plate on 102:15 (Forgiving, Merciful). No pillar or mosque is drawn (no occasion of revelation is staged). Cover: the Muhajirun and the Ansar together (100:8)."
+  "notes": "100: the Companions are praised in the tafsirs' words; no people drawn; Paradise (14-22): light only, no river. 101:14-17 «سنعذبهم مرتين» is not glossed: the tafsirs differ on the two punishments. 102: two paths for the mixed deeds, light for «عسى الله أن يتوب عليهم». STAGING v4: c1 (100): a town by day (Medina). Two groups of three believers stand side by side from the start (the Muhajirun at the centre, the Ansar on the left); nobody arrives, walks or is received (the verse praises the two groups, it narrates no arrival, so nothing reads as the Hijra); the camera drifts on 100:4 (the Muhajirun) and closes on the Ansar on 100:5; a footsteps plate on 100:7-8 (those who followed them); a geometric plate from 100:9 to the end (Allah pleased with them, His reward; a light plate would start on His attribute). Paradise (100:14-25) is words only: the camera stays on the believers in the town, no garden, river or gold is drawn. Nobody speaks, bows or turns toward an empty side. c2 (101) stays ambient: hypocrites hidden among them, Allah tells the Messenger that he does not know them and that He will punish them twice (the tafsirs differ on the two punishments); the background is quiet over 101:12-22 (Allah's speech in the first person); no motif, camera moves only. c3 (102): inside a home by day; three believers (those who confessed: Medina and around it). They lower their heads on 102:2 (they admitted their sins and regretted them: both tafsirs); the two-paths plate on 102:4-5 (they mixed good with bad; it leaves before 102:6, whose spelling the name check reads as a prophet's name); they raise their hands on 102:12 (As-Sa'di: hoping that Allah forgives them; no plate over the raised hands); a geometric plate from 102:16 (Forgiving, Merciful), starting on the attribute, not on the Name. No pillar or mosque is drawn (no occasion of revelation is staged). Cover: the Muhajirun and the Ansar standing together (100:8)."
  },
  "cover": {
   "series_ar": "أصناف الناس",

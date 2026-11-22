@@ -32,10 +32,43 @@
    "verses": [
     76
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "home",
+    "time": "day",
+    "actors": [
+     {
+      "id": "ib",
+      "type": "prophet",
+      "label": "إبراهيم",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "an",
+      "type": "angel",
+      "label": "الملائكة",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       76,
+       1
+      ],
+      "do": "speak",
+      "who": "an",
+      "to": "ib"
+     },
      {
       "at": [
        76,
@@ -46,9 +79,16 @@
      {
       "at": [
        76,
-       11
+       10
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       76,
+       13
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -63,7 +103,17 @@
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       76,
+       11
+      ],
+      "until": null,
+      "motif": "hourglass",
+      "place": "top",
+      "size": "s"
      }
     ]
    }
@@ -74,21 +124,64 @@
    "verses": [
     77
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "lut",
+      "type": "prophet",
+      "label": "لوط",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "an",
+      "type": "angel",
+      "label": "الملائكة",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       77,
+       2
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       77,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        77,
        3
       ],
-      "do": "pan_left"
+      "do": "glow",
+      "who": "an"
      },
      {
       "at": [
        77,
-       6
+       5
+      ],
+      "do": "bow",
+      "who": "lut"
+     },
+     {
+      "at": [
+       77,
+       7
       ],
       "do": "shot_wide"
      },
@@ -97,11 +190,13 @@
        77,
        10
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "lut",
+      "to": "an"
      }
     ],
     "motifs": [],
-    "transition": "dissolve"
+    "transition": "wipe"
    }
   },
   {
@@ -111,16 +206,50 @@
     78,
     79
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "lut",
+      "type": "prophet",
+      "label": "لوط",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": [
+       78,
+       2
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       78,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        78,
        4
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -134,42 +263,78 @@
        78,
        9
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        78,
-       12
+       10
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "lut",
+      "to": "d"
      },
      {
       "at": [
        78,
-       14
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       78,
-       19
+       13
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       78,
+       15
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       78,
+       17
+      ],
+      "do": "speak",
+      "who": "lut",
+      "to": "d"
+     },
+     {
+      "at": [
+       78,
+       20
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       78,
+       23
+      ],
+      "do": "speak",
+      "who": "lut",
+      "to": "d"
      },
      {
       "at": [
        78,
        25
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       78,
+       26
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        79,
        1
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "d",
+      "to": "lut"
      },
      {
       "at": [
@@ -181,12 +346,26 @@
      {
       "at": [
        79,
-       9
+       10
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
-    "motifs": [],
+    "motifs": [
+     {
+      "at": [
+       78,
+       17
+      ],
+      "until": [
+       78,
+       19
+      ],
+      "motif": "geometric",
+      "place": "top",
+      "size": "s"
+     }
+    ],
     "transition": "dissolve"
    }
   }
@@ -294,7 +473,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "76 is JOINED to 77, so the answer to Ibrahim opens this video. Angels and Lut are never drawn; the only plate is geometric on «جاء أمر ربك». The indecency is never described: 78:5-16 and 79 are not glossed (78:10-16 «هؤلاء بناتي» is also read differently by the tafsirs), and As-Sa'di's description of the guests' appearance is not used."
+  "notes": "76 is JOINED to 77, so the answer to Ibrahim opens this video. Angels and Lut are never drawn; the only plate is geometric on «جاء أمر ربك». The indecency is never described: 78:5-16 and 79 are not glossed (78:10-16 «هؤلاء بناتي» is also read differently by the tafsirs), and As-Sa'di's description of the guests' appearance is not used. STAGING v4: c1 (76): still Ibrahim's home (blue drop Ibrahim, one gold drop the angels): the angels answer him (76:1); geometric for the command of your Lord (76:7-9), an hourglass for the punishment that will come and not be turned back (76:11-14). c2 (77): Lut's town by day (the tafsirs give no hour; never a night crowd): Lut a blue drop labelled Lut; the angels (one gold drop) appear on 77:2 and glow softly on 77:3 (no plate for them, no close-up or pan on the drops); Lut lowers his drop in distress (77:5, Al-Muyassar: their coming grieved him) and speaks (77:10). c3 (78-79): his people are three faceless men in dark robes (no women, at most three for a blamed group) who appear by day at a distance on the right (78:2), not at a door and not at night; the camera stays wide as they come (no close-up that would frame them at a doorway) and while their past deeds are named (78:5-9): their sin is never shown or suggested. Lut speaks to them (78:10, 78:17, 78:23); his daughters are never drawn, nobody points, and no side is left as their place; his guests are not on this stage. Geometric for fear Allah (78:17-18). They answer him (79:1) and the camera stays wide over their words (no gesture). Cover: Lut and his guests (the angels) in the town."
  },
  "cover": {
   "series_ar": "لوط وقومه",
@@ -302,9 +481,10 @@
   "title_ar": "حماية الضيف",
   "title_en": "Protecting the guests",
   "at": [
-   76,
-   7
+   77,
+   11
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

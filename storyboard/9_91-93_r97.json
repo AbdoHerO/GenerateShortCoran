@@ -142,7 +142,7 @@
      {
       "at": [
        91,
-       24
+       25
       ],
       "until": null,
       "motif": "geometric",
@@ -174,7 +174,7 @@
        92,
        8
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -210,20 +210,16 @@
        21
       ],
       "do": "pan_right"
-     }
-    ],
-    "motifs": [
+     },
      {
       "at": [
        92,
        22
       ],
-      "until": null,
-      "motif": "light",
-      "place": "top",
-      "size": "m"
+      "do": "shot_wide"
      }
     ],
+    "motifs": [],
     "quiet": [
      [
       [
@@ -492,7 +488,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "92 is addressed to the Prophet ﷺ («أتوك», «قلت»): no motif there; no tears, people or mounts drawn. 91:7-13 is not glossed: every short excerpt either repeats «لا يجدون» or drops the negation. Light for «غفور رحيم», coins for «ما ينفقون» and «أغنياء», a house for «مع الخوالف». 92, 94: short-word flags, listen. STAGING v4: c1 (91): a town by day. Three believers sit on the left (the weak and the sick who cannot go out: As-Sa'di); a poor man in a patched robe sits on the right (those who find nothing to spend: Al-Muyassar). Nothing is acted on the condition «إذا نصحوا» (91:15-18), the shot is wide while the Messenger is named (91:14 to 91:20); a soft sparkle on them on 91:21 (no blame on the doers of good); the plate on 91:24 is now geometric (a light plate must not start on the Name). c2 (92) stays ambient: they came to the Messenger, he answered them and they turned back weeping; staging them would make them speak to and turn away from an empty side that stands for him; the mood moves from dawn to night_sky and the background is quiet over the whole verse; no tears, people or mounts drawn. c3 (93): inside a home by day; three men (the rich who asked leave, hypocrites: Al-Muyassar). Their asking the Messenger is not acted; a coins plate on 93:7 (rich), they sit down on 93:10 (staying with those who stay behind), a house plate on 93:11-12 that leaves before the Name; nothing is drawn for the sealing of hearts; the camera holds on them for 93:17-19."
+  "notes": "92 is addressed to the Prophet ﷺ («أتوك», «قلت»): no motif there; no tears, people or mounts drawn. 91:7-13 is not glossed: every short excerpt either repeats «لا يجدون» or drops the negation. Light for «غفور رحيم», coins for «ما ينفقون» and «أغنياء», a house for «مع الخوالف». 92, 94: short-word flags, listen. STAGING v4: c1 (91): a town by day. Three believers sit on the left (the weak and the sick who cannot go out: As-Sa'di); a poor man in a patched robe sits on the right (those who find nothing to spend: Al-Muyassar). Nothing is acted on the condition «إذا نصحوا» (91:15-18), the shot is wide while the Messenger is named (91:14 to 91:20); a soft sparkle on them on 91:21 (no blame on the doers of good); a geometric plate from 91:25 (Forgiving, Merciful), starting on the attribute, not on the Name. c2 (92) stays ambient: they came to the Messenger, he answered them and they turned back weeping; staging them would make them speak to and turn away from an empty side that stands for him; the mood moves from dawn to night_sky and the background is quiet over the whole verse; no motif, and no tears, people or mounts drawn; camera moves only. c3 (93): inside a home by day; three men (the rich who asked leave, hypocrites: Al-Muyassar). Their asking the Messenger is not acted; a coins plate on 93:7 (rich), they sit down on 93:10 (staying with those who stay behind), a house plate on 93:11-12 that leaves before the Name; nothing is drawn for the sealing of hearts; the camera holds on them for 93:17-19."
  },
  "cover": {
   "series_ar": "بعد تبوك",
