@@ -63,6 +63,13 @@
        12
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       14,
+       16
+      ],
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -92,6 +99,18 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       14,
+       1
+      ],
+      [
+       14,
+       13
+      ]
+     ]
     ]
    }
   }
@@ -144,7 +163,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The challenge of 11:13 is in the blocked video 12-13 (decision 5); this video carries its conclusion. A book for «أنزل» (leaving before «الله»), geometric for «وأن لا إله إلا هو»."
+  "notes": "The challenge of 11:13 is in the blocked video 12-13 (decision 5); this video carries its conclusion. A book for «أنزل» (leaving before «الله»), geometric for «وأن لا إله إلا هو». STAGING v4: Stays ambient (the caller's rule for 12-17): 14:1-4 is addressed to the Prophet ﷺ and the believers (Al-Muyassar), then comes the revelation by Allah's knowledge and His Oneness; nobody is drawn, and the background stays quiet over 14:1-13. Plates unchanged."
  },
  "cover": {
   "series_ar": "الحجة والإعراض",
@@ -156,5 +175,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

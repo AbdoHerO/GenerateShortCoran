@@ -33,88 +33,151 @@
     9,
     10
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "garden",
+    "time": "day",
+    "actors": [
+     {
+      "id": "m",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     },
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [
+     {
+      "type": "wither",
+      "at": [
+       9,
+       7
+      ],
+      "until": null
+     },
+     {
+      "type": "growth",
+      "at": [
+       10,
+       2
+      ],
+      "until": null
+     }
+    ],
     "beats": [
      {
       "at": [
        9,
-       11
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       9,
+       3
+      ],
+      "do": "shot_close",
+      "who": "m"
+     },
+     {
+      "at": [
+       9,
+       5
       ],
       "do": "pan_right"
      },
      {
       "at": [
-       10,
-       2
+       9,
+       9
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       9,
+       10
+      ],
+      "do": "bow",
+      "who": "m"
      },
      {
       "at": [
        10,
-       4
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        10,
-       6
+       3
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        10,
-       8
+       5
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "m"
+     },
+     {
+      "at": [
+       10,
+       7
+      ],
+      "do": "speak",
+      "who": "m"
+     },
+     {
+      "at": [
+       10,
+       9
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        10,
        10
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        10,
        12
       ],
-      "do": "shot_wide"
-     }
-    ],
-    "motifs": [
-     {
-      "at": [
-       9,
-       5
-      ],
-      "until": [
-       9,
-       6
-      ],
-      "motif": "light",
-      "place": "top",
-      "size": "m"
+      "do": "turn",
+      "who": "m"
      },
      {
       "at": [
-       9,
-       7
+       10,
+       13
       ],
-      "until": [
-       9,
-       9
-      ],
-      "motif": "wind",
-      "place": "top",
-      "size": "m"
+      "do": "shot_close",
+      "who": "m"
      }
-    ]
+    ],
+    "motifs": []
    }
   },
   {
@@ -123,35 +186,82 @@
    "verses": [
     11
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        11,
-       6
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        11,
+       3
+      ],
+      "do": "pray",
+      "who": "b"
+     },
+     {
+      "at": [
+       11,
+       5
+      ],
+      "do": "ruku",
+      "who": "b"
+     },
+     {
+      "at": [
+       11,
+       6
+      ],
+      "do": "sujud",
+      "who": "b"
+     },
+     {
+      "at": [
+       11,
+       7
+      ],
+      "do": "stand_up",
+      "who": "b"
+     },
+     {
+      "at": [
+       11,
        9
       ],
-      "do": "pan_left"
+      "do": "sparkle",
+      "who": "b"
      }
     ],
     "motifs": [
      {
       "at": [
        11,
-       7
+       8
       ],
       "until": null,
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "light_sweep"
@@ -250,7 +360,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Al-Muyassar's first-person «أعطينا… سلبناها… بسطنا» is not used. 11 is one chip opening on «إلا»: it is the exception that answers 9-10, and its gloss names the excepted. Light for «رحمة» and «لهم مغفرة», wind for «نزعناها منه»."
+  "notes": "Al-Muyassar's first-person «أعطينا… سلبناها… بسطنا» is not used. 11 is one chip opening on «إلا»: it is the exception that answers 9-10, and its gloss names the excepted. Light for «رحمة» and «لهم مغفرة», wind for «نزعناها منه». STAGING v4: c1 (9-10) is staged in a garden by day: one man stands for man in general (As-Sa'di: the nature of man), the garden his provision (As-Sa'di: health, provision, children; only the crop is drawn). The mercy he tasted is the green garden; when it is taken away it withers (9:7: vines and fruit fall) and he lowers his head in despair (9:10, Al-Muyassar: utter despair). When the favour comes back after hardship new plants sprout on the ground (10:2); he speaks to the people beside him (10:7: bad times have left me) and turns his back on them in pride (10:12-13, Al-Muyassar: exulting and boasting over people). The people are three plain figures, not blamed, so they make no gesture. No light or sparkle marks His giving or taking. c2 (11) is staged in a prayer hall by day: three believers (those who were patient and did good deeds, As-Sa'di) pray, bow and prostrate (11:3-6), stand up on 11:7, then a light plate for forgiveness (11:8, nobody prays under it) and a sparkle for the great reward (11:9). The cover now shows the man speaking (10:7)."
  },
  "cover": {
   "series_ar": "الكتاب والإنسان",
@@ -258,9 +368,10 @@
   "title_ar": "الإنسان بين النعمة والشدة",
   "title_en": "Man in ease and hardship",
   "at": [
-   9,
-   1
+   10,
+   7
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

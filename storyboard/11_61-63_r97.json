@@ -32,30 +32,69 @@
    "verses": [
     61
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "mountains",
+    "time": "day",
+    "actors": [
+     {
+      "id": "salih",
+      "type": "prophet",
+      "label": "صالح",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        61,
-       13
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        61,
-       18
+       5
+      ],
+      "do": "speak",
+      "who": "salih"
+     },
+     {
+      "at": [
+       61,
+       13
       ],
       "do": "pan_right"
      },
      {
       "at": [
        61,
-       21
+       20
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       61,
+       22
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -70,7 +109,7 @@
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -83,7 +122,7 @@
       ],
       "motif": "growth",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -91,9 +130,9 @@
        24
       ],
       "until": null,
-      "motif": "light",
+      "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -104,51 +143,102 @@
    "verses": [
     62
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "mountains",
+    "time": "day",
+    "actors": [
+     {
+      "id": "salih",
+      "type": "prophet",
+      "label": "صالح",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        62,
-       6
+       1
+      ],
+      "do": "speak",
+      "who": "d"
+     },
+     {
+      "at": [
+       62,
+       3
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       62,
+       7
       ],
       "do": "pan_right"
      },
      {
       "at": [
        62,
-       8
+       9
       ],
-      "do": "pan_left"
+      "do": "shake_head",
+      "who": "d"
      },
      {
       "at": [
        62,
        11
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        62,
        15
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "d"
      },
      {
       "at": [
        62,
-       18
+       17
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        62,
        19
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       62,
+       21
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [],
@@ -161,16 +251,55 @@
    "verses": [
     63
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "mountains",
+    "time": "day",
+    "actors": [
+     {
+      "id": "salih",
+      "type": "prophet",
+      "label": "صالح",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        63,
-       7
+       1
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "salih"
+     },
+     {
+      "at": [
+       63,
+       3
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       63,
+       10
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -182,12 +311,41 @@
      {
       "at": [
        63,
-       18
+       17
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       63,
+       19
+      ],
+      "do": "speak",
+      "who": "salih"
+     },
+     {
+      "at": [
+       63,
+       21
+      ],
+      "do": "shot_wide"
      }
     ],
-    "motifs": [],
+    "motifs": [
+     {
+      "at": [
+       63,
+       7
+      ],
+      "until": [
+       63,
+       13
+      ],
+      "motif": "seal",
+      "place": "top",
+      "size": "s"
+     }
+    ],
     "transition": "dissolve"
    }
   }
@@ -350,7 +508,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Salih: no motif, figure or drop; the plates start after his name. Geometric for «اعبدوا الله ما لكم من إله غيره», growth for «أنشأكم من الأرض واستعمركم فيها», light for «إن ربي قريب مجيب». Their claims (62) are framed with As-Sa'di's «وبزعمهم… وهم كذبة في ذلك». 61: short-word flag (word 15, 100 ms), listen."
+  "notes": "Salih: no motif, figure or drop; the plates start after his name. Geometric for «اعبدوا الله ما لكم من إله غيره», growth for «أنشأكم من الأرض واستعمركم فيها», light for «إن ربي قريب مجيب». Their claims (62) are framed with As-Sa'di's «وبزعمهم… وهم كذبة في ذلك». 61: short-word flag (word 15, 100 ms), listen. STAGING v4: Salih is a blue drop labelled Salih (no plate on his name); Thamud three faceless men in dark robes in a mountain valley by day (As-Sa'di: they lived in al-Hijr and Wadi al-Qura). The she-camel is never drawn (she is not in these verses). c1 (61): Salih speaks (61:5), wide holds through all his words; geometric for worship Allah (61:7-13); a growth plate for He produced you from the earth and settled you in it (61:15-19); nobody raises hands on ask His forgiveness (the command is addressed, not shown done); a geometric plate (not light) for my Lord is near and responsive (61:24 to the end). c2 (62): they answer (62:1), the camera on them after his name; they shake their heads on 62:9 (do you forbid us), the idols of their fathers are never drawn and nobody turns toward an empty side; they speak again on 62:15 (we are in doubt), framed by As-Sa'di's glosses. c3 (63): Salih answers (63:1, 63:19), wide holds only; a seal plate for clear proof from my Lord and the mercy He gave me (63:7-12, As-Sa'di: His message and revelation); nothing is acted on the conditional 63:13-18. The cover now shows Salih speaking (61:5)."
  },
  "cover": {
   "series_ar": "صالح وثمود",
@@ -359,8 +517,9 @@
   "title_en": "Salih's call",
   "at": [
    61,
-   1
+   5
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

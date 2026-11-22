@@ -32,30 +32,80 @@
    "verses": [
     32
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "nuh",
+      "type": "prophet",
+      "label": "نوح",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       32,
+       1
+      ],
+      "do": "speak",
+      "who": "d"
+     },
+     {
+      "at": [
+       32,
+       4
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
      {
       "at": [
        32,
        6
       ],
-      "do": "pan_left"
+      "do": "shake_head",
+      "who": "d"
      },
      {
       "at": [
        32,
-       10
+       7
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "d"
+     },
+     {
+      "at": [
+       32,
+       9
+      ],
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        32,
        11
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": []
@@ -68,16 +118,55 @@
     33,
     34
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "nuh",
+      "type": "prophet",
+      "label": "نوح",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        33,
-       7
+       1
+      ],
+      "do": "speak",
+      "who": "nuh"
+     },
+     {
+      "at": [
+       33,
+       4
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       33,
+       8
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -89,9 +178,10 @@
      {
       "at": [
        34,
-       2
+       1
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "nuh"
      },
      {
       "at": [
@@ -103,9 +193,16 @@
      {
       "at": [
        34,
-       14
+       15
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       34,
+       17
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -120,7 +217,7 @@
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -133,7 +230,7 @@
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "dissolve"
@@ -149,6 +246,13 @@
    "params": {
     "mood": "night_sky",
     "beats": [
+     {
+      "at": [
+       35,
+       3
+      ],
+      "do": "pan_right"
+     },
      {
       "at": [
        35,
@@ -168,10 +272,22 @@
        35,
        12
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [],
+    "quiet": [
+     [
+      [
+       35,
+       4
+      ],
+      [
+       35,
+       12
+      ]
+     ]
+    ],
     "transition": "dissolve"
    }
   }
@@ -268,7 +384,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Their demand (32) is framed by As-Sa'di. 34:9-14 carries As-Sa'di's reason «لردكم الحق», so Allah's will is not misread. 35: the tafsirs differ on who is meant (Nuh, or the Prophet ﷺ as an aside): no gloss names him and nothing is drawn; only the neutral «كل عليه وزره». Geometric for «إنما يأتيكم به الله إن شاء» and «إن كان الله يريد… هو ربكم»."
+  "notes": "Their demand (32) is framed by As-Sa'di. 34:9-14 carries As-Sa'di's reason «لردكم الحق», so Allah's will is not misread. 35: the tafsirs differ on who is meant (Nuh, or the Prophet ﷺ as an aside): no gloss names him and nothing is drawn; only the neutral «كل عليه وزره». Geometric for «إنما يأتيكم به الله إن شاء» and «إن كان الله يريد… هو ربكم». STAGING v4: Nuh is a blue drop labelled Nuh; the chiefs three faceless men in dark robes in a plain town by day. c1 (32): the chiefs speak (32:1), the camera on them after his name, they shake their heads on 32:6 (you have argued too much) and challenge him on 32:7 (bring what you threaten, framed by As-Sa'di's gloss); nothing is acted on the conditional 32:10-13, the camera goes wide. c2 (33-34): Nuh answers (33:1, 34:1) with wide holds only (no close-up during a prophet's words, nobody else gestures); geometric for only Allah brings it if He wills (33:2-7) and for if Allah wills to leave you astray, He is your Lord (34:9-16, with As-Sa'di's reason in the gloss). c3 (35) stays ambient on a night sky: the tafsirs differ on who is meant (Nuh, or the Prophet ﷺ in an aside), and 35:4-12 is a commanded reply, so nobody is drawn; the background stays quiet over 35:4-12."
  },
  "cover": {
   "series_ar": "نوح وقومه",
@@ -280,5 +396,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

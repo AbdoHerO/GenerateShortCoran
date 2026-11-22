@@ -33,14 +33,56 @@
     29,
     30
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "nuh",
+      "type": "prophet",
+      "label": "نوح",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        29,
-       5
+       1
+      ],
+      "do": "speak",
+      "who": "nuh"
+     },
+     {
+      "at": [
+       29,
+       4
       ],
       "do": "shot_wide"
      },
@@ -54,44 +96,46 @@
      {
       "at": [
        29,
-       13
+       16
       ],
-      "do": "pan_right"
+      "do": "sparkle",
+      "who": "b"
      },
      {
       "at": [
        29,
-       17
+       19
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        29,
-       20
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       29,
-       22
+       21
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        30,
-       2
+       1
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "nuh"
      },
      {
       "at": [
        30,
-       7
+       6
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       30,
+       8
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -106,7 +150,7 @@
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -117,23 +161,58 @@
    "verses": [
     31
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "nuh",
+      "type": "prophet",
+      "label": "نوح",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        31,
-       2
+       1
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "nuh"
      },
      {
       "at": [
        31,
-       5
+       4
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -145,44 +224,68 @@
      {
       "at": [
        31,
-       10
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       31,
-       11
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       31,
-       15
+       8
       ],
       "do": "pan_right"
      },
      {
       "at": [
        31,
-       19
+       10
+      ],
+      "do": "speak",
+      "who": "nuh"
+     },
+     {
+      "at": [
+       31,
+       12
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       31,
+       14
+      ],
+      "do": "speak",
+      "who": "nuh"
+     },
+     {
+      "at": [
+       31,
+       17
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       31,
+       20
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       31,
+       27
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
        31,
        28
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "nuh"
      },
      {
       "at": [
        31,
-       29
+       30
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -197,7 +300,7 @@
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "dissolve"
@@ -318,7 +421,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "All Nuh's speech: no plate except geometric on «على الله» (29:9-10) and «الله أعلم بما في أنفسهم» (31:23-27). Nothing drawn on the negated words (wealth, treasures, the unseen, an angel). 29:6-10 is not glossed (the only excerpt repeats «على الله»). 31:23-27 keeps As-Sa'di's condition."
+  "notes": "All Nuh's speech: no plate except geometric on «على الله» (29:9-10) and «الله أعلم بما في أنفسهم» (31:23-27). Nothing drawn on the negated words (wealth, treasures, the unseen, an angel). 29:6-10 is not glossed (the only excerpt repeats «على الله»). 31:23-27 keeps As-Sa'di's condition. STAGING v4: Nuh's speech throughout: a blue drop labelled Nuh on the left, the believers who followed him (three figures in light robes) in the middle, the chiefs (three faceless men in dark robes) on the right, in the same plain town by day. The camera stays wide all along (no close-up or pan during a prophet's words); only Nuh makes gestures (speak at each new sentence); the believers and the chiefs do not move during his words. c1 (29-30): nothing is drawn on the negated words (no wealth asked: no coins); geometric for my reward is only from Allah (29:8-10); a soft sparkle on the believers on 29:16 (they will meet their Lord, As-Sa'di: He rewards them), over two seconds before the Lord-word; nothing is acted on the conditional 30:6-7 (if I drove them away). c2 (31): nothing is drawn for the negated treasures, the unseen or an angel (31:1-13), nor for 31:19-22; the believers are in frame (wide) when 31:16-18 names those whom their eyes despise; geometric for Allah knows best what is in their souls (31:23-27)."
  },
  "cover": {
   "series_ar": "نوح وقومه",
@@ -330,5 +433,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

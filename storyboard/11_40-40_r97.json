@@ -32,23 +32,57 @@
    "verses": [
     40
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "nuh",
+      "type": "prophet",
+      "label": "نوح",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "ark",
+      "type": "ship",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       40,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        40,
        3
       ],
       "do": "pan_left"
-     },
-     {
-      "at": [
-       40,
-       5
-      ],
-      "do": "shot_wide"
      },
      {
       "at": [
@@ -60,23 +94,49 @@
      {
       "at": [
        40,
-       13
+       8
       ],
-      "do": "pan_right"
+      "do": "walk_to",
+      "who": "nuh",
+      "to": "ark"
      },
      {
       "at": [
        40,
-       18
+       11
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        40,
+       17
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       40,
+       21
+      ],
+      "do": "walk_to",
+      "who": "b",
+      "to": "ark"
+     },
+     {
+      "at": [
+       40,
        23
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       40,
+       25
+      ],
+      "do": "shot_close",
+      "who": "b"
      }
     ],
     "motifs": [
@@ -91,21 +151,46 @@
       ],
       "motif": "hourglass",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        40,
-       8
+       5
+      ],
+      "until": [
+       40,
+       7
+      ],
+      "motif": "drop",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       40,
+       14
       ],
       "until": [
        40,
        15
       ],
-      "motif": "ship",
+      "motif": "footsteps",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
+    ],
+    "quiet": [
+     [
+      [
+       40,
+       1
+      ],
+      [
+       40,
+       21
+      ]
+     ]
     ]
    }
   }
@@ -158,7 +243,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No flood, water, animals or people drawn: an hourglass for «حتى إذا جاء أمرنا», the ship as a symbol for «احمل فيها». 40:1-4 and 40:20-21 are not glossed (first-person paraphrase of Allah; «احمل فيها» echo)."
+  "notes": "No flood, water, animals or people drawn: an hourglass for «حتى إذا جاء أمرنا», the ship as a symbol for «احمل فيها». 40:1-4 and 40:20-21 are not glossed (first-person paraphrase of Allah; «احمل فيها» echo). STAGING v4: The plain town by day, the ark already built. Nuh is a blue drop labelled Nuh; the few who believed with him are three figures in light robes (a small group, no number is meant: the two tafsirs give none). Allah's command and His words to Nuh (40:1-21) keep the background quiet. An hourglass for when Our command came (40:1-4); the gushing of water from the oven is only a water-drop plate (40:5-6, Al-Muyassar: the sign of the coming punishment); no flood, rain, oven or animal is drawn (the pairs of every kind are not drawn). Nuh moves to the ark on 40:8 (carry in it). His family is not drawn (it includes women, and his son and his wife are the exception, never drawn): only a footsteps plate on 40:14. The believers walk to the ark on 40:21 (and whoever believed), and the camera holds on them for except a few (40:25). Nobody is drowned; nobody faces an empty side."
  },
  "cover": {
   "series_ar": "نوح وقومه",
@@ -167,8 +252,9 @@
   "title_en": "Ready for the rescue",
   "at": [
    40,
-   1
+   21
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

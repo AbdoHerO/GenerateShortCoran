@@ -32,30 +32,88 @@
    "verses": [
     53
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "hud",
+      "type": "prophet",
+      "label": "هود",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        53,
-       6
+       1
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "d"
+     },
+     {
+      "at": [
+       53,
+       4
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       53,
+       8
+      ],
+      "do": "shake_head",
+      "who": "d"
      },
      {
       "at": [
        53,
        10
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        53,
        11
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       53,
+       12
+      ],
+      "do": "shake_head",
+      "who": "d"
+     },
+     {
+      "at": [
+       53,
+       14
+      ],
+      "do": "shot_close",
+      "who": "d"
      }
     ],
     "motifs": []
@@ -68,30 +126,64 @@
     54,
     55
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "hud",
+      "type": "prophet",
+      "label": "هود",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       54,
+       1
+      ],
+      "do": "speak",
+      "who": "d"
+     },
+     {
+      "at": [
+       54,
+       3
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
      {
       "at": [
        54,
        7
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        54,
        8
       ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       54,
-       10
-      ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "hud"
      },
      {
       "at": [
@@ -105,14 +197,14 @@
        54,
        16
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        55,
-       2
+       3
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -122,7 +214,31 @@
       "do": "shot_wide"
      }
     ],
-    "motifs": [],
+    "motifs": [
+     {
+      "at": [
+       54,
+       10
+      ],
+      "until": [
+       54,
+       12
+      ],
+      "motif": "seal",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       55,
+       7
+      ],
+      "until": null,
+      "motif": "hourglass",
+      "place": "top",
+      "size": "s"
+     }
+    ],
     "transition": "dissolve"
    }
   },
@@ -132,10 +248,42 @@
    "verses": [
     56
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "hud",
+      "type": "prophet",
+      "label": "هود",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       56,
+       1
+      ],
+      "do": "speak",
+      "who": "hud"
+     },
      {
       "at": [
        56,
@@ -148,28 +296,28 @@
        56,
        9
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        56,
        10
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        56,
-       13
+       14
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        56,
-       16
+       17
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -181,7 +329,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "dissolve"
@@ -302,7 +450,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Re-split so that Hud's oath (54:8-55:7, one sentence) stays in one video. Their claims are framed: «رادين لقوله», «بزعمهم», «تأييس منهم», and their slander (54:1-7) only through As-Sa'di's rebuttal. Hud: no motif; the only plate is geometric on «ما من دابة إلا هو آخذ بناصيتها إن ربي على صراط مستقيم»."
+  "notes": "Re-split so that Hud's oath (54:8-55:7, one sentence) stays in one video. Their claims are framed: «رادين لقوله», «بزعمهم», «تأييس منهم», and their slander (54:1-7) only through As-Sa'di's rebuttal. Hud: no motif; the only plate is geometric on «ما من دابة إلا هو آخذ بناصيتها إن ربي على صراط مستقيم». STAGING v4: Hud is a blue drop labelled Hud; 'Ad three faceless men in dark robes in the desert by day. c1 (53): they answer (53:1), the camera on them after his name; they shake their heads on 53:8 (we will not leave our gods) and 53:12 (we do not believe you), framed by the glosses; the idols are never drawn and nobody turns toward an empty side. c2 (54-55): they speak their slander (54:1, framed by As-Sa'di's rebuttal), the camera on them, then wide before Hud answers (54:8); a seal plate for I call Allah to witness (54:10-11); Hud's challenge (54:12-55:7) is held wide with no gesture from anyone else; an hourglass for do not give me respite (55:7). c3 (56): Hud speaks (56:1); geometric for His holding every creature by its forelock and my Lord on a straight path (56:7 to the end); wide holds only. The cover now shows Hud speaking his reliance (56:1)."
  },
  "cover": {
   "series_ar": "هود وعاد",
@@ -311,8 +459,9 @@
   "title_en": "Hud's reliance",
   "at": [
    56,
-   7
+   1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

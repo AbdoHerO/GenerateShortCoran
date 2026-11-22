@@ -33,42 +33,63 @@
     36,
     37
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "nuh",
+      "type": "prophet",
+      "label": "نوح",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        36,
-       5
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       36,
-       10
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        36,
-       14
+       9
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       36,
+       13
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       36,
+       16
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
        37,
        5
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        37,
-       10
+       9
       ],
       "do": "shot_wide"
      },
@@ -77,10 +98,23 @@
        37,
        11
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
+     {
+      "at": [
+       36,
+       5
+      ],
+      "until": [
+       36,
+       13
+      ],
+      "motif": "seal",
+      "place": "top",
+      "size": "s"
+     },
      {
       "at": [
        37,
@@ -92,8 +126,30 @@
       ],
       "motif": "ship",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       37,
+       10
+      ],
+      "until": null,
+      "motif": "wave",
+      "place": "top",
+      "size": "s"
      }
+    ],
+    "quiet": [
+     [
+      [
+       36,
+       1
+      ],
+      [
+       37,
+       11
+      ]
+     ]
     ]
    }
   },
@@ -104,21 +160,95 @@
     38,
     39
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "nuh",
+      "type": "prophet",
+      "label": "نوح",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "ark",
+      "type": "ship",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       38,
+       1
+      ],
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "walk",
+      "enter": [
+       38,
+       3
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       38,
+       1
+      ],
+      "do": "walk_to",
+      "who": "nuh",
+      "to": "ark"
+     },
+     {
+      "at": [
+       38,
+       4
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        38,
        6
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        38,
-       12
+       9
+      ],
+      "do": "point",
+      "who": "d",
+      "to": "ark"
+     },
+     {
+      "at": [
+       38,
+       11
+      ],
+      "do": "speak",
+      "who": "nuh"
+     },
+     {
+      "at": [
+       38,
+       13
       ],
       "do": "shot_wide"
      },
@@ -127,14 +257,28 @@
        38,
        16
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       38,
+       19
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       39,
+       3
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        39,
        5
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -146,25 +290,12 @@
      {
       "at": [
        39,
-       8
+       9
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
-     {
-      "at": [
-       38,
-       1
-      ],
-      "until": [
-       38,
-       9
-      ],
-      "motif": "ship",
-      "place": "top",
-      "size": "m"
-     },
      {
       "at": [
        39,
@@ -176,10 +307,10 @@
       ],
       "motif": "hourglass",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "page_turn"
    }
   }
  ],
@@ -275,7 +406,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The ark only as a symbol: a ship plate for «واصنع الفلك» (it leaves before «بأعيننا», Allah's attribute, which is never drawn or glossed) and for «ويصنع الفلك». No flood, water or people drawn. 37:1-9 is not glossed (both tafsirs paraphrase Allah in the first person). An hourglass for «فسوف تعلمون»."
+  "notes": "The ark only as a symbol: a ship plate for «واصنع الفلك» (it leaves before «بأعيننا», Allah's attribute, which is never drawn or glossed) and for «ويصنع الفلك». No flood, water or people drawn. 37:1-9 is not glossed (both tafsirs paraphrase Allah in the first person). An hourglass for «فسوف تعلمون». STAGING v4: c1 (36-37): the revelation to Nuh, Allah speaking to him: Nuh alone (a blue drop labelled Nuh) in the plain town by day, held wide, no gesture, no glow, and the background quiet over the whole chapter. A seal plate for none of your people will believe except those who already have (36:5-12, As-Sa'di: they have hardened), a ship plate for build the ark (37:1-2, gone before the word of His eyes, which is never drawn or marked), a wave plate for they will be drowned (37:10-11): the drowning is never drawn and his people are not on the stage. c2 (38-39): the ark appears beside Nuh on 38:1 as he goes to it (he builds it: shown modestly, the ark only fades in; nobody helps, the sources name no helper). Three chiefs in dark robes walk in on 38:3 (whenever a group of his people's chiefs passed by), the camera on them; they point at the ark on 38:9 (they saw what he made and mocked); Nuh answers on 38:11 and the camera stays wide through all his words (38:11-39:10); an hourglass for you will come to know (39:1-2). Nobody is drowned or hurt; no flood in this video. The cover now shows the chiefs mocking the ark (38:9)."
  },
  "cover": {
   "series_ar": "نوح وقومه",
@@ -284,8 +415,9 @@
   "title_en": "Building the ark",
   "at": [
    38,
-   1
+   9
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

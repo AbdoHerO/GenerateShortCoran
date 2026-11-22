@@ -32,44 +32,83 @@
    "verses": [
     5
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        5,
-       2
+       1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       5,
+       3
+      ],
+      "do": "bow",
+      "who": "d"
      },
      {
       "at": [
        5,
        5
       ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       5,
+       9
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       5,
+       11
+      ],
       "do": "shot_wide"
      },
      {
       "at": [
        5,
-       8
+       15
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        5,
        16
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        5,
        18
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -78,14 +117,23 @@
        5,
        11
       ],
-      "until": [
-       5,
-       16
-      ],
+      "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
+    ],
+    "quiet": [
+     [
+      [
+       5,
+       11
+      ],
+      [
+       5,
+       19
+      ]
+     ]
     ]
    }
   },
@@ -95,53 +143,91 @@
    "verses": [
     6
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "garden",
+    "setting": "fields",
+    "time": "day",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "cm",
+      "type": "camel",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "walk",
+      "enter": [
+       6,
+       3
+      ],
+      "exit": null
+     }
+    ],
+    "events": [
+     {
+      "type": "growth",
+      "at": [
+       6,
+       9
+      ],
+      "until": null
+     }
+    ],
     "beats": [
      {
       "at": [
        6,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       6,
        3
+      ],
+      "do": "shot_close",
+      "who": "cm"
+     },
+     {
+      "at": [
+       6,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       6,
+       10
       ],
       "do": "pan_left"
      },
      {
       "at": [
        6,
-       4
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       6,
        12
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        6,
-       14
+       13
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      }
     ],
     "motifs": [
-     {
-      "at": [
-       6,
-       9
-      ],
-      "until": [
-       6,
-       10
-      ],
-      "motif": "seal",
-      "place": "top",
-      "size": "m"
-     },
      {
       "at": [
        6,
@@ -150,7 +236,7 @@
       "until": null,
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "dissolve"
@@ -170,6 +256,13 @@
      {
       "at": [
        7,
+       6
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       7,
        9
       ],
       "do": "shot_wide"
@@ -177,9 +270,16 @@
      {
       "at": [
        7,
+       12
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       7,
        16
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -193,14 +293,14 @@
        7,
        22
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        7,
        25
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -214,7 +314,7 @@
        7,
        30
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -226,16 +326,23 @@
      {
       "at": [
        8,
-       10
+       8
       ],
       "do": "pan_left"
      },
      {
       "at": [
        8,
+       10
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       8,
        13
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -249,7 +356,7 @@
        8,
        22
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -292,6 +399,28 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       7,
+       1
+      ],
+      [
+       7,
+       23
+      ]
+     ],
+     [
+      [
+       8,
+       1
+      ],
+      [
+       8,
+       7
+      ]
+     ]
     ],
     "transition": "slide"
    }
@@ -433,7 +562,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "6:10-12 is not glossed: the tafsirs read «مستقرها ومستودعها» differently. 7:1-8 is not glossed (As-Sa'di's naming of the days is not shown); the Throne and the water (7:9-12) are never drawn. Their saying (7:24-31, 8:8-10) is framed. Geometric for «يعلم ما يسرون», wheat for «رزقها», a book for «في كتاب مبين», stars for the heavens, two paths for «أيكم أحسن عملا», an hourglass for «أخرنا عنهم العذاب». The garden mood is the earth's creatures, not Paradise."
+  "notes": "6:10-12 is not glossed: the tafsirs read «مستقرها ومستودعها» differently. 7:1-8 is not glossed (As-Sa'di's naming of the days is not shown); the Throne and the water (7:9-12) are never drawn. Their saying (7:24-31, 8:8-10) is framed. Geometric for «يعلم ما يسرون», wheat for «رزقها», a book for «في كتاب مبين», stars for the heavens, two paths for «أيكم أحسن عملا», an hourglass for «أخرنا عنهم العذاب». The garden mood is the earth's creatures, not Paradise. STAGING v4: c1 (5) is staged in a plain town by day: three idolaters in dark robes (a blamed group: no woman is singled out) bend forward on 5:3 (they fold their chests, As-Sa'di: they bend them to hide), and the camera holds on them while they cover themselves (5:9); from whom they hide is left open (As-Sa'di gives a second reading about the Prophet ﷺ, so nobody turns toward an empty side). A geometric plate for His knowledge from 5:11, the background quiet over 5:11-19. c2 (6) is staged in fields by day: three people sitting (As-Sa'di: every creature, human or animal) and a camel walking in on 6:3 (a creature); the wheat field grows on 6:9 (its provision, a sign of provision only); the dwelling and storage place (6:10-12, the two tafsirs differ) get camera only; a book plate for the clear record (6:15). c3 (7-8) stays ambient: the creation of the heavens and the earth, the Throne on the water, the address to the Prophet ﷺ (7:17-23) and the delayed punishment (His acts, the unseen); the background stays quiet over 7:1-23 and 8:1-7. The cover now shows the idolaters bending (5:3)."
  },
  "cover": {
   "series_ar": "الكتاب والإنسان",
@@ -442,8 +571,9 @@
   "title_en": "The all-encompassing knowledge",
   "at": [
    5,
-   1
+   3
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

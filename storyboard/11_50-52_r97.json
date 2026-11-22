@@ -33,35 +33,89 @@
     50,
     51
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "hud",
+      "type": "prophet",
+      "label": "هود",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        50,
-       13
+       1
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        50,
-       15
+       5
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "hud"
      },
      {
       "at": [
-       51,
-       3
+       50,
+       14
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       50,
+       16
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        51,
-       7
+       1
+      ],
+      "do": "speak",
+      "who": "hud"
+     },
+     {
+      "at": [
+       51,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       51,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       51,
+       12
       ],
       "do": "shot_wide"
      }
@@ -78,7 +132,7 @@
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -89,23 +143,55 @@
    "verses": [
     52
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "hud",
+      "type": "prophet",
+      "label": "هود",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        52,
-       5
+       1
+      ],
+      "do": "speak",
+      "who": "hud"
+     },
+     {
+      "at": [
+       52,
+       4
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        52,
-       14
+       15
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -120,7 +206,7 @@
       ],
       "motif": "cloud_rain",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -133,7 +219,7 @@
       ],
       "motif": "mountain",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "dissolve"
@@ -265,7 +351,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Hud: no motif, figure or drop. Geometric for «اعبدوا الله ما لكم من إله غيره», a rain cloud for «يرسل السماء عليكم مدرارا», a mountain for «ويزدكم قوة إلى قوتكم». No hands on «استغفروا ربكم». As-Sa'di's «بالتوبة النصوح» is cut (echo of 66:8)."
+  "notes": "Hud: no motif, figure or drop. Geometric for «اعبدوا الله ما لكم من إله غيره», a rain cloud for «يرسل السماء عليكم مدرارا», a mountain for «ويزدكم قوة إلى قوتكم». No hands on «استغفروا ربكم». As-Sa'di's «بالتوبة النصوح» is cut (echo of 66:8). STAGING v4: Hud is a blue drop labelled Hud (no plate on his name); 'Ad are three faceless men in dark robes in a desert land (As-Sa'di: al-Ahqaf, in the land of Yemen; no other detail is drawn). All of 50-52 is Hud's speech: he speaks at each call (50:5, 51:1, 52:1), the camera stays wide through his words (no close-up or pan) and his people make no gesture. Geometric for worship Allah, you have no god but Him (50:7-13); nothing drawn on the negated wage (51:2-5). c2 (52): nobody raises hands (the command is addressed to them, not shown done); the promised rain and strength stay symbols on plates (a rain cloud 52:7-10, a mountain for strength 52:11-14), no rain event, since they are conditional on their repenting. The idols are never drawn. No punishment in this video."
  },
  "cover": {
   "series_ar": "هود وعاد",
@@ -274,8 +360,9 @@
   "title_en": "Hud's call",
   "at": [
    50,
-   1
+   5
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

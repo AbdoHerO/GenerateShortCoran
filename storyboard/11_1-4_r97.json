@@ -40,9 +40,23 @@
      {
       "at": [
        1,
+       4
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       1,
        7
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       1,
+       10
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
@@ -56,14 +70,14 @@
        2,
        6
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        2,
        9
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -93,6 +107,28 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       1,
+       2
+      ],
+      [
+       1,
+       10
+      ]
+     ],
+     [
+      [
+       2,
+       5
+      ],
+      [
+       2,
+       9
+      ]
+     ]
     ]
    }
   },
@@ -117,51 +153,58 @@
      {
       "at": [
        3,
+       8
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       3,
        11
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        3,
        13
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        3,
        17
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        3,
        19
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        3,
        21
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        3,
        24
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        3,
        25
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -214,6 +257,28 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       3,
+       18
+      ],
+      [
+       3,
+       25
+      ]
+     ],
+     [
+      [
+       4,
+       1
+      ],
+      [
+       4,
+       8
+      ]
+     ]
     ],
     "transition": "dissolve"
    }
@@ -333,7 +398,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The isolated letters (1:1) are not glossed. 2:5-9 are the Prophet's ﷺ words: no motif there. The hands are not used on «استغفروا ربكم» (a plate may not sit on «ربكم»); light instead. A book for «كتاب», geometric for «ألا تعبدوا إلا الله» and «على كل شيء قدير», wheat for «متاعا حسنا», an hourglass for «أجل مسمى»."
+  "notes": "The isolated letters (1:1) are not glossed. 2:5-9 are the Prophet's ﷺ words: no motif there. The hands are not used on «استغفروا ربكم» (a plate may not sit on «ربكم»); light instead. A book for «كتاب», geometric for «ألا تعبدوا إلا الله» and «على كل شيء قدير», wheat for «متاعا حسنا», an hourglass for «أجل مسمى». STAGING v4: Both chapters stay ambient (the caller's rule for 1-4: the whole passage is the message the Prophet ﷺ conveys, with his own words in 2:5-9 and 3:20-25, so nobody is drawn and no listeners face an empty side). c1 (1-2): the Book sent down from the Wise, the All-Aware (His act) and his words as warner and bringer of good news: the background stays quiet over 1:2-10 and 2:5-9. c2 (3-4): the call to seek forgiveness and its fruit; no hands are raised (the command is addressed, not shown as done); the background stays quiet over the warning in his words (3:18-25) and over the return to Allah and His power (4:1-8). Plates unchanged."
  },
  "cover": {
   "series_ar": "الكتاب والإنسان",
@@ -345,5 +410,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

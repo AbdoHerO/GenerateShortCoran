@@ -39,23 +39,16 @@
      {
       "at": [
        18,
-       5
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       18,
-       8
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       18,
-       10
+       7
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       18,
+       9
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
@@ -67,26 +60,45 @@
      {
       "at": [
        18,
-       15
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       18,
-       17
+       16
       ],
       "do": "pan_right"
      },
      {
       "at": [
        18,
-       23
+       20
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      }
     ],
-    "motifs": []
+    "motifs": [
+     {
+      "at": [
+       18,
+       12
+      ],
+      "until": [
+       18,
+       17
+      ],
+      "motif": "scroll",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "quiet": [
+     [
+      [
+       18,
+       8
+      ],
+      [
+       18,
+       23
+      ]
+     ]
+    ]
    }
   },
   {
@@ -96,23 +108,95 @@
     19,
     20
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "walk",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        19,
-       9
+       1
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       19,
+       2
+      ],
+      "do": "walk_to",
+      "who": "d",
+      "to": "center"
+     },
+     {
+      "at": [
+       19,
+       3
+      ],
+      "do": "shake_head",
+      "who": "d"
+     },
+     {
+      "at": [
+       19,
+       4
+      ],
+      "do": "turn",
+      "who": "p"
+     },
+     {
+      "at": [
+       19,
+       8
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       19,
+       10
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        20,
        1
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       20,
+       2
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -124,9 +208,10 @@
      {
       "at": [
        20,
-       10
+       9
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
@@ -147,14 +232,22 @@
        20,
        17
       ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       20,
+       18
+      ],
       "do": "pan_right"
      },
      {
       "at": [
        20,
-       20
+       21
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -169,7 +262,7 @@
       ],
       "motif": "two_paths",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "dissolve"
@@ -301,7 +394,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The witnesses of 18 are glossed with Al-Muyassar's «من الملائكة والنبيين وغيرهم»; nothing is drawn for them, nor for the presentation before their Lord. Two paths for «يبغونها عوجا». Everything after is night or geometry; no motif on «ربهم» or the Name."
+  "notes": "The witnesses of 18 are glossed with Al-Muyassar's «من الملائكة والنبيين وغيرهم»; nothing is drawn for them, nor for the presentation before their Lord. Two paths for «يبغونها عوجا». Everything after is night or geometry; no motif on «ربهم» or the Name. STAGING v4: c1 (18) stays ambient on a night sky: the liars presented before their Lord and the witnesses (the Day, the unseen; Al-Muyassar: angels, prophets and others) are never drawn; a scroll plate for the witnesses' testimony (18:12-16, gone before the second Lord-word); the background stays quiet over 18:8-23. c2 (19-20) is staged in a plain town by day: three people walk in on the right (the people they bar from the way, Al-Muyassar and As-Sa'di); three idolaters in dark robes (a blamed group: no woman) step into the way on 19:2, shake their heads on 19:3 and the people turn back on 19:4 (they barred others from it, As-Sa'di); a two_paths plate for seeking to make it crooked (19:6-7). Their disbelief in the Hereafter (19:8), the negated escape and helpers (20:1-14), the doubled punishment (20:15-17, Al-Muyassar: in Hell, never drawn) and their not hearing or seeing (20:18-24) get camera only, held on the idolaters; nobody is hurt and nothing is acted inside the negations. The cover now shows the idolaters barring the way (19:3)."
  },
  "cover": {
   "series_ar": "الحجة والإعراض",
@@ -309,9 +402,10 @@
   "title_ar": "أعظم الظلم",
   "title_en": "The greatest wrong",
   "at": [
-   18,
-   1
+   19,
+   3
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -33,13 +33,44 @@
     25,
     26
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "nuh",
+      "type": "prophet",
+      "label": "نوح",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        25,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       25,
        4
       ],
       "do": "pan_left"
@@ -49,35 +80,37 @@
        25,
        6
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "nuh"
      },
      {
       "at": [
        25,
        9
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        26,
        4
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        26,
        6
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "nuh"
      },
      {
       "at": [
        26,
        9
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -92,7 +125,7 @@
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -103,51 +136,130 @@
    "verses": [
     27
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "nuh",
+      "type": "prophet",
+      "label": "نوح",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        27,
-       6
+       1
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "d"
      },
      {
       "at": [
        27,
-       12
+       3
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       27,
+       7
+      ],
+      "do": "speak",
+      "who": "d"
+     },
+     {
+      "at": [
+       27,
+       10
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       27,
+       14
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        27,
        16
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        27,
-       17
+       18
       ],
-      "do": "shot_wide"
+      "do": "point",
+      "who": "d",
+      "to": "b"
+     },
+     {
+      "at": [
+       27,
+       20
+      ],
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        27,
        22
       ],
-      "do": "pan_left"
+      "do": "shake_head",
+      "who": "d"
      },
      {
       "at": [
        27,
-       27
+       24
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       27,
+       28
+      ],
+      "do": "shake_head",
+      "who": "d"
      },
      {
       "at": [
@@ -167,23 +279,65 @@
    "verses": [
     28
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "nuh",
+      "type": "prophet",
+      "label": "نوح",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        28,
-       5
+       1
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "nuh"
      },
      {
       "at": [
        28,
-       7
+       3
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       28,
+       10
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -195,26 +349,40 @@
      {
       "at": [
        28,
-       13
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       28,
-       15
+       14
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        28,
-       17
+       16
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       28,
+       19
+      ],
+      "do": "shot_wide"
      }
     ],
-    "motifs": [],
+    "motifs": [
+     {
+      "at": [
+       28,
+       7
+      ],
+      "until": [
+       28,
+       14
+      ],
+      "motif": "seal",
+      "place": "top",
+      "size": "s"
+     }
+    ],
     "transition": "dissolve"
    }
   }
@@ -366,7 +534,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Nuh: no motif, figure or drop; the only plate is geometric on «ألا تعبدوا إلا الله». The chiefs' claims (27) are framed: «رادين لدعوة نوح», «بزعمهم», «يعنون بذلك», «وكذبوا في قولهم هذا», and «أراذلنا» is answered by As-Sa'di's «وهم في الحقيقة الأشراف». 27:21-26 («وما نرى لكم علينا من فضل») is not glossed (any short excerpt restates their claim). 28 is Nuh's reply: no plate. 27: short-word flag, listen."
+  "notes": "Nuh: no motif, figure or drop; the only plate is geometric on «ألا تعبدوا إلا الله». The chiefs' claims (27) are framed: «رادين لدعوة نوح», «بزعمهم», «يعنون بذلك», «وكذبوا في قولهم هذا», and «أراذلنا» is answered by As-Sa'di's «وهم في الحقيقة الأشراف». 27:21-26 («وما نرى لكم علينا من فضل») is not glossed (any short excerpt restates their claim). 28 is Nuh's reply: no plate. 27: short-word flag, listen. STAGING v4: Nuh is a blue drop labelled Nuh, never a figure; no plate starts on his name, and the camera stays wide whenever he is named or speaks (no close-up or pan on his drop, no ordinary figure in close-up during his words). His people's chiefs are three faceless men in dark robes in a plain town by day (the sources name no place). c1 (25-26): Nuh speaks on 25:6 and 26:6; geometric on 26:2-5 (worship none but Allah); the warning is held wide. c2 (27): the believers who followed him stand in the middle, three figures in light robes (a small group: no number is meant); the chiefs speak (27:1, 27:7) with the camera on them, point at the believers on 27:18 (they call them the lowest; the gloss answers that they are in truth the noble), shake their heads on 27:22 (no merit over us) and 27:28 (we think you liars, framed by the gloss). c3 (28): Nuh answers (28:1); a seal plate for clear proof from my Lord and the mercy He gave me (28:7-13, Al-Muyassar: prophethood); nobody else gestures during his words and the camera stays wide. The cover now shows the chiefs pointing at the believers (27:18), under the title of Nuh's call."
  },
  "cover": {
   "series_ar": "نوح وقومه",
@@ -374,9 +542,10 @@
   "title_ar": "دعوة نوح",
   "title_en": "Nuh's call",
   "at": [
-   25,
-   1
+   27,
+   18
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

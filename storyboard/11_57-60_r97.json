@@ -32,54 +32,96 @@
    "verses": [
     57
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "hud",
+      "type": "prophet",
+      "label": "هود",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        57,
-       4
+       1
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "hud"
      },
      {
       "at": [
        57,
        6
       ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       57,
-       8
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       57,
-       11
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       57,
-       16
-      ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       57,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       57,
+       13
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        57,
        19
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
-    "motifs": []
+    "motifs": [
+     {
+      "at": [
+       57,
+       4
+      ],
+      "until": [
+       57,
+       9
+      ],
+      "motif": "seal",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       57,
+       16
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "s"
+     }
+    ]
    }
   },
   {
@@ -88,35 +130,77 @@
    "verses": [
     58
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "hud",
+      "type": "prophet",
+      "label": "هود",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       58,
+       8
+      ]
+     }
+    ],
+    "events": [
+     {
+      "type": "storm",
+      "at": [
+       58,
+       11
+      ],
+      "until": null
+     }
+    ],
     "beats": [
      {
       "at": [
        58,
-       4
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        58,
-       5
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       58,
-       6
+       2
       ],
       "do": "pan_left"
      },
      {
       "at": [
        58,
-       11
+       4
+      ],
+      "do": "walk_to",
+      "who": "hud",
+      "to": "left"
+     },
+     {
+      "at": [
+       58,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       58,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       58,
+       13
       ],
       "do": "shot_wide"
      }
@@ -125,18 +209,18 @@
      {
       "at": [
        58,
-       9
+       6
       ],
       "until": [
        58,
-       11
+       9
       ],
-      "motif": "light",
+      "motif": "footsteps",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "wipe"
    }
   },
   {
@@ -146,14 +230,31 @@
     59,
     60
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "desert",
+    "time": "day",
+    "actors": [],
+    "events": [],
     "beats": [
      {
       "at": [
        59,
-       6
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       59,
+       3
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       59,
+       7
       ],
       "do": "shot_wide"
      },
@@ -167,44 +268,44 @@
      {
       "at": [
        60,
-       4
+       1
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        60,
-       7
+       4
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        60,
        9
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        60,
        11
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        60,
-       14
+       13
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        60,
        16
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -219,7 +320,20 @@
       ],
       "motif": "crown",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       60,
+       6
+      ],
+      "until": [
+       60,
+       8
+      ],
+      "motif": "hourglass",
+      "place": "top",
+      "size": "s"
      }
     ],
     "transition": "dissolve"
@@ -373,7 +487,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No wind of punishment, destruction or ruins drawn. 57 is Hud's speech: no plate (and none on «ويستخلف ربي»). Light for «برحمة» after Hud's name (58:5). A crown for «أمر كل جبار». 58:1-10 is not glossed: As-Sa'di's «عذابنا» and Al-Muyassar's «منَّا» are first person, «قوم هود» repeats 60 and Al-Muyassar's «فأصبحوا لا يرى إلا مساكنهم» (46:25 wording) are not used."
+  "notes": "No wind of punishment, destruction or ruins drawn. 57 is Hud's speech: no plate (and none on «ويستخلف ربي»). Light for «برحمة» after Hud's name (58:5). A crown for «أمر كل جبار». 58:1-10 is not glossed: As-Sa'di's «عذابنا» and Al-Muyassar's «منَّا» are first person, «قوم هود» repeats 60 and Al-Muyassar's «فأصبحوا لا يرى إلا مساكنهم» (46:25 wording) are not used. STAGING v4: Hud is a blue drop labelled Hud; 'Ad three faceless men in dark robes in the desert, by day (no dawn or dusk over the punishment). c1 (57): Hud speaks (57:1), wide holds throughout his words; nothing is acted on the conditional 57:1-2; a seal plate for I have conveyed what I was sent with (57:4-8); the other people who will succeed them (57:9-12) are not drawn and no plate stands on the Lord-word there; geometric for my Lord is Guardian over all things (57:16 to the end). c2 (58), as in Al-A'raf 7:72: 'Ad are no longer on the stage; Hud moves away on 58:4 (We saved Hud), a footsteps plate stands for those who believed with him (58:6-8: they are not drawn, so they are not counted) and he leaves the stage on 58:8, before any word of punishment; the storm falls on the empty desert from 58:11 (As-Sa'di: the barren wind); nobody is on the stage, nobody is hurt, no ruin. c3 (59-60): the same desert, empty, by day (Al-Muyassar: only their dwellings could be seen); a crown plate for every obstinate tyrant (59:9-11), an hourglass for the Day of Resurrection (60:6-7); the curse and the Day are never drawn. The cover now shows Hud leaving (58:4)."
  },
  "cover": {
   "series_ar": "هود وعاد",
@@ -381,9 +495,10 @@
   "title_ar": "عاقبة عاد",
   "title_en": "The end of 'Ad",
   "at": [
-   59,
-   1
+   58,
+   4
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -90,56 +90,132 @@
     23,
     24
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": [
+       24,
+       1
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       23,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       23,
+       3
+      ],
+      "do": "pray",
+      "who": "b"
+     },
+     {
+      "at": [
+       23,
+       4
+      ],
+      "do": "ruku",
+      "who": "b"
+     },
+     {
+      "at": [
+       23,
+       6
+      ],
+      "do": "sujud",
+      "who": "b"
+     },
      {
       "at": [
        23,
        7
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        23,
        9
       ],
-      "do": "shot_wide"
+      "do": "stand_up",
+      "who": "b"
      },
      {
       "at": [
        23,
        11
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
-       23,
-       14
+       24,
+       1
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       24,
+       3
+      ],
+      "do": "turn",
+      "who": "d"
      },
      {
       "at": [
        24,
        4
       ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       24,
+       5
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       24,
+       7
+      ],
       "do": "shot_wide"
      },
      {
       "at": [
        24,
-       6
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       24,
-       8
+       10
       ],
       "do": "pan_right"
      },
@@ -155,28 +231,25 @@
      {
       "at": [
        23,
-       6
+       10
       ],
       "until": [
-       23,
-       9
+       24,
+       1
       ],
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        24,
-       2
-      ],
-      "until": [
-       24,
        7
       ],
+      "until": null,
       "motif": "two_paths",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "dissolve"
@@ -286,7 +359,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Wind for «ضل عنهم» (their gods vanish). 23 is Paradise: light mood and a light plate only (leaves before «ربهم»), no garden or river. Two paths for the two parties (24:2-6); the parable of the blind and the seeing is not drawn."
+  "notes": "Wind for «ضل عنهم» (their gods vanish). 23 is Paradise: light mood and a light plate only (leaves before «ربهم»), no garden or river. Two paths for the two parties (24:2-6); the parable of the blind and the seeing is not drawn. STAGING v4: c1 (21-22: their loss in the Hereafter) is kept ambient. c2 (23-24) is staged in a plain town by day: three believers on the left (those who believed and did good deeds) stand in prayer on 23:3, bow on 23:4 (did good deeds) and prostrate on 23:6 (humbled before their Lord, As-Sa'di), and stand up on 23:9, before Paradise is named; Paradise is never drawn: only a light plate (23:10-14), no garden, river or gold. On 24:1 the other party, three faceless men in dark robes, comes in on the right (nobody stands there while the believers prostrate). The parable of the two parties: the deniers turn away on 24:3 (Al-Muyassar: they do not see the truth nor hear the caller), the camera goes to the believers for the seeing and hearing (24:5), and a two_paths plate for are they equal (24:7). The blind and deaf are not drawn literally. The cover now shows both parties (24:2)."
  },
  "cover": {
   "series_ar": "الحجة والإعراض",
@@ -294,9 +367,10 @@
   "title_ar": "السعداء والأشقياء",
   "title_en": "The blessed and the wretched",
   "at": [
-   23,
-   1
+   24,
+   2
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }
