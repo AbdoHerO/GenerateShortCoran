@@ -106,16 +106,7 @@
       "look": "plain"
      }
     ],
-    "events": [
-     {
-      "type": "growth",
-      "at": [
-       134,
-       9
-      ],
-      "until": null
-     }
-    ],
+    "events": [],
     "beats": [
      {
       "at": [
@@ -150,6 +141,16 @@
      }
     ],
     "motifs": [
+     {
+      "at": [
+       134,
+       8
+      ],
+      "until": null,
+      "motif": "wheat",
+      "place": "top",
+      "size": "s"
+     },
      {
       "at": [
        134,
@@ -245,7 +246,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Stars for the heavens, geometric near Allah's names; no worldly motif on «ثواب الدنيا». 133 (the threat) has no motif. STAGING v4: 132-133 stay ambient: Allah's dominion, His sufficiency and His power to replace people (His attributes and a threat). 134: a man walks into the fields (one who seeks the reward of this world) and raises his hands on 134:6 (to seek both rewards from Allah alone, both tafsirs); the fields grow on 134:9 (the reward of this world is with Him), a light plate for the Hereafter on 134:10, geometric for the closing names."
+  "notes": "Stars for the heavens, geometric near Allah's names; no worldly motif on «ثواب الدنيا». 133 (the threat) has no motif. STAGING v4: 132-133 stay ambient: Allah's dominion, His sufficiency and His power to replace people (His attributes and a threat). 134: a man walks into the fields (one who seeks the reward of this world) and raises his hands on 134:6 (to seek both rewards from Allah alone, both tafsirs); a wheat plate on 134:8 (the reward of this world is with Him), a light plate for the Hereafter on 134:10, geometric for the closing names."
  },
  "cover": {
   "series_ar": "النساء والصلح",

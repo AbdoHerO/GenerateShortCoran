@@ -152,8 +152,7 @@
        135,
        27
       ],
-      "do": "shot_close",
-      "who": "w"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -241,7 +240,7 @@
        136,
        5
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -278,7 +277,7 @@
        136,
        18
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -292,7 +291,7 @@
        136,
        23
       ],
-      "do": "pan_left"
+      "do": "shot_sky"
      },
      {
       "at": [
@@ -463,7 +462,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Scales for «بالقسط» (justice in testimony, not the Mizan), geometric for «خبيرا», light for «آمنوا», a book for «والكتاب» that leaves before «ومن يكفر…». No motif on the Messenger, the angels or the Day. STAGING v4: 135: a market; a witness (a man) stands between a rich man and a poor man and testifies (speak on 135:7 and on 135:11, even against himself); the camera shows the rich man on 135:17 and the poor man on 135:19; no parent, relative or woman is drawn; nothing is acted on the conditional and negated clauses 135:23-31 (following desire, distorting or turning away). Scales plate for justice in testimony (not the Mizan), geometric for the closing names. 136: believers sit in a prayer hall and read on 136:7 and 136:12 (the Book sent down and the Books before it; book plate ending before the Messenger is named); on 136:25 the camera tilts up away from them to a two-paths plate (going far astray), so it does not hold on the believers during the warning."
+  "notes": "Scales for «بالقسط» (justice in testimony, not the Mizan), geometric for «خبيرا», light for «آمنوا», a book for «والكتاب» that leaves before «ومن يكفر…». No motif on the Messenger, the angels or the Day. STAGING v4: 135: a market; a witness (a man) stands between a rich man and a poor man and testifies (speak on 135:7 and on 135:11, even against himself); the camera shows the rich man on 135:17 and the poor man on 135:19; no parent, relative or woman is drawn; nothing is acted on the conditional and negated clauses 135:23-31 (following desire, distorting or turning away). Scales plate for justice in testimony (not the Mizan), geometric for the closing names. 136: believers sit in a prayer hall and read on 136:7 and 136:12 (the Book sent down and the Books before it; book plate ending before the Messenger is named); from 136:23 the camera tilts up away from them to a two-paths plate (going far astray), so it does not hold on the believers during the warning."
  },
  "cover": {
   "series_ar": "القسط والنفاق",

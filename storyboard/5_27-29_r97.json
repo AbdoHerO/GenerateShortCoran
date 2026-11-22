@@ -73,9 +73,9 @@
      {
       "at": [
        27,
-       5
+       7
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -226,7 +226,7 @@
      {
       "at": [
        27,
-       9
+       8
       ],
       "until": [
        27,
@@ -366,7 +366,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No people, no violence: the threat and the killing are never drawn; no hands (28 «بسطت إلي يدك»). Light only on «يتقبل الله». The brothers are not named (Al-Muyassar names them, the Quran and As-Sa'di do not). STAGING v4: The two sons of Adam as two faceless men on open land (the place is not given; no names, as only Al-Muyassar names them). The offerings are a symbol only (hands plate on 27:9): no animal, crop or fire, and nothing marks how the acceptance was known (As-Sa'di gives two possibilities). The camera holds on the accepted brother (27:10, the God-fearing one in light robes) then on the other (27:14). The threat is only a speech beat (27:17): no hand, no weapon, no gesture of the killing, no pointing, and no arm gesture at all in the chapter. The other brother answers (27:19, 28:1), shakes his head on 28:6 (he will not stretch his hand) and lowers his head on 28:13 (fearing Allah). Light plate on the acceptance words (27:21). During the warning of the Fire (29:7-13) the camera holds on the wrongdoer and a two-paths plate; nothing literal. The killing (30-31) is in the next video, ambient."
+  "notes": "No people, no violence: the threat and the killing are never drawn; no hands (28 «بسطت إلي يدك»). Light only on «يتقبل الله». The brothers are not named (Al-Muyassar names them, the Quran and As-Sa'di do not). STAGING v4: The two sons of Adam as two faceless men on open land (the place is not given; no names, as only Al-Muyassar names them). The offerings are a symbol only (hands plate on 27:8): no animal, crop or fire, and nothing marks how the acceptance was known (As-Sa'di gives two possibilities). The camera holds on the accepted brother (27:10, the God-fearing one in light robes) then on the other (27:14). The threat is only a speech beat (27:17): no hand, no weapon, no gesture of the killing, no pointing, and no arm gesture at all in the chapter. The other brother answers (27:19, 28:1), shakes his head on 28:6 (he will not stretch his hand) and lowers his head on 28:13 (fearing Allah). Light plate on the acceptance words (27:21). During the warning of the Fire (29:7-13) the camera holds on the wrongdoer and a two-paths plate; nothing literal. The killing (30-31) is in the next video, ambient."
  },
  "cover": {
   "series_ar": "ابنا آدم",
@@ -375,7 +375,7 @@
   "title_en": "The brothers' offering",
   "at": [
    27,
-   10
+   9
   ]
  },
  "motion": 3,

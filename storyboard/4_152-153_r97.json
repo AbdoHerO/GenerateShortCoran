@@ -68,7 +68,7 @@
      {
       "at": [
        152,
-       6
+       7
       ],
       "do": "pan_right"
      },
@@ -92,13 +92,13 @@
      {
       "at": [
        152,
-       2
+       3
       ],
       "until": [
        152,
        10
       ],
-      "motif": "light",
+      "motif": "geometric",
       "place": "top",
       "size": "s"
      },
@@ -328,7 +328,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on Musa, on «أرنا الله جهرة» (Allah is never depicted), the thunderbolt or the calf; 153 under a night sky. 153:1-9 is not glossed: the tafsirs differ on what was asked (written pages like Musa's tablets / the Quran sent down at once). Al-Muyassar's first-person «فعفونا», «وآتينا» not used. Plan title «طلب كتاب من السماء» repeated «من السماء», so the cover reads «طلب المعجزات». STAGING v4: 152: believers sit in a prayer hall and read (believing in Allah and all His messengers, both tafsirs); nothing is acted on the negation 152:5-9; light plate, geometric for the closing names. 153 stays ambient: it opens on a request put to the Prophet (he is the addressee, so nobody may speak toward an empty side), then the request to see Allah, the thunderbolt that struck them and the calf: none of these may be drawn. The cover moves to 153 so that it matches its title (no believers under a title about the demand for signs)."
+  "notes": "No motif on Musa, on «أرنا الله جهرة» (Allah is never depicted), the thunderbolt or the calf; 153 under a night sky. 153:1-9 is not glossed: the tafsirs differ on what was asked (written pages like Musa's tablets / the Quran sent down at once). Al-Muyassar's first-person «فعفونا», «وآتينا» not used. Plan title «طلب كتاب من السماء» repeated «من السماء», so the cover reads «طلب المعجزات». STAGING v4: 152: believers sit in a prayer hall and read (believing in Allah and all His messengers, both tafsirs); nothing is acted on the negation 152:5-9; geometric from the Name on 152:3 and for the closing names. 153 stays ambient: it opens on a request put to the Prophet (he is the addressee, so nobody may speak toward an empty side), then the request to see Allah, the thunderbolt that struck them and the calf: none of these may be drawn. The cover moves to 153 so that it matches its title (no believers under a title about the demand for signs)."
  },
  "cover": {
   "series_ar": "أهل الكتاب وعيسى",

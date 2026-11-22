@@ -215,7 +215,7 @@
       "id": "k",
       "type": "disbelievers",
       "label": "",
-      "place": "right",
+      "place": "left",
       "count": 3,
       "pose": "sit",
       "enter": null,
@@ -275,7 +275,7 @@
       ],
       "do": "walk_to",
       "who": "b",
-      "to": "left"
+      "to": "right"
      },
      {
       "at": [
@@ -477,7 +477,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Night sky throughout; geometric for «فإن العزة لله جميعا», a book for «في الكتاب» that leaves before the mockery. No motif on the hypocrites, the mockers or the Fire. STAGING v4: 137-139: a town at dusk; believers on one side, disbelievers on the other, and between them a small group of men (3, the hypocrites). They turn their backs on 137:5, face again on 137:7 and turn their backs again on 137:9 (believing then disbelieving, both tafsirs); the camera holds on them during the threat 138; on 139:2 they walk over to the disbelievers (taking them as allies instead of the believers); geometric on 139:13. 140: a sitting in a house; the mockers (3 men) speak on 140:13; the believers sitting with them stand up on 140:16 and walk away on 140:17 (not sitting with them, the ruling), leaving the stage on 140:19 before 140:23-33; the camera holds on the mockers during the warning. No book is shown near the mockery (book plate 140:5-8 only)."
+  "notes": "Night sky throughout; geometric for «فإن العزة لله جميعا», a book for «في الكتاب» that leaves before the mockery. No motif on the hypocrites, the mockers or the Fire. STAGING v4: 137-139: a town at dusk; believers on one side, disbelievers on the other, and between them a small group of men (3, the hypocrites). They turn their backs on 137:5, face again on 137:7 and turn their backs again on 137:9 (believing then disbelieving, both tafsirs); the camera holds on them during the threat 138; on 139:2 they walk over to the disbelievers (taking them as allies instead of the believers); geometric on 139:13. 140: a sitting in a house; the mockers (3 men) speak on 140:13; the believers sitting with them stand up on 140:16 and walk away to the other side on 140:17 (not sitting with them, the ruling), leaving the stage on 140:19 before 140:23-33; the camera holds on the mockers during the warning. No book is shown near the mockery (book plate 140:5-8 only)."
  },
  "cover": {
   "series_ar": "القسط والنفاق",

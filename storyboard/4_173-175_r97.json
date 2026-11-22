@@ -34,7 +34,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
@@ -42,13 +42,6 @@
        8
       ],
       "do": "pan_right"
-     },
-     {
-      "at": [
-       173,
-       11
-      ],
-      "do": "pan_left"
      },
      {
       "at": [
@@ -99,6 +92,19 @@
       "motif": "growth",
       "place": "top",
       "size": "m"
+     },
+     {
+      "at": [
+       173,
+       11
+      ],
+      "until": [
+       173,
+       23
+      ],
+      "motif": "two_paths",
+      "place": "top",
+      "size": "m"
      }
     ]
    }
@@ -110,33 +116,9 @@
     174,
     175
    ],
-   "scene": "stage",
+   "scene": "ambient",
    "params": {
-    "setting": "city",
-    "time": "day",
-    "actors": [
-     {
-      "id": "p",
-      "type": "people",
-      "label": "",
-      "place": "left",
-      "count": 4,
-      "pose": "stand",
-      "enter": null,
-      "exit": null
-     },
-     {
-      "id": "b",
-      "type": "believers",
-      "label": "",
-      "place": "right",
-      "count": 3,
-      "pose": "stand",
-      "enter": null,
-      "exit": null
-     }
-    ],
-    "events": [],
+    "mood": "dawn",
     "beats": [
      {
       "at": [
@@ -148,46 +130,30 @@
      {
       "at": [
        174,
-       2
-      ],
-      "do": "shot_close",
-      "who": "p"
-     },
-     {
-      "at": [
-       174,
        5
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        174,
        6
       ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       174,
+       9
+      ],
       "do": "shot_wide"
      },
      {
       "at": [
-       174,
-       8
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       174,
-       11
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
        175,
-       2
+       1
       ],
-      "do": "shot_close",
-      "who": "b"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -201,16 +167,7 @@
        175,
        10
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       175,
-       14
-      ],
-      "do": "walk_to",
-      "who": "b",
-      "to": "center"
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -222,7 +179,7 @@
       "until": null,
       "motif": "light",
       "place": "top",
-      "size": "s"
+      "size": "m"
      },
      {
       "at": [
@@ -235,7 +192,17 @@
       ],
       "motif": "hands",
       "place": "top",
-      "size": "s"
+      "size": "m"
+     },
+     {
+      "at": [
+       175,
+       14
+      ],
+      "until": null,
+      "motif": "two_paths",
+      "place": "top",
+      "size": "m"
      }
     ],
     "transition": "light_sweep"
@@ -356,7 +323,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Growth for «الصالحات» (leaving before the punishment), light for «نورا مبينا», hands for «واعتصموا به», footsteps for «صراطا مستقيما»; nothing literal for Paradise. 173:18-26 «ولا يجدون لهم… وليا ولا نصيرا» not glossed (the excerpt would read as a protector). Al-Muyassar's first-person «رسولنا», «وأنزلنا» not used. STAGING v4: 173 stays ambient: the requital of the two groups after the gathering (rewards and the painful punishment, the unseen). 174-175: the address to all people: a mixed group in a town (camera only, nothing acted on the address); light plate for the clear light sent down; then the believers: hands plate on 175:5 (holding fast; no gesture, since the tafsirs word it differently: to Allah / to the light sent down) and they walk forward on 175:14 (guided to a straight path); Paradise is not drawn."
+  "notes": "Growth for «الصالحات» (leaving before the punishment), light for «نورا مبينا», hands for «واعتصموا به», footsteps for «صراطا مستقيما»; nothing literal for Paradise. 173:18-26 «ولا يجدون لهم… وليا ولا نصيرا» not glossed (the excerpt would read as a protector). Al-Muyassar's first-person «رسولنا», «وأنزلنا» not used. STAGING v4: 173 stays ambient under a night sky (not light over the threat): growth plate for the righteous deeds, then a two-paths plate for those who disdained (173:11-22). 174-175 ambient at dawn (review): two groups around an empty centre while a proof is said to have come could imply the Prophet; light plate for the clear light sent down, hands for holding fast, two paths for the straight path. Paradise is not drawn."
  },
  "cover": {
   "series_ar": "الوحي والتوحيد",
@@ -365,7 +332,7 @@
   "title_en": "Proof and guidance",
   "at": [
    174,
-   2
+   10
   ]
  },
  "motion": 3,

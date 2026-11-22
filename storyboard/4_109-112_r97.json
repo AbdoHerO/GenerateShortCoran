@@ -85,19 +85,13 @@
        109,
        4
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "g"
      },
      {
       "at": [
        109,
-       5
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       109,
-       9
+       8
       ],
       "do": "shot_wide"
      },
@@ -113,7 +107,7 @@
        109,
        18
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -128,7 +122,7 @@
        110,
        4
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -171,17 +165,7 @@
      {
       "at": [
        110,
-       8
-      ],
-      "until": null,
-      "motif": "light",
-      "place": "top",
-      "size": "s"
-     },
-     {
-      "at": [
-       110,
-       12
+       9
       ],
       "until": null,
       "motif": "geometric",
@@ -200,7 +184,7 @@
    ],
    "scene": "stage",
    "params": {
-    "setting": "market",
+    "setting": "city",
     "time": "day",
     "actors": [
      {
@@ -445,7 +429,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Light for «يستغفر», geometric for Allah's names. 112:1-5: the tafsirs differ on «خطيئة» (Al-Muyassar: unintended; As-Sa'di: a major sin), so it is not glossed. No people drawn, no motif on the blamed acts. STAGING v4: 109: a small group of men (3, no woman) gathers in a town at dusk, the ones who argued for the treacherous in this world (both tafsirs); no speech arcs, so nobody speaks toward an empty side (the occasion of revelation, the accused and the stolen goods are not drawn); an hourglass plate for the Day (109:12-13), nothing literal. 110: a man enters, lowers his head on 110:7 (returning in regret, Al-Muyassar) and raises his hands on 110:8 (seeking forgiveness); light plate, geometric for the closing names. 111-112: two men in a market; no blamed act is drawn; on 112:7 the wrongdoer points at the other man (casting his sin on an innocent, both tafsirs), the camera holds on the innocent on 112:9 and on the slanderer on 112:11; no reaction is invented for the innocent. Geometric over 111:9-11."
+  "notes": "Light for «يستغفر», geometric for Allah's names. 112:1-5: the tafsirs differ on «خطيئة» (Al-Muyassar: unintended; As-Sa'di: a major sin), so it is not glossed. No people drawn, no motif on the blamed acts. STAGING v4: 109: a small group of men (3, no woman) gathers in a town at dusk, the ones who argued for the treacherous in this world (both tafsirs); no speech arcs, so nobody speaks toward an empty side (the occasion of revelation, the accused and the stolen goods are not drawn); an hourglass plate for the Day (109:12-13), nothing literal. 110: a man enters, lowers his head on 110:7 (returning in regret, Al-Muyassar) and raises his hands on 110:8 (seeking forgiveness); geometric from the Name on 110:9. 111-112: two men in a town street (no market goods near the innocent man); no blamed act is drawn; on 112:7 the wrongdoer points at the other man (casting his sin on an innocent, both tafsirs), the camera holds on the innocent on 112:9 and on the slanderer on 112:11; no reaction is invented for the innocent. Geometric over 111:9-11."
  },
  "cover": {
   "series_ar": "العدل في القضاء",

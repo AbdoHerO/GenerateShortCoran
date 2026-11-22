@@ -225,10 +225,17 @@
      {
       "at": [
        24,
-       16
+       15
       ],
       "do": "sit",
       "who": "q"
+     },
+     {
+      "at": [
+       24,
+       16
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -475,7 +482,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A door for «الباب», an hourglass for the forty years (a number the Quran states). No motif on Musa, Harun or the two men; their words «فاذهب أنت وربك» are never illustrated and are glossed only as As-Sa'di's condemnation; Allah is never depicted. Al-Muyassar's first-person «طاعتي» and As-Sa'di's «نحرم» not used. STAGING v4: 23: the two men who feared Allah are 2 countable believers (not named by the tafsirs, so no drops); they speak to the people (3) on 23:2, 23:9 and 23:16; door plate for the gate of the city (23:11), which is never drawn, nor its mighty people; no soldiers, no weapon, no fighting. 24-26: Musa is a blue drop with his name. The people answer him and shake their heads (24:1, 24:4); nothing is acted on 24:10-13 (no pointing, no camera move on the Lord); they sit on 24:16 as they said. Musa speaks his prayer on 25:1 (no glow, no camera move on the Lord); his brother is not drawn (not named in the verse or the tafsirs). Allah's answer (26:1) has no speaker on screen. Hourglass for the forty years (a number the Quran states); the people stand and walk to and fro on 26:7-9 for the wandering (a this-world penalty, As-Sa'di), nobody fades or is hurt."
+  "notes": "A door for «الباب», an hourglass for the forty years (a number the Quran states). No motif on Musa, Harun or the two men; their words «فاذهب أنت وربك» are never illustrated and are glossed only as As-Sa'di's condemnation; Allah is never depicted. Al-Muyassar's first-person «طاعتي» and As-Sa'di's «نحرم» not used. STAGING v4: 23: the two men who feared Allah are 2 countable believers (not named by the tafsirs, so no drops); they speak to the people (3) on 23:2, 23:9 and 23:16; door plate for the gate of the city (23:11), which is never drawn, nor its mighty people; no soldiers, no weapon, no fighting. 24-26: Musa is a blue drop with his name. The people answer him and shake their heads (24:1, 24:4); nothing is acted on 24:10-13 (no pointing, no camera move on the Lord); they sit on 24:15 as they said, then a wide shot so Musa is in frame for his prayer. Musa speaks his prayer on 25:1 (no glow, no camera move on the Lord); his brother is not drawn (not named in the verse or the tafsirs). Allah's answer (26:1) has no speaker on screen. Hourglass for the forty years (a number the Quran states); the people stand and walk to and fro on 26:7-9 for the wandering (a this-world penalty, As-Sa'di), nobody fades or is hurt."
  },
  "cover": {
   "series_ar": "موسى والأرض المقدسة",

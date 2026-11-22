@@ -265,14 +265,7 @@
      {
       "at": [
        13,
-       4
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       13,
-       6
+       3
       ],
       "do": "shot_close",
       "who": "p"
@@ -280,14 +273,21 @@
      {
       "at": [
        13,
-       10
+       5
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        13,
-       14
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       13,
+       11
       ],
       "do": "shot_close",
       "who": "p"
@@ -295,17 +295,24 @@
      {
       "at": [
        13,
-       18
+       15
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       13,
+       19
+      ],
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
        13,
        21
       ],
-      "do": "shot_close",
-      "who": "p"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -504,7 +511,7 @@
   "title_en": "Breaking the covenant",
   "at": [
    13,
-   3
+   4
   ]
  },
  "motion": 3,

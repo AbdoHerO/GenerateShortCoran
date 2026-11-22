@@ -34,7 +34,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
@@ -368,7 +368,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Isa, Maryam and the angels: no motif. Only geometric on «إنما الله إله واحد». The claim of three is never shown as a statement: 171:29-31 carries the prohibition «ولا تجعلوا…شريكين». «وكلمته» and «وروح منه» are glossed as both tafsirs explain them (the word «كن»; a breath blown by Jibril by His command), never as a part of Allah. 171:35-50 not glossed (no excerpt free of the verse's own wording). STAGING v4: Both chapters stay ambient. 171: Isa, Maryam and the refutation of the Trinity (only geometric on Allah's oneness; no drop). 172: Isa and the angels near to Allah, and the gathering on the Day (the unseen)."
+  "notes": "Isa, Maryam and the angels: no motif. Only geometric on «إنما الله إله واحد». The claim of three is never shown as a statement: 171:29-31 carries the prohibition «ولا تجعلوا…شريكين». «وكلمته» and «وروح منه» are glossed as both tafsirs explain them (the word «كن»; a breath blown by Jibril by His command), never as a part of Allah. 171:35-50 not glossed (no excerpt free of the verse's own wording). STAGING v4: Both chapters stay ambient. 171: Isa, Maryam and the refutation of the Trinity under a night sky (review: the geometric mood is the symbol of the Names and must not frame the refutation of Isa's divinity); only the geometric plate on Allah's oneness (171:36); no drop. 172: Isa and the angels near to Allah, and the gathering on the Day (the unseen)."
  },
  "cover": {
   "series_ar": "الوحي والتوحيد",

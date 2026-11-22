@@ -45,7 +45,10 @@
       "place": "center",
       "count": 4,
       "pose": "stand",
-      "enter": null,
+      "enter": [
+       124,
+       1
+      ],
       "exit": null
      },
      {
@@ -55,7 +58,10 @@
       "place": "left",
       "count": 1,
       "pose": "sit",
-      "enter": null,
+      "enter": [
+       124,
+       1
+      ],
       "exit": null,
       "look": "poor"
      }
@@ -432,7 +438,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on the negated «ليس بأمانيكم» or on Ibrahim (125:10-17). Growth for «الصالحات», light for «مؤمن», hands for «أسلم وجهه لله», stars for the heavens, geometric for «محيطا». 123:7-20 is not glossed (no excerpt free of the verse's wording that keeps its negation). STAGING v4: 123: nothing is acted while the negation 123:1-6 is recited, and no evil deed is drawn on 123:7-11 (two-paths plate ending before the Name). 124: a mixed group of four (men and a woman, for 124:6-8, nobody singled out) gives to a poor man on 124:2 (a righteous deed), who raises his hands on 124:4; light plate on 124:10; Paradise (124:12-13) is not drawn. 125: believers pray; prostration on 125:5 (submitting the face to Allah, both tafsirs) and they rise on 125:8, so nobody bows or prostrates while Ibrahim is named (125:12, 125:16); no drop for Ibrahim and no camera move on him or on the Name. 126: they sit in prayer; stars plate for the heavens, geometric for the closing names."
+  "notes": "No motif on the negated «ليس بأمانيكم» or on Ibrahim (125:10-17). Growth for «الصالحات», light for «مؤمن», hands for «أسلم وجهه لله», stars for the heavens, geometric for «محيطا». 123:7-20 is not glossed (no excerpt free of the verse's wording that keeps its negation). STAGING v4: 123: nothing is acted while the negation 123:1-6 is recited, and no evil deed is drawn on 123:7-11 (two-paths plate ending before the Name). 123 is an empty market (nobody on stage during the negation and the requital of evil); 124: a mixed group of four enters on 124:1 and (men and a woman, for 124:6-8, nobody singled out) gives to a poor man on 124:2 (a righteous deed), who raises his hands on 124:4; light plate on 124:10; Paradise (124:12-13) is not drawn. 125: believers pray; prostration on 125:5 (submitting the face to Allah, both tafsirs) and they rise on 125:8, so nobody bows or prostrates while Ibrahim is named (125:12, 125:16); no drop for Ibrahim and no camera move on him or on the Name. 126: they sit in prayer; stars plate for the heavens, geometric for the closing names."
  },
  "cover": {
   "series_ar": "الشرك والتوحيد",

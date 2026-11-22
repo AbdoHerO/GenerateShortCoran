@@ -46,6 +46,13 @@
      {
       "at": [
        154,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       154,
        10
       ],
       "do": "pan_left"
@@ -59,19 +66,6 @@
      }
     ],
     "motifs": [
-     {
-      "at": [
-       154,
-       8
-      ],
-      "until": [
-       154,
-       10
-      ],
-      "motif": "door",
-      "place": "top",
-      "size": "m"
-     },
      {
       "at": [
        154,
@@ -372,7 +366,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Musa, Isa and Maryam: no motif at all. The crucifixion is never drawn. 157:10-16 says only what both tafsirs say: they did not kill or crucify him; another man was made to resemble him and was crucified (As-Sa'di: «بل شبه لهم غيره، فقتلوا غيره وصلبوه»). Their claim in 157:1-9 is glossed as mockery, never as a statement. 156 states Maryam's innocence. A door for «الباب», a seal for «ميثاقا»; no mountain over them, no calf. Al-Muyassar's first-person «فلعناهم» not used. STAGING v4: Both chapters stay ambient. 154: the mountain raised over them, the gate they were ordered to enter prostrating (they did not obey), the Sabbath (they transgressed) and the covenant: acting the commands would show an obedience that did not happen, and the raised mountain is a miracle over people. 155-157: the killing of prophets, the slander of Maryam and the claim about Isa: no killing, no crucifixion, no cross and no figure resembling Isa is ever drawn; no drop for Isa or Maryam."
+  "notes": "Musa, Isa and Maryam: no motif at all. The crucifixion is never drawn. 157:10-16 says only what both tafsirs say: they did not kill or crucify him; another man was made to resemble him and was crucified (As-Sa'di: «بل شبه لهم غيره، فقتلوا غيره وصلبوه»). Their claim in 157:1-9 is glossed as mockery, never as a statement. 156 states Maryam's innocence. A door for «الباب», a seal for «ميثاقا»; no mountain over them, no calf. Al-Muyassar's first-person «فلعناهم» not used. STAGING v4: Both chapters stay ambient. 154: the mountain raised over them, the gate they were ordered to enter prostrating (they did not obey), the Sabbath (they transgressed) and the covenant: acting the commands would show an obedience that did not happen, and the raised mountain is a miracle over people; no door plate (review), only the seal for the covenant. 155-157: the killing of prophets, the slander of Maryam and the claim about Isa: no killing, no crucifixion, no cross and no figure resembling Isa is ever drawn; no drop for Isa or Maryam."
  },
  "cover": {
   "series_ar": "أهل الكتاب وعيسى",
