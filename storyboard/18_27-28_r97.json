@@ -48,7 +48,7 @@
        27,
        3
       ],
-      "do": "light_up"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -62,22 +62,21 @@
        27,
        10
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        27,
        12
       ],
-      "do": "push_in"
+      "do": "pan_left"
      },
      {
       "at": [
        27,
        15
       ],
-      "do": "shot_close",
-      "who": "center"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -131,14 +130,14 @@
        28,
        5
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        28,
        7
       ],
-      "do": "light_up"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -173,7 +172,7 @@
        28,
        26
       ],
-      "do": "push_in"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -319,7 +318,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Calm ambient only. Rays of light for the revealed Book; a calm sea for patience: light on morning and evening, a wave on the adornment of this world, dark ink-like lines on the heedless heart. v2: both verses (Allah addresses the Prophet) are quiet ranges, 28:10 included; the book plate now covers 27:3-6 and leaves before the Name; the hands plate over the Name (28:5-6) is removed; no sparkle on 27:6 or on 28:10, no sky tilt on 27:10 or 28:5."
+  "notes": "Calm ambient only. Rays of light for the revealed Book; a calm sea for patience: light on morning and evening, a wave on the adornment of this world, dark ink-like lines on the heedless heart. v2: both verses (Allah addresses the Prophet) are quiet ranges, 28:10 included; the book plate now covers 27:3-6 and leaves before the Name; the hands plate over the Name (28:5-6) is removed; no sparkle on 27:6 or on 28:10, no sky tilt on 27:10 or 28:5. v2b: no light swell, push-in or close-up anywhere in these quiet ranges (27:3, 27:12, 27:15, 28:7, 28:26): pans and wide shots only."
  },
  "cover": {
   "series_ar": "الصبر مع المؤمنين",

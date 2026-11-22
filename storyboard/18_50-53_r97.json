@@ -158,7 +158,7 @@
        51,
        2
       ],
-      "do": "shot_sky"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -211,7 +211,19 @@
       "size": "m"
      }
     ],
-    "transition": "iris"
+    "transition": "iris",
+    "quiet": [
+     [
+      [
+       51,
+       1
+      ],
+      [
+       51,
+       13
+      ]
+     ]
+    ]
    }
   },
   {
@@ -463,7 +475,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Angels, Adam and Iblis are never drawn: calm visuals only (night sky, mountains, geometric pattern). The command to prostrate is only a swell of light and a downward camera tilt; the creation of the heavens and the earth is clouds parting over the mountains. The Day and the Fire (18:52-53) are not illustrated. v2: Allah's words (to the angels 50:1-5, to people 50:16-26, on the Day 52:1-6) are quiet ranges with no light swell, sky tilt or stars on them; a sideways pan replaces the push-in on 51:10. In 18:51 the clouds no longer part with rays from above, and the stars plate leaves at 51:6, so neither stands where the gloss on 51:7-8 (which ends with the Name) points."
+  "notes": "Angels, Adam and Iblis are never drawn: calm visuals only (night sky, mountains, geometric pattern). The command to prostrate is only a swell of light and a downward camera tilt; the creation of the heavens and the earth is clouds parting over the mountains. The Day and the Fire (18:52-53) are not illustrated. v2: Allah's words (to the angels 50:1-5, to people 50:16-26, on the Day 52:1-6) are quiet ranges with no light swell, sky tilt or stars on them; a sideways pan replaces the push-in on 51:10. In 18:51 the clouds no longer part with rays from above, and the stars plate leaves at 51:6, so neither stands where the gloss on 51:7-8 (which ends with the Name) points. v2b: verse 51 (Allah's own words) is a quiet range too, and 51:2 is a pan, not a sky tilt."
  },
  "cover": {
   "series_ar": "إبليس",

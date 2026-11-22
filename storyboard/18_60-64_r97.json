@@ -650,7 +650,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Musa is a 'prophet' drop; his companion is an 'honored' drop labelled Yusha' bin Nun (both tafsirs name him). The fish comes alive and slips into the sea at the word that states it (Al-Muyassar). They rest at the rock at dusk (As-Sa'di: the night sheltered them there), walk on, then return to the rock. Cover title uses Al-Muyassar's 'ملتقى البحرين' because the plan title repeats Quran wording (مجمع البحرين) and the verifier rejects it. v2: no close-up on a light drop and no pans in the drop scenes (wide shots instead); every speech is aimed at its listener; the reshaped desert (no mesa) is applied by the renderer. The fish plate leaves before Yusha' lowers his head (63:11)."
+  "notes": "Musa is a 'prophet' drop; his companion is an 'honored' drop labelled Yusha' bin Nun (both tafsirs name him). The fish comes alive and slips into the sea at the word that states it (Al-Muyassar). They rest at the rock at dusk (As-Sa'di: the night sheltered them there), walk on, then return to the rock. Cover title uses Al-Muyassar's 'ملتقى البحرين' because the plan title repeats Quran wording (مجمع البحرين) and the verifier rejects it. v2: no close-up on a light drop and no pans in the drop scenes (wide shots instead); every speech is aimed at its listener; the reshaped desert (no mesa) is applied by the renderer. The fish plate leaves before Yusha' lowers his head (63:11). v2b: the cover is at 61:5, where Musa and Yusha' both sit at the rock (at 61:7 the close-up on the fish left Musa out)."
  },
  "cover": {
   "series_ar": "موسى والخضر",
@@ -659,7 +659,7 @@
   "title_en": "Journey to the junction of the two seas",
   "at": [
    61,
-   7
+   5
   ]
  },
  "motion": 3

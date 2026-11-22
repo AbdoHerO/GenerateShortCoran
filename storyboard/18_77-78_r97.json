@@ -165,8 +165,7 @@
        77,
        18
       ],
-      "do": "glow",
-      "who": "khidr"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -274,8 +273,9 @@
        78,
        7
       ],
-      "do": "glow",
-      "who": "khidr"
+      "do": "speak",
+      "who": "khidr",
+      "to": "musa"
      },
      {
       "at": [
@@ -385,7 +385,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The townspeople (faceless group) turn away and shake their heads when they refuse hospitality; al-Khidr (neutral 'honored' drop) walks to the leaning wall and it is straightened at the word that states it (wall_repair). Musa remarks on the payment (speak, point toward the townspeople, per Al-Muyassar: to buy food since they would not host us). The parting is a calm dusk scene with only the two light drops; the wall is left out there so it is never redrawn leaning. v2: the townspeople are a group of 3 (a group of 4 drew a woman); 77:7 is asked of the townspeople, and 77:19 is spoken toward al-Khidr at the wall (centre), not toward the empty left edge; no pan or push-in in the drop scenes. The door plate leaves before Musa lowers his head, now on 78:12."
+  "notes": "The townspeople (faceless group) turn away and shake their heads when they refuse hospitality; al-Khidr (neutral 'honored' drop) walks to the leaning wall and it is straightened at the word that states it (wall_repair). Musa remarks on the payment (speak, point toward the townspeople, per Al-Muyassar: to buy food since they would not host us). The parting is a calm dusk scene with only the two light drops; the wall is left out there so it is never redrawn leaning. v2: the townspeople are a group of 3 (a group of 4 drew a woman); 77:7 is asked of the townspeople, and 77:19 is spoken toward al-Khidr at the wall (centre), not toward the empty left edge; no pan or push-in in the drop scenes. The door plate leaves before Musa lowers his head, now on 78:12. v2b: no glow on al-Khidr when the wall is set right (77:18, a wide shot) or on «بتأويل» (78:7: he simply goes on speaking to Musa)."
  },
  "cover": {
   "series_ar": "موسى والخضر",

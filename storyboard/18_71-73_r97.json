@@ -126,14 +126,6 @@
      {
       "at": [
        71,
-       7
-      ],
-      "do": "shot_close",
-      "who": "ship"
-     },
-     {
-      "at": [
-       71,
        8
       ],
       "do": "speak",
@@ -282,7 +274,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "One continuous stage chapter so the damaged ship stays damaged (a second chapter would redraw it whole or replay the event). Al-Khidr (neutral 'honored' drop) pulls a plank at the word that states it (ship_hole); nothing sinks and no one is harmed. Musa objects (speak, shake_head), al-Khidr reminds him (speak, glow), Musa apologises (speak, bow). The ship's people are a small faceless group (Al-Muyassar: they carried them without fare). v2: Musa now walks to the shore beside al-Khidr instead of to the same spot by the ship (in v1 he was hidden behind al-Khidr from 71:6 on); each speaks to the other; no close-up on a light drop and no pan in this drop scene. The hourglass plate now covers 72:6-8 and leaves before Musa lowers his head (73:3)."
+  "notes": "One continuous stage chapter so the damaged ship stays damaged (a second chapter would redraw it whole or replay the event). Al-Khidr (neutral 'honored' drop) pulls a plank at the word that states it (ship_hole); nothing sinks and no one is harmed. Musa objects (speak, shake_head), al-Khidr reminds him (speak, glow), Musa apologises (speak, bow). The ship's people are a small faceless group (Al-Muyassar: they carried them without fare). v2: Musa now walks to the shore beside al-Khidr instead of to the same spot by the ship (in v1 he was hidden behind al-Khidr from 71:6 on); each speaks to the other; no close-up on a light drop and no pan in this drop scene. The hourglass plate now covers 72:6-8 and leaves before Musa lowers his head (73:3). v2b: no close-up on the ship at 71:7: it cropped Musa and his label while he objects. A wide shot on 71:8 was not possible (0.5 s from his speech beat, under the 0.8 s minimum), so the camera simply stays wide; the hole is visible in the wide shot."
  },
  "cover": {
   "series_ar": "موسى والخضر",

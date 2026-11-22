@@ -282,7 +282,7 @@
        47,
        7
       ],
-      "do": "stars"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -408,16 +408,14 @@
        49,
        15
       ],
-      "do": "sparkle",
-      "who": "center"
+      "do": "pan_left"
      },
      {
       "at": [
        49,
        17
       ],
-      "do": "sparkle",
-      "who": "light"
+      "do": "pattern_turn"
      },
      {
       "at": [
@@ -655,7 +653,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Merged passage (the reciter joins 46 to 47 without a pause). Parable of this world: rain falls, plants bloom on 'mingles', rain stops and plants wither on 'dry remnants', wind and leaves on 'scattered by the winds'; dawn for what endures. The Day of Judgement (47-49) is the unseen: calm night sky and geometric pattern only, camera moves and stars, no mountains moving, no crowds, no book drawn, no light placed on 'your Lord'; Judgement glosses have no arrow. Timing data gives 18:49 words 4-5 only 80 ms / 280 ms, so no beat or gloss is placed on them. v2: 45:1-5 (address to the Prophet) and Allah's words on the Day (48:5-16) are quiet ranges; the wind and hourglass plates leave before the Name (45:19, 48:3); no light swell on His attribute (45:23) or before 49:26, no sky tilt on 46:10, no push-in or stars during His words (48:4, 48:8). The light swell moved from 46:8 to 46:7 so it has faded before the Name (46:10)."
+  "notes": "Merged passage (the reciter joins 46 to 47 without a pause). Parable of this world: rain falls, plants bloom on 'mingles', rain stops and plants wither on 'dry remnants', wind and leaves on 'scattered by the winds'; dawn for what endures. The Day of Judgement (47-49) is the unseen: calm night sky and geometric pattern only, camera moves and stars, no mountains moving, no crowds, no book drawn, no light placed on 'your Lord'; Judgement glosses have no arrow. Timing data gives 18:49 words 4-5 only 80 ms / 280 ms, so no beat or gloss is placed on them. v2: 45:1-5 (address to the Prophet) and Allah's words on the Day (48:5-16) are quiet ranges; the wind and hourglass plates leave before the Name (45:19, 48:3); no light swell on His attribute (45:23) or before 49:26, no sky tilt on 46:10, no push-in or stars during His words (48:4, 48:8). The light swell moved from 46:8 to 46:7 so it has faded before the Name (46:10). v2b: no stars on Allah's word 47:7 (a wide shot) and no sparkle on the recorded sins 49:15 and 49:17 (a pan and a pattern ring)."
  },
  "cover": {
   "series_ar": "مثل الدنيا ومشاهد القيامة",

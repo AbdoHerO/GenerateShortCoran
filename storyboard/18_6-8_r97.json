@@ -62,7 +62,7 @@
        6,
        8
       ],
-      "do": "shot_sky"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -261,7 +261,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Calm ambient only. A quiet night for the consolation of the Prophet (peace be upon him); the garden mood is used for the adornment of THIS world (not Paradise): it blooms on the word adornment and withers on barren ground. v2: verse 6 (Allah addresses the Prophet) is a quiet range; the push-in on 6:3 (his own self) became a downward tilt, so the camera never closes in on an implied figure."
+  "notes": "Calm ambient only. A quiet night for the consolation of the Prophet (peace be upon him); the garden mood is used for the adornment of THIS world (not Paradise): it blooms on the word adornment and withers on barren ground. v2: verse 6 (Allah addresses the Prophet) is a quiet range; the push-in on 6:3 (his own self) became a downward tilt, so the camera never closes in on an implied figure. v2b: no sky tilt inside the quiet range (6:8): a pan instead."
  },
  "cover": {
   "series_ar": "افتتاح السورة",

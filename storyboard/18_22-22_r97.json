@@ -97,7 +97,7 @@
        22,
        20
       ],
-      "do": "push_in"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -210,7 +210,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Calm ambient only (night sky with uncountable stars): no people, no dog, nothing countable. No beat falls on any number word (no counting rhythm); no gloss states a number; no birds beat. Mood set to the geometric pattern (no countable objects such as palms or birds in the verse about their number). v2: the pattern_turn that fell on the number word 22:13 moved to a pan on 22:14, so now no beat falls on any number word; no tilt to the sky on 22:15-16 and no light swell after the Name (22:17 is a pattern ring); 22:15-33 (address to the Prophet) is a quiet range with no light through clouds. Still nothing countable is drawn: no people, one dog symbol only."
+  "notes": "Calm ambient only (night sky with uncountable stars): no people, no dog, nothing countable. No beat falls on any number word (no counting rhythm); no gloss states a number; no birds beat. Mood set to the geometric pattern (no countable objects such as palms or birds in the verse about their number). v2: the pattern_turn that fell on the number word 22:13 moved to a pan on 22:14, so now no beat falls on any number word; no tilt to the sky on 22:15-16 and no light swell after the Name (22:17 is a pattern ring); 22:15-33 (address to the Prophet) is a quiet range with no light through clouds. Still nothing countable is drawn: no people, one dog symbol only. v2b: no push-in into the rosette after 22:16-17 (22:20): a pan instead."
  },
  "cover": {
   "series_ar": "أصحاب الكهف",

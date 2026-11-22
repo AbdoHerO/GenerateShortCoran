@@ -35,7 +35,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light",
+    "mood": "geometric",
     "beats": [
      {
       "at": [
@@ -63,8 +63,7 @@
        99,
        10
       ],
-      "do": "sparkle",
-      "who": "center"
+      "do": "pattern_turn"
      },
      {
       "at": [
@@ -78,7 +77,7 @@
        100,
        4
       ],
-      "do": "push_in"
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -131,7 +130,7 @@
        101,
        7
       ],
-      "do": "stars"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -206,7 +205,7 @@
        102,
        11
       ],
-      "do": "push_in"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -291,7 +290,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The unseen: calm visuals only (rays of light, night sky, geometric pattern). The Horn is only a swell of light, the gathering a soft sparkle; Hell is never illustrated and Gog and Magog are never drawn. The two tafsirs differ on who surges in 18:99 (Gog and Magog, or all creatures), so no gloss is placed there."
+  "notes": "The unseen: calm visuals only (geometric pattern, night sky). The Horn is only a swell of light, the gathering a soft sparkle; Hell is never illustrated and Gog and Magog are never drawn. The two tafsirs differ on who surges in 18:99 (Gog and Magog, or all creatures), so no gloss is placed there. v2b: c1 (18:99-100, with Hell shown to the disbelievers) has the geometric mood, not the golden light; no sparkle, stars or push-in on Allah's first-person words (99:10, 101:7, 102:11) and no push-in into the rosette at 100:4: a pattern ring and pans instead."
  },
  "cover": {
   "series_ar": "خاتمة السورة",

@@ -90,18 +90,16 @@
      {
       "at": [
        65,
-       2
+       3
       ],
-      "do": "glow",
-      "who": "khidr"
+      "do": "birds"
      },
      {
       "at": [
        65,
        6
       ],
-      "do": "sparkle",
-      "who": "khidr"
+      "do": "wind"
      },
      {
       "at": [
@@ -423,7 +421,7 @@
    ],
    "tafsir": 91,
    "excerpt": "أعطاه الله رحمة خاصة بها زاد علمه وحسن عمله",
-   "target": "khidr",
+   "target": "",
    "tone": "green"
   },
   {
@@ -484,7 +482,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Musa is a 'prophet' drop; al-Khidr is a neutral green 'honored' drop labelled «الخضر» because the tafsirs differ (Al-Muyassar: a prophet; As-Sa'di: a righteous servant, not a prophet). No gloss or title asserts either view: the 18:65 excerpts stop before Al-Muyassar's 'وهو نبي' and use only wording both tafsirs share. Yusha' bin Nun stays quietly at the side. Musa asks with humility (bow), al-Khidr states the condition (speak, glow). v2: Musa now speaks to al-Khidr (before, Yusha' stood as near as al-Khidr and drew the speech); no close-up or push-in on a light drop (the push-ins cropped the labels); the light plate on the mercy given to al-Khidr (65:6) is removed, so no light falls on him that could suggest revelation (the tafsirs differ on his status); 65:4-12 (Allah's words about His gift to him) is a quiet range; no glow on Musa right after the Name (69:5-6): he goes on speaking on 69:7."
+  "notes": "Musa is a 'prophet' drop; al-Khidr is a neutral green 'honored' drop labelled «الخضر» because the tafsirs differ (Al-Muyassar: a prophet; As-Sa'di: a righteous servant, not a prophet). No gloss or title asserts either view: the 18:65 excerpts stop before Al-Muyassar's 'وهو نبي' and use only wording both tafsirs share. Yusha' bin Nun stays quietly at the side. Musa asks with humility (bow), al-Khidr states the condition (speak, glow). v2: Musa now speaks to al-Khidr (before, Yusha' stood as near as al-Khidr and drew the speech); no close-up or push-in on a light drop (the push-ins cropped the labels); the light plate on the mercy given to al-Khidr (65:6) is removed, so no light falls on him that could suggest revelation (the tafsirs differ on his status); 65:4-12 (Allah's words about His gift to him) is a quiet range; no glow on Musa right after the Name (69:5-6): he goes on speaking on 69:7. v2b: no glow or sparkle on al-Khidr while Allah describes His gift to him (65:2, 65:6): birds and a gust of wind instead, and the gloss on 65:5-8 has no arrow to him."
  },
  "cover": {
   "series_ar": "موسى والخضر",

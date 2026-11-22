@@ -137,7 +137,7 @@
        105,
        6
       ],
-      "do": "stars"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -186,7 +186,7 @@
        106,
        7
       ],
-      "do": "stars"
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -281,7 +281,7 @@
        3
       ],
       "until": null,
-      "motif": "burst",
+      "motif": "seal",
       "place": "top",
       "size": "m"
      },
@@ -414,7 +414,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Calm visuals only. The garden withers for effort lost in this worldly life (18:104 is about this world, it is not Paradise); the night sky for the Day of Resurrection and the recompense; rays of light for Paradise, which is never illustrated. The tafsirs differ on what al-Firdaws covers (the highest level or all of Paradise), so no gloss defines it. v2: 103:1-5 (address to the Prophet) is a quiet range; the light mood and the other renderer fixes apply at build. In 18:107 no clouds part with rays from above and the camera does not tilt to the sky on Paradise (107:8-9): sideways pans instead, so nothing reads as a picture of heaven (the cover frame included)."
+  "notes": "Calm visuals only. The garden withers for effort lost in this worldly life (18:104 is about this world, it is not Paradise); the night sky for the Day of Resurrection and the recompense; rays of light for Paradise, which is never illustrated. The tafsirs differ on what al-Firdaws covers (the highest level or all of Paradise), so no gloss defines it. v2: 103:1-5 (address to the Prophet) is a quiet range; the light mood and the other renderer fixes apply at build. In 18:107 no clouds part with rays from above and the camera does not tilt to the sky on Paradise (107:8-9): sideways pans instead, so nothing reads as a picture of heaven (the cover frame included). v2b: the cover is on 104:3 (the lost effort in this world), not on the radiant Paradise words (107:8-9); the plate on 107:3 is a seal, not a burst; no stars on Allah's words 105:6 and 106:7 (pans instead)."
  },
  "cover": {
   "series_ar": "خاتمة السورة",
@@ -422,8 +422,8 @@
   "title_ar": "الخاسرون والفائزون",
   "title_en": "The greatest losers, and the winners",
   "at": [
-   107,
-   8
+   104,
+   3
   ]
  },
  "motion": 3

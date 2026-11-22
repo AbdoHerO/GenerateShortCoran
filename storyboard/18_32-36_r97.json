@@ -47,7 +47,7 @@
       "pose": "stand",
       "enter": null,
       "exit": null,
-      "look": "poor"
+      "look": "plain"
      },
      {
       "id": "owner",
@@ -202,7 +202,7 @@
       "pose": "stand",
       "enter": null,
       "exit": null,
-      "look": "poor"
+      "look": "plain"
      },
      {
       "id": "owner",
@@ -320,7 +320,7 @@
       "pose": "stand",
       "enter": null,
       "exit": null,
-      "look": "poor"
+      "look": "plain"
      },
      {
       "id": "owner",
@@ -563,7 +563,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Hand storyboard. Two faceless men in the garden setting: the owner ('man', look rich, right) and his believing companion ('man', look poor, left), as Al-Muyassar says: one a believer, the other a disbeliever. 18:32-33 the gardens grow (event 'growth'), the camera visits vines, palms, crops and the river. 18:34 the owner speaks and points at his companion as he boasts; the companion shakes his head. 18:35-36 the owner walks into his garden, points at it, turns away; the companion shakes his head at the denial of the Hour. v2: 32:1-3 (address to the Prophet) is a quiet range; the owner's speech is aimed at his companion; the hourglass plate leaves before the Name (36:8)."
+  "notes": "Hand storyboard. Two faceless men in the garden setting: the owner ('man', look rich, right) and his believing companion ('man', look plain, left), as Al-Muyassar says: one a believer, the other a disbeliever. 18:32-33 the gardens grow (event 'growth'), the camera visits vines, palms, crops and the river. 18:34 the owner speaks and points at his companion as he boasts; the companion shakes his head. 18:35-36 the owner walks into his garden, points at it, turns away; the companion shakes his head at the denial of the Hour. v2: 32:1-3 (address to the Prophet) is a quiet range; the owner's speech is aimed at his companion; the hourglass plate leaves before the Name (36:8). v2b: the believing companion has the plain look, not the poor one: neither tafsir calls him poor (the verse says only 39:16-19)."
  },
  "cover": {
   "series_ar": "صاحب الجنتين",

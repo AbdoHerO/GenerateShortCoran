@@ -96,66 +96,80 @@
     75,
     76
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "mountains",
+    "setting": "mountains",
+    "time": "day",
+    "actors": [
+     {
+      "id": "musa",
+      "type": "prophet",
+      "label": "موسى عليه السلام",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "khidr",
+      "type": "honored",
+      "label": "الخضر",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        75,
        1
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "khidr",
+      "to": "musa"
      },
      {
       "at": [
        75,
        5
       ],
-      "do": "push_in"
-     },
-     {
-      "at": [
-       75,
-       9
-      ],
-      "do": "light_up"
+      "do": "shot_wide"
      },
      {
       "at": [
        76,
        1
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "musa",
+      "to": "khidr"
      },
      {
       "at": [
        76,
-       6
-      ],
-      "do": "shot_ground"
-     },
-     {
-      "at": [
-       76,
-       8
-      ],
-      "do": "birds"
-     },
-     {
-      "at": [
-       76,
-       10
+       7
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        76,
+       12
+      ],
+      "do": "bow",
+      "who": "musa"
+     },
+     {
+      "at": [
+       76,
        13
       ],
-      "do": "sparkle",
-      "who": "center"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -167,17 +181,20 @@
       "until": null,
       "motif": "hourglass",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        76,
        8
       ],
-      "until": null,
+      "until": [
+       76,
+       10
+      ],
       "motif": "seal",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "morph"
@@ -237,13 +254,13 @@
    ],
    "tafsir": 16,
    "excerpt": "حيث أخبرتَني أني لن أستطيع معك صبرًا",
-   "target": "light",
+   "target": "",
    "tone": "green"
   }
  ],
  "director": {
   "mode": "hand",
-  "notes": "Calm visuals only: the sea by the shore, then mountains. Nobody is drawn; nothing of the boy or the killing is shown and no beat falls on that word (waves rise only with Musa's objection). Glosses explain Musa's objection and the condition of patience, never the act itself."
+  "notes": "18:74 is calm visuals only (the sea by the shore): nobody is drawn there; nothing of the boy or the killing is shown anywhere and no beat falls on that word (waves rise only with Musa's objection). Glosses explain Musa's objection and the condition of patience, never the act itself. v2b: 18:75-76 is a stage scene (Staging v4) on the road in a mountain valley: only the two light drops, Musa (blue, left) and al-Khidr (green, right). Al-Khidr speaks to Musa (75:1), Musa answers him (76:1) and lowers his head on 76:12, after the seal plate has left (76:10). No glow, no close-up, no pan; the boy is never drawn."
  },
  "cover": {
   "series_ar": "موسى والخضر",

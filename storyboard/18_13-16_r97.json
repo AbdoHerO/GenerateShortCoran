@@ -157,7 +157,7 @@
       "type": "disbelievers",
       "label": "",
       "place": "right",
-      "count": 6,
+      "count": 3,
       "pose": "stand",
       "enter": null,
       "exit": null
@@ -280,7 +280,7 @@
       "type": "disbelievers",
       "label": "",
       "place": "right",
-      "count": 6,
+      "count": 3,
       "pose": "stand",
       "enter": null,
       "exit": null
@@ -563,7 +563,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Hand storyboard. The youths are always an awake 'believers' group with uncountable=true (18:22). 18:13 they sit together in their town and a soft light marks the increase in guidance. 18:14 they stand up and declare tawhid before their people (a 'disbelievers' crowd; Al-Muyassar's disbelieving king is NOT drawn). 18:15 they speak among themselves and point at their people. 18:16 they turn away and walk to the cave; the light marks the mercy promised. No violence. v2: 13:1-5 (address to the Prophet) is a quiet range. The book (13:2) and cave (16:9) plates leave before the Name. No look_up on or right before the Name (13:8, 14:9, 16:12). The stars plate after the geometric plate on 14:7-9 is removed (stars must never read as the Lord); the geometric plate stays over 14:7-10. The light event on 16:14 (His mercy, right after the Name) is removed. 15:1: no speak beat, since Al-Muyassar says they said it to one another (the arcs would have gone to their people); they still point at their people. No close-up on 15:15-17."
+  "notes": "Hand storyboard. The youths are always an awake 'believers' group with uncountable=true (18:22). 18:13 they sit together in their town and a soft light marks the increase in guidance. 18:14 they stand up and declare tawhid before their people (a 'disbelievers' crowd; Al-Muyassar's disbelieving king is NOT drawn). 18:15 they speak among themselves and point at their people. 18:16 they turn away and walk to the cave; the light marks the mercy promised. No violence. v2: 13:1-5 (address to the Prophet) is a quiet range. The book (13:2) and cave (16:9) plates leave before the Name. No look_up on or right before the Name (13:8, 14:9, 16:12). The stars plate after the geometric plate on 14:7-9 is removed (stars must never read as the Lord); the geometric plate stays over 14:7-10. The light event on 16:14 (His mercy, right after the Name) is removed. 15:1: no speak beat, since Al-Muyassar says they said it to one another (the arcs would have gone to their people); they still point at their people. No close-up on 15:15-17. v2b: their people are 3 figures in 18:14-15 (3 figures = a group, not their number; 6 read as a count, the count of 22:6-7). They stay a countable small group, not uncountable, which would draw boulders that read as idols. The king named by Al-Muyassar is still not drawn: the youths speak toward their people."
  },
  "cover": {
   "series_ar": "أصحاب الكهف",

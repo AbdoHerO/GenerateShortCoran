@@ -47,7 +47,7 @@
       "pose": "stand",
       "enter": null,
       "exit": null,
-      "look": "poor"
+      "look": "plain"
      },
      {
       "id": "owner",
@@ -190,7 +190,7 @@
       "pose": "stand",
       "enter": null,
       "exit": null,
-      "look": "poor"
+      "look": "plain"
      },
      {
       "id": "owner",
@@ -250,8 +250,9 @@
        39,
        14
       ],
-      "do": "bow",
-      "who": "companion"
+      "do": "speak",
+      "who": "companion",
+      "to": "owner"
      },
      {
       "at": [
@@ -311,7 +312,7 @@
       "pose": "stand",
       "enter": null,
       "exit": null,
-      "look": "poor"
+      "look": "plain"
      },
      {
       "id": "owner",
@@ -532,7 +533,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Hand storyboard. Same two faceless men as 18_32-36 (companion 'man' look poor, left; owner 'man' look rich, right). The companion speaks throughout: points at the owner on the question of disbelief, looks up and shakes his head on 'I associate no one', bows on 'less than you in wealth', raises his hands on 'perhaps my Lord'. The owner turns away. 18:40-41 describe what MAY happen: only camera moves and a gust of wind hint at it; the garden is not destroyed here (that is the 'wither' event of 18_42-44). v2: the companion's speech is aimed at the owner; no look_up on the Name (38:4), no close-up or sparkle on a man while the Name is recited (39:8, 39:12); the hands plate leaves before the Name (39:8). His humble bow moved to 39:14 so it ends before the coins plate appears."
+  "notes": "Hand storyboard. Same two faceless men as 18_32-36 (companion 'man' look plain, left; owner 'man' look rich, right). The companion speaks throughout: points at the owner on the question of disbelief, looks up and shakes his head on 'I associate no one', speaks on, as an adviser, at 'less than you in wealth', raises his hands on 'perhaps my Lord'. The owner turns away. 18:40-41 describe what MAY happen: only camera moves and a gust of wind hint at it; the garden is not destroyed here (that is the 'wither' event of 18_42-44). v2: the companion's speech is aimed at the owner; no look_up on the Name (38:4), no close-up or sparkle on a man while the Name is recited (39:8, 39:12); the hands plate leaves before the Name (39:8). His humble bow moved to 39:14 so it ends before the coins plate appears. v2b: the companion has the plain look (neither tafsir calls him poor), and at 39:14 he speaks to the owner as an adviser instead of lowering his head."
  },
  "cover": {
   "series_ar": "صاحب الجنتين",

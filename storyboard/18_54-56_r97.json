@@ -32,9 +32,23 @@
    "verses": [
     54
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "people",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "gather",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
@@ -46,30 +60,33 @@
      {
       "at": [
        54,
-       5
+       6
       ],
-      "do": "pattern_turn"
+      "do": "pan_left"
      },
      {
       "at": [
        54,
-       8
+       10
       ],
-      "do": "pattern_turn"
+      "do": "speak",
+      "who": "people"
      },
      {
       "at": [
        54,
-       11
+       12
       ],
-      "do": "push_in"
+      "do": "shot_close",
+      "who": "people"
      },
      {
       "at": [
        54,
        14
       ],
-      "do": "wind"
+      "do": "shake_head",
+      "who": "people"
      }
     ],
     "motifs": [
@@ -81,7 +98,7 @@
       "until": null,
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -94,7 +111,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
@@ -115,7 +132,7 @@
        55,
        7
       ],
-      "do": "birds"
+      "do": "stars"
      },
      {
       "at": [
@@ -187,9 +204,23 @@
    "verses": [
     56
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "people",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "gather",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
@@ -201,66 +232,41 @@
      {
       "at": [
        56,
-       3
-      ],
-      "do": "light_up"
-     },
-     {
-      "at": [
-       56,
-       5
-      ],
-      "do": "clouds_part"
-     },
-     {
-      "at": [
-       56,
-       6
-      ],
-      "do": "shot_ground"
-     },
-     {
-      "at": [
-       56,
        7
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "people"
      },
      {
       "at": [
        56,
        10
       ],
-      "do": "wind"
+      "do": "shot_close",
+      "who": "people"
      },
      {
       "at": [
        56,
        13
       ],
-      "do": "light_up"
+      "do": "shake_head",
+      "who": "people"
      },
      {
       "at": [
        56,
-       15
+       16
       ],
-      "do": "sparkle",
-      "who": "light"
-     },
-     {
-      "at": [
-       56,
-       17
-      ],
-      "do": "push_in"
+      "do": "turn",
+      "who": "people"
      },
      {
       "at": [
        56,
        18
       ],
-      "do": "wind"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -269,10 +275,13 @@
        56,
        5
       ],
-      "until": null,
+      "until": [
+       56,
+       7
+      ],
       "motif": "burst",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -282,7 +291,7 @@
       "until": null,
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "light_sweep"
@@ -298,7 +307,7 @@
    ],
    "tafsir": 16,
    "excerpt": "وضَّحنا ونوَّعنا",
-   "target": "center",
+   "target": "",
    "tone": "blue"
   },
   {
@@ -309,7 +318,7 @@
    ],
    "tafsir": 16,
    "excerpt": "أكثر المخلوقات خصومة وجدلا",
-   "target": "",
+   "target": "people",
    "tone": "amber"
   },
   {
@@ -364,7 +373,7 @@
    ],
    "tafsir": 16,
    "excerpt": "ليزيلوا بباطلهم الحق الذي جاءهم به الرسول",
-   "target": "",
+   "target": "people",
    "tone": "red"
   },
   {
@@ -381,7 +390,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Calm visuals only, nothing and no one drawn: the geometric pattern turns with the many kinds of examples in the Quran, dawn for the guidance that came, rays of light for the messengers; disputing with falsehood is only a passing gust of wind and the light returns on the truth. v2: the lamp plate now covers 55:7-8 and leaves before the Name (55:10); no sparkle on the Name and no sky tilt just before it. The clouds parting on 55:7 became birds: its rays from above would still shine on the Name (55:10)."
+  "notes": "Staging v4 (v2b): 18:54 and 18:56 are stage scenes in a town: three faceless disbelievers (3 figures = a group) dispute among themselves (speak, inside the group), shake their heads at the truth (54:14, 56:13) and turn away in mockery (56:16); the book plate marks the Quran (54:5) and His verses (56:15), the burst plate the glad tidings (56:5; it leaves when the dispute begins, 56:7). The messengers are never drawn and no pan drifts toward an empty side on «المرسلين». 18:55 (the threat) stays a calm ambient night sky with the lamp and lightning plates. v2: the lamp plate now covers 55:7-8 and leaves before the Name (55:10); no sparkle on the Name and no sky tilt just before it. The clouds parting on 55:7 became birds: its rays from above would still shine on the Name (55:10). v2b: c1 and c3 restaged as above; c2 mood night_sky instead of dawn (no dawn over the threat of 55:14-19), with stars instead of birds at 55:7; the gloss on 54:2 has no arrow, the glosses on 54:14 and 56:11 point at the disputers."
  },
  "cover": {
   "series_ar": "الجدال وسنة الله",

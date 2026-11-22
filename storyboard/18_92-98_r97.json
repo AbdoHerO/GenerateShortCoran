@@ -258,14 +258,6 @@
      {
       "at": [
        95,
-       6
-      ],
-      "do": "shake_head",
-      "who": "ruler"
-     },
-     {
-      "at": [
-       95,
        7
       ],
       "do": "point",
@@ -746,7 +738,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Dhul-Qarnayn is the righteous 'ruler' actor only. Gog and Magog are never drawn: no actor stands for them; the people only point toward the pass, and their gloss is Al-Muyassar's 'two great nations of the children of Adam' with no arrow. barrier_build runs from 'bars of iron' to 'molten copper' (18:96). In c4 the event sits on the first word only so the barrier stands complete (no rebuild intended). 18:98 is calm: the ruler speaks, raises his hands in gratitude and lowers his head; the levelling on the promised day is never shown. Review fix: Dhul-Qarnayn is shown as a neutral labelled light (his status is uncertain), like al-Khidr. v2: the people of the pass are a group of 3 (4 drew a woman); each speech is aimed at its listener; no close-up or push-in on Dhul-Qarnayn, no pan in the drop scenes; the bricks plate leaves before the Name (95:5); in 18:98 the light plate on the mercy (just before the Name) is removed, so his raised hands are under no plate, the camera no longer moves on the Name (98:5, 98:9), and the seal plate leaves before he lowers his head (98:13). Gog and Magog are still never drawn."
+  "notes": "Dhul-Qarnayn is the righteous 'ruler' actor only. Gog and Magog are never drawn: no actor stands for them; the people only point toward the pass, and their gloss is Al-Muyassar's 'two great nations of the children of Adam' with no arrow. barrier_build runs from 'bars of iron' to 'molten copper' (18:96). In c4 the event sits on the first word only so the barrier stands complete (no rebuild intended). 18:98 is calm: the ruler speaks, raises his hands in gratitude and lowers his head; the levelling on the promised day is never shown. Review fix: Dhul-Qarnayn is shown as a neutral labelled light (his status is uncertain), like al-Khidr. v2: the people of the pass are a group of 3 (4 drew a woman); each speech is aimed at its listener; no close-up or push-in on Dhul-Qarnayn, no pan in the drop scenes; the bricks plate leaves before the Name (95:5); in 18:98 the light plate on the mercy (just before the Name) is removed, so his raised hands are under no plate, the camera no longer moves on the Name (98:5, 98:9), and the seal plate leaves before he lowers his head (98:13). Gog and Magog are still never drawn. v2b: no head-shake on «خير» right after the Name (95:6); the gloss already says he refused the payment."
  },
  "cover": {
   "series_ar": "ذو القرنين",
