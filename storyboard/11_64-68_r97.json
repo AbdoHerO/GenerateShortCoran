@@ -33,10 +33,57 @@
     64,
     65
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "mountains",
+    "time": "day",
+    "actors": [
+     {
+      "id": "salih",
+      "type": "prophet",
+      "label": "صالح",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       64,
+       1
+      ],
+      "do": "speak",
+      "who": "salih"
+     },
+     {
+      "at": [
+       64,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       64,
+       7
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
      {
       "at": [
        64,
@@ -47,16 +94,17 @@
      {
       "at": [
        64,
-       14
+       12
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        64,
        15
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
@@ -67,31 +115,40 @@
      },
      {
       "at": [
-       64,
-       17
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
        65,
        1
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       65,
-       3
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        65,
-       8
+       2
+      ],
+      "do": "speak",
+      "who": "salih"
+     },
+     {
+      "at": [
+       65,
+       5
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       65,
+       7
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       65,
+       8
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -106,12 +163,12 @@
       ],
       "motif": "burst",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
-       65,
-       6
+       64,
+       17
       ],
       "until": [
        65,
@@ -119,7 +176,7 @@
       ],
       "motif": "hourglass",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -130,23 +187,55 @@
    "verses": [
     66
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "mountains",
+    "time": "day",
+    "actors": [
+     {
+      "id": "salih",
+      "type": "prophet",
+      "label": "صالح",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       66,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        66,
        2
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        66,
        4
       ],
-      "do": "shot_wide"
+      "do": "sparkle",
+      "who": "b"
      },
      {
       "at": [
@@ -160,14 +249,15 @@
        66,
        6
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        66,
-       13
+       11
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -178,11 +268,11 @@
       ],
       "until": [
        66,
-       11
+       13
       ],
-      "motif": "light",
+      "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -192,7 +282,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "dissolve"
@@ -205,30 +295,49 @@
     67,
     68
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "mountains",
+    "time": "day",
+    "actors": [],
+    "events": [
+     {
+      "type": "blast",
+      "at": [
+       67,
+       4
+      ],
+      "until": null
+     }
+    ],
     "beats": [
+     {
+      "at": [
+       67,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        67,
        5
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       67,
-       8
-      ],
       "do": "pan_left"
      },
      {
       "at": [
-       68,
-       2
+       67,
+       7
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       68,
+       3
+      ],
+      "do": "leaves"
      },
      {
       "at": [
@@ -249,18 +358,32 @@
        68,
        10
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        68,
        12
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      }
     ],
-    "motifs": [],
-    "transition": "dissolve"
+    "motifs": [
+     {
+      "at": [
+       68,
+       1
+      ],
+      "until": [
+       68,
+       5
+      ],
+      "motif": "leaf",
+      "place": "top",
+      "size": "s"
+     }
+    ],
+    "transition": "wipe"
    }
   }
  ],
@@ -411,7 +534,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The she-camel is never drawn: a burst (a sign) for «آية» that leaves before «أرض الله». No killing, cry, ruins or bodies drawn. An hourglass for «ثلاثة أيام». Light for «برحمة» after Salih's name (66:5); geometric for «هو القوي العزيز» (it starts after «إن ربك»). 66:4-13 is not glossed (first-person paraphrase). 64:15-17 is not glossed."
+  "notes": "The she-camel is never drawn: a burst (a sign) for «آية» that leaves before «أرض الله». No killing, cry, ruins or bodies drawn. An hourglass for «ثلاثة أيام». Light for «برحمة» after Salih's name (66:5); geometric for «هو القوي العزيز» (it starts after «إن ربك»). 66:4-13 is not glossed (first-person paraphrase). 64:15-17 is not glossed. STAGING v4: Thamud in a mountain valley by day (as in 7_75-79). Salih is a blue drop labelled Salih (no plate on his name); his people three faceless men in dark robes (the series' sign for a group, no number meant). The she-camel is never drawn: nobody points, nothing is shown where she would be; a burst plate for the sign (64:6-9) and nothing else. c1 (64-65): Salih speaks (64:1, 65:2); the camera on his people when they are told to leave her and when warned (64:7, 64:15: the threat is held on the wrongdoers); an hourglass for the near punishment and the three days (64:17-65:7). Nothing moves, gestures or leaves on 65:1 (the hamstringing is not shown or implied): the camera only goes wide, the men stand still. c2 (66): Salih and three believers standing in the valley; a soft sparkle on the believers for We saved (66:4), the camera on those who believed (66:6); geometric for the mercy from Allah (66:9-12) and for the Lord's names (66:16-18; 66:14-18 is addressed to the Prophet: camera only). No departure is drawn (the tafsirs give none). c3 (67-68): the valley is empty: no person is on stage, so nobody leaves or falls on a word of punishment; the blast (67:4) falls on the empty valley by day (not dawn); no body, no ruin. A leaf plate and a few drifting leaves for as though they had never lived there (68:1-4), gone before 68:9. Cover: the empty valley with the leaf plate (the end of Thamud)."
  },
  "cover": {
   "series_ar": "صالح وثمود",
@@ -419,9 +542,10 @@
   "title_ar": "عاقبة ثمود",
   "title_en": "The end of Thamud",
   "at": [
-   65,
-   6
+   68,
+   4
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

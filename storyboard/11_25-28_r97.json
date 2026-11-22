@@ -93,9 +93,17 @@
      {
       "at": [
        26,
+       1
+      ],
+      "do": "speak",
+      "who": "nuh"
+     },
+     {
+      "at": [
+       26,
        4
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -338,7 +346,8 @@
        28,
        10
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "nuh"
      },
      {
       "at": [
@@ -359,7 +368,8 @@
        28,
        16
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "nuh"
      },
      {
       "at": [
@@ -535,7 +545,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Nuh: no motif, figure or drop; the only plate is geometric on «ألا تعبدوا إلا الله». The chiefs' claims (27) are framed: «رادين لدعوة نوح», «بزعمهم», «يعنون بذلك», «وكذبوا في قولهم هذا», and «أراذلنا» is answered by As-Sa'di's «وهم في الحقيقة الأشراف». 27:21-26 («وما نرى لكم علينا من فضل») is not glossed (any short excerpt restates their claim). 28 is Nuh's reply: no plate. 27: short-word flag, listen. STAGING v4: Nuh is a blue drop labelled Nuh, never a figure; no plate starts on his name, and the camera stays wide whenever he is named or speaks (no close-up or pan on his drop, no ordinary figure in close-up during his words). His people's chiefs are three faceless men in dark robes in a plain town by day (the sources name no place). c1 (25-26): Nuh speaks on 25:6 and 26:6; geometric on 26:2-5 (worship none but Allah); the warning is held wide. c2 (27): the believers who followed him stand in the middle, three figures in light robes (a small group: no number is meant); the chiefs speak (27:1, 27:7) with the camera on them, point at the believers on 27:18 (they call them the lowest; the gloss answers that they are in truth the noble), shake their heads on 27:22 (no merit over us) and 27:28 (we think you liars, framed by the gloss). c3 (28): Nuh answers (28:1); a seal plate for clear proof from my Lord and the mercy He gave me (28:7-13, Al-Muyassar: prophethood); nobody else gestures during his words and the camera stays wide. The cover now shows Nuh speaking to the chiefs (25:6)."
+  "notes": "Nuh: no motif, figure or drop; the only plate is geometric on «ألا تعبدوا إلا الله». The chiefs' claims (27) are framed: «رادين لدعوة نوح», «بزعمهم», «يعنون بذلك», «وكذبوا في قولهم هذا», and «أراذلنا» is answered by As-Sa'di's «وهم في الحقيقة الأشراف». 27:21-26 («وما نرى لكم علينا من فضل») is not glossed (any short excerpt restates their claim). 28 is Nuh's reply: no plate. 27: short-word flag, listen. STAGING v4: Nuh is a blue drop labelled Nuh, never a figure; no plate starts on his name, and the camera stays wide whenever he is named or speaks (no close-up or pan on his drop, no ordinary figure in close-up during his words). His people's chiefs are three faceless men in dark robes in a plain town by day (the sources name no place). c1 (25-26): Nuh speaks on 25:6, 26:1 and 26:6; geometric on 26:2-5 (worship none but Allah); the warning is held wide. c2 (27): the believers who followed him stand in the middle, three figures in light robes (a small group: no number is meant); the chiefs speak (27:1, 27:7) with the camera on them, point at the believers on 27:18 (they call them the lowest; the gloss answers that they are in truth the noble), shake their heads on 27:22 (no merit over us) and 27:28 (we think you liars, framed by the gloss). c3 (28): Nuh answers (28:1, 28:10, 28:16); a seal plate for clear proof from my Lord and the mercy He gave me (28:7-13, Al-Muyassar: prophethood); nobody else gestures during his words and the camera stays wide. The cover now shows Nuh speaking to the chiefs (25:6)."
  },
  "cover": {
   "series_ar": "نوح وقومه",

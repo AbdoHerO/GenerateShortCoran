@@ -89,7 +89,30 @@
      {
       "at": [
        29,
+       6
+      ],
+      "do": "speak",
+      "who": "nuh"
+     },
+     {
+      "at": [
+       29,
+       11
+      ],
+      "do": "speak",
+      "who": "nuh"
+     },
+     {
+      "at": [
+       29,
        12
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       29,
+       13
       ],
       "do": "shot_wide"
      },
@@ -106,7 +129,8 @@
        29,
        19
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "nuh"
      },
      {
       "at": [
@@ -135,7 +159,8 @@
        30,
        8
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "nuh"
      }
     ],
     "motifs": [
@@ -219,7 +244,8 @@
        31,
        7
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "nuh"
      },
      {
       "at": [

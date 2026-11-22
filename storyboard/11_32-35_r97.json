@@ -166,7 +166,8 @@
        33,
        8
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "nuh"
      },
      {
       "at": [
@@ -189,6 +190,14 @@
        5
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       34,
+       9
+      ],
+      "do": "speak",
+      "who": "nuh"
      },
      {
       "at": [
