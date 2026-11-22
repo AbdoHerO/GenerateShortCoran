@@ -62,16 +62,15 @@
        5,
        3
       ],
-      "do": "bow",
+      "do": "shot_close",
       "who": "d"
      },
      {
       "at": [
        5,
-       5
+       7
       ],
-      "do": "shot_close",
-      "who": "d"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -562,7 +561,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "6:10-12 is not glossed: the tafsirs read «مستقرها ومستودعها» differently. 7:1-8 is not glossed (As-Sa'di's naming of the days is not shown); the Throne and the water (7:9-12) are never drawn. Their saying (7:24-31, 8:8-10) is framed. Geometric for «يعلم ما يسرون», wheat for «رزقها», a book for «في كتاب مبين», stars for the heavens, two paths for «أيكم أحسن عملا», an hourglass for «أخرنا عنهم العذاب». The garden mood is the earth's creatures, not Paradise. STAGING v4: c1 (5) is staged in a plain town by day: three idolaters in dark robes (a blamed group: no woman is singled out) bend forward on 5:3 (they fold their chests, As-Sa'di: they bend them to hide), and the camera holds on them while they cover themselves (5:9); from whom they hide is left open (As-Sa'di gives a second reading about the Prophet ﷺ, so nobody turns toward an empty side). A geometric plate for His knowledge from 5:11, the background quiet over 5:11-19. c2 (6) is staged in fields by day: three people sitting (As-Sa'di: every creature, human or animal) and a camel walking in on 6:3 (a creature); the wheat field grows on 6:9 (its provision, a sign of provision only); the dwelling and storage place (6:10-12, the two tafsirs differ) get camera only; a book plate for the clear record (6:15). c3 (7-8) stays ambient: the creation of the heavens and the earth, the Throne on the water, the address to the Prophet ﷺ (7:17-23) and the delayed punishment (His acts, the unseen); the background stays quiet over 7:1-23 and 8:1-7. The cover now shows the idolaters under the plate of His knowledge (5:13)."
+  "notes": "6:10-12 is not glossed: the tafsirs read «مستقرها ومستودعها» differently. 7:1-8 is not glossed (As-Sa'di's naming of the days is not shown); the Throne and the water (7:9-12) are never drawn. Their saying (7:24-31, 8:8-10) is framed. Geometric for «يعلم ما يسرون», wheat for «رزقها», a book for «في كتاب مبين», stars for the heavens, two paths for «أيكم أحسن عملا», an hourglass for «أخرنا عنهم العذاب». The garden mood is the earth's creatures, not Paradise. STAGING v4: c1 (5) is staged in a plain town by day: three idolaters in dark robes (a blamed group: no woman is singled out) are held in close-up on 5:3 with no gesture (review: As-Sa'di reads a physical bending of the chests, Al-Muyassar disbelief hidden in the chests, so no bend is drawn), and the camera holds on them again while they cover themselves (5:9); from whom they hide is left open (As-Sa'di gives a second reading about the Prophet ﷺ, so nobody turns toward an empty side). A geometric plate for His knowledge from 5:11, the background quiet over 5:11-19. c2 (6) is staged in fields by day: three people sitting (As-Sa'di: every creature, human or animal) and a camel walking in on 6:3 (a creature); the wheat field grows on 6:9 (its provision, a sign of provision only); the dwelling and storage place (6:10-12, the two tafsirs differ) get camera only; a book plate for the clear record (6:15). c3 (7-8) stays ambient: the creation of the heavens and the earth, the Throne on the water, the address to the Prophet ﷺ (7:17-23) and the delayed punishment (His acts, the unseen); the background stays quiet over 7:1-23 and 8:1-7. The cover now shows the idolaters under the plate of His knowledge (5:13)."
  },
  "cover": {
   "series_ar": "الكتاب والإنسان",

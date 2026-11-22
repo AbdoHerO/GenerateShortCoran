@@ -56,16 +56,6 @@
       "pose": "stand",
       "enter": null,
       "exit": null
-     },
-     {
-      "id": "b",
-      "type": "believers",
-      "label": "",
-      "place": "right",
-      "count": 3,
-      "pose": "stand",
-      "enter": null,
-      "exit": null
      }
     ],
     "events": [],
@@ -126,9 +116,7 @@
        40,
        21
       ],
-      "do": "walk_to",
-      "who": "b",
-      "to": "ark"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -142,8 +130,7 @@
        40,
        25
       ],
-      "do": "shot_close",
-      "who": "b"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -182,6 +169,16 @@
        40,
        15
       ],
+      "motif": "footsteps",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       40,
+       21
+      ],
+      "until": null,
       "motif": "footsteps",
       "place": "top",
       "size": "s"
@@ -250,7 +247,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No flood, water, animals or people drawn: an hourglass for «حتى إذا جاء أمرنا», the ship as a symbol for «احمل فيها». 40:1-4 and 40:20-21 are not glossed (first-person paraphrase of Allah; «احمل فيها» echo). STAGING v4: The plain town by day, the ark already built. Nuh is a blue drop labelled Nuh; the few who believed with him are three figures in light robes (a small group, no number is meant: the two tafsirs give none). Allah's command and His words to Nuh (40:1-21) keep the background quiet. An hourglass for when Our command came (40:1-4); the gushing of water from the oven is only a water-drop plate (40:5-6, Al-Muyassar: the sign of the coming punishment); no flood, rain, oven or animal is drawn (the pairs of every kind are not drawn). Nuh moves to the ark on 40:8 (carry in it). His family is not drawn (it includes women, and his son and his wife are the exception, never drawn): only a footsteps plate on 40:14. The believers walk to the ark on 40:21 (and whoever believed), and the camera holds on them for except a few (40:25). Nobody is drowned; nobody faces an empty side."
+  "notes": "No flood, water, animals or people drawn: an hourglass for «حتى إذا جاء أمرنا», the ship as a symbol for «احمل فيها». 40:1-4 and 40:20-21 are not glossed (first-person paraphrase of Allah; «احمل فيها» echo). STAGING v4: The plain town by day, the ark already built. Nuh is a blue drop labelled Nuh. Allah's command and His words to Nuh (40:1-21) keep the background quiet. An hourglass for when Our command came (40:1-4); the gushing of water from the oven is only a water-drop plate (40:5-6, Al-Muyassar: the sign of the coming punishment); no flood, rain, oven or animal is drawn (the pairs of every kind are not drawn). Nuh moves to the ark on 40:8 (carry in it). His family is not drawn (it includes women, and his son and his wife are the exception, never drawn): only a footsteps plate on 40:14, gone before the exception. Those who believed with him are not drawn either (review: the verse and both tafsirs give no number, and other reports differ): a second footsteps plate from 40:21 (and whoever believed) to the end, through except a few, with wide holds only; no countable or uncountable group stands for them. Nobody is drowned; nobody faces an empty side. The cover shows Nuh at the ark under the footsteps plate (40:23)."
  },
  "cover": {
   "series_ar": "نوح وقومه",
@@ -259,7 +256,7 @@
   "title_en": "Ready for the rescue",
   "at": [
    40,
-   21
+   23
   ]
  },
  "motion": 3,

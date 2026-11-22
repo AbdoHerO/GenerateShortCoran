@@ -215,7 +215,7 @@
       "id": "lut",
       "type": "prophet",
       "label": "لوط",
-      "place": "left",
+      "place": "center",
       "count": 1,
       "pose": "stand",
       "enter": null,
@@ -227,7 +227,7 @@
       "label": "",
       "place": "right",
       "count": 3,
-      "pose": "stand",
+      "pose": "walk",
       "enter": [
        78,
        2
@@ -243,6 +243,15 @@
        1
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       78,
+       2
+      ],
+      "do": "walk_to",
+      "who": "d",
+      "to": "lut"
      },
      {
       "at": [
@@ -473,7 +482,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "76 is JOINED to 77, so the answer to Ibrahim opens this video. Angels and Lut are never drawn; the only plate is geometric on «جاء أمر ربك». The indecency is never described: 78:5-16 and 79 are not glossed (78:10-16 «هؤلاء بناتي» is also read differently by the tafsirs), and As-Sa'di's description of the guests' appearance is not used. STAGING v4: c1 (76): still Ibrahim's home (blue drop Ibrahim, one gold drop the angels): the angels answer him (76:1); geometric for the command of your Lord (76:7-9), an hourglass for the punishment that will come and not be turned back (76:11-14). c2 (77): Lut's town by day (the tafsirs give no hour; never a night crowd): Lut a blue drop labelled Lut; the angels (one gold drop) appear on 77:2 and glow softly on 77:3 (no plate for them, no close-up or pan on the drops); Lut lowers his drop in distress (77:5, Al-Muyassar: their coming grieved him) and speaks (77:10). c3 (78-79): his people are three faceless men in dark robes (no women, at most three for a blamed group) who appear by day at a distance on the right (78:2), not at a door and not at night; the camera stays wide as they come (no close-up that would frame them at a doorway) and while their past deeds are named (78:5-9): their sin is never shown or suggested. Lut speaks to them (78:10, 78:17, 78:23); his daughters are never drawn, nobody points, and no side is left as their place; his guests are not on this stage. Geometric for fear Allah (78:17-18). They answer him (79:1) and the camera stays wide over their words (no gesture). Cover: Lut and his guests (the angels) in the town."
+  "notes": "76 is JOINED to 77, so the answer to Ibrahim opens this video. Angels and Lut are never drawn; the only plate is geometric on «جاء أمر ربك». The indecency is never described: 78:5-16 and 79 are not glossed (78:10-16 «هؤلاء بناتي» is also read differently by the tafsirs), and As-Sa'di's description of the guests' appearance is not used. STAGING v4: c1 (76): still Ibrahim's home (blue drop Ibrahim, one gold drop the angels): the angels answer him (76:1); geometric for the command of your Lord (76:7-9), an hourglass for the punishment that will come and not be turned back (76:11-14). c2 (77): Lut's town by day (the tafsirs give no hour; never a night crowd): Lut a blue drop labelled Lut; the angels (one gold drop) appear on 77:2 and glow softly on 77:3 (no plate for them, no close-up or pan on the drops); Lut lowers his drop in distress (77:5, Al-Muyassar: their coming grieved him) and speaks (77:10). c3 (78-79): his people are three faceless men in dark robes (no women, at most three for a blamed group) who come in by day from the far right on 78:2, walking along the street toward Lut (they came hastening to him), and stop in the open street beside him; Lut stands at the centre, where no door is behind him or them, so they read as men confronting him in the street, never as a crowd at a door or at night; the camera stays wide as they come and while their past deeds are named (78:5-9): their sin is never shown or suggested. Lut speaks to them (78:10, 78:17, 78:23); his daughters are never drawn, nobody points, and no side is left as their place; his guests are not on this stage. Geometric for fear Allah (78:17-18). They answer him (79:1) and the camera stays wide over their words (no gesture). Cover: Lut and his guests (the angels) in the town."
  },
  "cover": {
   "series_ar": "لوط وقومه",
