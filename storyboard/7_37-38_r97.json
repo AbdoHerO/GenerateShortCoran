@@ -366,7 +366,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Death, the angels and the Fire: nothing literal, night sky only; an hourglass for the coming of death. 37:11-15 «نصيبهم من الكتاب» is not glossed (Al-Muyassar: their share of punishment; As-Sa'di: their worldly share). 38:1-3 not glossed (the tafsirs differ on who says «ادخلوا»). No countable groups drawn."
+  "notes": "Death, the angels and the Fire: nothing literal, night sky only; an hourglass for the coming of death. 37:11-15 «نصيبهم من الكتاب» is not glossed (Al-Muyassar: their share of punishment; As-Sa'di: their worldly share). 38:1-3 not glossed (the tafsirs differ on who says «ادخلوا»). No countable groups drawn. STAGING v4: Staging v4: kept ambient. 37 turns on the coming of the angels who take the souls and the dialogue at death, and 38 is inside the Fire (the unseen): no angel, no death scene and no fire drawn; no countable group."
  },
  "cover": {
   "series_ar": "مشاهد الآخرة",
@@ -378,5 +378,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

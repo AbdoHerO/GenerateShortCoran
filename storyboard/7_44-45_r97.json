@@ -39,9 +39,23 @@
      {
       "at": [
        44,
+       2
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       44,
        4
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       44,
+       5
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -70,6 +84,13 @@
        13
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       44,
+       15
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
@@ -140,6 +161,13 @@
        8
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       45,
+       10
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [],
@@ -217,7 +245,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Paradise and the Fire: geometric mood, nothing literal; the caller («مؤذن») is not drawn or identified. A seal for «أن لعنة الله على الظالمين». No path motif for «ويبغونها عوجا» (the blamed act)."
+  "notes": "Paradise and the Fire: geometric mood, nothing literal; the caller («مؤذن») is not drawn or identified. A seal for «أن لعنة الله على الظالمين». No path motif for «ويبغونها عوجا» (the blamed act). STAGING v4: Staging v4: kept ambient. 44-45 are the call between the people of Paradise and of the Fire and the caller's curse on the wrongdoers (the unseen): no caller, no figures, no path motif for the blamed act."
  },
  "cover": {
   "series_ar": "مشاهد الآخرة",
@@ -229,5 +257,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

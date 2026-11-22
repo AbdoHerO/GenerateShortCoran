@@ -32,23 +32,77 @@
    "verses": [
     31
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "home",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        31,
-       4
+       1
       ],
-      "do": "shot_wide"
+      "do": "pray",
+      "who": "b"
      },
      {
       "at": [
        31,
-       11
+       3
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       31,
+       5
+      ],
+      "do": "sujud",
+      "who": "b"
+     },
+     {
+      "at": [
+       31,
+       8
+      ],
+      "do": "stand_up",
+      "who": "b"
+     },
+     {
+      "at": [
+       31,
+       9
+      ],
+      "do": "sit",
+      "who": "b"
+     },
+     {
+      "at": [
+       31,
+       12
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       31,
+       14
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -59,11 +113,21 @@
       ],
       "until": [
        31,
-       10
+       12
       ],
       "motif": "wheat",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       31,
+       12
+      ],
+      "until": null,
+      "motif": "two_paths",
+      "place": "top",
+      "size": "s"
      }
     ]
    }
@@ -74,35 +138,81 @@
    "verses": [
     32
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "walk",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        32,
-       6
+       2
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        32,
-       14
+       7
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        32,
-       19
+       12
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       32,
+       15
+      ],
+      "do": "sparkle",
+      "who": "b"
+     },
+     {
+      "at": [
+       32,
+       17
       ],
       "do": "pan_left"
      },
      {
       "at": [
        32,
+       20
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       32,
        23
+      ],
+      "do": "read",
+      "who": "b"
+     },
+     {
+      "at": [
+       32,
+       26
       ],
       "do": "shot_wide"
      }
@@ -119,7 +229,17 @@
       ],
       "motif": "growth",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       32,
+       23
+      ],
+      "until": null,
+      "motif": "book",
+      "place": "top",
+      "size": "s"
      }
     ],
     "transition": "morph"
@@ -138,54 +258,74 @@
      {
       "at": [
        33,
-       5
+       6
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        33,
-       9
+       10
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        33,
        12
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        33,
-       16
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       33,
-       20
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       33,
-       24
+       19
       ],
       "do": "pan_right"
      },
      {
       "at": [
        33,
-       29
+       24
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       33,
+       29
+      ],
+      "do": "pan_left"
      }
     ],
-    "motifs": [],
+    "motifs": [
+     {
+      "at": [
+       33,
+       3
+      ],
+      "until": [
+       33,
+       11
+      ],
+      "motif": "seal",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       33,
+       15
+      ],
+      "until": [
+       33,
+       23
+      ],
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     }
+    ],
     "transition": "wipe"
    }
   }
@@ -337,7 +477,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Wheat for «وكلوا واشربوا», growth for «والطيبات من الرزق». No jewel near «زينة الله» (the Name). 33 (the forbidden things): night sky, no motif."
+  "notes": "Wheat for «وكلوا واشربوا», growth for «والطيبات من الرزق». No jewel near «زينة الله» (the Name). 33 (the forbidden things): night sky, no motif. STAGING v4: c1 (31): three believers (men only) at home, in clean clothes: they stand in prayer from the start, the camera comes close on 31:3 (take your adornment; As-Sa'di: cover yourselves at every prayer), and they prostrate on 31:5-7 (at every place of prostration), rise on 31:8 and sit on 31:9 while a wheat plate stands for eating and drinking; on 31:12 (He does not love the excessive) the camera leaves them for the window and a two_paths plate. No excess is acted out. c2 (32): believers walk through a market of good provisions; growth plate on 32:9 (the good things of provision), sparkle on 32:15 (they are for those who believe), and on 32:23 (thus We detail the verses for a people who know) they read, with a book plate. No plate near 32:5 (the Name) or on either «قل». c3 (33: the prohibitions) stays ambient so that no sin is acted out: a seal plate on 33:3 (He has forbidden) and a geometric plate for 33:15-22 (associating others with Him)."
  },
  "cover": {
   "series_ar": "الزينة والتقوى",
@@ -346,8 +486,9 @@
   "title_en": "Permitted adornment",
   "at": [
    32,
-   1
+   10
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

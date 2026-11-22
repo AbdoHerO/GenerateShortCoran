@@ -149,7 +149,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The heights, Paradise and the Fire: nothing literal, no figures, no countable group. Who the men of the heights are is not glossed (Al-Muyassar's «استوت حسناتهم وسيئاتهم» is one view). Light for «وهم يطمعون»."
+  "notes": "The heights, Paradise and the Fire: nothing literal, no figures, no countable group. Who the men of the heights are is not glossed (Al-Muyassar's «استوت حسناتهم وسيئاتهم» is one view). Light for «وهم يطمعون». STAGING v4: Staging v4: kept ambient. 46 describes the barrier and the men on the heights (the unseen): no figures and no countable group; who they are is left unglossed."
  },
  "cover": {
   "series_ar": "مشاهد الآخرة",
@@ -161,5 +161,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

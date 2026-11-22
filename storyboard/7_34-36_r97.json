@@ -32,30 +32,59 @@
    "verses": [
     34
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "walk",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        34,
-       5
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       34,
-       6
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        34,
-       9
+       5
+      ],
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       34,
+       6
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       34,
+       8
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       34,
+       11
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -67,7 +96,7 @@
       "until": null,
       "motif": "hourglass",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -79,21 +108,54 @@
     35,
     36
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [
+     {
+      "type": "darkness",
+      "at": [
+       36,
+       7
+      ],
+      "until": null
+     }
+    ],
     "beats": [
      {
       "at": [
        35,
-       4
+       1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        35,
-       6
+       5
       ],
       "do": "shot_wide"
      },
@@ -102,19 +164,37 @@
        35,
        8
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        35,
-       13
+       11
       ],
-      "do": "pan_left"
+      "do": "pray",
+      "who": "b"
+     },
+     {
+      "at": [
+       35,
+       15
+      ],
+      "do": "sparkle",
+      "who": "b"
      },
      {
       "at": [
        35,
        18
+      ],
+      "do": "stand_up",
+      "who": "b"
+     },
+     {
+      "at": [
+       36,
+       1
       ],
       "do": "pan_right"
      },
@@ -123,57 +203,78 @@
        36,
        2
       ],
-      "do": "shot_wide"
+      "do": "shake_head",
+      "who": "d"
+     },
+     {
+      "at": [
+       36,
+       4
+      ],
+      "do": "turn",
+      "who": "d"
      },
      {
       "at": [
        36,
        5
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        36,
        6
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        36,
-       7
+       10
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       36,
-       8
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       36,
-       9
-      ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "d"
      }
     ],
     "motifs": [
      {
       "at": [
        35,
-       10
+       7
       ],
       "until": [
        35,
+       10
+      ],
+      "motif": "book",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       35,
        13
+      ],
+      "until": [
+       36,
+       1
       ],
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       36,
+       8
+      ],
+      "until": null,
+      "motif": "seal",
+      "place": "top",
+      "size": "s"
      }
     ],
     "transition": "morph"
@@ -261,7 +362,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "34:1-6 not glossed: Al-Muyassar limits the term to the punishment of disbelieving nations, As-Sa'di makes it the term of every nation and person. An hourglass for «أجل». Light for «فمن اتقى وأصلح». The Fire (36): no motif, nothing literal. First-person «رسلي… كتابي… سخطي» not used."
+  "notes": "34:1-6 not glossed: Al-Muyassar limits the term to the punishment of disbelieving nations, As-Sa'di makes it the term of every nation and person. An hourglass for «أجل». Light for «فمن اتقى وأصلح». The Fire (36): no motif, nothing literal. First-person «رسلي… كتابي… سخطي» not used. STAGING v4: c1 (34: every nation has its term): people walk through a town at dusk with an hourglass plate; nobody leaves and nothing happens to them, since Al-Muyassar makes the term the punishment of denying nations and As-Sa'di the term of every nation and person: only what both share (a nation, a term) is drawn. c2 (35-36): the messengers (35:5) are not drawn and nobody acts inside the conditional clause; a book plate stands for the verses related (35:7). The camera comes to the believers on 35:8; on 35:11 (whoever is God-fearing) they stand in prayer, a light plate and a soft sparkle for no fear and no grief; they rise on 35:18. On 36:1 the camera moves to the three deniers: they shake their heads (they denied), turn away (they were arrogant) and the camera stays on them through the threat; the scene darkens on 36:7 and a seal plate stands on 36:8-11. The Fire is not pictured (no fire motif)."
  },
  "cover": {
   "series_ar": "الزينة والتقوى",
@@ -270,8 +371,9 @@
   "title_en": "The fixed term",
   "at": [
    34,
-   1
+   4
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

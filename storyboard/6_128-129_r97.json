@@ -210,7 +210,7 @@
       ],
       "do": "walk_to",
       "who": "y",
-      "to": "center"
+      "to": "x"
      },
      {
       "at": [
@@ -306,7 +306,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Jinn, the Gathering and the Fire: night sky only, nothing drawn. The exception «إلا ما شاء الله» (128:28-31) is not glossed: Al-Muyassar's «من عصاة الموحدين» is one view. Al-Muyassar's and As-Sa'di's first-person «سلَّطْنا… سنتنا أن نولي» not used. STAGING v4: c1 (128) stays ambient: the Gathering, the jinn and the Fire are the unseen. c2 (129): Al-Muyassar places it in this world (the wrongdoers set over one another), As-Sa'di: each wrongdoer urges another to evil. Two men in dark robes in a town at dusk: one speaks to the other on 129:2 and the other walks over to his side on 129:5 (allies). Nothing violent, no plate."
+  "notes": "Jinn, the Gathering and the Fire: night sky only, nothing drawn. The exception «إلا ما شاء الله» (128:28-31) is not glossed: Al-Muyassar's «من عصاة الموحدين» is one view. Al-Muyassar's and As-Sa'di's first-person «سلَّطْنا… سنتنا أن نولي» not used. STAGING v4: c1 (128) stays ambient: the Gathering, the jinn and the Fire are the unseen. c2 (129): Al-Muyassar places it in this world (the wrongdoers set over one another), As-Sa'di: each wrongdoer urges another to evil. Two men in dark robes in a town at dusk: one speaks to the other on 129:2 and the other walks over to stand beside him on 129:5 (allies). Nothing violent, no plate."
  },
  "cover": {
   "series_ar": "الهداية والضلال",

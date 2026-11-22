@@ -158,6 +158,13 @@
      {
       "at": [
        43,
+       26
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       43,
        28
       ],
       "do": "shot_wide"
@@ -313,7 +320,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Paradise: light mood only; no garden, river, gold or figure drawn («تجري من تحتهم الأنهار» has no motif). Light for «الحمد لله الذي هدانا». 43:33-36 keeps Al-Muyassar's «برحمته، وبما قدَّمتموه»."
+  "notes": "Paradise: light mood only; no garden, river, gold or figure drawn («تجري من تحتهم الأنهار» has no motif). Light for «الحمد لله الذي هدانا». 43:33-36 keeps Al-Muyassar's «برحمته، وبما قدَّمتموه». STAGING v4: Staging v4: kept ambient. 42-43 describe the people of Paradise (the unseen): light mood only, no garden, river, gold or figure; the light plate starts on 43:11, not on the Name."
  },
  "cover": {
   "series_ar": "مشاهد الآخرة",
@@ -325,5 +332,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }
