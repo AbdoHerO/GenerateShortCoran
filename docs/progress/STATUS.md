@@ -1,6 +1,6 @@
 # Production status (generated - do not edit by hand)
 
-Regenerated 2026-11-22 23:10 UTC by `pipeline/progress.py` for reciter 97.
+Regenerated 2026-11-22 23:12 UTC by `pipeline/progress.py` for reciter 97.
 Columns: videos in the surah plan · storyboards written by hand · of those with motion graphics v3 (motifs) · built locally in this session · published to Creative Hub (drafts).
 `built` only counts files present on this machine; `published` (publish/ledger.json) is the durable record.
 
