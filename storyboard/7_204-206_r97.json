@@ -93,7 +93,7 @@
        7
       ],
       "motif": "book",
-      "place": "top",
+      "place": "left",
       "size": "s"
      }
     ]
@@ -103,8 +103,7 @@
    "id": "c2",
    "title": "الذكر الدائم",
    "verses": [
-    205,
-    206
+    205
    ],
    "scene": "stage",
    "params": {
@@ -119,10 +118,7 @@
       "count": 3,
       "pose": "sit",
       "enter": null,
-      "exit": [
-       206,
-       1
-      ]
+      "exit": null
      }
     ],
     "events": [],
@@ -177,7 +173,36 @@
        13
       ],
       "do": "pan_left"
-     },
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       205,
+       11
+      ],
+      "until": [
+       205,
+       13
+      ],
+      "motif": "night_day",
+      "place": "left",
+      "size": "s"
+     }
+    ],
+    "transition": "slide"
+   }
+  },
+  {
+   "id": "c3",
+   "title": "تسبيح الملائكة",
+   "verses": [
+    206
+   ],
+   "scene": "ambient",
+   "params": {
+    "mood": "night_sky",
+    "beats": [
      {
       "at": [
        206,
@@ -211,23 +236,10 @@
        206,
        11
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      }
     ],
     "motifs": [
-     {
-      "at": [
-       205,
-       11
-      ],
-      "until": [
-       205,
-       13
-      ],
-      "motif": "night_day",
-      "place": "top",
-      "size": "s"
-     },
      {
       "at": [
        206,
@@ -236,10 +248,10 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "s"
+      "size": "m"
      }
     ],
-    "transition": "light_sweep"
+    "transition": "dissolve"
    }
   }
  ],
@@ -390,7 +402,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A book for «القرآن», night and day for «بالغدو والآصال». 206 (the angels, a verse of prostration): no motif, nothing drawn. As-Sa'di's «لا تجهر بصلاتك» (Quran wording) not used. STAGING v4: c1 (204): three people sit at home and listen in silence while the Quran is recited (the video's own recitation; no reader is drawn, so no imam or Prophet is implied); a book plate for the Quran (204:3), they lower their heads on 204:4 (listen) and the camera closes on them for 204:6 (be silent), a soft sparkle on 204:8 (that you may receive mercy). c2 (205-206): the same room at dawn; three believers sit in remembrance (205 is addressed to the Prophet and, As-Sa'di, to others after him: shown by the group, never a lone man), they bow in humility on 205:5, the camera closes on them for fear (205:6); a night-and-day plate for the mornings and evenings (205:11-12); no gesture on the negated 205:13-16. 206 is the angels near the Lord (the unseen): the believers leave at 206:1, before the angels are mentioned, and 206 plays on the empty room with a geometric plate from 206:3 over the Lord and His worship; no angel, no light on them, no prostration is drawn (the verse of prostration)."
+  "notes": "A book for «القرآن», night and day for «بالغدو والآصال». 206 (the angels, a verse of prostration): no motif, nothing drawn. As-Sa'di's «لا تجهر بصلاتك» (Quran wording) not used. STAGING v4: c1 (204): three people sit at home and listen in silence while the Quran is recited (the video's own recitation; no reader is drawn, so no imam or Prophet is implied); a book plate on the left for the Quran (204:3, beside the lamp, not over anyone), they lower their heads on 204:4 (listen) and the camera closes on them for 204:6 (be silent), a soft sparkle on 204:8 (that you may receive mercy). c2 (205): the same room at dawn, entered by a slide; three believers sit in remembrance (205 is addressed to the Prophet and, As-Sa'di, to others after him: shown by the group, never a lone man), they bow in humility on 205:5 and the camera closes on them for fear (205:6); a night-and-day plate on the left for the mornings and evenings (205:11-12); no gesture on the negated 205:13-16; nobody prays and nobody sits under a plate. c3 (206, new chapter split from c2 by the picture review): the angels near the Lord are the unseen, so this chapter is ambient (night sky), entered by a dissolve; a geometric plate from 206:3 to the end over the Lord and His worship, camera moves only; no angel, no light on them, no prostration drawn (the verse of prostration), no people on screen."
  },
  "cover": {
   "series_ar": "التوحيد والذكر",

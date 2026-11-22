@@ -182,7 +182,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
@@ -249,7 +249,7 @@
      }
     ],
     "motifs": [],
-    "transition": "morph"
+    "transition": "dissolve"
    }
   }
  ],
@@ -367,7 +367,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The Hour: nothing drawn. 187:11-15 is not glossed (the excerpt cannot keep «إلا هو»). Geometric for «إنما علمها عند ربي», light for «نذير وبشير»; no motif on the Prophet ﷺ. STAGING v4: Staging v4: kept ambient. c1 (187) is the Hour (the unseen) and the question put to the Prophet: night sky, nothing literal, no people. An hourglass for when is its time (187:4-7), a geometric plate for its knowledge being with the Lord (187:8-15; it no longer starts on the address 187:6, which gets camera only), the address 187:24-29 camera only, a geometric plate on 187:30-33 over the Name and an uncountable crowd plate for most of the people (187:34). c2 (188) is the Prophet's own words about himself (the address): camera only, the earlier light plate on 188:27 is removed so nothing appears inside his words; dawn mood unchanged."
+  "notes": "The Hour: nothing drawn. 187:11-15 is not glossed (the excerpt cannot keep «إلا هو»). Geometric for «إنما علمها عند ربي», light for «نذير وبشير»; no motif on the Prophet ﷺ. STAGING v4: Staging v4: kept ambient. c1 (187) is the Hour (the unseen) and the question put to the Prophet: night sky, nothing literal, no people. An hourglass for when is its time (187:4-7), a geometric plate for its knowledge being with the Lord (187:8-15; it no longer starts on the address 187:6, which gets camera only), the address 187:24-29 camera only, a geometric plate on 187:30-33 over the Name and an uncountable crowd plate for most of the people (187:34). c2 (188) is the Prophet's own words about himself (the address): camera only, the earlier light plate on 188:27 is removed so nothing appears inside his words; its mood is now the night sky continuing c1, entered by a dissolve, so no rising sun or rays start on the address 188:1."
  },
  "cover": {
   "series_ar": "الميثاق والهدى",

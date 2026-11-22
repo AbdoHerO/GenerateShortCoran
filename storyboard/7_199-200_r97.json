@@ -54,7 +54,10 @@
       "place": "right",
       "count": 1,
       "pose": "stand",
-      "enter": null,
+      "enter": [
+       199,
+       5
+      ],
       "exit": null,
       "look": "plain"
      }
@@ -66,9 +69,7 @@
        199,
        1
       ],
-      "do": "point",
-      "who": "j",
-      "to": "b"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -83,15 +84,16 @@
        199,
        5
       ],
-      "do": "turn",
-      "who": "b"
+      "do": "point",
+      "who": "j",
+      "to": "b"
      },
      {
       "at": [
        199,
-       6
+       7
       ],
-      "do": "shot_close",
+      "do": "turn",
       "who": "b"
      }
     ],
@@ -185,11 +187,11 @@
      {
       "at": [
        200,
-       6
+       9
       ],
       "until": null,
       "motif": "geometric",
-      "place": "top",
+      "place": "left",
       "size": "s"
      }
     ],
@@ -267,7 +269,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Hands for «خذ العفو», geometric for «فاستعذ بالله». The Shaytan is not drawn. STAGING v4: 199-200 are addressed to the Prophet; Al-Muyassar says to him and his community, As-Sa'di says it is how one deals with people, so the believers (a group of three, never a lone man) act it and the Prophet is never shown or implied. c1 (199) is a market street: a rude man points at the believers (199:1, As-Sa'di: whoever harms you by word or deed), they answer with good words (199:3, enjoin what is good; a lamp plate on 199:4) and turn away from him (199:5, turn away from the ignorant), the camera then closes on the believers (199:6) so the rude man is out of frame when the next verse, about the Shaytan, begins. c2 (200): the believers sit at home; the Shaytan is never drawn and nothing stands for him (camera only on 200:1-5); they raise their hands on 200:6 (seek refuge, As-Sa'di: take shelter with Allah), with a geometric plate from 200:6 over the Name and the two attributes."
+  "notes": "Hands for «خذ العفو», geometric for «فاستعذ بالله». The Shaytan is not drawn. STAGING v4: 199-200 are addressed to the Prophet; Al-Muyassar says to him and his community, As-Sa'di says it is how one deals with people, so the believers (a group of three, never a lone man) act it and the Prophet is never shown or implied. c1 (199) is a market street: the believers speak good words on 199:3 (enjoin what is good; a lamp plate on 199:4); a rude man comes in on 199:5 and points at them (As-Sa'di: whoever harms you by word or deed; Al-Muyassar: the quarrelling of the foolish), and they turn away from him on 199:7 (turn away from the ignorant). Nobody faces the believers during the command 199:1-2. c2 (200): the believers sit at home (the setting change keeps the rude man away from the Shaytan verse); the Shaytan is never drawn and nothing stands for him (camera only on 200:1-5); they raise their hands on 200:6 (seek refuge, As-Sa'di: take shelter with Allah) with no plate on screen; a geometric plate on the left appears only on 200:9, after their hands are down, over the two attributes."
  },
  "cover": {
   "series_ar": "التوحيد والذكر",

@@ -88,8 +88,7 @@
        175,
        5
       ],
-      "do": "shot_close",
-      "who": "m"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -143,7 +142,7 @@
        1
       ],
       "motif": "book",
-      "place": "top",
+      "place": "left",
       "size": "s"
      }
     ]
@@ -307,8 +306,8 @@
        176,
        11
       ],
-      "motif": "coins",
-      "place": "top",
+      "motif": "leaf",
+      "place": "right",
       "size": "s"
      }
     ],
@@ -408,7 +407,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The man is not identified (Al-Muyassar's «رجل من بني إسرائيل» is one view; As-Sa'di leaves it open). No dog motif and no Shaytan; the simile is glossed only by the image both tafsirs share («لا يزال لاهثا في كل حال»). First-person «آتيناه… لرفعناه» not paraphrased. 176:21-26 not glossed. STAGING v4: A parable, staged in a plain room with one faceless man in plain robes who is never named, labelled or made to resemble anyone (the tafsirs differ on who he was; As-Sa'di allows it to be a type). c1 (174-175): a book plate for the detailed signs (174:2) that leaves at 175:1; the address to the Prophet (175:1-3) gets camera only on the empty room (no reader, no listeners, no plate); the man appears seated at 175:5 and reads on 175:6 (both tafsirs: he was taught the signs, a learned man); on 175:7-8 he stands up and turns his back (Al-Muyassar: he cast them behind his back; As-Sa'di: he left the Book behind his back); the Shaytan is never drawn and nothing stands for him (camera only, 175:10); he walks away on 175:11 (he became of the deviators). c2 (176): the counterfactual 176:1-4 gets camera only (nothing is raised); the camera closes on him (176:5) and tilts to the ground on 176:6 with a coins plate (he clung to the earth: worldly desires and aims, both tafsirs); he walks on 176:9 (he followed his desire). The dog is NOT drawn and there is no dog plate (plan caution); during the simile 176:11-20 the camera stays wide and pans, never closing on the man. The deniers (three men in dark robes) come in at 176:23 for the people who denied the signs and shake their heads on 176:25; the address 176:27-30 gets camera only, no gesture on the hoped-for reflection."
+  "notes": "The man is not identified (Al-Muyassar's «رجل من بني إسرائيل» is one view; As-Sa'di leaves it open). No dog motif and no Shaytan; the simile is glossed only by the image both tafsirs share («لا يزال لاهثا في كل حال»). First-person «آتيناه… لرفعناه» not paraphrased. 176:21-26 not glossed. STAGING v4: A parable, staged in a plain room with one faceless man in plain robes who is never named, labelled or made to resemble anyone (the tafsirs differ on who he was; As-Sa'di allows it to be a type). c1 (174-175): a book plate on the left for the detailed signs (174:2) that leaves at 175:1; the address to the Prophet (175:1-3) gets camera only on the empty room (no reader, no listeners, no plate); the man appears seated on the right at 175:5 and stays a small figure in the room (wide camera, no close-up), reading on 175:6 (both tafsirs: he was taught the signs, a learned man); on 175:7-8 he stands up and turns his back (Al-Muyassar: he cast them behind his back; As-Sa'di: he left the Book behind his back); the Shaytan is never drawn and nothing stands for him (camera only, 175:10); he walks away on 175:11 (he became of the deviators). The cover is 175:8, when he turns his back. c2 (176): the counterfactual 176:1-4 gets camera only (nothing is raised); the camera closes on him (176:5) and tilts to the ground on 176:6 with a falling-leaf plate on the right (he clung to the earth: this world and its desires, both tafsirs; no money is shown, as neither tafsir speaks of payment); he walks on 176:9 (he followed his desire). The dog is NOT drawn and there is no dog plate (plan caution); during the simile 176:11-20 the camera stays wide and pans, never closing on the man. The deniers (three men in dark robes) come in at 176:23 for the people who denied the signs and shake their heads on 176:25; the address 176:27-30 gets camera only, no gesture on the hoped-for reflection."
  },
  "cover": {
   "series_ar": "الميثاق والهدى",
@@ -416,7 +415,7 @@
   "title_ar": "الهوى بعد العلم",
   "title_en": "Desire after knowledge",
   "at": [
-   176,
+   175,
    8
   ]
  },
