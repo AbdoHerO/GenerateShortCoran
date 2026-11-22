@@ -94,7 +94,8 @@
        54,
        6
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "h"
      },
      {
       "at": [
@@ -108,15 +109,15 @@
        54,
        9
       ],
-      "do": "shot_close",
-      "who": "h"
+      "do": "shot_wide"
      },
      {
       "at": [
        54,
        12
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "h"
      },
      {
       "at": [

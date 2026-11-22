@@ -71,14 +71,6 @@
      {
       "at": [
        81,
-       3
-      ],
-      "do": "shot_close",
-      "who": "k"
-     },
-     {
-      "at": [
-       81,
        7
       ],
       "do": "shake_head",
@@ -87,9 +79,10 @@
      {
       "at": [
        81,
-       9
+       8
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "k"
      },
      {
       "at": [
