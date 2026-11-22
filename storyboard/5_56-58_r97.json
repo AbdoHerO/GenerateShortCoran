@@ -67,7 +67,7 @@
    ],
    "scene": "stage",
    "params": {
-    "setting": "prayer_hall",
+    "setting": "city",
     "time": "day",
     "actors": [
      {
@@ -89,20 +89,6 @@
       "pose": "stand",
       "enter": null,
       "exit": null
-     },
-     {
-      "id": "c",
-      "type": "man",
-      "label": "",
-      "place": "center",
-      "count": 1,
-      "pose": "stand",
-      "enter": [
-       58,
-       1
-      ],
-      "exit": null,
-      "look": "plain"
      }
     ],
     "events": [],
@@ -202,7 +188,7 @@
        2
       ],
       "do": "speak",
-      "who": "c"
+      "who": "b"
      },
      {
       "at": [
@@ -227,7 +213,7 @@
       ],
       "do": "point",
       "who": "m",
-      "to": "c"
+      "to": "b"
      },
      {
       "at": [
@@ -338,7 +324,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Geometric for «حزب الله». 57-58 (the mockers) under a night sky with no motif; nothing illustrates the mockery or the call to prayer. STAGING v4: 56 stays ambient (allegiance to Allah and His Messenger, the party of Allah). 57-58: a prayer hall; believers on one side, three men (the mockers) on the other. The mockers talk and point at the believers on 57:9-10 (taking the religion in jest); a book plate for those given the Book (57:14); nothing is acted on the prohibition or on the condition of 57:19-23. 58:1 one man (the caller, Al-Muyassar) enters and calls on 58:2; the believers stand in prayer on 58:4; the mockers talk and point at the caller on 58:5-6. No Kaaba, no minaret. The cover moves to 58:7 (the mockers and the prayer) to match its title."
+  "notes": "Geometric for «حزب الله». 57-58 (the mockers) under a night sky with no motif; nothing illustrates the mockery or the call to prayer. STAGING v4: 56 stays ambient (allegiance to Allah and His Messenger, the party of Allah). 57-58: a town by day (the mockers are never inside a mosque); believers on one side, three men (the mockers) on the other. The mockers talk and point at the believers on 57:9-10 (taking the religion in jest); a book plate for those given the Book (57:14); nothing is acted on the prohibition or on the condition of 57:19-23. 58:2 the call comes from the believers themselves (speak), they stand in prayer on 58:4, and the mockers talk and point at them on 58:5-6; no lone caller at the centre. No Kaaba, no minaret. The cover moves to 58:7 (the mockers and the prayer) to match its title."
  },
  "cover": {
   "series_ar": "الولاء والبراء",

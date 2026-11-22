@@ -157,17 +157,16 @@
      },
      {
       "id": "g",
-      "type": "man",
+      "type": "believers",
       "label": "",
       "place": "center",
-      "count": 1,
+      "count": 2,
       "pose": "stand",
       "enter": [
        55,
-       5
+       9
       ],
-      "exit": null,
-      "look": "plain"
+      "exit": null
      },
      {
       "id": "p",
@@ -210,6 +209,13 @@
      {
       "at": [
        54,
+       14
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       54,
        15
       ],
       "do": "bow",
@@ -227,6 +233,13 @@
        54,
        21
       ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       54,
+       23
+      ],
       "do": "pan_left"
      },
      {
@@ -235,13 +248,6 @@
        25
       ],
       "do": "shot_wide"
-     },
-     {
-      "at": [
-       54,
-       26
-      ],
-      "do": "pan_right"
      },
      {
       "at": [
@@ -256,28 +262,28 @@
        54,
        32
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        54,
        36
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        54,
        37
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        55,
        1
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -315,16 +321,16 @@
        55,
        11
       ],
-      "do": "raise_hands",
-      "who": "p"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        55,
        13
       ],
-      "do": "bow",
-      "who": "g"
+      "do": "ruku",
+      "who": "b"
      }
     ],
     "motifs": [
@@ -344,13 +350,26 @@
      {
       "at": [
        54,
-       14
+       13
       ],
       "until": [
        54,
        15
       ],
-      "motif": "light",
+      "motif": "geometric",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       54,
+       26
+      ],
+      "until": [
+       54,
+       29
+      ],
+      "motif": "mountain",
       "place": "top",
       "size": "s"
      },
@@ -508,7 +527,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "53 (the hypocrites exposed) under a night sky with no motif. Light for «ويحبونه», geometric for «إنما وليكم الله». No people, no fighting drawn. STAGING v4: 53: a town at dusk; believers speak among themselves (Al-Muyassar: some believers to others) on 53:2 and point at three men (the hypocrites) on 53:4; the men lower their heads on 53:12 and turn their hands over on 53:14 (their deeds void, the loss); a leaf plate for the void deeds. 54-55: the town is empty during the conditional of 54:4-8 (two-paths plate only, nobody shown turning back); the group of believers appears on 54:12 (the people Allah brings), lowers their heads on 54:15 (humble toward the believers); nothing is drawn for striving (54:21-24) or for the stern side; a sparkle on 54:30 (the favour), geometric for the closing names and 55:1-4. Nobody bows while the Messenger is named (55:4). 55:8 the believers stand in prayer; 55:10 a separate man (not praying) gives a purse to a poor man, who raises his hands; 55:13 is shown as the giver lowering his head (both tafsirs read it as humility, not a bow in prayer), so no one gives while bowing."
+  "notes": "53 (the hypocrites exposed) under a night sky with no motif. Light for «ويحبونه», geometric for «إنما وليكم الله». No people, no fighting drawn. STAGING v4: 53: a town at dusk; believers speak among themselves (Al-Muyassar: some believers to others) on 53:2 and point at three men (the hypocrites) on 53:4; the men lower their heads on 53:12 and turn their hands over on 53:14 (their deeds void, the loss); a leaf plate for the void deeds. 54-55: the town is empty during the conditional of 54:4-8 (two-paths plate only, nobody shown turning back); the group of believers appears on 54:12 (the people Allah brings), lowers their heads on 54:15 (humble toward the believers); nothing is drawn for striving (54:21-24) or for the stern side; a mountain plate on 54:26 (not fearing blame), a sparkle on 54:30 (the favour), geometric for the closing names and 55:1-4. Nobody bows while the Messenger is named (55:4). 55:8 the believers stand in prayer; 55:9 two other believers enter (never a lone man at the centre after the Messenger is named) and give a purse to a poor man on 55:10; the camera then closes on the praying rows (55:11), which bow on 55:13 with the givers out of frame, so no one gives while bowing. Geometric (not light) for 54:13-14."
  },
  "cover": {
   "series_ar": "الولاء والبراء",

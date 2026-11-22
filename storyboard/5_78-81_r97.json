@@ -47,38 +47,6 @@
       "pose": "stand",
       "enter": null,
       "exit": null
-     },
-     {
-      "id": "w",
-      "type": "prophet",
-      "label": "داود",
-      "place": "left",
-      "count": 1,
-      "pose": "stand",
-      "enter": [
-       78,
-       9
-      ],
-      "exit": [
-       78,
-       13
-      ]
-     },
-     {
-      "id": "i",
-      "type": "prophet",
-      "label": "عيسى",
-      "place": "center",
-      "count": 1,
-      "pose": "stand",
-      "enter": [
-       78,
-       10
-      ],
-      "exit": [
-       78,
-       13
-      ]
      }
     ],
     "events": [],
@@ -108,7 +76,7 @@
      {
       "at": [
        78,
-       8
+       9
       ],
       "do": "shot_wide"
      },
@@ -117,7 +85,8 @@
        78,
        13
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
@@ -176,21 +145,21 @@
       "exit": null
      },
      {
-      "id": "q",
-      "type": "people",
-      "label": "",
-      "place": "right",
-      "count": 2,
-      "pose": "stand",
-      "enter": null,
-      "exit": null
-     },
-     {
       "id": "k",
       "type": "people",
       "label": "",
       "place": "right",
       "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "q",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 1,
       "pose": "stand",
       "enter": null,
       "exit": null
@@ -437,7 +406,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Night sky; Dawud, Isa and Maryam: no motif; two paths for «يتولون الذين كفروا» only. 78:7-12 «على لسان داود وعيسى» is not glossed: Al-Muyassar reads it as the Zabur and the Injil, As-Sa'di as their testimony. STAGING v4: 78-79: a town at dusk; three men (the disbelievers of Bani Israil) stand; Dawud and Isa appear only as blue labelled drops on their names (78:9, 78:10) and leave on 78:13; they do not speak (the tafsirs differ on how the curse came: the Zabur and the Injil, or their testimony), only shot_wide while they are on stage. The men turn away on 78:15 (disobedience); nobody is shown forbidding (79:3). 80-81: three men (many of them; two others of them stand still) walk to the idolaters on 80:4 and talk with them on 80:6 (taking them as allies); they stay on stage through the wrath and the punishment words; nothing is acted on the counterfactual of 81:1-11; the camera holds on them on 81:13 and they turn away on 81:15."
+  "notes": "Night sky; Dawud, Isa and Maryam: no motif; two paths for «يتولون الذين كفروا» only. 78:7-12 «على لسان داود وعيسى» is not glossed: Al-Muyassar reads it as the Zabur and the Injil, As-Sa'di as their testimony. STAGING v4: 78-79: a town at dusk; three men (the disbelievers of Bani Israil) stand; Dawud and Isa are not drawn (they lived centuries apart, and the tafsirs differ on how the curse came: the Zabur and the Injil, or their testimony); 78:7-12 is camera only on the men, with no plate. The men turn away on 78:15 (disobedience); nobody is shown forbidding (79:3). 80-81: three men (many of them; one other of them stands still at the far right) walk to the idolaters on 80:4 and talk with them on 80:6 (taking them as allies); they stay on stage through the wrath and the punishment words; nothing is acted on the counterfactual of 81:1-11; the camera holds on them on 81:13 and they turn away on 81:15."
  },
  "cover": {
   "series_ar": "غلو النصارى",

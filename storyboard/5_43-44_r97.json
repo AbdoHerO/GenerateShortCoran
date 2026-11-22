@@ -157,10 +157,9 @@
      {
       "at": [
        44,
-       13
+       12
       ],
-      "do": "sit",
-      "who": "p"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -173,6 +172,14 @@
       "at": [
        44,
        15
+      ],
+      "do": "sit",
+      "who": "p"
+     },
+     {
+      "at": [
+       44,
+       16
       ],
       "do": "speak",
       "who": "k",
@@ -210,13 +217,6 @@
      {
       "at": [
        44,
-       31
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       44,
        33
       ],
       "do": "shot_wide"
@@ -247,6 +247,19 @@
        9
       ],
       "motif": "book",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       44,
+       31
+      ],
+      "until": [
+       44,
+       33
+      ],
+      "motif": "coins",
       "place": "top",
       "size": "s"
      },
@@ -360,7 +373,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A book for «التوراة» (twice, each leaving before the next clause). No motif on the prophets, rabbis or scholars. 44:33-41 keeps the condition both tafsirs give: ruling by other than revelation is kufr that removes one from the religion when one holds it lawful (As-Sa'di adds it may otherwise be a major sin). Al-Muyassar's first-person «اخشوني», «أنزلت» not used. STAGING v4: 43 stays ambient: those who come to the Prophet for judgment and turn from his ruling (behaviour toward him). 44: a town by day; a group (those who were Jews) sits on 44:13 to be judged and taught; the prophets of 44:9 are not drawn (no figure may stand for them, so the teacher enters only on 44:14). One man stands for the rabbis and scholars (Al-Muyassar: those who teach people the law): he speaks to the group on 44:15 and holds the book on 44:19 (what they were entrusted with). Everyone leaves on 44:24, before the commands and the prohibition (44:24-32) and before the ruling on whoever does not judge by revelation (44:33-41), which play on the empty town with the two-paths plate, so nobody on stage is labelled by it."
+  "notes": "A book for «التوراة» (twice, each leaving before the next clause). No motif on the prophets, rabbis or scholars. 44:33-41 keeps the condition both tafsirs give: ruling by other than revelation is kufr that removes one from the religion when one holds it lawful (As-Sa'di adds it may otherwise be a major sin). Al-Muyassar's first-person «اخشوني», «أنزلت» not used. STAGING v4: 43 stays ambient: those who come to the Prophet for judgment and turn from his ruling (behaviour toward him). 44: a town by day; a group (those who were Jews) stands, then sits on 44:15 once the teacher is there; the prophets of 44:9 are not drawn (no figure may stand for them, so the teacher enters only on 44:14). One man stands for the rabbis and scholars (Al-Muyassar: those who teach people the law): he speaks to the group on 44:16 and holds the book on 44:19 (what they were entrusted with). Everyone leaves on 44:24, before the commands and the prohibition (44:24-32) and before the ruling on whoever does not judge by revelation (44:33-41), which play on the empty town with a coins plate (the small price) and the two-paths plate, so nobody on stage is labelled by it."
  },
  "cover": {
   "series_ar": "الحكم بالوحي",

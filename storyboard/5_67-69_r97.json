@@ -129,10 +129,26 @@
       "type": "people",
       "label": "",
       "place": "right",
-      "count": 3,
+      "count": 2,
       "pose": "stand",
       "enter": null,
-      "exit": null
+      "exit": [
+       69,
+       1
+      ]
+     },
+     {
+      "id": "k2",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       69,
+       1
+      ]
      }
     ],
     "events": [],
@@ -297,10 +313,10 @@
      {
       "at": [
        69,
-       14
+       15
       ],
       "until": null,
-      "motif": "light",
+      "motif": "seal",
       "place": "top",
       "size": "s"
      }
@@ -423,7 +439,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on the Prophet ﷺ; a book for «ما أنزل», geometric for «والله يعصمك». 67:9-14 «وإن لم تفعل فما بلغت رسالته» carries As-Sa'di's «فبلغ… أكمل تبليغ». 69 carries Al-Muyassar's condition: the faith meant is tawhid and belief in Muhammad ﷺ and what he brought. 69:6 «الصابئون» not glossed (the tafsirs define them differently). STAGING v4: 67 stays ambient (the Prophet commanded to convey); the mood moves from dawn to night sky because 67:19-24 is about the disbelievers. 68-69: a town by day; the People of the Book (three) face two believers; nobody speaks the Prophet's words or faces an empty side. Only part of them acts: the three shake their heads on 68:17 and turn away on 68:24 (increase in transgression and denial); the two believers are the rest. 69: the believers pray on 69:13 (righteous deeds) and prostrate on 69:16; nothing literal for the Day."
+  "notes": "No motif on the Prophet ﷺ; a book for «ما أنزل», geometric for «والله يعصمك». 67:9-14 «وإن لم تفعل فما بلغت رسالته» carries As-Sa'di's «فبلغ… أكمل تبليغ». 69 carries Al-Muyassar's condition: the faith meant is tawhid and belief in Muhammad ﷺ and what he brought. 69:6 «الصابئون» not glossed (the tafsirs define them differently). STAGING v4: 67 stays ambient (the Prophet commanded to convey); the mood moves from dawn to night sky because 67:19-24 is about the disbelievers. 68-69: a town by day; the People of the Book (two, plus one more of them who stays still) face two believers; nobody speaks the Prophet's words or faces an empty side. Only part of them acts: the two shake their heads on 68:17 and turn away on 68:24 (increase in transgression and denial); the third stays still; all three leave on 69:1. 69: the believers pray on 69:13 (righteous deeds) and prostrate on 69:16 with nobody in front of them; a seal plate on 69:15 (the promise); nothing literal for the Day."
  },
  "cover": {
   "series_ar": "أحوال أهل الكتاب",
