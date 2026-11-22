@@ -56,19 +56,12 @@
        43,
        11
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       43,
-       14
-      ],
       "do": "pan_left"
      },
      {
       "at": [
        43,
-       16
+       14
       ],
       "do": "shot_wide"
      },
@@ -77,12 +70,19 @@
        43,
        18
       ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       43,
+       20
+      ],
       "do": "pan_left"
      },
      {
       "at": [
        44,
-       1
+       2
       ],
       "do": "pan_left"
      },
@@ -91,33 +91,26 @@
        44,
        5
       ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       44,
+       7
+      ],
       "do": "shot_wide"
      },
      {
       "at": [
        44,
-       8
+       9
       ],
       "do": "pan_right"
      },
      {
       "at": [
        44,
-       10
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       44,
        11
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       44,
-       14
       ],
       "do": "pan_right"
      },
@@ -126,17 +119,41 @@
        44,
        16
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        44,
        19
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      }
     ],
-    "motifs": []
+    "motifs": [
+     {
+      "at": [
+       43,
+       15
+      ],
+      "until": [
+       44,
+       1
+      ],
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       44,
+       12
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
@@ -152,29 +169,39 @@
      {
       "at": [
        45,
-       3
+       1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        45,
-       5
+       3
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      }
     ],
     "motifs": [
      {
       "at": [
        45,
-       8
+       7
       ],
       "until": [
        45,
-       11
+       8
       ],
-      "motif": "light",
+      "motif": "mountain",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       45,
+       9
+      ],
+      "until": null,
+      "motif": "geometric",
       "place": "top",
       "size": "m"
      }
@@ -297,7 +324,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The Prophet's ﷺ dream, the armies and the fighting are not drawn. 45:1-6 keeps As-Sa'di's restriction «طائفة من الكفار تقاتلكم». Light for «واذكروا الله كثيرا». 44: short-word flag, listen."
+  "notes": "The Prophet's ﷺ dream, the armies and the fighting are not drawn. 45:1-6 keeps As-Sa'di's restriction «طائفة من الكفار تقاتلكم». Light for «واذكروا الله كثيرا». 44: short-word flag, listen. STAGING v4: Kept ambient (owner rule, Staging v4): 43-44 are the Prophet's dream of the enemy as few and the meeting at Badr (battle; the dream and the armies are never drawn), 45 is the command to stand firm when meeting a company that fights you (both tafsirs: a fighting context). c1: geometric plates for Allah's acts and knowledge (43:15-20 and 44:12-19); nothing on the dream (43:1-6). c2: the light plate that drew one word before the Name (45:8) is replaced by a mountain plate for standing firm (45:7, ending before the Name) and a geometric plate on the Name (45:9)."
  },
  "cover": {
   "series_ar": "أحكام النصر",
@@ -309,5 +336,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

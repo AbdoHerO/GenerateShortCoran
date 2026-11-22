@@ -66,42 +66,56 @@
      {
       "at": [
        65,
-       4
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       65,
+       3
       ],
       "do": "pan_right"
      },
      {
       "at": [
        65,
-       8
+       6
       ],
       "do": "pan_left"
      },
      {
       "at": [
        65,
-       11
+       9
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        65,
-       14
+       15
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        65,
        17
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        65,
-       20
+       19
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       65,
+       21
       ],
       "do": "pan_right"
      },
@@ -110,10 +124,24 @@
        65,
        24
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      }
     ],
-    "motifs": [],
+    "motifs": [
+     {
+      "at": [
+       65,
+       11
+      ],
+      "until": [
+       65,
+       21
+      ],
+      "motif": "mountain",
+      "place": "top",
+      "size": "m"
+     }
+    ],
     "transition": "morph"
    }
   }
@@ -155,7 +183,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No armies, numbers or fighting drawn (the figures stay in the recitation only). No motif on the Prophet ﷺ; geometric for «حسبك الله»."
+  "notes": "No armies, numbers or fighting drawn (the figures stay in the recitation only). No motif on the Prophet ﷺ; geometric for «حسبك الله». STAGING v4: Kept ambient (owner rule, Staging v4): 64 is an address to the Prophet (Allah suffices him and the believers who follow him; nobody is drawn as his followers), 65 is the command to urge the believers to fight (fighting verse; no armies or numbers drawn). c2: a mountain plate for the steadfast (65:11; Al-Muyassar: patient when meeting the enemy), ending before the disbelievers are named."
  },
  "cover": {
   "series_ar": "الكفاية والرحمة",
@@ -167,5 +195,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

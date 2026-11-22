@@ -32,14 +32,48 @@
    "verses": [
     72
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "e",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "walk",
+      "enter": [
+       72,
+       4
+      ],
+      "exit": null
+     },
+     {
+      "id": "n",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        72,
-       3
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       72,
+       4
       ],
       "do": "pan_left"
      },
@@ -48,49 +82,71 @@
        72,
        6
       ],
+      "do": "shot_close",
+      "who": "e"
+     },
+     {
+      "at": [
+       72,
+       9
+      ],
       "do": "shot_wide"
      },
      {
       "at": [
        72,
-       8
+       11
       ],
-      "do": "pan_right"
+      "do": "walk_to",
+      "who": "n",
+      "to": "center"
      },
      {
       "at": [
        72,
        13
       ],
-      "do": "shot_wide"
+      "do": "give",
+      "who": "n",
+      "to": "e"
      },
      {
       "at": [
        72,
        14
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "n"
      },
      {
       "at": [
        72,
        15
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        72,
-       18
+       17
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "e"
      },
      {
       "at": [
        72,
-       24
+       21
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       72,
+       25
+      ],
+      "do": "shot_close",
+      "who": "n"
      },
      {
       "at": [
@@ -102,45 +158,99 @@
      {
       "at": [
        72,
-       31
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       72,
-       34
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       72,
-       39
+       32
       ],
       "do": "pan_left"
      },
      {
       "at": [
        72,
-       41
+       38
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       72,
+       41
+      ],
+      "do": "shot_close",
+      "who": "n"
+     },
+     {
+      "at": [
+       72,
+       44
+      ],
+      "do": "shot_close",
+      "who": "e"
      }
     ],
     "motifs": [
      {
       "at": [
        72,
-       11
+       4
       ],
       "until": [
        72,
-       14
+       10
+      ],
+      "motif": "footsteps",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       72,
+       12
+      ],
+      "until": [
+       72,
+       15
       ],
       "motif": "house",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       72,
+       15
+      ],
+      "until": [
+       72,
+       18
+      ],
+      "motif": "seal",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       72,
+       28
+      ],
+      "until": [
+       72,
+       30
+      ],
+      "motif": "hourglass",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       72,
+       38
+      ],
+      "until": [
+       72,
+       42
+      ],
+      "motif": "seal",
+      "place": "top",
+      "size": "s"
      },
      {
       "at": [
@@ -150,7 +260,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -161,33 +271,67 @@
    "verses": [
     73
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "gather",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        73,
-       4
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       73,
-       7
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        73,
-       10
+       3
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       73,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       73,
+       11
+      ],
+      "do": "shot_close",
+      "who": "d"
      }
     ],
-    "motifs": [],
+    "motifs": [
+     {
+      "at": [
+       73,
+       9
+      ],
+      "until": null,
+      "motif": "wind",
+      "place": "top",
+      "size": "s"
+     }
+    ],
     "transition": "wipe"
    }
   }
@@ -306,7 +450,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No present-day political reading; the treaty exception of 72 is kept («عهد مؤكد لم ينقضوه»). A house for «آووا», geometric for «والله بما تعملون بصير». No people drawn."
+  "notes": "No present-day political reading; the treaty exception of 72 is kept («عهد مؤكد لم ينقضوه»). A house for «آووا», geometric for «والله بما تعملون بصير». No people drawn. STAGING v4: c1 (72): a town by day. Three believers walk in from the left on 72:4 (the emigrants; Al-Muyassar: to the land of Islam or a land where they can worship), under a footsteps plate that ends before the Name. Their striving with wealth and lives (72:5-7) is not pictured: no war. On 72:11 three believers of the town go to meet them (the helpers) under a house plate (72:12; Al-Muyassar: they lodged the emigrants in their homes) and hand them a purse on 72:13 (Al-Muyassar: they shared their wealth with them). A seal plate for the bond of alliance and love (72:15; As-Sa'di: a pact of alliance and love). 72:18-41 (believers who did not emigrate, help in religion, the treaty exception) gets camera only: those believers are not drawn and no fighting is shown; an hourglass for until they emigrate (72:28), a seal plate for the treaty (72:38, ending before the Name) and a geometric plate on the Name for All-Seeing (72:42). After the helpers move to the centre the right side is empty, so the camera only goes wide, close or to the left. c2 (73): three disbelievers gathered at the centre of a town (allies of one another; As-Sa'di: disbelief brought them together); the warning to the believers (73:6-13) is a condition, so nothing is acted; a wind plate for the trial and corruption (73:9) and the camera stays on the disbelievers, not on the believers. No present-day political reading."
  },
  "cover": {
   "series_ar": "الأخوة الإيمانية",
@@ -315,8 +459,9 @@
   "title_en": "Love and mutual support",
   "at": [
    72,
-   1
+   15
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

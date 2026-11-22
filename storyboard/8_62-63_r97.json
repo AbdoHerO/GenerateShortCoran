@@ -39,6 +39,13 @@
      {
       "at": [
        62,
+       6
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       62,
        9
       ],
       "do": "shot_wide"
@@ -74,30 +81,109 @@
    "verses": [
     63
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "a",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "walk",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "c",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "walk",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        63,
-       10
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       63,
-       13
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        63,
-       17
+       4
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "a"
+     },
+     {
+      "at": [
+       63,
+       8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       63,
+       10
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       63,
+       11
+      ],
+      "do": "shot_close",
+      "who": "c"
+     },
+     {
+      "at": [
+       63,
+       14
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       63,
+       16
+      ],
+      "do": "walk_to",
+      "who": "a",
+      "to": "center"
+     },
+     {
+      "at": [
+       63,
+       18
+      ],
+      "do": "sit",
+      "who": "a"
+     },
+     {
+      "at": [
+       63,
+       19
+      ],
+      "do": "sit",
+      "who": "c"
+     },
+     {
+      "at": [
+       63,
+       20
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -110,25 +196,22 @@
        63,
        4
       ],
-      "motif": "hands",
+      "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        63,
-       5
+       15
       ],
-      "until": [
-       63,
-       10
-      ],
-      "motif": "coins",
+      "until": null,
+      "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "morph"
+    "transition": "iris"
    }
   }
  ],
@@ -202,7 +285,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on the Prophet ﷺ. Geometric for «فإن حسبك الله», hands for «وألف بين قلوبهم», coins for «لو أنفقت ما في الأرض». Al-Muyassar's «فأصبحوا إخوانًا» (close to 3:103) not used."
+  "notes": "No motif on the Prophet ﷺ. Geometric for «فإن حسبك الله», hands for «وألف بين قلوبهم», coins for «لو أنفقت ما في الأرض». Al-Muyassar's «فأصبحوا إخوانًا» (close to 3:103) not used. STAGING v4: c1 (62) stays ambient: an address to the Prophet about those who may try to deceive him and Allah's sufficiency and support (his own matter; nobody stands in for him). c2 (63): a town by day; two groups of three believers walk in from the two sides (hearts brought together after division: Al-Muyassar names the emigrants and the helpers; As-Sa'di: after strong aversion and division), under a geometric plate because the uniting is Allah's act (63:1-3). 63:4-13 is a counterfactual addressed to the Prophet (spending all on earth would not have united them), so nobody spends and there is no coins plate (it could read as hearts bought with money); the camera holds on the believers. On the Name (63:15) a geometric plate; then the left group joins the right one (63:16) and both sit together (63:18-19: As-Sa'di: they gathered and became united). No pan drifts to the empty side."
  },
  "cover": {
   "series_ar": "سنن الهلاك",
@@ -211,8 +294,9 @@
   "title_en": "Brotherhood of faith",
   "at": [
    63,
-   1
+   19
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

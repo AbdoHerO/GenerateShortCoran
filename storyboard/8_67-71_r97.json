@@ -36,70 +36,77 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn",
+    "mood": "night_sky",
     "beats": [
+     {
+      "at": [
+       67,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        67,
        5
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        67,
        7
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        67,
        11
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       67,
-       20
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       68,
-       5
-      ],
       "do": "shot_wide"
      },
      {
       "at": [
+       67,
+       19
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
        68,
-       8
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       69,
-       4
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       69,
        6
       ],
       "do": "shot_wide"
      },
      {
       "at": [
+       68,
+       8
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       69,
+       3
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       69,
+       5
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
        69,
        8
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -109,10 +116,23 @@
        15
       ],
       "until": [
-       67,
-       18
+       68,
+       2
       ],
-      "motif": "light",
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       68,
+       2
+      ],
+      "until": [
+       68,
+       6
+      ],
+      "motif": "seal",
       "place": "top",
       "size": "m"
      },
@@ -128,6 +148,16 @@
       "motif": "wheat",
       "place": "top",
       "size": "m"
+     },
+     {
+      "at": [
+       69,
+       9
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
      }
     ]
    }
@@ -141,8 +171,15 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light",
+    "mood": "night_sky",
     "beats": [
+     {
+      "at": [
+       70,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        70,
@@ -160,21 +197,7 @@
      {
       "at": [
        70,
-       10
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       70,
        15
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       70,
-       16
       ],
       "do": "shot_wide"
      },
@@ -183,38 +206,57 @@
        70,
        24
       ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       71,
-       2
-      ],
       "do": "pan_left"
      },
      {
       "at": [
        71,
-       5
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       71,
-       10
+       3
       ],
       "do": "pan_right"
      },
      {
       "at": [
        71,
-       13
+       8
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       71,
+       13
+      ],
+      "do": "pan_left"
      }
     ],
     "motifs": [
+     {
+      "at": [
+       70,
+       11
+      ],
+      "until": [
+       70,
+       16
+      ],
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       70,
+       16
+      ],
+      "until": [
+       70,
+       20
+      ],
+      "motif": "growth",
+      "place": "top",
+      "size": "m"
+     },
      {
       "at": [
        70,
@@ -224,7 +266,17 @@
        71,
        1
       ],
-      "motif": "light",
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       71,
+       11
+      ],
+      "until": null,
+      "motif": "geometric",
       "place": "top",
       "size": "m"
      }
@@ -402,7 +454,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No captives, killing or ransom drawn; 67:8-11 «حتى يثخن في الأرض» and Al-Muyassar's and As-Sa'di's wording about killing are not displayed. Light for «والله يريد الآخرة» and «والله غفور رحيم», wheat for «فكلوا مما غنمتم». 70: short-word flag, listen."
+  "notes": "No captives, killing or ransom drawn; 67:8-11 «حتى يثخن في الأرض» and Al-Muyassar's and As-Sa'di's wording about killing are not displayed. Light for «والله يريد الآخرة» and «والله غفور رحيم», wheat for «فكلوا مما غنمتم». 70: short-word flag, listen. STAGING v4: Kept ambient (owner rule, Staging v4): the captives of Badr and the ransom (battle; no captives drawn). Fixes: the light plate that started on the Name (67:15) is now geometric; the light plate on Allah's forgiving (70:20) is now geometric. Moods: c1 moves from dawn to night_sky (68 threatens a great punishment) and c2 from light to night_sky (71 warns those who would betray). c1: a seal plate for the decree that preceded (68:2; both tafsirs: decree and destiny), wheat for eating what was taken (69:1, kept), geometric for Forgiving and Merciful (69:9). c2: nothing on 70:1-8 (the address and the order to the Prophet); geometric for Allah's knowledge of their hearts (70:11, through the reciter's repeat), growth for the better that He gives (70:16, after the repeat; both tafsirs: wealth), geometric for His forgiving (70:20) and for Knowing and Wise (71:11)."
  },
  "cover": {
   "series_ar": "الكفاية والرحمة",
@@ -414,5 +466,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

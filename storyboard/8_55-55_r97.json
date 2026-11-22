@@ -32,23 +32,54 @@
    "verses": [
     55
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        55,
-       3
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        55,
-       8
+       2
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       55,
+       7
+      ],
+      "do": "turn",
+      "who": "d"
+     },
+     {
+      "at": [
+       55,
+       10
+      ],
+      "do": "shake_head",
+      "who": "d"
      }
     ],
     "motifs": [
@@ -63,7 +94,7 @@
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -95,7 +126,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No animals or people drawn; geometric for «عند الله»."
+  "notes": "No animals or people drawn; geometric for «عند الله». STAGING v4: STAGING v4: c1 (55): three disbelievers at the centre of a town by day, facing the viewer (nobody faces an empty side). No animal is drawn for the word for creatures. A geometric plate for the words before the Name and the Name itself (55:4-5). They turn their backs on 55:7 (they disbelieved) and shake their heads on 55:10 (they will not believe; Al-Muyassar: those who persist in disbelief). Nobody is hurt; no war."
  },
  "cover": {
   "series_ar": "سنن الهلاك",
@@ -104,8 +135,9 @@
   "title_en": "Persisting in disbelief",
   "at": [
    55,
-   1
+   2
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

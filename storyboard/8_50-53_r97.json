@@ -54,6 +54,13 @@
      {
       "at": [
        50,
+       8
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       50,
        9
       ],
       "do": "shot_wide"
@@ -118,28 +125,35 @@
      {
       "at": [
        52,
-       6
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       52,
-       7
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       52,
-       12
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        52,
-       15
+       3
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       52,
+       6
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       52,
+       7
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       52,
+       12
       ],
       "do": "pan_right"
      },
@@ -153,14 +167,7 @@
      {
       "at": [
        53,
-       2
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       53,
-       10
+       1
       ],
       "do": "pan_left"
      },
@@ -169,7 +176,7 @@
        53,
        14
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -182,6 +189,19 @@
     "motifs": [
      {
       "at": [
+       52,
+       14
+      ],
+      "until": [
+       53,
+       7
+      ],
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
        53,
        7
       ],
@@ -190,6 +210,29 @@
        11
       ],
       "motif": "growth",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       53,
+       12
+      ],
+      "until": [
+       53,
+       15
+      ],
+      "motif": "leaf",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       53,
+       16
+      ],
+      "until": null,
+      "motif": "geometric",
       "place": "top",
       "size": "m"
      }
@@ -301,7 +344,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "50 (death, the angels' striking, the burning punishment): night sky, nothing drawn and the striking is not glossed. Geometric for «وأن الله ليس بظلام للعبيد», growth for «نعمة أنعمها»."
+  "notes": "50 (death, the angels' striking, the burning punishment): night sky, nothing drawn and the striking is not glossed. Geometric for «وأن الله ليس بظلام للعبيد», growth for «نعمة أنعمها». STAGING v4: Kept ambient (owner rule, Staging v4): c1 (50-51) is the angels taking the disbelievers' souls and the punishment (the unseen, death; nothing drawn). c2 (52-53) is Allah seizing Pharaoh's people and the nations before them for their sins (a punishment of nations) and, in the same chapter, the rule of 53 that refers back to that punishment (both tafsirs: that recompense / that punishment), so it stays ambient too: a geometric plate for Allah's strength (52:14), the growth plate for the favour (53:7), a falling-leaf plate when people change themselves from obedience to sin (53:12, As-Sa'di) and a geometric plate on the Name for Hearing and Knowing (53:16). No people, Pharaoh or drowning drawn."
  },
  "cover": {
   "series_ar": "سنن الهلاك",
@@ -313,5 +356,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

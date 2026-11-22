@@ -32,33 +32,123 @@
    "verses": [
     74
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "home",
+    "time": "day",
+    "actors": [
+     {
+      "id": "e",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "walk",
+      "enter": [
+       74,
+       3
+      ],
+      "exit": null
+     },
+     {
+      "id": "n",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        74,
-       4
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        74,
-       12
+       4
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "e"
      },
      {
       "at": [
        74,
-       17
+       8
       ],
-      "do": "pan_right"
+      "do": "walk_to",
+      "who": "n",
+      "to": "center"
+     },
+     {
+      "at": [
+       74,
+       10
+      ],
+      "do": "give",
+      "who": "n",
+      "to": "e"
+     },
+     {
+      "at": [
+       74,
+       11
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       74,
+       13
+      ],
+      "do": "sit",
+      "who": "e"
+     },
+     {
+      "at": [
+       74,
+       14
+      ],
+      "do": "sit",
+      "who": "n"
+     },
+     {
+      "at": [
+       74,
+       16
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       74,
+       18
+      ],
+      "do": "shot_close",
+      "who": "e"
      }
     ],
     "motifs": [
+     {
+      "at": [
+       74,
+       3
+      ],
+      "until": [
+       74,
+       7
+      ],
+      "motif": "footsteps",
+      "place": "top",
+      "size": "s"
+     },
      {
       "at": [
        74,
@@ -68,9 +158,9 @@
        74,
        11
       ],
-      "motif": "house",
+      "motif": "door",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -80,7 +170,7 @@
       "until": null,
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -91,21 +181,82 @@
    "verses": [
     75
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "e",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "n",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "l",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "walk",
+      "enter": [
+       75,
+       5
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        75,
-       4
+       1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        75,
-       7
+       3
+      ],
+      "do": "shot_close",
+      "who": "n"
+     },
+     {
+      "at": [
+       75,
+       6
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       75,
+       9
+      ],
+      "do": "walk_to",
+      "who": "l",
+      "to": "center"
+     },
+     {
+      "at": [
+       75,
+       10
       ],
       "do": "shot_wide"
      },
@@ -114,49 +265,77 @@
        75,
        13
       ],
+      "do": "shot_close",
+      "who": "e"
+     },
+     {
+      "at": [
+       75,
+       16
+      ],
       "do": "shot_wide"
-     },
-     {
-      "at": [
-       75,
-       15
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       75,
-       22
-      ],
-      "do": "pan_right"
-     }
-    ],
-    "motifs": [
-     {
-      "at": [
-       75,
-       10
-      ],
-      "until": [
-       75,
-       15
-      ],
-      "motif": "hands",
-      "place": "top",
-      "size": "m"
      },
      {
       "at": [
        75,
        18
       ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       75,
+       20
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       75,
+       22
+      ],
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       75,
+       5
+      ],
+      "until": [
+       75,
+       10
+      ],
+      "motif": "footsteps",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       75,
+       11
+      ],
+      "until": [
+       75,
+       17
+      ],
+      "motif": "house",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       75,
+       17
+      ],
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "morph"
+    "transition": "slide"
    }
   }
  ],
@@ -252,7 +431,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A house for «آووا», light for the reward, hands for «وأولو الأرحام», geometric for «إن الله بكل شيء عليم». Paradise only named in the recitation; Al-Muyassar's «جنات النعيم» and As-Sa'di's «اتبعهم بإحسان» (Quran wording) not used."
+  "notes": "A house for «آووا», light for the reward, hands for «وأولو الأرحام», geometric for «إن الله بكل شيء عليم». Paradise only named in the recitation; Al-Muyassar's «جنات النعيم» and As-Sa'di's «اتبعهم بإحسان» (Quran wording) not used. STAGING v4: c1 (74): inside a home by day. Three believers come in on 74:3 (the emigrants who left their homes; footsteps plate ending before the Name); their striving is not pictured. On 74:8 the three seated hosts (the helpers) rise and go to meet them, under a door plate for the shelter (74:9) and hand them a purse on 74:10 (Al-Muyassar: they sheltered them and shared with them wealth and support); both groups sit together on 74:13-14 (the true believers). The reward (74:15-18; both tafsirs: forgiveness and generous provision, in the Gardens) is only a light plate (74:15): nothing literal for Paradise, no gold, jewel or river. c2 (75): a town by day with the emigrants (left) and the helpers (centre); three later believers walk in from the right on 75:5 (those who believed and emigrated afterwards) under a footsteps plate and step to the others on 75:9 (they are of you: same rights and duties). Kinship (75:10-17; Al-Muyassar: inheritance between relatives) is a house plate only: no family or inheritance is acted. A geometric plate on the Name for All-Knowing (75:17). Every place on stage is filled."
  },
  "cover": {
   "series_ar": "الأخوة الإيمانية",
@@ -261,8 +440,9 @@
   "title_en": "The emigrants' reward",
   "at": [
    74,
-   1
+   16
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }
