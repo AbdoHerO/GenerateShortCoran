@@ -32,21 +32,62 @@
    "verses": [
     87
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "shuayb",
+      "type": "prophet",
+      "label": "شعيب",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        87,
-       5
+       1
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "d",
+      "to": "shuayb"
      },
      {
       "at": [
        87,
-       9
+       3
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       87,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       87,
+       10
       ],
       "do": "shot_wide"
      },
@@ -55,28 +96,31 @@
        87,
        11
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        87,
        15
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        87,
-       16
+       17
       ],
-      "do": "shot_wide"
+      "do": "point",
+      "who": "d",
+      "to": "shuayb"
      },
      {
       "at": [
        87,
        20
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -91,7 +135,7 @@
       ],
       "motif": "coins",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -102,28 +146,47 @@
    "verses": [
     88
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "shuayb",
+      "type": "prophet",
+      "label": "شعيب",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        88,
-       5
+       1
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "shuayb",
+      "to": "d"
      },
      {
       "at": [
        88,
-       8
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       88,
-       11
+       3
       ],
       "do": "shot_wide"
      },
@@ -137,21 +200,31 @@
      {
       "at": [
        88,
-       16
+       17
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        88,
        20
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        88,
-       23
+       22
+      ],
+      "do": "speak",
+      "who": "shuayb",
+      "to": "d"
+     },
+     {
+      "at": [
+       88,
+       30
       ],
       "do": "shot_wide"
      },
@@ -160,10 +233,36 @@
        88,
        32
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
+     {
+      "at": [
+       88,
+       7
+      ],
+      "until": [
+       88,
+       10
+      ],
+      "motif": "seal",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       88,
+       12
+      ],
+      "until": [
+       88,
+       14
+      ],
+      "motif": "wheat",
+      "place": "top",
+      "size": "s"
+     },
      {
       "at": [
        88,
@@ -172,7 +271,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "dissolve"
@@ -184,16 +283,64 @@
    "verses": [
     89
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "shuayb",
+      "type": "prophet",
+      "label": "شعيب",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       89,
+       1
+      ],
+      "do": "speak",
+      "who": "shuayb",
+      "to": "d"
+     },
+     {
+      "at": [
+       89,
+       3
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
      {
       "at": [
        89,
        6
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       89,
+       9
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -205,13 +352,26 @@
      {
       "at": [
        89,
-       19
+       18
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "shuayb",
+      "to": "d"
      }
     ],
-    "motifs": [],
-    "transition": "dissolve"
+    "motifs": [
+     {
+      "at": [
+       89,
+       21
+      ],
+      "until": null,
+      "motif": "hourglass",
+      "place": "top",
+      "size": "s"
+     }
+    ],
+    "transition": "wipe"
    }
   }
  ],
@@ -351,7 +511,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The plan's title «الإصلاح ما استطعت» was the verse itself (88:25-27): now «غاية المصلح». Their mockery (87) is framed («على وجه التهكم», «من احتيال ومكر», «استهزاءً به»). Coins for «أموالنا». 88 is Shu'ayb's speech: only geometric on «وما توفيقي إلا بالله عليه توكلت وإليه أنيب». No plate on the prophets' names in 89."
+  "notes": "The plan's title «الإصلاح ما استطعت» was the verse itself (88:25-27): now «غاية المصلح». Their mockery (87) is framed («على وجه التهكم», «من احتيال ومكر», «استهزاءً به»). Coins for «أموالنا». 88 is Shu'ayb's speech: only geometric on «وما توفيقي إلا بالله عليه توكلت وإليه أنيب». No plate on the prophets' names in 89. STAGING v4: Same market street as 11_84-86: Shu'ayb a blue drop labelled Shu'ayb (no plate on his name, no close-up or pan on his drop), his people three faceless men in dark robes. c1 (87): they speak to Shu'ayb (87:1) in mockery (framed by the glosses); the camera on them (87:3, 87:11); nobody turns toward an empty side while their fathers' worship is named (87:6-9: no idol and no place for one); a coins plate for our wealth (87:14-15); they point at Shu'ayb on 87:17 (you are the forbearing, said in mockery, Al-Muyassar: mocking him). c2 (88): Shu'ayb answers (88:1, 88:22); a seal plate for clear proof from my Lord (88:7-9), a wheat plate for a good provision (88:12-13); the camera on them for I do not want to do what I forbid you (88:17; nothing acted inside the negation); geometric for my success is only through Allah, on Him I rely (88:28-35); no glow, no raised hands. c3 (89): Shu'ayb warns them (89:1, 89:18), the camera on them for the warning (89:3); no plate over the names of Nuh, Hud, Salih and Lut (89:10-20), the camera is wide there; an hourglass for not far from you (89:21-22, Al-Muyassar: neither in place nor in time). Cover: Shu'ayb speaking for I only want reform."
  },
  "cover": {
   "series_ar": "شعيب ومدين",
@@ -360,8 +520,9 @@
   "title_en": "The reformer's aim",
   "at": [
    88,
-   1
+   25
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }
