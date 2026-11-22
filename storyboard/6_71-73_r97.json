@@ -91,14 +91,14 @@
        71,
        12
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        71,
        13
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -135,6 +135,13 @@
      {
       "at": [
        71,
+       25
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       71,
        26
       ],
       "do": "speak",
@@ -167,7 +174,7 @@
        71,
        39
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      }
     ],
     "motifs": [

@@ -152,7 +152,7 @@
     "actors": [
      {
       "id": "q",
-      "type": "people",
+      "type": "disbelievers",
       "label": "",
       "place": "right",
       "count": 3,
@@ -201,7 +201,8 @@
        116,
        9
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "q"
      },
      {
       "at": [
@@ -402,7 +403,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "114:20-23 not glossed (Al-Muyassar's «أوحينا» is first person). 115:9-11 uses As-Sa'di for «العليم» (Al-Muyassar's text reads «الحليم» here). A book for «الكتاب مفصلا», geometric for «كلمت ربك», two paths for «يضلوك» (leaving before the Name), light for «بالمهتدين». No motif on the Prophet ﷺ. STAGING v4: c1 (114-115) kept ambient (the Book, the words of your Lord, His names); a pan added on 114:19 (motion check). c2 (116-117): most of the people on earth as an uncountable crowd that walks on (following conjecture and their forefathers, Al-Muyassar) and speaks on 116:18; the few guided as 2 believers. The condition addressed to the Prophet (116:1-10) is not acted, he is not shown. Crowd plate for 116:3 (ends before the Name); the light plate is moved from 117:9 (His pronoun) to 117:11 (the guided)."
+  "notes": "114:20-23 not glossed (Al-Muyassar's «أوحينا» is first person). 115:9-11 uses As-Sa'di for «العليم» (Al-Muyassar's text reads «الحليم» here). A book for «الكتاب مفصلا», geometric for «كلمت ربك», two paths for «يضلوك» (leaving before the Name), light for «بالمهتدين». No motif on the Prophet ﷺ. STAGING v4: c1 (114-115) kept ambient (the Book, the words of your Lord, His names); a pan added on 114:19 (motion check). c2 (116-117): most of the people on earth as an uncountable crowd in dark robes (no women drawn in a blamed group) that walks on (following conjecture and their forefathers, Al-Muyassar) and speaks on 116:18; the few guided as 2 believers. The condition addressed to the Prophet (116:1-10) is not acted, he is not shown. Crowd plate for 116:3 (ends before the Name); the light plate is moved from 117:9 (His pronoun) to 117:11 (the guided)."
  },
  "cover": {
   "series_ar": "البصائر والأحكام",
@@ -411,7 +412,7 @@
   "title_en": "Numbers prove nothing",
   "at": [
    116,
-   4
+   8
   ]
  },
  "motion": 3,

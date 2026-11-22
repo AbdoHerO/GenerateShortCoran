@@ -126,15 +126,7 @@
        80,
        16
       ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       80,
-       18
-      ],
-      "do": "shot_close",
-      "who": "q"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -213,7 +205,7 @@
        81,
        22
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
     "motifs": [

@@ -33,86 +33,126 @@
     118,
     119
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "garden",
+    "setting": "home",
+    "time": "day",
+    "actors": [
+     {
+      "id": "f",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       118,
+       1
+      ],
+      "do": "sit",
+      "who": "f"
+     },
+     {
+      "at": [
+       118,
+       3
+      ],
+      "do": "shot_close",
+      "who": "f"
+     },
      {
       "at": [
        118,
        7
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        118,
-       8
+       9
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       119,
+       2
+      ],
+      "do": "shot_close",
+      "who": "f"
+     },
+     {
+      "at": [
+       119,
+       6
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       119,
+       11
+      ],
+      "do": "read",
+      "who": "f"
+     },
+     {
+      "at": [
+       119,
+       13
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       119,
+       16
       ],
       "do": "pan_right"
-     },
-     {
-      "at": [
-       118,
-       10
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       119,
-       4
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       119,
-       12
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       119,
-       15
-      ],
-      "do": "pan_left"
      },
      {
       "at": [
        119,
        19
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        119,
-       21
+       22
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        119,
        23
       ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       119,
+       24
+      ],
+      "do": "shake_head",
+      "who": "f"
+     },
+     {
+      "at": [
+       119,
+       26
+      ],
       "do": "shot_wide"
-     },
-     {
-      "at": [
-       119,
-       25
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       119,
-       28
-      ],
-      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -127,7 +167,7 @@
       ],
       "motif": "wheat",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -140,7 +180,30 @@
       ],
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       119,
+       21
+      ],
+      "until": [
+       119,
+       26
+      ],
+      "motif": "crowd",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       119,
+       27
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "s"
      }
     ]
    }
@@ -151,21 +214,72 @@
    "verses": [
     120
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": [
+       120,
+       6
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       120,
+       1
+      ],
+      "do": "shake_head",
+      "who": "b"
+     },
+     {
+      "at": [
+       120,
+       3
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
      {
       "at": [
        120,
        5
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        120,
-       8
+       7
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       120,
+       10
       ],
       "do": "shot_wide"
      },
@@ -174,11 +288,23 @@
        120,
        12
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "d"
      }
     ],
-    "motifs": [],
-    "transition": "dissolve"
+    "motifs": [
+     {
+      "at": [
+       120,
+       9
+      ],
+      "until": null,
+      "motif": "hourglass",
+      "place": "top",
+      "size": "s"
+     }
+    ],
+    "transition": "slide"
    }
   }
  ],
@@ -285,7 +411,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No animal, slaughter or blood drawn: wheat for food, a book for «وقد فصل لكم ما حرم عليكم». The necessity exception (119:16-19) is glossed «ما دعت إليه الضرورة بسبب المجاعة». 119:10-15 carries As-Sa'di's principle «الأصل في الأشياء والأطعمة الإباحة»."
+  "notes": "No animal, slaughter or blood drawn: wheat for food, a book for «وقد فصل لكم ما حرم عليكم». The necessity exception (119:16-19) is glossed «ما دعت إليه الضرورة بسبب المجاعة». 119:10-15 carries As-Sa'di's principle «الأصل في الأشياء والأطعمة الإباحة». STAGING v4: c1 (118-119): a household at a meal at home (the ruling on eating what Allah's name was mentioned on); no animal, meat or slaughter is drawn, wheat stands for food (118:1-3). They sit on 118:1, read on 119:11 (He has detailed what is forbidden, with the book plate). The conditional 118:7-10 is not acted. The many who mislead by their desires are only an uncountable crowd plate (119:21-25), the household shakes its head on 119:24 (As-Sa'di: beware of them); geometric for 119:27-30. c2 (120): believers in a town at dusk refuse sin (head shake on 120:1); those who earn sin (3 men in dark robes) appear on 120:6, the camera holds on them during the threat, an hourglass for the coming recompense (120:9). No dawn over the threat."
  },
  "cover": {
   "series_ar": "البصائر والأحكام",
@@ -294,8 +420,9 @@
   "title_en": "The rule for food",
   "at": [
    118,
-   1
+   3
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

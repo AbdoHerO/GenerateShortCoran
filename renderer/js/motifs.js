@@ -4,6 +4,8 @@
 // gentle motion and particles), then leaves (dissolve, fly or undraw) at `until`, when the next motif takes its place,
 // or at the chapter end. Every frame is a pure function of t (no randomness, no clock).
 // Rules: never a face or an eye; nothing for Allah (geometry and light only); nothing literal for the unseen.
+// The motifs allowed on the Name or «رب» (geometric, seal, light) are revealed whole (`reveal: 'fade'`): a half-stroked
+// circle and star can read as a head in profile, so they never show a partial outline.
 import { TAU, clamp, lerp, prog, ease, hash, rgba } from './util.js';
 
 const NAVY = '#1f2b4f', GOLD = '#d4a955', GOLD_HI = '#f2c25b', CREAM = '#fbf6ec';
@@ -205,11 +207,13 @@ const LIB = {
     live: 'sway', fx: 'none', accent: '#ffe9a8', dur: 0.8,
   },
   geometric: {
+    reveal: 'fade',
     strokes: [{ d: 'M -60 -60 L 60 -60 L 60 60 L -60 60 Z', g: 'r1' }, { d: 'M 0 -85 L 85 0 L 0 85 L -85 0 Z', g: 'r1' }, { d: circ(0, 0, 40), g: 'r2' }, { d: star(0, 0, 40, 30, 8, 0), g: 'r2' }],
     fills: [{ d: star(0, 0, 40, 30, 8, 0), c: '#f6e2b3', g: 'r2' }], groups: { r1: { pivot: [0, 0], live: 'spin' }, r2: { pivot: [0, 0], live: 'spinBack' } },
     live: 'none', fx: 'glow', accent: '#ffe9a8', stroke: '#a5762a',
   },
   light: {
+    reveal: 'fade',
     strokes: [...[...Array(9).keys()].map((i) => { const a = Math.PI / 2 + (i - 4) * 0.2; return { d: Lp([0, -90], [Math.cos(a) * 190, -90 + Math.sin(a) * 190]), g: 'rays' }; }), circ(0, -76, 14)],
     fills: [{ d: circ(0, -76, 14), c: '#fff3c4' }], groups: { rays: { pivot: [0, -90], live: 'pulse' } }, live: 'none', fx: 'motes', accent: '#fff3c4', stroke: '#c9973f',
   },
@@ -256,6 +260,7 @@ const LIB = {
     fills: [{ d: 'M -40 -86 Q 40 -50 -10 -10 Q -60 30 20 86 L 60 86 Q -20 30 30 -10 Q 80 -50 0 -86 Z', c: '#9fd0ee' }], live: 'none', fx: 'flow', accent: '#cfe6ff',
   },
   seal: {
+    reveal: 'fade',
     strokes: [circ(0, 0, 70), circ(0, 0, 52), star(0, 0, 40, 28, 8, 0)],
     fills: [{ d: circ(0, 0, 70), c: '#e8d3a2' }], live: 'spinSlow', fx: 'sparkles', accent: '#ffe08a',
   },
@@ -466,11 +471,12 @@ function sparkle(ctx, x, y, r, a, col) {
 function drawOne(ctx, m, t, T, settle = false) {
   const C = compiled(m.id);
   if (!C || t < m.ts - 0.05 || t > m.te + 0.05) return;
-  const D = C.dur;
-  // on the cover (a frozen frame used as thumbnail) a motif that has started is shown complete, never half drawn
-  const age = settle && t >= m.ts ? Math.max(t - m.ts, D + 0.45) : t - m.ts, life = Math.max(0, age);
   // leaving
   const leaveD = m.exit === 'undraw' || m.handoff ? 0.55 : 0.5;
+  // a short-lived motif draws on faster, so it is complete before it starts to leave (never seen half drawn)
+  const D = Math.min(C.dur, Math.max(0.25, (m.te - m.ts) - leaveD - 0.1));
+  // on the cover (a frozen frame used as thumbnail) a motif that has started is shown complete, never half drawn
+  const age = settle && t >= m.ts ? Math.max(t - m.ts, D + 0.45) : t - m.ts, life = Math.max(0, age);
   const lv = prog(t, m.te - leaveD, m.te);
   let alpha = 1, sc = 1, dy = 0, undraw = 0;
   if (m.handoff || m.exit === 'undraw') undraw = ease.inOutSine(lv);
@@ -532,7 +538,8 @@ function drawOne(ctx, m, t, T, settle = false) {
     if (p <= 0.005) return;
     withG(s.g, () => {
       ctx.strokeStyle = C.stroke || NAVY; ctx.lineWidth = 6.5;
-      if (p < 0.999) { ctx.setLineDash([s.len * p, s.len + 10]); ctx.lineDashOffset = 0; }
+      if (C.reveal === 'fade') ctx.globalAlpha *= p;   // whole outline, fading in: never a partial shape
+      else if (p < 0.999) { ctx.setLineDash([s.len * p, s.len + 10]); ctx.lineDashOffset = 0; }
       ctx.stroke(s.p);
     });
   });

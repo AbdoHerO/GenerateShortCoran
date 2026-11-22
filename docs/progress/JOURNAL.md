@@ -1290,3 +1290,23 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
   1_1-7, 2_49-52, 2_53-56, 2_57-59 and 2_67-69.
 - **Also affected:** Al-Kahf 18_60-64 and 18_83-88 (v1). They will be fixed in the Al-Kahf v2, together with its
   Name-plate fixes.
+
+### Name-safe plates revealed whole (2026-11-22)
+
+- **Why:** the independent picture review of Al-An'am 1-58 found that the geometric plate, which is used on the Name,
+  drew its outlines stroke by stroke. For about 0.2 s its half-drawn circle and inner star formed a curl that reads
+  like a head in profile. On plates that live less than about 0.9 s the plate even faded out at that point.
+  The defect is in the renderer, so it affected every surah, not just Al-An'am.
+- **Change (`renderer/js/motifs.js`):**
+  - The three motifs allowed on the Name or «رب» (geometric, seal, light) are now revealed whole: each outline fades
+    in complete and never shows a partial stroke.
+  - A short-lived motif draws on faster, so it is complete before it starts to leave and is never seen half drawn.
+- **Re-render:** 63 published or built renders were made with the old code and contain one of these motifs. They are
+  queued for rebuild (Aal Imran first, then Al-Fatiha, Al-Hijr and Al-Baqara) and will be re-published as the next
+  version:
+  - Al-Fatiha: 1;
+  - Al-Hijr: 11;
+  - Al-Baqara: 47;
+  - Aal Imran (not yet published as v2): 4.
+
+  The 21 affected Al-Kahf videos will get the fix in the Al-Kahf v2.
