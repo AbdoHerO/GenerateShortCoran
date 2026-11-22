@@ -970,7 +970,8 @@ function actorState(a, t, T, E, B, L) {
     }
     x = cx;
   }
-  if (!STATIC.has(a.type) && !a.inPlace) x += (1 - aout) * pm.away * 90;
+  // a centre actor fades out in place: a drift toward one side would hint where it goes (Al-A'raf 7:164 review)
+  if (!STATIC.has(a.type) && !a.inPlace && a.place !== 'center') x += (1 - aout) * pm.away * 90;
   let doom = 0, alarm = 0;
   for (const ty of DESTRUCTIVE) {
     if (!E.st[ty]) continue;
