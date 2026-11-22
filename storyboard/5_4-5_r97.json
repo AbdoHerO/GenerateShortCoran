@@ -46,7 +46,7 @@
       "pose": "stand",
       "enter": [
        4,
-       6
+       10
       ],
       "exit": null,
       "look": "plain"
@@ -84,7 +84,7 @@
      {
       "at": [
        4,
-       9
+       11
       ],
       "do": "shot_close",
       "who": "h"
@@ -493,7 +493,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Wheat for «الطيبات», a dog for «مكلبين» (hunting animals; no prey or blood), geometric near «سريع الحساب». Nothing drawn for the marriage verses (5:14-32): the wheat leaves at 5:13. No people. STAGING v4: 4: the stage stays empty while the asking and 4:5 are recited (nobody stands for the asker or the one asked). A man enters on 4:6, wheat plate for the good things (4:8). A trained hunting dog (named in both tafsirs: dogs, cheetahs, falcons) enters on 4:12 and sits by him; he points to it on 4:14 (teaching it), says the Name over it on 4:22 (when sending it, Al-Muyassar) and lowers his head on 4:26. No prey, no hunt, no blood. Geometric on the Name 4:29. 5: marriage and its conditions stay ambient with no people (geometric mood for rulings, no dawn over the closing warning): wheat for the food (5:4), a house for chaste marriage (5:14), coins for the dowries (5:26), a falling leaf for the deeds made void (5:37); nothing literal for the Hereafter."
+  "notes": "Wheat for «الطيبات», a dog for «مكلبين» (hunting animals; no prey or blood), geometric near «سريع الحساب». Nothing drawn for the marriage verses (5:14-32): the wheat leaves at 5:13. No people. STAGING v4: 4: the stage stays empty while the asking and 4:5 are recited (nobody stands for the asker or the one asked). Wheat plate for the good things on the empty land (4:8); a man enters on 4:10. A trained hunting dog (named in both tafsirs: dogs, cheetahs, falcons) enters on 4:12 and sits by him; he points to it on 4:14 (teaching it), says the Name over it on 4:22 (when sending it, Al-Muyassar) and lowers his head on 4:26. No prey, no hunt, no blood. Geometric on the Name 4:29. 5: marriage and its conditions stay ambient with no people (geometric mood for rulings, no dawn over the closing warning): wheat for the food (5:4), a house for chaste marriage (5:14), coins for the dowries (5:26), a falling leaf for the deeds made void (5:37); nothing literal for the Hereafter."
  },
  "cover": {
   "series_ar": "العقود والحلال",
@@ -502,7 +502,7 @@
   "title_en": "Good food and marriage",
   "at": [
    4,
-   9
+   11
   ]
  },
  "motion": 3,

@@ -44,7 +44,10 @@
       "place": "right",
       "count": 3,
       "pose": "stand",
-      "enter": null,
+      "enter": [
+       3,
+       31
+      ],
       "exit": null
      },
      {
@@ -228,7 +231,10 @@
        3,
        43
       ],
-      "until": null,
+      "until": [
+       3,
+       51
+      ],
       "motif": "light",
       "place": "top",
       "size": "s"
@@ -438,7 +444,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Nothing drawn for the dead animals, blood, pork, idols or divining arrows. Light for «اليوم أكملت لكم دينكم», geometric for «غفور رحيم». Al-Muyassar's first-person «فلا تخافوهم وخافوني» not used (3:37-39 not glossed). STAGING v4: A town, not a market: no food, animal, altar, stone, arrow or slaughter is drawn while the forbidden things are recited (3:1-28, only the camera). Two-paths plate on 3:29 (leaving obedience). Believers (3) hold the frame from 3:31 (their religion secure); they lower their heads on 3:39 (fearing Allah alone). Light plate on 3:43 (the religion perfected); no gathering, desert or tents, so nothing stages the day of Arafat or the Farewell Hajj (As-Sa'di) and the Prophet is never implied. A poor man sits on 3:51 for the one forced by famine (both tafsirs); nothing is shown of what he eats. Geometric on 3:60 for the closing names."
+  "notes": "Nothing drawn for the dead animals, blood, pork, idols or divining arrows. Light for «اليوم أكملت لكم دينكم», geometric for «غفور رحيم». Al-Muyassar's first-person «فلا تخافوهم وخافوني» not used (3:37-39 not glossed). STAGING v4: A town, not a market: no food, animal, altar, stone, arrow or slaughter is drawn while the forbidden things are recited (3:1-28, only the camera). Two-paths plate on 3:29 (leaving obedience). The town is empty during the list; believers (3) appear on 3:31 and hold the frame (their religion secure); they lower their heads on 3:39 (fearing Allah alone). Light plate on 3:43 (the religion perfected); no gathering, desert or tents, so nothing stages the day of Arafat or the Farewell Hajj (As-Sa'di) and the Prophet is never implied. A poor man sits on 3:51 for the one forced by famine (both tafsirs); nothing is shown of what he eats. Geometric on 3:60 for the closing names."
  },
  "cover": {
   "series_ar": "العقود والحلال",

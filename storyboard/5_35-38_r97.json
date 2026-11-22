@@ -228,8 +228,15 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light",
+    "mood": "geometric",
     "beats": [
+     {
+      "at": [
+       38,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        38,
@@ -242,7 +249,7 @@
        38,
        5
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -256,7 +263,7 @@
        38,
        7
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -268,16 +275,16 @@
      {
       "at": [
        38,
-       10
+       11
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        38,
        13
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -421,7 +428,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Light for «الوسيلة», geometric for «عزيز حكيم». 36-37 (the Fire): night sky, no gold for «ما في الأرض جميعا», nothing literal. The theft penalty: no hand drawn, no people; 38:3-4 shows only that it is carried out by those in authority. «وجاهدوا» not illustrated. STAGING v4: 35: believers pray in a prayer hall for seeking nearness to Allah by obedience (prayer is among the acts As-Sa'di lists): standing on 35:6, bowing on 35:8 with the light plate, rising, prostrating on 35:12, sitting on 35:13. Nothing is drawn for striving (35:9): no weapon, no fighting. 36-37 (the Fire, no ransom) stay ambient: the unseen. 38 (the penalty for theft) stays ambient: no people, no hand."
+  "notes": "Light for «الوسيلة», geometric for «عزيز حكيم». 36-37 (the Fire): night sky, no gold for «ما في الأرض جميعا», nothing literal. The theft penalty: no hand drawn, no people; 38:3-4 shows only that it is carried out by those in authority. «وجاهدوا» not illustrated. STAGING v4: 35: believers pray in a prayer hall for seeking nearness to Allah by obedience (prayer is among the acts As-Sa'di lists): standing on 35:6, bowing on 35:8 with the light plate, rising, prostrating on 35:12, sitting on 35:13. Nothing is drawn for striving (35:9): no weapon, no fighting. 36-37 (the Fire, no ransom) stay ambient: the unseen. 38 (the penalty for theft) stays ambient with no people and no hand; its mood is now geometric (a ruling of Allah) instead of rays of light over a penalty. The cover is the geometric plate on 38:12, so no worshippers sit under a title about theft."
  },
  "cover": {
   "series_ar": "الحدود والوسيلة",
@@ -429,8 +436,8 @@
   "title_ar": "الوسيلة والسرقة",
   "title_en": "The means and theft",
   "at": [
-   35,
-   6
+   38,
+   12
   ]
  },
  "motion": 3,

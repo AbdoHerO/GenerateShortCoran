@@ -34,34 +34,9 @@
     28,
     29
    ],
-   "scene": "stage",
+   "scene": "ambient",
    "params": {
-    "setting": "mountains",
-    "time": "dusk",
-    "actors": [
-     {
-      "id": "e",
-      "type": "man",
-      "label": "",
-      "place": "left",
-      "count": 1,
-      "pose": "stand",
-      "enter": null,
-      "exit": null,
-      "look": "plain"
-     },
-     {
-      "id": "r",
-      "type": "believers",
-      "label": "",
-      "place": "right",
-      "count": 1,
-      "pose": "stand",
-      "enter": null,
-      "exit": null
-     }
-    ],
-    "events": [],
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
@@ -73,71 +48,72 @@
      {
       "at": [
        27,
+       3
+      ],
+      "do": "stars"
+     },
+     {
+      "at": [
+       27,
        7
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        27,
        10
       ],
-      "do": "shot_close",
-      "who": "r"
+      "do": "shot_wide"
      },
      {
       "at": [
        27,
-       14
+       12
       ],
-      "do": "shot_close",
-      "who": "e"
+      "do": "shot_wide"
      },
      {
       "at": [
        27,
-       17
+       16
       ],
-      "do": "speak",
-      "who": "e"
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       27,
+       18
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
        27,
        19
       ],
-      "do": "speak",
-      "who": "r"
+      "do": "shot_wide"
      },
      {
       "at": [
        27,
-       23
+       24
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        28,
-       1
+       2
       ],
-      "do": "speak",
-      "who": "r"
-     },
-     {
-      "at": [
-       28,
-       3
-      ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        28,
        6
       ],
-      "do": "shake_head",
-      "who": "r"
+      "do": "stars"
      },
      {
       "at": [
@@ -151,16 +127,14 @@
        28,
        12
       ],
-      "do": "speak",
-      "who": "r"
+      "do": "pan_left"
      },
      {
       "at": [
        28,
        13
       ],
-      "do": "bow",
-      "who": "r"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -174,8 +148,7 @@
        29,
        1
       ],
-      "do": "speak",
-      "who": "r"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -187,39 +160,37 @@
      {
       "at": [
        29,
-       4
+       6
+      ],
+      "do": "stars"
+     },
+     {
+      "at": [
+       29,
+       9
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        29,
-       7
-      ],
-      "do": "shot_close",
-      "who": "e"
-     },
-     {
-      "at": [
-       29,
        10
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        29,
        12
       ],
-      "do": "shot_close",
-      "who": "e"
+      "do": "pan_left"
      },
      {
       "at": [
        29,
        13
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -234,7 +205,7 @@
       ],
       "motif": "hands",
       "place": "top",
-      "size": "s"
+      "size": "m"
      },
      {
       "at": [
@@ -247,7 +218,7 @@
       ],
       "motif": "light",
       "place": "top",
-      "size": "s"
+      "size": "m"
      },
      {
       "at": [
@@ -257,7 +228,7 @@
       "until": null,
       "motif": "two_paths",
       "place": "top",
-      "size": "s"
+      "size": "m"
      }
     ]
    }
@@ -366,7 +337,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No people, no violence: the threat and the killing are never drawn; no hands (28 «بسطت إلي يدك»). Light only on «يتقبل الله». The brothers are not named (Al-Muyassar names them, the Quran and As-Sa'di do not). STAGING v4: The two sons of Adam as two faceless men on open land (the place is not given; no names, as only Al-Muyassar names them). The offerings are a symbol only (hands plate on 27:8): no animal, crop or fire, and nothing marks how the acceptance was known (As-Sa'di gives two possibilities). The camera holds on the accepted brother (27:10, the God-fearing one in light robes) then on the other (27:14). The threat is only a speech beat (27:17): no hand, no weapon, no gesture of the killing, no pointing, and no arm gesture at all in the chapter. The other brother answers (27:19, 28:1), shakes his head on 28:6 (he will not stretch his hand) and lowers his head on 28:13 (fearing Allah). Light plate on the acceptance words (27:21). During the warning of the Fire (29:7-13) the camera holds on the wrongdoer and a two-paths plate; nothing literal. The killing (30-31) is in the next video, ambient."
+  "notes": "No people, no violence: the threat and the killing are never drawn; no hands (28 «بسطت إلي يدك»). Light only on «يتقبل الله». The brothers are not named (Al-Muyassar names them, the Quran and As-Sa'di do not). STAGING v4: Ambient night sky with no people (the plan caution: every verse of the two sons of Adam leads to the killing). The offerings are a symbol only (hands plate 27:8-16): no animal, crop or fire, and nothing marks how the acceptance was known. Light plate on the acceptance words (27:21). Two-paths plate from 29:4 through the warning of the Fire; nothing literal. No hands, no weapon, no figure for either brother; stars and camera moves only. The killing (30-31) is in the next video, also ambient."
  },
  "cover": {
   "series_ar": "ابنا آدم",

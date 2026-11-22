@@ -71,16 +71,9 @@
      {
       "at": [
        6,
-       1
+       3
       ],
       "do": "shot_wide"
-     },
-     {
-      "at": [
-       6,
-       2
-      ],
-      "do": "pan_right"
      },
      {
       "at": [
@@ -100,7 +93,7 @@
      {
       "at": [
        6,
-       14
+       15
       ],
       "do": "shot_wide"
      },
@@ -116,28 +109,21 @@
        6,
        19
       ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       6,
-       21
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       6,
-       23
-      ],
       "do": "shot_wide"
      },
      {
       "at": [
        6,
-       25
+       22
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       6,
+       24
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -151,26 +137,26 @@
        6,
        32
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        6,
        35
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       6,
-       36
-      ],
       "do": "shot_wide"
      },
      {
       "at": [
        6,
-       39
+       37
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       6,
+       40
       ],
       "do": "shot_wide"
      },
@@ -194,22 +180,15 @@
        6,
        46
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       6,
-       47
-      ],
       "do": "shot_close",
       "who": "w"
      },
      {
       "at": [
        6,
-       51
+       50
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -230,7 +209,7 @@
      {
       "at": [
        6,
-       59
+       58
       ],
       "do": "ruku",
       "who": "w"
@@ -238,26 +217,21 @@
      {
       "at": [
        6,
-       61
+       60
       ],
       "do": "sujud",
+      "who": "w"
+     },
+     {
+      "at": [
+       6,
+       61
+      ],
+      "do": "sit",
       "who": "w"
      }
     ],
     "motifs": [
-     {
-      "at": [
-       6,
-       8
-      ],
-      "until": [
-       6,
-       18
-      ],
-      "motif": "drop",
-      "place": "top",
-      "size": "s"
-     },
      {
       "at": [
        6,
@@ -354,7 +328,8 @@
        7,
        18
       ],
-      "do": "shot_wide"
+      "do": "sit",
+      "who": "b"
      }
     ],
     "motifs": [
@@ -519,7 +494,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Wudu, ghusl, tayammum: no body, no water drawn; light only on «ليطهركم». A seal for «وميثاقه», geometric for «عليم بذات الصدور». 6:22-39 (illness, travel, «لامستم») not glossed: the tafsirs word «لامستم» differently. STAGING v4: 6: a man sits, rises on 6:5 (rising to the prayer); no washing gesture, no body part and no water on him: only a water-drop plate as a symbol (6:8-17). He leaves on 6:15, so nobody is on screen for the major impurity, illness, need and touching (6:18-39, camera and wind only). On 6:40 a traveller (no water on a journey) walks in and sits; tayammum is not acted. He stands on 6:54 and prays after the light plate (6:56): standing, bowing, prostrating on the gratitude words. 7: believers pray in a prayer hall (remembering the favour of what Allah legislated); nobody speaks on 7:10, as As-Sa'di says the pledge was not spoken but meant by their faith. Seal for the covenant, geometric on the Name 7:16, prostration before it."
+  "notes": "Wudu, ghusl, tayammum: no body, no water drawn; light only on «ليطهركم». A seal for «وميثاقه», geometric for «عليم بذات الصدور». 6:22-39 (illness, travel, «لامستم») not glossed: the tafsirs word «لامستم» differently. STAGING v4: 6: a man sits, rises on 6:5 (rising to the prayer); no washing gesture, no body part, no water and no water symbol (6:8-17, camera only). He leaves on 6:15, so nobody is on screen for the major impurity, illness, need and touching (6:18-39, camera and wind only). On 6:40 a traveller (no water on a journey) walks in and sits; tayammum is not acted. He stands on 6:54 and prays after the light plate (6:56): standing, bowing, prostrating, then sitting on the gratitude word 6:61. 7: believers pray in a prayer hall (remembering the favour of what Allah legislated); nobody speaks on 7:10, as As-Sa'di says the pledge was not spoken but meant by their faith. Seal for the covenant, geometric on the Name 7:16, prostration before it, they sit on 7:18."
  },
  "cover": {
   "series_ar": "العقود والحلال",
@@ -528,7 +503,7 @@
   "title_en": "Purity for prayer",
   "at": [
    6,
-   58
+   57
   ]
  },
  "motion": 3,

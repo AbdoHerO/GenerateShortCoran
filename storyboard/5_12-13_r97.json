@@ -44,7 +44,10 @@
       "place": "right",
       "count": 3,
       "pose": "stand",
-      "enter": null,
+      "enter": [
+       12,
+       23
+      ],
       "exit": null
      }
     ],
@@ -69,8 +72,7 @@
        12,
        7
       ],
-      "do": "shot_close",
-      "who": "p"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -126,8 +128,7 @@
        12,
        28
       ],
-      "do": "shot_close",
-      "who": "p"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -188,7 +189,7 @@
       ],
       "until": [
        12,
-       12
+       23
       ],
       "motif": "seal",
       "place": "top",
@@ -502,7 +503,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A seal for the covenant «ميثاق», a scroll for «الكلم» (leaving before «ونسوا»). No people (no twelve figures for the chiefs), no motif on Musa, nothing literal for the gardens. Al-Muyassar's first-person «بحفظي ونصري», «برسلي», «سبيلي», «طردناهم» are not used. STAGING v4: 12: the Children of Israel as a small group (3) on open land; the place of the covenant is not given by the tafsirs, so a plain desert, and Musa (named only by Al-Muyassar) is not drawn. The twelve chiefs are not drawn (a group of 12 cannot be shown, and fewer would be a wrong number). Nothing is acted during the conditions (12:16-27: no prayer, no giving), Paradise is not drawn (light plate on the forgiveness 12:28), two-paths plate for straying (12:37). 13: the same group (3, no woman) turns its back on 13:2 (breaking the covenant); scroll plate for the altered words (13:9-11, leaving before forgetting). The few who kept the covenant are 2 countable believers who appear on 13:23. The pardon is the Prophet's own conduct: shown only by a wide shot, nobody faces an empty side. Geometric on the Name 13:30."
+  "notes": "A seal for the covenant «ميثاق», a scroll for «الكلم» (leaving before «ونسوا»). No people (no twelve figures for the chiefs), no motif on Musa, nothing literal for the gardens. Al-Muyassar's first-person «بحفظي ونصري», «برسلي», «سبيلي», «طردناهم» are not used. STAGING v4: 12: open land with the seal plate while the covenant, the chiefs and the first conditions are recited (12:1-22); the Children of Israel appear as a small countable group (3) on 12:23; the place of the covenant is not given by the tafsirs, so a plain desert, and Musa (named only by Al-Muyassar) is not drawn. The twelve chiefs are not drawn (a group of 12 cannot be shown, and fewer would be a wrong number). Nothing is acted during the conditions (12:16-27: no prayer, no giving), Paradise is not drawn (light plate on the forgiveness 12:28), two-paths plate for straying (12:37). 13: the same group (3, no woman) turns its back on 13:2 (breaking the covenant); scroll plate for the altered words (13:9-11, leaving before forgetting). The few who kept the covenant are 2 countable believers who appear on 13:23. The pardon is the Prophet's own conduct: shown only by a wide shot, nobody faces an empty side. Geometric on the Name 13:30."
  },
  "cover": {
   "series_ar": "العدل والميثاق",

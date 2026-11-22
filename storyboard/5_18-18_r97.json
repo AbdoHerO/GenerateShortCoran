@@ -71,7 +71,8 @@
        18,
        7
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [

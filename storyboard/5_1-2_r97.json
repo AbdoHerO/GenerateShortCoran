@@ -124,7 +124,14 @@
      {
       "at": [
        1,
-       14
+       10
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       1,
+       13
       ],
       "do": "shot_wide"
      },
@@ -573,7 +580,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A seal for «بالعقود», geometric for «إن الله يحكم ما يريد», a moon for «الشهر الحرام», hands for «وتعاونوا على البر». No motif on the sacrificial animals or the Kaaba. 2:8-10 does not gloss Al-Muyassar's «وكان ذلك في صدر الإسلام» (As-Sa'di words it differently). STAGING v4: 1: two men in a market keep a sale: the buyer agrees (1:4) and pays what is due (1:5), the trusts and sales of Al-Muyassar; seal plate for the contracts. A camel enters on 1:8 for the grazing livestock (camels, cattle, sheep in both tafsirs); no slaughter, no carrion, no blood, no game and no hunt are drawn (1:10-18 only the camera). Geometric on the Name 1:20. 2: hajj travellers on a desert road with a camel (the hady); the camel has no garland drawn, the gloss explains it. No Kaaba, no sanctuary, nothing gold or cube-like. Moon plate for the sacred month (2:9). The travellers walk on toward the left on 2:16 (those heading to the House). Nothing is drawn for hunting (2:24-26) nor for the people who barred the believers (2:27-37): no second group, so no Hudaybiya scene. On 2:38 one traveller hands the other a purse (helping one another in good, As-Sa'di), two-paths plate on 2:42 for sin versus righteousness, one traveller lowers his head on 2:47, geometric on the Name 2:48 through the warning."
+  "notes": "A seal for «بالعقود», geometric for «إن الله يحكم ما يريد», a moon for «الشهر الحرام», hands for «وتعاونوا على البر». No motif on the sacrificial animals or the Kaaba. 2:8-10 does not gloss Al-Muyassar's «وكان ذلك في صدر الإسلام» (As-Sa'di words it differently). STAGING v4: 1: two men in a market keep a sale: the buyer agrees (1:4) and pays what is due (1:5), the trusts and sales of Al-Muyassar; seal plate for the contracts. A camel enters on 1:8 for the grazing livestock (camels, cattle, sheep in both tafsirs); no slaughter, no carrion, no blood, no game and no hunt are drawn (1:10-18 only the camera, a wide shot from 1:10). Geometric on the Name 1:20. 2: hajj travellers on a desert road with a camel (the hady); the camel has no garland drawn, the gloss explains it. No Kaaba, no sanctuary, nothing gold or cube-like. Moon plate for the sacred month (2:9). The travellers walk on toward the left on 2:16 (those heading to the House). Nothing is drawn for hunting (2:24-26) nor for the people who barred the believers (2:27-37): no second group, so no Hudaybiya scene. On 2:38 one traveller hands the other a purse (helping one another in good, As-Sa'di), two-paths plate on 2:42 for sin versus righteousness, one traveller lowers his head on 2:47, geometric on the Name 2:48 through the warning."
  },
  "cover": {
   "series_ar": "العقود والحلال",
