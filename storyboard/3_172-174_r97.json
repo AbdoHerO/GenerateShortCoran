@@ -75,38 +75,9 @@
     173,
     174
    ],
-   "scene": "stage",
+   "scene": "ambient",
    "params": {
-    "setting": "desert",
-    "time": "day",
-    "actors": [
-     {
-      "id": "b",
-      "type": "believers",
-      "label": "",
-      "place": "left",
-      "count": 4,
-      "pose": "stand",
-      "enter": null,
-      "exit": null,
-      "uncountable": true
-     },
-     {
-      "id": "n",
-      "type": "disbelievers",
-      "label": "",
-      "place": "right",
-      "count": 3,
-      "pose": "stand",
-      "enter": null,
-      "exit": [
-       173,
-       11
-      ],
-      "uncountable": true
-     }
-    ],
-    "events": [],
+    "mood": "light",
     "beats": [
      {
       "at": [
@@ -118,50 +89,23 @@
      {
       "at": [
        173,
-       2
-      ],
-      "do": "speak",
-      "who": "n"
-     },
-     {
-      "at": [
-       173,
        5
       ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       173,
-       8
-      ],
-      "do": "point",
-      "who": "n",
-      "to": "right"
+      "do": "pan_right"
      },
      {
       "at": [
        173,
        10
       ],
-      "do": "shot_close",
-      "who": "b"
-     },
-     {
-      "at": [
-       173,
-       13
-      ],
-      "do": "speak",
-      "who": "b"
+      "do": "pan_left"
      },
      {
       "at": [
        173,
        14
       ],
-      "do": "raise_hands",
-      "who": "b"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -175,31 +119,28 @@
        173,
        16
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        174,
        1
       ],
-      "do": "walk_to",
-      "who": "b",
-      "to": "right"
+      "do": "shot_wide"
      },
      {
       "at": [
        174,
-       6
+       7
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        174,
        9
       ],
-      "do": "shot_close",
-      "who": "b"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -221,7 +162,7 @@
       ],
       "motif": "mountain",
       "place": "top",
-      "size": "s"
+      "size": "m"
      },
      {
       "at": [
@@ -234,7 +175,7 @@
       ],
       "motif": "burst",
       "place": "top",
-      "size": "s"
+      "size": "m"
      }
     ],
     "transition": "iris"
@@ -355,7 +296,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Footsteps for setting out again, a mountain for the faith that grew, a burst for the favour they returned with. No army, no wounded drawn. 173: short-word flag at 11 (listen). STAGING v4: 172 stays ambient: the wounded setting out after the enemy. 173-174: on the road, a few people (uncountable, in dark robes: Al-Muyassar: بعض المشركين; As-Sa'di does not name them) speak and point away to where the enemy gathered (the enemy is not drawn), then leave; the believers (uncountable) answer and raise their hands on «حسبنا», then walk back on «فانقلبوا», no harm touching them. Their increased faith is a mountain plate, the favour a burst plate."
+  "notes": "Footsteps for setting out again, a mountain for the faith that grew, a burst for the favour they returned with. No army, no wounded drawn. 173: short-word flag at 11 (listen). STAGING v4: Both chapters stay ambient: 172 is the wounded setting out after the enemy, and 173-174 happen on that expedition against the enemy army (Hamra al-Asad), so no crowd is drawn (picture review). Their increased faith is a mountain plate, the favour they returned with a burst plate."
  },
  "cover": {
   "series_ar": "دروس أحد",
@@ -364,7 +305,7 @@
   "title_en": "Answering despite the pain",
   "at": [
    173,
-   14
+   11
   ]
  },
  "motion": 3,

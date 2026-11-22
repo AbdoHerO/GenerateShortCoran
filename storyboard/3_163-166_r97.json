@@ -73,7 +73,8 @@
        163,
        3
       ],
-      "do": "shot_wide"
+      "do": "pray",
+      "who": "p"
      },
      {
       "at": [
@@ -94,20 +95,12 @@
        163,
        6
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        163,
        7
-      ],
-      "do": "pray",
-      "who": "p"
-     },
-     {
-      "at": [
-       164,
-       2
       ],
       "do": "ruku",
       "who": "p"
@@ -115,7 +108,7 @@
      {
       "at": [
        164,
-       6
+       1
       ],
       "do": "sujud",
       "who": "p"
@@ -123,7 +116,7 @@
      {
       "at": [
        164,
-       10
+       4
       ],
       "do": "sit",
       "who": "p"
@@ -131,17 +124,16 @@
      {
       "at": [
        164,
-       13
+       10
       ],
-      "do": "shot_close",
-      "who": "r"
+      "do": "pan_right"
      },
      {
       "at": [
        164,
        15
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -163,7 +155,7 @@
        164,
        23
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
     "motifs": [

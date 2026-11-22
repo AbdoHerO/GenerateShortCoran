@@ -64,14 +64,7 @@
      {
       "at": [
        12,
-       1
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       12,
-       4
+       5
       ],
       "do": "speak",
       "who": "f"
@@ -79,14 +72,7 @@
      {
       "at": [
        12,
-       8
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       12,
-       11
+       10
       ],
       "do": "pan_right"
      },
@@ -95,7 +81,8 @@
        12,
        14
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "f"
      },
      {
       "at": [
@@ -116,28 +103,21 @@
      {
       "at": [
        12,
-       22
+       25
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        12,
-       23
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       12,
-       25
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       12,
        27
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       12,
+       29
       ],
       "do": "speak",
       "who": "f"
@@ -145,22 +125,14 @@
      {
       "at": [
        12,
-       34
-      ],
-      "do": "shot_close",
-      "who": "f"
-     },
-     {
-      "at": [
-       12,
-       38
+       35
       ],
       "do": "pan_right"
      },
      {
       "at": [
        12,
-       40
+       39
       ],
       "do": "speak",
       "who": "m"
@@ -177,7 +149,7 @@
        12,
        43
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -190,21 +162,7 @@
      {
       "at": [
        12,
-       47
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       12,
-       49
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       12,
-       52
+       50
       ],
       "do": "shot_wide"
      },
@@ -226,29 +184,22 @@
      {
       "at": [
        12,
-       61
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       12,
-       64
+       62
       ],
       "do": "shot_close",
-      "who": "m"
+      "who": "f"
      },
      {
       "at": [
        12,
        67
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        12,
-       71
+       70
       ],
       "do": "speak",
       "who": "f"
@@ -256,9 +207,9 @@
      {
       "at": [
        12,
-       73
+       74
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -271,30 +222,16 @@
      {
       "at": [
        12,
-       78
+       82
       ],
       "do": "pan_left"
-     },
-     {
-      "at": [
-       12,
-       81
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       12,
-       83
-      ],
-      "do": "shot_wide"
      },
      {
       "at": [
        12,
        84
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -305,7 +242,7 @@
       ],
       "until": [
        12,
-       21
+       19
       ],
       "motif": "coins",
       "place": "top",
@@ -314,13 +251,75 @@
      {
       "at": [
        12,
-       76
+       22
       ],
       "until": [
        12,
-       82
+       26
       ],
       "motif": "scroll",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       12,
+       40
+      ],
+      "until": [
+       12,
+       43
+      ],
+      "motif": "coins",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       12,
+       46
+      ],
+      "until": [
+       12,
+       50
+      ],
+      "motif": "scroll",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       12,
+       64
+      ],
+      "until": [
+       12,
+       66
+      ],
+      "motif": "coins",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       12,
+       77
+      ],
+      "until": [
+       12,
+       81
+      ],
+      "motif": "scroll",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       12,
+       83
+      ],
+      "until": null,
+      "motif": "seal",
       "place": "top",
       "size": "s"
      },
@@ -441,7 +440,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "One verse of 92 s. A house for the spouses, coins for the shares, a scroll for the bequest, geometric for the closing names. No people drawn. STAGING v4: One verse of 92 s. The heirs (men only, faceless) sit at home and speak about the division; one of them reads the bequest on each word that means a will (12:21, 12:45, 12:76; not on 12:83, Allah's ordinance). No spouse, no woman and no purse for a particular share is drawn. Coins plate for the shares, scroll for the bequest (ended before the Name), geometric for the closing names."
+  "notes": "One verse of 92 s. A house for the spouses, coins for the shares, a scroll for the bequest, geometric for the closing names. No people drawn. STAGING v4: One verse of 92 s. The heirs (men only, faceless) sit at home and speak about the division; one of them reads the bequest on each word that means a will (12:21, 12:45, 12:76; not on 12:83, Allah's ordinance). No spouse, no woman and no purse for a particular share is drawn. Coins plates for the shares, scroll plates for the bequests, a seal on 12:83 (His ordinance), geometric for the closing names."
  },
  "cover": {
   "series_ar": "أحكام المواريث",

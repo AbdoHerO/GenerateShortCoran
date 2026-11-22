@@ -62,22 +62,21 @@
        195,
        4
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        195,
        6
       ],
-      "do": "shot_close",
-      "who": "p"
+      "do": "shot_wide"
      },
      {
       "at": [
        195,
        9
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -115,21 +114,21 @@
        195,
        25
       ],
-      "do": "shot_wide"
+      "do": "shot_sky"
      },
      {
       "at": [
        195,
        27
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        195,
        30
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -286,7 +285,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Wheat for the deeds never lost, footsteps for the emigrants, a house for those driven from their homes. Nothing for the fighting or for Paradise (195:30-43, no river). STAGING v4: 195: a group of believing men and women (a people group, a woman among them, for «من ذكر أو أنثى») on the road; on «هاجروا» they walk on (emigration), the house plate for the homes they were driven from, bow on «وأوذوا». The fighting and the killed (195:25-26) are not drawn and nobody leaves the stage. Paradise and its rivers are never drawn: only a light plate from «جنات», and the people raise their hands on «حسن الثواب»."
+  "notes": "Wheat for the deeds never lost, footsteps for the emigrants, a house for those driven from their homes. Nothing for the fighting or for Paradise (195:30-43, no river). STAGING v4: 195: a group of believing men and women (a people group, a woman among them, for «من ذكر أو أنثى») on the road; on «هاجروا» they walk on (emigration), the house plate for the homes they were driven from, bow on «وأوذوا». The fighting and the killed (195:25-26) are not drawn: the camera tilts to the sky there, and nobody leaves the stage. Paradise and its rivers are never drawn: only a light plate from «جنات», and the people raise their hands on «حسن الثواب»."
  },
  "cover": {
   "series_ar": "تفكر ودعاء",
@@ -295,7 +294,7 @@
   "title_en": "The prayer answered",
   "at": [
    195,
-   7
+   21
   ]
  },
  "motion": 3,

@@ -219,7 +219,7 @@
        145,
        24
       ],
-      "do": "bow",
+      "do": "raise_hands",
       "who": "b"
      }
     ],
@@ -323,7 +323,7 @@
   "title_en": "Holding firm to the faith",
   "at": [
    144,
-   14
+   27
   ]
  },
  "motion": 3,

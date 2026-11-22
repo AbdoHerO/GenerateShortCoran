@@ -74,28 +74,21 @@
        22,
        5
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       22,
-       6
-      ],
       "do": "pan_left"
      },
      {
       "at": [
        22,
-       8
+       7
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        22,
-       12
+       11
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -109,33 +102,26 @@
        22,
        16
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        22,
        17
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        23,
        4
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        23,
        6
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       23,
-       7
       ],
       "do": "shot_wide"
      },
@@ -144,75 +130,61 @@
        23,
        8
       ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       23,
+       13
+      ],
       "do": "shot_wide"
      },
      {
       "at": [
        23,
-       11
+       16
       ],
       "do": "pan_right"
-     },
-     {
-      "at": [
-       23,
-       15
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       23,
-       17
-      ],
-      "do": "pan_left"
      },
      {
       "at": [
        23,
        19
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        23,
        20
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        23,
        22
       ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       23,
-       23
-      ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        23,
        25
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        23,
        26
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        23,
-       27
+       28
       ],
       "do": "pan_left"
      },
@@ -221,56 +193,49 @@
        23,
        30
       ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       23,
+       34
+      ],
       "do": "pan_right"
      },
      {
       "at": [
        23,
-       32
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       23,
-       35
+       38
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        23,
-       37
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       23,
-       40
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       23,
-       42
+       41
       ],
       "do": "pan_left"
      },
      {
       "at": [
        23,
-       46
+       44
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       23,
+       48
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
        23,
        54
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -545,7 +510,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Prohibited relations: text only, no people, no household scene. A seal for «ميثاقا غليظا», a scroll for «حرمت عليكم», geometric for «غفورا رحيما». Foster-son detail avoided (only the point both tafsirs share: the son's wife is prohibited by the contract alone). The plan title «المحرمات من النساء» repeated «من النساء» (4:22, 4:24), so the cover reads «محرمات النكاح». STAGING v4: 21-23 stay ambient with no people on screen: the marriage covenant and the women one may not marry."
+  "notes": "Prohibited relations: text only, no people, no household scene. A seal for «ميثاقا غليظا», a scroll for «حرمت عليكم», geometric for «غفورا رحيما». Foster-son detail avoided (only the point both tafsirs share: the son's wife is prohibited by the contract alone). The plan title «المحرمات من النساء» repeated «من النساء» (4:22, 4:24), so the cover reads «محرمات النكاح». STAGING v4: 21-23 stay ambient with no people on screen: the marriage covenant and the women one may not marry. Chapter c2 keeps its mood and plates; only its camera beats were re-spaced (24 at most)."
  },
  "cover": {
   "series_ar": "أحكام الزواج",

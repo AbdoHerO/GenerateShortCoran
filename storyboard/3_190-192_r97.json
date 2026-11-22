@@ -136,19 +136,6 @@
        5
       ],
       "exit": null
-     },
-     {
-      "id": "l",
-      "type": "believers",
-      "label": "",
-      "place": "right",
-      "count": 2,
-      "pose": "sleep",
-      "enter": [
-       191,
-       7
-      ],
-      "exit": null
      }
     ],
     "events": [],
@@ -171,9 +158,9 @@
      {
       "at": [
        191,
-       7
+       6
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -397,7 +384,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Stars and night_day for the signs in creation, hands for the remembrance, geometric for «سبحانك». Nothing for the Fire. STAGING v4: 190: people of understanding in the open desert at night look up at the sky; the camera tilts to the sky on «خلق السماوات» (no Name there) and is back down before any Name; night_day plate on «واختلاف الليل والنهار». 191-192: remembrance in every state (both tafsirs: في جميع أحوالهم; As-Sa'di includes prayer standing, then sitting, then on the side): one group stands in prayer on «قياما», a sitting group appears on «وقعودا», a group lying on their sides appears on «على جنوبهم» (the sleep pose); the sitting ones look up on «ويتفكرون» and raise their hands for the du'a; geometric plate on «سبحانك». The Fire is never drawn; the stars plate ends before «ربنا»."
+  "notes": "Stars and night_day for the signs in creation, hands for the remembrance, geometric for «سبحانك». Nothing for the Fire. STAGING v4: 190: people of understanding in the open desert at night look up at the sky; the camera tilts to the sky on «خلق السماوات» (no Name there) and is back down before any Name; night_day plate on «واختلاف الليل والنهار». 191-192: remembrance in every state (both tafsirs: في جميع أحوالهم; As-Sa'di includes prayer standing, then sitting, then on the side): one group stands in prayer on «قياما», a sitting group appears on «وقعودا»; nobody is drawn lying down (the sleep pose reads as asleep or as shrouded bodies, picture review); the sitting ones look up on «ويتفكرون» and raise their hands for the du'a; geometric plate on «سبحانك». The Fire is never drawn; the stars plate ends before «ربنا»."
  },
  "cover": {
   "series_ar": "تفكر ودعاء",

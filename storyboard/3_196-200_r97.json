@@ -346,7 +346,7 @@
    ],
    "scene": "stage",
    "params": {
-    "setting": "mountains",
+    "setting": "prayer_hall",
     "time": "dawn",
     "actors": [
      {
@@ -593,7 +593,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "One unit of about 107 s (the reciter joins 196 to 199, and 199/200 has no clean cut). A leaf for the passing enjoyment, light for the hospitality from Allah (no river or gardens drawn), a book for the scriptures, wheat for the reward, a mountain for patience. No coins on the negated «لا يشترون ... ثمنا قليلا». Nothing for Hell. STAGING v4: 196-197: a rich trader with his camel moving through the land at dusk (both tafsirs: تقلبهم في البلاد للتجارات); the passing enjoyment as a leaf plate; Hell is not pictured. 198 stays ambient: Paradise. 199: «وإن من أهل الكتاب لمن يؤمن» names only part of them: that part (p) reads the Book and bows on «خاشعين»; the others (q) do nothing. Nothing on the negated selling (no coins). 200: believers pray in an open valley at dawn on «اصبروا» (Al-Muyassar: اصبروا على طاعة ربكم); the guarding of the frontier on «ورابطوا» is not drawn (no army, no soldiers). Cover moved to the light plate of 198 (the reward), which fits the title about the two groups."
+  "notes": "One unit of about 107 s (the reciter joins 196 to 199, and 199/200 has no clean cut). A leaf for the passing enjoyment, light for the hospitality from Allah (no river or gardens drawn), a book for the scriptures, wheat for the reward, a mountain for patience. No coins on the negated «لا يشترون ... ثمنا قليلا». Nothing for Hell. STAGING v4: 196-197: a rich trader with his camel moving through the land at dusk (both tafsirs: تقلبهم في البلاد للتجارات); the passing enjoyment as a leaf plate; Hell is not pictured. 198 stays ambient: Paradise. 199: «وإن من أهل الكتاب لمن يؤمن» names only part of them: that part (p) reads the Book and bows on «خاشعين»; the others (q) do nothing. Nothing on the negated selling (no coins). 200: believers pray in a prayer hall at dawn on «اصبروا» (Al-Muyassar: اصبروا على طاعة ربكم); the guarding of the frontier on «ورابطوا» is not drawn (no army, no soldiers). Cover moved to the light plate of 198 (the reward), which fits the title about the two groups."
  },
  "cover": {
   "series_ar": "تفكر ودعاء",
