@@ -39,6 +39,13 @@
      {
       "at": [
        49,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       49,
        8
       ],
       "do": "pan_right"
@@ -89,6 +96,13 @@
       "at": [
        49,
        27
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       49,
+       29
       ],
       "do": "pan_right"
      },
@@ -235,7 +249,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Scales for «احكم» (justice, leaving before «ولا تتبع أهواءهم»), geometric for «ومن أحسن من الله حكما». No motif on the Prophet ﷺ."
+  "notes": "Scales for «احكم» (justice, leaving before «ولا تتبع أهواءهم»), geometric for «ومن أحسن من الله حكما». No motif on the Prophet ﷺ. STAGING v4: Both chapters stay ambient: 49 is addressed to the Prophet about his own judging and the people who come to him or turn from him; 50 is about Allah's judgment (His attribute)."
  },
  "cover": {
   "series_ar": "الحكم بالوحي",
@@ -247,5 +261,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

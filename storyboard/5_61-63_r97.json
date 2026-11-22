@@ -34,28 +34,90 @@
     62,
     63
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "market",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       62,
+       1
+      ]
+     },
+     {
+      "id": "r",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       62,
+       3
+      ],
+      "exit": null,
+      "look": "rich"
+     },
+     {
+      "id": "h",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        61,
-       4
+       2
       ],
-      "do": "pan_left"
+      "do": "walk_to",
+      "who": "h",
+      "to": "center"
      },
      {
       "at": [
        61,
-       7
+       3
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "h",
+      "to": "b"
      },
      {
       "at": [
        61,
-       11
+       6
+      ],
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       61,
+       10
+      ],
+      "do": "walk_to",
+      "who": "h",
+      "to": "right"
+     },
+     {
+      "at": [
+       61,
+       13
       ],
       "do": "shot_wide"
      },
@@ -64,63 +126,77 @@
        61,
        16
       ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       62,
-       1
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       62,
-       8
-      ],
       "do": "pan_left"
      },
      {
       "at": [
        62,
-       12
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
-       63,
-       1
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       63,
+       62,
        4
       ],
-      "do": "pan_left"
+      "do": "walk_to",
+      "who": "h",
+      "to": "center"
      },
      {
       "at": [
-       63,
-       8
+       62,
+       6
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "h"
+     },
+     {
+      "at": [
+       62,
+       10
+      ],
+      "do": "shot_close",
+      "who": "h"
      },
      {
       "at": [
        63,
-       11
+       1
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       63,
+       3
+      ],
+      "do": "shot_close",
+      "who": "r"
+     },
+     {
+      "at": [
+       63,
+       6
+      ],
+      "do": "speak",
+      "who": "h"
+     },
+     {
+      "at": [
+       63,
+       10
+      ],
+      "do": "shot_close",
+      "who": "r"
      },
      {
       "at": [
        63,
        13
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -131,11 +207,24 @@
       ],
       "until": [
        62,
-       10
+       8
       ],
       "motif": "two_paths",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       62,
+       8
+      ],
+      "until": [
+       62,
+       10
+      ],
+      "motif": "coins",
+      "place": "top",
+      "size": "s"
      }
     ]
    }
@@ -244,7 +333,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Night sky; only two paths for «يسارعون في الإثم» (the fork carries the warning); nothing illustrates the blamed acts. Their «آمنا» is glossed as «نفاقا ومكرا»."
+  "notes": "Night sky; only two paths for «يسارعون في الإثم» (the fork carries the warning); nothing illustrates the blamed acts. Their «آمنا» is glossed as «نفاقا ومكرا». STAGING v4: A market at dusk. 61: three men come to the believers (61:2) and speak (61:3, their outward claim); they walk back on 61:10 (they left as they came, Al-Muyassar: their entering and leaving are with disbelief). 62: the believers have left; one man in fine robes (standing for the rabbis and scholars) stands silent at one side while the three (only part of them: many of them) hasten to the centre on 62:4 and talk on 62:6 (lying words, Al-Muyassar); two paths then coins plates for sin and the unlawful gain. 63: the camera holds on the silent rabbis on 63:3 and 63:10 (their failure to forbid); nobody is shown forbidding."
  },
  "cover": {
   "series_ar": "أحوال أهل الكتاب",
@@ -253,8 +342,9 @@
   "title_en": "Consuming the unlawful",
   "at": [
    62,
-   1
+   9
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

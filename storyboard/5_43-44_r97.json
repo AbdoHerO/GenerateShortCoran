@@ -39,6 +39,13 @@
      {
       "at": [
        43,
+       6
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       43,
        8
       ],
       "do": "pan_left"
@@ -81,51 +88,103 @@
    "verses": [
     44
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       44,
+       24
+      ]
+     },
+     {
+      "id": "k",
+      "type": "man",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       44,
+       14
+      ],
+      "exit": [
+       44,
+       24
+      ],
+      "look": "plain"
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       44,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       44,
+       5
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        44,
        6
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        44,
        9
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        44,
-       12
+       13
       ],
-      "do": "pan_right"
+      "do": "sit",
+      "who": "p"
      },
      {
       "at": [
        44,
        14
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        44,
        15
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "k",
+      "to": "p"
      },
      {
       "at": [
        44,
-       18
+       19
       ],
-      "do": "shot_wide"
+      "do": "read",
+      "who": "k"
      },
      {
       "at": [
@@ -144,37 +203,37 @@
      {
       "at": [
        44,
-       26
+       28
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        44,
-       30
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       44,
-       32
+       31
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       44,
+       33
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        44,
        37
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        44,
        41
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -185,14 +244,27 @@
       ],
       "until": [
        44,
-       7
+       9
       ],
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       44,
+       33
+      ],
+      "until": [
+       44,
+       38
+      ],
+      "motif": "two_paths",
+      "place": "top",
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "page_turn"
    }
   }
  ],
@@ -288,7 +360,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A book for «التوراة» (twice, each leaving before the next clause). No motif on the prophets, rabbis or scholars. 44:33-41 keeps the condition both tafsirs give: ruling by other than revelation is kufr that removes one from the religion when one holds it lawful (As-Sa'di adds it may otherwise be a major sin). Al-Muyassar's first-person «اخشوني», «أنزلت» not used."
+  "notes": "A book for «التوراة» (twice, each leaving before the next clause). No motif on the prophets, rabbis or scholars. 44:33-41 keeps the condition both tafsirs give: ruling by other than revelation is kufr that removes one from the religion when one holds it lawful (As-Sa'di adds it may otherwise be a major sin). Al-Muyassar's first-person «اخشوني», «أنزلت» not used. STAGING v4: 43 stays ambient: those who come to the Prophet for judgment and turn from his ruling (behaviour toward him). 44: a town by day; a group (those who were Jews) sits on 44:13 to be judged and taught; the prophets of 44:9 are not drawn (no figure may stand for them, so the teacher enters only on 44:14). One man stands for the rabbis and scholars (Al-Muyassar: those who teach people the law): he speaks to the group on 44:15 and holds the book on 44:19 (what they were entrusted with). Everyone leaves on 44:24, before the commands and the prohibition (44:24-32) and before the ruling on whoever does not judge by revelation (44:33-41), which play on the empty town with the two-paths plate, so nobody on stage is labelled by it."
  },
  "cover": {
   "series_ar": "الحكم بالوحي",
@@ -297,8 +369,9 @@
   "title_en": "The Torah's judgement",
   "at": [
    44,
-   1
+   6
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

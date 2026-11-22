@@ -32,23 +32,54 @@
    "verses": [
     94
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "t",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "walk",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "c",
+      "type": "camel",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       94,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        94,
        4
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        94,
        6
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -69,7 +100,15 @@
        94,
        13
       ],
-      "do": "pan_right"
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       94,
+       15
+      ],
+      "do": "bow",
+      "who": "t"
      },
      {
       "at": [
@@ -91,7 +130,17 @@
       ],
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       94,
+       17
+      ],
+      "until": null,
+      "motif": "two_paths",
+      "place": "top",
+      "size": "s"
      }
     ]
    }
@@ -102,10 +151,60 @@
    "verses": [
     95
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "t",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       95,
+       41
+      ]
+     },
+     {
+      "id": "c",
+      "type": "camel",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "j",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 2,
+      "pose": "stand",
+      "enter": [
+       95,
+       18
+      ],
+      "exit": [
+       95,
+       27
+      ]
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       95,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        95,
@@ -116,9 +215,10 @@
      {
       "at": [
        95,
-       6
+       5
       ],
-      "do": "pan_right"
+      "do": "turn",
+      "who": "t"
      },
      {
       "at": [
@@ -130,98 +230,132 @@
      {
       "at": [
        95,
-       12
+       13
       ],
       "do": "pan_left"
      },
      {
       "at": [
        95,
-       14
+       15
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        95,
-       17
+       20
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "j"
      },
      {
       "at": [
        95,
-       21
+       23
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "j"
      },
      {
       "at": [
        95,
        25
       ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       95,
-       29
-      ],
       "do": "pan_right"
-     },
-     {
-      "at": [
-       95,
-       32
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       95,
-       35
-      ],
-      "do": "pan_left"
      },
      {
       "at": [
        95,
        36
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       95,
-       40
-      ],
       "do": "pan_left"
      },
      {
       "at": [
        95,
-       42
+       38
+      ],
+      "do": "bow",
+      "who": "t"
+     },
+     {
+      "at": [
+       95,
+       43
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        95,
-       46
+       48
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
      {
       "at": [
        95,
-       48
+       29
+      ],
+      "until": [
+       95,
+       32
+      ],
+      "motif": "wheat",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       95,
+       34
+      ],
+      "until": [
+       95,
+       37
+      ],
+      "motif": "hourglass",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       95,
+       38
+      ],
+      "until": [
+       95,
+       42
+      ],
+      "motif": "light",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       95,
+       42
+      ],
+      "until": [
+       95,
+       44
+      ],
+      "motif": "two_paths",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       95,
+       45
       ],
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "dissolve"
@@ -233,58 +367,76 @@
    "verses": [
     96
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "sea",
+    "setting": "sea_shore",
+    "time": "day",
+    "actors": [
+     {
+      "id": "t",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       96,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        96,
        8
       ],
-      "do": "pan_right"
+      "do": "walk_to",
+      "who": "t",
+      "to": "center"
      },
      {
       "at": [
        96,
-       9
+       11
       ],
-      "do": "pan_left"
+      "do": "turn",
+      "who": "t"
      },
      {
       "at": [
        96,
-       15
+       16
       ],
-      "do": "shot_wide"
+      "do": "bow",
+      "who": "t"
      },
      {
       "at": [
        96,
        18
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       96,
-       19
-      ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        96,
        20
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
      {
       "at": [
        96,
-       4
+       3
       ],
       "until": [
        96,
@@ -292,7 +444,7 @@
       ],
       "motif": "fish",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "dissolve"
@@ -490,7 +642,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No prey killed, no weapon, no blood, no slaughtered animal drawn. Light for «من يخافه بالغيب», geometric for «عزيز ذو انتقام», the sea mood and a fish only for the permitted «صيد البحر» (leaving before «وحرم عليكم صيد البر»)."
+  "notes": "No prey killed, no weapon, no blood, no slaughtered animal drawn. Light for «من يخافه بالغيب», geometric for «عزيز ذو انتقام», the sea mood and a fish only for the permitted «صيد البحر» (leaving before «وحرم عليكم صيد البر»). STAGING v4: Pilgrims in ihram (white robes) on the road with a camel (hajj shown only as travellers; no Kaaba, no sanctuary). No game, no weapon, no hunting or killing drawn. 94: they walk; on 94:15 (fearing Him unseen, holding back from the game) they bow with the light plate; two paths and a pan away while the transgressor's punishment is recited (94:17-23). 95: they turn away on 95:5 (do not kill game); two men enter on 95:18 and speak on 95:20 and 95:23 (two just men judge the equivalent, verse and both tafsirs) and leave; wheat for the food for the poor, hourglass for the fasting; the pilgrims bow on 95:38 (pardon of what is past) and leave on 95:41, so the threat (95:42-50) falls on the empty road with two paths, then geometric from the Name on 95:45. The camel is the travellers' mount, never shown as the offering and never slaughtered. 96: the pilgrims on the sea shore, fish plate for the permitted sea game (leaves before 96:9), they turn on 96:11 (land game forbidden while in ihram) and bow on 96:16 (fear Allah)."
  },
  "cover": {
   "series_ar": "الأيمان والخمر والصيد",
@@ -502,5 +654,6 @@
    4
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

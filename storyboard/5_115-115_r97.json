@@ -141,7 +141,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The table is never drawn. The tafsirs differ on whether it was sent down (Al-Muyassar: it was; As-Sa'di: possibly not), so the glosses say only that Allah promised it and warned. Al-Muyassar's first-person «وحدانيتي» not used."
+  "notes": "The table is never drawn. The tafsirs differ on whether it was sent down (Al-Muyassar: it was; As-Sa'di: possibly not), so the glosses say only that Allah promised it and warned. Al-Muyassar's first-person «وحدانيتي» not used. STAGING v4: 115 (Allah's promise to send the table down and His warning) stays ambient under a night sky: Allah's speech, a miracle and a punishment; the table is never drawn."
  },
  "cover": {
   "series_ar": "عيسى والمائدة",
@@ -153,5 +153,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

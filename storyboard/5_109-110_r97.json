@@ -83,21 +83,21 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
        110,
        10
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        110,
        15
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -109,28 +109,35 @@
      {
       "at": [
        110,
-       24
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       110,
-       27
+       22
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        110,
-       32
+       27
       ],
       "do": "pan_left"
      },
      {
       "at": [
        110,
+       31
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       110,
        35
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       110,
+       36
       ],
       "do": "pan_left"
      },
@@ -139,54 +146,68 @@
        110,
        38
       ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       110,
-       41
-      ],
       "do": "pan_right"
      },
      {
       "at": [
        110,
-       45
+       40
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       110,
+       43
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       110,
+       46
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
        110,
        49
       ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       110,
-       53
-      ],
       "do": "pan_right"
      },
      {
       "at": [
        110,
-       56
+       52
       ],
       "do": "pan_left"
      },
      {
       "at": [
        110,
-       57
+       55
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        110,
-       61
+       56
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       110,
+       57
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       110,
+       60
       ],
       "do": "pan_right"
      },
@@ -209,6 +230,19 @@
        4
       ],
       "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       110,
+       25
+      ],
+      "until": [
+       110,
+       27
+      ],
+      "motif": "book",
       "place": "top",
       "size": "m"
      }
@@ -320,7 +354,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The Day (109): night sky, nothing literal; no motif on the messengers. Isa, Maryam, Jibril: no motif; the miracles (the clay bird, healing, raising the dead) are never drawn, only glossed as «بإرادة الله تعالى وإذنه». Geometric only on «الله», leaving before the next name. 110:12-15 «بروح القدس» and 110:21-26 «الكتاب» are not glossed (the tafsirs differ). Their claim «إن هذا إلا سحر مبين» is not glossed."
+  "notes": "The Day (109): night sky, nothing literal; no motif on the messengers. Isa, Maryam, Jibril: no motif; the miracles (the clay bird, healing, raising the dead) are never drawn, only glossed as «بإرادة الله تعالى وإذنه». Geometric only on «الله», leaving before the next name. 110:12-15 «بروح القدس» and 110:21-26 «الكتاب» are not glossed (the tafsirs differ). Their claim «إن هذا إلا سحر مبين» is not glossed. STAGING v4: 109 (the Day the messengers are gathered) and 110 (Allah reminds Isa of His favours and his miracles) stay ambient: the unseen and miracles are never drawn, and no drop is placed. 110 now uses the night sky, not the geometric mood (geometric is for the Names, never for a chapter about Isa). Geometric only on the Name (110:3), leaving before Isa's name; a book plate on 110:25-26 (the Torah and the Injil), leaving before the miracles."
  },
  "cover": {
   "series_ar": "عيسى والمائدة",
@@ -332,5 +366,6 @@
    27
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

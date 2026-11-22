@@ -33,75 +33,143 @@
     87,
     88
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "s",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        87,
-       2
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       87,
-       6
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       87,
-       8
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       87,
-       12
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       87,
-       15
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       87,
-       17
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       88,
        1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
-       88,
-       9
+       87,
+       3
+      ],
+      "do": "walk_to",
+      "who": "b",
+      "to": "center"
+     },
+     {
+      "at": [
+       87,
+       6
+      ],
+      "do": "point",
+      "who": "b",
+      "to": "right"
+     },
+     {
+      "at": [
+       87,
+       8
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       87,
+       12
       ],
       "do": "pan_left"
      },
      {
       "at": [
        88,
+       1
+      ],
+      "do": "speak",
+      "who": "b",
+      "to": "s"
+     },
+     {
+      "at": [
+       88,
+       5
+      ],
+      "do": "give",
+      "who": "b",
+      "to": "s"
+     },
+     {
+      "at": [
+       88,
+       7
+      ],
+      "do": "bow",
+      "who": "b"
+     },
+     {
+      "at": [
+       88,
+       10
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       88,
        12
       ],
-      "do": "pan_right"
+      "do": "turn",
+      "who": "b"
      }
     ],
     "motifs": [
+     {
+      "at": [
+       87,
+       6
+      ],
+      "until": [
+       87,
+       8
+      ],
+      "motif": "palm",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       87,
+       15
+      ],
+      "until": [
+       88,
+       1
+      ],
+      "motif": "two_paths",
+      "place": "top",
+      "size": "s"
+     },
      {
       "at": [
        88,
@@ -113,7 +181,7 @@
       ],
       "motif": "wheat",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -124,79 +192,168 @@
    "verses": [
     89
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "m",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     },
+     {
+      "id": "f",
+      "type": "man",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       89,
+       9
+      ],
+      "look": "plain"
+     },
+     {
+      "id": "p",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       89,
+       12
+      ],
+      "exit": null,
+      "look": "poor"
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       89,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        89,
        4
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "m"
      },
      {
       "at": [
        89,
-       7
+       6
+      ],
+      "do": "speak",
+      "who": "f"
+     },
+     {
+      "at": [
+       89,
+       8
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        89,
-       9
+       10
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "m"
      },
      {
       "at": [
        89,
-       17
+       13
       ],
-      "do": "pan_right"
+      "do": "give",
+      "who": "m",
+      "to": "p"
      },
      {
       "at": [
        89,
-       21
+       15
+      ],
+      "do": "raise_hands",
+      "who": "p"
+     },
+     {
+      "at": [
+       89,
+       19
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       89,
+       22
+      ],
+      "do": "give",
+      "who": "m",
+      "to": "p"
+     },
+     {
+      "at": [
+       89,
+       24
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        89,
-       25
+       29
       ],
-      "do": "pan_left"
+      "do": "bow",
+      "who": "m"
      },
      {
       "at": [
        89,
        33
       ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       89,
-       36
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       89,
-       38
-      ],
       "do": "pan_right"
      },
      {
       "at": [
        89,
-       44
+       37
+      ],
+      "do": "bow",
+      "who": "m"
+     },
+     {
+      "at": [
+       89,
+       39
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       89,
+       45
+      ],
+      "do": "raise_hands",
+      "who": "m"
      }
     ],
     "motifs": [
@@ -211,7 +368,7 @@
       ],
       "motif": "seal",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -224,7 +381,7 @@
       ],
       "motif": "wheat",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -237,7 +394,7 @@
       ],
       "motif": "hourglass",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -247,7 +404,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "dissolve"
@@ -368,7 +525,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Wheat for «حلالا طيبا» and for the feeding «إطعام», a seal for the oaths, an hourglass for the three days of fasting, geometric for «يبين الله». No people drawn (no ten poor, no slave)."
+  "notes": "Wheat for «حلالا طيبا» and for the feeding «إطعام», a seal for the oaths, an hourglass for the three days of fasting, geometric for «يبين الله». No people drawn (no ten poor, no slave). STAGING v4: 87-88 (lawful good things): believers in a market; palm plate on 87:6, two paths while the transgressors are named (87:15), a believer asks the seller (88:1) and pays on 88:5, with the wheat plate: lawfully earned food, no theft or usurpation (As-Sa'di). 89 (oaths): two men chat (unintended oaths in speech, Al-Muyassar), the man then makes a deliberate oath (89:10, seal); the friend leaves; a poor man comes and the man gives on 89:13 (feeding, wheat plate) and on 89:22 (clothing). One poor man stands for the needy: he is not a count of the ten. Freeing a slave (89:24-25) is not drawn. Hourglass for the three days of fasting; he bows on 89:37 (keeping oaths) and raises his hands on 89:45 (gratitude)."
  },
  "cover": {
   "series_ar": "الأيمان والخمر والصيد",
@@ -377,8 +534,9 @@
   "title_en": "Expiating an oath",
   "at": [
    89,
-   12
+   14
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

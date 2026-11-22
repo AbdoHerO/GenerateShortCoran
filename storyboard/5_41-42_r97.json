@@ -32,44 +32,120 @@
    "verses": [
     41
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       41,
+       17
+      ]
+     },
+     {
+      "id": "h",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       41,
+       17
+      ]
+     },
+     {
+      "id": "j",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": [
+       41,
+       19
+      ],
+      "exit": null
+     },
+     {
+      "id": "r",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       41,
+       19
+      ],
+      "exit": null,
+      "look": "rich"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        41,
-       4
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        41,
-       8
+       2
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        41,
-       12
+       4
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       41,
+       6
+      ],
+      "do": "shake_head",
+      "who": "h"
+     },
+     {
+      "at": [
+       41,
+       11
+      ],
+      "do": "speak",
+      "who": "h",
+      "to": "b"
      },
      {
       "at": [
        41,
        13
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        41,
        14
       ],
-      "do": "pan_left"
+      "do": "turn",
+      "who": "h"
      },
      {
       "at": [
@@ -81,82 +157,140 @@
      {
       "at": [
        41,
-       21
+       20
+      ],
+      "do": "speak",
+      "who": "r",
+      "to": "j"
+     },
+     {
+      "at": [
+       41,
+       23
+      ],
+      "do": "shot_close",
+      "who": "r"
+     },
+     {
+      "at": [
+       41,
+       27
+      ],
+      "do": "read",
+      "who": "r"
+     },
+     {
+      "at": [
+       41,
+       32
+      ],
+      "do": "speak",
+      "who": "r",
+      "to": "j"
+     },
+     {
+      "at": [
+       41,
+       35
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        41,
-       25
+       40
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       41,
-       28
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       41,
-       31
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       41,
-       34
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       41,
-       37
-      ],
-      "do": "pan_right"
+      "do": "shake_head",
+      "who": "r"
      },
      {
       "at": [
        41,
        42
       ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       41,
+       46
+      ],
       "do": "pan_left"
      },
      {
       "at": [
        41,
-       47
+       51
+      ],
+      "do": "shot_close",
+      "who": "j"
+     },
+     {
+      "at": [
+       41,
+       53
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        41,
-       52
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       41,
-       58
+       56
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       41,
+       62
+      ],
+      "do": "bow",
+      "who": "j"
      },
      {
       "at": [
        41,
        63
       ],
-      "do": "pan_right"
+      "do": "bow",
+      "who": "r"
+     },
+     {
+      "at": [
+       41,
+       66
+      ],
+      "do": "shot_wide"
      }
     ],
-    "motifs": []
+    "motifs": [
+     {
+      "at": [
+       41,
+       28
+      ],
+      "until": [
+       41,
+       32
+      ],
+      "motif": "scroll",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       41,
+       42
+      ],
+      "until": [
+       41,
+       51
+      ],
+      "motif": "geometric",
+      "place": "top",
+      "size": "s"
+     }
+    ]
    }
   },
   {
@@ -201,6 +335,13 @@
       "at": [
        42,
        17
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       42,
+       20
       ],
       "do": "pan_left"
      },
@@ -371,7 +512,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on the Prophet ﷺ. A scroll for «الكلم» (leaving before their words), scales for «بالقسط» (justice, not the Mizan). Their instruction «إن أوتيتم هذا فخذوه…» (41:32-40) is not glossed. Al-Muyassar's first-person «فإني ناصرك» not used."
+  "notes": "No motif on the Prophet ﷺ. A scroll for «الكلم» (leaving before their words), scales for «بالقسط» (justice, not the Mizan). Their instruction «إن أوتيتم هذا فخذوه…» (41:32-40) is not glossed. Al-Muyassar's first-person «فإني ناصرك» not used. STAGING v4: 41: a town at dusk. 41:1-16: three men (the hypocrites, Al-Muyassar) shake their heads on 41:6 (denial), speak to a group of believers on 41:11 (their outward claim of faith) and turn away on 41:14 (their hearts did not believe); both groups leave on 41:17. 41:17-40: a group of followers listens to one chief (As-Sa'di: their leaders; Al-Muyassar: their rabbis' forgeries): he speaks on 41:20, holds a book on 41:27 with the scroll plate on 41:28 (distorting the words), speaks to them on 41:32 and shakes his head on 41:40 (their instruction to beware). Nobody faces or walks toward an empty side; the Prophet is not implied. 41:41-50 (Allah's will): only the camera and a geometric plate. 41:62-63: the followers and the chief lower their heads (disgrace in this world); nobody leaves on the punishment words. 42 stays ambient: those who come to the Prophet for judgment and his choice to judge or turn away (his own conduct)."
  },
  "cover": {
   "series_ar": "الحكم بالوحي",
@@ -380,8 +521,9 @@
   "title_en": "Twisting the rulings",
   "at": [
    41,
-   27
+   30
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -109,6 +109,13 @@
      {
       "at": [
        64,
+       22
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       64,
        25
       ],
       "do": "shot_wide"
@@ -366,7 +373,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Allah is never depicted: no hand motif, no motif at all in 64 (night sky). Their saying is never shown as a statement: 64:1-5 calls it «مقالة… شنيعة». 64:11-13 «بل يداه مبسوطتان» carries Al-Muyassar's creed «كما يليق به من غير تشبيه ولا تكييف». No fire motif for «أوقدوا نارا للحرب». Light for the forgiveness in 65. Al-Muyassar's first-person «لكفرنا/لأدخلناهم» not used; As-Sa'di's unmarked quotation of another verse not used."
+  "notes": "Allah is never depicted: no hand motif, no motif at all in 64 (night sky). Their saying is never shown as a statement: 64:1-5 calls it «مقالة… شنيعة». 64:11-13 «بل يداه مبسوطتان» carries Al-Muyassar's creed «كما يليق به من غير تشبيه ولا تكييف». No fire motif for «أوقدوا نارا للحرب». Light for the forgiveness in 65. Al-Muyassar's first-person «لكفرنا/لأدخلناهم» not used; As-Sa'di's unmarked quotation of another verse not used. STAGING v4: Both chapters stay ambient: 64 is their blasphemy about Allah's hand (nothing drawn) and the fire of war; 65 is a counterfactual about the People of the Book and Paradise (the unseen)."
  },
  "cover": {
   "series_ar": "أحوال أهل الكتاب",
@@ -378,5 +385,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

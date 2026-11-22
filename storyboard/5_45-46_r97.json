@@ -34,8 +34,15 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light",
+    "mood": "night_sky",
     "beats": [
+     {
+      "at": [
+       45,
+       3
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        45,
@@ -48,7 +55,7 @@
        45,
        8
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -62,7 +69,7 @@
        45,
        12
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -74,7 +81,21 @@
      {
       "at": [
        45,
+       18
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       45,
        19
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       45,
+       22
       ],
       "do": "shot_wide"
      },
@@ -83,6 +104,13 @@
        45,
        25
       ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       45,
+       27
+      ],
       "do": "pan_left"
      },
      {
@@ -90,7 +118,7 @@
        45,
        30
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -116,51 +144,111 @@
    "verses": [
     46
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "i",
+      "type": "prophet",
+      "label": "عيسى",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       46,
+       4
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        46,
-       3
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       46,
-       8
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        46,
-       12
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       46,
-       17
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       46,
-       22
+       4
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        46,
-       25
+       7
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "i",
+      "to": "p"
+     },
+     {
+      "at": [
+       46,
+       10
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       46,
+       13
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       46,
+       15
+      ],
+      "do": "sit",
+      "who": "p"
+     },
+     {
+      "at": [
+       46,
+       18
+      ],
+      "do": "speak",
+      "who": "i",
+      "to": "p"
+     },
+     {
+      "at": [
+       46,
+       21
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       46,
+       24
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       46,
+       26
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -175,10 +263,10 @@
       ],
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "slide"
    }
   }
  ],
@@ -296,7 +384,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Retribution: text only, no body, no wound, no people; a scroll for «وكتبنا» only. 45:20-22 «فهو كفارة له» not glossed (whose expiation it is is worded differently). Isa, Musa: no motif; a book for «الإنجيل». As-Sa'di's «روح الله وكلمته» and the first-person «وقفينا/آتيناه» paraphrases not used."
+  "notes": "Retribution: text only, no body, no wound, no people; a scroll for «وكتبنا» only. 45:20-22 «فهو كفارة له» not glossed (whose expiation it is is worded differently). Isa, Musa: no motif; a book for «الإنجيل». As-Sa'di's «روح الله وكلمته» and the first-person «وقفينا/آتيناه» paraphrases not used. STAGING v4: 45 stays ambient (retribution: nothing drawn); the mood moves from light to night sky because 45:29-31 condemns the wrongdoers. 46: the people of Bani Israil in a town; Isa appears only as a blue labelled drop on his name (46:4), speaks to them on 46:7 and 46:18 (confirming the Torah); the people sit on 46:15; the book plate stands for the Injil (46:14). Maryam is named only in his lineage and is not drawn. Only shot_wide camera moves while the drop is on stage (no pans, no close-ups, no glow)."
  },
  "cover": {
   "series_ar": "الحكم بالوحي",
@@ -305,8 +393,9 @@
   "title_en": "Retribution and the Injil",
   "at": [
    46,
-   13
+   16
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

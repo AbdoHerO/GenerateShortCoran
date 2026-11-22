@@ -65,37 +65,86 @@
     57,
     58
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "m",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "c",
+      "type": "man",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       58,
+       1
+      ],
+      "exit": null,
+      "look": "plain"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        57,
-       3
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        57,
-       7
+       6
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "m"
+     },
+     {
+      "at": [
+       57,
+       9
+      ],
+      "do": "speak",
+      "who": "m"
      },
      {
       "at": [
        57,
        10
       ],
-      "do": "pan_right"
+      "do": "point",
+      "who": "m",
+      "to": "b"
      },
      {
       "at": [
        57,
-       13
+       14
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -109,7 +158,8 @@
        57,
        17
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "m"
      },
      {
       "at": [
@@ -121,9 +171,16 @@
      {
       "at": [
        57,
-       21
+       20
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       57,
+       22
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
@@ -135,27 +192,68 @@
      {
       "at": [
        58,
-       2
+       1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        58,
-       7
+       2
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "c"
+     },
+     {
+      "at": [
+       58,
+       4
+      ],
+      "do": "pray",
+      "who": "b"
+     },
+     {
+      "at": [
+       58,
+       5
+      ],
+      "do": "speak",
+      "who": "m"
+     },
+     {
+      "at": [
+       58,
+       6
+      ],
+      "do": "point",
+      "who": "m",
+      "to": "c"
      },
      {
       "at": [
        58,
        9
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "m"
      }
     ],
-    "motifs": [],
-    "transition": "dissolve"
+    "motifs": [
+     {
+      "at": [
+       57,
+       14
+      ],
+      "until": [
+       57,
+       17
+      ],
+      "motif": "book",
+      "place": "top",
+      "size": "s"
+     }
+    ],
+    "transition": "slide"
    }
   }
  ],
@@ -240,7 +338,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Geometric for «حزب الله». 57-58 (the mockers) under a night sky with no motif; nothing illustrates the mockery or the call to prayer."
+  "notes": "Geometric for «حزب الله». 57-58 (the mockers) under a night sky with no motif; nothing illustrates the mockery or the call to prayer. STAGING v4: 56 stays ambient (allegiance to Allah and His Messenger, the party of Allah). 57-58: a prayer hall; believers on one side, three men (the mockers) on the other. The mockers talk and point at the believers on 57:9-10 (taking the religion in jest); a book plate for those given the Book (57:14); nothing is acted on the prohibition or on the condition of 57:19-23. 58:1 one man (the caller, Al-Muyassar) enters and calls on 58:2; the believers stand in prayer on 58:4; the mockers talk and point at the caller on 58:5-6. No Kaaba, no minaret. The cover moves to 58:7 (the mockers and the prayer) to match its title."
  },
  "cover": {
   "series_ar": "الولاء والبراء",
@@ -248,9 +346,10 @@
   "title_ar": "المستهزئون بالصلاة",
   "title_en": "Mocking the prayer",
   "at": [
-   57,
-   4
+   58,
+   7
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

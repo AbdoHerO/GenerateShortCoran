@@ -33,10 +33,47 @@
     101,
     102
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       101,
+       22
+      ]
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": [
+       102,
+       1
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       101,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        101,
@@ -61,23 +98,49 @@
      {
       "at": [
        101,
-       22
+       17
       ],
-      "do": "pan_right"
+      "do": "read",
+      "who": "b"
      },
      {
       "at": [
-       102,
-       1
+       101,
+       20
+      ],
+      "do": "bow",
+      "who": "b"
+     },
+     {
+      "at": [
+       101,
+       25
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        102,
-       6
+       3
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "d"
+     },
+     {
+      "at": [
+       102,
+       7
+      ],
+      "do": "turn",
+      "who": "d"
+     },
+     {
+      "at": [
+       102,
+       9
+      ],
+      "do": "shake_head",
+      "who": "d"
      }
     ],
     "motifs": [
@@ -92,7 +155,20 @@
       ],
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       101,
+       23
+      ],
+      "until": [
+       102,
+       1
+      ],
+      "motif": "geometric",
+      "place": "top",
+      "size": "s"
      }
     ]
    }
@@ -121,6 +197,13 @@
        8
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       103,
+       11
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
@@ -156,6 +239,13 @@
        4
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       104,
+       7
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
@@ -341,7 +431,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A book for «القرآن». 103-104 under a night sky: no animals (bahira, sa'iba…), no idols drawn. The ear-cutting definitions are not glossed. Their saying «حسبنا ما وجدنا عليه آباءنا» is glossed only with As-Sa'di's rebuttal."
+  "notes": "A book for «القرآن». 103-104 under a night sky: no animals (bahira, sa'iba…), no idols drawn. The ear-cutting definitions are not glossed. Their saying «حسبنا ما وجدنا عليه آباءنا» is glossed only with As-Sa'di's rebuttal. STAGING v4: 101: believers in a town who do not ask; book plate and reading on 101:17 (the Quran), they bow on 101:20 (Allah pardoned it) and leave on 101:22; geometric on the Name (101:23). Nobody is shown asking the Messenger, and nobody faces an empty side. 102: a people of the past (unnamed, at most 3 figures) ask on 102:3, turn on 102:7 and shake their heads on 102:9 (they asked, then rejected it: both tafsirs). 103-104 stay ambient (night sky): the pagan livestock customs and rites cannot be drawn, and 104 is about people invited to the Messenger."
  },
  "cover": {
   "series_ar": "السؤال والوصية",
@@ -349,9 +439,10 @@
   "title_ar": "كثرة السؤال",
   "title_en": "Asking too much",
   "at": [
-   101,
+   102,
    4
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

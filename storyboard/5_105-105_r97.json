@@ -32,35 +32,104 @@
    "verses": [
     105
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "s",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       105,
+       10
+      ],
+      "look": "plain"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        105,
-       3
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       105,
-       6
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        105,
-       8
+       4
+      ],
+      "do": "pray",
+      "who": "b"
+     },
+     {
+      "at": [
+       105,
+       6
       ],
       "do": "pan_right"
      },
      {
       "at": [
        105,
-       17
+       7
+      ],
+      "do": "ruku",
+      "who": "b"
+     },
+     {
+      "at": [
+       105,
+       9
+      ],
+      "do": "turn",
+      "who": "s"
+     },
+     {
+      "at": [
+       105,
+       12
+      ],
+      "do": "rise",
+      "who": "b"
+     },
+     {
+      "at": [
+       105,
+       14
+      ],
+      "do": "sujud",
+      "who": "b"
+     },
+     {
+      "at": [
+       105,
+       16
+      ],
+      "do": "sit",
+      "who": "b"
+     },
+     {
+      "at": [
+       105,
+       18
       ],
       "do": "shot_wide"
      }
@@ -77,7 +146,7 @@
       ],
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -87,7 +156,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -141,7 +210,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "105:10-11 keeps the condition both tafsirs stress: «إذا اهتديتم» includes commanding good and forbidding evil. Light for «اهتديتم», geometric for «إلى الله مرجعكم»."
+  "notes": "105:10-11 keeps the condition both tafsirs stress: «إذا اهتديتم» includes commanding good and forbidding evil. Light for «اهتديتم», geometric for «إلى الله مرجعكم». STAGING v4: 105: believers praying in a hall (attend to yourselves: reform your own souls). One man turns on 105:9 (whoever goes astray) and leaves on 105:10; his straying does not harm the ones praying. No gesture on the condition 105:10-11, only the light plate. They prostrate on 105:14 and sit on 105:16. Geometric on the Name (105:13). The return to Allah and the account are not drawn."
  },
  "cover": {
   "series_ar": "السؤال والوصية",
@@ -153,5 +222,6 @@
    4
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

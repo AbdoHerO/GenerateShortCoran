@@ -33,23 +33,44 @@
     90,
     91
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        90,
-       2
+       1
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        90,
-       5
+       3
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       90,
+       6
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
@@ -63,26 +84,34 @@
        90,
        13
       ],
-      "do": "pan_right"
+      "do": "turn",
+      "who": "b"
      },
      {
       "at": [
        90,
        14
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        91,
        1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        91,
-       4
+       3
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       91,
+       6
       ],
       "do": "shot_wide"
      },
@@ -91,42 +120,43 @@
        91,
        8
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        91,
-       12
+       11
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        91,
        13
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        91,
-       17
+       14
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        91,
-       18
+       19
       ],
-      "do": "shot_wide"
+      "do": "bow",
+      "who": "b"
      },
      {
       "at": [
        91,
        20
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -141,7 +171,17 @@
       ],
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       91,
+       18
+      ],
+      "until": null,
+      "motif": "two_paths",
+      "place": "top",
+      "size": "s"
      }
     ]
    }
@@ -154,7 +194,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
@@ -166,19 +206,30 @@
      {
       "at": [
        92,
-       8
+       7
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        92,
-       10
+       9
       ],
       "do": "pan_right"
      }
     ],
-    "motifs": [],
+    "motifs": [
+     {
+      "at": [
+       92,
+       12
+      ],
+      "until": null,
+      "motif": "scroll",
+      "place": "top",
+      "size": "m"
+     }
+    ],
     "transition": "dissolve"
    }
   }
@@ -308,7 +359,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No cup, wine, dice, idols or divining arrows drawn; no motif on the Shaytan. Light only on «تفلحون». No motif on «وأطيعوا الله وأطيعوا الرسول» or on the Prophet ﷺ. 90: short-word flag, listen."
+  "notes": "No cup, wine, dice, idols or divining arrows drawn; no motif on the Shaytan. Light only on «تفلحون». No motif on «وأطيعوا الله وأطيعوا الرسول» or on the Prophet ﷺ. 90: short-word flag, listen. STAGING v4: 90-91: believers in a town. Nothing of wine, gambling, the stone altars or the divining arrows is drawn, and no enmity or quarrel is shown. The believers turn away on 90:13 (avoid it), light on 90:15 (success); two paths on 91:18 and they bow on 91:19 (they stop). No motif on the Shaytan. 92 (obeying Allah and the Messenger, and a warning to those who turn away) stays ambient, now under a night sky instead of dawn because of the warning; a scroll plate on 92:12 (the clear delivery), after the word for the Messenger."
  },
  "cover": {
   "series_ar": "الأيمان والخمر والصيد",
@@ -320,5 +371,6 @@
    9
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -32,52 +32,108 @@
    "verses": [
     93
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "prayer_hall",
+    "time": "dawn",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        93,
-       9
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       93,
-       15
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        93,
-       16
+       5
+      ],
+      "do": "pray",
+      "who": "b"
+     },
+     {
+      "at": [
+       93,
+       8
       ],
       "do": "pan_right"
      },
      {
       "at": [
        93,
-       19
+       12
       ],
-      "do": "shot_wide"
+      "do": "ruku",
+      "who": "b"
+     },
+     {
+      "at": [
+       93,
+       14
+      ],
+      "do": "rise",
+      "who": "b"
+     },
+     {
+      "at": [
+       93,
+       16
+      ],
+      "do": "sujud",
+      "who": "b"
+     },
+     {
+      "at": [
+       93,
+       18
+      ],
+      "do": "sit",
+      "who": "b"
+     },
+     {
+      "at": [
+       93,
+       21
+      ],
+      "do": "sujud",
+      "who": "b"
+     },
+     {
+      "at": [
+       93,
+       24
+      ],
+      "do": "sit",
+      "who": "b"
      }
     ],
     "motifs": [
      {
       "at": [
        93,
-       4
+       6
       ],
       "until": [
        93,
-       7
+       10
       ],
       "motif": "growth",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -87,7 +143,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -141,7 +197,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Growth for «الصالحات», geometric for «والله يحب المحسنين». Nothing drawn for wine. 93:1-9 says what both tafsirs say (what they drank before it was forbidden). 93: short-word flag, listen."
+  "notes": "Growth for «الصالحات», geometric for «والله يحب المحسنين». Nothing drawn for wine. 93:1-9 says what both tafsirs say (what they drank before it was forbidden). 93: short-word flag, listen. STAGING v4: 93: believers praying in a hall (those who believe, do good deeds, fear Allah and reach ihsan, worshipping as if they see Him). Nothing of wine is drawn. They pray on 93:5, bow on 93:12, prostrate on 93:16 and on 93:21 (ihsan), sit after. Growth for the good deeds, geometric on the Name (93:22)."
  },
  "cover": {
   "series_ar": "الأيمان والخمر والصيد",
@@ -153,5 +209,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

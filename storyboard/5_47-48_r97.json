@@ -34,7 +34,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
@@ -109,14 +109,21 @@
      {
       "at": [
        48,
-       7
+       6
       ],
       "do": "pan_right"
      },
      {
       "at": [
        48,
-       12
+       11
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       48,
+       13
       ],
       "do": "pan_left"
      },
@@ -132,14 +139,21 @@
        48,
        16
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        48,
-       19
+       18
       ],
-      "do": "pan_left"
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       48,
+       20
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -153,7 +167,7 @@
        48,
        24
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -165,6 +179,13 @@
      {
       "at": [
        48,
+       31
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       48,
        33
       ],
       "do": "shot_wide"
@@ -172,7 +193,14 @@
      {
       "at": [
        48,
-       37
+       35
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       48,
+       38
       ],
       "do": "pan_right"
      },
@@ -181,28 +209,35 @@
        48,
        39
       ],
-      "do": "pan_right"
+      "do": "birds"
      },
      {
       "at": [
        48,
-       43
+       40
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        48,
-       47
+       43
       ],
       "do": "pan_left"
      },
      {
       "at": [
        48,
+       47
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       48,
        49
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -364,7 +399,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A book for «الإنجيل» and «الكتاب», footsteps for «ومنهاجا», growth for «الخيرات». No motif on Isa or the Prophet ﷺ. 47:1-7 is set in Isa's time (Al-Muyassar: «الذين أرسل إليهم عيسى»). Al-Muyassar's first-person «فقد جعلنا» not used."
+  "notes": "A book for «الإنجيل» and «الكتاب», footsteps for «ومنهاجا», growth for «الخيرات». No motif on Isa or the Prophet ﷺ. 47:1-7 is set in Isa's time (Al-Muyassar: «الذين أرسل إليهم عيسى»). Al-Muyassar's first-person «فقد جعلنا» not used. STAGING v4: Both chapters stay ambient. 47 is a command and a condition (whoever does not judge by revelation): nothing can be acted without showing a conditional act; the mood moves from dawn to night sky because 47:14-16 condemns. 48 is the Book revealed to the Prophet and his judging between them (his own conduct), then the return to Allah (the unseen); it keeps its light mood and plates, with birds crossing on 48:39 so the picture keeps moving."
  },
  "cover": {
   "series_ar": "الحكم بالوحي",
@@ -376,5 +411,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

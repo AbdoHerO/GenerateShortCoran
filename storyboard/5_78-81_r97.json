@@ -33,56 +33,119 @@
     78,
     79
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "w",
+      "type": "prophet",
+      "label": "داود",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       78,
+       9
+      ],
+      "exit": [
+       78,
+       13
+      ]
+     },
+     {
+      "id": "i",
+      "type": "prophet",
+      "label": "عيسى",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       78,
+       10
+      ],
+      "exit": [
+       78,
+       13
+      ]
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        78,
-       5
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       78,
-       7
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       78,
-       11
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        78,
-       16
+       4
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
-       79,
-       2
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       79,
-       5
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       79,
+       78,
        6
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       78,
+       8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       78,
+       13
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       78,
+       15
+      ],
+      "do": "turn",
+      "who": "d"
+     },
+     {
+      "at": [
+       79,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       79,
+       5
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       79,
+       7
       ],
       "do": "shot_wide"
      }
@@ -97,51 +160,125 @@
     80,
     81
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "c",
+      "type": "disbelievers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "q",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 2,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "k",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        80,
-       8
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       80,
-       13
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       80,
-       19
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
-       81,
-       3
+       80,
+       2
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "k"
      },
      {
       "at": [
-       81,
+       80,
+       4
+      ],
+      "do": "walk_to",
+      "who": "k",
+      "to": "center"
+     },
+     {
+      "at": [
+       80,
        6
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "k",
+      "to": "c"
+     },
+     {
+      "at": [
+       80,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       80,
+       12
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       80,
+       17
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       81,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       81,
+       4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       81,
+       7
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        81,
        11
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -155,7 +292,16 @@
        81,
        13
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "k"
+     },
+     {
+      "at": [
+       81,
+       15
+      ],
+      "do": "turn",
+      "who": "k"
      }
     ],
     "motifs": [
@@ -170,10 +316,10 @@
       ],
       "motif": "two_paths",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "slide"
    }
   }
  ],
@@ -291,7 +437,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Night sky; Dawud, Isa and Maryam: no motif; two paths for «يتولون الذين كفروا» only. 78:7-12 «على لسان داود وعيسى» is not glossed: Al-Muyassar reads it as the Zabur and the Injil, As-Sa'di as their testimony."
+  "notes": "Night sky; Dawud, Isa and Maryam: no motif; two paths for «يتولون الذين كفروا» only. 78:7-12 «على لسان داود وعيسى» is not glossed: Al-Muyassar reads it as the Zabur and the Injil, As-Sa'di as their testimony. STAGING v4: 78-79: a town at dusk; three men (the disbelievers of Bani Israil) stand; Dawud and Isa appear only as blue labelled drops on their names (78:9, 78:10) and leave on 78:13; they do not speak (the tafsirs differ on how the curse came: the Zabur and the Injil, or their testimony), only shot_wide while they are on stage. The men turn away on 78:15 (disobedience); nobody is shown forbidding (79:3). 80-81: three men (many of them; two others of them stand still) walk to the idolaters on 80:4 and talk with them on 80:6 (taking them as allies); they stay on stage through the wrath and the punishment words; nothing is acted on the counterfactual of 81:1-11; the camera holds on them on 81:13 and they turn away on 81:15."
  },
  "cover": {
   "series_ar": "غلو النصارى",
@@ -300,8 +446,9 @@
   "title_en": "Abandoning the forbidding of evil",
   "at": [
    79,
-   1
+   3
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

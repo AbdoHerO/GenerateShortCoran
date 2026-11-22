@@ -117,6 +117,13 @@
      {
       "at": [
        71,
+       13
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       71,
        15
       ],
       "do": "pan_left"
@@ -239,7 +246,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A seal for «ميثاق»; no motif on the messengers; the killing is never drawn. Al-Muyassar's first-person «وأرسلنا… رسلنا» not used."
+  "notes": "A seal for «ميثاق»; no motif on the messengers; the killing is never drawn. Al-Muyassar's first-person «وأرسلنا… رسلنا» not used. STAGING v4: Stays ambient: the messengers denied and killed (killing is never staged), then Allah's turning to them."
  },
  "cover": {
   "series_ar": "أحوال أهل الكتاب",
@@ -251,5 +258,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

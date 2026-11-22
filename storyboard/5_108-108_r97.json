@@ -32,44 +32,99 @@
    "verses": [
     108
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "w",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 2,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        108,
-       8
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       108,
+       4
+      ],
+      "do": "speak",
+      "who": "w"
+     },
+     {
+      "at": [
+       108,
+       7
       ],
       "do": "pan_left"
      },
      {
       "at": [
        108,
-       11
+       9
       ],
-      "do": "shot_wide"
+      "do": "bow",
+      "who": "w"
+     },
+     {
+      "at": [
+       108,
+       12
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
        108,
        14
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       108,
+       15
+      ],
+      "do": "bow",
+      "who": "b"
      },
      {
       "at": [
        108,
        19
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        108,
        22
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -84,7 +139,7 @@
       ],
       "motif": "scales",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -97,7 +152,17 @@
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       108,
+       19
+      ],
+      "until": null,
+      "motif": "two_paths",
+      "place": "top",
+      "size": "s"
      }
     ]
    }
@@ -162,7 +227,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Scales for «بالشهادة على وجهها» (justice in testimony, not the Mizan), geometric for «واتقوا الله». No people."
+  "notes": "Scales for «بالشهادة على وجهها» (justice in testimony, not the Mizan), geometric for «واتقوا الله». No people. STAGING v4: 108: the same town; the two witnesses testify on 108:4 (scales: justice in testimony, not the Mizan) and lower their heads on 108:9 (fearing that their oaths be refused). The believers bow on 108:15 (fear Allah); geometric on the Name; two paths and a wide shot while 108:18-22 (the defiantly disobedient are not guided) is recited."
  },
  "cover": {
   "series_ar": "السؤال والوصية",
@@ -171,8 +236,9 @@
   "title_en": "Testifying truly",
   "at": [
    108,
-   1
+   5
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

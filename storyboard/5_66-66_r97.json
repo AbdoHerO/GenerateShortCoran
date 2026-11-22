@@ -32,23 +32,72 @@
    "verses": [
     66
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "k",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "m",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 2,
+      "pose": "stand",
+      "enter": [
+       66,
+       17
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        66,
-       6
+       1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        66,
-       8
+       3
+      ],
+      "do": "shot_close",
+      "who": "k"
+     },
+     {
+      "at": [
+       66,
+       7
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       66,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       66,
+       13
+      ],
+      "do": "shot_sky"
      },
      {
       "at": [
@@ -60,23 +109,39 @@
      {
       "at": [
        66,
-       19
+       15
       ],
-      "do": "pan_right"
+      "do": "shot_ground"
      },
      {
       "at": [
        66,
-       21
+       19
+      ],
+      "do": "shot_close",
+      "who": "m"
+     },
+     {
+      "at": [
+       66,
+       20
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        66,
+       22
+      ],
+      "do": "turn",
+      "who": "k"
+     },
+     {
+      "at": [
+       66,
        24
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -91,7 +156,7 @@
       ],
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -104,7 +169,7 @@
       ],
       "motif": "cloud_rain",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -117,7 +182,7 @@
       ],
       "motif": "wheat",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -182,7 +247,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A book for the scriptures, rain for «من فوقهم» and wheat for «من تحت أرجلهم» (provision), each leaving before the next clause. Al-Muyassar's first-person «فأنزلنا… وأنبتنا» not used."
+  "notes": "A book for the scriptures, rain for «من فوقهم» and wheat for «من تحت أرجلهم» (provision), each leaving before the next clause. Al-Muyassar's first-person «فأنزلنا… وأنبتنا» not used. STAGING v4: A town by day. 66:1-16 is a counterfactual: the group of People of the Book only stands (nothing acted, no rain or growth on the stage); the book, rain and wheat plates carry the meaning as symbols, with the camera tilting up and down on 66:13 and 66:15. 66:17 a smaller group (the moderate community) appears beside them; on 66:22 the larger group turns away (the many whose deeds are evil)."
  },
  "cover": {
   "series_ar": "أحوال أهل الكتاب",
@@ -191,8 +256,9 @@
   "title_en": "Upholding the scriptures",
   "at": [
    66,
-   1
+   5
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

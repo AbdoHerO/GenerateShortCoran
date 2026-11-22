@@ -39,6 +39,13 @@
      {
       "at": [
        119,
+       4
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       119,
        7
       ],
       "do": "shot_wide"
@@ -266,7 +273,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Paradise: nothing literal, no river or garden motif; light only on «الصادقين». Stars for the heavens, geometric for «قدير». Last verses of the surah."
+  "notes": "Paradise: nothing literal, no river or garden motif; light only on «الصادقين». Stars for the heavens, geometric for «قدير». Last verses of the surah. STAGING v4: 119 (the Day the truthful benefit, Paradise) and 120 (Allah's dominion and power) stay ambient: the unseen and Allah's attributes."
  },
  "cover": {
   "series_ar": "عيسى والمائدة",
@@ -278,5 +285,6 @@
    5
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

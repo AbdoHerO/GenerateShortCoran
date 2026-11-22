@@ -34,7 +34,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
@@ -53,16 +53,23 @@
      {
       "at": [
        67,
-       18
+       12
       ],
       "do": "pan_right"
      },
      {
       "at": [
        67,
-       21
+       18
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       67,
+       21
+      ],
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -102,96 +109,139 @@
     68,
     69
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "q",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 2,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "k",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        68,
-       5
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        68,
-       12
+       3
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "k"
      },
      {
       "at": [
        68,
-       14
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       68,
-       16
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       68,
-       18
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       68,
-       20
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       68,
-       22
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       68,
-       25
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       68,
-       27
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       68,
-       30
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       69,
-       2
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       69,
        7
       ],
       "do": "shot_wide"
      },
      {
       "at": [
+       68,
+       12
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       68,
+       14
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       68,
+       17
+      ],
+      "do": "shake_head",
+      "who": "k"
+     },
+     {
+      "at": [
+       68,
+       20
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       68,
+       24
+      ],
+      "do": "turn",
+      "who": "k"
+     },
+     {
+      "at": [
+       68,
+       26
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       68,
+       29
+      ],
+      "do": "shot_close",
+      "who": "k"
+     },
+     {
+      "at": [
+       69,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       69,
+       3
+      ],
+      "do": "shot_close",
+      "who": "q"
+     },
+     {
+      "at": [
+       69,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       69,
+       8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
        69,
        12
       ],
@@ -200,9 +250,34 @@
      {
       "at": [
        69,
-       17
+       13
       ],
-      "do": "pan_left"
+      "do": "pray",
+      "who": "q"
+     },
+     {
+      "at": [
+       69,
+       14
+      ],
+      "do": "ruku",
+      "who": "q"
+     },
+     {
+      "at": [
+       69,
+       16
+      ],
+      "do": "sujud",
+      "who": "q"
+     },
+     {
+      "at": [
+       69,
+       19
+      ],
+      "do": "sit",
+      "who": "q"
      }
     ],
     "motifs": [
@@ -217,7 +292,7 @@
       ],
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -227,10 +302,10 @@
       "until": null,
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "slide"
    }
   }
  ],
@@ -348,7 +423,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on the Prophet ﷺ; a book for «ما أنزل», geometric for «والله يعصمك». 67:9-14 «وإن لم تفعل فما بلغت رسالته» carries As-Sa'di's «فبلغ… أكمل تبليغ». 69 carries Al-Muyassar's condition: the faith meant is tawhid and belief in Muhammad ﷺ and what he brought. 69:6 «الصابئون» not glossed (the tafsirs define them differently)."
+  "notes": "No motif on the Prophet ﷺ; a book for «ما أنزل», geometric for «والله يعصمك». 67:9-14 «وإن لم تفعل فما بلغت رسالته» carries As-Sa'di's «فبلغ… أكمل تبليغ». 69 carries Al-Muyassar's condition: the faith meant is tawhid and belief in Muhammad ﷺ and what he brought. 69:6 «الصابئون» not glossed (the tafsirs define them differently). STAGING v4: 67 stays ambient (the Prophet commanded to convey); the mood moves from dawn to night sky because 67:19-24 is about the disbelievers. 68-69: a town by day; the People of the Book (three) face two believers; nobody speaks the Prophet's words or faces an empty side. Only part of them acts: the three shake their heads on 68:17 and turn away on 68:24 (increase in transgression and denial); the two believers are the rest. 69: the believers pray on 69:13 (righteous deeds) and prostrate on 69:16; nothing literal for the Day."
  },
  "cover": {
   "series_ar": "أحوال أهل الكتاب",
@@ -360,5 +435,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -34,7 +34,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
@@ -60,6 +60,13 @@
      {
       "at": [
        72,
+       19
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       72,
        21
       ],
       "do": "pan_right"
@@ -69,7 +76,7 @@
        72,
        24
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -83,14 +90,14 @@
        72,
        30
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        72,
        31
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -292,7 +299,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Isa and Maryam: no motif; geometric mood and geometric only near «اعبدوا الله ربي وربكم» and «إله واحد», each leaving before the next clause. The two claims (72:1-10, 73:1-8) are never shown as statements: they are glossed as «كفروا بمقالتهم» and «كيف اشتبه عليهم الخالق بالمخلوقين». Nothing literal for the Fire."
+  "notes": "Isa and Maryam: no motif; geometric mood and geometric only near «اعبدوا الله ربي وربكم» and «إله واحد», each leaving before the next clause. The two claims (72:1-10, 73:1-8) are never shown as statements: they are glossed as «كفروا بمقالتهم» and «كيف اشتبه عليهم الخالق بالمخلوقين». Nothing literal for the Fire. STAGING v4: Both chapters stay ambient: the claims about Isa and the Trinity are refuted, with Paradise, the Fire and the punishment (the unseen). Isa and Maryam are not drawn. The mood of 72 moves from geometric to night sky (no geometric mood over a chapter about Isa)."
  },
  "cover": {
   "series_ar": "غلو النصارى",
@@ -304,5 +311,6 @@
    11
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

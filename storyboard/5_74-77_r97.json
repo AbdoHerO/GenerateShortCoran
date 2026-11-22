@@ -68,7 +68,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
@@ -87,6 +87,13 @@
      {
       "at": [
        75,
+       11
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       75,
        13
       ],
       "do": "pan_left"
@@ -96,14 +103,14 @@
        75,
        16
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        75,
        17
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -117,84 +124,84 @@
        75,
        23
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        75,
        25
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        76,
        4
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        76,
        9
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        76,
        12
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        76,
        16
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        77,
        1
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        77,
        4
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        77,
-       10
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       77,
-       13
+       8
       ],
       "do": "pan_right"
      },
      {
       "at": [
        77,
-       17
+       11
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        77,
-       21
+       20
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       77,
+       23
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -208,6 +215,16 @@
        1
       ],
       "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       77,
+       15
+      ],
+      "until": null,
+      "motif": "two_paths",
       "place": "top",
       "size": "m"
      }
@@ -341,7 +358,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Isa and Maryam: no motif; geometric mood. Light for «غفور رحيم» (74), geometric for «السميع العليم». 77:13-17 uses As-Sa'di's general «تقدم ضلالهم» (Al-Muyassar names the Jews). Al-Muyassar's first-person «وضحنا… وحدانيتنا… نهديهم» not used."
+  "notes": "Isa and Maryam: no motif; geometric mood. Light for «غفور رحيم» (74), geometric for «السميع العليم». 77:13-17 uses As-Sa'di's general «تقدم ضلالهم» (Al-Muyassar names the Jews). Al-Muyassar's first-person «وضحنا… وحدانيتنا… نهديهم» not used. STAGING v4: Both chapters stay ambient: 74 is the call to repent and Allah's names; 75-77 refutes Isa's divinity (Isa and Maryam not drawn, nothing literal for the food of 75:14-16), Allah's names in 76, and the address to the People of the Book in 77. The mood of 75-77 moves from geometric to night sky; a two-paths plate on 77:15 (those who went astray)."
  },
  "cover": {
   "series_ar": "غلو النصارى",
@@ -353,5 +370,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

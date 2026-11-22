@@ -32,28 +32,83 @@
    "verses": [
     59
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "k",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        59,
-       6
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       59,
-       7
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        59,
+       3
+      ],
+      "do": "shot_close",
+      "who": "k"
+     },
+     {
+      "at": [
+       59,
+       5
+      ],
+      "do": "shake_head",
+      "who": "k"
+     },
+     {
+      "at": [
+       59,
+       7
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       59,
        9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       59,
+       12
+      ],
+      "do": "read",
+      "who": "b"
+     },
+     {
+      "at": [
+       59,
+       14
       ],
       "do": "pan_right"
      },
@@ -69,7 +124,7 @@
        59,
        18
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -84,7 +139,7 @@
       ],
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -123,6 +178,13 @@
      {
       "at": [
        60,
+       14
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       60,
        17
       ],
       "do": "shot_wide"
@@ -133,6 +195,13 @@
        20
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       60,
+       21
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
@@ -246,7 +315,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A book for «وما أنزل إلينا». 60 under a night sky with no motif: no apes, pigs or idols drawn."
+  "notes": "A book for «وما أنزل إلينا». 60 under a night sky with no motif: no apes, pigs or idols drawn. STAGING v4: 59: a town by day; the People of the Book (a group of three) face the believers; nobody speaks the Prophet's words and nobody faces an empty side. They shake their heads on 59:5 (their resentment); the believers hold the book on 59:12 with the book plate (belief in what was revealed); on 59:18-20 the camera stays wide so the whole group is not labelled by the word for most of them. 60 stays ambient: the curse, the wrath and those turned into apes and pigs (never drawn)."
  },
  "cover": {
   "series_ar": "أحوال أهل الكتاب",
@@ -255,8 +324,9 @@
   "title_en": "The cause of enmity",
   "at": [
    59,
-   7
+   13
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

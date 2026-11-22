@@ -32,40 +32,102 @@
    "verses": [
     53
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "h",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       53,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       53,
+       2
+      ],
+      "do": "speak",
+      "who": "b"
+     },
      {
       "at": [
        53,
        4
       ],
-      "do": "pan_left"
+      "do": "point",
+      "who": "b",
+      "to": "h"
      },
      {
       "at": [
        53,
        5
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "h"
      },
      {
       "at": [
        53,
-       9
+       10
       ],
       "do": "shot_wide"
      },
+     {
+      "at": [
+       53,
+       12
+      ],
+      "do": "bow",
+      "who": "h"
+     },
+     {
+      "at": [
+       53,
+       14
+      ],
+      "do": "wring_hands",
+      "who": "h"
+     }
+    ],
+    "motifs": [
      {
       "at": [
        53,
        13
       ],
-      "do": "shot_wide"
+      "until": null,
+      "motif": "leaf",
+      "place": "top",
+      "size": "s"
      }
-    ],
-    "motifs": []
+    ]
    }
   },
   {
@@ -75,44 +137,97 @@
     54,
     55
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": [
+       54,
+       12
+      ],
+      "exit": null
+     },
+     {
+      "id": "g",
+      "type": "man",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       55,
+       5
+      ],
+      "exit": null,
+      "look": "plain"
+     },
+     {
+      "id": "p",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "sit",
+      "enter": [
+       55,
+       5
+      ],
+      "exit": null,
+      "look": "poor"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        54,
-       5
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       54,
-       9
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        54,
-       13
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       54,
-       17
+       8
       ],
       "do": "pan_left"
      },
      {
       "at": [
        54,
-       22
+       13
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       54,
+       15
+      ],
+      "do": "bow",
+      "who": "b"
+     },
+     {
+      "at": [
+       54,
+       18
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       54,
+       21
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
@@ -126,26 +241,48 @@
        54,
        26
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        54,
        30
       ],
+      "do": "sparkle",
+      "who": "b"
+     },
+     {
+      "at": [
+       54,
+       32
+      ],
       "do": "pan_right"
      },
      {
       "at": [
        54,
-       34
+       36
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        54,
        37
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       55,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       55,
+       2
       ],
       "do": "shot_wide"
      },
@@ -154,24 +291,56 @@
        55,
        5
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        55,
-       7
+       8
       ],
-      "do": "pan_right"
+      "do": "pray",
+      "who": "b"
      },
      {
       "at": [
        55,
        10
       ],
-      "do": "shot_wide"
+      "do": "give",
+      "who": "g",
+      "to": "p"
+     },
+     {
+      "at": [
+       55,
+       11
+      ],
+      "do": "raise_hands",
+      "who": "p"
+     },
+     {
+      "at": [
+       55,
+       13
+      ],
+      "do": "bow",
+      "who": "g"
      }
     ],
     "motifs": [
+     {
+      "at": [
+       54,
+       4
+      ],
+      "until": [
+       54,
+       9
+      ],
+      "motif": "two_paths",
+      "place": "top",
+      "size": "s"
+     },
      {
       "at": [
        54,
@@ -183,23 +352,23 @@
       ],
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
-       55,
-       1
+       54,
+       29
       ],
       "until": [
        55,
-       4
+       5
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "slide"
    }
   }
  ],
@@ -339,7 +508,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "53 (the hypocrites exposed) under a night sky with no motif. Light for «ويحبونه», geometric for «إنما وليكم الله». No people, no fighting drawn."
+  "notes": "53 (the hypocrites exposed) under a night sky with no motif. Light for «ويحبونه», geometric for «إنما وليكم الله». No people, no fighting drawn. STAGING v4: 53: a town at dusk; believers speak among themselves (Al-Muyassar: some believers to others) on 53:2 and point at three men (the hypocrites) on 53:4; the men lower their heads on 53:12 and turn their hands over on 53:14 (their deeds void, the loss); a leaf plate for the void deeds. 54-55: the town is empty during the conditional of 54:4-8 (two-paths plate only, nobody shown turning back); the group of believers appears on 54:12 (the people Allah brings), lowers their heads on 54:15 (humble toward the believers); nothing is drawn for striving (54:21-24) or for the stern side; a sparkle on 54:30 (the favour), geometric for the closing names and 55:1-4. Nobody bows while the Messenger is named (55:4). 55:8 the believers stand in prayer; 55:10 a separate man (not praying) gives a purse to a poor man, who raises his hands; 55:13 is shown as the giver lowering his head (both tafsirs read it as humility, not a bow in prayer), so no one gives while bowing."
  },
  "cover": {
   "series_ar": "الولاء والبراء",
@@ -348,8 +517,9 @@
   "title_en": "Those Allah loves",
   "at": [
    54,
-   13
+   14
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

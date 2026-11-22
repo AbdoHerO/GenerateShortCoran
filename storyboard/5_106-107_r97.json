@@ -32,10 +32,44 @@
    "verses": [
     106
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "w",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 2,
+      "pose": "stand",
+      "enter": [
+       106,
+       12
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       106,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        106,
@@ -53,6 +87,20 @@
      {
       "at": [
        106,
+       8
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       106,
+       13
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       106,
        15
       ],
       "do": "shot_wide"
@@ -67,58 +115,68 @@
      {
       "at": [
        106,
-       22
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       106,
-       27
+       26
       ],
       "do": "pan_left"
      },
      {
       "at": [
        106,
-       29
+       28
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "b"
+     },
+     {
+      "at": [
+       106,
+       32
+      ],
+      "do": "speak",
+      "who": "w"
      },
      {
       "at": [
        106,
        34
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        106,
        36
       ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       106,
+       41
+      ],
       "do": "pan_right"
      },
      {
       "at": [
        106,
-       43
+       44
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "w"
      },
      {
       "at": [
        106,
        50
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        106,
        51
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -129,11 +187,24 @@
       ],
       "until": [
        106,
-       12
+       13
       ],
       "motif": "scroll",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       106,
+       22
+      ],
+      "until": [
+       106,
+       24
+      ],
+      "motif": "footsteps",
+      "place": "top",
+      "size": "s"
      },
      {
       "at": [
@@ -146,7 +217,7 @@
       ],
       "motif": "seal",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -157,30 +228,66 @@
    "verses": [
     107
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "o",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 2,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       107,
+       7
+      ]
+     },
+     {
+      "id": "h",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 2,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        107,
-       5
+       1
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        107,
-       8
+       5
       ],
       "do": "pan_left"
      },
      {
       "at": [
        107,
+       8
+      ],
+      "do": "walk_to",
+      "who": "h",
+      "to": "center"
+     },
+     {
+      "at": [
+       107,
        9
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -192,9 +299,24 @@
      {
       "at": [
        107,
+       13
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       107,
        15
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "h"
+     },
+     {
+      "at": [
+       107,
+       17
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
@@ -208,7 +330,8 @@
        107,
        22
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "h"
      },
      {
       "at": [
@@ -220,12 +343,26 @@
      {
       "at": [
        107,
-       24
+       26
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
-    "motifs": [],
+    "motifs": [
+     {
+      "at": [
+       107,
+       15
+      ],
+      "until": [
+       107,
+       21
+      ],
+      "motif": "seal",
+      "place": "top",
+      "size": "s"
+     }
+    ],
     "transition": "dissolve"
    }
   }
@@ -344,7 +481,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Death mentioned: nothing drawn, no people. A scroll for «الوصية» and a seal for the oath «فيقسمان», each leaving before the next clause."
+  "notes": "Death mentioned: nothing drawn, no people. A scroll for «الوصية» and a seal for the oath «فيقسمان», each leaving before the next clause. STAGING v4: 106: a town. The dying man, the journey and the death are not drawn (a scroll for the bequest, footsteps for the travel, leaving before the death clause). The believers addressed stand on the left; two witnesses (2, as in the verse; neutral people, since they may be Muslims or not) appear on 106:12. The believers speak on 106:28 (they hold them back after the prayer); the two swear on 106:32 (seal plate) and speak again on 106:44. No prayer is drawn: the tafsirs differ on which prayer. 107: the first two leave on 107:7, without any gesture on the condition; two of the deceased's closest heirs (2) step forward on 107:8 (stand in their place) and swear on 107:15 (seal) and 107:22."
  },
  "cover": {
   "series_ar": "السؤال والوصية",
@@ -353,8 +490,9 @@
   "title_en": "Witnessing a bequest",
   "at": [
    106,
-   12
+   14
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

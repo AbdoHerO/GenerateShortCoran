@@ -34,8 +34,15 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric",
+    "mood": "night_sky",
     "beats": [
+     {
+      "at": [
+       116,
+       7
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        116,
@@ -48,7 +55,7 @@
        116,
        11
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -60,9 +67,16 @@
      {
       "at": [
        116,
+       16
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       116,
        17
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -81,23 +95,37 @@
      {
       "at": [
        116,
-       29
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       116,
-       31
+       26
       ],
       "do": "pan_right"
      },
      {
       "at": [
        116,
-       34
+       29
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       116,
+       31
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       116,
+       34
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       116,
+       37
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
@@ -424,7 +452,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Isa and Maryam: no motif; geometric mood; geometric only on «الله», leaving before the next word. The claim of worship (116:7-15) is never shown as a statement: it is glossed only as «توبيخ للنصارى». 117:19-20 «فلما توفيتني» is not glossed (special care). The Day: nothing literal."
+  "notes": "Isa and Maryam: no motif; geometric mood; geometric only on «الله», leaving before the next word. The claim of worship (116:7-15) is never shown as a statement: it is glossed only as «توبيخ للنصارى». 117:19-20 «فلما توفيتني» is not glossed (special care). The Day: nothing literal. STAGING v4: 116-118 (Isa questioned on the Day) stay ambient: the unseen. 116 now uses the night sky instead of the geometric mood, since the verse refutes the claim of divinity of Isa and his mother; geometric only on the Name (116:3), leaving before Isa's name. No drop for Isa or Maryam."
  },
  "cover": {
   "series_ar": "عيسى والمائدة",
@@ -436,5 +464,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

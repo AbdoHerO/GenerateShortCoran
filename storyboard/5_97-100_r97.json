@@ -33,51 +33,99 @@
     97,
     98
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "p",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "walk",
+      "enter": null,
+      "exit": [
+       98,
+       1
+      ]
+     },
+     {
+      "id": "w",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "walk",
+      "enter": null,
+      "exit": [
+       98,
+       1
+      ],
+      "look": "traveller"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        97,
-       6
+       1
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       97,
+       5
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
        97,
        11
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        97,
-       13
+       12
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "p"
      },
      {
       "at": [
        97,
        14
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "w"
+     },
+     {
+      "at": [
+       97,
+       19
+      ],
+      "do": "look_up",
+      "who": "w"
      },
      {
       "at": [
        97,
        20
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        97,
        21
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -91,14 +139,14 @@
        98,
        2
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        98,
        6
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -112,7 +160,7 @@
      {
       "at": [
        97,
-       9
+       8
       ],
       "until": [
        97,
@@ -120,7 +168,7 @@
       ],
       "motif": "moon",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -133,7 +181,7 @@
       ],
       "motif": "stars",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -143,7 +191,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -155,16 +203,37 @@
     99,
     100
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       99,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        99,
        5
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -176,30 +245,39 @@
      {
       "at": [
        99,
+       9
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       99,
        11
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        100,
-       9
+       4
       ],
-      "do": "pan_right"
+      "do": "turn",
+      "who": "p"
      },
      {
       "at": [
        100,
        10
       ],
-      "do": "shot_wide"
+      "do": "bow",
+      "who": "p"
      },
      {
       "at": [
        100,
        12
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -213,15 +291,28 @@
      {
       "at": [
        100,
-       5
+       4
+      ],
+      "until": [
+       100,
+       8
+      ],
+      "motif": "two_paths",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       100,
+       8
       ],
       "until": [
        100,
        10
       ],
-      "motif": "two_paths",
+      "motif": "coins",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -231,7 +322,7 @@
       "until": null,
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "dissolve"
@@ -374,7 +465,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The Kaaba, the sacrificial animals and their garlands are not drawn. A moon for «الشهر الحرام», stars for the heavens, geometric for «شديد العقاب… غفور رحيم», two paths for «الخبيث والطيب», light for «تفلحون». No motif on the Prophet ﷺ (99)."
+  "notes": "The Kaaba, the sacrificial animals and their garlands are not drawn. A moon for «الشهر الحرام», stars for the heavens, geometric for «شديد العقاب… غفور رحيم», two paths for «الخبيث والطيب», light for «تفلحون». No motif on the Prophet ﷺ (99). STAGING v4: 97: pilgrims coming from both sides of the road (As-Sa'di: Muslims of every kind gather from every far route, get to know each other and consult): they speak on 97:12 and 97:14, the traveller looks at the sky on 97:19 (stars for the heavens). The Kaaba, the sacrificial animals and the garlands are not drawn, and no camel is on stage in this chapter so nothing reads as the offering. Moon for the sacred month. They leave on 98:1, before the attributes of 98 (empty road, geometric on the Name). 99-100: a few men in a market; the camera stays wide through 99:1-5 (the Messenger's duty). 100: two paths for the bad and the good (both tafsirs include unlawful and lawful wealth), coins for the abundance of the bad (100:8), the men turn away from it (100:4) and bow on 100:10 (fear Allah), light on 100:15 (success)."
  },
  "cover": {
   "series_ar": "الأيمان والخمر والصيد",
@@ -386,5 +477,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }
