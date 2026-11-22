@@ -295,7 +295,6 @@
       "size": "m"
      }
     ],
-    "transition": "dissolve",
     "quiet": [
      [
       [
@@ -307,7 +306,8 @@
        5
       ]
      ]
-    ]
+    ],
+    "transition": "dissolve"
    }
   }
  ],

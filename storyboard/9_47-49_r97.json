@@ -127,14 +127,6 @@
      {
       "at": [
        48,
-       4
-      ],
-      "do": "shot_close",
-      "who": "h"
-     },
-     {
-      "at": [
-       48,
        6
       ],
       "do": "speak",
@@ -145,14 +137,15 @@
        48,
        7
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        48,
        8
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "h"
      },
      {
       "at": [
@@ -356,7 +349,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "47:12-14 «وفيكم سماعون لهم» is not glossed: the tafsirs differ (Al-Muyassar: spies; As-Sa'di: weak-minded listeners). 49: the man's excuse is framed («ويعتذر بعذر آخر عجيب»); As-Sa'di's naming of the man and the women of Rome are not used. Wind for «ولأوضعوا خلالكم», light for «حتى جاء الحق». Hell (49:12-15): text only, night sky. STAGING v4: c1 (47) stays ambient: the whole verse is a counterfactual about the army on the march (if they had gone out with you), so nothing of it is acted; the listeners among the believers (47:12-14) are not drawn because the tafsirs differ on who they are. c2 (48): a town by day (As-Sa'di: since the emigration to Medina; no battle of Al-Muyassar's examples is drawn). Two small groups of three men (the hypocrites) talk among themselves: the left group speaks on 48:2 (seeking sedition) and the group walking in from the right answers on 48:6 (turning matters over: As-Sa'di, they turned ideas and schemes); nobody speaks toward an empty side. A light plate on 48:10 (the truth came), a geometric plate on 48:12 over the Name (His command prevailed), and the left group shakes its head on 48:16 (averse). c3 (49) stays ambient: the man asks leave of the Prophet (an empty-side address) and the verse ends on Hell; As-Sa'di's naming of the man is not used. The cover now shows the two groups in the town (48:8)."
+  "notes": "47:12-14 «وفيكم سماعون لهم» is not glossed: the tafsirs differ (Al-Muyassar: spies; As-Sa'di: weak-minded listeners). 49: the man's excuse is framed («ويعتذر بعذر آخر عجيب»); As-Sa'di's naming of the man and the women of Rome are not used. Wind for «ولأوضعوا خلالكم», light for «حتى جاء الحق». Hell (49:12-15): text only, night sky. STAGING v4: c1 (47) stays ambient: the whole verse is a counterfactual about the army on the march (if they had gone out with you), so nothing of it is acted; the listeners among the believers (47:12-14) are not drawn because the tafsirs differ on who they are. c2 (48): a town by day (As-Sa'di: since the emigration to Medina; no battle of Al-Muyassar's examples is drawn). Two small groups of three men (the hypocrites) talk among themselves: the left group speaks on 48:2 (seeking sedition) and the group walking in from the right answers on 48:6 (turning matters over: As-Sa'di, they turned ideas and schemes); nobody speaks toward an empty side. A light plate on 48:10 (the truth came), a geometric plate on 48:12 over the Name (His command prevailed), and the left group shakes its head on 48:16 (averse). c3 (49) stays ambient: the man asks leave of the Prophet (an empty-side address) and the verse ends on Hell; As-Sa'di's naming of the man is not used. The cover now shows the two groups in the town (48:7)."
  },
  "cover": {
   "series_ar": "غزوة تبوك",
@@ -365,7 +358,7 @@
   "title_en": "The hypocrites' sedition",
   "at": [
    48,
-   8
+   7
   ]
  },
  "motion": 3,

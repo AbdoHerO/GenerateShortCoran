@@ -48,42 +48,49 @@
        30,
        7
       ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       30,
-       11
-      ],
       "do": "shot_wide"
      },
      {
       "at": [
        30,
-       13
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       30,
-       16
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       30,
-       19
+       9
       ],
       "do": "pan_right"
      },
      {
       "at": [
        30,
-       22
+       12
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       30,
+       14
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       30,
+       17
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       30,
+       19
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       30,
+       22
+      ],
+      "do": "pan_left"
      }
     ],
     "motifs": [],

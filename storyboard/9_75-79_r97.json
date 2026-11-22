@@ -279,6 +279,13 @@
      {
       "at": [
        78,
+       3
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       78,
        6
       ],
       "do": "speak",
@@ -291,13 +298,6 @@
       ],
       "do": "speak",
       "who": "h"
-     },
-     {
-      "at": [
-       78,
-       8
-      ],
-      "do": "shot_wide"
      },
      {
       "at": [
@@ -427,8 +427,7 @@
        79,
        12
       ],
-      "do": "shot_close",
-      "who": "h"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -450,7 +449,7 @@
      {
       "at": [
        79,
-       18
+       17
       ],
       "do": "shot_close",
       "who": "h"
@@ -622,7 +621,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No man is named (As-Sa'di's report naming Tha'laba is not used). The vow of 75 is shown as their vow. Coins for «آتانا من فضله», «آتاهم من فضله» and «الصدقات»; geometric for «أن الله يعلم». 78:1-7 is glossed from «في مجالسهم…» only (Al-Muyassar's «ما يخفونه» opens on «ما»). STAGING v4: c1 (75-76): a market by day. One man in a poor robe (Al-Muyassar: from the poor among the hypocrites) on the left; he is never named (As-Sa'di's report naming him is not used, and its sheep are not drawn). A seal plate for his pledge (75:3, over the Name: a seal is safe), a coins plate for the wealth he hopes for (75:6). He does not give on 75:9: the promise is never acted. On 76:2 (given of His bounty) the same place cross-fades to the same man in rich robes (the slot is shared, so nobody walks off); a coins plate undraws on 76:5 as he shakes his head (stingy), and he turns away on 76:7. The give gesture is never used here. c2 (77-78): inside a home by day; the hypocrites sit in two small groups of three (Al-Muyassar: what they talk about in their gatherings). Nothing happens to them during the punishment of hearts (77:1-7); the Day is not drawn; a seal plate undraws on 77:9-13 (they broke what they promised); in 78 the left group whispers to the other on 78:6-7 (their secrets and private talk) between two geometric plates (78:3 and 78:8, Allah knows, Knower of the unseen). c3 (79): a town by day; three believers (the volunteers in charity) on the left, a coins plate for the charity (79:7); nobody hands money to anyone (the tafsirs do not give a recipient). Three men (the hypocrites) walk in from the right; they speak on 79:2 (finding fault), and on 79:13-14 speak and point at the believers (ridicule). From 79:12 to the end the camera holds on the mockers (the threat), never on the believers. The cover now shows the poor man under the pledge plate (75:6)."
+  "notes": "No man is named (As-Sa'di's report naming Tha'laba is not used). The vow of 75 is shown as their vow. Coins for «آتانا من فضله», «آتاهم من فضله» and «الصدقات»; geometric for «أن الله يعلم». 78:1-7 is glossed from «في مجالسهم…» only (Al-Muyassar's «ما يخفونه» opens on «ما»). STAGING v4: c1 (75-76): a market by day. One man in a poor robe (Al-Muyassar: from the poor among the hypocrites) on the left; he is never named (As-Sa'di's report naming him is not used, and its sheep are not drawn). A seal plate for his pledge (75:3, over the Name: a seal is safe), a coins plate for the wealth he hopes for (75:6). He does not give on 75:9: the promise is never acted. On 76:2 (given of His bounty) the same place cross-fades to the same man in rich robes (the slot is shared, so nobody walks off); a coins plate undraws on 76:5 as he shakes his head (stingy), and he turns away on 76:7. The give gesture is never used here. c2 (77-78): inside a home by day; the hypocrites sit in two small groups of three (Al-Muyassar: what they talk about in their gatherings). Nothing happens to them during the punishment of hearts (77:1-7); the Day is not drawn; a seal plate undraws on 77:9-13 (they broke what they promised); in 78 the left group whispers to the other on 78:6-7 (their secrets and private talk) between two geometric plates (78:3 and 78:8, Allah knows, Knower of the unseen). c3 (79): a town by day; three believers (the volunteers in charity) on the left, a coins plate for the charity (79:7); nobody hands money to anyone (the tafsirs do not give a recipient). Three men (the hypocrites) walk in from the right; they speak on 79:2 (finding fault), and on 79:13-14 speak and point at the believers (ridicule). The mockery is shown in a wide shot (both groups in frame); from 79:17 to the end the camera holds on the mockers (the threat), never on the believers. The cover now shows the poor man under the pledge plate (75:5)."
  },
  "cover": {
   "series_ar": "وجوه النفاق",
@@ -631,7 +630,7 @@
   "title_en": "The broken pledge",
   "at": [
    75,
-   6
+   5
   ]
  },
  "motion": 3,

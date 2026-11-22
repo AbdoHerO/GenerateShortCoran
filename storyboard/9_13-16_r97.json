@@ -192,7 +192,6 @@
       "size": "m"
      }
     ],
-    "transition": "dissolve",
     "quiet": [
      [
       [
@@ -214,7 +213,8 @@
        8
       ]
      ]
-    ]
+    ],
+    "transition": "dissolve"
    }
   },
   {

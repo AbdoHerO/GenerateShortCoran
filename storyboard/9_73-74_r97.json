@@ -125,6 +125,13 @@
      {
       "at": [
        74,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       74,
        6
       ],
       "do": "speak",
@@ -143,7 +150,8 @@
        74,
        12
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "h"
      },
      {
       "at": [
@@ -158,7 +166,7 @@
        74,
        18
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -172,7 +180,7 @@
        74,
        23
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -209,7 +217,7 @@
        74,
        37
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [

@@ -166,7 +166,6 @@
       "size": "m"
      }
     ],
-    "transition": "dissolve",
     "quiet": [
      [
       [
@@ -178,7 +177,8 @@
        10
       ]
      ]
-    ]
+    ],
+    "transition": "dissolve"
    }
   }
  ],

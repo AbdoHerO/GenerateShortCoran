@@ -151,7 +151,6 @@
       "size": "m"
      }
     ],
-    "transition": "morph",
     "quiet": [
      [
       [
@@ -163,7 +162,8 @@
        11
       ]
      ]
-    ]
+    ],
+    "transition": "morph"
    }
   },
   {
@@ -185,7 +185,10 @@
       "count": 3,
       "pose": "stand",
       "enter": null,
-      "exit": null
+      "exit": [
+       34,
+       17
+      ]
      },
      {
       "id": "h",
@@ -231,8 +234,7 @@
        34,
        9
       ],
-      "do": "shot_close",
-      "who": "b"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -246,14 +248,7 @@
        34,
        15
       ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       34,
-       17
-      ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -275,7 +270,7 @@
        34,
        24
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -546,7 +541,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "32: both tafsirs read «نور الله» as His religion; wind for «يطفئوا… بأفواههم», light for «يتم نوره». The reciter joins 32 to 33 (no clean cut), so 32-35 is one unit. 33: light for «بالهدى» (after «رسوله»), geometric for «على الدين كله»; As-Sa'di's «والسيف والسنان» is not used. 34 keeps «كثيرا» (many, not all) and Al-Muyassar's definition of hoarding (withholding zakat). Coins leave before «فبشرهم بعذاب أليم»; no gold motif and nothing drawn in 35 (Hell): night sky only. STAGING v4: c1 (32) stays ambient (their wish and Allah's refusal; both tafsirs: His light is His religion): the mood moves from light rays to night_sky so the light of Allah is not drawn as rays, and the light plate on the completing of His light becomes a lamp plate (the light of faith), after the Name. c2 (33) stays ambient (the sending of the Messenger); one light plate for guidance and the religion of truth, the geometric plate dropped (kept for the Names). c3 (34): a market by day; three believers stand at the left (the addressed, warned; As-Sa'di: a warning to the believers). The scholars and monks are not drawn (no people named; many, not all; nothing acted of the bribes): a coins plate for the people's wealth (34:10) and a two-paths plate for hindering from the way of Allah (34:13, gone before the Name). On 34:17 a rich man walks in from the right (those who hoard; Al-Muyassar: withholding zakat), under a coins plate for the gold and silver (34:18, gone before 34:21); nothing is acted on the negation 34:21-25, and the camera holds on him, not on the believers, through 34:26-28; the address 34:26 gets camera only. c4 (35, Hell) stays ambient with no motif: no gold or fire drawn. The background stays quiet on 32:4-12 (His light) and 33:1-11 (He sent His Messenger)."
+  "notes": "32: both tafsirs read «نور الله» as His religion; wind for «يطفئوا… بأفواههم», light for «يتم نوره». The reciter joins 32 to 33 (no clean cut), so 32-35 is one unit. 33: light for «بالهدى» (after «رسوله»), geometric for «على الدين كله»; As-Sa'di's «والسيف والسنان» is not used. 34 keeps «كثيرا» (many, not all) and Al-Muyassar's definition of hoarding (withholding zakat). Coins leave before «فبشرهم بعذاب أليم»; no gold motif and nothing drawn in 35 (Hell): night sky only. STAGING v4: c1 (32) stays ambient (their wish and Allah's refusal; both tafsirs: His light is His religion): the mood moves from light rays to night_sky so the light of Allah is not drawn as rays, and the light plate on the completing of His light becomes a lamp plate (the light of faith), after the Name. c2 (33) stays ambient (the sending of the Messenger); one light plate for guidance and the religion of truth, the geometric plate dropped (kept for the Names). c3 (34): a market by day; three believers stand at the left (the addressed, warned; As-Sa'di: a warning to the believers). The camera closes on them only on 34:3 (the address); while the scholars' deeds are recited (34:5-16) it stays wide and drifts to the market stalls (the people's wealth), never closing on the believers. The scholars and monks are not drawn (no people named; many, not all; nothing acted of the bribes): a coins plate for the people's wealth (34:10) and a two-paths plate for hindering from the way of Allah (34:13, gone before the Name). On 34:17 the believers leave the stage (long before the threat, so they are not in frame while it is recited) and a rich man walks in from the right (those who hoard; Al-Muyassar: withholding zakat), under a coins plate for the gold and silver (34:18, gone before 34:21); nothing is acted on the negation 34:21-25, and the camera holds on him, not on the believers, through 34:26-28; the address 34:26 gets camera only. c4 (35, Hell) stays ambient with no motif: no gold or fire drawn. The background stays quiet on 32:4-12 (His light) and 33:1-11 (He sent His Messenger)."
  },
  "cover": {
   "series_ar": "صفاء التوحيد",

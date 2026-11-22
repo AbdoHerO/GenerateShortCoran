@@ -127,7 +127,6 @@
       "size": "m"
      }
     ],
-    "transition": "light_sweep",
     "quiet": [
      [
       [
@@ -139,7 +138,8 @@
        11
       ]
      ]
-    ]
+    ],
+    "transition": "light_sweep"
    }
   },
   {
