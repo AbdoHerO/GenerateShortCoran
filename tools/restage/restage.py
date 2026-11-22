@@ -12,6 +12,7 @@ Actors "a": "id type[:look] place count pose [enter=v:w] [exit=v:w] [label=name_
 Events "e": "type v:w [until=v:w]"      e.g. "rain 22:4 until=22:9"
 Beats  "b": "v:w do [who] [to]"         e.g. "113:7 pray b", "114:13 give b p", "114:1 shot_wide"
 Motifs "m": "v:w motif [place] [size] [exit=..] [until=v:w]"   (stage motifs default to size s)
+Moon   "moon": False  (night stage without the crescent)
 Quiet  "q": [["v:w", "v:w"], ...]  word ranges where the background never pulses (Allah speaking, «تجلى»)
 After writing, runs autobeats (camera moves in gaps) and verify, and prints PASSED/FAILED per storyboard.
 """
@@ -85,6 +86,7 @@ def build(old, c):
     prm["motifs"] = [motif(x, stage) for x in c.get("m", [])]
     if c.get("q"):   # quiet word ranges: no ambient pulse, e.g. "q": [["143:1", "143:35"]]
         prm["quiet"] = [[ref(a), ref(b)] for a, b in c["q"]]
+    if c.get("moon") is False: prm["moon"] = False   # night stage without the crescent
     if c.get("t"): prm["transition"] = c["t"]
     elif old.get("params", {}).get("transition") and c.get("t") is None: prm["transition"] = old["params"]["transition"]
     out = {"id": old["id"], "title": c.get("title", old["title"]), "verses": old["verses"], "scene": "stage" if stage else "ambient", "params": prm}

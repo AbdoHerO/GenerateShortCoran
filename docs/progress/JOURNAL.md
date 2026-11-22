@@ -1407,3 +1407,15 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
 - **Re-render:** renders already built or published before this change are covered by a final consistency pass. Once
   the queue is built, every published render that predates the last renderer fix is rebuilt and published as the
   next version (scope: surahs 1-15 and 18).
+
+### Prison setting and a night without the moon (2026-11-22)
+
+- **Why:** the Yusuf 1-47 review found two problems.
+  - The `home` interior used for Yusuf's prison reads as a comfortable living room, while the verse names the place
+    «السجن».
+  - A night stage always draws a crescent, which echoes the dream of the stars and the moon over the brothers.
+- **Change:**
+  - New stage setting `prison`: plain stone walls, one small high window, a bare floor with a straw mat, and no bars,
+    chains or guards.
+  - New chapter param `moon: false`, which hides the crescent of a night stage. `restage.py` writes it from the spec
+    key `"moon": False`.

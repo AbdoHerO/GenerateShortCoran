@@ -149,6 +149,7 @@
       "pass":         { "label": "A narrow pass between two high mountains",      "bg": "#e6e3dc" },
       "sea_junction": { "label": "Where two seas meet, a large rock on the shore", "bg": "#dfe7ea" },
       "home": {"label": "Inside a home: plastered walls, a lattice window (sky by time of day), a hanging lamp, cushions and a rug", "bg": "#e6d6b8"},
+      "prison": {"label": "A plain prison cell: stone walls, one small high window, a bare floor with a straw mat (no bars, chains or guards)", "bg": "#cfc6b4"},
       "prayer_hall": {"label": "A prayer hall: an arcade of arches, hanging lamps, a green carpet with straight rows (no Kaaba, no writing)", "bg": "#ece2cc"},
       "market": {"label": "A market street: stalls with striped awnings, sacks of grain, baskets of fruit, jars", "bg": "#e9dcc4"},
       "fields": {"label": "Fields of wheat swaying, palms at the edges (growth/wither change them)", "bg": "#e6e2c8"}

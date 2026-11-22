@@ -2148,6 +2148,34 @@ function homeSet(ctx, t, X) {
   carpet(ctx, 60, 900, 676, 860, '#9b3d32', '#6e2a22', '#e0b860');
   if (X.night > 0) { ctx.save(); ctx.globalAlpha = 0.35 * X.night; A.glowDisc(ctx, 380, 170, 1, 'rgba(0,0,0,0)', '#ffcf6b', 380, 1, 0.5); ctx.restore(); }
 }
+// a plain prison cell: stone walls, one small high window, a bare floor with a straw mat (no bars, chains or guards)
+function prisonSet(ctx, t, X) {
+  const g = ctx.createLinearGradient(0, -300, 0, 660);
+  g.addColorStop(0, '#bdb3a2'); g.addColorStop(1, '#d2c8b6');
+  ctx.fillStyle = g; ctx.fillRect(-500, -400, 2000, 1060);
+  // stone courses
+  ctx.strokeStyle = 'rgba(110,98,82,0.35)'; ctx.lineWidth = 2;
+  for (let r = 0; r < 12; r++) {
+    const y = -300 + r * 80; ctx.beginPath(); ctx.moveTo(-500, y); ctx.lineTo(1500, y); ctx.stroke();
+    for (let c = 0; c < 16; c++) { const x = -500 + c * 140 + (r % 2) * 70; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(x, y + 80); ctx.stroke(); }
+  }
+  // one small high window: plain opening onto the sky
+  const wx = 520, wy = 90, ww = 110, wh = 80;
+  ctx.fillStyle = '#8f8574'; ctx.fillRect(wx - 10, wy - 10, ww + 20, wh + 20);
+  ctx.save(); ctx.beginPath(); ctx.rect(wx, wy, ww, wh); ctx.clip(); skyThrough(ctx, t, X, wx, wy, ww, wh); ctx.restore();
+  // a soft shaft of daylight from the window (none at night)
+  if (X.night < 0.5) {
+    ctx.save(); ctx.globalAlpha = 0.16 * (1 - X.night);
+    const sg = ctx.createLinearGradient(wx, wy + wh, wx + 60, 640); sg.addColorStop(0, '#fff6dc'); sg.addColorStop(1, 'rgba(255,246,220,0)');
+    ctx.fillStyle = sg; ctx.beginPath(); ctx.moveTo(wx, wy + wh); ctx.lineTo(wx + ww, wy + wh); ctx.lineTo(wx + ww + 140, 640); ctx.lineTo(wx + 40, 640); ctx.closePath(); ctx.fill(); ctx.restore();
+  }
+  // bare packed-earth floor and a straw mat
+  ctx.fillStyle = '#a8977a'; ctx.fillRect(-500, 640, 2000, 600);
+  ctx.fillStyle = '#968568'; ctx.fillRect(-500, 640, 2000, 8);
+  ctx.fillStyle = '#c9b07a'; ctx.fillRect(140, 700, 680, 120);
+  ctx.strokeStyle = 'rgba(120,95,50,0.45)'; ctx.lineWidth = 2;
+  for (let k = 0; k < 18; k++) { ctx.beginPath(); ctx.moveTo(140 + k * 38, 700); ctx.lineTo(140 + k * 38, 820); ctx.stroke(); }
+}
 function prayerHallSet(ctx, t, X) {
   const g = ctx.createLinearGradient(0, -300, 0, 660);
   g.addColorStop(0, '#e2d4b8'); g.addColorStop(1, '#f1e7d2');
@@ -2214,6 +2242,7 @@ function fieldsSet(ctx, t, X) {
 }
 Object.assign(SETTINGS, {
   home: { interior: true, tint: ['#c9a87a', 0.12], back(ctx, t, X) { homeSet(ctx, t, X); } },
+  prison: { interior: true, tint: ['#a89c88', 0.14], back(ctx, t, X) { prisonSet(ctx, t, X); } },
   prayer_hall: { interior: true, back(ctx, t, X) { prayerHallSet(ctx, t, X); } },
   market: {
     ground: ['#dcbf92', '#c8a474', 'rgba(150,105,60,0.3)'],
@@ -2392,7 +2421,7 @@ function stageDraw(ctx, t, T) {
         const sy = lerp(tm.sun[1], tm.sun[2], ease.inOutSine(prog(t, s - 0.4, e + 0.4)));
         A.glowDisc(ctx, tm.sun[0], sy, tm.sunR, tm.core, tm.glow, tm.sunR * 4.2, 1 - stormK * 0.85, 0.65);
       }
-      if (tm.moon && SR < 0 && MR !== -2) crescent(ctx, tm.moon[0], MR >= 0 ? lerp(HY + 60, tm.moon[1], MR) : tm.moon[1], tm.moon[2], 1 - stormK * 0.7);
+      if (tm.moon && SR < 0 && MR !== -2 && P.moon !== false) crescent(ctx, tm.moon[0], MR >= 0 ? lerp(HY + 60, tm.moon[1], MR) : tm.moon[1], tm.moon[2], 1 - stormK * 0.7);
       if ((L.time === 'day' || L.time === 'dawn') && SF < 0) {
         A.cloud(ctx, (150 + t * 6) % 1250 - 180, 120, 0.8, 0.85 * (1 - stormK));
         A.cloud(ctx, (780 + t * 4) % 1250 - 180, 190, 0.55, 0.7 * (1 - stormK));
