@@ -67,6 +67,13 @@
      {
       "at": [
        94,
+       17
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       94,
        19
       ],
       "do": "pan_left"
@@ -116,23 +123,63 @@
    "verses": [
     95
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "garden",
+    "setting": "fields",
+    "time": "day",
+    "actors": [],
+    "events": [
+     {
+      "type": "growth",
+      "at": [
+       95,
+       4
+      ],
+      "until": null
+     }
+    ],
     "beats": [
      {
       "at": [
        95,
-       10
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        95,
-       16
+       7
+      ],
+      "do": "birds"
+     },
+     {
+      "at": [
+       95,
+       9
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       95,
+       11
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       95,
+       12
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       95,
+       16
+      ],
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -141,26 +188,20 @@
        95,
        3
       ],
-      "until": [
-       95,
-       6
-      ],
+      "until": null,
       "motif": "wheat",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        95,
-       6
+       5
       ],
-      "until": [
-       95,
-       14
-      ],
-      "motif": "growth",
+      "until": null,
+      "motif": "palm",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -173,7 +214,7 @@
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "dissolve"
@@ -294,7 +335,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "94 (the Day): night sky, nothing literal, no people; wind for what they left behind. Al-Muyassar's first-person «أوجدناكم», «مكنَّاكم» are not used. 95: wheat for «فالق الحب والنوى», growth for «يخرج الحي من الميت», geometric for «ذلكم الله»."
+  "notes": "94 (the Day): night sky, nothing literal, no people; wind for what they left behind. Al-Muyassar's first-person «أوجدناكم», «مكنَّاكم» are not used. 95: wheat for «فالق الحب والنوى», growth for «يخرج الحي من الميت», geometric for «ذلكم الله». STAGING v4: c1 (94) stays ambient (the Day). c2 (95): fields; the grain splits and the land turns green (growth on 95:4), wheat for the grain, a palm for the date stones (As-Sa'di: trees such as palms), birds take off on 95:7 (living things; Al-Muyassar: man and animals), geometric for 95:14-15. No people drawn."
  },
  "cover": {
   "series_ar": "عظمة الخالق وآياته",
@@ -306,5 +347,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

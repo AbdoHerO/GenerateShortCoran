@@ -33,10 +33,41 @@
     104,
     105
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 2,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 2,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       104,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        104,
@@ -49,12 +80,28 @@
        104,
        6
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        104,
-       11
+       7
+      ],
+      "do": "read",
+      "who": "b"
+     },
+     {
+      "at": [
+       104,
+       10
+      ],
+      "do": "turn",
+      "who": "d"
+     },
+     {
+      "at": [
+       104,
+       12
       ],
       "do": "shot_wide"
      },
@@ -63,14 +110,37 @@
        104,
        15
       ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       105,
+       1
+      ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       105,
+       4
+      ],
+      "do": "speak",
+      "who": "d"
      },
      {
       "at": [
        105,
        6
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       105,
+       8
+      ],
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -85,7 +155,7 @@
       ],
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -98,7 +168,7 @@
       ],
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -125,6 +195,13 @@
       "at": [
        106,
        10
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       107,
+       4
       ],
       "do": "pan_left"
      },
@@ -296,7 +373,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "As-Sa'di has no separate text for 105-107 (commented with 104); Al-Muyassar is used there, without its first-person «بيَّنَّا», «أوحيناه», «جعلناك». Their saying «درست» is framed «فيقولون عند ذلك كذبًا». Light for «بصائر», a book for «الآيات», geometric for «لا إله إلا هو» and «ولو شاء الله». No motif on the Prophet ﷺ."
+  "notes": "As-Sa'di has no separate text for 105-107 (commented with 104); Al-Muyassar is used there, without its first-person «بيَّنَّا», «أوحيناه», «جعلناك». Their saying «درست» is framed «فيقولون عند ذلك كذبًا». Light for «بصائر», a book for «الآيات», geometric for «لا إله إلا هو» and «ولو شاء الله». No motif on the Prophet ﷺ. STAGING v4: c1 (104-105): people of a town before the clear proofs (light on 104:3): believers read the Quran (who sees, 104:7), the deniers turn away (who is blind, 104:10); 104:12-15 (the Messenger is not a guardian) is camera on both groups, he is not shown. The deniers speak on 105:4 toward the believers (their false saying stays framed by the gloss); the book plate ends before it. c2 (106-107) is kept ambient: commands to the Prophet about his own conduct and a counterfactual."
  },
  "cover": {
   "series_ar": "البصائر والأحكام",
@@ -308,5 +385,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

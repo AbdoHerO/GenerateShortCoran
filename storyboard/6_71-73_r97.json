@@ -32,23 +32,66 @@
    "verses": [
     71
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "w",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "walk",
+      "enter": [
+       71,
+       18
+      ],
+      "exit": null,
+      "look": "traveller"
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       71,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       71,
+       2
+      ],
+      "do": "shake_head",
+      "who": "b"
+     },
      {
       "at": [
        71,
        8
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        71,
-       11
+       12
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -62,26 +105,53 @@
        71,
        14
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       71,
-       18
-      ],
       "do": "shot_wide"
      },
      {
       "at": [
        71,
-       20
+       19
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "w"
+     },
+     {
+      "at": [
+       71,
+       22
+      ],
+      "do": "walk_to",
+      "who": "w",
+      "to": "left"
+     },
+     {
+      "at": [
+       71,
+       23
+      ],
+      "do": "turn",
+      "who": "w"
+     },
+     {
+      "at": [
+       71,
+       26
+      ],
+      "do": "speak",
+      "who": "b"
      },
      {
       "at": [
        71,
        28
+      ],
+      "do": "turn",
+      "who": "w"
+     },
+     {
+      "at": [
+       71,
+       31
       ],
       "do": "shot_wide"
      },
@@ -106,26 +176,20 @@
        71,
        23
       ],
-      "until": [
-       71,
-       29
-      ],
+      "until": null,
       "motif": "two_paths",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        71,
        32
       ],
-      "until": [
-       71,
-       36
-      ],
+      "until": null,
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -192,6 +256,19 @@
      }
     ],
     "motifs": [
+     {
+      "at": [
+       72,
+       2
+      ],
+      "until": [
+       72,
+       5
+      ],
+      "motif": "hands",
+      "place": "top",
+      "size": "m"
+     },
      {
       "at": [
        73,
@@ -359,7 +436,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "71:11-17 (the rhetorical «ونرد على أعقابنا») is not glossed, so the question is never shown as a statement. Two paths for the bewildered one, no person and no motif on the devils; light for «إن هدى الله هو الهدى». Stars for the heavens, geometric for «عالم الغيب والشهادة». The Horn (73:16-18): nothing drawn. 73: short-word flag, listen."
+  "notes": "71:11-17 (the rhetorical «ونرد على أعقابنا») is not glossed, so the question is never shown as a statement. Two paths for the bewildered one, no person and no motif on the devils; light for «إن هدى الله هو الهدى». Stars for the heavens, geometric for «عالم الغيب والشهادة». The Horn (73:16-18): nothing drawn. 73: short-word flag, listen. STAGING v4: c1: the believers (Al-Muyassar: the command includes all of us) refuse at 71:2 to invoke what neither benefits nor harms; the rhetorical turning back (71:11-13) is not acted. The parable (71:18-29): a lone traveller led astray in the land, bewildered (turns), his companions call him to guidance. His refusal is not drawn (only Al-Muyassar says he refuses; As-Sa'di says he stays bewildered between the two callers). The devils are never drawn. c2 stays ambient (the Gathering, creation, the Day, the Horn, His attributes) with a hands plate for the prayer (72:2)."
  },
  "cover": {
   "series_ar": "العلم والتدبير",
@@ -371,5 +448,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

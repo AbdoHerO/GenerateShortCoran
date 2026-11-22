@@ -32,30 +32,81 @@
    "verses": [
     91
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "gather",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        91,
-       5
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       91,
-       9
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        91,
-       13
+       5
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       91,
+       7
+      ],
+      "do": "speak",
+      "who": "d"
+     },
+     {
+      "at": [
+       91,
+       9
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       91,
+       12
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       91,
+       16
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       91,
+       20
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       91,
+       26
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
@@ -74,7 +125,7 @@
      {
       "at": [
        91,
-       30
+       31
       ],
       "do": "shot_wide"
      },
@@ -83,28 +134,36 @@
        91,
        34
       ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       91,
-       37
-      ],
       "do": "pan_right"
      },
      {
       "at": [
        91,
-       38
+       36
       ],
       "do": "pan_left"
      },
      {
       "at": [
        91,
-       40
+       37
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       91,
+       41
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       91,
+       43
+      ],
+      "do": "speak",
+      "who": "d"
      }
     ],
     "motifs": [
@@ -119,7 +178,7 @@
       ],
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -132,7 +191,20 @@
       ],
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       91,
+       39
+      ],
+      "until": [
+       91,
+       40
+      ],
+      "motif": "geometric",
+      "place": "top",
+      "size": "s"
      }
     ]
    }
@@ -143,30 +215,92 @@
    "verses": [
     92
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        92,
-       5
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       92,
-       10
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        92,
+       2
+      ],
+      "do": "read",
+      "who": "b"
+     },
+     {
+      "at": [
+       92,
+       5
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       92,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       92,
+       12
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       92,
        15
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       92,
+       17
+      ],
+      "do": "read",
+      "who": "b"
+     },
+     {
+      "at": [
+       92,
+       21
+      ],
+      "do": "pray",
+      "who": "b"
+     },
+     {
+      "at": [
+       92,
+       22
+      ],
+      "do": "ruku",
+      "who": "b"
      }
     ],
     "motifs": [
@@ -181,20 +315,10 @@
       ],
       "motif": "book",
       "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       92,
-       19
-      ],
-      "until": null,
-      "motif": "light",
-      "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "light_sweep"
    }
   }
  ],
@@ -345,7 +469,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Their claim (91:6-14) is glossed only as Al-Muyassar's «إذ أنكروا…». 91:31-37 is not glossed: the tafsirs differ on who is addressed (As-Sa'di: knowledge from the Torah; Al-Muyassar: the Arabs through the Quran). No scroll for «قراطيس» (the blamed act); a book for the Torah and the Quran, light for «نورا وهدى» and the prayer. No motif on Musa or the Prophet ﷺ."
+  "notes": "Their claim (91:6-14) is glossed only as Al-Muyassar's «إذ أنكروا…». 91:31-37 is not glossed: the tafsirs differ on who is addressed (As-Sa'di: knowledge from the Torah; Al-Muyassar: the Arabs through the Quran). No scroll for «قراطيس» (the blamed act); a book for the Torah and the Quran, light for «نورا وهدى» and the prayer. No motif on Musa or the Prophet ﷺ. STAGING v4: c1 (91): the deniers of revelation (As-Sa'di: Jews and polytheists; Al-Muyassar: the polytheists) as 3 men talking among themselves at the centre of a town (no empty side they face); they speak at 91:7 and at 91:43. A book for the Torah (ends before 91:22), light for 91:23, geometric for the answer 91:39. 91:26-37 is camera only: the tafsirs differ on who is addressed there, and the sheets (the blamed act) are not drawn. Musa and the Prophet are not shown. c2 (92): believers in a prayer hall read the Quran (book, 92:2) and keep their prayer (pray, ruku on 92:21-22); Mecca is not drawn, no Kaaba."
  },
  "cover": {
   "series_ar": "عظمة الخالق وآياته",
@@ -357,5 +481,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

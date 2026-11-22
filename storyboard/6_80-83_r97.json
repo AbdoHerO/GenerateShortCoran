@@ -33,35 +33,68 @@
     80,
     81
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "p",
+      "type": "prophet",
+      "label": "إبراهيم",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "q",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        80,
-       2
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       80,
-       4
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       80,
-       5
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        80,
-       8
+       2
+      ],
+      "do": "speak",
+      "who": "q"
+     },
+     {
+      "at": [
+       80,
+       4
+      ],
+      "do": "speak",
+      "who": "p"
+     },
+     {
+      "at": [
+       80,
+       5
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       80,
+       7
       ],
       "do": "shot_wide"
      },
@@ -70,14 +103,23 @@
        80,
        10
       ],
-      "do": "pan_left"
+      "do": "shake_head",
+      "who": "p"
+     },
+     {
+      "at": [
+       80,
+       12
+      ],
+      "do": "shot_close",
+      "who": "q"
      },
      {
       "at": [
        80,
        14
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -89,51 +131,82 @@
      {
       "at": [
        80,
-       25
+       18
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "q"
+     },
+     {
+      "at": [
+       80,
+       24
+      ],
+      "do": "point",
+      "who": "p",
+      "to": "q"
      },
      {
       "at": [
        81,
-       2
+       1
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "p"
+     },
+     {
+      "at": [
+       81,
+       4
+      ],
+      "do": "shot_close",
+      "who": "q"
      },
      {
       "at": [
        81,
        6
       ],
-      "do": "pan_right"
+      "do": "point",
+      "who": "p",
+      "to": "q"
      },
      {
       "at": [
        81,
-       8
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       81,
-       12
+       7
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        81,
-       17
+       11
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "q"
      },
      {
       "at": [
        81,
-       19
+       16
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "p"
+     },
+     {
+      "at": [
+       81,
+       17
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       81,
+       21
+      ],
+      "do": "shot_close",
+      "who": "q"
      },
      {
       "at": [
@@ -155,7 +228,17 @@
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       81,
+       16
+      ],
+      "until": null,
+      "motif": "two_paths",
+      "place": "top",
+      "size": "s"
      }
     ]
    }
@@ -167,23 +250,76 @@
     82,
     83
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "p",
+      "type": "prophet",
+      "label": "إبراهيم",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "q",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        82,
-       5
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       82,
+       4
       ],
       "do": "pan_left"
      },
      {
       "at": [
        82,
+       6
+      ],
+      "do": "shot_close",
+      "who": "q"
+     },
+     {
+      "at": [
+       82,
        7
       ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       82,
+       9
+      ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       82,
+       11
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
@@ -195,37 +331,46 @@
      {
       "at": [
        83,
+       2
+      ],
+      "do": "speak",
+      "who": "p"
+     },
+     {
+      "at": [
+       83,
        3
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        83,
        6
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "q"
      },
      {
       "at": [
        83,
-       10
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       83,
-       11
+       9
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        83,
-       14
+       11
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       83,
+       14
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -240,7 +385,7 @@
       ],
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -253,7 +398,7 @@
       ],
       "motif": "growth",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -266,7 +411,7 @@
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "dissolve"
@@ -442,7 +587,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Ibrahim gets no motif. Geometric for «وسع ربي كل شيء علما» and «إن ربك حكيم عليم», light for «لهم الأمن وهم مهتدون», growth for «نرفع درجات». 80:14-23 (the exception «إلا أن يشاء ربي شيئا») is not glossed. 82: «بظلم» glossed with Al-Muyassar «بشرك»; As-Sa'di's fuller reading also starts from shirk."
+  "notes": "Ibrahim gets no motif. Geometric for «وسع ربي كل شيء علما» and «إن ربك حكيم عليم», light for «لهم الأمن وهم مهتدون», growth for «نرفع درجات». 80:14-23 (the exception «إلا أن يشاء ربي شيئا») is not glossed. 82: «بظلم» glossed with Al-Muyassar «بشرك»; As-Sa'di's fuller reading also starts from shirk. STAGING v4: c1 (80-81): Ibrahim (blue drop) and his people (3 men in dark robes) argue in a town: they speak (80:2), he answers, shakes his head on 80:10 (he does not fear their idols), points at them (80:24, 81:6); the idols are never drawn. Geometric for His knowledge (80:19), two paths for the two parties (81:16). c2 (82-83): As-Sa'di: 82 is Allah's verdict between the two parties; the scene stays on Ibrahim and his people, a light plate for security and guidance (82:8), growth for the raised degrees, geometric for His names. No glow, no bowing, no plate or zoom on the prophet's name."
  },
  "cover": {
   "series_ar": "إبراهيم والتوحيد",
@@ -454,5 +599,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

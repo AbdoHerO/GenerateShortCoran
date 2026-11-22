@@ -81,6 +81,13 @@
      {
       "at": [
        93,
+       21
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       93,
        26
       ],
       "do": "shot_wide"
@@ -119,6 +126,13 @@
        34
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       93,
+       35
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
@@ -262,7 +276,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The death agony and the angels are not drawn and not glossed (93:30-34): night sky only, an hourglass for «غمرات الموت» that leaves before «والملائكة». The reciter repeats words 8-11 and 30-49. No named false claimants (As-Sa'di's list) in the glosses."
+  "notes": "The death agony and the angels are not drawn and not glossed (93:30-34): night sky only, an hourglass for «غمرات الموت» that leaves before «والملائكة». The reciter repeats words 8-11 and 30-49. No named false claimants (As-Sa'di's list) in the glosses. STAGING v4: Kept ambient: the false claimants are only a description, and most of the verse is the death agony, the angels stretching their hands and the punishment (the unseen)."
  },
  "cover": {
   "series_ar": "عظمة الخالق وآياته",
@@ -274,5 +288,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

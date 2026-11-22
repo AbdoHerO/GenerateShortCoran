@@ -110,30 +110,71 @@
     112,
     113
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "night",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "left",
+      "count": 2,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 2,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        112,
-       5
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       112,
-       8
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        112,
-       12
+       5
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       112,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       112,
+       9
+      ],
+      "do": "speak",
+      "who": "d"
+     },
+     {
+      "at": [
+       112,
+       13
+      ],
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
@@ -147,35 +188,54 @@
        112,
        21
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       112,
+       23
+      ],
+      "do": "speak",
+      "who": "d"
      },
      {
       "at": [
        113,
        1
       ],
-      "do": "shot_wide"
+      "do": "walk_to",
+      "who": "p",
+      "to": "center"
      },
      {
       "at": [
        113,
        3
       ],
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       113,
+       6
+      ],
       "do": "shot_wide"
      },
      {
       "at": [
        113,
-       7
+       8
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        113,
-       9
+       12
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "d"
      }
     ],
     "motifs": [
@@ -190,7 +250,7 @@
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "dissolve"
@@ -311,7 +371,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "111 is a hypothesis (angels sent down, the dead speaking): nothing drawn, words 1-12 not glossed. The devils of mankind and jinn are never drawn; no motif on «زخرف القول» (the blamed act). Geometric only for «إلا أن يشاء الله» and «ولو شاء ربك». Al-Muyassar's first-person «ابتليناك… ابتلينا» not used."
+  "notes": "111 is a hypothesis (angels sent down, the dead speaking): nothing drawn, words 1-12 not glossed. The devils of mankind and jinn are never drawn; no motif on «زخرف القول» (the blamed act). Geometric only for «إلا أن يشاء الله» and «ولو شاء ربك». Al-Muyassar's first-person «ابتليناك… ابتلينا» not used. STAGING v4: c1 (111) kept ambient: a counterfactual (angels sent down, the dead speaking), never drawn. c2 (112-113): only the human enemies are drawn (2 men in dark robes whispering at night, 112:9); the jinn are never drawn, no prophet is shown, no plate on the adorned speech. Those who do not believe in the Hereafter (2 men) come toward the whisperers on 113:1 (their hearts incline to it). Geometric for the counterfactual on His will (112:16-18)."
  },
  "cover": {
   "series_ar": "البصائر والأحكام",
@@ -323,5 +383,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

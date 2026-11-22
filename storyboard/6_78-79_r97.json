@@ -32,23 +32,73 @@
    "verses": [
     78
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "city",
+    "time": "dawn",
+    "actors": [
+     {
+      "id": "p",
+      "type": "prophet",
+      "label": "إبراهيم",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "q",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [
+     {
+      "type": "sunrise_open",
+      "at": [
+       78,
+       3
+      ],
+      "until": null
+     }
+    ],
     "beats": [
+     {
+      "at": [
+       78,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       78,
+       2
+      ],
+      "do": "look_up",
+      "who": "p"
+     },
      {
       "at": [
        78,
        5
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "p"
      },
      {
       "at": [
        78,
-       8
+       9
       ],
-      "do": "pan_right"
+      "do": "sparkle",
+      "who": "sky"
      },
      {
       "at": [
@@ -60,16 +110,33 @@
      {
       "at": [
        78,
+       11
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       78,
+       13
+      ],
+      "do": "speak",
+      "who": "p"
+     },
+     {
+      "at": [
+       78,
        15
       ],
-      "do": "shot_wide"
+      "do": "shake_head",
+      "who": "p"
      },
      {
       "at": [
        78,
        17
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "q"
      }
     ],
     "motifs": []
@@ -81,16 +148,72 @@
    "verses": [
     79
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "p",
+      "type": "prophet",
+      "label": "إبراهيم",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "q",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       79,
+       1
+      ],
+      "do": "speak",
+      "who": "p"
+     },
+     {
+      "at": [
+       79,
+       3
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       79,
+       6
+      ],
+      "do": "sparkle",
+      "who": "sky"
+     },
      {
       "at": [
        79,
        9
       ],
-      "do": "shot_wide"
+      "do": "shake_head",
+      "who": "p"
+     },
+     {
+      "at": [
+       79,
+       12
+      ],
+      "do": "shot_close",
+      "who": "q"
      }
     ],
     "motifs": [
@@ -105,7 +228,7 @@
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "dissolve"
@@ -171,7 +294,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No sun drawn and no sky mood in 78; Ibrahim gets no motif. 78:5-7 «هذا ربي» is not glossed alone (the previous video carries the tafsirs' framing); only «من الكوكب ومن القمر» under «هذا أكبر». Geometric for «للذي فطر السماوات والأرض»."
+  "notes": "No sun drawn and no sky mood in 78; Ibrahim gets no motif. 78:5-7 «هذا ربي» is not glossed alone (the previous video carries the tafsirs' framing); only «من الكوكب ومن القمر» under «هذا أكبر». Geometric for «للذي فطر السماوات والأرض». STAGING v4: c1: Ibrahim (blue drop) with his people (3 men) at dawn; the sun rises in the sky of the stage (sunrise_open on 78:3) and its setting is a camera tilt to the ground (78:11). He speaks to his people at 78:5 (argument, both tafsirs): nothing is gestured or zoomed on 78:6-7, no glow, no look up there. He declares his disavowal (shake_head on 78:15) facing his people. c2 (79): his declaration to his people at dusk, geometric for the Creator (79:4-7), a head shake on 79:9 (not one of the polytheists). No idols drawn."
  },
  "cover": {
   "series_ar": "إبراهيم والتوحيد",
@@ -180,8 +303,9 @@
   "title_en": "Ibrahim's disavowal",
   "at": [
    78,
-   10
+   16
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

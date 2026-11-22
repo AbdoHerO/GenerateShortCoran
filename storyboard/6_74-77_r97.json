@@ -33,59 +33,123 @@
     74,
     75
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "p",
+      "type": "prophet",
+      "label": "إبراهيم",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "a",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        74,
-       4
+       2
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "p"
+     },
+     {
+      "at": [
+       74,
+       5
+      ],
+      "do": "shot_close",
+      "who": "a"
      },
      {
       "at": [
        74,
        7
       ],
-      "do": "pan_left"
+      "do": "shake_head",
+      "who": "p"
+     },
+     {
+      "at": [
+       74,
+       9
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        74,
        10
       ],
-      "do": "shot_wide"
+      "do": "point",
+      "who": "p",
+      "to": "a"
      },
      {
       "at": [
        74,
-       14
+       13
+      ],
+      "do": "shot_close",
+      "who": "a"
+     },
+     {
+      "at": [
+       75,
+       2
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        75,
-       7
+       5
       ],
-      "do": "pan_right"
+      "do": "look_up",
+      "who": "p"
+     },
+     {
+      "at": [
+       75,
+       6
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       75,
+       8
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
      {
       "at": [
        75,
-       4
+       5
       ],
-      "until": [
-       75,
-       7
-      ],
-      "motif": "geometric",
+      "until": null,
+      "motif": "stars",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -97,76 +161,168 @@
     76,
     77
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "city",
+    "time": "night",
+    "actors": [
+     {
+      "id": "p",
+      "type": "prophet",
+      "label": "إبراهيم",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "q",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        76,
-       3
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       76,
-       6
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       76,
-       10
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       76,
-       13
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       76,
-       15
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       77,
        1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
-       77,
-       6
+       76,
+       4
       ],
-      "do": "pan_left"
+      "do": "look_up",
+      "who": "p"
      },
      {
       "at": [
-       77,
+       76,
+       6
+      ],
+      "do": "sparkle",
+      "who": "sky"
+     },
+     {
+      "at": [
+       76,
+       7
+      ],
+      "do": "speak",
+      "who": "p"
+     },
+     {
+      "at": [
+       76,
        10
+      ],
+      "do": "shot_close",
+      "who": "q"
+     },
+     {
+      "at": [
+       76,
+       11
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       76,
+       13
+      ],
+      "do": "speak",
+      "who": "p"
+     },
+     {
+      "at": [
+       76,
+       14
+      ],
+      "do": "shake_head",
+      "who": "p"
+     },
+     {
+      "at": [
+       76,
+       15
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        77,
-       16
+       1
       ],
-      "do": "pan_right"
+      "do": "look_up",
+      "who": "p"
+     },
+     {
+      "at": [
+       77,
+       3
+      ],
+      "do": "sparkle",
+      "who": "sky"
+     },
+     {
+      "at": [
+       77,
+       5
+      ],
+      "do": "speak",
+      "who": "p"
+     },
+     {
+      "at": [
+       77,
+       8
+      ],
+      "do": "shot_close",
+      "who": "q"
+     },
+     {
+      "at": [
+       77,
+       9
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       77,
+       11
+      ],
+      "do": "speak",
+      "who": "p"
+     },
+     {
+      "at": [
+       77,
+       15
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       77,
+       17
+      ],
+      "do": "shot_close",
+      "who": "q"
      }
     ],
     "motifs": [],
-    "transition": "dissolve"
+    "transition": "morph"
    }
   }
  ],
@@ -295,7 +451,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Ibrahim gets no motif and no figure; no idol, star, moon or sun drawn, and 76-77 use the geometric mood (no sky). «هذا ربي» is glossed each time as argument with the opponent (As-Sa'di «على وجه التنزل مع الخصم», Al-Muyassar «على سبيل استدراج الخصم»), never as his belief. Geometric for «ملكوت السماوات والأرض»."
+  "notes": "Ibrahim gets no motif and no figure; no idol, star, moon or sun drawn, and 76-77 use the geometric mood (no sky). «هذا ربي» is glossed each time as argument with the opponent (As-Sa'di «على وجه التنزل مع الخصم», Al-Muyassar «على سبيل استدراج الخصم»), never as his belief. Geometric for «ملكوت السماوات والأرض». STAGING v4: c1: Ibrahim (blue drop) speaks to his father (one faceless man) in a town; the idols are never drawn (Ibrahim shakes his head at 74:7, points at his father at 74:10). 75: he looks up, a stars plate for the heavens. c2: at night with his people (3 men; Al-Muyassar: he debated his people, who worshipped the stars). The star and the moon are only the night sky of the stage (a sparkle on the sky at 76:6 and 77:3); their setting is a tilt of the camera to the ground (76:11, 77:9). Nothing is drawn, gestured or zoomed on 76:8-9 and 77:6-7: he speaks to his people (as argument, both tafsirs), never looks up, bows or raises hands there; no glow. No plate in c2."
  },
  "cover": {
   "series_ar": "إبراهيم والتوحيد",
@@ -304,8 +460,9 @@
   "title_en": "Ibrahim reasons with his people",
   "at": [
    74,
-   1
+   7
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

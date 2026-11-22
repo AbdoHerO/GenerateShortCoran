@@ -54,6 +54,13 @@
      {
       "at": [
        114,
+       14
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       114,
        16
       ],
       "do": "pan_left"
@@ -61,7 +68,21 @@
      {
       "at": [
        114,
+       19
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       114,
        20
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       114,
+       23
       ],
       "do": "shot_wide"
      },
@@ -124,23 +145,71 @@
     116,
     117
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "q",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "walk",
+      "enter": null,
+      "exit": null,
+      "uncountable": true
+     },
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 2,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       116,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       116,
+       4
+      ],
+      "do": "shot_close",
+      "who": "q"
+     },
      {
       "at": [
        116,
        7
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        116,
        9
       ],
-      "do": "pan_left"
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       116,
+       12
+      ],
+      "do": "shot_close",
+      "who": "q"
      },
      {
       "at": [
@@ -154,28 +223,29 @@
        116,
        18
       ],
+      "do": "speak",
+      "who": "q"
+     },
+     {
+      "at": [
+       117,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       117,
+       6
+      ],
       "do": "pan_right"
      },
      {
       "at": [
        117,
-       3
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       117,
-       7
+       10
       ],
       "do": "pan_left"
-     },
-     {
-      "at": [
-       117,
-       11
-      ],
-      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -188,19 +258,19 @@
        116,
        10
       ],
-      "motif": "two_paths",
+      "motif": "crowd",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        117,
-       9
+       11
       ],
       "until": null,
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "dissolve"
@@ -332,7 +402,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "114:20-23 not glossed (Al-Muyassar's «أوحينا» is first person). 115:9-11 uses As-Sa'di for «العليم» (Al-Muyassar's text reads «الحليم» here). A book for «الكتاب مفصلا», geometric for «كلمت ربك», two paths for «يضلوك» (leaving before the Name), light for «بالمهتدين». No motif on the Prophet ﷺ."
+  "notes": "114:20-23 not glossed (Al-Muyassar's «أوحينا» is first person). 115:9-11 uses As-Sa'di for «العليم» (Al-Muyassar's text reads «الحليم» here). A book for «الكتاب مفصلا», geometric for «كلمت ربك», two paths for «يضلوك» (leaving before the Name), light for «بالمهتدين». No motif on the Prophet ﷺ. STAGING v4: c1 (114-115) kept ambient (the Book, the words of your Lord, His names); a pan added on 114:19 (motion check). c2 (116-117): most of the people on earth as an uncountable crowd that walks on (following conjecture and their forefathers, Al-Muyassar) and speaks on 116:18; the few guided as 2 believers. The condition addressed to the Prophet (116:1-10) is not acted, he is not shown. Crowd plate for 116:3 (ends before the Name); the light plate is moved from 117:9 (His pronoun) to 117:11 (the guided)."
  },
  "cover": {
   "series_ar": "البصائر والأحكام",
@@ -341,8 +411,9 @@
   "title_en": "Numbers prove nothing",
   "at": [
    116,
-   1
+   4
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

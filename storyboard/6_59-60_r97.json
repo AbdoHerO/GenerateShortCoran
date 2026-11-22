@@ -155,6 +155,13 @@
      {
       "at": [
        60,
+       12
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       60,
        15
       ],
       "do": "shot_wide"
@@ -342,7 +349,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The unseen: nothing literal, no key drawn for «مفاتح الغيب» (Al-Muyassar: «خزائن»). Geometric for «وعنده», a wave for the sea, a leaf, a grain in the earth. The Preserved Tablet gets no book motif. 60: sleep shown only as night and day, an hourglass for «أجل مسمى»; death and the return not drawn."
+  "notes": "The unseen: nothing literal, no key drawn for «مفاتح الغيب» (Al-Muyassar: «خزائن»). Geometric for «وعنده», a wave for the sea, a leaf, a grain in the earth. The Preserved Tablet gets no book motif. 60: sleep shown only as night and day, an hourglass for «أجل مسمى»; death and the return not drawn. STAGING v4: Kept ambient: 59 is His knowledge of the unseen (attributes), 60 is the taking of souls in sleep, the term and the return to Him (the unseen). No people drawn."
  },
  "cover": {
   "series_ar": "العلم والتدبير",
@@ -354,5 +361,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }
