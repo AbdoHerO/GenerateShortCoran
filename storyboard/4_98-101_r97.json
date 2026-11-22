@@ -34,23 +34,58 @@
     99,
     100
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "o",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null,
+      "uncountable": true
+     },
+     {
+      "id": "t",
+      "type": "man",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "traveller"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        98,
-       4
+       2
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "o"
      },
      {
       "at": [
        98,
-       6
+       5
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       98,
+       8
+      ],
+      "do": "bow",
+      "who": "o"
      },
      {
       "at": [
@@ -64,42 +99,67 @@
        99,
        1
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       99,
-       4
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       99,
-       6
-      ],
       "do": "pan_left"
      },
      {
       "at": [
-       100,
-       8
+       99,
+       5
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       100,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       100,
+       2
+      ],
+      "do": "walk_to",
+      "who": "t",
+      "to": "right"
+     },
+     {
+      "at": [
+       100,
+       9
+      ],
+      "do": "shot_close",
+      "who": "t"
+     },
+     {
+      "at": [
+       100,
+       12
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       100,
+       14
+      ],
+      "do": "shot_close",
+      "who": "t"
      },
      {
       "at": [
        100,
        20
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        100,
        24
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -118,20 +178,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       100,
-       2
-      ],
-      "until": [
-       100,
-       5
-      ],
-      "motif": "footsteps",
-      "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -141,7 +188,7 @@
       "until": null,
       "motif": "growth",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -154,7 +201,7 @@
       ],
       "motif": "house",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -165,37 +212,102 @@
    "verses": [
     101
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "c",
+      "type": "camel",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        101,
-       5
+       1
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       101,
+       3
+      ],
+      "do": "walk_to",
+      "who": "b",
+      "to": "left"
+     },
+     {
+      "at": [
+       101,
+       7
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       101,
+       9
+      ],
+      "do": "pray",
+      "who": "b"
+     },
+     {
+      "at": [
+       101,
+       11
+      ],
+      "do": "ruku",
+      "who": "b"
      },
      {
       "at": [
        101,
        14
       ],
+      "do": "rise",
+      "who": "b"
+     },
+     {
+      "at": [
+       101,
+       16
+      ],
       "do": "pan_right"
      },
      {
       "at": [
        101,
-       18
+       19
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        101,
-       21
+       22
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -210,10 +322,10 @@
       ],
       "motif": "hourglass",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "wipe"
    }
   }
  ],
@@ -353,7 +465,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Footsteps for the way out, geometric for «عفوا غفورا», growth for «مراغما كثيرا وسعة», a house for «من بيته», an hourglass for shortening the prayer. No death drawn (100:21-22). 101:12-17 «إن خفتم…» is not glossed (Al-Muyassar adds that shortening is allowed in safety too; As-Sa'di's wording differs), so no side is taken."
+  "notes": "Footsteps for the way out, geometric for «عفوا غفورا», growth for «مراغما كثيرا وسعة», a house for «من بيته», an hourglass for shortening the prayer. No death drawn (100:21-22). 101:12-17 «إن خفتم…» is not glossed (Al-Muyassar adds that shortening is allowed in safety too; As-Sa'di's wording differs), so no side is taken. STAGING v4: 98-99: in a town, the truly oppressed (an uncountable group: men, women and children, no number given) sit and lower their heads on 98:8 (unable to find a way); geometric for the pardon. 100: an emigrant traveller leaves on 100:2 and walks out of the town; growth plate for the refuge and plenty, house plate for leaving his home; nothing is drawn for death (100:21-22): he does not fade or leave there. 101: believers travelling in the desert with a camel walk on 101:3, then pray on 101:9-14 (the hourglass plate for shortening); during 101:15-23 (the disbelievers as enemies) the camera turns to the empty horizon; no enemy, weapon or fear gesture is drawn."
  },
  "cover": {
   "series_ar": "الدماء والهجرة والصلاة",
@@ -362,8 +474,9 @@
   "title_en": "Emigration and shortening the prayer",
   "at": [
    100,
-   1
+   3
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

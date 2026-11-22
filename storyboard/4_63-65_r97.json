@@ -46,6 +46,13 @@
      {
       "at": [
        63,
+       7
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       63,
        10
       ],
       "do": "shot_wide"
@@ -63,6 +70,13 @@
        15
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       63,
+       16
+      ],
+      "do": "pan_left"
      }
     ],
     "motifs": []
@@ -111,6 +125,13 @@
       "at": [
        64,
        15
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       64,
+       16
       ],
       "do": "pan_right"
      },
@@ -340,7 +361,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on the Prophet ﷺ or his acts (63, 64:1-19, 65:1-17). Light near «توابا رحيما», hands for «ويسلموا تسليما». 64:9-14 carries the point both tafsirs make: coming to him for his istighfar was in his lifetime (As-Sa'di: «مختص بحياته»; Al-Muyassar: «في حياتك»). 63: short-word flag, listen."
+  "notes": "No motif on the Prophet ﷺ or his acts (63, 64:1-19, 65:1-17). Light near «توابا رحيما», hands for «ويسلموا تسليما». 64:9-14 carries the point both tafsirs make: coming to him for his istighfar was in his lifetime (As-Sa'di: «مختص بحياته»; Al-Muyassar: «في حياتك»). 63: short-word flag, listen. STAGING v4: 63-65 stay ambient: 63 is the Prophet's own conduct toward the hypocrites (turn away from them, admonish them), 64-65 are coming to him for his istighfar and taking him as judge; any people on screen would listen to, sit before or come toward an empty space that implies him."
  },
  "cover": {
   "series_ar": "الأمانة والطاعة",
@@ -352,5 +373,6 @@
    5
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

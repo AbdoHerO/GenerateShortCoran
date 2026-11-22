@@ -39,6 +39,13 @@
      {
       "at": [
        88,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       88,
        10
       ],
       "do": "pan_left"
@@ -49,6 +56,13 @@
        14
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       88,
+       16
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
@@ -99,6 +113,13 @@
        7
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       89,
+       8
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
@@ -176,6 +197,13 @@
        17
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       90,
+       19
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -360,7 +388,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Fighting: no weapon, battle or death drawn. Two paths for «فئتين», footsteps for «يهاجروا», a seal for «ميثاق», (no hands for «السلم»: review 4b). The command in 89:19-22 is not glossed; 89:17-18 shows its condition. The exceptions in 90 (treaty, those who withdraw) are glossed; «السلم» is not (the tafsirs word it differently)."
+  "notes": "Fighting: no weapon, battle or death drawn. Two paths for «فئتين», footsteps for «يهاجروا», a seal for «ميثاق», (no hands for «السلم»: review 4b). The command in 89:19-22 is not glossed; 89:17-18 shows its condition. The exceptions in 90 (treaty, those who withdraw) are glossed; «السلم» is not (the tafsirs word it differently). STAGING v4: 88-90 stay ambient: the believers' dispute over fighting the hypocrites (Al-Muyassar), the command to seize and kill them if they turn away, treaties and those who withdraw from fighting (battle context)."
  },
  "cover": {
   "series_ar": "الدماء والهجرة والصلاة",
@@ -372,5 +400,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

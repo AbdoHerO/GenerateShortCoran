@@ -40,6 +40,13 @@
      {
       "at": [
        95,
+       4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       95,
        8
       ],
       "do": "pan_left"
@@ -179,6 +186,13 @@
      {
       "at": [
        97,
+       12
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       97,
        15
       ],
       "do": "shot_wide"
@@ -203,6 +217,13 @@
        25
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       97,
+       27
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [],
@@ -335,7 +356,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No weapon, battle or death drawn; no people. Growth for «درجة», light for «ورحمة», geometric for «غفورا رحيما»; no gold or river for Paradise. 97 (the angels taking souls, the Fire): night sky, no motif. 95:23-26 «وكلا وعد الله الحسنى» is not glossed (who «كلا» covers is worded differently). 97:10-14 (their excuse) not glossed; 97:1-4 keeps As-Sa'di's condition «مع قدرته عليها»."
+  "notes": "No weapon, battle or death drawn; no people. Growth for «درجة», light for «ورحمة», geometric for «غفورا رحيما»; no gold or river for Paradise. 97 (the angels taking souls, the Fire): night sky, no motif. 95:23-26 «وكلا وعد الله الحسنى» is not glossed (who «كلا» covers is worded differently). 97:10-14 (their excuse) not glossed; 97:1-4 keeps As-Sa'di's condition «مع قدرته عليها». STAGING v4: 95-97 stay ambient: those who strive with their wealth and lives over those who stay behind (fighting), and the angels taking the souls of those who did not emigrate, with the Fire (the unseen)."
  },
  "cover": {
   "series_ar": "الدماء والهجرة والصلاة",
@@ -347,5 +368,6 @@
    15
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

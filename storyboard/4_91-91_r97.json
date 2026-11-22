@@ -46,6 +46,13 @@
      {
       "at": [
        91,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       91,
        11
       ],
       "do": "shot_wide"
@@ -174,7 +181,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No weapon, battle or death drawn; two paths for their double face. 91:15-22 shows the condition; the command in 91:23-26 and Al-Muyassar's first-person «جعلنا» are not glossed."
+  "notes": "No weapon, battle or death drawn; two paths for their double face. 91:15-22 shows the condition; the command in 91:23-26 and Al-Muyassar's first-person «جعلنا» are not glossed. STAGING v4: 91 stays ambient: those who seek safety from both sides, and the command to fight them if they do not withdraw (battle context)."
  },
  "cover": {
   "series_ar": "الدماء والهجرة والصلاة",
@@ -186,5 +193,6 @@
    3
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

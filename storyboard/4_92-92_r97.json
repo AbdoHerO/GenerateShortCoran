@@ -81,6 +81,13 @@
      {
       "at": [
        92,
+       23
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       92,
        26
       ],
       "do": "pan_left"
@@ -103,6 +110,13 @@
       "at": [
        92,
        35
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       92,
+       38
       ],
       "do": "pan_right"
      },
@@ -282,7 +296,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Killing: nothing drawn, no people. Hands for the family's pardon «يصدقوا», a seal for «ميثاق», an hourglass for the two months of fasting, geometric for «عليما حكيما»."
+  "notes": "Killing: nothing drawn, no people. Hands for the family's pardon «يصدقوا», a seal for «ميثاق», an hourglass for the two months of fasting, geometric for «عليما حكيما». STAGING v4: 92 stays ambient with no people: manslaughter and its expiation (killing is never drawn)."
  },
  "cover": {
   "series_ar": "الدماء والهجرة والصلاة",
@@ -294,5 +308,6 @@
    7
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

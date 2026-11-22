@@ -67,6 +67,13 @@
      {
       "at": [
        102,
+       14
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       102,
        17
       ],
       "do": "pan_left"
@@ -116,6 +123,13 @@
      {
       "at": [
        102,
+       37
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       102,
        38
       ],
       "do": "shot_wide"
@@ -140,6 +154,13 @@
        52
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       102,
+       54
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
@@ -266,7 +287,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No soldiers, weapons or battle drawn; only rain for «أذى من مطر». The detailed order of the rak'as is not glossed: As-Sa'di says the verse gives one of several valid ways, so Al-Muyassar's single description is not shown. 102:52-54 «أن تضعوا أسلحتكم» is not glossed (it would read as an order)."
+  "notes": "No soldiers, weapons or battle drawn; only rain for «أذى من مطر». The detailed order of the rak'as is not glossed: As-Sa'di says the verse gives one of several valid ways, so Al-Muyassar's single description is not shown. 102:52-54 «أن تضعوا أسلحتكم» is not glossed (it would read as an order). STAGING v4: 102 stays ambient: the fear prayer in the presence of the enemy, with weapons (battle context)."
  },
  "cover": {
   "series_ar": "الدماء والهجرة والصلاة",
@@ -278,5 +299,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

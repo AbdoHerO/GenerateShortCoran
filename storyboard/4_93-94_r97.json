@@ -295,7 +295,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Killing: nothing drawn. 93 under a night sky with no motif; 93:7-8 «خالدا فيها» carries Al-Muyassar's hinge «إن جازاه على ذنبه» (review 4b: the fuller excerpt read as contradicting the recited words). 94: footsteps for setting out, light for «فمن الله عليكم». 94:10-17 always shows «ولا تقولوا…» with the negation."
+  "notes": "Killing: nothing drawn. 93 under a night sky with no motif; 93:7-8 «خالدا فيها» carries Al-Muyassar's hinge «إن جازاه على ذنبه» (review 4b: the fuller excerpt read as contradicting the recited words). 94: footsteps for setting out, light for «فمن الله عليكم». 94:10-17 always shows «ولا تقولوا…» with the negation. STAGING v4: 93-94 stay ambient: murder and its recompense (93), and going out in Allah's cause and not rejecting one who offers peace (94, battle context)."
  },
  "cover": {
   "series_ar": "الدماء والهجرة والصلاة",
@@ -307,5 +307,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

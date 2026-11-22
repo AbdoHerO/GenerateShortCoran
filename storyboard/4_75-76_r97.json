@@ -39,6 +39,13 @@
      {
       "at": [
        75,
+       5
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       75,
        8
       ],
       "do": "pan_left"
@@ -278,7 +285,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No weapon, battle or death drawn; no people. Hands for the oppressed's supplication (not on «ربنا»), light for «من لدنك», two paths for the two sides in 76. 75: short-word flag, listen."
+  "notes": "No weapon, battle or death drawn; no people. Hands for the oppressed's supplication (not on «ربنا»), light for «من لدنك», two paths for the two sides in 76. 75: short-word flag, listen. STAGING v4: 75-76 stay ambient: the call to fight for the oppressed (their du'a is set in a battle context; Al-Muyassar names the town as Mecca, which is not drawn) and fighting in Allah's cause or the taghut's."
  },
  "cover": {
   "series_ar": "النفير والمنافقون",
@@ -290,5 +297,6 @@
    8
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -32,35 +32,119 @@
    "verses": [
     58
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "a",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     },
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "o",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        58,
-       4
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        58,
+       4
+      ],
+      "do": "shot_close",
+      "who": "a"
+     },
+     {
+      "at": [
+       58,
+       5
+      ],
+      "do": "give",
+      "who": "a",
+      "to": "o"
+     },
+     {
+      "at": [
+       58,
+       8
+      ],
+      "do": "shot_close",
+      "who": "o"
+     },
+     {
+      "at": [
+       58,
        10
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       58,
+       11
+      ],
+      "do": "speak",
+      "who": "p"
+     },
+     {
+      "at": [
+       58,
+       13
+      ],
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       58,
+       16
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       58,
+       19
       ],
       "do": "pan_left"
      },
      {
       "at": [
        58,
-       12
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       58,
-       19
+       23
       ],
       "do": "shot_wide"
      }
@@ -74,7 +158,7 @@
       "until": null,
       "motif": "key",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -87,7 +171,7 @@
       ],
       "motif": "scales",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -97,7 +181,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -108,10 +192,43 @@
    "verses": [
     59
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "home",
+    "time": "day",
+    "actors": [
+     {
+      "id": "m",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "sit",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     },
+     {
+      "id": "n",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "sit",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       59,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        59,
@@ -122,7 +239,14 @@
      {
       "at": [
        59,
-       8
+       6
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       59,
+       9
       ],
       "do": "shot_wide"
      },
@@ -131,14 +255,39 @@
        59,
        12
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "m"
+     },
+     {
+      "at": [
+       59,
+       13
+      ],
+      "do": "speak",
+      "who": "n"
+     },
+     {
+      "at": [
+       59,
+       15
+      ],
+      "do": "read",
+      "who": "m"
+     },
+     {
+      "at": [
+       59,
+       16
+      ],
+      "do": "read",
+      "who": "n"
      },
      {
       "at": [
        59,
        19
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -152,14 +301,29 @@
        59,
        22
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        59,
        23
       ],
-      "do": "pan_left"
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       59,
+       26
+      ],
+      "do": "shot_close",
+      "who": "m"
+     },
+     {
+      "at": [
+       59,
+       28
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -174,7 +338,7 @@
       ],
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -184,10 +348,10 @@
       "until": null,
       "motif": "growth",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "slide"
    }
   }
  ],
@@ -283,7 +447,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A key for the trusts, scales for justice between people (not the Mizan), geometric for «سميعا بصيرا», two paths for the dispute, growth for «وأحسن تأويلا». No motif on «أطيعوا الله وأطيعوا الرسول». 59:8-10 keeps the restriction «في غير معصية الله» (As-Sa'di: «بشرط ألا يأمروا بمعصية الله»)."
+  "notes": "A key for the trusts, scales for justice between people (not the Mizan), geometric for «سميعا بصيرا», two paths for the dispute, growth for «وأحسن تأويلا». No motif on «أطيعوا الله وأطيعوا الرسول». 59:8-10 keeps the restriction «في غير معصية الله» (As-Sa'di: «بشرط ألا يأمروا بمعصية الله»). STAGING v4: 58: a market; a man (a) hands a trust back to its owner (o) on 58:5 (key plate); on 58:10-15 a group of people (p) speaks (a matter to be judged between people) and the scales plate stands for judging with justice. Nobody is shown as the judge, so no figure stands for the Prophet or a ruler. 59: two believers at home discuss a matter (59:12-14) and both read the Book on 59:15-16 (referring it to the Book and the Sunnah); no gesture of obedience to any person, nothing for the Messenger or those in authority, nothing on the Name; growth plate on 59:27."
  },
  "cover": {
   "series_ar": "الأمانة والطاعة",
@@ -292,8 +456,9 @@
   "title_en": "Returning trusts",
   "at": [
    58,
-   5
+   6
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

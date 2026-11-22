@@ -39,6 +39,13 @@
      {
       "at": [
        77,
+       5
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       77,
        8
       ],
       "do": "pan_right"
@@ -112,6 +119,13 @@
        35
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       77,
+       37
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
@@ -227,6 +241,13 @@
        32
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       78,
+       35
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -383,7 +404,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No weapon, battle or death drawn. Light for «والآخرة خير», bricks for «بروج مشيدة», geometric for «كل من عند الله». Their protest «لم كتبت علينا القتال…» and their sayings in 78:10-24 are not glossed as statements; 77:27-37 gives the motive, 78:18-24 calls it «جهالة وتشاؤما»."
+  "notes": "No weapon, battle or death drawn. Light for «والآخرة خير», bricks for «بروج مشيدة», geometric for «كل من عند الله». Their protest «لم كتبت علينا القتال…» and their sayings in 78:10-24 are not glossed as statements; 77:27-37 gives the motive, 78:18-24 calls it «جهالة وتشاؤما». STAGING v4: 77-78 stay ambient: fighting prescribed and a party fearing it (battle context), death reaching them even in towers (78:1-9), and their attributing harm to the Prophet (78:18-24), which on stage would need people speaking toward an empty space that implies him."
  },
  "cover": {
   "series_ar": "النفير والمنافقون",
@@ -395,5 +416,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

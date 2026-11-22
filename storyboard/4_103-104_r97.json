@@ -32,30 +32,86 @@
    "verses": [
     103
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        103,
-       9
+       2
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        103,
-       12
+       6
+      ],
+      "do": "stand_up",
+      "who": "b"
+     },
+     {
+      "at": [
+       103,
+       7
+      ],
+      "do": "sit",
+      "who": "b"
+     },
+     {
+      "at": [
+       103,
+       9
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        103,
-       16
+       11
       ],
-      "do": "pan_right"
+      "do": "stand_up",
+      "who": "b"
+     },
+     {
+      "at": [
+       103,
+       12
+      ],
+      "do": "pray",
+      "who": "b"
+     },
+     {
+      "at": [
+       103,
+       15
+      ],
+      "do": "ruku",
+      "who": "b"
+     },
+     {
+      "at": [
+       103,
+       19
+      ],
+      "do": "sujud",
+      "who": "b"
      }
     ],
     "motifs": [
@@ -67,7 +123,7 @@
       "until": null,
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -77,7 +133,7 @@
       "until": null,
       "motif": "hourglass",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -239,7 +295,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Light for «فاذكروا الله», an hourglass for «كتابا موقوتا», light for «وترجون», geometric for «عليما حكيما». No weapon, battle or wound drawn; no motif on the negated «ولا تهنوا»."
+  "notes": "Light for «فاذكروا الله», an hourglass for «كتابا موقوتا», light for «وترجون», geometric for «عليما حكيما». No weapon, battle or wound drawn; no motif on the negated «ولا تهنوا». STAGING v4: 103: believers in a prayer hall, seated after the prayer; they stand on 103:6 and sit on 103:7 (remembrance standing and sitting; nobody lies down), stand up on 103:11 (when secure) and pray on 103:12-19; light plate on the Name, hourglass for the fixed times. 104 stays ambient: pursuing the enemy and the pain of fighting."
  },
  "cover": {
   "series_ar": "الدماء والهجرة والصلاة",
@@ -251,5 +307,6 @@
    14
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

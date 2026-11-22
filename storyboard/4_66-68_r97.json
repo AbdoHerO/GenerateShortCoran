@@ -77,6 +77,13 @@
        18
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       66,
+       21
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -218,7 +225,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Nothing drawn for «اقتلوا أنفسكم أو اخرجوا من دياركم» (no violence, no homes left). Growth for «خيرا لهم», a mountain for «وأشد تثبيتا», light for the reward, footsteps for «صراطا مستقيما». The tafsirs differ on whom 66 addresses (Al-Muyassar: the hypocrites; As-Sa'di: all servants), so no gloss names them. Al-Muyassar's first-person «لأعطيناهم/لأرشدناهم» not used."
+  "notes": "Nothing drawn for «اقتلوا أنفسكم أو اخرجوا من دياركم» (no violence, no homes left). Growth for «خيرا لهم», a mountain for «وأشد تثبيتا», light for the reward, footsteps for «صراطا مستقيما». The tafsirs differ on whom 66 addresses (Al-Muyassar: the hypocrites; As-Sa'di: all servants), so no gloss names them. Al-Muyassar's first-person «لأعطيناهم/لأرشدناهم» not used. STAGING v4: 66-68 stay ambient: 66 is a counterfactual about a command to kill themselves or leave their homes (killing; the tafsirs differ on whom it addresses), and 67-68 are the counterfactual reward and guidance from Him; showing people doing or receiving it would present it as having happened."
  },
  "cover": {
   "series_ar": "الأمانة والطاعة",
@@ -230,5 +237,6 @@
    23
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

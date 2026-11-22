@@ -161,7 +161,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Fighting: no weapon, battle or death drawn; footsteps for «فانفروا» only. 72:1-4 keeps the meaning both tafsirs share (he lags behind); As-Sa'di names weak believers, so no gloss names the group. The laggard's words «قد أنعم الله علي…» are not glossed (they would read as a fact); 72:8 shows only that he said it rejoicing. 72:5-7 keeps the condition «فإن»."
+  "notes": "Fighting: no weapon, battle or death drawn; footsteps for «فانفروا» only. 72:1-4 keeps the meaning both tafsirs share (he lags behind); As-Sa'di names weak believers, so no gloss names the group. The laggard's words «قد أنعم الله علي…» are not glossed (they would read as a fact); 72:8 shows only that he said it rejoicing. 72:5-7 keeps the condition «فإن». STAGING v4: 71-72 stay ambient: going out to meet the enemy, the one who lags behind from fighting, and the calamity of killing and defeat (battle context)."
  },
  "cover": {
   "series_ar": "النفير والمنافقون",
@@ -173,5 +173,6 @@
    4
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

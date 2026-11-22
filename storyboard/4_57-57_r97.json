@@ -181,7 +181,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Paradise: nothing literal, no river, gold or garden motif; only light on «الصالحات». No people drawn. 57:16-17 glossed with the moral purity As-Sa'di names, not the bodily part."
+  "notes": "Paradise: nothing literal, no river, gold or garden motif; only light on «الصالحات». No people drawn. 57:16-17 glossed with the moral purity As-Sa'di names, not the bodily part. STAGING v4: 57 stays ambient: Paradise (the unseen), nothing literal."
  },
  "cover": {
   "series_ar": "الطهارة وأهل الكتاب",
@@ -193,5 +193,6 @@
    3
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

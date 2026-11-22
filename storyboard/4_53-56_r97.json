@@ -33,56 +33,98 @@
     53,
     54
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        53,
-       4
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       53,
+       3
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       53,
+       6
       ],
       "do": "pan_right"
      },
      {
       "at": [
        53,
-       8
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       53,
-       10
+       9
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        54,
-       4
+       2
       ],
-      "do": "shot_wide"
+      "do": "turn",
+      "who": "d"
+     },
+     {
+      "at": [
+       54,
+       3
+      ],
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        54,
        6
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        54,
        9
       ],
-      "do": "pan_right"
+      "do": "sparkle",
+      "who": "b"
      },
      {
       "at": [
        54,
-       12
+       11
       ],
       "do": "shot_wide"
      },
@@ -91,14 +133,15 @@
        54,
        16
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        54,
-       17
+       18
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -107,12 +150,16 @@
        54,
        14
       ],
-      "until": null,
+      "until": [
+       54,
+       16
+      ],
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
-    ]
+    ],
+    "transition": "dissolve"
    }
   },
   {
@@ -167,6 +214,13 @@
        5
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       56,
+       8
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
@@ -356,7 +410,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A book for «الكتاب والحكمة» (no crown: As-Sa'di reads «ملكا عظيما» as the prophets' kingship; no motif on Ibrahim). 55-56 (the Fire): night sky, no fire motif, nothing literal; only geometric for «عزيزا حكيما». Al-Muyassar's first-person «أعطينا» not used. 53:1-5 (the mocking question about kingship) is not glossed."
+  "notes": "A book for «الكتاب والحكمة» (no crown: As-Sa'di reads «ملكا عظيما» as the prophets' kingship; no motif on Ibrahim). 55-56 (the Fire): night sky, no fire motif, nothing literal; only geometric for «عزيزا حكيما». Al-Muyassar's first-person «أعطينا» not used. 53:1-5 (the mocking question about kingship) is not glossed. STAGING v4: 53-54: in a town, the envious group (d, those given part of the Book) turns away on 54:2 from the believers (b), whom As-Sa'di names with the Prophet as the envied (he is not drawn); a sparkle on the believers at 54:9 for the bounty; a book plate for the Book given to Ibrahim's family (no drop for him: his family, not he, is the subject; no crown). 53 is a counterfactual about them, so it gets no gesture. 55-56 stay ambient: 55:9-56 is the Fire."
  },
  "cover": {
   "series_ar": "الطهارة وأهل الكتاب",
@@ -365,8 +419,9 @@
   "title_en": "Envying people",
   "at": [
    54,
-   1
+   3
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }
