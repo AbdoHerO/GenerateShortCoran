@@ -1310,3 +1310,16 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
   - Aal Imran (not yet published as v2): 4.
 
   The 21 affected Al-Kahf videos will get the fix in the Al-Kahf v2.
+
+### Prayer poses redrawn (2026-11-22)
+
+- **Why:** the independent picture review of Al-A'raf 1-46 found two problems with three-man groups in prayer.
+  - Sujud read as bodies lying in a heap: the back was flat and the hips were low.
+  - In ruku and sujud the faceless head with its head ring read like the open end of a tube.
+- **Change (`renderer/js/scenes_lib.js`):**
+  - Sujud now has the hips raised over the knees and the back sloping down to the forehead on the ground, with the
+    hands flat beside the head.
+  - The head ring is drawn edge-on and fades out as the head bows.
+- **Re-render:** 10 built renders use ruku or sujud and were made with the old poses. They are queued for rebuild and
+  re-publication as the next version: 7 Al-Baqara drafts and 3 Aal Imran.
+  The 63 renders already queued for the Name-plate fix get the new poses too.

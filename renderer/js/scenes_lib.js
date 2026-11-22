@@ -2201,7 +2201,7 @@ Object.assign(SETTINGS, {
 const PRAY_POSES = {
   stand: { F: [0, 0], K: [0, -26], Hp: [0, -50], Sh: [3, -84], Hd: [5, -103], Hn: [16, -64] },
   ruku: { F: [0, 0], K: [0, -26], Hp: [-6, -52], Sh: [34, -58], Hd: [54, -62], Hn: [8, -30] },
-  sujud: { F: [-38, 0], K: [0, -2], Hp: [-20, -30], Sh: [20, -24], Hd: [38, -12], Hn: [44, -3] },
+  sujud: { F: [-36, 0], K: [-4, -5], Hp: [-10, -46], Sh: [22, -24], Hd: [41, -14], Hn: [36, -3] },   // hips raised over the knees, forehead down
   julus: { F: [-30, 0], K: [20, -2], Hp: [-16, -14], Sh: [-10, -50], Hd: [-8, -69], Hn: [16, -16] },
 };
 function prayerFig(ctx, x, y, s, from, to, u, look, alpha, flip) {
@@ -2224,7 +2224,10 @@ function prayerFig(ctx, x, y, s, from, to, u, look, alpha, flip) {
   ctx.save(); ctx.translate(Hd[0], Hd[1]); ctx.rotate(ang);
   ctx.fillStyle = scarf;
   ctx.beginPath(); ctx.arc(0, 0, 17, Math.PI * 0.9, Math.PI * 2.05); ctx.lineTo(-6, 22); ctx.lineTo(-16, 20); ctx.closePath(); ctx.fill();
-  ctx.strokeStyle = '#2a2420'; ctx.lineWidth = 3.2; ctx.beginPath(); ctx.ellipse(-1, -10, 15, 4, 0, 0, TAU); ctx.stroke();
+  // the head ring is seen edge-on from the side: a band across the head, not an open ring. It fades out as the head
+  // bows (ruku, sujud): pointing forward, a faceless head with a band reads like the open end of a tube.
+  const bandA = 1 - clamp((Hd[1] - Sh[1] + 16) / 10);
+  if (bandA > 0.01) { ctx.globalAlpha *= bandA; ctx.strokeStyle = '#2a2420'; ctx.lineWidth = 3.2; ctx.beginPath(); ctx.ellipse(-1, -10, 15, 1.6, 0, 0, TAU); ctx.stroke(); }
   ctx.restore();
   // arm
   ctx.strokeStyle = A.shade(robe, -0.06); ctx.lineWidth = 11;
