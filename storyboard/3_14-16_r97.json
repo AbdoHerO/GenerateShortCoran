@@ -284,8 +284,7 @@
        15,
        19
       ],
-      "do": "look_up",
-      "who": "b"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -539,7 +538,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Worldly adornments as symbols; nothing for women, children or horses. Paradise (15:10-18) has no literal motif: a burst for the glad tidings started at 15:3; 15:19-21 gets only text. 14:14 is not glossed (several readings). STAGING v4: 14: a rich man in his fields with a camel (Al-Muyassar: gold and silver, cattle among them camels, land for planting); coins plate for the heaped treasures, wind over the wheat on «والحرث», a leaf plate for the passing enjoyment (ended before the Name). Women, children and horses are not drawn. 15-16: the God-fearing (the people the verse names) pray in a prayer hall; Paradise is never pictured: only a burst plate on «بخير» (ended before «ربهم») and a light plate from 15:10; no river, fire or gold plate there. 16: they speak and raise their hands in their du'a (hands plate on «فاغفر»)."
+  "notes": "Worldly adornments as symbols; nothing for women, children or horses. Paradise (15:10-18) has no literal motif: a burst for the glad tidings started at 15:3; 15:19-21 gets only text. 14:14 is not glossed (several readings). STAGING v4: 14: a rich man in his fields with a camel (Al-Muyassar: gold and silver, cattle among them camels, land for planting); coins plate for 14:8-12, wind over the wheat on 14:16, a leaf plate for the passing enjoyment (ended before 14:21). Women, children and horses are not drawn. 15-16: the God-fearing (the people the verse names) pray in a prayer hall; Paradise is never pictured: only a burst plate on 15:3 (ended before 15:9) and a light plate from 15:10; no river, fire or gold plate there; no gaze raised to the sky in prayer. 16: they speak and raise their hands in their du'a (hands plate on 16:6)."
  },
  "cover": {
   "series_ar": "حقيقة الدين",

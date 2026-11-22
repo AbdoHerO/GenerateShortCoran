@@ -33,84 +33,37 @@
     53,
     54
    ],
-   "scene": "stage",
+   "scene": "ambient",
    "params": {
-    "setting": "city",
-    "time": "day",
-    "actors": [
-     {
-      "id": "h",
-      "type": "believers",
-      "label": "",
-      "place": "left",
-      "count": 4,
-      "pose": "stand",
-      "enter": null,
-      "exit": null,
-      "uncountable": true
-     },
-     {
-      "id": "d",
-      "type": "disbelievers",
-      "label": "",
-      "place": "right",
-      "count": 4,
-      "pose": "gather",
-      "enter": [
-       53,
-       9
-      ],
-      "exit": null,
-      "uncountable": true
-     }
-    ],
-    "events": [],
+    "mood": "light",
     "beats": [
-     {
-      "at": [
-       53,
-       1
-      ],
-      "do": "shot_wide"
-     },
      {
       "at": [
        53,
        2
       ],
-      "do": "raise_hands",
-      "who": "h"
-     },
-     {
-      "at": [
-       53,
-       5
-      ],
-      "do": "shot_close",
-      "who": "h"
+      "do": "shot_wide"
      },
      {
       "at": [
        53,
        7
       ],
-      "do": "raise_hands",
-      "who": "h"
+      "do": "light_up"
      },
      {
       "at": [
        53,
        9
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        54,
        1
       ],
-      "do": "speak",
-      "who": "d"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -132,7 +85,7 @@
       ],
       "motif": "book",
       "place": "top",
-      "size": "s"
+      "size": "m"
      },
      {
       "at": [
@@ -142,7 +95,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "s"
+      "size": "m"
      }
     ]
    }
@@ -251,6 +204,19 @@
      }
     ],
     "motifs": [
+     {
+      "at": [
+       55,
+       7
+      ],
+      "until": [
+       55,
+       11
+      ],
+      "motif": "burst",
+      "place": "top",
+      "size": "m"
+     },
      {
       "at": [
        55,
@@ -380,7 +346,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on Isa, the disciples or the plotters. 55:6 is glossed only with what both tafsirs share (he was raised to Allah); Al-Muyassar's extra detail (taken from the earth) is not used. 54:4-6 carries Al-Muyassar's note that Allah's plan is rightful and answers the plotters. 53:7-9 uses As-Sa'di (Al-Muyassar narrows 53:9 to the ummah of Muhammad ﷺ). 55: short-word flag at 18 (listen). STAGING v4: 53: the disciples (an uncountable believers group) raise their hands in their du'a; book plate on «أنزلت» (the Gospel), ended before «الرسول». 54: the disbelievers who plotted appear as an uncountable huddle and speak (both tafsirs: their plot against Isa); nothing of the plot is acted out and Isa is not drawn; «ومكر الله ... خير الماكرين» only as a geometric plate. 55-56 (the raising of Isa, the Day, the punishment) stay ambient as they were. Cover moved to the ambient chapter of 55 to match the title."
+  "notes": "No motif on Isa, the disciples or the plotters. 55:6 is glossed only with what both tafsirs share (he was raised to Allah); Al-Muyassar's extra detail (taken from the earth) is not used. 54:4-6 carries Al-Muyassar's note that Allah's plan is rightful and answers the plotters. 53:7-9 uses As-Sa'di (Al-Muyassar narrows 53:9 to the ummah of Muhammad ﷺ). 55: short-word flag at 18 (listen). STAGING v4: 53-54 stay ambient (independent review): in the tafsirs the context of the disciples' du'a and the plot is the fight between the two parties, and two crowds facing each other read as two armies; book plate on 53:4 (the Gospel, ended before 53:6) and geometric on 54:5. 55-56 (the raising of Isa, the Day, the punishment) stay ambient; a burst plate marks the sign on 55:7-10, so the cover frame (55:9) is a symbol, not an open sky. Nobody is drawn."
  },
  "cover": {
   "series_ar": "مريم وعيسى",
@@ -389,7 +355,7 @@
   "title_en": "Isa raised up",
   "at": [
    55,
-   7
+   9
   ]
  },
  "motion": 3,

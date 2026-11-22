@@ -57,7 +57,7 @@
       "pose": "stand",
       "enter": [
        110,
-       15
+       20
       ],
       "exit": null
      },
@@ -156,8 +156,7 @@
        110,
        19
       ],
-      "do": "shot_close",
-      "who": "q"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -329,7 +328,10 @@
        112,
        8
       ],
-      "until": null,
+      "until": [
+       112,
+       14
+      ],
       "motif": "seal",
       "place": "top",
       "size": "m"
@@ -475,7 +477,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No crowd for «خير أمة»; stars on «السماوات» leave before the Name; a lamp for enjoining good; a seal for the covenant («بحبل»). Nothing drawn for the fighting (111), the humiliation or the killing of prophets (112). STAGING v4: 109 (Allah's dominion) is only a wide view of the town with stars that leave before the Name. 110: the believers of this ummah (b) enjoin good (speak), forbid wrong (shake_head) and raise their hands on «وتؤمنون»; 110:13-19 is counterfactual: the People of the Book only appear, nobody acts belief; «منهم المؤمنون» = two countable believers (q, Al-Muyassar: وهم قليل) sparkle; «وأكثرهم الفاسقون» = the larger group (k) turns away. 111-112 (fighting, humiliation, the killing of prophets) stay ambient."
+  "notes": "No crowd for «خير أمة»; stars on «السماوات» leave before the Name; a lamp for enjoining good; a seal for the covenant («بحبل»). Nothing drawn for the fighting (111), the humiliation or the killing of prophets (112). STAGING v4: 109 (Allah's dominion) is only a wide view of the town with stars that leave before the Name. 110: the believers of this ummah (b) enjoin good (speak), forbid wrong (shake_head) and raise their hands on «وتؤمنون»; 110:13-19 is counterfactual: the People of the Book only appear, nobody acts belief; 110:20-21 = two countable believers (q, Al-Muyassar: وهم قليل) appear only on 110:20 and sparkle; 110:22-23 = the larger group (k) turns away. 111-112 (fighting, humiliation, the killing of prophets) stay ambient; the seal plate for the covenant now ends on 112:14, before the anger and the humiliation."
  },
  "cover": {
   "series_ar": "التمسك بالدين",

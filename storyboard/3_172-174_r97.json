@@ -89,16 +89,16 @@
      {
       "at": [
        173,
-       5
+       4
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        173,
        10
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -151,6 +151,19 @@
      }
     ],
     "motifs": [
+     {
+      "at": [
+       173,
+       8
+      ],
+      "until": [
+       173,
+       11
+      ],
+      "motif": "wind",
+      "place": "top",
+      "size": "m"
+     },
      {
       "at": [
        173,
@@ -296,7 +309,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Footsteps for setting out again, a mountain for the faith that grew, a burst for the favour they returned with. No army, no wounded drawn. 173: short-word flag at 11 (listen). STAGING v4: Both chapters stay ambient: 172 is the wounded setting out after the enemy, and 173-174 happen on that expedition against the enemy army (Hamra al-Asad), so no crowd is drawn (picture review). Their increased faith is a mountain plate, the favour they returned with a burst plate."
+  "notes": "Footsteps for setting out again, a mountain for the faith that grew, a burst for the favour they returned with. No army, no wounded drawn. 173: short-word flag at 11 (listen). STAGING v4: Both chapters stay ambient: 172 is the wounded setting out after the enemy, and 173-174 happen on that expedition against the enemy army (Hamra al-Asad), so no crowd is drawn (picture review). The frightening message is a wind plate (it also keeps the long repeat of 173:2-10 moving), their increased faith a mountain plate, the favour they returned with a burst plate."
  },
  "cover": {
   "series_ar": "دروس أحد",

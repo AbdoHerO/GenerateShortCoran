@@ -44,7 +44,10 @@
       "place": "center",
       "count": 1,
       "pose": "stand",
-      "enter": null,
+      "enter": [
+       95,
+       5
+      ],
       "exit": null
      }
     ],
@@ -179,7 +182,22 @@
      {
       "at": [
        97,
-       7
+       9
+      ],
+      "do": "sparkle",
+      "who": "t"
+     },
+     {
+      "at": [
+       97,
+       11
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       97,
+       13
       ],
       "do": "walk_to",
       "who": "t",
@@ -188,26 +206,11 @@
      {
       "at": [
        97,
-       9
+       15
       ],
       "do": "walk_to",
       "who": "c",
       "to": "center"
-     },
-     {
-      "at": [
-       97,
-       13
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       97,
-       16
-      ],
-      "do": "sparkle",
-      "who": "t"
      },
      {
       "at": [
@@ -232,22 +235,9 @@
       ],
       "until": [
        97,
-       13
+       10
       ],
       "motif": "seal",
-      "place": "top",
-      "size": "s"
-     },
-     {
-      "at": [
-       97,
-       13
-      ],
-      "until": [
-       97,
-       22
-      ],
-      "motif": "footsteps",
       "place": "top",
       "size": "s"
      }
@@ -337,7 +327,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Re-split from 3_95-98_r97 (reviewed): the audit found no clean audio cut at the old edge. Chapters, glosses and motifs are unchanged. STAGING v4: 95: Ibrahim as a blue light drop «إبراهيم» alone in the desert at dawn; he glows on «حنيفا» (two_paths plate); no plate starts on his name; nobody is shown following (a command). 96-97: the House is never drawn and gets no symbol, and nothing cube-like or gold-lit stands near «حج البيت»: a traveller and his camel on the road (hajj); birds on «مباركا», sparkle on «وهدى»; the Maqam is not drawn and no close-up falls on 97:4-5; seal plate on «آمنا»; footsteps plate on «حج» (the journey, which the hajj gloss points to) ends before the Name; no geometric plate in this chapter, so the gloss arrow never links the House to the Names' symbol; 97:19-20 is conditional: nobody turns away."
+  "notes": "Re-split from 3_95-98_r97 (reviewed): the audit found no clean audio cut at the old edge. Chapters, glosses and motifs are unchanged. STAGING v4: 95: Ibrahim as a blue light drop «إبراهيم» in the desert at dawn, appearing only on 95:5 (the stage is empty during 95:1-4); he glows on «حنيفا» (two_paths plate); no plate starts on his name; nobody is shown following (a command). 96-97: the House is never drawn and gets no symbol, and nothing cube-like or gold-lit stands near 97:13-14: a traveller and his camel on the road (hajj); birds on «مباركا», sparkle on «وهدى»; the Maqam is not drawn and no close-up falls on 97:4-5; a short seal plate on «آمنا» ends before the Name; no plate at all from 97:10 (no footprints that could read as the Maqam, no geometric plate, so the hajj gloss arrow points at nothing); the traveller walks on on «حج» and the camel follows; 97:19-20 is conditional: nobody turns away."
  },
  "cover": {
   "series_ar": "الميثاق والإسلام",

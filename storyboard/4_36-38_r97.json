@@ -67,7 +67,7 @@
       "pose": "sit",
       "enter": [
        36,
-       11
+       12
       ],
       "exit": [
        36,
@@ -146,7 +146,7 @@
      {
       "at": [
        36,
-       13
+       14
       ],
       "do": "raise_hands",
       "who": "p"
@@ -593,7 +593,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Geometric near «واعبدوا الله», a house for the parents, hands for orphans and the needy, footsteps for the traveller. No motif on the blamed (37-38: miserliness, showing off, the Shaytan as companion), no people drawn. 37:6-11: Al-Muyassar's general «فضله» (As-Sa'di narrows it to knowledge; the general wording contains it). Al-Muyassar's first-person «وأعددنا» paraphrase not used. STAGING v4: 36: in a town, a believer prays (36:1-4, worship without partner), walks to his parents and relatives and gives to them (36:8), speaks to them (36:10), gives to a poor man (36:12) who raises his hands, then to a traveller (36:21, footsteps plate) who takes the poor man's place; house plate for the parents. Orphans (no child figures), neighbours, companions and slaves are not drawn separately. 36:31 the believer bows (humility; the arrogant are not drawn). 37-38: a rich man in a market at dusk refuses the poor man (37:2, miserliness, coins plate), speaks to the people (enjoining it) and turns away (hiding the bounty); the punishment is not pictured and nobody fades. 38: he turns back and gives to the poor man (38:2) and speaks to the people watching (38:5, to be seen); the negated belief and the Shaytan are not drawn."
+  "notes": "Geometric near «واعبدوا الله», a house for the parents, hands for orphans and the needy, footsteps for the traveller. No motif on the blamed (37-38: miserliness, showing off, the Shaytan as companion), no people drawn. 37:6-11: Al-Muyassar's general «فضله» (As-Sa'di narrows it to knowledge; the general wording contains it). Al-Muyassar's first-person «وأعددنا» paraphrase not used. STAGING v4: 36: in a town, a believer prays (36:1-4, worship without partner), walks to his parents and relatives and gives to them (36:8), speaks to them (36:10), gives to a poor man who appears on 36:12 (not on the word for orphans) and raises his hands, then to a traveller (36:21, footsteps plate) who takes the poor man's place; house plate for the parents. Orphans (no child figures), neighbours, companions and slaves are not drawn separately. 36:31 the believer bows (humility; the arrogant are not drawn). 37-38: a rich man in a market at dusk refuses the poor man (37:2, miserliness, coins plate), speaks to the people (enjoining it) and turns away (hiding the bounty); the punishment is not pictured and nobody fades. 38: he turns back and gives to the poor man (38:2) and speaks to the people watching (38:5, to be seen); the negated belief and the Shaytan are not drawn."
  },
  "cover": {
   "series_ar": "الإحسان والحساب",

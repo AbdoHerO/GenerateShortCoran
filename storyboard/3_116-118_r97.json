@@ -78,7 +78,7 @@
        116,
        9
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -92,14 +92,14 @@
        116,
        13
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        116,
        15
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -121,7 +121,7 @@
        117,
        6
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -149,19 +149,12 @@
        117,
        15
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       117,
-       17
-      ],
       "do": "shot_wide"
      },
      {
       "at": [
        117,
-       18
+       17
       ],
       "do": "wring_hands",
       "who": "d"
@@ -169,9 +162,9 @@
      {
       "at": [
        117,
-       21
+       19
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -462,7 +455,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A leaf for wealth that will not avail, wind for the frosty blast of the parable (no crop destroyed on screen), a lamp for the signs made clear. Nothing for the Fire. No motif on the negated «لا تتخذوا بطانة». STAGING v4: 116-117: the disbelievers (d) stand by their wheat fields at dusk; leaf plate for the wealth that will not avail (children not drawn); nothing for the Fire. The parable: gusts of wind on «ريح» and «أصابت» (wind plate), no crop destroyed on screen and no storm event on people; they wring their hands on 117:18 (As-Sa'di: nothing but toil and more regret). 118: the believers shake their heads on «تتخذوا» (they do not take them as intimates); the enemies (e) speak on «بدت» (hatred from their mouths) and turn on «تخفي» (what they hide); the camera moves to the believers on 118:24 and the lamp on «الآيات» stands over them."
+  "notes": "A leaf for wealth that will not avail, wind for the frosty blast of the parable (no crop destroyed on screen), a lamp for the signs made clear. Nothing for the Fire. No motif on the negated «لا تتخذوا بطانة». STAGING v4: 116-117: the disbelievers (d) stand by their wheat fields at dusk; leaf plate for the wealth that will not avail (children not drawn); nothing for the Fire. The parable: gusts of wind on «ريح» and «أصابت» (wind plate), no crop destroyed on screen and no storm event on people; they wring their hands on 117:17 (As-Sa'di: nothing but toil and more regret). 118: the believers shake their heads on «تتخذوا» (they do not take them as intimates); the enemies (e) speak on «بدت» (hatred from their mouths) and turn on «تخفي» (what they hide); the camera moves to the believers on 118:24 and the lamp on «الآيات» stands over them."
  },
  "cover": {
   "series_ar": "التمسك بالدين",

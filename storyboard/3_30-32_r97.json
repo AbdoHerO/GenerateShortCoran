@@ -143,7 +143,8 @@
        31,
        1
       ],
-      "do": "shot_wide"
+      "do": "pray",
+      "who": "b"
      },
      {
       "at": [
@@ -158,8 +159,7 @@
        31,
        6
       ],
-      "do": "pray",
-      "who": "b"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -205,7 +205,7 @@
        32,
        4
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -219,15 +219,21 @@
        32,
        7
       ],
-      "do": "shot_close",
-      "who": "b"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       32,
+       9
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
        32,
        11
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -250,6 +256,16 @@
        32,
        8
       ],
+      "motif": "two_paths",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       32,
+       9
+      ],
+      "until": null,
       "motif": "two_paths",
       "place": "top",
       "size": "s"
@@ -373,7 +389,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The Day (30) only as symbols: two_paths for good and evil deeds, an hourglass for the wished-for distance; no scroll of deeds. No motif on 31:6 (the Prophet ﷺ) or on Allah's love. STAGING v4: 30 (the Day) stays ambient; the hourglass plate now ends before the Name. 31-32: the Prophet is never shown at «قل»: believers in a prayer hall follow him by praying (As-Sa'di: following him in all his states) and read the Book on «أطيعوا» (Al-Muyassar: obeying Allah by following His Book); no gesture on the conditionals «إن كنتم تحبون» and «فإن تولوا» (a two_paths plate only, ended before the Name). Allah's love and forgiveness only as a light plate."
+  "notes": "The Day (30) only as symbols: two_paths for good and evil deeds, an hourglass for the wished-for distance; no scroll of deeds. No motif on 31:6 (the Prophet ﷺ) or on Allah's love. STAGING v4: 30 (the Day) stays ambient; the hourglass plate ends before 30:22. 31-32: the Prophet is never shown at 31:1 or 32:1: believers are already praying in a prayer hall when 31:6 is recited (As-Sa'di: following him in all his states), bow and prostrate (no sujud or bowing while 32:4 is recited) and read the Book on 32:2 (Al-Muyassar: obeying Allah by following His Book). No gesture on the conditionals 31:2-5 and 32:5-6; during 32:9-11 the camera pulls away from the worshippers onto a two_paths plate. Allah's love and forgiveness only as a light plate."
  },
  "cover": {
   "series_ar": "قدرة الله ومحبته",

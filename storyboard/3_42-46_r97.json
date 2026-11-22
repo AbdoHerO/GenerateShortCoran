@@ -74,8 +74,7 @@
        42,
        5
       ],
-      "do": "glow",
-      "who": "m"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -112,14 +111,6 @@
       "at": [
        43,
        4
-      ],
-      "do": "bow",
-      "who": "m"
-     },
-     {
-      "at": [
-       43,
-       6
       ],
       "do": "glow",
       "who": "m"
@@ -314,16 +305,7 @@
        45,
        5
       ],
-      "do": "glow",
-      "who": "m"
-     },
-     {
-      "at": [
-       45,
-       7
-      ],
-      "do": "sparkle",
-      "who": "m"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -340,14 +322,6 @@
       ],
       "do": "speak",
       "who": "an"
-     },
-     {
-      "at": [
-       45,
-       13
-      ],
-      "do": "glow",
-      "who": "m"
      },
      {
       "at": [
@@ -392,8 +366,7 @@
        46,
        4
       ],
-      "do": "glow",
-      "who": "m"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -533,7 +506,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on Maryam, the angels, Isa or the cradle. geometric on 42:6, a scroll for the revealed news of the unseen, a pen for the casting of pens. 42:10-12 quotes As-Sa'di's two readings (her time or absolutely) instead of taking one. 45: short-word flag at 45:20 (70 ms, listen). STAGING v4: 42-43 and 45-46: Maryam is only the green drop «مريم» in her place of prayer (As-Sa'di on 37: she kept to her mihrab), the angels ONE gold drop «الملائكة» that speaks on «قالت»; she bows on the command to prostrate and bow (As-Sa'di: she did what she was commanded); no group of worshippers is drawn for «مع الراكعين». Isa, the cradle and Jibril are not drawn; the glad tidings are a sparkle and a light plate. 44: the people in charge of the Temple at a river (As-Sa'di: they cast their pens into the river) as an uncountable group of men (no women drawn); they speak and dispute; Zakariya, a blue drop, glows on «يكفل» (both tafsirs: the lot fell to him); scroll plate for the revealed news of the unseen and pen plate for the casting of pens (ended before «مريم»). The Prophet is not shown. Wide shots only in every drop chapter."
+  "notes": "No motif on Maryam, the angels, Isa or the cradle. geometric on 42:6, a scroll for the revealed news of the unseen, a pen for the casting of pens. 42:10-12 quotes As-Sa'di's two readings (her time or absolutely) instead of taking one. 45: short-word flag at 45:20 (70 ms, listen). STAGING v4: 42-43 and 45-46: Maryam is only the green drop labelled Maryam in her place of prayer (As-Sa'di on 37: she kept to her mihrab), the angels ONE gold drop with the plural label that speaks (42:2, 43:1, 45:2...). Her drop glows only away from the Name and from the announcement of the birth (no glow on 42:5-6, 45:5-14 or the cradle 46:4); on the command 43:2-7 it glows (no group of worshippers is drawn for 43:6-7). Isa, the cradle and Jibril are not drawn; the glad tidings are a light plate only. 44: the people in charge of the Temple at a river (As-Sa'di: they cast their pens into the river) as an uncountable group of men; they speak and dispute; Zakariya, a blue drop, glows on 44:14 (both tafsirs: the lot fell to him); scroll plate for the revealed news of the unseen and pen plate for the casting of pens (ended before 44:15). The Prophet is not shown. Wide shots only in every drop chapter."
  },
  "cover": {
   "series_ar": "مريم وعيسى",

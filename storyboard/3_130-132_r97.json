@@ -40,26 +40,14 @@
     "time": "day",
     "actors": [
      {
-      "id": "l",
-      "type": "man",
+      "id": "b",
+      "type": "believers",
       "label": "",
-      "place": "left",
-      "count": 1,
+      "place": "center",
+      "count": 3,
       "pose": "stand",
       "enter": null,
-      "exit": null,
-      "look": "rich"
-     },
-     {
-      "id": "d",
-      "type": "man",
-      "label": "",
-      "place": "right",
-      "count": 1,
-      "pose": "stand",
-      "enter": null,
-      "exit": null,
-      "look": "plain"
+      "exit": null
      }
     ],
     "events": [],
@@ -69,18 +57,14 @@
        130,
        1
       ],
-      "do": "walk_to",
-      "who": "d",
-      "to": "l"
+      "do": "shot_wide"
      },
      {
       "at": [
        130,
-       3
+       2
       ],
-      "do": "give",
-      "who": "d",
-      "to": "l"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -88,7 +72,7 @@
        6
       ],
       "do": "shake_head",
-      "who": "l"
+      "who": "b"
      },
      {
       "at": [
@@ -96,7 +80,7 @@
        8
       ],
       "do": "shot_close",
-      "who": "l"
+      "who": "b"
      },
      {
       "at": [
@@ -104,7 +88,7 @@
        9
       ],
       "do": "bow",
-      "who": "l"
+      "who": "b"
      },
      {
       "at": [
@@ -112,7 +96,7 @@
        12
       ],
       "do": "sparkle",
-      "who": "l"
+      "who": "b"
      },
      {
       "at": [
@@ -120,7 +104,7 @@
        1
       ],
       "do": "bow",
-      "who": "d"
+      "who": "b"
      },
      {
       "at": [
@@ -142,27 +126,27 @@
        5
       ],
       "do": "sparkle",
-      "who": "center"
+      "who": "b"
      }
     ],
     "motifs": [
      {
       "at": [
-       130,
-       7
+       131,
+       1
       ],
       "until": [
-       130,
-       10
+       132,
+       1
       ],
-      "motif": "scales",
+      "motif": "two_paths",
       "place": "top",
       "size": "s"
      },
      {
       "at": [
        132,
-       4
+       5
       ],
       "until": null,
       "motif": "light",
@@ -232,7 +216,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No coins on the forbidden usury; two_paths for taqwa (choosing obedience). Nothing for the Fire (131). No lamp on «أطيعوا الله والرسول» (a lamp there reads as «سراجا منيرا»). STAGING v4: 130: in a market a debtor (d) comes and repays the lender (l) on 130:3; the lender shakes his head on «الربا» (Al-Muyassar: take no increase on your capital, even a little); scales plate for fair dealing (no coins for usury); he bows on «واتقوا». 131: the Fire is not pictured; the debtor bows on «واتقوا». 132: light plate on «ترحمون»; the Messenger is never shown."
+  "notes": "No coins on the forbidden usury; two_paths for taqwa (choosing obedience). Nothing for the Fire (131). No lamp on «أطيعوا الله والرسول» (a lamp there reads as «سراجا منيرا»). STAGING v4: 130: believers in a market shake their heads on «الربا» (Al-Muyassar: take no increase on your capital, even a little), bow on «واتقوا» and sparkle on «تفلحون»; no lender, debtor, money or scales are drawn. 131: they bow on «واتقوا»; the Fire is not pictured; a two_paths plate holds the screen through the threat. 132: light plate and sparkle on «ترحمون» only, not on «والرسول»; the Messenger is never shown."
  },
  "cover": {
   "series_ar": "من بدر إلى أحد",

@@ -83,9 +83,16 @@
      {
       "at": [
        40,
-       15
+       13
       ],
-      "do": "glow",
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       40,
+       16
+      ],
+      "do": "bow",
       "who": "z"
      }
     ],
@@ -146,17 +153,9 @@
      {
       "at": [
        41,
-       5
+       6
       ],
       "do": "shot_wide"
-     },
-     {
-      "at": [
-       41,
-       7
-      ],
-      "do": "glow",
-      "who": "z"
      },
      {
       "at": [
@@ -170,8 +169,7 @@
        41,
        14
       ],
-      "do": "glow",
-      "who": "z"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -307,7 +305,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on Zakariya's age or person. geometric for 40:13-17, a burst for the sign, night_day for evening and morning. STAGING v4: Zakariya alone in his place of prayer, a blue drop «زكريا». He speaks on 40:1 and 41:1 and raises his hands asking for a sign. The answers «قال كذلك» and «قال آيتك» get no speaker on screen (As-Sa'di: Allah told him), so the angel is not drawn here; his wife is not drawn. The sign of silence is not acted out (no people drawn, no gesture): a burst plate on «آيتك» ended before «ربك»; he bows on the remembrance and glows on «وسبح»; night_day for evening and morning. Wide shots only."
+  "notes": "No motif on Zakariya's age or person. geometric for 40:13-17, a burst for the sign, night_day for evening and morning. STAGING v4: Zakariya alone in his place of prayer, a blue drop. He speaks on 40:1 and 41:1 and raises his hands asking for a sign (41:3). The answers 40:12-17 and 41:6-20 get no speaker on screen (As-Sa'di: Allah told him), so the angel is not drawn here; his wife is not drawn. The sign of silence is not acted out (no people, no gesture, no glow on 41:7): a burst plate ended before 41:16; he bows on 40:16 and 41:17 and glows on the glorification 41:18; night_day for evening and morning. No glow alive at the Name. Wide shots only."
  },
  "cover": {
   "series_ar": "آل عمران",

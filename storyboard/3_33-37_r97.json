@@ -303,8 +303,7 @@
        37,
        17
       ],
-      "do": "sparkle",
-      "who": "m"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -325,14 +324,6 @@
      {
       "at": [
        37,
-       25
-      ],
-      "do": "glow",
-      "who": "m"
-     },
-     {
-      "at": [
-       37,
        28
       ],
       "do": "shot_wide"
@@ -342,8 +333,7 @@
        37,
        30
       ],
-      "do": "glow",
-      "who": "m"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -584,7 +574,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Re-split from 3_33-36_r97, 3_37-39_r97 (reviewed): the audit found no clean audio cut at the old edge. Chapters, glosses and motifs are unchanged. STAGING v4: 33-34 (Allah's choosing) and 35-36 (the vow, the pregnancy and the birth: the wife of Imran is never drawn, a private matter) stay ambient as they were. 37: her place of worship (Al-Muyassar: Zakariya settled her in his place of worship; As-Sa'di: her mihrab, her place of prayer) drawn as a prayer hall. Maryam is only the green drop «مريم», Zakariya only the blue drop «زكريا»: he appears on «وكفلها», moves toward her on «دخل عليها», asks on «قال» and she answers on «قالت». The provision is never drawn (no food): only a sparkle on her drop and a light plate. Seal plate for the acceptance. Wide shots only, no close-up or pan on the drops."
+  "notes": "Re-split from 3_33-36_r97, 3_37-39_r97 (reviewed): the audit found no clean audio cut at the old edge. Chapters, glosses and motifs are unchanged. STAGING v4: 33-34 (Allah's choosing) and 35-36 (the vow, the pregnancy and the birth: the wife of Imran is never drawn, a private matter) stay ambient. 37: her place of worship (Al-Muyassar: Zakariya settled her in his place of worship; As-Sa'di: her mihrab, her place of prayer) drawn as a prayer hall. Maryam is only the green drop labelled Maryam, Zakariya only the blue drop labelled Zakariya: he appears on 37:8, moves toward her on 37:11, asks on 37:18 and she answers on 37:23. The provision is never drawn (no food) and no light pulse is tied to it: only the light plate from 37:17. No glow on her drop while the Name is recited (37:27, 37:29). Seal plate for the acceptance. Wide shots only."
  },
  "cover": {
   "series_ar": "آل عمران",

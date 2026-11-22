@@ -331,7 +331,20 @@
       "type": "people",
       "label": "",
       "place": "center",
-      "count": 4,
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       105,
+       1
+      ]
+     },
+     {
+      "id": "c",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 3,
       "pose": "stand",
       "enter": null,
       "exit": [
@@ -454,7 +467,7 @@
       ],
       "do": "walk_to",
       "who": "y",
-      "to": "right"
+      "to": "c"
      },
      {
       "at": [
@@ -632,14 +645,7 @@
      {
       "at": [
        108,
-       1
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       108,
-       4
+       2
       ],
       "do": "read",
       "who": "b"
@@ -932,7 +938,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "One unit of about 170 s: the reciter joins every verse from 102 to 108. A seal for holding fast together (no rope drawn), a house for brotherhood, two_paths for right and wrong, wind for the scattering of those who split. The Day (106-107): no faces drawn, nothing literal; only light on «رحمة» (mercy). Nothing for the Fire (103:22-25). 103: short-word flag at 17 (listen). STAGING v4: 102: believers bow on «اتقوا» and pray at dawn (prostration on «مسلمون»). 103: two groups who were enemies (Al-Muyassar: before Islam) turn their backs on each other on 103:12-13, turn back on «فألف», one walks over to the other on «فأصبحتم» (house plate) and both raise their hands on «إخوانا»; nothing drawn for the pit of the Fire, a soft light on «فأنقذكم» (Al-Muyassar: He guided you by Islam). 104: «منكم أمة» = part of the believers (b) call to good (speak), enjoin (point) and forbid (shake_head) before people (p). 105: the earlier communities who split (Al-Muyassar: the People of the Book): a group enters, walks apart (105:4-5) and argues (speak / shake_head); they stay on stage, nothing drawn for the punishment. 106-107 (the Day) stay ambient. 108: believers read the Quran in a prayer hall (the Prophet, addressed by «عليك», is never shown); geometric only on the Name."
+  "notes": "One unit of about 170 s: the reciter joins every verse from 102 to 108. A seal for holding fast together (no rope drawn), a house for brotherhood, two_paths for right and wrong, wind for the scattering of those who split. The Day (106-107): no faces drawn, nothing literal; only light on «رحمة» (mercy). Nothing for the Fire (103:22-25). 103: short-word flag at 17 (listen). STAGING v4: 102: believers bow on «اتقوا» and pray at dawn (prostration on «مسلمون»). 103: two groups who were enemies (Al-Muyassar: before Islam) turn their backs on each other on 103:12-13, turn back on «فألف», one walks over to the other on «فأصبحتم» (house plate) and both raise their hands on «إخوانا»; nothing drawn for the pit of the Fire, a soft light on «فأنقذكم» (Al-Muyassar: He guided you by Islam). 104: 104:2-3 = only part of the believers (b) call to good (speak), enjoin (point) and forbid (shake_head) before people (p); the rest of the believers (c) stand still. 105: the earlier communities who split (Al-Muyassar: the People of the Book): a group enters, walks apart (105:4-5) and argues (speak / shake_head); they stay on stage, nothing drawn for the punishment. 106-107 (the Day) stay ambient. 108: believers read the Quran in a prayer hall from 108:2 (the Prophet, addressed by «عليك», is never shown); geometric only on the Name."
  },
  "cover": {
   "series_ar": "التمسك بالدين",

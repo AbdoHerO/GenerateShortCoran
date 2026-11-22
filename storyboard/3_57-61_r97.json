@@ -85,10 +85,17 @@
      {
       "at": [
        57,
-       9
+       7
       ],
       "do": "sit",
       "who": "b"
+     },
+     {
+      "at": [
+       57,
+       9
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
@@ -132,6 +139,19 @@
        8
       ],
       "motif": "wheat",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       57,
+       9
+      ],
+      "until": [
+       58,
+       2
+      ],
+      "motif": "two_paths",
       "place": "top",
       "size": "s"
      },
@@ -460,7 +480,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on Isa, Adam, or the people called to the mubahala (61:13-18); no hands on 61:20 (the Prophet's ﷺ own act). light on 59:14, two_paths for the dispute. STAGING v4: 57-58: believers praying in a prayer hall (the good deeds), prostrating on «فيوفيهم» and sitting before «لا يحب الظالمين»; they read the Book on «نتلوه» (As-Sa'di: a favour to the Prophet and his ummah); wheat plate for the reward (ended before the Name), book plate for the wise reminder. 59-60 (Isa and Adam created by «كن»: Allah's act) stay ambient; the lamp plate was removed because it lived over «ربك». 61 (the mubahala) stays ambient: it addresses the Prophet and names families and women; no people drawn; two_paths now ends before the Name."
+  "notes": "No motif on Isa, Adam, or the people called to the mubahala (61:13-18); no hands on 61:20 (the Prophet's ﷺ own act). light on 59:14, two_paths for the dispute. STAGING v4: 57-58: believers praying in a prayer hall (the good deeds), prostrating on 57:6 and already sitting at 57:7; during 57:9-11 the camera moves off them onto a two_paths plate (until 58:2); they read the Book on 58:2 (As-Sa'di: a favour to the Prophet and his ummah); wheat plate for the reward (ended before 57:8), book plate for the wise reminder. 59-60 (Isa and Adam created by His command: Allah's act) stay ambient; the lamp plate was removed because it lived over 60:3. 61 (the mubahala) stays ambient: it addresses the Prophet and names families and women; no people drawn; two_paths ends before 61:23."
  },
  "cover": {
   "series_ar": "مريم وعيسى",

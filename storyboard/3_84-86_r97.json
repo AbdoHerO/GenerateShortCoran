@@ -99,30 +99,28 @@
        84,
        14
       ],
-      "do": "shot_close",
-      "who": "b"
+      "do": "shot_wide"
      },
      {
       "at": [
        84,
        16
       ],
-      "do": "sparkle",
-      "who": "b"
+      "do": "pan_right"
      },
      {
       "at": [
        84,
        19
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        84,
        22
       ],
-      "do": "shake_head",
+      "do": "speak",
       "who": "b"
      },
      {
@@ -131,6 +129,14 @@
        27
       ],
       "do": "bow",
+      "who": "b"
+     },
+     {
+      "at": [
+       84,
+       29
+      ],
+      "do": "sparkle",
       "who": "b"
      }
     ],
@@ -293,8 +299,8 @@
        3
       ],
       "until": [
-       85,
-       9
+       86,
+       1
       ],
       "motif": "two_paths",
       "place": "top",
@@ -443,7 +449,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on any named prophet (84:10-19); a book for what was revealed, hands for «مسلمون», a leaf for the losers, a burst for the clear proofs. STAGING v4: 84: the believers declare their faith (speak on 84:2) in a prayer hall and read (84:5, book plate ending before the prophets' names); no prophet is drawn and nothing starts on their names; they shake their heads on 84:22 (no distinction) and bow on 84:27. 85 is a conditional («ومن يبتغ»): nobody acts it; sparkle on the believers on 85:4, two_paths plate. 86: a people who disbelieved after believing turn away on 86:5; burst plate on 86:13 for the clear proofs; the Messenger (86:10) is never shown."
+  "notes": "No motif on any named prophet (84:10-19); a book for what was revealed, hands for «مسلمون», a leaf for the losers, a burst for the clear proofs. STAGING v4: 84: the believers declare their faith (speak on 84:2) in a prayer hall and read (84:5, book plate ending before the prophets' names); no prophet is drawn and nothing starts on their names; they speak on 84:22, bow on 84:27 and sparkle on 84:29. 85 is a conditional (85:1-2): nobody acts it; sparkle on the believers on 85:4; the two_paths plate stays through 85:9-13 so the camera does not hold on the believers during the threat. 86: a people who disbelieved after believing turn away on 86:5; burst plate on 86:13 for the clear proofs; the Messenger (86:10) is never shown."
  },
  "cover": {
   "series_ar": "الميثاق والإسلام",

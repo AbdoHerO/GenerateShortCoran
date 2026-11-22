@@ -36,7 +36,7 @@
    "scene": "stage",
    "params": {
     "setting": "city",
-    "time": "dusk",
+    "time": "day",
     "actors": [
      {
       "id": "d",
@@ -482,7 +482,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Badr: no fighting, no crowd, no countable group; two_paths for the two parties. 13:15-18 (who saw whom as twice their number) is not glossed: Al-Muyassar and As-Sa'di differ. A leaf for wealth that will not avail (no coins on the negated benefit). Nothing for the Fire or Pharaoh. STAGING v4: 10-11: deniers in a town at dusk with a rich man (As-Sa'di: their wealth and children; a leaf plate, no coins, since the benefit is negated, ended before the Name). The Fire is not pictured. On 11:6-7 («كذبوا») they turn away and leave the stage (exit 11:8), four seconds before «فأخذهم الله»; only then does the empty town darken (no specific punishment drawn, no one hurt; Pharaoh is not drawn). Footsteps plate for «كدأب» ended before «فأخذهم». 12-13 (defeat, Hell, the battle of Badr) stay ambient; mood changed from dawn to night_sky because 12 is a threat. two_paths now ends before 13:12."
+  "notes": "Badr: no fighting, no crowd, no countable group; two_paths for the two parties. 13:15-18 (who saw whom as twice their number) is not glossed: Al-Muyassar and As-Sa'di differ. A leaf for wealth that will not avail (no coins on the negated benefit). Nothing for the Fire or Pharaoh. STAGING v4: 10-11: deniers in a town by day (no red sky at 10:15-16) with a rich man (As-Sa'di: their wealth and children; a leaf plate, no coins, since the benefit is negated, ended before 10:11). The Fire is not pictured. On 11:6-7 they turn away and leave the stage (exit 11:8), four seconds before 11:9-10; only then does the empty town darken (no specific punishment drawn, no one hurt; Pharaoh is not drawn). Footsteps plate for 11:1 ended before 11:9. 12-13 (defeat, Hell, the battle of Badr) stay ambient on night_sky (12 is a threat); two_paths ends before 13:12."
  },
  "cover": {
   "series_ar": "حقيقة الدين",

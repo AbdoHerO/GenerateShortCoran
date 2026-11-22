@@ -35,7 +35,7 @@
    "scene": "stage",
    "params": {
     "setting": "prayer_hall",
-    "time": "dawn",
+    "time": "night",
     "actors": [
      {
       "id": "b",
@@ -215,7 +215,7 @@
        18,
        9
       ],
-      "do": "shot_close",
+      "do": "speak",
       "who": "b"
      },
      {
@@ -223,23 +223,22 @@
        18,
        11
       ],
-      "do": "speak",
-      "who": "b"
+      "do": "pan_right"
      },
      {
       "at": [
        18,
        12
       ],
-      "do": "read",
-      "who": "b"
+      "do": "shot_wide"
      },
      {
       "at": [
        18,
        13
       ],
-      "do": "pan_right"
+      "do": "read",
+      "who": "b"
      },
      {
       "at": [
@@ -523,7 +522,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on the angels (18:8) or on 18:11-12 (an attribute): geometric for the testimony, wind for the scattering into sects. STAGING v4: 17: the God-fearing in a prayer hall before dawn (As-Sa'di: they prolonged the prayer to the pre-dawn, then sat asking forgiveness): they pray, a man gives to a poor man (spending on the needy), then they sit and raise their hands on «والمستغفرين»; stars plate on «بالأسحار». 18: Allah's testimony stays on the geometric plate (ended at 19:1); the angels are not drawn; the people of knowledge sit with their book and testify (speak on 18:11). 19: two groups of the People of the Book appear (Al-Muyassar: they split into sects) and argue, read their Book, then turn away from each other on «بغيا بينهم»; no gesture on the conditional «ومن يكفر»; hourglass plate for the reckoning."
+  "notes": "No motif on the angels (18:8) or on 18:11-12 (an attribute): geometric for the testimony, wind for the scattering into sects. STAGING v4: 17: the God-fearing in a prayer hall in the last part of the night (As-Sa'di: they prolonged the prayer to the pre-dawn, then sat asking forgiveness): they pray, a man gives to a poor man (spending on the needy), then they sit and raise their hands on 17:5-6; stars plate on 17:6. 18: Allah's testimony stays on the geometric plate (ended at 19:1); the angels are not drawn; the people of knowledge testify (speak on 18:9) and read on 18:13; no gesture on 18:11-12 (His attribute). 19: two groups of the People of the Book appear (Al-Muyassar: they split into sects), argue, read their Book, then turn away from each other on 19:17-18; no gesture on the conditional 19:19-22; hourglass plate for the reckoning."
  },
  "cover": {
   "series_ar": "حقيقة الدين",
