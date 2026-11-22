@@ -33,21 +33,67 @@
     110,
     111
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        110,
-       12
+       1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        110,
-       15
+       5
+      ],
+      "do": "turn",
+      "who": "d"
+     },
+     {
+      "at": [
+       110,
+       6
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       110,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       110,
+       14
       ],
       "do": "shot_wide"
      },
@@ -56,14 +102,28 @@
        110,
        18
       ],
-      "do": "pan_right"
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       111,
+       2
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        111,
        7
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       111,
+       9
+      ],
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -78,7 +138,7 @@
       ],
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -91,7 +151,7 @@
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -101,7 +161,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -114,12 +174,19 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light",
+    "mood": "mountains",
     "beats": [
      {
       "at": [
        112,
-       3
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       112,
+       4
       ],
       "do": "pan_left"
      },
@@ -138,7 +205,30 @@
       "do": "pan_right"
      }
     ],
-    "motifs": [],
+    "motifs": [
+     {
+      "at": [
+       112,
+       9
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "quiet": [
+     [
+      [
+       112,
+       1
+      ],
+      [
+       112,
+       12
+      ]
+     ]
+    ],
     "transition": "dissolve"
    }
   },
@@ -155,21 +245,28 @@
      {
       "at": [
        113,
-       5
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       113,
+       3
       ],
       "do": "pan_left"
      },
      {
       "at": [
        113,
-       6
+       5
       ],
       "do": "pan_right"
      },
      {
       "at": [
        113,
-       7
+       6
       ],
       "do": "shot_wide"
      },
@@ -183,19 +280,58 @@
      {
       "at": [
        113,
-       14
+       13
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        113,
-       17
+       15
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
-    "motifs": [],
+    "motifs": [
+     {
+      "at": [
+       113,
+       2
+      ],
+      "until": [
+       113,
+       6
+      ],
+      "motif": "two_paths",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       113,
+       8
+      ],
+      "until": [
+       113,
+       15
+      ],
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "quiet": [
+     [
+      [
+       113,
+       1
+      ],
+      [
+       113,
+       17
+      ]
+     ]
+    ],
     "transition": "dissolve"
    }
   }
@@ -325,7 +461,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A book for «الكتاب» (after Musa's name), geometric for «ولولا كلمة سبقت من ربك» and «ليوفينهم ربك أعمالهم». 112 addresses the Prophet ﷺ: no plate. 113: no fire drawn; As-Sa'di's definition of «الركون» (inclining to the wrongdoer in his wrong) keeps the warning precise. 110:14-18 is not glossed (the tafsirs differ on who doubts and what). As-Sa'di's «يقضي بينهم يوم القيامة» (10:93 wording) is cut."
+  "notes": "A book for «الكتاب» (after Musa's name), geometric for «ولولا كلمة سبقت من ربك» and «ليوفينهم ربك أعمالهم». 112 addresses the Prophet ﷺ: no plate. 113: no fire drawn; As-Sa'di's definition of «الركون» (inclining to the wrongdoer in his wrong) keeps the warning precise. 110:14-18 is not glossed (the tafsirs differ on who doubts and what). As-Sa'di's «يقضي بينهم يوم القيامة» (10:93 wording) is cut. STAGING v4: c1 (110-111): We gave Musa the Book and it was disputed: Musa is not drawn (he is named only as the one given the Book, and neither tafsir places him among those who differed; no plate starts on his name). Al-Muyassar: a group believed in it and others disbelieved, so his people are shown as three believers (light robes) and three men in dark robes in a town by day; a book plate for the Book (110:4-6, after Musa's name), the men in dark robes turn away from it on 110:5 (they differed), the camera stays wide (no close-up on ordinary figures right after Musa's name). Geometric for the word that preceded from your Lord (110:8-13; the judgement that did not come is not drawn). 110:14-18 (in doubt): the tafsirs differ on who doubts, so no group is singled out, the camera stays wide. Geometric for your Lord will pay them in full (111:4-10). c2 (112) stays ambient (mountains, steadfastness): the command to the Prophet himself and those who repented with him; his own conduct is never staged and no believers are shown beside an empty place; params.quiet over all of 112; geometric for He sees what you do (112:9-12). c3 (113) stays ambient (night_sky): do not incline to the wrongdoers, or the Fire will touch you: staging it would act the forbidden inclining or put the believers under the threat of the Fire, so nothing is staged; params.quiet over all of 113; a two-paths plate for inclining or not (113:2-5, gone before the Fire is named), geometric for you have no protectors besides Allah (113:8-14); no fire. Cover: the mountains mood for the path of steadfastness."
  },
  "cover": {
   "series_ar": "الاستقامة والختام",
@@ -334,8 +470,9 @@
   "title_en": "The path of steadfastness",
   "at": [
    112,
-   1
+   3
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

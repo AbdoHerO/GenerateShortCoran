@@ -52,7 +52,7 @@
       "id": "d",
       "type": "disbelievers",
       "label": "",
-      "place": "right",
+      "place": "center",
       "count": 3,
       "pose": "stand",
       "enter": null,
@@ -249,8 +249,7 @@
        66,
        6
       ],
-      "do": "shot_close",
-      "who": "b"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -534,7 +533,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The she-camel is never drawn: a burst (a sign) for «آية» that leaves before «أرض الله». No killing, cry, ruins or bodies drawn. An hourglass for «ثلاثة أيام». Light for «برحمة» after Salih's name (66:5); geometric for «هو القوي العزيز» (it starts after «إن ربك»). 66:4-13 is not glossed (first-person paraphrase). 64:15-17 is not glossed. STAGING v4: Thamud in a mountain valley by day (as in 7_75-79). Salih is a blue drop labelled Salih (no plate on his name); his people three faceless men in dark robes (the series' sign for a group, no number meant). The she-camel is never drawn: nobody points, nothing is shown where she would be; a burst plate for the sign (64:6-9) and nothing else. c1 (64-65): Salih speaks (64:1, 65:2); the camera on his people when they are told to leave her and when warned (64:7, 64:15: the threat is held on the wrongdoers); an hourglass for the near punishment and the three days (64:17-65:7). Nothing moves, gestures or leaves on 65:1 (the hamstringing is not shown or implied): the camera only goes wide, the men stand still. c2 (66): Salih and three believers standing in the valley; a soft sparkle on the believers for We saved (66:4), the camera on those who believed (66:6); geometric for the mercy from Allah (66:9-12) and for the Lord's names (66:16-18; 66:14-18 is addressed to the Prophet: camera only). No departure is drawn (the tafsirs give none). c3 (67-68): the valley is empty: no person is on stage, so nobody leaves or falls on a word of punishment; the blast (67:4) falls on the empty valley by day (not dawn); no body, no ruin. A leaf plate and a few drifting leaves for as though they had never lived there (68:1-4), gone before 68:9. Cover: the empty valley with the leaf plate (the end of Thamud)."
+  "notes": "The she-camel is never drawn: a burst (a sign) for «آية» that leaves before «أرض الله». No killing, cry, ruins or bodies drawn. An hourglass for «ثلاثة أيام». Light for «برحمة» after Salih's name (66:5); geometric for «هو القوي العزيز» (it starts after «إن ربك»). 66:4-13 is not glossed (first-person paraphrase). 64:15-17 is not glossed. STAGING v4: Thamud in a mountain valley by day (as in 7_75-79). Salih is a blue drop labelled Salih (no plate on his name); his people three faceless men in dark robes at the centre, so that close-ups on them keep his drop in frame (the series' sign for a group, no number meant). The she-camel is never drawn: nobody points, nothing is shown where she would be; a burst plate for the sign (64:6-9) and nothing else. c1 (64-65): Salih speaks (64:1, 65:2); the camera on his people when they are told to leave her and when warned (64:7, 64:15: the threat is held on the wrongdoers); an hourglass for the near punishment and the three days (64:17-65:7). Nothing moves, gestures or leaves on 65:1 (the hamstringing is not shown or implied): the camera only goes wide, the men stand still. c2 (66): Salih and three believers standing in the valley; a soft sparkle on the believers for We saved (66:4), the camera stays wide (no close-up on the believers while Salih's name is on screen and his drop would be out of frame); geometric for the mercy from Allah (66:9-12) and for the Lord's names (66:16-18; 66:14-18 is addressed to the Prophet: camera only). No departure is drawn (the tafsirs give none). c3 (67-68): the valley is empty: no person is on stage, so nobody leaves or falls on a word of punishment; the blast (67:4) falls on the empty valley by day (not dawn); no body, no ruin. A leaf plate and a few drifting leaves for as though they had never lived there (68:1-4), gone before 68:9. Cover: the empty valley with the leaf plate (the end of Thamud)."
  },
  "cover": {
   "series_ar": "صالح وثمود",

@@ -32,21 +32,57 @@
    "verses": [
     109
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       109,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       109,
+       5
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        109,
        7
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        109,
-       9
+       8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       109,
+       10
       ],
       "do": "shot_wide"
      },
@@ -55,7 +91,15 @@
        109,
        13
       ],
-      "do": "pan_right"
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       109,
+       14
+      ],
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
@@ -69,10 +113,24 @@
        109,
        19
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "d"
      }
     ],
     "motifs": [
+     {
+      "at": [
+       109,
+       11
+      ],
+      "until": [
+       109,
+       16
+      ],
+      "motif": "footsteps",
+      "place": "top",
+      "size": "s"
+     },
      {
       "at": [
        109,
@@ -81,7 +139,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -135,7 +193,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "109:1-15 addresses the Prophet ﷺ: no plate; 109:1-4 carries Al-Muyassar's «وهذا توجيه لجميع الأمة» so the address is not misread. Geometric for «وإنا لموفوهم نصيبهم غير منقوص». 109:16-20 uses As-Sa'di's «فإن الله يعطي الدنيا من يحب، ومن لا يحب» (his «ينالهم نصيبهم» echoes 7:37)."
+  "notes": "109:1-15 addresses the Prophet ﷺ: no plate; 109:1-4 carries Al-Muyassar's «وهذا توجيه لجميع الأمة» so the address is not misread. Geometric for «وإنا لموفوهم نصيبهم غير منقوص». 109:16-20 uses As-Sa'di's «فإن الله يعطي الدنيا من يحب، ومن لا يحب» (his «ينالهم نصيبهم» echoes 7:37). STAGING v4: 109 is addressed to the Prophet (do not be in doubt about what these worship; Al-Muyassar: guidance for the whole community): he is never shown, and what is staged is the subject, the polytheists, three faceless men in dark robes in a town by day (not uncountable: no boulders that read as idols). The camera only: nobody speaks, points or turns, and nothing turns toward an empty side; no idol and no place for one is drawn; the camera stays wide over the address (109:1-4) and closes on them for what these worship (109:7). A footsteps plate for they worship only as their fathers worshipped (109:11-15: following in their steps); geometric for We will pay them their share in full (109:16-20, His act: the tafsirs differ on the share, worldly portion or what was promised, so no coins or other object is drawn). Cover: the men with the footsteps plate (blind imitation)."
  },
  "cover": {
   "series_ar": "عبر الأمم",
@@ -144,8 +202,9 @@
   "title_en": "Blind imitation fails",
   "at": [
    109,
-   16
+   13
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

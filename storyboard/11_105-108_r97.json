@@ -39,6 +39,13 @@
      {
       "at": [
        105,
+       2
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       105,
        6
       ],
       "do": "pan_left"
@@ -58,7 +65,30 @@
       "do": "pan_right"
      }
     ],
-    "motifs": []
+    "motifs": [
+     {
+      "at": [
+       105,
+       8
+      ],
+      "until": null,
+      "motif": "two_paths",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "quiet": [
+     [
+      [
+       105,
+       1
+      ],
+      [
+       105,
+       7
+      ]
+     ]
+    ]
    }
   },
   {
@@ -134,6 +164,18 @@
       "size": "m"
      }
     ],
+    "quiet": [
+     [
+      [
+       106,
+       1
+      ],
+      [
+       107,
+       15
+      ]
+     ]
+    ],
     "transition": "dissolve"
    }
   },
@@ -147,6 +189,13 @@
    "params": {
     "mood": "light",
     "beats": [
+     {
+      "at": [
+       108,
+       2
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        108,
@@ -201,6 +250,18 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       108,
+       12
+      ],
+      [
+       108,
+       15
+      ]
+     ]
     ],
     "transition": "dissolve"
    }
@@ -287,7 +348,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "105-108 is one unit (the reciter joins 105-106-107-108). Paradise and Hell are never drawn: night for the Fire, light for Paradise, geometric for «إن ربك فعال لما يريد», a light plate for «عطاء غير مجذوذ»; no fire, river or gold. «إلا ما شاء ربك» (107:7-10, 108:12-15) is not glossed: the tafsirs differ (Al-Muyassar: the sinful monotheists; As-Sa'di: the time before entering). The plan's «الشقي والسعيد» was the verse's own pair."
+  "notes": "105-108 is one unit (the reciter joins 105-106-107-108). Paradise and Hell are never drawn: night for the Fire, light for Paradise, geometric for «إن ربك فعال لما يريد», a light plate for «عطاء غير مجذوذ»; no fire, river or gold. «إلا ما شاء ربك» (107:7-10, 108:12-15) is not glossed: the tafsirs differ (Al-Muyassar: the sinful monotheists; As-Sa'di: the time before entering). The plan's «الشقي والسعيد» was the verse's own pair. STAGING v4: All of 105-108 stays ambient: the Day (no soul speaks except by His permission), the Fire and Paradise are the unseen and are never drawn: no people, no crowd, no fire, river, gold or jewel. c1 (105, geometric): a two-paths plate for the wretched and the happy (105:8-10); params.quiet over 105:1-7 (His permission). c2 (106-107, night_sky, no light mood over the Fire): no plate over the Fire; geometric for your Lord does what He wills (107:11-15); params.quiet over all of 106-107 (no pulse over the Fire, the exception of His will and His names). c3 (108, light): Paradise is not pictured; a light plate for a gift never cut off (108:16-18, starting on the gift, not on a word for Allah); params.quiet over the exception of His will (108:12-15). 107:7-10 and 108:12-15 stay unglossed (the tafsirs differ). Cover: the two-paths plate (the two destinies)."
  },
  "cover": {
   "series_ar": "عبر الأمم",
@@ -296,8 +357,9 @@
   "title_en": "The two destinies",
   "at": [
    105,
-   1
+   10
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

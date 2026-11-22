@@ -33,65 +33,111 @@
     114,
     115
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "prayer_hall",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        114,
-       11
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       114,
-       14
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       115,
        2
       ],
-      "do": "shot_wide"
+      "do": "pray",
+      "who": "b"
      },
      {
       "at": [
-       115,
+       114,
        4
       ],
-      "do": "pan_right"
-     }
-    ],
-    "motifs": [
+      "do": "ruku",
+      "who": "b"
+     },
      {
       "at": [
        114,
-       3
+       6
       ],
-      "until": [
-       114,
-       8
-      ],
-      "motif": "night_day",
-      "place": "top",
-      "size": "m"
+      "do": "sujud",
+      "who": "b"
      },
      {
       "at": [
        114,
        9
       ],
-      "until": [
+      "do": "sit",
+      "who": "b"
+     },
+     {
+      "at": [
+       114,
+       11
+      ],
+      "do": "stand_up",
+      "who": "b"
+     },
+     {
+      "at": [
+       114,
+       13
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       115,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       115,
+       7
+      ],
+      "do": "sparkle",
+      "who": "b"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
        114,
        12
       ],
+      "until": [
+       115,
+       2
+      ],
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       115,
+       2
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "s"
      }
     ]
    }
@@ -103,14 +149,45 @@
     116,
     117
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        116,
-       5
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       116,
+       4
       ],
       "do": "pan_left"
      },
@@ -124,44 +201,56 @@
      {
       "at": [
        116,
+       11
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       116,
+       14
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       116,
        17
       ],
-      "do": "shot_wide"
+      "do": "sparkle",
+      "who": "b"
      },
      {
       "at": [
        116,
-       18
+       19
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        116,
-       21
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       116,
-       26
+       25
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        117,
-       4
+       5
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        117,
        7
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "b"
      }
     ],
     "motifs": [
@@ -176,7 +265,7 @@
       ],
       "motif": "candle",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -189,10 +278,23 @@
       ],
       "motif": "jewel",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       117,
+       1
+      ],
+      "until": [
+       117,
+       7
+      ],
+      "motif": "geometric",
+      "place": "top",
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "page_turn"
    }
   },
   {
@@ -223,6 +325,13 @@
      {
       "at": [
        119,
+       2
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       119,
        6
       ],
       "do": "shot_wide"
@@ -232,7 +341,7 @@
        119,
        10
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -240,6 +349,13 @@
        13
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       119,
+       15
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -258,17 +374,62 @@
      },
      {
       "at": [
+       118,
+       8
+      ],
+      "until": [
+       119,
+       1
+      ],
+      "motif": "two_paths",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
        119,
        1
       ],
       "until": [
        119,
-       5
+       7
       ],
-      "motif": "light",
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       119,
+       7
+      ],
+      "until": null,
+      "motif": "seal",
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       118,
+       1
+      ],
+      [
+       118,
+       7
+      ]
+     ],
+     [
+      [
+       119,
+       1
+      ],
+      [
+       119,
+       15
+      ]
+     ]
     ],
     "transition": "dissolve"
    }
@@ -377,7 +538,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "114-115 address the Prophet ﷺ (and the community): no plate on «وأقم» or «واصبر»; a night-and-day disc for «طرفي النهار وزلفا من الليل», light for «إن الحسنات يذهبن السيئات». 114:5-7 is not glossed (the tafsirs name different prayers). 116:1-18 is not glossed (the «فلولا… إلا قليلا» sentence is too long for one chip); a candle for «إلا قليلا ممن أنجينا منهم», a jewel for «ما أترفوا فيه». 117 is not glossed (As-Sa'di gives two readings). 118:8-10 is not glossed so that «ولا يزالون مختلفين… إلا من رحم ربك» is not split. Hell, jinn and Iblis are never drawn. The plan's «إقامة الصلاة» restated the verse."
+  "notes": "114-115 address the Prophet ﷺ (and the community): no plate on «وأقم» or «واصبر»; a night-and-day disc for «طرفي النهار وزلفا من الليل», light for «إن الحسنات يذهبن السيئات». 114:5-7 is not glossed (the tafsirs name different prayers). 116:1-18 is not glossed (the «فلولا… إلا قليلا» sentence is too long for one chip); a candle for «إلا قليلا ممن أنجينا منهم», a jewel for «ما أترفوا فيه». 117 is not glossed (As-Sa'di gives two readings). 118:8-10 is not glossed so that «ولا يزالون مختلفين… إلا من رحم ربك» is not split. Hell, jinn and Iblis are never drawn. The plan's «إقامة الصلاة» restated the verse. STAGING v4: c1 (114-115): the prayer at the two ends of the day and in the hours of the night, addressed to the Prophet and his community, shown as the ruling in everyday life: three believers praying in a prayer hall at dusk (no imam, no one facing them, no plate during the prayer, no look up): they stand in prayer (114:2), bow (114:4), prostrate (114:6), sit (114:9) and stand up (114:11), so the plates come only after the prayer; a light plate for a reminder for those who remember (114:12-14; good deeds remove evil deeds is recited over the prayer itself, As-Sa'di: the five prayers are among the greatest good deeds); be patient (115:1) is held wide, nobody faces an empty side; geometric for Allah does not waste the reward (115:2-7) and a soft sparkle on them for the doers of good (115:7). c2 (116-117): the generations before: a town by day, a few believers (three light robes; the newer series rule is never two figures) and three men in dark robes; nothing is acted inside why were there not (116:1-13), the camera only (on the men for corruption, 116:11); the camera on the few (116:14) with a candle plate for except a few (116:14-18) and a sparkle for whom We saved (116:17); the camera on the wrongdoers (116:19), a jewel plate for the luxury they followed (116:23-24, worldly luxury, not Paradise); geometric for your Lord would not destroy the towns unjustly (117:1-6), the camera on the believers for while their people are reformers (117:7). c3 (118-119) stays ambient (geometric): Allah's will, His mercy and His word to fill Hell with jinn and men are His acts and the unseen (no fire, no jinn); params.quiet over 118:1-7 and all of 119. Plates: geometric (118:2-7), a two-paths plate for they will not cease to differ (118:8-10), geometric for except whom your Lord has mercy on (119:1-6), a seal for the word of your Lord is fulfilled (119:7-15). Cover: the believers in prayer (the pillar of steadfastness)."
  },
  "cover": {
   "series_ar": "الاستقامة والختام",
@@ -389,5 +550,6 @@
    3
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

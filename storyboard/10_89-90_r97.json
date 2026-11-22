@@ -103,7 +103,7 @@
       "type": "people",
       "label": "",
       "place": "right",
-      "count": 5,
+      "count": 3,
       "pose": "walk",
       "enter": [
        90,
@@ -314,7 +314,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "90:1-4 is not glossed (Al-Muyassar's first-person «وقطعنا»; As-Sa'di's miracle narrative). Pharaoh's late declaration (90:15-27) is framed by the chapter title «إيمان بعد فوات الأوان» and As-Sa'di's «وجزم بهلاكه»; its refutation is 10:91, blocked by decision 1. STAGING v4: c1 (89) stays ambient (night_sky, not geometric: the chapter is about two prophets): it is Allah speaking to Musa and Harun (your supplication is answered), so, as in Al-A'raf 143-145, nothing is staged and nothing is a voice source: params.quiet turns off the background's word pulses over all of 89; the light plate is replaced by a seal plate for the answered supplication (89:3-4: no light tied to His answer). c2 (90): a sea shore by day. The Children of Israel are a mixed group of five faceless people (men and women: the series' sign for a people, no number meant; not the uncountable crowd, whose rocks would read as hiding troops on the shore) who walk across the shore and leave the stage (90:1-4); the parting of the sea is not drawn (no miracle drawn). Pharaoh, a plain faceless king, walks after them on 90:5 (pursued them) and leaves on 90:9, before the drowning words; his soldiers are not drawn (no army, no battle reading). The water rises over the empty shore on 90:13 (the drowning), with no body and no one in the water; an hourglass for until, when it overtook him (90:10-13). His late declaration (90:14-27) is recited over the empty flooded shore with no figure and no plate (no endorsement of it: the gloss and the chapter title frame it; its refutation is 10:91, blocked). No dawn or night (not from the sources here)."
+  "notes": "90:1-4 is not glossed (Al-Muyassar's first-person «وقطعنا»; As-Sa'di's miracle narrative). Pharaoh's late declaration (90:15-27) is framed by the chapter title «إيمان بعد فوات الأوان» and As-Sa'di's «وجزم بهلاكه»; its refutation is 10:91, blocked by decision 1. STAGING v4: c1 (89) stays ambient (night_sky, not geometric: the chapter is about two prophets): it is Allah speaking to Musa and Harun (your supplication is answered), so, as in Al-A'raf 143-145, nothing is staged and nothing is a voice source: params.quiet turns off the background's word pulses over all of 89; the light plate is replaced by a seal plate for the answered supplication (89:3-4: no light tied to His answer). c2 (90): a sea shore by day. The Children of Israel are three faceless men (the series' sign for a people, no number meant; no woman in a story scene; not the uncountable crowd, whose rocks would read as hiding troops on the shore) who walk across the shore and leave the stage (90:1-4); the parting of the sea is not drawn (no miracle drawn). Pharaoh, a plain faceless king, walks after them on 90:5 (pursued them) and leaves on 90:9, before the drowning words; his soldiers are not drawn (no army, no battle reading). The water rises over the empty shore on 90:13 (the drowning), with no body and no one in the water; an hourglass for until, when it overtook him (90:10-13). His late declaration (90:14-27) is recited over the empty flooded shore with no figure and no plate (no endorsement of it: the gloss and the chapter title frame it; its refutation is 10:91, blocked). No dawn or night (not from the sources here)."
  },
  "cover": {
   "series_ar": "موسى وفرعون",

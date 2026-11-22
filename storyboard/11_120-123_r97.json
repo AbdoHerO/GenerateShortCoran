@@ -39,6 +39,13 @@
      {
       "at": [
        120,
+       2
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       120,
        5
       ],
       "do": "pan_left"
@@ -46,7 +53,7 @@
      {
       "at": [
        120,
-       7
+       8
       ],
       "do": "shot_wide"
      },
@@ -63,6 +70,13 @@
        15
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       120,
+       17
+      ],
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -76,6 +90,18 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       120,
+       1
+      ],
+      [
+       120,
+       14
+      ]
+     ]
     ]
    }
   },
@@ -86,28 +112,43 @@
     121,
     122
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        121,
-       5
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       121,
-       9
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
-       122,
-       1
+       121,
+       3
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       121,
+       8
       ],
       "do": "shot_wide"
      },
@@ -116,10 +157,22 @@
        122,
        2
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "d"
      }
     ],
-    "motifs": [],
+    "motifs": [
+     {
+      "at": [
+       122,
+       1
+      ],
+      "until": null,
+      "motif": "hourglass",
+      "place": "top",
+      "size": "s"
+     }
+    ],
     "transition": "dissolve"
    }
   },
@@ -190,6 +243,18 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       123,
+       1
+      ],
+      [
+       123,
+       16
+      ]
+     ]
     ],
     "transition": "dissolve"
    }
@@ -309,7 +374,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "120-123 address the Prophet ﷺ: no plate on him; a book for «الحق» (the revelation coming to him), geometric for «ولله غيب السماوات والأرض وإليه يرجع الأمر كله» (it leaves before «فاعبده»; nothing on the negated «بغافل»). The unseen is never drawn. 121-122 are a threat: Al-Muyassar's «وفي هذا تهديد ووعيد لهم». Cut: «أولو العزم من الرسل» (46:35) and «يميز الخبيث من الطيب» (3:179). The plan's «تثبيت الفؤاد» restated the verse."
+  "notes": "120-123 address the Prophet ﷺ: no plate on him; a book for «الحق» (the revelation coming to him), geometric for «ولله غيب السماوات والأرض وإليه يرجع الأمر كله» (it leaves before «فاعبده»; nothing on the negated «بغافل»). The unseen is never drawn. 121-122 are a threat: Al-Muyassar's «وفي هذا تهديد ووعيد لهم». Cut: «أولو العزم من الرسل» (46:35) and «يميز الخبيث من الطيب» (3:179). The plan's «تثبيت الفؤاد» restated the verse. STAGING v4: c1 (120) stays ambient (light, no threat): it is addressed to the Prophet himself (the stories are told to make firm your heart), so nothing is staged; params.quiet over 120:1-14; a book plate for the truth that came to you (120:14-17). c2 (121-122): say to those who do not believe (the Prophet is told to say it): the people addressed, three faceless men in dark robes in a town by day, the camera only: nobody speaks, points or turns, no pan drifts to an empty side, no plate starts on 121:1; the camera on them (121:3, 122:2) and wide for we are working (121:8); an hourglass for wait (122:1-3, Al-Muyassar: a threat). c3 (123) stays ambient (geometric): the unseen of the heavens and the earth belongs to Allah and the command to the Prophet to worship Him and rely on Him (his own worship is never staged); params.quiet over all of 123; geometric for the unseen and the return of all matters to Him (123:1-8), gone before the command (123:9); nothing on the negated not unaware (123:12-16). Cover: the book plate under the light (why the stories are told)."
  },
  "cover": {
   "series_ar": "الاستقامة والختام",
@@ -318,8 +383,9 @@
   "title_en": "Why the stories are told",
   "at": [
    120,
-   14
+   15
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }
