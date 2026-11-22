@@ -105,21 +105,28 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn",
+    "mood": "geometric",
     "beats": [
      {
       "at": [
        32,
-       5
+       1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       32,
+       4
+      ],
+      "do": "pattern_turn"
      },
      {
       "at": [
        32,
        7
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -140,61 +147,54 @@
        32,
        12
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        32,
        15
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        32,
        19
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        32,
        24
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        32,
        25
       ],
-      "do": "pan_left"
+      "do": "pattern_turn"
      },
      {
       "at": [
        32,
-       28
+       29
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        32,
-       30
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       32,
-       32
+       31
       ],
       "do": "pan_left"
      },
      {
       "at": [
        32,
-       35
+       34
       ],
       "do": "pan_right"
      },
@@ -361,7 +361,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "30-31 under a night sky with no motif: the killing, the body, the crow and the burial are never drawn. Growth only on «ومن أحياها» (saving a life). Names not used. As-Sa'di's «الذي ذكرناه» (first person) not used. STAGING v4: Both chapters stay ambient: 30-31 the killing, the body and the raven are never drawn; 32 is the ruling on killing a soul (killing and its punishment are never staged)."
+  "notes": "30-31 under a night sky with no motif: the killing, the body, the crow and the burial are never drawn. Growth only on «ومن أحياها» (saving a life). Names not used. As-Sa'di's «الذي ذكرناه» (first person) not used. STAGING v4: Both chapters stay ambient: 30-31 the killing, the body and the raven are never drawn (night sky, no motif); 32 is the ruling on killing a soul (killing and its punishment are never staged): its mood is now geometric (rulings) instead of a sunrise over the gravity of killing and the transgressors; growth only on saving a life (32:23)."
  },
  "cover": {
   "series_ar": "ابنا آدم",
