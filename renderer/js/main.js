@@ -636,6 +636,15 @@ function quadPt(p0, p1, p2, u) {
   return [a * p0[0] + b * p1[0] + c * p2[0], a * p0[1] + b * p1[1] + c * p2[1]];
 }
 
+// In an ambient chapter the sun, the moon, the light source, the centre (rosette or star) and the sky are the series'
+// symbols beside which the Name is recited: a gloss arrow never points at them (it could read as pointing at Allah,
+// or present the Prophet ﷺ or Paradise as a light). Ambient arrows go only to a plate or the ground.
+const SYMBOL_ANCHORS = new Set(['light', 'center', 'sky']);
+function glossAnchor(t, k) {
+  if (D.chapters[chapterAt(t)].scene === 'ambient' && SYMBOL_ANCHORS.has(k)) return null;
+  return anchorsAt(t)[k] ?? null;
+}
+
 function drawGlosses(t, uiA) {
   for (const v of D.verses) {
     for (const g of v.glosses) {
@@ -643,8 +652,8 @@ function drawGlosses(t, uiA) {
       const pin = ease.outBack(prog(t, g.start, g.start + 0.38));
       const a = Math.min(prog(t, g.start, g.start + 0.15), 1 - prog(t, g.end, g.end + 0.25)) * uiA;
       if (a <= 0.01) continue;
-      const tgt0 = g.target ? anchorsAt(g.start + 0.6)[g.target] : null;
-      const tgt = g.target ? anchorsAt(t)[g.target] : null;
+      const tgt0 = g.target ? glossAnchor(g.start + 0.6, g.target) : null;
+      const tgt = g.target ? glossAnchor(t, g.target) : null;
       const left = !tgt0 || tgt0[0] > FRAME.x + FRAME.w * 0.45;
       const bx = left ? 86 : W - 86 - g.bw, by = BOX_BOTTOM - g.bh;
       const tone = TONE[g.tone] ?? TONE.blue;

@@ -1421,3 +1421,7 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
     key `"moon": False`.
 - **Mountains (same day, Yusuf review):** the mountain backdrop was drawn as plain two-faced triangles with one shaded
   face, which reads as pyramids at phone size. It now has jagged, uneven ridgelines with shoulders and gullies.
+- **Gloss arrows (Al-Kahf v2 reviews):** both independent reviews found gloss arrows pointing at the sun, the light
+  source, the centre rosette or the sky while the Name or «ربك» was recited. Some glosses were about Allah, the Prophet ﷺ
+  or Paradise. Al-Fatiha 1:3 was one of them. The renderer now never draws an arrow to `light`, `center` or `sky` in an
+  ambient chapter. Ambient arrows go only to a plate or the ground. Renders built before this change are rebuilt.
