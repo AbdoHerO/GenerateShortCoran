@@ -34,7 +34,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn",
+    "mood": "geometric",
     "beats": [
      {
       "at": [
@@ -287,7 +287,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No soldiers, weapons or battle drawn; only rain for «أذى من مطر». The detailed order of the rak'as is not glossed: As-Sa'di says the verse gives one of several valid ways, so Al-Muyassar's single description is not shown. 102:52-54 «أن تضعوا أسلحتكم» is not glossed (it would read as an order). STAGING v4: 102 stays ambient: the fear prayer in the presence of the enemy, with weapons (battle context)."
+  "notes": "No soldiers, weapons or battle drawn; only rain for «أذى من مطر». The detailed order of the rak'as is not glossed: As-Sa'di says the verse gives one of several valid ways, so Al-Muyassar's single description is not shown. 102:52-54 «أن تضعوا أسلحتكم» is not glossed (it would read as an order). STAGING v4: 102 stays ambient: the fear prayer in the presence of the enemy, with weapons (battle context). Mood changed from dawn to geometric (a ruling; the verse ends on the humiliating punishment prepared for the disbelievers, and dawn reads as hope over a threat); beats and plates unchanged."
  },
  "cover": {
   "series_ar": "الدماء والهجرة والصلاة",

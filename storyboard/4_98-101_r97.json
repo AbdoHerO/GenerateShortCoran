@@ -47,8 +47,7 @@
       "count": 3,
       "pose": "sit",
       "enter": null,
-      "exit": null,
-      "uncountable": true
+      "exit": null
      },
      {
       "id": "t",
@@ -175,7 +174,10 @@
        99,
        9
       ],
-      "until": null,
+      "until": [
+       100,
+       1
+      ],
       "motif": "geometric",
       "place": "top",
       "size": "s"
@@ -465,7 +467,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Footsteps for the way out, geometric for «عفوا غفورا», growth for «مراغما كثيرا وسعة», a house for «من بيته», an hourglass for shortening the prayer. No death drawn (100:21-22). 101:12-17 «إن خفتم…» is not glossed (Al-Muyassar adds that shortening is allowed in safety too; As-Sa'di's wording differs), so no side is taken. STAGING v4: 98-99: in a town, the truly oppressed (an uncountable group: men, women and children, no number given) sit and lower their heads on 98:8 (unable to find a way); geometric for the pardon. 100: an emigrant traveller leaves on 100:2 and walks out of the town; growth plate for the refuge and plenty, house plate for leaving his home; nothing is drawn for death (100:21-22): he does not fade or leave there. 101: believers travelling in the desert with a camel walk on 101:3, then pray on 101:9-14 (the hourglass plate for shortening); during 101:15-23 (the disbelievers as enemies) the camera turns to the empty horizon; no enemy, weapon or fear gesture is drawn."
+  "notes": "Footsteps for the way out, geometric for «عفوا غفورا», growth for «مراغما كثيرا وسعة», a house for «من بيته», an hourglass for shortening the prayer. No death drawn (100:21-22). 101:12-17 «إن خفتم…» is not glossed (Al-Muyassar adds that shortening is allowed in safety too; As-Sa'di's wording differs), so no side is taken. STAGING v4: 98-99: in a town, the truly oppressed (a small neutral group of 3; no number is given, and an uncountable crowd behind rocks would read as people in hiding or troops) sit and lower their heads on 98:8 (unable to find a way); geometric for the pardon, ending before the emigrant walks. 100: an emigrant traveller leaves on 100:2 and walks out of the town; growth plate for the refuge and plenty, house plate for leaving his home; nothing is drawn for death (100:21-22): he does not fade or leave there. 101: believers travelling in the desert with a camel walk on 101:3, then pray on 101:9-14 (the hourglass plate for shortening); during 101:15-23 (the disbelievers as enemies) the camera turns to the empty horizon; no enemy, weapon or fear gesture is drawn."
  },
  "cover": {
   "series_ar": "الدماء والهجرة والصلاة",

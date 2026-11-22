@@ -58,7 +58,7 @@
       "pose": "sit",
       "enter": null,
       "exit": null,
-      "look": "poor"
+      "look": "plain"
      }
     ],
     "events": [],
@@ -188,6 +188,19 @@
        8
       ],
       "motif": "hands",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       85,
+       10
+      ],
+      "until": [
+       85,
+       17
+      ],
+      "motif": "two_paths",
       "place": "top",
       "size": "s"
      },
@@ -423,7 +436,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Hands for helping «شفاعة حسنة» (not on the bad one), growth for «بأحسن منها», geometric for «الله لا إله إلا هو». The Day of Resurrection (87): night sky, nothing literal. STAGING v4: 85: in a market a man (a) goes to a man in need (p) and speaks up for him (As-Sa'di: intercession is helping another in a good matter, including for the wronged); p stands. The bad intercession (85:9-16) gets no gesture, only the gloss. 86: p greets (86:3) and a returns the greeting (86:4) with the growth plate for the better reply. 87 stays ambient: His oneness and the Day of Resurrection."
+  "notes": "Hands for helping «شفاعة حسنة» (not on the bad one), growth for «بأحسن منها», geometric for «الله لا إله إلا هو». The Day of Resurrection (87): night sky, nothing literal. STAGING v4: 85: in a market a man (a) goes to a seated man (p) and speaks up for him (As-Sa'di: intercession is helping another in a good matter, including for the wronged); p stands. The bad intercession (85:9-16) gets no gesture: the two-paths plate and a wide shot, so the two good men are not held while it is recited. 86: p greets (86:3) and a returns the greeting (86:4) with the growth plate for the better reply. 87 stays ambient: His oneness and the Day of Resurrection."
  },
  "cover": {
   "series_ar": "النفير والمنافقون",

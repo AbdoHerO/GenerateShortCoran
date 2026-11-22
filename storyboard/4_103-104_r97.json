@@ -100,6 +100,14 @@
      {
       "at": [
        103,
+       13
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       103,
        15
       ],
       "do": "ruku",
@@ -120,7 +128,10 @@
        103,
        5
       ],
-      "until": null,
+      "until": [
+       103,
+       9
+      ],
       "motif": "light",
       "place": "top",
       "size": "s"
@@ -295,7 +306,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Light for «فاذكروا الله», an hourglass for «كتابا موقوتا», light for «وترجون», geometric for «عليما حكيما». No weapon, battle or wound drawn; no motif on the negated «ولا تهنوا». STAGING v4: 103: believers in a prayer hall, seated after the prayer; they stand on 103:6 and sit on 103:7 (remembrance standing and sitting; nobody lies down), stand up on 103:11 (when secure) and pray on 103:12-19; light plate on the Name, hourglass for the fixed times. 104 stays ambient: pursuing the enemy and the pain of fighting."
+  "notes": "Light for «فاذكروا الله», an hourglass for «كتابا موقوتا», light for «وترجون», geometric for «عليما حكيما». No weapon, battle or wound drawn; no motif on the negated «ولا تهنوا». STAGING v4: 103: believers in a prayer hall, seated after the prayer; they stand on 103:6 and sit on 103:7 (remembrance standing and sitting; nobody lies down), stand up on 103:11 (when secure) and pray on 103:12-19; light plate on the Name ending before they pray (no plate above the worshippers), hourglass for the fixed times. 104 stays ambient: pursuing the enemy and the pain of fighting."
  },
  "cover": {
   "series_ar": "الدماء والهجرة والصلاة",

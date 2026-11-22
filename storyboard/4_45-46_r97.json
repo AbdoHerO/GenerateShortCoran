@@ -91,7 +91,7 @@
       "type": "people",
       "label": "",
       "place": "center",
-      "count": 4,
+      "count": 3,
       "pose": "stand",
       "enter": null,
       "exit": null
@@ -114,7 +114,9 @@
        46,
        1
       ],
-      "do": "shot_wide"
+      "do": "walk_to",
+      "who": "g",
+      "to": "left"
      },
      {
       "at": [
@@ -127,18 +129,9 @@
      {
       "at": [
        46,
-       8
-      ],
-      "do": "shot_close",
-      "who": "g"
-     },
-     {
-      "at": [
-       46,
        9
       ],
-      "do": "speak",
-      "who": "g"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -151,18 +144,9 @@
      {
       "at": [
        46,
-       12
+       15
       ],
-      "do": "speak",
-      "who": "g"
-     },
-     {
-      "at": [
-       46,
-       14
-      ],
-      "do": "speak",
-      "who": "g"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -182,37 +166,30 @@
      {
       "at": [
        46,
-       23
+       25
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       46,
+       29
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        46,
-       26
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       46,
-       28
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       46,
        31
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        46,
        34
       ],
-      "do": "turn",
+      "do": "shake_head",
       "who": "g"
      },
      {
@@ -220,7 +197,7 @@
        46,
        38
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -345,7 +322,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Geometric and light only near «وكفى بالله وليا… نصيرا». A scroll for «الكلم». Their insulting words «سمعنا وعصينا / واسمع غير مسمع» get no gloss (no excerpt repeats the insult); 46:14-17 explains it as an insult hidden in a word. No people drawn. STAGING v4: 45 stays ambient: His knowledge, protection and help (names and attributes). 46: a part of the Jews (Al-Muyassar: من اليهود فريق) acts, the rest (h) does nothing: they speak (distorting the words, scroll plate), shake their heads on their disobedience (46:10) and on reviling the religion (46:17); the Prophet they address is not shown. The counterfactual of 46:20-30 is not acted (wide shot). Nobody fades on the curse (46:32); they turn away on their disbelief (46:34). The little faith of 46:37-38 is not drawn as a count."
+  "notes": "Geometric and light only near «وكفى بالله وليا… نصيرا». A scroll for «الكلم». Their insulting words «سمعنا وعصينا / واسمع غير مسمع» get no gloss (no excerpt repeats the insult); 46:14-17 explains it as an insult hidden in a word. No people drawn. STAGING v4: 45 stays ambient: His knowledge, protection and help (names and attributes). 46: a part of the Jews (Al-Muyassar: من اليهود فريق; three figures, no woman) acts, the rest (h) does nothing. The acting part steps toward its own people on 46:1 so it faces them, never the empty side (the Prophet they address is not shown); it speaks on 46:4 (distorting the words, scroll plate) and shakes heads on the disobedience (46:10), on reviling the religion (46:17) and on their disbelief (46:34). The camera stays wide or on the left. The counterfactual of 46:20-30 is not acted. Nobody fades on the curse (46:32). The little faith of 46:37-38 is not drawn as a count."
  },
  "cover": {
   "series_ar": "الطهارة وأهل الكتاب",

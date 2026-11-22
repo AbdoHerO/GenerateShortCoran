@@ -41,7 +41,7 @@
       "id": "k",
       "type": "camel",
       "label": "",
-      "place": "right",
+      "place": "left",
       "count": 1,
       "pose": "stand",
       "enter": null,
@@ -76,14 +76,14 @@
        43,
        4
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        43,
        8
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -95,16 +95,23 @@
      {
       "at": [
        43,
-       19
+       17
       ],
       "do": "pan_right"
      },
      {
       "at": [
        43,
-       22
+       19
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       43,
+       22
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
@@ -116,16 +123,23 @@
      {
       "at": [
        43,
-       30
+       27
       ],
-      "do": "pan_left"
+      "do": "shot_sky"
      },
      {
       "at": [
        43,
-       33
+       30
       ],
-      "do": "pan_right"
+      "do": "birds"
+     },
+     {
+      "at": [
+       43,
+       34
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -162,14 +176,6 @@
      {
       "at": [
        43,
-       42
-      ],
-      "do": "stand_up",
-      "who": "t"
-     },
-     {
-      "at": [
-       43,
        43
       ],
       "do": "shot_wide"
@@ -179,7 +185,7 @@
        43,
        44
       ],
-      "do": "pray",
+      "do": "stand_up",
       "who": "t"
      },
      {
@@ -187,7 +193,7 @@
        43,
        46
       ],
-      "do": "ruku",
+      "do": "pray",
       "who": "t"
      },
      {
@@ -195,24 +201,19 @@
        43,
        47
       ],
+      "do": "ruku",
+      "who": "t"
+     },
+     {
+      "at": [
+       43,
+       48
+      ],
       "do": "sujud",
       "who": "t"
      }
     ],
     "motifs": [
-     {
-      "at": [
-       43,
-       16
-      ],
-      "until": [
-       43,
-       19
-      ],
-      "motif": "footsteps",
-      "place": "top",
-      "size": "s"
-     },
      {
       "at": [
        43,
@@ -242,7 +243,7 @@
       "type": "people",
       "label": "",
       "place": "left",
-      "count": 4,
+      "count": 3,
       "pose": "stand",
       "enter": null,
       "exit": null
@@ -433,7 +434,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No cup, no wine, no water, no body drawn. Footsteps for «عابري سبيل» (both tafsirs: passing through the mosque), geometric for «عفوا غفورا», two paths for «أن تضلوا السبيل». 43:9-12 carries Al-Muyassar's note (shared by As-Sa'di: «منسوخة بتحريم الخمر مطلقا») that this came before wine was forbidden outright. 43:20-22 (illness: the tafsirs word the condition differently) and 43:26-37 are not glossed. STAGING v4: 43: a desert with a camel; nobody is on screen while intoxication, major impurity, illness, the privy or touching women are recited (43:1-34): only the camera, a gust on the journey (43:25) and the footsteps plate. A traveller appears on 43:35 (no water found), walks in, sits on 43:38 (dry ablution with clean earth, camera on the ground), stands and prays (ruku, sujud) as the verse closes. No cup, no water, no body drawn. 44: the People of the Book (Al-Muyassar: the Jews given part of the Torah) in a town at dusk: book plate on 44:8, they turn away on 44:9 (preferring error), speak and point at the believers on 44:11-13 (wishing them to stray, two paths plate); the believers are not shown straying; the Prophet is not shown."
+  "notes": "No cup, no wine, no water, no body drawn. Footsteps for «عابري سبيل» (both tafsirs: passing through the mosque), geometric for «عفوا غفورا», two paths for «أن تضلوا السبيل». 43:9-12 carries Al-Muyassar's note (shared by As-Sa'di: «منسوخة بتحريم الخمر مطلقا») that this came before wine was forbidden outright. 43:20-22 (illness: the tafsirs word the condition differently) and 43:26-37 are not glossed. STAGING v4: 43: a desert with a camel; nobody is on screen while intoxication, major impurity, illness, the privy or touching women are recited (43:1-34): only the camera, a gust on the journey (43:25), and a shot of the sky held from 43:27 to 43:34 (birds cross it). A traveller appears on 43:35 (no water found), walks in, sits on 43:38 (dry ablution with clean earth, camera on the ground), stands up on 43:44 and prays (ruku, sujud) as the verse closes. No cup, no water, no body drawn. 44: the People of the Book (Al-Muyassar: the Jews given part of the Torah) in a town at dusk: book plate on 44:8, they turn away on 44:9 (preferring error), speak and point at the believers on 44:11-13 (wishing them to stray, two paths plate); the believers are not shown straying; the Prophet is not shown."
  },
  "cover": {
   "series_ar": "الطهارة وأهل الكتاب",

@@ -43,7 +43,7 @@
       "type": "people",
       "label": "",
       "place": "center",
-      "count": 4,
+      "count": 3,
       "pose": "stand",
       "enter": null,
       "exit": null
@@ -71,7 +71,7 @@
        49,
        7
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -85,7 +85,7 @@
        49,
        12
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -129,7 +129,7 @@
        12
       ],
       "motif": "light",
-      "place": "top",
+      "place": "left",
       "size": "s"
      }
     ]
@@ -152,7 +152,7 @@
       "type": "people",
       "label": "",
       "place": "left",
-      "count": 4,
+      "count": 3,
       "pose": "stand",
       "enter": null,
       "exit": null
@@ -187,31 +187,14 @@
      {
       "at": [
        51,
-       10
-      ],
-      "do": "turn",
-      "who": "p"
-     },
-     {
-      "at": [
-       51,
        11
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        51,
        12
-      ],
-      "do": "walk_to",
-      "who": "p",
-      "to": "center"
-     },
-     {
-      "at": [
-       51,
-       13
       ],
       "do": "speak",
       "who": "p"
@@ -230,7 +213,7 @@
        51,
        16
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -251,7 +234,7 @@
        52,
        3
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -265,7 +248,7 @@
        52,
        8
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -401,7 +384,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Light for «بل الله يزكي من يشاء» only. 51:12-20 (their claim that the disbelievers are better guided) is glossed with As-Sa'di's motive (envy), never with the claim itself. 52:5-11 «فلن تجد له نصيرا» gets «وهذا غاية الخذلان», not a positive definition of «نصيرا». No people drawn. STAGING v4: 49-50: a group in a town praises itself (speak on 49:5 and 50:3, inventing lies); light plate for His purifying whom He wills; the Prophet addressed is not shown. 51-52: those given part of the Book (Al-Muyassar: the Jews) turn on 51:10 (believing in idols and tyrants: no idol drawn) then walk over to the disbelievers and speak to them, pointing at them on 51:15 (a conversation, not two crowds facing off) (their claim, glossed only with As-Sa'di's motive); the believers they disparage are not drawn. Nobody fades on the curse (52:3-7)."
+  "notes": "Light for «بل الله يزكي من يشاء» only. 51:12-20 (their claim that the disbelievers are better guided) is glossed with As-Sa'di's motive (envy), never with the claim itself. 52:5-11 «فلن تجد له نصيرا» gets «وهذا غاية الخذلان», not a positive definition of «نصيرا». No people drawn. STAGING v4: 49-50: a group of three in a town praises itself (speak on 49:5 and 50:3, inventing lies); light plate for His purifying whom He wills; the Prophet addressed is not shown. 51-52: those given part of the Book (Al-Muyassar: the Jews; three figures, no woman) stay on the left; no idol or tyrant is drawn; they speak to the disbelievers on 51:12 and point at them on 51:15 (their claim, glossed only with As-Sa'di's motive); the believers they disparage are not drawn. Nobody fades on the curse (52:3-7)."
  },
  "cover": {
   "series_ar": "الطهارة وأهل الكتاب",

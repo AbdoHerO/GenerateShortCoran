@@ -46,7 +46,10 @@
       "count": 1,
       "pose": "stand",
       "enter": null,
-      "exit": null,
+      "exit": [
+       79,
+       13
+      ],
       "look": "plain"
      },
      {
@@ -117,7 +120,7 @@
      {
       "at": [
        79,
-       11
+       9
       ],
       "do": "shot_close",
       "who": "m"
@@ -125,7 +128,7 @@
      {
       "at": [
        79,
-       12
+       11
       ],
       "do": "bow",
       "who": "m"
@@ -258,7 +261,7 @@
      {
       "at": [
        81,
-       12
+       11
       ],
       "do": "speak",
       "who": "t"
@@ -422,7 +425,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Light for «حسنة» only; no motif on the Prophet ﷺ (79:13-15, 80). 80:9-12 «فما أرسلناك عليهم حفيظا» is not glossed (the only explanations are positive or Allah's first person «بعثناك/علينا»). 81:1-2 (their claimed «طاعة») not glossed as a fact. STAGING v4: 79: a man in the fields; the wheat grows on 79:4 (good, light plate before the Name), the scene darkens briefly on 79:10 (hardship) and he lowers his head on 79:12 (from his own deeds); the darkness lifts before the Messenger is mentioned, so no hardship is tied to him (the fields are not withered). On 79:14 the people (to whom the Messenger was sent) come in; the Prophet is never drawn and nobody bows or prostrates while he is named; 80 gets only camera moves (no gesture of obeying a person, no one turning toward an empty space). 81: the night street is empty while they say their word in his presence (81:1-3, not drawn); a party of them (only part: a small group) walks in on 81:4 after leaving and speaks on 81:7 and 81:12 (plotting by night, both tafsirs); the camera turns away on 81:17; geometric for the Name at the end."
+  "notes": "Light for «حسنة» only; no motif on the Prophet ﷺ (79:13-15, 80). 80:9-12 «فما أرسلناك عليهم حفيظا» is not glossed (the only explanations are positive or Allah's first person «بعثناك/علينا»). 81:1-2 (their claimed «طاعة») not glossed as a fact. STAGING v4: 79: a man in the fields; the wheat grows on 79:4 (good, light plate before the Name), the scene darkens briefly on 79:10 (hardship) and he lowers his head on 79:11, ending before the Prophet is addressed on 79:13 (from his own deeds); the darkness lifts before the Messenger is mentioned, so no hardship is tied to him (the fields are not withered). The man leaves on 79:13 and the people (to whom the Messenger was sent) come in on 79:14, so no single figure faces the group while the sending of the Messenger is recited; the Prophet is never drawn and nobody bows or prostrates while he is named; 80 gets only camera moves (no gesture of obeying a person, no one turning toward an empty space). 81: the night street is empty while they say their word in his presence (81:1-3, not drawn); a party of them (only part: a small group) walks in on 81:4 after leaving and speaks on 81:7 and 81:11 (plotting by night, both tafsirs); the camera turns away on 81:17; geometric for the Name at the end."
  },
  "cover": {
   "series_ar": "النفير والمنافقون",

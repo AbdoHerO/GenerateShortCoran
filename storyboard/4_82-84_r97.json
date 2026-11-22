@@ -108,7 +108,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn",
+    "mood": "geometric",
     "beats": [
      {
       "at": [
@@ -335,7 +335,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A book for «القرآن», a lamp for the scholars who «يستنبطونه». 84 (the Prophet ﷺ commanded to fight): no motif, no weapon or battle. 83:22-30 not glossed (no excerpt free of the verse's own wording). STAGING v4: 82: believers sit and read the Quran in a prayer hall (As-Sa'di: the verse commands reflecting on His Book); the rebuked ones are not shown doing it; the book plate ends before the Name. 83-84 stay ambient: news of security or fear concerning the enemy (83) and the command to fight and urge the believers to fight (84)."
+  "notes": "A book for «القرآن», a lamp for the scholars who «يستنبطونه». 84 (the Prophet ﷺ commanded to fight): no motif, no weapon or battle. 83:22-30 not glossed (no excerpt free of the verse's own wording). STAGING v4: 82: believers sit and read the Quran in a prayer hall (As-Sa'di: the verse commands reflecting on His Book); the rebuked ones are not shown doing it; the book plate ends before the Name. 83-84 stay ambient (mood changed from dawn to geometric: 84 ends on His severe punishment, and dawn reads as hope over a threat; beats and plates unchanged): news of security or fear concerning the enemy (83) and the command to fight and urge the believers to fight (84)."
  },
  "cover": {
   "series_ar": "النفير والمنافقون",

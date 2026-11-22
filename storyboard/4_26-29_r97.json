@@ -188,7 +188,10 @@
        26,
        5
       ],
-      "until": null,
+      "until": [
+       27,
+       7
+      ],
       "motif": "light",
       "place": "top",
       "size": "s"
