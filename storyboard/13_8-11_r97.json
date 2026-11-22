@@ -170,9 +170,8 @@
        10,
        4
       ],
-      "do": "speak",
-      "who": "m",
-      "to": "p"
+      "do": "bow",
+      "who": "m"
      },
      {
       "at": [
@@ -180,8 +179,7 @@
        7
       ],
       "do": "speak",
-      "who": "p",
-      "to": "m"
+      "who": "p"
      },
      {
       "at": [
@@ -474,7 +472,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No womb or pregnancy drawn; 8:7-11 is not glossed (the tafsirs read «تغيض… تزداد» differently: shorter/longer term or loss/growth). The guardian angels (11:1-11) are never drawn; «من أمر الله» is not glossed (read differently). Geometric for «وكل شيء عنده بمقدار عالم الغيب والشهادة الكبير المتعال», night-and-day for «مستخف بالليل وسارب بالنهار», two paths for «حتى يغيروا ما بأنفسهم». STAGING v4: c1 (8-9) stays ambient: His knowledge of what every female carries (no womb or pregnancy drawn) and His Names; quiet over 8:1-2 and 8:12-9:5. c2 (10), people in a town at night: one man sitting on the left speaks to the others (whoever conceals speech, 10:4) and the group answers him (whoever declares it, 10:7); the camera closes on the sitting man in the night for whoever hides by night (10:11), with the night-and-day plate. Nothing is drawn for going about by day (10:13-14): the tafsirs differ (Al-Muyassar: openly in daylight; As-Sa'di: inside his hiding place by day), so the camera only pans. c3 (11) stays ambient: the guardian angels are never drawn (quiet over 11:1-11), then Allah's decree on a people (quiet over 11:22-35); the mood moves from light to geometric (11:22-35 is a warning: light is never the mood over a threat); two paths for until they change what is in themselves, a seal plate for no turning back of His decree (11:27)."
+  "notes": "No womb or pregnancy drawn; 8:7-11 is not glossed (the tafsirs read «تغيض… تزداد» differently: shorter/longer term or loss/growth). The guardian angels (11:1-11) are never drawn; «من أمر الله» is not glossed (read differently). Geometric for «وكل شيء عنده بمقدار عالم الغيب والشهادة الكبير المتعال», night-and-day for «مستخف بالليل وسارب بالنهار», two paths for «حتى يغيروا ما بأنفسهم». STAGING v4: c1 (8-9) stays ambient: His knowledge of what every female carries (no womb or pregnancy drawn) and His Names; quiet over 8:1-2 and 8:12-9:5. c2 (10), people in a town at night: one man sits apart on the left and only lowers his head, with no speech arcs (whoever conceals speech, 10:4), while the group on the right speaks aloud (whoever declares it, 10:7); no dialogue between them is drawn (the verse lists kinds of people and makes them talk to no one); the night is the only cover drawn for the hidden man (Al-Muyassar: hidden in the darkness of the night); the camera closes on the sitting man in the night for whoever hides by night (10:11), with the night-and-day plate. Nothing is drawn for going about by day (10:13-14): the tafsirs differ (Al-Muyassar: openly in daylight; As-Sa'di: inside his hiding place by day), so the camera only pans. c3 (11) stays ambient: the guardian angels are never drawn (quiet over 11:1-11), then Allah's decree on a people (quiet over 11:22-35); the mood moves from light to geometric (11:22-35 is a warning: light is never the mood over a threat); two paths for until they change what is in themselves, a seal plate for no turning back of His decree (11:27)."
  },
  "cover": {
   "series_ar": "إحاطة العلم",

@@ -34,7 +34,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "night_sky",
+    "mood": "geometric",
     "beats": [
      {
       "at": [
@@ -76,7 +76,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "night_sky",
+    "mood": "geometric",
     "beats": [
      {
       "at": [
@@ -171,6 +171,18 @@
       "size": "m"
      }
     ],
+    "quiet": [
+     [
+      [
+       31,
+       25
+      ],
+      [
+       31,
+       32
+      ]
+     ]
+    ],
     "transition": "page_turn"
    }
   }
@@ -245,7 +257,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No women, banquet, knives, hands, blood or Yusuf drawn; 31:6-16 and 31:20-21 are not glossed. 31:1-5: the tafsirs differ on why their talk is called «مكر», so only «تدعوهن إلى منزلها للضيافة». Their «ما هذا بشرا إن هذا إلا ملك كريم» stays whole in one chip, framed by Al-Muyassar's «وقلن متعجبات». Geometric only on «حاش لله». STAGING v4: The whole video stays ambient (owner's rule for 23-35): the women, the banquet, the cushions, the knives, the hands and Yusuf are never drawn or suggested; no people at all. Both chapters move from the geometric mood to the night sky: geometric is the Names' mood, and 31 ends on the women's words that he is no human but an angel, so no pattern of the Names may sit under it. Geometric stays only as a plate on their exclamation of Allah's transcendence (31:23-24), gone before their words about him (31:25-32)."
+  "notes": "No women, banquet, knives, hands, blood or Yusuf drawn; 31:6-16 and 31:20-21 are not glossed. 31:1-5: the tafsirs differ on why their talk is called «مكر», so only «تدعوهن إلى منزلها للضيافة». Their «ما هذا بشرا إن هذا إلا ملك كريم» stays whole in one chip, framed by Al-Muyassar's «وقلن متعجبات». Geometric only on «حاش لله». STAGING v4: The whole video stays ambient (owner's rule for 23-35): the women, the banquet, the cushions, the knives, the hands and Yusuf are never drawn or suggested; no people at all. No night sky anywhere in 23-35 (its crescent and stars echo Yusuf's dream and give the temptation a moonlit mood; review 12a S5), and no sun disc either: the mountains and sea moods both draw a sun, so every chapter of 23-35 is geometric (as before the restage), except 33-34 (light, no disc). The geometric plate stays only on their exclamation of Allah's transcendence (31:23-24) and is gone before their words about him; the background stays quiet over those words (31:25-32), so the pattern of the Names never pulses on «ملك كريم»."
  },
  "cover": {
   "series_ar": "الابتلاء بالفتنة",

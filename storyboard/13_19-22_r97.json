@@ -298,7 +298,7 @@
       "pose": "sit",
       "enter": [
        22,
-       9
+       10
       ],
       "exit": null,
       "look": "poor"
@@ -357,8 +357,9 @@
        22,
        9
       ],
-      "do": "stand_up",
-      "who": "b"
+      "do": "walk_to",
+      "who": "b",
+      "to": "center"
      },
      {
       "at": [
@@ -372,10 +373,17 @@
      {
       "at": [
        22,
-       13
+       12
       ],
       "do": "raise_hands",
       "who": "pm"
+     },
+     {
+      "at": [
+       22,
+       14
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
@@ -512,7 +520,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "19 addresses the Prophet ﷺ: light for the revelation «أنزل إليك من ربك الحق», no plate on him. A seal for «يوفون بعهد الله», a house for «يصلون ما أمر الله به أن يوصل» (it leaves before the Name), coins for «وأنفقوا مما رزقناهم سرا وعلانية», light for «عقبى الدار». Nothing on «وجه ربهم» (22:4, His attribute). STAGING v4: c1 (19): a town by day; three believers sit and read (19:2, whoever knows that what was revealed is the truth; a book plate gone before «إليك»), three men in dark robes stand apart; the camera is wide over the revelation to the Prophet ﷺ (19:4-8), closes on the dark-robed men for like one who is blind (19:9; Al-Muyassar: blind to the truth, not believing) and they turn away (19:11); then on the believers for only those of understanding remember (19:12). c2 (20-21): a home by day; three believers fulfil the covenant (a seal plate, 20:2-4), then walk over to their relatives sitting on the left (21:2, they join what Allah ordered joined: Al-Muyassar, kinship and the needy), sit with them (21:6) and speak to them (21:8); a house plate gone before the Name. Nothing is acted on they fear their Lord (no bow toward people); the camera closes on the believers for they fear the evil reckoning (21:12). c3 (22): a prayer hall by day; the believers stand patient (22:2), the camera wide on seeking the face of their Lord (22:4); they pray (22:6-8: standing, bowing, rising) facing the empty side of the hall, stand up (22:9), and only then a poor man appears, sitting on the right, and they give him (22:11, spend from what We provided, secretly and openly: zakat and voluntary charity); he raises his hands (22:13) with no plate on screen; a soft sparkle and a light plate for the good end of the abode (22:17-19). The cover now shows the believers bowing in prayer (22:7)."
+  "notes": "19 addresses the Prophet ﷺ: light for the revelation «أنزل إليك من ربك الحق», no plate on him. A seal for «يوفون بعهد الله», a house for «يصلون ما أمر الله به أن يوصل» (it leaves before the Name), coins for «وأنفقوا مما رزقناهم سرا وعلانية», light for «عقبى الدار». Nothing on «وجه ربهم» (22:4, His attribute). STAGING v4: c1 (19): a town by day; three believers sit and read (19:2, whoever knows that what was revealed is the truth; a book plate gone before «إليك»), three men in dark robes stand apart; the camera is wide over the revelation to the Prophet ﷺ (19:4-8), closes on the dark-robed men for like one who is blind (19:9; Al-Muyassar: blind to the truth, not believing) and they turn away (19:11); then on the believers for only those of understanding remember (19:12). c2 (20-21): a home by day; three believers fulfil the covenant (a seal plate, 20:2-4), then walk over to their relatives sitting on the left (21:2, they join what Allah ordered joined: Al-Muyassar, kinship and the needy), sit with them (21:6) and speak to them (21:8); a house plate gone before the Name. Nothing is acted on they fear their Lord (no bow toward people); the camera closes on the believers for they fear the evil reckoning (21:12). c3 (22): a prayer hall by day; the believers stand patient (22:2), the camera wide on seeking the face of their Lord (22:4); they pray (22:6-8: standing, bowing, rising) facing the empty side of the hall, end the prayer by walking to the centre of the hall (22:9), and only then a poor man appears, sitting on the right (22:10); they give him at close range (22:11, spend from what We provided, secretly and openly: zakat and voluntary charity) and he raises his hands on 22:12, still on the giving, with no plate on screen; a soft sparkle and a light plate for the good end of the abode (22:17-19). The cover now shows the believers standing in the prayer hall, close up (22:3)."
  },
  "cover": {
   "series_ar": "صفات العقلاء",
@@ -521,7 +529,7 @@
   "title_en": "Traits of the wise",
   "at": [
    22,
-   7
+   3
   ]
  },
  "motion": 3,

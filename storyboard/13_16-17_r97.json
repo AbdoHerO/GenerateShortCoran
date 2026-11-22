@@ -46,63 +46,63 @@
      {
       "at": [
        16,
-       8
+       9
       ],
       "do": "pan_left"
      },
      {
       "at": [
        16,
-       10
+       11
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        16,
-       12
+       13
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        16,
-       15
+       16
       ],
       "do": "pan_left"
      },
      {
       "at": [
        16,
-       18
+       19
       ],
       "do": "pan_right"
      },
      {
       "at": [
        16,
-       22
+       24
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        16,
-       29
+       30
       ],
       "do": "pan_right"
      },
      {
       "at": [
        16,
-       32
+       33
       ],
       "do": "pan_left"
      },
      {
       "at": [
        16,
-       35
+       36
       ],
       "do": "shot_wide"
      },
@@ -131,7 +131,7 @@
      {
       "at": [
        16,
-       27
+       28
       ],
       "until": [
        16,
@@ -518,7 +518,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "16 is a dialogue commanded to the Prophet ﷺ («قل»): no plate starts on «قل»; geometric for «رب السماوات والأرض… الله» and «الله خالق كل شيء وهو الواحد القهار», light for «الظلمات والنور». The parable of 17 in symbols: rain cloud, river (earthly), wave for the foam, a worldly fire for smelting (as a tool), a jewel for «حلية», wind for «فيذهب جفاء», growth for «ما ينفع الناس فيمكث في الأرض», geometric for «يضرب الله». No people drawn. STAGING v4: c1 (16) stays ambient (geometric): the Prophet's ﷺ commanded words to the polytheists («قل»), the idols they took as protectors are never drawn and nobody faces an empty side; quiet over 16:1-7 and 16:38-45; plates unchanged (none starts on «قل»). c2 (17), the parable as it is seen in this world: a mountain valley by day; rain falls from 17:3 (water sent down from the sky) and stops at 17:12; the camera goes down to the valley floor for the valleys flowing (17:5), a wave plate for the foam on the torrent (17:9-11). The second parable is told in plates only (no smiths and no blaze are drawn: a large fire on the stage would read as a fire of punishment): a worldly-fire plate for what they kindle fire upon (17:13-16; both tafsirs: smelting the metals, for ornament or for tools), a jewel plate for ornament (17:18-21). Geometric for thus Allah strikes (17:24-27 camera only, 17:40 plate). A gust for the foam that vanishes (17:30), a water-drop plate for what benefits people remains in the earth (17:34-38). No growth is drawn (neither tafsir names plants here). The cover now shows the rain in the valley with the foam plate (17:9)."
+  "notes": "16 is a dialogue commanded to the Prophet ﷺ («قل»): no plate starts on «قل»; geometric for «رب السماوات والأرض… الله» and «الله خالق كل شيء وهو الواحد القهار», light for «الظلمات والنور». The parable of 17 in symbols: rain cloud, river (earthly), wave for the foam, a worldly fire for smelting (as a tool), a jewel for «حلية», wind for «فيذهب جفاء», growth for «ما ينفع الناس فيمكث في الأرض», geometric for «يضرب الله». No people drawn. STAGING v4: c1 (16) stays ambient (geometric): the Prophet's ﷺ commanded words to the polytheists («قل»), the idols they took as protectors are never drawn and nobody faces an empty side; quiet over 16:1-7 and 16:38-45; plates unchanged (none starts on «قل»), except the light plate, which now starts on the light (16:28) and no longer on the darkness. c2 (17), the parable as it is seen in this world: a mountain valley by day; rain falls from 17:3 (water sent down from the sky) and stops at 17:12; the camera goes down to the valley floor for the valleys flowing (17:5), a wave plate for the foam on the torrent (17:9-11). The second parable is told in plates only (no smiths and no blaze are drawn: a large fire on the stage would read as a fire of punishment): a worldly-fire plate for what they kindle fire upon (17:13-16; both tafsirs: smelting the metals, for ornament or for tools), a jewel plate for ornament (17:18-21). Geometric for thus Allah strikes (17:24-27 camera only, 17:40 plate). A gust for the foam that vanishes (17:30), a water-drop plate for what benefits people remains in the earth (17:34-38). No growth is drawn (neither tafsir names plants here). The valley setting is kept (the river setting is a permanent river among palms and reeds, not torrents in valleys); the flowing torrent is the wave plate, and no flood event is used (it reads as a punishment). The cover now shows the rain in the valley with the foam plate (17:9)."
  },
  "cover": {
   "series_ar": "أمثال التوحيد",

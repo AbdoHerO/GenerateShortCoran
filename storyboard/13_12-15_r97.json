@@ -47,8 +47,8 @@
       "pose": "stand",
       "enter": null,
       "exit": [
-       13,
-       1
+       12,
+       7
       ]
      }
     ],
@@ -63,6 +63,14 @@
        13,
        4
       ]
+     },
+     {
+      "type": "darkness",
+      "at": [
+       13,
+       1
+      ],
+      "until": null
      }
     ],
     "beats": [
@@ -94,8 +102,7 @@
        12,
        7
       ],
-      "do": "turn",
-      "who": "p"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -466,7 +473,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Lightning for «يريكم البرق» and for «ويسبح الرعد» (it leaves before «والملائكة»; the angels are never drawn), a rain cloud for «السحاب الثقال». Nothing on the thunderbolts striking (13:7-12). Geometric for «وهو شديد المحال» and «له دعوة الحق». A drop for the parable of the outstretched hands (no hands drawn); 14:8-21 is not glossed so that «لا يستجيبون… إلا كباسط» is not split. The prostration (15) is never drawn and its chapter is light (no dawn); night-and-day for «بالغدو والآصال». Cut: «لا شريك له» (6:163) and «لا إله إلا الله» (47:19). STAGING v4: c1 (12-13): the sky over fields by day. Three people stand at the edge of the fields and look up (12:3, He shows you the lightning); the lightning flashes in dark clouds from 12:4 (in fear and hope: Al-Muyassar, fear of thunderbolts and hope of rain; the people's alarm is the renderer's reaction); a rain-cloud plate for the heavy clouds (12:8); a gust as the clouds gather. As the heavy clouds gather the people turn (12:7) and leave the field on 13:1, long before any word of punishment, so the field is empty for the rest of the chapter. The lightning stops at 13:4: the angels glorifying Him (13:4-6) are never drawn, no plate and no close-up there. The thunderbolts (13:7-12) fall on no one: no bolt is drawn after 13:4 and nobody is on stage, so nobody reads as struck, and nobody stands for those who dispute about Allah (13:13-16). Geometric for He is severe in might (13:17). c2 (14) stays ambient (geometric): the true call belongs to Him; the idols and their worshippers' prayers are never drawn, and the parable of the outstretched palms is only a water-drop plate (a raised-hands gesture would read as a prayer); quiet over 14:1-3. c3 (15) stays ambient (light): the prostration of all in the heavens and the earth, willingly or unwillingly, and of their shadows, includes those in the heavens and cannot be drawn; no prostration is drawn; quiet over 15:1-2. The cover now shows the people under the lightning (12:5)."
+  "notes": "Lightning for «يريكم البرق» and for «ويسبح الرعد» (it leaves before «والملائكة»; the angels are never drawn), a rain cloud for «السحاب الثقال». Nothing on the thunderbolts striking (13:7-12). Geometric for «وهو شديد المحال» and «له دعوة الحق». A drop for the parable of the outstretched hands (no hands drawn); 14:8-21 is not glossed so that «لا يستجيبون… إلا كباسط» is not split. The prostration (15) is never drawn and its chapter is light (no dawn); night-and-day for «بالغدو والآصال». Cut: «لا شريك له» (6:163) and «لا إله إلا الله» (47:19). STAGING v4: c1 (12-13): the sky over fields by day. Three people stand at the edge of the fields and look up (12:3, He shows you the lightning); the lightning flashes in dark clouds from 12:4 (in fear and hope: Al-Muyassar, fear of thunderbolts and hope of rain; the people's alarm is the renderer's reaction); a rain-cloud plate for the heavy clouds (12:8); a gust as the clouds gather. As He brings up the heavy clouds the people leave the field (12:7, facing the viewer: no back turned with raised arms, never under a plate), so the rain-cloud plate (12:8) draws over the empty field and nobody is on stage for the rest of the chapter. The scene darkens from 13:1 to the end of the chapter, so the sky never clears on the angels' word or over the thunderbolts and the warning (review); the lightning stops at 13:4: the angels glorifying Him (13:4-6) are never drawn, no plate, no light and no close-up there. The thunderbolts (13:7-12) fall on no one: no bolt is drawn after 13:4 and nobody is on stage, so nobody reads as struck, and nobody stands for those who dispute about Allah (13:13-16). Geometric for He is severe in might (13:17). c2 (14) stays ambient (geometric): the true call belongs to Him; the idols and their worshippers' prayers are never drawn, and the parable of the outstretched palms is only a water-drop plate (a raised-hands gesture would read as a prayer); quiet over 14:1-3. c3 (15) stays ambient (light): the prostration of all in the heavens and the earth, willingly or unwillingly, and of their shadows, includes those in the heavens and cannot be drawn; no prostration is drawn; quiet over 15:1-2. The cover now shows the people under the lightning (12:5)."
  },
  "cover": {
   "series_ar": "مظاهر القدرة",

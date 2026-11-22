@@ -34,7 +34,7 @@
    ],
    "scene": "stage",
    "params": {
-    "setting": "home",
+    "setting": "prison",
     "time": "day",
     "actors": [
      {
@@ -199,7 +199,7 @@
    ],
    "scene": "stage",
    "params": {
-    "setting": "home",
+    "setting": "prison",
     "time": "day",
     "actors": [
      {
@@ -555,7 +555,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The two prisoners and their dreams (wine, bread, birds) are never drawn; 36:5-21 is not glossed. 37:1-11 is not glossed (the tafsirs read «إلا نبأتكما بتأويله» differently). Yusuf: no plate; the only plate is geometric on «ذلك من فضل الله علينا وعلى الناس», after the prophets' names and away from the negated «نشرك». STAGING v4: The prison is not in the catalog: both chapters use a plain closed interior by day (the home setting: walls, a lattice window, a lamp), with no bars, chains or guards. Yusuf is a blue drop labelled Yusuf (no close-up, pan or glow); the two youths of the verse are two faceless men in plain robes (the verse gives two: two separate figures, no group). c1 (36): the two men and Yusuf come in together (36:1, both tafsirs: they entered the prison with him); one speaks to Yusuf (36:5) and the other (36:11), the camera on each while he tells his dream; their dreams (wine, bread, birds) are never drawn and get no plate; both ask him (36:22, 36:24), a book plate for its interpretation (36:23). c2 (37-38): Yusuf speaks to them in turn (37:1, 37:7, 37:12, 37:17, 38:1, 38:7, 38:15); the listeners make no gesture, and the camera stays wide through his words (no close-up on an ordinary figure while a prophet speaks). Geometric only for what my Lord taught me (37:14-16) and for that is from the favour of Allah upon us and upon the people (38:15-21); no plate on the prophets' names (38:4-6), none in the negated clause (38:7-14), none for the Hereafter (37:24). Cover: Yusuf speaking to the two men with the geometric plate (title: calling to Allah in prison)."
+  "notes": "The two prisoners and their dreams (wine, bread, birds) are never drawn; 36:5-21 is not glossed. 37:1-11 is not glossed (the tafsirs read «إلا نبأتكما بتأويله» differently). Yusuf: no plate; the only plate is geometric on «ذلك من فضل الله علينا وعلى الناس», after the prophets' names and away from the negated «نشرك». STAGING v4: Both chapters use the prison setting (a plain stone cell, one small high window, a straw mat; no bars, chains or guards; review 12a S4: the home interior read as a living room). Yusuf is a blue drop labelled Yusuf (no close-up, pan or glow); the two youths of the verse are two faceless men in plain robes (the verse gives two: two separate figures, no group). c1 (36): the two men and Yusuf come in together (36:1, both tafsirs: they entered the prison with him); one speaks to Yusuf (36:5) and the other (36:11), the camera on each while he tells his dream; their dreams (wine, bread, birds) are never drawn and get no plate; both ask him (36:22, 36:24), a book plate for its interpretation (36:23). c2 (37-38): Yusuf speaks to them in turn (37:1, 37:7, 37:12, 37:17, 38:1, 38:7, 38:15); the listeners make no gesture, and the camera stays wide through his words (no close-up on an ordinary figure while a prophet speaks). Geometric only for what my Lord taught me (37:14-16) and for that is from the favour of Allah upon us and upon the people (38:15-21); no plate on the prophets' names (38:4-6), none in the negated clause (38:7-14), none for the Hereafter (37:24). Cover: Yusuf speaking to the two men with the geometric plate (title: calling to Allah in prison)."
  },
  "cover": {
   "series_ar": "في السجن",

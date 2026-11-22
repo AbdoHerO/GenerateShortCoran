@@ -313,7 +313,7 @@
    ],
    "scene": "stage",
    "params": {
-    "setting": "home",
+    "setting": "prison",
     "time": "day",
     "actors": [
      {
@@ -371,8 +371,7 @@
        46,
        6
       ],
-      "do": "shot_close",
-      "who": "sq"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -461,7 +460,7 @@
    ],
    "scene": "stage",
    "params": {
-    "setting": "home",
+    "setting": "prison",
     "time": "day",
     "actors": [
      {
@@ -707,7 +706,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The dream (cows, ears of grain) is never drawn; 43:3-15 and 46:4-16 are not glossed. Their «أضغاث أحلام» is framed by As-Sa'di («جزم منهم بما لا يعلمون»). An hourglass for «بعد أمة», wheat for Yusuf's plan of sowing and storing (47). Yusuf: no plate. STAGING v4: Chapter split: verse 45 happens at the king's court and verse 46 in the prison, so the old c2 (45-46) is split: c2 keeps verse 45 and its title, the new c4 (title: asking for the interpretation) takes verse 46; glosses untouched. c1-c2 (43-45): the royal court by day (no pyramids); the king a plain crowned faceless king, the chiefs three faceless men (As-Sa'di: the scholars and men of opinion he gathered). c1 (43-44): the king tells his dream (43:1, camera on him 43:4) and asks the chiefs (43:16-17); the cows are never drawn, the ears of grain only as a small wheat plate (43:12-15); they answer (44:1) and shake their heads (44:4: we are not learned in interpreting dreams). c2 (45): the man who was saved, a faceless man in a plain robe standing with the court, speaks to the king (45:1, 45:8); an hourglass for after a time (45:6-7). c4 (46): the plain closed interior of 36-38 (the prison, no bars or chains); the man walks in to Yusuf (blue drop labelled Yusuf) and speaks to him (46:2, 46:12, 46:16); the camera is wide whenever Yusuf's name or title is recited and closes in on the man only while he repeats the dream (46:6); the dream is again only a wheat plate (46:13-16). c3 (47): Yusuf answers him (47:1, 47:8), camera wide through his words; an hourglass for seven years (47:3-6) and wheat for what you harvest, leave in its ears (47:7). Nobody is shown sowing or harvesting (his words are a plan, not shown as done). No close-up, pan or glow on the drop. Cover: Yusuf explaining with the wheat plate (title: good planning)."
+  "notes": "The dream (cows, ears of grain) is never drawn; 43:3-15 and 46:4-16 are not glossed. Their «أضغاث أحلام» is framed by As-Sa'di («جزم منهم بما لا يعلمون»). An hourglass for «بعد أمة», wheat for Yusuf's plan of sowing and storing (47). Yusuf: no plate. STAGING v4: Chapter split: verse 45 happens at the king's court and verse 46 in the prison, so the old c2 (45-46) is split: c2 keeps verse 45 and its title, the new c4 (title: asking for the interpretation) takes verse 46; glosses untouched. c1-c2 (43-45): the royal court by day (no pyramids); the king a plain crowned faceless king, the chiefs three faceless men (As-Sa'di: the scholars and men of opinion he gathered). c1 (43-44): the king tells his dream (43:1, camera on him 43:4) and asks the chiefs (43:16-17); the cows are never drawn, the ears of grain only as a small wheat plate (43:12-15); they answer (44:1) and shake their heads (44:4: we are not learned in interpreting dreams). c2 (45): the man who was saved, a faceless man in a plain robe standing with the court, speaks to the king (45:1, 45:8); an hourglass for after a time (45:6-7). c4 (46): the prison cell of 36-38 (prison setting: stone walls, a small high window, a straw mat; no bars or chains); the man walks in to Yusuf (blue drop labelled Yusuf) and speaks to him (46:2, 46:12, 46:16); the camera stays wide through the whole verse (no close-up that crops Yusuf's drop, review 12a M5); the dream is again only a wheat plate (46:13-16). c3 (47): Yusuf answers him (47:1, 47:8), camera wide through his words; an hourglass for seven years (47:3-6) and wheat for what you harvest, leave in its ears (47:7). Nobody is shown sowing or harvesting (his words are a plan, not shown as done). No close-up, pan or glow on the drop. Cover: Yusuf explaining to the man in the cell with the hourglass plate (47:4), not the wheat plate, so the cover does not read as the king's dream (review 12a M4)."
  },
  "cover": {
   "series_ar": "حلم الملك",
@@ -716,7 +715,7 @@
   "title_en": "Good planning",
   "at": [
    47,
-   9
+   4
   ]
  },
  "motion": 3,
