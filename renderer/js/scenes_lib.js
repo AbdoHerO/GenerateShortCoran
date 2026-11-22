@@ -732,13 +732,17 @@ const AMB = {
       const beams = 11;
       const lit = new Map();
       for (const w of P) { const b = Math.floor(H(wordKey(w), 1) * beams); lit.set(b, Math.max(lit.get(b) || 0, pulseA(w.age))); }
+      // while a plate is on screen the rays and their source fade: a plate (often for the Name) must never sit at the
+      // origin of rays from above, which would read as the Name radiating light (At-Tawbah review, 2026-11-22)
+      const plateK = motifPlan(T?.c?.params, T).reduce((a, m) => Math.max(a, env(t, m.ts - 0.6, m.te + 0.3, 0.6, 0.5)), 0);
+      const rayK = 1 - 0.85 * plateK;
       withCam(ctx, par(c, 0.3), () => {
         ctx.save();
         for (let i = 0; i < beams; i++) {
           const a = Math.PI / 2 + (i - (beams - 1) / 2) * 0.115 + Math.sin(t * 0.18 + i * 0.7) * 0.02;
           const wA = 0.028 + H(i, 5) * 0.02;
           const g = ctx.createLinearGradient(480, -160, 480 + Math.cos(a) * 1100, -160 + Math.sin(a) * 1100);
-          const b = 0.42 + 0.16 * Math.sin(t * 0.5 + i * 1.3) + 0.4 * (lit.get(i) || 0) + 0.35 * X.lightUp;
+          const b = (0.42 + 0.16 * Math.sin(t * 0.5 + i * 1.3) + 0.4 * (lit.get(i) || 0) + 0.35 * X.lightUp) * rayK;
           g.addColorStop(0, `rgba(255,255,255,${b})`); g.addColorStop(0.7, `rgba(255,236,190,${b * 0.25})`); g.addColorStop(1, 'rgba(255,236,190,0)');
           ctx.fillStyle = g;
           ctx.beginPath(); ctx.moveTo(480, -160);
@@ -746,7 +750,7 @@ const AMB = {
           ctx.closePath(); ctx.fill();
         }
         ctx.restore();
-        A.glowDisc(ctx, 480, 40, 1, 'rgba(0,0,0,0)', '#fffaf0', 300, 1, 0.9);
+        A.glowDisc(ctx, 480, 40, 1, 'rgba(0,0,0,0)', '#fffaf0', 300, 1, 0.9 * rayK);
       });
       motes(ctx, 50, 81, t, 20, SW - 20, 120, SH, 18, '#fff4d6', 0.9, 4.2);
       motes(ctx, 24, 83, t, 20, SW - 20, 200, SH, 11, '#c98f2e', 0.5, 3);
@@ -755,9 +759,7 @@ const AMB = {
         const k = wordKey(w);
         A.sparkle(ctx, 120 + H(k, 2) * 720, 180 + H(k, 3) * 420 - w.age * 30, 6 + a * 8, a, '#fff6dc');
       }
-      withCam(ctx, par(c, 0.7), () => {
-        for (let i = 0; i < 7; i++) A.cloud(ctx, ((i * 190 + t * (3 + (i % 3))) % 1300) - 170, 780 + (i % 2) * 40, 1.25 + (i % 3) * 0.15, 0.95, i % 2 ? '#fffaf1' : '#f8eedb');
-      });
+      // no cloud bank: rays over clouds read as a picture of heaven (nothing literal for the unseen)
     },
   },
 };

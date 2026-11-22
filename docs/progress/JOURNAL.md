@@ -1367,3 +1367,16 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
   - The periodic diagonal light sheen of the life layer no longer crosses the frame within 3 s of a quiet range.
   - `tools/restage/restage.py` writes quiet ranges from the spec (`"q"`), so a restage cannot drop them.
   - Al-A'raf is complete: all 57 videos restaged, independently reviewed, fixed and queued for build.
+
+### Light mood: no rays behind a plate, no cloud bank (2026-11-22)
+
+- **Why:** the At-Tawbah 1-42 review found two problems with the `light` mood.
+  - Its rays fan out from top centre, exactly where a plate for the Name stands, so the Name's symbol reads as
+    radiating light from above.
+  - The cloud bank under the rays made it a near-literal picture of heaven over the Paradise verses.
+- **Change (`renderer/js/scenes_lib.js`):**
+  - While a plate is on screen, the rays and their glow fade to 15%.
+  - The cloud bank is gone, so the light mood is an abstract warm light with drifting motes.
+- **Re-render:** every published draft whose storyboard has a light-mood chapter is listed for a final consistency
+  re-render, published as the next version once the restaging of surahs 1-15 is done (low priority, after new
+  content). Renders still in the build queue get the change automatically.
