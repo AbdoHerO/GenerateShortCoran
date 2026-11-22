@@ -121,7 +121,7 @@
       ],
       "until": [
        12,
-       13
+       17
       ],
       "motif": "geometric",
       "place": "top",
@@ -151,7 +151,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light",
+    "mood": "geometric",
     "beats": [
      {
       "at": [
@@ -172,7 +172,7 @@
        14,
        13
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -193,14 +193,14 @@
        14,
        21
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        14,
        24
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -325,7 +325,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Stars for the heavens, geometric for «لله», light for «الرحمة», night and day for «الليل والنهار», wheat for «يطعم». 13:7-9 not glossed (Al-Muyassar's text reads «الحليم» under «العليم»). No motif on the Prophet ﷺ. 12: short-word flag, listen. STAGING v4: Staging v4: all ambient (His dominion, mercy, the Gathering, and the Prophet's first-person declaration in 14, which is never shown). c1 mood dawn -> geometric (the Gathering and those who lost themselves are recited) and the plate on His mercy (12:12) is geometric, not light."
+  "notes": "Stars for the heavens, geometric for «لله», geometric for 12:12 (His mercy), night and day for «الليل والنهار», wheat for «يطعم». 13:7-9 not glossed (Al-Muyassar's text reads «الحليم» under «العليم»). No motif on the Prophet ﷺ. 12: short-word flag, listen. STAGING v4: Staging v4: all ambient (His dominion, mercy, the Gathering, and the Prophet's first-person declaration in 14, which is never shown). c1 mood dawn -> geometric (the Gathering and those who lost themselves are recited) and the plate on His mercy (12:12) is geometric, not light, until 12:17. c2 (14, his first-person declaration) mood light -> geometric, so no rays stand over the speaker."
  },
  "cover": {
   "series_ar": "الشهادة والحساب",

@@ -32,44 +32,102 @@
    "verses": [
     125
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "g",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "x",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       125,
+       5
+      ],
+      "do": "shot_close",
+      "who": "g"
+     },
+     {
+      "at": [
+       125,
+       6
+      ],
+      "do": "sparkle",
+      "who": "g"
+     },
      {
       "at": [
        125,
        8
       ],
-      "do": "pan_right"
+      "do": "raise_hands",
+      "who": "g"
+     },
+     {
+      "at": [
+       125,
+       10
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        125,
        12
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "x"
      },
      {
       "at": [
        125,
        15
       ],
-      "do": "shot_wide"
+      "do": "wring_hands",
+      "who": "x"
      },
      {
       "at": [
        125,
-       17
+       16
       ],
-      "do": "shot_wide"
+      "do": "bow",
+      "who": "x"
      },
      {
       "at": [
        125,
-       20
+       18
       ],
-      "do": "pan_left"
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       125,
+       21
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -81,24 +139,22 @@
      {
       "at": [
        125,
-       26
+       24
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "x"
      }
     ],
     "motifs": [
      {
       "at": [
        125,
-       6
+       26
       ],
-      "until": [
-       125,
-       9
-      ],
-      "motif": "light",
+      "until": null,
+      "motif": "door",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -110,21 +166,51 @@
     126,
     127
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        126,
-       8
+       1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       126,
+       7
+      ],
+      "do": "read",
+      "who": "b"
+     },
+     {
+      "at": [
+       126,
+       9
+      ],
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        127,
-       2
+       1
       ],
       "do": "shot_wide"
      },
@@ -133,7 +219,7 @@
        127,
        4
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -145,9 +231,18 @@
      {
       "at": [
        127,
+       8
+      ],
+      "do": "pray",
+      "who": "b"
+     },
+     {
+      "at": [
+       127,
        10
       ],
-      "do": "pan_right"
+      "do": "ruku",
+      "who": "b"
      }
     ],
     "motifs": [
@@ -158,11 +253,24 @@
       ],
       "until": [
        126,
-       5
+       6
       ],
       "motif": "footsteps",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       127,
+       2
+      ],
+      "until": [
+       127,
+       6
+      ],
+      "motif": "light",
+      "place": "top",
+      "size": "s"
      },
      {
       "at": [
@@ -175,10 +283,10 @@
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "light_sweep"
    }
   }
  ],
@@ -274,7 +382,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No person and no sky ascent drawn for 125:17-20. 125:21-28 «الرجس» is not glossed (Al-Muyassar reads it as punishment; the tafsirs word it differently). 127 (Paradise, «دار السلام»): light mood only; no garden, river or gold motif. Light for «يشرح صدره للإسلام», footsteps for «صراط ربك مستقيما», geometric for «وهو وليهم»."
+  "notes": "No person and no sky ascent drawn for 125:17-20. 125:21-28 «الرجس» is not glossed (Al-Muyassar reads it as punishment; the tafsirs word it differently). 127 (Paradise, «دار السلام»): light mood only; no garden, river or gold motif. Light for «يشرح صدره للإسلام», footsteps for «صراط ربك مستقيما», geometric for «وهو وليهم». STAGING v4: c1 (125): the sign of guidance and of misguidance shown on two men in a town by day: the guided man (light robes) gets a soft sparkle on 125:6 and raises his hands on 125:8 (his chest opened to Islam); no plate above him, so his raised hands never point at a light plate; the man in dark robes wrings his hands and lowers his head on 125:15-16 (his chest tight); the simile of climbing into the sky is only a camera tilt to the sky (125:18), nobody ascends. The camera holds on him for 125:24-28 (no gloss on «الرجس», as before); a door plate on 125:26 (As-Sa'di: they closed the door of mercy on themselves). c2 (126-127): believers in a prayer hall read on 126:7 (the verses detailed for those who remember, footsteps for the straight path); the Home of Peace is not drawn (light plate only, 127:2-5), geometric for 127:6-7, and they pray on 127:8-10 (because of what they used to do). No sujud under a plate."
  },
  "cover": {
   "series_ar": "الهداية والضلال",
@@ -283,8 +391,9 @@
   "title_en": "Accepting the truth",
   "at": [
    125,
-   1
+   8
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -50,7 +50,7 @@
        1,
        9
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -71,14 +71,14 @@
        2,
        2
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        2,
        4
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -92,21 +92,21 @@
        2,
        11
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        2,
        12
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        2,
        14
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -120,7 +120,7 @@
        3,
        9
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -177,7 +177,7 @@
       ],
       "until": [
        3,
-       3
+       7
       ],
       "motif": "geometric",
       "place": "top",
@@ -456,7 +456,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Geometric near Allah's name, night and day for «الظلمات والنور», an hourglass for «أجلا». 3:1-6 «وهو الله في السماوات وفي الأرض» is glossed with As-Sa'di's «المألوه المعبود» (the One worshipped in the heavens and the earth). No Adam figure; 4-5 under a night sky. STAGING v4: 1-3 (praise, creation, the term, His knowledge) stay ambient. 4-5: three deniers in a town at dusk; a sign plate (burst) on 4:2-4:5, gone before 4:7; they turn their backs on 4:10 (As-Sa'di: they turned their backs on the signs), shake their heads on 5:2 (they denied), speak on 5:12 (mocking); an hourglass on 5:6 for the news that will come. No messenger drawn."
+  "notes": "Geometric near Allah's name, night and day for «الظلمات والنور», an hourglass for «أجلا». 3:1-6 «وهو الله في السماوات وفي الأرض» is glossed with As-Sa'di's «المألوه المعبود» (the One worshipped in the heavens and the earth). No Adam figure; 4-5 are staged (see STAGING v4). STAGING v4: 1-3 (praise, creation, the term, His knowledge) stay ambient; the geometric plate on 3:2 now lasts to 3:7. 4-5: three deniers in a town at dusk; a sign plate (burst) on 4:2-4:5, gone before 4:7; they turn their backs on 4:10 (As-Sa'di: they turned their backs on the signs), shake their heads on 5:2 (they denied), speak on 5:12 (mocking); an hourglass on 5:6 for the news that will come. No messenger drawn."
  },
  "cover": {
   "series_ar": "الخلق والإعراض",

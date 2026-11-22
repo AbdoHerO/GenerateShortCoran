@@ -32,44 +32,90 @@
    "verses": [
     133
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "desert",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "o",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       133,
+       17
+      ]
+     },
+     {
+      "id": "n",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "walk",
+      "enter": [
+       133,
+       14
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        133,
-       4
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       133,
-       8
+       2
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        133,
-       11
+       6
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       133,
+       10
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       133,
+       12
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       133,
+       13
+      ],
+      "do": "turn",
+      "who": "o"
      },
      {
       "at": [
        133,
        15
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "n"
      },
      {
       "at": [
        133,
-       18
+       17
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -84,20 +130,17 @@
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        133,
        13
       ],
-      "until": [
-       133,
-       18
-      ],
+      "until": null,
       "motif": "hourglass",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -191,7 +234,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Geometric for «وربك الغني ذو الرحمة», an hourglass for the generations that pass. 134 (the promised punishment): night sky, nothing drawn."
+  "notes": "Geometric for «وربك الغني ذو الرحمة», an hourglass for the generations that pass. 134 (the promised punishment): night sky, nothing drawn. STAGING v4: c1 (133): geometric for His names (133:1-4). The condition 133:5-12 (if He wills, He removes you) is not acted: nobody leaves there. On 133:13-18 (as He produced you from the offspring of another people; As-Sa'di: as those before you departed and left it to you) one group of people on the road at dusk turns to go (133:13) and leaves on 133:17, while another group walks in on 133:14, with the hourglass plate. c2 (134) stays ambient: the promised punishment (night sky, nothing drawn)."
  },
  "cover": {
   "series_ar": "الهداية والضلال",
@@ -200,8 +243,9 @@
   "title_en": "This world is a passage",
   "at": [
    133,
-   1
+   16
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

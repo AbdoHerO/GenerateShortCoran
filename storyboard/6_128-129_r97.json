@@ -67,6 +67,13 @@
      {
       "at": [
        128,
+       17
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       128,
        19
       ],
       "do": "shot_wide"
@@ -95,6 +102,13 @@
      {
       "at": [
        128,
+       26
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       128,
        28
       ],
       "do": "pan_right"
@@ -103,6 +117,13 @@
       "at": [
        128,
        29
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       128,
+       34
       ],
       "do": "shot_wide"
      }
@@ -130,20 +151,77 @@
    "verses": [
     129
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "x",
+      "type": "disbelievers",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "y",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       129,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       129,
+       2
+      ],
+      "do": "speak",
+      "who": "x",
+      "to": "y"
+     },
+     {
+      "at": [
+       129,
+       4
+      ],
+      "do": "shot_close",
+      "who": "y"
+     },
      {
       "at": [
        129,
        5
       ],
+      "do": "walk_to",
+      "who": "y",
+      "to": "center"
+     },
+     {
+      "at": [
+       129,
+       7
+      ],
       "do": "shot_wide"
      }
     ],
     "motifs": [],
-    "transition": "dissolve"
+    "transition": "morph"
    }
   }
  ],
@@ -228,7 +306,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Jinn, the Gathering and the Fire: night sky only, nothing drawn. The exception «إلا ما شاء الله» (128:28-31) is not glossed: Al-Muyassar's «من عصاة الموحدين» is one view. Al-Muyassar's and As-Sa'di's first-person «سلَّطْنا… سنتنا أن نولي» not used."
+  "notes": "Jinn, the Gathering and the Fire: night sky only, nothing drawn. The exception «إلا ما شاء الله» (128:28-31) is not glossed: Al-Muyassar's «من عصاة الموحدين» is one view. Al-Muyassar's and As-Sa'di's first-person «سلَّطْنا… سنتنا أن نولي» not used. STAGING v4: c1 (128) stays ambient: the Gathering, the jinn and the Fire are the unseen. c2 (129): Al-Muyassar places it in this world (the wrongdoers set over one another), As-Sa'di: each wrongdoer urges another to evil. Two men in dark robes in a town at dusk: one speaks to the other on 129:2 and the other walks over to his side on 129:5 (allies). Nothing violent, no plate."
  },
  "cover": {
   "series_ar": "الهداية والضلال",
@@ -240,5 +318,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

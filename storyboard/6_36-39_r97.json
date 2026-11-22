@@ -35,7 +35,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
@@ -384,7 +384,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A bird for «طائر يطير بجناحيه» (a sign), footsteps for «صراط مستقيم». 36:5-7 «والموتى» and 38:13-18 «ما فرطنا في الكتاب» are not glossed (the tafsirs read them differently; Al-Muyassar's paraphrase is in Allah's first person). Their demand in 37 is framed as «آيات الاقتراح». 38: short-word flag, listen. STAGING v4: 36-37 stay ambient (responding to the Prophet's call, the dead raised with readings that differ, the demand and the reply about His power). 38: a camel in the desert for the creatures on the earth (38:3) and birds taking off on 38:7 (the caution allows animals and birds as signs); nothing for the Book (38:13) or the Gathering (38:19-22, wide shot, no zoom). 39: three deniers walk in on 39:1, shake their heads on 39:3 and turn away on 39:4 (they do not hear what benefits them); no darkness is drawn; a two-paths plate on 39:12 and footsteps on 39:16 for the straight path."
+  "notes": "Birds (a scene beat) on 38:7, footsteps for 39:16. 36:5-7 «والموتى» and 38:13-18 «ما فرطنا في الكتاب» are not glossed (the tafsirs read them differently; Al-Muyassar's paraphrase is in Allah's first person). Their demand in 37 is framed as «آيات الاقتراح». 38: short-word flag, listen. STAGING v4: 36-37 stay ambient (responding to the Prophet's call, the dead raised with readings that differ, the demand and the reply about His power); mood dawn -> night_sky (the return for reckoning is recited). 38: a camel in the desert for the creatures on the earth (38:3) and birds taking off on 38:7 (the caution allows animals and birds as signs); nothing for the Book (38:13) or the Gathering (38:19-22, wide shot, no zoom). 39: three deniers walk in on 39:1, shake their heads on 39:3 and turn away on 39:4 (they do not hear what benefits them); no darkness is drawn; a two-paths plate on 39:12 and footsteps on 39:16 for the straight path."
  },
  "cover": {
   "series_ar": "تسلية الرسول",

@@ -115,17 +115,16 @@
      {
       "at": [
        21,
-       5
+       4
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        21,
        9
       ],
-      "do": "shake_head",
-      "who": "k"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -392,7 +391,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A book for «الكتاب». 20:1-7 «يعرفونه» is not tied to one referent (Al-Muyassar: Muhammad ﷺ; As-Sa'di: the truth of tawhid); only «لا شك عندهم فيه». The Day (22-24): night sky, nothing literal. Their oath in 23 is framed as «إنكارهم… وحلفهم». Al-Muyassar's first-person «نحشرهم… نقول» not used. STAGING v4: 20-21: three men of the People of the Book (both tafsirs: Jews and Christians, given the Torah and the Injil) sit in a town and read their book on 20:3 (book plate); what they recognise is not drawn (the tafsirs differ on the referent) and no sons are drawn; they turn on 20:9 and shake their heads on 20:12 (they do not believe) and on 21:9 (denying His signs; Al-Muyassar: they disbelieved in what the Prophet brought). The camera is wide on the general statement 21:1-7; a two-paths plate on 21:11. 22-24 (the Day) stay ambient."
+  "notes": "A book for «الكتاب». 20:1-7 «يعرفونه» is not tied to one referent (Al-Muyassar: Muhammad ﷺ; As-Sa'di: the truth of tawhid); only «لا شك عندهم فيه». The Day (22-24): night sky, nothing literal. Their oath in 23 is framed as «إنكارهم… وحلفهم». Al-Muyassar's first-person «نحشرهم… نقول» not used. STAGING v4: 20-21: three men of the People of the Book (both tafsirs: Jews and Christians, given the Torah and the Injil) sit in a town and read their book on 20:3 (book plate); what they recognise is not drawn (the tafsirs differ on the referent) and no sons are drawn; they turn on 20:9 and shake their heads on 20:12 (they do not believe). Verse 21 is general: no gesture, the camera stays wide; a two-paths plate on 21:11. 22-24 (the Day) stay ambient."
  },
  "cover": {
   "series_ar": "الشهادة والحساب",

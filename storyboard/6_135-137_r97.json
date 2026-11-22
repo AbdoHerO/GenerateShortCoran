@@ -88,58 +88,113 @@
    "verses": [
     136
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
-    "beats": [
+    "setting": "fields",
+    "time": "day",
+    "actors": [
      {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "gather",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [
+     {
+      "type": "growth",
       "at": [
        136,
        4
       ],
+      "until": null
+     }
+    ],
+    "beats": [
+     {
+      "at": [
+       136,
+       1
+      ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       136,
+       6
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
        136,
        9
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "d"
+     },
+     {
+      "at": [
+       136,
+       12
+      ],
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        136,
        13
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "d"
      },
      {
       "at": [
        136,
        14
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       136,
-       18
-      ],
       "do": "pan_left"
      },
      {
       "at": [
        136,
-       23
+       17
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        136,
-       27
+       19
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       136,
+       22
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       136,
+       25
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       136,
+       29
+      ],
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
@@ -149,8 +204,22 @@
       "do": "pan_left"
      }
     ],
-    "motifs": [],
-    "transition": "dissolve"
+    "motifs": [
+     {
+      "at": [
+       136,
+       6
+      ],
+      "until": [
+       136,
+       10
+      ],
+      "motif": "wheat",
+      "place": "top",
+      "size": "s"
+     }
+    ],
+    "transition": "wipe"
    }
   },
   {
@@ -176,6 +245,13 @@
        8
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       137,
+       9
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
@@ -347,7 +423,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No idol, offering, child or killing drawn. An hourglass for «فسوف تعلمون», wheat for «مما ذرأ من الحرث» (what Allah created), geometric for «ولو شاء الله». 136:15-28 (their division) is not glossed; 136:29-31 «بئس حكم القوم وقسمتهم». As-Sa'di's description of the burial (137) is not displayed; only «خشية الفقر»."
+  "notes": "No idol, offering, child or killing drawn. An hourglass for «فسوف تعلمون», wheat for «مما ذرأ من الحرث» (what Allah created), geometric for «ولو شاء الله». 136:15-28 (their division) is not glossed; 136:29-31 «بئس حكم القوم وقسمتهم». As-Sa'di's description of the burial (137) is not displayed; only «خشية الفقر». STAGING v4: c1 (135) stays ambient: the Prophet's own address to his people and his own work, then a threat; staging the addressed people would make them face him off-stage. c2 (136): the crops that Allah created grow in the fields (growth event and wheat plate on 136:4-9); the idolaters (3 men in dark robes, gathered among themselves at the centre) speak their division on 136:9 and 136:13, framed by the glosses. No idol, no altar and no offering is drawn, nobody points to a side, and nothing is handed over; the camera holds on them for «ساء ما يحكمون». c3 (137) stays ambient: the killing of children is never drawn (catalogue rule for killing)."
  },
  "cover": {
   "series_ar": "تشريعات الجاهلية",
@@ -356,8 +432,9 @@
   "title_en": "A share for the idols",
   "at": [
    136,
-   1
+   9
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -34,7 +34,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
@@ -48,7 +48,7 @@
        50,
        6
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -62,7 +62,7 @@
        50,
        9
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -76,28 +76,28 @@
        50,
        14
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        50,
        18
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        50,
        21
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        50,
        28
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -108,9 +108,9 @@
       ],
       "until": [
        50,
-       27
+       28
       ],
-      "motif": "light",
+      "motif": "lamp",
       "place": "top",
       "size": "m"
      }
@@ -126,7 +126,7 @@
    ],
    "scene": "stage",
    "params": {
-    "setting": "prayer_hall",
+    "setting": "home",
     "time": "dusk",
     "actors": [
      {
@@ -185,7 +185,7 @@
        51,
        15
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -230,7 +230,7 @@
        52,
        14
       ],
-      "do": "read",
+      "do": "shot_close",
       "who": "b"
      },
      {
@@ -239,14 +239,6 @@
        17
       ],
       "do": "shot_wide"
-     },
-     {
-      "at": [
-       52,
-       20
-      ],
-      "do": "raise_hands",
-      "who": "b"
      },
      {
       "at": [
@@ -281,7 +273,7 @@
        52,
        8
       ],
-      "motif": "sun",
+      "motif": "night_day",
       "place": "top",
       "size": "s"
      },
@@ -414,7 +406,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on the Prophet ﷺ; no key on the negated «خزائن الله». Light for «البصير», a sun for «بالغداة والعشي». 51:9-15 not glossed (no excerpt keeps «ليس… ولا» without repeating the verse). 52:22-25 keeps Al-Muyassar's condition «فإن أبعدتهم». No ranking of the Companions. STAGING v4: 50 (the Prophet's own statement) stays ambient. 51-52: three believers sit in a prayer hall at dusk and read the Quran on 51:2 (Al-Muyassar: this Quran is a warning), lower their heads on 51:5 (those who fear the Gathering, nothing of it drawn), raise their hands on 52:4 (both tafsirs: they call on and worship their Lord morning and evening; a sun plate on 52:6); they stay in place for the whole chapter, nobody leaves or turns (the counterfactual driving away is never shown); no chiefs or rich men (the occasion is not told by the tafsirs), no lone man, no empty seat; no pan on the words addressed to the Prophet, a wide shot and a two-paths plate on 52:22 so the camera does not hold on the believers for the warning."
+  "notes": "No motif on the Prophet ﷺ; no key on the negated «خزائن الله». A lamp for 50:26 (the one who sees: the believer), night and day for 52:6. 51:9-15 not glossed (no excerpt keeps «ليس… ولا» without repeating the verse). 52:22-25 keeps Al-Muyassar's condition «فإن أبعدتهم». No ranking of the Companions. STAGING v4: 50 (the Prophet's own statement) stays ambient; mood light -> night_sky (no rays over his first-person words), a lamp plate on 50:26 (the one who sees, the believer: guidance), not light. 51-52: three believers sit at home at dusk (not a mosque hall, so nothing suggests his gathering) and read the Quran on 51:2 (Al-Muyassar: this Quran is a warning), lower their heads on 51:5 (those who fear the Gathering, nothing of it drawn), raise their hands on 52:4 (both tafsirs: they call on and worship their Lord morning and evening; a night-and-day plate on 52:6); they stay in place for the whole chapter, nobody leaves or turns (the counterfactual driving away is never shown); As-Sa'di tells the occasion (the chiefs asking him to send the poor away) but it is deliberately not staged: no chiefs or rich men, no lone man, no empty seat; no pan on the words addressed to the Prophet (camera close or wide only), a wide shot and a two-paths plate on 52:22 so the camera does not hold on the believers for the warning"
  },
  "cover": {
   "series_ar": "تسلية الرسول",
