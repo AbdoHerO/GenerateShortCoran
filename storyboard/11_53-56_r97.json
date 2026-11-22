@@ -204,7 +204,8 @@
        55,
        3
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "hud"
      },
      {
       "at": [
@@ -290,6 +291,14 @@
        3
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       56,
+       7
+      ],
+      "do": "speak",
+      "who": "hud"
      },
      {
       "at": [

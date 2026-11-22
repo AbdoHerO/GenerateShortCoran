@@ -80,14 +80,16 @@
        57,
        9
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "hud"
      },
      {
       "at": [
        57,
        13
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "hud"
      },
      {
       "at": [
@@ -242,7 +244,7 @@
        59,
        1
       ],
-      "do": "shot_wide"
+      "do": "wind"
      },
      {
       "at": [
@@ -487,7 +489,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No wind of punishment, destruction or ruins drawn. 57 is Hud's speech: no plate (and none on «ويستخلف ربي»). Light for «برحمة» after Hud's name (58:5). A crown for «أمر كل جبار». 58:1-10 is not glossed: As-Sa'di's «عذابنا» and Al-Muyassar's «منَّا» are first person, «قوم هود» repeats 60 and Al-Muyassar's «فأصبحوا لا يرى إلا مساكنهم» (46:25 wording) are not used. STAGING v4: Hud is a blue drop labelled Hud; 'Ad three faceless men in dark robes in the desert, by day (no dawn or dusk over the punishment). c1 (57): Hud speaks (57:1), wide holds throughout his words; nothing is acted on the conditional 57:1-2; a seal plate for I have conveyed what I was sent with (57:4-8); the other people who will succeed them (57:9-12) are not drawn and no plate stands on the Lord-word there; geometric for my Lord is Guardian over all things (57:16 to the end). c2 (58), as in Al-A'raf 7:72: 'Ad are no longer on the stage; Hud moves away on 58:4 (We saved Hud), a footsteps plate stands for those who believed with him (58:6-8: they are not drawn, so they are not counted) and he leaves the stage on 58:8, before any word of punishment; the storm falls on the empty desert from 58:11 (As-Sa'di: the barren wind); nobody is on the stage, nobody is hurt, no ruin. c3 (59-60): the same desert, empty, by day (Al-Muyassar: only their dwellings could be seen); a crown plate for every obstinate tyrant (59:9-11), an hourglass for the Day of Resurrection (60:6-7); the curse and the Day are never drawn. The cover now shows Hud leaving (58:4)."
+  "notes": "No wind of punishment, destruction or ruins drawn. 57 is Hud's speech: no plate (and none on «ويستخلف ربي»). Light for «برحمة» after Hud's name (58:5). A crown for «أمر كل جبار». 58:1-10 is not glossed: As-Sa'di's «عذابنا» and Al-Muyassar's «منَّا» are first person, «قوم هود» repeats 60 and Al-Muyassar's «فأصبحوا لا يرى إلا مساكنهم» (46:25 wording) are not used. STAGING v4: Hud is a blue drop labelled Hud; 'Ad three faceless men in dark robes in the desert, by day (no dawn or dusk over the punishment). c1 (57): Hud speaks (57:1), wide holds throughout his words; nothing is acted on the conditional 57:1-2; a seal plate for I have conveyed what I was sent with (57:4-8); the other people who will succeed them (57:9-12) are not drawn and no plate stands on the Lord-word there; geometric for my Lord is Guardian over all things (57:16 to the end). c2 (58), as in Al-A'raf 7:72: 'Ad are no longer on the stage; Hud moves away on 58:4 (We saved Hud), a footsteps plate stands for those who believed with him (58:6-8: they are not drawn, so they are not counted) and he leaves the stage on 58:8, before any word of punishment; the storm falls on the empty desert from 58:11 (As-Sa'di: the barren wind); nobody is on the stage, nobody is hurt, no ruin. c3 (59-60): the same desert, empty, by day, a last gust of wind on 59:1 (Al-Muyassar: only their dwellings could be seen); a crown plate for every obstinate tyrant (59:9-11), an hourglass for the Day of Resurrection (60:6-7); the curse and the Day are never drawn. The cover now shows the storm on the empty desert (58:13)."
  },
  "cover": {
   "series_ar": "هود وعاد",
@@ -496,7 +498,7 @@
   "title_en": "The end of 'Ad",
   "at": [
    58,
-   4
+   13
   ]
  },
  "motion": 3,

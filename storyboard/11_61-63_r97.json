@@ -85,9 +85,18 @@
      {
       "at": [
        61,
+       14
+      ],
+      "do": "speak",
+      "who": "salih"
+     },
+     {
+      "at": [
+       61,
        20
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "salih"
      },
      {
       "at": [
@@ -207,8 +216,7 @@
        62,
        11
       ],
-      "do": "shot_close",
-      "who": "d"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -306,7 +314,8 @@
        63,
        13
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "salih"
      },
      {
       "at": [
@@ -508,7 +517,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Salih: no motif, figure or drop; the plates start after his name. Geometric for «اعبدوا الله ما لكم من إله غيره», growth for «أنشأكم من الأرض واستعمركم فيها», light for «إن ربي قريب مجيب». Their claims (62) are framed with As-Sa'di's «وبزعمهم… وهم كذبة في ذلك». 61: short-word flag (word 15, 100 ms), listen. STAGING v4: Salih is a blue drop labelled Salih (no plate on his name); Thamud three faceless men in dark robes in a mountain valley by day (As-Sa'di: they lived in al-Hijr and Wadi al-Qura). The she-camel is never drawn (she is not in these verses). c1 (61): Salih speaks (61:5), wide holds through all his words; geometric for worship Allah (61:7-13); a growth plate for He produced you from the earth and settled you in it (61:15-19); nobody raises hands on ask His forgiveness (the command is addressed, not shown done); a geometric plate (not light) for my Lord is near and responsive (61:24 to the end). c2 (62): they answer (62:1), the camera on them after his name; they shake their heads on 62:9 (do you forbid us), the idols of their fathers are never drawn and nobody turns toward an empty side; they speak again on 62:15 (we are in doubt), framed by As-Sa'di's glosses. c3 (63): Salih answers (63:1, 63:19), wide holds only; a seal plate for clear proof from my Lord and the mercy He gave me (63:7-12, As-Sa'di: His message and revelation); nothing is acted on the conditional 63:13-18. The cover now shows Salih speaking (61:5)."
+  "notes": "Salih: no motif, figure or drop; the plates start after his name. Geometric for «اعبدوا الله ما لكم من إله غيره», growth for «أنشأكم من الأرض واستعمركم فيها», light for «إن ربي قريب مجيب». Their claims (62) are framed with As-Sa'di's «وبزعمهم… وهم كذبة في ذلك». 61: short-word flag (word 15, 100 ms), listen. STAGING v4: Salih is a blue drop labelled Salih (no plate on his name); Thamud three faceless men in dark robes in a mountain valley by day (As-Sa'di: they lived in al-Hijr and Wadi al-Qura). The she-camel is never drawn (she is not in these verses). c1 (61): Salih speaks (61:5, 61:14, 61:20), wide holds through all his words; geometric for worship Allah (61:7-13); a growth plate for He produced you from the earth and settled you in it (61:15-19); nobody raises hands on ask His forgiveness (the command is addressed, not shown done); a geometric plate (not light) for my Lord is near and responsive (61:24 to the end). c2 (62): they answer (62:1), the camera on them after his name; they shake their heads on 62:9 (do you forbid us), the camera stays wide over the worship of their fathers (62:11-14: no close-up beside the valley stones, which could read as idols), the idols are never drawn and nobody turns toward an empty side; they speak again on 62:15 (we are in doubt), framed by As-Sa'di's glosses. c3 (63): Salih answers (63:1, 63:13, 63:19), wide holds only; a seal plate for clear proof from my Lord and the mercy He gave me (63:7-12, As-Sa'di: His message and revelation); nothing is acted on the conditional 63:13-18. The cover now shows Salih speaking (61:5)."
  },
  "cover": {
   "series_ar": "صالح وثمود",
