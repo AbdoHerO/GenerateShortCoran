@@ -206,20 +206,13 @@
        63,
        11
       ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       63,
-       12
-      ],
       "do": "shot_close",
       "who": "h"
      },
      {
       "at": [
        63,
-       15
+       14
       ],
       "do": "shot_close",
       "who": "h"
