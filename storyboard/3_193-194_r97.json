@@ -32,28 +32,58 @@
    "verses": [
     193
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "desert",
+    "time": "night",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        193,
-       3
+       1
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       193,
+       2
+      ],
+      "do": "raise_hands",
+      "who": "b"
      },
      {
       "at": [
        193,
        5
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        193,
        6
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       193,
+       7
       ],
       "do": "shot_wide"
      },
@@ -62,6 +92,22 @@
        193,
        10
       ],
+      "do": "bow",
+      "who": "b"
+     },
+     {
+      "at": [
+       193,
+       12
+      ],
+      "do": "raise_hands",
+      "who": "b"
+     },
+     {
+      "at": [
+       193,
+       15
+      ],
       "do": "shot_wide"
      },
      {
@@ -69,21 +115,23 @@
        193,
        16
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        193,
        17
       ],
-      "do": "pan_right"
+      "do": "bow",
+      "who": "b"
      },
      {
       "at": [
        193,
        20
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "b"
      }
     ],
     "motifs": [
@@ -92,10 +140,13 @@
        193,
        12
       ],
-      "until": null,
+      "until": [
+       193,
+       18
+      ],
       "motif": "hands",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -106,23 +157,68 @@
    "verses": [
     194
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "desert",
+    "time": "night",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        194,
-       10
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        194,
-       11
+       2
+      ],
+      "do": "raise_hands",
+      "who": "b"
+     },
+     {
+      "at": [
+       194,
+       8
+      ],
+      "do": "bow",
+      "who": "b"
+     },
+     {
+      "at": [
+       194,
+       10
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       194,
+       11
+      ],
+      "do": "raise_hands",
+      "who": "b"
+     },
+     {
+      "at": [
+       194,
+       13
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -134,7 +230,7 @@
       "until": null,
       "motif": "seal",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "light_sweep"
@@ -222,7 +318,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on the caller (the Prophet ﷺ, 193:4); hands for the supplication, a seal for the promise asked for. Both tafsirs name the caller as Muhammad ﷺ."
+  "notes": "No motif on the caller (the Prophet ﷺ, 193:4); hands for the supplication, a seal for the promise asked for. Both tafsirs name the caller as Muhammad ﷺ. STAGING v4: The same people of understanding continue their du'a, sitting under the night sky: raise_hands on the asking, bow on «فآمنا», «سيئاتنا» and «ولا تخزنا». The caller (the Prophet, 193:4) is not shown, and no plate or zoom falls on him; hands plate for the asking forgiveness, seal for the promise. Nothing for the Day of Resurrection."
  },
  "cover": {
   "series_ar": "تفكر ودعاء",
@@ -234,5 +330,6 @@
    12
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

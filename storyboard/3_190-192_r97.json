@@ -32,36 +32,63 @@
    "verses": [
     190
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "desert",
+    "time": "night",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        190,
-       8
+       1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       190,
+       3
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       190,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       190,
+       9
+      ],
+      "do": "look_up",
+      "who": "b"
      },
      {
       "at": [
        190,
        10
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "b"
      }
     ],
     "motifs": [
-     {
-      "at": [
-       190,
-       4
-      ],
-      "until": null,
-      "motif": "stars",
-      "place": "top",
-      "size": "m"
-     },
      {
       "at": [
        190,
@@ -70,7 +97,7 @@
       "until": null,
       "motif": "night_day",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -82,30 +109,86 @@
     191,
     192
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "desert",
+    "time": "night",
+    "actors": [
+     {
+      "id": "s",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 2,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "q",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 2,
+      "pose": "sit",
+      "enter": [
+       191,
+       5
+      ],
+      "exit": null
+     },
+     {
+      "id": "l",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 2,
+      "pose": "sleep",
+      "enter": [
+       191,
+       7
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        191,
-       5
+       1
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       191,
+       4
+      ],
+      "do": "pray",
+      "who": "s"
      },
      {
       "at": [
        191,
        7
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        191,
-       9
+       8
       ],
-      "do": "shot_wide"
+      "do": "look_up",
+      "who": "q"
+     },
+     {
+      "at": [
+       191,
+       10
+      ],
+      "do": "shot_sky"
      },
      {
       "at": [
@@ -117,9 +200,25 @@
      {
       "at": [
        191,
+       14
+      ],
+      "do": "raise_hands",
+      "who": "q"
+     },
+     {
+      "at": [
+       191,
        17
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       191,
+       19
+      ],
+      "do": "raise_hands",
+      "who": "q"
      },
      {
       "at": [
@@ -140,6 +239,14 @@
        192,
        2
       ],
+      "do": "bow",
+      "who": "q"
+     },
+     {
+      "at": [
+       192,
+       4
+      ],
       "do": "shot_wide"
      },
      {
@@ -147,33 +254,51 @@
        192,
        7
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "q"
      },
      {
       "at": [
        192,
        8
       ],
-      "do": "shot_wide"
+      "do": "raise_hands",
+      "who": "q"
      },
      {
       "at": [
        192,
        11
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
      {
       "at": [
        191,
+       11
+      ],
+      "until": [
+       191,
+       13
+      ],
+      "motif": "stars",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       191,
        18
       ],
-      "until": null,
+      "until": [
+       192,
+       2
+      ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "dissolve"
@@ -272,7 +397,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Stars and night_day for the signs in creation, hands for the remembrance, geometric for «سبحانك». Nothing for the Fire."
+  "notes": "Stars and night_day for the signs in creation, hands for the remembrance, geometric for «سبحانك». Nothing for the Fire. STAGING v4: 190: people of understanding in the open desert at night look up at the sky; the camera tilts to the sky on «خلق السماوات» (no Name there) and is back down before any Name; night_day plate on «واختلاف الليل والنهار». 191-192: remembrance in every state (both tafsirs: في جميع أحوالهم; As-Sa'di includes prayer standing, then sitting, then on the side): one group stands in prayer on «قياما», a sitting group appears on «وقعودا», a group lying on their sides appears on «على جنوبهم» (the sleep pose); the sitting ones look up on «ويتفكرون» and raise their hands for the du'a; geometric plate on «سبحانك». The Fire is never drawn; the stars plate ends before «ربنا»."
  },
  "cover": {
   "series_ar": "تفكر ودعاء",
@@ -284,5 +409,6 @@
    6
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

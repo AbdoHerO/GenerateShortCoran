@@ -61,6 +61,24 @@ as DRAFTS to the owner's Creative Hub (platform « Coran »).
 10. **Secrets:** never print, log, write or commit `CREATIVE_HUB_TOKEN` or `.env`. The token lives only in
     environment variables and is sent only to `https://creatives.abdocloud.com/api/agent/v1/…`.
 
+## Autonomous operation and usage limits (owner decision 2026-11-22)
+The owner wants the production to run without stopping and without their action:
+- **Check the usage limit** at the start of every turn and before starting any token-consuming work (sub-agents,
+  reviews, long writing). Read the newest `rate_limit_event` with `list_events(session_id=<this session>,
+  kinds=["rate_limit_event"])`. Look at `unifiedWindows.five_hour.utilization` and `seven_day.utilization`, and
+  `resetsAt` (epoch seconds).
+- **At 95% or more in a window:**
+  - Stop every token-consuming task (TaskStop the running sub-agents; their work is saved and they are resumed
+    later with SendMessage).
+  - Leave background renders and builds running: they use no tokens.
+  - Schedule the resume with `send_later` at that window's reset + 1 minute (reset 05:00 → 05:01, UTC), then end
+    the turn.
+- **Under 95%:** continue the work.
+- Always keep one pending resume `send_later` at the current five-hour window's reset + 1 minute, so the work
+  restarts by itself even if the limit is hit in the middle of a task.
+- After each resume, check again and repeat for the next reset. Continue until every surah is done; never wait for
+  the owner's approval to resume.
+
 ## Working conventions
 - **Start of a session:** `bash scripts/cloud-setup.sh` must print `SETUP OK`. Then work on the branch
   `production`: `git fetch origin && git checkout production && git pull` (create it from `main` the first time).
