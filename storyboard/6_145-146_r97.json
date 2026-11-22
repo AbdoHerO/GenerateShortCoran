@@ -32,23 +32,59 @@
    "verses": [
     145
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "sit",
+      "enter": [
+       145,
+       31
+      ],
+      "exit": null,
+      "look": "poor"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        145,
-       5
+       1
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       145,
+       4
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
        145,
        10
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
@@ -60,52 +96,69 @@
      {
       "at": [
        145,
-       13
+       15
+      ],
+      "do": "shake_head",
+      "who": "b"
+     },
+     {
+      "at": [
+       145,
+       18
       ],
       "do": "pan_right"
      },
      {
       "at": [
        145,
-       16
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       145,
        21
       ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       145,
+       23
+      ],
+      "do": "shake_head",
+      "who": "b"
+     },
+     {
+      "at": [
+       145,
+       26
+      ],
       "do": "shot_wide"
      },
      {
       "at": [
        145,
-       25
+       32
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
        145,
-       31
+       36
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
      {
       "at": [
        145,
-       1
+       6
       ],
       "until": [
        145,
-       8
+       12
       ],
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -115,7 +168,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -126,28 +179,75 @@
    "verses": [
     146
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "q",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "c",
+      "type": "camel",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        146,
-       7
+       1
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        146,
-       11
+       3
+      ],
+      "do": "shot_close",
+      "who": "q"
+     },
+     {
+      "at": [
+       146,
+       6
+      ],
+      "do": "shot_close",
+      "who": "c"
+     },
+     {
+      "at": [
+       146,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       146,
+       13
       ],
       "do": "pan_left"
      },
      {
       "at": [
        146,
-       14
+       15
       ],
       "do": "shot_wide"
      },
@@ -156,32 +256,52 @@
        146,
        17
       ],
+      "do": "shot_close",
+      "who": "q"
+     },
+     {
+      "at": [
+       146,
+       19
+      ],
       "do": "shot_wide"
      },
      {
       "at": [
        146,
-       18
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       146,
-       23
+       20
       ],
       "do": "pan_right"
      },
      {
       "at": [
        146,
-       26
+       24
+      ],
+      "do": "shot_close",
+      "who": "q"
+     },
+     {
+      "at": [
+       146,
+       27
       ],
       "do": "shot_wide"
      }
     ],
-    "motifs": [],
-    "transition": "dissolve"
+    "motifs": [
+     {
+      "at": [
+       146,
+       27
+      ],
+      "until": null,
+      "motif": "seal",
+      "place": "top",
+      "size": "s"
+     }
+    ],
+    "transition": "slide"
    }
   }
  ],
@@ -332,7 +452,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No dead animal, blood or pig drawn: a book for «فيما أوحي إلي», geometric for «فإن ربك غفور رحيم». 145:1-7 carries As-Sa'di's note that other things are also forbidden (predators…), and 145:8-11 Al-Muyassar's context «مما تذكرون أنه حُرِّم من الأنعام», so the list is not read as exhaustive. Al-Muyassar's first-person «حرمَّنا» (146) not used; 146:27-28 not glossed."
+  "notes": "No dead animal, blood or pig drawn: a book for «فيما أوحي إلي», geometric for «فإن ربك غفور رحيم». 145:1-7 carries As-Sa'di's note that other things are also forbidden (predators…), and 145:8-11 Al-Muyassar's context «مما تذكرون أنه حُرِّم من الأنعام», so the list is not read as exhaustive. Al-Muyassar's first-person «حرمَّنا» (146) not used; 146:27-28 not glossed. STAGING v4: c1 (145): believers in a market of grain and fruit; the book plate stands for the revelation (145:6-11; no plate starts on «قل», the Prophet is not shown). Nothing forbidden is drawn (no dead animal, blood, pig or slaughter); the believers shake their heads on 145:15 and 145:23 (refusing what is impure). For the one compelled by hunger (Al-Muyassar) a poor man appears sitting on 145:31, without any gesture; geometric for «فإن ربك غفور رحيم». No purse is given (the ruling is food). c2 (146): the people the ruling was given to (3 faceless figures, no women) in a market, with a camel for the animals of undivided hoof (As-Sa'di: like camels) on 146:6; no cattle, sheep, fat or meat is drawn and nothing is acted for the recompense of their transgression; a seal plate for «وإنا لصادقون»."
  },
  "cover": {
   "series_ar": "تشريعات الجاهلية",
@@ -341,8 +461,9 @@
   "title_en": "Who makes things unlawful",
   "at": [
    145,
-   1
+   8
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

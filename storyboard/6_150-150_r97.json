@@ -32,51 +32,91 @@
    "verses": [
     150
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "gather",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       150,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        150,
        5
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       150,
+       8
+      ],
+      "do": "speak",
+      "who": "d"
      },
      {
       "at": [
        150,
        10
       ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       150,
+       14
+      ],
       "do": "pan_left"
      },
      {
       "at": [
        150,
-       15
+       17
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        150,
-       18
+       19
       ],
-      "do": "shot_wide"
+      "do": "shake_head",
+      "who": "d"
      },
      {
       "at": [
        150,
        22
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        150,
        25
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
@@ -98,7 +138,17 @@
       ],
       "motif": "scales",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       150,
+       26
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "s"
      }
     ]
    }
@@ -163,7 +213,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Scales for the challenge to bring witnesses (not the Mizan); they leave before «فإن شهدوا». The claim «أن الله حرم هذا» is framed by As-Sa'di's «فتكون دعواهم إذًا باطلة»."
+  "notes": "Scales for the challenge to bring witnesses (not the Mizan); they leave before «فإن شهدوا». The claim «أن الله حرم هذا» is framed by As-Sa'di's «فتكون دعواهم إذًا باطلة». STAGING v4: Staged: the idolaters who forbade crops and cattle (3 men in dark robes gathered at the centre of a town at dusk, facing no empty side). The challenge (150:1-9) comes from the Prophet, who is not shown and gets no plate on «قل»; the scales plate stands for the demand for witnesses (150:3-5), not the Mizan. They speak their claim on 150:8 (framed by «فتكون دعواهم إذًا باطلة»), nobody testifies (the condition 150:10-14 is not acted), they shake their heads on 150:19 (denying the verses), and geometric stands for «بربهم» (150:26-27)."
  },
  "cover": {
   "series_ar": "تشريعات الجاهلية",
@@ -172,8 +222,9 @@
   "title_en": "A claim without witnesses",
   "at": [
    150,
-   1
+   4
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

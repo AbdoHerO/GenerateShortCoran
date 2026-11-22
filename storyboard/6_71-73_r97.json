@@ -91,14 +91,14 @@
        71,
        12
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        71,
        13
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -118,11 +118,18 @@
      {
       "at": [
        71,
-       22
+       21
       ],
       "do": "walk_to",
       "who": "w",
       "to": "left"
+     },
+     {
+      "at": [
+       71,
+       22
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -137,7 +144,8 @@
        71,
        25
       ],
-      "do": "shot_wide"
+      "do": "turn",
+      "who": "w"
      },
      {
       "at": [
@@ -152,8 +160,7 @@
        71,
        28
       ],
-      "do": "turn",
-      "who": "w"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -174,7 +181,7 @@
        71,
        39
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -183,7 +190,10 @@
        71,
        23
       ],
-      "until": null,
+      "until": [
+       71,
+       30
+      ],
       "motif": "two_paths",
       "place": "top",
       "size": "s"
@@ -191,7 +201,7 @@
      {
       "at": [
        71,
-       32
+       35
       ],
       "until": null,
       "motif": "light",
@@ -443,7 +453,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "71:11-17 (the rhetorical «ونرد على أعقابنا») is not glossed, so the question is never shown as a statement. Two paths for the bewildered one, no person and no motif on the devils; light for «إن هدى الله هو الهدى». Stars for the heavens, geometric for «عالم الغيب والشهادة». The Horn (73:16-18): nothing drawn. 73: short-word flag, listen. STAGING v4: c1: the believers (Al-Muyassar: the command includes all of us) refuse at 71:2 to invoke what neither benefits nor harms; the rhetorical turning back (71:11-13) is not acted. The parable (71:18-29): a lone traveller led astray in the land, bewildered (turns), his companions call him to guidance. His refusal is not drawn (only Al-Muyassar says he refuses; As-Sa'di says he stays bewildered between the two callers). The devils are never drawn. c2 stays ambient (the Gathering, creation, the Day, the Horn, His attributes) with a hands plate for the prayer (72:2)."
+  "notes": "71:11-17 (the rhetorical «ونرد على أعقابنا») is not glossed, so the question is never shown as a statement. Two paths for the bewildered one, no person and no motif on the devils; light for «إن هدى الله هو الهدى». Stars for the heavens, geometric for «عالم الغيب والشهادة». The Horn (73:16-18): nothing drawn. 73: short-word flag, listen. STAGING v4: c1: the believers (Al-Muyassar: the command includes all of us) refuse at 71:2 to invoke what neither benefits nor harms; the rhetorical turning back (71:11-13) is not acted. The parable (71:18-29): a lone traveller led astray in the land, bewildered (two quick turns on 71:23 and 71:25, a two-paths plate), his companions call him to guidance (71:26); he does not turn his back on them. His refusal is not drawn (only Al-Muyassar says he refuses; As-Sa'di says he stays bewildered between the two callers). The devils are never drawn. The light plate starts on 71:35, after the Name. c2 stays ambient (the Gathering, creation, the Day, the Horn, His attributes) with a hands plate for the prayer (72:2)."
  },
  "cover": {
   "series_ar": "العلم والتدبير",

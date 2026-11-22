@@ -45,7 +45,10 @@
       "count": 3,
       "pose": "gather",
       "enter": null,
-      "exit": null
+      "exit": [
+       91,
+       26
+      ]
      }
     ],
     "events": [],
@@ -162,8 +165,7 @@
        91,
        43
       ],
-      "do": "speak",
-      "who": "d"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -469,7 +471,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Their claim (91:6-14) is glossed only as Al-Muyassar's «إذ أنكروا…». 91:31-37 is not glossed: the tafsirs differ on who is addressed (As-Sa'di: knowledge from the Torah; Al-Muyassar: the Arabs through the Quran). No scroll for «قراطيس» (the blamed act); a book for the Torah and the Quran, light for «نورا وهدى» and the prayer. No motif on Musa or the Prophet ﷺ. STAGING v4: c1 (91): the deniers of revelation (As-Sa'di: Jews and polytheists; Al-Muyassar: the polytheists) as 3 men talking among themselves at the centre of a town (no empty side they face); they speak at 91:7 and at 91:43. A book for the Torah (ends before 91:22), light for 91:23, geometric for the answer 91:39. 91:26-37 is camera only: the tafsirs differ on who is addressed there, and the sheets (the blamed act) are not drawn. Musa and the Prophet are not shown. c2 (92): believers in a prayer hall read the Quran (book, 92:2) and keep their prayer (pray, ruku on 92:21-22); Mecca is not drawn, no Kaaba."
+  "notes": "Their claim (91:6-14) is glossed only as Al-Muyassar's «إذ أنكروا…». 91:31-37 is not glossed: the tafsirs differ on who is addressed (As-Sa'di: knowledge from the Torah; Al-Muyassar: the Arabs through the Quran). No scroll for «قراطيس» (the blamed act); a book for the Torah and the Quran, light for «نورا وهدى» and the prayer. No motif on Musa or the Prophet ﷺ. STAGING v4: c1 (91): the deniers of revelation (As-Sa'di: Jews and polytheists; Al-Muyassar: the polytheists) as 3 men talking among themselves at the centre of a town (no empty side they face); they speak at 91:7 and leave on 91:26, where Al-Muyassar turns the address to the Jews (As-Sa'di keeps one group), so 91:26-44 plays on the empty town. A book for the Torah (ends before 91:22), light for 91:23, geometric for the answer 91:39. The sheets (the blamed act) are not drawn. Musa and the Prophet are not shown. c2 (92): believers in a prayer hall read the Quran (book, 92:2) and keep their prayer (pray, ruku on 92:21-22); Mecca is not drawn, no Kaaba."
  },
  "cover": {
   "series_ar": "عظمة الخالق وآياته",

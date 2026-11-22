@@ -39,7 +39,21 @@
      {
       "at": [
        158,
+       3
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       158,
        4
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       158,
+       5
       ],
       "do": "pan_right"
      },
@@ -98,6 +112,13 @@
        36
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       158,
+       37
+      ],
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -123,35 +144,100 @@
    "verses": [
     159
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "a",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 2,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "c",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 2,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "r",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 2,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        159,
-       5
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        159,
-       13
+       3
       ],
-      "do": "pan_right"
+      "do": "turn",
+      "who": "a"
      },
      {
       "at": [
        159,
-       15
+       4
       ],
-      "do": "pan_left"
+      "do": "turn",
+      "who": "r"
      },
      {
       "at": [
        159,
-       17
+       6
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       159,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       159,
+       12
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       159,
+       16
+      ],
+      "do": "shot_close",
+      "who": "c"
+     },
+     {
+      "at": [
+       159,
+       18
       ],
       "do": "shot_wide"
      }
@@ -168,7 +254,7 @@
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "dissolve"
@@ -182,28 +268,35 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn",
+    "mood": "geometric",
     "beats": [
      {
       "at": [
        160,
-       7
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       160,
-       9
+       2
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        160,
-       12
+       7
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       160,
+       9
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       160,
+       12
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -372,7 +465,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "158: angels, «أو يأتي ربك» and the signs of the Hour are not drawn (night sky); «أو يأتي ربك» carries only what both tafsirs say («لفصل القضاء بين العباد»). No group motif for the sects (no countable groups). An hourglass for «انتظروا», geometric for «إنما أمرهم إلى الله», growth for «عشر أمثالها». No scales (the recompense)."
+  "notes": "158: angels, «أو يأتي ربك» and the signs of the Hour are not drawn (night sky); «أو يأتي ربك» carries only what both tafsirs say («لفصل القضاء بين العباد»). No group motif for the sects (no countable groups). An hourglass for «انتظروا», geometric for «إنما أمرهم إلى الله», growth for «عشر أمثالها». No scales (the recompense). STAGING v4: c1 (158) stays ambient: the angels, «أو يأتي ربك» and the signs of the Hour (nothing drawn). c2 (159): those who split their religion: three small groups of people in a town at dusk (no women, no fixed number given by the verse), the side groups turn their backs on 159:3-4 (they divided and became sects). Every place of the stage is occupied, so nothing faces an empty side during «لست منهم في شيء» (the Prophet is not shown; wide shots only, no pans); geometric for «إنما أمرهم إلى الله». c3 (160) stays ambient: the recompense on the Day (Al-Muyassar: whoever meets his Lord on the Day of Resurrection); mood changed from dawn to geometric (His justice; the recompense of the evil deed is recited), growth plate for the tenfold reward, no scales."
  },
  "cover": {
   "series_ar": "الوصايا والختام",
@@ -384,5 +477,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

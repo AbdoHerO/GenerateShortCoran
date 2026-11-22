@@ -65,7 +65,10 @@
        78,
        3
       ],
-      "until": null
+      "until": [
+       78,
+       11
+      ]
      }
     ],
     "beats": [
@@ -79,14 +82,6 @@
      {
       "at": [
        78,
-       2
-      ],
-      "do": "look_up",
-      "who": "p"
-     },
-     {
-      "at": [
-       78,
        5
       ],
       "do": "speak",
@@ -95,10 +90,10 @@
      {
       "at": [
        78,
-       9
+       8
       ],
-      "do": "sparkle",
-      "who": "sky"
+      "do": "shot_close",
+      "who": "q"
      },
      {
       "at": [
@@ -106,13 +101,6 @@
        10
       ],
       "do": "shot_wide"
-     },
-     {
-      "at": [
-       78,
-       11
-      ],
-      "do": "shot_ground"
      },
      {
       "at": [
@@ -194,10 +182,9 @@
      {
       "at": [
        79,
-       6
+       7
       ],
-      "do": "sparkle",
-      "who": "sky"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -294,7 +281,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No sun drawn and no sky mood in 78; Ibrahim gets no motif. 78:5-7 «هذا ربي» is not glossed alone (the previous video carries the tafsirs' framing); only «من الكوكب ومن القمر» under «هذا أكبر». Geometric for «للذي فطر السماوات والأرض». STAGING v4: c1: Ibrahim (blue drop) with his people (3 men) at dawn; the sun rises in the sky of the stage (sunrise_open on 78:3) and its setting is a camera tilt to the ground (78:11). He speaks to his people at 78:5 (argument, both tafsirs): nothing is gestured or zoomed on 78:6-7, no glow, no look up there. He declares his disavowal (shake_head on 78:15) facing his people. c2 (79): his declaration to his people at dusk, geometric for the Creator (79:4-7), a head shake on 79:9 (not one of the polytheists). No idols drawn."
+  "notes": "No sun drawn and no sky mood in 78; Ibrahim gets no motif. 78:5-7 «هذا ربي» is not glossed alone (the previous video carries the tafsirs' framing); only «من الكوكب ومن القمر» under «هذا أكبر». Geometric for «للذي فطر السماوات والأرض». STAGING v4: c1: Ibrahim (blue drop) with his people (3 men) at dawn; the sun rises in the sky of the stage (sunrise_open on 78:3) and sinks below the horizon from 78:11 (until), gone by 78:13. He speaks to his people at 78:5 (argument, both tafsirs) and the camera cuts to them on 78:8: nothing is gestured, sparkled or zoomed on 78:6-9, no glow, no look up. He declares his disavowal (shake_head on 78:15) facing his people. c2 (79): his declaration to his people at dusk (no sun), geometric for the Creator (79:4-7), a head shake on 79:9 (not one of the polytheists). No idols drawn."
  },
  "cover": {
   "series_ar": "إبراهيم والتوحيد",

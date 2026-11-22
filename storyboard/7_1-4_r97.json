@@ -34,58 +34,124 @@
     2,
     3
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
+       1,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
        2,
-       5
+       1
+      ],
+      "do": "read",
+      "who": "b"
+     },
+     {
+      "at": [
+       2,
+       3
       ],
       "do": "pan_left"
      },
      {
       "at": [
        2,
-       9
+       6
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        2,
-       11
+       10
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       2,
+       12
+      ],
+      "do": "read",
+      "who": "b"
      },
      {
       "at": [
        3,
-       4
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       3,
-       9
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        3,
+       3
+      ],
+      "do": "read",
+      "who": "b"
+     },
+     {
+      "at": [
+       3,
+       8
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       3,
        11
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
        3,
        12
       ],
-      "do": "pan_left"
+      "do": "turn",
+      "who": "p"
+     },
+     {
+      "at": [
+       3,
+       14
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -100,7 +166,7 @@
       ],
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -113,7 +179,7 @@
       ],
       "motif": "footsteps",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -128,6 +194,13 @@
    "params": {
     "mood": "night_sky",
     "beats": [
+     {
+      "at": [
+       4,
+       3
+      ],
+      "do": "pan_right"
+     },
      {
       "at": [
        4,
@@ -262,7 +335,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "7:1 (separate letters) carries As-Sa'di's «لم ينزلها عبثا بل لحكمة لا نعلمها», no meaning given. A book for «كتاب أنزل إليك», footsteps for «اتبعوا», night and day for «بياتا أو هم قائلون». No destruction or ruins drawn. No motif on the Prophet ﷺ."
+  "notes": "7:1 (separate letters) carries As-Sa'di's «لم ينزلها عبثا بل لحكمة لا نعلمها», no meaning given. A book for «كتاب أنزل إليك», footsteps for «اتبعوا», night and day for «بياتا أو هم قائلون». No destruction or ruins drawn. No motif on the Prophet ﷺ. STAGING v4: c1 (1-3): a town by day; believers sit and read the Book on 2:1 and on 2:12 (As-Sa'di: a reminder by which the believers remember the straight path), the people being warned stand on the right (camera on them at 2:10 and 3:11); on 3:12 (Muyassar: you rarely take heed) they turn away. Both sides of the stage are occupied, so no pan drifts to an empty side on 2:3. The Prophet is never shown; nothing on the Name. c2 (4: towns destroyed by night or at noon) stays ambient: a punishment of people, never shown, and the plan forbids drawing destruction."
  },
  "cover": {
   "series_ar": "الكتاب والإنذار",
@@ -271,8 +344,9 @@
   "title_en": "The message of warning",
   "at": [
    2,
-   1
+   2
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

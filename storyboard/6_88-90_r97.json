@@ -34,7 +34,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn",
+    "mood": "light",
     "beats": [
      {
       "at": [
@@ -68,7 +68,7 @@
        88,
        4
       ],
-      "motif": "light",
+      "motif": "geometric",
       "place": "top",
       "size": "m"
      }
@@ -296,7 +296,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "88:10-11 «ولو أشركوا» carries «على الفرض والتقدير» (both tafsirs). The identity of «قوما» in 89 is not glossed (Al-Muyassar's «المهاجرين والأنصار» is one view); only «بل مؤمنون بها». No motif on the prophets or the Prophet ﷺ: light for «هدى الله» and «ذكرى للعالمين», a book for «الكتاب». STAGING v4: Kept ambient: 88 is His guidance with a counterfactual (88:10-11, never acted); 89 the prophets of the list; 89:7-10 is a condition; 90 is the Prophet's own conduct (follow their guidance, say...), never shown. Birds crossing on 89:10 and a light swell on 89:13 added (motion check)."
+  "notes": "88:10-11 «ولو أشركوا» carries «على الفرض والتقدير» (both tafsirs). The identity of «قوما» in 89 is not glossed (Al-Muyassar's «المهاجرين والأنصار» is one view); only «بل مؤمنون بها». No motif on the prophets or the Prophet ﷺ: light for «هدى الله» and «ذكرى للعالمين», a book for «الكتاب». STAGING v4: Kept ambient: 88 is His guidance with a counterfactual (88:10-11, never acted); 89 the prophets of the list; 89:7-10 is a condition; 90 is the Prophet's own conduct (follow their guidance, say...), never shown. c1 mood light instead of dawn (88:10-16 is a warning) and its 88:1 plate geometric (no light drawing on at the Name 88:3). Birds crossing on 89:10 and a light swell on 89:13 added (motion check)."
  },
  "cover": {
   "series_ar": "إبراهيم والتوحيد",

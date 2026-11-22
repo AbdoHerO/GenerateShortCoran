@@ -36,7 +36,7 @@
    "scene": "stage",
    "params": {
     "setting": "city",
-    "time": "day",
+    "time": "dusk",
     "actors": [
      {
       "id": "p",
@@ -98,9 +98,8 @@
        74,
        10
       ],
-      "do": "point",
-      "who": "p",
-      "to": "a"
+      "do": "speak",
+      "who": "p"
      },
      {
       "at": [
@@ -122,8 +121,7 @@
        75,
        5
       ],
-      "do": "look_up",
-      "who": "p"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -147,7 +145,7 @@
        5
       ],
       "until": null,
-      "motif": "stars",
+      "motif": "geometric",
       "place": "top",
       "size": "s"
      }
@@ -187,7 +185,19 @@
       "exit": null
      }
     ],
-    "events": [],
+    "events": [
+     {
+      "type": "moonrise",
+      "at": [
+       77,
+       4
+      ],
+      "until": [
+       77,
+       9
+      ]
+     }
+    ],
     "beats": [
      {
       "at": [
@@ -199,18 +209,16 @@
      {
       "at": [
        76,
-       4
+       2
       ],
-      "do": "look_up",
-      "who": "p"
+      "do": "shot_sky"
      },
      {
       "at": [
        76,
        6
       ],
-      "do": "sparkle",
-      "who": "sky"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -263,16 +271,15 @@
        77,
        1
       ],
-      "do": "look_up",
-      "who": "p"
+      "do": "shot_close",
+      "who": "q"
      },
      {
       "at": [
        77,
-       3
+       4
       ],
-      "do": "sparkle",
-      "who": "sky"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -295,7 +302,7 @@
        77,
        9
       ],
-      "do": "shot_ground"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -451,7 +458,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Ibrahim gets no motif and no figure; no idol, star, moon or sun drawn, and 76-77 use the geometric mood (no sky). «هذا ربي» is glossed each time as argument with the opponent (As-Sa'di «على وجه التنزل مع الخصم», Al-Muyassar «على سبيل استدراج الخصم»), never as his belief. Geometric for «ملكوت السماوات والأرض». STAGING v4: c1: Ibrahim (blue drop) speaks to his father (one faceless man) in a town; the idols are never drawn (Ibrahim shakes his head at 74:7, points at his father at 74:10). 75: he looks up, a stars plate for the heavens. c2: at night with his people (3 men; Al-Muyassar: he debated his people, who worshipped the stars). The star and the moon are only the night sky of the stage (a sparkle on the sky at 76:6 and 77:3); their setting is a tilt of the camera to the ground (76:11, 77:9). Nothing is drawn, gestured or zoomed on 76:8-9 and 77:6-7: he speaks to his people (as argument, both tafsirs), never looks up, bows or raises hands there; no glow. No plate in c2."
+  "notes": "Ibrahim gets no motif and no figure; no idol, star, moon or sun drawn, and 76-77 use the geometric mood (no sky). «هذا ربي» is glossed each time as argument with the opponent (As-Sa'di «على وجه التنزل مع الخصم», Al-Muyassar «على سبيل استدراج الخصم»), never as his belief. Geometric for «ملكوت السماوات والأرض». STAGING v4: c1: Ibrahim (blue drop) speaks to his father (one faceless man) in a town at dusk (no sun disc); the idols are never drawn (he shakes his head at 74:7, speaks again at 74:10). 75: a geometric plate for the dominion of the heavens and the earth (As-Sa'di: seen with his insight); no star, moon or sun plate, no look up. c2: at night with his people (3 men; Al-Muyassar: he debated his people, who worshipped the stars). The star is only the star field of the night sky; its setting is a camera tilt to the ground (76:11). There is no moon until the moonrise event on 77:4; it sinks below the horizon from 77:9 and is gone before 77:14. Ibrahim only speaks toward his people (76:7, 77:5, as argument in both tafsirs) and the camera cuts to their reaction; nothing is drawn, gestured or zoomed on 76:8-9 and 77:6-7: no look up, no sparkle, no glow, no plate."
  },
  "cover": {
   "series_ar": "إبراهيم والتوحيد",

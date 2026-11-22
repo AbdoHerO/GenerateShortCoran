@@ -87,6 +87,13 @@
      },
      {
       "at": [
+       16,
+       7
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
        17,
        2
       ],
@@ -267,7 +274,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Iblis never drawn; no motif during his speech. «فبما أغويتني» is not paraphrased (Al-Muyassar's «فبسبب ما أضللتني» would show his claim as a statement); 16:1-3 carries As-Sa'di's «لما أُبْلِسَ وأَيِسَ». 15 carries As-Sa'di's wisdom of the respite; an hourglass for «المنظرين». Hell: nothing literal."
+  "notes": "Iblis never drawn; no motif during his speech. «فبما أغويتني» is not paraphrased (Al-Muyassar's «فبسبب ما أضللتني» would show his claim as a statement); 16:1-3 carries As-Sa'di's «لما أُبْلِسَ وأَيِسَ». 15 carries As-Sa'di's wisdom of the respite; an hourglass for «المنظرين». Hell: nothing literal. STAGING v4: Staging v4: kept ambient. 14-18 are Iblis's request for respite, his vow against the children of Adam and his expulsion: the unseen; Iblis is never drawn, and no people are staged under his vow (17), so nothing reads as him coming at them."
  },
  "cover": {
   "series_ar": "آدم وإبليس",
@@ -279,5 +286,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

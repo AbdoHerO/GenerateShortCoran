@@ -32,42 +32,88 @@
    "verses": [
     151
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "home",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 2,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        151,
-       7
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        151,
-       15
+       5
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       151,
+       10
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       151,
+       13
+      ],
+      "do": "raise_hands",
+      "who": "b"
+     },
+     {
+      "at": [
+       151,
+       16
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        151,
-       18
+       19
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        151,
-       21
+       22
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        151,
-       26
+       24
+      ],
+      "do": "shake_head",
+      "who": "b"
+     },
+     {
+      "at": [
+       151,
+       28
       ],
       "do": "pan_left"
      },
@@ -81,31 +127,52 @@
      {
       "at": [
        151,
-       37
+       36
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        151,
-       40
+       39
       ],
-      "do": "pan_left"
+      "do": "read",
+      "who": "b"
+     },
+     {
+      "at": [
+       151,
+       41
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
      {
       "at": [
        151,
-       12
+       8
       ],
       "until": [
        151,
-       14
+       12
       ],
-      "motif": "hands",
+      "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       151,
+       20
+      ],
+      "until": [
+       151,
+       22
+      ],
+      "motif": "wheat",
+      "place": "top",
+      "size": "s"
      }
     ]
    }
@@ -116,21 +183,86 @@
    "verses": [
     152
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "g",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "o",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        152,
-       7
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        152,
-       16
+       4
+      ],
+      "do": "shot_close",
+      "who": "o"
+     },
+     {
+      "at": [
+       152,
+       7
+      ],
+      "do": "walk_to",
+      "who": "g",
+      "to": "center"
+     },
+     {
+      "at": [
+       152,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       152,
+       11
+      ],
+      "do": "give",
+      "who": "g",
+      "to": "o"
+     },
+     {
+      "at": [
+       152,
+       13
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       152,
+       17
       ],
       "do": "pan_right"
      },
@@ -139,21 +271,31 @@
        152,
        20
       ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       152,
-       23
-      ],
       "do": "shot_wide"
      },
      {
       "at": [
        152,
-       32
+       22
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "g",
+      "to": "o"
+     },
+     {
+      "at": [
+       152,
+       26
+      ],
+      "do": "shot_close",
+      "who": "g"
+     },
+     {
+      "at": [
+       152,
+       31
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -175,7 +317,7 @@
       ],
       "motif": "scales",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -188,10 +330,10 @@
       ],
       "motif": "seal",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "slide"
    }
   },
   {
@@ -200,30 +342,68 @@
    "verses": [
     153
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "w",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        153,
-       5
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        153,
-       12
+       5
+      ],
+      "do": "walk_to",
+      "who": "w",
+      "to": "center"
+     },
+     {
+      "at": [
+       153,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       153,
+       13
       ],
       "do": "pan_right"
      },
      {
       "at": [
        153,
-       14
+       15
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "w"
+     },
+     {
+      "at": [
+       153,
+       17
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -238,7 +418,7 @@
       ],
       "motif": "footsteps",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -251,10 +431,10 @@
       ],
       "motif": "two_paths",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "light_sweep"
    }
   }
  ],
@@ -482,7 +662,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Killing children or a soul: nothing drawn. «إلا بالحق» (151:30-37) is not glossed: Al-Muyassar's list of capital cases is not displayed. Hands for «وبالوالدين إحسانا», scales for «الكيل والميزان» (weights, not the Mizan), a seal for «وبعهد الله أوفوا», footsteps for «صراطي مستقيما», two paths for «ولا تتبعوا السبل». «الوصايا العشر» is the common name of these verses."
+  "notes": "Killing children or a soul: nothing drawn. «إلا بالحق» (151:30-37) is not glossed: Al-Muyassar's list of capital cases is not displayed. Hands for «وبالوالدين إحسانا», scales for «الكيل والميزان» (weights, not the Mizan), a seal for «وبعهد الله أوفوا», footsteps for «صراطي مستقيما», two paths for «ولا تتبعوا السبل». «الوصايا العشر» is the common name of these verses. STAGING v4: Each commandment only as an everyday act, nothing invented. c1 (151) at home: two believers sitting; the invitation of 151:1-7 is not acted (the Prophet is not shown, nobody walks toward him, no plate on «قل»). Geometric for not associating anything with Him (151:8-11); they raise their hands on 151:13 (Al-Muyassar: kindness to parents by dutifulness and du'a; the parents are not drawn); a wheat plate for «نرزقكم وإياهم» (151:20); no child is drawn and nothing is drawn for either killing (151:14-18, 151:30-37); a head shake on 151:24 (keeping away from immoralities, no woman on stage); they read on 151:39 (what He has enjoined). c2 (152) in a market: the guardian (a believer) walks over to him (152:7) and hands the grown orphan his property on 152:11 (both tafsirs: give him his wealth when he reaches maturity); scales for full measure and weight (152:13-15, not the Mizan); he speaks justly on 152:22; a seal for Allah's covenant (152:28-30). c3 (153) on the road: believers walk along the straight path on 153:5 (footsteps plate); the other ways are only the two-paths plate; nobody splits off (the scattering is a prohibition, not acted)."
  },
  "cover": {
   "series_ar": "الوصايا والختام",
@@ -490,9 +670,10 @@
   "title_ar": "الوصايا العشر",
   "title_en": "Allah's ten counsels",
   "at": [
-   151,
-   1
+   153,
+   4
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

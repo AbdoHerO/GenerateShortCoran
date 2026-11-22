@@ -232,7 +232,10 @@
       "count": 3,
       "pose": "stand",
       "enter": null,
-      "exit": null
+      "exit": [
+       70,
+       32
+      ]
      },
      {
       "id": "b",
@@ -242,7 +245,10 @@
       "count": 2,
       "pose": "stand",
       "enter": null,
-      "exit": null
+      "exit": [
+       70,
+       11
+      ]
      }
     ],
     "events": [],
@@ -291,64 +297,72 @@
        70,
        13
       ],
-      "do": "shot_close",
-      "who": "k"
+      "do": "shot_wide"
      },
      {
       "at": [
        70,
        17
       ],
-      "do": "wind"
+      "do": "shot_close",
+      "who": "k"
      },
      {
       "at": [
        70,
        22
       ],
-      "do": "leaves"
+      "do": "pan_right"
      },
      {
       "at": [
        70,
        26
       ],
-      "do": "wind"
+      "do": "shot_close",
+      "who": "k"
      },
      {
       "at": [
        70,
-       30
+       29
       ],
-      "do": "leaves"
+      "do": "shot_wide"
      },
      {
       "at": [
        70,
-       33
+       32
       ],
-      "do": "wind"
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       70,
+       34
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
        70,
        38
       ],
-      "do": "leaves"
+      "do": "pan_right"
      },
      {
       "at": [
        70,
        41
       ],
-      "do": "wind"
+      "do": "shot_wide"
      },
      {
       "at": [
        70,
        44
       ],
-      "do": "leaves"
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -571,7 +585,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on the Prophet ﷺ, no people drawn. Light for «ولكن ذكرى», wind for «وغرتهم الحياة الدنيا», a book for «وذكر به» (the Quran). «شراب من حميم وعذاب أليم»: night sky, nothing literal, no fire motif. STAGING v4: c1 (67-69): a sitting of mockers (3 men) in a town; the believers (As-Sa'di: the command is for the Messenger first and his nation after him) turn away at 68:7, refuse to stay at 68:17 and come back to admonish at 69:10 (Al-Muyassar and As-Sa'di: they should admonish them). The conditional 68:14-16 is not acted. The Prophet is not shown. Hourglass on 67:3. c2 (70): the same men in a market at dusk (worldly life, jewel plate on 70:8), believers turn from them (70:1) and remind with the Quran (book, 70:10). From 70:12 the Hereafter outcome is only recited: the camera holds close on the wrongdoers (the believers out of frame), only wind and drifting leaves move; nothing literal, no fire."
+  "notes": "No motif on the Prophet ﷺ, no people drawn. Light for «ولكن ذكرى», wind for «وغرتهم الحياة الدنيا», a book for «وذكر به» (the Quran). «شراب من حميم وعذاب أليم»: night sky, nothing literal, no fire motif. STAGING v4: c1 (67-69): a sitting of mockers (3 men) in a town; the believers (As-Sa'di: the command is for the Messenger first and his nation after him) turn away at 68:7, refuse to stay at 68:17 and come back to admonish at 69:10 (Al-Muyassar and As-Sa'di: they should admonish them). The conditional 68:14-16 is not acted. The Prophet is not shown. Hourglass on 67:3. c2 (70): the same men in a market at dusk (worldly life, jewel plate on 70:8), believers turn from them (70:1) and remind with the Quran (book, 70:10). The believers leave after the reminder (exit 70:11, before 70:12); during 70:13-31 the camera stays on the wrongdoers; they leave on 70:32 (a neutral word), so the market is empty while their Hereafter outcome (70:34-45) is recited. Nothing literal, no fire."
  },
  "cover": {
   "series_ar": "العلم والتدبير",

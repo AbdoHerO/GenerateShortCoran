@@ -41,6 +41,13 @@
      {
       "at": [
        161,
+       3
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       161,
        7
       ],
       "do": "pan_right"
@@ -146,14 +153,47 @@
     164,
     165
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "r",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "rich"
+     },
+     {
+      "id": "p",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "sit",
+      "enter": null,
+      "exit": null,
+      "look": "poor"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        164,
-       6
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       164,
+       9
       ],
       "do": "pan_right"
      },
@@ -162,14 +202,23 @@
        164,
        11
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "r"
      },
      {
       "at": [
        164,
-       16
+       14
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       164,
+       17
+      ],
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
@@ -188,44 +237,92 @@
      {
       "at": [
        164,
-       27
+       28
       ],
       "do": "shot_wide"
-     },
-     {
-      "at": [
-       164,
-       29
-      ],
-      "do": "pan_right"
      },
      {
       "at": [
        165,
        3
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        165,
-       8
+       5
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        165,
+       7
+      ],
+      "do": "shot_close",
+      "who": "r"
+     },
+     {
+      "at": [
+       165,
+       8
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       165,
        9
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       165,
+       10
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        165,
        12
       ],
-      "do": "pan_right"
+      "do": "walk_to",
+      "who": "r",
+      "to": "center"
+     },
+     {
+      "at": [
+       165,
+       14
+      ],
+      "do": "give",
+      "who": "r",
+      "to": "p"
+     },
+     {
+      "at": [
+       165,
+       15
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       165,
+       17
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       165,
+       19
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
@@ -238,6 +335,32 @@
     "motifs": [
      {
       "at": [
+       164,
+       3
+      ],
+      "until": [
+       164,
+       10
+      ],
+      "motif": "geometric",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       164,
+       22
+      ],
+      "until": [
+       164,
+       24
+      ],
+      "motif": "geometric",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
        165,
        6
       ],
@@ -247,33 +370,20 @@
       ],
       "motif": "growth",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        165,
        15
       ],
-      "until": [
-       165,
-       19
-      ],
+      "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       165,
-       19
-      ],
-      "until": null,
-      "motif": "light",
-      "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "wipe"
    }
   }
  ],
@@ -479,7 +589,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Ibrahim and the Prophet ﷺ: no motif. Footsteps for «صراط مستقيم», geometric for «لله رب العالمين لا شريك له» and «إن ربك», growth for «ورفع بعضكم فوق بعض درجات», light for «وإنه لغفور رحيم». No sacrifice drawn for «ونسكي»."
+  "notes": "Ibrahim and the Prophet ﷺ: no motif. Footsteps for «صراط مستقيم», geometric for «لله رب العالمين لا شريك له» and «إن ربك», growth for «ورفع بعضكم فوق بعض درجات», light for «وإنه لغفور رحيم». No sacrifice drawn for «ونسكي». STAGING v4: c1 (161-163) stays ambient: the Prophet's own declaration of his path, his prayer, his sacrifice, his life and death and his being the first of the Muslims; staging it would put people in his place. Ibrahim is not drawn. c2 (164-165) in a market: a rich man and a poor man (As-Sa'di: some raised above others in provision, strength and health). The Prophet's question (164:1-9) is only a geometric plate; the camera goes to each man for «كل نفس» and «وازرة» (164:11-20); the return to Him is a geometric plate (164:22-23). Growth plate for «ورفع بعضكم فوق بعض درجات», the camera goes to the rich man then to the poor man (165:7-9); for the test in what He gave (Al-Muyassar: the grateful is shown) the rich man walks over and gives the poor man a purse on 165:14; geometric for 165:15-21 (the light plate that started on His pronoun «وإنه» is removed)."
  },
  "cover": {
   "series_ar": "الوصايا والختام",
@@ -491,5 +601,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -32,16 +32,69 @@
    "verses": [
     10
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "fields",
+    "time": "day",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "walk",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [
+     {
+      "type": "growth",
+      "at": [
+       10,
+       8
+      ],
+      "until": null
+     }
+    ],
     "beats": [
+     {
+      "at": [
+       10,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       10,
+       4
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       10,
+       8
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        10,
        9
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       10,
+       11
+      ],
+      "do": "turn",
+      "who": "p"
      }
     ],
     "motifs": [
@@ -56,7 +109,7 @@
       ],
       "motif": "wheat",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -327,7 +380,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Adam, the angels and Iblis are never drawn; no prostration scene. Wheat for «معايش», geometric for «خلقناكم ثم صورناكم». Iblis's claim (12:8-17) is framed «معارضا لربه… الدعوى الباطلة». The garden: nothing literal."
+  "notes": "Adam, the angels and Iblis are never drawn; no prostration scene. Wheat for «معايش», geometric for «خلقناكم ثم صورناكم». Iblis's claim (12:8-17) is framed «معارضا لربه… الدعوى الباطلة». The garden: nothing literal. STAGING v4: c1 (10): people walk into fields by day (As-Sa'di: the earth made ready for building and ploughing; livelihoods from trees and plants); the fields grow on 10:8 with a wheat plate for the livelihoods; on 10:11 they turn away (Muyassar: your thanks for Allah's blessings are little). c2 (11-13: the creation of Adam, the angels' prostration, Iblis's refusal and his expulsion from the Garden) stays ambient: the unseen; Adam, the angels and Iblis are not drawn."
  },
  "cover": {
   "series_ar": "آدم وإبليس",
@@ -335,9 +388,10 @@
   "title_ar": "تكريم الإنسان",
   "title_en": "Honouring mankind",
   "at": [
-   11,
-   1
+   10,
+   9
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

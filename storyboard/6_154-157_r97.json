@@ -32,16 +32,58 @@
    "verses": [
     154
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "dawn",
+    "actors": [
+     {
+      "id": "m",
+      "type": "prophet",
+      "label": "موسى",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       154,
+       3
+      ],
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        154,
-       8
+       1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       154,
+       6
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       154,
+       9
+      ],
+      "do": "read",
+      "who": "p"
      },
      {
       "at": [
@@ -53,9 +95,23 @@
      {
       "at": [
        154,
+       14
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       154,
        15
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       154,
+       17
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -70,7 +126,20 @@
       ],
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       154,
+       12
+      ],
+      "until": [
+       154,
+       14
+      ],
+      "motif": "light",
+      "place": "top",
+      "size": "s"
      }
     ]
    }
@@ -83,56 +152,90 @@
     156,
     157
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       155,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       155,
+       4
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        155,
        5
       ],
-      "do": "pan_right"
+      "do": "read",
+      "who": "b"
      },
      {
       "at": [
        155,
        6
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        155,
        8
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        156,
        2
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        156,
        4
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        156,
        7
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       156,
-       9
       ],
       "do": "shot_wide"
      },
@@ -148,98 +251,100 @@
        156,
        11
       ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       156,
-       12
-      ],
       "do": "pan_right"
      },
      {
       "at": [
        156,
-       14
+       13
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        157,
-       4
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       157,
-       7
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       157,
-       9
+       3
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        157,
-       12
+       5
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       157,
+       8
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       157,
+       11
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        157,
        16
       ],
-      "do": "pan_left"
+      "do": "read",
+      "who": "b"
      },
      {
       "at": [
        157,
        19
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        157,
-       22
+       21
       ],
-      "do": "shot_wide"
+      "do": "shake_head",
+      "who": "d"
      },
      {
       "at": [
        157,
-       25
+       24
       ],
-      "do": "shot_wide"
+      "do": "turn",
+      "who": "d"
      },
      {
       "at": [
        157,
-       28
+       27
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        157,
        31
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        157,
-       33
+       34
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "d"
      }
     ],
     "motifs": [
@@ -254,7 +359,7 @@
       ],
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -267,10 +372,10 @@
       ],
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "page_turn"
    }
   }
  ],
@@ -432,7 +537,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Musa: no motif; the book starts on «الكتاب». Their would-be excuses (156-157) are framed as excuses («إما أن تعتذروا…»). 157:26-35 is not glossed (Al-Muyassar's paraphrase is first person). Light for «بينة… وهدى ورحمة»."
+  "notes": "Musa: no motif; the book starts on «الكتاب». Their would-be excuses (156-157) are framed as excuses («إما أن تعتذروا…»). 157:26-35 is not glossed (Al-Muyassar's paraphrase is first person). Light for «بينة… وهدى ورحمة». STAGING v4: c1 (154): Musa only as a blue labelled drop, appearing on his name (154:3), with the people of his nation (3 faceless figures); the book plate (154:4-8) for the Torah, they read on 154:9 (the details of their religion), a light plate for guidance and mercy (154:12-13). No motif, glow, close-up or pan on the drop (shot_wide only); no place is given by the tafsirs, so a plain town is used (no mountain). c2 (155-157): the Quran (book plate) and the believers who follow it read on 155:5 and 157:16; the Arab idolaters (3 men in dark robes) stand apart. Their would-be excuses (156:1-157:10) are hypothetical («lest you say»), so they never speak: only the camera moves to them, and the two earlier communities are not drawn. They shake their heads on 157:21 (denying) and turn away on 157:24 («وصدف»); they do not leave during the threat (157:26-35), the camera holds on them. The Prophet is not shown."
  },
  "cover": {
   "series_ar": "الوصايا والختام",
@@ -441,8 +546,9 @@
   "title_en": "No excuse left",
   "at": [
    155,
-   1
+   3
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }
