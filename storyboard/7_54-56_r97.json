@@ -46,6 +46,13 @@
      {
       "at": [
        54,
+       12
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       54,
        18
       ],
       "do": "pan_left"
@@ -132,51 +139,107 @@
     55,
     56
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "home",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       55,
+       1
+      ],
+      "do": "raise_hands",
+      "who": "b"
+     },
+     {
+      "at": [
+       55,
+       3
+      ],
+      "do": "bow",
+      "who": "b"
+     },
      {
       "at": [
        55,
        4
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        55,
        6
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        56,
-       2
+       1
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       56,
+       4
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
        56,
        7
       ],
-      "do": "shot_wide"
+      "do": "raise_hands",
+      "who": "b"
+     },
+     {
+      "at": [
+       56,
+       8
+      ],
+      "do": "bow",
+      "who": "b"
      },
      {
       "at": [
        56,
        9
       ],
-      "do": "pan_right"
+      "do": "raise_hands",
+      "who": "b"
+     },
+     {
+      "at": [
+       56,
+       10
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        56,
        15
       ],
-      "do": "pan_left"
+      "do": "sparkle",
+      "who": "b"
      }
     ],
     "motifs": [
@@ -191,7 +254,33 @@
       ],
       "motif": "hands",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       55,
+       6
+      ],
+      "until": [
+       56,
+       2
+      ],
+      "motif": "two_paths",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       56,
+       5
+      ],
+      "until": [
+       56,
+       7
+      ],
+      "motif": "growth",
+      "place": "top",
+      "size": "s"
      },
      {
       "at": [
@@ -199,9 +288,9 @@
        11
       ],
       "until": null,
-      "motif": "light",
+      "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "light_sweep"
@@ -344,7 +433,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "«ثم استوى على العرش» (54:11-14): no motif, nothing literal; glossed with Al-Muyassar's «استواءً يليق بجلاله وعظمته». Stars for the heavens and the subjected bodies, night and day for «يغشي الليل النهار», geometric for «تبارك الله», hands for «ادعوا ربكم», light for «إن رحمت الله قريب»."
+  "notes": "«ثم استوى على العرش» (54:11-14): no motif, nothing literal; glossed with Al-Muyassar's «استواءً يليق بجلاله وعظمته». Stars for the heavens and the subjected bodies, night and day for «يغشي الليل النهار», geometric for «تبارك الله», hands for «ادعوا ربكم», light for «إن رحمت الله قريب». STAGING v4: c1 (54: creation, the Throne, night and day, His command) stays ambient: Allah's acts and attributes, nothing literal. c2 (55-56): a believer alone at home by day (Al-Muyassar: the call is to the believers, humbly and in secret, far from showing off) raises his hands on 55:1 and lowers his head on 55:3 (humility), with the hands plate; on 55:6-8 (He does not love the transgressors) the camera moves off him to a two_paths plate. 56:1-6 (do not corrupt the earth after its reform): a growth plate on 56:5. 56:7-9 (call on Him in fear and hope): hands raised, head lowered on 56:8 (fear), hands raised on 56:9 (hope). The plate on 56:11 (His mercy) is now geometric, not light, as a light plate must not start on an attribute; a soft sparkle on 56:15 (the doers of good)."
  },
  "cover": {
   "series_ar": "آيات الخلق",
@@ -356,5 +445,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

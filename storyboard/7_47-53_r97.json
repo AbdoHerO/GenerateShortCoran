@@ -146,6 +146,13 @@
      {
       "at": [
        49,
+       4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       49,
        7
       ],
       "do": "pan_right"
@@ -160,12 +167,40 @@
      {
       "at": [
        49,
+       10
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       49,
        13
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       49,
+       14
+      ],
+      "do": "pan_right"
      }
     ],
-    "motifs": []
+    "motifs": [
+     {
+      "at": [
+       48,
+       11
+      ],
+      "until": [
+       48,
+       14
+      ],
+      "motif": "coins",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
@@ -182,6 +217,13 @@
      {
       "at": [
        50,
+       2
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       50,
        3
       ],
       "do": "pan_right"
@@ -191,7 +233,7 @@
        50,
        4
       ],
-      "do": "shot_wide"
+      "do": "stars"
      },
      {
       "at": [
@@ -203,21 +245,28 @@
      {
       "at": [
        50,
-       6
+       7
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        50,
        8
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        50,
-       12
+       10
+      ],
+      "do": "stars"
+     },
+     {
+      "at": [
+       50,
+       13
       ],
       "do": "pan_left"
      },
@@ -226,21 +275,21 @@
        50,
        15
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        50,
        16
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        50,
        18
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -254,7 +303,7 @@
        51,
        1
       ],
-      "do": "shot_wide"
+      "do": "stars"
      },
      {
       "at": [
@@ -268,13 +317,6 @@
        51,
        5
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       51,
-       6
-      ],
       "do": "shot_wide"
      },
      {
@@ -287,16 +329,9 @@
      {
       "at": [
        51,
-       8
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       51,
        9
       ],
-      "do": "pan_left"
+      "do": "stars"
      },
      {
       "at": [
@@ -310,38 +345,68 @@
        51,
        11
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        51,
        12
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        51,
        13
       ],
-      "do": "shot_wide"
+      "do": "stars"
      },
      {
       "at": [
        51,
-       14
+       15
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       50,
+       17
+      ],
+      "until": [
+       50,
+       19
+      ],
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       51,
+       6
+      ],
+      "until": [
+       51,
+       9
+      ],
+      "motif": "jewel",
+      "place": "top",
+      "size": "m"
      },
      {
       "at": [
        51,
        18
       ],
-      "do": "pan_right"
+      "until": null,
+      "motif": "book",
+      "place": "top",
+      "size": "m"
      }
     ],
-    "motifs": [],
     "transition": "wipe"
    }
   },
@@ -354,7 +419,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
@@ -404,6 +469,13 @@
        12
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       53,
+       15
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -460,6 +532,13 @@
        34
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       53,
+       36
+      ],
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -718,7 +797,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "One unit: the reciter joins 47→53 (about 258 s). Paradise, the Fire, the heights, water and food: nothing literal (no water or river motif). Who is told «ادخلوا الجنة» (49:8-12) is not glossed (Al-Muyassar: the people of the heights). «ننساهم» carries Al-Muyassar's «ويتركهم في العذاب». A book for «بكتاب فصلناه», an hourglass for «تأويله». First-person «جئناهم… بينا» not used."
+  "notes": "One unit: the reciter joins 47→53 (about 258 s). Paradise, the Fire, the heights, water and food: nothing literal (no water or river motif). Who is told «ادخلوا الجنة» (49:8-12) is not glossed (Al-Muyassar: the people of the heights). «ننساهم» carries Al-Muyassar's «ويتركهم في العذاب». A book for «بكتاب فصلناه», an hourglass for «تأويله». First-person «جئناهم… بينا» not used. STAGING v4: Staging v4: kept ambient (the people of al-A'raf, the Fire, the Garden, the Day: the unseen, nothing literal, no water or river motif). c1: a coins plate on 48:11-13 for what they gathered in this world (Al-Muyassar: wealth and men). c2: a geometric plate on the Name at 50:17 (His ruling), a jewel plate on 51:6-8 for the adornment of this world that deluded them (As-Sa'di), a book plate on 51:18 for the signs they denied. c3: mood light -> night_sky, as 53 is the fulfilment of the threat (no light or dawn mood over a threat); plates and beats unchanged."
  },
  "cover": {
   "series_ar": "مشاهد الآخرة",
@@ -730,5 +809,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

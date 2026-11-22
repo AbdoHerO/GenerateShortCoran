@@ -32,37 +32,95 @@
    "verses": [
     87
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "shuayb",
+      "type": "prophet",
+      "label": "شعيب",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 2,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       87,
+       1
+      ],
+      "do": "speak",
+      "who": "shuayb"
+     },
+     {
+      "at": [
+       87,
+       3
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
      {
       "at": [
        87,
        4
       ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       87,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       87,
+       9
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       87,
+       12
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       87,
+       17
+      ],
       "do": "pan_left"
-     },
-     {
-      "at": [
-       87,
-       6
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       87,
-       8
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       87,
-       10
-      ],
-      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -77,7 +135,7 @@
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -89,56 +147,97 @@
     88,
     89
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "shuayb",
+      "type": "prophet",
+      "label": "شعيب",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 2,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        88,
-       4
+       1
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "d"
+     },
+     {
+      "at": [
+       88,
+       2
+      ],
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        88,
        7
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       88,
-       9
-      ],
-      "do": "pan_right"
+      "do": "point",
+      "who": "d",
+      "to": "shuayb"
      },
      {
       "at": [
        88,
        10
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        88,
-       14
+       15
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        88,
-       17
+       18
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "shuayb"
      },
      {
       "at": [
        88,
-       21
+       20
       ],
       "do": "shot_wide"
      },
@@ -147,63 +246,74 @@
        89,
        1
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "shuayb"
      },
      {
       "at": [
        89,
-       5
+       7
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        89,
        10
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        89,
-       14
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       89,
-       17
+       15
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        89,
-       20
+       19
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       89,
+       21
       ],
       "do": "pan_left"
      },
      {
       "at": [
        89,
-       22
+       23
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        89,
        31
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        89,
-       36
+       35
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "shuayb"
+     },
+     {
+      "at": [
+       89,
+       37
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -216,6 +326,19 @@
     "motifs": [
      {
       "at": [
+       88,
+       9
+      ],
+      "until": [
+       88,
+       15
+      ],
+      "motif": "door",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
        89,
        26
       ],
@@ -225,7 +348,7 @@
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "wipe"
@@ -324,7 +447,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Shu'ayb: no motif. Their threat (88:7-17) is not glossed. 87:12-16 avoids Al-Muyassar's «أيها المكذبون» (who «فاصبروا» addresses is not settled). Geometric for «حتى يحكم الله» and «وسع ربنا كل شيء علما»."
+  "notes": "Shu'ayb: no motif. Their threat (88:7-17) is not glossed. 87:12-16 avoids Al-Muyassar's «أيها المكذبون» (who «فاصبروا» addresses is not settled). Geometric for «حتى يحكم الله» and «وسع ربنا كل شيء علما». STAGING v4: Shu'ayb is a blue drop labelled Shu'ayb; in the town (88: our town): two believers in light robes (few) and three chiefs in dark robes (As-Sa'di: the majority did not believe). c1 (87): a conditional sentence, so nobody gestures: Shu'ayb speaks (87:1), the camera on the believers (87:3) and on the others (87:9); geometric for until Allah judges (87:14-16). c2 (88-89): the arrogant chiefs speak (88:1) and point at Shu'ayb on 88:7 (we will expel you); a door plate for expelling from the town (88:9-14); the camera on the believers (88:10, those who believed with you) and on the chiefs (88:15, return to our religion); Shu'ayb answers (88:18, 89:1, 89:35); the camera on the chiefs (89:7, your religion) and on the believers (89:10, after Allah saved us); geometric for our Lord encompasses all things in knowledge (89:26-30). His du'a (89:34-42) is spoken by his drop with no glow and no raised hands, so no light pulses on the drop at «رب»."
  },
  "cover": {
   "series_ar": "دعوة الرسل",
@@ -333,8 +456,9 @@
   "title_en": "The arrogant threaten",
   "at": [
    88,
-   1
+   7
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

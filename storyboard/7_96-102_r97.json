@@ -32,65 +32,107 @@
    "verses": [
     96
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       96,
+       14
+      ]
+     }
+    ],
+    "events": [
+     {
+      "type": "darkness",
+      "at": [
+       96,
+       15
+      ],
+      "until": null
+     }
+    ],
     "beats": [
      {
       "at": [
        96,
-       5
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       96,
+       3
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       96,
+       7
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        96,
        8
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        96,
-       12
+       9
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       96,
+       11
+      ],
+      "do": "shot_sky"
      },
      {
       "at": [
        96,
        13
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        96,
        14
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       96,
-       15
-      ],
-      "do": "shot_wide"
+      "do": "turn",
+      "who": "d"
      },
      {
       "at": [
        96,
        16
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        96,
        18
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -105,7 +147,7 @@
       ],
       "motif": "growth",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -118,14 +160,61 @@
     98,
     99
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "r",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "rich"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        97,
-       4
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       97,
+       3
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       97,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       97,
+       6
       ],
       "do": "shot_wide"
      },
@@ -134,70 +223,75 @@
        97,
        8
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        98,
        1
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        98,
        3
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "r"
      },
      {
       "at": [
        98,
        4
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        98,
        6
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       98,
+       7
+      ],
+      "do": "give",
+      "who": "d",
+      "to": "r"
      },
      {
       "at": [
        98,
        9
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "r"
      },
      {
       "at": [
        99,
        1
       ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       99,
-       2
-      ],
       "do": "shot_wide"
      },
      {
       "at": [
        99,
-       6
+       5
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        99,
-       10
+       9
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -212,7 +306,20 @@
       ],
       "motif": "night_day",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       99,
+       2
+      ],
+      "until": [
+       99,
+       4
+      ],
+      "motif": "geometric",
+      "place": "top",
+      "size": "s"
      }
     ],
     "transition": "wipe"
@@ -226,58 +333,108 @@
     101,
     102
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 2,
+      "pose": "stand",
+      "enter": [
+       102,
+       1
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       100,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       100,
+       4
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
      {
       "at": [
        100,
        8
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        100,
        10
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        100,
        12
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        100,
        13
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       100,
-       14
-      ],
       "do": "shot_wide"
      },
      {
       "at": [
        100,
-       16
+       15
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       100,
+       17
+      ],
+      "do": "turn",
+      "who": "d"
+     },
+     {
+      "at": [
+       100,
+       19
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        101,
        6
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -291,14 +448,15 @@
        101,
        8
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        101,
-       9
+       10
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -312,12 +470,21 @@
        101,
        15
       ],
-      "do": "shot_wide"
+      "do": "shake_head",
+      "who": "d"
      },
      {
       "at": [
        101,
        18
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       101,
+       21
       ],
       "do": "shot_wide"
      },
@@ -331,33 +498,56 @@
      {
       "at": [
        102,
-       1
+       3
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        102,
        6
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        102,
        7
       ],
-      "do": "pan_left"
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       102,
+       8
+      ],
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        102,
        9
       ],
-      "do": "pan_right"
+      "do": "turn",
+      "who": "d"
      }
     ],
     "motifs": [
+     {
+      "at": [
+       100,
+       14
+      ],
+      "until": [
+       100,
+       17
+      ],
+      "motif": "seal",
+      "place": "top",
+      "size": "s"
+     },
      {
       "at": [
        101,
@@ -369,7 +559,20 @@
       ],
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       102,
+       5
+      ],
+      "until": [
+       102,
+       7
+      ],
+      "motif": "scroll",
+      "place": "top",
+      "size": "s"
      }
     ],
     "transition": "page_turn"
@@ -545,7 +748,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "One unit: the reciter joins 96→102 (about 167 s). «مكر الله» (99) carries Al-Muyassar's «وإمهاله لهم; استدراجًا» (As-Sa'di's wording quotes «من حيث لا يعلمون»); no motif there. Growth for «بركات من السماء والأرض», night and day for «بياتا», a book for «نقص عليك من أنبائها». No destruction drawn. First-person «فأخذناهم… أصبناهم… نختم» not used."
+  "notes": "One unit: the reciter joins 96→102 (about 167 s). «مكر الله» (99) carries Al-Muyassar's «وإمهاله لهم; استدراجًا» (As-Sa'di's wording quotes «من حيث لا يعلمون»); no motif there. Growth for «بركات من السماء والأرض», night and day for «بياتا», a book for «نقص عليك من أنبائها». No destruction drawn. First-person «فأخذناهم… أصبناهم… نختم» not used. STAGING v4: c1 (96): the people of the towns (three faceless men in dark robes) in a town by day. 96:1-12 is a counterfactual (had they believed), so nothing of it is acted: no blessing event, only a growth plate as a symbol (96:9-12) and the camera to the sky on 96:11; on 96:13-14 (but they denied) the camera is on them, they turn and leave on 96:14, so the darkness on 96:15 (He seized them) falls on the empty town. c2 (97-99): the people of the towns heedless in a market by day (Al-Muyassar: heedless, busy with their worldly affairs): night and day plate for by night while asleep (97:7-8); on 98:7-9 (at forenoon while at play) they trade, one pays a merchant (give) and the merchant talks; no punishment is drawn (these are questions and warnings); geometric for the plan of Allah (99:2-3); the camera on them for the losers (99:9). c3 (100-102), dusk: those who inherited the land (three men in dark robes): the camera on them (100:4); 100:12 (if We willed, We would strike them) is conditional, so no event; a seal plate for We seal their hearts (100:14-16), they turn away on 100:17 (they do not hear); a book plate for those towns, We relate their news to you (101:1-6), held wide (no pan) on 101:1-6, as it is addressed to the Prophet; they shake their heads on 101:15 (they denied before). 102: two believers come in on 102:1 (As-Sa'di: only few obeyed) and the camera holds on the majority for most of them (102:3, 102:8), a scroll plate for covenant (102:5-6); they turn on 102:9 (defiantly disobedient). The messengers of 101:9 are not drawn."
  },
  "cover": {
   "series_ar": "سنن الله في الأمم",
@@ -553,9 +756,10 @@
   "title_ar": "الغفلة والأمان الزائف",
   "title_en": "Heedless and falsely secure",
   "at": [
-   96,
-   1
+   98,
+   7
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

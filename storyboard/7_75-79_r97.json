@@ -33,79 +33,151 @@
     75,
     76
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "mountains",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 2,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        75,
-       4
+       1
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "d"
      },
      {
       "at": [
        75,
-       7
+       3
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       75,
+       6
       ],
       "do": "pan_left"
      },
      {
       "at": [
        75,
-       10
+       8
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        75,
-       13
+       12
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "d"
      },
      {
       "at": [
        75,
        14
       ],
-      "do": "pan_left"
+      "do": "point",
+      "who": "d",
+      "to": "b"
      },
      {
       "at": [
        75,
        15
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        75,
-       22
+       18
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "b"
+     },
+     {
+      "at": [
+       75,
+       21
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       75,
+       23
+      ],
+      "do": "sparkle",
+      "who": "b"
+     },
+     {
+      "at": [
+       76,
+       1
+      ],
+      "do": "speak",
+      "who": "d"
      },
      {
       "at": [
        76,
        3
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        76,
        5
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        76,
        6
       ],
-      "do": "pan_right"
+      "do": "shake_head",
+      "who": "d"
+     },
+     {
+      "at": [
+       76,
+       8
+      ],
+      "do": "turn",
+      "who": "d"
      }
     ],
     "motifs": [
@@ -120,7 +192,7 @@
       ],
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -133,42 +205,114 @@
     78,
     79
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "mountains",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "salih",
+      "type": "prophet",
+      "label": "صالح",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       77,
+       15
+      ]
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       77,
+       15
+      ]
+     },
+     {
+      "id": "salih2",
+      "type": "prophet",
+      "label": "صالح",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       79,
+       1
+      ],
+      "exit": null
+     }
+    ],
+    "events": [
+     {
+      "type": "quake",
+      "at": [
+       78,
+       2
+      ],
+      "until": [
+       79,
+       1
+      ]
+     }
+    ],
     "beats": [
      {
       "at": [
        77,
-       4
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        77,
-       7
+       3
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        77,
-       11
+       7
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "d"
+     },
+     {
+      "at": [
+       77,
+       10
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        77,
        13
       ],
-      "do": "pan_left"
+      "do": "turn",
+      "who": "d"
      },
      {
       "at": [
        78,
        1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       78,
+       4
       ],
       "do": "pan_left"
      },
@@ -182,16 +326,18 @@
      {
       "at": [
        79,
-       3
+       2
       ],
-      "do": "pan_left"
+      "do": "turn",
+      "who": "salih2"
      },
      {
       "at": [
        79,
-       7
+       3
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "salih2"
      },
      {
       "at": [
@@ -205,17 +351,38 @@
        79,
        10
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        79,
-       12
+       11
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       79,
+       13
+      ],
+      "do": "shot_wide"
      }
     ],
-    "motifs": [],
+    "motifs": [
+     {
+      "at": [
+       79,
+       6
+      ],
+      "until": [
+       79,
+       9
+      ],
+      "motif": "seal",
+      "place": "top",
+      "size": "s"
+     }
+    ],
     "transition": "wipe"
    }
   }
@@ -345,7 +512,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Salih: no motif. The killing of the she-camel and the earthquake are not drawn (night sky, no motif in 77-79). Their challenge (77:7-15) is framed «على سبيل الاستهزاء». Light only for the believers' answer (75:19). 79:11-14 avoids Al-Muyassar's «شيطان رجيم» (Quran wording)."
+  "notes": "Salih: no motif. The killing of the she-camel and the earthquake are not drawn (night sky, no motif in 77-79). Their challenge (77:7-15) is framed «على سبيل الاستهزاء». Light only for the believers' answer (75:19). 79:11-14 avoids Al-Muyassar's «شيطان رجيم» (Quran wording). STAGING v4: c1 (75-76): a mountain valley; the arrogant chiefs (three faceless men in dark robes) speak to the weak who believed (two figures in light robes: few, and not a crowd); Salih is named but not drawn here (neither verse places him in the scene). The chiefs ask (75:1, 75:12) and point at the believers they address (75:14), the believers answer (75:18) with a light plate (75:19-23) and a soft sparkle on 75:23 (believers); the chiefs answer (76:1), shake their heads (76:6) and turn away on 76:8 (disbelievers). c2 (77-79): the she-camel is never drawn in this video, and nothing moves or gestures on 77:1-2 (the hamstringing is not shown in any way); the camera holds wide, then on the chiefs for their insolence (77:3), they speak their challenge to Salih (77:7, the drop on the left), turn away on 77:13 and leave on 77:15 with Salih's drop, so the stage is empty before 78:1. The quake falls on the empty valley (78:2 to 79:1): no person, no body, no ruin; dusk, not dawn. 79: Salih's drop appears again on 79:1, turns away (79:2) and speaks to them after their end (79:3, As-Sa'di: a rebuke after Allah destroyed them); a seal plate for the message of his Lord (79:6-8)."
  },
  "cover": {
   "series_ar": "دعوة الرسل",
@@ -353,9 +520,10 @@
   "title_ar": "نهاية ثمود",
   "title_en": "The end of Thamud",
   "at": [
-   75,
-   1
+   78,
+   5
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

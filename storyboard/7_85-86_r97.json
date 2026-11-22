@@ -32,21 +32,64 @@
    "verses": [
     85
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "shuayb",
+      "type": "prophet",
+      "label": "شعيب",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "r",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "rich"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        85,
-       13
+       1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        85,
-       15
+       5
+      ],
+      "do": "speak",
+      "who": "shuayb"
+     },
+     {
+      "at": [
+       85,
+       14
       ],
       "do": "shot_wide"
      },
@@ -60,16 +103,25 @@
      {
       "at": [
        85,
-       22
+       20
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "r"
      },
      {
       "at": [
        85,
-       25
+       23
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       85,
+       26
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -81,23 +133,25 @@
      {
       "at": [
        85,
-       29
+       28
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        85,
-       33
+       32
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "shuayb"
      },
      {
       "at": [
        85,
        35
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "d"
      }
     ],
     "motifs": [
@@ -112,7 +166,7 @@
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -125,7 +179,7 @@
       ],
       "motif": "scales",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -136,69 +190,159 @@
    "verses": [
     86
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "shuayb",
+      "type": "prophet",
+      "label": "شعيب",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 2,
+      "pose": "walk",
+      "enter": [
+       86,
+       3
+      ],
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        86,
-       5
+       2
       ],
-      "do": "pan_left"
+      "do": "sit",
+      "who": "d"
      },
      {
       "at": [
        86,
-       7
+       4
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        86,
-       12
+       5
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "d"
+     },
+     {
+      "at": [
+       86,
+       6
+      ],
+      "do": "point",
+      "who": "d",
+      "to": "b"
+     },
+     {
+      "at": [
+       86,
+       8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       86,
+       11
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       86,
+       13
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       86,
+       15
+      ],
+      "do": "speak",
+      "who": "shuayb"
      },
      {
       "at": [
        86,
        17
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       86,
-       19
-      ],
       "do": "shot_wide"
      },
      {
       "at": [
        86,
-       21
+       20
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       86,
+       22
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
      {
       "at": [
        86,
-       15
+       19
       ],
       "until": [
        86,
        20
       ],
-      "motif": "growth",
+      "motif": "crowd",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       86,
+       23
+      ],
+      "until": null,
+      "motif": "hourglass",
+      "place": "top",
+      "size": "s"
      }
     ],
-    "transition": "morph"
+    "transition": "slide"
    }
   }
  ],
@@ -338,7 +482,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Shu'ayb: no motif. Scales for «فأوفوا الكيل والميزان» (worldly weights), geometric for «اعبدوا الله», growth for «فكثركم». 86:5 «توعدون» is not glossed (Al-Muyassar: robbery; As-Sa'di: threatening those who follow the call); no path motif on the blamed act."
+  "notes": "Shu'ayb: no motif. Scales for «فأوفوا الكيل والميزان» (worldly weights), geometric for «اعبدوا الله», growth for «فكثركم». 86:5 «توعدون» is not glossed (Al-Muyassar: robbery; As-Sa'di: threatening those who follow the call); no path motif on the blamed act. STAGING v4: Shu'ayb is a blue drop labelled Shu'ayb (no motif on his name); Madyan in a market street (85: measure and weight). c1 (85): Shu'ayb speaks (85:5), geometric on 85:7-13 (worship Allah); scales plate for the measure and the weight (85:19-21, worldly weights, not the Mizan of the Hereafter); the camera on a merchant (85:20) and on the people (85:23, do not deprive people of their things); nobody is shown giving short or full measure (a command to them is not acted as obeyed). c2 (86): the men in dark robes sit by the street (86:2: both tafsirs: they sat on the roads), speak (86:5: what they threatened is not shown, as the tafsirs differ) and point at two believers walking by (86:6, averting from the way of Allah those who believed); Shu'ayb speaks (86:15); a crowd plate for He increased you (86:19), the camera on them and an hourglass for see the end of the corrupters (86:20-24). No weapon, no violence."
  },
  "cover": {
   "series_ar": "دعوة الرسل",
@@ -347,8 +491,9 @@
   "title_en": "Shu'ayb and Madyan",
   "at": [
    85,
-   1
+   5
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

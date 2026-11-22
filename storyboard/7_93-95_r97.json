@@ -32,33 +32,77 @@
    "verses": [
     93
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "shuayb",
+      "type": "prophet",
+      "label": "شعيب",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        93,
-       6
+       1
       ],
-      "do": "pan_left"
+      "do": "turn",
+      "who": "shuayb"
      },
      {
       "at": [
        93,
-       10
+       3
+      ],
+      "do": "speak",
+      "who": "shuayb"
+     },
+     {
+      "at": [
+       93,
+       9
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        93,
-       13
+       11
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       93,
+       14
+      ],
+      "do": "shot_wide"
      }
     ],
-    "motifs": []
+    "motifs": [
+     {
+      "at": [
+       93,
+       6
+      ],
+      "until": [
+       93,
+       9
+      ],
+      "motif": "seal",
+      "place": "top",
+      "size": "s"
+     }
+    ]
    }
   },
   {
@@ -68,21 +112,47 @@
     94,
     95
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       95,
+       13
+      ]
+     }
+    ],
+    "events": [
+     {
+      "type": "darkness",
+      "at": [
+       95,
+       14
+      ],
+      "until": null
+     }
+    ],
     "beats": [
      {
       "at": [
        94,
-       2
+       1
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        94,
-       5
+       4
       ],
       "do": "pan_left"
      },
@@ -91,7 +161,7 @@
        94,
        6
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -103,37 +173,71 @@
      {
       "at": [
        94,
+       8
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       94,
        9
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       94,
+       10
+      ],
+      "do": "sit",
+      "who": "p"
      },
      {
       "at": [
        94,
        11
       ],
-      "do": "pan_right"
+      "do": "bow",
+      "who": "p"
      },
      {
       "at": [
        94,
-       13
+       12
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       95,
+       2
+      ],
+      "do": "stand_up",
+      "who": "p"
      },
      {
       "at": [
        95,
        5
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       95,
+       8
+      ],
+      "do": "speak",
+      "who": "p"
      },
      {
       "at": [
        95,
        10
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -147,28 +251,29 @@
        95,
        12
       ],
-      "do": "pan_left"
+      "do": "turn",
+      "who": "p"
      },
      {
       "at": [
        95,
        13
       ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       95,
+       15
+      ],
       "do": "shot_wide"
      },
      {
       "at": [
        95,
-       14
+       17
       ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       95,
-       16
-      ],
-      "do": "pan_left"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -183,7 +288,20 @@
       ],
       "motif": "growth",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       95,
+       7
+      ],
+      "until": [
+       95,
+       9
+      ],
+      "motif": "crowd",
+      "place": "top",
+      "size": "s"
      }
     ],
     "transition": "page_turn"
@@ -293,7 +411,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Shu'ayb: no motif. 93:1-4 not glossed (the tafsirs differ on whether he turned away before or after their end). Their saying in 95:8-13 is not glossed as a statement, only «فلم يُفِد معهم كل ذلك». Growth for «بدلنا مكان السيئة الحسنة». First-person «ابتليناهم… بدلنا… فأخذناهم» not used."
+  "notes": "Shu'ayb: no motif. 93:1-4 not glossed (the tafsirs differ on whether he turned away before or after their end). Their saying in 95:8-13 is not glossed as a statement, only «فلم يُفِد معهم كل ذلك». Growth for «بدلنا مكان السيئة الحسنة». First-person «ابتليناهم… بدلنا… فأخذناهم» not used. STAGING v4: c1 (93): Shu'ayb (blue drop) alone in the town at dusk turns away (93:1) and speaks (93:3); his people are not on the stage, and no sign of their end is drawn, because the tafsirs differ on whether he turned away before or after it; a seal plate for the messages of his Lord (93:6-8). c2 (94-95), the way of Allah with every town (a general rule, no specific nation): the people of a town in a market street (no prophet drop: «نبي» is general); in hardship (94:10-11, Al-Muyassar: illness and poverty) they sit down and lower their heads; nobody is shown humbling himself in du'a (94:12 is only hoped for). On 95:2 (good in place of bad) they stand up, a growth plate; a crowd plate for they increased (95:7-8, As-Sa'di: they became many); they speak their saying (95:8, framed by the gloss), turn away (95:12) and leave on 95:13, so the darkness on 95:14 (seized suddenly) falls on the empty street; no person, no ruin, day (not dawn)."
  },
  "cover": {
   "series_ar": "دعوة الرسل",
@@ -302,8 +420,9 @@
   "title_en": "The way of trial",
   "at": [
    94,
-   1
+   11
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

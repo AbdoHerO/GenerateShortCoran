@@ -35,10 +35,49 @@
     61,
     62
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "nuh",
+      "type": "prophet",
+      "label": "نوح",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       59,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       59,
+       6
+      ],
+      "do": "speak",
+      "who": "nuh"
+     },
      {
       "at": [
        59,
@@ -51,47 +90,59 @@
        59,
        16
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        59,
-       17
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       59,
-       20
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       60,
-       1
+       19
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        60,
-       4
+       1
+      ],
+      "do": "speak",
+      "who": "d"
+     },
+     {
+      "at": [
+       60,
+       3
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       60,
+       5
       ],
       "do": "pan_left"
      },
      {
       "at": [
        60,
-       6
+       8
       ],
-      "do": "pan_left"
+      "do": "shake_head",
+      "who": "d"
      },
      {
       "at": [
-       60,
-       9
+       61,
+       1
+      ],
+      "do": "speak",
+      "who": "nuh"
+     },
+     {
+      "at": [
+       61,
+       3
       ],
       "do": "shot_wide"
      },
@@ -114,28 +165,30 @@
        62,
        1
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "nuh"
      },
      {
       "at": [
        62,
        4
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        62,
        6
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        62,
        11
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -150,7 +203,20 @@
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       62,
+       1
+      ],
+      "until": [
+       62,
+       4
+      ],
+      "motif": "seal",
+      "place": "top",
+      "size": "s"
      }
     ]
    }
@@ -162,37 +228,95 @@
     63,
     64
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "nuh",
+      "type": "prophet",
+      "label": "نوح",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       64,
+       2
+      ]
+     },
+     {
+      "id": "ark",
+      "type": "ship",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       64,
+       3
+      ],
+      "exit": null
+     }
+    ],
+    "events": [
+     {
+      "type": "flood",
+      "at": [
+       64,
+       7
+      ],
+      "until": null
+     }
+    ],
     "beats": [
      {
       "at": [
        63,
+       1
+      ],
+      "do": "speak",
+      "who": "nuh"
+     },
+     {
+      "at": [
+       63,
        3
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       63,
-       5
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       63,
-       9
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        63,
-       10
+       8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       63,
+       9
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       63,
+       10
+      ],
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
@@ -203,46 +327,56 @@
      },
      {
       "at": [
-       63,
-       13
+       64,
+       1
       ],
-      "do": "pan_left"
+      "do": "turn",
+      "who": "d"
      },
      {
       "at": [
        64,
-       4
+       3
       ],
-      "do": "pan_left"
+      "do": "walk_to",
+      "who": "nuh",
+      "to": "ark"
      },
      {
       "at": [
        64,
-       9
+       6
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        64,
-       11
+       9
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       64,
+       11
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
      {
       "at": [
-       64,
-       2
+       63,
+       4
       ],
       "until": [
-       64,
-       7
+       63,
+       9
       ],
-      "motif": "ship",
+      "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "page_turn"
@@ -396,7 +530,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Nuh: no motif, no figure. Their claim (60:5-9) is framed «ردوا عليه أقبح رد». 59:15-20 not glossed (which day is meant is not settled). A ship for «فأنجيناه… في الفلك», leaving before «وأغرقنا»; no drowning drawn. Geometric for «اعبدوا الله ما لكم من إله غيره»."
+  "notes": "Nuh: no motif, no figure. Their claim (60:5-9) is framed «ردوا عليه أقبح رد». 59:15-20 not glossed (which day is meant is not settled). A ship for «فأنجيناه… في الفلك», leaving before «وأغرقنا»; no drowning drawn. Geometric for «اعبدوا الله ما لكم من إله غيره». STAGING v4: Nuh is a blue drop labelled Nuh, never a figure; no motif on his name. His people's chiefs are three faceless men in dark robes in a town (the place is not named by the sources, so a plain town). c1 (59-62): Nuh speaks on 59:6, geometric on 59:8-14 (worship Allah), the camera on them for the warning (59:16); the chiefs answer (60:1), the camera on them, they shake their heads on 60:8 (clear error); Nuh answers (61:1, 62:1), a seal plate for the messages of his Lord (62:1-3). c2 (63-64): Nuh speaks (63:1), a light plate for the reminder (63:4-8, held wide), the camera on them for the warning (63:10); on 64:1 (they denied him) they turn away and leave on 64:2, so nobody is on the stage at the flood. The ark comes in on 64:3 and Nuh moves to it (64:3-6, saved with those with him in the ark: the believers inside are not drawn, so they are not counted); the flood rises over the empty town from 64:7 and the ark floats, Nuh's drop above the water. Nobody is drowned or hurt; no ruin. Time is day, not dawn."
  },
  "cover": {
   "series_ar": "دعوة الرسل",
@@ -405,8 +539,9 @@
   "title_en": "Nuh and his people",
   "at": [
    59,
-   1
+   6
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

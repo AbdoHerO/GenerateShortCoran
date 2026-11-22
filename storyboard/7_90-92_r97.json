@@ -34,30 +34,91 @@
     91,
     92
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       90,
+       12
+      ]
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       90,
+       12
+      ]
+     }
+    ],
+    "events": [
+     {
+      "type": "quake",
+      "at": [
+       91,
+       2
+      ],
+      "until": [
+       92,
+       1
+      ]
+     }
+    ],
     "beats": [
      {
       "at": [
        90,
-       5
+       1
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "d"
      },
      {
       "at": [
        90,
-       8
+       3
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        90,
-       12
+       7
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       90,
+       10
+      ],
+      "do": "turn",
+      "who": "d"
+     },
+     {
+      "at": [
+       90,
+       11
+      ],
+      "do": "turn",
+      "who": "p"
      },
      {
       "at": [
@@ -69,30 +130,44 @@
      {
       "at": [
        91,
-       6
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       92,
-       2
+       4
       ],
       "do": "pan_left"
      },
      {
       "at": [
        92,
-       9
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        92,
+       5
+      ],
+      "do": "wind"
+     },
+     {
+      "at": [
+       92,
+       8
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       92,
        11
       ],
-      "do": "pan_left"
+      "do": "leaves"
+     },
+     {
+      "at": [
+       92,
+       13
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -107,7 +182,7 @@
       ],
       "motif": "wind",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -183,7 +258,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Shu'ayb: no motif. No earthquake, bodies or destruction drawn; wind only for «كأن لم يغنوا فيها». Their claim (90:7-12) is framed «هذا ما سولت لهم أنفسهم»."
+  "notes": "Shu'ayb: no motif. No earthquake, bodies or destruction drawn; wind only for «كأن لم يغنوا فيها». Their claim (90:7-12) is framed «هذا ما سولت لهم أنفسهم». STAGING v4: Shu'ayb is named but not drawn (not placed in the scene). 90: the chiefs who disbelieved (three faceless men in dark robes) speak (90:1) to the people of the town (three faceless men, left), warning them against following Shu'ayb (the camera on them on 90:7); both groups turn (90:10-11) and leave the stage on 90:12, before 91:1, so nobody is there at the quake. 91: the quake shakes the empty town (91:2 to 92:1): no body, no ruin, day (not dawn). 92 (as though they had never lived there): the wind blows through the empty street with a wind plate (92:4-7, after Shu'ayb's name and ending before it again) and a few leaves."
  },
  "cover": {
   "series_ar": "دعوة الرسل",
@@ -191,9 +266,10 @@
   "title_ar": "نهاية مدين",
   "title_en": "The end of Madyan",
   "at": [
-   90,
-   1
+   92,
+   6
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

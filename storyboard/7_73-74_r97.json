@@ -32,30 +32,87 @@
    "verses": [
     73
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "mountains",
+    "time": "day",
+    "actors": [
+     {
+      "id": "salih",
+      "type": "prophet",
+      "label": "صالح",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "c",
+      "type": "camel",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        73,
-       13
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       73,
+       5
+      ],
+      "do": "speak",
+      "who": "salih"
+     },
+     {
+      "at": [
+       73,
+       11
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       73,
+       14
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        73,
        16
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        73,
        17
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -67,37 +124,39 @@
      {
       "at": [
        73,
-       23
+       24
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "c"
      },
      {
       "at": [
        73,
-       27
+       26
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        73,
        29
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        73,
        32
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        73,
        33
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -112,7 +171,7 @@
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -123,21 +182,68 @@
    "verses": [
     74
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "mountains",
+    "time": "day",
+    "actors": [
+     {
+      "id": "salih",
+      "type": "prophet",
+      "label": "صالح",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        74,
-       4
+       1
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "salih"
+     },
+     {
+      "at": [
+       74,
+       3
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       74,
+       5
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
        74,
        8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       74,
+       10
       ],
       "do": "shot_wide"
      },
@@ -151,16 +257,32 @@
      {
       "at": [
        74,
-       19
+       15
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        74,
+       18
+      ],
+      "do": "speak",
+      "who": "salih"
+     },
+     {
+      "at": [
+       74,
        21
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       74,
+       24
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -175,7 +297,7 @@
       ],
       "motif": "house",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -188,7 +310,20 @@
       ],
       "motif": "mountain",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       74,
+       19
+      ],
+      "until": [
+       74,
+       21
+      ],
+      "motif": "light",
+      "place": "top",
+      "size": "s"
      }
     ],
     "transition": "slide"
@@ -265,7 +400,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Salih: no motif. The she-camel is not drawn and its origin is not glossed (Al-Muyassar's «من الصخرة» is a report, not in the verse). Geometric for «اعبدوا الله», a house and a mountain for «قصورا… الجبال بيوتا»."
+  "notes": "Salih: no motif. The she-camel is not drawn and its origin is not glossed (Al-Muyassar's «من الصخرة» is a report, not in the verse). Geometric for «اعبدوا الله», a house and a mountain for «قصورا… الجبال بيوتا». STAGING v4: Salih is a blue drop labelled Salih (no motif on his name); Thamud's people three faceless men in dark robes in a mountain valley (As-Sa'di: they lived in al-Hijr and around it; 74: houses carved in the mountains). c1 (73): Salih speaks (73:5), geometric on 73:7-13 (worship Allah), the camera on them for the clear proof (73:16); the she-camel stands in the valley from the start (a camel actor; how she came out is not drawn, it is a report in Al-Muyassar only, and nothing on the miracle words); the camera on her for leave her to eat (73:24); wide for do not touch her with harm (nobody moves toward her); the camera on them for the painful punishment (73:32). c2 (74): the camel is not on this stage; Salih speaks (74:1); the camera on them (successors after 'Ad); house plate for the palaces on the plains (74:13-15), mountain plate for the houses carved in the mountains (74:16-17), light plate for the favours of Allah (74:19-20, not starting on the Name); the camera on them for do not spread corruption (74:21)."
  },
  "cover": {
   "series_ar": "دعوة الرسل",
@@ -274,8 +409,9 @@
   "title_en": "Salih and Thamud",
   "at": [
    73,
-   1
+   5
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

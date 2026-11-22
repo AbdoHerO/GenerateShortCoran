@@ -33,44 +33,74 @@
     80,
     81
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "lut",
+      "type": "prophet",
+      "label": "لوط",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        80,
-       4
+       3
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "lut"
+     },
+     {
+      "at": [
+       80,
+       5
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        80,
        6
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        80,
        8
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        80,
-       13
+       12
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        81,
+       1
+      ],
+      "do": "speak",
+      "who": "lut"
+     },
+     {
+      "at": [
+       81,
        3
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -82,7 +112,14 @@
      {
       "at": [
        81,
-       9
+       8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       81,
+       10
       ],
       "do": "shot_wide"
      }
@@ -98,16 +135,66 @@
     83,
     84
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "night",
+    "actors": [
+     {
+      "id": "lut",
+      "type": "prophet",
+      "label": "لوط",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       83,
+       3
+      ]
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": [
+       82,
+       1
+      ],
+      "exit": [
+       82,
+       13
+      ]
+     }
+    ],
+    "events": [
+     {
+      "type": "stones",
+      "at": [
+       84,
+       1
+      ],
+      "until": null
+     }
+    ],
     "beats": [
+     {
+      "at": [
+       82,
+       3
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
      {
       "at": [
        82,
        5
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -121,77 +208,90 @@
        82,
        7
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "d"
      },
      {
       "at": [
        82,
        8
       ],
-      "do": "shot_wide"
+      "do": "point",
+      "who": "d",
+      "to": "lut"
      },
      {
       "at": [
        82,
        10
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        82,
-       12
+       11
       ],
-      "do": "pan_right"
+      "do": "turn",
+      "who": "d"
      },
      {
       "at": [
        82,
        13
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       83,
+       1
+      ],
+      "do": "walk_to",
+      "who": "lut",
+      "to": "left"
      },
      {
       "at": [
        83,
        2
       ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       83,
-       5
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       84,
-       1
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       84,
-       3
-      ],
       "do": "pan_left"
      },
      {
       "at": [
-       84,
-       5
+       83,
+       4
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       84,
+       2
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       84,
+       4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       84,
+       6
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
        84,
        8
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -204,9 +304,19 @@
        83,
        3
       ],
-      "motif": "light",
+      "motif": "footsteps",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       84,
+       7
+      ],
+      "until": null,
+      "motif": "hourglass",
+      "place": "top",
+      "size": "s"
      }
     ],
     "transition": "page_turn"
@@ -338,7 +448,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Lut: no motif, no figure; no people, act, rain of stones or destruction drawn (night sky). Glosses stay sober: Al-Muyassar's and As-Sa'di's explicit wording in 81 is not displayed. Light only for «فأنجيناه وأهله». 81: short-word flag, listen. As-Sa'di's «من سجيل» (Quran wording) not used."
+  "notes": "Lut: no motif, no figure; no people, act, rain of stones or destruction drawn (night sky). Glosses stay sober: Al-Muyassar's and As-Sa'di's explicit wording in 81 is not displayed. Light only for «فأنجيناه وأهله». 81: short-word flag, listen. As-Sa'di's «من سجيل» (Quran wording) not used. STAGING v4: Lut is a blue drop labelled Lut. Their sin is never depicted or suggested: in 80-81 (his rebuke) Lut stands alone in the town and speaks (80:3, 81:1); his people are not on the stage at all while those verses are recited; no motif. c2 (82-84), at night (As-Sa'di: he was told to leave with his family by night): his people (three faceless men in dark robes) come in on 82:1 for their answer, speak (82:7) and point at Lut on 82:8 (expel them), turn away (82:11) and leave on 82:13. 83: Lut moves away (83:1) and leaves the stage on 83:3; his family is only a footsteps plate (83:1-2) and his wife is never drawn. 84: stones fall on the empty town from 84:1 (Al-Muyassar: a rain of stones); no person, no ruin (the overturning is in the tafsirs only, not in this verse); the camera wide for see the end, an hourglass on 84:7. Not dawn."
  },
  "cover": {
   "series_ar": "دعوة الرسل",
@@ -346,9 +456,10 @@
   "title_ar": "لوط وقومه",
   "title_en": "Lut and his people",
   "at": [
-   80,
-   1
+   82,
+   8
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }
