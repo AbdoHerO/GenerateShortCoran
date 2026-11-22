@@ -1381,3 +1381,14 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
 - **Re-render:** every published draft whose storyboard has a light-mood chapter is listed for a final consistency
   re-render, published as the next version once the restaging of surahs 1-15 is done (low priority, after new
   content). Renders still in the build queue get the change automatically.
+
+### Scope limited to surahs 1–15 and Al-Kahf (owner decision 2026-11-22)
+
+- The owner asked to finish surahs 1 to 15 and Al-Kahf (18), then stop. Surahs 16 to 114 will be done later by the
+  owner.
+- Remaining work in scope:
+  - restage and review Hud (in progress), Yusuf, Ar-Ra'd and Ibrahim;
+  - fix and build At-Tawbah 87-129 and Yunus;
+  - Al-Kahf v2 with all renderer fixes;
+  - build and publish everything queued.
+- At the end, the automatic resumes are cancelled (CLAUDE.md, "Current scope").

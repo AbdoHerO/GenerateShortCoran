@@ -76,8 +76,21 @@ The owner wants the production to run without stopping and without their action:
 - **Under 95%:** continue the work.
 - Always keep one pending resume `send_later` at the current five-hour window's reset + 1 minute, so the work
   restarts by itself even if the limit is hit in the middle of a task.
-- After each resume, check again and repeat for the next reset. Continue until every surah is done; never wait for
-  the owner's approval to resume.
+- After each resume, check again and repeat for the next reset. Continue until every surah in scope is done; never
+  wait for the owner's approval to resume.
+
+## Current scope (owner decision 2026-11-22): surahs 1–15 and Al-Kahf (18) only
+- Finish all the work on surahs **1 to 15** and on **Al-Kahf (18)**, then **stop**.
+  - The work includes: restage with Staging v4, independent picture reviews, fixes, builds, frame checks and
+    publishing drafts.
+  - Al-Kahf needs its v2 with all the renderer fixes (Name plates, desert, prayer and plate rules, quiet words, light
+    mood).
+- **Do not start surah 16 or any later surah:** the owner will do 16 to 114 later.
+- When surahs 1–15 and 18 are all published with their final pictures (except the videos blocked by the owner's
+  pending decisions in DECISIONS_NEEDED), do these steps:
+  - commit and push;
+  - cancel the pending resume `send_later`, and do not schedule a new one;
+  - report the final state to the owner.
 
 ## Working conventions
 - **Start of a session:** `bash scripts/cloud-setup.sh` must print `SETUP OK`. Then work on the branch
