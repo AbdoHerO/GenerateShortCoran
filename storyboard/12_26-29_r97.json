@@ -35,7 +35,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "night_sky",
+    "mood": "mountains",
     "beats": [
      {
       "at": [
@@ -127,7 +127,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "night_sky",
+    "mood": "sea",
     "beats": [
      {
       "at": [
