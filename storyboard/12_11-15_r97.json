@@ -40,7 +40,7 @@
     "actors": [
      {
       "id": "br",
-      "type": "disbelievers",
+      "type": "people",
       "label": "",
       "place": "left",
       "count": 3,
@@ -157,7 +157,7 @@
     "actors": [
      {
       "id": "br",
-      "type": "disbelievers",
+      "type": "people",
       "label": "",
       "place": "left",
       "count": 3,
@@ -284,7 +284,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "night_sky",
+    "mood": "mountains",
     "beats": [
      {
       "at": [
@@ -469,7 +469,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Their requests are framed by As-Sa'di («متوصلين إلى مقصدهم», «فلما مهدوا لأبيهم الأسباب»); their promises «وإنا له لناصحون» and «وإنا له لحافظون» are not glossed. No wolf, well, child or throwing drawn; Ya'qub and Yusuf get no plate. An hourglass for «غدا», light for «وأوحينا إليه» (revelation). STAGING v4: c1-c2 (11-14): the family's tents in the desert by day; Ya'qub (right) a blue drop labelled Ya'qub (no close-up, pan or glow), his sons the three faceless men in dark robes (never numbered). Yusuf is not drawn in this dialogue. c1 (11-12): the brothers speak to their father (11:1, 11:9, 12:1); the camera closes in on them for their request (11:3, 12:4) and is wide again before Yusuf's name (11:8); an hourglass for tomorrow (12:3-5). c2 (13-14): Ya'qub answers (13:1, 13:7), the camera stays wide through his words (no close-up on an ordinary figure while a prophet speaks); no wolf is drawn and no figure weeps; the brothers answer (14:1, 14:7). c3 (15) stays ambient (night sky): the verse carries the well (they agreed to put him in it, As-Sa'di: and they did) and the revelation to Yusuf in that hardship, so nothing is drawn: no well, no harm, no figure; a footsteps plate for they went with him (15:2-4); the background stays quiet over the revelation (15:10-17), a scroll plate for you will inform them of this affair (15:12; not a light plate on We revealed). Cover: the brothers asking their father (title: the plot of the well)."
+  "notes": "Their requests are framed by As-Sa'di («متوصلين إلى مقصدهم», «فلما مهدوا لأبيهم الأسباب»); their promises «وإنا له لناصحون» and «وإنا له لحافظون» are not glossed. No wolf, well, child or throwing drawn; Ya'qub and Yusuf get no plate. An hourglass for «غدا», light for «وأوحينا إليه» (revelation). STAGING v4: c1-c2 (11-14): the family's tents in the desert by day; Ya'qub (right) a blue drop labelled Ya'qub (no close-up, pan or glow), his sons three faceless men in plain robes (people, not the deniers' dark robes; never numbered). Yusuf is not drawn in this dialogue. c1 (11-12): the brothers speak to their father (11:1, 11:9, 12:1); the camera closes in on them for their request (11:3, 12:4) and is wide again before Yusuf's name (11:8); an hourglass for tomorrow (12:3-5). c2 (13-14): Ya'qub answers (13:1, 13:7), the camera stays wide through his words (no close-up on an ordinary figure while a prophet speaks); no wolf is drawn and no figure weeps; the brothers answer (14:1, 14:7). c3 (15) stays ambient (mountains; no night sky near the brothers, its moon and stars echo the dream, review 12a S5): the verse carries the well (they agreed to put him in it, As-Sa'di: and they did) and the revelation to Yusuf in that hardship, so nothing is drawn: no well, no harm, no figure; a footsteps plate for they went with him (15:2-4); the background stays quiet over the revelation (15:10-17), a scroll plate for you will inform them of this affair (15:12; not a light plate on We revealed). Cover: the brothers asking their father (title: the plot of the well). For the human reviewer: 3 figures = a group, not their number (the brothers are never counted; review 12a M1)."
  },
  "cover": {
   "series_ar": "كيد الإخوة",

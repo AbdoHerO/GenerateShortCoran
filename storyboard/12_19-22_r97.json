@@ -40,16 +40,17 @@
     "actors": [
      {
       "id": "cv",
-      "type": "people",
+      "type": "man",
       "label": "",
       "place": "right",
-      "count": 3,
+      "count": 1,
       "pose": "walk",
       "enter": [
        19,
        1
       ],
-      "exit": null
+      "exit": null,
+      "look": "traveller"
      },
      {
       "id": "cm",
@@ -211,19 +212,6 @@
        16
       ],
       "motif": "geometric",
-      "place": "top",
-      "size": "s"
-     },
-     {
-      "at": [
-       20,
-       2
-      ],
-      "until": [
-       20,
-       6
-      ],
-      "motif": "coins",
       "place": "top",
       "size": "s"
      }
@@ -528,7 +516,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No well, bucket, caravan, sale, coins or boy drawn (19-20 have no plate). 19:11-16 is not glossed (who hid him is disputed). A house for «أكرمي مثواه», a book for «تأويل الأحاديث» (after Yusuf's name), geometric for «والله غالب على أمره», light for «آتيناه حكما وعلما». 21:15-19 and 22:4-6 are not glossed (first person). STAGING v4: c1 (19-20): a caravan in the desert by day (As-Sa'di: a caravan heading for Egypt): three travellers and a camel walk in (19:1), they send their water drawer (a man with a traveller's staff, 19:3) who walks to the left (19:4) and calls out the good news to them (19:7); Yusuf, a blue drop labelled Yusuf, appears beside him on this is a boy (19:9). The well, the bucket and the lifting are never drawn; Yusuf is never shown as a captive, nothing is drawn for they hid him. Geometric for Allah knows what they do (19:13-16). The sale is shown only by a small coins plate (20:2-5): no purse is handed over, nobody counts, the brothers are not drawn. No close-up, pan or glow on the drop. c2 (21-22) stays ambient (light): al-Aziz speaks to his wife (21:1-14), so nobody is drawn; then Allah's acts for Yusuf (We established him, We taught him, We gave him judgement and knowledge): the background stays quiet over 21:15-27 and 22:4-9. Plates as before, except light now starts on judgement (22:5), not on We gave him (a pronoun of Allah). Cover: the caravan arriving in the desert (title: from the well to Egypt)."
+  "notes": "No well, bucket, caravan, sale, coins or boy drawn (19-20 have no plate). 19:11-16 is not glossed (who hid him is disputed). A house for «أكرمي مثواه», a book for «تأويل الأحاديث» (after Yusuf's name), geometric for «والله غالب على أمره», light for «آتيناه حكما وعلما». 21:15-19 and 22:4-6 are not glossed (first person). STAGING v4: c1 (19-20): a caravan in the desert by day (As-Sa'di: a caravan heading for Egypt), shown by one traveller and a camel (no group of three, so it cannot read as the brothers; review 12a M2), walking in (19:1); the traveller sends their water drawer (a second man with a traveller's staff, 19:3) who walks to the left (19:4) and calls out the good news to them (19:7); Yusuf, a blue drop labelled Yusuf, appears beside him on this is a boy (19:9). The well, the bucket and the lifting are never drawn; Yusuf is never shown as a captive, nothing is drawn for they hid him. Geometric for Allah knows what they do (19:13-16). The sale (20) has no plate at all (no price on a prophet; review 12a S3): no coins or purse, nobody counts, the brothers are not drawn; only wide shots. No close-up, pan or glow on the drop. c2 (21-22) stays ambient (light): al-Aziz speaks to his wife (21:1-14), so nobody is drawn; then Allah's acts for Yusuf (We established him, We taught him, We gave him judgement and knowledge): the background stays quiet over 21:15-27 and 22:4-9. Plates as before, except light now starts on judgement (22:5), not on We gave him (a pronoun of Allah). Cover: the caravan (traveller and camel) arriving in the desert (title: from the well to Egypt)."
  },
  "cover": {
   "series_ar": "بيت العزيز",

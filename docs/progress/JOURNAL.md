@@ -1419,3 +1419,5 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
     chains or guards.
   - New chapter param `moon: false`, which hides the crescent of a night stage. `restage.py` writes it from the spec
     key `"moon": False`.
+- **Mountains (same day, Yusuf review):** the mountain backdrop was drawn as plain two-faced triangles with one shaded
+  face, which reads as pyramids at phone size. It now has jagged, uneven ridgelines with shoulders and gullies.

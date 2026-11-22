@@ -252,7 +252,7 @@
        10,
        7
       ],
-      "do": "shot_sky"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -316,9 +316,10 @@
      {
       "at": [
        10,
-       29
+       28
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
@@ -442,7 +443,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No crowd or count drawn for «لا يعلمهم إلا الله»; no plate on the messengers or the prophets' peoples. 9:21-37 is not glossed (the tafsirs read «فردوا أيديهم في أفواههم» differently; their claim stays unglossed). Geometric for «أفي الله شك فاطر السماوات والأرض», light for «يدعوكم ليغفر لكم». Their reply (10:18-33) is framed «رد السفهاء الجاهلين». STAGING v4: A plain town by day (the nations are several, the sources name no single place). The messengers are not named here, so none is drawn: no drop, no figure, and no speech or gesture toward an empty side. c1 (9): the town is empty while the news of the earlier nations is told: a scroll plate for the news (9:3-6, gone before Nuh's name), an uncountable crowd plate for those after them whom none knows but Allah (9:11-15: no countable group on stage there), a burst plate for the clear proofs (9:20). The returning of hands to mouths (9:21-24) is held on the empty town. Only then the disbelieving peoples appear as three faceless men in dark robes (9:25, they said, the series' sign for a group, no number meant; no women; not the uncountable crowd, whose rocks read as idols). (the tafsirs differ on it: biting them in rage, or not uttering faith, so it is not drawn); they shake their heads at we disbelieve (9:27) and at we are in doubt (9:33), framed by the glosses; no speech arcs (their addressees are not drawn). c2 (10): the messengers' words (10:1-17) are recited over the empty town: no figure is on stage that could be taken for the speakers; geometric for Is there doubt about Allah, Creator of the heavens and the earth, and His call to forgive (10:3-15), an hourglass for an appointed term (10:16-17). The three men appear again on 10:18 (they said), shake their heads at you are only men like us (10:22) and you wish to avert us (10:26); the camera holds on them for their demand (10:31). No idol is drawn and nobody turns toward an empty side on what our fathers worshipped. The cover now shows the deniers shaking their heads (9:27)."
+  "notes": "No crowd or count drawn for «لا يعلمهم إلا الله»; no plate on the messengers or the prophets' peoples. 9:21-37 is not glossed (the tafsirs read «فردوا أيديهم في أفواههم» differently; their claim stays unglossed). Geometric for «أفي الله شك فاطر السماوات والأرض», light for «يدعوكم ليغفر لكم». Their reply (10:18-33) is framed «رد السفهاء الجاهلين». STAGING v4: A plain town by day (the nations are several, the sources name no single place). The messengers are not named here, so none is drawn: no drop, no figure, and no speech or gesture toward an empty side. c1 (9): the town is empty while the news of the earlier nations is told: a scroll plate for the news (9:3-6, gone before Nuh's name), an uncountable crowd plate for those after them whom none knows but Allah (9:11-15: no countable group on stage there), a burst plate for the clear proofs (9:20). The returning of hands to mouths (9:21-24) is held on the empty town. Only then the disbelieving peoples appear as three faceless men in dark robes (9:25, they said, the series' sign for a group, no number meant; no women; not the uncountable crowd, whose rocks read as idols). (the tafsirs differ on it: biting them in rage, or not uttering faith, so it is not drawn); they shake their heads at we disbelieve (9:27) and at we are in doubt (9:33), framed by the glosses; no speech arcs (their addressees are not drawn). c2 (10): the messengers' words (10:1-17) are recited over the empty town, the camera wide (no tilt to the sky on the Creator of the heavens and the earth, an attribute of Allah): no figure is on stage that could be taken for the speakers; geometric for Is there doubt about Allah, Creator of the heavens and the earth, and His call to forgive (10:3-15), an hourglass for an appointed term (10:16-17). The three men appear again on 10:18 (they said), shake their heads at you are only men like us (10:22) and you wish to avert us (10:26); the camera holds on them for their demand (10:31). No idol is drawn, nobody turns and the camera does not drift toward an empty side on what our fathers worshipped (it closes on the three men, 10:28). The cover now shows the deniers shaking their heads (9:27)."
  },
  "cover": {
   "series_ar": "الرسل وأقوامهم",

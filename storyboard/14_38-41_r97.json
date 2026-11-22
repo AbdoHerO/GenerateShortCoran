@@ -205,9 +205,16 @@
      {
       "at": [
        40,
-       7
+       5
       ],
       "do": "wind"
+     },
+     {
+      "at": [
+       40,
+       7
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -335,7 +342,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Geometric for «وما يخفى على الله من شيء…» and «إن ربي لسميع الدعاء», light for «الحمد لله الذي وهب لي» (it leaves before «إسماعيل وإسحاق»). No plate on Ibrahim's prayer for himself and his descendants (40-41). 41:1-4 keeps Al-Muyassar's «وهذا قبل أن يتبيَّن له أن والده عدو لله» (As-Sa'di says the same); the Day (41:6-8) is not glossed or drawn. STAGING v4: The same barren valley by day, Ibrahim's blue drop labelled «إبراهيم» alone at the centre, wide holds only, no gesture, glow or speech arcs during his du'a (addressed to Allah). c1 (38-39): geometric for nothing is hidden from Allah and His praise (38:8-39:2) and for my Lord hears supplication (39:10-13); Ismail and Ishaq are named as gifts and are not drawn (no plate, the camera wide on their names). c2 (40-41): his du'a for the prayer, for his offspring, for his parents and the believers; nothing is acted (no prayer pose for a drop, no group added to the valley); an hourglass for the Day the reckoning is established (41:6-8; the Day is not drawn)."
+  "notes": "Geometric for «وما يخفى على الله من شيء…» and «إن ربي لسميع الدعاء», light for «الحمد لله الذي وهب لي» (it leaves before «إسماعيل وإسحاق»). No plate on Ibrahim's prayer for himself and his descendants (40-41). 41:1-4 keeps Al-Muyassar's «وهذا قبل أن يتبيَّن له أن والده عدو لله» (As-Sa'di says the same); the Day (41:6-8) is not glossed or drawn. STAGING v4: The same barren valley by day, Ibrahim's blue drop labelled «إبراهيم» alone at the centre, wide holds only, no gesture, glow or speech arcs during his du'a (addressed to Allah). c1 (38-39): geometric for nothing is hidden from Allah and His praise (38:8-39:2) and for my Lord hears supplication (39:10-13); Ismail and Ishaq are named as gifts and are not drawn (no plate, the camera wide on their names). c2 (40-41): his du'a for the prayer, for his offspring, for his parents and the believers; nothing is acted (no prayer pose for a drop, no group added to the valley); the gust of wind is on 40:5 (and from my offspring), never on «ربنا» or on accept my supplication (review: a gust there read as the du'a being answered); an hourglass for the Day the reckoning is established (41:6-8; the Day is not drawn)."
  },
  "cover": {
   "series_ar": "دعاء إبراهيم",

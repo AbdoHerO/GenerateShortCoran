@@ -67,15 +67,28 @@ export function stars(ctx, w, h, n, seed, t, alpha = 1) {
 }
 
 // pyramid-like flat peaks: [{x, h, w}]
+// mountains with jagged, uneven ridgelines and shoulders: straight two-faced slopes with one shaded face read as
+// pyramids at phone size (Yusuf review, 2026-11-22; no pyramids outside Egypt)
+const jit = (a, b) => { const v = Math.sin(a * 12.9898 + b * 78.233) * 43758.5453; return v - Math.floor(v) - 0.5; };
 export function mountains(ctx, peaks, baseY, light, dark) {
   for (const p of peaks) {
-    const ax = p.x, ay = baseY - p.h, l = p.x - p.w / 2, r = p.x + p.w / 2;
+    const ax = p.x + jit(p.x, 1) * p.w * 0.08, ay = baseY - p.h, l = p.x - p.w / 2, r = p.x + p.w / 2;
+    const side = (x0, k) => [1, 2, 3, 4, 5].map((i) => {
+      const u = i / 6, sh = i === 2 ? 0.09 : i === 4 ? -0.05 : 0;   // a shoulder low on the slope, a notch higher up
+      return [lerpN(x0, ax, u) + jit(p.x, i + k) * p.w * 0.05, lerpN(baseY, ay, u) + (jit(p.x, i + k + 7) * 0.10 + sh) * p.h];
+    });
+    const L = side(l, 0), R = side(r, 20).reverse();
     ctx.fillStyle = light;
-    ctx.beginPath(); ctx.moveTo(l, baseY); ctx.lineTo(ax, ay); ctx.lineTo(r, baseY); ctx.closePath(); ctx.fill();
+    ctx.beginPath(); ctx.moveTo(l, baseY); for (const q of L) ctx.lineTo(q[0], q[1]);
+    ctx.lineTo(ax, ay); for (const q of R) ctx.lineTo(q[0], q[1]); ctx.lineTo(r, baseY); ctx.closePath(); ctx.fill();
+    // shaded face: from the summit down the right ridge, back up an irregular gully line
     ctx.fillStyle = dark;
-    ctx.beginPath(); ctx.moveTo(ax, ay); ctx.lineTo(r, baseY); ctx.lineTo(ax + p.w * 0.08, baseY); ctx.closePath(); ctx.fill();
+    ctx.beginPath(); ctx.moveTo(ax, ay); for (const q of R) ctx.lineTo(q[0], q[1]); ctx.lineTo(r, baseY);
+    for (let i = 5; i >= 1; i--) { const u = i / 6; ctx.lineTo(lerpN(ax + p.w * 0.12, ax, u) + jit(p.x, i + 40) * p.w * 0.06, lerpN(baseY, ay, u)); }
+    ctx.closePath(); ctx.fill();
   }
 }
+const lerpN = (a, b, u) => a + (b - a) * u;
 
 export function ground(ctx, x0, x1, y, h, top, bottom, streak = null, seed = 1) {
   const g = ctx.createLinearGradient(0, y - 20, 0, y + h);
