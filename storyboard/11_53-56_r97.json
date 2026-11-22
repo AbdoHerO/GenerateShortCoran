@@ -66,7 +66,8 @@
        1
       ],
       "do": "speak",
-      "who": "d"
+      "who": "d",
+      "to": "hud"
      },
      {
       "at": [
@@ -160,7 +161,8 @@
        1
       ],
       "do": "speak",
-      "who": "d"
+      "who": "d",
+      "to": "hud"
      },
      {
       "at": [
@@ -183,7 +185,8 @@
        8
       ],
       "do": "speak",
-      "who": "hud"
+      "who": "hud",
+      "to": "d"
      },
      {
       "at": [
@@ -205,7 +208,8 @@
        3
       ],
       "do": "speak",
-      "who": "hud"
+      "who": "hud",
+      "to": "d"
      },
      {
       "at": [
@@ -283,7 +287,8 @@
        1
       ],
       "do": "speak",
-      "who": "hud"
+      "who": "hud",
+      "to": "d"
      },
      {
       "at": [
@@ -298,7 +303,8 @@
        7
       ],
       "do": "speak",
-      "who": "hud"
+      "who": "hud",
+      "to": "d"
      },
      {
       "at": [

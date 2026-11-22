@@ -77,7 +77,8 @@
        1
       ],
       "do": "speak",
-      "who": "nuh"
+      "who": "nuh",
+      "to": "d"
      },
      {
       "at": [
@@ -92,7 +93,8 @@
        6
       ],
       "do": "speak",
-      "who": "nuh"
+      "who": "nuh",
+      "to": "d"
      },
      {
       "at": [
@@ -100,19 +102,13 @@
        11
       ],
       "do": "speak",
-      "who": "nuh"
+      "who": "nuh",
+      "to": "d"
      },
      {
       "at": [
        29,
        12
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       29,
-       13
       ],
       "do": "shot_wide"
      },
@@ -130,7 +126,8 @@
        19
       ],
       "do": "speak",
-      "who": "nuh"
+      "who": "nuh",
+      "to": "d"
      },
      {
       "at": [
@@ -145,7 +142,8 @@
        1
       ],
       "do": "speak",
-      "who": "nuh"
+      "who": "nuh",
+      "to": "d"
      },
      {
       "at": [
@@ -160,7 +158,8 @@
        8
       ],
       "do": "speak",
-      "who": "nuh"
+      "who": "nuh",
+      "to": "d"
      }
     ],
     "motifs": [
@@ -230,7 +229,8 @@
        1
       ],
       "do": "speak",
-      "who": "nuh"
+      "who": "nuh",
+      "to": "d"
      },
      {
       "at": [
@@ -245,7 +245,8 @@
        7
       ],
       "do": "speak",
-      "who": "nuh"
+      "who": "nuh",
+      "to": "d"
      },
      {
       "at": [
@@ -260,7 +261,8 @@
        10
       ],
       "do": "speak",
-      "who": "nuh"
+      "who": "nuh",
+      "to": "d"
      },
      {
       "at": [
@@ -275,7 +277,8 @@
        14
       ],
       "do": "speak",
-      "who": "nuh"
+      "who": "nuh",
+      "to": "d"
      },
      {
       "at": [
@@ -304,7 +307,8 @@
        28
       ],
       "do": "speak",
-      "who": "nuh"
+      "who": "nuh",
+      "to": "d"
      },
      {
       "at": [

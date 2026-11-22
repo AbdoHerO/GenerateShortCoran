@@ -73,7 +73,8 @@
        5
       ],
       "do": "speak",
-      "who": "salih"
+      "who": "salih",
+      "to": "d"
      },
      {
       "at": [
@@ -88,7 +89,8 @@
        14
       ],
       "do": "speak",
-      "who": "salih"
+      "who": "salih",
+      "to": "d"
      },
      {
       "at": [
@@ -96,7 +98,8 @@
        20
       ],
       "do": "speak",
-      "who": "salih"
+      "who": "salih",
+      "to": "d"
      },
      {
       "at": [
@@ -186,7 +189,8 @@
        1
       ],
       "do": "speak",
-      "who": "d"
+      "who": "d",
+      "to": "salih"
      },
      {
       "at": [
@@ -224,7 +228,8 @@
        15
       ],
       "do": "speak",
-      "who": "d"
+      "who": "d",
+      "to": "salih"
      },
      {
       "at": [
@@ -293,7 +298,8 @@
        1
       ],
       "do": "speak",
-      "who": "salih"
+      "who": "salih",
+      "to": "d"
      },
      {
       "at": [
@@ -315,7 +321,8 @@
        13
       ],
       "do": "speak",
-      "who": "salih"
+      "who": "salih",
+      "to": "d"
      },
      {
       "at": [
@@ -330,7 +337,8 @@
        19
       ],
       "do": "speak",
-      "who": "salih"
+      "who": "salih",
+      "to": "d"
      },
      {
       "at": [

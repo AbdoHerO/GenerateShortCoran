@@ -66,7 +66,8 @@
        1
       ],
       "do": "speak",
-      "who": "hud"
+      "who": "hud",
+      "to": "d"
      },
      {
       "at": [
@@ -81,7 +82,8 @@
        9
       ],
       "do": "speak",
-      "who": "hud"
+      "who": "hud",
+      "to": "d"
      },
      {
       "at": [
@@ -89,7 +91,8 @@
        13
       ],
       "do": "speak",
-      "who": "hud"
+      "who": "hud",
+      "to": "d"
      },
      {
       "at": [

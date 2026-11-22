@@ -66,7 +66,8 @@
        1
       ],
       "do": "speak",
-      "who": "d"
+      "who": "d",
+      "to": "nuh"
      },
      {
       "at": [
@@ -90,7 +91,8 @@
        7
       ],
       "do": "speak",
-      "who": "d"
+      "who": "d",
+      "to": "nuh"
      },
      {
       "at": [
@@ -152,7 +154,8 @@
        1
       ],
       "do": "speak",
-      "who": "nuh"
+      "who": "nuh",
+      "to": "d"
      },
      {
       "at": [
@@ -167,7 +170,8 @@
        8
       ],
       "do": "speak",
-      "who": "nuh"
+      "who": "nuh",
+      "to": "d"
      },
      {
       "at": [
@@ -182,7 +186,8 @@
        1
       ],
       "do": "speak",
-      "who": "nuh"
+      "who": "nuh",
+      "to": "d"
      },
      {
       "at": [
@@ -197,7 +202,8 @@
        9
       ],
       "do": "speak",
-      "who": "nuh"
+      "who": "nuh",
+      "to": "d"
      },
      {
       "at": [

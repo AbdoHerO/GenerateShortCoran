@@ -74,7 +74,8 @@
        5
       ],
       "do": "speak",
-      "who": "hud"
+      "who": "hud",
+      "to": "d"
      },
      {
       "at": [
@@ -82,7 +83,8 @@
        14
       ],
       "do": "speak",
-      "who": "hud"
+      "who": "hud",
+      "to": "d"
      },
      {
       "at": [
@@ -97,12 +99,13 @@
        1
       ],
       "do": "speak",
-      "who": "hud"
+      "who": "hud",
+      "to": "d"
      },
      {
       "at": [
        51,
-       5
+       4
       ],
       "do": "shot_wide"
      },
@@ -112,7 +115,8 @@
        6
       ],
       "do": "speak",
-      "who": "hud"
+      "who": "hud",
+      "to": "d"
      },
      {
       "at": [
@@ -127,7 +131,8 @@
        12
       ],
       "do": "speak",
-      "who": "hud"
+      "who": "hud",
+      "to": "d"
      }
     ],
     "motifs": [
@@ -187,7 +192,8 @@
        1
       ],
       "do": "speak",
-      "who": "hud"
+      "who": "hud",
+      "to": "d"
      },
      {
       "at": [
@@ -202,7 +208,8 @@
        7
       ],
       "do": "speak",
-      "who": "hud"
+      "who": "hud",
+      "to": "d"
      },
      {
       "at": [
@@ -210,7 +217,8 @@
        15
       ],
       "do": "speak",
-      "who": "hud"
+      "who": "hud",
+      "to": "d"
      }
     ],
     "motifs": [
