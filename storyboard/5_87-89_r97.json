@@ -92,12 +92,19 @@
        87,
        8
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        87,
        12
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       87,
+       15
       ],
       "do": "pan_left"
      },
@@ -132,7 +139,7 @@
        88,
        10
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -218,23 +225,9 @@
       "enter": null,
       "exit": [
        89,
-       9
+       7
       ],
       "look": "plain"
-     },
-     {
-      "id": "p",
-      "type": "man",
-      "label": "",
-      "place": "right",
-      "count": 1,
-      "pose": "stand",
-      "enter": [
-       89,
-       12
-      ],
-      "exit": null,
-      "look": "poor"
      }
     ],
     "events": [],
@@ -272,43 +265,18 @@
      {
       "at": [
        89,
-       10
-      ],
-      "do": "speak",
-      "who": "m"
-     },
-     {
-      "at": [
-       89,
        13
       ],
-      "do": "give",
+      "do": "walk_to",
       "who": "m",
-      "to": "p"
+      "to": "right"
      },
      {
       "at": [
        89,
-       15
+       18
       ],
-      "do": "raise_hands",
-      "who": "p"
-     },
-     {
-      "at": [
-       89,
-       19
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       89,
-       22
-      ],
-      "do": "give",
-      "who": "m",
-      "to": "p"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -330,7 +298,7 @@
        89,
        33
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -525,7 +493,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Wheat for «حلالا طيبا» and for the feeding «إطعام», a seal for the oaths, an hourglass for the three days of fasting, geometric for «يبين الله». No people drawn (no ten poor, no slave). STAGING v4: 87-88 (lawful good things): believers in a market; palm plate on 87:6, two paths while the transgressors are named (87:15), a believer asks the seller (88:1) and pays on 88:5, with the wheat plate: lawfully earned food, no theft or usurpation (As-Sa'di). 89 (oaths): two men chat (unintended oaths in speech, Al-Muyassar), the man then makes a deliberate oath (89:10, seal); the friend leaves; a poor man comes and the man gives on 89:13 (feeding, wheat plate) and on 89:22 (clothing). One poor man stands for the needy: he is not a count of the ten. Freeing a slave (89:24-25) is not drawn. Hourglass for the three days of fasting; he bows on 89:37 (keeping oaths) and raises his hands on 89:45 (gratitude)."
+  "notes": "Wheat for «حلالا طيبا» and for the feeding «إطعام», a seal for the oaths, an hourglass for the three days of fasting, geometric for «يبين الله». No people drawn (no ten poor, no slave). STAGING v4: 87-88 (lawful good things): believers in a market; palm plate on 87:6, two paths while the transgressors are named (87:15), a believer asks the seller (88:1) and pays on 88:5, with the wheat plate: lawfully earned food, no theft or usurpation (As-Sa'di). 89 (oaths): two men chat (unintended oaths in speech, Al-Muyassar), the man then makes a deliberate oath (89:10, seal); the friend leaves on 89:7; the man walks on 89:13 with the wheat plate for the feeding (89:13-21). No poor man and no purse are drawn: a single figure would contradict the ten, and a purse would make the expiation money. Freeing a slave (89:24-25) is not drawn. Hourglass for the three days of fasting; he bows on 89:37 (keeping oaths) and raises his hands on 89:45 (gratitude)."
  },
  "cover": {
   "series_ar": "الأيمان والخمر والصيد",

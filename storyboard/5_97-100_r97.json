@@ -42,9 +42,9 @@
       "id": "p",
       "type": "believers",
       "label": "",
-      "place": "right",
+      "place": "center",
       "count": 3,
-      "pose": "walk",
+      "pose": "stand",
       "enter": null,
       "exit": [
        98,
@@ -240,29 +240,21 @@
        99,
        7
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        99,
        9
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        99,
        11
       ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       100,
-       4
-      ],
-      "do": "turn",
-      "who": "p"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -277,7 +269,7 @@
        100,
        12
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -465,7 +457,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The Kaaba, the sacrificial animals and their garlands are not drawn. A moon for «الشهر الحرام», stars for the heavens, geometric for «شديد العقاب… غفور رحيم», two paths for «الخبيث والطيب», light for «تفلحون». No motif on the Prophet ﷺ (99). STAGING v4: 97: pilgrims coming from both sides of the road (As-Sa'di: Muslims of every kind gather from every far route, get to know each other and consult): they speak on 97:12 and 97:14, the traveller looks at the sky on 97:19 (stars for the heavens). The Kaaba, the sacrificial animals and the garlands are not drawn, and no camel is on stage in this chapter so nothing reads as the offering. Moon for the sacred month. They leave on 98:1, before the attributes of 98 (empty road, geometric on the Name). 99-100: a few men in a market; the camera stays wide through 99:1-5 (the Messenger's duty). 100: two paths for the bad and the good (both tafsirs include unlawful and lawful wealth), coins for the abundance of the bad (100:8), the men turn away from it (100:4) and bow on 100:10 (fear Allah), light on 100:15 (success)."
+  "notes": "The Kaaba, the sacrificial animals and their garlands are not drawn. A moon for «الشهر الحرام», stars for the heavens, geometric for «شديد العقاب… غفور رحيم», two paths for «الخبيث والطيب», light for «تفلحون». No motif on the Prophet ﷺ (99). STAGING v4: 97: pilgrims standing at the centre of the road and a traveller walking up to them from the left (no convergence on an empty centre) (As-Sa'di: Muslims of every kind gather from every far route, get to know each other and consult): they speak on 97:12 and 97:14, the traveller looks at the sky on 97:19 (stars for the heavens). The Kaaba, the sacrificial animals and the garlands are not drawn, and no camel is on stage in this chapter so nothing reads as the offering. Moon for the sacred month. They leave on 98:1, before the attributes of 98 (empty road, geometric on the Name). 99-100: a few men in a market; the camera stays wide through 99:1-5 (the Messenger's duty). 100: two paths for the bad and the good (both tafsirs include unlawful and lawful wealth), coins for the abundance of the bad (100:8), the men bow on 100:10 (fear Allah), light on 100:15 (success)."
  },
  "cover": {
   "series_ar": "الأيمان والخمر والصيد",

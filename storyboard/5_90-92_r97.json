@@ -146,6 +146,13 @@
      {
       "at": [
        91,
+       17
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       91,
        19
       ],
       "do": "bow",
@@ -156,7 +163,7 @@
        91,
        20
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -170,16 +177,6 @@
        1
       ],
       "motif": "light",
-      "place": "top",
-      "size": "s"
-     },
-     {
-      "at": [
-       91,
-       18
-      ],
-      "until": null,
-      "motif": "two_paths",
       "place": "top",
       "size": "s"
      }
@@ -359,7 +356,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No cup, wine, dice, idols or divining arrows drawn; no motif on the Shaytan. Light only on «تفلحون». No motif on «وأطيعوا الله وأطيعوا الرسول» or on the Prophet ﷺ. 90: short-word flag, listen. STAGING v4: 90-91: believers in a town. Nothing of wine, gambling, the stone altars or the divining arrows is drawn, and no enmity or quarrel is shown. The believers turn away on 90:13 (avoid it), light on 90:15 (success); two paths on 91:18 and they bow on 91:19 (they stop). No motif on the Shaytan. 92 (obeying Allah and the Messenger, and a warning to those who turn away) stays ambient, now under a night sky instead of dawn because of the warning; a scroll plate on 92:12 (the clear delivery), after the word for the Messenger."
+  "notes": "No cup, wine, dice, idols or divining arrows drawn; no motif on the Shaytan. Light only on «تفلحون». No motif on «وأطيعوا الله وأطيعوا الرسول» or on the Prophet ﷺ. 90: short-word flag, listen. STAGING v4: 90-91: believers in a town. Nothing of wine, gambling, the stone altars or the divining arrows is drawn, and no enmity or quarrel is shown. The believers turn away on 90:13 (avoid it), light on 90:15 (success); they bow on 91:19 (they stop). No two-paths plate here: it can read as divining arrows. No motif on the Shaytan. 92 (obeying Allah and the Messenger, and a warning to those who turn away) stays ambient, now under a night sky instead of dawn because of the warning; a scroll plate on 92:12 (the clear delivery), after the word for the Messenger."
  },
  "cover": {
   "series_ar": "الأيمان والخمر والصيد",

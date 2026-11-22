@@ -45,7 +45,10 @@
       "count": 3,
       "pose": "walk",
       "enter": null,
-      "exit": null
+      "exit": [
+       94,
+       16
+      ]
      },
      {
       "id": "c",
@@ -55,7 +58,10 @@
       "count": 1,
       "pose": "stand",
       "enter": null,
-      "exit": null
+      "exit": [
+       94,
+       16
+      ]
      }
     ],
     "events": [],
@@ -128,7 +134,7 @@
        94,
        17
       ],
-      "motif": "light",
+      "motif": "lamp",
       "place": "top",
       "size": "s"
      },
@@ -170,18 +176,8 @@
       ]
      },
      {
-      "id": "c",
-      "type": "camel",
-      "label": "",
-      "place": "left",
-      "count": 1,
-      "pose": "stand",
-      "enter": null,
-      "exit": null
-     },
-     {
       "id": "j",
-      "type": "people",
+      "type": "believers",
       "label": "",
       "place": "center",
       "count": 2,
@@ -210,7 +206,7 @@
        95,
        2
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -225,21 +221,28 @@
        95,
        9
       ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       95,
+       12
+      ],
       "do": "pan_right"
      },
      {
       "at": [
        95,
-       13
+       14
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        95,
-       15
+       16
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -262,14 +265,14 @@
        95,
        25
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        95,
        36
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -291,7 +294,7 @@
        95,
        48
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -642,7 +645,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No prey killed, no weapon, no blood, no slaughtered animal drawn. Light for «من يخافه بالغيب», geometric for «عزيز ذو انتقام», the sea mood and a fish only for the permitted «صيد البحر» (leaving before «وحرم عليكم صيد البر»). STAGING v4: Pilgrims in ihram (white robes) on the road with a camel (hajj shown only as travellers; no Kaaba, no sanctuary). No game, no weapon, no hunting or killing drawn. 94: they walk; on 94:15 (fearing Him unseen, holding back from the game) they bow with the light plate; two paths and a pan away while the transgressor's punishment is recited (94:17-23). 95: they turn away on 95:5 (do not kill game); two men enter on 95:18 and speak on 95:20 and 95:23 (two just men judge the equivalent, verse and both tafsirs) and leave; wheat for the food for the poor, hourglass for the fasting; the pilgrims bow on 95:38 (pardon of what is past) and leave on 95:41, so the threat (95:42-50) falls on the empty road with two paths, then geometric from the Name on 95:45. The camel is the travellers' mount, never shown as the offering and never slaughtered. 96: the pilgrims on the sea shore, fish plate for the permitted sea game (leaves before 96:9), they turn on 96:11 (land game forbidden while in ihram) and bow on 96:16 (fear Allah)."
+  "notes": "No prey killed, no weapon, no blood, no slaughtered animal drawn. Light for «من يخافه بالغيب», geometric for «عزيز ذو انتقام», the sea mood and a fish only for the permitted «صيد البحر» (leaving before «وحرم عليكم صيد البر»). STAGING v4: Pilgrims in ihram (white robes) on the road with a camel (hajj shown only as travellers; no Kaaba, no sanctuary). No game, no weapon, no hunting or killing drawn. 94: they walk; on 94:15 (fearing Him unseen, holding back from the game) they bow with a lamp plate (no light plate on the pronoun of Allah) and leave with the camel on 94:16; two paths on the empty road while the transgressor's punishment is recited (94:17-23). 95: they turn away on 95:5 (do not kill game); two men enter on 95:18 and speak on 95:20 and 95:23 (two just men judge the equivalent, verse and both tafsirs) and leave; wheat for the food for the poor, hourglass for the fasting; the pilgrims bow on 95:38 (pardon of what is past) and leave on 95:41, so the threat (95:42-50) falls on the empty road with two paths, then geometric from the Name on 95:45. The camel appears only in 94 as the travellers' mount; it is not on stage in 95, so nothing reads as the livestock equivalent or the offering. 96: the pilgrims on the sea shore, fish plate for the permitted sea game (leaves before 96:9), they turn on 96:11 (land game forbidden while in ihram) and bow on 96:16 (fear Allah)."
  },
  "cover": {
   "series_ar": "الأيمان والخمر والصيد",

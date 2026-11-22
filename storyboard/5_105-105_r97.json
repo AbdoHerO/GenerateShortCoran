@@ -46,20 +46,6 @@
       "pose": "stand",
       "enter": null,
       "exit": null
-     },
-     {
-      "id": "s",
-      "type": "man",
-      "label": "",
-      "place": "right",
-      "count": 1,
-      "pose": "stand",
-      "enter": null,
-      "exit": [
-       105,
-       10
-      ],
-      "look": "plain"
      }
     ],
     "events": [],
@@ -84,7 +70,7 @@
        105,
        6
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -93,14 +79,6 @@
       ],
       "do": "ruku",
       "who": "b"
-     },
-     {
-      "at": [
-       105,
-       9
-      ],
-      "do": "turn",
-      "who": "s"
      },
      {
       "at": [
@@ -210,7 +188,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "105:10-11 keeps the condition both tafsirs stress: «إذا اهتديتم» includes commanding good and forbidding evil. Light for «اهتديتم», geometric for «إلى الله مرجعكم». STAGING v4: 105: believers praying in a hall (attend to yourselves: reform your own souls). One man turns on 105:9 (whoever goes astray) and leaves on 105:10; his straying does not harm the ones praying. No gesture on the condition 105:10-11, only the light plate. They prostrate on 105:14 and sit on 105:16. Geometric on the Name (105:13). The return to Allah and the account are not drawn."
+  "notes": "105:10-11 keeps the condition both tafsirs stress: «إذا اهتديتم» includes commanding good and forbidding evil. Light for «اهتديتم», geometric for «إلى الله مرجعكم». STAGING v4: 105: believers praying in a hall (attend to yourselves: reform your own souls). Nobody is shown straying or being left alone (the verse is not a licence to ignore others; both tafsirs include enjoining good). No gesture on the condition 105:10-11, only the light plate. They prostrate on 105:14 and sit on 105:16. Geometric on the Name (105:13). The return to Allah and the account are not drawn."
  },
  "cover": {
   "series_ar": "السؤال والوصية",

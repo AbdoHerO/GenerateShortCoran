@@ -55,7 +55,10 @@
       "count": 2,
       "pose": "stand",
       "enter": null,
-      "exit": null
+      "exit": [
+       108,
+       13
+      ]
      }
     ],
     "events": [],
@@ -117,7 +120,7 @@
        108,
        19
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -227,7 +230,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Scales for «بالشهادة على وجهها» (justice in testimony, not the Mizan), geometric for «واتقوا الله». No people. STAGING v4: 108: the same town; the two witnesses testify on 108:4 (scales: justice in testimony, not the Mizan) and lower their heads on 108:9 (fearing that their oaths be refused). The believers bow on 108:15 (fear Allah); geometric on the Name; two paths and a wide shot while 108:18-22 (the defiantly disobedient are not guided) is recited."
+  "notes": "Scales for «بالشهادة على وجهها» (justice in testimony, not the Mizan), geometric for «واتقوا الله». No people. STAGING v4: 108: the same town; the two witnesses testify on 108:4 (scales: justice in testimony, not the Mizan) and lower their heads on 108:9 (fearing that their oaths be refused), then leave on 108:13. The believers bow on 108:15 (fear Allah); geometric on the Name; two paths and a pan to the empty right side while 108:18-22 (the defiantly disobedient are not guided) is recited."
  },
  "cover": {
   "series_ar": "السؤال والوصية",
