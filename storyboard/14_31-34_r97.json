@@ -56,7 +56,7 @@
       "pose": "sit",
       "enter": [
        31,
-       9
+       8
       ],
       "exit": null,
       "look": "poor"
@@ -100,16 +100,15 @@
        31,
        7
       ],
-      "do": "rise",
+      "do": "stand_up",
       "who": "b"
      },
      {
       "at": [
        31,
-       9
+       8
       ],
-      "do": "stand_up",
-      "who": "b"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -623,7 +622,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "One unit (the reciter joins 31-34). «قل» (31:1): no plate on it. Coins for «وينفقوا مما رزقناهم سرا وعلانية», an hourglass for «من قبل أن يأتي يوم» (the Day is not drawn). The blessings of 32-33 in symbols: geometric, rain, wheat, ship, river, night-and-day; growth for «وآتاكم من كل ما سألتموه» (it leaves before «نعمت الله»). 31: short-word flag (word 8, 70 ms), listen. STAGING v4: c1 (31): «قل» to My believing servants (no plate on it): three believers in a prayer hall by day (the camera on them for those who believe, 31:3); they pray on 31:5 (stand, bow, rise) facing the empty side of the hall, stand up on 31:9, and only then a poor man appears sitting on the right; they give him on 31:10 (spend from what We provided, secretly and openly: Al-Muyassar, obligatory and voluntary charity) and he raises his hands on 31:11 with no plate on screen. An hourglass from 31:13 for before a Day comes with no trade and no friendship (the Day is not drawn). c2 (32), the blessings as seen in this world: gardens and farmland by day with a river; geometric for Allah who created the heavens and the earth (32:1-5); rain from 32:6 (water from the sky: both tafsirs, rain) and the land turns green on 32:10 (He brought forth fruits by it); a man and a camel (32:14-15, provision for you: As-Sa'di, and for your livestock); a ship plate for the ships that sail by His command (32:18-22; the setting has no sea), the camera down to the river for the rivers (32:25). c3 (33-34): fields by day; the sun in the sky (33:3) and a night-and-day plate; the scene darkens for the night (33:6-8) and the light returns on the day (33:9); a growth plate for He gave you of all you asked (34:1-5). Nobody is on stage for man is most unjust and ungrateful (34:12-15), so no figure is singled out for it."
+  "notes": "One unit (the reciter joins 31-34). «قل» (31:1): no plate on it. Coins for «وينفقوا مما رزقناهم سرا وعلانية», an hourglass for «من قبل أن يأتي يوم» (the Day is not drawn). The blessings of 32-33 in symbols: geometric, rain, wheat, ship, river, night-and-day; growth for «وآتاكم من كل ما سألتموه» (it leaves before «نعمت الله»). 31: short-word flag (word 8, 70 ms), listen. STAGING v4: c1 (31): «قل» to My believing servants (no plate on it): three believers in a prayer hall by day (the camera on them for those who believe, 31:3); they pray on 31:5 (standing, bowing) facing the empty side of the hall and stand up on 31:7; only then a poor man appears sitting on the right (31:8, the camera wide); they give him on 31:10 (spend from what We provided, secretly and openly: Al-Muyassar, obligatory and voluntary charity) and he raises his hands on 31:11 with no plate on screen. An hourglass from 31:13 for before a Day comes with no trade and no friendship (the Day is not drawn). c2 (32), the blessings as seen in this world: gardens and farmland by day with a river; geometric for Allah who created the heavens and the earth (32:1-5); rain from 32:6 (water from the sky: both tafsirs, rain) and the land turns green on 32:10 (He brought forth fruits by it); a man and a camel (32:14-15, provision for you: As-Sa'di, and for your livestock); a ship plate for the ships that sail by His command (32:18-22; the setting has no sea), the camera down to the river for the rivers (32:25). c3 (33-34): fields by day; the sun in the sky (33:3) and a night-and-day plate; the scene darkens for the night (33:6-8) and the light returns on the day (33:9); a growth plate for He gave you of all you asked (34:1-5). Nobody is on stage for man is most unjust and ungrateful (34:12-15), so no figure is singled out for it."
  },
  "cover": {
   "series_ar": "أمثال وعبر",

@@ -242,14 +242,14 @@
        107,
        8
       ],
-      "do": "clouds_part"
+      "do": "pan_right"
      },
      {
       "at": [
        107,
        9
       ],
-      "do": "shot_sky"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -414,7 +414,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Calm visuals only. The garden withers for effort lost in this worldly life (18:104 is about this world, it is not Paradise); the night sky for the Day of Resurrection and the recompense; rays of light for Paradise, which is never illustrated. The tafsirs differ on what al-Firdaws covers (the highest level or all of Paradise), so no gloss defines it. v2: 103:1-5 (address to the Prophet) is a quiet range; the light mood and the other renderer fixes apply at build."
+  "notes": "Calm visuals only. The garden withers for effort lost in this worldly life (18:104 is about this world, it is not Paradise); the night sky for the Day of Resurrection and the recompense; rays of light for Paradise, which is never illustrated. The tafsirs differ on what al-Firdaws covers (the highest level or all of Paradise), so no gloss defines it. v2: 103:1-5 (address to the Prophet) is a quiet range; the light mood and the other renderer fixes apply at build. In 18:107 no clouds part with rays from above and the camera does not tilt to the sky on Paradise (107:8-9): sideways pans instead, so nothing reads as a picture of heaven (the cover frame included)."
  },
  "cover": {
   "series_ar": "خاتمة السورة",

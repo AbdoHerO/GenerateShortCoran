@@ -265,14 +265,14 @@
        76,
        23
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        76,
        24
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [

@@ -182,7 +182,7 @@
        105,
        11
       ],
-      "do": "turn",
+      "do": "shake_head",
       "who": "d"
      },
      {
@@ -413,7 +413,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "102-104 address the Prophet ﷺ: no plate on him; a book for «إن هو إلا ذكر للعالمين». Stars for «آية في السماوات والأرض», an hourglass for «الساعة بغتة» (the Hour is not drawn). 102:1-6 avoids As-Sa'di's first-person «إيحاؤنا». STAGING v4: c1 (102-104) stays ambient: Allah addresses the Prophet ﷺ directly (the news of the unseen revealed to you, though you be eager, you ask them no reward); he is never shown, the background stays quiet (no pulse) over the whole chapter, and no pan sits on 102:6. A book plate for a reminder to the worlds (104:9). c2 (105-107) is staged: signs in the heavens and the earth (Al-Muyassar: the sun, the moon, the mountains and the trees) on a mountain valley by day, with a sun plate (105:5-6); three people in dark robes walk past them (105:7) and turn away (105:11); nobody turns toward an empty side and no idol is drawn for 106; a close-up on them as most of them is said (106:3). 107 is a warning: no event, nobody is struck or leaves; an hourglass plate for the Hour (107:10; the Hour is not drawn) and they walk on, unaware (107:12). The camera holds on them, there are no believers on stage."
+  "notes": "102-104 address the Prophet ﷺ: no plate on him; a book for «إن هو إلا ذكر للعالمين». Stars for «آية في السماوات والأرض», an hourglass for «الساعة بغتة» (the Hour is not drawn). 102:1-6 avoids As-Sa'di's first-person «إيحاؤنا». STAGING v4: c1 (102-104) stays ambient: Allah addresses the Prophet ﷺ directly (the news of the unseen revealed to you, though you be eager, you ask them no reward); he is never shown, the background stays quiet (no pulse) over the whole chapter, and no pan sits on 102:6. A book plate for a reminder to the worlds (104:9). c2 (105-107) is staged: signs in the heavens and the earth (Al-Muyassar: the sun, the moon, the mountains and the trees) on a mountain valley by day, with a sun plate (105:5-6); three people in dark robes walk past them (105:7) and shake their heads (105:11, they turn away from them); nobody turns toward an empty side or away from the viewer and no idol is drawn for 106; a close-up on them as most of them is said (106:3). 107 is a warning: no event, nobody is struck or leaves; an hourglass plate for the Hour (107:10; the Hour is not drawn) and they walk on, unaware (107:12). The camera holds on them, there are no believers on stage."
  },
  "cover": {
   "series_ar": "خاتمة السورة",
