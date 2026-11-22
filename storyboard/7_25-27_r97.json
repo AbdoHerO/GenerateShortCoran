@@ -32,14 +32,51 @@
    "verses": [
     25
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "fields",
+    "time": "day",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [
+     {
+      "type": "growth",
+      "at": [
+       25,
+       3
+      ],
+      "until": null
+     }
+    ],
     "beats": [
      {
       "at": [
        25,
-       5
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       25,
+       3
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       25,
+       6
       ],
       "do": "shot_wide"
      }
@@ -48,15 +85,15 @@
      {
       "at": [
        25,
-       2
+       4
       ],
       "until": [
        25,
-       6
+       7
       ],
       "motif": "hourglass",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -67,16 +104,56 @@
    "verses": [
     26
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "r",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "rich"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        26,
-       5
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       26,
+       4
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       26,
+       6
+      ],
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
@@ -90,24 +167,62 @@
        26,
        9
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "r"
+     },
+     {
+      "at": [
+       26,
+       10
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       26,
+       11
+      ],
+      "do": "sparkle",
+      "who": "p"
      },
      {
       "at": [
        26,
        13
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
        26,
-       15
+       16
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       26,
+       19
+      ],
+      "do": "look_up",
+      "who": "p"
      }
     ],
     "motifs": [
+     {
+      "at": [
+       26,
+       9
+      ],
+      "until": [
+       26,
+       10
+      ],
+      "motif": "jewel",
+      "place": "top",
+      "size": "s"
+     },
      {
       "at": [
        26,
@@ -119,7 +234,7 @@
       ],
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "light_sweep"
@@ -135,6 +250,13 @@
    "params": {
     "mood": "night_sky",
     "beats": [
+     {
+      "at": [
+       27,
+       4
+      ],
+      "do": "pan_right"
+     },
      {
       "at": [
        27,
@@ -188,6 +310,13 @@
       "at": [
        27,
        23
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       27,
+       26
       ],
       "do": "pan_left"
      },
@@ -347,7 +476,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No clothing, nakedness, garden or figure drawn; the Shaytan and his kind never drawn and no motif during 27. An hourglass for life and death, light for «ولباس التقوى». First-person «جعلنا» (26, 27) not used."
+  "notes": "No clothing, nakedness, garden or figure drawn; the Shaytan and his kind never drawn and no motif during 27. An hourglass for life and death, light for «ولباس التقوى». First-person «جعلنا» (26, 27) not used. STAGING v4: c1 (25: on the earth you live, die and are brought out): people in fields by day (Muyassar: on the earth you spend your worldly life); the fields grow on 25:3 (you live), an hourglass on 25:4 for the term; nobody leaves on the word of death and the resurrection is not pictured. c2 (26: clothing that covers, and adornment): a market street; a group in plain covering clothes (camera on them at 26:6) and a man in fine robes for the adornment (26:9, Muyassar: clothing for adornment and beauty) with a jewel plate; on the clothing of piety (26:10) a light plate and a soft sparkle on the group (As-Sa'di: the beauty of the heart and soul); on 26:19 (that they may remember) they look up. Only men are drawn; nothing about nakedness is shown. c3 (27: the Shaytan who removed the parents from the Garden and sees you unseen) stays ambient with no motif: the Garden, the uncovering, the Shaytan and his kind are not drawn."
  },
  "cover": {
   "series_ar": "الزينة والتقوى",
@@ -356,8 +485,9 @@
   "title_en": "Covering and piety",
   "at": [
    26,
-   1
+   12
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

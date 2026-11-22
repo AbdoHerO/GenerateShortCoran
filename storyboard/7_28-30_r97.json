@@ -32,35 +32,58 @@
    "verses": [
     28
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        28,
-       4
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       28,
-       6
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       28,
-       7
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        28,
-       10
+       4
+      ],
+      "do": "speak",
+      "who": "d"
+     },
+     {
+      "at": [
+       28,
+       7
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       28,
+       9
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       28,
+       11
       ],
       "do": "shot_wide"
      },
@@ -69,24 +92,39 @@
        28,
        16
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        28,
        17
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        28,
        22
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      }
     ],
-    "motifs": []
+    "motifs": [
+     {
+      "at": [
+       28,
+       12
+      ],
+      "until": [
+       28,
+       17
+      ],
+      "motif": "geometric",
+      "place": "top",
+      "size": "s"
+     }
+    ]
    }
   },
   {
@@ -96,44 +134,144 @@
     29,
     30
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": [
+       30,
+       3
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        29,
-       10
+       1
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       29,
+       4
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       29,
+       5
+      ],
+      "do": "pray",
+      "who": "b"
+     },
+     {
+      "at": [
+       29,
+       7
+      ],
+      "do": "ruku",
+      "who": "b"
+     },
+     {
+      "at": [
+       29,
+       9
+      ],
+      "do": "sujud",
+      "who": "b"
+     },
+     {
+      "at": [
+       29,
+       11
+      ],
+      "do": "sit",
+      "who": "b"
+     },
+     {
+      "at": [
+       29,
+       15
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       30,
+       1
+      ],
+      "do": "stand_up",
+      "who": "b"
+     },
+     {
+      "at": [
+       30,
+       2
+      ],
+      "do": "sparkle",
+      "who": "b"
      },
      {
       "at": [
        30,
        4
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        30,
-       7
+       6
       ],
-      "do": "pan_right"
+      "do": "shake_head",
+      "who": "d"
+     },
+     {
+      "at": [
+       30,
+       8
+      ],
+      "do": "turn",
+      "who": "d"
      },
      {
       "at": [
        30,
        10
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        30,
        12
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -145,16 +283,10 @@
      {
       "at": [
        30,
-       15
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       30,
        16
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "d"
      }
     ],
     "motifs": [
@@ -169,17 +301,20 @@
       ],
       "motif": "lamp",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        29,
        14
       ],
-      "until": null,
+      "until": [
+       30,
+       1
+      ],
       "motif": "growth",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -192,7 +327,7 @@
       ],
       "motif": "two_paths",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "light_sweep"
@@ -346,7 +481,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Their claim «والله أمرنا بها» (28:8-10) is glossed with As-Sa'di's «وكذبوا في هذا». No motif in 28 and none on the devils. A lamp for «عند كل مسجد», growth for «كما بدأكم تعودون», two paths for the two parties."
+  "notes": "Their claim «والله أمرنا بها» (28:8-10) is glossed with As-Sa'di's «وكذبوا في هذا». No motif in 28 and none on the devils. A lamp for «عند كل مسجد», growth for «كما بدأكم تعودون», two paths for the two parties. STAGING v4: c1 (28): three deniers in a town at dusk; they speak on 28:4 (they excuse their deed by their fathers and claim a command, framed by As-Sa'di's gloss that they lied); a geometric plate on 28:12-16 (Allah does not command immorality); the camera holds on them at the rebuke (28:17). Nothing of the deed itself is drawn: no circling, no House, no uncovering. c2 (29-30): the command is shown through the believers, not the addressed mushrikin: on the left they pray (29:5), bow, prostrate on 29:9 (place of prostration, Muyassar: in every place of worship) and sit; a lamp plate, then growth for 29:14-16 (as He began you, you return; the return itself is not pictured). On 30:1 (a party He guided) they rise and a soft sparkle falls on them; on 30:3 (a party deserved error) three deniers enter on the right, shake their heads and turn away on 30:8 (they took the devils as allies, who are not drawn); the camera stays on them to the end. Nobody prostrates toward people: the right side is empty until 30:3."
  },
  "cover": {
   "series_ar": "الزينة والتقوى",
@@ -355,8 +490,9 @@
   "title_en": "Justice and sincerity",
   "at": [
    29,
-   1
+   6
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }
