@@ -1258,3 +1258,25 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
   - 2_13-16, 2_183-185 and 3_24-26 stay audio-blocked, as before.
 - **Fixed:** `render.mjs sheet` used one shared temp folder, so sheets rendered in parallel could show another
   storyboard. Each run now has its own folder.
+
+### Staging v4: first v2 batch published; autonomous operation (2026-11-22)
+
+- **Al-Baqara 1-84:**
+  - 20 v2 drafts published (« - v2 »), after the independent picture review, its fixes and a frame check.
+  - 2_24-25 stayed ambient and rendered identical to the published video, so it was not re-published.
+  - 2_13-16 is still audio-blocked.
+- **Al-Baqara 85-286:** reviews and fixes done.
+  - 85-237 and Al-Hijr (55 videos) are building.
+  - 238-286 (18 buildable; 2_255-256 is blocked by the nocut edge) is queued next.
+- **Aal Imran:** all 54 restaged; three independent picture reviews are running.
+- **An-Nisa:** restaging started (part 1 of 3).
+- **Owner rule (CLAUDE.md, "Autonomous operation and usage limits"):**
+  - Usage is read from `rate_limit_event`.
+  - At 95% of a window, token work stops (background builds go on), and a `send_later` resume is set at reset + 1
+    minute.
+  - One resume is always pending at the current five-hour reset + 1 minute.
+- **Renderer fixes after the reviews:**
+  - No cross on the rich robe.
+  - Pale-stone mountain caps.
+  - Gentler pans.
+  - Light woven tents with a shaded door; a dark tent with a gold-lit door could read as the Kaaba.
