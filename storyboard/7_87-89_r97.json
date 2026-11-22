@@ -52,7 +52,7 @@
       "type": "believers",
       "label": "",
       "place": "center",
-      "count": 2,
+      "count": 3,
       "pose": "stand",
       "enter": null,
       "exit": null
@@ -167,7 +167,7 @@
       "type": "believers",
       "label": "",
       "place": "center",
-      "count": 2,
+      "count": 3,
       "pose": "stand",
       "enter": null,
       "exit": null
@@ -340,7 +340,7 @@
        88,
        15
       ],
-      "motif": "door",
+      "motif": "footsteps",
       "place": "top",
       "size": "s"
      },
@@ -454,7 +454,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Shu'ayb: no motif. Their threat (88:7-17) is not glossed. 87:12-16 avoids Al-Muyassar's «أيها المكذبون» (who «فاصبروا» addresses is not settled). Geometric for «حتى يحكم الله» and «وسع ربنا كل شيء علما». STAGING v4: Shu'ayb is a blue drop labelled Shu'ayb; in the town (88: our town): two believers in light robes (few) and three chiefs in dark robes (As-Sa'di: the majority did not believe). c1 (87): a conditional sentence, so nobody gestures: Shu'ayb speaks (87:1), the camera on the believers (87:3) and on the others (87:9); geometric for until Allah judges (87:14-16). c2 (88-89): the arrogant chiefs speak (88:1) and point at Shu'ayb on 88:7 (we will expel you); a door plate for expelling from the town (88:9-14); the camera on the believers (88:10, those who believed with you) and on the chiefs (88:15, return to our religion); Shu'ayb answers (88:18, 89:1, 89:35); the camera on the chiefs (89:7, your religion) and on the believers (89:10, after Allah saved us); geometric for our Lord encompasses all things in knowledge (89:26-30). His du'a (89:34-42) is spoken by his drop with no glow and no raised hands, so no light pulses on the drop at «رب»."
+  "notes": "Shu'ayb: no motif. Their threat (88:7-17) is not glossed. 87:12-16 avoids Al-Muyassar's «أيها المكذبون» (who «فاصبروا» addresses is not settled). Geometric for «حتى يحكم الله» and «وسع ربنا كل شيء علما». STAGING v4: Shu'ayb is a blue drop labelled Shu'ayb; in the town (88: our town): three believers in light robes and three chiefs in dark robes (three is the series' sign for a group; no number is meant, and As-Sa'di's majority is not counted). c1 (87): a conditional sentence, so nobody gestures: Shu'ayb speaks (87:1), the camera on the believers (87:3) and on the others (87:9); geometric for until Allah judges (87:14-16). c2 (88-89): the arrogant chiefs speak (88:1) and point at Shu'ayb on 88:7 (we will expel you); a footsteps plate for being driven out of the town (88:9-14); the camera on the believers (88:10, those who believed with you) and on the chiefs (88:15, return to our religion); Shu'ayb answers (88:18, 89:1, 89:35); the camera on the chiefs (89:7, your religion) and on the believers (89:10, after Allah saved us); geometric for our Lord encompasses all things in knowledge (89:26-30). His du'a (89:34-42) is spoken by his drop with no glow and no raised hands, so no light pulses on the drop at «رب»."
  },
  "cover": {
   "series_ar": "دعوة الرسل",

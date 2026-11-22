@@ -35,7 +35,7 @@
    "scene": "stage",
    "params": {
     "setting": "city",
-    "time": "dusk",
+    "time": "day",
     "actors": [
      {
       "id": "shuayb",
@@ -411,7 +411,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Shu'ayb: no motif. 93:1-4 not glossed (the tafsirs differ on whether he turned away before or after their end). Their saying in 95:8-13 is not glossed as a statement, only «فلم يُفِد معهم كل ذلك». Growth for «بدلنا مكان السيئة الحسنة». First-person «ابتليناهم… بدلنا… فأخذناهم» not used. STAGING v4: c1 (93): Shu'ayb (blue drop) alone in the town at dusk turns away (93:1) and speaks (93:3); his people are not on the stage, and no sign of their end is drawn, because the tafsirs differ on whether he turned away before or after it; a seal plate for the messages of his Lord (93:6-8). c2 (94-95), the way of Allah with every town (a general rule, no specific nation): the people of a town in a market street (no prophet drop: «نبي» is general); in hardship (94:10-11, Al-Muyassar: illness and poverty) they sit down and lower their heads; nobody is shown humbling himself in du'a (94:12 is only hoped for). On 95:2 (good in place of bad) they stand up, a growth plate; a crowd plate for they increased (95:7-8, As-Sa'di: they became many); they speak their saying (95:8, framed by the gloss), turn away (95:12) and leave on 95:13, so the darkness on 95:14 (seized suddenly) falls on the empty street; no person, no ruin, day (not dawn)."
+  "notes": "Shu'ayb: no motif. 93:1-4 not glossed (the tafsirs differ on whether he turned away before or after their end). Their saying in 95:8-13 is not glossed as a statement, only «فلم يُفِد معهم كل ذلك». Growth for «بدلنا مكان السيئة الحسنة». First-person «ابتليناهم… بدلنا… فأخذناهم» not used. STAGING v4: c1 (93): Shu'ayb (blue drop) alone in the town by day (no time is in the sources; no low red sky over the place of a punishment) turns away (93:1) and speaks (93:3); his people are not on the stage, and no sign of their end is drawn, because the tafsirs differ on whether he turned away before or after it; a seal plate for the messages of his Lord (93:6-8). c2 (94-95), the way of Allah with every town (a general rule, no specific nation): the people of a town in a market street (no prophet drop: «نبي» is general); in hardship (94:10-11, Al-Muyassar: illness and poverty) they sit down and lower their heads; nobody is shown humbling himself in du'a (94:12 is only hoped for). On 95:2 (good in place of bad) they stand up, a growth plate; a crowd plate for they increased (95:7-8, As-Sa'di: they became many); they speak their saying (95:8, framed by the gloss), turn away (95:12) and leave on 95:13, so the darkness on 95:14 (seized suddenly) falls on the empty street; no person, no ruin, day (not dawn)."
  },
  "cover": {
   "series_ar": "دعوة الرسل",

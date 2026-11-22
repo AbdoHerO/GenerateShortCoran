@@ -186,21 +186,7 @@
       "do": "pan_right"
      }
     ],
-    "motifs": [
-     {
-      "at": [
-       48,
-       11
-      ],
-      "until": [
-       48,
-       14
-      ],
-      "motif": "coins",
-      "place": "top",
-      "size": "m"
-     }
-    ]
+    "motifs": []
    }
   },
   {
@@ -392,7 +378,7 @@
        51,
        9
       ],
-      "motif": "jewel",
+      "motif": "leaf",
       "place": "top",
       "size": "m"
      },
@@ -797,7 +783,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "One unit: the reciter joins 47→53 (about 258 s). Paradise, the Fire, the heights, water and food: nothing literal (no water or river motif). Who is told «ادخلوا الجنة» (49:8-12) is not glossed (Al-Muyassar: the people of the heights). «ننساهم» carries Al-Muyassar's «ويتركهم في العذاب». A book for «بكتاب فصلناه», an hourglass for «تأويله». First-person «جئناهم… بينا» not used. STAGING v4: Staging v4: kept ambient (the people of al-A'raf, the Fire, the Garden, the Day: the unseen, nothing literal, no water or river motif). c1: a coins plate on 48:11-13 for what they gathered in this world (Al-Muyassar: wealth and men). c2: a geometric plate on the Name at 50:17 (His ruling), a jewel plate on 51:6-8 for the adornment of this world that deluded them (As-Sa'di), a book plate on 51:18 for the signs they denied. c3: mood light -> night_sky, as 53 is the fulfilment of the threat (no light or dawn mood over a threat); plates and beats unchanged."
+  "notes": "One unit: the reciter joins 47→53 (about 258 s). Paradise, the Fire, the heights, water and food: nothing literal (no water or river motif). Who is told «ادخلوا الجنة» (49:8-12) is not glossed (Al-Muyassar: the people of the heights). «ننساهم» carries Al-Muyassar's «ويتركهم في العذاب». A book for «بكتاب فصلناه», an hourglass for «تأويله». First-person «جئناهم… بينا» not used. STAGING v4: Staging v4: kept ambient (the people of al-A'raf, the Fire, the Garden, the Day: the unseen, nothing literal, no water or river motif). c1: no motif (no gold motif in a Hell passage), camera beats only. c2: a geometric plate on the Name at 50:17 (His ruling), a leaf plate on 51:6-8 for the passing adornment of this world that deluded them (As-Sa'di), a book plate on 51:18 for the signs they denied. c3: mood light -> night_sky, as 53 is the fulfilment of the threat (no light or dawn mood over a threat); plates and beats unchanged."
  },
  "cover": {
   "series_ar": "مشاهد الآخرة",

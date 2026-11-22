@@ -43,7 +43,7 @@
       "type": "believers",
       "label": "",
       "place": "left",
-      "count": 2,
+      "count": 3,
       "pose": "stand",
       "enter": null,
       "exit": null
@@ -82,15 +82,23 @@
        75,
        6
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        75,
        8
       ],
-      "do": "shot_close",
-      "who": "b"
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       75,
+       10
+      ],
+      "do": "point",
+      "who": "d",
+      "to": "b"
      },
      {
       "at": [
@@ -103,18 +111,24 @@
      {
       "at": [
        75,
+       13
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       75,
        14
       ],
-      "do": "point",
-      "who": "d",
-      "to": "b"
+      "do": "pan_right"
      },
      {
       "at": [
        75,
        15
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
@@ -127,10 +141,17 @@
      {
       "at": [
        75,
-       21
+       19
       ],
       "do": "shot_close",
       "who": "b"
+     },
+     {
+      "at": [
+       75,
+       21
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -161,7 +182,7 @@
        76,
        5
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -184,7 +205,7 @@
      {
       "at": [
        75,
-       19
+       20
       ],
       "until": [
        76,
@@ -520,7 +541,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Salih: no motif. The killing of the she-camel and the earthquake are not drawn (night sky, no motif in 77-79). Their challenge (77:7-15) is framed «على سبيل الاستهزاء». Light only for the believers' answer (75:19). 79:11-14 avoids Al-Muyassar's «شيطان رجيم» (Quran wording). STAGING v4: c1 (75-76): a mountain valley; the arrogant chiefs (three faceless men in dark robes) speak to the weak who believed (two figures in light robes: few, and not a crowd); Salih is named but not drawn here (neither verse places him in the scene). The chiefs ask (75:1, 75:12) and point at the believers they address (75:14), the believers answer (75:18) with a light plate (75:19-23) and a soft sparkle on 75:23 (believers); the chiefs answer (76:1), shake their heads (76:6) and turn away on 76:8 (disbelievers). c2 (77-79): the she-camel is never drawn in this video, and nothing moves or gestures on 77:1-2 (the hamstringing is not shown in any way); the camera holds wide, then on the chiefs for their insolence (77:3), they speak their challenge to Salih (77:7, the drop on the left), turn away on 77:11 (bring us what you promise; no gesture inside the conditional 77:12-15) and leave on 77:15 with Salih's drop, so the stage is empty before 78:1. The quake falls on the empty valley (78:2 to 79:1): no person, no body, no ruin; day (no dawn or low red sun over the punishment). 79: Salih's drop appears again on 79:1, turns away (79:2) and speaks to them after their end (79:3, As-Sa'di: a rebuke after Allah destroyed them); a seal plate for the message of his Lord (79:6-8)."
+  "notes": "Salih: no motif. The killing of the she-camel and the earthquake are not drawn (night sky, no motif in 77-79). Their challenge (77:7-15) is framed «على سبيل الاستهزاء». Light only for the believers' answer (75:19). 79:11-14 avoids Al-Muyassar's «شيطان رجيم» (Quran wording). STAGING v4: c1 (75-76): a mountain valley; the arrogant chiefs (three faceless men in dark robes) speak to the weak who believed (three figures in light robes: the series' sign for a group, no number is meant); Salih is named but not drawn here (neither verse places him in the scene), and no believer is in close-up while his name is recited (75:13-17: the camera goes wide, then to the chiefs). The chiefs speak (75:1), point at the believers they address (75:10) and ask (75:12); the believers are in close-up only while they answer (75:19-20), then the camera goes wide so both groups are seen for the chiefs' reply, with a light plate (75:20-23, once the camera is on them) and a soft sparkle on 75:23 (believers); the chiefs answer (76:1), shake their heads (76:6) and turn away on 76:8 (disbelievers). c2 (77-79): the she-camel is never drawn in this video, and nothing moves or gestures on 77:1-2 (the hamstringing is not shown in any way); the camera holds wide, then on the chiefs for their insolence (77:3), they speak their challenge to Salih (77:7, the drop on the left), turn away on 77:11 (bring us what you promise; no gesture inside the conditional 77:12-15) and leave on 77:15 with Salih's drop, so the stage is empty before 78:1. The quake falls on the empty valley (78:2 to 79:1): no person, no body, no ruin; day (no dawn or low red sun over the punishment). 79: Salih's drop appears again on 79:1, turns away (79:2) and speaks to them after their end (79:3, As-Sa'di: a rebuke after Allah destroyed them); a seal plate for the message of his Lord (79:6-8)."
  },
  "cover": {
   "series_ar": "دعوة الرسل",

@@ -159,7 +159,7 @@
        92,
        5
       ],
-      "do": "wind"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -193,7 +193,7 @@
        92,
        8
       ],
-      "motif": "wind",
+      "motif": "leaf",
       "place": "top",
       "size": "s"
      }
@@ -271,7 +271,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Shu'ayb: no motif. No earthquake, bodies or destruction drawn; wind only for «كأن لم يغنوا فيها». Their claim (90:7-12) is framed «هذا ما سولت لهم أنفسهم». STAGING v4: Shu'ayb is named but not drawn (not placed in the scene). 90: the chiefs who disbelieved (three faceless men in dark robes) speak (90:1) to the people of the town (three faceless men, left), the camera on the chiefs (90:3); both groups turn (90:5-6) and leave the stage on 90:7, before the chiefs' conditional saying (90:7-12) is recited, so no gesture is acted inside it and the street is empty long before 91:1. 91: the quake shakes the empty town (91:2 to 92:1): no body, no ruin, day (not dawn). 92 (as though they had never lived there): the wind blows through the empty street with a wind plate (92:4-7, after Shu'ayb's name and ending before it again) and a few leaves."
+  "notes": "Shu'ayb: no motif. No earthquake, bodies or destruction drawn; wind only for «كأن لم يغنوا فيها». Their claim (90:7-12) is framed «هذا ما سولت لهم أنفسهم». STAGING v4: Shu'ayb is named but not drawn (not placed in the scene). 90: the chiefs who disbelieved (three faceless men in dark robes) speak (90:1) to the people of the town (three faceless men, left), the camera on the chiefs (90:3); both groups turn (90:5-6) and leave the stage on 90:7, before the chiefs' conditional saying (90:7-12) is recited, so no gesture is acted inside it and the street is empty long before 91:1. 91: the quake shakes the empty town (91:2 to 92:1): no body, no ruin, day (not dawn). 92 (as though they had never lived there): the empty street, a leaf plate for the passing of what they enjoyed (92:4-7, after Shu'ayb's name and ending before it again; no wind, which was 'Ad's punishment) and a few leaves drifting (92:11)."
  },
  "cover": {
   "series_ar": "دعوة الرسل",
