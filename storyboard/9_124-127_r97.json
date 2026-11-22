@@ -32,30 +32,102 @@
    "verses": [
     124
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "h",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        124,
-       7
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       124,
-       9
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        124,
-       11
+       5
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       124,
+       7
+      ],
+      "do": "speak",
+      "who": "h"
+     },
+     {
+      "at": [
+       124,
+       8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       124,
+       10
+      ],
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       124,
+       12
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       124,
+       13
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       124,
+       15
+      ],
+      "do": "read",
+      "who": "b"
+     },
+     {
+      "at": [
+       124,
+       18
+      ],
+      "do": "sparkle",
+      "who": "b"
      }
     ],
     "motifs": [
@@ -70,17 +142,20 @@
       ],
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        124,
        15
       ],
-      "until": null,
+      "until": [
+       124,
+       17
+      ],
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -92,16 +167,46 @@
     125,
     126
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "h",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        125,
-       5
+       1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       125,
+       3
+      ],
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       125,
+       6
+      ],
+      "do": "turn",
+      "who": "h"
      },
      {
       "at": [
@@ -109,34 +214,59 @@
        9
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       125,
+       11
+      ],
+      "do": "shot_close",
+      "who": "h"
      },
      {
       "at": [
        126,
        1
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        126,
-       9
+       4
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "h"
      },
      {
       "at": [
        126,
-       13
+       8
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        126,
+       13
+      ],
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       126,
        14
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       126,
+       16
+      ],
+      "do": "shot_close",
+      "who": "h"
      }
     ],
     "motifs": [
@@ -151,7 +281,7 @@
       ],
       "motif": "hourglass",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "dissolve"
@@ -351,7 +481,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "124:5-11 frames the hypocrites' question («إنكارًا واستهزاءً»). As-Sa'di's «والحث على الجهاد» (124) is cut. A book for «سورة», light for «فزادتهم إيمانا», an hourglass for «في كل عام مرة أو مرتين». No motif on «الرسول»."
+  "notes": "124:5-11 frames the hypocrites' question («إنكارًا واستهزاءً»). As-Sa'di's «والحث على الجهاد» (124) is cut. A book for «سورة», light for «فزادتهم إيمانا», an hourglass for «في كل عام مرة أو مرتين». No motif on «الرسول». STAGING v4: c1 (124): a town by day. Three believers on the left, three men on the right (some of the hypocrites, Al-Muyassar). A book plate on 124:4-5 (a sura revealed); the hypocrites speak on 124:7 toward the believers who are present (their question is framed by the gloss «إنكارًا واستهزاءً»; nobody speaks toward an empty side); the believers read on 124:15 under a light plate (it increased them in faith: both tafsirs, by knowing it, understanding it and acting on it) and a soft sparkle on them on 124:18 (they rejoice). c2 (125-126): the same town; the three hypocrites (those with a disease in their hearts: doubt and hypocrisy, both tafsirs) turn their backs on 125:6 (As-Sa'di: they rejected it and turned away from it); nobody fades or leaves on 125:10 (they died as disbelievers): the camera only closes on them; an hourglass on 126:6-10 (tried every year once or twice); no drought, disease or affliction is drawn (the tafsirs give different examples), and nothing is acted on the negations 126:12-16. c3 (127) is kept ambient: Al-Muyassar places their slipping away in the Messenger's own gathering («من عنده»), so staging it would make them leave an empty side that stands for him. Cover: the believers reading the sura (124:15)."
  },
  "cover": {
   "series_ar": "الصدق والختام",
@@ -360,8 +490,9 @@
   "title_en": "The Quran's effect on hearts",
   "at": [
    124,
-   1
+   15
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }
