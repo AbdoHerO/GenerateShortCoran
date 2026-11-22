@@ -65,8 +65,7 @@ function mesa(ctx, x, baseY, w, h, light, dark, seed = 1) {
   ctx.save(); outline(); ctx.clip();
   ctx.fillStyle = dark;
   ctx.beginPath(); ctx.moveTo(x + tw * 0.2, top - 10); ctx.lineTo(r + 10, top - 10); ctx.lineTo(r + 10, baseY + 2); ctx.lineTo(x + w * 0.12, baseY + 2); ctx.closePath(); ctx.fill();
-  ctx.strokeStyle = 'rgba(110,60,30,0.16)'; ctx.lineWidth = 3;
-  for (let k = 1; k <= 3; k++) { const y = top + (h * k) / 4 + (H(seed, k) - 0.5) * 6; ctx.beginPath(); ctx.moveTo(l, y); ctx.lineTo(r, y + 3); ctx.stroke(); }
+  // no horizontal "courses": regular bands on a symmetric block read as a step pyramid (Aal Imran picture review)
   ctx.restore();
 }
 // low rounded headland on the horizon (left side)
@@ -1485,9 +1484,10 @@ const SETTINGS = {
     ground: ['#efd09a', '#e0b67a', 'rgba(190,140,80,0.45)'],
     far(ctx, t) {
       band(ctx, HY - 22, 26, 103, '#f0cfa2');
-      mesa(ctx, 110, HY + 6, 300, 125, '#dba273', '#c4875c', 3);
-      mesa(ctx, 700, HY + 6, 190, 82, '#dfa979', '#c88d61', 5);
-      mesa(ctx, 975, HY + 6, 330, 150, '#d89d6e', '#bf8358', 7);
+      // wide, low, uneven plateaus only: a small symmetric block in the middle read as a truncated pyramid
+      mesa(ctx, 90, HY + 6, 430, 105, '#dba273', '#c4875c', 3);
+      mesa(ctx, 700, HY + 6, 420, 38, '#dfa979', '#c88d61', 5);
+      mesa(ctx, 1000, HY + 6, 470, 120, '#d89d6e', '#bf8358', 7);
       palmSil(ctx, 520, HY - 4, 0.34, t, '#c9a77e', 6); palmSil(ctx, 560, HY - 2, 0.28, t, '#c9a77e', 7);
       band(ctx, HY - 2, 20, 105, '#ecc794');
     },

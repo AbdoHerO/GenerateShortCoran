@@ -1280,3 +1280,13 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
   - Pale-stone mountain caps.
   - Gentler pans.
   - Light woven tents with a shaded door; a dark tent with a gold-lit door could read as the Kaaba.
+
+### Desert background reshaped (2026-11-22)
+
+- **Why:** the Aal Imran review found that the small symmetric middle mesa, with its horizontal "course" lines, read
+  as a truncated pyramid, especially with the sun behind it (CLAUDE.md rule 5: no pyramids outside Egypt).
+- **Change:** the desert now has only wide, low, uneven plateaus, with no course lines.
+- **To re-render as v3, because the v2 drafts were rendered with the old desert:**
+  1_1-7, 2_49-52, 2_53-56, 2_57-59 and 2_67-69.
+- **Also affected:** Al-Kahf 18_60-64 and 18_83-88 (v1). They will be fixed in the Al-Kahf v2, together with its
+  Name-plate fixes.
