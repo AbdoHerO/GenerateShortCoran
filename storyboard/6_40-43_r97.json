@@ -111,7 +111,7 @@
     "actors": [
      {
       "id": "p",
-      "type": "people",
+      "type": "disbelievers",
       "label": "",
       "place": "center",
       "count": 3,
@@ -363,7 +363,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Night sky; geometric for «بل إياه تدعون». No idols, no illness, no Shaytan drawn. Al-Muyassar's first-person «بعثنا… ابتليناهم… لنا» not used. STAGING v4: 40-41 stay ambient (a hypothetical addressed to the idolaters and His answering the call: no gesture inside the condition). 42-43: an earlier nation (uncountable) in fields at dusk; they shake their heads on 42:4 (As-Sa'di: they denied the messengers, who are not drawn); a falling-leaf plate on 42:8 and a dusty gust on 42:9 for the hardship (Al-Muyassar: poverty and hard living; As-Sa'di: poverty, blights); the fields are not destroyed; no illness and no one hurt; no humbling gesture on 42:10-43:5 (they did not humble themselves); they turn on 43:7 (hearts hardened) and shake their heads on 43:9; Satan is not drawn; a two-paths plate on 43:9."
+  "notes": "Night sky; geometric for «بل إياه تدعون». No idols, no illness, no Shaytan drawn. Al-Muyassar's first-person «بعثنا… ابتليناهم… لنا» not used. STAGING v4: 40-41 stay ambient (a hypothetical addressed to the idolaters and His answering the call: no gesture inside the condition). 42-43: an earlier nation (uncountable, dark robes, men only) in fields at dusk; they shake their heads on 42:4 (As-Sa'di: they denied the messengers, who are not drawn); a falling-leaf plate on 42:8 and a dusty gust on 42:9 for the hardship (Al-Muyassar: poverty and hard living; As-Sa'di: poverty, blights); the fields are not destroyed; no illness and no one hurt; no humbling gesture on 42:10-43:5 (they did not humble themselves); they turn on 43:7 (hearts hardened) and shake their heads on 43:9; Satan is not drawn; a two-paths plate on 43:9."
  },
  "cover": {
   "series_ar": "تسلية الرسول",

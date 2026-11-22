@@ -40,7 +40,7 @@
     "actors": [
      {
       "id": "p",
-      "type": "people",
+      "type": "disbelievers",
       "label": "",
       "place": "center",
       "count": 3,
@@ -332,7 +332,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A door for «أبواب كل شيء» (leaving before they are seized), geometric for «والحمد لله». No destruction or people drawn. Al-Muyassar's first-person «فتحنا… أعطيناهم… أخذناهم» not used. STAGING v4: 44-45: a nation (uncountable) in a market street; they turn on 44:2 (they left the commands, turning from them); a coins plate on 44:8 for the doors of every worldly thing (both tafsirs: provision, worldly pleasures); they talk on 44:13 (rejoicing in what they were given) and leave on 44:15, well before 44:16; darkness then falls on the empty market (per the caution no destruction is drawn, no one hurt); geometric on 45:7-45:8 for the praise. 46 (a hypothetical addressed to the idolaters) stays ambient; mood dawn -> night_sky."
+  "notes": "A door for «أبواب كل شيء» (leaving before they are seized), geometric for «والحمد لله». No destruction or people drawn. Al-Muyassar's first-person «فتحنا… أعطيناهم… أخذناهم» not used. STAGING v4: 44-45: a nation (uncountable, dark robes, men only) in a market street; they turn on 44:2 (they left the commands, turning from them); a coins plate on 44:8 for the doors of every worldly thing (both tafsirs: provision, worldly pleasures); they talk on 44:13 (rejoicing in what they were given) and leave on 44:15, well before 44:16; darkness then falls on the empty market (per the caution no destruction is drawn, no one hurt); geometric on 45:7-45:8 for the praise. 46 (a hypothetical addressed to the idolaters) stays ambient; mood dawn -> night_sky."
  },
  "cover": {
   "series_ar": "تسلية الرسول",

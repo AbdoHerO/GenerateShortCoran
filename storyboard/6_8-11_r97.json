@@ -138,21 +138,7 @@
    "params": {
     "setting": "city",
     "time": "dusk",
-    "actors": [
-     {
-      "id": "d",
-      "type": "disbelievers",
-      "label": "",
-      "place": "center",
-      "count": 3,
-      "pose": "stand",
-      "enter": null,
-      "exit": [
-       10,
-       3
-      ]
-     }
-    ],
+    "actors": [],
     "events": [
      {
       "type": "darkness",
@@ -172,16 +158,22 @@
        10,
        1
       ],
-      "do": "speak",
-      "who": "d"
+      "do": "shot_wide"
      },
      {
       "at": [
        10,
        2
       ],
-      "do": "turn",
-      "who": "d"
+      "do": "leaves"
+     },
+     {
+      "at": [
+       10,
+       4
+      ],
+      "do": "shot_close",
+      "who": "center"
      },
      {
       "at": [
@@ -326,7 +318,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Angels: no motif, no figure. Their demand (8:1-5) is glossed only as «تعنتا مبنيا على الجهل». No motif on the Prophet ﷺ. Footsteps for «سيروا في الأرض». STAGING v4: 8-9: three deniers in a town at dusk speak their demand on 8:1 (framed by the gloss); no angel, no plate on an angel word, no lone man; the counterfactual 8:6-9:9 carries no gesture, only the camera and a seal plate on 8:9 (the matter decided). 10: former mockers (messengers not drawn) speak on 10:1, turn on 10:2 and leave on 10:3, before 10:6; darkness then falls on the empty town (no one hurt, no ruin). 11: the empty town with a footsteps plate on 11:2; no travellers are drawn (a command addressed to the deniers)."
+  "notes": "Angels: no motif, no figure. Their demand (8:1-5) is glossed only as «تعنتا مبنيا على الجهل». No motif on the Prophet ﷺ. Footsteps for «سيروا في الأرض». STAGING v4: 8-9: three deniers in a town at dusk speak their demand on 8:1 (framed by the gloss); no angel, no plate on an angel word, no lone man; the counterfactual 8:6-9:9 carries no gesture, only the camera and a seal plate on 8:9 (the matter decided). 10: the town is already empty (the mockers would have had to leave within 2 s of the chapter start, before 10:6, so they are not drawn; messengers not drawn); darkness falls on the empty town on 10:6 (no one hurt, no ruin). 11: the empty town with a footsteps plate on 11:2; no travellers are drawn (a command addressed to the deniers)."
  },
  "cover": {
   "series_ar": "الخلق والإعراض",
