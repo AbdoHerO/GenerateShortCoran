@@ -362,8 +362,11 @@
        37,
        17
       ],
-      "until": null,
-      "motif": "light",
+      "until": [
+       37,
+       19
+      ],
+      "motif": "wheat",
       "place": "top",
       "size": "s"
      }
