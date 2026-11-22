@@ -32,37 +32,98 @@
    "verses": [
     163
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "sea",
+    "setting": "sea_shore",
+    "time": "day",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        163,
-       6
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        163,
-       17
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       163,
-       22
+       4
       ],
       "do": "pan_left"
      },
      {
       "at": [
        163,
-       25
+       7
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       163,
+       9
+      ],
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       163,
+       13
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       163,
+       14
+      ],
+      "do": "point",
+      "who": "p",
+      "to": "left"
+     },
+     {
+      "at": [
+       163,
+       18
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       163,
+       21
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       163,
+       24
+      ],
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       163,
+       27
+      ],
+      "do": "turn",
+      "who": "p"
      }
     ],
     "motifs": [
@@ -76,8 +137,18 @@
        18
       ],
       "motif": "fish",
+      "place": "left",
+      "size": "s"
+     },
+     {
+      "at": [
+       163,
+       24
+      ],
+      "until": null,
+      "motif": "two_paths",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -89,51 +160,140 @@
     164,
     165
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "a",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       165,
+       7
+      ]
+     },
+     {
+      "id": "s",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       164,
+       19
+      ]
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 6,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       165,
+       4
+      ],
+      "uncountable": true
+     }
+    ],
+    "events": [
+     {
+      "type": "darkness",
+      "at": [
+       165,
+       11
+      ],
+      "until": null
+     }
+    ],
     "beats": [
      {
       "at": [
        164,
-       5
+       2
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "s"
+     },
+     {
+      "at": [
+       164,
+       4
+      ],
+      "do": "shot_close",
+      "who": "s"
+     },
+     {
+      "at": [
+       164,
+       7
+      ],
+      "do": "point",
+      "who": "s",
+      "to": "d"
      },
      {
       "at": [
        164,
        9
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        164,
        12
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       164,
+       14
+      ],
+      "do": "speak",
+      "who": "a"
      },
      {
       "at": [
        164,
        18
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "a"
+     },
+     {
+      "at": [
+       165,
+       1
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        165,
        2
       ],
-      "do": "pan_right"
+      "do": "turn",
+      "who": "d"
      },
      {
       "at": [
        165,
        6
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -145,38 +305,51 @@
      {
       "at": [
        165,
-       12
+       13
       ],
-      "do": "pan_right"
+      "do": "shot_sky"
      },
      {
       "at": [
        165,
-       14
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       165,
-       18
+       15
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       165,
+       17
+      ],
+      "do": "pan_right"
      }
     ],
     "motifs": [
      {
       "at": [
        164,
-       14
+       15
       ],
       "until": [
        165,
        1
       ],
-      "motif": "light",
+      "motif": "seal",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       165,
+       6
+      ],
+      "until": [
+       165,
+       11
+      ],
+      "motif": "footsteps",
+      "place": "top",
+      "size": "s"
      }
     ],
     "transition": "wipe"
@@ -286,7 +459,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Fish only for «تأتيهم حيتانهم»; no people, trick or punishment drawn. Light for the admonishers' answer. The fate of the silent group is not glossed (only that the forbidders were saved)."
+  "notes": "Fish only for «تأتيهم حيتانهم»; no people, trick or punishment drawn. Light for the admonishers' answer. The fate of the silent group is not glossed (only that the forbidders were saved). STAGING v4: c1 (163): the town's shore by day (sea_shore). The people of the town are three faceless men in plain robes (a group that transgressed: no woman is singled out). A fish plate over the sea for the fish that came to them openly on the Sabbath (163:13-17, both tafsirs: many, floating on the surface); the plate leaves on 163:18 (on other days they did not come). They see them (point toward the sea, 163:14); their trick, the digging of pits, the nets and any catch are never drawn; the fish actor (a fish in a basket) is not used, as it would show a catch. A two-paths plate for the trial (163:24); they turn away on 163:27 (their disobedience). The Prophet, peace be upon him, addressed in 163:1 is not implied: wide shot, no lone man. c2 (164-165): the town by day. Three groups (As-Sa'di): those who warned (three believers, left), those who said why do you warn (three men in plain robes, centre) and the transgressors (an uncountable crowd in dark robes, right: As-Sa'di, most of them). The middle group speaks and points at the transgressors (164:2, 164:7); the camera on the transgressors for Allah will destroy them (164:9); the warners answer (164:14), with a seal plate for an excuse before your Lord (164:15). The middle group walks off at the end of the dialogue (164:19), before any punishment: their fate is disputed (As-Sa'di) and is neither shown saved nor punished. The transgressors turn away (165:2) and leave (165:4); the warners leave on 165:7 with a footsteps plate as they are saved (165:6). The punishment falls only on the empty town: it darkens on 165:11 (by day, not dawn); nothing else of the punishment is drawn (the transformation is in 166, not drawn)."
  },
  "cover": {
   "series_ar": "عبر من بني إسرائيل",
@@ -295,8 +468,9 @@
   "title_en": "The Sabbath ruse",
   "at": [
    163,
-   1
+   14
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -32,79 +32,148 @@
    "verses": [
     150
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "musa",
+      "type": "prophet",
+      "label": "موسى",
+      "place": "left",
+      "count": 1,
+      "pose": "walk",
+      "enter": [
+       150,
+       1
+      ],
+      "exit": null
+     },
+     {
+      "id": "h",
+      "type": "prophet",
+      "label": "هارون",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        150,
-       4
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       150,
+       2
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       150,
+       5
       ],
       "do": "pan_right"
      },
      {
       "at": [
        150,
-       7
+       8
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "musa"
      },
      {
       "at": [
        150,
        10
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        150,
-       14
+       13
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "musa"
      },
      {
       "at": [
        150,
-       17
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       150,
-       21
+       16
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        150,
-       25
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       150,
-       28
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       150,
-       30
+       19
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        150,
-       33
+       22
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       150,
+       23
+      ],
+      "do": "speak",
+      "who": "h"
+     },
+     {
+      "at": [
+       150,
+       27
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       150,
+       29
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       150,
+       31
+      ],
+      "do": "speak",
+      "who": "h"
+     },
+     {
+      "at": [
+       150,
+       34
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
@@ -112,9 +181,30 @@
        35
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       150,
+       37
+      ],
+      "do": "shot_wide"
      }
     ],
-    "motifs": []
+    "motifs": [
+     {
+      "at": [
+       150,
+       13
+      ],
+      "until": [
+       150,
+       15
+      ],
+      "motif": "hourglass",
+      "place": "top",
+      "size": "s"
+     }
+    ]
    }
   },
   {
@@ -125,23 +215,80 @@
     152,
     153
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "musa",
+      "type": "prophet",
+      "label": "موسى",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "h",
+      "type": "prophet",
+      "label": "هارون",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        151,
-       10
+       1
+      ],
+      "do": "speak",
+      "who": "musa"
+     },
+     {
+      "at": [
+       151,
+       4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       151,
+       9
       ],
       "do": "pan_right"
      },
      {
       "at": [
        152,
-       2
+       1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       152,
+       3
+      ],
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
@@ -153,44 +300,68 @@
      {
       "at": [
        152,
-       10
+       9
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        152,
-       14
+       13
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       153,
+       1
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        153,
        3
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
        153,
-       7
+       5
+      ],
+      "do": "raise_hands",
+      "who": "p"
+     },
+     {
+      "at": [
+       153,
+       8
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        153,
+       12
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       153,
        13
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        153,
        14
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -200,25 +371,25 @@
        6
       ],
       "until": [
-       151,
-       9
+       152,
+       1
       ],
-      "motif": "light",
+      "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        153,
-       10
+       9
       ],
       "until": null,
-      "motif": "light",
+      "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "light_sweep"
+    "transition": "dissolve"
    }
   }
  ],
@@ -391,7 +562,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Musa and Harun: no motif, no figure; the tablets and the seizing of his brother are not drawn. Light for «وأدخلنا في رحمتك» and «إن ربك من بعدها لغفور رحيم»."
+  "notes": "Musa and Harun: no motif, no figure; the tablets and the seizing of his brother are not drawn. Light for «وأدخلنا في رحمتك» and «إن ربك من بعدها لغفور رحيم». STAGING v4: The camp in the desert, by day. Musa and Harun are blue drops labelled with their names; the people are three faceless men (those who took the calf: no woman is singled out). c1 (150): Musa comes back on 150:1 and speaks (150:8, 150:13), with an hourglass for did you hasten (150:13-14, Al-Muyassar: hastening my return that was decreed). His casting of the tablets and taking his brother by the head (150:16-22) are never shown: no gesture, no plate, no movement of the drops, only wide holds. Harun alone speaks his words (150:23, 150:31); the people make no gesture during the prophets' words, and the camera stays wide or in gentle pans with the drops in frame. c2 (151-153): Musa speaks his du'a (151:1; no glow, no raised drop near the word of the Lord); a geometric plate for Your mercy and the Most Merciful (151:6-11). 152 (anger and humiliation for those who took the calf) holds on the people it speaks about, standing; no punishment or hurt is drawn (the killing in As-Sa'di is not drawn). 153: they raise their hands as they repent (153:5); a geometric plate for your Lord is Forgiving and Merciful (153:9-14). The calf is never drawn."
  },
  "cover": {
   "series_ar": "بنو إسرائيل بعد النجاة",
@@ -400,8 +571,9 @@
   "title_en": "Zeal for Allah",
   "at": [
    150,
-   1
+   8
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

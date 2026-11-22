@@ -266,7 +266,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on the Prophet ﷺ: a book for «التوراة والإنجيل», light for «النور الذي أنزل معه». No pig or forbidden food drawn."
+  "notes": "No motif on the Prophet ﷺ: a book for «التوراة والإنجيل», light for «النور الذي أنزل معه». No pig or forbidden food drawn. STAGING v4: Kept ambient (light) on purpose: 157 describes the Prophet Muhammad, peace be upon him, and how people follow, honour and support him; he is never shown or implied, and a stage of people following, honouring or gathering would imply him. Only a book plate for the Torah and the Gospel (157:11-12) and a light plate for the light sent down with him, the Quran (157:37-40); no motif on the Messenger; no food or pig drawn."
  },
  "cover": {
   "series_ar": "بنو إسرائيل بعد النجاة",
@@ -278,5 +278,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

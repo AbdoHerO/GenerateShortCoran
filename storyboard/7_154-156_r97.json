@@ -32,30 +32,77 @@
    "verses": [
     154
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "musa",
+      "type": "prophet",
+      "label": "موسى",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        154,
-       10
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       154,
-       11
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        154,
-       13
+       6
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       154,
+       10
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       154,
+       11
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       154,
+       12
+      ],
+      "do": "read",
+      "who": "b"
+     },
+     {
+      "at": [
+       154,
+       15
+      ],
+      "do": "shot_close",
+      "who": "b"
      }
     ],
     "motifs": [
@@ -70,7 +117,7 @@
       ],
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -83,115 +130,138 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
        155,
-       5
+       1
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       155,
+       4
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
        155,
        7
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        155,
-       9
+       10
       ],
       "do": "pan_right"
      },
      {
       "at": [
        155,
-       13
+       14
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        155,
        17
       ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       155,
+       19
+      ],
       "do": "shot_wide"
-     },
-     {
-      "at": [
-       155,
-       18
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       155,
-       21
-      ],
-      "do": "pan_left"
      },
      {
       "at": [
        155,
        22
       ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       155,
-       26
-      ],
       "do": "pan_right"
      },
      {
       "at": [
        155,
-       30
+       25
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        155,
-       32
+       31
       ],
       "do": "pan_left"
      },
      {
       "at": [
        155,
-       34
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       155,
-       35
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       155,
-       38
+       36
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       155,
+       39
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
        155,
        41
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
-    "motifs": [],
+    "motifs": [
+     {
+      "at": [
+       155,
+       6
+      ],
+      "until": [
+       155,
+       10
+      ],
+      "motif": "hourglass",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       155,
+       27
+      ],
+      "until": [
+       155,
+       34
+      ],
+      "motif": "two_paths",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       155,
+       34
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     }
+    ],
     "transition": "page_turn"
    }
   },
@@ -203,67 +273,111 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
        156,
-       7
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       156,
+       4
       ],
       "do": "pan_left"
      },
      {
       "at": [
        156,
-       11
+       8
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       156,
+       10
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
        156,
        14
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       156,
+       18
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
        156,
        22
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       156,
-       25
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        156,
-       29
+       25
       ],
-      "do": "pan_left"
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       156,
+       28
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
      {
       "at": [
        156,
-       18
+       1
+      ],
+      "until": [
+       156,
+       7
+      ],
+      "motif": "scroll",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       156,
+       12
       ],
       "until": [
        156,
        22
       ],
-      "motif": "light",
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       156,
+       29
+      ],
+      "until": null,
+      "motif": "book",
       "place": "top",
       "size": "m"
      }
     ],
-    "transition": "light_sweep"
+    "transition": "morph"
    }
   }
  ],
@@ -414,7 +528,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Musa and the seventy men are not drawn (the number is in the text only); the earthquake and their death are not drawn. Allah's answer (156:12-21) is not paraphrased (first person). A book for the tablets, light for «ورحمتي وسعت كل شيء»."
+  "notes": "Musa and the seventy men are not drawn (the number is in the text only); the earthquake and their death are not drawn. Allah's answer (156:12-21) is not paraphrased (first person). A book for the tablets, light for «ورحمتي وسعت كل شيء». STAGING v4: c1 (154): the camp by day: Musa (blue drop) after his anger calmed; a book plate for the tablets he took up (154:7-11; the tablets are never drawn as objects); the God-fearing among his people (three believers) read (154:12) as the verse names those who fear their Lord; no bowing near the prophet. c2 (155) stays ambient (night_sky, not light or dawn): the seventy men were seized by the earthquake and died (both tafsirs), so they are not drawn (no countable group, no different number), nor is Musa, the quake or any death; an hourglass for the appointment (155:6-9), a two-paths plate for He leads astray and guides whom He wills (155:27-33), a geometric plate for You are our Protector... the best of forgivers (155:34-41). c3 (156) stays ambient (night_sky, as it names His punishment): Musa's du'a goes on and Allah answers (first person); a scroll plate for decree for us good in this world (156:1-6), nothing literal for the Hereafter (156:7-8), a geometric plate for His punishment and His mercy that encompasses all things (156:12-21), a book plate for those who believe in Our verses (156:29-30). The believers who give zakah (156:25-26) are inside Allah's answer in the same chapter, so they are not staged."
  },
  "cover": {
   "series_ar": "بنو إسرائيل بعد النجاة",
@@ -422,9 +536,10 @@
   "title_ar": "دعاء موسى",
   "title_en": "Musa's prayer",
   "at": [
-   155,
-   1
+   154,
+   6
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

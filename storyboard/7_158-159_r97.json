@@ -122,28 +122,83 @@
    "verses": [
     159
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       159,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        159,
        4
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       159,
+       5
+      ],
+      "do": "read",
+      "who": "b"
+     },
+     {
+      "at": [
+       159,
+       6
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       159,
+       8
+      ],
+      "do": "speak",
+      "who": "b"
      }
     ],
     "motifs": [
      {
       "at": [
        159,
-       5
+       7
       ],
       "until": null,
-      "motif": "light",
+      "motif": "scales",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "morph"
@@ -231,7 +286,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on the Prophet ﷺ or Musa: stars for «ملك السماوات والأرض», geometric for «لا إله إلا هو», light for «يهدون بالحق»."
+  "notes": "No motif on the Prophet ﷺ or Musa: stars for «ملك السماوات والأرض», geometric for «لا إله إلا هو», light for «يهدون بالحق». STAGING v4: c1 (158) kept ambient (light): the call to all people to believe in Allah and His Messenger and follow him is the Prophet's own message, peace be upon him (said on his behalf) and an invitation to him; nothing implies him. Stars for the dominion of the heavens and the earth, geometric for none has the right to be worshipped but He. c2 (159): a community of Musa's people (three believers, the series' small group) in a town by day: they read from the scripture (159:5, they guide by the truth: As-Sa'di, teaching and giving fatwas) and speak to the people they teach (159:8); a scales plate for they judge justly by it (159:7, worldly justice, not the Mizan). Musa is not drawn (the verse speaks of his nation, not of him); the camera is wide when he is named (159:3)."
  },
  "cover": {
   "series_ar": "عبر من بني إسرائيل",
@@ -243,5 +298,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }
