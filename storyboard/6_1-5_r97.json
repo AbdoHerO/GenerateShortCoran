@@ -48,6 +48,13 @@
      {
       "at": [
        1,
+       9
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       1,
        10
       ],
       "do": "pan_right"
@@ -62,7 +69,21 @@
      {
       "at": [
        2,
+       2
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       2,
        4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       2,
+       6
       ],
       "do": "shot_wide"
      },
@@ -82,8 +103,29 @@
      },
      {
       "at": [
+       2,
+       14
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       3,
+       6
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
        3,
        9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       3,
+       12
       ],
       "do": "shot_wide"
      }
@@ -151,44 +193,69 @@
     4,
     5
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        4,
-       4
+       2
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        4,
-       8
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       4,
-       11
+       6
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       4,
+       10
+      ],
+      "do": "turn",
+      "who": "d"
+     },
+     {
+      "at": [
+       5,
+       2
+      ],
+      "do": "shake_head",
+      "who": "d"
      },
      {
       "at": [
        5,
        3
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        5,
-       5
+       6
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -200,13 +267,45 @@
      {
       "at": [
        5,
-       10
+       9
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       5,
+       12
+      ],
+      "do": "speak",
+      "who": "d"
      }
     ],
-    "motifs": [],
-    "transition": "dissolve"
+    "motifs": [
+     {
+      "at": [
+       4,
+       2
+      ],
+      "until": [
+       4,
+       6
+      ],
+      "motif": "burst",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       5,
+       6
+      ],
+      "until": null,
+      "motif": "hourglass",
+      "place": "top",
+      "size": "s"
+     }
+    ],
+    "transition": "slide"
    }
   }
  ],
@@ -357,7 +456,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Geometric near Allah's name, night and day for «الظلمات والنور», an hourglass for «أجلا». 3:1-6 «وهو الله في السماوات وفي الأرض» is glossed with As-Sa'di's «المألوه المعبود» (the One worshipped in the heavens and the earth). No Adam figure; 4-5 under a night sky."
+  "notes": "Geometric near Allah's name, night and day for «الظلمات والنور», an hourglass for «أجلا». 3:1-6 «وهو الله في السماوات وفي الأرض» is glossed with As-Sa'di's «المألوه المعبود» (the One worshipped in the heavens and the earth). No Adam figure; 4-5 under a night sky. STAGING v4: 1-3 (praise, creation, the term, His knowledge) stay ambient. 4-5: three deniers in a town at dusk; a sign plate (burst) on 4:2-4:5, gone before 4:7; they turn their backs on 4:10 (As-Sa'di: they turned their backs on the signs), shake their heads on 5:2 (they denied), speak on 5:12 (mocking); an hourglass on 5:6 for the news that will come. No messenger drawn."
  },
  "cover": {
   "series_ar": "الخلق والإعراض",
@@ -369,5 +468,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

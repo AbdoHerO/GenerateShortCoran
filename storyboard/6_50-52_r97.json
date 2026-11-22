@@ -46,6 +46,13 @@
      {
       "at": [
        50,
+       6
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       50,
        8
       ],
       "do": "pan_left"
@@ -117,28 +124,59 @@
     51,
     52
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "prayer_hall",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        51,
-       4
+       1
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        51,
-       7
+       2
       ],
-      "do": "pan_left"
+      "do": "read",
+      "who": "b"
      },
      {
       "at": [
        51,
-       11
+       5
+      ],
+      "do": "bow",
+      "who": "b"
+     },
+     {
+      "at": [
+       51,
+       9
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       51,
+       13
       ],
       "do": "shot_wide"
      },
@@ -147,40 +185,58 @@
        51,
        15
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        51,
-       17
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       52,
-       3
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       52,
-       9
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       52,
-       13
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       52,
        16
+      ],
+      "do": "read",
+      "who": "b"
+     },
+     {
+      "at": [
+       52,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       52,
+       4
+      ],
+      "do": "raise_hands",
+      "who": "b"
+     },
+     {
+      "at": [
+       52,
+       7
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       52,
+       10
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       52,
+       14
+      ],
+      "do": "read",
+      "who": "b"
+     },
+     {
+      "at": [
+       52,
+       17
       ],
       "do": "shot_wide"
      },
@@ -189,21 +245,30 @@
        52,
        20
       ],
-      "do": "shot_wide"
+      "do": "raise_hands",
+      "who": "b"
      },
      {
       "at": [
        52,
        21
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        52,
        22
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       52,
+       25
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -218,10 +283,20 @@
       ],
       "motif": "sun",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       52,
+       22
+      ],
+      "until": null,
+      "motif": "two_paths",
+      "place": "top",
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "iris"
    }
   }
  ],
@@ -339,7 +414,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on the Prophet ﷺ; no key on the negated «خزائن الله». Light for «البصير», a sun for «بالغداة والعشي». 51:9-15 not glossed (no excerpt keeps «ليس… ولا» without repeating the verse). 52:22-25 keeps Al-Muyassar's condition «فإن أبعدتهم». No ranking of the Companions."
+  "notes": "No motif on the Prophet ﷺ; no key on the negated «خزائن الله». Light for «البصير», a sun for «بالغداة والعشي». 51:9-15 not glossed (no excerpt keeps «ليس… ولا» without repeating the verse). 52:22-25 keeps Al-Muyassar's condition «فإن أبعدتهم». No ranking of the Companions. STAGING v4: 50 (the Prophet's own statement) stays ambient. 51-52: three believers sit in a prayer hall at dusk and read the Quran on 51:2 (Al-Muyassar: this Quran is a warning), lower their heads on 51:5 (those who fear the Gathering, nothing of it drawn), raise their hands on 52:4 (both tafsirs: they call on and worship their Lord morning and evening; a sun plate on 52:6); they stay in place for the whole chapter, nobody leaves or turns (the counterfactual driving away is never shown); no chiefs or rich men (the occasion is not told by the tafsirs), no lone man, no empty seat; no pan on the words addressed to the Prophet, a wide shot and a two-paths plate on 52:22 so the camera does not hold on the believers for the warning."
  },
  "cover": {
   "series_ar": "تسلية الرسول",
@@ -351,5 +426,6 @@
    16
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

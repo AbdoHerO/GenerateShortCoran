@@ -35,21 +35,42 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn",
+    "mood": "geometric",
     "beats": [
+     {
+      "at": [
+       12,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       12,
+       14
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        12,
        17
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        12,
        21
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       12,
+       22
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
@@ -57,6 +78,13 @@
        25
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       13,
+       7
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -95,7 +123,7 @@
        12,
        13
       ],
-      "motif": "light",
+      "motif": "geometric",
       "place": "top",
       "size": "m"
      },
@@ -138,6 +166,13 @@
        7
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       14,
+       13
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -290,7 +325,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Stars for the heavens, geometric for «لله», light for «الرحمة», night and day for «الليل والنهار», wheat for «يطعم». 13:7-9 not glossed (Al-Muyassar's text reads «الحليم» under «العليم»). No motif on the Prophet ﷺ. 12: short-word flag, listen."
+  "notes": "Stars for the heavens, geometric for «لله», light for «الرحمة», night and day for «الليل والنهار», wheat for «يطعم». 13:7-9 not glossed (Al-Muyassar's text reads «الحليم» under «العليم»). No motif on the Prophet ﷺ. 12: short-word flag, listen. STAGING v4: Staging v4: all ambient (His dominion, mercy, the Gathering, and the Prophet's first-person declaration in 14, which is never shown). c1 mood dawn -> geometric (the Gathering and those who lost themselves are recited) and the plate on His mercy (12:12) is geometric, not light."
  },
  "cover": {
   "series_ar": "الشهادة والحساب",
@@ -302,5 +337,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -61,9 +61,23 @@
      {
       "at": [
        25,
+       12
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       25,
        14
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       25,
+       18
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -224,7 +238,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A book for «يفقهوه» (the Quran) only. Their saying «إن هذا إلا أساطير الأولين» (25:28-32) is not glossed (any definition would read as the claim). No motif on the Prophet ﷺ."
+  "notes": "A book for «يفقهوه» (the Quran) only. Their saying «إن هذا إلا أساطير الأولين» (25:28-32) is not glossed (any definition would read as the claim). No motif on the Prophet ﷺ. STAGING v4: Staging v4: stays ambient. 25-26 describe how the deniers behave toward the Prophet (listening to him, coming to argue with him, keeping others away from him); people drawn there would face an empty side that stands for him, and the veils on the hearts are not drawn."
  },
  "cover": {
   "series_ar": "الشهادة والحساب",
@@ -236,5 +250,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

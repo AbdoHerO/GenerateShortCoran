@@ -76,7 +76,7 @@
        16,
        7
       ],
-      "motif": "light",
+      "motif": "geometric",
       "place": "top",
       "size": "m"
      }
@@ -93,7 +93,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn",
+    "mood": "geometric",
     "beats": [
      {
       "at": [
@@ -190,6 +190,13 @@
       "at": [
        19,
        33
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       19,
+       35
       ],
       "do": "shot_wide"
      },
@@ -382,7 +389,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "15 is glossed with As-Sa'di's statement about shirk (Al-Muyassar's first-person «فخالفت أمره، وأشركت» would read as a confession). 18:1-4 «القاهر فوق عباده» carries Al-Muyassar's creed «فوقية مطلقة تليق بجلاله». Light for «رحمه», geometric for «الله», a book for «هذا القرآن». No motif on the Prophet ﷺ; the Day: nothing literal."
+  "notes": "15 is glossed with As-Sa'di's statement about shirk (Al-Muyassar's first-person «فخالفت أمره، وأشركت» would read as a confession). 18:1-4 «القاهر فوق عباده» carries Al-Muyassar's creed «فوقية مطلقة تليق بجلاله». Light for «رحمه», geometric for «الله», a book for «هذا القرآن». No motif on the Prophet ﷺ; the Day: nothing literal. STAGING v4: Staging v4: all ambient (the Day, His power and testimony, the Prophet's declarations, never shown). The plate on 16:6 (His mercy) is geometric, not light; c2 mood dawn -> geometric (warning and tawhid in 19)."
  },
  "cover": {
   "series_ar": "الشهادة والحساب",
@@ -394,5 +401,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -33,54 +33,98 @@
     8,
     9
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "gather",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        8,
-       5
+       1
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "d"
      },
      {
       "at": [
        8,
-       8
+       3
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        8,
-       13
+       6
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       8,
+       12
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       9,
+       1
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       9,
+       4
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        9,
-       2
+       6
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        9,
-       5
+       9
       ],
       "do": "shot_wide"
-     },
-     {
-      "at": [
-       9,
-       7
-      ],
-      "do": "pan_left"
      }
     ],
-    "motifs": []
+    "motifs": [
+     {
+      "at": [
+       8,
+       9
+      ],
+      "until": null,
+      "motif": "seal",
+      "place": "top",
+      "size": "s"
+     }
+    ]
    }
   },
   {
@@ -90,51 +134,96 @@
     10,
     11
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       10,
+       3
+      ]
+     }
+    ],
+    "events": [
+     {
+      "type": "darkness",
+      "at": [
+       10,
+       6
+      ],
+      "until": [
+       11,
+       1
+      ]
+     }
+    ],
     "beats": [
      {
       "at": [
        10,
-       4
+       1
+      ],
+      "do": "speak",
+      "who": "d"
+     },
+     {
+      "at": [
+       10,
+       2
+      ],
+      "do": "turn",
+      "who": "d"
+     },
+     {
+      "at": [
+       10,
+       6
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       10,
+       10
       ],
       "do": "pan_left"
      },
      {
       "at": [
-       10,
-       8
+       11,
+       4
       ],
       "do": "shot_wide"
      },
      {
       "at": [
-       10,
-       13
+       11,
+       6
       ],
       "do": "pan_right"
      },
      {
       "at": [
        11,
-       5
+       9
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       11,
-       8
-      ],
-      "do": "shot_wide"
+      "do": "leaves"
      },
      {
       "at": [
        11,
        10
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -145,14 +234,14 @@
       ],
       "until": [
        11,
-       5
+       6
       ],
       "motif": "footsteps",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "page_turn"
    }
   }
  ],
@@ -237,7 +326,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Angels: no motif, no figure. Their demand (8:1-5) is glossed only as «تعنتا مبنيا على الجهل». No motif on the Prophet ﷺ. Footsteps for «سيروا في الأرض»."
+  "notes": "Angels: no motif, no figure. Their demand (8:1-5) is glossed only as «تعنتا مبنيا على الجهل». No motif on the Prophet ﷺ. Footsteps for «سيروا في الأرض». STAGING v4: 8-9: three deniers in a town at dusk speak their demand on 8:1 (framed by the gloss); no angel, no plate on an angel word, no lone man; the counterfactual 8:6-9:9 carries no gesture, only the camera and a seal plate on 8:9 (the matter decided). 10: former mockers (messengers not drawn) speak on 10:1, turn on 10:2 and leave on 10:3, before 10:6; darkness then falls on the empty town (no one hurt, no ruin). 11: the empty town with a footsteps plate on 11:2; no travellers are drawn (a command addressed to the deniers)."
  },
  "cover": {
   "series_ar": "الخلق والإعراض",
@@ -246,8 +335,9 @@
   "title_en": "Demanding an angel",
   "at": [
    8,
-   1
+   3
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

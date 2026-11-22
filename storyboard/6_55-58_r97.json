@@ -35,7 +35,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
@@ -120,7 +120,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
@@ -139,6 +139,13 @@
      {
       "at": [
        57,
+       13
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       57,
        16
       ],
       "do": "pan_right"
@@ -148,28 +155,28 @@
        58,
        3
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        58,
        7
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        58,
        11
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        58,
        14
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -305,7 +312,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Two paths for «سبيل المجرمين» (the fork carries the warning), scales for «خير الفاصلين» (judgement, not the Mizan). No idols drawn; no motif on the Prophet ﷺ."
+  "notes": "Two paths for «سبيل المجرمين» (the fork carries the warning), scales for «خير الفاصلين» (judgement, not the Mizan). No idols drawn; no motif on the Prophet ﷺ. STAGING v4: Staging v4: stays ambient (the Prophet's declarations, never shown, and the punishment they hasten). Moods dawn and light -> night_sky: the way of the criminals and the hastened punishment are recited."
  },
  "cover": {
   "series_ar": "تسلية الرسول",
@@ -317,5 +324,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

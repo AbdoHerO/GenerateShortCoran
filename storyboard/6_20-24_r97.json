@@ -33,51 +33,106 @@
     20,
     21
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "k",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       20,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       20,
+       3
+      ],
+      "do": "read",
+      "who": "k"
+     },
+     {
+      "at": [
+       20,
+       5
+      ],
+      "do": "shot_close",
+      "who": "k"
+     },
      {
       "at": [
        20,
        7
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        20,
        8
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "k"
      },
      {
       "at": [
        20,
-       13
+       9
+      ],
+      "do": "turn",
+      "who": "k"
+     },
+     {
+      "at": [
+       20,
+       12
+      ],
+      "do": "shake_head",
+      "who": "k"
+     },
+     {
+      "at": [
+       21,
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        21,
-       2
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       21,
-       7
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       21,
-       11
+       5
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       21,
+       9
+      ],
+      "do": "shake_head",
+      "who": "k"
+     },
+     {
+      "at": [
+       21,
+       12
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -88,11 +143,21 @@
       ],
       "until": [
        20,
-       4
+       5
       ],
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       21,
+       11
+      ],
+      "until": null,
+      "motif": "two_paths",
+      "place": "top",
+      "size": "s"
      }
     ]
    }
@@ -327,7 +392,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A book for «الكتاب». 20:1-7 «يعرفونه» is not tied to one referent (Al-Muyassar: Muhammad ﷺ; As-Sa'di: the truth of tawhid); only «لا شك عندهم فيه». The Day (22-24): night sky, nothing literal. Their oath in 23 is framed as «إنكارهم… وحلفهم». Al-Muyassar's first-person «نحشرهم… نقول» not used."
+  "notes": "A book for «الكتاب». 20:1-7 «يعرفونه» is not tied to one referent (Al-Muyassar: Muhammad ﷺ; As-Sa'di: the truth of tawhid); only «لا شك عندهم فيه». The Day (22-24): night sky, nothing literal. Their oath in 23 is framed as «إنكارهم… وحلفهم». Al-Muyassar's first-person «نحشرهم… نقول» not used. STAGING v4: 20-21: three men of the People of the Book (both tafsirs: Jews and Christians, given the Torah and the Injil) sit in a town and read their book on 20:3 (book plate); what they recognise is not drawn (the tafsirs differ on the referent) and no sons are drawn; they turn on 20:9 and shake their heads on 20:12 (they do not believe) and on 21:9 (denying His signs; Al-Muyassar: they disbelieved in what the Prophet brought). The camera is wide on the general statement 21:1-7; a two-paths plate on 21:11. 22-24 (the Day) stay ambient."
  },
  "cover": {
   "series_ar": "الشهادة والحساب",
@@ -339,5 +404,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }
