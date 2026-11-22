@@ -226,7 +226,7 @@
        31,
        8
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -268,9 +268,9 @@
      {
       "at": [
        31,
-       27
+       26
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [

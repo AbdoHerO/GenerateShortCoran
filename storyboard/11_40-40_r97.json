@@ -82,14 +82,14 @@
        40,
        3
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        40,
        6
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [

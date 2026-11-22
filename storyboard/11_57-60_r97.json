@@ -73,7 +73,7 @@
        57,
        6
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -172,7 +172,7 @@
        58,
        2
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [

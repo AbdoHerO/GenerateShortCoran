@@ -80,7 +80,7 @@
        61,
        13
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -192,7 +192,7 @@
        62,
        7
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
