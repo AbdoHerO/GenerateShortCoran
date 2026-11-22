@@ -34,7 +34,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn",
+    "mood": "geometric",
     "beats": [
      {
       "at": [
@@ -210,7 +210,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "19:6-13 not glossed (the tafsirs differ on what «وإن تنتهوا» refers to; As-Sa'di's «حزب الله» is avoided as a modern political term). Geometric for «وأن الله موهن كيد الكافرين», light for «وأن الله مع المؤمنين». STAGING v4: Kept ambient (owner rule, Staging v4): Badr and the challenge to the disbelievers. c2: the plate for Allah being with the believers (19:21) is now geometric instead of light, because a light plate drawing on one word before the Name reads as Him appearing as light."
+  "notes": "19:6-13 not glossed (the tafsirs differ on what «وإن تنتهوا» refers to; As-Sa'di's «حزب الله» is avoided as a modern political term). Geometric for «وأن الله موهن كيد الكافرين», light for «وأن الله مع المؤمنين». STAGING v4: Kept ambient (owner rule, Staging v4): Badr and the challenge to the disbelievers. c1 (18) moves from dawn to the geometric mood: no dawn over the outcome of Badr and the threat to the disbelievers (review M7). c2: the plate for Allah being with the believers (19:21) is now geometric instead of light, because a light plate drawing on one word before the Name reads as Him appearing as light."
  },
  "cover": {
   "series_ar": "يوم بدر",

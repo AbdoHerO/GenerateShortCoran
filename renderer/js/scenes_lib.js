@@ -6,6 +6,7 @@
 import { TAU, clamp, lerp, prog, ease, env, hash, mixHex, rgba } from './util.js';
 import * as A from './art.js';
 import { SW, SH, HY, withCam, S, par, ROBES } from './scenes.js';
+import { motifPlan } from './motifs.js';
 
 // ================================================================ shared helpers
 const H = (a, b = 0) => hash(Math.imul(a | 0, 7919) + Math.imul(b | 0, 104729) + 13);
@@ -2107,7 +2108,7 @@ function homeSet(ctx, t, X) {
   // shelf with jars, a lamp hanging
   ctx.fillStyle = '#7a5a3a'; ctx.fillRect(70, 360, 250, 12);
   A.pot(ctx, 120, 360, 0.75, '#b5683c'); A.pot(ctx, 200, 360, 0.6, '#c98a4a'); A.pot(ctx, 270, 360, 0.7, '#9a5a32');
-  hangLamp(ctx, 380, 200, 1, t, X.night, 1);
+  if (X.lampA > 0.01) { ctx.save(); ctx.globalAlpha *= X.lampA; hangLamp(ctx, 380, 200, 1, t, X.night, 1); ctx.restore(); }
   // floor, cushions, rug
   ctx.fillStyle = '#c8ad84'; ctx.fillRect(-500, 640, 2000, 600);
   ctx.fillStyle = '#b39670'; ctx.fillRect(-500, 640, 2000, 8);
@@ -2132,7 +2133,7 @@ function prayerHallSet(ctx, t, X) {
     ctx.restore();
     ctx.strokeStyle = '#c9b48a'; ctx.lineWidth = 10;
     ctx.beginPath(); const r2 = w / 2; ctx.moveTo(x0, 600); ctx.lineTo(x0, 150 + r2); ctx.arc(x0 + r2, 150 + r2, r2, Math.PI, 0); ctx.lineTo(x0 + w, 600); ctx.stroke();
-    hangLamp(ctx, x0 + w / 2, 250, 0.8, t, X.night, i);
+    if (X.lampA > 0.01) { ctx.save(); ctx.globalAlpha *= X.lampA; hangLamp(ctx, x0 + w / 2, 250, 0.8, t, X.night, i); ctx.restore(); }
   }
   for (const x of cols) { ctx.fillStyle = '#d6c29a'; ctx.fillRect(x - 26, 120, 52, 520); ctx.fillStyle = '#c4ad82'; ctx.fillRect(x - 32, 120, 64, 20); ctx.fillRect(x - 32, 610, 64, 30); }
   ctx.fillStyle = '#c9b48a'; ctx.fillRect(-500, 96, 2000, 26);
@@ -2317,8 +2318,11 @@ function stageDraw(ctx, t, T) {
   const [s, e] = win(T);
   const c = stageCamera(t, T, P, L, E, B, pkey);
   const st = E.st;
+  // a plate in front of a hanging lamp's chain reads as an object hanging in the room: the lamps fade out while one is on
+  const plates = motifPlan(P, T);
+  const lampA = 1 - plates.reduce((a, m) => Math.max(a, env(t, m.ts - 0.5, m.te + 0.3, 0.45, 0.45)), 0);
   const X = {
-    L, time: L.time,
+    L, time: L.time, lampA,
     night: L.time === 'night' ? 1 : L.time === 'dusk' ? 0.5 : 0,
     wind: Math.max(E.k('storm', 1, 1), pulseOf(B, t, 'wind', 2.6, 0.4)), storm: E.k('storm', 1, 1),
     quake: E.k('quake', 0.2, 1),
@@ -2651,6 +2655,25 @@ export const scenes = {
   },
   stage: {
     draw(ctx, t, T) { ctx.save(); stageDraw(ctx, t, T); ctx.restore(); },
+    // 0..1: how much any group is in prayer at t (the same on/off rule as gest()). Motif plates fade out while people
+    // pray, so nobody is ever seen praying under a plate (it would read as praying to it; Al-A'raf review 2026-11-22).
+    praying(t, T) {
+      const P = (T?.c?.params && typeof T.c.params === 'object') ? T.c.params : {};
+      const by = new Map();
+      for (const b of beatList(P, T)) { if (!by.has(b.who)) by.set(b.who, []); by.get(b.who).push(b); }
+      let k = 0;
+      for (const Bw of by.values()) {
+        let pOn = -1, pOff = -1;
+        for (const b of Bw) {
+          if (b.t > t + 0.6) break;   // look slightly ahead: the plate is gone before the prayer starts
+          if (PRAY_DO[b.do] && (b.do !== 'sit' || pOn > pOff)) { if (pOn <= pOff) pOn = b.t; }
+          else if ((b.do === 'stand_up' || b.do === 'walk_to') && pOn > pOff) pOff = b.t;
+        }
+        const v = pOn < 0 ? 0 : pOn > pOff ? ease.inOutSine(prog(t, pOn - 0.6, pOn)) : 1 - ease.inOutSine(prog(t, pOff, pOff + 0.5));
+        k = Math.max(k, v);
+      }
+      return k;
+    },
     anchors(t, T) {
       const P = (T?.c?.params && typeof T.c.params === 'object') ? T.c.params : {};
       const L = layout(P), E = events(P, t, T), B = beatList(P, T);

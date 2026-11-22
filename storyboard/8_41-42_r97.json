@@ -32,45 +32,9 @@
    "verses": [
     41
    ],
-   "scene": "stage",
+   "scene": "ambient",
    "params": {
-    "setting": "market",
-    "time": "day",
-    "actors": [
-     {
-      "id": "p",
-      "type": "man",
-      "label": "",
-      "place": "left",
-      "count": 1,
-      "pose": "sit",
-      "enter": null,
-      "exit": null,
-      "look": "poor"
-     },
-     {
-      "id": "b",
-      "type": "believers",
-      "label": "",
-      "place": "center",
-      "count": 3,
-      "pose": "stand",
-      "enter": null,
-      "exit": null
-     },
-     {
-      "id": "t",
-      "type": "man",
-      "label": "",
-      "place": "right",
-      "count": 1,
-      "pose": "stand",
-      "enter": null,
-      "exit": null,
-      "look": "traveller"
-     }
-    ],
-    "events": [],
+    "mood": "geometric",
     "beats": [
      {
       "at": [
@@ -84,115 +48,77 @@
        41,
        3
       ],
-      "do": "shot_close",
-      "who": "b"
+      "do": "pan_left"
      },
      {
       "at": [
        41,
        7
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        41,
        8
       ],
-      "do": "shot_close",
-      "who": "b"
-     },
-     {
-      "at": [
-       41,
-       10
-      ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        41,
        12
       ],
-      "do": "shot_close",
-      "who": "b"
+      "do": "shot_wide"
      },
      {
       "at": [
        41,
        13
       ],
-      "do": "give",
-      "who": "b",
-      "to": "p"
-     },
-     {
-      "at": [
-       41,
-       15
-      ],
-      "do": "give",
-      "who": "b",
-      "to": "t"
-     },
-     {
-      "at": [
-       41,
-       17
-      ],
       "do": "shot_wide"
      },
      {
       "at": [
        41,
-       18
+       16
       ],
       "do": "pan_left"
      },
      {
       "at": [
        41,
-       20
+       18
       ],
       "do": "pan_right"
      },
      {
       "at": [
        41,
+       20
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       41,
        21
       ],
-      "do": "shot_close",
-      "who": "b"
+      "do": "pan_right"
      },
      {
       "at": [
        41,
-       25
+       26
       ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       41,
-       28
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       41,
-       30
-      ],
-      "do": "raise_hands",
-      "who": "p"
+      "do": "pan_right"
      },
      {
       "at": [
        41,
        32
       ],
-      "do": "raise_hands",
-      "who": "t"
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -207,7 +133,7 @@
       ],
       "motif": "seal",
       "place": "top",
-      "size": "s"
+      "size": "m"
      },
      {
       "at": [
@@ -217,7 +143,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "s"
+      "size": "m"
      }
     ]
    }
@@ -230,7 +156,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
@@ -251,7 +177,7 @@
        42,
        12
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -272,35 +198,35 @@
        42,
        20
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        42,
        23
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        42,
        26
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        42,
        28
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        42,
        35
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -493,7 +419,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No battle, armies or spoils drawn: geometric for «فأن لله خمسه» and «وإن الله لسميع عليم», mountains for the two sides of the valley. Al-Muyassar's «وخِذْلان أعدائه بالقتل والأسر» is not displayed. STAGING v4: c1 (41): the ruling of the fifth shown in a market by day, with nothing of war: a seal plate for the fifth that belongs to Allah (41:6-8, ending as the Messenger is named); the Prophet's kin and the orphans are not drawn (no children, nobody standing for his family); the believers (a group, never a lone man) hand a purse to a poor man on 41:13 (the needy) and to a traveller on 41:15 (the wayfarer); both raise their hands on 41:30-32, after the condition. 41:16-28 (the condition, the servant to whom it was sent down, the day of the criterion when the two armies met) gets camera only: no battle, no plate starting on the Prophet. A geometric plate for Allah's power (41:29). Every place on stage is occupied, so no pan drifts to an empty side. c2 (42) stays ambient: the two sides of the valley at Badr (battle)."
+  "notes": "No battle, armies or spoils drawn: geometric for «فأن لله خمسه» and «وإن الله لسميع عليم», mountains for the two sides of the valley. Al-Muyassar's «وخِذْلان أعدائه بالقتل والأسر» is not displayed. STAGING v4: c1 (41) stays ambient (geometric), with nobody drawn: the fifth of the booty is divided by the authority as the Messenger divided it (As-Sa'di), so no stage giver may stand for it, and handing purses would read as private alms (picture review S3); like 8:1, the spoils of Badr stay unpictured. A seal plate for the fifth that belongs to Allah (41:6-8, ending as the Messenger is named) and a geometric plate for Allah's power (41:29); nothing for the servant (41:23) or the day the two armies met (41:24-28). c2 (42) stays ambient: the two sides of the valley at Badr (battle); its mood moves from dawn to night_sky so no dawn stands over the battle morning (review M8); the mountain and geometric plates are kept."
  },
  "cover": {
   "series_ar": "أحكام النصر",
@@ -502,7 +428,7 @@
   "title_en": "Dividing the spoils",
   "at": [
    41,
-   13
+   8
   ]
  },
  "motion": 3,

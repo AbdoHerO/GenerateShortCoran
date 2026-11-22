@@ -39,23 +39,30 @@
      {
       "at": [
        29,
-       5
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        29,
-       9
+       4
       ],
       "do": "pan_left"
      },
      {
       "at": [
        29,
-       11
+       10
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       29,
+       11
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
@@ -69,7 +76,7 @@
      {
       "at": [
        29,
-       4
+       7
       ],
       "until": [
        29,
@@ -286,8 +293,8 @@
        2
       ],
       "until": [
-       32,
-       1
+       31,
+       5
       ],
       "motif": "book",
       "place": "top",
@@ -401,7 +408,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on the Prophet ﷺ; their plot (30:6-10) is not glossed in detail. Their claims (31) and their prayer for punishment (32) are framed («جهلا منهم وعنادًا», «على وجه الجزم منهم بباطلهم»). «ويمكر الله» carries Al-Muyassar's «وردَّ الله مكرهم عليهم». Light for «إن تتقوا الله». STAGING v4: c1 (29) stays ambient: a conditional promise of Allah's acts (criterion, expiation, forgiveness) and His bounty. c2 (30-32): two small groups of polytheists (three each) facing one another in a town by day, the second walking in to join the first (Al-Muyassar: in Mecca; As-Sa'di: their council in Dar an-Nadwa); they speak to each other on 30:2 and 30:11 (their plotting); the three options of 30:6-10 get camera only, no gesture; the Prophet is never drawn and the address to him (30:3) gets no beat. A geometric plate for Allah's plan (30:12-31:1). 31: a book plate for the verses recited to them (31:2); they speak (31:5, 31:8) and shake their heads on 31:13 (their claim, framed by Al-Muyassar's gloss). 32: they speak on 32:2, 32:11 and 32:17 (their challenge); no stones, no sky shot and no darkness: nothing they asked for is shown as happening. The two groups always face one another (their speech marks point at each other), never an empty side; the left of the stage is empty and nobody faces it."
+  "notes": "No motif on the Prophet ﷺ; their plot (30:6-10) is not glossed in detail. Their claims (31) and their prayer for punishment (32) are framed («جهلا منهم وعنادًا», «على وجه الجزم منهم بباطلهم»). «ويمكر الله» carries Al-Muyassar's «وردَّ الله مكرهم عليهم». Light for «إن تتقوا الله». STAGING v4: c1 (29) stays ambient: a conditional promise of Allah's acts (criterion, expiation, forgiveness) and His bounty; its light plate now draws on 29:7, after the Name (29:6), not before it (review M2). c2 (30-32): two small groups of polytheists (three each) facing one another in a town by day, the second walking in to join the first (Al-Muyassar: in Mecca; As-Sa'di: their council in Dar an-Nadwa); they speak to each other on 30:2 and 30:11 (their plotting); the three options of 30:6-10 get camera only, no gesture; the Prophet is never drawn and the address to him (30:3) gets no beat. A geometric plate for Allah's plan (30:12-31:1). 31: a book plate for the verses recited to them (31:2), leaving as their claim begins (31:5), so it cannot read as the book of legends they describe (review M3); they speak (31:5, 31:8) and shake their heads on 31:13 (their claim, framed by Al-Muyassar's gloss). 32: they speak on 32:2, 32:11 and 32:17 (their challenge); no stones, no sky shot and no darkness: nothing they asked for is shown as happening. The two groups always face one another (their speech marks point at each other), never an empty side; the left of the stage is empty and nobody faces it."
  },
  "cover": {
   "series_ar": "مكر المشركين",

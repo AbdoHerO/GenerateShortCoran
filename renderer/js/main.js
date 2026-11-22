@@ -467,7 +467,9 @@ function renderScene(sx, idx, t, settle = false) {
   // motion graphics v3: a living light layer over every scene, then the chapter's motifs
   sx.save(); sx.setTransform(1, 0, 0, 1, 0, 0);
   lifeLayer(sx, t, idx);
-  drawMotifs(sx, t, chT[idx], c.params, settle);
+  // no plate while people pray (a plate over a praying group reads as the object of worship)
+  const pk = scenes[c.scene].praying ? scenes[c.scene].praying(t, chT[idx]) : 0;
+  if (pk < 0.99) { sx.globalAlpha = 1 - pk; drawMotifs(sx, t, chT[idx], c.params, settle); }
   sx.restore();
 }
 
@@ -502,7 +504,10 @@ function lifeLayer(sx, t, idx) {
 // designed chapter transitions (params.transition of the chapter that begins): dissolve (default), wipe, iris,
 // light_sweep, slide, page_turn, morph. Arabic reads right to left, so "forward" moves leftward.
 const TRANS = new Set(['dissolve', 'wipe', 'iris', 'light_sweep', 'slide', 'page_turn', 'morph']);
-const transOf = (i) => { const x = D.chapters[i]?.params?.transition; return TRANS.has(x) ? x : 'dissolve'; };
+// a light_sweep is a band of light: it never crosses the frame while the Name, «رب» or a prophet is recited
+// (Al-A'raf review: the band landed on «ولله»); there it becomes a dissolve.
+const sacredNear = (i) => { const cs = D.chapters[i]?.start ?? 0; return [chT[i - 1], chT[i]].some((T) => T && T.words.some((w) => w.sacred && w.e > cs - 0.7 && w.s < cs + 0.9)); };
+const transOf = (i) => { const x = D.chapters[i]?.params?.transition; const k = TRANS.has(x) ? x : 'dissolve'; return k === 'light_sweep' && sacredNear(i) ? 'dissolve' : k; };
 const halfOf = (i) => (transOf(i) === 'dissolve' ? 0.35 : 0.5);
 
 function drawFrame(t) {
@@ -614,7 +619,7 @@ function anchorsAt(t) {
   const i = chapterAt(t), c = D.chapters[i];
   const a = { ...(scenes[c.scene].anchors?.(t, chT[i]) ?? {}) };
   const ma = motifAnchor(t, chT[i], c.params);
-  if (ma) a.motif = ma;
+  if (ma && !((scenes[c.scene].praying?.(t, chT[i]) ?? 0) > 0.5)) a.motif = ma;   // the plate is hidden during prayer
   const out = {};
   for (const k in a) out[k] = [FRAME.x + a[k][0], FRAME.y + a[k][1]];
   return out;

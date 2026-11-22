@@ -104,7 +104,7 @@
       ],
       "until": [
        38,
-       13
+       11
       ],
       "motif": "door",
       "place": "top",
@@ -132,7 +132,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light",
+    "mood": "geometric",
     "beats": [
      {
       "at": [
@@ -351,7 +351,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "38:11-12 not glossed (the tafsirs differ on what they would return to). 39 (fighting): «فتنة» carries what both tafsirs say («شرك وصد عن سبيل اللّه»); no battle or weapons drawn, no present-day reading. Hourglass for «سنت الأولين», geometric for «ويكون الدين كله لله» and «أن الله مولاكم». STAGING v4: c1 (38): three polytheists at the centre of a town by day, facing the viewer (no empty side: the Prophet, told to say this, is never drawn and the opening word gets camera only). Both halves are conditions (if they desist / if they return), so nobody acts them; a door plate for the forgiveness offered (38:6) and an hourglass for the way of the former nations (38:13). c2 (39-40) stays ambient: 39 is a fighting verse (never pictured as a call; the glosses keep both tafsirs' meaning of the word for trial), 40 is Allah's names (Protector, Helper). The light plate that drew on one word before the Name al-Mawla (40:7-8) is now a seal plate."
+  "notes": "38:11-12 not glossed (the tafsirs differ on what they would return to). 39 (fighting): «فتنة» carries what both tafsirs say («شرك وصد عن سبيل اللّه»); no battle or weapons drawn, no present-day reading. Hourglass for «سنت الأولين», geometric for «ويكون الدين كله لله» and «أن الله مولاكم». STAGING v4: c1 (38): three polytheists at the centre of a town by day, facing the viewer (no empty side: the Prophet, told to say this, is never drawn and the opening word gets camera only). Both halves are conditions (if they desist / if they return), so nobody acts them; a door plate for the forgiveness offered (38:6, leaving before the threat at 38:11) and an hourglass for the way of the former nations (38:13 to the end). c2 (39-40) stays ambient, in the geometric mood (no rays of light over the fighting verse, review M5): 39 is a fighting verse (never pictured as a call; the glosses keep both tafsirs' meaning of the word for trial), 40 is Allah's names (Protector, Helper). The light plate that drew on one word before the Name al-Mawla (40:7-8) is now a seal plate."
  },
  "cover": {
   "series_ar": "مكر المشركين",

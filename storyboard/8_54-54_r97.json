@@ -39,23 +39,16 @@
      {
       "at": [
        54,
-       4
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       54,
-       7
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       54,
-       10
+       1
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       54,
+       5
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
@@ -69,7 +62,7 @@
        54,
        12
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -83,19 +76,42 @@
        54,
        17
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      }
     ],
     "motifs": [
      {
       "at": [
        54,
-       15
+       1
       ],
       "until": [
        54,
-       17
+       7
       ],
+      "motif": "hourglass",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       54,
+       9
+      ],
+      "until": [
+       54,
+       10
+      ],
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       54,
+       15
+      ],
+      "until": null,
       "motif": "seal",
       "place": "top",
       "size": "m"
@@ -152,7 +168,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No drowning or destruction drawn; a seal for «وكل كانوا ظالمين». First-person «فأهلكناهم… وأغرقنا» not paraphrased. 54: short-word flag, listen. STAGING v4: Kept ambient (owner rule, Staging v4): 54 is the destruction of the nations and the drowning of Pharaoh's people (punishment of people, never shown). The seal plate for the verdict on all of them (54:15) is kept."
+  "notes": "No drowning or destruction drawn; a seal for «وكل كانوا ظالمين». First-person «فأهلكناهم… وأغرقنا» not paraphrased. 54: short-word flag, listen. STAGING v4: Kept ambient (owner rule, Staging v4): 54 is the destruction of the nations and the drowning of Pharaoh's people (punishment of people, never shown). An hourglass for the way of the former nations (54:1, as in 38:13), a geometric plate on «رب» (54:9) and the seal plate for the verdict on all of them (54:15, now kept to the end). Nothing on the destroying and drowning (54:10-14)."
  },
  "cover": {
   "series_ar": "سنن الهلاك",

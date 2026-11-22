@@ -38,20 +38,10 @@
     "time": "day",
     "actors": [
      {
-      "id": "o",
-      "type": "disbelievers",
-      "label": "",
-      "place": "left",
-      "count": 3,
-      "pose": "stand",
-      "enter": null,
-      "exit": null
-     },
-     {
       "id": "d",
       "type": "disbelievers",
       "label": "",
-      "place": "right",
+      "place": "center",
       "count": 3,
       "pose": "stand",
       "enter": null,
@@ -80,16 +70,15 @@
        36,
        4
       ],
-      "do": "give",
-      "who": "d",
-      "to": "o"
+      "do": "shot_wide"
      },
      {
       "at": [
        36,
        6
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
@@ -103,9 +92,7 @@
        36,
        10
       ],
-      "do": "give",
-      "who": "d",
-      "to": "o"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -327,7 +314,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No coins on their spending (the blamed act); Hell not drawn. Two paths for «ليميز الله الخبيث من الطيب», starting after the Name. STAGING v4: c1 (36): a market by day; three polytheists on the right hand purses to three of their kind on the left (36:4 and 36:10; Al-Muyassar: they give their wealth to their like among the polytheists, to bar from Allah's path); no coins plate on the blamed spending. They wring their hands on 36:14 (regret: both tafsirs) under a falling-leaf plate that undraws (their wealth gone), and lower their heads on 36:16 (overcome; As-Sa'di: humiliation); nobody fights or leaves. On 36:17-21 (gathered to Hell) the camera goes wide and nothing is drawn for Hell (no fire, no darkness). c2 (37) stays ambient: Allah sorting the evil from the good and heaping it into Hell (the unseen)."
+  "notes": "No coins on their spending (the blamed act); Hell not drawn. Two paths for «ليميز الله الخبيث من الطيب», starting after the Name. STAGING v4: c1 (36): a market by day with three polytheists at the centre. Their spending is carried only by the word chips and the gloss: no give gesture (it is the series' charity gesture and ends in a reward sparkle) and no coins plate on the blamed spending (picture review S2). They wring their hands on 36:14 (regret: both tafsirs) under a falling-leaf plate that undraws (their wealth gone), and lower their heads on 36:16 (overcome; As-Sa'di: humiliation); nobody fights or leaves. On 36:17-21 (gathered to Hell) the camera goes wide and nothing is drawn for Hell (no fire, no darkness). c2 (37) stays ambient: Allah sorting the evil from the good and heaping it into Hell (the unseen)."
  },
  "cover": {
   "series_ar": "مكر المشركين",

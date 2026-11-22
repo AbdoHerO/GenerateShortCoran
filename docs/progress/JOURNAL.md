@@ -1333,3 +1333,21 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
 - **Affected published renders:**
   - 2:26-29 («استوى»): already queued for rebuild.
   - 18:27-28 («وجهه»): will be fixed in the Al-Kahf v2.
+
+### No plate over prayer, no light band on the Name (2026-11-22)
+
+- **Why:** the Al-A'raf reviews found three patterns that recur across surahs:
+  - people pray under a plate, which reads as praying to it (a scan found 65 such moments in 34 storyboards);
+  - a `light_sweep` transition crosses the frame as the Name is recited;
+  - in the home and prayer-hall settings a plate in front of a hanging lamp's chain reads as an object hanging in
+    the room.
+- **Change (renderer, so every storyboard is covered):**
+  - Motif plates fade out whenever a group is in prayer (pray, ruku, sujud, sitting), starting 0.6 s before the
+    prayer begins. Gloss arrows no longer point to a hidden plate.
+  - A `light_sweep` becomes a dissolve when a sacred word is recited within its window.
+  - Hanging lamps fade out while a plate is on screen.
+- **Re-render:**
+  - 8 renders built with the old code are set aside and queued in a follow-up build chain: 6 Al-Baqara and 3:102-108
+    and 3:113-115, already published as v2.
+  - The 27 affected storyboards still in the build queue get the fix automatically.
+  - Al-Kahf 18:57-59 is left for the Al-Kahf v2.

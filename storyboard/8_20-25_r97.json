@@ -122,8 +122,7 @@
        21,
        3
       ],
-      "do": "shot_close",
-      "who": "d"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -556,7 +555,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on the Prophet ﷺ or on their claim «سمعنا». 24:11-17 «يحول بين المرء وقلبه» is not glossed (the tafsirs explain it differently). Light for «لما يحييكم», wind for the trial that spreads. Al-Muyassar's «ليوم لا ريب فيه» (Quran wording) not used. STAGING v4: c1 (20-21): believers seated in a town by day; they stand up on the command to obey (20:4) and lower their heads while listening (20:11; Al-Muyassar: what is recited to them of the Quran), with a book plate for it (20:10, after the Name and the Messenger and their repeat); nobody acts the negated turning away (20:7-9). On 21:3 three deniers come in (Al-Muyassar: polytheists and hypocrites); they speak on 21:4 (their claim of having heard, framed by As-Sa'di's gloss) and turn their backs on 21:7 (they do not really hear). They face the believers, never an empty side. c2 (22-23): the deniers at the centre turn their backs on 22:6 (deaf to the truth); a geometric plate for Allah's knowledge (23:2-6); 23:7-11 is a supposition (both tafsirs), so nobody acts it and the camera only goes wide. c3 (24-25) stays ambient: the call of Allah and the Messenger (how people answer him), Allah coming between a man and his heart, the gathering to Him, and the threat of a trial that strikes all; its mood moves from dawn to night_sky because 25 is a threat."
+  "notes": "No motif on the Prophet ﷺ or on their claim «سمعنا». 24:11-17 «يحول بين المرء وقلبه» is not glossed (the tafsirs explain it differently). Light for «لما يحييكم», wind for the trial that spreads. Al-Muyassar's «ليوم لا ريب فيه» (Quran wording) not used. STAGING v4: c1 (20-21): believers seated in a town by day; they stand up on the command to obey (20:4) and lower their heads while listening (20:11; Al-Muyassar: what is recited to them of the Quran), with a book plate for it (20:10, after the Name and the Messenger and their repeat); nobody acts the negated turning away (20:7-9). On 21:3 three deniers come in (Al-Muyassar: polytheists and hypocrites); they speak on 21:4 (their claim of having heard, framed by As-Sa'di's gloss) and turn their backs on 21:7 (they do not really hear). They face the believers, and the camera stays wide (21:3) so the believers are in frame while the deniers speak: never an empty side. c2 (22-23): the deniers at the centre turn their backs on 22:6 (deaf to the truth); a geometric plate for Allah's knowledge (23:2-6); 23:7-11 is a supposition (both tafsirs), so nobody acts it and the camera only goes wide. c3 (24-25) stays ambient: the call of Allah and the Messenger (how people answer him), Allah coming between a man and his heart, the gathering to Him, and the threat of a trial that strikes all; its mood moves from dawn to night_sky because 25 is a threat."
  },
  "cover": {
   "series_ar": "الطاعة والأمانة",

@@ -99,15 +99,6 @@
      {
       "at": [
        26,
-       12
-      ],
-      "do": "walk_to",
-      "who": "b",
-      "to": "center"
-     },
-     {
-      "at": [
-       26,
        13
       ],
       "do": "sparkle",
@@ -409,7 +400,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A house for «فآواكم», a seal for «أماناتكم», coins for «أموالكم». No people drawn. STAGING v4: c1 (26): three believers in a town by day (few: 26:4); they lower their heads on 26:5 (oppressed) and look behind them twice on 26:8-11 (fearing to be snatched: both tafsirs); on 26:12 a house plate (the shelter: Al-Muyassar names Medina, As-Sa'di a land to shelter in) and they walk to the centre of the town; a soft sparkle for His support (26:13; the victory itself, Badr, is not drawn); a wheat plate for the good provision (26:15; Al-Muyassar: He fed them) and they raise their hands on 26:19 (gratitude). No enemy is drawn. c2 (27-28): three believers seated in a home by day; nobody acts the forbidden betrayal (27:4-8); a seal plate for the trusts (27:9; both tafsirs: what Allah entrusted, His commands and prohibitions), heads lowered on 27:10 and an open book on 27:11 (they know it is a trust); a coins plate for wealth (28:3, ending before the Name), heads lowered on the trial (28:5), and they raise their hands on 28:9 (reward with Him; Al-Muyassar: do they thank Him). Children and women are not drawn and nobody is shown as a trial."
+  "notes": "A house for «فآواكم», a seal for «أماناتكم», coins for «أموالكم». No people drawn. STAGING v4: c1 (26): three believers in a town by day (few: 26:4); they lower their heads on 26:5 (oppressed) and look behind them twice on 26:8-11 (fearing to be snatched: both tafsirs); on 26:12 a house plate alone carries the shelter (Al-Muyassar names Medina, As-Sa'di a land to shelter in): nobody walks within the town where they were oppressed (review M1); a soft sparkle for His support (26:13; the victory itself, Badr, is not drawn); a wheat plate for the good provision (26:15; Al-Muyassar: He fed them) and they raise their hands on 26:19 (gratitude). No enemy is drawn. c2 (27-28): three believers seated in a home by day; nobody acts the forbidden betrayal (27:4-8); a seal plate for the trusts (27:9; both tafsirs: what Allah entrusted, His commands and prohibitions), heads lowered on 27:10 and an open book on 27:11 (they know it is a trust); a coins plate for wealth (28:3, ending before the Name), heads lowered on the trial (28:5), and they raise their hands on 28:9 (reward with Him; Al-Muyassar: do they thank Him). Children and women are not drawn and nobody is shown as a trial."
  },
  "cover": {
   "series_ar": "الطاعة والأمانة",

@@ -221,7 +221,7 @@
       "size": "m"
      }
     ],
-    "transition": "light_sweep"
+    "transition": "dissolve"
    }
   }
  ],
@@ -328,7 +328,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No battle, ranks, weapons or killing drawn (night sky). The exceptions of 16 are kept («إلا منعطفًا… أو منحازًا») and the ruling carries «من غير عذر». No motif on the Prophet ﷺ (17:6-12). Light for «بلاء حسنا». STAGING v4: Kept ambient (owner rule, Staging v4): 15-16 are fighting verses, 17 is Allah's act at Badr. c2 (17) moves from dawn to the geometric mood (Allah's acts: He killed them, He threw; no dawn or victory light over the killing); the light plate for the good trial (17:13, after 17:11-12 and ending before 17:19) is kept. Nothing on the Prophet's throw (17:6-12)."
+  "notes": "No battle, ranks, weapons or killing drawn (night sky). The exceptions of 16 are kept («إلا منعطفًا… أو منحازًا») and the ruling carries «من غير عذر». No motif on the Prophet ﷺ (17:6-12). Light for «بلاء حسنا». STAGING v4: Kept ambient (owner rule, Staging v4): 15-16 are fighting verses, 17 is Allah's act at Badr. c2 (17) moves from dawn to the geometric mood (Allah's acts: He killed them, He threw; no dawn or victory light over the killing); the light plate for the good trial (17:13, after 17:11-12 and ending before 17:19) is kept. The chapter opens with a plain dissolve, no band of light at 17:1 (review M6). Nothing on the Prophet's throw (17:6-12)."
  },
  "cover": {
   "series_ar": "يوم بدر",
