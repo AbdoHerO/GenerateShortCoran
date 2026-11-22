@@ -162,7 +162,10 @@
        92,
        22
       ],
-      "until": null,
+      "until": [
+       92,
+       23
+      ],
       "motif": "hands",
       "place": "top",
       "size": "m"
@@ -296,7 +299,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Killing: nothing drawn, no people. Hands for the family's pardon «يصدقوا», a seal for «ميثاق», an hourglass for the two months of fasting, geometric for «عليما حكيما». STAGING v4: 92 stays ambient with no people: manslaughter and its expiation (killing is never drawn)."
+  "notes": "Killing: nothing drawn, no people. Hands for the family's pardon «يصدقوا», a seal for «ميثاق», an hourglass for the two months of fasting, geometric for «عليما حكيما». STAGING v4: 92 stays ambient with no people: manslaughter and its expiation (killing is never drawn). The hands plate for the pardon now ends on 92:23."
  },
  "cover": {
   "series_ar": "الدماء والهجرة والصلاة",

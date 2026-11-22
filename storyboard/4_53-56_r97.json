@@ -133,15 +133,14 @@
        54,
        16
       ],
-      "do": "shot_close",
-      "who": "d"
+      "do": "shot_wide"
      },
      {
       "at": [
        54,
        18
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      }
     ],
     "motifs": [

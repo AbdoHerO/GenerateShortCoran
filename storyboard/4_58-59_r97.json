@@ -156,7 +156,7 @@
        6
       ],
       "until": null,
-      "motif": "key",
+      "motif": "seal",
       "place": "top",
       "size": "s"
      },
@@ -234,22 +234,14 @@
        59,
        4
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        59,
-       6
+       8
       ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       59,
-       10
-      ],
-      "do": "shot_close",
-      "who": "n"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -295,14 +287,14 @@
        59,
        21
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        59,
        22
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -448,7 +440,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A key for the trusts, scales for justice between people (not the Mizan), geometric for «سميعا بصيرا», two paths for the dispute, growth for «وأحسن تأويلا». No motif on «أطيعوا الله وأطيعوا الرسول». 59:8-10 keeps the restriction «في غير معصية الله» (As-Sa'di: «بشرط ألا يأمروا بمعصية الله»). STAGING v4: 58: a market; a man (a) hands a trust back to its owner (o) on 58:5 (key plate); on 58:10-15 a group of people (p) speaks (a matter to be judged between people) and the scales plate stands for judging with justice. Nobody is shown as the judge, so no figure stands for the Prophet or a ruler. 59: two believers at home discuss a matter (59:12-14) and both read the Book on 59:15-16 (referring it to the Book and the Sunnah); no gesture of obedience to any person, nothing for the Messenger or those in authority, nothing on the Name; growth plate on 59:27."
+  "notes": "A key for the trusts, scales for justice between people (not the Mizan), geometric for «سميعا بصيرا», two paths for the dispute, growth for «وأحسن تأويلا». No motif on «أطيعوا الله وأطيعوا الرسول». 59:8-10 keeps the restriction «في غير معصية الله» (As-Sa'di: «بشرط ألا يأمروا بمعصية الله»). STAGING v4: 58: a market; a man (a) hands a trust back to its owner (o) on 58:5 (a seal plate for the trust kept; no key, which would stage an occasion not in the tafsirs); on 58:10-15 a group of people (p) speaks (a matter to be judged between people) and the scales plate stands for judging with justice. Nobody is shown as the judge, so no figure stands for the Prophet or a ruler. 59: two believers at home discuss a matter (59:12-14; wide shots only until 59:26, so no man is held close while those in authority are named or glossed) and both read the Book on 59:15-16 (referring it to the Book and the Sunnah); no gesture of obedience to any person, nothing for the Messenger or those in authority, nothing on the Name; growth plate on 59:27."
  },
  "cover": {
   "series_ar": "الأمانة والطاعة",

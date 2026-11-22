@@ -200,9 +200,10 @@
      {
       "at": [
        108,
-       9
+       8
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "k"
      },
      {
       "at": [
@@ -388,7 +389,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A book for «الكتاب», geometric near «غفورا رحيما» and «محيطا». No motif on the Prophet ﷺ. 106 uses Al-Muyassar's «في جميع أحوالك» (As-Sa'di's «مما صدر منك إن صدر» not shown). 105:12-15 keeps the negation «فلا تكن». STAGING v4: 105-106 stay ambient: the Book sent down to the Prophet to judge between people, and his own conduct (no people may stand before an empty judge's place). 107-108: a group sits in a house at night (the treacherous, the subject of the verses); they turn away on 108:1 (hiding from people) and speak on 108:11 and 108:16 (plotting by night what He is not pleased with, both tafsirs); no specific incident, accused person or object from the occasion of revelation is drawn; nothing on the Name, geometric at the end."
+  "notes": "A book for «الكتاب», geometric near «غفورا رحيما» and «محيطا». No motif on the Prophet ﷺ. 106 uses Al-Muyassar's «في جميع أحوالك» (As-Sa'di's «مما صدر منك إن صدر» not shown). 105:12-15 keeps the negation «فلا تكن». STAGING v4: 105-106 stay ambient: the Book sent down to the Prophet to judge between people, and his own conduct (no people may stand before an empty judge's place). 107-108: a group sits in a house at night (the treacherous, the subject of the verses); they turn away on 108:1 (hiding from people) and speak on 108:11 and 108:16 (plotting by night what He is not pleased with, both tafsirs); no specific incident, accused person or object from the occasion of revelation is drawn; nothing on the Name; on 108:8-9 the camera is close on the group (the room lamp out of frame); geometric at the end."
  },
  "cover": {
   "series_ar": "العدل في القضاء",

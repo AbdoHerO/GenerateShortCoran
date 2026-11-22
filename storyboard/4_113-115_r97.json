@@ -97,7 +97,7 @@
        113,
        32
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -139,7 +139,18 @@
       "exit": null
      },
      {
-      "id": "m",
+      "id": "x",
+      "type": "man",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     },
+     {
+      "id": "y",
       "type": "man",
       "label": "",
       "place": "right",
@@ -180,25 +191,23 @@
        9
       ],
       "do": "speak",
-      "who": "m"
+      "who": "x"
      },
      {
       "at": [
        114,
        12
       ],
-      "do": "point",
-      "who": "m",
-      "to": "g"
+      "do": "speak",
+      "who": "x"
      },
      {
       "at": [
        114,
        15
       ],
-      "do": "walk_to",
-      "who": "m",
-      "to": "center"
+      "do": "shot_close",
+      "who": "x"
      },
      {
       "at": [
@@ -212,8 +221,7 @@
        114,
        18
       ],
-      "do": "shot_close",
-      "who": "m"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -227,7 +235,7 @@
        114,
        23
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -267,109 +275,44 @@
    "verses": [
     115
    ],
-   "scene": "stage",
+   "scene": "ambient",
    "params": {
-    "setting": "desert",
-    "time": "dusk",
-    "actors": [
-     {
-      "id": "b",
-      "type": "believers",
-      "label": "",
-      "place": "right",
-      "count": 3,
-      "pose": "stand",
-      "enter": null,
-      "exit": [
-       115,
-       13
-      ]
-     },
-     {
-      "id": "m",
-      "type": "man",
-      "label": "",
-      "place": "left",
-      "count": 1,
-      "pose": "stand",
-      "enter": null,
-      "exit": [
-       115,
-       12
-      ],
-      "look": "plain"
-     }
-    ],
-    "events": [
-     {
-      "type": "light",
-      "at": [
-       115,
-       7
-      ],
-      "until": [
-       115,
-       10
-      ]
-     }
-    ],
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
        115,
-       1
+       6
       ],
       "do": "shot_wide"
-     },
-     {
-      "at": [
-       115,
-       5
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       115,
-       8
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       115,
-       10
-      ],
-      "do": "turn",
-      "who": "m"
      },
      {
       "at": [
        115,
        13
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        115,
        14
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        115,
-       17
+       15
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        115,
        19
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -381,10 +324,10 @@
       "until": null,
       "motif": "two_paths",
       "place": "top",
-      "size": "s"
+      "size": "m"
      }
     ],
-    "transition": "wipe"
+    "transition": "dissolve"
    }
   }
  ],
@@ -535,7 +478,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on the Prophet ﷺ; a book for «الكتاب والحكمة» only. Coins for «بصدقة», hands for «إصلاح بين الناس»; two paths for «غير سبيل المؤمنين». 115:14-16 «نوله ما تولى» is not glossed (both tafsirs paraphrase it in Allah's first person). The plan title «فضل الله على رسوله» repeated «فضل الله» (113:2-3), so the cover reads «عصمة النبي». STAGING v4: 113 stays ambient: the verse is about the Prophet himself (Allah's favour on him, the group who wanted to mislead him, the Book revealed to him), so nothing may stand for him. 114: a small group of men (3) whispering in a market (private talk, much of it without good); a man speaks on 114:9 (enjoining charity; coins plate) and points to them on 114:12, then walks into the middle on 114:15 (setting things right between people; hands plate ending before the Name). 115: a desert road at dusk; a soft light on 115:7 (the guidance made clear); the man turns his back on 115:10 (following another way than the believers) and leaves on 115:12, the believers go on their way and leave on 115:13, so the stage is empty well before 115:14-20 (the requital and Hell); two-paths plate from 115:11. Nothing is acted on 115:2-3 (no gesture toward an empty side that could stand for the Messenger)."
+  "notes": "No motif on the Prophet ﷺ; a book for «الكتاب والحكمة» only. Coins for «بصدقة», hands for «إصلاح بين الناس»; two paths for «غير سبيل المؤمنين». 115:14-16 «نوله ما تولى» is not glossed (both tafsirs paraphrase it in Allah's first person). The plan title «فضل الله على رسوله» repeated «فضل الله» (113:2-3), so the cover reads «عصمة النبي». STAGING v4: 113 stays ambient: the verse is about the Prophet himself (Allah's favour on him, the group who wanted to mislead him, the Book revealed to him), so nothing may stand for him. 114: private talk in a market: a small group of men (3) whispering (much of it without good), and two men talking together; one of them speaks to the other on 114:9 (enjoining charity; coins plate) and on 114:12 (what is right); hands plate on 114:14 (setting things right between people), ending before the Name. Nobody addresses a crowd and nobody hands anything out, so no figure reads as the Prophet. 115 stays ambient: it is about opposing the Messenger (people's conduct toward him), then the requital and Hell; two-paths plate only."
  },
  "cover": {
   "series_ar": "العدل في القضاء",

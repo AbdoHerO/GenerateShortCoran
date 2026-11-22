@@ -90,7 +90,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn",
+    "mood": "geometric",
     "beats": [
      {
       "at": [
@@ -151,6 +151,13 @@
      {
       "at": [
        94,
+       29
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       94,
        34
       ],
       "do": "shot_wide"
@@ -180,7 +187,7 @@
      {
       "at": [
        94,
-       31
+       32
       ],
       "until": null,
       "motif": "light",
@@ -295,7 +302,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Killing: nothing drawn. 93 under a night sky with no motif; 93:7-8 «خالدا فيها» carries Al-Muyassar's hinge «إن جازاه على ذنبه» (review 4b: the fuller excerpt read as contradicting the recited words). 94: footsteps for setting out, light for «فمن الله عليكم». 94:10-17 always shows «ولا تقولوا…» with the negation. STAGING v4: 93-94 stay ambient: murder and its recompense (93), and going out in Allah's cause and not rejecting one who offers peace (94, battle context)."
+  "notes": "Killing: nothing drawn. 93 under a night sky with no motif; 93:7-8 «خالدا فيها» carries Al-Muyassar's hinge «إن جازاه على ذنبه» (review 4b: the fuller excerpt read as contradicting the recited words). 94: footsteps for setting out, light for «فمن الله عليكم». 94:10-17 always shows «ولا تقولوا…» with the negation. STAGING v4: 93-94 stay ambient: murder and its recompense (93), and going out in Allah's cause and not rejecting one who offers peace (94, battle context). c2 mood geometric instead of dawn; its light plate starts on 94:32, after the Name."
  },
  "cover": {
   "series_ar": "الدماء والهجرة والصلاة",

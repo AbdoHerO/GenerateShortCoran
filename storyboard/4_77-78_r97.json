@@ -231,6 +231,13 @@
      {
       "at": [
        78,
+       28
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       78,
        31
       ],
       "do": "pan_right"
@@ -267,7 +274,7 @@
      {
       "at": [
        78,
-       29
+       26
       ],
       "until": null,
       "motif": "geometric",
@@ -404,7 +411,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No weapon, battle or death drawn. Light for «والآخرة خير», bricks for «بروج مشيدة», geometric for «كل من عند الله». Their protest «لم كتبت علينا القتال…» and their sayings in 78:10-24 are not glossed as statements; 77:27-37 gives the motive, 78:18-24 calls it «جهالة وتشاؤما». STAGING v4: 77-78 stay ambient: fighting prescribed and a party fearing it (battle context), death reaching them even in towers (78:1-9), and their attributing harm to the Prophet (78:18-24), which on stage would need people speaking toward an empty space that implies him."
+  "notes": "No weapon, battle or death drawn. Light for «والآخرة خير», bricks for «بروج مشيدة», geometric for «كل من عند الله». Their protest «لم كتبت علينا القتال…» and their sayings in 78:10-24 are not glossed as statements; 77:27-37 gives the motive, 78:18-24 calls it «جهالة وتشاؤما». STAGING v4: 77-78 stay ambient: fighting prescribed and a party fearing it (battle context), death reaching them even in towers (78:1-9), and their attributing harm to the Prophet (78:18-24), which on stage would need people speaking toward an empty space that implies him. c2: the geometric plate now starts on 78:26."
  },
  "cover": {
   "series_ar": "النفير والمنافقون",

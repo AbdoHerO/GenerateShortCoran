@@ -42,14 +42,14 @@
        164,
        6
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        164,
        10
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -98,7 +98,7 @@
        165,
        11
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [

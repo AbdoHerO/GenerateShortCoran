@@ -85,7 +85,7 @@
        60,
        9
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -148,41 +148,16 @@
     61,
     62
    ],
-   "scene": "stage",
+   "scene": "ambient",
    "params": {
-    "setting": "city",
-    "time": "dusk",
-    "actors": [
-     {
-      "id": "h",
-      "type": "people",
-      "label": "",
-      "place": "center",
-      "count": 3,
-      "pose": "stand",
-      "enter": null,
-      "exit": [
-       61,
-       15
-      ]
-     }
-    ],
-    "events": [],
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
        61,
-       1
+       2
       ],
       "do": "shot_wide"
-     },
-     {
-      "at": [
-       61,
-       3
-      ],
-      "do": "shot_close",
-      "who": "h"
      },
      {
       "at": [
@@ -196,24 +171,14 @@
        61,
        11
       ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       61,
-       13
-      ],
-      "do": "turn",
-      "who": "h"
+      "do": "pan_left"
      },
      {
       "at": [
        61,
        14
       ],
-      "do": "walk_to",
-      "who": "h",
-      "to": "right"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -225,42 +190,42 @@
      {
       "at": [
        62,
-       1
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       62,
-       4
-      ],
-      "do": "wind"
-     },
-     {
-      "at": [
-       62,
-       6
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       62,
-       9
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       62,
-       12
+       3
       ],
       "do": "pan_right"
      },
      {
       "at": [
        62,
-       15
+       4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       62,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       62,
+       8
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       62,
+       10
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       62,
+       14
       ],
       "do": "shot_wide"
      }
@@ -277,7 +242,7 @@
       ],
       "motif": "door",
       "place": "top",
-      "size": "s"
+      "size": "m"
      }
     ],
     "transition": "dissolve"
@@ -354,7 +319,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Night sky throughout; two paths for «ضلالا بعيدا» only. The hypocrites' sworn excuse «إن أردنا إلا إحسانا وتوفيقا» is not glossed (it would read as a fact); 62:9-11 says only that they came making excuses. STAGING v4: 60: the hypocrites (a people group) in a town; speak on 60:5 (their claim of faith), turn away on 60:15 and walk off on 60:17 (seeking judgement elsewhere); the taghut is not drawn; Satan only as the two-paths plate. 61: when called (passive, no caller drawn; door plate on 61:4) they turn away and walk off (61:13-14) and leave the stage on 61:15, well before 62. 62: the empty street with a gust of wind on 62:4; they are never shown coming to anyone or swearing (nothing implies the Prophet). The Prophet is never drawn."
+  "notes": "Night sky throughout; two paths for «ضلالا بعيدا» only. The hypocrites' sworn excuse «إن أردنا إلا إحسانا وتوفيقا» is not glossed (it would read as a fact); 62:9-11 says only that they came making excuses. STAGING v4: 60: the hypocrites (a people group) in a town; speak on 60:5 (their claim of faith), turn away on 60:15 and walk off on 60:17 (seeking judgement elsewhere); the taghut is not drawn; Satan only as the two-paths plate. 61-62 stay ambient (night sky, door plate on 61:4, no people): their turning away from him and coming to him swearing is their conduct toward the Prophet, and any group turning from or toward an empty side would make that side stand for him. The Prophet is never drawn."
  },
  "cover": {
   "series_ar": "الأمانة والطاعة",
