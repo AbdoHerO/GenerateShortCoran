@@ -1363,3 +1363,7 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
   - The sacred list now covers the Uthmani spellings, a vocative «يا» merged into the name, and «الأمي».
 - **Re-render:** 2:102-103, 2:32-34 and 3:53-56 (built, published) are queued in the follow-up chain. The other
   affected storyboards are not built yet.
+- **Follow-up (same day):**
+  - The periodic diagonal light sheen of the life layer no longer crosses the frame within 3 s of a quiet range.
+  - `tools/restage/restage.py` writes quiet ranges from the spec (`"q"`), so a restage cannot drop them.
+  - Al-A'raf is complete: all 57 videos restaged, independently reviewed, fixed and queued for build.

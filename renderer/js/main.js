@@ -63,7 +63,7 @@ function makeT(c) {
     const last = v.words.length;
     // pause = the reciter stops after this word (waqf sign or end of verse): a natural moment for a camera move
     for (const s of v.segments) words.push({ n, p: s[0], s: s[1], e: s[2], pause: s[0] === last || WAQF.test(v.words[s[0] - 1]?.text || ''),
-      sacred: isSacred(v.words[s[0] - 1]?.text || '') || quiet(n, s[0]) });
+      sacred: isSacred(v.words[s[0] - 1]?.text || '') || quiet(n, s[0]), q: quiet(n, s[0]) });
   }
   words.sort((a, b) => a.s - b.s);
   return {
@@ -490,9 +490,10 @@ function lifeLayer(sx, t, idx) {
     g.addColorStop(0, `rgba(255,246,214,${a})`); g.addColorStop(1, 'rgba(255,246,214,0)');
     sx.fillStyle = g; sx.beginPath(); sx.arc(x, y, r * 3, 0, TAU); sx.fill();
   }
-  // a soft diagonal sheen crosses the picture every 9 s
+  // a soft diagonal sheen crosses the picture every 9 s, never within 3 s of a quiet range (e.g. «تجلى ربه للجبل»)
   const ph = ((t + idx * 3.1) % 9) / 9;
-  if (ph < 0.3) {
+  const nearQuiet = (chT[idx]?.words || []).some((w) => w.q && t > w.s - 3 && t < w.e + 3);
+  if (ph < 0.3 && !nearQuiet) {
     const u = ph / 0.3, x = lerp(-400, 1360, ease.inOutSine(u));
     sx.save();
     sx.globalCompositeOperation = 'screen';
