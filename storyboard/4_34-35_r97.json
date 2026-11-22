@@ -352,7 +352,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "4:34 with great care: every gloss is a point both tafsirs make (care and provision, obedience to Allah, His keeping and help, the gradual steps «بالأسهل فالأسهل», a strike «لا ضرر فيه» / «غير مبرح», the warning against wronging them once they obey). No motif and no picture between 34:15 and 34:35. Coins for «أموالهم», geometric for «عليا كبيرا». 35: two paths for the split, hands for reconciliation, geometric for «عليما خبيرا». No people drawn."
+  "notes": "4:34 with great care: every gloss is a point both tafsirs make (care and provision, obedience to Allah, His keeping and help, the gradual steps «بالأسهل فالأسهل», a strike «لا ضرر فيه» / «غير مبرح», the warning against wronging them once they obey). No motif and no picture between 34:15 and 34:35. Coins for «أموالهم», geometric for «عليا كبيرا». 35: two paths for the split, hands for reconciliation, geometric for «عليما خبيرا». No people drawn. STAGING v4: 34-35 stay ambient with no people on screen: the husband and wife relationship and their dispute."
  },
  "cover": {
   "series_ar": "يسر الشريعة",
@@ -364,5 +364,6 @@
    14
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -47,6 +47,13 @@
      {
       "at": [
        30,
+       8
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       30,
        10
       ],
       "do": "shot_wide"
@@ -108,58 +115,96 @@
     32,
     33
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "home",
+    "time": "day",
+    "actors": [
+     {
+      "id": "f",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        32,
-       4
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       32,
-       8
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        32,
-       11
+       6
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       32,
+       10
+      ],
+      "do": "shot_close",
+      "who": "f"
+     },
+     {
+      "at": [
+       32,
+       12
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       32,
+       14
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
        32,
        15
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        32,
        18
       ],
-      "do": "shot_wide"
+      "do": "raise_hands",
+      "who": "f"
      },
      {
       "at": [
        32,
-       22
+       25
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        33,
-       2
+       1
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       33,
+       3
+      ],
+      "do": "speak",
+      "who": "f"
      },
      {
       "at": [
@@ -171,64 +216,64 @@
      {
       "at": [
        33,
+       11
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       33,
        13
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       33,
+       17
+      ],
+      "do": "pan_left"
      }
     ],
     "motifs": [
      {
       "at": [
        32,
-       13
+       20
       ],
       "until": [
        32,
-       19
+       23
       ],
-      "motif": "wheat",
+      "motif": "hands",
       "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       32,
-       27
-      ],
-      "until": null,
-      "motif": "geometric",
-      "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        33,
        6
       ],
-      "until": null,
+      "until": [
+       33,
+       8
+      ],
       "motif": "house",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        33,
        9
       ],
-      "until": null,
+      "until": [
+       33,
+       13
+      ],
       "motif": "seal",
       "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       33,
-       19
-      ],
-      "until": null,
-      "motif": "geometric",
-      "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "dissolve"
@@ -393,7 +438,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "30-31 under a night sky: no fire motif for «نارا», nothing for «مدخلا كريما» (Paradise), only light for «نكفر عنكم سيئاتكم». No motif on the forbidden wish (32:1-9). Wheat for earning, a house for parents and relatives, a seal for the oath of alliance. 33: the two tafsirs differ on «موالي» and «فآتوهم نصيبهم» (heirs and an abrogated alliance share vs. allies owed support), so neither phrase is glossed; only the shared meanings of «الأقربون» and «عقدت أيمانكم» are."
+  "notes": "30-31 under a night sky: no fire motif for «نارا», nothing for «مدخلا كريما» (Paradise), only light for «نكفر عنكم سيئاتكم». No motif on the forbidden wish (32:1-9). Wheat for earning, a house for parents and relatives, a seal for the oath of alliance. 33: the two tafsirs differ on «موالي» and «فآتوهم نصيبهم» (heirs and an abrogated alliance share vs. allies owed support), so neither phrase is glossed; only the shared meanings of «الأقربون» and «عقدت أيمانكم» are. STAGING v4: 30-31 stay ambient: the Fire and Paradise. 32-33: a family (men and a woman, faceless) sits at home; the forbidden wish is not acted; the tafsirs differ on what is earned in 32:10-17 (reward or earnings), so no work or trade is drawn; they raise their hands on 32:18 (asking Him of His bounty, both tafsirs), hands plate ended before the Name. 33: the family speaks on 33:3 (heirs); house plate for parents and relatives, seal for the sworn alliance; the share of 33:11-12 (read differently) is not acted."
  },
  "cover": {
   "series_ar": "يسر الشريعة",
@@ -405,5 +450,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

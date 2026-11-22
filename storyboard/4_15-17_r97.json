@@ -92,6 +92,13 @@
        9
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       16,
+       10
+      ],
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -150,21 +157,73 @@
    "verses": [
     17
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "m",
+      "type": "man",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        17,
-       6
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        17,
+       3
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       17,
+       6
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       17,
        8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       17,
+       10
+      ],
+      "do": "bow",
+      "who": "m"
+     },
+     {
+      "at": [
+       17,
+       12
+      ],
+      "do": "raise_hands",
+      "who": "m"
+     },
+     {
+      "at": [
+       17,
+       13
       ],
       "do": "pan_left"
      },
@@ -173,7 +232,24 @@
        17,
        14
       ],
-      "do": "pan_right"
+      "do": "pray",
+      "who": "m"
+     },
+     {
+      "at": [
+       17,
+       16
+      ],
+      "do": "ruku",
+      "who": "m"
+     },
+     {
+      "at": [
+       17,
+       19
+      ],
+      "do": "sujud",
+      "who": "m"
      }
     ],
     "motifs": [
@@ -185,7 +261,7 @@
       "until": null,
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -198,7 +274,7 @@
       ],
       "motif": "hourglass",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -208,10 +284,10 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "light_sweep"
    }
   }
  ],
@@ -373,7 +449,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Indecency: nothing drawn, no people; a scroll for the testimony, a door for «سبيلا», a leaf for reform, light and an hourglass for repentance «من قريب», geometric near Allah's names. 15-16 carry both tafsirs' point that this was the ruling of early Islam (glosses kept to definitions; the confinement line has no gloss so no command is shown without its condition)."
+  "notes": "Indecency: nothing drawn, no people; a scroll for the testimony, a door for «سبيلا», a leaf for reform, light and an hourglass for repentance «من قريب», geometric near Allah's names. 15-16 carry both tafsirs' point that this was the ruling of early Islam (glosses kept to definitions; the confinement line has no gloss so no command is shown without its condition). STAGING v4: 15-16 stay ambient with no people on screen: the ruling on indecency (private matter). 17: one man in a prayer hall; the evil deed is never acted; he bows in regret on 17:10 (they repent), raises his hands on 17:12 (soon), then prays (Al-Muyassar: يرجعون إلى ربهم بالإنابة والطاعة). Light plate on the repentance, hourglass on 17:12 ended before the Name, geometric for the closing names."
  },
  "cover": {
   "series_ar": "الفاحشة والتوبة",
@@ -385,5 +461,6 @@
    9
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -39,6 +39,13 @@
      {
       "at": [
        24,
+       3
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       24,
        4
       ],
       "do": "shot_wide"
@@ -46,9 +53,23 @@
      {
       "at": [
        24,
+       10
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       24,
        13
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       24,
+       15
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -84,6 +105,13 @@
        34
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       24,
+       37
+      ],
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -215,7 +243,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No people drawn. A seal for «كتاب الله عليكم» (His decree, a seal only), coins for «بأموالكم» (leaving at once), a seal for the obligation «فريضة», geometric for «عليما حكيما». No jewel or lingering coins over the dower (motif review). «فما استمتعتم به منهن» is glossed «بالنكاح الصحيح»."
+  "notes": "No people drawn. A seal for «كتاب الله عليكم» (His decree, a seal only), coins for «بأموالكم» (leaving at once), a seal for the obligation «فريضة», geometric for «عليما حكيما». No jewel or lingering coins over the dower (motif review). «فما استمتعتم به منهن» is glossed «بالنكاح الصحيح». STAGING v4: 24 stays ambient with no people on screen: marriage prohibitions and the dower."
  },
  "cover": {
   "series_ar": "أحكام الزواج",
@@ -227,5 +255,6 @@
    18
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

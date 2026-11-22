@@ -33,14 +33,43 @@
     49,
     50
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "g",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        49,
-       6
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       49,
+       5
+      ],
+      "do": "speak",
+      "who": "g"
+     },
+     {
+      "at": [
+       49,
+       7
       ],
       "do": "shot_wide"
      },
@@ -49,42 +78,44 @@
        49,
        11
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        49,
        12
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        50,
        1
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "g"
      },
      {
       "at": [
        50,
        3
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "g"
      },
      {
       "at": [
        50,
-       8
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       50,
-       10
+       7
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       50,
+       9
+      ],
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -96,7 +127,7 @@
       "until": null,
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -108,16 +139,55 @@
     51,
     52
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        51,
-       7
+       1
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       51,
+       6
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       51,
+       10
+      ],
+      "do": "turn",
+      "who": "p"
      },
      {
       "at": [
@@ -131,21 +201,31 @@
        51,
        12
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "p"
      },
      {
       "at": [
        51,
        15
       ],
-      "do": "pan_right"
+      "do": "point",
+      "who": "p",
+      "to": "d"
      },
      {
       "at": [
        51,
        16
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       51,
+       19
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
@@ -159,24 +239,38 @@
        52,
        3
       ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       52,
-       6
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       52,
-       9
-      ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       52,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       52,
+       8
+      ],
+      "do": "pan_left"
      }
     ],
-    "motifs": [],
+    "motifs": [
+     {
+      "at": [
+       51,
+       8
+      ],
+      "until": [
+       51,
+       12
+      ],
+      "motif": "book",
+      "place": "top",
+      "size": "s"
+     }
+    ],
     "transition": "dissolve"
    }
   }
@@ -295,7 +389,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Light for «بل الله يزكي من يشاء» only. 51:12-20 (their claim that the disbelievers are better guided) is glossed with As-Sa'di's motive (envy), never with the claim itself. 52:5-11 «فلن تجد له نصيرا» gets «وهذا غاية الخذلان», not a positive definition of «نصيرا». No people drawn."
+  "notes": "Light for «بل الله يزكي من يشاء» only. 51:12-20 (their claim that the disbelievers are better guided) is glossed with As-Sa'di's motive (envy), never with the claim itself. 52:5-11 «فلن تجد له نصيرا» gets «وهذا غاية الخذلان», not a positive definition of «نصيرا». No people drawn. STAGING v4: 49-50: a group in a town praises itself (speak on 49:5 and 50:3, inventing lies); light plate for His purifying whom He wills; the Prophet addressed is not shown. 51-52: those given part of the Book (Al-Muyassar: the Jews) turn on 51:10 (believing in idols and tyrants: no idol drawn) and speak to the disbelievers, pointing at them on 51:15 (their claim, glossed only with As-Sa'di's motive); the believers they disparage are not drawn. Nobody fades on the curse (52:3-7)."
  },
  "cover": {
   "series_ar": "الطهارة وأهل الكتاب",
@@ -304,8 +398,9 @@
   "title_en": "Praising oneself",
   "at": [
    49,
-   4
+   5
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

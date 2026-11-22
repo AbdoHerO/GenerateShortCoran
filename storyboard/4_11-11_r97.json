@@ -32,21 +32,69 @@
    "verses": [
     11
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "home",
+    "time": "day",
+    "actors": [
+     {
+      "id": "f",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "m",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "sit",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        11,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       11,
+       4
+      ],
+      "do": "shot_close",
+      "who": "f"
+     },
+     {
+      "at": [
+       11,
        8
+      ],
+      "do": "speak",
+      "who": "f"
+     },
+     {
+      "at": [
+       11,
+       9
       ],
       "do": "pan_left"
      },
      {
       "at": [
        11,
-       9
+       11
       ],
       "do": "shot_wide"
      },
@@ -60,6 +108,14 @@
      {
       "at": [
        11,
+       15
+      ],
+      "do": "speak",
+      "who": "m"
+     },
+     {
+      "at": [
+       11,
        19
       ],
       "do": "shot_wide"
@@ -69,7 +125,8 @@
        11,
        22
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "f"
      },
      {
       "at": [
@@ -81,63 +138,95 @@
      {
       "at": [
        11,
-       29
+       27
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       11,
+       33
+      ],
+      "do": "speak",
+      "who": "m"
+     },
+     {
+      "at": [
+       11,
+       39
       ],
       "do": "pan_left"
      },
      {
       "at": [
        11,
-       35
+       41
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        11,
-       40
+       42
+      ],
+      "do": "speak",
+      "who": "f"
+     },
+     {
+      "at": [
+       11,
+       46
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       11,
+       48
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        11,
-       43
+       51
+      ],
+      "do": "read",
+      "who": "m"
+     },
+     {
+      "at": [
+       11,
+       52
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       11,
+       55
       ],
       "do": "pan_right"
-     },
-     {
-      "at": [
-       11,
-       47
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       11,
-       56
-      ],
-      "do": "shot_wide"
      },
      {
       "at": [
        11,
        57
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "f"
      },
      {
       "at": [
        11,
-       58
+       59
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        11,
-       63
+       64
       ],
       "do": "shot_wide"
      },
@@ -146,29 +235,22 @@
        11,
        65
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      }
     ],
     "motifs": [
      {
       "at": [
        11,
-       4
-      ],
-      "until": null,
-      "motif": "house",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       11,
        15
       ],
-      "until": null,
+      "until": [
+       11,
+       23
+      ],
       "motif": "coins",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -177,11 +259,11 @@
       ],
       "until": [
        11,
-       66
+       64
       ],
       "motif": "scroll",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -191,7 +273,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -300,7 +382,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "One verse of 78 s. A house for the family, coins for the shares, a scroll for the bequest, geometric for «إن الله كان عليما حكيما». No scales: a tilted balance on «للذكر مثل حظ الأنثيين» could read as unfairness. No people drawn. «أوصيتكم» paraphrase (Allah's first person) not used."
+  "notes": "One verse of 78 s. A house for the family, coins for the shares, a scroll for the bequest, geometric for «إن الله كان عليما حكيما». No scales: a tilted balance on «للذكر مثل حظ الأنثيين» could read as unfairness. No people drawn. «أوصيتكم» paraphrase (Allah's first person) not used. STAGING v4: One verse of 78 s. The heirs of a family (men only, faceless) sit at home and speak about the division; one of them reads the bequest on 11:51 (scroll plate, ended before the Name). No purse is handed for any particular share, so no heir is shown receiving a share that is not his, and no scales (the double share could read as unfair). Coins plate for the shares, geometric for the closing names."
  },
  "cover": {
   "series_ar": "أحكام المواريث",
@@ -312,5 +394,6 @@
    15
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

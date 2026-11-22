@@ -33,35 +33,110 @@
     8,
     9
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "home",
+    "time": "day",
+    "actors": [
+     {
+      "id": "h",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "v",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 2,
+      "pose": "stand",
+      "enter": [
+       8,
+       4
+      ],
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       8,
+       7
+      ],
+      "exit": null,
+      "look": "poor"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        8,
-       6
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        8,
-       9
+       4
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       8,
+       7
       ],
       "do": "pan_right"
      },
      {
       "at": [
        8,
-       13
+       8
       ],
-      "do": "pan_left"
+      "do": "give",
+      "who": "h",
+      "to": "p"
+     },
+     {
+      "at": [
+       8,
+       9
+      ],
+      "do": "give",
+      "who": "h",
+      "to": "v"
+     },
+     {
+      "at": [
+       8,
+       10
+      ],
+      "do": "speak",
+      "who": "h"
+     },
+     {
+      "at": [
+       8,
+       12
+      ],
+      "do": "raise_hands",
+      "who": "p"
      },
      {
       "at": [
        9,
-       2
+       1
       ],
       "do": "shot_wide"
      },
@@ -70,14 +145,24 @@
        9,
        11
       ],
-      "do": "pan_right"
+      "do": "bow",
+      "who": "h"
      },
      {
       "at": [
        9,
-       14
+       13
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "h"
+     },
+     {
+      "at": [
+       9,
+       15
+      ],
+      "do": "shot_close",
+      "who": "h"
      }
     ],
     "motifs": [
@@ -86,10 +171,13 @@
        8,
        8
       ],
-      "until": null,
-      "motif": "wheat",
+      "until": [
+       8,
+       10
+      ],
+      "motif": "coins",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -102,7 +190,7 @@
       ],
       "motif": "house",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -130,6 +218,13 @@
        6
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       10,
+       8
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
@@ -243,7 +338,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Wheat for what is given at the division (As-Sa'di's wording, no side on whether it is obligatory), a house for the little ones left behind (no children drawn), coins for the orphans' wealth leaving before «نارا». Nothing for the Fire."
+  "notes": "Wheat for what is given at the division (As-Sa'di's wording, no side on whether it is obligatory), a house for the little ones left behind (no children drawn), coins for the orphans' wealth leaving before «نارا». Nothing for the Fire. STAGING v4: 8: the heirs sit at the division (home); relatives who do not inherit (8:4) and a poor man (8:7) arrive; the heirs give to both from it (8:8-9, Al-Muyassar: شيئا من المال), speak kindly (8:10) and the poor man raises his hands. Orphans are not drawn (no child figures). 9: the counterfactual of leaving weak offspring is not acted (house plate only, ended before the Name); the heirs bow on 9:11 (fear of Allah) and speak on 9:13 (right words). 10 stays ambient: the Fire."
  },
  "cover": {
   "series_ar": "اليتامى والأرحام",
@@ -255,5 +350,6 @@
    8
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

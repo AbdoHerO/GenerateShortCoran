@@ -32,100 +32,140 @@
    "verses": [
     43
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "k",
+      "type": "camel",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "t",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       43,
+       35
+      ],
+      "exit": null,
+      "look": "traveller"
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       43,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        43,
        4
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        43,
        8
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        43,
        11
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        43,
-       18
+       19
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        43,
        22
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        43,
-       24
+       25
+      ],
+      "do": "wind"
+     },
+     {
+      "at": [
+       43,
+       30
       ],
       "do": "pan_left"
      },
      {
       "at": [
        43,
-       28
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       43,
-       31
+       33
       ],
       "do": "pan_right"
-     },
-     {
-      "at": [
-       43,
-       34
-      ],
-      "do": "shot_wide"
      },
      {
       "at": [
        43,
        36
       ],
-      "do": "pan_right"
+      "do": "walk_to",
+      "who": "t",
+      "to": "center"
      },
      {
       "at": [
        43,
-       39
+       38
       ],
-      "do": "pan_left"
+      "do": "sit",
+      "who": "t"
      },
      {
       "at": [
        43,
        40
       ],
-      "do": "shot_wide"
+      "do": "shot_ground"
      },
      {
       "at": [
        43,
        41
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "t"
+     },
+     {
+      "at": [
+       43,
+       42
+      ],
+      "do": "stand_up",
+      "who": "t"
      },
      {
       "at": [
@@ -133,6 +173,30 @@
        43
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       43,
+       44
+      ],
+      "do": "pray",
+      "who": "t"
+     },
+     {
+      "at": [
+       43,
+       46
+      ],
+      "do": "ruku",
+      "who": "t"
+     },
+     {
+      "at": [
+       43,
+       47
+      ],
+      "do": "sujud",
+      "who": "t"
      }
     ],
     "motifs": [
@@ -147,7 +211,7 @@
       ],
       "motif": "footsteps",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -157,7 +221,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -168,26 +232,78 @@
    "verses": [
     44
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        44,
-       6
+       1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        44,
        9
       ],
-      "do": "shot_wide"
+      "do": "turn",
+      "who": "p"
+     },
+     {
+      "at": [
+       44,
+       11
+      ],
+      "do": "speak",
+      "who": "p"
+     },
+     {
+      "at": [
+       44,
+       13
+      ],
+      "do": "point",
+      "who": "p",
+      "to": "b"
      }
     ],
     "motifs": [
+     {
+      "at": [
+       44,
+       8
+      ],
+      "until": null,
+      "motif": "book",
+      "place": "top",
+      "size": "s"
+     },
      {
       "at": [
        44,
@@ -196,10 +312,10 @@
       "until": null,
       "motif": "two_paths",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "wipe"
    }
   }
  ],
@@ -317,7 +433,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No cup, no wine, no water, no body drawn. Footsteps for «عابري سبيل» (both tafsirs: passing through the mosque), geometric for «عفوا غفورا», two paths for «أن تضلوا السبيل». 43:9-12 carries Al-Muyassar's note (shared by As-Sa'di: «منسوخة بتحريم الخمر مطلقا») that this came before wine was forbidden outright. 43:20-22 (illness: the tafsirs word the condition differently) and 43:26-37 are not glossed."
+  "notes": "No cup, no wine, no water, no body drawn. Footsteps for «عابري سبيل» (both tafsirs: passing through the mosque), geometric for «عفوا غفورا», two paths for «أن تضلوا السبيل». 43:9-12 carries Al-Muyassar's note (shared by As-Sa'di: «منسوخة بتحريم الخمر مطلقا») that this came before wine was forbidden outright. 43:20-22 (illness: the tafsirs word the condition differently) and 43:26-37 are not glossed. STAGING v4: 43: a desert with a camel; nobody is on screen while intoxication, major impurity, illness, the privy or touching women are recited (43:1-34): only the camera, a gust on the journey (43:25) and the footsteps plate. A traveller appears on 43:35 (no water found), walks in, sits on 43:38 (dry ablution with clean earth, camera on the ground), stands and prays (ruku, sujud) as the verse closes. No cup, no water, no body drawn. 44: the People of the Book (Al-Muyassar: the Jews given part of the Torah) in a town at dusk: book plate on 44:8, they turn away on 44:9 (preferring error), speak and point at the believers on 44:11-13 (wishing them to stray, two paths plate); the believers are not shown straying; the Prophet is not shown."
  },
  "cover": {
   "series_ar": "الطهارة وأهل الكتاب",
@@ -329,5 +445,6 @@
    38
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

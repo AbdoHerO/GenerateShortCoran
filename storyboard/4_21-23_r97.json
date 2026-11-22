@@ -72,9 +72,23 @@
      {
       "at": [
        22,
+       5
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       22,
        6
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       22,
+       8
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -99,6 +113,13 @@
      },
      {
       "at": [
+       22,
+       17
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
        23,
        4
       ],
@@ -107,7 +128,21 @@
      {
       "at": [
        23,
+       6
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       23,
        7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       23,
+       8
       ],
       "do": "shot_wide"
      },
@@ -122,6 +157,13 @@
       "at": [
        23,
        15
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       23,
+       17
       ],
       "do": "pan_left"
      },
@@ -184,7 +226,21 @@
      {
       "at": [
        23,
+       32
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       23,
        35
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       23,
+       37
       ],
       "do": "shot_wide"
      },
@@ -208,6 +264,13 @@
        46
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       23,
+       54
+      ],
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -482,7 +545,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Prohibited relations: text only, no people, no household scene. A seal for «ميثاقا غليظا», a scroll for «حرمت عليكم», geometric for «غفورا رحيما». Foster-son detail avoided (only the point both tafsirs share: the son's wife is prohibited by the contract alone). The plan title «المحرمات من النساء» repeated «من النساء» (4:22, 4:24), so the cover reads «محرمات النكاح»."
+  "notes": "Prohibited relations: text only, no people, no household scene. A seal for «ميثاقا غليظا», a scroll for «حرمت عليكم», geometric for «غفورا رحيما». Foster-son detail avoided (only the point both tafsirs share: the son's wife is prohibited by the contract alone). The plan title «المحرمات من النساء» repeated «من النساء» (4:22, 4:24), so the cover reads «محرمات النكاح». STAGING v4: 21-23 stay ambient with no people on screen: the marriage covenant and the women one may not marry."
  },
  "cover": {
   "series_ar": "أحكام الزواج",
@@ -494,5 +557,6 @@
    10
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

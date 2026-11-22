@@ -123,6 +123,13 @@
      {
       "at": [
        25,
+       35
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       25,
        36
       ],
       "do": "pan_left"
@@ -346,7 +353,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No people drawn. A seal for «بإذن أهلهن» (leaving at 25:28), an hourglass for «وأن تصبروا», geometric for «غفور رحيم». The punishment is text only. 25:36 «أحصن» uses As-Sa'di's two meanings (married or became Muslim) so no side is taken."
+  "notes": "No people drawn. A seal for «بإذن أهلهن» (leaving at 25:28), an hourglass for «وأن تصبروا», geometric for «غفور رحيم». The punishment is text only. 25:36 «أحصن» uses As-Sa'di's two meanings (married or became Muslim) so no side is taken. STAGING v4: 25 stays ambient with no people on screen: marrying believing slave women, their dower and their punishment."
  },
  "cover": {
   "series_ar": "أحكام الزواج",
@@ -358,5 +365,6 @@
    26
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

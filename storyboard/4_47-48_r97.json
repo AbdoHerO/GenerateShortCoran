@@ -264,7 +264,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A book for the revealed Quran, light for the forgiveness «ويغفر» (not on the negated «لا يغفر»). 47:12-18 (the threat to faces) and the curse are not glossed or drawn; Al-Muyassar's first-person «لعنَّا» is avoided. 48:8-13 keeps the condition «لمن يشاء» (As-Sa'di: by His will, as His wisdom requires). Plan title «ذنب لا يغفر» repeated «لا يغفر», so the cover reads «خطر الشرك». 47: short-word flag, listen."
+  "notes": "A book for the revealed Quran, light for the forgiveness «ويغفر» (not on the negated «لا يغفر»). 47:12-18 (the threat to faces) and the curse are not glossed or drawn; Al-Muyassar's first-person «لعنَّا» is avoided. 48:8-13 keeps the condition «لمن يشاء» (As-Sa'di: by His will, as His wisdom requires). Plan title «ذنب لا يغفر» repeated «لا يغفر», so the cover reads «خطر الشرك». 47: short-word flag, listen. STAGING v4: 47-48 stay ambient: 47 threatens to efface faces and curse (faceless figures on screen would read as the threat carried out), 48 is His forgiveness and shirk."
  },
  "cover": {
   "series_ar": "الطهارة وأهل الكتاب",
@@ -276,5 +276,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

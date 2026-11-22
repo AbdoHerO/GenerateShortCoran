@@ -34,23 +34,84 @@
     27,
     28
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": [
+       27,
+       7
+      ],
+      "exit": [
+       28,
+       1
+      ]
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        26,
-       9
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
-       27,
-       2
+       26,
+       3
+      ],
+      "do": "read",
+      "who": "b"
+     },
+     {
+      "at": [
+       26,
+       10
+      ],
+      "do": "raise_hands",
+      "who": "b"
+     },
+     {
+      "at": [
+       26,
+       11
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       26,
+       14
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       27,
+       4
+      ],
+      "do": "bow",
+      "who": "b"
      },
      {
       "at": [
@@ -69,30 +130,56 @@
      {
       "at": [
        27,
-       13
+       9
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "d"
      },
      {
       "at": [
-       28,
-       1
+       27,
+       11
+      ],
+      "do": "point",
+      "who": "d",
+      "to": "b"
+     },
+     {
+      "at": [
+       27,
+       13
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        28,
+       1
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       28,
        4
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        28,
        6
       ],
-      "do": "pan_left"
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       28,
+       8
+      ],
+      "do": "bow",
+      "who": "b"
      }
     ],
     "motifs": [
@@ -104,17 +191,7 @@
       "until": null,
       "motif": "light",
       "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       26,
-       13
-      ],
-      "until": null,
-      "motif": "geometric",
-      "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -127,7 +204,7 @@
       ],
       "motif": "two_paths",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -137,7 +214,7 @@
       "until": null,
       "motif": "leaf",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -148,51 +225,112 @@
    "verses": [
     29
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "u",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "c",
+      "type": "man",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     },
+     {
+      "id": "s",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       29,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       29,
+       2
+      ],
+      "do": "pan_left"
+     },
      {
       "at": [
        29,
        5
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        29,
        8
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        29,
        9
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        29,
        10
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "c"
      },
      {
       "at": [
        29,
-       15
+       12
       ],
-      "do": "pan_left"
+      "do": "give",
+      "who": "c",
+      "to": "s"
      },
      {
       "at": [
        29,
-       18
+       14
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "s"
+     },
+     {
+      "at": [
+       29,
+       16
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -214,7 +352,7 @@
       ],
       "motif": "coins",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -224,10 +362,10 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "slide"
    }
   }
  ],
@@ -378,7 +516,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Light for «ويهديكم», geometric near Allah's names, two paths for «أن تميلوا ميلا عظيما», a leaf for «خلق الإنسان ضعيفا», coins only on the permitted «تجارة» (no motif on the forbidden «أموالكم بينكم بالباطل» or on «ولا تقتلوا أنفسكم»). 26:6 «سنن الذين من قبلكم» (the prophets' ways) has no motif."
+  "notes": "Light for «ويهديكم», geometric near Allah's names, two paths for «أن تميلوا ميلا عظيما», a leaf for «خلق الإنسان ضعيفا», coins only on the permitted «تجارة» (no motif on the forbidden «أموالكم بينكم بالباطل» or on «ولا تقتلوا أنفسكم»). 26:6 «سنن الذين من قبلكم» (the prophets' ways) has no motif. STAGING v4: 26-28: believers sit in a town and read (26:3, the clarification of His law), raise their hands on 26:10 (He turns to them) and bow on 27:4; those who follow their desires appear only while their wish is recited (27:7 to 28:1): they speak and point at the believers on 27:11 (two paths plate, ended before the Name); the believers are not shown deviating. 28: the believers, close shot on the easing (28:4), bow on 28:8 (created weak, leaf plate). 29: believers in a market; the forbidden taking of wealth is not acted; a buyer speaks, pays the seller on 29:12 (trade, coins plate) and the seller agrees on 29:14 (mutual consent). Nothing is shown for the prohibition of killing (29:16-18): wide shot only."
  },
  "cover": {
   "series_ar": "يسر الشريعة",
@@ -386,9 +524,10 @@
   "title_ar": "التيسير ورفع الحرج",
   "title_en": "The ease of the law",
   "at": [
-   28,
-   1
+   26,
+   5
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

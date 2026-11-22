@@ -81,35 +81,108 @@
    "verses": [
     46
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "g",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "h",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        46,
-       9
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       46,
-       12
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       46,
-       17
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        46,
-       21
+       4
+      ],
+      "do": "speak",
+      "who": "g"
+     },
+     {
+      "at": [
+       46,
+       8
+      ],
+      "do": "shot_close",
+      "who": "g"
+     },
+     {
+      "at": [
+       46,
+       9
+      ],
+      "do": "speak",
+      "who": "g"
+     },
+     {
+      "at": [
+       46,
+       10
+      ],
+      "do": "shake_head",
+      "who": "g"
+     },
+     {
+      "at": [
+       46,
+       12
+      ],
+      "do": "speak",
+      "who": "g"
+     },
+     {
+      "at": [
+       46,
+       14
+      ],
+      "do": "speak",
+      "who": "g"
+     },
+     {
+      "at": [
+       46,
+       17
+      ],
+      "do": "shake_head",
+      "who": "g"
+     },
+     {
+      "at": [
+       46,
+       20
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       46,
+       23
       ],
       "do": "shot_wide"
      },
@@ -123,6 +196,13 @@
      {
       "at": [
        46,
+       28
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       46,
        31
       ],
       "do": "pan_right"
@@ -130,9 +210,17 @@
      {
       "at": [
        46,
-       36
+       34
       ],
-      "do": "shot_wide"
+      "do": "turn",
+      "who": "g"
+     },
+     {
+      "at": [
+       46,
+       38
+      ],
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -147,7 +235,7 @@
       ],
       "motif": "scroll",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "dissolve"
@@ -257,7 +345,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Geometric and light only near «وكفى بالله وليا… نصيرا». A scroll for «الكلم». Their insulting words «سمعنا وعصينا / واسمع غير مسمع» get no gloss (no excerpt repeats the insult); 46:14-17 explains it as an insult hidden in a word. No people drawn."
+  "notes": "Geometric and light only near «وكفى بالله وليا… نصيرا». A scroll for «الكلم». Their insulting words «سمعنا وعصينا / واسمع غير مسمع» get no gloss (no excerpt repeats the insult); 46:14-17 explains it as an insult hidden in a word. No people drawn. STAGING v4: 45 stays ambient: His knowledge, protection and help (names and attributes). 46: a part of the Jews (Al-Muyassar: من اليهود فريق) acts, the rest (h) does nothing: they speak (distorting the words, scroll plate), shake their heads on their disobedience (46:10) and on reviling the religion (46:17); the Prophet they address is not shown. The counterfactual of 46:20-30 is not acted (wide shot). Nobody fades on the curse (46:32); they turn away on their disbelief (46:34). The little faith of 46:37-38 is not drawn as a count."
  },
  "cover": {
   "series_ar": "الطهارة وأهل الكتاب",
@@ -269,5 +357,6 @@
    4
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

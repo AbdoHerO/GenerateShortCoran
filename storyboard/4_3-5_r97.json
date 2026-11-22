@@ -39,6 +39,13 @@
      {
       "at": [
        3,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       3,
        12
       ],
       "do": "pan_left"
@@ -107,6 +114,13 @@
      {
       "at": [
        4,
+       4
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       4,
        6
       ],
       "do": "pan_right"
@@ -143,6 +157,13 @@
       "at": [
        5,
        4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       5,
+       6
       ],
       "do": "shot_wide"
      },
@@ -305,7 +326,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Family rulings: no women or people drawn; a house for marriage, coins for the dowry. No scales on the negated «ألا تقسطوا/ألا تعدلوا». 3:1-6 glossed only with what both tafsirs share (the orphan girls under their care), not the reasons they differ on."
+  "notes": "Family rulings: no women or people drawn; a house for marriage, coins for the dowry. No scales on the negated «ألا تقسطوا/ألا تعدلوا». 3:1-6 glossed only with what both tafsirs share (the orphan girls under their care), not the reasons they differ on. STAGING v4: 3-5 stay ambient with no people on screen: 3 (marrying up to four, fairness between wives) and 4 (the wives' dower) are marriage rulings and wives' rights; 5 (the property of the foolish) shares the chapter with 4."
  },
  "cover": {
   "series_ar": "اليتامى والأرحام",
@@ -317,5 +338,6 @@
    7
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

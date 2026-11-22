@@ -32,28 +32,98 @@
    "verses": [
     12
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "home",
+    "time": "day",
+    "actors": [
+     {
+      "id": "f",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "m",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "sit",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        12,
-       11
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        12,
+       4
+      ],
+      "do": "speak",
+      "who": "f"
+     },
+     {
+      "at": [
+       12,
+       8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       12,
+       11
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       12,
        14
       ],
-      "do": "pan_left"
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       12,
+       16
+      ],
+      "do": "speak",
+      "who": "m"
+     },
+     {
+      "at": [
+       12,
+       21
+      ],
+      "do": "read",
+      "who": "m"
      },
      {
       "at": [
        12,
        22
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       12,
+       23
       ],
       "do": "pan_left"
      },
@@ -62,49 +132,60 @@
        12,
        25
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        12,
-       28
+       27
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "f"
      },
      {
       "at": [
        12,
        34
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "f"
      },
      {
       "at": [
        12,
-       39
+       38
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       12,
+       40
+      ],
+      "do": "speak",
+      "who": "m"
      },
      {
       "at": [
        12,
        42
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        12,
        43
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        12,
        45
       ],
-      "do": "pan_right"
+      "do": "read",
+      "who": "m"
      },
      {
       "at": [
@@ -116,14 +197,21 @@
      {
       "at": [
        12,
-       50
+       49
       ],
       "do": "pan_left"
      },
      {
       "at": [
        12,
-       54
+       52
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       12,
+       55
       ],
       "do": "pan_left"
      },
@@ -132,47 +220,79 @@
        12,
        58
       ],
+      "do": "speak",
+      "who": "f"
+     },
+     {
+      "at": [
+       12,
+       61
+      ],
       "do": "pan_right"
      },
      {
       "at": [
        12,
-       63
+       64
+      ],
+      "do": "shot_close",
+      "who": "m"
+     },
+     {
+      "at": [
+       12,
+       67
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        12,
-       66
+       71
+      ],
+      "do": "speak",
+      "who": "f"
+     },
+     {
+      "at": [
+       12,
+       73
       ],
       "do": "pan_right"
      },
      {
       "at": [
        12,
-       69
+       76
       ],
-      "do": "pan_right"
+      "do": "read",
+      "who": "m"
      },
      {
       "at": [
        12,
-       77
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       12,
-       82
+       78
       ],
       "do": "pan_left"
      },
      {
       "at": [
        12,
+       81
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       12,
        83
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       12,
+       84
       ],
       "do": "pan_left"
      }
@@ -181,45 +301,28 @@
      {
       "at": [
        12,
-       5
-      ],
-      "until": null,
-      "motif": "house",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       12,
        16
-      ],
-      "until": null,
-      "motif": "coins",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       12,
-       21
-      ],
-      "until": null,
-      "motif": "scroll",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       12,
-       73
       ],
       "until": [
        12,
-       85
+       21
       ],
       "motif": "coins",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       12,
+       76
+      ],
+      "until": [
+       12,
+       82
+      ],
+      "motif": "scroll",
+      "place": "top",
+      "size": "s"
      },
      {
       "at": [
@@ -229,7 +332,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -338,7 +441,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "One verse of 92 s. A house for the spouses, coins for the shares, a scroll for the bequest, geometric for the closing names. No people drawn."
+  "notes": "One verse of 92 s. A house for the spouses, coins for the shares, a scroll for the bequest, geometric for the closing names. No people drawn. STAGING v4: One verse of 92 s. The heirs (men only, faceless) sit at home and speak about the division; one of them reads the bequest on each word that means a will (12:21, 12:45, 12:76; not on 12:83, Allah's ordinance). No spouse, no woman and no purse for a particular share is drawn. Coins plate for the shares, scroll for the bequest (ended before the Name), geometric for the closing names."
  },
  "cover": {
   "series_ar": "أحكام المواريث",
@@ -350,5 +453,6 @@
    16
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

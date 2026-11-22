@@ -32,28 +32,160 @@
    "verses": [
     36
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "m",
+      "type": "man",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     },
+     {
+      "id": "f",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "sit",
+      "enter": [
+       36,
+       11
+      ],
+      "exit": [
+       36,
+       20
+      ],
+      "look": "poor"
+     },
+     {
+      "id": "t",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       36,
+       20
+      ],
+      "exit": null,
+      "look": "traveller"
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       36,
+       1
+      ],
+      "do": "pray",
+      "who": "m"
+     },
+     {
+      "at": [
+       36,
+       4
+      ],
+      "do": "sujud",
+      "who": "m"
+     },
+     {
+      "at": [
+       36,
+       7
+      ],
+      "do": "walk_to",
+      "who": "m",
+      "to": "f"
+     },
+     {
+      "at": [
+       36,
+       8
+      ],
+      "do": "give",
+      "who": "m",
+      "to": "f"
+     },
      {
       "at": [
        36,
        10
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "m"
      },
      {
       "at": [
        36,
-       17
+       12
+      ],
+      "do": "give",
+      "who": "m",
+      "to": "p"
+     },
+     {
+      "at": [
+       36,
+       13
+      ],
+      "do": "raise_hands",
+      "who": "p"
+     },
+     {
+      "at": [
+       36,
+       15
       ],
       "do": "pan_left"
      },
      {
       "at": [
        36,
-       24
+       18
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       36,
+       21
+      ],
+      "do": "give",
+      "who": "m",
+      "to": "t"
+     },
+     {
+      "at": [
+       36,
+       23
+      ],
+      "do": "raise_hands",
+      "who": "t"
+     },
+     {
+      "at": [
+       36,
+       25
       ],
       "do": "shot_wide"
      },
@@ -62,46 +194,30 @@
        36,
        27
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        36,
-       32
+       31
       ],
-      "do": "pan_right"
+      "do": "bow",
+      "who": "m"
      }
     ],
     "motifs": [
      {
       "at": [
        36,
-       2
-      ],
-      "until": null,
-      "motif": "geometric",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       36,
        7
       ],
-      "until": null,
+      "until": [
+       36,
+       11
+      ],
       "motif": "house",
       "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       36,
-       12
-      ],
-      "until": null,
-      "motif": "hands",
-      "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -114,7 +230,7 @@
       ],
       "motif": "footsteps",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -126,83 +242,196 @@
     37,
     38
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "market",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "g",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "r",
+      "type": "man",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "rich"
+     },
+     {
+      "id": "p",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "poor"
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       37,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       37,
+       2
+      ],
+      "do": "shake_head",
+      "who": "r"
+     },
      {
       "at": [
        37,
        3
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "r"
+     },
+     {
+      "at": [
+       37,
+       5
+      ],
+      "do": "shot_close",
+      "who": "r"
      },
      {
       "at": [
        37,
        6
       ],
-      "do": "pan_right"
+      "do": "turn",
+      "who": "r"
      },
      {
       "at": [
        37,
-       10
+       8
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       37,
+       12
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        37,
        14
       ],
-      "do": "pan_right"
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       38,
+       1
+      ],
+      "do": "turn",
+      "who": "r"
      },
      {
       "at": [
        38,
        2
       ],
-      "do": "shot_wide"
+      "do": "give",
+      "who": "r",
+      "to": "p"
      },
      {
       "at": [
        38,
        4
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        38,
        5
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "r"
      },
      {
       "at": [
        38,
-       11
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       38,
-       16
+       9
       ],
       "do": "pan_right"
      },
      {
       "at": [
        38,
-       18
+       12
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       38,
+       15
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       38,
+       17
       ],
       "do": "shot_wide"
      }
     ],
-    "motifs": [],
-    "transition": "dissolve"
+    "motifs": [
+     {
+      "at": [
+       37,
+       2
+      ],
+      "until": [
+       37,
+       6
+      ],
+      "motif": "coins",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       38,
+       3
+      ],
+      "until": [
+       38,
+       6
+      ],
+      "motif": "coins",
+      "place": "top",
+      "size": "s"
+     }
+    ],
+    "transition": "slide"
    }
   }
  ],
@@ -364,7 +593,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Geometric near «واعبدوا الله», a house for the parents, hands for orphans and the needy, footsteps for the traveller. No motif on the blamed (37-38: miserliness, showing off, the Shaytan as companion), no people drawn. 37:6-11: Al-Muyassar's general «فضله» (As-Sa'di narrows it to knowledge; the general wording contains it). Al-Muyassar's first-person «وأعددنا» paraphrase not used."
+  "notes": "Geometric near «واعبدوا الله», a house for the parents, hands for orphans and the needy, footsteps for the traveller. No motif on the blamed (37-38: miserliness, showing off, the Shaytan as companion), no people drawn. 37:6-11: Al-Muyassar's general «فضله» (As-Sa'di narrows it to knowledge; the general wording contains it). Al-Muyassar's first-person «وأعددنا» paraphrase not used. STAGING v4: 36: in a town, a believer prays (36:1-4, worship without partner), walks to his parents and relatives and gives to them (36:8), speaks to them (36:10), gives to a poor man (36:12) who raises his hands, then to a traveller (36:21, footsteps plate) who takes the poor man's place; house plate for the parents. Orphans (no child figures), neighbours, companions and slaves are not drawn separately. 36:31 the believer bows (humility; the arrogant are not drawn). 37-38: a rich man in a market at dusk refuses the poor man (37:2, miserliness, coins plate), speaks to the people (enjoining it) and turns away (hiding the bounty); the punishment is not pictured and nobody fades. 38: he turns back and gives to the poor man (38:2) and speaks to the people watching (38:5, to be seen); the negated belief and the Shaytan are not drawn."
  },
  "cover": {
   "series_ar": "الإحسان والحساب",
@@ -373,8 +602,9 @@
   "title_en": "Rights owed to people",
   "at": [
    36,
-   7
+   8
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

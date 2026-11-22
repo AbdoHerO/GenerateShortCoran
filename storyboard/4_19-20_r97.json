@@ -154,6 +154,13 @@
      {
       "at": [
        20,
+       11
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       20,
        14
       ],
       "do": "pan_left"
@@ -299,7 +306,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No people drawn. Coins for the dower, a house for «وعاشروهن بالمعروف», growth for «خيرا كثيرا». The prohibitions are glossed with As-Sa'di's «فنهى الله…» and «لا يحل», so no excerpt reads as a permission."
+  "notes": "No people drawn. Coins for the dower, a house for «وعاشروهن بالمعروف», growth for «خيرا كثيرا». The prohibitions are glossed with As-Sa'di's «فنهى الله…» and «لا يحل», so no excerpt reads as a permission. STAGING v4: 19-20 stay ambient with no people on screen: wives' rights (inheriting women against their will, the dower, living with them in kindness, not taking back the dower)."
  },
  "cover": {
   "series_ar": "أحكام الزواج",
@@ -311,5 +318,6 @@
    22
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

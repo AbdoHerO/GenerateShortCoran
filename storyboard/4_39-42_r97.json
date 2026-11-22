@@ -148,6 +148,13 @@
      {
       "at": [
        41,
+       11
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       41,
        12
       ],
       "do": "shot_wide"
@@ -179,6 +186,13 @@
        11
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       42,
+       14
+      ],
+      "do": "pan_right"
      }
     ],
     "motifs": [],
@@ -311,7 +325,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Coins for spending «وأنفقوا», geometric near «عليما», light for «مثقال ذرة» (no scales), growth for «يضاعفها»; no gold or river for «أجرا عظيما». 41-42 (the witnesses on the Day, the Prophet ﷺ among them): night sky only, no motif, nothing literal. 42:7-10 is glossed with «لو…» so the disbelievers' wish is not shown as a fact."
+  "notes": "Coins for spending «وأنفقوا», geometric near «عليما», light for «مثقال ذرة» (no scales), growth for «يضاعفها»; no gold or river for «أجرا عظيما». 41-42 (the witnesses on the Day, the Prophet ﷺ among them): night sky only, no motif, nothing literal. 42:7-10 is glossed with «لو…» so the disbelievers' wish is not shown as a fact. STAGING v4: 39-42 stay ambient: 39 is a counterfactual about the misers (what harm if they had believed and spent), so nobody is shown spending; 40 is His justice and reward; 41-42 are the witnesses on the Day (the unseen, the Prophet among them)."
  },
  "cover": {
   "series_ar": "الإحسان والحساب",
@@ -323,5 +337,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -39,6 +39,13 @@
      {
       "at": [
        13,
+       3
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       13,
        4
       ],
       "do": "pan_right"
@@ -124,6 +131,13 @@
       "at": [
        14,
        6
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       14,
+       9
       ],
       "do": "pan_left"
      },
@@ -224,7 +238,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Bricks for the limits not to be crossed. Nothing literal for Paradise (rivers) or the Fire. 14:7-10 carries As-Sa'di's note that believers in tawhid are not in the Fire forever, so the verse is not read the Khawarij way."
+  "notes": "Bricks for the limits not to be crossed. Nothing literal for Paradise (rivers) or the Fire. 14:7-10 carries As-Sa'di's note that believers in tawhid are not in the Fire forever, so the verse is not read the Khawarij way. STAGING v4: 13-14 stay ambient: Allah's limits, then Paradise and the Fire (the unseen)."
  },
  "cover": {
   "series_ar": "أحكام المواريث",
@@ -236,5 +250,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }
