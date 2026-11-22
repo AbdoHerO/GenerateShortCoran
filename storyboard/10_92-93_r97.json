@@ -169,9 +169,20 @@
      {
       "at": [
        93,
-       16
+       15
       ],
-      "do": "shot_wide"
+      "do": "walk_to",
+      "who": "a",
+      "to": "left"
+     },
+     {
+      "at": [
+       93,
+       17
+      ],
+      "do": "walk_to",
+      "who": "b",
+      "to": "right"
      },
      {
       "at": [
@@ -183,20 +194,9 @@
      {
       "at": [
        93,
-       21
+       22
       ],
-      "do": "walk_to",
-      "who": "a",
-      "to": "left"
-     },
-     {
-      "at": [
-       93,
-       23
-      ],
-      "do": "walk_to",
-      "who": "b",
-      "to": "right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -311,7 +311,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Pharaoh's body is never drawn; 92 has no motif. 93:1-6 is not glossed: the tafsirs differ on the land («الشام» and «مصر» in Al-Muyassar; Pharaoh's dwellings in As-Sa'di). Wheat for «ورزقناهم من الطيبات». STAGING v4: c1 (92) stays ambient (night_sky): Pharaoh's body cast on a height as a sign is never drawn (no body, no shore with a figure); it is Allah addressing Pharaoh, so params.quiet turns off the word pulses over 92:1-7. c2 (93): the Children of Israel settled and provided for: a generic farmland by day (Al-Muyassar: Syria and Egypt; As-Sa'di: Pharaoh's dwellings, so no landmark is drawn); two small groups of three faceless men side by side (the series' sign for a group, no number meant). The camera is wide whenever the name of the Children of Israel is recited (93:3-4). The land turns green and a wheat plate stands for the good provision (93:7-9, both tafsirs: food and drink); a book plate for until knowledge came to them (93:13-15); nothing is acted inside the restrictive 93:10-14. A geometric plate for your Lord will judge between them on the Day of Resurrection (93:17-24, nothing of the Day drawn); on 93:21-24 (in what they used to differ) the two groups walk apart to the two sides. No fighting, no gesture of hostility."
+  "notes": "Pharaoh's body is never drawn; 92 has no motif. 93:1-6 is not glossed: the tafsirs differ on the land («الشام» and «مصر» in Al-Muyassar; Pharaoh's dwellings in As-Sa'di). Wheat for «ورزقناهم من الطيبات». STAGING v4: c1 (92) stays ambient (night_sky): Pharaoh's body cast on a height as a sign is never drawn (no body, no shore with a figure); it is Allah addressing Pharaoh, so params.quiet turns off the word pulses over 92:1-7. c2 (93): the Children of Israel settled and provided for: a generic farmland by day (Al-Muyassar: Syria and Egypt; As-Sa'di: Pharaoh's dwellings, so no landmark is drawn); two small groups of three faceless men side by side (the series' sign for a group, no number meant). The camera is wide whenever the name of the Children of Israel is recited (93:3-4). The land turns green and a wheat plate stands for the good provision (93:7-9, both tafsirs: food and drink); a book plate for until knowledge came to them (93:13-15); nothing is acted inside the restrictive 93:10-14; right after it (they differed only once knowledge had come) the two groups walk apart to the two sides (93:15, 93:17). A geometric plate for your Lord will judge between them on the Day of Resurrection (93:17-24); nothing of the Day is drawn. No fighting, no gesture of hostility."
  },
  "cover": {
   "series_ar": "موسى وفرعون",

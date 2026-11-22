@@ -411,15 +411,15 @@
        74,
        9
       ],
-      "do": "shot_close",
-      "who": "d"
+      "do": "shot_wide"
      },
      {
       "at": [
        74,
        12
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
@@ -605,7 +605,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Nuh and the messengers of 74 are never drawn and get no motif; 71-72 (his words) have no motif at all. The flood and the drowning (73:9-12) are not drawn or glossed; a ship for «في الفلك» that leaves before «وأغرقنا». Al-Muyassar's first-person «فنجيناه… وجعلناهم» and As-Sa'di's «ليلا ونهارا» (71:5) are not used. STAGING v4: Nuh is a blue drop labelled Nuh, never a figure; no plate starts on his name and no close-up or pan is made on his drop (wide holds only while he is named or speaks). His people are three faceless men in dark robes in a plain town by day (the sources name no place). c1 (71-72): 71:1-5 is addressed to the Prophet ﷺ (recite to them): camera only. Nuh speaks (71:6, then at each new sentence 71:17, 71:20, 71:23, 71:30, 72:4, 72:12); his people make no gesture inside his words; his challenge (71:20-33) and the conditional 72:1-2 are not acted. An hourglass for do not give me respite (71:32-33) and a seal plate for my reward is only from Allah (72:8-11). c2 (73), the ark: they shake their heads (73:1, they denied him), turn on 73:2 and leave on 73:3, so nobody is on the stage at the flood; the ark comes in on 73:4 and Nuh moves to it (73:5, saved in the ark; those with him are inside and not drawn, so they are not counted); the flood rises over the empty town on 73:9 and the ark floats with Nuh's drop above the water. Nobody is drowned or hurt; the camera stays wide; an hourglass for see how was the end (73:16-17, addressed to the Prophet ﷺ). c3 (74), split from c2 at the verse boundary with a new title: a later nation (three faceless men in dark robes) in a town; the messengers after Nuh are not drawn (several prophets of different eras); the camera is wide on 74:5 (messengers) with no pan toward an empty side; no gesture inside the negated 74:10-12; they shake their heads on 74:14 (what they had denied before); a seal plate for We seal the hearts (74:19-22) and they turn away on 74:22 (the transgressors)."
+  "notes": "Nuh and the messengers of 74 are never drawn and get no motif; 71-72 (his words) have no motif at all. The flood and the drowning (73:9-12) are not drawn or glossed; a ship for «في الفلك» that leaves before «وأغرقنا». Al-Muyassar's first-person «فنجيناه… وجعلناهم» and As-Sa'di's «ليلا ونهارا» (71:5) are not used. STAGING v4: Nuh is a blue drop labelled Nuh, never a figure; no plate starts on his name and no close-up or pan is made on his drop (wide holds only while he is named or speaks). His people are three faceless men in dark robes in a plain town by day (the sources name no place). c1 (71-72): 71:1-5 is addressed to the Prophet ﷺ (recite to them): camera only. Nuh speaks (71:6, then at each new sentence 71:17, 71:20, 71:23, 71:30, 72:4, 72:12); his people make no gesture inside his words; his challenge (71:20-33) and the conditional 72:1-2 are not acted. An hourglass for do not give me respite (71:32-33) and a seal plate for my reward is only from Allah (72:8-11). c2 (73), the ark: they shake their heads (73:1, they denied him), turn on 73:2 and leave on 73:3, so nobody is on the stage at the flood; the ark comes in on 73:4 and Nuh moves to it (73:5, saved in the ark; those with him are inside and not drawn, so they are not counted); the flood rises over the empty town on 73:9 and the ark floats with Nuh's drop above the water. Nobody is drowned or hurt; the camera stays wide; an hourglass for see how was the end (73:16-17, addressed to the Prophet ﷺ). c3 (74), split from c2 at the verse boundary with a new title: a later nation (three faceless men in dark robes) in a town; the messengers after Nuh are not drawn (several prophets of different eras); the camera is wide on 74:5 (messengers) and on 74:8-9 (they came to them with clear proofs), with no pan toward an empty side, so no figure reads as a messenger; no gesture inside the negated 74:10-12; they shake their heads on 74:14 (what they had denied before); a seal plate for We seal the hearts (74:19-22) and they turn away on 74:22 (the transgressors)."
  },
  "cover": {
   "series_ar": "نوح والرسل",
