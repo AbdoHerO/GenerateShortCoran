@@ -86,6 +86,9 @@ The owner wants the production to run without stopping and without their action:
   - Al-Kahf needs its v2 with all the renderer fixes (Name plates, desert, prayer and plate rules, quiet words, light
     mood).
 - **Do not start surah 16 or any later surah:** the owner will do 16 to 114 later.
+- **Videos waiting on owner decisions (owner decision 2026-11-22):** the 59 videos blocked by DECISIONS_NEEDED are
+  deferred to the next phase, together with surahs 16–114. Do not work on them now. This phase is: render the rest
+  and upload everything that needs uploading.
 - When surahs 1–15 and 18 are all published with their final pictures (except the videos blocked by the owner's
   pending decisions in DECISIONS_NEEDED), do these steps:
   - commit and push;
