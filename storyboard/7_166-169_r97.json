@@ -40,9 +40,16 @@
      {
       "at": [
        166,
-       5
+       2
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       166,
+       7
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -63,13 +70,6 @@
        167,
        4
       ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       167,
-       6
-      ],
       "do": "pan_left"
      },
      {
@@ -78,29 +78,57 @@
        10
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       167,
+       12
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       167,
+       13
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       167,
+       16
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       167,
+       18
+      ],
+      "do": "pan_right"
      }
     ],
     "motifs": [
      {
       "at": [
        167,
-       13
+       6
       ],
       "until": [
        167,
-       17
+       13
       ],
-      "motif": "geometric",
+      "motif": "hourglass",
       "place": "top",
       "size": "m"
      },
      {
       "at": [
        167,
-       17
+       13
       ],
       "until": null,
-      "motif": "light",
+      "motif": "geometric",
       "place": "top",
       "size": "m"
      }
@@ -114,14 +142,101 @@
     168,
     169
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "s",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       169,
+       1
+      ]
+     },
+     {
+      "id": "k",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": [
+       169,
+       3
+      ],
+      "exit": null
+     },
+     {
+      "id": "g",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       169,
+       6
+      ],
+      "exit": [
+       169,
+       19
+      ],
+      "look": "rich"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        168,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       168,
+       3
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       168,
        6
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       168,
+       8
+      ],
+      "do": "shot_close",
+      "who": "s"
+     },
+     {
+      "at": [
+       168,
+       11
       ],
       "do": "shot_wide"
      },
@@ -130,47 +245,67 @@
        168,
        13
       ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       169,
+       1
+      ],
       "do": "shot_wide"
      },
      {
       "at": [
        169,
-       3
+       4
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "k"
      },
      {
       "at": [
        169,
-       8
+       6
       ],
-      "do": "pan_right"
+      "do": "read",
+      "who": "k"
+     },
+     {
+      "at": [
+       169,
+       7
+      ],
+      "do": "give",
+      "who": "g",
+      "to": "k"
      },
      {
       "at": [
        169,
        11
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "k"
      },
      {
       "at": [
        169,
-       16
+       14
+      ],
+      "do": "shot_close",
+      "who": "k"
+     },
+     {
+      "at": [
+       169,
+       19
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        169,
-       21
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       169,
-       27
+       24
       ],
       "do": "pan_left"
      },
@@ -179,14 +314,39 @@
        169,
        31
       ],
-      "do": "pan_right"
+      "do": "read",
+      "who": "k"
+     },
+     {
+      "at": [
+       169,
+       34
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       169,
+       36
+      ],
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        169,
        38
       ],
-      "do": "shot_wide"
+      "do": "bow",
+      "who": "b"
+     },
+     {
+      "at": [
+       169,
+       39
+      ],
+      "do": "shot_close",
+      "who": "k"
      }
     ],
     "motifs": [
@@ -201,7 +361,33 @@
       ],
       "motif": "night_day",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       169,
+       8
+      ],
+      "until": [
+       169,
+       11
+      ],
+      "motif": "coins",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       169,
+       22
+      ],
+      "until": [
+       169,
+       31
+      ],
+      "motif": "seal",
+      "place": "top",
+      "size": "s"
      },
      {
       "at": [
@@ -214,7 +400,7 @@
       ],
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "page_turn"
@@ -434,7 +620,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The transformation (166) is never drawn; glossed only «قولا قدريا… وأبعدهم اللّه من رحمته». 167:4-12 is glossed «يهينهم، ويذلهم» without naming any present-day people. Their claim «سيغفر لنا» is framed «تمنيًا على الله الأباطيل». First-person «قطعناهم… بلوناهم» not used; As-Sa'di's «خير وأبقى» avoided. 169: short-word flag, listen."
+  "notes": "The transformation (166) is never drawn; glossed only «قولا قدريا… وأبعدهم اللّه من رحمته». 167:4-12 is glossed «يهينهم، ويذلهم» without naming any present-day people. Their claim «سيغفر لنا» is framed «تمنيًا على الله الأباطيل». First-person «قطعناهم… بلوناهم» not used; As-Sa'di's «خير وأبقى» avoided. 169: short-word flag, listen. STAGING v4: c1 (166-167) stays ambient (night sky): 166 is the decree on the Sabbath-breakers and 167 the humiliation sent upon them until the Day; no ape, no transformation, no punished person and no afflicter is drawn, only camera moves through 166; an hourglass for 167:6-12 (until the Day), a geometric plate from 167:13 to the end over the Lord's swift penalty and His forgiveness (no light plate on the attribute or the pronoun at 167:17-18). c2 (168-169) is a stage in a town by day: two groups apart for 168:1-4 (dispersed into communities), the camera on the righteous (believers, left, 168:6) and on the others (people, right, 168:8); a night-and-day plate for the test with ease and hardship (168:10); no gesture on the hoped-for return (168:13). 169: the others leave as the verse turns to the generation after them (169:1) and three men enter at the centre (169:3, the successors; three because the tafsirs describe men who give rulings); they hold the Book (169:6, they inherited it) and a rich man who came in at 169:6 hands them a purse on 169:7 (taking the goods of this world: Al-Muyassar names bribery, As-Sa'di says money was given to them to rule unjustly and bribery spread; the giver is only the one who pays, no person is meant); a coins plate for the worldly goods (169:8-10); they speak their claim on 169:11 (framed by the gloss as wishful thinking); the conditional 169:14-18 gets camera only; the rich man leaves at 169:19; a seal plate for the covenant of the Book over 169:22-30 (the Name at 169:28 under a seal); they read again on 169:31 (they studied what is in it); a light plate for the abode of the Hereafter (169:34-38, a symbol, nothing literal), the camera on the believers who bow in humility on 169:38 (those who fear Allah) and back on the successors for 169:39-40. FOR THE REVIEWER: the bribe-giver is a generic rich man implied by both tafsirs' bribery; he is not in the verse wording."
  },
  "cover": {
   "series_ar": "عبر من بني إسرائيل",
@@ -446,5 +632,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -32,31 +32,82 @@
    "verses": [
     199
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "j",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       199,
+       1
+      ],
+      "do": "point",
+      "who": "j",
+      "to": "b"
+     },
+     {
+      "at": [
+       199,
+       3
+      ],
+      "do": "speak",
+      "who": "b"
+     },
      {
       "at": [
        199,
        5
       ],
-      "do": "shot_wide"
+      "do": "turn",
+      "who": "b"
+     },
+     {
+      "at": [
+       199,
+       6
+      ],
+      "do": "shot_close",
+      "who": "b"
      }
     ],
     "motifs": [
      {
       "at": [
        199,
-       1
+       4
       ],
       "until": [
        199,
-       5
+       6
       ],
-      "motif": "hands",
+      "motif": "lamp",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -67,23 +118,67 @@
    "verses": [
     200
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "home",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        200,
-       3
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        200,
-       8
+       2
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       200,
+       4
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       200,
+       6
+      ],
+      "do": "raise_hands",
+      "who": "b"
+     },
+     {
+      "at": [
+       200,
+       8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       200,
+       10
+      ],
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -92,16 +187,13 @@
        200,
        6
       ],
-      "until": [
-       200,
-       8
-      ],
+      "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "light_sweep"
+    "transition": "slide"
    }
   }
  ],
@@ -175,7 +267,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Hands for «خذ العفو», geometric for «فاستعذ بالله». The Shaytan is not drawn."
+  "notes": "Hands for «خذ العفو», geometric for «فاستعذ بالله». The Shaytan is not drawn. STAGING v4: 199-200 are addressed to the Prophet; Al-Muyassar says to him and his community, As-Sa'di says it is how one deals with people, so the believers (a group of three, never a lone man) act it and the Prophet is never shown or implied. c1 (199) is a market street: a rude man points at the believers (199:1, As-Sa'di: whoever harms you by word or deed), they answer with good words (199:3, enjoin what is good; a lamp plate on 199:4) and turn away from him (199:5, turn away from the ignorant), the camera then closes on the believers (199:6) so the rude man is out of frame when the next verse, about the Shaytan, begins. c2 (200): the believers sit at home; the Shaytan is never drawn and nothing stands for him (camera only on 200:1-5); they raise their hands on 200:6 (seek refuge, As-Sa'di: take shelter with Allah), with a geometric plate from 200:6 over the Name and the two attributes."
  },
  "cover": {
   "series_ar": "التوحيد والذكر",
@@ -184,8 +276,9 @@
   "title_en": "Noble conduct",
   "at": [
    199,
-   1
+   4
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -154,40 +154,54 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn",
+    "mood": "geometric",
     "beats": [
      {
       "at": [
        17,
-       5
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       17,
-       6
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        17,
-       10
+       5
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       17,
+       6
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       17,
+       10
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        17,
        15
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        17,
        17
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       17,
+       20
       ],
       "do": "shot_wide"
      }
@@ -314,7 +328,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No battle, ranks, weapons or killing drawn (night sky). The exceptions of 16 are kept («إلا منعطفًا… أو منحازًا») and the ruling carries «من غير عذر». No motif on the Prophet ﷺ (17:6-12). Light for «بلاء حسنا»."
+  "notes": "No battle, ranks, weapons or killing drawn (night sky). The exceptions of 16 are kept («إلا منعطفًا… أو منحازًا») and the ruling carries «من غير عذر». No motif on the Prophet ﷺ (17:6-12). Light for «بلاء حسنا». STAGING v4: Kept ambient (owner rule, Staging v4): 15-16 are fighting verses, 17 is Allah's act at Badr. c2 (17) moves from dawn to the geometric mood (Allah's acts: He killed them, He threw; no dawn or victory light over the killing); the light plate for the good trial (17:13, after 17:11-12 and ending before 17:19) is kept. Nothing on the Prophet's throw (17:6-12)."
  },
  "cover": {
   "series_ar": "يوم بدر",
@@ -326,5 +340,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

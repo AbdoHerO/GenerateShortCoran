@@ -32,61 +32,117 @@
    "verses": [
     127
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "palace",
+    "time": "day",
+    "actors": [
+     {
+      "id": "k",
+      "type": "king",
+      "label": "فرعون",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "m",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        127,
-       4
+       1
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "m"
      },
      {
       "at": [
        127,
-       8
+       3
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "m"
+     },
+     {
+      "at": [
+       127,
+       6
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       127,
+       9
+      ],
+      "do": "shot_close",
+      "who": "m"
      },
      {
       "at": [
        127,
        12
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "k"
      },
      {
       "at": [
        127,
        14
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "k"
      },
      {
       "at": [
        127,
        16
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "k"
      },
      {
       "at": [
        127,
        18
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
+     {
+      "at": [
+       127,
+       20
+      ],
+      "do": "shot_close",
+      "who": "k"
+     }
+    ],
+    "motifs": [
      {
       "at": [
        127,
        19
       ],
-      "do": "shot_wide"
+      "until": null,
+      "motif": "crown",
+      "place": "top",
+      "size": "s"
      }
-    ],
-    "motifs": []
+    ]
    }
   },
   {
@@ -96,28 +152,75 @@
     128,
     129
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "musa",
+      "type": "prophet",
+      "label": "موسى",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 6,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "uncountable": true
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        128,
-       4
+       1
+      ],
+      "do": "speak",
+      "who": "musa"
+     },
+     {
+      "at": [
+       128,
+       3
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        128,
-       11
+       6
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       128,
+       10
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       128,
+       12
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        128,
-       14
+       15
       ],
       "do": "pan_right"
      },
@@ -126,28 +229,67 @@
        129,
        1
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "b"
+     },
+     {
+      "at": [
+       129,
+       2
+      ],
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        129,
        6
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        129,
-       16
+       8
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       129,
+       10
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        129,
-       18
+       11
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "musa"
+     },
+     {
+      "at": [
+       129,
+       15
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       129,
+       17
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       129,
+       21
+      ],
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -162,7 +304,7 @@
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -171,14 +313,14 @@
       ],
       "until": [
        129,
-       15
+       20
       ],
-      "motif": "light",
+      "motif": "seal",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "light_sweep"
+    "transition": "slide"
    }
   }
  ],
@@ -274,7 +416,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The killing of sons (127:14-21) is not drawn or glossed. The chiefs' claim is framed «وزاعمين أن ما جاء باطل وفساد». Musa: no motif; geometric for «إن الأرض لله», light for «عسى ربكم»."
+  "notes": "The killing of sons (127:14-21) is not drawn or glossed. The chiefs' claim is framed «وزاعمين أن ما جاء باطل وفساد». Musa: no motif; geometric for «إن الأرض لله», light for «عسى ربكم». STAGING v4: c1 (127): Pharaoh's court (palace, Egypt): the chiefs (three faceless men in dark robes) speak to Pharaoh (127:1); the camera is wide when Musa is named (127:7), as he is not in this scene; the gods of Pharaoh (127:13) are not drawn. Pharaoh answers (127:14); the killing of sons and the women (127:15-18) are never drawn: only Pharaoh, the speaker, in close-up and wide, and a crown plate for his boast of power (127:19-21). c2 (128-129): Musa (blue drop) and his people (Al-Muyassar: the Children of Israel; an uncountable group in light robes) in an Egyptian town by day. Musa speaks (128:1, 129:11); his commands (seek help, be patient) are not acted by the people, and the camera stays wide or in gentle pans with his drop in frame during his words; a geometric plate for the earth belongs to Allah (128:8-12). The people speak their complaint (129:1) with the camera on them; a seal plate for Musa's hope that is a promise (As-Sa'di: a promise Allah fulfilled, 129:12-19). Nothing of their persecution is drawn."
  },
  "cover": {
   "series_ar": "موسى وفرعون",
@@ -283,8 +425,9 @@
   "title_en": "Pharaoh's threat",
   "at": [
    127,
-   1
+   15
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

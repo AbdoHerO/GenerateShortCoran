@@ -32,33 +32,85 @@
    "verses": [
     177
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        177,
-       2
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       177,
-       6
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        177,
-       7
+       2
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       177,
+       3
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       177,
+       5
+      ],
+      "do": "shake_head",
+      "who": "d"
+     },
+     {
+      "at": [
+       177,
+       7
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       177,
+       9
+      ],
+      "do": "pan_left"
      }
     ],
-    "motifs": []
+    "motifs": [
+     {
+      "at": [
+       177,
+       6
+      ],
+      "until": [
+       177,
+       7
+      ],
+      "motif": "book",
+      "place": "top",
+      "size": "s"
+     }
+    ]
    }
   },
   {
@@ -67,28 +119,75 @@
    "verses": [
     178
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        178,
-       5
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       178,
-       7
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        178,
-       10
+       2
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       178,
+       5
+      ],
+      "do": "sparkle",
+      "who": "b"
+     },
+     {
+      "at": [
+       178,
+       6
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       178,
+       7
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       178,
+       9
       ],
       "do": "pan_right"
      }
@@ -105,10 +204,20 @@
       ],
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       178,
+       6
+      ],
+      "until": null,
+      "motif": "two_paths",
+      "place": "top",
+      "size": "s"
      }
     ],
-    "transition": "light_sweep"
+    "transition": "dissolve"
    }
   }
  ],
@@ -160,7 +269,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Light for «من يهد الله فهو المهتدي». As-Sa'di's «ويعلمه ما لم يكن يعلم» (close to Quran wording) not used."
+  "notes": "Light for «من يهد الله فهو المهتدي». As-Sa'di's «ويعلمه ما لم يكن يعلم» (close to Quran wording) not used. STAGING v4: A town by day. c1 (177): three deniers in dark robes, the camera on them (177:3), they shake their heads on 177:5 (they denied), a book plate for the signs (177:6), the camera stays on them for wronging themselves (177:7-9). c2 (178): believers on the left, the deniers on the right; a light plate for guidance from 178:1 (it does not start on the Name), a soft sparkle on the believers on 178:5 (the rightly guided), then a two-paths plate from 178:6 (misguidance) and the camera on the deniers for the losers (178:7-10). No gesture by anyone on the Name."
  },
  "cover": {
   "series_ar": "الميثاق والهدى",
@@ -172,5 +281,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

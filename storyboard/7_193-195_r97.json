@@ -54,6 +54,13 @@
      {
       "at": [
        193,
+       10
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       193,
        12
       ],
       "do": "shot_wide"
@@ -87,7 +94,21 @@
       "do": "shot_wide"
      }
     ],
-    "motifs": []
+    "motifs": [
+     {
+      "at": [
+       193,
+       4
+      ],
+      "until": [
+       193,
+       7
+      ],
+      "motif": "light",
+      "place": "top",
+      "size": "m"
+     }
+    ]
    }
   },
   {
@@ -100,6 +121,13 @@
    "params": {
     "mood": "night_sky",
     "beats": [
+     {
+      "at": [
+       195,
+       3
+      ],
+      "do": "pan_right"
+     },
      {
       "at": [
        195,
@@ -141,20 +169,16 @@
        22
       ],
       "do": "pan_left"
-     }
-    ],
-    "motifs": [
+     },
      {
       "at": [
        195,
-       24
+       25
       ],
-      "until": null,
-      "motif": "light",
-      "place": "top",
-      "size": "m"
+      "do": "shot_wide"
      }
     ],
+    "motifs": [],
     "transition": "morph"
    }
   }
@@ -229,7 +253,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No idols, limbs or eyes drawn. Light only for the Prophet's ﷺ reliance on Allah at the end (no motif on him)."
+  "notes": "No idols, limbs or eyes drawn. Light only for the Prophet's ﷺ reliance on Allah at the end (no motif on him). STAGING v4: Staging v4: kept ambient. 193-195 speak of the idols (both tafsirs: the polytheists calling their idols, which neither hear nor follow), which are never drawn, not even as shapes or limbs; every clause about them is negated, conditional or a challenge, and worshippers calling toward an empty side would imply the idol, so no people are drawn. c1: a light plate on 193:4-6 for the guidance named in the verse. c2: no plate; 195:20-26 is the Prophet's challenge (the address), camera only (the earlier light plate on 195:24 is removed)."
  },
  "cover": {
   "series_ar": "التوحيد والذكر",
@@ -241,5 +265,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

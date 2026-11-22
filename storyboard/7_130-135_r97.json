@@ -34,10 +34,77 @@
     131,
     132
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "garden",
+    "time": "day",
+    "actors": [
+     {
+      "id": "d",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "walk",
+      "enter": [
+       131,
+       1
+      ],
+      "exit": null
+     },
+     {
+      "id": "musa",
+      "type": "prophet",
+      "label": "موسى",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       132,
+       1
+      ],
+      "exit": null
+     }
+    ],
+    "events": [
+     {
+      "type": "wither",
+      "at": [
+       130,
+       5
+      ],
+      "until": null
+     }
+    ],
     "beats": [
+     {
+      "at": [
+       130,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       130,
+       3
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       130,
+       5
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       130,
+       9
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        130,
@@ -55,44 +122,62 @@
      {
       "at": [
        131,
-       3
+       4
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "d"
      },
      {
       "at": [
        131,
        6
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        131,
-       9
+       8
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        131,
-       12
+       10
+      ],
+      "do": "speak",
+      "who": "d"
+     },
+     {
+      "at": [
+       131,
+       13
       ],
       "do": "pan_left"
      },
      {
       "at": [
        131,
-       16
+       15
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       131,
+       17
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        131,
        19
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
@@ -106,26 +191,29 @@
        132,
        1
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "d"
      },
      {
       "at": [
        132,
-       5
+       4
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        132,
        9
       ],
-      "do": "pan_right"
+      "do": "shake_head",
+      "who": "d"
      },
      {
       "at": [
        132,
-       12
+       11
       ],
       "do": "shot_wide"
      }
@@ -133,16 +221,16 @@
     "motifs": [
      {
       "at": [
-       130,
-       5
+       131,
+       3
       ],
       "until": [
-       130,
-       9
+       131,
+       7
       ],
-      "motif": "hourglass",
+      "motif": "growth",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -155,7 +243,7 @@
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -168,91 +256,150 @@
     134,
     135
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "garden",
+    "time": "day",
+    "actors": [
+     {
+      "id": "d",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "walk",
+      "enter": [
+       133,
+       10
+      ],
+      "exit": [
+       135,
+       11
+      ]
+     },
+     {
+      "id": "musa",
+      "type": "prophet",
+      "label": "موسى",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       134,
+       1
+      ],
+      "exit": null
+     }
+    ],
+    "events": [
+     {
+      "type": "flood",
+      "at": [
+       133,
+       3
+      ],
+      "until": [
+       133,
+       8
+      ]
+     },
+     {
+      "type": "wither",
+      "at": [
+       133,
+       4
+      ],
+      "until": null
+     }
+    ],
     "beats": [
      {
       "at": [
        133,
-       3
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        133,
-       7
+       3
       ],
-      "do": "pan_right"
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       133,
+       6
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
        133,
        8
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       133,
-       9
-      ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        133,
        11
       ],
-      "do": "shot_wide"
+      "do": "shake_head",
+      "who": "d"
      },
      {
       "at": [
        133,
        13
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        134,
        1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        134,
-       3
+       5
       ],
-      "do": "shot_wide"
+      "do": "walk_to",
+      "who": "d",
+      "to": "musa"
      },
      {
       "at": [
        134,
        7
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "d"
      },
      {
       "at": [
        134,
        11
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        134,
        15
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        134,
-       18
+       19
       ],
       "do": "pan_right"
      },
@@ -268,17 +415,46 @@
        135,
        1
       ],
-      "do": "pan_left"
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       135,
+       2
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        135,
        8
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       135,
+       10
+      ],
+      "do": "turn",
+      "who": "d"
      }
     ],
     "motifs": [
+     {
+      "at": [
+       133,
+       9
+      ],
+      "until": [
+       133,
+       13
+      ],
+      "motif": "hourglass",
+      "place": "top",
+      "size": "s"
+     },
      {
       "at": [
        135,
@@ -290,7 +466,7 @@
       ],
       "motif": "hourglass",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "page_turn"
@@ -455,7 +631,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The flood, locusts, lice, frogs and blood are not drawn (night sky). Their claims in 131 and 132 are framed («فلم يشكروا», «لا يزولون عن باطلهم»); their superstition about Musa (131:7-13) is not glossed. The kinds of «القمل» and «الرجز» are not glossed (the tafsirs hedge). Hourglasses for «بالسنين» and «إلى أجل هم بالغوه», geometric for «ألا إنما طائرهم عند الله»."
+  "notes": "The flood, locusts, lice, frogs and blood are not drawn (night sky). Their claims in 131 and 132 are framed («فلم يشكروا», «لا يزولون عن باطلهم»); their superstition about Musa (131:7-13) is not glossed. The kinds of «القمل» and «الرجز» are not glossed (the tafsirs hedge). Hourglasses for «بالسنين» and «إلى أجل هم بالغوه», geometric for «ألا إنما طائرهم عند الله». STAGING v4: Egypt's gardens and farms by day (garden setting: vines, palms, crops and a river). c1 (130-132): the famine and lack of fruits fall on the empty gardens: they wither on 130:5 with no one on the stage. Pharaoh's people (three faceless men in plain robes) walk in on 131:1; a growth plate stands for the good years they claimed as their due (131:3-6, the stage stays withered: the plate carries the alternation); they speak their claims (131:4, 131:10, framed by the glosses); the camera is wide when Musa is named (131:11), as he is not yet on the stage; a geometric plate for their fortune is with Allah (131:14-18). Musa (blue drop) comes in on 132:1, the verse that addresses him, and they refuse (shake their heads on 132:9). c2 (133-135): the flood and the locusts fall on the empty fields (Al-Muyassar / As-Sa'di: the water drowned their crops and trees, the locusts ate their crops): water rises on 133:3 and recedes from 133:8, and the gardens wither (133:4). The lice, frogs and blood are not drawn. An hourglass for the signs sent one after another (133:9, gloss: separated from each other). The people come in only after the water has gone (133:10), shake their heads at their arrogance (133:11); no one is shown hurt. Musa comes in (134:1); they hurry to him (134:5, Al-Muyassar: they fled in alarm to Musa) and speak (134:7); their conditional promise (134:13-22) is not acted. An hourglass for the term (135:5-8); they turn away (135:10) and leave (135:11) as they break their promise. No plague is drawn on any person."
  },
  "cover": {
   "series_ar": "موسى وفرعون",
@@ -464,8 +640,9 @@
   "title_en": "Years of hardship",
   "at": [
    130,
-   1
+   10
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

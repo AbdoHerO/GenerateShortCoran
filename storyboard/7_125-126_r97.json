@@ -33,23 +33,65 @@
     125,
     126
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "k",
+      "type": "king",
+      "label": "فرعون",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "s",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 6,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "uncountable": true
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        125,
-       3
+       1
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "s"
+     },
+     {
+      "at": [
+       125,
+       2
+      ],
+      "do": "shot_close",
+      "who": "s"
+     },
+     {
+      "at": [
+       125,
+       5
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        126,
-       1
+       2
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "k"
      },
      {
       "at": [
@@ -63,19 +105,21 @@
        126,
        4
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "s"
      },
      {
       "at": [
        126,
-       5
+       6
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "s"
      },
      {
       "at": [
        126,
-       7
+       9
       ],
       "do": "shot_wide"
      },
@@ -89,16 +133,26 @@
      {
       "at": [
        126,
-       13
+       11
       ],
-      "do": "pan_right"
+      "do": "raise_hands",
+      "who": "s"
+     },
+     {
+      "at": [
+       126,
+       14
+      ],
+      "do": "shot_close",
+      "who": "s"
      },
      {
       "at": [
        126,
        15
       ],
-      "do": "pan_left"
+      "do": "raise_hands",
+      "who": "s"
      },
      {
       "at": [
@@ -111,16 +165,29 @@
     "motifs": [
      {
       "at": [
+       125,
+       5
+      ],
+      "until": [
        126,
-       11
+       4
+      ],
+      "motif": "hourglass",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       126,
+       12
       ],
       "until": [
        126,
        15
       ],
-      "motif": "light",
+      "motif": "hands",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -174,7 +241,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No figures. Light for «ربنا أفرغ علينا صبرا». As-Sa'di's «فالله خير وأبقى» (Quran wording) not used."
+  "notes": "No figures. Light for «ربنا أفرغ علينا صبرا». As-Sa'di's «فالله خير وأبقى» (Quran wording) not used. STAGING v4: The magicians' answer to Pharaoh (Al-Muyassar: the magicians said to Pharaoh), same gathering by day: the believing magicians (uncountable, light robes) and Pharaoh (faceless king). They speak (125:1, 126:4); an hourglass for 125:5 (we are returning to our Lord: the passing of life); the camera on Pharaoh for 126:2 (you resent us). Their du'a (126:11-16): they raise their hands as it begins (126:11) and again on 126:15, with a hands plate for the supplication (126:12-15); no light plate, no bowing (it could read as bowing to Pharaoh). Nothing of Pharaoh's punishment is drawn."
  },
  "cover": {
   "series_ar": "موسى وفرعون",
@@ -186,5 +253,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

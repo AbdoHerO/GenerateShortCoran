@@ -39,30 +39,37 @@
      {
       "at": [
        187,
-       4
+       2
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        187,
-       9
+       6
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        187,
        11
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       187,
+       13
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
        187,
        14
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -76,7 +83,14 @@
        187,
        23
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       187,
+       24
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
@@ -88,29 +102,72 @@
      {
       "at": [
        187,
-       30
+       28
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        187,
-       34
+       31
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       187,
+       35
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
      {
       "at": [
        187,
-       6
+       4
       ],
       "until": [
        187,
-       11
+       8
+      ],
+      "motif": "hourglass",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       187,
+       8
+      ],
+      "until": [
+       187,
+       16
       ],
       "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       187,
+       30
+      ],
+      "until": [
+       187,
+       34
+      ],
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       187,
+       34
+      ],
+      "until": null,
+      "motif": "crowd",
       "place": "top",
       "size": "m"
      }
@@ -158,6 +215,13 @@
      {
       "at": [
        188,
+       17
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       188,
        21
       ],
       "do": "pan_right"
@@ -172,23 +236,19 @@
      {
       "at": [
        188,
+       26
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       188,
        28
       ],
       "do": "shot_wide"
      }
     ],
-    "motifs": [
-     {
-      "at": [
-       188,
-       27
-      ],
-      "until": null,
-      "motif": "light",
-      "place": "top",
-      "size": "m"
-     }
-    ],
+    "motifs": [],
     "transition": "morph"
    }
   }
@@ -307,7 +367,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The Hour: nothing drawn. 187:11-15 is not glossed (the excerpt cannot keep «إلا هو»). Geometric for «إنما علمها عند ربي», light for «نذير وبشير»; no motif on the Prophet ﷺ."
+  "notes": "The Hour: nothing drawn. 187:11-15 is not glossed (the excerpt cannot keep «إلا هو»). Geometric for «إنما علمها عند ربي», light for «نذير وبشير»; no motif on the Prophet ﷺ. STAGING v4: Staging v4: kept ambient. c1 (187) is the Hour (the unseen) and the question put to the Prophet: night sky, nothing literal, no people. An hourglass for when is its time (187:4-7), a geometric plate for its knowledge being with the Lord (187:8-15; it no longer starts on the address 187:6, which gets camera only), the address 187:24-29 camera only, a geometric plate on 187:30-33 over the Name and an uncountable crowd plate for most of the people (187:34). c2 (188) is the Prophet's own words about himself (the address): camera only, the earlier light plate on 188:27 is removed so nothing appears inside his words; dawn mood unchanged."
  },
  "cover": {
   "series_ar": "الميثاق والهدى",
@@ -319,5 +379,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

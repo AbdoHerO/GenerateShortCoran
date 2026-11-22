@@ -34,30 +34,97 @@
     114,
     115
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "k",
+      "type": "king",
+      "label": "فرعون",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "s",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 6,
+      "pose": "walk",
+      "enter": [
+       113,
+       1
+      ],
+      "exit": null,
+      "uncountable": true
+     },
+     {
+      "id": "musa",
+      "type": "prophet",
+      "label": "موسى",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       115,
+       1
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       113,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       113,
+       2
+      ],
+      "do": "shot_close",
+      "who": "s"
+     },
      {
       "at": [
        113,
        4
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "s"
      },
      {
       "at": [
        113,
-       8
+       9
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "k"
      },
      {
       "at": [
        114,
        1
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "k"
+     },
+     {
+      "at": [
+       114,
+       3
+      ],
+      "do": "shot_close",
+      "who": "k"
      },
      {
       "at": [
@@ -71,7 +138,8 @@
        115,
        1
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "s"
      },
      {
       "at": [
@@ -83,12 +151,47 @@
      {
       "at": [
        115,
-       7
+       5
+      ],
+      "do": "shot_close",
+      "who": "s"
+     },
+     {
+      "at": [
+       115,
+       8
       ],
       "do": "shot_wide"
      }
     ],
-    "motifs": []
+    "motifs": [
+     {
+      "at": [
+       113,
+       7
+      ],
+      "until": [
+       114,
+       1
+      ],
+      "motif": "coins",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       114,
+       3
+      ],
+      "until": [
+       115,
+       1
+      ],
+      "motif": "crown",
+      "place": "top",
+      "size": "s"
+     }
+    ]
    }
   },
   {
@@ -98,23 +201,76 @@
     116,
     117
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "musa",
+      "type": "prophet",
+      "label": "موسى",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 6,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "uncountable": true
+     },
+     {
+      "id": "s",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 6,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "uncountable": true
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       116,
+       1
+      ],
+      "do": "speak",
+      "who": "musa"
+     },
+     {
+      "at": [
+       116,
+       3
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        116,
        4
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "s"
      },
      {
       "at": [
        116,
-       7
+       6
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
@@ -128,12 +284,13 @@
        116,
        10
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "s"
      },
      {
       "at": [
-       116,
-       11
+       117,
+       1
       ],
       "do": "shot_wide"
      },
@@ -142,36 +299,41 @@
        117,
        2
       ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       117,
+       4
+      ],
       "do": "shot_wide"
      },
      {
       "at": [
        117,
-       6
+       7
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "s"
+     },
+     {
+      "at": [
+       117,
+       10
+      ],
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
        117,
        11
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
-    "motifs": [
-     {
-      "at": [
-       117,
-       7
-      ],
-      "until": null,
-      "motif": "light",
-      "place": "top",
-      "size": "m"
-     }
-    ],
-    "transition": "light_sweep"
+    "motifs": [],
+    "transition": "iris"
    }
   }
  ],
@@ -256,7 +418,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No ropes, staffs, snakes or sorcerers drawn. The sorcery is glossed as illusion («مجرد صنعة وخيال»). Light only when the truth prevails (117:7)."
+  "notes": "No ropes, staffs, snakes or sorcerers drawn. The sorcery is glossed as illusion («مجرد صنعة وخيال»). Light only when the truth prevails (117:7). STAGING v4: The gathering (As-Sa'di: on the day of the festival, people gathered in the forenoon, in front of a great crowd): an open town square by day (city setting; Egypt, no pyramids, no palms). The magicians are an uncountable group in dark robes (their number is not in the sources). c1 (113-115): they walk in (113:1) and speak to Pharaoh (113:4); a coins plate for the reward they ask (113:7, Al-Muyassar: a prize and money) and a crown plate for nearness to the king (114:3); Pharaoh answers (114:1). Musa (blue drop) comes in on 115:1 (As-Sa'di: when they were present with Musa), and is in the wide shot when he is named (115:2); the magicians speak to him (115:1). c2 (116-117): Musa says throw (116:1); the ropes, staffs and snakes are never drawn, and nothing appears or glows on the miracle words: the camera holds on the magicians (116:4, 116:10, 117:7) and on the uncountable crowd of onlookers whose eyes were bewitched (116:6, 117:10). 117:1-6 (the revelation to Musa, throw your staff) is held wide with his drop visible; no light plate (no light tied to a miracle word); the swallowing (117:7-11) is not drawn."
  },
  "cover": {
   "series_ar": "موسى وفرعون",
@@ -264,9 +426,10 @@
   "title_ar": "تحدي السحرة",
   "title_en": "The sorcerers' challenge",
   "at": [
-   113,
-   1
+   115,
+   3
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

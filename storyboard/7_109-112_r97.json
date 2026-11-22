@@ -35,56 +35,132 @@
     111,
     112
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "palace",
+    "time": "day",
+    "actors": [
+     {
+      "id": "musa",
+      "type": "prophet",
+      "label": "موسى",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "k",
+      "type": "king",
+      "label": "فرعون",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "m",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        109,
-       4
+       1
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "m"
      },
      {
       "at": [
        109,
-       8
+       3
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "m"
+     },
+     {
+      "at": [
+       109,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       110,
+       1
+      ],
+      "do": "speak",
+      "who": "m"
      },
      {
       "at": [
        110,
        3
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        110,
        6
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        111,
        1
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "m"
      },
      {
       "at": [
        111,
        2
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "k"
+     },
+     {
+      "at": [
+       111,
+       4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       111,
+       7
+      ],
+      "do": "shot_close",
+      "who": "m"
      },
      {
       "at": [
        112,
        1
+      ],
+      "do": "shot_close",
+      "who": "k"
+     },
+     {
+      "at": [
+       112,
+       3
       ],
       "do": "shot_wide"
      }
@@ -93,15 +169,15 @@
      {
       "at": [
        111,
-       5
+       4
       ],
       "until": [
        112,
-       1
+       4
       ],
       "motif": "footsteps",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -177,7 +253,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Their accusation «إن هذا لساحر عليم» is framed «حين بهرهم ما رأوا من الآيات… وطلبوا لها التأويلات الفاسدة»; their fear-mongering (110) as «خوفوا ضعفاء الأحلام». No figures; footsteps only for the heralds sent to the cities."
+  "notes": "Their accusation «إن هذا لساحر عليم» is framed «حين بهرهم ما رأوا من الآيات… وطلبوا لها التأويلات الفاسدة»; their fear-mongering (110) as «خوفوا ضعفاء الأحلام». No figures; footsteps only for the heralds sent to the cities. STAGING v4: Same court as 7_103-108 (palace setting, Egypt, no pyramids): Musa is a blue drop labelled Musa (present: Al-Muyassar 111, those present at Musa's debate), Pharaoh a faceless king in the Egyptian headdress, his chiefs three faceless men in dark robes. Harun is named only by a pronoun (111:3) and is not drawn. The chiefs speak (109:1, 110:1, 111:1); no one points at Musa during their accusation (109:6-9, framed by the gloss). 110:6-7: the tafsirs differ on who speaks (Al-Muyassar: Pharaoh asks; As-Sa'di: they consult among themselves), so no speaker is marked, only a wide shot. 111:2 the camera on Pharaoh as they advise him; a footsteps plate for the heralds sent to the cities (111:4-112:4). No magicians are drawn yet (they arrive in 113)."
  },
  "cover": {
   "series_ar": "موسى وفرعون",
@@ -186,8 +262,9 @@
   "title_en": "The chiefs confer",
   "at": [
    109,
-   1
+   3
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

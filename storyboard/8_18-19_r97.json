@@ -35,7 +35,15 @@
    "scene": "ambient",
    "params": {
     "mood": "dawn",
-    "beats": [],
+    "beats": [
+     {
+      "at": [
+       18,
+       4
+      ],
+      "do": "shot_wide"
+     }
+    ],
     "motifs": [
      {
       "at": [
@@ -66,37 +74,51 @@
      {
       "at": [
        19,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       19,
        4
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        19,
        5
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        19,
-       10
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       19,
-       13
+       7
       ],
       "do": "pan_right"
      },
      {
       "at": [
        19,
-       16
+       10
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       19,
+       13
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       19,
+       16
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
@@ -110,7 +132,7 @@
        19,
        24
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -120,7 +142,7 @@
        21
       ],
       "until": null,
-      "motif": "light",
+      "motif": "geometric",
       "place": "top",
       "size": "m"
      }
@@ -188,7 +210,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "19:6-13 not glossed (the tafsirs differ on what «وإن تنتهوا» refers to; As-Sa'di's «حزب الله» is avoided as a modern political term). Geometric for «وأن الله موهن كيد الكافرين», light for «وأن الله مع المؤمنين»."
+  "notes": "19:6-13 not glossed (the tafsirs differ on what «وإن تنتهوا» refers to; As-Sa'di's «حزب الله» is avoided as a modern political term). Geometric for «وأن الله موهن كيد الكافرين», light for «وأن الله مع المؤمنين». STAGING v4: Kept ambient (owner rule, Staging v4): Badr and the challenge to the disbelievers. c2: the plate for Allah being with the believers (19:21) is now geometric instead of light, because a light plate drawing on one word before the Name reads as Him appearing as light."
  },
  "cover": {
   "series_ar": "يوم بدر",
@@ -200,5 +222,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

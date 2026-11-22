@@ -32,61 +32,143 @@
    "verses": [
     36
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "o",
+      "type": "disbelievers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        36,
-       5
+       1
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       36,
+       2
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       36,
+       4
+      ],
+      "do": "give",
+      "who": "d",
+      "to": "o"
+     },
+     {
+      "at": [
+       36,
+       6
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        36,
        8
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        36,
        10
       ],
-      "do": "shot_wide"
+      "do": "give",
+      "who": "d",
+      "to": "o"
      },
      {
       "at": [
        36,
        11
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        36,
-       15
+       12
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       36,
+       14
+      ],
+      "do": "wring_hands",
+      "who": "d"
+     },
+     {
+      "at": [
+       36,
+       16
+      ],
+      "do": "bow",
+      "who": "d"
      },
      {
       "at": [
        36,
        17
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        36,
        20
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      }
     ],
-    "motifs": []
+    "motifs": [
+     {
+      "at": [
+       36,
+       14
+      ],
+      "until": [
+       36,
+       17
+      ],
+      "motif": "leaf",
+      "place": "top",
+      "size": "s",
+      "exit": "undraw"
+     }
+    ]
    }
   },
   {
@@ -245,7 +327,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No coins on their spending (the blamed act); Hell not drawn. Two paths for «ليميز الله الخبيث من الطيب», starting after the Name."
+  "notes": "No coins on their spending (the blamed act); Hell not drawn. Two paths for «ليميز الله الخبيث من الطيب», starting after the Name. STAGING v4: c1 (36): a market by day; three polytheists on the right hand purses to three of their kind on the left (36:4 and 36:10; Al-Muyassar: they give their wealth to their like among the polytheists, to bar from Allah's path); no coins plate on the blamed spending. They wring their hands on 36:14 (regret: both tafsirs) under a falling-leaf plate that undraws (their wealth gone), and lower their heads on 36:16 (overcome; As-Sa'di: humiliation); nobody fights or leaves. On 36:17-21 (gathered to Hell) the camera goes wide and nothing is drawn for Hell (no fire, no darkness). c2 (37) stays ambient: Allah sorting the evil from the good and heaping it into Hell (the unseen)."
  },
  "cover": {
   "series_ar": "مكر المشركين",
@@ -254,8 +336,9 @@
   "title_en": "Spending in vain",
   "at": [
    36,
-   1
+   14
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

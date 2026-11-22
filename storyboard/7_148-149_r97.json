@@ -32,47 +32,107 @@
    "verses": [
     148
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        148,
-       5
+       1
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        148,
-       8
+       5
       ],
       "do": "pan_left"
      },
      {
       "at": [
        148,
-       13
+       7
+      ],
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       148,
+       9
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        148,
-       19
+       12
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       148,
+       15
+      ],
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       148,
+       18
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       148,
+       20
+      ],
+      "do": "turn",
+      "who": "p"
      },
      {
       "at": [
        148,
        22
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "p"
      }
     ],
-    "motifs": []
+    "motifs": [
+     {
+      "at": [
+       148,
+       4
+      ],
+      "until": [
+       148,
+       7
+      ],
+      "motif": "hourglass",
+      "place": "top",
+      "size": "s"
+     }
+    ]
    }
   },
   {
@@ -81,38 +141,119 @@
    "verses": [
     149
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "musa",
+      "type": "prophet",
+      "label": "موسى",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       149,
+       1
+      ],
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        149,
-       5
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        149,
+       2
+      ],
+      "do": "wring_hands",
+      "who": "p"
+     },
+     {
+      "at": [
+       149,
+       4
+      ],
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       149,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       149,
+       9
+      ],
+      "do": "raise_hands",
+      "who": "p"
+     },
+     {
+      "at": [
+       149,
+       11
+      ],
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       149,
+       14
+      ],
+      "do": "raise_hands",
+      "who": "p"
+     },
+     {
+      "at": [
+       149,
        16
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       149,
+       18
+      ],
+      "do": "pan_right"
      }
     ],
     "motifs": [
      {
       "at": [
        149,
-       10
+       5
       ],
       "until": [
        149,
-       16
+       9
       ],
-      "motif": "light",
+      "motif": "two_paths",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "morph"
@@ -200,7 +341,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The calf is never drawn; no gold or idol motif. Light only for their plea for mercy. Musa: no motif."
+  "notes": "The calf is never drawn; no gold or idol motif. Light only for their plea for mercy. Musa: no motif. STAGING v4: The camp of the Children of Israel in the desert after the sea (desert setting; the sources do not name the place: generic wilderness). The calf is never drawn, and nothing gold (no coins or jewel plate). The people who took the calf are three faceless men (a group doing a blameworthy act: no woman is singled out). c1 (148): Musa is away (not drawn) and the camera is wide when he is named (148:3); an hourglass for his absence (148:4-6, Al-Muyassar: after he left for the appointment); the people are not shown worshipping or bowing: on 148:20 (they took it) they turn their backs. c2 (149): Musa (blue drop) comes in on 149:1 (both tafsirs: their regret came when Musa returned); they wring their hands in regret (149:2), a two-paths plate for they saw they had gone astray (149:5-8), and they raise their hands in their plea for mercy (149:9, 149:14); no plate stands over their du'a, no bowing."
  },
  "cover": {
   "series_ar": "بنو إسرائيل بعد النجاة",
@@ -212,5 +353,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

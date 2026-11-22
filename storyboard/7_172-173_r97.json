@@ -39,7 +39,21 @@
      {
       "at": [
        172,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       172,
        7
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       172,
+       9
       ],
       "do": "pan_left"
      },
@@ -130,13 +144,6 @@
      {
       "at": [
        173,
-       9
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       173,
        11
       ],
       "do": "shot_wide"
@@ -149,7 +156,21 @@
       "do": "pan_left"
      }
     ],
-    "motifs": [],
+    "motifs": [
+     {
+      "at": [
+       173,
+       9
+      ],
+      "until": [
+       173,
+       12
+      ],
+      "motif": "footsteps",
+      "place": "top",
+      "size": "m"
+     }
+    ],
     "transition": "morph"
    }
   }
@@ -224,7 +245,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The taking of the covenant is not drawn; both tafsirs explain it through the fitrah, and the glosses keep to that. Geometric for «ألست بربكم». Their would-be excuse (173) is framed «وتبعناهم في باطلهم» and answered by As-Sa'di."
+  "notes": "The taking of the covenant is not drawn; both tafsirs explain it through the fitrah, and the glosses keep to that. Geometric for «ألست بربكم». Their would-be excuse (173) is framed «وتبعناهم في باطلهم» and answered by As-Sa'di. STAGING v4: Staging v4: kept ambient. 172 is the covenant of the children of Adam and 173 their would-be excuse on the Day of Resurrection: the unseen and the Day, nothing literal, no people, no crowd of descendants (both tafsirs explain it through the fitrah). c1 unchanged (geometric plate on 172:13-14). c2: a footsteps plate on 173:9-11 for following the fathers (As-Sa'di: they followed in their steps), ending before 173:12."
  },
  "cover": {
   "series_ar": "الميثاق والهدى",
@@ -236,5 +257,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

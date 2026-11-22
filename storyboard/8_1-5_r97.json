@@ -39,6 +39,13 @@
      {
       "at": [
        1,
+       3
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       1,
        5
       ],
       "do": "shot_wide"
@@ -104,14 +111,65 @@
     3,
     4
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       3,
+       5
+      ],
+      "exit": null,
+      "look": "poor"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        2,
-       5
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       2,
+       3
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       2,
+       7
+      ],
+      "do": "bow",
+      "who": "b"
+     },
+     {
+      "at": [
+       2,
+       9
       ],
       "do": "shot_wide"
      },
@@ -120,96 +178,147 @@
        2,
        12
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        2,
        13
       ],
-      "do": "shot_wide"
+      "do": "sparkle",
+      "who": "b"
      },
      {
       "at": [
        2,
-       14
+       15
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        2,
        17
       ],
-      "do": "pan_right"
+      "do": "raise_hands",
+      "who": "b"
      },
      {
       "at": [
        3,
        1
       ],
-      "do": "pan_left"
+      "do": "stand_up",
+      "who": "b"
      },
      {
       "at": [
        3,
-       6
+       2
       ],
-      "do": "pan_left"
+      "do": "pray",
+      "who": "b"
      },
      {
       "at": [
-       4,
-       1
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       4,
+       3,
        3
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       4,
-       9
-      ],
-      "do": "shot_wide"
-     }
-    ],
-    "motifs": [
-     {
-      "at": [
-       2,
-       9
-      ],
-      "until": [
-       2,
-       13
-      ],
-      "motif": "book",
-      "place": "top",
-      "size": "m"
+      "do": "ruku",
+      "who": "b"
      },
      {
       "at": [
        3,
        4
       ],
-      "until": [
-       4,
-       1
+      "do": "sujud",
+      "who": "b"
+     },
+     {
+      "at": [
+       3,
+       5
       ],
-      "motif": "coins",
-      "place": "top",
-      "size": "m"
+      "do": "stand_up",
+      "who": "b"
+     },
+     {
+      "at": [
+       3,
+       6
+      ],
+      "do": "give",
+      "who": "b",
+      "to": "p"
      },
      {
       "at": [
        4,
-       5
+       1
+      ],
+      "do": "raise_hands",
+      "who": "p"
+     },
+     {
+      "at": [
+       4,
+       3
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       4,
+       4
+      ],
+      "do": "sparkle",
+      "who": "b"
+     },
+     {
+      "at": [
+       4,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       4,
+       9
+      ],
+      "do": "bow",
+      "who": "b"
+     },
+     {
+      "at": [
+       4,
+       10
+      ],
+      "do": "shot_close",
+      "who": "b"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       2,
+       10
+      ],
+      "until": [
+       2,
+       15
+      ],
+      "motif": "book",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       4,
+       6
       ],
       "until": [
        4,
@@ -217,7 +326,7 @@
       ],
       "motif": "growth",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "light_sweep"
@@ -233,6 +342,13 @@
    "params": {
     "mood": "dawn",
     "beats": [
+     {
+      "at": [
+       5,
+       2
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        5,
@@ -418,7 +534,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Hands for «وأصلحوا ذات بينكم» (after the Name), a book for «آياته», coins for spending, growth for «درجات». No motif on the Prophet ﷺ (5). Paradise (4:10-11) only named in the gloss, nothing drawn."
+  "notes": "Hands for «وأصلحوا ذات بينكم» (after the Name), a book for «آياته», coins for spending, growth for «درجات». No motif on the Prophet ﷺ (5). Paradise (4:10-11) only named in the gloss, nothing drawn. STAGING v4: c1 (1: the question about the spoils of Badr, put to the Prophet) and c3 (5: his going out from his house to Badr) stay ambient: battle context and his own conduct; nobody is drawn. c2 (2-4): believers seated in a prayer hall by day; they lower their heads in awe right after the Name (2:7, hearts trembling); a book plate for the verses recited to them (2:10-14, ending before 2:16) and a soft sparkle for the faith that increases (2:13); they raise their hands on 2:17 (reliance on their Lord, both tafsirs). They pray on 3:2-3:4 (stand, ruku, sujud; no plate over the prayer), stand up and hand a purse to a poor man who comes in on 3:5 (3:6, spending: both tafsirs name obligatory and voluntary charity); he raises his hands on 4:1. 4: a growth plate for the high degrees (4:6, ending before 4:8); the noble provision (Paradise, Al-Muyassar) is not drawn and gets no plate; the camera stays on the believers."
  },
  "cover": {
   "series_ar": "الأنفال والإيمان",
@@ -427,8 +543,9 @@
   "title_en": "The marks of true faith",
   "at": [
    2,
-   1
+   12
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

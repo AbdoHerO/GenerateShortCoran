@@ -36,30 +36,114 @@
     121,
     122
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "musa",
+      "type": "prophet",
+      "label": "موسى",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "k",
+      "type": "king",
+      "label": "فرعون",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "s",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 6,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "uncountable": true
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        118,
-       6
+       1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       118,
+       3
+      ],
+      "do": "shot_close",
+      "who": "s"
+     },
+     {
+      "at": [
+       119,
+       1
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        119,
        3
       ],
-      "do": "shot_wide"
+      "do": "turn",
+      "who": "k"
+     },
+     {
+      "at": [
+       119,
+       4
+      ],
+      "do": "shot_close",
+      "who": "k"
+     },
+     {
+      "at": [
+       120,
+       1
+      ],
+      "do": "sujud",
+      "who": "s"
      },
      {
       "at": [
        120,
        2
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "s"
+     },
+     {
+      "at": [
+       121,
+       1
+      ],
+      "do": "stand_up",
+      "who": "s"
+     },
+     {
+      "at": [
+       121,
+       2
+      ],
+      "do": "speak",
+      "who": "s"
      },
      {
       "at": [
@@ -72,29 +156,16 @@
     "motifs": [
      {
       "at": [
-       118,
-       1
-      ],
-      "until": [
-       119,
-       1
-      ],
-      "motif": "light",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
        121,
        2
       ],
       "until": [
        122,
-       1
+       3
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -106,30 +177,90 @@
     123,
     124
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "k",
+      "type": "king",
+      "label": "فرعون",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "s",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 6,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "uncountable": true
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       123,
+       1
+      ],
+      "do": "speak",
+      "who": "k"
+     },
+     {
+      "at": [
+       123,
+       2
+      ],
+      "do": "shot_close",
+      "who": "k"
+     },
+     {
+      "at": [
+       123,
+       3
+      ],
+      "do": "point",
+      "who": "k",
+      "to": "s"
+     },
      {
       "at": [
        123,
        5
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "s"
+     },
+     {
+      "at": [
+       123,
+       9
+      ],
+      "do": "speak",
+      "who": "k"
      },
      {
       "at": [
        123,
        11
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        123,
        14
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "k"
      },
      {
       "at": [
@@ -143,38 +274,61 @@
        123,
        17
       ],
+      "do": "shot_close",
+      "who": "k"
+     },
+     {
+      "at": [
+       124,
+       1
+      ],
+      "do": "shot_close",
+      "who": "k"
+     },
+     {
+      "at": [
+       124,
+       4
+      ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       124,
+       7
+      ],
+      "do": "shot_close",
+      "who": "k"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       123,
+       7
+      ],
+      "until": [
+       123,
+       9
+      ],
+      "motif": "crown",
+      "place": "top",
+      "size": "s"
      },
      {
       "at": [
        123,
        18
       ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
+      "until": [
        124,
-       2
+       1
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       124,
-       5
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       124,
-       6
-      ],
-      "do": "pan_left"
+      "motif": "hourglass",
+      "place": "top",
+      "size": "s"
      }
     ],
-    "motifs": [],
     "transition": "wipe"
    }
   }
@@ -282,7 +436,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No prostration, figures or punishment drawn. Pharaoh's accusation (123:9-17) is not glossed; his threat of mutilation (124) is framed only «زعم الخبيث أنهم مفسدون» and its details are not displayed. Light for «فوقع الحق», geometric for «آمنا برب العالمين»."
+  "notes": "No prostration, figures or punishment drawn. Pharaoh's accusation (123:9-17) is not glossed; his threat of mutilation (124) is framed only «زعم الخبيث أنهم مفسدون» and its details are not displayed. Light for «فوقع الحق», geometric for «آمنا برب العالمين». STAGING v4: Same gathering, by day (city setting, no palms). c1 (118-122): no light, glow or plate on 118:1-2 (the truth prevailing): the camera on the magicians (118:3), an uncountable group now drawn in light robes. 119:3 Pharaoh turns away (Al-Muyassar: Pharaoh and his people left humiliated). 120:1 the magicians fall in sujud: they kneel facing the empty right edge of the frame, away from Pharaoh and Musa, with no plate on screen; they stand up on 121:1, before 122:2 names Musa (nobody is in sujud while a prophet is named). A geometric plate for their declaration of faith in the Lord (121:2-122:3); Musa (blue drop) is in the wide shot when he is named (122:2); Harun (122:3) is not drawn, as the sources do not place him in this scene. c2 (123-124): Pharaoh speaks (123:1, 123:9) and points at the magicians as he accuses them (123:3); a crown plate for his claim of permission (As-Sa'di: a tyrant over bodies and words, 123:7) and an hourglass for 123:18-19 (you will know). 124 (the threat of cutting and crucifying) is never shown or suggested: no gesture, no plate, no palm, no close-up on the magicians; Pharaoh stands on the left, apart from the magicians, and the camera stays on him, the speaker (124:1, 124:7), with one wide shot (124:4)."
  },
  "cover": {
   "series_ar": "موسى وفرعون",
@@ -290,9 +444,10 @@
   "title_ar": "إيمان السحرة",
   "title_en": "The sorcerers believe",
   "at": [
-   118,
-   1
+   121,
+   2
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

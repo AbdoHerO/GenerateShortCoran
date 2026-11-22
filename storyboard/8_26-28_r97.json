@@ -32,16 +32,54 @@
    "verses": [
     26
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       26,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       26,
+       4
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
      {
       "at": [
        26,
        5
       ],
-      "do": "pan_left"
+      "do": "bow",
+      "who": "b"
+     },
+     {
+      "at": [
+       26,
+       8
+      ],
+      "do": "turn",
+      "who": "b"
      },
      {
       "at": [
@@ -55,28 +93,41 @@
        26,
        11
       ],
-      "do": "pan_right"
+      "do": "turn",
+      "who": "b"
      },
      {
       "at": [
        26,
-       14
+       12
       ],
-      "do": "pan_right"
+      "do": "walk_to",
+      "who": "b",
+      "to": "center"
      },
      {
       "at": [
        26,
-       16
+       13
       ],
-      "do": "shot_wide"
+      "do": "sparkle",
+      "who": "b"
+     },
+     {
+      "at": [
+       26,
+       17
+      ],
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        26,
        19
       ],
-      "do": "pan_left"
+      "do": "raise_hands",
+      "who": "b"
      }
     ],
     "motifs": [
@@ -91,7 +142,17 @@
       ],
       "motif": "house",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       26,
+       15
+      ],
+      "until": null,
+      "motif": "wheat",
+      "place": "top",
+      "size": "s"
      }
     ]
    }
@@ -103,30 +164,69 @@
     27,
     28
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "home",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        27,
-       4
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        27,
+       3
+      ],
+      "do": "sparkle",
+      "who": "b"
+     },
+     {
+      "at": [
+       27,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       27,
+       9
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       27,
        10
       ],
-      "do": "pan_right"
+      "do": "bow",
+      "who": "b"
      },
      {
       "at": [
        27,
        11
       ],
-      "do": "pan_left"
+      "do": "read",
+      "who": "b"
      },
      {
       "at": [
@@ -138,16 +238,40 @@
      {
       "at": [
        28,
-       5
+       2
       ],
       "do": "pan_left"
      },
      {
       "at": [
        28,
-       8
+       3
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       28,
+       5
+      ],
+      "do": "bow",
+      "who": "b"
+     },
+     {
+      "at": [
+       28,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       28,
+       9
+      ],
+      "do": "raise_hands",
+      "who": "b"
      }
     ],
     "motifs": [
@@ -157,12 +281,12 @@
        9
       ],
       "until": [
-       27,
-       10
+       28,
+       1
       ],
       "motif": "seal",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -171,14 +295,14 @@
       ],
       "until": [
        28,
-       5
+       6
       ],
       "motif": "coins",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "morph"
+    "transition": "wipe"
    }
   }
  ],
@@ -285,7 +409,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A house for «فآواكم», a seal for «أماناتكم», coins for «أموالكم». No people drawn."
+  "notes": "A house for «فآواكم», a seal for «أماناتكم», coins for «أموالكم». No people drawn. STAGING v4: c1 (26): three believers in a town by day (few: 26:4); they lower their heads on 26:5 (oppressed) and look behind them twice on 26:8-11 (fearing to be snatched: both tafsirs); on 26:12 a house plate (the shelter: Al-Muyassar names Medina, As-Sa'di a land to shelter in) and they walk to the centre of the town; a soft sparkle for His support (26:13; the victory itself, Badr, is not drawn); a wheat plate for the good provision (26:15; Al-Muyassar: He fed them) and they raise their hands on 26:19 (gratitude). No enemy is drawn. c2 (27-28): three believers seated in a home by day; nobody acts the forbidden betrayal (27:4-8); a seal plate for the trusts (27:9; both tafsirs: what Allah entrusted, His commands and prohibitions), heads lowered on 27:10 and an open book on 27:11 (they know it is a trust); a coins plate for wealth (28:3, ending before the Name), heads lowered on the trial (28:5), and they raise their hands on 28:9 (reward with Him; Al-Muyassar: do they thank Him). Children and women are not drawn and nobody is shown as a trial."
  },
  "cover": {
   "series_ar": "الطاعة والأمانة",
@@ -294,8 +418,9 @@
   "title_en": "Trust and testing",
   "at": [
    27,
-   1
+   9
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

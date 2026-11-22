@@ -32,16 +32,54 @@
    "verses": [
     204
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "home",
+    "time": "day",
+    "actors": [
+     {
+      "id": "l",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       204,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       204,
+       4
+      ],
+      "do": "bow",
+      "who": "l"
+     },
      {
       "at": [
        204,
        6
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "l"
+     },
+     {
+      "at": [
+       204,
+       8
+      ],
+      "do": "sparkle",
+      "who": "l"
      }
     ],
     "motifs": [
@@ -56,7 +94,7 @@
       ],
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -68,23 +106,56 @@
     205,
     206
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "home",
+    "time": "dawn",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": [
+       206,
+       1
+      ]
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       205,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        205,
        5
       ],
-      "do": "pan_left"
+      "do": "bow",
+      "who": "b"
      },
      {
       "at": [
        205,
-       7
+       6
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       205,
+       8
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
@@ -92,6 +163,13 @@
        10
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       205,
+       11
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -105,28 +183,21 @@
        206,
        1
       ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       206,
+       6
+      ],
       "do": "pan_right"
-     },
-     {
-      "at": [
-       206,
-       3
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       206,
-       7
-      ],
-      "do": "shot_wide"
      },
      {
       "at": [
        206,
        9
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -140,7 +211,7 @@
        206,
        11
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -155,7 +226,17 @@
       ],
       "motif": "night_day",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       206,
+       3
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "s"
      }
     ],
     "transition": "light_sweep"
@@ -309,7 +390,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A book for «القرآن», night and day for «بالغدو والآصال». 206 (the angels, a verse of prostration): no motif, nothing drawn. As-Sa'di's «لا تجهر بصلاتك» (Quran wording) not used."
+  "notes": "A book for «القرآن», night and day for «بالغدو والآصال». 206 (the angels, a verse of prostration): no motif, nothing drawn. As-Sa'di's «لا تجهر بصلاتك» (Quran wording) not used. STAGING v4: c1 (204): three people sit at home and listen in silence while the Quran is recited (the video's own recitation; no reader is drawn, so no imam or Prophet is implied); a book plate for the Quran (204:3), they lower their heads on 204:4 (listen) and the camera closes on them for 204:6 (be silent), a soft sparkle on 204:8 (that you may receive mercy). c2 (205-206): the same room at dawn; three believers sit in remembrance (205 is addressed to the Prophet and, As-Sa'di, to others after him: shown by the group, never a lone man), they bow in humility on 205:5, the camera closes on them for fear (205:6); a night-and-day plate for the mornings and evenings (205:11-12); no gesture on the negated 205:13-16. 206 is the angels near the Lord (the unseen): the believers leave at 206:1, before the angels are mentioned, and 206 plays on the empty room with a geometric plate from 206:3 over the Lord and His worship; no angel, no light on them, no prostration is drawn (the verse of prostration)."
  },
  "cover": {
   "series_ar": "التوحيد والذكر",
@@ -318,8 +399,9 @@
   "title_en": "Listening and remembrance",
   "at": [
    204,
-   1
+   3
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

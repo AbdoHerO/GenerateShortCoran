@@ -39,6 +39,13 @@
      {
       "at": [
        29,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       29,
        9
       ],
       "do": "pan_left"
@@ -83,100 +90,158 @@
     31,
     32
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "e",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "walk",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        30,
-       6
+       2
+      ],
+      "do": "speak",
+      "who": "d"
+     },
+     {
+      "at": [
+       30,
+       5
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       30,
+       8
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        30,
-       10
+       11
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "e"
      },
      {
       "at": [
        30,
        12
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        30,
-       16
+       15
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        31,
-       3
+       1
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "e"
+     },
+     {
+      "at": [
+       31,
+       5
+      ],
+      "do": "speak",
+      "who": "e"
      },
      {
       "at": [
        31,
        7
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        31,
        8
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "d"
      },
      {
       "at": [
        31,
-       12
+       10
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        31,
-       14
+       13
       ],
-      "do": "pan_right"
+      "do": "shake_head",
+      "who": "e"
      },
      {
       "at": [
        31,
        16
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "e"
      },
      {
       "at": [
        32,
-       1
+       2
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "d"
      },
      {
       "at": [
        32,
-       5
+       6
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        32,
        11
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "e"
      },
      {
       "at": [
@@ -188,12 +253,47 @@
      {
       "at": [
        32,
-       16
+       15
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       32,
+       17
+      ],
+      "do": "speak",
+      "who": "d"
      }
     ],
-    "motifs": [],
+    "motifs": [
+     {
+      "at": [
+       30,
+       12
+      ],
+      "until": [
+       31,
+       2
+      ],
+      "motif": "geometric",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       31,
+       2
+      ],
+      "until": [
+       32,
+       1
+      ],
+      "motif": "book",
+      "place": "top",
+      "size": "s"
+     }
+    ],
     "transition": "wipe"
    }
   }
@@ -301,7 +401,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on the Prophet ﷺ; their plot (30:6-10) is not glossed in detail. Their claims (31) and their prayer for punishment (32) are framed («جهلا منهم وعنادًا», «على وجه الجزم منهم بباطلهم»). «ويمكر الله» carries Al-Muyassar's «وردَّ الله مكرهم عليهم». Light for «إن تتقوا الله»."
+  "notes": "No motif on the Prophet ﷺ; their plot (30:6-10) is not glossed in detail. Their claims (31) and their prayer for punishment (32) are framed («جهلا منهم وعنادًا», «على وجه الجزم منهم بباطلهم»). «ويمكر الله» carries Al-Muyassar's «وردَّ الله مكرهم عليهم». Light for «إن تتقوا الله». STAGING v4: c1 (29) stays ambient: a conditional promise of Allah's acts (criterion, expiation, forgiveness) and His bounty. c2 (30-32): two small groups of polytheists (three each) facing one another in a town by day, the second walking in to join the first (Al-Muyassar: in Mecca; As-Sa'di: their council in Dar an-Nadwa); they speak to each other on 30:2 and 30:11 (their plotting); the three options of 30:6-10 get camera only, no gesture; the Prophet is never drawn and the address to him (30:3) gets no beat. A geometric plate for Allah's plan (30:12-31:1). 31: a book plate for the verses recited to them (31:2); they speak (31:5, 31:8) and shake their heads on 31:13 (their claim, framed by Al-Muyassar's gloss). 32: they speak on 32:2, 32:11 and 32:17 (their challenge); no stones, no sky shot and no darkness: nothing they asked for is shown as happening. The two groups always face one another (their speech marks point at each other), never an empty side; the left of the stage is empty and nobody faces it."
  },
  "cover": {
   "series_ar": "مكر المشركين",
@@ -309,9 +409,10 @@
   "title_ar": "التقوى والكيد",
   "title_en": "Piety and plots",
   "at": [
-   29,
-   1
+   30,
+   11
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

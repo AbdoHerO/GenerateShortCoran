@@ -32,10 +32,29 @@
    "verses": [
     136
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "sea_shore",
+    "time": "day",
+    "actors": [],
+    "events": [
+     {
+      "type": "flood",
+      "at": [
+       136,
+       3
+      ],
+      "until": null
+     }
+    ],
     "beats": [
+     {
+      "at": [
+       136,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        136,
@@ -46,19 +65,60 @@
      {
       "at": [
        136,
-       8
+       6
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        136,
-       9
+       8
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       136,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       136,
+       11
+      ],
+      "do": "pan_left"
      }
     ],
-    "motifs": []
+    "motifs": [
+     {
+      "at": [
+       136,
+       1
+      ],
+      "until": [
+       136,
+       5
+      ],
+      "motif": "hourglass",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       136,
+       5
+      ],
+      "until": [
+       136,
+       9
+      ],
+      "motif": "wave",
+      "place": "top",
+      "size": "s"
+     }
+    ]
    }
   },
   {
@@ -67,21 +127,70 @@
    "verses": [
     137
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "fields",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 6,
+      "pose": "walk",
+      "enter": [
+       137,
+       1
+      ],
+      "exit": null,
+      "uncountable": true
+     }
+    ],
+    "events": [
+     {
+      "type": "growth",
+      "at": [
+       137,
+       10
+      ],
+      "until": null
+     }
+    ],
     "beats": [
      {
       "at": [
        137,
-       4
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       137,
+       3
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       137,
+       6
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       137,
+       10
       ],
       "do": "pan_left"
      },
      {
       "at": [
        137,
-       7
+       13
       ],
       "do": "shot_wide"
      },
@@ -90,21 +199,29 @@
        137,
        17
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        137,
        20
       ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       137,
+       24
+      ],
       "do": "pan_right"
      },
      {
       "at": [
        137,
-       25
+       27
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -117,12 +234,26 @@
        137,
        19
       ],
-      "motif": "light",
+      "motif": "seal",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       137,
+       24
+      ],
+      "until": [
+       137,
+       29
+      ],
+      "motif": "bricks",
+      "place": "top",
+      "size": "s",
+      "exit": "undraw"
      }
     ],
-    "transition": "light_sweep"
+    "transition": "wipe"
    }
   }
  ],
@@ -185,7 +316,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No sea, drowning or destruction drawn. Which land is meant in 137:6-11 is not glossed (Al-Muyassar: Syria; As-Sa'di: Egypt). Light for «وتمت كلمت ربك الحسنى». First-person «فانتقمنا… فأغرقناهم… دمرنا» not used."
+  "notes": "No sea, drowning or destruction drawn. Which land is meant in 137:6-11 is not glossed (Al-Muyassar: Syria; As-Sa'di: Egypt). Light for «وتمت كلمت ربك الحسنى». First-person «فانتقمنا… فأغرقناهم… دمرنا» not used. STAGING v4: c1 (136): Pharaoh and his army are never drawn and no body is shown: an empty sea shore by day (As-Sa'di quotes their pursuit at sunrise; not dawn, not night); an hourglass for the appointed time of their end (136:1, gloss), the water rises over the empty shore on 136:3 and a wave plate stands for the sea (136:5-8). c2 (137): the people who had been oppressed (an uncountable people, men and women) walk into a blessed farmland: fields that turn green on 137:10 (Al-Muyassar: blessed with crops, fruits and rivers). Which land is meant is not drawn (Al-Muyassar: Syria; As-Sa'di: Egypt): a generic farmland, no landmark. A seal plate for the fulfilled good promise of the Lord (137:12-18). Pharaoh's buildings are not drawn: a brick-wall plate appears on what they made (137:24) and its lines retract (undraw) on 137:29, for the destruction of what they built; nothing falls on the people."
  },
  "cover": {
   "series_ar": "موسى وفرعون",
@@ -194,8 +325,9 @@
   "title_en": "The end of tyranny",
   "at": [
    136,
-   1
+   5
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -138,6 +138,13 @@
      {
       "at": [
        11,
+       9
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       11,
        10
       ],
       "do": "pan_left"
@@ -326,7 +333,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The angels are never drawn (text only: «يردف بعضهم بعضا»); no battle or army drawn. Geometric for «وما النصر إلا من عند الله», cloud and rain for «وينزل عليكم من السماء ماء». The Shaytan not drawn."
+  "notes": "The angels are never drawn (text only: «يردف بعضهم بعضا»); no battle or army drawn. Geometric for «وما النصر إلا من عند الله», cloud and rain for «وينزل عليكم من السماء ماء». The Shaytan not drawn. STAGING v4: Kept ambient (owner rule, Staging v4): 9-10 is the call for help at Badr and the angels sent down (battle and the unseen), 11 the drowsiness and rain at Badr (battle context, plan caution: rain and sleep only as symbols). No people, angels or army drawn."
  },
  "cover": {
   "series_ar": "يوم بدر",
@@ -338,5 +345,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

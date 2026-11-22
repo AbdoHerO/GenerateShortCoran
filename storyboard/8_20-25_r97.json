@@ -33,61 +33,130 @@
     20,
     21
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "walk",
+      "enter": [
+       21,
+       3
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        20,
-       3
+       1
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       20,
+       2
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       20,
+       4
+      ],
+      "do": "stand_up",
+      "who": "b"
      },
      {
       "at": [
        20,
        7
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        20,
        8
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        20,
        11
       ],
-      "do": "shot_wide"
+      "do": "bow",
+      "who": "b"
      },
      {
       "at": [
        21,
        1
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        21,
        3
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        21,
-       8
+       4
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "d"
+     },
+     {
+      "at": [
+       21,
+       7
+      ],
+      "do": "turn",
+      "who": "d"
      }
     ],
-    "motifs": []
+    "motifs": [
+     {
+      "at": [
+       20,
+       10
+      ],
+      "until": [
+       21,
+       3
+      ],
+      "motif": "book",
+      "place": "top",
+      "size": "s"
+     }
+    ]
    }
   },
   {
@@ -97,54 +166,100 @@
     22,
     23
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        22,
-       3
+       1
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       22,
+       2
+      ],
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        22,
        4
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        22,
        6
       ],
-      "do": "shot_wide"
+      "do": "turn",
+      "who": "d"
      },
      {
       "at": [
        22,
-       10
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       23,
-       6
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       23,
        9
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       23,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       23,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       23,
+       10
+      ],
+      "do": "shot_close",
+      "who": "d"
      }
     ],
-    "motifs": [],
+    "motifs": [
+     {
+      "at": [
+       23,
+       2
+      ],
+      "until": [
+       23,
+       7
+      ],
+      "motif": "geometric",
+      "place": "top",
+      "size": "s"
+     }
+    ],
     "transition": "wipe"
    }
   },
@@ -157,56 +272,70 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn",
+    "mood": "night_sky",
     "beats": [
+     {
+      "at": [
+       24,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        24,
        4
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        24,
        5
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        24,
        7
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        24,
        12
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        24,
        14
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        24,
        17
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        24,
        20
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       25,
+       1
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
@@ -220,21 +349,21 @@
        25,
        8
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        25,
        9
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        25,
        10
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -427,7 +556,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on the Prophet ﷺ or on their claim «سمعنا». 24:11-17 «يحول بين المرء وقلبه» is not glossed (the tafsirs explain it differently). Light for «لما يحييكم», wind for the trial that spreads. Al-Muyassar's «ليوم لا ريب فيه» (Quran wording) not used."
+  "notes": "No motif on the Prophet ﷺ or on their claim «سمعنا». 24:11-17 «يحول بين المرء وقلبه» is not glossed (the tafsirs explain it differently). Light for «لما يحييكم», wind for the trial that spreads. Al-Muyassar's «ليوم لا ريب فيه» (Quran wording) not used. STAGING v4: c1 (20-21): believers seated in a town by day; they stand up on the command to obey (20:4) and lower their heads while listening (20:11; Al-Muyassar: what is recited to them of the Quran), with a book plate for it (20:10, after the Name and the Messenger and their repeat); nobody acts the negated turning away (20:7-9). On 21:3 three deniers come in (Al-Muyassar: polytheists and hypocrites); they speak on 21:4 (their claim of having heard, framed by As-Sa'di's gloss) and turn their backs on 21:7 (they do not really hear). They face the believers, never an empty side. c2 (22-23): the deniers at the centre turn their backs on 22:6 (deaf to the truth); a geometric plate for Allah's knowledge (23:2-6); 23:7-11 is a supposition (both tafsirs), so nobody acts it and the camera only goes wide. c3 (24-25) stays ambient: the call of Allah and the Messenger (how people answer him), Allah coming between a man and his heart, the gathering to Him, and the threat of a trial that strikes all; its mood moves from dawn to night_sky because 25 is a threat."
  },
  "cover": {
   "series_ar": "الطاعة والأمانة",
@@ -436,8 +565,9 @@
   "title_en": "Sincere obedience",
   "at": [
    20,
-   1
+   11
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

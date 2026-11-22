@@ -35,7 +35,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light",
+    "mood": "geometric",
     "beats": [
      {
       "at": [
@@ -127,6 +127,13 @@
        7
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       190,
+       10
+      ],
+      "do": "pattern_turn"
      }
     ],
     "motifs": [
@@ -322,7 +329,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "189:12-16 carries Al-Muyassar's «والمراد جنس الزوجين من ذرية آدم», so the shirk of 190 is never read as Adam and Hawwa's. No couple, pregnancy, child or idol drawn. Geometric for «خلقكم من نفس واحدة» and «فتعالى الله»."
+  "notes": "189:12-16 carries Al-Muyassar's «والمراد جنس الزوجين من ذرية آدم», so the shirk of 190 is never read as Adam and Hawwa's. No couple, pregnancy, child or idol drawn. Geometric for «خلقكم من نفس واحدة» and «فتعالى الله». STAGING v4: Staging v4: kept ambient. c1 (189-190): the tafsirs differ on who the couple are (Adam and Hawwa, or the human couple in general), so neither the couple, a woman, the pregnancy, the child nor any idol is drawn; geometric plates only on Allah's creating (189:3) and His exaltation (190:9). Its mood is now geometric (tawhid, Allah's acts) instead of rays of light, so no radiant light stands over the shirk of 190:4-8. c2 (191-192): the false deities are the subject of every clause and are never drawn, not even as shapes; showing their worshippers calling toward an empty side would imply them, and the verbs about them are negated, so nothing is acted."
  },
  "cover": {
   "series_ar": "التوحيد والذكر",
@@ -334,5 +341,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -32,30 +32,77 @@
    "verses": [
     170
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        170,
-       6
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        170,
+       2
+      ],
+      "do": "read",
+      "who": "b"
+     },
+     {
+      "at": [
+       170,
+       4
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       170,
+       5
+      ],
+      "do": "pray",
+      "who": "b"
+     },
+     {
+      "at": [
+       170,
+       8
+      ],
+      "do": "ruku",
+      "who": "b"
+     },
+     {
+      "at": [
+       170,
        10
       ],
-      "do": "pan_left"
+      "do": "sparkle",
+      "who": "b"
      }
     ],
     "motifs": [
      {
       "at": [
        170,
-       2
+       3
       ],
       "until": [
        170,
@@ -63,7 +110,7 @@
       ],
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -76,14 +123,28 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "mountains",
+    "mood": "geometric",
     "beats": [
+     {
+      "at": [
+       171,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       171,
+       3
+      ],
+      "do": "pan_left"
+     },
      {
       "at": [
        171,
        5
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -97,7 +158,14 @@
        171,
        9
       ],
-      "do": "pan_right"
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       171,
+       13
+      ],
+      "do": "pattern_turn"
      },
      {
       "at": [
@@ -116,9 +184,16 @@
      {
       "at": [
        171,
-       19
+       18
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       171,
+       19
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -131,6 +206,16 @@
        171,
        15
       ],
+      "motif": "seal",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       171,
+       15
+      ],
+      "until": null,
       "motif": "book",
       "place": "top",
       "size": "m"
@@ -221,7 +306,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The raised mountain is not drawn (mountains mood only, no mountain motif over them). A book for «يمسكون بالكتاب» and «خذوا ما آتيناكم بقوة»."
+  "notes": "The raised mountain is not drawn (mountains mood only, no mountain motif over them). A book for «يمسكون بالكتاب» and «خذوا ما آتيناكم بقوة». STAGING v4: c1 (170) is a prayer hall by day: three believers hold the Book and read on 170:2 (they hold fast to it, knowledge and practice), a book plate on 170:3, they stand in prayer on 170:5 (they establish the prayer) and bow on 170:8; a soft sparkle on them on 170:10 (the reformers whose reward is not lost). c2 (171) stays ambient (geometric, Allah's act and His command): the mountain raised over them is a miracle and is not drawn at all (no mountain setting, mood or plate, nothing above any people, no people on screen); a seal plate for the covenant on 171:11-14 (take what We gave you with determination; Al-Muyassar: the covenants in the Book) and a book plate for 171:15 to the end (remember what is in it)."
  },
  "cover": {
   "series_ar": "عبر من بني إسرائيل",
@@ -233,5 +318,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

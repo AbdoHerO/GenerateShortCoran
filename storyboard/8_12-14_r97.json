@@ -235,7 +235,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Angels, the battle, the striking (12:17-23) and the Fire are not drawn, and the striking is not glossed. Geometric only for «إذ يوحي ربك», leaving before «الملائكة»."
+  "notes": "Angels, the battle, the striking (12:17-23) and the Fire are not drawn, and the striking is not glossed. Geometric only for «إذ يوحي ربك», leaving before «الملائكة». STAGING v4: Kept ambient (owner rule, Staging v4): 12 is the revelation to the angels and the striking at Badr, 13-14 the punishment of those who opposed Allah and His Messenger and the Fire. No people, angels, battle or fire drawn."
  },
  "cover": {
   "series_ar": "يوم بدر",
@@ -247,5 +247,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

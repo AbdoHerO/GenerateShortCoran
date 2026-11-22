@@ -33,94 +33,178 @@
     138,
     139
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "sea_shore",
+    "time": "day",
+    "actors": [
+     {
+      "id": "musa",
+      "type": "prophet",
+      "label": "موسى",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "walk",
+      "enter": [
+       138,
+       1
+      ],
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 6,
+      "pose": "stand",
+      "enter": [
+       138,
+       5
+      ],
+      "exit": null,
+      "uncountable": true
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       138,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        138,
        3
       ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       138,
-       4
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       138,
-       8
-      ],
       "do": "pan_left"
      },
      {
       "at": [
        138,
-       11
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       138,
-       14
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       138,
-       19
+       5
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       138,
+       7
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       138,
+       10
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       138,
+       12
+      ],
+      "do": "speak",
+      "who": "p"
+     },
+     {
+      "at": [
+       138,
+       16
+      ],
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       138,
+       18
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       138,
+       20
+      ],
+      "do": "speak",
+      "who": "musa"
      },
      {
       "at": [
        138,
        23
       ],
-      "do": "pan_left"
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       139,
+       1
+      ],
+      "do": "speak",
+      "who": "musa"
      },
      {
       "at": [
        139,
        2
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        139,
        3
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        139,
-       4
+       7
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
      {
       "at": [
        138,
-       1
+       4
       ],
       "until": [
        138,
-       5
+       7
       ],
       "motif": "wave",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       139,
+       3
+      ],
+      "until": null,
+      "motif": "leaf",
+      "place": "top",
+      "size": "s"
      }
     ]
    }
@@ -132,10 +216,49 @@
     140,
     141
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "sea_shore",
+    "time": "day",
+    "actors": [
+     {
+      "id": "musa",
+      "type": "prophet",
+      "label": "موسى",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       140,
+       1
+      ],
+      "do": "speak",
+      "who": "musa"
+     },
+     {
+      "at": [
+       140,
+       4
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        140,
@@ -146,16 +269,16 @@
      {
       "at": [
        141,
-       2
+       1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        141,
        5
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -169,12 +292,12 @@
        141,
        10
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        141,
-       12
+       11
       ],
       "do": "pan_right"
      },
@@ -183,14 +306,21 @@
        141,
        13
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        141,
        15
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       141,
+       16
+      ],
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -205,7 +335,20 @@
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       141,
+       2
+      ],
+      "until": [
+       141,
+       6
+      ],
+      "motif": "chains",
+      "place": "top",
+      "size": "s"
      }
     ],
     "transition": "morph"
@@ -326,7 +469,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No idols, people or sea-crossing drawn: a wave for «وجاوزنا ببني إسرائيل البحر», geometric for «أغير الله». Their request (138:12-19) is framed «من جهلهم وسفههم». Musa: no motif. Al-Muyassar's «الواحد القهار» (Quran wording) not used."
+  "notes": "No idols, people or sea-crossing drawn: a wave for «وجاوزنا ببني إسرائيل البحر», geometric for «أغير الله». Their request (138:12-19) is framed «من جهلهم وسفههم». Musa: no motif. Al-Muyassar's «الواحد القهار» (Quran wording) not used. STAGING v4: On the far shore after the crossing, by day (sea_shore). The sea is not shown parting (the crossing is already done in 138:1, As-Sa'di: after Allah saved them). Musa is a blue drop; the Children of Israel who ask for a god are three faceless men (a group asking a blameworthy thing: no woman is singled out); they walk in on 138:1, with a wave plate for the sea (138:4-6). The idol-worshippers are an uncountable crowd in dark robes that comes in on 138:5; their idols are never drawn and they are not shown bowing. The Children of Israel speak their request (138:12, framed by the gloss) with the camera on them (138:16); Musa answers (138:20, 139:1) and the camera stays wide or in gentle pans with his drop in frame during all his words; a leaf plate for what the idol-worshippers do being ruined and void (139:3). c2 (140-141): Musa speaks (140:1); a geometric plate for other than Allah (140:2-5). 141: the tafsirs differ on who speaks (Al-Muyassar: Allah reminds them; As-Sa'di: Musa reminds them), so no speaker is marked; a breaking-chain plate for the rescue from Pharaoh's captivity (141:2-5, Al-Muyassar: rescued from the captivity of Pharaoh); the killing of the sons (141:9-12) is not drawn: wide shots and pans only."
  },
  "cover": {
   "series_ar": "بنو إسرائيل بعد النجاة",
@@ -335,8 +478,9 @@
   "title_en": "The lure of idols",
   "at": [
    138,
-   1
+   12
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

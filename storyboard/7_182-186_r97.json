@@ -33,33 +33,115 @@
     182,
     183
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       182,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       182,
+       2
+      ],
+      "do": "shake_head",
+      "who": "d"
+     },
      {
       "at": [
        182,
        4
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        182,
-       8
+       6
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       183,
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        183,
-       2
+       3
       ],
-      "do": "pan_right"
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       183,
+       5
+      ],
+      "do": "shot_close",
+      "who": "d"
      }
     ],
-    "motifs": []
+    "motifs": [
+     {
+      "at": [
+       182,
+       4
+      ],
+      "until": [
+       183,
+       1
+      ],
+      "motif": "coins",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       183,
+       1
+      ],
+      "until": [
+       183,
+       3
+      ],
+      "motif": "hourglass",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       183,
+       3
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "s"
+     }
+    ]
    }
   },
   {
@@ -94,6 +176,13 @@
        11
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       185,
+       1
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
@@ -334,7 +423,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "«كيدي متين» (183): no motif, glossed «قوي شديد لا يُدْفع». No motif on the Prophet ﷺ (184). Stars for «ملكوت السماوات والأرض», an hourglass for «اقترب أجلهم». First-person «أُمْهِلُهُم» not used."
+  "notes": "«كيدي متين» (183): no motif, glossed «قوي شديد لا يُدْفع». No motif on the Prophet ﷺ (184). Stars for «ملكوت السماوات والأرض», an hourglass for «اقترب أجلهم». First-person «أُمْهِلُهُم» not used. STAGING v4: c1 (182-183) is a market street by day: three deniers in dark robes shake their heads on 182:2 (they denied the signs); a coins plate on 182:4 (Al-Muyassar: the doors of provision opened to them; As-Sa'di: provision poured on them) while the camera closes on them; an hourglass for the respite (183:1-2); a geometric plate for His firm plan (183:3 to the end, Allah's act, no figure) with the camera holding on the deniers (183:5). c2 (184-186) is kept ambient: 184 is about the Prophet (their companion is not mad), so nothing may imply him; 185-186 keep the stars and hourglass plates. FOR THE REVIEWER: 185 (look at the dominion of the heavens and the earth) is a this-world sign but shares the chapter with 184."
  },
  "cover": {
   "series_ar": "الميثاق والهدى",
@@ -342,9 +431,10 @@
   "title_ar": "إمهال المكذبين",
   "title_en": "Respite for the deniers",
   "at": [
-   182,
+   183,
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -32,14 +32,65 @@
    "verses": [
     41
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "p",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "sit",
+      "enter": null,
+      "exit": null,
+      "look": "poor"
+     },
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "t",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "traveller"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        41,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       41,
        3
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       41,
+       7
       ],
       "do": "shot_wide"
      },
@@ -48,6 +99,14 @@
        41,
        8
       ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       41,
+       10
+      ],
       "do": "shot_wide"
      },
      {
@@ -55,21 +114,33 @@
        41,
        12
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        41,
        13
       ],
-      "do": "pan_right"
+      "do": "give",
+      "who": "b",
+      "to": "p"
      },
      {
       "at": [
        41,
-       16
+       15
       ],
-      "do": "pan_left"
+      "do": "give",
+      "who": "b",
+      "to": "t"
+     },
+     {
+      "at": [
+       41,
+       17
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -83,12 +154,20 @@
        41,
        20
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        41,
-       23
+       21
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       41,
+       25
       ],
       "do": "shot_wide"
      },
@@ -97,14 +176,23 @@
        41,
        28
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        41,
        30
       ],
-      "do": "shot_wide"
+      "do": "raise_hands",
+      "who": "p"
+     },
+     {
+      "at": [
+       41,
+       32
+      ],
+      "do": "raise_hands",
+      "who": "t"
      }
     ],
     "motifs": [
@@ -115,11 +203,21 @@
       ],
       "until": [
        41,
-       8
+       9
       ],
+      "motif": "seal",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       41,
+       29
+      ],
+      "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -147,6 +245,13 @@
        10
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       42,
+       12
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -388,7 +493,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No battle, armies or spoils drawn: geometric for «فأن لله خمسه» and «وإن الله لسميع عليم», mountains for the two sides of the valley. Al-Muyassar's «وخِذْلان أعدائه بالقتل والأسر» is not displayed."
+  "notes": "No battle, armies or spoils drawn: geometric for «فأن لله خمسه» and «وإن الله لسميع عليم», mountains for the two sides of the valley. Al-Muyassar's «وخِذْلان أعدائه بالقتل والأسر» is not displayed. STAGING v4: c1 (41): the ruling of the fifth shown in a market by day, with nothing of war: a seal plate for the fifth that belongs to Allah (41:6-8, ending as the Messenger is named); the Prophet's kin and the orphans are not drawn (no children, nobody standing for his family); the believers (a group, never a lone man) hand a purse to a poor man on 41:13 (the needy) and to a traveller on 41:15 (the wayfarer); both raise their hands on 41:30-32, after the condition. 41:16-28 (the condition, the servant to whom it was sent down, the day of the criterion when the two armies met) gets camera only: no battle, no plate starting on the Prophet. A geometric plate for Allah's power (41:29). Every place on stage is occupied, so no pan drifts to an empty side. c2 (42) stays ambient: the two sides of the valley at Badr (battle)."
  },
  "cover": {
   "series_ar": "أحكام النصر",
@@ -397,8 +502,9 @@
   "title_en": "Dividing the spoils",
   "at": [
    41,
-   1
+   13
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

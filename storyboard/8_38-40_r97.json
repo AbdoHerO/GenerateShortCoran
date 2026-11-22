@@ -32,52 +32,93 @@
    "verses": [
     38
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        38,
-       4
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       38,
-       6
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        38,
-       10
+       3
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       38,
+       8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       38,
+       11
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       38,
+       14
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        38,
        16
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "d"
      }
     ],
     "motifs": [
      {
       "at": [
        38,
-       13
+       6
       ],
       "until": [
        38,
-       16
+       13
       ],
+      "motif": "door",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       38,
+       13
+      ],
+      "until": null,
       "motif": "hourglass",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -96,44 +137,51 @@
      {
       "at": [
        39,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       39,
        8
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        39,
        10
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        39,
        12
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        39,
        16
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        40,
        6
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        40,
        10
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -169,7 +217,7 @@
        7
       ],
       "until": null,
-      "motif": "light",
+      "motif": "seal",
       "place": "top",
       "size": "m"
      }
@@ -303,7 +351,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "38:11-12 not glossed (the tafsirs differ on what they would return to). 39 (fighting): «فتنة» carries what both tafsirs say («شرك وصد عن سبيل اللّه»); no battle or weapons drawn, no present-day reading. Hourglass for «سنت الأولين», geometric for «ويكون الدين كله لله» and «أن الله مولاكم»."
+  "notes": "38:11-12 not glossed (the tafsirs differ on what they would return to). 39 (fighting): «فتنة» carries what both tafsirs say («شرك وصد عن سبيل اللّه»); no battle or weapons drawn, no present-day reading. Hourglass for «سنت الأولين», geometric for «ويكون الدين كله لله» and «أن الله مولاكم». STAGING v4: c1 (38): three polytheists at the centre of a town by day, facing the viewer (no empty side: the Prophet, told to say this, is never drawn and the opening word gets camera only). Both halves are conditions (if they desist / if they return), so nobody acts them; a door plate for the forgiveness offered (38:6) and an hourglass for the way of the former nations (38:13). c2 (39-40) stays ambient: 39 is a fighting verse (never pictured as a call; the glosses keep both tafsirs' meaning of the word for trial), 40 is Allah's names (Protector, Helper). The light plate that drew on one word before the Name al-Mawla (40:7-8) is now a seal plate."
  },
  "cover": {
   "series_ar": "مكر المشركين",
@@ -312,8 +360,9 @@
   "title_en": "The door of repentance is open",
   "at": [
    38,
-   1
+   7
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

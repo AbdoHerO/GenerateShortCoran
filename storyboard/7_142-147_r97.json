@@ -40,16 +40,30 @@
      {
       "at": [
        142,
-       6
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        142,
-       10
+       5
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       142,
+       7
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       142,
+       10
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -61,70 +75,98 @@
      {
       "at": [
        142,
-       21
+       19
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
-       143,
-       2
+       142,
+       22
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        143,
-       5
+       1
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       143,
+       4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       143,
+       7
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
        143,
        10
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        143,
        12
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        143,
        13
       ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       143,
+       16
+      ],
       "do": "pan_right"
      },
      {
       "at": [
        143,
-       15
+       19
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        143,
-       21
+       22
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        143,
-       25
+       24
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        143,
-       29
+       28
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       143,
+       30
       ],
       "do": "pan_left"
      },
@@ -138,14 +180,7 @@
      {
       "at": [
        143,
-       34
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       143,
-       36
+       35
       ],
       "do": "pan_right"
      },
@@ -154,7 +189,7 @@
        143,
        39
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -170,6 +205,29 @@
       "motif": "hourglass",
       "place": "top",
       "size": "m"
+     },
+     {
+      "at": [
+       142,
+       19
+      ],
+      "until": [
+       143,
+       1
+      ],
+      "motif": "two_paths",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       143,
+       36
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
      }
     ]
    }
@@ -181,30 +239,72 @@
     144,
     145
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "mountains",
+    "time": "day",
+    "actors": [
+     {
+      "id": "musa",
+      "type": "prophet",
+      "label": "موسى",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        144,
-       5
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        144,
-       13
+       4
       ],
       "do": "pan_left"
      },
      {
       "at": [
-       145,
-       5
+       144,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       144,
+       11
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       144,
+       13
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       145,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       145,
+       4
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
@@ -216,14 +316,28 @@
      {
       "at": [
        145,
-       12
+       11
       ],
       "do": "pan_right"
      },
      {
       "at": [
        145,
+       14
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       145,
        17
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       145,
+       19
       ],
       "do": "pan_left"
      }
@@ -238,14 +352,14 @@
        144,
        12
       ],
-      "motif": "book",
+      "motif": "scroll",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        145,
-       1
+       4
       ],
       "until": [
        145,
@@ -253,10 +367,10 @@
       ],
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "light_sweep"
+    "transition": "dissolve"
    }
   },
   {
@@ -266,56 +380,125 @@
     146,
     147
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        146,
-       5
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       146,
-       9
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        146,
-       13
+       5
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        146,
-       23
+       8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       146,
+       11
       ],
       "do": "pan_left"
      },
      {
       "at": [
        146,
-       29
+       15
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       146,
+       17
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       146,
+       22
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       146,
+       25
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       146,
+       28
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       146,
+       30
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        146,
        32
       ],
-      "do": "shot_wide"
+      "do": "shake_head",
+      "who": "d"
+     },
+     {
+      "at": [
+       146,
+       34
+      ],
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        146,
        36
+      ],
+      "do": "turn",
+      "who": "d"
+     },
+     {
+      "at": [
+       147,
+       1
       ],
       "do": "shot_wide"
      },
@@ -331,14 +514,22 @@
        147,
        7
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        147,
-       10
+       9
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       147,
+       12
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
@@ -352,7 +543,7 @@
      {
       "at": [
        146,
-       17
+       19
       ],
       "until": [
        146,
@@ -360,7 +551,17 @@
       ],
       "motif": "two_paths",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       147,
+       6
+      ],
+      "until": null,
+      "motif": "leaf",
+      "place": "top",
+      "size": "s"
      }
     ],
     "transition": "wipe"
@@ -613,7 +814,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "One unit: the reciter joins 142→147 (about 165 s). 143 (Allah speaking, «أرني أنظر إليك», «فلما تجلى ربه للجبل»): no motif, nothing literal, mountains mood only; Allah's answer «لن تراني» is not paraphrased (first person). Musa: no motif. An hourglass for the forty nights, a book for the tablets, two paths for «سبيل الرشد… سبيل الغي». 145:18-20 «دار الفاسقين» is not glossed (the tafsirs differ). First-person «سأصرف… آياتي» not paraphrased."
+  "notes": "One unit: the reciter joins 142→147 (about 165 s). 143 (Allah speaking, «أرني أنظر إليك», «فلما تجلى ربه للجبل»): no motif, nothing literal, mountains mood only; Allah's answer «لن تراني» is not paraphrased (first person). Musa: no motif. An hourglass for the forty nights, a book for the tablets, two paths for «سبيل الرشد… سبيل الغي». 145:18-20 «دار الفاسقين» is not glossed (the tafsirs differ). First-person «سأصرف… آياتي» not paraphrased. STAGING v4: c1 (142-143) stays ambient (geometric) on purpose: 143 is Allah speaking to Musa, his request to see Him, and the manifestation to the mountain; one chapter, so 142 stays with it. Nothing is drawn for Musa, Harun, the mountain or its levelling; no light, glow, plate or camera move on 143:25-29: the camera holds wide from 143:22 to 143:30 (holds only). An hourglass for the forty nights (142:3-8), a two-paths plate for the way of reform and the way of the corrupters (142:19-23), a geometric plate for his glorification of Allah (143:36). c2 (144-145): Musa alone at the place of the appointment, a mountain valley by day (blue drop, no people: his people are not with him). Allah speaks, so nothing on the stage is a voice: no speak beat, no glow, no close-up, transition dissolve (no light sweep after 143). A scroll plate for take what I have given you (144:9-11) and a book plate for the tablets (145:4-11); 145:18-20 (the abode of the defiantly disobedient: Al-Muyassar the Fire, As-Sa'di their ruined homes) is not drawn. c3 (146-147): the arrogant deniers, three faceless men in dark robes in a town: the camera on them for their arrogance (146:5); a two-paths plate for the way of guidance and the way of error (146:19-29); they shake their heads on 146:32 (they denied) and turn away on 146:36 (heedless); a leaf plate for their deeds come to nothing (147:6). Nothing of the Hereafter is drawn."
  },
  "cover": {
   "series_ar": "بنو إسرائيل بعد النجاة",
@@ -625,5 +826,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

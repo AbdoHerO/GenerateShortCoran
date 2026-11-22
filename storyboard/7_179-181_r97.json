@@ -112,6 +112,13 @@
        28
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       179,
+       30
+      ],
+      "do": "pan_left"
      }
     ],
     "motifs": []
@@ -126,14 +133,14 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light",
+    "mood": "geometric",
     "beats": [
      {
       "at": [
        180,
        3
       ],
-      "do": "pan_right"
+      "do": "pattern_turn"
      },
      {
       "at": [
@@ -152,37 +159,44 @@
      {
       "at": [
        180,
-       11
+       10
       ],
-      "do": "shot_wide"
+      "do": "pattern_turn"
      },
      {
       "at": [
        180,
-       14
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       181,
-       1
+       12
       ],
       "do": "pan_right"
      },
      {
       "at": [
        181,
-       2
+       1
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       181,
+       3
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        181,
-       6
+       5
       ],
-      "do": "pan_left"
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       181,
+       7
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -193,9 +207,22 @@
       ],
       "until": [
        180,
-       6
+       11
       ],
       "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       180,
+       11
+      ],
+      "until": [
+       181,
+       1
+      ],
+      "motif": "scroll",
       "place": "top",
       "size": "m"
      },
@@ -204,8 +231,21 @@
        181,
        4
       ],
-      "until": null,
+      "until": [
+       181,
+       6
+      ],
       "motif": "light",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       181,
+       6
+      ],
+      "until": null,
+      "motif": "scales",
       "place": "top",
       "size": "m"
      }
@@ -350,7 +390,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "179 (Hell, jinn): night sky, nothing drawn; «ذرأنا لجهنم» is not paraphrased (first person), only As-Sa'di's framing. 179:18-22 not glossed (the excerpt would lose its negation). Geometric for «ولله الأسماء الحسنى», light for the guided community. 180: short-word flag, listen."
+  "notes": "179 (Hell, jinn): night sky, nothing drawn; «ذرأنا لجهنم» is not paraphrased (first person), only As-Sa'di's framing. 179:18-22 not glossed (the excerpt would lose its negation). Geometric for «ولله الأسماء الحسنى», light for the guided community. 180: short-word flag, listen. STAGING v4: Staging v4: kept ambient. c1 (179) is Hell and the jinn (the unseen): unchanged, night sky, nothing drawn. c2 (180-181) opens on Allah's Most Beautiful Names, so the chapter stays ambient; its mood is now geometric (the Names' mood; no light mood over the threat 180:11-14). A geometric plate covers 180:1-10 (the Names, invoking Him by them, and those who deviate in His names), a scroll for the recompense of their deeds (180:11), a light plate for the community that guides by the truth (181:4, not on the Name or a pronoun of Allah) and a scales plate for worldly justice among people (181:6, As-Sa'di: in their rulings; not the Mizan). FOR THE REVIEWER: 181 is a this-world description but shares the chapter with 180 (the Names), so it is ambient."
  },
  "cover": {
   "series_ar": "الميثاق والهدى",
@@ -362,5 +402,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }
