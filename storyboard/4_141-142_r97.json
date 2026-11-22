@@ -74,6 +74,13 @@
      {
       "at": [
        141,
+       22
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       141,
        23
       ],
       "do": "pan_left"
@@ -91,6 +98,13 @@
        29
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       141,
+       31
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
@@ -123,58 +137,112 @@
    "verses": [
     142
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "o",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     },
+     {
+      "id": "q",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     },
+     {
+      "id": "h",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        142,
-       3
+       1
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        142,
-       6
+       2
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       142,
+       5
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
        142,
        8
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "h"
      },
      {
       "at": [
        142,
        11
       ],
-      "do": "shot_wide"
+      "do": "stand_up",
+      "who": "h"
      },
      {
       "at": [
        142,
        13
       ],
-      "do": "pan_left"
+      "do": "pray",
+      "who": "h"
      },
      {
       "at": [
        142,
        14
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        142,
-       18
+       16
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       142,
+       19
+      ],
+      "do": "pan_right"
      }
     ],
     "motifs": [],
@@ -285,7 +353,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Light for «فتح من الله» only. The hypocrites' words to each side («ألم نكن معكم», «ألم نستحوذ عليكم») are not glossed as statements; 141:10-13 says they only show it. 141:30-36 «ولن يجعل الله للكافرين…سبيلا» is glossed with Al-Muyassar's positive «فالعاقبة للمتقين». 142:5-6 «وهو خادعهم» = He requites them with the like of their deed. 141: short-word flag, listen."
+  "notes": "Light for «فتح من الله» only. The hypocrites' words to each side («ألم نكن معكم», «ألم نستحوذ عليكم») are not glossed as statements; 141:10-13 says they only show it. 141:30-36 «ولن يجعل الله للكافرين…سبيلا» is glossed with Al-Muyassar's positive «فالعاقبة للمتقين». 142:5-6 «وهو خادعهم» = He requites them with the like of their deed. 141: short-word flag, listen. STAGING v4: 141 stays ambient: its context in both tafsirs is war, victory and spoils (Al-Muyassar names the war), so no people or crowds are drawn. 142: both tafsirs say the hypocrites stand to prayer lazily and pray to be seen; a small group of men (3, the hypocrites) sits in a prayer hall, gets up only on 142:11 (the second mention of standing, the lazy standing) and starts the prayer on 142:13 (showing off); the camera then moves to the people watching (two plain men, so they do not look like the same group) on 142:14. Nothing is acted on 142:3-6. They pray facing away from the onlookers, never toward them."
  },
  "cover": {
   "series_ar": "القسط والنفاق",
@@ -297,5 +365,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

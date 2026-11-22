@@ -171,6 +171,13 @@
      {
       "at": [
        128,
+       17
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       128,
        18
       ],
       "do": "pan_right"
@@ -366,7 +373,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No people drawn. A book for «الكتاب», scales for «بالقسط» toward orphans (not the Mizan), hands for «صلحا», geometric for Allah's names. 127:22-24 gives Al-Muyassar's two readings («تحبون نكاحهن أو ترغبون عن نكاحهن»). 128:9-15 uses Al-Muyassar's mutual wording rather than As-Sa'di's detail of what the wife gives up."
+  "notes": "No people drawn. A book for «الكتاب», scales for «بالقسط» toward orphans (not the Mizan), hands for «صلحا», geometric for Allah's names. 127:22-24 gives Al-Muyassar's two readings («تحبون نكاحهن أو ترغبون عن نكاحهن»). 128:9-15 uses Al-Muyassar's mutual wording rather than As-Sa'di's detail of what the wife gives up. STAGING v4: Both chapters stay ambient with no people: the rulings on women and orphan girls (127) and on a wife who fears her husband's aversion and the reconciliation of the spouses (128) are private matters and women's rights; 127:1 is a question put to the Prophet."
  },
  "cover": {
   "series_ar": "النساء والصلح",
@@ -378,5 +385,6 @@
    9
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

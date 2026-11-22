@@ -33,21 +33,64 @@
     109,
     110
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "g",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "gather",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "m",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       110,
+       1
+      ],
+      "exit": null,
+      "look": "plain"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        109,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       109,
        3
+      ],
+      "do": "shot_close",
+      "who": "g"
+     },
+     {
+      "at": [
+       109,
+       4
       ],
       "do": "pan_right"
      },
      {
       "at": [
        109,
-       4
+       5
       ],
       "do": "pan_left"
      },
@@ -61,7 +104,7 @@
      {
       "at": [
        109,
-       15
+       14
       ],
       "do": "shot_wide"
      },
@@ -70,31 +113,61 @@
        109,
        18
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        110,
-       1
+       2
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "m"
      },
      {
       "at": [
        110,
        4
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        110,
        7
       ],
-      "do": "pan_left"
+      "do": "bow",
+      "who": "m"
+     },
+     {
+      "at": [
+       110,
+       8
+      ],
+      "do": "raise_hands",
+      "who": "m"
+     },
+     {
+      "at": [
+       110,
+       12
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
+     {
+      "at": [
+       109,
+       12
+      ],
+      "until": [
+       110,
+       2
+      ],
+      "motif": "hourglass",
+      "place": "top",
+      "size": "s"
+     },
      {
       "at": [
        110,
@@ -103,7 +176,7 @@
       "until": null,
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -113,7 +186,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -125,21 +198,69 @@
     111,
     112
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "s",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     },
+     {
+      "id": "i",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       111,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        111,
        3
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "s"
      },
      {
       "at": [
        111,
-       5
+       4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       111,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       112,
+       1
       ],
       "do": "shot_wide"
      },
@@ -148,7 +269,8 @@
        112,
        3
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "s"
      },
      {
       "at": [
@@ -156,20 +278,31 @@
        5
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       112,
+       7
+      ],
+      "do": "point",
+      "who": "s",
+      "to": "i"
      },
      {
       "at": [
        112,
        9
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "i"
      },
      {
       "at": [
        112,
-       12
+       11
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "s"
      },
      {
       "at": [
@@ -191,10 +324,10 @@
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "slide"
    }
   }
  ],
@@ -312,7 +445,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Light for «يستغفر», geometric for Allah's names. 112:1-5: the tafsirs differ on «خطيئة» (Al-Muyassar: unintended; As-Sa'di: a major sin), so it is not glossed. No people drawn, no motif on the blamed acts."
+  "notes": "Light for «يستغفر», geometric for Allah's names. 112:1-5: the tafsirs differ on «خطيئة» (Al-Muyassar: unintended; As-Sa'di: a major sin), so it is not glossed. No people drawn, no motif on the blamed acts. STAGING v4: 109: a small group of men (3, no woman) gathers in a town at dusk, the ones who argued for the treacherous in this world (both tafsirs); no speech arcs, so nobody speaks toward an empty side (the occasion of revelation, the accused and the stolen goods are not drawn); an hourglass plate for the Day (109:12-13), nothing literal. 110: a man enters, lowers his head on 110:7 (returning in regret, Al-Muyassar) and raises his hands on 110:8 (seeking forgiveness); light plate, geometric for the closing names. 111-112: two men in a market; no blamed act is drawn; on 112:7 the wrongdoer points at the other man (casting his sin on an innocent, both tafsirs), the camera holds on the innocent on 112:9 and on the slanderer on 112:11; no reaction is invented for the innocent. Geometric over 111:9-11."
  },
  "cover": {
   "series_ar": "العدل في القضاء",
@@ -320,9 +453,10 @@
   "title_ar": "الجدال عن الخائنين",
   "title_en": "Arguing for the treacherous",
   "at": [
-   110,
-   1
+   109,
+   4
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

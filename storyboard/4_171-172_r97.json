@@ -67,6 +67,13 @@
      {
       "at": [
        171,
+       16
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       171,
        20
       ],
       "do": "pan_left"
@@ -77,6 +84,13 @@
        21
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       171,
+       22
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
@@ -109,7 +123,21 @@
      {
       "at": [
        171,
+       41
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       171,
        43
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       171,
+       47
       ],
       "do": "shot_wide"
      },
@@ -149,6 +177,13 @@
       "at": [
        172,
        5
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       172,
+       8
       ],
       "do": "pan_left"
      },
@@ -333,7 +368,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Isa, Maryam and the angels: no motif. Only geometric on «إنما الله إله واحد». The claim of three is never shown as a statement: 171:29-31 carries the prohibition «ولا تجعلوا…شريكين». «وكلمته» and «وروح منه» are glossed as both tafsirs explain them (the word «كن»; a breath blown by Jibril by His command), never as a part of Allah. 171:35-50 not glossed (no excerpt free of the verse's own wording)."
+  "notes": "Isa, Maryam and the angels: no motif. Only geometric on «إنما الله إله واحد». The claim of three is never shown as a statement: 171:29-31 carries the prohibition «ولا تجعلوا…شريكين». «وكلمته» and «وروح منه» are glossed as both tafsirs explain them (the word «كن»; a breath blown by Jibril by His command), never as a part of Allah. 171:35-50 not glossed (no excerpt free of the verse's own wording). STAGING v4: Both chapters stay ambient. 171: Isa, Maryam and the refutation of the Trinity (only geometric on Allah's oneness; no drop). 172: Isa and the angels near to Allah, and the gathering on the Day (the unseen)."
  },
  "cover": {
   "series_ar": "الوحي والتوحيد",
@@ -345,5 +380,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -33,30 +33,55 @@
     123,
     124
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "g",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "sit",
+      "enter": null,
+      "exit": null,
+      "look": "poor"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        123,
-       3
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       123,
+       4
       ],
       "do": "pan_right"
      },
      {
       "at": [
        123,
-       6
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       123,
        7
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -68,9 +93,9 @@
      {
       "at": [
        123,
-       14
+       13
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -81,17 +106,28 @@
      },
      {
       "at": [
-       123,
-       20
+       124,
+       2
       ],
-      "do": "shot_wide"
+      "do": "give",
+      "who": "g",
+      "to": "p"
+     },
+     {
+      "at": [
+       124,
+       4
+      ],
+      "do": "raise_hands",
+      "who": "p"
      },
      {
       "at": [
        124,
        6
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "g"
      },
      {
       "at": [
@@ -105,26 +141,29 @@
        124,
        13
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        124,
-       14
+       15
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      }
     ],
     "motifs": [
      {
       "at": [
-       124,
-       4
+       123,
+       7
       ],
-      "until": null,
-      "motif": "growth",
+      "until": [
+       123,
+       15
+      ],
+      "motif": "two_paths",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -134,7 +173,7 @@
       "until": null,
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -146,23 +185,68 @@
     125,
     126
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        125,
-       9
+       1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        125,
-       13
+       3
+      ],
+      "do": "pray",
+      "who": "b"
+     },
+     {
+      "at": [
+       125,
+       5
+      ],
+      "do": "sujud",
+      "who": "b"
+     },
+     {
+      "at": [
+       125,
+       8
+      ],
+      "do": "rise",
+      "who": "b"
+     },
+     {
+      "at": [
+       125,
+       10
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       125,
+       14
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
@@ -174,25 +258,27 @@
      {
       "at": [
        126,
-       8
+       2
+      ],
+      "do": "sit",
+      "who": "b"
+     },
+     {
+      "at": [
+       126,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       126,
+       10
       ],
       "do": "shot_wide"
      }
     ],
     "motifs": [
-     {
-      "at": [
-       125,
-       5
-      ],
-      "until": [
-       125,
-       7
-      ],
-      "motif": "hands",
-      "place": "top",
-      "size": "m"
-     },
      {
       "at": [
        126,
@@ -204,7 +290,7 @@
       ],
       "motif": "stars",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -214,10 +300,10 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "light_sweep"
    }
   }
  ],
@@ -346,7 +432,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on the negated «ليس بأمانيكم» or on Ibrahim (125:10-17). Growth for «الصالحات», light for «مؤمن», hands for «أسلم وجهه لله», stars for the heavens, geometric for «محيطا». 123:7-20 is not glossed (no excerpt free of the verse's wording that keeps its negation)."
+  "notes": "No motif on the negated «ليس بأمانيكم» or on Ibrahim (125:10-17). Growth for «الصالحات», light for «مؤمن», hands for «أسلم وجهه لله», stars for the heavens, geometric for «محيطا». 123:7-20 is not glossed (no excerpt free of the verse's wording that keeps its negation). STAGING v4: 123: nothing is acted while the negation 123:1-6 is recited, and no evil deed is drawn on 123:7-11 (two-paths plate ending before the Name). 124: a mixed group of four (men and a woman, for 124:6-8, nobody singled out) gives to a poor man on 124:2 (a righteous deed), who raises his hands on 124:4; light plate on 124:10; Paradise (124:12-13) is not drawn. 125: believers pray; prostration on 125:5 (submitting the face to Allah, both tafsirs) and they rise on 125:8, so nobody bows or prostrates while Ibrahim is named (125:12, 125:16); no drop for Ibrahim and no camera move on him or on the Name. 126: they sit in prayer; stars plate for the heavens, geometric for the closing names."
  },
  "cover": {
   "series_ar": "الشرك والتوحيد",
@@ -355,8 +441,9 @@
   "title_en": "Deeds, not wishes",
   "at": [
    124,
-   1
+   3
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

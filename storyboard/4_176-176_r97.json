@@ -32,14 +32,58 @@
    "verses": [
     176
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "home",
+    "time": "day",
+    "actors": [
+     {
+      "id": "f",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        176,
-       9
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       176,
+       6
+      ],
+      "do": "bow",
+      "who": "f"
+     },
+     {
+      "at": [
+       176,
+       12
+      ],
+      "do": "shot_close",
+      "who": "f"
+     },
+     {
+      "at": [
+       176,
+       14
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       176,
+       18
       ],
       "do": "shot_wide"
      },
@@ -48,12 +92,19 @@
        176,
        22
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        176,
        27
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       176,
+       30
       ],
       "do": "pan_right"
      },
@@ -62,35 +113,36 @@
        176,
        32
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        176,
        35
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "f"
      },
      {
       "at": [
        176,
        38
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        176,
        41
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        176,
        42
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -98,6 +150,13 @@
        46
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       176,
+       48
+      ],
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -106,20 +165,13 @@
        176,
        4
       ],
-      "until": null,
+      "until": [
+       176,
+       9
+      ],
       "motif": "scroll",
       "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       176,
-       14
-      ],
-      "until": null,
-      "motif": "house",
-      "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -132,7 +184,7 @@
       ],
       "motif": "coins",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -142,7 +194,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -229,7 +281,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Last verse of the surah. A scroll for the ruling «يفتيكم», a house for the family, coins for the shares (leaving before «يبين الله لكم»), geometric for «بكل شيء عليم». No scales (an unequal balance on «للذكر مثل حظ الأنثيين» could read as unfairness). No people drawn."
+  "notes": "Last verse of the surah. A scroll for the ruling «يفتيكم», a house for the family, coins for the shares (leaving before «يبين الله لكم»), geometric for «بكل شيء عليم». No scales (an unequal balance on «للذكر مثل حظ الأنثيين» could read as unfairness). No people drawn. STAGING v4: Like 4:11-12: the heirs (3 men, faceless) sit at home and lower their heads on 176:6 (the one who died without parent or child); nobody speaks at all (176:1 is a question put to the Prophet), nobody receives a purse, no woman is singled out and no scales are drawn; scroll plate for the ruling, coins for the shares (ending before the Name), geometric for the closing names."
  },
  "cover": {
   "series_ar": "ميراث الكلالة",
@@ -238,8 +290,9 @@
   "title_en": "Inheritance of brothers and sisters",
   "at": [
    176,
-   1
+   5
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

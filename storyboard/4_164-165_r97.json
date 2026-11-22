@@ -54,6 +54,13 @@
      {
       "at": [
        164,
+       11
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       164,
        14
       ],
       "do": "shot_wide"
@@ -68,6 +75,13 @@
      {
       "at": [
        165,
+       5
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       165,
        7
       ],
       "do": "pan_right"
@@ -78,6 +92,13 @@
        9
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       165,
+       11
+      ],
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -178,7 +199,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on the messengers or on Musa (164:11-14). A book for the stories told «قصصناهم» (leaving before «وكلم الله موسى»), geometric for «عزيزا حكيما». Al-Muyassar's first-person «أرسلت… بثوابي… بعقابي» not used; 165:9 glosses only «حجة» so the negation «لئلا» is not lost."
+  "notes": "No motif on the messengers or on Musa (164:11-14). A book for the stories told «قصصناهم» (leaving before «وكلم الله موسى»), geometric for «عزيزا حكيما». Al-Muyassar's first-person «أرسلت… بثوابي… بعقابي» not used; 165:9 glosses only «حجة» so the negation «لئلا» is not lost. STAGING v4: Stays ambient: the messengers named and unnamed (no figures, and no drops since they are not named one by one), Allah speaking to Musa (His attribute; no drop for Musa with the Name next to it), and the messengers sent as bringers of good news and warners."
  },
  "cover": {
   "series_ar": "الوحي والتوحيد",
@@ -190,5 +211,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -33,35 +33,87 @@
     148,
     149
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "w",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     },
+     {
+      "id": "o",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        148,
-       7
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        148,
+       4
+      ],
+      "do": "shot_close",
+      "who": "o"
+     },
+     {
+      "at": [
+       148,
+       9
+      ],
+      "do": "speak",
+      "who": "w"
+     },
+     {
+      "at": [
+       148,
        10
       ],
-      "do": "pan_left"
+      "do": "point",
+      "who": "w",
+      "to": "o"
      },
      {
       "at": [
        149,
-       2
+       1
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        149,
-       9
+       7
+      ],
+      "do": "shot_close",
+      "who": "w"
+     },
+     {
+      "at": [
+       149,
+       10
       ],
       "do": "shot_wide"
      }
@@ -75,7 +127,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -88,7 +140,7 @@
       ],
       "motif": "hands",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -98,7 +150,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -110,42 +162,74 @@
     150,
     151
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "k",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        150,
-       3
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        150,
+       2
+      ],
+      "do": "shake_head",
+      "who": "k"
+     },
+     {
+      "at": [
+       150,
        6
+      ],
+      "do": "shot_close",
+      "who": "k"
+     },
+     {
+      "at": [
+       150,
+       9
       ],
       "do": "pan_right"
      },
      {
       "at": [
        150,
-       11
+       12
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "k"
      },
      {
       "at": [
        150,
        15
       ],
-      "do": "pan_right"
+      "do": "shake_head",
+      "who": "k"
      },
      {
       "at": [
        150,
-       18
+       19
       ],
       "do": "shot_wide"
      },
@@ -154,24 +238,43 @@
        151,
        1
       ],
+      "do": "shot_close",
+      "who": "k"
+     },
+     {
+      "at": [
+       151,
+       2
+      ],
       "do": "shot_wide"
      },
      {
       "at": [
        151,
-       4
+       5
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        151,
        7
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      }
     ],
-    "motifs": [],
+    "motifs": [
+     {
+      "at": [
+       150,
+       21
+      ],
+      "until": null,
+      "motif": "two_paths",
+      "place": "top",
+      "size": "s"
+     }
+    ],
     "transition": "dissolve"
    }
   }
@@ -290,7 +393,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Geometric for «سميعا عليما» and «عفوا قديرا», hands for «تعفوا». 150-151 under a night sky with no motif; no motif on the messengers. Their words «نؤمن ببعض ونكفر ببعض» are not glossed as a statement; 150:6-11 and 150:17-22 frame them as a claim («يزعم», «إن هذا إلا مجرد أماني»). Al-Muyassar's first-person «وأعتدنا» not used."
+  "notes": "Geometric for «سميعا عليما» and «عفوا قديرا», hands for «تعفوا». 150-151 under a night sky with no motif; no motif on the messengers. Their words «نؤمن ببعض ونكفر ببعض» are not glossed as a statement; 150:6-11 and 150:17-22 frame them as a claim («يزعم», «إن هذا إلا مجرد أماني»). Al-Muyassar's first-person «وأعتدنا» not used. STAGING v4: 148-149: two men in a market; the camera shows the wrongdoer on 148:4; the wronged man speaks on 148:9 and points at the one who wronged him on 148:10 (both tafsirs allow the wronged to state his grievance); nothing is acted inside the conditional 149:1-9 (showing or hiding good, pardoning): only the camera on the wronged man and the hands plate on 149:7; geometric for the names. 150-151: a small group (3) of those who reject the messengers; they shake their heads on 150:2, speak on 150:12 (their claim, framed by the glosses) and shake their heads on 150:15; two-paths plate on 150:21 (the way in between); they stay on stage during 151 and nothing falls on them."
  },
  "cover": {
   "series_ar": "أهل الكتاب وعيسى",
@@ -299,8 +402,9 @@
   "title_en": "Evil speech and pardon",
   "at": [
    149,
-   6
+   8
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -35,6 +35,11 @@ for pid in [a for a in sys.argv[1:] if not a.startswith('--')]:
         ms = sorted(p.get('motifs') or [], key=lambda m: idx.get(tuple(m['at']), 0))
         drop = []
         for k, m in enumerate(ms):
+            at = tuple(m['at'])
+            if m['motif'] == 'light' and at in idx and is_name(V[at[0]][at[1] - 1]):
+                # a LIGHT plate must not appear on the Name: light drawing on with the Name reads as Him appearing as light
+                # (geometric and seal plates on the Name are the series' design for the Names)
+                print(f'{pid} {c["id"]} STARTS-ON-NAME {m["motif"]} at {m["at"]}')
             if m['motif'] in SAFE: continue
             a = idx.get(tuple(m['at']), 0)
             e = len(seq)

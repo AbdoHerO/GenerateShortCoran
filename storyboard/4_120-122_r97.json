@@ -54,6 +54,13 @@
      {
       "at": [
        121,
+       2
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       121,
        3
       ],
       "do": "pan_right"
@@ -251,7 +258,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on the Shaytan; 120-121 (the Fire) under a night sky, nothing literal. 122 (Paradise): light on «الصالحات» only, no river or garden motif."
+  "notes": "No motif on the Shaytan; 120-121 (the Fire) under a night sky, nothing literal. 122 (Paradise): light on «الصالحات» only, no river or garden motif. STAGING v4: Both chapters stay ambient. 120-121: Satan's false promises and the abode of his followers (the unseen). 122: Paradise and Allah's promise (the unseen); only the light plate on 122:4, no river, garden or gold motif."
  },
  "cover": {
   "series_ar": "الشرك والتوحيد",
@@ -263,5 +270,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

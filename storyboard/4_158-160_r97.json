@@ -190,7 +190,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Isa raised: no motif on him, no light rising (it could read as his figure); only geometric on «وكان الله». 159:1-9 «قبل موته» is not glossed: As-Sa'di gives two readings (before each scripturist's death / before Isa's), Al-Muyassar one. Al-Muyassar's first-person «حرمنا» avoided (160:5-9 uses As-Sa'di)."
+  "notes": "Isa raised: no motif on him, no light rising (it could read as his figure); only geometric on «وكان الله». 159:1-9 «قبل موته» is not glossed: As-Sa'di gives two readings (before each scripturist's death / before Isa's), Al-Muyassar one. Al-Muyassar's first-person «حرمنا» avoided (160:5-9 uses As-Sa'di). STAGING v4: Both chapters stay ambient. 158-159: Isa raised to Allah and his witness on the Day (the unseen); no drop, no rising light. 160: the good things made unlawful to them as a punishment for their wrongdoing (Allah's decree): a crowd in a market could not show this without inventing an incident or a group, so it is not drawn."
  },
  "cover": {
   "series_ar": "أهل الكتاب وعيسى",
@@ -202,5 +202,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

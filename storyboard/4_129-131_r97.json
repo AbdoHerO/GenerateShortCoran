@@ -328,7 +328,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No people drawn; no motif on the negated «لن تستطيعوا أن تعدلوا» or «فلا تميلوا». 129:1-6 says what both tafsirs say: full equality is impossible in love and the heart's inclination. Hands for «تصلحوا», growth for «يغن الله كلا», stars for the heavens, geometric for Allah's names. Al-Muyassar's first-person «عهدنا» not used (131:8-18 uses As-Sa'di)."
+  "notes": "No people drawn; no motif on the negated «لن تستطيعوا أن تعدلوا» or «فلا تميلوا». 129:1-6 says what both tafsirs say: full equality is impossible in love and the heart's inclination. Hands for «تصلحوا», growth for «يغن الله كلا», stars for the heavens, geometric for Allah's names. Al-Muyassar's first-person «عهدنا» not used (131:8-18 uses As-Sa'di). STAGING v4: Both chapters stay ambient with no people: fairness between wives (129) and the separation of spouses (130) are private matters; 131 is Allah's dominion, His command of piety and His self-sufficiency (His attributes), in the same chapter as 130."
  },
  "cover": {
   "series_ar": "النساء والصلح",
@@ -340,5 +340,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

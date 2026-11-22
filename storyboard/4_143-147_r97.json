@@ -33,16 +33,66 @@
     143,
     144
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "gather",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "h",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "k",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       143,
+       1
+      ],
+      "do": "turn",
+      "who": "h"
+     },
+     {
+      "at": [
+       143,
+       3
+      ],
+      "do": "turn",
+      "who": "h"
+     },
      {
       "at": [
        143,
        6
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -56,7 +106,7 @@
        143,
        9
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -68,42 +118,45 @@
      {
       "at": [
        143,
-       13
+       14
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "h"
      },
      {
       "at": [
-       143,
-       16
+       144,
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        144,
-       2
+       3
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        144,
-       5
+       6
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "k"
      },
      {
       "at": [
        144,
        8
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        144,
-       9
+       10
       ],
       "do": "shot_wide"
      },
@@ -119,14 +172,14 @@
        144,
        13
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        144,
        16
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -141,7 +194,7 @@
       ],
       "motif": "two_paths",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -189,10 +242,57 @@
     146,
     147
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "h",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       146,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       146,
+       3
+      ],
+      "do": "bow",
+      "who": "h"
+     },
+     {
+      "at": [
+       146,
+       5
+      ],
+      "do": "raise_hands",
+      "who": "h"
+     },
      {
       "at": [
        146,
@@ -205,26 +305,30 @@
        146,
        10
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "h"
      },
      {
       "at": [
        146,
-       12
+       11
       ],
-      "do": "shot_wide"
+      "do": "walk_to",
+      "who": "h",
+      "to": "b"
      },
      {
       "at": [
        146,
-       13
+       14
       ],
-      "do": "pan_right"
+      "do": "sit",
+      "who": "h"
      },
      {
       "at": [
        146,
-       16
+       17
       ],
       "do": "shot_wide"
      },
@@ -240,21 +344,21 @@
        147,
        5
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        147,
        7
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        147,
        8
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -266,7 +370,7 @@
       "until": null,
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -276,10 +380,10 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "light_sweep"
    }
   }
  ],
@@ -441,7 +545,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Two paths for «مذبذبين», nothing for the Fire (145, night sky), then light for «تابوا», hands for «واعتصموا بالله», geometric for «شاكرا عليما». 145:8-11 «ولن تجد لهم نصيرا» is not glossed (the only excerpt would read as a helper). 144:16-17 «سلطانا» not glossed (the tafsirs word the proof differently)."
+  "notes": "Two paths for «مذبذبين», nothing for the Fire (145, night sky), then light for «تابوا», hands for «واعتصموا بالله», geometric for «شاكرا عليما». 145:8-11 «ولن تجد لهم نصيرا» is not glossed (the only excerpt would read as a helper). 144:16-17 «سلطانا» not glossed (the tafsirs word the proof differently). STAGING v4: 143-144: a town at dusk; believers on one side, disbelievers on the other, a small group of men (3, the hypocrites) in the middle turns away and back (143:1, 143:3: wavering); the camera moves to one side and the other on 143:6 and 143:9; nothing is acted on the negations 143:4-9 or on the prohibition 144:4-10 (the believers only stand together). 145 stays ambient: the lowest depth of the Fire (the unseen). 146: in a prayer hall the same small group lowers their heads on 146:3 (repenting), raises their hands on 146:5 (holding fast to Allah, As-Sa'di: taking refuge in Him), walks to the believers on 146:11 (they are with the believers) and sits with them on 146:14; nothing is acted on the conditional 147:5-7. The cover moves to 143 (the hypocrites between the two groups) so that it matches its title."
  },
  "cover": {
   "series_ar": "القسط والنفاق",
@@ -449,9 +553,10 @@
   "title_ar": "مصير المنافقين",
   "title_en": "The hypocrites' end",
   "at": [
-   146,
-   1
+   143,
+   2
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

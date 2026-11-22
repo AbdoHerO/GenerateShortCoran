@@ -34,44 +34,96 @@
     138,
     139
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "h",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "k",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       137,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        137,
        3
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       137,
+       5
+      ],
+      "do": "turn",
+      "who": "h"
      },
      {
       "at": [
        137,
        7
       ],
-      "do": "pan_right"
+      "do": "turn",
+      "who": "h"
      },
      {
       "at": [
        137,
-       10
+       9
       ],
-      "do": "pan_right"
+      "do": "turn",
+      "who": "h"
      },
      {
       "at": [
        137,
-       13
+       11
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        137,
        17
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -85,49 +137,53 @@
        138,
        2
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "h"
      },
      {
       "at": [
        138,
-       4
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       139,
-       1
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       139,
-       4
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       139,
        5
       ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       139,
-       9
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       139,
-       11
-      ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       139,
+       2
+      ],
+      "do": "walk_to",
+      "who": "h",
+      "to": "k"
+     },
+     {
+      "at": [
+       139,
+       4
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       139,
+       7
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       139,
+       8
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       139,
+       10
+      ],
+      "do": "shot_close",
+      "who": "h"
      }
     ],
     "motifs": [
@@ -139,7 +195,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -150,58 +206,120 @@
    "verses": [
     140
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "home",
+    "time": "day",
+    "actors": [
+     {
+      "id": "k",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": [
+       140,
+       19
+      ]
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        140,
-       11
+       1
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        140,
-       15
+       8
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "k"
+     },
+     {
+      "at": [
+       140,
+       13
+      ],
+      "do": "speak",
+      "who": "k"
+     },
+     {
+      "at": [
+       140,
+       16
+      ],
+      "do": "stand_up",
+      "who": "b"
+     },
+     {
+      "at": [
+       140,
+       17
+      ],
+      "do": "walk_to",
+      "who": "b",
+      "to": "left"
      },
      {
       "at": [
        140,
        18
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        140,
-       22
+       21
+      ],
+      "do": "shot_close",
+      "who": "k"
+     },
+     {
+      "at": [
+       140,
+       24
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        140,
-       25
+       26
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        140,
        29
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "k"
      },
      {
       "at": [
        140,
        32
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -216,10 +334,10 @@
       ],
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "slide"
    }
   }
  ],
@@ -359,7 +477,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Night sky throughout; geometric for «فإن العزة لله جميعا», a book for «في الكتاب» that leaves before the mockery. No motif on the hypocrites, the mockers or the Fire."
+  "notes": "Night sky throughout; geometric for «فإن العزة لله جميعا», a book for «في الكتاب» that leaves before the mockery. No motif on the hypocrites, the mockers or the Fire. STAGING v4: 137-139: a town at dusk; believers on one side, disbelievers on the other, and between them a small group of men (3, the hypocrites). They turn their backs on 137:5, face again on 137:7 and turn their backs again on 137:9 (believing then disbelieving, both tafsirs); the camera holds on them during the threat 138; on 139:2 they walk over to the disbelievers (taking them as allies instead of the believers); geometric on 139:13. 140: a sitting in a house; the mockers (3 men) speak on 140:13; the believers sitting with them stand up on 140:16 and walk away on 140:17 (not sitting with them, the ruling), leaving the stage on 140:19 before 140:23-33; the camera holds on the mockers during the warning. No book is shown near the mockery (book plate 140:5-8 only)."
  },
  "cover": {
   "series_ar": "القسط والنفاق",
@@ -368,8 +486,9 @@
   "title_en": "Sitting with mockers",
   "at": [
    140,
-   15
+   14
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

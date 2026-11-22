@@ -32,33 +32,76 @@
    "verses": [
     152
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        152,
-       5
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       152,
-       9
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        152,
-       13
+       2
+      ],
+      "do": "read",
+      "who": "b"
+     },
+     {
+      "at": [
+       152,
+       6
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       152,
+       10
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       152,
+       13
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
+     {
+      "at": [
+       152,
+       2
+      ],
+      "until": [
+       152,
+       10
+      ],
+      "motif": "light",
+      "place": "top",
+      "size": "s"
+     },
      {
       "at": [
        152,
@@ -67,7 +110,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -163,6 +206,13 @@
       "at": [
        153,
        30
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       153,
+       32
       ],
       "do": "pan_right"
      },
@@ -278,7 +328,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on Musa, on «أرنا الله جهرة» (Allah is never depicted), the thunderbolt or the calf; 153 under a night sky. 153:1-9 is not glossed: the tafsirs differ on what was asked (written pages like Musa's tablets / the Quran sent down at once). Al-Muyassar's first-person «فعفونا», «وآتينا» not used. Plan title «طلب كتاب من السماء» repeated «من السماء», so the cover reads «طلب المعجزات»."
+  "notes": "No motif on Musa, on «أرنا الله جهرة» (Allah is never depicted), the thunderbolt or the calf; 153 under a night sky. 153:1-9 is not glossed: the tafsirs differ on what was asked (written pages like Musa's tablets / the Quran sent down at once). Al-Muyassar's first-person «فعفونا», «وآتينا» not used. Plan title «طلب كتاب من السماء» repeated «من السماء», so the cover reads «طلب المعجزات». STAGING v4: 152: believers sit in a prayer hall and read (believing in Allah and all His messengers, both tafsirs); nothing is acted on the negation 152:5-9; light plate, geometric for the closing names. 153 stays ambient: it opens on a request put to the Prophet (he is the addressee, so nobody may speak toward an empty side), then the request to see Allah, the thunderbolt that struck them and the calf: none of these may be drawn. The cover moves to 153 so that it matches its title (no believers under a title about the demand for signs)."
  },
  "cover": {
   "series_ar": "أهل الكتاب وعيسى",
@@ -286,9 +336,10 @@
   "title_ar": "طلب المعجزات",
   "title_en": "Demanding miracles",
   "at": [
-   152,
-   1
+   153,
+   2
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

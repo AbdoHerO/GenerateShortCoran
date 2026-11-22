@@ -110,16 +110,55 @@
     174,
     175
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       174,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       174,
+       2
+      ],
+      "do": "shot_close",
+      "who": "p"
+     },
      {
       "at": [
        174,
        5
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -131,23 +170,31 @@
      {
       "at": [
        174,
-       9
+       8
       ],
-      "do": "pan_right"
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       174,
+       11
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
        175,
-       1
+       2
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        175,
        8
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -155,6 +202,15 @@
        10
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       175,
+       14
+      ],
+      "do": "walk_to",
+      "who": "b",
+      "to": "center"
      }
     ],
     "motifs": [
@@ -166,30 +222,23 @@
       "until": null,
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        175,
        5
       ],
-      "until": null,
+      "until": [
+       175,
+       12
+      ],
       "motif": "hands",
       "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       175,
-       14
-      ],
-      "until": null,
-      "motif": "footsteps",
-      "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "light_sweep"
    }
   }
  ],
@@ -307,7 +356,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Growth for «الصالحات» (leaving before the punishment), light for «نورا مبينا», hands for «واعتصموا به», footsteps for «صراطا مستقيما»; nothing literal for Paradise. 173:18-26 «ولا يجدون لهم… وليا ولا نصيرا» not glossed (the excerpt would read as a protector). Al-Muyassar's first-person «رسولنا», «وأنزلنا» not used."
+  "notes": "Growth for «الصالحات» (leaving before the punishment), light for «نورا مبينا», hands for «واعتصموا به», footsteps for «صراطا مستقيما»; nothing literal for Paradise. 173:18-26 «ولا يجدون لهم… وليا ولا نصيرا» not glossed (the excerpt would read as a protector). Al-Muyassar's first-person «رسولنا», «وأنزلنا» not used. STAGING v4: 173 stays ambient: the requital of the two groups after the gathering (rewards and the painful punishment, the unseen). 174-175: the address to all people: a mixed group in a town (camera only, nothing acted on the address); light plate for the clear light sent down; then the believers: hands plate on 175:5 (holding fast; no gesture, since the tafsirs word it differently: to Allah / to the light sent down) and they walk forward on 175:14 (guided to a straight path); Paradise is not drawn."
  },
  "cover": {
   "series_ar": "الوحي والتوحيد",
@@ -316,8 +365,9 @@
   "title_en": "Proof and guidance",
   "at": [
    174,
-   1
+   2
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }
