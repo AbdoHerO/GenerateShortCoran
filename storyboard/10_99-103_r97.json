@@ -117,10 +117,22 @@
        100,
        9
       ],
-      "motif": "light",
+      "motif": "geometric",
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       99,
+       10
+      ],
+      [
+       99,
+       15
+      ]
+     ]
     ]
    }
   },
@@ -131,60 +143,98 @@
     101,
     102
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "night",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        101,
-       10
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        101,
-       14
+       5
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       101,
+       6
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       101,
+       8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       101,
+       12
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       102,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       102,
+       4
       ],
       "do": "pan_left"
      },
      {
       "at": [
        102,
-       6
+       7
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        102,
        11
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        102,
        13
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
-     {
-      "at": [
-       101,
-       4
-      ],
-      "until": [
-       101,
-       7
-      ],
-      "motif": "stars",
-      "place": "top",
-      "size": "m"
-     },
      {
       "at": [
        102,
@@ -196,10 +246,10 @@
       ],
       "motif": "hourglass",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "iris"
    }
   },
   {
@@ -245,6 +295,18 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       103,
+       1
+      ],
+      [
+       103,
+       10
+      ]
+     ]
     ],
     "transition": "light_sweep"
    }
@@ -364,7 +426,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The Prophet ﷺ is addressed in 99:10-15, 101:1 and 102:10-15: no motif there. Allah's first-person «أوجبناه على أنفسنا» (As-Sa'di) and «ننجيك» (Al-Muyassar) are not used. Geometric for «ولو شاء ربك», light for «بإذن الله» and «ننج المؤمنين» (after «رسلنا»), stars for the heavens, an hourglass for «فهل ينتظرون»."
+  "notes": "The Prophet ﷺ is addressed in 99:10-15, 101:1 and 102:10-15: no motif there. Allah's first-person «أوجبناه على أنفسنا» (As-Sa'di) and «ننجيك» (Al-Muyassar) are not used. Geometric for «ولو شاء ربك», light for «بإذن الله» and «ننج المؤمنين» (after «رسلنا»), stars for the heavens, an hourglass for «فهل ينتظرون». STAGING v4: c1 (99-100) stays ambient (geometric): Allah's will and permission, and 99:10-15 is addressed to the Prophet ﷺ about his own conduct (would you compel people): params.quiet over 99:10-15; the light plate on by the permission of Allah (100:7) is replaced by a geometric one (a light plate never starts on an attribute of Allah). c2 (101-102): the people told to look (Al-Muyassar: the Prophet's ﷺ people), three faceless men in dark robes in a town at night, under the night sky; the command to look is not acted by them (a command to others is never shown as done): the camera tilts up to the heavens (101:5) and down to the earth (101:6); the camera on them for a people who do not believe (101:12; no gesture inside the negation); an hourglass for do they wait (102:2-9; the days of the earlier nations are not drawn). 102:10-15 is the Prophet's ﷺ answer: nobody speaks or turns toward an empty side, the camera only (on them for wait, 102:11, then wide). c3 (103) stays ambient (dawn): Allah's promise to save His messengers and the believers, in His own words; the messengers (of different eras) are not drawn and no group of believers is staged (Al-Muyassar applies it to the Prophet ﷺ and his followers, who are never shown); params.quiet over all of 103; the light plate starts on 103:6, not on a word for Allah."
  },
  "cover": {
   "series_ar": "اليقين والنجاة",
@@ -376,5 +438,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

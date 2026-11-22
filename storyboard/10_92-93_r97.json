@@ -39,6 +39,13 @@
      {
       "at": [
        92,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       92,
        5
       ],
       "do": "pan_left"
@@ -58,7 +65,19 @@
       "do": "pan_right"
      }
     ],
-    "motifs": []
+    "motifs": [],
+    "quiet": [
+     [
+      [
+       92,
+       1
+      ],
+      [
+       92,
+       7
+      ]
+     ]
+    ]
    }
   },
   {
@@ -67,10 +86,50 @@
    "verses": [
     93
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "fields",
+    "time": "day",
+    "actors": [
+     {
+      "id": "a",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "b",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [
+     {
+      "type": "growth",
+      "at": [
+       93,
+       7
+      ],
+      "until": null
+     }
+    ],
     "beats": [
+     {
+      "at": [
+       93,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        93,
@@ -88,23 +147,56 @@
      {
       "at": [
        93,
-       11
+       9
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        93,
-       15
+       11
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "a"
      },
      {
       "at": [
        93,
-       20
+       14
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       93,
+       16
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       93,
+       19
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       93,
+       21
+      ],
+      "do": "walk_to",
+      "who": "a",
+      "to": "left"
+     },
+     {
+      "at": [
+       93,
+       23
+      ],
+      "do": "walk_to",
+      "who": "b",
+      "to": "right"
      }
     ],
     "motifs": [
@@ -119,10 +211,33 @@
       ],
       "motif": "wheat",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       93,
+       13
+      ],
+      "until": [
+       93,
+       16
+      ],
+      "motif": "book",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       93,
+       17
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "wipe"
    }
   }
  ],
@@ -196,7 +311,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Pharaoh's body is never drawn; 92 has no motif. 93:1-6 is not glossed: the tafsirs differ on the land («الشام» and «مصر» in Al-Muyassar; Pharaoh's dwellings in As-Sa'di). Wheat for «ورزقناهم من الطيبات»."
+  "notes": "Pharaoh's body is never drawn; 92 has no motif. 93:1-6 is not glossed: the tafsirs differ on the land («الشام» and «مصر» in Al-Muyassar; Pharaoh's dwellings in As-Sa'di). Wheat for «ورزقناهم من الطيبات». STAGING v4: c1 (92) stays ambient (night_sky): Pharaoh's body cast on a height as a sign is never drawn (no body, no shore with a figure); it is Allah addressing Pharaoh, so params.quiet turns off the word pulses over 92:1-7. c2 (93): the Children of Israel settled and provided for: a generic farmland by day (Al-Muyassar: Syria and Egypt; As-Sa'di: Pharaoh's dwellings, so no landmark is drawn); two small groups of three faceless men side by side (the series' sign for a group, no number meant). The camera is wide whenever the name of the Children of Israel is recited (93:3-4). The land turns green and a wheat plate stands for the good provision (93:7-9, both tafsirs: food and drink); a book plate for until knowledge came to them (93:13-15); nothing is acted inside the restrictive 93:10-14. A geometric plate for your Lord will judge between them on the Day of Resurrection (93:17-24, nothing of the Day drawn); on 93:21-24 (in what they used to differ) the two groups walk apart to the two sides. No fighting, no gesture of hostility."
  },
  "cover": {
   "series_ar": "موسى وفرعون",
@@ -208,5 +323,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

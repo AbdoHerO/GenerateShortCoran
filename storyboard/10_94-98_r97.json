@@ -35,7 +35,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
@@ -81,6 +81,13 @@
      },
      {
       "at": [
+       94,
+       22
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
        95,
        2
       ],
@@ -101,7 +108,19 @@
       "do": "pan_right"
      }
     ],
-    "motifs": []
+    "motifs": [],
+    "quiet": [
+     [
+      [
+       94,
+       1
+      ],
+      [
+       95,
+       10
+      ]
+     ]
+    ]
    }
   },
   {
@@ -111,16 +130,38 @@
     96,
     97
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        96,
-       5
+       1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       96,
+       3
+      ],
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
@@ -134,11 +175,33 @@
        97,
        5
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       97,
+       8
+      ],
+      "do": "shot_wide"
      }
     ],
-    "motifs": [],
-    "transition": "dissolve"
+    "motifs": [
+     {
+      "at": [
+       96,
+       5
+      ],
+      "until": [
+       97,
+       1
+      ],
+      "motif": "seal",
+      "place": "top",
+      "size": "s"
+     }
+    ],
+    "transition": "iris"
    }
   },
   {
@@ -147,16 +210,51 @@
    "verses": [
     98
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 5,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       98,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       98,
+       3
+      ],
+      "do": "pan_left"
+     },
      {
       "at": [
        98,
        5
       ],
-      "do": "pan_left"
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       98,
+       6
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
@@ -170,12 +268,36 @@
        98,
        9
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       98,
+       10
+      ],
+      "do": "bow",
+      "who": "p"
+     },
+     {
+      "at": [
+       98,
+       11
+      ],
+      "do": "raise_hands",
+      "who": "p"
      },
      {
       "at": [
        98,
        13
+      ],
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       98,
+       17
       ],
       "do": "shot_wide"
      },
@@ -184,23 +306,11 @@
        98,
        20
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "p"
      }
     ],
     "motifs": [
-     {
-      "at": [
-       98,
-       10
-      ],
-      "until": [
-       98,
-       14
-      ],
-      "motif": "light",
-      "place": "top",
-      "size": "m"
-     },
      {
       "at": [
        98,
@@ -209,7 +319,7 @@
       "until": null,
       "motif": "hourglass",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "light_sweep"
@@ -341,7 +451,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "94:1-7 carries Al-Muyassar's purpose of the verse («إقامة الحجة على المشركين بشهادة أهل الكتاب»), so the conditional addressed to the Prophet ﷺ is not misread. 94-95 address him: no motif. Yunus (98:9) gets no motif; light for «لما آمنوا» starts after his name. Al-Muyassar's «توبة نصوحا» (66:8) is cut before."
+  "notes": "94:1-7 carries Al-Muyassar's purpose of the verse («إقامة الحجة على المشركين بشهادة أهل الكتاب»), so the conditional addressed to the Prophet ﷺ is not misread. 94-95 address him: no motif. Yunus (98:9) gets no motif; light for «لما آمنوا» starts after his name. Al-Muyassar's «توبة نصوحا» (66:8) is cut before. STAGING v4: c1 (94-95) stays ambient: it is addressed to the Prophet ﷺ himself (a conditional and a warning about his own certainty), so nothing is staged, no one is shown reading the Scripture and no plate is used; mood changed from light to night_sky (95 is a warning: light is never the mood over a threat), and params.quiet turns off the word pulses over all of 94-95. c2 (96-97): those on whom the word of the Lord came into effect: three faceless men in dark robes in a town by day; the camera on them (96:3, 97:5); a seal plate for the word of your Lord (96:5-8); no gesture inside the negated 96:7-8 or the conditional 97:1-4; nothing of the punishment is drawn (97:5-8). c3 (98): the people of Yunus, a town that believed and was spared: a town by day, its people a mixed group of five faceless people (men and women; countable figures as the series' sign for a group, not the uncountable crowd whose rocks read as idols). 98:1-6 (no other town benefited from a late faith) is held wide. Yunus himself is not drawn: the verse names him only to identify his people, and neither tafsir places him among them when they believed; the camera is wide when he is named (98:9). They lower their heads (98:10) and raise their hands (98:11) as they believe and repent (Al-Muyassar: they repented to Allah when they were sure the punishment was coming); no plate is on screen while their hands are raised. The punishment that was lifted is never drawn (no cloud, storm or darkness); the camera on them for We removed from them (98:13); an hourglass for We gave them enjoyment for a time (98:19-21)."
  },
  "cover": {
   "series_ar": "اليقين والنجاة",
@@ -350,8 +460,9 @@
   "title_en": "Repentance before the punishment",
   "at": [
    98,
-   1
+   12
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

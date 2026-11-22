@@ -53,6 +53,13 @@
      {
       "at": [
        128,
+       6
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       128,
        9
       ],
       "do": "shot_wide"
@@ -70,9 +77,28 @@
        12
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       128,
+       14
+      ],
+      "do": "shot_wide"
      }
     ],
-    "motifs": []
+    "motifs": [],
+    "quiet": [
+     [
+      [
+       128,
+       1
+      ],
+      [
+       128,
+       14
+      ]
+     ]
+    ]
    }
   },
   {
@@ -125,6 +151,18 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       129,
+       1
+      ],
+      [
+       129,
+       15
+      ]
+     ]
     ],
     "transition": "dissolve"
    }
@@ -222,7 +260,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "128 is about the Prophet ﷺ: no motif, figure or drop anywhere in it; camera moves only. 129: geometric from «حسبي الله» to the end; the Throne is not drawn (no throne, no light plate on «العرش»)."
+  "notes": "128 is about the Prophet ﷺ: no motif, figure or drop anywhere in it; camera moves only. 129: geometric from «حسبي الله» to the end; the Throne is not drawn (no throne, no light plate on «العرش»). STAGING v4: Both chapters stay ambient: 128 describes the Messenger himself (nothing may stand in for him: no figure, drop or motif) and 129 is his own declaration of reliance on Allah with the Lord of the Throne (the Throne is never drawn). The only change: the background is now quiet over both verses (no pulse in rhythm with the words that could read as a presence)."
  },
  "cover": {
   "series_ar": "الصدق والختام",
@@ -234,5 +272,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

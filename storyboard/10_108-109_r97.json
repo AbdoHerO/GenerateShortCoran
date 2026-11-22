@@ -32,30 +32,81 @@
    "verses": [
     108
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 5,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        108,
-       13
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       108,
-       16
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        108,
-       20
+       3
+      ],
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       108,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       108,
+       10
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       108,
+       13
+      ],
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       108,
+       15
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       108,
+       18
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       108,
+       21
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -70,7 +121,7 @@
       ],
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -83,7 +134,7 @@
       ],
       "motif": "two_paths",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -131,6 +182,18 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       109,
+       1
+      ],
+      [
+       109,
+       8
+      ]
+     ]
     ],
     "transition": "dissolve"
    }
@@ -206,7 +269,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Both verses address the Prophet ﷺ; no plate on his self-description («وما أنا عليكم بوكيل»): the two paths leave before it. As-Sa'di's «ولا يضر الله شيئًا» (3:144 wording) and his closing «بالسيف والسنان» are not used. Light for «قد جاءكم الحق», two paths for «فمن اهتدى… ومن ضل», geometric for «حتى يحكم الله»."
+  "notes": "Both verses address the Prophet ﷺ; no plate on his self-description («وما أنا عليكم بوكيل»): the two paths leave before it. As-Sa'di's «ولا يضر الله شيئًا» (3:144 wording) and his closing «بالسيف والسنان» are not used. Light for «قد جاءكم الحق», two paths for «فمن اهتدى… ومن ضل», geometric for «حتى يحكم الله». STAGING v4: c1 (108): O mankind (the Prophet ﷺ is told to say it): the people addressed, a mixed group of five faceless people in a town by day, held wide or in close-up; the camera only: nobody speaks, points or turns toward an empty side, no plate starts on 108:1, and nothing of whoever is guided / whoever strays (a general conditional) is acted. A light plate for the truth has come to you (108:5-8) and a two-paths plate for guidance and straying (108:9-18), gone before his self-description (108:19-22), which is held wide with no pan. c2 (109) stays ambient (dawn, no threat): the command to the Prophet ﷺ himself to follow the revelation and be patient (his own conduct is never staged); params.quiet over 109:1-8; a geometric plate for until Allah judges (109:7-11). Cover on c2 (holding to the revelation)."
  },
  "cover": {
   "series_ar": "التوحيد الخالص",
@@ -214,9 +277,10 @@
   "title_ar": "الثبات على الوحي",
   "title_en": "Holding to the revelation",
   "at": [
-   108,
-   1
+   109,
+   9
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }
