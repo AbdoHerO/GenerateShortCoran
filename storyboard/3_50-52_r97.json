@@ -210,7 +210,10 @@
       "count": 3,
       "pose": "stand",
       "enter": null,
-      "exit": null
+      "exit": [
+       52,
+       6
+      ]
      },
      {
       "id": "h",
@@ -436,7 +439,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on Isa or the disciples; a scroll for the Torah, a door for what is made lawful, footsteps for the straight path, a seal for the disciples' pledge. STAGING v4: 50-51: Isa (blue drop) speaks to the Children of Israel in a town and points at them on 50:19; scroll plate for the Torah (ended before 50:7), footsteps for the straight path. No glow on the sign 50:14 (next to 50:16); no glow alive at the Name. No gesture by the people on the command 51:5. 52: the people turn away on 52:4-5 (As-Sa'di: they did not submit to him); the plot to kill him is not drawn. The disciples, an uncountable believers group (their number is not given), appear on 52:11 and speak; seal plate for their pledge. Wide shots only."
+  "notes": "No motif on Isa or the disciples; a scroll for the Torah, a door for what is made lawful, footsteps for the straight path, a seal for the disciples' pledge. STAGING v4: 50-51: Isa (blue drop) speaks to the Children of Israel in a town and points at them on 50:19; scroll plate for the Torah (ended before 50:7), footsteps for the straight path. No glow on the sign 50:14 (next to 50:16); no glow alive at the Name. No gesture by the people on the command 51:5. 52: the people turn away on 52:4-5 (As-Sa'di: they did not submit to him) and leave on 52:6, so the disciples never face them as a second crowd; the plot to kill him is not drawn. The disciples, an uncountable believers group (their number is not given), appear on 52:11 and speak; seal plate for their pledge. Wide shots only."
  },
  "cover": {
   "series_ar": "مريم وعيسى",
