@@ -30,7 +30,7 @@ function recent(T, t, span) {
   let lo = 0, hi = W.length - 1, last = -1;
   while (lo <= hi) { const m = (lo + hi) >> 1; if (W[m].s <= t) { last = m; lo = m + 1; } else hi = m - 1; }
   const out = [];
-  for (let i = last; i >= 0 && t - W[i].s < span; i--) out.push({ i, n: W[i].n, p: W[i].p, age: t - W[i].s });
+  for (let i = last; i >= 0 && t - W[i].s < span; i--) if (!W[i].sacred) out.push({ i, n: W[i].n, p: W[i].p, age: t - W[i].s });
   return out;
 }
 const pulseA = (age) => (age < 0 ? 0 : age < 0.12 ? age / 0.12 : Math.exp(-(age - 0.12) * 2.4));

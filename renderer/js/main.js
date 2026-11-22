@@ -40,6 +40,16 @@ async function init(data) {
   R.ready = true;
 }
 
+// Sacred words (the Name, «رب», al-Rahman, a prophet, Maryam, «رسول»/«نبي»): the ambient backgrounds never pulse on
+// them, so no light or pattern brightens as the Name or a prophet is recited (An-Nisa picture review, 2026-11-22).
+const PROPHETS = 'محمد|احمد|موسي|عيسي|مريم|ابراهيم|ابرهيم|اسماعيل|اسحاق|يعقوب|يوسف|نوح|لوط|هارون|داود|داوود|سليمان|زكريا|يحيي|ادم|ايوب|يونس|ادريس|شعيب|صالح|هود|الياس|اليسع|عزير';
+const SACRED_RE = new RegExp(`الله|لله|الاه|الرحمن|^(و|ف|ب|ل|يا)*رب(ي|ك|كم|كما|نا|ه|هم|هما|هن|كن)?$|^(و|ف|ب|ل|يا)*(ال)?(نبي|رسول|رسل)(ه|ك|نا|هم|كم)?$|^(و|ف|ب|ل|يا)*(${PROPHETS})ا?$|^(و|ف|ب|ل|يا)*(ال)?مسيح$`);
+function skel(t) {
+  return String(t).normalize('NFC').replace(/[\u0610-\u061A\u064B-\u065F\u0670\u06D6-\u06ED\u0640]/g, '')
+    .replace(/[ٱأإآ]/g, 'ا').replace(/ى/g, 'ي').replace(/ة/g, 'ه').replace(/ؤ/g, 'و').replace(/ئ/g, 'ي').replace(/ءا/g, 'ا').replace(/[^\u0621-\u064A]/g, '');
+}
+function isSacred(t) { const k = skel(t); return !!k && SACRED_RE.test(k); }
+
 function makeT(c) {
   const seg = (n, p) => vByN.get(n)?.segments.find((s) => s[0] === p);
   const words = [];
@@ -47,7 +57,8 @@ function makeT(c) {
     const v = vByN.get(n); if (!v) continue;
     const last = v.words.length;
     // pause = the reciter stops after this word (waqf sign or end of verse): a natural moment for a camera move
-    for (const s of v.segments) words.push({ n, p: s[0], s: s[1], e: s[2], pause: s[0] === last || WAQF.test(v.words[s[0] - 1]?.text || '') });
+    for (const s of v.segments) words.push({ n, p: s[0], s: s[1], e: s[2], pause: s[0] === last || WAQF.test(v.words[s[0] - 1]?.text || ''),
+      sacred: isSacred(v.words[s[0] - 1]?.text || '') });
   }
   words.sort((a, b) => a.s - b.s);
   return {
