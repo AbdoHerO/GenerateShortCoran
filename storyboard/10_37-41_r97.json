@@ -40,16 +40,16 @@
      {
       "at": [
        37,
-       10
+       8
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        37,
-       13
+       14
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -109,9 +109,22 @@
       ],
       "until": [
        37,
-       5
+       8
       ],
       "motif": "book",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       37,
+       11
+      ],
+      "until": [
+       37,
+       15
+      ],
+      "motif": "scroll",
       "place": "top",
       "size": "m"
      },
@@ -128,6 +141,18 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       38,
+       4
+      ],
+      [
+       38,
+       16
+      ]
+     ]
     ]
    }
   },
@@ -138,54 +163,151 @@
     39,
     40
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "sit",
+      "enter": [
+       40,
+       1
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       39,
+       1
+      ],
+      "do": "walk_to",
+      "who": "d",
+      "to": "center"
+     },
+     {
+      "at": [
+       39,
+       3
+      ],
+      "do": "shake_head",
+      "who": "d"
+     },
+     {
+      "at": [
+       39,
+       5
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
      {
       "at": [
        39,
        10
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        39,
-       14
+       12
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        39,
-       17
+       15
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       39,
+       18
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       40,
+       1
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        40,
        3
       ],
-      "do": "pan_right"
+      "do": "read",
+      "who": "b"
      },
      {
       "at": [
        40,
-       6
+       5
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        40,
-       11
+       7
       ],
-      "do": "pan_left"
+      "do": "shake_head",
+      "who": "d"
+     },
+     {
+      "at": [
+       40,
+       10
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       40,
+       12
+      ],
+      "do": "shot_close",
+      "who": "d"
      }
     ],
     "motifs": [
+     {
+      "at": [
+       39,
+       2
+      ],
+      "until": [
+       39,
+       7
+      ],
+      "motif": "book",
+      "place": "top",
+      "size": "s"
+     },
      {
       "at": [
        39,
@@ -193,24 +315,11 @@
       ],
       "until": [
        39,
-       10
+       11
       ],
       "motif": "hourglass",
       "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       40,
-       1
-      ],
-      "until": [
-       40,
-       10
-      ],
-      "motif": "two_paths",
-      "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "wipe"
@@ -226,6 +335,13 @@
    "params": {
     "mood": "dawn",
     "beats": [
+     {
+      "at": [
+       41,
+       2
+      ],
+      "do": "pan_right"
+     },
      {
       "at": [
        41,
@@ -245,17 +361,36 @@
        41,
        10
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        41,
        12
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       41,
+       14
+      ],
+      "do": "pan_left"
      }
     ],
     "motifs": [],
+    "quiet": [
+     [
+      [
+       41,
+       3
+      ],
+      [
+       41,
+       15
+      ]
+     ]
+    ],
     "transition": "dissolve"
    }
   }
@@ -407,7 +542,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Their claim «افتراه» is framed («المكذبون به عنادًا وبغيًا»). The destruction of past nations (39:15-19) is not glossed or drawn. 41 is the Prophet's ﷺ words: no motif. A book for «القرآن» and «تفصيل الكتاب», an hourglass for «ولما يأتهم تأويله», two paths for «ومنهم من يؤمن به ومنهم من لا يؤمن به»."
+  "notes": "Their claim «افتراه» is framed («المكذبون به عنادًا وبغيًا»). The destruction of past nations (39:15-19) is not glossed or drawn. 41 is the Prophet's ﷺ words: no motif. A book for «القرآن» and «تفصيل الكتاب», an hourglass for «ولما يأتهم تأويله», two paths for «ومنهم من يؤمن به ومنهم من لا يؤمن به». STAGING v4: c1 (37-38) stays ambient: the Quran's origin and the challenge to bring a sura like it (38:4-16 are the Prophet's commanded words: quiet). Plates: a book for the Quran (37:4), a scroll for the earlier scriptures it confirms (37:11), a book for the detailing of the Book (37:15). c2 (39-40) is staged in a town by day: three deniers (dark robes) walk in on 39:1 and shake their heads under a book plate on 39:2-3 (they hastened to deny the Quran before understanding it, Al-Muyassar); an hourglass for what it promised that has not yet come (39:7); the earlier nations and their end are not drawn: on 39:15-19 (addressed to the Prophet) the camera only closes on the deniers. On 40:1 three believers (some of them believe in it) appear sitting and read on 40:3, while the deniers shake their heads on 40:7 (some do not); the threat 40:10-12 keeps the camera on the deniers. c3 (41) stays ambient: the Prophet's commanded words, quiet over 41:3-15. The cover now shows the book plate (37:5)."
  },
  "cover": {
   "series_ar": "إعجاز القرآن",
@@ -416,8 +551,9 @@
   "title_en": "The Quran's challenge",
   "at": [
    37,
-   1
+   5
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

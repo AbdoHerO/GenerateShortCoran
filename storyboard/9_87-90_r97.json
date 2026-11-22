@@ -32,16 +32,61 @@
    "verses": [
     87
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "home",
+    "time": "day",
+    "actors": [
+     {
+      "id": "h",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       87,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       87,
+       3
+      ],
+      "do": "sit",
+      "who": "h"
+     },
+     {
+      "at": [
+       87,
+       5
+      ],
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       87,
+       7
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        87,
        9
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "h"
      }
     ],
     "motifs": [
@@ -56,7 +101,7 @@
       ],
       "motif": "house",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -163,16 +208,64 @@
    "verses": [
     90
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "m",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "k",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        90,
-       4
+       1
       ],
-      "do": "pan_left"
+      "do": "stand_up",
+      "who": "m"
+     },
+     {
+      "at": [
+       90,
+       2
+      ],
+      "do": "shot_close",
+      "who": "m"
+     },
+     {
+      "at": [
+       90,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       90,
+       7
+      ],
+      "do": "shot_close",
+      "who": "k"
      },
      {
       "at": [
@@ -184,12 +277,42 @@
      {
       "at": [
        90,
-       13
+       12
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "k"
+     },
+     {
+      "at": [
+       90,
+       15
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       90,
+       17
+      ],
+      "do": "shot_close",
+      "who": "k"
      }
     ],
-    "motifs": [],
+    "motifs": [
+     {
+      "at": [
+       90,
+       1
+      ],
+      "until": [
+       90,
+       5
+      ],
+      "motif": "footsteps",
+      "place": "top",
+      "size": "s"
+     }
+    ],
     "transition": "slide"
    }
   }
@@ -286,7 +409,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif near «الرسول» (88:2). 89 is Paradise: light mood and motif only, no garden or river. 90:1-6: the tafsirs differ on «المعذرون» (As-Sa'di gives two readings), so only Al-Muyassar's neutral identification is shown. Al-Muyassar's «النصر والغنيمة» and «بالقتل» are not used."
+  "notes": "No motif near «الرسول» (88:2). 89 is Paradise: light mood and motif only, no garden or river. 90:1-6: the tafsirs differ on «المعذرون» (As-Sa'di gives two readings), so only Al-Muyassar's neutral identification is shown. Al-Muyassar's «النصر والغنيمة» and «بالقتل» are not used. STAGING v4: c1 (87): inside a home by day (Al-Muyassar: they stayed in the houses); three men (the hypocrites) sit down on 87:3 (staying behind), a house plate on 87:4-6 (those who stay behind); the women, children and excused of the gloss are not drawn; nothing is drawn for the sealing of hearts (camera only). c2 (88-89) is kept ambient: 88 names the Messenger with the believers who strove with him (fighting) and 89 is Paradise. c3 (90): a desert camp by day (the Bedouins, «الأعراب»; Al-Muyassar: tribes around Medina). Two groups of three men. The ones who came with excuses stand up on 90:1 under a footsteps plate (they set out; the tafsirs differ on whether their excuse was real, so nothing more is shown); nobody speaks and nobody walks toward an empty side (the excuse was presented to the Messenger, who is never shown or implied). The other group stays sitting (90:7, those who lied and sat); the shot is wide while the Name and the Messenger are recited (90:9-11) and holds on the sitters during the threat (90:12-17); no punishment is drawn. Cover: the Bedouins who came with excuses (90:3)."
  },
  "cover": {
   "series_ar": "بعد تبوك",
@@ -294,9 +417,10 @@
   "title_ar": "أهل الأعذار",
   "title_en": "Those with excuses",
   "at": [
-   87,
-   1
+   90,
+   3
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

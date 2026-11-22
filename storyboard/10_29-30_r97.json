@@ -58,7 +58,19 @@
       "do": "pan_right"
      }
     ],
-    "motifs": []
+    "motifs": [],
+    "quiet": [
+     [
+      [
+       29,
+       1
+      ],
+      [
+       29,
+       5
+      ]
+     ]
+    ]
    }
   },
   {
@@ -122,6 +134,18 @@
       "size": "m"
      }
     ],
+    "quiet": [
+     [
+      [
+       30,
+       7
+      ],
+      [
+       30,
+       11
+      ]
+     ]
+    ],
     "transition": "dissolve"
    }
   }
@@ -174,7 +198,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "29 is the saying of those who were worshipped (glossed as their saying). The Day is never drawn. Geometric for «إلى الله مولاهم الحق»."
+  "notes": "29 is the saying of those who were worshipped (glossed as their saying). The Day is never drawn. Geometric for «إلى الله مولاهم الحق». STAGING v4: Both chapters stay ambient (the Day: the worshipped disown their worshippers, every soul tests its deeds). Quiet over 29:1-5 (Allah as witness) and 30:7-11 (returned to Allah, their true Master)."
  },
  "cover": {
   "series_ar": "حقيقة الدنيا",
@@ -186,5 +210,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

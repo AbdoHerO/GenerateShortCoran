@@ -32,58 +32,153 @@
    "verses": [
     24
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "garden",
+    "setting": "garden",
+    "time": "day",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": [
+       24,
+       15
+      ],
+      "exit": null
+     },
+     {
+      "id": "c",
+      "type": "camel",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       24,
+       16
+      ],
+      "exit": null
+     }
+    ],
+    "events": [
+     {
+      "type": "rain",
+      "at": [
+       24,
+       5
+      ],
+      "until": [
+       24,
+       9
+      ]
+     },
+     {
+      "type": "growth",
+      "at": [
+       24,
+       9
+      ],
+      "until": null
+     },
+     {
+      "type": "wither",
+      "at": [
+       24,
+       28
+      ],
+      "until": null
+     }
+    ],
     "beats": [
      {
       "at": [
        24,
-       4
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        24,
-       7
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       24,
-       12
+       3
       ],
       "do": "pan_right"
      },
      {
       "at": [
        24,
-       16
+       4
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       24,
+       8
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       24,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       24,
+       11
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       24,
+       15
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       24,
+       17
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        24,
        18
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        24,
        19
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        24,
-       22
+       21
       ],
-      "do": "shot_wide"
+      "do": "birds"
+     },
+     {
+      "at": [
+       24,
+       23
+      ],
+      "do": "walk_to",
+      "who": "p",
+      "to": "center"
      },
      {
       "at": [
@@ -97,42 +192,44 @@
        24,
        26
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
        24,
        29
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        24,
        30
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        24,
        34
       ],
-      "do": "shot_wide"
+      "do": "bow",
+      "who": "p"
      },
      {
       "at": [
        24,
-       36
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       24,
-       40
+       39
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       24,
+       42
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -146,32 +243,6 @@
      {
       "at": [
        24,
-       5
-      ],
-      "until": [
-       24,
-       9
-      ],
-      "motif": "cloud_rain",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       24,
-       9
-      ],
-      "until": [
-       24,
-       13
-      ],
-      "motif": "growth",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       24,
        13
       ],
       "until": [
@@ -180,20 +251,17 @@
       ],
       "motif": "wheat",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        24,
-       28
-      ],
-      "until": [
-       24,
        35
       ],
-      "motif": "wind",
+      "until": null,
+      "motif": "leaf",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -211,29 +279,36 @@
      {
       "at": [
        25,
-       5
+       2
       ],
       "do": "pan_left"
      },
      {
       "at": [
        25,
-       6
+       3
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       25,
+       6
+      ],
+      "do": "pan_right"
      }
     ],
     "motifs": [
      {
       "at": [
        25,
-       2
+       1
       ],
       "until": [
        25,
        6
       ],
-      "motif": "light",
+      "motif": "geometric",
       "place": "top",
       "size": "m"
      },
@@ -248,7 +323,19 @@
       "size": "m"
      }
     ],
-    "transition": "light_sweep"
+    "quiet": [
+     [
+      [
+       25,
+       1
+      ],
+      [
+       25,
+       8
+      ]
+     ]
+    ],
+    "transition": "dissolve"
    }
   },
   {
@@ -259,7 +346,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
@@ -267,6 +354,13 @@
        5
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       26,
+       8
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
@@ -280,10 +374,22 @@
        26,
        13
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [],
+    "quiet": [
+     [
+      [
+       26,
+       1
+      ],
+      [
+       26,
+       10
+      ]
+     ]
+    ],
     "transition": "dissolve"
    }
   }
@@ -424,7 +530,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The parable of 24 is drawn as a worldly garden (rain, growth, wheat, then wind for «أتاها أمرنا»). 25-26 are Paradise: light and geometric moods, no garden, river or dwelling; light for «يدعو إلى دار السلام», footsteps for «صراط مستقيم». Nothing at all is drawn on «وزيادة» (the vision of Allah; both tafsirs). As-Sa'di's «زوج بهيج» (a Quran phrase) is not used. 25's end has no clean cut, so 24-26 is one unit."
+  "notes": "The parable of 24 is drawn as a worldly garden (rain, growth, wheat, then wind for «أتاها أمرنا»). 25-26 are Paradise: light and geometric moods, no garden, river or dwelling; light for «يدعو إلى دار السلام», footsteps for «صراط مستقيم». Nothing at all is drawn on «وزيادة» (the vision of Allah; both tafsirs). As-Sa'di's «زوج بهيج» (a Quran phrase) is not used. 25's end has no clean cut, so 24-26 is one unit. STAGING v4: c1 (24, the parable of this world) is staged in a garden by day (wither is drawn only in this setting): rain on 24:5 (the water sent down), the ground greens and plants and flowers spring up on 24:9 (mixed with it), people and a camel come on 24:15-16 (what people and livestock eat; a wheat plate for the grains, As-Sa'di), birds on 24:21 (the land takes its adornment); the owners walk into it on 24:23 (they think they have power over it, both tafsirs: to harvest it), then on 24:28 (His command came) the garden withers while the people stand; nobody is hurt and nobody leaves; they lower their heads on 24:34 (As-Sa'di: empty-handed, full of grief) and a falling-leaf plate marks 24:35 (as if it had not flourished). Night or day (24:30-32) is not chosen by any picture beyond the scene's daylight. c2 (25) stays ambient: Allah's call to the abode of peace (Paradise, never drawn); a geometric plate from the Name (25:1) replaces the light plate that started on His call; footsteps for the straight path; quiet over 25:1-8. c3 (26) stays ambient on a night sky (no central light) with the background quiet over 26:1-10: nothing at all marks 26:4 (the vision of Allah, both tafsirs)."
  },
  "cover": {
   "series_ar": "حقيقة الدنيا",
@@ -436,5 +542,6 @@
    2
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

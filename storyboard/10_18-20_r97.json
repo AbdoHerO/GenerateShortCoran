@@ -32,65 +32,109 @@
    "verses": [
     18
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "a",
+      "type": "disbelievers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "b",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        18,
-       6
+       1
       ],
-      "do": "pan_right"
+      "do": "walk_to",
+      "who": "b",
+      "to": "center"
+     },
+     {
+      "at": [
+       18,
+       7
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
        18,
        10
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "a"
      },
      {
       "at": [
        18,
        11
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "a"
      },
      {
       "at": [
        18,
        12
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "b"
      },
      {
       "at": [
        18,
        13
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        18,
        16
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       18,
-       21
-      ],
       "do": "shot_wide"
      },
      {
       "at": [
        18,
-       29
+       20
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       18,
+       23
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       18,
+       28
+      ],
+      "do": "shot_close",
+      "who": "b"
      }
     ],
     "motifs": [
@@ -102,7 +146,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -113,30 +157,96 @@
    "verses": [
     19
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "a",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "b",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        19,
-       5
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        19,
+       3
+      ],
+      "do": "walk_to",
+      "who": "b",
+      "to": "left"
+     },
+     {
+      "at": [
+       19,
+       5
+      ],
+      "do": "shot_close",
+      "who": "a"
+     },
+     {
+      "at": [
+       19,
        7
       ],
-      "do": "pan_left"
+      "do": "walk_to",
+      "who": "b",
+      "to": "right"
+     },
+     {
+      "at": [
+       19,
+       10
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
        19,
        13
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       19,
+       15
+      ],
+      "do": "speak",
+      "who": "a"
+     },
+     {
+      "at": [
+       19,
+       17
+      ],
+      "do": "shake_head",
+      "who": "b"
      }
     ],
     "motifs": [
@@ -151,10 +261,10 @@
       ],
       "motif": "hourglass",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "morph"
    }
   },
   {
@@ -217,6 +327,18 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       20,
+       8
+      ],
+      [
+       20,
+       16
+      ]
+     ]
     ],
     "transition": "wipe"
    }
@@ -325,7 +447,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Their claim «هؤلاء شفعاؤنا عند الله» is framed («قولا خاليا من البرهان»); 18:1-9 is not glossed (As-Sa'di's «مثقال ذرة» is a Quran phrase). No idols drawn. As-Sa'di's first-person «ننجي… ونهلك» is not used. The hourglass in 20 leaves before the Prophet's ﷺ «إني معكم من المنتظرين»."
+  "notes": "Their claim «هؤلاء شفعاؤنا عند الله» is framed («قولا خاليا من البرهان»); 18:1-9 is not glossed (As-Sa'di's «مثقال ذرة» is a Quran phrase). No idols drawn. As-Sa'di's first-person «ننجي… ونهلك» is not used. The hourglass in 20 leaves before the Prophet's ﷺ «إني معكم من المنتظرين». STAGING v4: c1 (18) is staged in a town by day: two small groups of three idolaters (dark robes, countable, never behind rocks) face each other (the second walks in on 18:1); the left group says their claim on 18:10 and the right group answers on 18:12, each toward the other (the claim is framed by the red gloss). No idol, statue or worship is drawn, nobody points (18:11 is a demonstrative) and nobody turns toward an empty side. The reply 18:15-25 is commanded to the Prophet: camera only, no gesture. A geometric plate on 18:26 (His transcendence), the camera closes on the idolaters on 18:28. c2 (19) is staged in the same town: two small groups of plain people; the right group joins the left on 19:3 (one community, both tafsirs) and walks apart on 19:7 (they differed: some disbelieved, some held to the truth, Al-Muyassar); an hourglass plate for the respite (19:8, gone before 19:12); nothing happens on the counterfactual judgement (19:13-14, camera wide); on 19:15-17 the left group speaks toward the right group, which shakes its head (they differ). c3 (20) stays ambient: their demand concerns the Prophet and 20:8-16 are his commanded words; quiet over them. The cover now shows the idolaters' claim (18:12)."
  },
  "cover": {
   "series_ar": "الإنسان والإمهال",
@@ -334,8 +456,9 @@
   "title_en": "So-called intercessors",
   "at": [
    18,
-   1
+   12
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

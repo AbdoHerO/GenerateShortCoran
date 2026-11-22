@@ -39,16 +39,23 @@
      {
       "at": [
        6,
+       6
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       6,
        11
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        6,
        12
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -78,6 +85,18 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       6,
+       6
+      ],
+      [
+       6,
+       11
+      ]
+     ]
     ]
    }
   },
@@ -85,76 +104,113 @@
    "id": "c2",
    "title": "الركون إلى الدنيا",
    "verses": [
-    7,
-    8
+    7
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "a",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "b",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        7,
-       5
+       1
       ],
-      "do": "shot_wide"
+      "do": "walk_to",
+      "who": "b",
+      "to": "center"
+     },
+     {
+      "at": [
+       7,
+       3
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       7,
+       6
+      ],
+      "do": "speak",
+      "who": "a"
+     },
+     {
+      "at": [
+       7,
+       8
+      ],
+      "do": "speak",
+      "who": "b"
+     },
+     {
+      "at": [
+       7,
+       9
+      ],
+      "do": "sit",
+      "who": "a"
      },
      {
       "at": [
        7,
        10
       ],
-      "do": "pan_right"
+      "do": "sit",
+      "who": "b"
      },
      {
       "at": [
        7,
-       11
+       12
       ],
-      "do": "shot_wide"
+      "do": "birds"
      },
      {
       "at": [
        7,
        15
       ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       8,
-       1
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       8,
-       2
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       8,
-       4
-      ],
-      "do": "shot_wide"
+      "do": "turn",
+      "who": "a"
      }
     ],
     "motifs": [
      {
       "at": [
        7,
-       6
+       7
       ],
       "until": [
        7,
        11
       ],
-      "motif": "wind",
+      "motif": "coins",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "wipe"
@@ -162,6 +218,35 @@
   },
   {
    "id": "c3",
+   "title": "مصير المعرضين",
+   "verses": [
+    8
+   ],
+   "scene": "ambient",
+   "params": {
+    "mood": "night_sky",
+    "beats": [
+     {
+      "at": [
+       8,
+       2
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       8,
+       3
+      ],
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": [],
+    "transition": "dissolve"
+   }
+  },
+  {
+   "id": "c4",
    "title": "ثواب المؤمنين",
    "verses": [
     9,
@@ -245,7 +330,7 @@
        9,
        9
       ],
-      "motif": "light",
+      "motif": "geometric",
       "place": "top",
       "size": "m"
      },
@@ -255,10 +340,32 @@
        11
       ],
       "until": null,
-      "motif": "light",
+      "motif": "geometric",
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       9,
+       6
+      ],
+      [
+       9,
+       8
+      ]
+     ],
+     [
+      [
+       10,
+       1
+      ],
+      [
+       10,
+       14
+      ]
+     ]
     ],
     "transition": "light_sweep"
    }
@@ -400,7 +507,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "7:11-15 is not glossed (Al-Muyassar keeps the first person «آياتنا»). The Fire (8) and Paradise (9-10) are never drawn: geometric and light moods, no river; a lamp for «يهديهم ربهم», light for «الحمد لله رب العالمين». Night and day for «اختلاف الليل والنهار», stars for the heavens, wind for the fleeting life."
+  "notes": "7:11-15 is not glossed (Al-Muyassar keeps the first person «آياتنا»). The Fire (8) and Paradise (9-10) are never drawn: geometric and light moods, no river; a lamp for «يهديهم ربهم», light for «الحمد لله رب العالمين». Night and day for «اختلاف الليل والنهار», stars for the heavens, wind for the fleeting life. STAGING v4: The old chapter 7-8 is split (owner rule: an unseen verse is ambient). c1 (6) stays ambient: night and day and what He created (His acts); quiet over 6:6-11. c2 (7) is staged in a market by day: two small groups of three men (blamed, so no woman is drawn; the second walks in on 7:1) trade and talk with each other on 7:6 and 7:8 (content with this world, both tafsirs), sit down at ease on 7:9-10 (As-Sa'di: they relied on it), and on the signs (7:12-14, Al-Muyassar: the signs in creation and the revealed ones) a few birds cross the sky while one group turns its back (7:15, heedless). Nobody gestures in the negated clause 7:1-5. A coins plate for this world's life (7:7). c3 (8, new title) is ambient on a night sky: their abode in the Fire, never drawn, no plate. c4 (9-10) stays ambient (Paradise): no river or garden; the plates are now geometric (a light plate starting on His guiding, 9:6, or one word before the Name, 10:11, reads as Him appearing as light), and the background stays quiet over 9:6-8 and verse 10 (their glorification and the greeting, which Al-Muyassar gives as from Allah and His angels)."
  },
  "cover": {
   "series_ar": "آيات الخلق والبعث",
@@ -412,5 +519,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

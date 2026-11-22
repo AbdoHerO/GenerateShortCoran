@@ -79,6 +79,18 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       11,
+       1
+      ],
+      [
+       11,
+       15
+      ]
+     ]
     ]
    }
   },
@@ -88,35 +100,107 @@
    "verses": [
     12
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "home",
+    "time": "day",
+    "actors": [
+     {
+      "id": "m",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        12,
+       1
+      ],
+      "do": "shot_close",
+      "who": "m"
+     },
+     {
+      "at": [
+       12,
+       3
+      ],
+      "do": "bow",
+      "who": "m"
+     },
+     {
+      "at": [
+       12,
+       5
+      ],
+      "do": "raise_hands",
+      "who": "m"
+     },
+     {
+      "at": [
+       12,
        8
+      ],
+      "do": "raise_hands",
+      "who": "m"
+     },
+     {
+      "at": [
+       12,
+       10
+      ],
+      "do": "stand_up",
+      "who": "m"
+     },
+     {
+      "at": [
+       12,
+       11
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        12,
-       16
+       15
+      ],
+      "do": "walk_to",
+      "who": "m",
+      "to": "right"
+     },
+     {
+      "at": [
+       12,
+       17
       ],
       "do": "pan_right"
      },
      {
       "at": [
        12,
-       20
+       21
       ],
-      "do": "pan_left"
+      "do": "turn",
+      "who": "m"
      },
      {
       "at": [
        12,
-       24
+       23
+      ],
+      "do": "shot_close",
+      "who": "m"
+     },
+     {
+      "at": [
+       12,
+       26
       ],
       "do": "shot_wide"
      }
@@ -125,28 +209,15 @@
      {
       "at": [
        12,
-       5
+       15
       ],
       "until": [
        12,
-       11
+       19
       ],
-      "motif": "hands",
+      "motif": "footsteps",
       "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       12,
-       11
-      ],
-      "until": [
-       12,
-       22
-      ],
-      "motif": "wind",
-      "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "dissolve"
@@ -165,6 +236,13 @@
      {
       "at": [
        13,
+       4
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       13,
        6
       ],
       "do": "pan_left"
@@ -172,9 +250,23 @@
      {
       "at": [
        13,
+       8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       13,
        9
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       13,
+       10
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
@@ -192,6 +284,28 @@
      }
     ],
     "motifs": [],
+    "quiet": [
+     [
+      [
+       13,
+       1
+      ],
+      [
+       13,
+       3
+      ]
+     ],
+     [
+      [
+       13,
+       14
+      ],
+      [
+       13,
+       17
+      ]
+     ]
+    ],
     "transition": "wipe"
    }
   }
@@ -310,7 +424,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Al-Muyassar's first-person «فنترك… عقابنا» is not used. Nothing drawn for the destroyed nations (13). An hourglass for «لقضي إليهم أجلهم», hands for the prayer in distress, wind for «مر كأن لم يدعنا»."
+  "notes": "Al-Muyassar's first-person «فنترك… عقابنا» is not used. Nothing drawn for the destroyed nations (13). An hourglass for «لقضي إليهم أجلهم», hands for the prayer in distress, wind for «مر كأن لم يدعنا». STAGING v4: c1 (11) stays ambient: His forbearance in a conditional (if He hastened evil), nothing happens on screen; quiet over 11:1-15. c2 (12) is staged in a home by day: one man (man in general, As-Sa'di) sits at home (the harm: illness or calamity, As-Sa'di) and lowers his head on 12:3, raises his hands in du'a on 12:5 and again on 12:8 (he insists in du'a in every state, As-Sa'di), stands up on 12:10 (standing), then once the harm is lifted he walks off on 12:15 (he went on as before, Al-Muyassar) under a footsteps plate and turns his back on 12:21 (turning from his Lord, As-Sa'di). The lying-on-his-side state is not drawn (a lying figure reads as asleep or shrouded). Nothing marks the relief itself (His act): no light, no sparkle. c3 (13) stays ambient on a night sky: the destroyed generations are never drawn; quiet over 13:1-3 and 13:14-17. The cover now shows the man raising his hands (12:8)."
  },
  "cover": {
   "series_ar": "الإنسان والإمهال",
@@ -319,8 +433,9 @@
   "title_en": "Man in hardship",
   "at": [
    12,
-   1
+   8
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

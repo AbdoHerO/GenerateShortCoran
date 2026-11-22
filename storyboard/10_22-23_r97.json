@@ -32,14 +32,67 @@
    "verses": [
     22
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "sea",
+    "setting": "sea_shore",
+    "time": "day",
+    "actors": [
+     {
+      "id": "c",
+      "type": "camel",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "walk",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "walk",
+      "enter": null,
+      "exit": [
+       22,
+       11
+      ]
+     },
+     {
+      "id": "s",
+      "type": "ship",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [
+     {
+      "type": "storm",
+      "at": [
+       22,
+       19
+      ],
+      "until": null
+     }
+    ],
     "beats": [
      {
       "at": [
        22,
-       4
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       22,
+       5
       ],
       "do": "pan_left"
      },
@@ -48,7 +101,30 @@
        22,
        7
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       22,
+       9
+      ],
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       22,
+       12
+      ],
+      "do": "shot_close",
+      "who": "s"
+     },
+     {
+      "at": [
+       22,
+       14
+      ],
+      "do": "wind"
      },
      {
       "at": [
@@ -62,85 +138,68 @@
        22,
        16
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       22,
+       20
+      ],
+      "do": "wind"
      },
      {
       "at": [
        22,
        21
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        22,
-       25
+       24
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        22,
        26
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "s"
      },
      {
       "at": [
        22,
-       27
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       22,
-       32
+       28
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        22,
-       35
+       32
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       22,
+       36
+      ],
+      "do": "shot_close",
+      "who": "s"
      },
      {
       "at": [
        22,
        39
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
-     {
-      "at": [
-       22,
-       11
-      ],
-      "until": [
-       22,
-       16
-      ],
-      "motif": "ship",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       22,
-       19
-      ],
-      "until": [
-       22,
-       21
-      ],
-      "motif": "wind",
-      "place": "top",
-      "size": "m"
-     },
      {
       "at": [
        22,
@@ -152,7 +211,7 @@
       ],
       "motif": "wave",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -165,7 +224,7 @@
       ],
       "motif": "hands",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -176,10 +235,54 @@
    "verses": [
     23
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "sea_shore",
+    "time": "day",
+    "actors": [
+     {
+      "id": "c",
+      "type": "camel",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": [
+       23,
+       2
+      ],
+      "exit": null
+     },
+     {
+      "id": "s",
+      "type": "ship",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       23,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        23,
@@ -190,51 +293,69 @@
      {
       "at": [
        23,
-       3
+       5
+      ],
+      "do": "walk_to",
+      "who": "p",
+      "to": "center"
+     },
+     {
+      "at": [
+       23,
+       8
       ],
       "do": "pan_left"
      },
      {
       "at": [
        23,
-       9
+       10
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        23,
-       12
+       13
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
        23,
        15
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        23,
        19
       ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       23,
+       21
+      ],
       "do": "shot_wide"
      },
      {
       "at": [
        23,
-       22
+       23
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
        23,
        25
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -247,12 +368,12 @@
        23,
        19
       ],
-      "motif": "wind",
+      "motif": "leaf",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "morph"
    }
   }
  ],
@@ -370,7 +491,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The sea journey is a parable of man, not a punishment: `sea` mood, a ship, then wind and waves for the storm; hands for the sincere prayer, leaving before «الله». No people drawn. Their vow (22:35-41) is not glossed. 23:19-25 is not glossed (Al-Muyassar's first-person «فنخبركم»)."
+  "notes": "The sea journey is a parable of man, not a punishment: `sea` mood, a ship, then wind and waves for the storm; hands for the sincere prayer, leaving before «الله». No people drawn. Their vow (22:35-41) is not glossed. 23:19-25 is not glossed (Al-Muyassar's first-person «فنخبركم»). STAGING v4: c1 (22) is staged on a sea shore by day: a camel and three travellers come along the shore (He makes you travel by land and sea; Al-Muyassar: on mounts and in ships) and the travellers fade out beside the ship as 22:11 (the ship) is recited: they have boarded; the people aboard are not drawn after that. A gust on 22:14 (the good wind), then the storm from 22:19 (the stormy wind; nobody is hurt and the ship stays whole), a wave plate for the waves from every side (22:22). Their sincere du'a (22:30) is shown only by a hands plate that leaves on the Name (22:31); their vow (22:35-41) gets camera only. c2 (23) on the same shore, calm: the three men appear by the ship on 23:2 (He saved them) and walk inland on 23:5 (they transgress on the land; the gloss says they forgot the hardship and the du'a); nobody faces an empty side, no idol is implied. The admonition (23:10-25) gets camera moves on them and a falling-leaf plate for the brief enjoyment of this world (23:16). The cover now shows the ship in the storm (22:26)."
  },
  "cover": {
   "series_ar": "حقيقة الدنيا",
@@ -379,8 +500,9 @@
   "title_en": "Sincerity in distress",
   "at": [
    22,
-   1
+   26
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

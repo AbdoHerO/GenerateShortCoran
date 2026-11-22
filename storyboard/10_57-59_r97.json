@@ -33,10 +33,49 @@
     57,
     58
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 5,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       57,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       57,
+       2
+      ],
+      "do": "shot_close",
+      "who": "p"
+     },
      {
       "at": [
        57,
@@ -49,28 +88,39 @@
        57,
        6
       ],
-      "do": "pan_right"
+      "do": "read",
+      "who": "b"
      },
      {
       "at": [
        57,
        8
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       57,
+       11
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        57,
        13
       ],
-      "do": "pan_left"
+      "do": "read",
+      "who": "b"
      },
      {
       "at": [
        57,
        14
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
@@ -82,9 +132,25 @@
      {
       "at": [
        58,
-       6
+       5
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       58,
+       8
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       58,
+       10
+      ],
+      "do": "shot_close",
+      "who": "p"
      }
     ],
     "motifs": [
@@ -99,7 +165,7 @@
       ],
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -112,7 +178,7 @@
       ],
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -122,7 +188,7 @@
       "until": null,
       "motif": "coins",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -133,35 +199,90 @@
    "verses": [
     59
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "fields",
+    "time": "day",
+    "actors": [
+     {
+      "id": "c",
+      "type": "camel",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        59,
-       4
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        59,
-       11
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       59,
-       13
+       4
       ],
       "do": "pan_left"
      },
      {
       "at": [
        59,
-       16
+       7
+      ],
+      "do": "shot_close",
+      "who": "c"
+     },
+     {
+      "at": [
+       59,
+       9
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       59,
+       12
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       59,
+       14
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       59,
+       17
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       59,
+       20
       ],
       "do": "shot_wide"
      }
@@ -178,10 +299,20 @@
       ],
       "motif": "wheat",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       59,
+       15
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "wipe"
    }
   }
  ],
@@ -255,7 +386,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "58:1-4 is not glossed: the tafsirs divide «بفضل الله وبرحمته» differently (Al-Muyassar: Islam and the guidance; As-Sa'di: the Quran, then the religion). A book for «موعظة», light for «وهدى ورحمة», coins for «مما يجمعون», wheat for «من رزق»."
+  "notes": "58:1-4 is not glossed: the tafsirs divide «بفضل الله وبرحمته» differently (Al-Muyassar: Islam and the guidance; As-Sa'di: the Quran, then the religion). A book for «موعظة», light for «وهدى ورحمة», coins for «مما يجمعون», wheat for «من رزق». STAGING v4: c1 (57-58): a town by day. Mankind addressed (57:1-2) is a mixed group of five faceless people (men and women) on the right; the believers (three men in light robes) sit on the left and read (57:6, 57:13: the Quran, an admonition, a healing and a guidance for the believers, both tafsirs); a book plate for the admonition (57:5-6, gone before 57:7), a light plate for guidance and mercy (57:12 to 58:1, never starting on the Name), the camera on the believers for 57:14. 58 is the Prophet's ﷺ instruction (say): nobody gestures in it, no plate starts on 58:1; the camera on the believers for in that let them rejoice (58:5) and on the people for what they amass (58:10), with a coins plate for the worldly goods (58:9-10, As-Sa'di: the goods of this world). c2 (59): the Prophet's ﷺ rebuke to the polytheists who forbade some of Allah's provision: farmland by day with a camel (both tafsirs name animals, Al-Muyassar also plants) and the polytheists (three faceless men in dark robes). They make no gesture inside his words (camera only): the camera on the camel and a wheat plate for provision (59:7-10), on them for you made some unlawful (59:9), and for do you invent about Allah (59:17); a geometric plate for has Allah permitted you (59:15-20). No particular animal ruling is drawn."
  },
  "cover": {
   "series_ar": "القرآن والطمأنينة",
@@ -264,8 +395,9 @@
   "title_en": "A cure for hearts",
   "at": [
    57,
-   1
+   9
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

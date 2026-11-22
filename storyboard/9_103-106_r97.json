@@ -35,7 +35,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
@@ -123,7 +123,7 @@
        104,
        10
       ],
-      "motif": "light",
+      "motif": "geometric",
       "place": "top",
       "size": "m"
      },
@@ -140,6 +140,18 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       103,
+       1
+      ],
+      [
+       104,
+       16
+      ]
+     ]
     ]
    }
   },
@@ -167,6 +179,13 @@
        7
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       105,
+       8
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
@@ -417,7 +436,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "103 is addressed to the Prophet ﷺ: no hands or other plate on «وصل عليهم» or «صلاتك»; coins for the charity, geometric for «سميع عليم». 105:1-2 «اعملوا» is not glossed: the tafsirs differ on who is addressed. An hourglass for «مرجون», two paths for «إما… وإما»."
+  "notes": "103 is addressed to the Prophet ﷺ: no hands or other plate on «وصل عليهم» or «صلاتك»; coins for the charity, geometric for «سميع عليم». 105:1-2 «اعملوا» is not glossed: the tafsirs differ on who is addressed. An hourglass for «مرجون», two paths for «إما… وإما». STAGING v4: c1 (103-104) stays ambient: 103 is Allah's command to the Messenger himself (take from their wealth, pray for them; his prayer is a comfort for them), so nothing stands in for him: no giver, no receiver, no hands; 104 is Allah's own acts and Names (He accepts repentance and takes the charities). The mood moves from dawn to night_sky (no central light source) and the background is quiet over both verses; the plate on 104:6 (He accepts repentance) is now geometric instead of light (a light plate must not start on His act or attribute). c2 (105-106) is kept ambient: 105 is the Messenger's message (say: work) on which the tafsirs differ about who is addressed and what the work is (Al-Muyassar: those who stayed behind, work for Allah; As-Sa'di: the hypocrites, a threat), with the return to the Knower of the unseen; 106 is Allah's pending decree on those deferred (punish or forgive), so no group is drawn for either."
  },
  "cover": {
   "series_ar": "أصناف الناس",
@@ -429,5 +448,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

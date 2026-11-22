@@ -95,16 +95,58 @@
    "verses": [
     122
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "h",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "walk",
+      "enter": [
+       122,
+       16
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       122,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       122,
+       3
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
      {
       "at": [
        122,
        5
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -118,28 +160,61 @@
        122,
        10
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        122,
-       14
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       122,
-       17
+       12
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        122,
+       13
+      ],
+      "do": "read",
+      "who": "b"
+     },
+     {
+      "at": [
+       122,
+       15
+      ],
+      "do": "read",
+      "who": "b"
+     },
+     {
+      "at": [
+       122,
+       17
+      ],
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       122,
+       19
+      ],
+      "do": "speak",
+      "who": "b"
+     },
+     {
+      "at": [
+       122,
        20
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       122,
+       22
+      ],
+      "do": "shot_close",
+      "who": "h"
      }
     ],
     "motifs": [
@@ -154,7 +229,7 @@
       ],
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "page_turn"
@@ -190,6 +265,13 @@
        13
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       123,
+       15
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [],
@@ -267,7 +349,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Fighting verse: the command is not glossed; no battle, weapon, march or army drawn; no present-day reading and no people targeted. No motif on the Prophet ﷺ. 123:1-11 is not glossed and nothing is drawn in 123 (Al-Muyassar's «ابدؤوا بقتال الأقرب…» is not used); only As-Sa'di's «المعونة من اللّه تنزل بحسب التقوى». 121: the chip starts at «إلا كتب لهم» (a full-verse chip was wider than the screen). Coins for «نفقة», a book for «ليتفقهوا في الدين»."
+  "notes": "Fighting verse: the command is not glossed; no battle, weapon, march or army drawn; no present-day reading and no people targeted. No motif on the Prophet ﷺ. 123:1-11 is not glossed and nothing is drawn in 123 (Al-Muyassar's «ابدؤوا بقتال الأقرب…» is not used); only As-Sa'di's «المعونة من اللّه تنزل بحسب التقوى». 121: the chip starts at «إلا كتب لهم» (a full-verse chip was wider than the screen). Coins for «نفقة», a book for «ليتفقهوا في الدين». STAGING v4: c1 (121) and c3 (123) are kept ambient (spending and crossing valleys on the expedition; the fighting command). c2 (122): a town by day. Both tafsirs say that those who learn are the ones who STAY while a party goes out (Al-Muyassar: «ليتفقه القاعدون عن القتال»; As-Sa'di: «أي: القاعدون»), so three believers sit in the town and nobody is shown going out (no march, no weapon, no army). They read on 122:13 and 122:15 (to gain understanding of the religion: As-Sa'di, to learn the knowledge of the law) under a book plate; three people (their people) walk in from the right on 122:16 (when they return to them) and the believers speak to them on 122:19 (to warn them with what they learned when they return: both tafsirs); nothing is acted on 122:21-22 (that they may beware), the camera is on the people. Nobody faces an empty side and no teacher is implied: the believers read from the book themselves. Cover: the believers reading (122:13)."
  },
  "cover": {
   "series_ar": "الصدق والختام",
@@ -276,8 +358,9 @@
   "title_en": "Seeking knowledge",
   "at": [
    122,
-   1
+   13
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

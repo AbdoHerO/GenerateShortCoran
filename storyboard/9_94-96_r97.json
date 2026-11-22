@@ -32,21 +32,76 @@
    "verses": [
     94
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "walk",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "h",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       94,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       94,
+       2
+      ],
+      "do": "speak",
+      "who": "h"
+     },
+     {
+      "at": [
+       94,
+       4
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
      {
       "at": [
        94,
        6
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        94,
-       13
+       9
+      ],
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       94,
+       12
       ],
       "do": "shot_wide"
      },
@@ -55,28 +110,45 @@
        94,
        16
       ],
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       94,
+       17
+      ],
       "do": "shot_wide"
      },
      {
       "at": [
        94,
-       19
+       21
+      ],
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       94,
+       23
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       94,
+       27
       ],
       "do": "pan_right"
      },
      {
       "at": [
        94,
-       28
+       29
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       94,
-       30
-      ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "h"
      }
     ],
     "motifs": [
@@ -91,7 +163,7 @@
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -103,28 +175,77 @@
     95,
     96
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "h",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        95,
-       4
+       1
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "h"
      },
      {
       "at": [
        95,
-       8
+       3
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        95,
-       12
+       6
+      ],
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       95,
+       9
+      ],
+      "do": "turn",
+      "who": "b"
+     },
+     {
+      "at": [
+       95,
+       11
+      ],
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       95,
+       13
       ],
       "do": "shot_wide"
      },
@@ -140,31 +261,73 @@
        95,
        17
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       96,
+       1
+      ],
+      "do": "speak",
+      "who": "h"
      },
      {
       "at": [
        96,
        4
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        96,
-       7
+       8
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "h"
      },
      {
       "at": [
        96,
-       10
+       11
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       96,
+       13
+      ],
+      "do": "shot_close",
+      "who": "h"
      }
     ],
-    "motifs": [],
+    "motifs": [
+     {
+      "at": [
+       96,
+       1
+      ],
+      "until": [
+       96,
+       8
+      ],
+      "motif": "wind",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       96,
+       9
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "s"
+     }
+    ],
     "transition": "dissolve"
    }
   }
@@ -294,7 +457,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Anchored in Tabuk (94:1-5). The oaths of 95-96 are framed («كاذبين معتذرين», «كذبًا»). 96 keeps Al-Muyassar's «ممن استمروا على الفسوق» (As-Sa'di: the door of repentance stays open). Geometric for «عالم الغيب والشهادة»; nothing drawn for the Fire (95)."
+  "notes": "Anchored in Tabuk (94:1-5). The oaths of 95-96 are framed («كاذبين معتذرين», «كذبًا»). 96 keeps Al-Muyassar's «ممن استمروا على الفسوق» (As-Sa'di: the door of repentance stays open). Geometric for «عالم الغيب والشهادة»; nothing drawn for the Fire (95). STAGING v4: c1 (94): a town by day. Three believers walk in from the left (returning: Al-Muyassar, from Tabuk; nothing of the expedition is drawn) and three men (the hypocrites who stayed behind) stand on the right and speak toward the believers on 94:2 (they make excuses to you, the believers: Al-Muyassar). The answer of 94:6-11 is the Messenger's («قل»): nobody acts it; the camera holds on the hypocrites; the shot is wide while the Messenger is named (94:17-20); a geometric plate on the Knower of the unseen (94:24-26); nothing is drawn for the return to Him. c2 (95-96): the same town. The hypocrites swear on 95:1 toward the believers (to you: both tafsirs); the believers turn their backs on 95:9 (the command to them: Al-Muyassar, avoid them; As-Sa'di, no rebuke and no punishment, only turning away); during the threat and the Fire (95:11-18) the camera holds on the hypocrites, nothing is drawn for the Fire. They swear again on 96:1 under a wind plate (empty oaths) that leaves before the Name; nothing is acted on the conditional 96:5-7; a geometric plate on 96:9 and the camera on the hypocrites for the end of the verse. Cover: the hypocrites making excuses (94:2)."
  },
  "cover": {
   "series_ar": "بعد تبوك",
@@ -303,8 +466,9 @@
   "title_en": "Excuses refused",
   "at": [
    94,
-   1
+   2
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

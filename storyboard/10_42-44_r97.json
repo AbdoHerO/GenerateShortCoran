@@ -68,6 +68,13 @@
      {
       "at": [
        43,
+       3
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       43,
        5
       ],
       "do": "pan_right"
@@ -77,10 +84,22 @@
        43,
        8
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
-    "motifs": []
+    "motifs": [],
+    "quiet": [
+     [
+      [
+       42,
+       1
+      ],
+      [
+       43,
+       11
+      ]
+     ]
+    ]
    }
   },
   {
@@ -197,7 +216,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "42-43 address the Prophet ﷺ: no motif there; no deaf or blind people drawn. Scales (justice in this life, not the Mizan) for «إن الله لا يظلم الناس شيئا»."
+  "notes": "42-43 address the Prophet ﷺ: no motif there; no deaf or blind people drawn. Scales (justice in this life, not the Mizan) for «إن الله لا يظلم الناس شيئا». STAGING v4: Both chapters stay ambient. c1 (42-43) is Allah's address to the Prophet about those who listen to him and look at him (how people behave toward him: never staged); no plate, no deaf or blind people drawn, and the background stays quiet over both verses. c2 (44) is kept: His justice, a geometric plate."
  },
  "cover": {
   "series_ar": "إعجاز القرآن",
@@ -209,5 +228,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

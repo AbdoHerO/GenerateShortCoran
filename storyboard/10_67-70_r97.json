@@ -32,30 +32,86 @@
    "verses": [
     67
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
-    "beats": [
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
      {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [
+     {
+      "type": "sunrise_open",
       "at": [
        67,
        8
       ],
-      "do": "pan_left"
-     },
+      "until": null
+     }
+    ],
+    "beats": [
      {
       "at": [
        67,
-       10
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        67,
-       14
+       6
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       67,
+       8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       67,
+       9
+      ],
+      "do": "stand_up",
+      "who": "p"
+     },
+     {
+      "at": [
+       67,
+       10
+      ],
+      "do": "walk_to",
+      "who": "p",
+      "to": "right"
+     },
+     {
+      "at": [
+       67,
+       13
+      ],
+      "do": "look_up",
+      "who": "p"
+     },
+     {
+      "at": [
+       67,
+       15
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -70,7 +126,7 @@
       ],
       "motif": "night_day",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -85,7 +141,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
@@ -135,6 +191,13 @@
        9
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       70,
+       3
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
@@ -205,6 +268,18 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       70,
+       4
+      ],
+      [
+       70,
+       13
+      ]
+     ]
     ],
     "transition": "dissolve"
    }
@@ -313,7 +388,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Their claim (68:1-4) is framed («بهت المشركين»); Al-Muyassar's examples of the claim are not shown. 68:8-14 is not glossed (Al-Muyassar's «يكون له ولد» is 6:101 wording). Night and day for 67, geometric for «سبحانه هو الغني», stars for the heavens, wind for «متاع في الدنيا»."
+  "notes": "Their claim (68:1-4) is framed («بهت المشركين»); Al-Muyassar's examples of the claim are not shown. 68:8-14 is not glossed (Al-Muyassar's «يكون له ولد» is 6:101 wording). Night and day for 67, geometric for «سبحانه هو الغني», stars for the heavens, wind for «متاع في الدنيا». STAGING v4: c1 (67), the night for rest and the day for sight: a town at nightfall (dusk, windows lit; a full night stage cannot brighten into day), a family (four faceless people, men and a woman) sitting at rest (67:6, both tafsirs: rest after the toil of seeking a living); a night-and-day plate (67:5-9); the sun rises over the town on 67:8 (the day, giving sight) and the family stands (67:9) and walks off to its affairs (67:10, As-Sa'di: they go about their livelihoods); they look up at the sky for signs for a people who listen (67:13). Not the sleep pose (it reads as shrouded bodies). c2 (68-70) stays ambient: the claim that Allah took a son (framed by the gloss, never acted by anyone), His glorification and self-sufficiency, the Prophet's ﷺ instruction (69) and the return and punishment in the Hereafter (70). Mood changed from geometric to night_sky: the verse refutes a son, and Al-Muyassar names the Messiah among the claims, so the Names' mood is not used over it. params.quiet over Allah's first-person words on the return and the punishment (70:4-13). Plates kept: geometric for glorified is He (68:5-7), stars for the heavens (68:10-14, gone before 68:22), wind for brief enjoyment (70:1-3)."
  },
  "cover": {
   "series_ar": "القرآن والطمأنينة",
@@ -321,9 +396,10 @@
   "title_ar": "تنزيه الخالق",
   "title_en": "Glorifying the Creator",
   "at": [
-   67,
-   1
+   68,
+   6
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

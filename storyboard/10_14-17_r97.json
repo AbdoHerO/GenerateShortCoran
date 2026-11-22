@@ -32,10 +32,31 @@
    "verses": [
     14
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "mountains",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "walk",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       14,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        14,
@@ -46,7 +67,15 @@
      {
       "at": [
        14,
-       4
+       5
+      ],
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       14,
+       9
       ],
       "do": "shot_wide"
      }
@@ -60,7 +89,7 @@
       "until": null,
       "motif": "hourglass",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -114,6 +143,13 @@
      {
       "at": [
        15,
+       20
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       15,
        22
       ],
       "do": "pan_left"
@@ -121,9 +157,16 @@
      {
       "at": [
        15,
+       25
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       15,
        26
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -137,14 +180,14 @@
        15,
        33
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        15,
        37
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -165,14 +208,14 @@
        16,
        9
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        16,
        12
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -180,6 +223,13 @@
        16
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       16,
+       18
+      ],
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -196,6 +246,28 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       15,
+       17
+      ],
+      [
+       15,
+       39
+      ]
+     ],
+     [
+      [
+       16,
+       1
+      ],
+      [
+       16,
+       18
+      ]
+     ]
     ],
     "transition": "dissolve"
    }
@@ -373,7 +445,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "15-17 are the Prophet's ﷺ words: no motif there. Their demand (15:11-16) is framed («وطلبوا وجوه التعنت… جراءة منهم وظلما»). Al-Muyassar's first-person «لننظر… فنجازيكم» is not used. Mountains for the earth they inherit (no name of Allah in 14), an hourglass for «لننظر كيف تعملون», a book for «تتلى عليهم آياتنا»."
+  "notes": "15-17 are the Prophet's ﷺ words: no motif there. Their demand (15:11-16) is framed («وطلبوا وجوه التعنت… جراءة منهم وظلما»). Al-Muyassar's first-person «لننظر… فنجازيكم» is not used. Mountains for the earth they inherit (no name of Allah in 14), an hourglass for «لننظر كيف تعملون», a book for «تتلى عليهم آياتنا». STAGING v4: c1 (14) is staged in a town by day: a small mixed group of people (the address is to people in general, Al-Muyassar) walks in and settles (successors in the land after the destroyed generations, who are not drawn: no ruins); an hourglass plate on 14:8 for the time of their test. c2 (15-16) stays ambient: the demand to change the Quran is addressed to the Prophet (never shown) and 15:17-16:18 are his commanded words, so nobody is drawn and the background stays quiet over them; a book plate on 15:2 for the verses recited. c3 (17) is kept ambient (the greatest wrong and the criminals' failure, a general statement)."
  },
  "cover": {
   "series_ar": "الإنسان والإمهال",
@@ -385,5 +457,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

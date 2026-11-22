@@ -32,23 +32,72 @@
    "verses": [
     119
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "s",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        119,
-       4
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        119,
+       3
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       119,
        5
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       119,
+       6
+      ],
+      "do": "walk_to",
+      "who": "b",
+      "to": "s"
+     },
+     {
+      "at": [
+       119,
+       8
+      ],
+      "do": "shot_close",
+      "who": "s"
      }
     ],
     "motifs": [
@@ -60,7 +109,7 @@
       "until": null,
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -75,6 +124,13 @@
    "params": {
     "mood": "geometric",
     "beats": [
+     {
+      "at": [
+       120,
+       5
+      ],
+      "do": "pan_left"
+     },
      {
       "at": [
        120,
@@ -99,9 +155,23 @@
      {
       "at": [
        120,
+       17
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       120,
        18
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       120,
+       20
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -178,6 +248,18 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       120,
+       9
+      ],
+      [
+       120,
+       18
+      ]
+     ]
     ],
     "transition": "dissolve"
    }
@@ -264,7 +346,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Fighting verse: the command is not glossed; no battle, weapon, march or army drawn; no present-day reading and no people targeted. No motif on the Prophet ﷺ. 120 is anchored in its time (As-Sa'di: «من المهاجرين، والأنصار»). 120:31-46 («يغيظ الكفار… نيلا») is not glossed; Al-Muyassar's «قتلا أو هزيمة» is not used. No motif on «رسول الله» (120:12) or «نفسه» (120:18). Light for «وكونوا مع الصادقين» and «لا يضيع أجر المحسنين»."
+  "notes": "Fighting verse: the command is not glossed; no battle, weapon, march or army drawn; no present-day reading and no people targeted. No motif on the Prophet ﷺ. 120 is anchored in its time (As-Sa'di: «من المهاجرين، والأنصار»). 120:31-46 («يغيظ الكفار… نيلا») is not glossed; Al-Muyassar's «قتلا أو هزيمة» is not used. No motif on «رسول الله» (120:12) or «نفسه» (120:18). Light for «وكونوا مع الصادقين» and «لا يضيع أجر المحسنين». STAGING v4: c1 (119): a town by day. The call is to the believers: three believers on the left; three believers on the right stand for the truthful. Nothing is acted on the command of 119:4 (fear Allah); the shot is wide on the Name (119:5); on 119:6 the left group walks over to stand with the truthful (be with the truthful: both tafsirs, in their words, deeds and states), under a light plate; no occasion of revelation is staged. c2 (120) stays ambient: staying behind from the Messenger and preferring themselves over him, and the reward of those who go out to fight (thirst, fatigue, hunger, treading ground, reaching the enemy): battle context; the background is now quiet over 120:9-18 (staying behind from the Messenger and his own self). Cover: the believers together with the truthful (119:8)."
  },
  "cover": {
   "series_ar": "الصدق والختام",
@@ -273,8 +355,9 @@
   "title_en": "In the company of the truthful",
   "at": [
    119,
-   1
+   8
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

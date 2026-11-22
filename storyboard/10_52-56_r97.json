@@ -82,9 +82,9 @@
      {
       "at": [
        53,
-       8
+       9
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -129,7 +129,33 @@
       "do": "shot_wide"
      }
     ],
-    "motifs": [],
+    "motifs": [
+     {
+      "at": [
+       53,
+       7
+      ],
+      "until": [
+       53,
+       9
+      ],
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "quiet": [
+     [
+      [
+       53,
+       1
+      ],
+      [
+       53,
+       8
+      ]
+     ]
+    ],
     "transition": "dissolve"
    }
   },
@@ -142,8 +168,15 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light",
+    "mood": "geometric",
     "beats": [
+     {
+      "at": [
+       55,
+       2
+      ],
+      "do": "pan_right"
+     },
      {
       "at": [
        55,
@@ -340,7 +373,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "52 and 54 (Hell, the ransom): nothing drawn, no gold motif. 53 is the Prophet's ﷺ answer: no motif. Their question is framed («على وجه التعنت والعناد»). Stars for the heavens, geometric for «إن وعد الله حق», night and day for «يحيي ويميت»."
+  "notes": "52 and 54 (Hell, the ransom): nothing drawn, no gold motif. 53 is the Prophet's ﷺ answer: no motif. Their question is framed («على وجه التعنت والعناد»). Stars for the heavens, geometric for «إن وعد الله حق», night and day for «يحيي ويميت». STAGING v4: Stays ambient throughout (no this-world scene to stage): 52 is the Hereafter (the punishment of eternity), 53 is the deniers asking the Prophet ﷺ and his sworn answer (how people behave toward him is never staged: a group asking toward an empty side would stand for him), 54 is the Day (the ransom, the hidden regret, the judgement), 55-56 are Allah's dominion, His promise and His giving life and death. c2: params.quiet over 53:1-8 (the address to the Prophet ﷺ and his oath), a geometric plate for it is the truth (53:7-8). c3 (55-56): mood changed from light to geometric, as 55:10-12 includes the promise of punishment for the polytheists (Al-Muyassar) and 56:4-5 the return for recompense (As-Sa'di); light is never the mood over a threat. No scales at the judgement (54:16-18), no gold for the ransom (54:6-10)."
  },
  "cover": {
   "series_ar": "الوعد والوعيد",
@@ -352,5 +385,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

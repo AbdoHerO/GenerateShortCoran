@@ -33,28 +33,59 @@
     97,
     98
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "k",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "h",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        97,
-       3
+       1
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        97,
-       5
+       3
       ],
       "do": "pan_left"
      },
      {
       "at": [
        97,
-       10
+       5
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       97,
+       9
       ],
       "do": "shot_wide"
      },
@@ -63,19 +94,42 @@
        97,
        12
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        97,
-       16
+       14
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       98,
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        98,
-       8
+       3
+      ],
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       98,
+       7
+      ],
+      "do": "shake_head",
+      "who": "h"
+     },
+     {
+      "at": [
+       98,
+       9
       ],
       "do": "shot_wide"
      },
@@ -84,28 +138,42 @@
        98,
        10
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        98,
        11
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "h"
      },
      {
       "at": [
        98,
-       13
+       14
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
      {
       "at": [
+       97,
+       8
+      ],
+      "until": [
+       97,
+       10
+      ],
+      "motif": "book",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
        98,
-       5
+       6
       ],
       "until": [
        98,
@@ -113,7 +181,21 @@
       ],
       "motif": "coins",
       "place": "top",
-      "size": "m"
+      "size": "s",
+      "exit": "undraw"
+     },
+     {
+      "at": [
+       98,
+       8
+      ],
+      "until": [
+       98,
+       11
+      ],
+      "motif": "hourglass",
+      "place": "top",
+      "size": "s"
      }
     ]
    }
@@ -124,44 +206,83 @@
    "verses": [
     99
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        99,
-       6
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        99,
-       14
+       4
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        99,
-       19
+       7
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        99,
-       23
+       11
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        99,
-       26
+       13
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       99,
+       18
+      ],
+      "do": "sparkle",
+      "who": "b"
+     },
+     {
+      "at": [
+       99,
+       20
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       99,
+       24
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -176,7 +297,7 @@
       ],
       "motif": "coins",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -189,10 +310,10 @@
       ],
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "light_sweep"
+    "transition": "iris"
    }
   }
  ],
@@ -343,7 +464,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "«الأعراب» are the desert dwellers of that time; 97:2-4 carries As-Sa'di's qualified comparison («ففي البادية أشد وأغلظ مما في الحاضرة») and 99 opens with his «وليس الأعراب كلهم مذمومين», so no people is blamed as a whole. No people drawn. Coins for the spending, light for «ألا إنها قربة لهم». No motif on «صلوات الرسول»."
+  "notes": "«الأعراب» are the desert dwellers of that time; 97:2-4 carries As-Sa'di's qualified comparison («ففي البادية أشد وأغلظ مما في الحاضرة») and 99 opens with his «وليس الأعراب كلهم مذمومين», so no people is blamed as a whole. No people drawn. Coins for the spending, light for «ألا إنها قربة لهم». No motif on «صلوات الرسول». STAGING v4: c1 (97-98): a desert camp by day (both tafsirs: the Bedouins are the people of the desert). Two groups of three men sit by the tents; no gesture and no close shot in 97, which speaks of the desert people in general (the gloss keeps As-Sa'di's qualified comparison): wide shots and gentle pans only; a book plate on 97:8-9 (the limits of what was revealed, gone before the Name and the Messenger); the shot is wide while they are recited. 98 is about some of them («ومن الأعراب من»): only the right group acts. A coins plate on 98:6 (what they spend) that undraws on 98:8 (counted as a loss); they shake their heads on 98:7 (As-Sa'di: they hardly pay it except unwillingly); an hourglass on 98:8-10 (they wait for turns of misfortune on you); the camera holds on them for 98:11-13 (the evil turn is upon them); nothing is drawn for any misfortune. c2 (99): the same desert, three believers (the believing Bedouins); a coins plate on their spending (99:9-10); nobody gives (their spending was brought to the Messenger, who is never shown, and no recipient is invented); the shot is wide while the Messenger's prayers are recited (99:13-15); a light plate on 99:16 (a nearness for them) and a soft sparkle on them on 99:18."
  },
  "cover": {
   "series_ar": "أصناف الناس",
@@ -355,5 +476,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

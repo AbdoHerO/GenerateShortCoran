@@ -32,14 +32,64 @@
    "verses": [
     100
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "a",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "m",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "walk",
+      "enter": [
+       100,
+       4
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        100,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       100,
        4
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       100,
+       5
+      ],
+      "do": "walk_to",
+      "who": "a",
+      "to": "center"
+     },
+     {
+      "at": [
+       100,
+       7
       ],
       "do": "shot_wide"
      },
@@ -48,42 +98,58 @@
        100,
        8
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        100,
-       15
+       9
+      ],
+      "do": "shot_close",
+      "who": "a"
+     },
+     {
+      "at": [
+       100,
+       12
+      ],
+      "do": "shot_close",
+      "who": "m"
+     },
+     {
+      "at": [
+       100,
+       14
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        100,
-       18
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       100,
-       22
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       100,
-       24
+       17
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       100,
+       20
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       100,
+       23
+      ],
+      "do": "pan_right"
      }
     ],
     "motifs": [
      {
       "at": [
        100,
-       6
+       7
       ],
       "until": [
        100,
@@ -91,20 +157,17 @@
       ],
       "motif": "footsteps",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        100,
        9
       ],
-      "until": [
-       100,
-       14
-      ],
-      "motif": "light",
+      "until": null,
+      "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -177,6 +240,18 @@
       "size": "m"
      }
     ],
+    "quiet": [
+     [
+      [
+       101,
+       12
+      ],
+      [
+       101,
+       22
+      ]
+     ]
+    ],
     "transition": "dissolve"
    }
   },
@@ -186,10 +261,47 @@
    "verses": [
     102
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "home",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       102,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       102,
+       2
+      ],
+      "do": "bow",
+      "who": "b"
+     },
+     {
+      "at": [
+       102,
+       3
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
      {
       "at": [
        102,
@@ -200,9 +312,25 @@
      {
       "at": [
        102,
+       9
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       102,
+       12
+      ],
+      "do": "raise_hands",
+      "who": "b"
+     },
+     {
+      "at": [
+       102,
        14
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -213,24 +341,21 @@
       ],
       "until": [
        102,
-       9
+       6
       ],
       "motif": "two_paths",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        102,
-       9
+       15
       ],
-      "until": [
-       102,
-       14
-      ],
-      "motif": "light",
+      "until": null,
+      "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "light_sweep"
@@ -384,7 +509,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "100: the Companions are praised in the tafsirs' words; no people drawn; Paradise (14-22): light only, no river. 101:14-17 «سنعذبهم مرتين» is not glossed: the tafsirs differ on the two punishments. 102: two paths for the mixed deeds, light for «عسى الله أن يتوب عليهم»."
+  "notes": "100: the Companions are praised in the tafsirs' words; no people drawn; Paradise (14-22): light only, no river. 101:14-17 «سنعذبهم مرتين» is not glossed: the tafsirs differ on the two punishments. 102: two paths for the mixed deeds, light for «عسى الله أن يتوب عليهم». STAGING v4: c1 (100): a town by day (Medina). Three believers stand on the left (the Ansar); three believers walk in from the right on 100:4 (the Muhajirun: Al-Muyassar, they left their people and moved to the abode of Islam); on 100:5 the Ansar walk to the middle of the town to meet them (As-Sa'di, quoting 59:9: they love those who emigrated to them) and the two groups stand side by side; a footsteps plate on 100:7-8 (those who followed them); a geometric plate from 100:9 to the end (Allah pleased with them, His reward; a light plate would start on His attribute). Paradise (100:14-25) is words only: the camera stays on the believers in the town, no garden, river or gold is drawn. Nobody speaks, bows or turns toward an empty side. c2 (101) stays ambient: hypocrites hidden among them, Allah tells the Messenger that he does not know them and that He will punish them twice (the tafsirs differ on the two punishments); the background is quiet over 101:12-22 (Allah's speech in the first person). c3 (102): inside a home by day; three believers (those who confessed: Medina and around it). They lower their heads on 102:2 (they admitted their sins and regretted them: both tafsirs); the two-paths plate on 102:4-5 (they mixed good with bad; it leaves before 102:6, whose spelling the name check reads as a prophet's name); they raise their hands on 102:12 (As-Sa'di: hoping that Allah forgives them; no plate over the raised hands); a geometric plate on 102:15 (Forgiving, Merciful). No pillar or mosque is drawn (no occasion of revelation is staged). Cover: the Muhajirun and the Ansar together (100:8)."
  },
  "cover": {
   "series_ar": "أصناف الناس",
@@ -393,8 +518,9 @@
   "title_en": "The best of the community",
   "at": [
    100,
-   1
+   8
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

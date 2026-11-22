@@ -32,14 +32,53 @@
    "verses": [
     107
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "h",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        107,
-       4
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       107,
+       2
+      ],
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       107,
+       5
       ],
       "do": "shot_wide"
      },
@@ -48,45 +87,77 @@
        107,
        8
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        107,
        9
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       107,
+       11
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        107,
        14
       ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       107,
-       17
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       107,
-       20
-      ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       107,
+       16
+      ],
+      "do": "speak",
+      "who": "h"
+     },
+     {
+      "at": [
+       107,
+       18
+      ],
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       107,
+       21
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        107,
        23
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "h"
      }
     ],
     "motifs": [
+     {
+      "at": [
+       107,
+       3
+      ],
+      "until": [
+       107,
+       5
+      ],
+      "motif": "bricks",
+      "place": "top",
+      "size": "s"
+     },
      {
       "at": [
        107,
@@ -98,7 +169,17 @@
       ],
       "motif": "wind",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       107,
+       21
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "s"
      }
     ]
    }
@@ -109,30 +190,77 @@
    "verses": [
     108
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "walk",
+      "enter": [
+       108,
+       5
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        108,
-       15
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        108,
-       18
+       6
       ],
       "do": "pan_left"
      },
      {
       "at": [
        108,
-       22
+       10
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       108,
+       12
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       108,
+       16
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       108,
+       19
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       108,
+       22
+      ],
+      "do": "pray",
+      "who": "b"
      }
     ],
     "motifs": [
@@ -147,20 +275,20 @@
       ],
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        108,
-       20
+       18
       ],
       "until": [
        108,
        21
       ],
-      "motif": "cloud_rain",
+      "motif": "drop",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "light_sweep"
@@ -189,6 +317,13 @@
        10
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       109,
+       18
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
@@ -373,7 +508,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No mosque or building drawn, and nothing of its destruction (Al-Muyassar's «وقد هُدِم… وأُحرِق» is not used); Abu 'Amir is not named. Their oath (107:16-20) is not glossed; 107:21-24 «فيما يحلفون عليه». Wind for «وتفريقا بين المؤمنين», light for «أسس على التقوى», rain for «يتطهروا», geometric for «تقوى من الله», a mountain for «شفا جرف هار» that leaves before the Fire."
+  "notes": "No mosque or building drawn, and nothing of its destruction (Al-Muyassar's «وقد هُدِم… وأُحرِق» is not used); Abu 'Amir is not named. Their oath (107:16-20) is not glossed; 107:21-24 «فيما يحلفون عليه». Wind for «وتفريقا بين المؤمنين», light for «أسس على التقوى», rain for «يتطهروا», geometric for «تقوى من الله», a mountain for «شفا جرف هار» that leaves before the Fire. STAGING v4: c1 (107): a town by day (As-Sa'di: hypocrites of the people of Quba). Three men (the hypocrites) on the right, three believers on the left. A brick-wall plate on 107:3-4 (they built a mosque: Al-Muyassar); the mosque itself is never drawn and nothing of its destruction is drawn or suggested (the plate dissolves, it does not undraw). A wind plate on 107:6-8 (dividing the believers); the camera holds on the hypocrites for 107:9 (the station prepared for the one who fought); the one who fought is not drawn or named; the shot is wide while the Name and the Messenger are recited (107:11-13). They swear on 107:16 (Al-Muyassar: kindness to the Muslims and room for the weak), toward the believers who are present (nobody speaks toward an empty side); a geometric plate on 107:21 (Allah testifies) and the camera on them for 107:23-24. c2 (108): a prayer hall by day (the mosque founded on piety: Quba, both tafsirs). It is empty while 108:1-4 is recited (the prohibition is addressed to the Messenger; nobody stands in the hall then); three believers walk in on 108:5 (the mosque founded on piety); a light plate on 108:8-11 (piety); no prayer is started on «تقوم» (108:14) so no imam is implied; the camera closes on them on 108:16 (in it are men); a water-drop plate on 108:18-20 (they love to purify themselves: Al-Muyassar, with water) that leaves before the Name; they stand in prayer on 108:22 facing the empty side of the hall (nobody stands there; no plate during the prayer). c3 (109) is kept ambient: the parable ends in the collapse into the Fire. Cover: the believers in the mosque founded on piety (108:17)."
  },
  "cover": {
   "series_ar": "مسجد الضرار",
@@ -381,9 +516,10 @@
   "title_ar": "المسجدان",
   "title_en": "The two mosques",
   "at": [
-   107,
-   1
+   108,
+   17
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

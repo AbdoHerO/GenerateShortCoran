@@ -82,6 +82,13 @@
      {
       "at": [
        46,
+       8
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       46,
        10
       ],
       "do": "shot_wide"
@@ -91,7 +98,7 @@
        46,
        13
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -108,6 +115,28 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       45,
+       1
+      ],
+      [
+       45,
+       2
+      ]
+     ],
+     [
+      [
+       46,
+       1
+      ],
+      [
+       46,
+       15
+      ]
+     ]
     ]
    }
   },
@@ -120,8 +149,15 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light",
+    "mood": "night_sky",
     "beats": [
+     {
+      "at": [
+       47,
+       2
+      ],
+      "do": "pan_right"
+     },
      {
       "at": [
        47,
@@ -134,7 +170,7 @@
        47,
        7
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -148,18 +184,25 @@
        48,
        1
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        48,
        3
       ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       48,
+       6
+      ],
       "do": "shot_wide"
      }
     ],
     "motifs": [],
-    "transition": "light_sweep"
+    "transition": "dissolve"
    }
   },
   {
@@ -226,6 +269,18 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       49,
+       1
+      ],
+      [
+       49,
+       11
+      ]
+     ]
     ],
     "transition": "dissolve"
    }
@@ -367,7 +422,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The Gathering is never drawn. 46 and 49:1-11 concern the Prophet ﷺ: no motif there. 47:4-12 is not glossed: the tafsirs differ on when the judgement between a nation and its messenger falls (Al-Muyassar: the Hereafter; As-Sa'di: this world). Their question (48) is framed. An hourglass for «كأن لم يلبثوا إلا ساعة» and for «لكل أمة أجل». 49:1-11 is one chip, so «إلا ما شاء الله» stays with «لا أملك»; its gloss is As-Sa'di's «وأما حسابهم… فمن الله تعالى»."
+  "notes": "The Gathering is never drawn. 46 and 49:1-11 concern the Prophet ﷺ: no motif there. 47:4-12 is not glossed: the tafsirs differ on when the judgement between a nation and its messenger falls (Al-Muyassar: the Hereafter; As-Sa'di: this world). Their question (48) is framed. An hourglass for «كأن لم يلبثوا إلا ساعة» and for «لكل أمة أجل». 49:1-11 is one chip, so «إلا ما شاء الله» stays with «لا أملك»; its gloss is As-Sa'di's «وأما حسابهم… فمن الله تعالى». STAGING v4: All three chapters stay ambient: the Gathering (45), Allah's address to the Prophet (46), every nation's messenger and the judgement (47; the tafsirs differ on whether it is in this world or the Hereafter, so nothing is drawn), the idolaters' question to the Prophet (48) and his commanded reply (49). Quiet over 45:1-2, 46:1-15 and 49:1-11. c2 now has a night sky instead of the light mood and no light sweep (judgement and their mocking question)."
  },
  "cover": {
   "series_ar": "الوعد والوعيد",
@@ -379,5 +434,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

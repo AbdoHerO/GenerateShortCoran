@@ -32,49 +32,120 @@
    "verses": [
     112
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "sit",
+      "enter": [
+       112,
+       7
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       112,
+       1
+      ],
+      "do": "bow",
+      "who": "b"
+     },
+     {
+      "at": [
+       112,
+       2
+      ],
+      "do": "pray",
+      "who": "b"
+     },
      {
       "at": [
        112,
        3
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        112,
        4
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       112,
+       5
+      ],
+      "do": "ruku",
+      "who": "b"
      },
      {
       "at": [
        112,
        6
       ],
-      "do": "pan_right"
+      "do": "sujud",
+      "who": "b"
      },
      {
       "at": [
        112,
        7
       ],
-      "do": "shot_wide"
+      "do": "stand_up",
+      "who": "b"
+     },
+     {
+      "at": [
+       112,
+       8
+      ],
+      "do": "speak",
+      "who": "b"
+     },
+     {
+      "at": [
+       112,
+       9
+      ],
+      "do": "shake_head",
+      "who": "b"
      },
      {
       "at": [
        112,
        11
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
        112,
-       13
+       12
       ],
       "do": "shot_wide"
      },
@@ -83,22 +154,28 @@
        112,
        15
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       112,
+       16
+      ],
+      "do": "sparkle",
+      "who": "b"
      }
     ],
     "motifs": [
      {
       "at": [
        112,
-       5
+       14
       ],
-      "until": [
-       112,
-       7
-      ],
-      "motif": "light",
+      "until": null,
+      "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -107,8 +184,7 @@
    "id": "c2",
    "title": "حدود الاستغفار",
    "verses": [
-    113,
-    114
+    113
    ],
    "scene": "ambient",
    "params": {
@@ -133,7 +209,7 @@
        113,
        9
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -155,7 +231,59 @@
        20
       ],
       "do": "pan_left"
+     }
+    ],
+    "motifs": [],
+    "quiet": [
+     [
+      [
+       113,
+       1
+      ],
+      [
+       113,
+       20
+      ]
+     ]
+    ],
+    "transition": "dissolve"
+   }
+  },
+  {
+   "id": "c2b",
+   "title": "إبراهيم وأبوه",
+   "verses": [
+    114
+   ],
+   "scene": "stage",
+   "params": {
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "i",
+      "type": "prophet",
+      "label": "إبراهيم",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
      },
+     {
+      "id": "f",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     }
+    ],
+    "events": [],
+    "beats": [
      {
       "at": [
        114,
@@ -175,46 +303,80 @@
        114,
        8
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "i"
      },
      {
       "at": [
        114,
        10
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        114,
        12
       ],
-      "do": "pan_left"
+      "do": "shake_head",
+      "who": "f"
      },
      {
       "at": [
        114,
-       15
+       14
+      ],
+      "do": "shot_close",
+      "who": "f"
+     },
+     {
+      "at": [
+       114,
+       16
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        114,
-       18
+       17
       ],
-      "do": "pan_left"
+      "do": "walk_to",
+      "who": "i",
+      "to": "left"
+     },
+     {
+      "at": [
+       114,
+       19
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        114,
        21
       ],
-      "do": "pan_left"
+      "do": "glow",
+      "who": "i"
      }
     ],
-    "motifs": [],
-    "transition": "dissolve"
+    "motifs": [
+     {
+      "at": [
+       114,
+       8
+      ],
+      "until": [
+       114,
+       11
+      ],
+      "motif": "seal",
+      "place": "top",
+      "size": "s"
+     }
+    ],
+    "transition": "page_turn"
    }
   },
   {
@@ -241,6 +403,13 @@
        13
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       115,
+       14
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
@@ -288,7 +457,7 @@
        115,
        12
       ],
-      "motif": "light",
+      "motif": "geometric",
       "place": "top",
       "size": "m"
      },
@@ -514,7 +683,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "One unit: the reciter joins 112→116. 112:4 «السائحون» is not glossed: the tafsirs differ (Al-Muyassar: fasting; As-Sa'di: travel in acts of worship). Ibrahim (114) and the Prophet ﷺ (113): no motif, figure or drop; nothing drawn in 113-114. Al-Muyassar's «والتشريع» (116) is not used. Light for the bowing and prostrating and for «بعد إذ هداهم», stars for the heavens, night and day for «يحيي ويميت». 113: short-word flag, listen."
+  "notes": "One unit: the reciter joins 112→116. 112:4 «السائحون» is not glossed: the tafsirs differ (Al-Muyassar: fasting; As-Sa'di: travel in acts of worship). Ibrahim (114) and the Prophet ﷺ (113): no motif, figure or drop; nothing drawn in 113-114. Al-Muyassar's «والتشريع» (116) is not used. Light for the bowing and prostrating and for «بعد إذ هداهم», stars for the heavens, night and day for «يحيي ويميت». 113: short-word flag, listen. STAGING v4: Chapter split (glosses untouched): the old c2 (113-114) is now c2 = 113 (ambient, kept title) and c2b = 114 (stage, new title «إبراهيم وأبوه»), because 113 is about the Prophet and must stay ambient while 114 is a this-world story. c1 (112): a prayer hall by day; three believers lower their heads on 112:1 (the repentant), stand in prayer on 112:2 (the worshippers), bow on 112:5 and prostrate on 112:6 (facing the empty side of the hall: nobody stands there); nothing is acted for 112:4 (the tafsirs differ: fasting or travel in worship). They stand up on 112:7 and three people sitting on the right appear only then (after the prostration, so nobody prostrates toward people); the believers speak to them on 112:8 (enjoining good: both tafsirs, they command the people) and shake their heads on 112:9 (forbidding evil); a geometric plate on 112:14 (the limits of Allah); a soft sparkle on the believers on 112:16 (good tidings), with no one giving it (the Messenger is never shown). c2 (113) stays ambient: the ruling about the Prophet and the believers, night sky, background quiet over the whole verse; no motif. c2b (114): a town by day (as in 6:74). Ibrahim is only a blue light drop labelled «إبراهيم» at the centre; his father is a plain faceless man on the right; no grave, no death and no seeking of forgiveness at a grave. Ibrahim speaks to him on 114:8 (the promise: both tafsirs, his saying that he would ask forgiveness for him) under a seal plate (a promise, 114:8-10); the father shakes his head on 114:12 (both tafsirs: admonition did not benefit him); the camera closes on the father for 114:14-15 (an enemy), wide on the Name (114:16); on 114:17 Ibrahim moves away from him to the left (he disassociated himself from him); a soft glow on the drop on 114:21 (compassionate, forbearing; the Name was recited five seconds before). Wide shots only around the drop (no pan, no close shot on it). c3 (115-116) stays ambient (Allah's acts and Names); the plate on 115:8 (after He guided them) is now geometric instead of light (a light plate must not start on His act). Cover: Ibrahim and his father, with no plate (114:13)."
  },
  "cover": {
   "series_ar": "رحمة التوبة",
@@ -522,9 +691,10 @@
   "title_ar": "حدود الاستغفار",
   "title_en": "The limits of seeking forgiveness",
   "at": [
-   112,
-   1
+   114,
+   13
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

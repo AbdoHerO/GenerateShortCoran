@@ -32,51 +32,110 @@
    "verses": [
     91
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "w",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "sit",
+      "enter": null,
+      "exit": null,
+      "look": "poor"
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       91,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        91,
        3
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "w"
      },
      {
       "at": [
        91,
-       5
+       6
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "w"
+     },
+     {
+      "at": [
+       91,
+       9
+      ],
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       91,
+       11
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        91,
        13
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
        91,
        14
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "w"
      },
      {
       "at": [
        91,
-       15
+       16
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        91,
-       20
+       21
       ],
-      "do": "pan_left"
+      "do": "sparkle",
+      "who": "w"
+     },
+     {
+      "at": [
+       91,
+       23
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -86,9 +145,9 @@
        24
       ],
       "until": null,
-      "motif": "light",
+      "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -101,7 +160,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
@@ -109,6 +168,13 @@
        6
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       92,
+       8
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -158,6 +224,18 @@
       "size": "m"
      }
     ],
+    "quiet": [
+     [
+      [
+       92,
+       1
+      ],
+      [
+       92,
+       23
+      ]
+     ]
+    ],
     "transition": "dissolve"
    }
   },
@@ -167,14 +245,43 @@
    "verses": [
     93
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "home",
+    "time": "day",
+    "actors": [
+     {
+      "id": "h",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        93,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       93,
        4
+      ],
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       93,
+       6
       ],
       "do": "shot_wide"
      },
@@ -183,12 +290,21 @@
        93,
        8
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "h"
      },
      {
       "at": [
        93,
-       15
+       10
+      ],
+      "do": "sit",
+      "who": "h"
+     },
+     {
+      "at": [
+       93,
+       13
       ],
       "do": "shot_wide"
      },
@@ -197,14 +313,15 @@
        93,
        17
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "h"
      },
      {
       "at": [
        93,
        19
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -219,7 +336,7 @@
       ],
       "motif": "coins",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -232,7 +349,7 @@
       ],
       "motif": "house",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "wipe"
@@ -375,7 +492,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "92 is addressed to the Prophet ﷺ («أتوك», «قلت»): no motif there; no tears, people or mounts drawn. 91:7-13 is not glossed: every short excerpt either repeats «لا يجدون» or drops the negation. Light for «غفور رحيم», coins for «ما ينفقون» and «أغنياء», a house for «مع الخوالف». 92, 94: short-word flags, listen."
+  "notes": "92 is addressed to the Prophet ﷺ («أتوك», «قلت»): no motif there; no tears, people or mounts drawn. 91:7-13 is not glossed: every short excerpt either repeats «لا يجدون» or drops the negation. Light for «غفور رحيم», coins for «ما ينفقون» and «أغنياء», a house for «مع الخوالف». 92, 94: short-word flags, listen. STAGING v4: c1 (91): a town by day. Three believers sit on the left (the weak and the sick who cannot go out: As-Sa'di); a poor man in a patched robe sits on the right (those who find nothing to spend: Al-Muyassar). Nothing is acted on the condition «إذا نصحوا» (91:15-18), the shot is wide while the Messenger is named (91:14 to 91:20); a soft sparkle on them on 91:21 (no blame on the doers of good); the plate on 91:24 is now geometric (a light plate must not start on the Name). c2 (92) stays ambient: they came to the Messenger, he answered them and they turned back weeping; staging them would make them speak to and turn away from an empty side that stands for him; the mood moves from dawn to night_sky and the background is quiet over the whole verse; no tears, people or mounts drawn. c3 (93): inside a home by day; three men (the rich who asked leave, hypocrites: Al-Muyassar). Their asking the Messenger is not acted; a coins plate on 93:7 (rich), they sit down on 93:10 (staying with those who stay behind), a house plate on 93:11-12 that leaves before the Name; nothing is drawn for the sealing of hearts; the camera holds on them for 93:17-19."
  },
  "cover": {
   "series_ar": "بعد تبوك",
@@ -387,5 +504,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }
