@@ -128,16 +128,61 @@
    "verses": [
     36
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       36,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       36,
+       3
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       36,
+       5
+      ],
+      "do": "turn",
+      "who": "d"
+     },
      {
       "at": [
        36,
        7
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       36,
+       9
+      ],
+      "do": "shake_head",
+      "who": "d"
      },
      {
       "at": [
@@ -151,7 +196,15 @@
        36,
        15
       ],
-      "do": "pan_right"
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       36,
+       16
+      ],
+      "do": "shot_close",
+      "who": "d"
      }
     ],
     "motifs": [
@@ -166,8 +219,20 @@
       ],
       "motif": "wind",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
+    ],
+    "quiet": [
+     [
+      [
+       36,
+       13
+      ],
+      [
+       36,
+       17
+      ]
+     ]
     ],
     "transition": "dissolve"
    }
@@ -243,7 +308,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No idols drawn. 35:13-25 is one chip, so «لا يهدي إلا أن يهدى» stays whole. Light for «الله يهدي للحق» (allowed at His name), wind for «ظنا». 36:6-12 is not glossed (Al-Muyassar's «لا يغني» repeats the verse). STAGING v4: Both chapters stay ambient. c1 (35) is entirely the Prophet's commanded words to the idolaters about who guides (no idol drawn, nobody shown): the background stays quiet over the whole verse; the old light plate started on the Name, so a geometric plate now starts on His guiding (35:11). c2 (36) is kept: the idolaters' conjecture is a belief about their idols, with nothing in this world to act out; a wind plate for conjecture."
+  "notes": "No idols drawn. 35:13-25 is one chip, so «لا يهدي إلا أن يهدى» stays whole. Light for «الله يهدي للحق» (allowed at His name), wind for «ظنا». 36:6-12 is not glossed (Al-Muyassar's «لا يغني» repeats the verse). STAGING v4: c1 (35) stays ambient: it is entirely the Prophet's commanded words to the idolaters about who guides (no idol drawn, nobody shown); the background stays quiet over the whole verse; a geometric plate starts on His guiding (35:11). c2 (36) is staged in a town by day: one small group of three idolaters (dark robes, countable; the tafsirs say nothing about the rest of them, so no second group is drawn) turns its back on 36:5 under a wind plate (they follow only conjecture) and shakes its head on 36:9 (conjecture avails nothing against the truth; As-Sa'di: they held it to be true); no idol, statue or worship is drawn and nobody faces an empty side; the camera closes on them on 36:16 while His knowledge of what they do is recited (quiet over 36:13-17). The cover now shows the geometric plate on His guiding (35:12)."
  },
  "cover": {
   "series_ar": "براهين التوحيد",
@@ -252,7 +317,7 @@
   "title_en": "The source of guidance",
   "at": [
    35,
-   1
+   12
   ]
  },
  "motion": 3,

@@ -897,6 +897,21 @@ function targetX(to, a, L) {
   const o = L.actors.find((x) => x.id === to && x !== a);
   return o ? o.x + (o.x > a.x ? -120 : 120) : a.x;
 }
+// speech goes toward the listener: the beat's `to`, else the nearest other person or drop on stage, else the centre.
+// (A standing figure never flips, so arcs drawn on its facing side pointed at the empty edge: At-Tawbah review.)
+function speakDir(b, a, L, x) {
+  let tx = null;
+  if (b.to) { const o = L.actors.find((o) => o.id === b.to && o !== a); tx = o ? o.x : (PLACE_X[b.to] ?? null); }
+  if (tx == null) {
+    let best = null, bd = Infinity;
+    for (const o of L.actors) {
+      if (o === a || !(HUMAN.has(o.type) || DROPS[o.type])) continue;
+      const d = Math.abs(o.x - x); if (d > 30 && d < bd) { bd = d; best = o; }
+    }
+    tx = best ? best.x : 480;
+  }
+  return Math.abs(tx - x) < 4 ? 1 : Math.sign(tx - x);
+}
 function headY(a, g) {
   if (DROPS[a.type]) return GY - 185 + (g ? g.sit * 20 + g.lie * 30 : 0);
   switch (a.type) {
@@ -1009,7 +1024,7 @@ function gest(a, t, B, L, x) {
       case 'point': { const k = env(t, b.t, b.t + 1.8, 0.3, 0.45); const tx = targetX(b.to, a, L); if (age < 1.8) { g.pointAge = age; g.pointTx = tx; } if (k >= g.point && k > 0) { g.point = k; g.pdir = Math.abs(tx - x) < 4 ? 1 : Math.sign(tx - x); } break; }
       case 'raise_hands': g.raise = Math.max(g.raise, env(t, b.t, b.t + 2.0, 0.35, 0.55)); break;
       case 'bow': g.bow = Math.max(g.bow, env(t, b.t, b.t + 2.0, 0.4, 0.55)); break;
-      case 'speak': if (age < 1.6) g.speak = age; break;
+      case 'speak': if (age < 1.6) { g.speak = age; g.sdir = speakDir(b, a, L, x); } break;
       case 'shake_head': g.shake = Math.max(g.shake, env(t, b.t, b.t + 1.3, 0.12, 0.3)); break;
       case 'look_up': g.look = Math.max(g.look, env(t, b.t, b.t + 2.0, 0.4, 0.55)); break;
       case 'wring_hands': g.wring = Math.max(g.wring, env(t, b.t, b.t + 2.0, 0.3, 0.45)); break;
@@ -1865,7 +1880,7 @@ function drawHuman(ctx, a, i, x, y, s, t, st, g, extra = {}, lookOverride = null
   const hy = y - (100 - 30 * g.sit) * s;
   // the woman figure of a mixed `people` group never carries the speech arcs: in a group that speaks wrongly she
   // would read as its spokeswoman (An-Nisa picture review); the men of the group carry the speech
-  if (g.speak >= 0 && !look.woman) speakArcs(ctx, x + (flip ? -1 : 1) * 12 * s, hy, g.speak, flip ? -1 : 1, s);
+  if (g.speak >= 0 && !look.woman) { const sd = g.sdir ?? (flip ? -1 : 1); speakArcs(ctx, x + sd * 12 * s, hy, g.speak, sd, s); }
   if (g.look > 0.3) A.sparkle(ctx, x + 6 * s, hy - 70 * s, 8 * s, (g.look - 0.3) * 1.2);
 }
 // a group the viewer cannot count: overlapping rows, shadow swallowing both ends, rocks in front
@@ -2581,7 +2596,7 @@ function drawActors(ctx, t, T, L, E, c, X, pass, B) {
           A.sparkle(ctx, sx, sy, (10 - k * 1.6), fade * (1 - k * 0.18));
         }
       }
-      if (g.speak >= 0) speakArcs(ctx, st.x + 46, yBase - 40, g.speak, 1, 1);
+      if (g.speak >= 0) { const sd = g.sdir ?? 1; speakArcs(ctx, st.x + 46 * sd, yBase - 40, g.speak, sd, 1); }
     } else if (HUMAN.has(a.type)) {
       if (a.uncountable && a.type !== 'king' && a.type !== 'ruler' && a.type !== 'man') {
         crowdUncountable(ctx, a, st, t, B, L, L.setting === 'cave' ? '#2a221c' : SETTINGS[L.setting].interior ? '#2a221c' : '#5a4a3a');

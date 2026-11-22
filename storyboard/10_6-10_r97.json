@@ -32,10 +32,27 @@
    "verses": [
     6
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "fields",
+    "time": "dusk",
+    "actors": [],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       6,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       6,
+       4
+      ],
+      "do": "shot_sky"
+     },
      {
       "at": [
        6,
@@ -56,6 +73,13 @@
        12
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       6,
+       13
+      ],
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -70,7 +94,7 @@
       ],
       "motif": "night_day",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -83,7 +107,7 @@
       ],
       "motif": "stars",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "quiet": [
@@ -507,7 +531,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "7:11-15 is not glossed (Al-Muyassar keeps the first person «آياتنا»). The Fire (8) and Paradise (9-10) are never drawn: geometric and light moods, no river; a lamp for «يهديهم ربهم», light for «الحمد لله رب العالمين». Night and day for «اختلاف الليل والنهار», stars for the heavens, wind for the fleeting life. STAGING v4: The old chapter 7-8 is split (owner rule: an unseen verse is ambient). c1 (6) stays ambient: night and day and what He created (His acts); quiet over 6:6-11. c2 (7) is staged in a market by day: two small groups of three men (blamed, so no woman is drawn; the second walks in on 7:1) trade and talk with each other on 7:6 and 7:8 (content with this world, both tafsirs), sit down at ease on 7:9-10 (As-Sa'di: they relied on it), and on the signs (7:12-14, Al-Muyassar: the signs in creation and the revealed ones) a few birds cross the sky while one group turns its back (7:15, heedless). Nobody gestures in the negated clause 7:1-5. A coins plate for this world's life (7:7). c3 (8, new title) is ambient on a night sky: their abode in the Fire, never drawn, no plate. c4 (9-10) stays ambient (Paradise): no river or garden; the plates are now geometric (a light plate starting on His guiding, 9:6, or one word before the Name, 10:11, reads as Him appearing as light), and the background stays quiet over 9:6-8 and verse 10 (their glorification and the greeting, which Al-Muyassar gives as from Allah and His angels)."
+  "notes": "7:11-15 is not glossed (Al-Muyassar keeps the first person «آياتنا»). The Fire (8) and Paradise (9-10) are never drawn: geometric and light moods, no river; a lamp for «يهديهم ربهم», light for «الحمد لله رب العالمين». Night and day for «اختلاف الليل والنهار», stars for the heavens, wind for the fleeting life. STAGING v4: The old chapter 7-8 is split (owner rule: an unseen verse is ambient). c1 (6, the alternation of night and day) is staged on empty fields at dusk, between day and night: a night-and-day plate (6:3), the camera tilts to the sky on 6:4 and is back to a wide shot on 6:6, before the Name (6:8); a stars plate for the heavens (6:9); nobody is drawn; quiet over 6:6-11. c2 (7) is staged in a market by day: two small groups of three men (blamed, so no woman is drawn; the second walks in on 7:1) trade and talk with each other on 7:6 and 7:8 (content with this world, both tafsirs), sit down at ease on 7:9-10 (As-Sa'di: they relied on it), and on the signs (7:12-14, Al-Muyassar: the signs in creation and the revealed ones) a few birds cross the sky while one group turns its back (7:15, heedless). Nobody gestures in the negated clause 7:1-5. A coins plate for this world's life (7:7). c3 (8, new title) is ambient on a night sky: their abode in the Fire, never drawn, no plate. c4 (9-10) stays ambient (Paradise): no river or garden; geometric plates (9:6 and 10:11), and the background stays quiet over 9:6-8 and verse 10 (their glorification and the greeting, which Al-Muyassar gives as from Allah and His angels). The cover shows the fields at dusk with the night-and-day plate (6:4)."
  },
  "cover": {
   "series_ar": "آيات الخلق والبعث",
@@ -516,7 +540,7 @@
   "title_en": "Heedlessness and guidance",
   "at": [
    6,
-   1
+   4
   ]
  },
  "motion": 3,

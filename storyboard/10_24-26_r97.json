@@ -169,7 +169,7 @@
        24,
        21
       ],
-      "do": "birds"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -185,22 +185,29 @@
        24,
        25
       ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       24,
-       26
-      ],
       "do": "shot_close",
       "who": "p"
      },
      {
       "at": [
        24,
-       29
+       26
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       24,
+       27
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       24,
+       29
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
@@ -236,7 +243,7 @@
        24,
        43
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -530,7 +537,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The parable of 24 is drawn as a worldly garden (rain, growth, wheat, then wind for «أتاها أمرنا»). 25-26 are Paradise: light and geometric moods, no garden, river or dwelling; light for «يدعو إلى دار السلام», footsteps for «صراط مستقيم». Nothing at all is drawn on «وزيادة» (the vision of Allah; both tafsirs). As-Sa'di's «زوج بهيج» (a Quran phrase) is not used. 25's end has no clean cut, so 24-26 is one unit. STAGING v4: c1 (24, the parable of this world) is staged in a garden by day (wither is drawn only in this setting): rain on 24:5 (the water sent down), the ground greens and plants and flowers spring up on 24:9 (mixed with it), people and a camel come on 24:15-16 (what people and livestock eat; a wheat plate for the grains, As-Sa'di), birds on 24:21 (the land takes its adornment); the owners walk into it on 24:23 (they think they have power over it, both tafsirs: to harvest it), then on 24:28 (His command came) the garden withers while the people stand; nobody is hurt and nobody leaves; they lower their heads on 24:34 (As-Sa'di: empty-handed, full of grief) and a falling-leaf plate marks 24:35 (as if it had not flourished). Night or day (24:30-32) is not chosen by any picture beyond the scene's daylight. c2 (25) stays ambient: Allah's call to the abode of peace (Paradise, never drawn); a geometric plate from the Name (25:1) replaces the light plate that started on His call; footsteps for the straight path; quiet over 25:1-8. c3 (26) stays ambient on a night sky (no central light) with the background quiet over 26:1-10: nothing at all marks 26:4 (the vision of Allah, both tafsirs)."
+  "notes": "The parable of 24 is drawn as a worldly garden (rain, growth, wheat, then wind for «أتاها أمرنا»). 25-26 are Paradise: light and geometric moods, no garden, river or dwelling; light for «يدعو إلى دار السلام», footsteps for «صراط مستقيم». Nothing at all is drawn on «وزيادة» (the vision of Allah; both tafsirs). As-Sa'di's «زوج بهيج» (a Quran phrase) is not used. 25's end has no clean cut, so 24-26 is one unit. STAGING v4: c1 (24, the parable of this world) is staged in a garden by day (wither is drawn only in this setting): rain on 24:5 (the water sent down), the ground greens and plants and flowers spring up on 24:9 (mixed with it), people and a camel come on 24:15-16 (what people and livestock eat; a wheat plate for the grains, As-Sa'di); on 24:21 (the land takes its adornment) the camera pans over the crops, no birds; the owners walk into it on 24:23 and the camera closes on them on 24:25 (they think they have power over it, both tafsirs: to harvest it); the camera is wide again from 24:27, so the withering from 24:28 (His command came) is seen over the whole land, not on the men; nobody is hurt and nobody leaves; they lower their heads on 24:34 (As-Sa'di: empty-handed, full of grief) and a falling-leaf plate marks 24:35 (as if it had not flourished). Night or day (24:30-32) is not chosen by any picture beyond the scene's daylight. c2 (25) stays ambient: Allah's call to the abode of peace (Paradise, never drawn); a geometric plate from the Name (25:1); footsteps for the straight path; quiet over 25:1-8. c3 (26) stays ambient on a night sky (no central light) with the background quiet over 26:1-10: nothing at all marks 26:4 (the vision of Allah, both tafsirs). The cover shows the garden in bloom with its owners and the camel (24:22), a garden of this world."
  },
  "cover": {
   "series_ar": "حقيقة الدنيا",
@@ -538,8 +545,8 @@
   "title_ar": "الدنيا والدار الباقية",
   "title_en": "This life and the lasting home",
   "at": [
-   25,
-   2
+   24,
+   22
   ]
  },
  "motion": 3,

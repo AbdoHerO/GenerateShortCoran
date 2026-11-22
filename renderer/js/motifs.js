@@ -333,7 +333,7 @@ function wordPop(T, t, ts) {
   while (lo <= hi) { const m = (lo + hi) >> 1; if (W[m].s <= t) { last = m; lo = m + 1; } else hi = m - 1; }
   if (last < 0) return 0;
   const age = t - W[last].s;
-  if (W[last].s < ts + 0.4 || age > 0.6) return 0;
+  if (W[last].s < ts + 0.4 || age > 0.6 || W[last].sacred) return 0;   // never pops on the Name, «رب», «قل», a prophet or a quiet word
   return age < 0.08 ? age / 0.08 : Math.exp(-(age - 0.08) * 6);
 }
 

@@ -1392,3 +1392,18 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
   - Al-Kahf v2 with all renderer fixes;
   - build and publish everything queued.
 - At the end, the automatic resumes are cancelled (CLAUDE.md, "Current scope").
+
+### Speech toward the listener; no plate pop on sacred words (2026-11-22)
+
+- **Why:** the At-Tawbah 87-129 review found two problems.
+  - A standing figure never flips, and its speech arcs were always drawn on its right. So a group standing on the
+    right spoke toward the empty edge. A scan found about 125 such speak beats in surahs 2-11, 15 and 18, prophet
+    drops included.
+  - Motif plates "popped" on every recited word, including the Name, «رب» and quiet words.
+- **Change:**
+  - Speech arcs point toward the beat's `to`, else toward the nearest other person or drop on stage, else toward the
+    centre.
+  - Plates no longer pop on sacred or quiet words.
+- **Re-render:** renders already built or published before this change are covered by a final consistency pass. Once
+  the queue is built, every published render that predates the last renderer fix is rebuilt and published as the
+  next version (scope: surahs 1-15 and 18).
