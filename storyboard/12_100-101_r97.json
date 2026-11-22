@@ -34,8 +34,15 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric",
+    "mood": "light",
     "beats": [
+     {
+      "at": [
+       100,
+       4
+      ],
+      "do": "pan_left"
+     },
      {
       "at": [
        100,
@@ -63,6 +70,13 @@
        15
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       100,
+       18
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -102,6 +116,13 @@
      {
       "at": [
        100,
+       40
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       100,
        43
       ],
       "do": "shot_wide"
@@ -125,6 +146,18 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       100,
+       1
+      ],
+      [
+       100,
+       7
+      ]
+     ]
     ]
    }
   },
@@ -163,6 +196,13 @@
       "at": [
        101,
        13
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       101,
+       16
       ],
       "do": "shot_wide"
      },
@@ -289,7 +329,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The prostration is never drawn and its chapter is geometric (no dawn). It is framed at once by Al-Muyassar: «تحية وتكريمًا، لا عبادة وخضوعًا، وكان ذلك جائزًا في شريعتهم». «العرش» is the king's seat (both tafsirs): no plate. Nothing for Satan (100:30-37, not glossed). Geometric only from «إن ربي لطيف لما يشاء». Yusuf's prayer (101): no plate. The cover is the plate-free light frame of 101 (a star under «تحقق الرؤيا» could read as the dream's stars). 101:18-19 keeps As-Sa'di's «ولم يكن هذا دعاء باستعجال الموت»."
+  "notes": "The prostration is never drawn and its chapter is geometric (no dawn). It is framed at once by Al-Muyassar: «تحية وتكريمًا، لا عبادة وخضوعًا، وكان ذلك جائزًا في شريعتهم». «العرش» is the king's seat (both tafsirs): no plate. Nothing for Satan (100:30-37, not glossed). Geometric only from «إن ربي لطيف لما يشاء». Yusuf's prayer (101): no plate. The cover is the plate-free light frame of 101 (a star under «تحقق الرؤيا» could read as the dream's stars). 101:18-19 keeps As-Sa'di's «ولم يكن هذا دعاء باستعجال الموت». STAGING v4: Both chapters stay ambient. c1 (100): the throne, the parents and the prostration are never drawn, and no figure or drop is shown (Yusuf's mother is never drawn, and nobody may be seen prostrating to anyone). Its mood is now light rays with no sun, moon or stars (a sun, a crescent or stars on screen while the prostration and the fulfilled dream are recited could read as the dream's sun, moon and stars), not geometric (the Names' mood) over a chapter about Yusuf, and not dawn over the prostration; the background is quiet (no pulse) over the raising to the throne and the prostration (100:1-7). Geometric plate only from 100:38 (my Lord is subtle). c2 (101): Yusuf's du'a, addressed to Allah with His attributes and the Hereafter; the tafsirs give no place for it, so it is kept ambient (light), with no plate and no drop."
  },
  "cover": {
   "series_ar": "لم الشمل",
@@ -301,5 +341,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -55,15 +55,14 @@
        27,
        6
       ],
-      "do": "sparkle",
-      "who": "light"
+      "do": "pan_right"
      },
      {
       "at": [
        27,
        10
       ],
-      "do": "shot_sky"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -85,13 +84,28 @@
      {
       "at": [
        27,
-       6
+       3
       ],
-      "until": null,
+      "until": [
+       27,
+       7
+      ],
       "motif": "book",
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       27,
+       1
+      ],
+      [
+       27,
+       15
+      ]
+     ]
     ]
    }
   },
@@ -117,7 +131,7 @@
        28,
        5
       ],
-      "do": "shot_sky"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -125,14 +139,6 @@
        7
       ],
       "do": "light_up"
-     },
-     {
-      "at": [
-       28,
-       10
-      ],
-      "do": "sparkle",
-      "who": "light"
      },
      {
       "at": [
@@ -188,16 +194,6 @@
      {
       "at": [
        28,
-       5
-      ],
-      "until": null,
-      "motif": "hands",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       28,
        7
       ],
       "until": null,
@@ -226,7 +222,19 @@
       "size": "m"
      }
     ],
-    "transition": "slide"
+    "transition": "slide",
+    "quiet": [
+     [
+      [
+       28,
+       1
+      ],
+      [
+       28,
+       30
+      ]
+     ]
+    ]
    }
   }
  ],
@@ -311,7 +319,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Calm ambient only. Rays of light for the revealed Book; a calm sea for patience: light on morning and evening, a wave on the adornment of this world, dark ink-like lines on the heedless heart."
+  "notes": "Calm ambient only. Rays of light for the revealed Book; a calm sea for patience: light on morning and evening, a wave on the adornment of this world, dark ink-like lines on the heedless heart. v2: both verses (Allah addresses the Prophet) are quiet ranges, 28:10 included; the book plate now covers 27:3-6 and leaves before the Name; the hands plate over the Name (28:5-6) is removed; no sparkle on 27:6 or on 28:10, no sky tilt on 27:10 or 28:5."
  },
  "cover": {
   "series_ar": "الصبر مع المؤمنين",

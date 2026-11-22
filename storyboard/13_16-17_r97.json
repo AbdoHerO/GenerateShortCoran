@@ -151,6 +151,28 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       16,
+       1
+      ],
+      [
+       16,
+       7
+      ]
+     ],
+     [
+      [
+       16,
+       38
+      ],
+      [
+       16,
+       45
+      ]
+     ]
     ]
    }
   },
@@ -160,14 +182,78 @@
    "verses": [
     17
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "mountains",
+    "time": "day",
+    "actors": [],
+    "events": [
+     {
+      "type": "rain",
+      "at": [
+       17,
+       3
+      ],
+      "until": [
+       17,
+       12
+      ]
+     }
+    ],
     "beats": [
      {
       "at": [
        17,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       17,
+       3
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       17,
        4
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       17,
+       5
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       17,
+       8
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       17,
+       10
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       17,
+       13
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       17,
+       16
       ],
       "do": "shot_wide"
      },
@@ -176,7 +262,14 @@
        17,
        20
       ],
-      "do": "pan_left"
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       17,
+       24
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -188,7 +281,35 @@
      {
       "at": [
        17,
-       31
+       30
+      ],
+      "do": "wind"
+     },
+     {
+      "at": [
+       17,
+       32
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       17,
+       34
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       17,
+       37
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       17,
+       40
       ],
       "do": "shot_wide"
      }
@@ -197,33 +318,7 @@
      {
       "at": [
        17,
-       1
-      ],
-      "until": [
-       17,
-       5
-      ],
-      "motif": "cloud_rain",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       17,
-       5
-      ],
-      "until": [
-       17,
-       8
-      ],
-      "motif": "river",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       17,
-       8
+       9
       ],
       "until": [
        17,
@@ -231,7 +326,7 @@
       ],
       "motif": "wave",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -244,69 +339,43 @@
       ],
       "motif": "fire",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        17,
-       17
+       18
       ],
       "until": [
        17,
-       21
+       22
       ],
       "motif": "jewel",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        17,
-       23
-      ],
-      "until": [
-       17,
-       28
-      ],
-      "motif": "geometric",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       17,
-       29
-      ],
-      "until": [
-       17,
-       32
-      ],
-      "motif": "wind",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       17,
-       33
+       34
       ],
       "until": [
        17,
        39
       ],
-      "motif": "growth",
+      "motif": "drop",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        17,
-       39
+       40
       ],
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "page_turn"
@@ -449,7 +518,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "16 is a dialogue commanded to the Prophet ﷺ («قل»): no plate starts on «قل»; geometric for «رب السماوات والأرض… الله» and «الله خالق كل شيء وهو الواحد القهار», light for «الظلمات والنور». The parable of 17 in symbols: rain cloud, river (earthly), wave for the foam, a worldly fire for smelting (as a tool), a jewel for «حلية», wind for «فيذهب جفاء», growth for «ما ينفع الناس فيمكث في الأرض», geometric for «يضرب الله». No people drawn."
+  "notes": "16 is a dialogue commanded to the Prophet ﷺ («قل»): no plate starts on «قل»; geometric for «رب السماوات والأرض… الله» and «الله خالق كل شيء وهو الواحد القهار», light for «الظلمات والنور». The parable of 17 in symbols: rain cloud, river (earthly), wave for the foam, a worldly fire for smelting (as a tool), a jewel for «حلية», wind for «فيذهب جفاء», growth for «ما ينفع الناس فيمكث في الأرض», geometric for «يضرب الله». No people drawn. STAGING v4: c1 (16) stays ambient (geometric): the Prophet's ﷺ commanded words to the polytheists («قل»), the idols they took as protectors are never drawn and nobody faces an empty side; quiet over 16:1-7 and 16:38-45; plates unchanged (none starts on «قل»). c2 (17), the parable as it is seen in this world: a mountain valley by day; rain falls from 17:3 (water sent down from the sky) and stops at 17:12; the camera goes down to the valley floor for the valleys flowing (17:5), a wave plate for the foam on the torrent (17:9-11). The second parable is told in plates only (no smiths and no blaze are drawn: a large fire on the stage would read as a fire of punishment): a worldly-fire plate for what they kindle fire upon (17:13-16; both tafsirs: smelting the metals, for ornament or for tools), a jewel plate for ornament (17:18-21). Geometric for thus Allah strikes (17:24-27 camera only, 17:40 plate). A gust for the foam that vanishes (17:30), a water-drop plate for what benefits people remains in the earth (17:34-38). No growth is drawn (neither tafsir names plants here). The cover now shows the rain in the valley with the foam plate (17:9)."
  },
  "cover": {
   "series_ar": "أمثال التوحيد",
@@ -458,8 +527,9 @@
   "title_en": "Truth stands firm",
   "at": [
    17,
-   33
+   9
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

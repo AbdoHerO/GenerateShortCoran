@@ -32,10 +32,41 @@
    "verses": [
     4
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "garden",
+    "setting": "garden",
+    "time": "day",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "sit",
+      "enter": [
+       4,
+       22
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       4,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       4,
+       3
+      ],
+      "do": "pan_left"
+     },
      {
       "at": [
        4,
@@ -46,50 +77,81 @@
      {
       "at": [
        4,
-       6
+       7
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       4,
+       9
       ],
       "do": "pan_left"
      },
      {
       "at": [
        4,
-       19
+       11
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       4,
+       13
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       4,
+       15
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        4,
-       22
+       16
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       4,
+       19
       ],
       "do": "pan_right"
      },
      {
       "at": [
        4,
-       26
+       22
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       4,
+       24
+      ],
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       4,
+       27
+      ],
+      "do": "look_up",
+      "who": "p"
      }
     ],
     "motifs": [
      {
       "at": [
        4,
-       8
-      ],
-      "until": [
-       4,
-       10
-      ],
-      "motif": "wheat",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       4,
-       10
+       9
       ],
       "until": [
        4,
@@ -97,7 +159,7 @@
       ],
       "motif": "palm",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -110,20 +172,7 @@
       ],
       "motif": "drop",
       "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       4,
-       16
-      ],
-      "until": [
-       4,
-       22
-      ],
-      "motif": "growth",
-      "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -199,7 +248,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Earthly gardens (the garden mood is this world's land, not Paradise). Wheat for «وزرع», a palm for «ونخيل صنوان وغير صنوان», a drop for «يسقى بماء واحد», growth for «ونفضل بعضها على بعض في الأكل»."
+  "notes": "Earthly gardens (the garden mood is this world's land, not Paradise). Wheat for «وزرع», a palm for «ونخيل صنوان وغير صنوان», a drop for «يسقى بماء واحد», growth for «ونفضل بعضها على بعض في الأكل». STAGING v4: Staged as the land itself (this world's gardens, not Paradise): the garden setting shows the vines, the crops and the palms of the verse beside one river (both tafsirs: gardens of vines, crops and palms, watered by one water, in one soil). A palm plate for the palms growing several from one root or singly (4:9-12), a water-drop plate for watered with one water (4:13-15). Nothing is drawn for the salty plots that grow nothing (Al-Muyassar only). Three people appear sitting on 4:22 for a people who reason, and look up on 4:27. No event: the difference in taste (4:16-21) is not acted."
  },
  "cover": {
   "series_ar": "آيات الخلق",
@@ -211,5 +260,6 @@
    10
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

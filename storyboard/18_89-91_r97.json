@@ -64,7 +64,7 @@
       "type": "people",
       "label": "",
       "place": "right",
-      "count": 4,
+      "count": 3,
       "pose": "stand",
       "enter": null,
       "exit": null
@@ -93,7 +93,7 @@
        90,
        1
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -131,14 +131,6 @@
        1
       ],
       "do": "shot_wide"
-     },
-     {
-      "at": [
-       91,
-       5
-      ],
-      "do": "sparkle",
-      "who": "ruler"
      }
     ],
     "motifs": [
@@ -147,7 +139,10 @@
        89,
        2
       ],
-      "until": null,
+      "until": [
+       90,
+       1
+      ],
       "motif": "footsteps",
       "place": "top",
       "size": "s"
@@ -162,6 +157,18 @@
       "place": "top",
       "size": "s"
      }
+    ],
+    "quiet": [
+     [
+      [
+       91,
+       2
+      ],
+      [
+       91,
+       6
+      ]
+     ]
     ]
    }
   }
@@ -203,7 +210,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Dhul-Qarnayn is the righteous 'ruler' actor only. sunrise_open at the word 'rising' over a people with no shelter; the setting is the open 'mountains' valley because the 'desert' art draws tents and palm trees, which would contradict Al-Muyassar (no building to cover them, no tree to shade them). 18:91 is camera work and a soft sparkle on the ruler (Allah's knowledge encompassed what he had); nothing else is drawn. Review fix: Dhul-Qarnayn is shown as a neutral labelled light (his status is uncertain), like al-Khidr."
+  "notes": "Dhul-Qarnayn is the righteous 'ruler' actor only. sunrise_open at the word 'rising' over a people with no shelter; the setting is the open 'mountains' valley because the 'desert' art draws tents and palm trees, which would contradict Al-Muyassar (no building to cover them, no tree to shade them). 18:91 is camera work and a soft sparkle on the ruler (Allah's knowledge encompassed what he had); nothing else is drawn. Review fix: Dhul-Qarnayn is shown as a neutral labelled light (his status is uncertain), like al-Khidr. v2: the people of the sunrise are a group of 3 (4 drew a woman); no pan in the drop scene; no sparkle on Dhul-Qarnayn while Allah's knowledge of him is recited (91:2-6, now a quiet range). The footsteps plate leaves at 90:1, so the people look up at the sun (90:15) with no plate on screen."
  },
  "cover": {
   "series_ar": "ذو القرنين",

@@ -34,7 +34,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
@@ -102,54 +102,80 @@
      {
       "at": [
        36,
-       4
+       6
       ],
       "do": "pan_right"
      },
      {
       "at": [
        36,
-       7
+       8
       ],
       "do": "pan_left"
      },
      {
       "at": [
        36,
-       10
+       11
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        36,
-       12
+       14
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        36,
-       15
+       17
       ],
       "do": "pan_left"
      },
      {
       "at": [
        36,
-       19
+       20
       ],
       "do": "pan_right"
      },
      {
       "at": [
        36,
-       22
+       23
       ],
       "do": "shot_wide"
      }
     ],
-    "motifs": [],
+    "motifs": [
+     {
+      "at": [
+       36,
+       3
+      ],
+      "until": [
+       36,
+       6
+      ],
+      "motif": "book",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "quiet": [
+     [
+      [
+       36,
+       13
+      ],
+      [
+       36,
+       25
+      ]
+     ]
+    ],
     "transition": "slide"
    }
   }
@@ -257,7 +283,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Paradise is never drawn: light mood and a light plate only (no river, garden, fruit or gold), and it leaves before «وعقبى الكافرين النار». 36 addresses the Prophet ﷺ («إليك», «قل»): no plate. Al-Muyassar's named individuals (36) are not used. 37 is blocked (decision §7), so this video ends at 36."
+  "notes": "Paradise is never drawn: light mood and a light plate only (no river, garden, fruit or gold), and it leaves before «وعقبى الكافرين النار». 36 addresses the Prophet ﷺ («إليك», «قل»): no plate. Al-Muyassar's named individuals (36) are not used. 37 is blocked (decision §7), so this video ends at 36. STAGING v4: c1 (35) stays ambient (Paradise: no river, garden, fruit or gold; a light plate only, gone before the end of the disbelievers, 35:17); the mood moves from light to night_sky, since 35:17-19 names the Fire (light is never the mood over a threat). c2 (36) stays ambient: the People of the Book rejoicing at what was revealed to the Prophet ﷺ and the factions denying part of it (Al-Muyassar names individuals: not drawn), then his commanded words («قل», quiet over 36:13-25, no plate); a book plate for the Book (36:3-5), gone before «إليك»."
  },
  "cover": {
   "series_ar": "الوعد والوعيد",
@@ -269,5 +295,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -32,37 +32,115 @@
    "verses": [
     31
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "pm",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "sit",
+      "enter": [
+       31,
+       9
+      ],
+      "exit": null,
+      "look": "poor"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        31,
-       4
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       31,
-       5
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        31,
+       3
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       31,
+       5
+      ],
+      "do": "pray",
+      "who": "b"
+     },
+     {
+      "at": [
+       31,
+       6
+      ],
+      "do": "ruku",
+      "who": "b"
+     },
+     {
+      "at": [
+       31,
+       7
+      ],
+      "do": "rise",
+      "who": "b"
+     },
+     {
+      "at": [
+       31,
+       9
+      ],
+      "do": "stand_up",
+      "who": "b"
+     },
+     {
+      "at": [
+       31,
        10
       ],
-      "do": "pan_right"
+      "do": "give",
+      "who": "b",
+      "to": "pm"
+     },
+     {
+      "at": [
+       31,
+       11
+      ],
+      "do": "raise_hands",
+      "who": "pm"
+     },
+     {
+      "at": [
+       31,
+       13
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        31,
        15
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -83,28 +161,12 @@
      {
       "at": [
        31,
-       7
+       13
       ],
-      "until": [
-       31,
-       12
-      ],
-      "motif": "coins",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       31,
-       12
-      ],
-      "until": [
-       31,
-       16
-      ],
+      "until": null,
       "motif": "hourglass",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -115,10 +177,76 @@
    "verses": [
     32
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "garden",
+    "time": "day",
+    "actors": [
+     {
+      "id": "m",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     },
+     {
+      "id": "c",
+      "type": "camel",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [
+     {
+      "type": "rain",
+      "at": [
+       32,
+       6
+      ],
+      "until": [
+       32,
+       12
+      ]
+     },
+     {
+      "type": "growth",
+      "at": [
+       32,
+       10
+      ],
+      "until": null
+     }
+    ],
     "beats": [
+     {
+      "at": [
+       32,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       32,
+       4
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       32,
+       8
+      ],
+      "do": "shot_sky"
+     },
      {
       "at": [
        32,
@@ -129,16 +257,45 @@
      {
       "at": [
        32,
-       12
+       10
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        32,
-       19
+       13
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       32,
+       15
+      ],
+      "do": "shot_close",
+      "who": "m"
+     },
+     {
+      "at": [
+       32,
+       18
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       32,
+       21
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       32,
+       25
+      ],
+      "do": "shot_ground"
      }
     ],
     "motifs": [
@@ -153,56 +310,20 @@
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        32,
-       6
+       18
       ],
       "until": [
-       32,
-       10
-      ],
-      "motif": "cloud_rain",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       32,
-       10
-      ],
-      "until": [
-       32,
-       16
-      ],
-      "motif": "wheat",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       32,
-       16
-      ],
-      "until": [
-       32,
-       22
-      ],
-      "motif": "ship",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
        32,
        23
       ],
-      "until": null,
-      "motif": "river",
+      "motif": "ship",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "dissolve"
@@ -215,21 +336,43 @@
     33,
     34
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "fields",
+    "time": "day",
+    "actors": [],
+    "events": [
+     {
+      "type": "darkness",
+      "at": [
+       33,
+       6
+      ],
+      "until": [
+       33,
+       9
+      ]
+     }
+    ],
     "beats": [
      {
       "at": [
        33,
-       5
+       1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        33,
-       6
+       3
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       33,
+       5
       ],
       "do": "shot_wide"
      },
@@ -238,42 +381,49 @@
        33,
        9
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       34,
+       1
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
        34,
        5
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        34,
        6
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        34,
-       11
+       8
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        34,
        12
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        34,
        14
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -295,7 +445,7 @@
       ],
       "motif": "night_day",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -308,7 +458,7 @@
       ],
       "motif": "growth",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "slide"
@@ -473,7 +623,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "One unit (the reciter joins 31-34). «قل» (31:1): no plate on it. Coins for «وينفقوا مما رزقناهم سرا وعلانية», an hourglass for «من قبل أن يأتي يوم» (the Day is not drawn). The blessings of 32-33 in symbols: geometric, rain, wheat, ship, river, night-and-day; growth for «وآتاكم من كل ما سألتموه» (it leaves before «نعمت الله»). 31: short-word flag (word 8, 70 ms), listen."
+  "notes": "One unit (the reciter joins 31-34). «قل» (31:1): no plate on it. Coins for «وينفقوا مما رزقناهم سرا وعلانية», an hourglass for «من قبل أن يأتي يوم» (the Day is not drawn). The blessings of 32-33 in symbols: geometric, rain, wheat, ship, river, night-and-day; growth for «وآتاكم من كل ما سألتموه» (it leaves before «نعمت الله»). 31: short-word flag (word 8, 70 ms), listen. STAGING v4: c1 (31): «قل» to My believing servants (no plate on it): three believers in a prayer hall by day (the camera on them for those who believe, 31:3); they pray on 31:5 (stand, bow, rise) facing the empty side of the hall, stand up on 31:9, and only then a poor man appears sitting on the right; they give him on 31:10 (spend from what We provided, secretly and openly: Al-Muyassar, obligatory and voluntary charity) and he raises his hands on 31:11 with no plate on screen. An hourglass from 31:13 for before a Day comes with no trade and no friendship (the Day is not drawn). c2 (32), the blessings as seen in this world: gardens and farmland by day with a river; geometric for Allah who created the heavens and the earth (32:1-5); rain from 32:6 (water from the sky: both tafsirs, rain) and the land turns green on 32:10 (He brought forth fruits by it); a man and a camel (32:14-15, provision for you: As-Sa'di, and for your livestock); a ship plate for the ships that sail by His command (32:18-22; the setting has no sea), the camera down to the river for the rivers (32:25). c3 (33-34): fields by day; the sun in the sky (33:3) and a night-and-day plate; the scene darkens for the night (33:6-8) and the light returns on the day (33:9); a growth plate for He gave you of all you asked (34:1-5). Nobody is on stage for man is most unjust and ungrateful (34:12-15), so no figure is singled out for it."
  },
  "cover": {
   "series_ar": "أمثال وعبر",
@@ -485,5 +635,6 @@
    10
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

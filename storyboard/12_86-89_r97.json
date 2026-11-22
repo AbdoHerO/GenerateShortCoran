@@ -33,35 +33,101 @@
     86,
     87
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "ya",
+      "type": "prophet",
+      "label": "يعقوب",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        86,
+       1
+      ],
+      "do": "speak",
+      "who": "ya",
+      "to": "d"
+     },
+     {
+      "at": [
+       86,
+       3
+      ],
+      "do": "bow",
+      "who": "ya"
+     },
+     {
+      "at": [
+       86,
+       8
+      ],
+      "do": "speak",
+      "who": "ya",
+      "to": "d"
+     },
+     {
+      "at": [
+       86,
+       11
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       87,
+       1
+      ],
+      "do": "speak",
+      "who": "ya",
+      "to": "d"
+     },
+     {
+      "at": [
+       87,
        3
       ],
       "do": "shot_wide"
      },
      {
       "at": [
-       86,
+       87,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       87,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       87,
        9
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       87,
-       3
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       87,
-       8
       ],
       "do": "shot_wide"
      },
@@ -70,19 +136,28 @@
        87,
        12
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        87,
        13
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "ya",
+      "to": "d"
      },
      {
       "at": [
        87,
-       18
+       16
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       87,
+       19
       ],
       "do": "shot_wide"
      }
@@ -95,11 +170,11 @@
       ],
       "until": [
        86,
-       11
+       13
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -110,9 +185,9 @@
        87,
        13
       ],
-      "motif": "light",
+      "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -124,23 +199,90 @@
     88,
     89
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "ys",
+      "type": "prophet",
+      "label": "يوسف",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "walk",
+      "enter": [
+       88,
+       1
+      ],
+      "exit": null
+     },
+     {
+      "id": "cm",
+      "type": "camel",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "walk",
+      "enter": [
+       88,
+       1
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        88,
-       5
+       1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       88,
+       2
+      ],
+      "do": "walk_to",
+      "who": "d",
+      "to": "center"
+     },
+     {
+      "at": [
+       88,
+       4
+      ],
+      "do": "speak",
+      "who": "d",
+      "to": "ys"
      },
      {
       "at": [
        88,
        7
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       88,
+       9
+      ],
+      "do": "speak",
+      "who": "d",
+      "to": "ys"
      },
      {
       "at": [
@@ -154,14 +296,23 @@
        88,
        13
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "d",
+      "to": "ys"
      },
      {
       "at": [
        88,
        15
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       88,
+       19
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -173,19 +324,59 @@
      {
       "at": [
        89,
-       4
+       1
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "ys",
+      "to": "d"
      },
      {
       "at": [
        89,
-       8
+       3
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       89,
+       5
+      ],
+      "do": "speak",
+      "who": "ys",
+      "to": "d"
+     },
+     {
+      "at": [
+       89,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       89,
+       9
+      ],
+      "do": "speak",
+      "who": "ys",
+      "to": "d"
      }
     ],
     "motifs": [
+     {
+      "at": [
+       88,
+       11
+      ],
+      "until": [
+       88,
+       13
+      ],
+      "motif": "coins",
+      "place": "top",
+      "size": "s"
+     },
      {
       "at": [
        88,
@@ -197,10 +388,10 @@
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "wipe"
    }
   }
  ],
@@ -318,7 +509,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Ya'qub and Yusuf: no plate. Geometric for «إلى الله وأعلم من الله…» and «إن الله يجزي المتصدقين», light for «روح الله» (nothing on the negated «ولا تيأسوا»). 89:1-7 is not glossed. 87:12-20 keeps «لا ييأس… إلا القوم الكافرون» whole."
+  "notes": "Ya'qub and Yusuf: no plate. Geometric for «إلى الله وأعلم من الله…» and «إن الله يجزي المتصدقين», light for «روح الله» (nothing on the negated «ولا تيأسوا»). 89:1-7 is not glossed. 87:12-20 keeps «لا ييأس… إلا القوم الكافرون» whole. STAGING v4: c1 (86-87) at Ya'qub's tents in the desert (12:100): Ya'qub is only a blue drop labelled Ya'qub; his sons are a plain group of three in dark robes. He answers them (86:1, 86:8) and his drop dips once, softly, as he speaks of his grief (86:3; no weeping, nothing on his eyes); a geometric plate for to Allah and from Allah (86:6-13). He tells them to go and seek news (87:1, 87:13); nothing on the negated do not despair (87:7-9), a geometric plate for Allah's relief (87:10-12; geometric, not light, on a word of His mercy); the camera stays wide over the disbelievers named at 87:19-20. c2 (88-89) in the town of Egypt: the brothers come in with their camel and walk to Yusuf (88:2, they entered upon him), who is only a blue drop labelled Yusuf at the right. They plead (88:4, 88:9, 88:13; no bowing toward the drop); a coins plate for their poor price (88:11-12, Al-Muyassar: poor, few dirhams) and a geometric plate for Allah rewards the charitable (88:18). Yusuf answers them (89:1, 89:5, 89:9); no glow or light on him."
  },
  "cover": {
   "series_ar": "صبر يعقوب",
@@ -330,5 +521,6 @@
    6
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

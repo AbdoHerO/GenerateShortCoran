@@ -39,13 +39,6 @@
      {
       "at": [
        29,
-       2
-      ],
-      "do": "light_up"
-     },
-     {
-      "at": [
-       29,
        5
       ],
       "do": "pan_left"
@@ -153,6 +146,18 @@
       "size": "m",
       "exit": "undraw"
      }
+    ],
+    "quiet": [
+     [
+      [
+       29,
+       1
+      ],
+      [
+       29,
+       10
+      ]
+     ]
     ]
    }
   },
@@ -271,8 +276,7 @@
        31,
        8
       ],
-      "do": "sparkle",
-      "who": "ground"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -287,8 +291,7 @@
        31,
        14
       ],
-      "do": "sparkle",
-      "who": "light"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -495,7 +498,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The Fire and Paradise are never drawn: calm night sky (only camera moves over the Fire verses, no fire, no dark effect), geometric pattern for the preserved reward, rays of light for Paradise (no garden, no gold, no couches). Glosses on the Fire and Paradise have no arrow so the picture is never presented as the thing described. 'Let him disbelieve' carries As-Sa'di's note that it is a threat, not a permission."
+  "notes": "The Fire and Paradise are never drawn: calm night sky (only camera moves over the Fire verses, no fire, no dark effect), geometric pattern for the preserved reward, rays of light for Paradise (no garden, no gold, no couches). Glosses on the Fire and Paradise have no arrow so the picture is never presented as the thing described. 'Let him disbelieve' carries As-Sa'di's note that it is a threat, not a permission. v2: 29:1-10 (address to the Prophet) is a quiet range with no light swell over the Name (29:4); in the Paradise verse no sparkle falls on the rivers (31:8) or the gold (31:14): pans instead. No gold, jewel, river or fire motif in 18:29-31."
  },
  "cover": {
   "series_ar": "الصبر مع المؤمنين",

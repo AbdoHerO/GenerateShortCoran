@@ -33,23 +33,44 @@
     35,
     36
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "mountains",
+    "time": "day",
+    "actors": [
+     {
+      "id": "ib",
+      "type": "prophet",
+      "label": "إبراهيم",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        35,
-       6
+       1
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       35,
+       5
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        35,
        9
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -61,28 +82,35 @@
      {
       "at": [
        36,
-       2
+       3
       ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       36,
-       4
-      ],
-      "do": "pan_left"
+      "do": "wind"
      },
      {
       "at": [
        36,
        7
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        36,
        10
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       36,
+       11
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       36,
+       14
       ],
       "do": "shot_wide"
      }
@@ -94,9 +122,9 @@
        13
       ],
       "until": null,
-      "motif": "light",
+      "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -107,30 +135,51 @@
    "verses": [
     37
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "mountains",
+    "time": "day",
+    "actors": [
+     {
+      "id": "ib",
+      "type": "prophet",
+      "label": "إبراهيم",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       37,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        37,
        3
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        37,
-       5
+       6
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        37,
        9
       ],
-      "do": "shot_wide"
+      "do": "wind"
      },
      {
       "at": [
@@ -142,16 +191,16 @@
      {
       "at": [
        37,
-       12
+       13
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        37,
        16
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -163,9 +212,16 @@
      {
       "at": [
        37,
+       22
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       37,
        25
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -177,7 +233,7 @@
       "until": null,
       "motif": "palm",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "morph"
@@ -298,7 +354,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Ibrahim's prayer: no plate on him or his family; the Kaaba, the valley and the idols are never drawn. Light only for «فإنك غفور رحيم», a palm for «وارزقهم من الثمرات». Cut: «لله رب العالمين» (6:162) and «بجوار بيتك المحرم» (passage echo)."
+  "notes": "Ibrahim's prayer: no plate on him or his family; the Kaaba, the valley and the idols are never drawn. Light only for «فإنك غفور رحيم», a palm for «وارزقهم من الثمرات». Cut: «لله رب العالمين» (6:162) and «بجوار بيتك المحرم» (passage echo). STAGING v4: Ibrahim is a blue drop labelled «إبراهيم», alone in a barren mountain valley by day (Al-Muyassar: after he settled his son in the valley of Makkah; As-Sa'di: no dwelling, no one there, a land not fit for crops). He stands at the centre for the whole du'a, so the centre is never an empty place that could stand for the House; the House, the Kaaba and the idols are never drawn, and no group converges anywhere. His family is not drawn (it includes a woman: Hajar), nor Ismail. The du'a is addressed to Allah, who is never depicted: the drop makes no gesture, no glow and no speech arcs toward an empty side; wide holds only (no close-up or pan on the drop), and gusts of wind over the barren valley (36:3, 37:9). c1 (35-36): no plate on the land, the idols or the people they misled; geometric for You are Forgiving, Merciful (36:13, the light plate replaced: a light plate must not start on a pronoun of Allah). c2 (37): no plate on the House or the prayer; a palm plate for provide them with fruits (37:22). The cover shows Ibrahim's drop in the valley (35:5)."
  },
  "cover": {
   "series_ar": "دعاء إبراهيم",
@@ -307,8 +363,9 @@
   "title_en": "The prayer of al-Khalil",
   "at": [
    35,
-   1
+   5
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

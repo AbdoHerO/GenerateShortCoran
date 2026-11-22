@@ -32,21 +32,68 @@
    "verses": [
     7
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "mu",
+      "type": "prophet",
+      "label": "موسى",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        7,
-       6
+       1
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "mu",
+      "to": "p"
      },
      {
       "at": [
        7,
-       8
+       3
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       7,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       7,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       7,
+       9
       ],
       "do": "shot_wide"
      },
@@ -55,7 +102,7 @@
        7,
        11
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -70,7 +117,7 @@
       ],
       "motif": "growth",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -81,21 +128,68 @@
    "verses": [
     8
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "mu",
+      "type": "prophet",
+      "label": "موسى",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       8,
+       1
+      ],
+      "do": "speak",
+      "who": "mu",
+      "to": "p"
+     },
      {
       "at": [
        8,
        3
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        8,
        5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       8,
+       8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       8,
+       10
       ],
       "do": "shot_wide"
      },
@@ -111,7 +205,7 @@
        8,
        13
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -123,7 +217,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "morph"
@@ -178,7 +272,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Growth for «لئن شكرتم لأزيدنكم» (nothing on the threat), geometric for «فإن الله لغني حميد» (after Musa's name). As-Sa'di's first-person «من نعمي» and «فلن تضروا الله شيئا» (an echo of 3:144) are not used."
+  "notes": "Growth for «لئن شكرتم لأزيدنكم» (nothing on the threat), geometric for «فإن الله لغني حميد» (after Musa's name). As-Sa'di's first-person «من نعمي» and «فلن تضروا الله شيئا» (an echo of 3:144) are not used. STAGING v4: The same plain town by day as 14_4-6: Musa a blue drop labelled «موسى» on the left, his people three faceless men on the right (Al-Muyassar: Musa said to them). Musa speaks (7:1 and 8:1, the arcs toward his people); wide holds only (no close-up or pan on his drop); nobody else gestures inside his speech. c1 (7): a growth plate for if you are grateful I will increase you (7:5-6); nothing is acted in the conditional and the threat (7:7-11). c2 (8): nothing is acted in the conditional if you disbelieve, you and all on earth (8:3-9); geometric for Allah is Free of need, Praiseworthy (8:10-13). The cover shows Musa and his people under the growth plate (7:5)."
  },
  "cover": {
   "series_ar": "موعظة موسى",
@@ -190,5 +284,6 @@
    5
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

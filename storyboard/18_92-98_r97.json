@@ -63,7 +63,7 @@
       "type": "people",
       "label": "",
       "place": "right",
-      "count": 4,
+      "count": 3,
       "pose": "gather",
       "enter": null,
       "exit": null
@@ -83,8 +83,7 @@
        93,
        1
       ],
-      "do": "shot_close",
-      "who": "ruler"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -98,7 +97,7 @@
        93,
        6
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -177,7 +176,7 @@
       "type": "people",
       "label": "",
       "place": "right",
-      "count": 4,
+      "count": 3,
       "pose": "gather",
       "enter": null,
       "exit": null
@@ -191,7 +190,8 @@
        1
       ],
       "do": "speak",
-      "who": "people"
+      "who": "people",
+      "to": "ruler"
      },
      {
       "at": [
@@ -223,15 +223,14 @@
        94,
        13
       ],
-      "do": "shot_close",
-      "who": "ruler"
+      "do": "shot_wide"
      },
      {
       "at": [
        94,
        16
       ],
-      "do": "push_in"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -246,15 +245,15 @@
        1
       ],
       "do": "speak",
-      "who": "ruler"
+      "who": "ruler",
+      "to": "people"
      },
      {
       "at": [
        95,
        3
       ],
-      "do": "shot_close",
-      "who": "ruler"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -287,7 +286,7 @@
        95,
        12
       ],
-      "do": "push_in"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -306,7 +305,10 @@
        94,
        19
       ],
-      "until": null,
+      "until": [
+       95,
+       1
+      ],
       "motif": "bricks",
       "place": "top",
       "size": "s"
@@ -377,7 +379,8 @@
        1
       ],
       "do": "speak",
-      "who": "ruler"
+      "who": "ruler",
+      "to": "workers"
      },
      {
       "at": [
@@ -409,7 +412,8 @@
        9
       ],
       "do": "speak",
-      "who": "ruler"
+      "who": "ruler",
+      "to": "workers"
      },
      {
       "at": [
@@ -432,14 +436,15 @@
        15
       ],
       "do": "speak",
-      "who": "ruler"
+      "who": "ruler",
+      "to": "workers"
      },
      {
       "at": [
        96,
        17
       ],
-      "do": "push_in"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -494,7 +499,7 @@
       "type": "people",
       "label": "",
       "place": "right",
-      "count": 4,
+      "count": 3,
       "pose": "stand",
       "enter": null,
       "exit": null
@@ -541,7 +546,8 @@
        1
       ],
       "do": "speak",
-      "who": "ruler"
+      "who": "ruler",
+      "to": "people"
      },
      {
       "at": [
@@ -554,24 +560,16 @@
      {
       "at": [
        98,
-       5
+       6
       ],
-      "do": "shot_close",
-      "who": "ruler"
-     },
-     {
-      "at": [
-       98,
-       8
-      ],
-      "do": "push_in"
+      "do": "shot_wide"
      },
      {
       "at": [
        98,
        11
       ],
-      "do": "shot_wide"
+      "do": "shot_ground"
      },
      {
       "at": [
@@ -586,19 +584,12 @@
      {
       "at": [
        98,
-       3
-      ],
-      "until": null,
-      "motif": "light",
-      "place": "top",
-      "size": "s"
-     },
-     {
-      "at": [
-       98,
        8
       ],
-      "until": null,
+      "until": [
+       98,
+       12
+      ],
       "motif": "seal",
       "place": "top",
       "size": "s"
@@ -755,7 +746,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Dhul-Qarnayn is the righteous 'ruler' actor only. Gog and Magog are never drawn: no actor stands for them; the people only point toward the pass, and their gloss is Al-Muyassar's 'two great nations of the children of Adam' with no arrow. barrier_build runs from 'bars of iron' to 'molten copper' (18:96). In c4 the event sits on the first word only so the barrier stands complete (no rebuild intended). 18:98 is calm: the ruler speaks, raises his hands in gratitude and lowers his head; the levelling on the promised day is never shown. Review fix: Dhul-Qarnayn is shown as a neutral labelled light (his status is uncertain), like al-Khidr."
+  "notes": "Dhul-Qarnayn is the righteous 'ruler' actor only. Gog and Magog are never drawn: no actor stands for them; the people only point toward the pass, and their gloss is Al-Muyassar's 'two great nations of the children of Adam' with no arrow. barrier_build runs from 'bars of iron' to 'molten copper' (18:96). In c4 the event sits on the first word only so the barrier stands complete (no rebuild intended). 18:98 is calm: the ruler speaks, raises his hands in gratitude and lowers his head; the levelling on the promised day is never shown. Review fix: Dhul-Qarnayn is shown as a neutral labelled light (his status is uncertain), like al-Khidr. v2: the people of the pass are a group of 3 (4 drew a woman); each speech is aimed at its listener; no close-up or push-in on Dhul-Qarnayn, no pan in the drop scenes; the bricks plate leaves before the Name (95:5); in 18:98 the light plate on the mercy (just before the Name) is removed, so his raised hands are under no plate, the camera no longer moves on the Name (98:5, 98:9), and the seal plate leaves before he lowers his head (98:13). Gog and Magog are still never drawn."
  },
  "cover": {
   "series_ar": "ذو القرنين",

@@ -122,14 +122,14 @@
        26,
        12
       ],
-      "do": "light_up"
+      "do": "pattern_turn"
      },
      {
       "at": [
        26,
        16
       ],
-      "do": "push_in"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -160,7 +160,10 @@
        26,
        7
       ],
-      "until": null,
+      "until": [
+       26,
+       10
+      ],
       "motif": "key",
       "place": "top",
       "size": "m"
@@ -176,7 +179,19 @@
       "size": "m"
      }
     ],
-    "transition": "morph"
+    "transition": "morph",
+    "quiet": [
+     [
+      [
+       26,
+       1
+      ],
+      [
+       26,
+       5
+      ]
+     ]
+    ]
    }
   }
  ],
@@ -217,7 +232,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Calm ambient only: mountains and mist for the long stay (no cave or sleepers drawn), then the geometric pattern for Allah's attributes (knowledge of the unseen, seeing, hearing, sole rule). Verse 25 is a 7 s chapter so the mood can change with the meaning. Both tafsirs take verse 25 as Allah's statement of the duration."
+  "notes": "Calm ambient only: mountains and mist for the long stay (no cave or sleepers drawn), then the geometric pattern for Allah's attributes (knowledge of the unseen, seeing, hearing, sole rule). Verse 25 is a 7 s chapter so the mood can change with the meaning. Both tafsirs take verse 25 as Allah's statement of the duration. v2: 26:1-5 (address to the Prophet) is a quiet range; the key plate leaves before His attributes (26:10-12), which get a geometric ring instead of a light swell; a sideways pan replaces the push-in on 26:16."
  },
  "cover": {
   "series_ar": "أصحاب الكهف",

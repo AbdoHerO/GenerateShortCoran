@@ -74,23 +74,23 @@
      {
       "at": [
        22,
-       13
+       14
       ],
-      "do": "pattern_turn"
+      "do": "pan_left"
      },
      {
       "at": [
        22,
        15
       ],
-      "do": "shot_sky"
+      "do": "shot_wide"
      },
      {
       "at": [
        22,
        17
       ],
-      "do": "light_up"
+      "do": "pattern_turn"
      },
      {
       "at": [
@@ -111,7 +111,7 @@
        22,
        28
       ],
-      "do": "clouds_part"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -146,6 +146,18 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       22,
+       15
+      ],
+      [
+       22,
+       33
+      ]
+     ]
     ]
    }
   }
@@ -198,7 +210,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Calm ambient only (night sky with uncountable stars): no people, no dog, nothing countable. No beat falls on any number word (no counting rhythm); no gloss states a number; no birds beat. Mood set to the geometric pattern (no countable objects such as palms or birds in the verse about their number)."
+  "notes": "Calm ambient only (night sky with uncountable stars): no people, no dog, nothing countable. No beat falls on any number word (no counting rhythm); no gloss states a number; no birds beat. Mood set to the geometric pattern (no countable objects such as palms or birds in the verse about their number). v2: the pattern_turn that fell on the number word 22:13 moved to a pan on 22:14, so now no beat falls on any number word; no tilt to the sky on 22:15-16 and no light swell after the Name (22:17 is a pattern ring); 22:15-33 (address to the Prophet) is a quiet range with no light through clouds. Still nothing countable is drawn: no people, one dog symbol only."
  },
  "cover": {
   "series_ar": "أصحاب الكهف",

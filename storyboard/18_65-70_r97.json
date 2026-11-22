@@ -98,14 +98,6 @@
      {
       "at": [
        65,
-       4
-      ],
-      "do": "shot_close",
-      "who": "khidr"
-     },
-     {
-      "at": [
-       65,
        6
       ],
       "do": "sparkle",
@@ -116,7 +108,7 @@
        65,
        9
       ],
-      "do": "push_in"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -128,17 +120,18 @@
       "to": "khidr"
      }
     ],
-    "motifs": [
-     {
-      "at": [
+    "motifs": [],
+    "quiet": [
+     [
+      [
        65,
-       6
+       4
       ],
-      "until": null,
-      "motif": "light",
-      "place": "top",
-      "size": "s"
-     }
+      [
+       65,
+       12
+      ]
+     ]
     ]
    }
   },
@@ -194,7 +187,8 @@
        1
       ],
       "do": "speak",
-      "who": "musa"
+      "who": "musa",
+      "to": "khidr"
      },
      {
       "at": [
@@ -217,8 +211,7 @@
        66,
        8
       ],
-      "do": "shot_close",
-      "who": "musa"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -226,15 +219,15 @@
        1
       ],
       "do": "speak",
-      "who": "khidr"
+      "who": "khidr",
+      "to": "musa"
      },
      {
       "at": [
        67,
        2
       ],
-      "do": "shot_close",
-      "who": "khidr"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -250,13 +243,6 @@
        1
       ],
       "do": "shot_wide"
-     },
-     {
-      "at": [
-       68,
-       6
-      ],
-      "do": "push_in"
      }
     ],
     "motifs": [
@@ -335,15 +321,15 @@
        1
       ],
       "do": "speak",
-      "who": "musa"
+      "who": "musa",
+      "to": "khidr"
      },
      {
       "at": [
        69,
        2
       ],
-      "do": "shot_close",
-      "who": "musa"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -356,10 +342,11 @@
      {
       "at": [
        69,
-       6
+       7
       ],
-      "do": "glow",
-      "who": "musa"
+      "do": "speak",
+      "who": "musa",
+      "to": "khidr"
      },
      {
       "at": [
@@ -374,15 +361,15 @@
        1
       ],
       "do": "speak",
-      "who": "khidr"
+      "who": "khidr",
+      "to": "musa"
      },
      {
       "at": [
        70,
        3
       ],
-      "do": "shot_close",
-      "who": "khidr"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -497,7 +484,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Musa is a 'prophet' drop; al-Khidr is a neutral green 'honored' drop labelled «الخضر» because the tafsirs differ (Al-Muyassar: a prophet; As-Sa'di: a righteous servant, not a prophet). No gloss or title asserts either view: the 18:65 excerpts stop before Al-Muyassar's 'وهو نبي' and use only wording both tafsirs share. Yusha' bin Nun stays quietly at the side. Musa asks with humility (bow), al-Khidr states the condition (speak, glow)."
+  "notes": "Musa is a 'prophet' drop; al-Khidr is a neutral green 'honored' drop labelled «الخضر» because the tafsirs differ (Al-Muyassar: a prophet; As-Sa'di: a righteous servant, not a prophet). No gloss or title asserts either view: the 18:65 excerpts stop before Al-Muyassar's 'وهو نبي' and use only wording both tafsirs share. Yusha' bin Nun stays quietly at the side. Musa asks with humility (bow), al-Khidr states the condition (speak, glow). v2: Musa now speaks to al-Khidr (before, Yusha' stood as near as al-Khidr and drew the speech); no close-up or push-in on a light drop (the push-ins cropped the labels); the light plate on the mercy given to al-Khidr (65:6) is removed, so no light falls on him that could suggest revelation (the tafsirs differ on his status); 65:4-12 (Allah's words about His gift to him) is a quiet range; no glow on Musa right after the Name (69:5-6): he goes on speaking on 69:7."
  },
  "cover": {
   "series_ar": "موسى والخضر",

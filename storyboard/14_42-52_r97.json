@@ -40,6 +40,13 @@
      {
       "at": [
        42,
+       4
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       42,
        6
       ],
       "do": "shot_wide"
@@ -47,30 +54,37 @@
      {
       "at": [
        42,
-       13
+       10
       ],
       "do": "pan_right"
      },
      {
       "at": [
-       43,
-       2
+       42,
+       13
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        43,
-       4
+       2
       ],
       "do": "pan_left"
      },
      {
       "at": [
        43,
-       7
+       4
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       43,
+       7
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -94,6 +108,18 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       42,
+       1
+      ],
+      [
+       42,
+       7
+      ]
+     ]
     ]
    }
   },
@@ -175,6 +201,13 @@
      {
       "at": [
        44,
+       20
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       44,
        21
       ],
       "do": "shot_wide"
@@ -184,7 +217,7 @@
        44,
        26
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -198,14 +231,21 @@
        45,
        6
       ],
-      "do": "pan_left"
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       45,
+       7
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        45,
        10
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -219,14 +259,14 @@
        46,
        6
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        46,
        8
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -251,6 +291,28 @@
       "size": "m"
      }
     ],
+    "quiet": [
+     [
+      [
+       45,
+       7
+      ],
+      [
+       45,
+       14
+      ]
+     ],
+     [
+      [
+       46,
+       4
+      ],
+      [
+       46,
+       6
+      ]
+     ]
+    ],
     "transition": "dissolve"
    }
   },
@@ -263,7 +325,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light",
+    "mood": "geometric",
     "beats": [
      {
       "at": [
@@ -332,6 +394,28 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       47,
+       1
+      ],
+      [
+       47,
+       11
+      ]
+     ],
+     [
+      [
+       48,
+       7
+      ],
+      [
+       48,
+       10
+      ]
+     ]
     ],
     "transition": "slide"
    }
@@ -424,6 +508,18 @@
       "size": "m"
      }
     ],
+    "quiet": [
+     [
+      [
+       51,
+       1
+      ],
+      [
+       51,
+       10
+      ]
+     ]
+    ],
     "transition": "morph"
    }
   },
@@ -514,6 +610,18 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       52,
+       7
+      ],
+      [
+       52,
+       10
+      ]
+     ]
     ],
     "transition": "page_turn"
    }
@@ -776,7 +884,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "42 is merged in because 43 «مهطعين» continues its sentence; 43-52 is one unit in the recitation. The Day, the staring eyes, the changed earth, the chains, the tar and the fire are never drawn: night and geometry only, with an hourglass for «إنما يؤخرهم ليوم» and geometric on His names. No plate on «وأنذر» or «فلا تحسبن» (the Prophet ﷺ addressed). Not glossed where the tafsirs differ: 46:1-3 (who plotted), 46:7-12 («وإن كان مكرهم لتزول منه الجبال»), 48:1-6 (the change of the earth), 51:7-10. The disbelievers' plea (44:9-17) is not restated. A book for «هذا بلاغ للناس»."
+  "notes": "42 is merged in because 43 «مهطعين» continues its sentence; 43-52 is one unit in the recitation. The Day, the staring eyes, the changed earth, the chains, the tar and the fire are never drawn: night and geometry only, with an hourglass for «إنما يؤخرهم ليوم» and geometric on His names. No plate on «وأنذر» or «فلا تحسبن» (the Prophet ﷺ addressed). Not glossed where the tafsirs differ: 46:1-3 (who plotted), 46:7-12 («وإن كان مكرهم لتزول منه الجبال»), 48:1-6 (the change of the earth), 51:7-10. The disbelievers' plea (44:9-17) is not restated. A book for «هذا بلاغ للناس». STAGING v4: All five chapters stay ambient: the Day, its terrors, the plea of the wrongdoers, the changed earth and heavens, the chains, the tar and the fire are the unseen; 42:1-2 and 44:1 address the Prophet ﷺ. c3 (47-48) moves from light to geometric (He is Mighty, Owner of retribution: light is never the mood over a threat). Quiet over His not being unaware (42:1-7), His words and acts (45:7-14, 46:4-6, 47, 48:7-10, 51) and His Oneness (52:7-10). Plates unchanged."
  },
  "cover": {
   "series_ar": "أهوال القيامة",
@@ -788,5 +896,6 @@
    8
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

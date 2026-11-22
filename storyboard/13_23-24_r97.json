@@ -60,6 +60,13 @@
      {
       "at": [
        23,
+       8
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       23,
        9
       ],
       "do": "shot_wide"
@@ -188,7 +195,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Paradise and the angels are never drawn: light mood and light plates only (the plate leaves before «والملائكة»); no garden, river, gold or gate. Cut: «لا يبغون عنها حولا» (18:108) and the 37:61 echo for 24:5-7."
+  "notes": "Paradise and the angels are never drawn: light mood and light plates only (the plate leaves before «والملائكة»); no garden, river, gold or gate. Cut: «لا يبغون عنها حولا» (18:108) and the 37:61 echo for 24:5-7. STAGING v4: Both chapters kept ambient as they were: Paradise and the angels' greeting are the unseen; light mood and light plates only, no garden, river, gold or gate, and the plate leaves before the angels are named."
  },
  "cover": {
   "series_ar": "صفات العقلاء",
@@ -200,5 +207,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

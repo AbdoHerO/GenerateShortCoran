@@ -46,30 +46,37 @@
      {
       "at": [
        4,
-       13
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       4,
-       16
+       8
       ],
       "do": "pan_left"
      },
      {
       "at": [
        4,
-       17
+       13
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       4,
+       16
       ],
       "do": "pan_right"
      },
      {
       "at": [
        4,
+       17
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       4,
        19
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -83,6 +90,28 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       4,
+       1
+      ],
+      [
+       4,
+       4
+      ]
+     ],
+     [
+      [
+       4,
+       10
+      ],
+      [
+       4,
+       19
+      ]
+     ]
     ]
    }
   },
@@ -92,10 +121,41 @@
    "verses": [
     5
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "mu",
+      "type": "prophet",
+      "label": "موسى",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       5,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        5,
@@ -106,9 +166,16 @@
      {
       "at": [
        5,
-       5
+       6
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       5,
+       9
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -120,23 +187,30 @@
      {
       "at": [
        5,
-       15
+       14
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       5,
+       16
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        5,
        19
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        5,
        21
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -147,11 +221,21 @@
       ],
       "until": [
        5,
-       15
+       12
       ],
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       5,
+       18
+      ],
+      "until": null,
+      "motif": "burst",
+      "place": "top",
+      "size": "s"
      }
     ],
     "transition": "dissolve"
@@ -163,23 +247,71 @@
    "verses": [
     6
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "mu",
+      "type": "prophet",
+      "label": "موسى",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        6,
-       9
+       2
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "mu",
+      "to": "p"
+     },
+     {
+      "at": [
+       6,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       6,
+       8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       6,
+       10
+      ],
+      "do": "sparkle",
+      "who": "p"
      },
      {
       "at": [
        6,
        13
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -191,9 +323,9 @@
      {
       "at": [
        6,
-       17
+       16
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -207,21 +339,21 @@
        6,
        20
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        6,
-       22
+       21
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        6,
        24
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -235,7 +367,7 @@
      {
       "at": [
        6,
-       5
+       6
       ],
       "until": [
        6,
@@ -243,7 +375,17 @@
       ],
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       6,
+       23
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "s"
      }
     ],
     "transition": "slide"
@@ -364,7 +506,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Musa: no plate; the plates start after his name. Geometric for «فيضل الله من يشاء… وهو العزيز الحكيم», light for «من الظلمات إلى النور وذكرهم بأيام الله» and «اذكروا نعمة الله عليكم». Pharaoh's crimes (6:9-20) are never drawn or glossed."
+  "notes": "Musa: no plate; the plates start after his name. Geometric for «فيضل الله من يشاء… وهو العزيز الحكيم», light for «من الظلمات إلى النور وذكرهم بأيام الله» and «اذكروا نعمة الله عليكم». Pharaoh's crimes (6:9-20) are never drawn or glossed. STAGING v4: c1 (4) stays ambient: every messenger sent in his people's tongue (no messenger is named, so none is drawn), and Allah guiding and leaving astray, the Mighty, the Wise: quiet over 4:1-4 and 4:10-19. c2-c3 (5-6): a plain town by day (the sources name no place). Musa is a blue drop labelled «موسى» on the left, never a figure; his people are three faceless men on the right (the series' sign for a people, no number meant; no woman in a story scene). No plate starts on his name and no close-up or pan is made on his drop: wide holds only. c2 (5): Allah's sending of Musa and His command to him (no gesture, nothing acted as already done); a light plate for out of the darkness into the light (5:8-11) and a burst plate for signs for every patient, grateful one (5:18-21). c3 (6): Musa speaks to his people (6:2, his speech arcs toward them; they make no gesture inside his speech); a light plate for the favour of Allah upon you (6:6-8); a soft sparkle on them for when He saved you (6:10). Pharaoh and his people, the torment, the slaughter of the sons and the women kept alive (6:12-20) are never drawn: the camera stays wide. Geometric for a great trial from your Lord (6:23). The cover now shows Musa speaking to his people (6:4)."
  },
  "cover": {
   "series_ar": "موعظة موسى",
@@ -373,8 +515,9 @@
   "title_en": "Lessons of the past",
   "at": [
    6,
-   5
+   4
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -32,16 +32,65 @@
    "verses": [
     5
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "ya",
+      "type": "prophet",
+      "label": "يعقوب",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "yu",
+      "type": "prophet",
+      "label": "يوسف",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       5,
+       1
+      ],
+      "do": "speak",
+      "who": "ya",
+      "to": "yu"
+     },
+     {
+      "at": [
+       5,
+       4
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        5,
        7
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       5,
+       8
+      ],
+      "do": "speak",
+      "who": "ya",
+      "to": "yu"
      },
      {
       "at": [
@@ -53,12 +102,42 @@
      {
       "at": [
        5,
+       12
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       5,
        14
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "ya",
+      "to": "yu"
+     },
+     {
+      "at": [
+       5,
+       15
+      ],
+      "do": "shot_wide"
      }
     ],
-    "motifs": []
+    "motifs": [
+     {
+      "at": [
+       5,
+       5
+      ],
+      "until": [
+       5,
+       8
+      ],
+      "motif": "stars",
+      "place": "top",
+      "size": "s"
+     }
+    ]
    }
   },
   {
@@ -67,16 +146,65 @@
    "verses": [
     6
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "ya",
+      "type": "prophet",
+      "label": "يعقوب",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "yu",
+      "type": "prophet",
+      "label": "يوسف",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       6,
+       1
+      ],
+      "do": "speak",
+      "who": "ya",
+      "to": "yu"
+     },
      {
       "at": [
        6,
        4
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       6,
+       6
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       6,
+       8
+      ],
+      "do": "speak",
+      "who": "ya",
+      "to": "yu"
      },
      {
       "at": [
@@ -88,35 +216,58 @@
      {
       "at": [
        6,
-       12
+       14
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        6,
        15
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        6,
        16
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        6,
        17
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "ya",
+      "to": "yu"
      },
      {
       "at": [
        6,
        19
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       6,
+       22
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       6,
+       24
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       6,
+       25
       ],
       "do": "shot_wide"
      }
@@ -133,7 +284,7 @@
       ],
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -144,9 +295,9 @@
        6,
        12
       ],
-      "motif": "light",
+      "motif": "seal",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -156,7 +307,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "dissolve"
@@ -244,7 +395,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Ya'qub and Yusuf: no motif; nothing drawn for Satan (5:11-15). A book for «تأويل الأحاديث», light for «ويتم نعمته» (it leaves before «يعقوب»), geometric for «إن ربك عليم حكيم» (after «إبراهيم وإسحاق»). 5:1-7 is not glossed; As-Sa'di's text for 5 is his introduction to the story, so 5 uses Al-Muyassar."
+  "notes": "Ya'qub and Yusuf: no motif; nothing drawn for Satan (5:11-15). A book for «تأويل الأحاديث», light for «ويتم نعمته» (it leaves before «يعقوب»), geometric for «إن ربك عليم حكيم» (after «إبراهيم وإسحاق»). 5:1-7 is not glossed; As-Sa'di's text for 5 is his introduction to the story, so 5 uses Al-Muyassar. STAGING v4: Both chapters: the family's tents in the desert by day, as in 12_1-4; Ya'qub (right) and Yusuf (left) as blue drops labelled with their names; no close-up, pan or glow on them. c1 (5): Ya'qub speaks to Yusuf (5:1, 5:8, 5:14); the small stars plate (the dream's symbol, as in 4) for your dream (5:5-7); the brothers are only named here and are not drawn; nothing is drawn for Satan (5:12-15). c2 (6): Ya'qub's words go on (6:1, 6:8, 6:17); a book plate for the interpretation of narratives (6:6-7), a seal plate for the completed favour, a promise (6:8-11, not a light plate on His act), geometric for your Lord is Knowing, Wise (6:22). Ibrahim and Ishaq are only named, never drawn; no plate starts on a prophet's name. Cover: Ya'qub speaking to Yusuf with the stars plate (title: a father's warning)."
  },
  "cover": {
   "series_ar": "بداية الرؤيا",
@@ -253,8 +404,9 @@
   "title_en": "A father's warning",
   "at": [
    5,
-   1
+   7
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

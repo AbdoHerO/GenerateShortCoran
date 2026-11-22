@@ -32,51 +32,134 @@
    "verses": [
     80
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "gather",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "e",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        80,
-       5
+       1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       80,
+       4
+      ],
+      "do": "walk_to",
+      "who": "e",
+      "to": "d"
+     },
+     {
+      "at": [
+       80,
+       6
+      ],
+      "do": "speak",
+      "who": "e",
+      "to": "d"
      },
      {
       "at": [
        80,
        8
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "e"
      },
      {
       "at": [
        80,
        11
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        80,
-       19
+       13
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        80,
-       24
+       18
+      ],
+      "do": "speak",
+      "who": "e",
+      "to": "d"
+     },
+     {
+      "at": [
+       80,
+       21
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        80,
-       29
+       24
       ],
-      "do": "pan_left"
+      "do": "shake_head",
+      "who": "e"
+     },
+     {
+      "at": [
+       80,
+       26
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       80,
+       28
+      ],
+      "do": "speak",
+      "who": "e",
+      "to": "d"
+     },
+     {
+      "at": [
+       80,
+       31
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       80,
+       35
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -91,7 +174,7 @@
       ],
       "motif": "seal",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -101,7 +184,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -113,49 +196,124 @@
     81,
     82
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "cm",
+      "type": "camel",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "e",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        81,
+       1
+      ],
+      "do": "speak",
+      "who": "e",
+      "to": "d"
+     },
+     {
+      "at": [
+       81,
+       3
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       81,
        4
+      ],
+      "do": "speak",
+      "who": "e",
+      "to": "d"
+     },
+     {
+      "at": [
+       81,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       81,
+       10
+      ],
+      "do": "speak",
+      "who": "e",
+      "to": "d"
+     },
+     {
+      "at": [
+       81,
+       13
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       81,
+       16
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       82,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       82,
+       3
       ],
       "do": "pan_right"
      },
      {
       "at": [
-       81,
+       82,
+       6
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       82,
        8
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       81,
-       12
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       81,
-       17
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       82,
-       4
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       82,
-       7
       ],
       "do": "shot_wide"
      },
@@ -164,17 +322,31 @@
        82,
        9
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        82,
        10
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
-    "motifs": [],
+    "motifs": [
+     {
+      "at": [
+       81,
+       1
+      ],
+      "until": [
+       81,
+       4
+      ],
+      "motif": "footsteps",
+      "place": "top",
+      "size": "s"
+     }
+    ],
     "transition": "dissolve"
    }
   }
@@ -271,7 +443,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A seal for «موثقا من الله», geometric for «أو يحكم الله لي وهو خير الحاكمين». 81:1-8 («إن ابنك سرق») is not glossed: the next chip carries their basis «لأننا رأينا الصواع استخرج من رحله», so the charge is not stated as fact. «كبيرهم» is not identified."
+  "notes": "A seal for «موثقا من الله», geometric for «أو يحكم الله لي وهو خير الحاكمين». 81:1-8 («إن ابنك سرق») is not glossed: the next chip carries their basis «لأننا رأينا الصواع استخرج من رحله», so the charge is not stated as fact. «كبيرهم» is not identified. STAGING v4: In the town of Egypt, the brothers apart from everyone (Al-Muyassar: they withdrew from the people; As-Sa'di: alone). They are plain men in dark robes: a group of three, and the eldest (not identified) as one figure of the same look. c1 (80): they confer in a tight group and the eldest joins them (80:4) and speaks (80:6, 80:18, 80:28); a seal plate for the pledge by Allah (80:15-17); he shakes his head as he says he will not leave the land (80:24); a geometric plate for until Allah judges for me (80:32). No drop: Yusuf is only named (80:23) and Ya'qub is absent, and no close-up comes near those words. c2 (81-82): the eldest tells them to go back (81:1, a footsteps plate for the return) and what to say (81:4, 81:10); their charge against Binyamin is not drawn (no Binyamin, no plate, no pointing); the camel stands for the caravan named in 82:6. 82 has no speech beat at all: Al-Muyassar gives it to the brothers before their father, As-Sa'di to the eldest's instruction, so the speaker is not shown."
  },
  "cover": {
   "series_ar": "صبر يعقوب",
@@ -283,5 +455,6 @@
    15
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

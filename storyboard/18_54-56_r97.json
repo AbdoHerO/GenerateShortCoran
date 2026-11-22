@@ -115,22 +115,14 @@
        55,
        7
       ],
-      "do": "clouds_part"
+      "do": "birds"
      },
      {
       "at": [
        55,
        8
       ],
-      "do": "shot_sky"
-     },
-     {
-      "at": [
-       55,
-       10
-      ],
-      "do": "sparkle",
-      "who": "light"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -165,9 +157,12 @@
      {
       "at": [
        55,
-       8
+       7
       ],
-      "until": null,
+      "until": [
+       55,
+       9
+      ],
       "motif": "lamp",
       "place": "top",
       "size": "m"
@@ -386,7 +381,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Calm visuals only, nothing and no one drawn: the geometric pattern turns with the many kinds of examples in the Quran, dawn for the guidance that came, rays of light for the messengers; disputing with falsehood is only a passing gust of wind and the light returns on the truth."
+  "notes": "Calm visuals only, nothing and no one drawn: the geometric pattern turns with the many kinds of examples in the Quran, dawn for the guidance that came, rays of light for the messengers; disputing with falsehood is only a passing gust of wind and the light returns on the truth. v2: the lamp plate now covers 55:7-8 and leaves before the Name (55:10); no sparkle on the Name and no sky tilt just before it. The clouds parting on 55:7 became birds: its rays from above would still shine on the Name (55:10)."
  },
  "cover": {
   "series_ar": "الجدال وسنة الله",

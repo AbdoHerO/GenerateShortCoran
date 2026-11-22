@@ -39,51 +39,44 @@
      {
       "at": [
        18,
-       4
+       9
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        18,
        15
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        18,
        16
       ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       18,
-       19
-      ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        18,
        21
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        18,
        23
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        18,
        25
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -103,13 +96,26 @@
      {
       "at": [
        18,
-       9
+       5
       ],
       "until": [
        18,
+       9
+      ],
+      "motif": "two_paths",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       18,
        20
       ],
-      "motif": "coins",
+      "until": [
+       18,
+       24
+      ],
+      "motif": "hourglass",
       "place": "top",
       "size": "m"
      }
@@ -165,7 +171,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Light for «للذين استجابوا لربهم الحسنى», coins for «لو أن لهم ما في الأرض جميعا ومثله معه» (the wealth that would not ransom them). Hell (18:24-27) is never drawn and not glossed."
+  "notes": "Light for «للذين استجابوا لربهم الحسنى», coins for «لو أن لهم ما في الأرض جميعا ومثله معه» (the wealth that would not ransom them). Hell (18:24-27) is never drawn and not glossed. STAGING v4: Stays ambient: the reward of those who respond and the ransom, reckoning and Hell of those who do not (the Hereafter). The coins plate is removed (no coins or gold in a Hell passage): two paths for the two groups (18:5-8), an hourglass for the evil reckoning (18:20-23); nothing for Hell (18:24-27)."
  },
  "cover": {
   "series_ar": "أمثال التوحيد",
@@ -177,5 +183,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

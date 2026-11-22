@@ -88,6 +88,28 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       1,
+       3
+      ],
+      [
+       1,
+       6
+      ]
+     ],
+     [
+      [
+       1,
+       11
+      ],
+      [
+       1,
+       16
+      ]
+     ]
     ]
    }
   },
@@ -98,44 +120,94 @@
     2,
     3
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        2,
-       9
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       2,
-       12
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       2,
-       14
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       3,
        1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
+       2,
+       6
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       2,
+       10
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       2,
+       13
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       2,
+       14
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       3,
+       2
+      ],
+      "do": "sit",
+      "who": "d"
+     },
+     {
+      "at": [
+       3,
+       4
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
        3,
        7
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "d",
+      "to": "p"
      },
      {
       "at": [
@@ -147,16 +219,24 @@
      {
       "at": [
        3,
-       14
+       11
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       3,
+       13
+      ],
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        3,
        16
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -171,7 +251,7 @@
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -184,7 +264,7 @@
       ],
       "motif": "leaf",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -197,7 +277,7 @@
       ],
       "motif": "two_paths",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "page_turn"
@@ -318,7 +398,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The isolated letters (1:1) are not glossed. A book for «كتاب» (it leaves before «إليك»); light for «من الظلمات إلى النور بإذن ربهم» (after «لتخرج»; no plate on the Prophet ﷺ), geometric for «العزيز الحميد» and «الله الذي له ما في السماوات». A falling leaf for «الحياة الدنيا», two paths for «ويبغونها عوجا». Nothing drawn for the punishment (2:10-14)."
+  "notes": "The isolated letters (1:1) are not glossed. A book for «كتاب» (it leaves before «إليك»); light for «من الظلمات إلى النور بإذن ربهم» (after «لتخرج»; no plate on the Prophet ﷺ), geometric for «العزيز الحميد» and «الله الذي له ما في السماوات». A falling leaf for «الحياة الدنيا», two paths for «ويبغونها عوجا». Nothing drawn for the punishment (2:10-14). STAGING v4: c1 (1) stays ambient: the Book revealed to the Prophet ﷺ to bring people out of darkness into light (his mission; quiet over 1:3-6 and 1:11-16, no plate on him); plates unchanged. c2 (2-3): a market by day. Geometric for Allah to whom belongs what is in the heavens and the earth (2:1-9); the camera closes on three men in dark robes for woe to the disbelievers (2:10, the threat held on them). They sit down among the stalls as those who prefer the worldly life over the Hereafter (3:2, a falling-leaf plate for the worldly life, 3:3-6), and speak to three other townspeople (3:7, they avert people from Allah's way: As-Sa'di, they avert people); the townspeople make no gesture (nobody is shown being turned away). Two paths for they seek to make it crooked (3:11-12); the camera closes on the dark-robed men for in far error (3:13). No women: the blamed group and the townspeople are three men each."
  },
  "cover": {
   "series_ar": "الكتاب الهادي",
@@ -330,5 +410,6 @@
    2
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

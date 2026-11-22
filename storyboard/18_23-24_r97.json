@@ -49,7 +49,7 @@
        23,
        4
       ],
-      "do": "push_in"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -63,15 +63,7 @@
        24,
        3
       ],
-      "do": "light_up"
-     },
-     {
-      "at": [
-       24,
-       5
-      ],
-      "do": "sparkle",
-      "who": "light"
+      "do": "shot_ground"
      },
      {
       "at": [
@@ -85,14 +77,7 @@
        24,
        10
       ],
-      "do": "shot_sky"
-     },
-     {
-      "at": [
-       24,
-       12
-      ],
-      "do": "light_up"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -127,23 +112,25 @@
      {
       "at": [
        24,
-       5
-      ],
-      "until": null,
-      "motif": "hands",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       24,
-       12
+       14
       ],
       "until": null,
       "motif": "lamp",
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       23,
+       1
+      ],
+      [
+       24,
+       17
+      ]
+     ]
     ]
    }
   }
@@ -196,7 +183,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Calm ambient only (rays of light: du'a and guidance). One chapter: verse 23 alone is under 8 s."
+  "notes": "Calm ambient only (rays of light: du'a and guidance). One chapter: verse 23 alone is under 8 s. v2: the whole passage (Allah addresses the Prophet) is a quiet range; the hands plate over the Name (24:5-6) is removed and the lamp plate starts after the Name (24:14); no light swell, sparkle or sky tilt on or near the Name (24:3-6, 24:10-13); no push-in on 23:4."
  },
  "cover": {
   "series_ar": "أصحاب الكهف",

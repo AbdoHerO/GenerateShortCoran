@@ -48,7 +48,7 @@
        50,
        3
       ],
-      "do": "light_up"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -83,14 +83,14 @@
        50,
        18
       ],
-      "do": "shot_sky"
+      "do": "pan_right"
      },
      {
       "at": [
        50,
        20
       ],
-      "do": "stars"
+      "do": "shot_ground"
      },
      {
       "at": [
@@ -111,6 +111,28 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       50,
+       1
+      ],
+      [
+       50,
+       5
+      ]
+     ],
+     [
+      [
+       50,
+       16
+      ],
+      [
+       50,
+       26
+      ]
+     ]
     ]
    }
   },
@@ -164,7 +186,7 @@
        51,
        10
       ],
-      "do": "push_in"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -286,7 +308,19 @@
      }
     ],
     "motifs": [],
-    "transition": "morph"
+    "transition": "morph",
+    "quiet": [
+     [
+      [
+       52,
+       1
+      ],
+      [
+       52,
+       6
+      ]
+     ]
+    ]
    }
   }
  ],
@@ -426,7 +460,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Angels, Adam and Iblis are never drawn: calm visuals only (night sky, mountains, geometric pattern). The command to prostrate is only a swell of light and a downward camera tilt; the creation of the heavens and the earth is clouds parting over the mountains. The Day and the Fire (18:52-53) are not illustrated."
+  "notes": "Angels, Adam and Iblis are never drawn: calm visuals only (night sky, mountains, geometric pattern). The command to prostrate is only a swell of light and a downward camera tilt; the creation of the heavens and the earth is clouds parting over the mountains. The Day and the Fire (18:52-53) are not illustrated. v2: Allah's words (to the angels 50:1-5, to people 50:16-26, on the Day 52:1-6) are quiet ranges with no light swell, sky tilt or stars on them; a sideways pan replaces the push-in on 51:10."
  },
  "cover": {
   "series_ar": "إبليس",

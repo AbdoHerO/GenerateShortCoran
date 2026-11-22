@@ -32,45 +32,101 @@
    "verses": [
     19
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        19,
-       8
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       19,
-       12
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        19,
+       2
+      ],
+      "do": "read",
+      "who": "b"
+     },
+     {
+      "at": [
+       19,
+       4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       19,
+       9
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       19,
+       11
+      ],
+      "do": "turn",
+      "who": "d"
+     },
+     {
+      "at": [
+       19,
+       12
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       19,
        15
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
      {
       "at": [
        19,
-       4
+       2
       ],
       "until": [
        19,
-       9
+       4
       ],
-      "motif": "light",
+      "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -82,30 +138,88 @@
     20,
     21
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "home",
+    "time": "day",
+    "actors": [
+     {
+      "id": "f",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        20,
-       7
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       20,
+       2
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       20,
+       6
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        21,
-       6
+       2
       ],
-      "do": "pan_right"
+      "do": "walk_to",
+      "who": "b",
+      "to": "center"
      },
      {
       "at": [
        21,
-       9
+       6
       ],
-      "do": "pan_left"
+      "do": "sit",
+      "who": "b"
+     },
+     {
+      "at": [
+       21,
+       8
+      ],
+      "do": "speak",
+      "who": "b",
+      "to": "f"
+     },
+     {
+      "at": [
+       21,
+       10
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
@@ -113,6 +227,14 @@
        11
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       21,
+       12
+      ],
+      "do": "shot_close",
+      "who": "b"
      }
     ],
     "motifs": [
@@ -127,12 +249,12 @@
       ],
       "motif": "seal",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        21,
-       2
+       3
       ],
       "until": [
        21,
@@ -140,7 +262,7 @@
       ],
       "motif": "house",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "morph"
@@ -152,10 +274,53 @@
    "verses": [
     22
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "pm",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "sit",
+      "enter": [
+       22,
+       9
+      ],
+      "exit": null,
+      "look": "poor"
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       22,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       22,
+       2
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
      {
       "at": [
        22,
@@ -168,46 +333,76 @@
        22,
        6
       ],
-      "do": "pan_left"
+      "do": "pray",
+      "who": "b"
      },
      {
       "at": [
        22,
-       12
+       7
       ],
-      "do": "pan_right"
+      "do": "ruku",
+      "who": "b"
      },
-     {
-      "at": [
-       22,
-       14
-      ],
-      "do": "shot_wide"
-     }
-    ],
-    "motifs": [
      {
       "at": [
        22,
        8
       ],
-      "until": [
+      "do": "rise",
+      "who": "b"
+     },
+     {
+      "at": [
+       22,
+       9
+      ],
+      "do": "stand_up",
+      "who": "b"
+     },
+     {
+      "at": [
+       22,
+       11
+      ],
+      "do": "give",
+      "who": "b",
+      "to": "pm"
+     },
+     {
+      "at": [
        22,
        13
       ],
-      "motif": "coins",
-      "place": "top",
-      "size": "m"
+      "do": "raise_hands",
+      "who": "pm"
      },
      {
       "at": [
        22,
        16
       ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       22,
+       17
+      ],
+      "do": "sparkle",
+      "who": "b"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       22,
+       18
+      ],
       "until": null,
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "dissolve"
@@ -317,7 +512,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "19 addresses the Prophet ﷺ: light for the revelation «أنزل إليك من ربك الحق», no plate on him. A seal for «يوفون بعهد الله», a house for «يصلون ما أمر الله به أن يوصل» (it leaves before the Name), coins for «وأنفقوا مما رزقناهم سرا وعلانية», light for «عقبى الدار». Nothing on «وجه ربهم» (22:4, His attribute)."
+  "notes": "19 addresses the Prophet ﷺ: light for the revelation «أنزل إليك من ربك الحق», no plate on him. A seal for «يوفون بعهد الله», a house for «يصلون ما أمر الله به أن يوصل» (it leaves before the Name), coins for «وأنفقوا مما رزقناهم سرا وعلانية», light for «عقبى الدار». Nothing on «وجه ربهم» (22:4, His attribute). STAGING v4: c1 (19): a town by day; three believers sit and read (19:2, whoever knows that what was revealed is the truth; a book plate gone before «إليك»), three men in dark robes stand apart; the camera is wide over the revelation to the Prophet ﷺ (19:4-8), closes on the dark-robed men for like one who is blind (19:9; Al-Muyassar: blind to the truth, not believing) and they turn away (19:11); then on the believers for only those of understanding remember (19:12). c2 (20-21): a home by day; three believers fulfil the covenant (a seal plate, 20:2-4), then walk over to their relatives sitting on the left (21:2, they join what Allah ordered joined: Al-Muyassar, kinship and the needy), sit with them (21:6) and speak to them (21:8); a house plate gone before the Name. Nothing is acted on they fear their Lord (no bow toward people); the camera closes on the believers for they fear the evil reckoning (21:12). c3 (22): a prayer hall by day; the believers stand patient (22:2), the camera wide on seeking the face of their Lord (22:4); they pray (22:6-8: standing, bowing, rising) facing the empty side of the hall, stand up (22:9), and only then a poor man appears, sitting on the right, and they give him (22:11, spend from what We provided, secretly and openly: zakat and voluntary charity); he raises his hands (22:13) with no plate on screen; a soft sparkle and a light plate for the good end of the abode (22:17-19). The cover now shows the believers bowing in prayer (22:7)."
  },
  "cover": {
   "series_ar": "صفات العقلاء",
@@ -325,9 +520,10 @@
   "title_ar": "صفات العقلاء",
   "title_en": "Traits of the wise",
   "at": [
-   20,
-   2
+   22,
+   7
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -211,7 +211,7 @@
        4,
        3
       ],
-      "do": "push_in"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -256,7 +256,10 @@
        4,
        2
       ],
-      "until": null,
+      "until": [
+       4,
+       5
+      ],
       "motif": "crowd",
       "place": "top",
       "size": "m"
@@ -367,7 +370,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Calm ambient only. Dawn for the opening (the Book sent down), rays of light for the warning and the good tidings (Paradise is never drawn: the reward gloss has no arrow), geometric pattern for the refutation of the claim of a son. No light effect is placed on the Name of Allah itself."
+  "notes": "Calm ambient only. Dawn for the opening (the Book sent down), rays of light for the warning and the good tidings (Paradise is never drawn: the reward gloss has no arrow), geometric pattern for the refutation of the claim of a son. No light effect is placed on the Name of Allah itself. v2: the crowd plate (4:2) now leaves before the Name in 4:5; a sideways pan replaces the push-in that ran into the Name."
  },
  "cover": {
   "series_ar": "افتتاح السورة",

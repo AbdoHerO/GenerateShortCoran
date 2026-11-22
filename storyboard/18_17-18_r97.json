@@ -111,7 +111,7 @@
        17,
        23
       ],
-      "do": "push_in"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -139,9 +139,12 @@
      {
       "at": [
        17,
-       21
+       19
       ],
-      "until": null,
+      "until": [
+       17,
+       22
+      ],
       "motif": "burst",
       "place": "top",
       "size": "s"
@@ -152,7 +155,7 @@
        24
       ],
       "until": null,
-      "motif": "light",
+      "motif": "geometric",
       "place": "top",
       "size": "s"
      },
@@ -383,7 +386,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Reference storyboard. Sleepers are drawn as an uncountable group (18:22). The sun's path follows Al-Muyassar: it inclines away to the right at sunrise and leaves them to the left at sunset."
+  "notes": "Reference storyboard. Sleepers are drawn as an uncountable group (18:22). The sun's path follows Al-Muyassar: it inclines away to the right at sunrise and leaves them to the left at sunset. v2: the burst plate now covers 17:19-21 and leaves before the Name (17:22); the plate on 17:24 (just before the Name) is geometric instead of light; a sideways pan replaces the push-in over 17:25."
  },
  "cover": {
   "series_ar": "أصحاب الكهف",

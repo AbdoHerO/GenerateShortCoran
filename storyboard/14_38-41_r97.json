@@ -33,14 +33,49 @@
     38,
     39
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "mountains",
+    "time": "day",
+    "actors": [
+     {
+      "id": "ib",
+      "type": "prophet",
+      "label": "إبراهيم",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        38,
-       3
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       38,
+       2
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       38,
+       4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       38,
+       8
       ],
       "do": "shot_wide"
      },
@@ -49,14 +84,14 @@
        38,
        12
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        38,
-       14
+       15
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -68,16 +103,37 @@
      {
       "at": [
        39,
-       7
+       1
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        39,
-       13
+       4
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       39,
+       8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       39,
+       10
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       39,
+       12
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -88,24 +144,11 @@
       ],
       "until": [
        39,
-       1
+       3
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       39,
-       1
-      ],
-      "until": [
-       39,
-       8
-      ],
-      "motif": "light",
-      "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -115,7 +158,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -127,16 +170,44 @@
     40,
     41
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "mountains",
+    "time": "day",
+    "actors": [
+     {
+      "id": "ib",
+      "type": "prophet",
+      "label": "إبراهيم",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        40,
-       6
+       1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       40,
+       4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       40,
+       7
+      ],
+      "do": "wind"
      },
      {
       "at": [
@@ -148,19 +219,37 @@
      {
       "at": [
        41,
-       2
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        41,
-       5
+       4
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       41,
+       6
+      ],
+      "do": "shot_wide"
      }
     ],
-    "motifs": [],
+    "motifs": [
+     {
+      "at": [
+       41,
+       6
+      ],
+      "until": null,
+      "motif": "hourglass",
+      "place": "top",
+      "size": "s"
+     }
+    ],
     "transition": "page_turn"
    }
   }
@@ -246,7 +335,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Geometric for «وما يخفى على الله من شيء…» and «إن ربي لسميع الدعاء», light for «الحمد لله الذي وهب لي» (it leaves before «إسماعيل وإسحاق»). No plate on Ibrahim's prayer for himself and his descendants (40-41). 41:1-4 keeps Al-Muyassar's «وهذا قبل أن يتبيَّن له أن والده عدو لله» (As-Sa'di says the same); the Day (41:6-8) is not glossed or drawn."
+  "notes": "Geometric for «وما يخفى على الله من شيء…» and «إن ربي لسميع الدعاء», light for «الحمد لله الذي وهب لي» (it leaves before «إسماعيل وإسحاق»). No plate on Ibrahim's prayer for himself and his descendants (40-41). 41:1-4 keeps Al-Muyassar's «وهذا قبل أن يتبيَّن له أن والده عدو لله» (As-Sa'di says the same); the Day (41:6-8) is not glossed or drawn. STAGING v4: The same barren valley by day, Ibrahim's blue drop labelled «إبراهيم» alone at the centre, wide holds only, no gesture, glow or speech arcs during his du'a (addressed to Allah). c1 (38-39): geometric for nothing is hidden from Allah and His praise (38:8-39:2) and for my Lord hears supplication (39:10-13); Ismail and Ishaq are named as gifts and are not drawn (no plate, the camera wide on their names). c2 (40-41): his du'a for the prayer, for his offspring, for his parents and the believers; nothing is acted (no prayer pose for a drop, no group added to the valley); an hourglass for the Day the reckoning is established (41:6-8; the Day is not drawn)."
  },
  "cover": {
   "series_ar": "دعاء إبراهيم",
@@ -255,8 +344,9 @@
   "title_en": "The all-encompassing knowledge",
   "at": [
    38,
-   8
+   9
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

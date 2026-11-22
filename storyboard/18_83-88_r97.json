@@ -58,16 +58,6 @@
       "pose": "stand",
       "enter": null,
       "exit": null
-     },
-     {
-      "id": "people",
-      "type": "people",
-      "label": "",
-      "place": "right",
-      "count": 4,
-      "pose": "stand",
-      "enter": null,
-      "exit": null
      }
     ],
     "events": [],
@@ -84,29 +74,28 @@
        83,
        4
       ],
-      "do": "shot_close",
-      "who": "ruler"
+      "do": "shot_wide"
      },
      {
       "at": [
        83,
        7
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        84,
        2
       ],
-      "do": "push_in"
+      "do": "shot_wide"
      },
      {
       "at": [
        84,
        5
       ],
-      "do": "pan_right"
+      "do": "shot_ground"
      },
      {
       "at": [
@@ -155,6 +144,18 @@
       "place": "top",
       "size": "s"
      }
+    ],
+    "quiet": [
+     [
+      [
+       83,
+       1
+      ],
+      [
+       84,
+       10
+      ]
+     ]
     ]
    }
   },
@@ -194,7 +195,7 @@
       "type": "people",
       "label": "",
       "place": "right",
-      "count": 4,
+      "count": 3,
       "pose": "stand",
       "enter": null,
       "exit": null
@@ -223,7 +224,7 @@
        86,
        5
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -239,7 +240,7 @@
        86,
        11
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -254,8 +255,7 @@
        86,
        16
       ],
-      "do": "shot_close",
-      "who": "ruler"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -294,7 +294,19 @@
       "size": "s"
      }
     ],
-    "transition": "wipe"
+    "transition": "wipe",
+    "quiet": [
+     [
+      [
+       86,
+       14
+      ],
+      [
+       86,
+       24
+      ]
+     ]
+    ]
    }
   },
   {
@@ -326,7 +338,7 @@
        87,
        8
       ],
-      "do": "push_in"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -342,7 +354,10 @@
        87,
        4
       ],
-      "until": null,
+      "until": [
+       87,
+       7
+      ],
       "motif": "scales",
       "place": "top",
       "size": "m"
@@ -571,7 +586,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Dhul-Qarnayn is the righteous 'ruler' actor only (Al-Muyassar: the righteous king), never 'king', never a light drop. 18:86 uses sunset_far: both tafsirs say the sun only appeared, to the eye, to set in a dark spring; the first 18:86 gloss states exactly that. Nothing violent is shown: the choice given to him is camera work only, and he walks toward the people at 'goodness'. 18:87-88 (his ruling: punishment in this world and the next, and Paradise for the believer) are ambient chapters, as rulings and the Hereafter are never staged. Review fix: Dhul-Qarnayn is shown as a neutral labelled light (his status is uncertain), like al-Khidr."
+  "notes": "Dhul-Qarnayn is the righteous 'ruler' actor only (Al-Muyassar: the righteous king), never 'king', never a light drop. 18:86 uses sunset_far: both tafsirs say the sun only appeared, to the eye, to set in a dark spring; the first 18:86 gloss states exactly that. Nothing violent is shown: the choice given to him is camera work only, and he walks toward the people at 'goodness'. 18:87-88 (his ruling: punishment in this world and the next, and Paradise for the believer) are ambient chapters, as rulings and the Hereafter are never staged. Review fix: Dhul-Qarnayn is shown as a neutral labelled light (his status is uncertain), like al-Khidr. v2: 18:83-85 no longer show a group of people (the verses and tafsirs name none there; Al-Muyassar's askers are the Prophet's contemporaries); the people found at the sunset are a group of 3 (4 drew a woman); 83:1-84:10 (address to the Prophet, and Allah's gift to Dhul-Qarnayn) and Allah's words to him (86:14-24) are quiet ranges; no close-up, push-in or pan in the drop scenes; the scales plate leaves before the Hereafter part of 87 (no scales at the Judgement) and a sideways pan replaces the push-in over the Name (87:10)."
  },
  "cover": {
   "series_ar": "ذو القرنين",

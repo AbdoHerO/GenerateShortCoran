@@ -32,23 +32,71 @@
    "verses": [
     25
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "home",
+    "time": "day",
+    "actors": [
+     {
+      "id": "f",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       25,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       25,
+       2
+      ],
+      "do": "shake_head",
+      "who": "d"
+     },
      {
       "at": [
        25,
        5
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        25,
        7
       ],
-      "do": "pan_left"
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       25,
+       8
+      ],
+      "do": "turn",
+      "who": "d"
      },
      {
       "at": [
@@ -67,26 +115,50 @@
      {
       "at": [
        25,
-       17
+       15
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        25,
-       19
+       18
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       25,
+       20
+      ],
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        25,
        23
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      }
     ],
-    "motifs": []
+    "motifs": [
+     {
+      "at": [
+       25,
+       3
+      ],
+      "until": [
+       25,
+       8
+      ],
+      "motif": "seal",
+      "place": "top",
+      "size": "s",
+      "exit": "undraw"
+     }
+    ]
    }
   },
   {
@@ -95,30 +167,86 @@
    "verses": [
     26
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "r",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "rich"
+     },
+     {
+      "id": "p",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "poor"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        26,
-       6
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        26,
-       13
+       3
+      ],
+      "do": "shot_close",
+      "who": "r"
+     },
+     {
+      "at": [
+       26,
+       6
+      ],
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       26,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       26,
+       11
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       26,
+       14
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
      {
       "at": [
        26,
-       2
+       3
       ],
       "until": [
        26,
@@ -126,7 +254,7 @@
       ],
       "motif": "wheat",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -136,7 +264,7 @@
       "until": null,
       "motif": "leaf",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "slide"
@@ -235,7 +363,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No plate in 25 (breaking the covenant, the curse, the evil abode). Wheat for «يبسط الرزق لمن يشاء ويقدر», a falling leaf for «وفرحوا بالحياة الدنيا… إلا متاع»."
+  "notes": "No plate in 25 (breaking the covenant, the curse, the evil abode). Wheat for «يبسط الرزق لمن يشاء ويقدر», a falling leaf for «وفرحوا بالحياة الدنيا… إلا متاع». STAGING v4: c1 (25): a home by day; three men in dark robes stand apart from their relatives, who sit on the left (both tafsirs: they cut what Allah ordered joined, kinship among it). A seal plate for the covenant of Allah that draws back (undraw) as they break it (25:3-7); they shake their heads (25:2, breaking it: As-Sa'di, they met it with turning away) and turn their backs on the relatives (25:8, they cut). The camera holds on the dark-robed men for they spread corruption (25:15; no act of corruption is drawn) and through the curse and the evil abode (25:18-23): nothing of the Hereafter is drawn and nobody leaves on those words. c2 (26): a market by day; a rich man and a poor man: the camera closes on the rich man as He extends provision (26:3, wheat plate) and on the poor man as He restricts (26:6); wide for they rejoice in the worldly life (26:7: the disbelievers, not drawn as anyone in particular), a falling-leaf plate for the brief enjoyment (26:8). The cover now shows the dark-robed men (25:15)."
  },
  "cover": {
   "series_ar": "المفسدون والمؤمنون",
@@ -244,8 +372,9 @@
   "title_en": "Traits of the corrupters",
   "at": [
    25,
-   1
+   15
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

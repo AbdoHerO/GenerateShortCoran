@@ -50,7 +50,7 @@
        102,
        6
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -99,6 +99,18 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       102,
+       1
+      ],
+      [
+       104,
+       10
+      ]
+     ]
     ]
    }
   },
@@ -110,30 +122,83 @@
     106,
     107
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "mountains",
+    "time": "day",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        105,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       105,
+       3
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       105,
+       6
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       105,
        7
       ],
-      "do": "pan_right"
+      "do": "walk_to",
+      "who": "d",
+      "to": "right"
+     },
+     {
+      "at": [
+       105,
+       9
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        105,
        11
       ],
-      "do": "pan_left"
+      "do": "turn",
+      "who": "d"
      },
      {
       "at": [
        106,
-       2
+       1
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       106,
+       3
+      ],
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
@@ -152,30 +217,46 @@
      {
       "at": [
        107,
-       2
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       107,
-       5
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        107,
-       11
+       4
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       107,
+       6
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       107,
+       9
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        107,
        12
       ],
-      "do": "pan_left"
+      "do": "walk_to",
+      "who": "d",
+      "to": "left"
+     },
+     {
+      "at": [
+       107,
+       14
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -188,25 +269,22 @@
        105,
        7
       ],
-      "motif": "stars",
+      "motif": "sun",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        107,
-       9
+       10
       ],
-      "until": [
-       107,
-       12
-      ],
+      "until": null,
       "motif": "hourglass",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "wipe"
    }
   }
  ],
@@ -335,7 +413,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "102-104 address the Prophet ﷺ: no plate on him; a book for «إن هو إلا ذكر للعالمين». Stars for «آية في السماوات والأرض», an hourglass for «الساعة بغتة» (the Hour is not drawn). 102:1-6 avoids As-Sa'di's first-person «إيحاؤنا»."
+  "notes": "102-104 address the Prophet ﷺ: no plate on him; a book for «إن هو إلا ذكر للعالمين». Stars for «آية في السماوات والأرض», an hourglass for «الساعة بغتة» (the Hour is not drawn). 102:1-6 avoids As-Sa'di's first-person «إيحاؤنا». STAGING v4: c1 (102-104) stays ambient: Allah addresses the Prophet ﷺ directly (the news of the unseen revealed to you, though you be eager, you ask them no reward); he is never shown, the background stays quiet (no pulse) over the whole chapter, and no pan sits on 102:6. A book plate for a reminder to the worlds (104:9). c2 (105-107) is staged: signs in the heavens and the earth (Al-Muyassar: the sun, the moon, the mountains and the trees) on a mountain valley by day, with a sun plate (105:5-6); three people in dark robes walk past them (105:7) and turn away (105:11); nobody turns toward an empty side and no idol is drawn for 106; a close-up on them as most of them is said (106:3). 107 is a warning: no event, nobody is struck or leaves; an hourglass plate for the Hour (107:10; the Hour is not drawn) and they walk on, unaware (107:12). The camera holds on them, there are no believers on stage."
  },
  "cover": {
   "series_ar": "خاتمة السورة",
@@ -344,8 +422,9 @@
   "title_en": "Human heedlessness",
   "at": [
    105,
-   5
+   11
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -55,7 +55,7 @@
        109,
        7
       ],
-      "do": "light_up"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -69,29 +69,21 @@
        109,
        12
       ],
-      "do": "push_in"
-     },
-     {
-      "at": [
-       109,
-       13
-      ],
-      "do": "light_up"
+      "do": "pan_right"
      },
      {
       "at": [
        109,
        16
       ],
-      "do": "shot_sky"
+      "do": "shot_wide"
      },
      {
       "at": [
        109,
        18
       ],
-      "do": "sparkle",
-      "who": "light"
+      "do": "waves"
      }
     ],
     "motifs": [
@@ -100,7 +92,10 @@
        109,
        5
       ],
-      "until": null,
+      "until": [
+       109,
+       7
+      ],
       "motif": "pen",
       "place": "top",
       "size": "m"
@@ -135,6 +130,18 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       109,
+       1
+      ],
+      [
+       109,
+       18
+      ]
+     ]
     ]
    }
   }
@@ -176,7 +183,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Reference storyboard. Calm visuals only: the sea and light; nothing is drawn for Allah's words beyond the ink-like waves."
+  "notes": "Reference storyboard. Calm visuals only: the sea and light; nothing is drawn for Allah's words beyond the ink-like waves. v2: the verse (an address to the Prophet about His words) is a quiet range; the pen plate leaves before the Name (109:7); no light swell, push-in, sky tilt or light sparkle on or near the Name or His words (109:7, 109:12-16, 109:18): pans, a wide shot and a wave instead."
  },
  "cover": {
   "series_ar": "خاتمة السورة",

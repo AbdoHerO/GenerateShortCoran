@@ -40,6 +40,13 @@
      {
       "at": [
        8,
+       5
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       8,
        8
       ],
       "do": "shot_wide"
@@ -49,28 +56,28 @@
        8,
        11
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        8,
        15
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        9,
        1
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        9,
        4
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -84,6 +91,28 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       8,
+       1
+      ],
+      [
+       8,
+       2
+      ]
+     ],
+     [
+      [
+       8,
+       12
+      ],
+      [
+       9,
+       5
+      ]
+     ]
     ]
    }
   },
@@ -93,30 +122,95 @@
    "verses": [
     10
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "night",
+    "actors": [
+     {
+      "id": "m",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "sit",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     },
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        10,
-       4
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        10,
+       2
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       10,
+       4
+      ],
+      "do": "speak",
+      "who": "m",
+      "to": "p"
+     },
+     {
+      "at": [
+       10,
+       7
+      ],
+      "do": "speak",
+      "who": "p",
+      "to": "m"
+     },
+     {
+      "at": [
+       10,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       10,
+       11
+      ],
+      "do": "shot_close",
+      "who": "m"
+     },
+     {
+      "at": [
+       10,
        12
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        10,
        13
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -128,7 +222,7 @@
       "until": null,
       "motif": "night_day",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "dissolve"
@@ -142,8 +236,15 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light",
+    "mood": "geometric",
     "beats": [
+     {
+      "at": [
+       11,
+       3
+      ],
+      "do": "pan_right"
+     },
      {
       "at": [
        11,
@@ -163,49 +264,49 @@
        11,
        12
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       11,
+       21
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
        11,
        22
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        11,
        23
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        11,
        26
       ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       11,
-       27
-      ],
       "do": "pan_left"
      },
      {
       "at": [
        11,
-       31
+       32
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        11,
-       33
+       34
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -221,7 +322,39 @@
       "motif": "two_paths",
       "place": "top",
       "size": "m"
+     },
+     {
+      "at": [
+       11,
+       27
+      ],
+      "until": null,
+      "motif": "seal",
+      "place": "top",
+      "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       11,
+       1
+      ],
+      [
+       11,
+       11
+      ]
+     ],
+     [
+      [
+       11,
+       22
+      ],
+      [
+       11,
+       35
+      ]
+     ]
     ],
     "transition": "slide"
    }
@@ -341,7 +474,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No womb or pregnancy drawn; 8:7-11 is not glossed (the tafsirs read «تغيض… تزداد» differently: shorter/longer term or loss/growth). The guardian angels (11:1-11) are never drawn; «من أمر الله» is not glossed (read differently). Geometric for «وكل شيء عنده بمقدار عالم الغيب والشهادة الكبير المتعال», night-and-day for «مستخف بالليل وسارب بالنهار», two paths for «حتى يغيروا ما بأنفسهم»."
+  "notes": "No womb or pregnancy drawn; 8:7-11 is not glossed (the tafsirs read «تغيض… تزداد» differently: shorter/longer term or loss/growth). The guardian angels (11:1-11) are never drawn; «من أمر الله» is not glossed (read differently). Geometric for «وكل شيء عنده بمقدار عالم الغيب والشهادة الكبير المتعال», night-and-day for «مستخف بالليل وسارب بالنهار», two paths for «حتى يغيروا ما بأنفسهم». STAGING v4: c1 (8-9) stays ambient: His knowledge of what every female carries (no womb or pregnancy drawn) and His Names; quiet over 8:1-2 and 8:12-9:5. c2 (10), people in a town at night: one man sitting on the left speaks to the others (whoever conceals speech, 10:4) and the group answers him (whoever declares it, 10:7); the camera closes on the sitting man in the night for whoever hides by night (10:11), with the night-and-day plate. Nothing is drawn for going about by day (10:13-14): the tafsirs differ (Al-Muyassar: openly in daylight; As-Sa'di: inside his hiding place by day), so the camera only pans. c3 (11) stays ambient: the guardian angels are never drawn (quiet over 11:1-11), then Allah's decree on a people (quiet over 11:22-35); the mood moves from light to geometric (11:22-35 is a warning: light is never the mood over a threat); two paths for until they change what is in themselves, a seal plate for no turning back of His decree (11:27)."
  },
  "cover": {
   "series_ar": "إحاطة العلم",
@@ -353,5 +486,6 @@
    12
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

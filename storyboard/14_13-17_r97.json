@@ -33,16 +33,38 @@
     13,
     14
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       13,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        13,
        5
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
@@ -61,21 +83,22 @@
      {
       "at": [
        13,
-       11
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       13,
-       13
+       12
       ],
       "do": "shot_wide"
      },
      {
       "at": [
+       13,
+       15
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
        14,
-       2
+       1
       ],
       "do": "shot_wide"
      },
@@ -84,21 +107,34 @@
        14,
        5
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        14,
-       9
+       8
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
      {
       "at": [
+       13,
+       14
+      ],
+      "until": [
        14,
        1
+      ],
+      "motif": "geometric",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       14,
+       2
       ],
       "until": [
        14,
@@ -106,7 +142,17 @@
       ],
       "motif": "house",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       14,
+       6
+      ],
+      "until": null,
+      "motif": "seal",
+      "place": "top",
+      "size": "s"
      }
     ]
    }
@@ -121,7 +167,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
@@ -129,6 +175,13 @@
        5
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       16,
+       1
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -142,14 +195,14 @@
        16,
        6
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        16,
        7
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -163,21 +216,28 @@
        17,
        6
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        17,
        12
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       17,
+       14
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        17,
        15
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      }
     ],
     "motifs": [],
@@ -310,7 +370,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A house for «ولنسكننكم الأرض من بعدهم» (the land, not the messengers). Hell (16-17) is never drawn: no plate in 15-17. 15:1 «واستفتحوا» is not glossed (the tafsirs differ: the messengers / the disbelievers)."
+  "notes": "A house for «ولنسكننكم الأرض من بعدهم» (the land, not the messengers). Hell (16-17) is never drawn: no plate in 15-17. 15:1 «واستفتحوا» is not glossed (the tafsirs differ: the messengers / the disbelievers). STAGING v4: c1 (13-14): a plain town by day; the disbelievers are three faceless men in dark robes on the right (no women; the messengers are not drawn and nobody speaks or points toward an empty side). The camera closes on them for their threat to expel the messengers or force them back to their religion (13:5-11, framed by the glosses); wide for the revelation of their Lord to the messengers (13:12-14), with a geometric plate on «ربهم»; the camera on them again for We will destroy the wrongdoers (13:15, the threat held on them; nobody falls, fades or leaves). A house plate for We will settle you in the land after them (14:2-4: the land, not the messengers), a seal plate for the promise to whoever fears My standing and My threat (14:6-10). c2 (15-17) stays ambient: the tyrant's loss and Hell (the festering water, death from every side) are never drawn: no plate; the mood moves from geometric to night_sky (a punishment, not the Names). The cover now shows the deniers (13:5)."
  },
  "cover": {
   "series_ar": "الرسل وأقوامهم",
@@ -319,8 +379,9 @@
   "title_en": "The deniers threatened",
   "at": [
    13,
-   1
+   5
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

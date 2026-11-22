@@ -92,6 +92,18 @@
       "size": "m",
       "exit": "undraw"
      }
+    ],
+    "quiet": [
+     [
+      [
+       103,
+       1
+      ],
+      [
+       103,
+       5
+      ]
+     ]
     ]
    }
   },
@@ -402,7 +414,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Calm visuals only. The garden withers for effort lost in this worldly life (18:104 is about this world, it is not Paradise); the night sky for the Day of Resurrection and the recompense; rays of light for Paradise, which is never illustrated. The tafsirs differ on what al-Firdaws covers (the highest level or all of Paradise), so no gloss defines it."
+  "notes": "Calm visuals only. The garden withers for effort lost in this worldly life (18:104 is about this world, it is not Paradise); the night sky for the Day of Resurrection and the recompense; rays of light for Paradise, which is never illustrated. The tafsirs differ on what al-Firdaws covers (the highest level or all of Paradise), so no gloss defines it. v2: 103:1-5 (address to the Prophet) is a quiet range; the light mood and the other renderer fixes apply at build."
  },
  "cover": {
   "series_ar": "خاتمة السورة",

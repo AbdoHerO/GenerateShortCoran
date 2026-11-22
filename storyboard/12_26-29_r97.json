@@ -35,8 +35,22 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric",
+    "mood": "night_sky",
     "beats": [
+     {
+      "at": [
+       26,
+       4
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       26,
+       8
+      ],
+      "do": "pan_right"
+     },
      {
       "at": [
        26,
@@ -113,7 +127,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
@@ -175,7 +189,7 @@
        28,
        7
       ],
-      "motif": "light",
+      "motif": "seal",
       "place": "top",
       "size": "m"
      }
@@ -265,7 +279,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No shirt, witness or people drawn. The witness (26:6-9) is not identified: the tafsirs differ (a baby / a man of her household); the gloss keeps As-Sa'di's general «جعل للحق والصدق علامات». Scales for the fair test (not the Mizan), light for the truth seen (28). 26:10-19 is not glossed (the conditional stays whole in the verse). Al-Aziz's «إن كيدكن عظيم» is framed as his rebuke of her deed."
+  "notes": "No shirt, witness or people drawn. The witness (26:6-9) is not identified: the tafsirs differ (a baby / a man of her household); the gloss keeps As-Sa'di's general «جعل للحق والصدق علامات». Scales for the fair test (not the Mizan), light for the truth seen (28). 26:10-19 is not glossed (the conditional stays whole in the verse). Al-Aziz's «إن كيدكن عظيم» is framed as his rebuke of her deed. STAGING v4: The whole video stays ambient (owner's rule for 23-35): the wife of al-Aziz, the witness, the shirt and al-Aziz (here addressing his wife) are never drawn; no people at all. Both chapters move to the night sky (geometric is the Names' mood and never for a chapter about a prophet). c1 (26-27): the scales plate for the fair test (26:6-9, a worldly judgement, not the Mizan) is kept. c2 (28-29): the light plate becomes a seal plate (his innocence and chastity made clear, 28:1-6), so no light rises on a man seeing."
  },
  "cover": {
   "series_ar": "الابتلاء بالفتنة",
@@ -277,5 +291,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

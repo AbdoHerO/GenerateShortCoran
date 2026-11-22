@@ -39,6 +39,13 @@
      {
       "at": [
        31,
+       4
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       31,
        7
       ],
       "do": "shot_wide"
@@ -46,23 +53,30 @@
      {
       "at": [
        31,
-       20
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       31,
-       27
+       11
       ],
       "do": "pan_right"
      },
      {
       "at": [
        31,
-       30
+       20
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       31,
+       27
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       31,
+       30
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
@@ -83,14 +97,14 @@
        31,
        40
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        31,
        42
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -137,6 +151,38 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       31,
+       15
+      ],
+      [
+       31,
+       18
+      ]
+     ],
+     [
+      [
+       31,
+       24
+      ],
+      [
+       31,
+       29
+      ]
+     ],
+     [
+      [
+       31,
+       43
+      ],
+      [
+       31,
+       51
+      ]
+     ]
     ]
    }
   },
@@ -153,14 +199,28 @@
      {
       "at": [
        32,
+       3
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       32,
        9
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       32,
+       10
       ],
       "do": "pan_left"
      },
      {
       "at": [
        32,
-       10
+       13
       ],
       "do": "shot_wide"
      }
@@ -179,6 +239,18 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       32,
+       6
+      ],
+      [
+       32,
+       13
+      ]
+     ]
     ],
     "transition": "page_turn"
    }
@@ -254,7 +326,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No moving mountains, split earth or speaking dead drawn; 31:1-14 is not glossed (the tafsirs read the unstated answer differently). 31:34-46 is not glossed (Al-Muyassar names battles). Geometric for «بل لله الأمر جميعا», «لو يشاء الله لهدى الناس جميعا» and «إن الله لا يخلف الميعاد»; an hourglass for «فأمليت». 32:6-8 is not glossed (first person)."
+  "notes": "No moving mountains, split earth or speaking dead drawn; 31:1-14 is not glossed (the tafsirs read the unstated answer differently). 31:34-46 is not glossed (Al-Muyassar names battles). Geometric for «بل لله الأمر جميعا», «لو يشاء الله لهدى الناس جميعا» and «إن الله لا يخلف الميعاد»; an hourglass for «فأمليت». 32:6-8 is not glossed (first person). STAGING v4: Both chapters stay ambient. c1 (31): a counterfactual (mountains moved, the earth split, the dead spoken to: never drawn), Allah's command and will, and the calamities on the disbelievers, which Al-Muyassar reads as battles: nothing staged; quiet over His command, His will and His promise (31:15-18, 31:24-29, 31:43-51). c2 (32): consolation to the Prophet ﷺ about the messengers mocked before him and Allah's respite and seizing (His first-person words): quiet over 32:6-13; hourglass kept."
  },
  "cover": {
   "series_ar": "حجج المعاندين",
@@ -266,5 +338,6 @@
    15
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

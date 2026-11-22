@@ -33,30 +33,90 @@
     11,
     12
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "br",
+      "type": "disbelievers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "ya",
+      "type": "prophet",
+      "label": "يعقوب",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        11,
-       4
+       1
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "br",
+      "to": "ya"
      },
      {
       "at": [
        11,
-       9
+       3
+      ],
+      "do": "shot_close",
+      "who": "br"
+     },
+     {
+      "at": [
+       11,
+       6
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        11,
+       9
+      ],
+      "do": "speak",
+      "who": "br",
+      "to": "ya"
+     },
+     {
+      "at": [
+       11,
        11
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       12,
+       1
+      ],
+      "do": "speak",
+      "who": "br",
+      "to": "ya"
+     },
+     {
+      "at": [
+       12,
+       4
+      ],
+      "do": "shot_close",
+      "who": "br"
      },
      {
       "at": [
@@ -78,7 +138,7 @@
       ],
       "motif": "hourglass",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -90,28 +150,77 @@
     13,
     14
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "br",
+      "type": "disbelievers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "ya",
+      "type": "prophet",
+      "label": "يعقوب",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        13,
-       4
+       1
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "ya",
+      "to": "br"
      },
      {
       "at": [
        13,
-       6
+       3
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        13,
-       8
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       13,
+       7
+      ],
+      "do": "speak",
+      "who": "ya",
+      "to": "br"
+     },
+     {
+      "at": [
+       13,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       13,
+       11
       ],
       "do": "shot_wide"
      },
@@ -125,16 +234,35 @@
      {
       "at": [
        14,
-       2
+       1
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "br",
+      "to": "ya"
+     },
+     {
+      "at": [
+       14,
+       3
+      ],
+      "do": "shot_close",
+      "who": "br"
      },
      {
       "at": [
        14,
        6
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       14,
+       7
+      ],
+      "do": "speak",
+      "who": "br",
+      "to": "ya"
      },
      {
       "at": [
@@ -156,26 +284,40 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
        15,
-       3
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       15,
-       5
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        15,
-       12
+       4
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       15,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       15,
+       9
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       15,
+       11
       ],
       "do": "shot_wide"
      },
@@ -184,20 +326,52 @@
        15,
        13
       ],
-      "do": "pan_right"
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       15,
+       15
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
      {
       "at": [
        15,
-       10
+       2
+      ],
+      "until": [
+       15,
+       5
+      ],
+      "motif": "footsteps",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       15,
+       12
       ],
       "until": null,
-      "motif": "light",
+      "motif": "scroll",
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       15,
+       10
+      ],
+      [
+       15,
+       17
+      ]
+     ]
     ],
     "transition": "page_turn"
    }
@@ -295,7 +469,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Their requests are framed by As-Sa'di («متوصلين إلى مقصدهم», «فلما مهدوا لأبيهم الأسباب»); their promises «وإنا له لناصحون» and «وإنا له لحافظون» are not glossed. No wolf, well, child or throwing drawn; Ya'qub and Yusuf get no plate. An hourglass for «غدا», light for «وأوحينا إليه» (revelation)."
+  "notes": "Their requests are framed by As-Sa'di («متوصلين إلى مقصدهم», «فلما مهدوا لأبيهم الأسباب»); their promises «وإنا له لناصحون» and «وإنا له لحافظون» are not glossed. No wolf, well, child or throwing drawn; Ya'qub and Yusuf get no plate. An hourglass for «غدا», light for «وأوحينا إليه» (revelation). STAGING v4: c1-c2 (11-14): the family's tents in the desert by day; Ya'qub (right) a blue drop labelled Ya'qub (no close-up, pan or glow), his sons the three faceless men in dark robes (never numbered). Yusuf is not drawn in this dialogue. c1 (11-12): the brothers speak to their father (11:1, 11:9, 12:1); the camera closes in on them for their request (11:3, 12:4) and is wide again before Yusuf's name (11:8); an hourglass for tomorrow (12:3-5). c2 (13-14): Ya'qub answers (13:1, 13:7), the camera stays wide through his words (no close-up on an ordinary figure while a prophet speaks); no wolf is drawn and no figure weeps; the brothers answer (14:1, 14:7). c3 (15) stays ambient (night sky): the verse carries the well (they agreed to put him in it, As-Sa'di: and they did) and the revelation to Yusuf in that hardship, so nothing is drawn: no well, no harm, no figure; a footsteps plate for they went with him (15:2-4); the background stays quiet over the revelation (15:10-17), a scroll plate for you will inform them of this affair (15:12; not a light plate on We revealed). Cover: the brothers asking their father (title: the plot of the well)."
  },
  "cover": {
   "series_ar": "كيد الإخوة",
@@ -304,8 +478,9 @@
   "title_en": "The plot of the well",
   "at": [
    11,
-   1
+   2
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

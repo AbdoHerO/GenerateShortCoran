@@ -85,7 +85,8 @@
        1
       ],
       "do": "speak",
-      "who": "khidr"
+      "who": "khidr",
+      "to": "musa"
      },
      {
       "at": [
@@ -122,15 +123,14 @@
        82,
        14
       ],
-      "do": "shot_close",
-      "who": "khidr"
+      "do": "shot_wide"
      },
      {
       "at": [
        82,
-       15
+       18
       ],
-      "do": "push_in"
+      "do": "shot_ground"
      },
      {
       "at": [
@@ -145,15 +145,7 @@
        82,
        22
       ],
-      "do": "clouds_part"
-     },
-     {
-      "at": [
-       82,
-       26
-      ],
-      "do": "glow",
-      "who": "khidr"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -195,7 +187,10 @@
        82,
        14
       ],
-      "until": null,
+      "until": [
+       82,
+       25
+      ],
       "motif": "light",
       "place": "top",
       "size": "s"
@@ -205,7 +200,10 @@
        82,
        30
       ],
-      "until": null,
+      "until": [
+       82,
+       34
+      ],
       "motif": "door",
       "place": "top",
       "size": "s"
@@ -273,7 +271,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Stage chapter in the town with the restored wall (wall_repair at the first word so the wall stands straight from the start, as restored in 18:77). The two orphans and their father are not drawn; the hidden treasure is a sparkle at the ground beneath the wall. Al-Khidr (neutral 'honored' drop) explains (speak, glow) and lowers his head at 'not of my own accord'; the 18:82 As-Sa'di excerpt was cut so it states only what both tafsirs say (it was by Allah's mercy and command), never As-Sa'di's later remark that he was not a prophet."
+  "notes": "Stage chapter in the town with the restored wall (wall_repair at the first word so the wall stands straight from the start, as restored in 18:77). The two orphans and their father are not drawn; the hidden treasure is a sparkle at the ground beneath the wall. Al-Khidr (neutral 'honored' drop) explains (speak, glow) and lowers his head at 'not of my own accord'; the 18:82 As-Sa'di excerpt was cut so it states only what both tafsirs say (it was by Allah's mercy and command), never As-Sa'di's later remark that he was not a prophet. v2: no close-up or push-in on al-Khidr or toward the Name (82:14-16); no light through clouds on the mercy of the Lord (82:22-24) and no glow on al-Khidr at 82:26 (it could suggest revelation; the tafsirs differ on his status); no plate is on screen while al-Khidr (82:28) or Musa (82:35) lower their heads."
  },
  "cover": {
   "series_ar": "موسى والخضر",

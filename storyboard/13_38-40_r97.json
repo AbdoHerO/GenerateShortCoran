@@ -46,6 +46,13 @@
      {
       "at": [
        38,
+       9
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       38,
        10
       ],
       "do": "shot_wide"
@@ -53,9 +60,16 @@
      {
       "at": [
        38,
-       16
+       13
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       38,
+       16
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -69,6 +83,18 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       38,
+       1
+      ],
+      [
+       38,
+       18
+      ]
+     ]
     ]
    }
   },
@@ -86,6 +112,13 @@
      {
       "at": [
        39,
+       4
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       39,
        6
       ],
       "do": "pan_left"
@@ -95,7 +128,7 @@
        39,
        8
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -109,21 +142,21 @@
        40,
        7
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        40,
        9
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        40,
        12
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -140,6 +173,18 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       39,
+       1
+      ],
+      [
+       40,
+       13
+      ]
+     ]
     ],
     "transition": "morph"
    }
@@ -215,7 +260,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No plate on the messengers or their families (38:1-9); an hourglass for «لكل أجل كتاب», geometric for «يمحو الله ما يشاء ويثبت وعنده أم الكتاب» (the Tablet is never drawn). 39:1-5 is not glossed (the tafsirs differ: rulings / decrees). 40 addresses the Prophet ﷺ: no plate; 40:12-13 is not glossed (first person). 39 is JOINED to 40."
+  "notes": "No plate on the messengers or their families (38:1-9); an hourglass for «لكل أجل كتاب», geometric for «يمحو الله ما يشاء ويثبت وعنده أم الكتاب» (the Tablet is never drawn). 39:1-5 is not glossed (the tafsirs differ: rulings / decrees). 40 addresses the Prophet ﷺ: no plate; 40:12-13 is not glossed (first person). 39 is JOINED to 40. STAGING v4: Both chapters stay ambient: Allah's words to the Prophet ﷺ about the messengers before him and their wives and offspring (never drawn; women and prophets), His erasing and confirming and the Mother of the Book (never drawn), and his duty of conveying (40). Quiet over 38:1-18 and 39:1-40:13; plates unchanged."
  },
  "cover": {
   "series_ar": "سنن الرسالة",
@@ -227,5 +272,6 @@
    19
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -121,7 +121,8 @@
        6
       ],
       "do": "speak",
-      "who": "youths"
+      "who": "youths",
+      "to": "right"
      },
      {
       "at": [
@@ -137,7 +138,8 @@
        10
       ],
       "do": "speak",
-      "who": "youths"
+      "who": "youths",
+      "to": "right"
      },
      {
       "at": [
@@ -145,14 +147,15 @@
        16
       ],
       "do": "speak",
-      "who": "youths"
+      "who": "youths",
+      "to": "right"
      },
      {
       "at": [
        19,
        18
       ],
-      "do": "look_up",
+      "do": "bow",
       "who": "youths"
      },
      {
@@ -233,7 +236,7 @@
       ],
       "until": [
        19,
-       21
+       16
       ],
       "motif": "hourglass",
       "place": "top",
@@ -305,7 +308,8 @@
        1
       ],
       "do": "speak",
-      "who": "youths"
+      "who": "youths",
+      "to": "messenger"
      },
      {
       "at": [
@@ -467,7 +471,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Hand storyboard, continuing 18_17-18 (same cave, sleepers at the centre, dog at the entrance on the right). 18:19 the 'wake' event, then the sleepers fade out and the awake youths fade in as a sitting 'believers' group with uncountable=true (never a countable number, 18:22); 'speak' on each reply of their exchange. One of them (a single 'man', look traveller) appears on the word for 'one of you', a sparkle marks the silver coin, and he walks toward the entrance. 18:20 at the cave mouth the group warns him (caution, secrecy) and he sets off. The threat of stoning is only recited: nothing violent is drawn and no gloss mentions it."
+  "notes": "Hand storyboard, continuing 18_17-18 (same cave, sleepers at the centre, dog at the entrance on the right). 18:19 the 'wake' event, then the sleepers fade out and the awake youths fade in as a sitting 'believers' group with uncountable=true (never a countable number, 18:22); 'speak' on each reply of their exchange. One of them (a single 'man', look traveller) appears on the word for 'one of you', a sparkle marks the silver coin, and he walks toward the entrance. 18:20 at the cave mouth the group warns him (caution, secrecy) and he sets off. The threat of stoning is only recited: nothing violent is drawn and no gloss mentions it. v2: the hourglass plate leaves before the Name (19:17); on 19:18 the youths lower their heads (they leave the knowledge to Allah) instead of looking up at a plate. Their exchange among themselves (19:6-16) is spoken toward the cave mouth on the right, never toward the empty left where the man appears later; at 18:20 they speak to him."
  },
  "cover": {
   "series_ar": "أصحاب الكهف",

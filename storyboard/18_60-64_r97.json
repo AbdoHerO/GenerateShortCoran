@@ -66,7 +66,8 @@
        2
       ],
       "do": "speak",
-      "who": "musa"
+      "who": "musa",
+      "to": "yusha"
      },
      {
       "at": [
@@ -81,8 +82,7 @@
        60,
        6
       ],
-      "do": "shot_close",
-      "who": "musa"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -98,7 +98,7 @@
        60,
        12
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -278,7 +278,8 @@
        3
       ],
       "do": "speak",
-      "who": "musa"
+      "who": "musa",
+      "to": "yusha"
      },
      {
       "at": [
@@ -293,8 +294,7 @@
        62,
        8
       ],
-      "do": "shot_close",
-      "who": "musa"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -368,15 +368,15 @@
        1
       ],
       "do": "speak",
-      "who": "yusha"
+      "who": "yusha",
+      "to": "musa"
      },
      {
       "at": [
        63,
        4
       ],
-      "do": "shot_close",
-      "who": "yusha"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -416,7 +416,7 @@
        63,
        16
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -433,7 +433,10 @@
        63,
        9
       ],
-      "until": null,
+      "until": [
+       63,
+       10
+      ],
       "motif": "fish",
       "place": "top",
       "size": "s"
@@ -502,7 +505,8 @@
        1
       ],
       "do": "speak",
-      "who": "musa"
+      "who": "musa",
+      "to": "yusha"
      },
      {
       "at": [
@@ -646,7 +650,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Musa is a 'prophet' drop; his companion is an 'honored' drop labelled Yusha' bin Nun (both tafsirs name him). The fish comes alive and slips into the sea at the word that states it (Al-Muyassar). They rest at the rock at dusk (As-Sa'di: the night sheltered them there), walk on, then return to the rock. Cover title uses Al-Muyassar's 'ملتقى البحرين' because the plan title repeats Quran wording (مجمع البحرين) and the verifier rejects it."
+  "notes": "Musa is a 'prophet' drop; his companion is an 'honored' drop labelled Yusha' bin Nun (both tafsirs name him). The fish comes alive and slips into the sea at the word that states it (Al-Muyassar). They rest at the rock at dusk (As-Sa'di: the night sheltered them there), walk on, then return to the rock. Cover title uses Al-Muyassar's 'ملتقى البحرين' because the plan title repeats Quran wording (مجمع البحرين) and the verifier rejects it. v2: no close-up on a light drop and no pans in the drop scenes (wide shots instead); every speech is aimed at its listener; the reshaped desert (no mesa) is applied by the renderer. The fish plate leaves before Yusha' lowers his head (63:11)."
  },
  "cover": {
   "series_ar": "موسى والخضر",

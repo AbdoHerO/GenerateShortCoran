@@ -34,7 +34,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "mountains",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
@@ -48,7 +48,7 @@
        57,
        5
       ],
-      "do": "light_up"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -90,8 +90,7 @@
        57,
        24
       ],
-      "do": "sparkle",
-      "who": "light"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -119,9 +118,12 @@
      {
       "at": [
        57,
-       5
+       4
       ],
-      "until": null,
+      "until": [
+       57,
+       6
+      ],
       "motif": "book",
       "place": "top",
       "size": "m"
@@ -136,6 +138,18 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       57,
+       23
+      ],
+      [
+       57,
+       30
+      ]
+     ]
     ]
    }
   },
@@ -155,13 +169,6 @@
        1
       ],
       "do": "shot_wide"
-     },
-     {
-      "at": [
-       58,
-       2
-      ],
-      "do": "light_up"
      },
      {
       "at": [
@@ -206,7 +213,7 @@
        4
       ],
       "until": null,
-      "motif": "light",
+      "motif": "geometric",
       "place": "top",
       "size": "m"
      },
@@ -389,7 +396,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Calm visuals only: mountains in mist for hearts that turn away (wind on the turning away), rain for the Forgiving Lord's mercy and respite, a night sky for reflection on the ruined towns. No town, no people and no destruction is drawn."
+  "notes": "Calm visuals only: mountains in mist for hearts that turn away (wind on the turning away), rain for the Forgiving Lord's mercy and respite, a night sky for reflection on the ruined towns. No town, no people and no destruction is drawn. v2: c1 mood is now night_sky (not mountains over the Name, and no dawn over a threat); the book plate covers 57:4-5 and leaves before the Name; no light swell on 57:5-6 or on His attribute 58:2; the plate on His attribute 58:4 is geometric, not light; 57:23-30 (address to the Prophet) is a quiet range."
  },
  "cover": {
   "series_ar": "الجدال وسنة الله",

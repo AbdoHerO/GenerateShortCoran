@@ -69,7 +69,8 @@
        1
       ],
       "do": "speak",
-      "who": "companion"
+      "who": "companion",
+      "to": "owner"
      },
      {
       "at": [
@@ -116,15 +117,8 @@
        1
       ],
       "do": "speak",
-      "who": "companion"
-     },
-     {
-      "at": [
-       38,
-       4
-      ],
-      "do": "look_up",
-      "who": "companion"
+      "who": "companion",
+      "to": "owner"
      },
      {
       "at": [
@@ -234,23 +228,15 @@
        5
       ],
       "do": "speak",
-      "who": "companion"
+      "who": "companion",
+      "to": "owner"
      },
      {
       "at": [
        39,
        8
       ],
-      "do": "shot_close",
-      "who": "companion"
-     },
-     {
-      "at": [
-       39,
-       12
-      ],
-      "do": "sparkle",
-      "who": "companion"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -262,7 +248,7 @@
      {
       "at": [
        39,
-       16
+       14
       ],
       "do": "bow",
       "who": "companion"
@@ -282,7 +268,10 @@
        39,
        5
       ],
-      "until": null,
+      "until": [
+       39,
+       8
+      ],
       "motif": "hands",
       "place": "top",
       "size": "s"
@@ -543,7 +532,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Hand storyboard. Same two faceless men as 18_32-36 (companion 'man' look poor, left; owner 'man' look rich, right). The companion speaks throughout: points at the owner on the question of disbelief, looks up and shakes his head on 'I associate no one', bows on 'less than you in wealth', raises his hands on 'perhaps my Lord'. The owner turns away. 18:40-41 describe what MAY happen: only camera moves and a gust of wind hint at it; the garden is not destroyed here (that is the 'wither' event of 18_42-44)."
+  "notes": "Hand storyboard. Same two faceless men as 18_32-36 (companion 'man' look poor, left; owner 'man' look rich, right). The companion speaks throughout: points at the owner on the question of disbelief, looks up and shakes his head on 'I associate no one', bows on 'less than you in wealth', raises his hands on 'perhaps my Lord'. The owner turns away. 18:40-41 describe what MAY happen: only camera moves and a gust of wind hint at it; the garden is not destroyed here (that is the 'wither' event of 18_42-44). v2: the companion's speech is aimed at the owner; no look_up on the Name (38:4), no close-up or sparkle on a man while the Name is recited (39:8, 39:12); the hands plate leaves before the Name (39:8). His humble bow moved to 39:14 so it ends before the coins plate appears."
  },
  "cover": {
   "series_ar": "صاحب الجنتين",

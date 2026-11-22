@@ -80,6 +80,18 @@
       "place": "top",
       "size": "s"
      }
+    ],
+    "quiet": [
+     [
+      [
+       9,
+       1
+      ],
+      [
+       9,
+       10
+      ]
+     ]
     ]
    }
   },
@@ -125,14 +137,6 @@
       ],
       "do": "shot_close",
       "who": "center"
-     },
-     {
-      "at": [
-       10,
-       6
-      ],
-      "do": "speak",
-      "who": "youths"
      },
      {
       "at": [
@@ -187,28 +191,11 @@
        10,
        2
       ],
-      "until": null,
+      "until": [
+       10,
+       6
+      ],
       "motif": "cave",
-      "place": "top",
-      "size": "s"
-     },
-     {
-      "at": [
-       10,
-       7
-      ],
-      "until": null,
-      "motif": "hands",
-      "place": "top",
-      "size": "s"
-     },
-     {
-      "at": [
-       10,
-       11
-      ],
-      "until": null,
-      "motif": "light",
       "place": "top",
       "size": "s"
      },
@@ -452,7 +439,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Hand storyboard. 18:9 shows only the mountainside and its cave (no figures) while the framing question is recited. 18:10 the youths arrive at the cave and make du'a (raise_hands); awake they are a 'believers' group with uncountable=true. 18:11-12 inside the cave they are the 'sleepers' actor (uncountable by design, 18:22); the 'wake' event marks the awakening, then the sleepers fade out and the awake uncountable 'believers' group fades in sitting (a turn beat on the word about reckoning the time). The dog sleeps at the entrance as in 18_17-18 (18:18). The two parties of 18:12 are not drawn: the tafsirs do not name them."
+  "notes": "Hand storyboard. 18:9 shows only the mountainside and its cave (no figures) while the framing question is recited. 18:10 the youths arrive at the cave and make du'a (raise_hands); awake they are a 'believers' group with uncountable=true. 18:11-12 inside the cave they are the 'sleepers' actor (uncountable by design, 18:22); the 'wake' event marks the awakening, then the sleepers fade out and the awake uncountable 'believers' group fades in sitting (a turn beat on the word about reckoning the time). The dog sleeps at the entrance as in 18_17-18 (18:18). The two parties of 18:12 are not drawn: the tafsirs do not name them. v2: 9:1-10 (address to the Prophet) is a quiet range. The du'a of 10:6-16 has no speak beat toward an empty side (the hands rise on 10:7) and no plate over it: the cave plate leaves at 10:6, the hands plate on the Name (10:7) and the light plate on the mercy asked (10:11) were removed."
  },
  "cover": {
   "series_ar": "أصحاب الكهف",

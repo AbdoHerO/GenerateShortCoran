@@ -114,6 +114,28 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       41,
+       9
+      ],
+      [
+       41,
+       16
+      ]
+     ],
+     [
+      [
+       42,
+       6
+      ],
+      [
+       42,
+       13
+      ]
+     ]
     ]
    }
   },
@@ -127,6 +149,13 @@
    "params": {
     "mood": "light",
     "beats": [
+     {
+      "at": [
+       43,
+       5
+      ],
+      "do": "pan_right"
+     },
      {
       "at": [
        43,
@@ -146,10 +175,22 @@
        43,
        13
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [],
+    "quiet": [
+     [
+      [
+       43,
+       6
+      ],
+      [
+       43,
+       15
+      ]
+     ]
+    ],
     "transition": "page_turn"
    }
   }
@@ -246,7 +287,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "41:1-8 is not glossed: the tafsirs give several readings (and Al-Muyassar's is conquest). Geometric for «والله يحكم لا معقب لحكمه» and «فلله المكر جميعا يعلم ما تكسب كل نفس». 43 is the Prophet's ﷺ «قل»: no plate; 43:12-15 is not glossed (who «من عنده علم الكتاب» is differs)."
+  "notes": "41:1-8 is not glossed: the tafsirs give several readings (and Al-Muyassar's is conquest). Geometric for «والله يحكم لا معقب لحكمه» and «فلله المكر جميعا يعلم ما تكسب كل نفس». 43 is the Prophet's ﷺ «قل»: no plate; 43:12-15 is not glossed (who «من عنده علم الكتاب» is differs). STAGING v4: Both chapters stay ambient: 41 (the land reduced from its edges: Al-Muyassar reads conquest) and 42 (the plotting of those before, all planning belongs to Allah); 43 is the disbelievers' denial of the Prophet ﷺ and his commanded answer («قل», no plate). Quiet over His judgement (41:9-16), His planning and knowledge (42:6-13) and the commanded words (43:6-15)."
  },
  "cover": {
   "series_ar": "سنن الرسالة",
@@ -258,5 +299,6 @@
    9
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

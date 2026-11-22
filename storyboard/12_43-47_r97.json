@@ -33,63 +33,107 @@
     43,
     44
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "palace",
+    "time": "day",
+    "actors": [
+     {
+      "id": "ml",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "k",
+      "type": "king",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       43,
+       1
+      ],
+      "do": "speak",
+      "who": "k",
+      "to": "ml"
+     },
      {
       "at": [
        43,
        4
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "k"
      },
      {
       "at": [
        43,
        7
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       43,
-       9
-      ],
       "do": "pan_left"
      },
      {
       "at": [
        43,
-       12
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       43,
-       14
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       43,
-       17
+       8
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        43,
-       18
+       10
       ],
       "do": "pan_right"
      },
      {
       "at": [
        43,
-       22
+       13
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       43,
+       16
+      ],
+      "do": "speak",
+      "who": "k",
+      "to": "ml"
+     },
+     {
+      "at": [
+       43,
+       17
+      ],
+      "do": "shot_close",
+      "who": "ml"
+     },
+     {
+      "at": [
+       43,
+       20
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       43,
+       23
       ],
       "do": "pan_left"
      },
@@ -98,104 +142,147 @@
        43,
        24
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        44,
        1
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "ml",
+      "to": "k"
+     },
+     {
+      "at": [
+       44,
+       3
+      ],
+      "do": "shot_close",
+      "who": "ml"
+     },
+     {
+      "at": [
+       44,
+       4
+      ],
+      "do": "shake_head",
+      "who": "ml"
      },
      {
       "at": [
        44,
        6
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       44,
+       8
+      ],
+      "do": "shot_wide"
      }
     ],
-    "motifs": []
+    "motifs": [
+     {
+      "at": [
+       43,
+       12
+      ],
+      "until": [
+       43,
+       16
+      ],
+      "motif": "wheat",
+      "place": "top",
+      "size": "s"
+     }
+    ]
    }
   },
   {
    "id": "c2",
    "title": "تذكر الساقي",
    "verses": [
-    45,
-    46
+    45
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "palace",
+    "time": "day",
+    "actors": [
+     {
+      "id": "ml",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "sq",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     },
+     {
+      "id": "k",
+      "type": "king",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        45,
-       10
+       1
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "sq",
+      "to": "k"
      },
      {
       "at": [
        45,
-       11
+       3
+      ],
+      "do": "shot_close",
+      "who": "sq"
+     },
+     {
+      "at": [
+       45,
+       6
       ],
       "do": "shot_wide"
      },
      {
       "at": [
-       46,
-       2
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       46,
+       45,
        8
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "sq",
+      "to": "k"
      },
      {
       "at": [
-       46,
-       12
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       46,
-       15
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       46,
-       17
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       46,
-       18
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       46,
-       19
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       46,
-       22
+       45,
+       10
       ],
       "do": "shot_wide"
      }
@@ -212,10 +299,158 @@
       ],
       "motif": "hourglass",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "dissolve"
+   }
+  },
+  {
+   "id": "c4",
+   "title": "طلب التعبير",
+   "verses": [
+    46
+   ],
+   "scene": "stage",
+   "params": {
+    "setting": "home",
+    "time": "day",
+    "actors": [
+     {
+      "id": "sq",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "walk",
+      "enter": [
+       46,
+       1
+      ],
+      "exit": null,
+      "look": "plain"
+     },
+     {
+      "id": "yu",
+      "type": "prophet",
+      "label": "يوسف",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
+    "beats": [
+     {
+      "at": [
+       46,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       46,
+       2
+      ],
+      "do": "speak",
+      "who": "sq",
+      "to": "yu"
+     },
+     {
+      "at": [
+       46,
+       4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       46,
+       6
+      ],
+      "do": "shot_close",
+      "who": "sq"
+     },
+     {
+      "at": [
+       46,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       46,
+       12
+      ],
+      "do": "speak",
+      "who": "sq",
+      "to": "yu"
+     },
+     {
+      "at": [
+       46,
+       13
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       46,
+       15
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       46,
+       16
+      ],
+      "do": "speak",
+      "who": "sq",
+      "to": "yu"
+     },
+     {
+      "at": [
+       46,
+       18
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       46,
+       20
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       46,
+       22
+      ],
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       46,
+       13
+      ],
+      "until": [
+       46,
+       17
+      ],
+      "motif": "wheat",
+      "place": "top",
+      "size": "s"
+     }
+    ],
+    "transition": "wipe"
    }
   },
   {
@@ -224,16 +459,66 @@
    "verses": [
     47
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "home",
+    "time": "day",
+    "actors": [
+     {
+      "id": "sq",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     },
+     {
+      "id": "yu",
+      "type": "prophet",
+      "label": "يوسف",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       47,
+       1
+      ],
+      "do": "speak",
+      "who": "yu",
+      "to": "sq"
+     },
+     {
+      "at": [
+       47,
+       3
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        47,
        6
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       47,
+       8
+      ],
+      "do": "speak",
+      "who": "yu",
+      "to": "sq"
      },
      {
       "at": [
@@ -247,19 +532,39 @@
        47,
        12
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       47,
+       14
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
      {
       "at": [
        47,
-       2
+       3
+      ],
+      "until": [
+       47,
+       7
+      ],
+      "motif": "hourglass",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       47,
+       7
       ],
       "until": null,
       "motif": "wheat",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "page_turn"
@@ -402,7 +707,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The dream (cows, ears of grain) is never drawn; 43:3-15 and 46:4-16 are not glossed. Their «أضغاث أحلام» is framed by As-Sa'di («جزم منهم بما لا يعلمون»). An hourglass for «بعد أمة», wheat for Yusuf's plan of sowing and storing (47). Yusuf: no plate."
+  "notes": "The dream (cows, ears of grain) is never drawn; 43:3-15 and 46:4-16 are not glossed. Their «أضغاث أحلام» is framed by As-Sa'di («جزم منهم بما لا يعلمون»). An hourglass for «بعد أمة», wheat for Yusuf's plan of sowing and storing (47). Yusuf: no plate. STAGING v4: Chapter split: verse 45 happens at the king's court and verse 46 in the prison, so the old c2 (45-46) is split: c2 keeps verse 45 and its title, the new c4 (title: asking for the interpretation) takes verse 46; glosses untouched. c1-c2 (43-45): the royal court by day (no pyramids); the king a plain crowned faceless king, the chiefs three faceless men (As-Sa'di: the scholars and men of opinion he gathered). c1 (43-44): the king tells his dream (43:1, camera on him 43:4) and asks the chiefs (43:16-17); the cows are never drawn, the ears of grain only as a small wheat plate (43:12-15); they answer (44:1) and shake their heads (44:4: we are not learned in interpreting dreams). c2 (45): the man who was saved, a faceless man in a plain robe standing with the court, speaks to the king (45:1, 45:8); an hourglass for after a time (45:6-7). c4 (46): the plain closed interior of 36-38 (the prison, no bars or chains); the man walks in to Yusuf (blue drop labelled Yusuf) and speaks to him (46:2, 46:12, 46:16); the camera is wide whenever Yusuf's name or title is recited and closes in on the man only while he repeats the dream (46:6); the dream is again only a wheat plate (46:13-16). c3 (47): Yusuf answers him (47:1, 47:8), camera wide through his words; an hourglass for seven years (47:3-6) and wheat for what you harvest, leave in its ears (47:7). Nobody is shown sowing or harvesting (his words are a plan, not shown as done). No close-up, pan or glow on the drop. Cover: Yusuf explaining with the wheat plate (title: good planning)."
  },
  "cover": {
   "series_ar": "حلم الملك",
@@ -410,9 +715,10 @@
   "title_ar": "حسن التدبير",
   "title_en": "Good planning",
   "at": [
-   45,
-   6
+   47,
+   9
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

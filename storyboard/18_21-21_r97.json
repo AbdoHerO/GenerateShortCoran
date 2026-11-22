@@ -48,14 +48,14 @@
        21,
        2
       ],
-      "do": "clouds_part"
+      "do": "birds"
      },
      {
       "at": [
        21,
        6
       ],
-      "do": "light_up"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -90,8 +90,7 @@
        21,
        23
       ],
-      "do": "sparkle",
-      "who": "light"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -142,9 +141,12 @@
      {
       "at": [
        21,
-       21
+       19
       ],
-      "until": null,
+      "until": [
+       21,
+       22
+      ],
       "motif": "bricks",
       "place": "top",
       "size": "m"
@@ -223,7 +225,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Calm ambient only (dawn): no cave, no people, no building and no mosque are drawn; the camera stays wide and calm on the last words. The masjid words carry the prohibition gloss (As-Sa'di: this is forbidden, the Prophet forbade it). Al-Muyassar's own sentence on the prohibition is 71 characters, too long for a gloss."
+  "notes": "Calm ambient only (dawn): no cave, no people, no building and no mosque are drawn; the camera stays wide and calm on the last words. The masjid words carry the prohibition gloss (As-Sa'di: this is forbidden, the Prophet forbade it). Al-Muyassar's own sentence on the prohibition is 71 characters, too long for a gloss. v2: the bricks plate now covers 21:19-21 and leaves before the Name (21:22); no light swell or sparkle next to the Name (21:6-7, 21:22-23): sideways pan and wide shot instead. The clouds parting on 21:2 became birds: its rays from above would still shine when the Name is recited (21:7)."
  },
  "cover": {
   "series_ar": "أصحاب الكهف",

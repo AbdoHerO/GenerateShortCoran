@@ -33,10 +33,47 @@
     1,
     2
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       1,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       1,
+       3
+      ],
+      "do": "read",
+      "who": "b"
+     },
+     {
+      "at": [
+       1,
+       5
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
      {
       "at": [
        2,
@@ -47,7 +84,22 @@
      {
       "at": [
        2,
-       4
+       2
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       2,
+       3
+      ],
+      "do": "read",
+      "who": "b"
+     },
+     {
+      "at": [
+       2,
+       5
       ],
       "do": "pan_left"
      }
@@ -56,28 +108,15 @@
      {
       "at": [
        1,
-       3
+       4
       ],
       "until": [
        2,
-       1
+       3
       ],
       "motif": "book",
       "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       2,
-       2
-      ],
-      "until": [
-       2,
-       5
-      ],
-      "motif": "light",
-      "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -95,7 +134,14 @@
      {
       "at": [
        3,
-       6
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       3,
+       5
       ],
       "do": "pan_left"
      },
@@ -104,21 +150,21 @@
        3,
        7
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        3,
        10
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        3,
        11
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -126,9 +172,42 @@
        13
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       3,
+       16
+      ],
+      "do": "pan_left"
      }
     ],
-    "motifs": [],
+    "motifs": [
+     {
+      "at": [
+       3,
+       5
+      ],
+      "until": [
+       3,
+       11
+      ],
+      "motif": "book",
+      "place": "top",
+      "size": "m"
+     }
+    ],
+    "quiet": [
+     [
+      [
+       3,
+       1
+      ],
+      [
+       3,
+       16
+      ]
+     ]
+    ],
     "transition": "dissolve"
    }
   },
@@ -138,16 +217,65 @@
    "verses": [
     4
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "ya",
+      "type": "prophet",
+      "label": "يعقوب",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "yu",
+      "type": "prophet",
+      "label": "يوسف",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        4,
-       5
+       1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       4,
+       2
+      ],
+      "do": "speak",
+      "who": "yu",
+      "to": "ya"
+     },
+     {
+      "at": [
+       4,
+       4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       4,
+       6
+      ],
+      "do": "speak",
+      "who": "yu",
+      "to": "ya"
      },
      {
       "at": [
@@ -159,12 +287,40 @@
      {
       "at": [
        4,
-       12
+       11
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       4,
+       13
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       4,
+       15
+      ],
+      "do": "shot_wide"
      }
     ],
-    "motifs": [],
+    "motifs": [
+     {
+      "at": [
+       4,
+       10
+      ],
+      "until": [
+       4,
+       13
+      ],
+      "motif": "stars",
+      "place": "top",
+      "size": "s"
+     }
+    ],
     "transition": "dissolve"
    }
   }
@@ -250,7 +406,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The isolated letters (1:1) are not glossed. 3 addresses the Prophet ﷺ: no plate. The dream (4) is never drawn: no stars, sun, moon or prostration; its chapter is geometric (not night_sky, whose moon and stars could read as the dream). Yusuf: no motif. 3:6-10 is not glossed (first person, «هذا القرآن»)."
+  "notes": "The isolated letters (1:1) are not glossed. 3 addresses the Prophet ﷺ: no plate. The dream (4) is never drawn: no stars, sun, moon or prostration; its chapter is geometric (not night_sky, whose moon and stars could read as the dream). Yusuf: no motif. 3:6-10 is not glossed (first person, «هذا القرآن»). STAGING v4: c1 (1-2): three believers sit in a prayer hall and read the Book (1:3, 2:3), a book plate for the verses of the clear Book (1:4-2:2): the Arabic Quran sent down so that people understand it. c2 (3) stays ambient (dawn): Allah addresses His Messenger directly (3:3, 3:8 and his former unawareness 3:11-16), so nobody is drawn; the background stays quiet over the whole verse; a book plate for the best of stories in this Quran (3:5-10), no plate or pan on him. c3 (4): the family's tents in the desert (12:100: they came from the badiya, Al-Muyassar and As-Sa'di there), Ya'qub (right) and Yusuf (left) as blue drops labelled with their names, no close-up or pan on them, no glow. Yusuf speaks to his father (4:2, 4:6). The dream is never drawn: only a small stars plate as its symbol (4:10-12), gone before 4:13-15, so no prostration to Yusuf is shown or suggested. Cover: the two drops in the desert with the stars plate (title: the true dream)."
  },
  "cover": {
   "series_ar": "بداية الرؤيا",
@@ -258,9 +414,10 @@
   "title_ar": "الرؤيا الصادقة",
   "title_en": "The true dream",
   "at": [
-   1,
-   3
+   4,
+   12
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -33,23 +33,115 @@
     19,
     20
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "cv",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "walk",
+      "enter": [
+       19,
+       1
+      ],
+      "exit": null
+     },
+     {
+      "id": "cm",
+      "type": "camel",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "walk",
+      "enter": [
+       19,
+       1
+      ],
+      "exit": null
+     },
+     {
+      "id": "wr",
+      "type": "man",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "walk",
+      "enter": [
+       19,
+       1
+      ],
+      "exit": null,
+      "look": "traveller"
+     },
+     {
+      "id": "yu",
+      "type": "prophet",
+      "label": "يوسف",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       19,
+       9
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       19,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       19,
+       2
+      ],
+      "do": "shot_close",
+      "who": "cv"
+     },
      {
       "at": [
        19,
        3
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "cv",
+      "to": "wr"
      },
      {
       "at": [
        19,
-       6
+       4
       ],
-      "do": "pan_left"
+      "do": "walk_to",
+      "who": "wr",
+      "to": "left"
+     },
+     {
+      "at": [
+       19,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       19,
+       7
+      ],
+      "do": "speak",
+      "who": "wr",
+      "to": "cv"
      },
      {
       "at": [
@@ -61,14 +153,14 @@
      {
       "at": [
        19,
-       12
+       13
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        19,
-       14
+       15
       ],
       "do": "shot_wide"
      },
@@ -84,24 +176,58 @@
        20,
        1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        20,
-       3
+       4
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        20,
        6
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       20,
+       8
+      ],
+      "do": "shot_wide"
      }
     ],
-    "motifs": []
+    "motifs": [
+     {
+      "at": [
+       19,
+       13
+      ],
+      "until": [
+       19,
+       16
+      ],
+      "motif": "geometric",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       20,
+       2
+      ],
+      "until": [
+       20,
+       6
+      ],
+      "motif": "coins",
+      "place": "top",
+      "size": "s"
+     }
+    ]
    }
   },
   {
@@ -174,6 +300,13 @@
      {
       "at": [
        22,
+       3
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       22,
        7
       ],
       "do": "pan_right"
@@ -222,7 +355,7 @@
      {
       "at": [
        22,
-       4
+       5
       ],
       "until": [
        22,
@@ -232,6 +365,28 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       21,
+       15
+      ],
+      [
+       21,
+       27
+      ]
+     ],
+     [
+      [
+       22,
+       4
+      ],
+      [
+       22,
+       9
+      ]
+     ]
     ],
     "transition": "slide"
    }
@@ -373,7 +528,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No well, bucket, caravan, sale, coins or boy drawn (19-20 have no plate). 19:11-16 is not glossed (who hid him is disputed). A house for «أكرمي مثواه», a book for «تأويل الأحاديث» (after Yusuf's name), geometric for «والله غالب على أمره», light for «آتيناه حكما وعلما». 21:15-19 and 22:4-6 are not glossed (first person)."
+  "notes": "No well, bucket, caravan, sale, coins or boy drawn (19-20 have no plate). 19:11-16 is not glossed (who hid him is disputed). A house for «أكرمي مثواه», a book for «تأويل الأحاديث» (after Yusuf's name), geometric for «والله غالب على أمره», light for «آتيناه حكما وعلما». 21:15-19 and 22:4-6 are not glossed (first person). STAGING v4: c1 (19-20): a caravan in the desert by day (As-Sa'di: a caravan heading for Egypt): three travellers and a camel walk in (19:1), they send their water drawer (a man with a traveller's staff, 19:3) who walks to the left (19:4) and calls out the good news to them (19:7); Yusuf, a blue drop labelled Yusuf, appears beside him on this is a boy (19:9). The well, the bucket and the lifting are never drawn; Yusuf is never shown as a captive, nothing is drawn for they hid him. Geometric for Allah knows what they do (19:13-16). The sale is shown only by a small coins plate (20:2-5): no purse is handed over, nobody counts, the brothers are not drawn. No close-up, pan or glow on the drop. c2 (21-22) stays ambient (light): al-Aziz speaks to his wife (21:1-14), so nobody is drawn; then Allah's acts for Yusuf (We established him, We taught him, We gave him judgement and knowledge): the background stays quiet over 21:15-27 and 22:4-9. Plates as before, except light now starts on judgement (22:5), not on We gave him (a pronoun of Allah). Cover: the caravan arriving in the desert (title: from the well to Egypt)."
  },
  "cover": {
   "series_ar": "بيت العزيز",
@@ -381,9 +536,10 @@
   "title_ar": "من البئر إلى مصر",
   "title_en": "From the well to Egypt",
   "at": [
-   21,
-   7
+   19,
+   3
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

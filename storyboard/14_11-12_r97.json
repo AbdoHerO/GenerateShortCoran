@@ -103,6 +103,28 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       11,
+       9
+      ],
+      [
+       11,
+       16
+      ]
+     ],
+     [
+      [
+       11,
+       23
+      ],
+      [
+       11,
+       29
+      ]
+     ]
     ]
    }
   },
@@ -136,6 +158,13 @@
        12
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       12,
+       17
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -149,6 +178,28 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       12,
+       3
+      ],
+      [
+       12,
+       9
+      ]
+     ],
+     [
+      [
+       12,
+       14
+      ],
+      [
+       12,
+       17
+      ]
+     ]
     ],
     "transition": "dissolve"
    }
@@ -224,7 +275,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "LISTEN: 11 word 9 «ولكن» has an 8.9 s timing segment with continuous voice (6-15 s), likely an unmarked repeat. The messengers speak: no plate on them; geometric only for «ولكن الله يمن على من يشاء من عباده», «إلا بإذن الله وعلى الله فليتوكل المؤمنون» and «وعلى الله فليتوكل المتوكلون». 11:17-25 keeps «ما كان لنا… إلا بإذن الله» whole."
+  "notes": "LISTEN: 11 word 9 «ولكن» has an 8.9 s timing segment with continuous voice (6-15 s), likely an unmarked repeat. The messengers speak: no plate on them; geometric only for «ولكن الله يمن على من يشاء من عباده», «إلا بإذن الله وعلى الله فليتوكل المؤمنون» and «وعلى الله فليتوكل المتوكلون». 11:17-25 keeps «ما كان لنا… إلا بإذن الله» whole. STAGING v4: Both chapters stay ambient: the whole passage is the unnamed messengers' own words (we are only men like you; Allah confers favour; we rely on Him). They cannot be drawn (no name for a drop), and figures on stage while «we are only men like you» is recited would read as the messengers themselves. Quiet over Allah's favour and permission (11:9-16, 11:23-29) and over reliance on Him (12:3-9, 12:14-17); plates unchanged."
  },
  "cover": {
   "series_ar": "الرسل وأقوامهم",
@@ -236,5 +287,6 @@
    14
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

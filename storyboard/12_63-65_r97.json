@@ -32,23 +32,88 @@
    "verses": [
     63
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "ya",
+      "type": "prophet",
+      "label": "يعقوب",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "walk",
+      "enter": [
+       63,
+       1
+      ],
+      "exit": null
+     },
+     {
+      "id": "cm",
+      "type": "camel",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "walk",
+      "enter": [
+       63,
+       1
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        63,
-       3
+       1
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       63,
+       2
+      ],
+      "do": "walk_to",
+      "who": "d",
+      "to": "center"
+     },
+     {
+      "at": [
+       63,
+       4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       63,
+       5
+      ],
+      "do": "speak",
+      "who": "d",
+      "to": "ya"
      },
      {
       "at": [
        63,
        7
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -62,6 +127,15 @@
        63,
        10
       ],
+      "do": "speak",
+      "who": "d",
+      "to": "ya"
+     },
+     {
+      "at": [
+       63,
+       12
+      ],
       "do": "shot_wide"
      },
      {
@@ -69,17 +143,33 @@
        63,
        14
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "d",
+      "to": "ya"
      },
      {
       "at": [
        63,
-       15
+       16
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
-    "motifs": []
+    "motifs": [
+     {
+      "at": [
+       63,
+       13
+      ],
+      "until": [
+       63,
+       15
+      ],
+      "motif": "wheat",
+      "place": "top",
+      "size": "s"
+     }
+    ]
    }
   },
   {
@@ -88,21 +178,80 @@
    "verses": [
     64
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "ya",
+      "type": "prophet",
+      "label": "يعقوب",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "cm",
+      "type": "camel",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        64,
-       6
+       1
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "ya",
+      "to": "d"
      },
      {
       "at": [
        64,
-       8
+       4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       64,
+       7
+      ],
+      "do": "speak",
+      "who": "ya",
+      "to": "d"
+     },
+     {
+      "at": [
+       64,
+       10
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       64,
+       13
       ],
       "do": "shot_wide"
      },
@@ -111,7 +260,16 @@
        64,
        15
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "ya",
+      "to": "d"
+     },
+     {
+      "at": [
+       64,
+       17
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -123,10 +281,10 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "morph"
    }
   },
   {
@@ -135,37 +293,132 @@
    "verses": [
     65
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "ya",
+      "type": "prophet",
+      "label": "يعقوب",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "cm",
+      "type": "camel",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        65,
-       10
+       1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       65,
+       2
+      ],
+      "do": "walk_to",
+      "who": "d",
+      "to": "cm"
+     },
+     {
+      "at": [
+       65,
+       4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       65,
+       8
+      ],
+      "do": "speak",
+      "who": "d",
+      "to": "ya"
+     },
+     {
+      "at": [
+       65,
+       9
+      ],
+      "do": "walk_to",
+      "who": "d",
+      "to": "center"
+     },
+     {
+      "at": [
+       65,
+       12
+      ],
+      "do": "point",
+      "who": "d",
+      "to": "cm"
+     },
+     {
+      "at": [
+       65,
+       14
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        65,
        16
       ],
+      "do": "speak",
+      "who": "d",
+      "to": "ya"
+     },
+     {
+      "at": [
+       65,
+       19
+      ],
       "do": "shot_wide"
      },
      {
       "at": [
        65,
-       21
+       22
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        65,
        24
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "d",
+      "to": "ya"
      }
     ],
     "motifs": [
@@ -180,7 +433,17 @@
       ],
       "motif": "coins",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       65,
+       21
+      ],
+      "until": null,
+      "motif": "wheat",
+      "place": "top",
+      "size": "s"
      }
     ],
     "transition": "dissolve"
@@ -268,7 +531,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Ya'qub: no plate; geometric for «فالله خير حافظا وهو أرحم الراحمين», coins for the returned price. Nothing on the denied measure (63:7-9). 65:12-25 is not glossed."
+  "notes": "Ya'qub: no plate; geometric for «فالله خير حافظا وهو أرحم الراحمين», coins for the returned price. Nothing on the denied measure (63:7-9). 65:12-25 is not glossed. STAGING v4: Ya'qub's dwelling is the desert with tents (12:100: he came from the desert, Al-Muyassar: from the badiya). Ya'qub is only a blue drop labelled Ya'qub, at the right. His sons are a plain group of three men in dark robes (never numbered), with one camel for the provisions they brought (65: a camel's load). c1 (63): they come back and walk to their father (63:2), then speak (63:5, 63:10, 63:14); nothing is drawn on the denied measure (63:7-9); a wheat plate for the measure they hope for (63:13). Binyamin is not drawn in this video. c2 (64): Ya'qub answers them (64:1, 64:7, 64:15); a geometric plate for Allah as the best guardian (64:12); the listeners make no gesture and nothing glows on Ya'qub. c3 (65): they go to their camel's load (65:2, they opened their goods), a coins plate for the price returned (65:5-7, both tafsirs), come back and speak to their father (65:8), pointing to the load as they say it (65:12, their own words); a wheat plate for the extra camel load (65:21). The cover shows them asking for their brother (63:10)."
  },
  "cover": {
   "series_ar": "لقاء الإخوة",
@@ -276,9 +539,10 @@
   "title_ar": "طلب الأخ",
   "title_en": "Asking for the brother",
   "at": [
-   64,
-   12
+   63,
+   10
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

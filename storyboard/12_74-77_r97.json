@@ -33,30 +33,114 @@
     74,
     75
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "cm",
+      "type": "camel",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "mu",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       74,
+       1
+      ],
+      "do": "speak",
+      "who": "mu",
+      "to": "d"
+     },
+     {
+      "at": [
+       74,
+       3
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        74,
        4
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "mu"
      },
      {
       "at": [
-       75,
-       2
+       74,
+       6
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        75,
-       8
+       1
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "d",
+      "to": "mu"
+     },
+     {
+      "at": [
+       75,
+       4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       75,
+       7
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       75,
+       9
+      ],
+      "do": "speak",
+      "who": "d",
+      "to": "mu"
+     },
+     {
+      "at": [
+       75,
+       11
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": []
@@ -68,16 +152,71 @@
    "verses": [
     76
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "cm",
+      "type": "camel",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "ys",
+      "type": "prophet",
+      "label": "يوسف",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       76,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       76,
+       3
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        76,
        5
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       76,
+       7
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -96,9 +235,30 @@
      {
       "at": [
        76,
-       14
+       13
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       76,
+       16
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       76,
+       19
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       76,
+       22
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -110,14 +270,28 @@
      {
       "at": [
        76,
-       25
+       24
       ],
       "do": "pan_right"
      },
      {
       "at": [
        76,
+       25
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       76,
        29
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       76,
+       32
       ],
       "do": "shot_wide"
      }
@@ -126,15 +300,28 @@
      {
       "at": [
        76,
+       2
+      ],
+      "until": [
+       76,
+       6
+      ],
+      "motif": "wheat",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       76,
        21
       ],
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "morph"
    }
   },
   {
@@ -143,23 +330,66 @@
    "verses": [
     77
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "cm",
+      "type": "camel",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "ys",
+      "type": "prophet",
+      "label": "يوسف",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       77,
+       1
+      ],
+      "do": "speak",
+      "who": "d",
+      "to": "ys"
+     },
      {
       "at": [
        77,
        4
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        77,
-       8
+       7
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -171,26 +401,51 @@
      {
       "at": [
        77,
-       14
+       13
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        77,
-       18
+       15
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        77,
-       20
+       17
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       77,
+       19
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       77,
+       23
+      ],
+      "do": "shot_wide"
      }
     ],
-    "motifs": [],
+    "motifs": [
+     {
+      "at": [
+       77,
+       21
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "s"
+     }
+    ],
     "transition": "dissolve"
    }
   }
@@ -353,7 +608,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "76:1-5 does not name who searched (the tafsirs differ: the searcher / Yusuf himself). «كذلك كدنا ليوسف» carries As-Sa'di's «الذي توصل به إلى أمر غير مذموم». Geometric for «إلا أن يشاء الله… وفوق كل ذي علم عليم». Their charge against Yusuf (77) is framed by «ومقصودهم تبرئة أنفسهم». 76: short-word flag (word 6, 70 ms), listen."
+  "notes": "76:1-5 does not name who searched (the tafsirs differ: the searcher / Yusuf himself). «كذلك كدنا ليوسف» carries As-Sa'di's «الذي توصل به إلى أمر غير مذموم». Geometric for «إلا أن يشاء الله… وفوق كل ذي علم عليم». Their charge against Yusuf (77) is framed by «ومقصودهم تبرئة أنفسهم». 76: short-word flag (word 6, 70 ms), listen. STAGING v4: In the town, by the caravan (the brothers, a plain group of three in dark robes, and their camel). c1 (74-75): the caller's party asks (74:1; the same single man in plain robes as in 70-73, Al-Muyassar: those charged with the search) and the brothers answer with their own law (75:1, 75:9). No plate. c2 (76): Yusuf (blue drop labelled Yusuf, at the right; Al-Muyassar: they were brought back to him) and the brothers; the search is never acted out and nobody is shown searching (the tafsirs differ on who searched): only a wheat plate on their sacks of provisions (76:2-5); nothing is drawn when the cup is taken out (76:7-10), no cup, no bag and Binyamin is not drawn, so nobody is singled out. A geometric plate from 76:21 for Allah's will and knowledge. No glow or sparkle on Yusuf for the raised ranks. c3 (77): the brothers speak their charge (77:1) toward Yusuf without pointing at anyone and with no plate: it is framed by the gloss (their aim: to clear themselves). Yusuf keeps it to himself: no gesture and no speech beat on 77:17 (both tafsirs: he said it within himself); a geometric plate for Allah knows best (77:21)."
  },
  "cover": {
   "series_ar": "لقاء الإخوة",
@@ -365,5 +620,6 @@
    21
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

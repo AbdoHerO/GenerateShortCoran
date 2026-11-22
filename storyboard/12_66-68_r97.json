@@ -32,21 +32,81 @@
    "verses": [
     66
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "ya",
+      "type": "prophet",
+      "label": "يعقوب",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "bn",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       66,
+       1
+      ],
+      "do": "speak",
+      "who": "ya",
+      "to": "d"
+     },
+     {
+      "at": [
+       66,
+       4
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        66,
        10
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        66,
-       13
+       12
+      ],
+      "do": "speak",
+      "who": "ya",
+      "to": "d"
+     },
+     {
+      "at": [
+       66,
+       16
       ],
       "do": "shot_wide"
      },
@@ -55,7 +115,25 @@
        66,
        17
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "d",
+      "to": "ya"
+     },
+     {
+      "at": [
+       66,
+       19
+      ],
+      "do": "speak",
+      "who": "ya",
+      "to": "d"
+     },
+     {
+      "at": [
+       66,
+       22
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -70,7 +148,7 @@
       ],
       "motif": "seal",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -80,7 +158,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -91,35 +169,97 @@
    "verses": [
     67
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "ya",
+      "type": "prophet",
+      "label": "يعقوب",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "bn",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        67,
-       5
+       1
+      ],
+      "do": "speak",
+      "who": "ya",
+      "to": "d"
+     },
+     {
+      "at": [
+       67,
+       4
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        67,
-       11
+       9
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "ya",
+      "to": "d"
+     },
+     {
+      "at": [
+       67,
+       12
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        67,
        13
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "ya",
+      "to": "d"
      },
      {
       "at": [
        67,
-       15
+       16
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       67,
+       20
       ],
       "do": "shot_wide"
      },
@@ -128,14 +268,23 @@
        67,
        23
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "ya",
+      "to": "d"
      },
      {
       "at": [
        67,
-       24
+       25
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       67,
+       27
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -150,7 +299,7 @@
       ],
       "motif": "door",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -160,10 +309,10 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "morph"
    }
   },
   {
@@ -172,10 +321,54 @@
    "verses": [
     68
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "d1",
+      "type": "disbelievers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "walk",
+      "enter": [
+       68,
+       2
+      ],
+      "exit": null
+     },
+     {
+      "id": "d2",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "walk",
+      "enter": [
+       68,
+       2
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       68,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       68,
+       4
+      ],
+      "do": "pan_left"
+     },
      {
       "at": [
        68,
@@ -193,55 +386,76 @@
      {
       "at": [
        68,
-       13
+       12
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       68,
+       14
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        68,
        15
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        68,
        17
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        68,
        20
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        68,
        23
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        68,
-       26
+       25
       ],
       "do": "pan_left"
      },
      {
       "at": [
        68,
-       30
+       26
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       68,
+       28
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       68,
+       30
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [],
-    "transition": "dissolve"
+    "transition": "wipe"
    }
   }
  ],
@@ -348,7 +562,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Ya'qub: no plate. A seal for «موثقا من الله», geometric for «الله على ما نقول وكيل» and «إن الحكم إلا لله…», a door for «وادخلوا من أبواب متفرقة» (nothing on the negated «لا تدخلوا من باب واحد»). 68:1-20 is not glossed: «ما كان يغني… إلا حاجة في نفس يعقوب» is too long for one chip and must not be split. No plate in 68 (Ya'qub's knowledge)."
+  "notes": "Ya'qub: no plate. A seal for «موثقا من الله», geometric for «الله على ما نقول وكيل» and «إن الحكم إلا لله…», a door for «وادخلوا من أبواب متفرقة» (nothing on the negated «لا تدخلوا من باب واحد»). 68:1-20 is not glossed: «ما كان يغني… إلا حاجة في نفس يعقوب» is too long for one chip and must not be split. No plate in 68 (Ya'qub's knowledge). STAGING v4: c1-c2 at Ya'qub's tents in the desert (12:100). Ya'qub is only a blue drop labelled Ya'qub. Binyamin is a single plain man: in c1 he stands beside his father (66: I will not send him with you), in c2 he stands with his brothers (As-Sa'di 67: when he had sent him with them he advised them). The brothers are a plain group of three in dark robes. c1 (66): Ya'qub speaks (66:1, 66:12); a seal plate for the pledge by Allah (66:7-9); the brothers give their pledge by speaking (66:17); Ya'qub answers (66:19) with a geometric plate for Allah as witness (66:20). c2 (67): Ya'qub's advice (67:1, 67:9, 67:13, 67:23); nothing on the negated one gate (67:3-7), a door plate for entering by separate gates (67:8-11, before the Name), a geometric plate for the judgement is Allah's alone (67:19). Nobody raises hands, nothing glows on Ya'qub. c3 (68) in the town of Egypt: two plain groups of three in dark robes come in from opposite sides (68:2, they entered as their father had told them: by separate gates); Ya'qub is not in Egypt, so no drop, no close-up (his name at 68:19), no plate (his knowledge, 68:21-25), only wide shots and gentle pans."
  },
  "cover": {
   "series_ar": "لقاء الإخوة",
@@ -360,5 +574,6 @@
    7
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -72,7 +72,7 @@
       "type": "people",
       "label": "",
       "place": "right",
-      "count": 4,
+      "count": 3,
       "pose": "stand",
       "enter": null,
       "exit": null
@@ -101,7 +101,7 @@
        77,
        2
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -117,7 +117,8 @@
        7
       ],
       "do": "speak",
-      "who": "musa"
+      "who": "musa",
+      "to": "people"
      },
      {
       "at": [
@@ -173,7 +174,8 @@
        19
       ],
       "do": "speak",
-      "who": "musa"
+      "who": "musa",
+      "to": "center"
      },
      {
       "at": [
@@ -257,7 +259,8 @@
        1
       ],
       "do": "speak",
-      "who": "khidr"
+      "who": "khidr",
+      "to": "musa"
      },
      {
       "at": [
@@ -277,17 +280,10 @@
      {
       "at": [
        78,
-       10
+       12
       ],
       "do": "bow",
       "who": "musa"
-     },
-     {
-      "at": [
-       78,
-       12
-      ],
-      "do": "push_in"
      }
     ],
     "motifs": [
@@ -306,7 +302,10 @@
        78,
        7
       ],
-      "until": null,
+      "until": [
+       78,
+       11
+      ],
       "motif": "door",
       "place": "top",
       "size": "s"
@@ -386,7 +385,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The townspeople (faceless group) turn away and shake their heads when they refuse hospitality; al-Khidr (neutral 'honored' drop) walks to the leaning wall and it is straightened at the word that states it (wall_repair). Musa remarks on the payment (speak, point toward the townspeople, per Al-Muyassar: to buy food since they would not host us). The parting is a calm dusk scene with only the two light drops; the wall is left out there so it is never redrawn leaning."
+  "notes": "The townspeople (faceless group) turn away and shake their heads when they refuse hospitality; al-Khidr (neutral 'honored' drop) walks to the leaning wall and it is straightened at the word that states it (wall_repair). Musa remarks on the payment (speak, point toward the townspeople, per Al-Muyassar: to buy food since they would not host us). The parting is a calm dusk scene with only the two light drops; the wall is left out there so it is never redrawn leaning. v2: the townspeople are a group of 3 (a group of 4 drew a woman); 77:7 is asked of the townspeople, and 77:19 is spoken toward al-Khidr at the wall (centre), not toward the empty left edge; no pan or push-in in the drop scenes. The door plate leaves before Musa lowers his head, now on 78:12."
  },
  "cover": {
   "series_ar": "موسى والخضر",

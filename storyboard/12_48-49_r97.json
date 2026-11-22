@@ -32,45 +32,114 @@
    "verses": [
     48
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
-    "beats": [
+    "setting": "garden",
+    "time": "day",
+    "actors": [
      {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [
+     {
+      "type": "wither",
       "at": [
        48,
        7
       ],
-      "do": "pan_left"
-     },
+      "until": null
+     }
+    ],
+    "beats": [
      {
       "at": [
        48,
-       11
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        48,
-       12
+       4
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       48,
+       7
+      ],
+      "do": "bow",
+      "who": "p"
+     },
+     {
+      "at": [
+       48,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       48,
+       11
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       48,
+       12
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       48,
+       14
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       48,
+       15
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
      {
       "at": [
        48,
-       2
+       6
       ],
       "until": [
        48,
-       8
+       12
       ],
       "motif": "hourglass",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       48,
+       13
+      ],
+      "until": null,
+      "motif": "wheat",
+      "place": "top",
+      "size": "s"
      }
     ]
    }
@@ -81,31 +150,95 @@
    "verses": [
     49
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "fields",
+    "time": "day",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [
+     {
+      "type": "rain",
+      "at": [
+       49,
+       8
+      ],
+      "until": null
+     },
+     {
+      "type": "growth",
+      "at": [
+       49,
+       10
+      ],
+      "until": null
+     }
+    ],
     "beats": [
+     {
+      "at": [
+       49,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       49,
+       4
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       49,
+       6
+      ],
+      "do": "shot_sky"
+     },
+     {
+      "at": [
+       49,
+       8
+      ],
+      "do": "look_up",
+      "who": "p"
+     },
      {
       "at": [
        49,
        9
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       49,
+       11
+      ],
+      "do": "pan_left"
      }
     ],
     "motifs": [
      {
       "at": [
        49,
-       6
+       8
       ],
-      "until": [
-       49,
-       10
-      ],
+      "until": null,
       "motif": "cloud_rain",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "morph"
@@ -193,7 +326,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No famine drawn: an hourglass for the hard years, a rain cloud for «يغاث الناس» (both tafsirs: rain). Yusuf's words: no plate on him."
+  "notes": "No famine drawn: an hourglass for the hard years, a rain cloud for «يغاث الناس» (both tafsirs: rain). Yusuf's words: no plate on him. STAGING v4: Yusuf's interpretation (48-49) is shown by its subject, the land of Egypt and its people (Al-Muyassar 48: its people eat the stores; 49: the people are given rain): gardens and farms with a plain group of three. No drop is on stage, so the camera stays wide (no close-up on a figure while Yusuf's words are recited). c1 (48): an hourglass for the seven hard years (no number drawn), the farms wither on 48:7 (both tafsirs: severe drought) and the people lower their heads; a wheat plate for the little kept back (48:13, Al-Muyassar: kept as seed). No cows, no eaten ears of grain, nobody hungry or hurt. c2 (49): a new year over the fields: rain falls on 49:8 (Al-Muyassar: given rain) with a rain-cloud plate, the people look up at it, and the fields turn green on 49:10 (abundant crops, As-Sa'di). Nothing is drawn for the pressing itself."
  },
  "cover": {
   "series_ar": "حلم الملك",
@@ -202,8 +335,9 @@
   "title_en": "Ease after hardship",
   "at": [
    49,
-   6
+   11
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

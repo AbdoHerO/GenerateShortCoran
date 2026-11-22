@@ -33,71 +33,125 @@
     12,
     13
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "fields",
+    "time": "day",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       13,
+       1
+      ]
+     }
+    ],
+    "events": [
+     {
+      "type": "lightning",
+      "at": [
+       12,
+       4
+      ],
+      "until": [
+       13,
+       4
+      ]
+     }
+    ],
     "beats": [
+     {
+      "at": [
+       12,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       12,
+       3
+      ],
+      "do": "look_up",
+      "who": "p"
+     },
+     {
+      "at": [
+       12,
+       5
+      ],
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       12,
+       7
+      ],
+      "do": "turn",
+      "who": "p"
+     },
      {
       "at": [
        12,
        9
       ],
-      "do": "pan_right"
+      "do": "wind"
      },
      {
       "at": [
        13,
        2
       ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       13,
+       4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       13,
+       7
+      ],
       "do": "pan_left"
      },
      {
       "at": [
        13,
-       5
+       12
       ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       13,
-       8
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       13,
-       11
-      ],
-      "do": "shot_wide"
+      "do": "shot_ground"
      },
      {
       "at": [
        13,
        13
       ],
-      "do": "pan_left"
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       13,
+       17
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
      {
       "at": [
        12,
-       4
-      ],
-      "until": [
-       12,
-       7
-      ],
-      "motif": "lightning",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       12,
-       7
+       8
       ],
       "until": [
        13,
@@ -105,7 +159,7 @@
       ],
       "motif": "cloud_rain",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -115,7 +169,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -201,6 +255,18 @@
       "size": "m"
      }
     ],
+    "quiet": [
+     [
+      [
+       14,
+       1
+      ],
+      [
+       14,
+       3
+      ]
+     ]
+    ],
     "transition": "dissolve"
    }
   },
@@ -247,6 +313,18 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       15,
+       1
+      ],
+      [
+       15,
+       2
+      ]
+     ]
     ],
     "transition": "slide"
    }
@@ -388,7 +466,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Lightning for «يريكم البرق» and for «ويسبح الرعد» (it leaves before «والملائكة»; the angels are never drawn), a rain cloud for «السحاب الثقال». Nothing on the thunderbolts striking (13:7-12). Geometric for «وهو شديد المحال» and «له دعوة الحق». A drop for the parable of the outstretched hands (no hands drawn); 14:8-21 is not glossed so that «لا يستجيبون… إلا كباسط» is not split. The prostration (15) is never drawn and its chapter is light (no dawn); night-and-day for «بالغدو والآصال». Cut: «لا شريك له» (6:163) and «لا إله إلا الله» (47:19)."
+  "notes": "Lightning for «يريكم البرق» and for «ويسبح الرعد» (it leaves before «والملائكة»; the angels are never drawn), a rain cloud for «السحاب الثقال». Nothing on the thunderbolts striking (13:7-12). Geometric for «وهو شديد المحال» and «له دعوة الحق». A drop for the parable of the outstretched hands (no hands drawn); 14:8-21 is not glossed so that «لا يستجيبون… إلا كباسط» is not split. The prostration (15) is never drawn and its chapter is light (no dawn); night-and-day for «بالغدو والآصال». Cut: «لا شريك له» (6:163) and «لا إله إلا الله» (47:19). STAGING v4: c1 (12-13): the sky over fields by day. Three people stand at the edge of the fields and look up (12:3, He shows you the lightning); the lightning flashes in dark clouds from 12:4 (in fear and hope: Al-Muyassar, fear of thunderbolts and hope of rain; the people's alarm is the renderer's reaction); a rain-cloud plate for the heavy clouds (12:8); a gust as the clouds gather. As the heavy clouds gather the people turn (12:7) and leave the field on 13:1, long before any word of punishment, so the field is empty for the rest of the chapter. The lightning stops at 13:4: the angels glorifying Him (13:4-6) are never drawn, no plate and no close-up there. The thunderbolts (13:7-12) fall on no one: no bolt is drawn after 13:4 and nobody is on stage, so nobody reads as struck, and nobody stands for those who dispute about Allah (13:13-16). Geometric for He is severe in might (13:17). c2 (14) stays ambient (geometric): the true call belongs to Him; the idols and their worshippers' prayers are never drawn, and the parable of the outstretched palms is only a water-drop plate (a raised-hands gesture would read as a prayer); quiet over 14:1-3. c3 (15) stays ambient (light): the prostration of all in the heavens and the earth, willingly or unwillingly, and of their shadows, includes those in the heavens and cannot be drawn; no prostration is drawn; quiet over 15:1-2. The cover now shows the people under the lightning (12:5)."
  },
  "cover": {
   "series_ar": "مظاهر القدرة",
@@ -397,8 +475,9 @@
   "title_en": "Signs in the sky",
   "at": [
    12,
-   7
+   5
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

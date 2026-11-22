@@ -53,6 +53,13 @@
      {
       "at": [
        53,
+       5
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       53,
        6
       ],
       "do": "shot_wide"
@@ -93,35 +100,114 @@
     54,
     55
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "palace",
+    "time": "day",
+    "actors": [
+     {
+      "id": "c",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "k",
+      "type": "king",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "ys",
+      "type": "prophet",
+      "label": "يوسف",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       54,
+       7
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        54,
-       4
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       54,
-       6
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       54,
-       9
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        54,
-       14
+       3
+      ],
+      "do": "speak",
+      "who": "k",
+      "to": "c"
+     },
+     {
+      "at": [
+       54,
+       5
+      ],
+      "do": "shot_close",
+      "who": "k"
+     },
+     {
+      "at": [
+       54,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       54,
+       9
+      ],
+      "do": "speak",
+      "who": "k",
+      "to": "ys"
+     },
+     {
+      "at": [
+       54,
+       11
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       54,
+       13
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       55,
+       1
+      ],
+      "do": "speak",
+      "who": "ys",
+      "to": "k"
+     },
+     {
+      "at": [
+       55,
+       3
       ],
       "do": "shot_wide"
      },
@@ -130,7 +216,16 @@
        55,
        6
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "ys",
+      "to": "k"
+     },
+     {
+      "at": [
+       55,
+       8
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -139,16 +234,13 @@
        55,
        4
       ],
-      "until": [
-       55,
-       6
-      ],
+      "until": null,
       "motif": "wheat",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "page_turn"
    }
   },
   {
@@ -158,21 +250,71 @@
     56,
     57
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "ys",
+      "type": "prophet",
+      "label": "يوسف",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": [
+       57,
+       4
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        56,
-       4
+       1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        56,
-       7
+       3
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       56,
+       6
+      ],
+      "do": "walk_to",
+      "who": "ys",
+      "to": "left"
+     },
+     {
+      "at": [
+       56,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       56,
+       12
       ],
       "do": "shot_wide"
      },
@@ -181,28 +323,43 @@
        56,
        14
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
-       57,
-       4
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       57,
-       6
+       56,
+       16
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        57,
+       2
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       57,
+       4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       57,
+       5
+      ],
+      "do": "look_up",
+      "who": "b"
+     },
+     {
+      "at": [
+       57,
        7
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -217,7 +374,7 @@
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -227,10 +384,10 @@
       "until": null,
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "wipe"
    }
   }
  ],
@@ -381,7 +538,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "53 opens the video after the blocked 50-52, so its speaker is named: both tafsirs give it to the wife of al-Aziz (Al-Muyassar «قالت امرأة العزيز»; As-Sa'di «وهذا هو الصواب»). She is never drawn. Light for «إلا ما رحم ربي». 55 keeps As-Sa'di's «طلبا للمصلحة العامة… وليس ذلك حرصا من يوسف على الولاية». Wheat for «خزائن الأرض» (granaries, after «اجعلني»), geometric for «نصيب برحمتنا من نشاء» (after Yusuf's name), light for «ولأجر الآخرة خير» (no Paradise drawn)."
+  "notes": "53 opens the video after the blocked 50-52, so its speaker is named: both tafsirs give it to the wife of al-Aziz (Al-Muyassar «قالت امرأة العزيز»; As-Sa'di «وهذا هو الصواب»). She is never drawn. Light for «إلا ما رحم ربي». 55 keeps As-Sa'di's «طلبا للمصلحة العامة… وليس ذلك حرصا من يوسف على الولاية». Wheat for «خزائن الأرض» (granaries, after «اجعلني»), geometric for «نصيب برحمتنا من نشاء» (after Yusuf's name), light for «ولأجر الآخرة خير» (no Paradise drawn). STAGING v4: c1 (53) stays ambient: the words are those of the wife of al-Aziz (both tafsirs), who is never drawn, and they turn to the soul and to Allah's mercy and forgiveness. c2 (54-55) in the royal court by day: the king is a plain faceless king at the centre (no label); his men are a plain group of three on the left, to whom he says to bring Yusuf (54:3; plural command). Yusuf is only a blue drop labelled Yusuf: he comes in at the right on 54:7, never at the centre, never by the throne and never with a crown. Nobody speaks on 54:8 (the tafsirs differ on who spoke first); the king speaks to him on 54:9 (both tafsirs), Yusuf answers on 55:1 and 55:6; a wheat plate for the storehouses (55:4, As-Sa'di: the land's grain). c3 (56-57) in a plain town: Yusuf's drop walks across the land on 56:6 (settling wherever he wished, Al-Muyassar); a geometric plate for Allah's mercy (56:10-13) and a light plate for the reward of the Hereafter (57:1, nothing of the Hereafter drawn); the believers who fear Allah (three, 57:4) come in at the right, where Yusuf no longer stands, and look up (57:5). No glow or sparkle on Yusuf."
  },
  "cover": {
   "series_ar": "ظهور البراءة",
@@ -393,5 +550,6 @@
    4
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

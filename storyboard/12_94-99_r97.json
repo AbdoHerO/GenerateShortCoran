@@ -33,28 +33,77 @@
     94,
     95
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "ya",
+      "type": "prophet",
+      "label": "يعقوب",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       94,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        94,
        4
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "ya",
+      "to": "p"
      },
      {
       "at": [
        94,
        7
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        94,
-       11
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       94,
+       10
+      ],
+      "do": "speak",
+      "who": "ya",
+      "to": "p"
+     },
+     {
+      "at": [
+       94,
+       12
       ],
       "do": "shot_wide"
      },
@@ -63,7 +112,9 @@
        95,
        1
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "p",
+      "to": "ya"
      },
      {
       "at": [
@@ -71,9 +122,30 @@
        3
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       95,
+       5
+      ],
+      "do": "shot_wide"
      }
     ],
-    "motifs": []
+    "motifs": [
+     {
+      "at": [
+       94,
+       2
+      ],
+      "until": [
+       94,
+       7
+      ],
+      "motif": "footsteps",
+      "place": "top",
+      "size": "s"
+     }
+    ]
    }
   },
   {
@@ -82,53 +154,126 @@
    "verses": [
     96
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "ya",
+      "type": "prophet",
+      "label": "يعقوب",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "bs",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       96,
+       3
+      ],
+      "exit": null,
+      "look": "traveller"
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       96,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       96,
+       2
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        96,
        3
       ],
-      "do": "shot_wide"
+      "do": "walk_to",
+      "who": "bs",
+      "to": "ya"
      },
      {
       "at": [
        96,
-       4
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       96,
-       10
+       5
       ],
       "do": "shot_wide"
      },
-     {
-      "at": [
-       96,
-       11
-      ],
-      "do": "pan_right"
-     }
-    ],
-    "motifs": [
      {
       "at": [
        96,
        8
       ],
-      "until": [
+      "do": "shot_wide"
+     },
+     {
+      "at": [
        96,
        10
       ],
-      "motif": "light",
-      "place": "top",
-      "size": "m"
+      "do": "speak",
+      "who": "ya",
+      "to": "p"
      },
+     {
+      "at": [
+       96,
+       12
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       96,
+       14
+      ],
+      "do": "speak",
+      "who": "ya",
+      "to": "p"
+     },
+     {
+      "at": [
+       96,
+       16
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       96,
+       19
+      ],
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": [
      {
       "at": [
        96,
@@ -140,7 +285,7 @@
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "page_turn"
@@ -154,21 +299,76 @@
     98,
     99
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "ya",
+      "type": "prophet",
+      "label": "يعقوب",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "ys",
+      "type": "prophet",
+      "label": "يوسف",
+      "place": "right",
+      "count": 1,
+      "pose": "walk",
+      "enter": [
+       99,
+       2
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       97,
+       1
+      ],
+      "do": "speak",
+      "who": "d",
+      "to": "ya"
+     },
      {
       "at": [
        97,
        3
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        97,
-       7
+       6
+      ],
+      "do": "speak",
+      "who": "d",
+      "to": "ya"
+     },
+     {
+      "at": [
+       97,
+       8
       ],
       "do": "shot_wide"
      },
@@ -177,21 +377,30 @@
        98,
        1
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "ya",
+      "to": "d"
+     },
+     {
+      "at": [
+       98,
+       3
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        98,
        8
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        98,
        9
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -205,26 +414,44 @@
        99,
        2
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        99,
-       5
+       4
+      ],
+      "do": "walk_to",
+      "who": "d",
+      "to": "center"
+     },
+     {
+      "at": [
+       99,
+       6
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        99,
-       7
+       8
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "ys",
+      "to": "d"
      },
      {
       "at": [
        99,
        12
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       99,
+       14
       ],
       "do": "shot_wide"
      }
@@ -241,20 +468,7 @@
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       99,
-       9
-      ],
-      "until": [
-       99,
-       11
-      ],
-      "motif": "door",
-      "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "dissolve"
@@ -386,7 +600,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No shirt, face or eyes drawn; light for «فارتد بصيرا». Their «إنك لفي ضلالك القديم» (95) is framed by As-Sa'di's «فوقع ما ظنه بهم» (the mockery Ya'qub foresaw). Geometric for «أعلم من الله ما لا تعلمون» and «إنه هو الغفور الرحيم», a door for «ادخلوا مصر» (it leaves before «إن شاء الله»). 94:4-9 is not glossed."
+  "notes": "No shirt, face or eyes drawn; light for «فارتد بصيرا». Their «إنك لفي ضلالك القديم» (95) is framed by As-Sa'di's «فوقع ما ظنه بهم» (the mockery Ya'qub foresaw). Geometric for «أعلم من الله ما لا تعلمون» and «إنه هو الغفور الرحيم», a door for «ادخلوا مصر» (it leaves before «إن شاء الله»). 94:4-9 is not glossed. STAGING v4: At Ya'qub's tents in the desert (12:100). Ya'qub and Yusuf are only blue drops labelled with their names. c1 (94-95): a footsteps plate as the caravan sets out from Egypt (94:2-6); Ya'qub speaks to those with him (94:4, 94:10), a plain group of three (Al-Muyassar: those present; not his sons in dark robes, who are with the caravan); they answer him (95:1) and their words are framed by the gloss. c2 (96): the bearer of good news, a single traveller (the tafsirs do not name him), comes in and walks to Ya'qub (96:3); no shirt, face or eyes are drawn, and no light, glow or sparkle marks the return of his sight (96:5-9); Ya'qub speaks to those present (96:10, 96:14), with a geometric plate for I know from Allah (96:15-17). c3 (97-99): his sons (three in dark robes) ask him to seek forgiveness (97:1, 97:6; no bowing toward the drop) and he answers (98:1) with a geometric plate for He is the Forgiving, the Merciful (98:6). 99: the family travels and comes to Yusuf (verse: he then told them to enter Egypt, so the meeting is shown on the road outside it): Yusuf's drop comes in from the right (99:2) and the sons step toward him (99:4); Ya'qub's drop stays where it is and nothing is acted for his taking his parents to himself (99:5-7): the parents are not shown as a pair and his mother is never drawn; Yusuf speaks to them (99:8; no plate: enter Egypt is too short a span before the Name). The cover is the bearer arriving (96:4)."
  },
  "cover": {
   "series_ar": "لم الشمل",
@@ -395,8 +609,9 @@
   "title_en": "Signs of relief",
   "at": [
    96,
-   8
+   4
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

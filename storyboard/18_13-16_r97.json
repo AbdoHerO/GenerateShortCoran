@@ -85,14 +85,6 @@
      {
       "at": [
        13,
-       8
-      ],
-      "do": "look_up",
-      "who": "youths"
-     },
-     {
-      "at": [
-       13,
        10
       ],
       "do": "sparkle",
@@ -105,7 +97,10 @@
        13,
        2
       ],
-      "until": null,
+      "until": [
+       13,
+       6
+      ],
       "motif": "book",
       "place": "top",
       "size": "s"
@@ -120,6 +115,18 @@
       "place": "top",
       "size": "s"
      }
+    ],
+    "quiet": [
+     [
+      [
+       13,
+       1
+      ],
+      [
+       13,
+       5
+      ]
+     ]
     ]
    }
   },
@@ -187,15 +194,8 @@
        7
       ],
       "do": "speak",
-      "who": "youths"
-     },
-     {
-      "at": [
-       14,
-       9
-      ],
-      "do": "look_up",
-      "who": "youths"
+      "who": "youths",
+      "to": "people"
      },
      {
       "at": [
@@ -241,18 +241,11 @@
        14,
        7
       ],
-      "until": null,
-      "motif": "geometric",
-      "place": "top",
-      "size": "s"
-     },
-     {
-      "at": [
+      "until": [
        14,
-       9
+       11
       ],
-      "until": null,
-      "motif": "stars",
+      "motif": "geometric",
       "place": "top",
       "size": "s"
      }
@@ -298,14 +291,6 @@
      {
       "at": [
        15,
-       1
-      ],
-      "do": "speak",
-      "who": "youths"
-     },
-     {
-      "at": [
-       15,
        2
       ],
       "do": "point",
@@ -348,8 +333,7 @@
        15,
        15
       ],
-      "do": "shot_close",
-      "who": "people"
+      "do": "pan_right"
      }
     ],
     "motifs": [],
@@ -379,16 +363,7 @@
       "uncountable": true
      }
     ],
-    "events": [
-     {
-      "type": "light",
-      "at": [
-       16,
-       14
-      ],
-      "until": null
-     }
-    ],
+    "events": [],
     "beats": [
      {
       "at": [
@@ -425,14 +400,6 @@
      {
       "at": [
        16,
-       12
-      ],
-      "do": "look_up",
-      "who": "youths"
-     },
-     {
-      "at": [
-       16,
        15
       ],
       "do": "sparkle",
@@ -459,7 +426,10 @@
        16,
        9
       ],
-      "until": null,
+      "until": [
+       16,
+       12
+      ],
       "motif": "cave",
       "place": "top",
       "size": "s"
@@ -593,7 +563,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Hand storyboard. The youths are always an awake 'believers' group with uncountable=true (18:22). 18:13 they sit together in their town and a soft light marks the increase in guidance. 18:14 they stand up and declare tawhid before their people (a 'disbelievers' crowd; Al-Muyassar's disbelieving king is NOT drawn). 18:15 they speak among themselves and point at their people. 18:16 they turn away and walk to the cave; the light marks the mercy promised. No violence."
+  "notes": "Hand storyboard. The youths are always an awake 'believers' group with uncountable=true (18:22). 18:13 they sit together in their town and a soft light marks the increase in guidance. 18:14 they stand up and declare tawhid before their people (a 'disbelievers' crowd; Al-Muyassar's disbelieving king is NOT drawn). 18:15 they speak among themselves and point at their people. 18:16 they turn away and walk to the cave; the light marks the mercy promised. No violence. v2: 13:1-5 (address to the Prophet) is a quiet range. The book (13:2) and cave (16:9) plates leave before the Name. No look_up on or right before the Name (13:8, 14:9, 16:12). The stars plate after the geometric plate on 14:7-9 is removed (stars must never read as the Lord); the geometric plate stays over 14:7-10. The light event on 16:14 (His mercy, right after the Name) is removed. 15:1: no speak beat, since Al-Muyassar says they said it to one another (the arcs would have gone to their people); they still point at their people. No close-up on 15:15-17."
  },
  "cover": {
   "series_ar": "أصحاب الكهف",

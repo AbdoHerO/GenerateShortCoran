@@ -48,14 +48,7 @@
        110,
        4
       ],
-      "do": "push_in"
-     },
-     {
-      "at": [
-       110,
-       6
-      ],
-      "do": "light_up"
+      "do": "pattern_turn"
      },
      {
       "at": [
@@ -83,14 +76,7 @@
        110,
        15
       ],
-      "do": "shot_sky"
-     },
-     {
-      "at": [
-       110,
-       16
-      ],
-      "do": "light_up"
+      "do": "pattern_turn"
      },
      {
       "at": [
@@ -133,7 +119,7 @@
        110,
        24
       ],
-      "do": "light_up"
+      "do": "pattern_turn"
      }
     ],
     "motifs": [
@@ -162,7 +148,10 @@
        110,
        17
       ],
-      "until": null,
+      "until": [
+       110,
+       19
+      ],
       "motif": "growth",
       "place": "top",
       "size": "m"
@@ -173,10 +162,22 @@
        22
       ],
       "until": null,
-      "motif": "hands",
+      "motif": "geometric",
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       110,
+       1
+      ],
+      [
+       110,
+       24
+      ]
+     ]
     ]
    }
   }
@@ -251,7 +252,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Calm visuals only: the geometric pattern for tawhid; a new ring lights up on the One God and on the worship of one's Lord alone, the light swells on revelation and on the hope of meeting Him. The Prophet is not drawn."
+  "notes": "Calm visuals only: the geometric pattern for tawhid; a new ring lights up on the One God and on the worship of one's Lord alone, the light swells on revelation and on the hope of meeting Him. The Prophet is not drawn. v2: the verse (what the Prophet is told to say) is a quiet range; no push-in on 110:4 (it would close in on an implied figure); no light swell or sky tilt on or next to the Name (110:15-16, 110:24): geometric rings instead; the growth plate leaves before 110:19, and the plate over the Name at 110:22-23 is geometric instead of hands."
  },
  "cover": {
   "series_ar": "خاتمة السورة",

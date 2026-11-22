@@ -155,14 +155,14 @@
        81,
        1
       ],
-      "do": "clouds_part"
+      "do": "light_up"
      },
      {
       "at": [
        81,
        4
       ],
-      "do": "shot_sky"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -193,7 +193,10 @@
        80,
        4
       ],
-      "until": null,
+      "until": [
+       81,
+       1
+      ],
       "motif": "house",
       "place": "top",
       "size": "m"
@@ -294,7 +297,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Calm visuals only: the sea for the ship (no ship, king or people drawn), dawn for the mercy shown to the believing parents. Al-Muyassar and As-Sa'di differ on al-Khidr's status, so no gloss states it; glosses explain the reasons only and nothing of the boy or the killing is shown."
+  "notes": "Calm visuals only: the sea for the ship (no ship, king or people drawn), dawn for the mercy shown to the believing parents. Al-Muyassar and As-Sa'di differ on al-Khidr's status, so no gloss states it; glosses explain the reasons only and nothing of the boy or the killing is shown. v2: the house plate leaves before the Name (81:4); a sideways pan replaces the sky tilt on the Name. The clouds parting on 81:1 became a short light swell that fades before the Name (81:4): the parted-cloud rays from above would have shone on it."
  },
  "cover": {
   "series_ar": "موسى والخضر",

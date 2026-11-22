@@ -39,16 +39,23 @@
      {
       "at": [
        33,
-       5
+       4
       ],
       "do": "pan_right"
      },
      {
       "at": [
        33,
-       9
+       8
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       33,
+       11
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -60,51 +67,37 @@
      {
       "at": [
        33,
-       15
+       16
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       33,
+       22
       ],
       "do": "pan_right"
      },
      {
       "at": [
        33,
-       19
+       26
       ],
       "do": "shot_wide"
-     },
-     {
-      "at": [
-       33,
-       24
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       33,
-       27
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       33,
-       30
-      ],
-      "do": "pan_left"
      },
      {
       "at": [
        33,
        32
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        33,
        34
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -120,7 +113,52 @@
       "motif": "geometric",
       "place": "top",
       "size": "m"
+     },
+     {
+      "at": [
+       33,
+       30
+      ],
+      "until": [
+       33,
+       33
+      ],
+      "motif": "two_paths",
+      "place": "top",
+      "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       33,
+       1
+      ],
+      [
+       33,
+       8
+      ]
+     ],
+     [
+      [
+       33,
+       12
+      ],
+      [
+       33,
+       24
+      ]
+     ],
+     [
+      [
+       33,
+       33
+      ],
+      [
+       33,
+       39
+      ]
+     ]
     ]
    }
   },
@@ -231,7 +269,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Geometric for «أفمن هو قائم على كل نفس بما كسبت»; no plate on «قل سموهم» or on the punishment (34). Not glossed: 33:9-11 (every excerpt repeats Quran wording), 33:25-39, 34:1-5 (Al-Muyassar names battles)."
+  "notes": "Geometric for «أفمن هو قائم على كل نفس بما كسبت»; no plate on «قل سموهم» or on the punishment (34). Not glossed: 33:9-11 (every excerpt repeats Quran wording), 33:25-39, 34:1-5 (Al-Muyassar names battles). STAGING v4: Both chapters stay ambient. c1 (33): His standing over every soul, the partners they ascribe (never drawn) and the Prophet's ﷺ commanded words (33:12-13): quiet over 33:1-8, 33:12-24 and 33:33-39; a two-paths plate for they were averted from the way (33:30-32). c2 (34) kept: the punishment in this world (Al-Muyassar: killing and captivity) and the Hereafter, never drawn."
  },
  "cover": {
   "series_ar": "حجج المعاندين",
@@ -243,5 +281,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -33,68 +33,145 @@
     16,
     17
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "desert",
+    "time": "night",
+    "actors": [
+     {
+      "id": "br",
+      "type": "disbelievers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "walk",
+      "enter": [
+       16,
+       1
+      ],
+      "exit": null
+     },
+     {
+      "id": "ya",
+      "type": "prophet",
+      "label": "يعقوب",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       16,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        16,
        2
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       16,
+       3
+      ],
+      "do": "shot_sky"
      },
      {
       "at": [
        16,
        4
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       17,
+       1
+      ],
+      "do": "speak",
+      "who": "br",
+      "to": "ya"
      },
      {
       "at": [
        17,
        3
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "br"
      },
      {
       "at": [
        17,
-       6
+       5
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        17,
-       9
+       8
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "br",
+      "to": "ya"
      },
      {
       "at": [
        17,
        11
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        17,
        12
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "br",
+      "to": "ya"
      },
      {
       "at": [
        17,
-       15
+       14
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "br"
+     },
+     {
+      "at": [
+       17,
+       16
+      ],
+      "do": "shot_wide"
      }
     ],
-    "motifs": []
+    "motifs": [
+     {
+      "at": [
+       16,
+       3
+      ],
+      "until": [
+       16,
+       4
+      ],
+      "motif": "hourglass",
+      "place": "top",
+      "size": "s"
+     }
+    ]
    }
   },
   {
@@ -103,23 +180,72 @@
    "verses": [
     18
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "desert",
+    "time": "night",
+    "actors": [
+     {
+      "id": "br",
+      "type": "disbelievers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "ya",
+      "type": "prophet",
+      "label": "يعقوب",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        18,
-       4
+       1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       18,
+       2
+      ],
+      "do": "shot_close",
+      "who": "br"
+     },
+     {
+      "at": [
+       18,
+       5
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        18,
        6
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "ya",
+      "to": "br"
+     },
+     {
+      "at": [
+       18,
+       8
+      ],
+      "do": "shake_head",
+      "who": "ya"
      },
      {
       "at": [
@@ -131,7 +257,23 @@
      {
       "at": [
        18,
+       12
+      ],
+      "do": "speak",
+      "who": "ya",
+      "to": "br"
+     },
+     {
+      "at": [
+       18,
        13
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       18,
+       14
       ],
       "do": "shot_wide"
      },
@@ -140,24 +282,39 @@
        18,
        15
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        18,
        16
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        18,
        18
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "ya",
+      "to": "br"
      }
     ],
     "motifs": [
+     {
+      "at": [
+       18,
+       12
+      ],
+      "until": [
+       18,
+       14
+      ],
+      "motif": "candle",
+      "place": "top",
+      "size": "s"
+     },
      {
       "at": [
        18,
@@ -166,7 +323,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "dissolve"
@@ -243,7 +400,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No wolf, shirt or blood drawn; Ya'qub: no plate. Their story (17) is framed once by As-Sa'di's «متعذرين بعذر كاذب», which stays on screen; the shirt by «زعموا». Geometric for «والله المستعان». Cut: «صبرا جميلا» (70:5) and passage echoes."
+  "notes": "No wolf, shirt or blood drawn; Ya'qub: no plate. Their story (17) is framed once by As-Sa'di's «متعذرين بعذر كاذب», which stays on screen; the shirt by «زعموا». Geometric for «والله المستعان». Cut: «صبرا جميلا» (70:5) and passage echoes. STAGING v4: Both chapters: the family's tents in the desert at night (16: at the time of 'isha, the start of the night, Al-Muyassar). Ya'qub (right) a blue drop labelled Ya'qub (no close-up, pan or glow), his sons the three faceless men in dark robes. c1 (16-17): the brothers walk in to their father (16:1); the camera tilts up to the night sky for at night (16:3) and an hourglass plate for the late hour (As-Sa'di: later than their habit); nobody is shown weeping. They speak (17:1, 17:8, 17:12); their story is never acted: no racing, no belongings, no wolf; it stays framed by the gloss of a false excuse. c2 (18): the shirt and the blood are never drawn; the camera is on the brothers for what they brought (18:2), then Ya'qub answers (18:6) and shakes his head (18:8: he did not believe them, both tafsirs), so their claim is never shown as true; he speaks again (18:12, 18:18); a candle plate for beautiful patience (18:12-13) and geometric for Allah is the One sought for help (18:14-18). Cover: the brothers speaking to their father at night (title: the brothers' ruse)."
  },
  "cover": {
   "series_ar": "كيد الإخوة",
@@ -251,9 +408,10 @@
   "title_ar": "حيلة الإخوة",
   "title_en": "The brothers' ruse",
   "at": [
-   16,
-   1
+   17,
+   2
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

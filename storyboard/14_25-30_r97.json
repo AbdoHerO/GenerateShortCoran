@@ -33,44 +33,82 @@
     25,
     26
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "fields",
+    "time": "day",
+    "actors": [],
+    "events": [],
     "beats": [
      {
       "at": [
        25,
-       4
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        25,
-       11
+       3
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       25,
+       7
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       25,
+       10
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       25,
+       12
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        26,
        1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        26,
        4
       ],
-      "do": "shot_wide"
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       26,
+       6
+      ],
+      "do": "wind"
+     },
+     {
+      "at": [
+       26,
+       8
+      ],
+      "do": "leaves"
      },
      {
       "at": [
        26,
        11
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -85,7 +123,7 @@
       ],
       "motif": "palm",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -98,20 +136,17 @@
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        26,
-       6
+       4
       ],
-      "until": [
-       26,
-       13
-      ],
-      "motif": "wind",
+      "until": null,
+      "motif": "leaf",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -163,6 +198,28 @@
       "size": "m"
      }
     ],
+    "quiet": [
+     [
+      [
+       27,
+       1
+      ],
+      [
+       27,
+       4
+      ]
+     ],
+     [
+      [
+       27,
+       12
+      ],
+      [
+       27,
+       18
+      ]
+     ]
+    ],
     "transition": "morph"
    }
   },
@@ -188,7 +245,21 @@
      {
       "at": [
        28,
+       8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       28,
        10
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       28,
+       12
       ],
       "do": "pan_left"
      },
@@ -197,7 +268,7 @@
        29,
        1
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -205,6 +276,13 @@
        4
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       30,
+       1
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
@@ -218,7 +296,7 @@
        30,
        6
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -229,6 +307,18 @@
      }
     ],
     "motifs": [],
+    "quiet": [
+     [
+      [
+       30,
+       7
+      ],
+      [
+       30,
+       12
+      ]
+     ]
+    ],
     "transition": "page_turn"
    }
   }
@@ -402,7 +492,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "One unit (the reciter joins 25-30). A palm for «تؤتي أكلها كل حين» (it leaves before «ربها»), geometric for «ويضرب الله الأمثال», wind for the uprooted tree, a mountain for «بالقول الثابت» (it leaves before «ويضل الله»). The grave's questioning, Hell (29-30) and Badr are never drawn; Al-Muyassar's battle reading (28) is not used; 28:9-12 is not glossed. «قل» (30:7): no plate."
+  "notes": "One unit (the reciter joins 25-30). A palm for «تؤتي أكلها كل حين» (it leaves before «ربها»), geometric for «ويضرب الله الأمثال», wind for the uprooted tree, a mountain for «بالقول الثابت» (it leaves before «ويضل الله»). The grave's questioning, Hell (29-30) and Badr are never drawn; Al-Muyassar's battle reading (28) is not used; 28:9-12 is not glossed. «قل» (30:7): no plate. STAGING v4: c1 (25-26), the two trees as seen in this world: the same fields with date palms by day; a palm plate for it gives its fruit at every season (25:1-4, gone before «ربها»), geometric for Allah strikes parables (25:7-10). For the bad tree (26: Al-Muyassar the colocynth, As-Sa'di the colocynth and the like) nothing is drawn as a tree: a falling-leaf plate (26:4), a gust and drifting leaves for uprooted from the surface of the earth with no stability (26:6-13); the palms of the fields are not withered (the palm stands for the good tree). c2 (27) stays ambient: Allah making the believers firm in this life and the Hereafter (the questioning in the grave is never drawn) and leaving the wrongdoers astray (His acts): quiet over 27:1-4 and 27:12-18; mountain plate unchanged. c3 (28-30) stays ambient: those who exchanged Allah's favour for disbelief (Al-Muyassar reads Badr: a battle) and Hell; the Prophet's ﷺ commanded threat (30:7-12, quiet); no plate."
  },
  "cover": {
   "series_ar": "أمثال وعبر",
@@ -414,5 +504,6 @@
    5
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

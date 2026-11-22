@@ -32,14 +32,52 @@
    "verses": [
     7
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "yu",
+      "type": "prophet",
+      "label": "يوسف",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "br",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        7,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       7,
        5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       7,
+       7
       ],
       "do": "shot_wide"
      }
@@ -53,7 +91,7 @@
       "until": null,
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -66,104 +104,123 @@
     9,
     10
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b1",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 2,
+      "pose": "gather",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "q",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        8,
-       5
+       2
+      ],
+      "do": "speak",
+      "who": "b1",
+      "to": "q"
+     },
+     {
+      "at": [
+       8,
+       4
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        8,
-       8
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       8,
-       11
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       8,
-       15
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       9,
-       3
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       9,
-       6
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       9,
-       10
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       9,
-       13
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       10,
-       1
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       10,
-       3
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       10,
        7
       ],
       "do": "pan_left"
      },
      {
       "at": [
-       10,
-       10
+       8,
+       9
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "q",
+      "to": "b1"
      },
      {
       "at": [
-       10,
-       12
+       8,
+       11
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       8,
+       15
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       9,
+       1
+      ],
+      "do": "speak",
+      "who": "b1",
+      "to": "q"
+     },
+     {
+      "at": [
+       9,
+       4
       ],
       "do": "pan_left"
      },
      {
       "at": [
-       10,
+       9,
+       6
+      ],
+      "do": "speak",
+      "who": "q",
+      "to": "b1"
+     },
+     {
+      "at": [
+       9,
+       8
+      ],
+      "do": "shot_close",
+      "who": "b1"
+     },
+     {
+      "at": [
+       9,
+       12
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       9,
        14
       ],
       "do": "shot_wide"
@@ -171,12 +228,78 @@
      {
       "at": [
        10,
-       16
+       2
+      ],
+      "do": "speak",
+      "who": "q",
+      "to": "b1"
+     },
+     {
+      "at": [
+       10,
+       4
+      ],
+      "do": "shake_head",
+      "who": "q"
+     },
+     {
+      "at": [
+       10,
+       7
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       10,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       10,
+       11
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       10,
+       12
+      ],
+      "do": "shot_close",
+      "who": "q"
+     },
+     {
+      "at": [
+       10,
+       14
+      ],
+      "do": "speak",
+      "who": "q",
+      "to": "b1"
+     },
+     {
+      "at": [
+       10,
+       16
+      ],
+      "do": "shot_wide"
      }
     ],
-    "motifs": [],
+    "motifs": [
+     {
+      "at": [
+       10,
+       13
+      ],
+      "until": null,
+      "motif": "footsteps",
+      "place": "top",
+      "size": "s"
+     }
+    ],
     "transition": "page_turn"
    }
   }
@@ -328,7 +451,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A book for «آيات للسائلين» (after Yusuf's name; a gold burst could read as the stars of the dream). The plot (8-10) has no plate: no killing, well, child or caravan drawn. Their charge «إن أبانا لفي ضلال مبين» keeps As-Sa'di's «من غير موجب نراه» (their view, in their words). 9:10-14 shows As-Sa'di's «فقدموا العزم على التوبة قبل صدور الذنب منهم تسهيلا لفعله», so their «قوما صالحين» is not read as praise."
+  "notes": "A book for «آيات للسائلين» (after Yusuf's name; a gold burst could read as the stars of the dream). The plot (8-10) has no plate: no killing, well, child or caravan drawn. Their charge «إن أبانا لفي ضلال مبين» keeps As-Sa'di's «من غير موجب نراه» (their view, in their words). 9:10-14 shows As-Sa'di's «فقدموا العزم على التوبة قبل صدور الذنب منهم تسهيلا لفعله», so their «قوما صالحين» is not read as praise. STAGING v4: Both chapters in the desert by day (the family lived in the badiya, 12:100). c1 (7): Yusuf (blue drop labelled Yusuf) and his brothers, three faceless men in dark robes (three is the series' sign for a group; they are never numbered), a book plate for signs for those who ask (7:6). c2 (8-10): the brothers alone, talking among themselves (both tafsirs: فيما بينهم): the same three men stand close together, drawn as two actors so that they can answer each other (8:2, 8:9, 9:1, 9:6); nobody else is on stage and nobody speaks to an empty side. 10: one of them speaks (10:2, both tafsirs: a speaker from among them) and shakes his head on do not kill (10:4); the well, Yusuf, any harm and the travellers are never drawn; a footsteps plate for the travellers who would pick him up (10:13). No close-up on any figure while Yusuf's name is recited (8:3, 9:2, 10:6): the camera is wide each time; it closes in on them only later in the verse (9:8, 10:12). Cover: the brothers conferring (title: the brothers' envy)."
  },
  "cover": {
   "series_ar": "كيد الإخوة",
@@ -337,8 +460,9 @@
   "title_en": "The brothers' envy",
   "at": [
    8,
-   1
+   10
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

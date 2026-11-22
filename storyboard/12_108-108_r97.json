@@ -34,7 +34,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric",
+    "mood": "light",
     "beats": [
      {
       "at": [
@@ -53,9 +53,9 @@
      {
       "at": [
        108,
-       9
+       10
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -79,6 +79,18 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       108,
+       1
+      ],
+      [
+       108,
+       17
+      ]
+     ]
     ]
    }
   }
@@ -120,7 +132,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "«قل» and the Prophet's ﷺ words about himself: no plate on him; geometric only on «وسبحان الله». Cut: «مخلصا له الدين» (39:2) and passage echoes."
+  "notes": "«قل» and the Prophet's ﷺ words about himself: no plate on him; geometric only on «وسبحان الله». Cut: «مخلصا له الدين» (39:2) and passage echoes. STAGING v4: Kept ambient: Allah's command to the Prophet ﷺ (108:1) and his own words about his way and his followers; he is never shown, and no plate starts on 108:1. The mood is now light (guidance, on clear insight) rather than geometric (the Names' mood) over a chapter that speaks about him; the background stays quiet (no pulse) over the whole verse, no pan sits on his words about himself (108:9, 108:15), and the geometric plate is only on glory be to Allah (108:12-13)."
  },
  "cover": {
   "series_ar": "خاتمة السورة",
@@ -132,5 +144,6 @@
    12
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

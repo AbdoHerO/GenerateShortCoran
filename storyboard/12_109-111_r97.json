@@ -34,14 +34,14 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
        109,
        3
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -56,6 +56,13 @@
        9
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       109,
+       16
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
@@ -99,6 +106,18 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       109,
+       1
+      ],
+      [
+       109,
+       11
+      ]
+     ]
     ]
    }
   },
@@ -110,7 +129,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
@@ -170,6 +189,18 @@
       "size": "m"
      }
     ],
+    "quiet": [
+     [
+      [
+       110,
+       9
+      ],
+      [
+       110,
+       19
+      ]
+     ]
+    ],
     "transition": "page_turn"
    }
   },
@@ -179,23 +210,68 @@
    "verses": [
     111
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        111,
-       7
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        111,
-       9
+       5
       ],
-      "do": "pan_left"
+      "do": "read",
+      "who": "b"
+     },
+     {
+      "at": [
+       111,
+       7
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       111,
+       8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       111,
+       12
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       111,
+       14
+      ],
+      "do": "read",
+      "who": "b"
      },
      {
       "at": [
@@ -209,35 +285,38 @@
        111,
        17
       ],
-      "do": "pan_right"
+      "do": "read",
+      "who": "b"
      },
      {
       "at": [
        111,
        19
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        111,
        20
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        111,
-       22
+       21
       ],
-      "do": "pan_left"
+      "do": "sparkle",
+      "who": "b"
      },
      {
       "at": [
        111,
        23
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -249,10 +328,20 @@
       "until": null,
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       111,
+       20
+      ],
+      "until": null,
+      "motif": "lamp",
+      "place": "top",
+      "size": "s"
      }
     ],
-    "transition": "morph"
+    "transition": "light_sweep"
    }
   }
  ],
@@ -381,7 +470,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "110:5-8 «وظنوا أنهم قد كذبوا» is not glossed: the tafsirs read it differently; 110:1-4 carries only Al-Muyassar's «وفي هذا تسلية للنبي». No plate on the messengers; light for «جاءهم نصرنا» (victory) and «ولدار الآخرة خير», footsteps for «أفلم يسيروا في الأرض», a book for «تصديق الذي بين يديه» (nothing on the negated «ما كان حديثا يفترى»). As-Sa'di has no entry for 111: Al-Muyassar only."
+  "notes": "110:5-8 «وظنوا أنهم قد كذبوا» is not glossed: the tafsirs read it differently; 110:1-4 carries only Al-Muyassar's «وفي هذا تسلية للنبي». No plate on the messengers; light for «جاءهم نصرنا» (victory) and «ولدار الآخرة خير», footsteps for «أفلم يسيروا في الأرض», a book for «تصديق الذي بين يديه» (nothing on the negated «ما كان حديثا يفترى»). As-Sa'di has no entry for 111: Al-Muyassar only. STAGING v4: c1 (109) and c2 (110) stay ambient: Allah addresses the Prophet ﷺ about the messengers before him (men to whom He revealed; their despair and His help), which may not be drawn as people; the mood is now night_sky, not geometric (the Names' mood) over chapters about the messengers. The background is quiet over the revelation to them (109:1-11) and over His help and His punishment (110:9-19). Plates kept: footsteps for travel in the land (109:13-16), light for the Hereafter (109:23-27, nothing of it drawn) and for His help (110:9-13, gone before the punishment). c3 (111) is staged: a lesson for people of understanding and the Book that confirms what came before: three believers sit in a prayer hall and read (111:5, 111:14, 111:17), a book plate (111:13) and a lamp plate for guidance (111:20), with a soft sparkle on the believers at mercy (111:21). Nothing is drawn on the negated 111:8-11."
  },
  "cover": {
   "series_ar": "خاتمة السورة",
@@ -393,5 +482,6 @@
    9
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

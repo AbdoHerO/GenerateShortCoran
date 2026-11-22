@@ -32,21 +32,80 @@
    "verses": [
     78
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "cm",
+      "type": "camel",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "ys",
+      "type": "prophet",
+      "label": "يوسف",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       78,
+       1
+      ],
+      "do": "speak",
+      "who": "d",
+      "to": "ys"
+     },
+     {
+      "at": [
+       78,
+       3
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        78,
        6
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        78,
        9
+      ],
+      "do": "speak",
+      "who": "d",
+      "to": "ys"
+     },
+     {
+      "at": [
+       78,
+       11
       ],
       "do": "shot_wide"
      },
@@ -55,7 +114,16 @@
        78,
        12
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "d",
+      "to": "ys"
+     },
+     {
+      "at": [
+       78,
+       14
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": []
@@ -67,16 +135,74 @@
    "verses": [
     79
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "cm",
+      "type": "camel",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "ys",
+      "type": "prophet",
+      "label": "يوسف",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        79,
-       6
+       1
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "ys",
+      "to": "d"
+     },
+     {
+      "at": [
+       79,
+       4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       79,
+       5
+      ],
+      "do": "shake_head",
+      "who": "ys"
+     },
+     {
+      "at": [
+       79,
+       8
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -90,12 +216,14 @@
        79,
        11
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "ys",
+      "to": "d"
      },
      {
       "at": [
        79,
-       12
+       13
       ],
       "do": "shot_wide"
      }
@@ -112,10 +240,10 @@
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "morph"
    }
   }
  ],
@@ -167,7 +295,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Yusuf: no plate; geometric only on «معاذ الله». 79:1-10 keeps «إلا من وجدنا متاعنا عنده» whole in one chip."
+  "notes": "Yusuf: no plate; geometric only on «معاذ الله». 79:1-10 keeps «إلا من وجدنا متاعنا عنده» whole in one chip. STAGING v4: In the town, as in 74-77: the brothers (a plain group of three in dark robes) with their camel, and Yusuf only as a blue drop labelled Yusuf at the right. c1 (78): the brothers plead with him (78:1, 78:9, 78:12); they do not bow (no figure lowers itself before Yusuf's drop); Binyamin and their father are not drawn. c2 (79): Yusuf answers (79:1), a geometric plate for I seek refuge in Allah (79:2-3), he shakes his drop in refusal as he says he will take only the one with whom the measure was found (79:5) and speaks again (79:11). The camera stays wide (no pans or close-ups that crop the label)."
  },
  "cover": {
   "series_ar": "لقاء الإخوة",
@@ -176,8 +304,9 @@
   "title_en": "The brothers plead",
   "at": [
    78,
-   1
+   9
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

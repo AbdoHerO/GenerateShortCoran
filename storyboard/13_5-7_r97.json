@@ -32,58 +32,105 @@
    "verses": [
     5
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        5,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       5,
        4
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       5,
+       5
+      ],
+      "do": "shake_head",
+      "who": "d"
+     },
+     {
+      "at": [
+       5,
+       9
+      ],
+      "do": "shake_head",
+      "who": "d"
+     },
+     {
+      "at": [
+       5,
+       12
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       5,
+       13
       ],
       "do": "pan_right"
      },
      {
       "at": [
        5,
-       8
+       16
       ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       5,
-       11
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       5,
-       14
-      ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        5,
        17
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        5,
        20
       ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       5,
+       21
+      ],
       "do": "pan_right"
      },
      {
       "at": [
        5,
-       22
+       23
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "d"
      }
     ],
     "motifs": []
@@ -102,9 +149,23 @@
      {
       "at": [
        6,
+       2
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       6,
        5
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       6,
+       9
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
@@ -118,14 +179,14 @@
        6,
        17
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        6,
        20
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -138,10 +199,32 @@
        6,
        17
       ],
-      "motif": "light",
+      "motif": "geometric",
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       6,
+       1
+      ],
+      [
+       6,
+       4
+      ]
+     ],
+     [
+      [
+       6,
+       10
+      ],
+      [
+       6,
+       20
+      ]
+     ]
     ],
     "transition": "dissolve"
    }
@@ -156,6 +239,13 @@
    "params": {
     "mood": "light",
     "beats": [
+     {
+      "at": [
+       7,
+       4
+      ],
+      "do": "pan_right"
+     },
      {
       "at": [
        7,
@@ -175,7 +265,7 @@
        7,
        11
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -189,6 +279,18 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       7,
+       10
+      ],
+      [
+       7,
+       12
+      ]
+     ]
     ],
     "transition": "page_turn"
    }
@@ -297,7 +399,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "5:1-3 is not glossed (As-Sa'di gives two readings of «وإن تعجب»). Their claim (5:4-11) is framed «بزعمهم»; the chains and the Fire (5:16-25) are never drawn or glossed. 6-7 address the Prophet ﷺ: no plate on him. Light for «وإن ربك لذو مغفرة للناس على ظلمهم» (it leaves before «لشديد العقاب»), a lamp for «ولكل قوم هاد». Their demand (7:1-9) is framed as an excuse."
+  "notes": "5:1-3 is not glossed (As-Sa'di gives two readings of «وإن تعجب»). Their claim (5:4-11) is framed «بزعمهم»; the chains and the Fire (5:16-25) are never drawn or glossed. 6-7 address the Prophet ﷺ: no plate on him. Light for «وإن ربك لذو مغفرة للناس على ظلمهم» (it leaves before «لشديد العقاب»), a lamp for «ولكل قوم هاد». Their demand (7:1-9) is framed as an excuse. STAGING v4: c1 (5): the deniers of the resurrection, three faceless men in dark robes in a town by day (no women, at most three for a blamed group). 5:1-3 addresses the Prophet ﷺ: wide, nobody faces an empty side. They shake their heads at their claim (5:5, 5:9: When we are dust...), framed by As-Sa'di's gloss (impossible in their claim); no speech arcs (their addressee is not drawn). The camera holds on them for those who disbelieved in their Lord and through the shackles and the Fire (5:16-25): nothing of the Hereafter is drawn, no plate, nobody leaves or fades. c2 (6) stays ambient: they hasten the Prophet ﷺ for the punishment (their behaviour toward him), then His forgiveness and severe punishment: quiet over 6:1-4 and 6:10-20; the plate for your Lord is the possessor of forgiveness is now geometric (a light plate must not start on His attribute). c3 (7) stays ambient: their demand for a sign sent down to him and Allah's words to him (quiet over 7:10-12); a light plate for every people has a guide. The cover now shows the deniers shaking their heads (5:5)."
  },
  "cover": {
   "series_ar": "إنكار البعث",
@@ -305,9 +407,10 @@
   "title_ar": "عجب المنكرين",
   "title_en": "The deniers' wonder",
   "at": [
-   7,
-   13
+   5,
+   5
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

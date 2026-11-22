@@ -34,8 +34,15 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric",
+    "mood": "night_sky",
     "beats": [
+     {
+      "at": [
+       23,
+       4
+      ],
+      "do": "pan_left"
+     },
      {
       "at": [
        23,
@@ -81,6 +88,13 @@
      {
       "at": [
        23,
+       20
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       23,
        21
       ],
       "do": "shot_wide"
@@ -111,7 +125,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
@@ -119,6 +133,13 @@
        4
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       24,
+       8
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
@@ -146,16 +167,25 @@
      {
       "at": [
        24,
-       8
+       12
       ],
-      "until": [
-       24,
-       11
-      ],
-      "motif": "light",
+      "until": null,
+      "motif": "seal",
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       24,
+       6
+      ],
+      [
+       24,
+       19
+      ]
+     ]
     ],
     "transition": "dissolve"
    }
@@ -168,7 +198,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
@@ -317,7 +347,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Nothing is drawn or described beyond the verse: no woman, doors, shirt or Yusuf; the glosses keep to his refusal and her lie. Geometric only on «معاذ الله» (it leaves before «إنه ربي», where «ربي» is his master by both tafsirs). 24:1-15 is not glossed: the tafsirs differ on «وهم بها» and on what the «برهان» was; light for «رأى برهان ربه». 23:8-12 and 25:18-23 are not glossed."
+  "notes": "Nothing is drawn or described beyond the verse: no woman, doors, shirt or Yusuf; the glosses keep to his refusal and her lie. Geometric only on «معاذ الله» (it leaves before «إنه ربي», where «ربي» is his master by both tafsirs). 24:1-15 is not glossed: the tafsirs differ on «وهم بها» and on what the «برهان» was; light for «رأى برهان ربه». 23:8-12 and 25:18-23 are not glossed. STAGING v4: The whole video stays ambient (owner's rule for 23-35): the wife of al-Aziz, the house, the doors, the shirt and Yusuf are never drawn or suggested; no people at all. All three chapters move to the night sky (geometric is the mood of the Names, never for a chapter about a prophet; no light mood over 24). c1 (23): geometric only on the refuge in Allah (23:14-15), gone before his master (23:17). c2 (24): the light plate on the proof is removed (the tafsirs differ on what the proof was, so it is not pictured); the background stays quiet from 24:6 to the end of the verse (the proof of his Lord and Allah averting evil from him); a seal plate (his chastity kept) from that We might avert (24:12). c3 (25): no plate (the race to the door, the torn shirt, al-Aziz at the door and her lie are not pictured); camera moves only."
  },
  "cover": {
   "series_ar": "الابتلاء بالفتنة",
@@ -329,5 +359,6 @@
    14
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

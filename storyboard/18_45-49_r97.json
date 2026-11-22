@@ -104,7 +104,7 @@
        45,
        23
       ],
-      "do": "light_up"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -143,11 +143,26 @@
        45,
        17
       ],
-      "until": null,
+      "until": [
+       45,
+       18
+      ],
       "motif": "wind",
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       45,
+       1
+      ],
+      [
+       45,
+       5
+      ]
+     ]
     ]
    }
   },
@@ -186,7 +201,7 @@
      {
       "at": [
        46,
-       8
+       7
       ],
       "do": "light_up"
      },
@@ -195,7 +210,7 @@
        46,
        10
       ],
-      "do": "shot_sky"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -288,14 +303,14 @@
        48,
        4
       ],
-      "do": "push_in"
+      "do": "pan_right"
      },
      {
       "at": [
        48,
        8
       ],
-      "do": "stars"
+      "do": "shot_ground"
      },
      {
       "at": [
@@ -318,13 +333,28 @@
        47,
        1
       ],
-      "until": null,
+      "until": [
+       48,
+       1
+      ],
       "motif": "hourglass",
       "place": "top",
       "size": "m"
      }
     ],
-    "transition": "morph"
+    "transition": "morph",
+    "quiet": [
+     [
+      [
+       48,
+       5
+      ],
+      [
+       48,
+       16
+      ]
+     ]
+    ]
    }
   },
   {
@@ -408,7 +438,7 @@
        49,
        23
       ],
-      "do": "light_up"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -625,7 +655,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Merged passage (the reciter joins 46 to 47 without a pause). Parable of this world: rain falls, plants bloom on 'mingles', rain stops and plants wither on 'dry remnants', wind and leaves on 'scattered by the winds'; dawn for what endures. The Day of Judgement (47-49) is the unseen: calm night sky and geometric pattern only, camera moves and stars, no mountains moving, no crowds, no book drawn, no light placed on 'your Lord'; Judgement glosses have no arrow. Timing data gives 18:49 words 4-5 only 80 ms / 280 ms, so no beat or gloss is placed on them."
+  "notes": "Merged passage (the reciter joins 46 to 47 without a pause). Parable of this world: rain falls, plants bloom on 'mingles', rain stops and plants wither on 'dry remnants', wind and leaves on 'scattered by the winds'; dawn for what endures. The Day of Judgement (47-49) is the unseen: calm night sky and geometric pattern only, camera moves and stars, no mountains moving, no crowds, no book drawn, no light placed on 'your Lord'; Judgement glosses have no arrow. Timing data gives 18:49 words 4-5 only 80 ms / 280 ms, so no beat or gloss is placed on them. v2: 45:1-5 (address to the Prophet) and Allah's words on the Day (48:5-16) are quiet ranges; the wind and hourglass plates leave before the Name (45:19, 48:3); no light swell on His attribute (45:23) or before 49:26, no sky tilt on 46:10, no push-in or stars during His words (48:4, 48:8). The light swell moved from 46:8 to 46:7 so it has faded before the Name (46:10)."
  },
  "cover": {
   "series_ar": "مثل الدنيا ومشاهد القيامة",

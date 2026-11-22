@@ -34,8 +34,15 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric",
+    "mood": "night_sky",
     "beats": [
+     {
+      "at": [
+       30,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        30,
@@ -69,8 +76,15 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric",
+    "mood": "night_sky",
     "beats": [
+     {
+      "at": [
+       31,
+       3
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        31,
@@ -98,6 +112,13 @@
        13
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       31,
+       15
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
@@ -224,7 +245,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No women, banquet, knives, hands, blood or Yusuf drawn; 31:6-16 and 31:20-21 are not glossed. 31:1-5: the tafsirs differ on why their talk is called «مكر», so only «تدعوهن إلى منزلها للضيافة». Their «ما هذا بشرا إن هذا إلا ملك كريم» stays whole in one chip, framed by Al-Muyassar's «وقلن متعجبات». Geometric only on «حاش لله»."
+  "notes": "No women, banquet, knives, hands, blood or Yusuf drawn; 31:6-16 and 31:20-21 are not glossed. 31:1-5: the tafsirs differ on why their talk is called «مكر», so only «تدعوهن إلى منزلها للضيافة». Their «ما هذا بشرا إن هذا إلا ملك كريم» stays whole in one chip, framed by Al-Muyassar's «وقلن متعجبات». Geometric only on «حاش لله». STAGING v4: The whole video stays ambient (owner's rule for 23-35): the women, the banquet, the cushions, the knives, the hands and Yusuf are never drawn or suggested; no people at all. Both chapters move from the geometric mood to the night sky: geometric is the Names' mood, and 31 ends on the women's words that he is no human but an angel, so no pattern of the Names may sit under it. Geometric stays only as a plate on their exclamation of Allah's transcendence (31:23-24), gone before their words about him (31:25-32)."
  },
  "cover": {
   "series_ar": "الابتلاء بالفتنة",
@@ -236,5 +257,6 @@
    23
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

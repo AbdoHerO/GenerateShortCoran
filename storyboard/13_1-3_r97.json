@@ -72,6 +72,18 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       1,
+       5
+      ],
+      [
+       1,
+       10
+      ]
+     ]
     ]
    }
   },
@@ -88,6 +100,13 @@
      {
       "at": [
        2,
+       6
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       2,
        8
       ],
       "do": "shot_wide"
@@ -97,21 +116,21 @@
        2,
        22
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        2,
        24
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        2,
        26
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -165,6 +184,28 @@
       "size": "m"
      }
     ],
+    "quiet": [
+     [
+      [
+       2,
+       1
+      ],
+      [
+       2,
+       11
+      ]
+     ],
+     [
+      [
+       2,
+       19
+      ],
+      [
+       2,
+       26
+      ]
+     ]
+    ],
     "transition": "dissolve"
    }
   },
@@ -174,16 +215,87 @@
    "verses": [
     3
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "garden",
+    "time": "day",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "sit",
+      "enter": [
+       3,
+       20
+      ],
+      "exit": null
+     }
+    ],
+    "events": [
+     {
+      "type": "darkness",
+      "at": [
+       3,
+       16
+      ],
+      "until": [
+       3,
+       19
+      ]
+     }
+    ],
     "beats": [
      {
       "at": [
        3,
-       12
+       1
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       3,
+       3
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       3,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       3,
+       8
+      ],
+      "do": "shot_ground"
+     },
+     {
+      "at": [
+       3,
+       11
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       3,
+       14
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       3,
+       16
+      ],
+      "do": "shot_sky"
      },
      {
       "at": [
@@ -195,49 +307,52 @@
      {
       "at": [
        3,
-       20
+       19
       ],
       "do": "pan_left"
      },
      {
       "at": [
        3,
-       23
+       20
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       3,
+       22
+      ],
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       3,
+       24
+      ],
+      "do": "look_up",
+      "who": "p"
      }
     ],
     "motifs": [
      {
       "at": [
        3,
-       6
+       7
       ],
       "until": [
        3,
-       8
+       9
       ],
       "motif": "mountain",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        3,
-       8
-      ],
-      "until": [
-       3,
-       9
-      ],
-      "motif": "river",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       3,
-       9
+       11
       ],
       "until": [
        3,
@@ -245,20 +360,7 @@
       ],
       "motif": "palm",
       "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       3,
-       16
-      ],
-      "until": [
-       3,
-       19
-      ],
-      "motif": "night_day",
-      "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "slide"
@@ -412,7 +514,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The isolated letters (1:1) are not glossed. A book for «آيات الكتاب» (it leaves before «إليك», the Prophet ﷺ). Stars for «رفع السماوات بغير عمد» (they leave before «استوى على العرش»; the Throne is never drawn), a night-and-day disc for the sun and moon, an hourglass for «لأجل مسمى», geometric for «يدبر الأمر… بلقاء ربكم». A mountain, a river, a palm and the night-and-day disc for the earth's signs (3); the river is earthly. 3:19-24 is not glossed."
+  "notes": "The isolated letters (1:1) are not glossed. A book for «آيات الكتاب» (it leaves before «إليك», the Prophet ﷺ). Stars for «رفع السماوات بغير عمد» (they leave before «استوى على العرش»; the Throne is never drawn), a night-and-day disc for the sun and moon, an hourglass for «لأجل مسمى», geometric for «يدبر الأمر… بلقاء ربكم». A mountain, a river, a palm and the night-and-day disc for the earth's signs (3); the river is earthly. 3:19-24 is not glossed. STAGING v4: c1 (1) and c2 (2) stay ambient: the Book revealed to the Prophet ﷺ (quiet over 1:5-10, no plate or camera move on him), then Allah raising the heavens, His rising over the Throne (never drawn) and His governing (His acts and Names: quiet over 2:1-11 and 2:19-26). c3 (3), the earth as seen: gardens and farmland by day with a river (He spread the earth, rivers and fruits: both tafsirs); a mountain plate for the firm mountains (3:7), a palm plate for the fruits in pairs (3:11); the scene darkens for the night covering the day (3:16, Al-Muyassar: the night covers the day with its darkness) and the light returns on 3:19; three people sit and look up as the signs for a people who reflect are recited (3:20-24). No one is drawn before 3:20. The cover shows the gardens with the palm plate (3:11)."
  },
  "cover": {
   "series_ar": "آيات الخلق",
@@ -420,9 +522,10 @@
   "title_ar": "آيات في الكون",
   "title_en": "Signs in the universe",
   "at": [
-   2,
-   3
+   3,
+   11
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }
