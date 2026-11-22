@@ -2333,9 +2333,16 @@ function stageDraw(ctx, t, T) {
     X.barrier = { stack: clamp(q / 0.45), heat: clamp((q - 0.4) / 0.15), pour: clamp((q - 0.62) / 0.38) };
   } else X.barrier = { stack: 0, heat: 0, pour: 0 };
   const SF = st.sunset_far ? ease.inOutSine(prog(t, st.sunset_far.t0, st.sunset_far.t0 + evDur(st.sunset_far, 9))) : -1;
-  const SR = st.sunrise_open ? ease.outCubic(prog(t, st.sunrise_open.t0, st.sunrise_open.t0 + evDur(st.sunrise_open, 6))) : -1;
+  // rise then (with `until`) set: 0 = below the horizon, 1 = in its place. The rise lasts `d` s (shorter when the
+  // event is short); at `until` the body sinks below the horizon in 2.5 s (Ibrahim: «فلما أفل», «فلما أفلت»).
+  const riseSet = (ev, d) => {
+    const fin = ev.t1 < BIG / 2, rd = fin ? Math.min(d, Math.max(0.8, (ev.t1 - ev.t0) * 0.6)) : d;
+    const up = ease.outCubic(prog(t, ev.t0, ev.t0 + rd));
+    return fin ? up * (1 - ease.inOutSine(prog(t, ev.t1, ev.t1 + 2.5))) : up;
+  };
+  const SR = st.sunrise_open ? riseSet(st.sunrise_open, 6) : -1;
   // moonrise (night): no moon before the event, then the crescent rises from the horizon to its place
-  const MR = st.moonrise ? (t < st.moonrise.t0 ? -2 : ease.outCubic(prog(t, st.moonrise.t0, st.moonrise.t0 + evDur(st.moonrise, 5)))) : -1;
+  const MR = st.moonrise ? (t < st.moonrise.t0 ? -2 : riseSet(st.moonrise, 5)) : -1;
   const LT = lightningAt(t, E);
   if (!set.interior) {
     const [skyTop, skyMid, skyBot, stormK] = skyColors(L.time, E, SF, SR);

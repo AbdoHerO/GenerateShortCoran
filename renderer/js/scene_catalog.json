@@ -210,8 +210,8 @@
       "wall_repair":   "the leaning wall is straightened and restored",
       "barrier_build": "iron blocks stack up between the mountains, glow red-hot in a fire, then molten copper is poured over them",
       "sunset_far":    "the sun sinks toward a dark water horizon, as it appears to the eye",
-      "sunrise_open":  "the sun rises over an open plain with no shelter from it",
-      "moonrise":      "(night only) no moon in the sky before the event; then the crescent rises from the horizon to its place"
+      "sunrise_open":  "the sun rises over an open plain with no shelter from it; with until=v:w it sets (sinks below the horizon) at that word",
+      "moonrise":      "(night only) no moon in the sky before the event; then the crescent rises from the horizon to its place; with until=v:w it sets (sinks below the horizon) at that word"
     }
   }
 }
