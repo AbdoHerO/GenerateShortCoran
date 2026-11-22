@@ -108,8 +108,8 @@ def cmd_plan(chapter, ids=None, version=1):
         if version > 1 and rel["id"] not in ledger:
             print(f"SKIP {rel['id']}: --version {version} is only for videos already published (publish it normally)")
             continue
-        if version > 1 and ledger[rel["id"]]["video_sha256"] == rel["video_sha256"]:
-            print(f"SKIP {rel['id']}: this render is the one already published, not a new version")
+        if version > 1 and any(ledger.get(ledger_key(rel["id"], v), {}).get("video_sha256") == rel["video_sha256"] for v in range(1, version)):
+            print(f"SKIP {rel['id']}: this render is one already published (an earlier version), not a new version")
             continue
         if key in ledger:
             if ledger[key]["video_sha256"] != rel["video_sha256"]:
