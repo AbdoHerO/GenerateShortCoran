@@ -33,58 +33,84 @@
     100,
     101
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [],
+    "events": [
+     {
+      "type": "ruin",
+      "at": [
+       100,
+       9
+      ],
+      "until": null
+     }
+    ],
     "beats": [
+     {
+      "at": [
+       100,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        100,
        4
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        100,
-       9
+       8
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        101,
-       3
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       101,
+       4
       ],
       "do": "pan_right"
      },
      {
       "at": [
        101,
-       5
+       6
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        101,
        8
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        101,
-       12
+       11
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        101,
-       17
+       16
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -106,7 +132,17 @@
       ],
       "motif": "leaf",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       101,
+       18
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "s"
      }
     ]
    }
@@ -133,14 +169,21 @@
      {
       "at": [
        102,
-       8
+       6
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       102,
+       9
       ],
       "do": "pan_right"
      },
      {
       "at": [
        102,
-       10
+       11
       ],
       "do": "pan_right"
      },
@@ -156,49 +199,56 @@
        103,
        4
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        103,
-       5
+       6
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        103,
        9
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        103,
        10
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        103,
-       12
+       11
       ],
       "do": "pan_left"
      },
      {
       "at": [
        103,
+       14
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       103,
        16
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        104,
        1
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -225,6 +275,18 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       102,
+       1
+      ],
+      [
+       104,
+       5
+      ]
+     ]
     ],
     "transition": "dissolve"
    }
@@ -377,7 +439,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "100:1-6 addresses the Prophet ﷺ: no plate there. A falling leaf for «منها قائم وحصيد» (no ruins drawn). Geometric for «وكذلك أخذ ربك», an hourglass for «لأجل معدود». The Gathering (103) is never drawn: no crowd. The plan's «أنباء القرى» was a passage pair. 100:1-6 avoids As-Sa'di's «وموعظة وذكرى للمؤمنين» (11:120 wording)."
+  "notes": "100:1-6 addresses the Prophet ﷺ: no plate there. A falling leaf for «منها قائم وحصيد» (no ruins drawn). Geometric for «وكذلك أخذ ربك», an hourglass for «لأجل معدود». The Gathering (103) is never drawn: no crowd. The plan's «أنباء القرى» was a passage pair. 100:1-6 avoids As-Sa'di's «وموعظة وذكرى للمؤمنين» (11:120 wording). STAGING v4: c1 (100-101): the towns whose people were destroyed, shown as an empty town by day (no person on stage). 100:1-6 is addressed to the Prophet: the camera only, no plate there and no speaker. A leaf plate for some still standing and some mown down (100:7-9), and the ruin event on 100:9 (As-Sa'di: their dwellings fell and no trace was left); the town stays in ruins through 101. Their gods are never drawn and nothing turns toward an empty side (101:7-16: the camera holds wide); geometric for when the command of your Lord came (101:18-20). c2 (102-104) stays ambient (geometric): Allah's seizing of the towns is His act told directly, and 103-104 are the Hereafter, the Day all people are gathered to (never drawn: no crowd); params.quiet over all of 102-104 so no pulse reads as a voice or a presence. Plates: geometric for the seizure of your Lord (102:1-8), an hourglass for a term counted (104:4-5). Cover: the empty, ruined town (where the wrongdoers fell)."
  },
  "cover": {
   "series_ar": "عبر الأمم",
@@ -385,9 +447,10 @@
   "title_ar": "مصارع الظالمين",
   "title_en": "Where the wrongdoers fell",
   "at": [
-   100,
-   7
+   101,
+   2
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }
