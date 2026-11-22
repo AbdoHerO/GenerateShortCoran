@@ -1351,3 +1351,15 @@ all 46 videos. Reports: `out/wip/review_5a_gloss.md`, `review_5b_gloss.md`, `rev
     and 3:113-115, already published as v2.
   - The 27 affected storyboards still in the build queue get the fix automatically.
   - Al-Kahf 18:57-59 is left for the Al-Kahf v2.
+
+### Quiet words and Uthmani prophet names (2026-11-22)
+
+- **Why:** the Al-A'raf 109-165 review measured the ambient background:
+  - It still pulsed around «فلما تجلى ربه للجبل» and on the words of Allah's answer to Musa (a light in rhythm
+    with His speech reads as a voice source).
+  - It pulsed on prophet names in their Uthmani spelling («هرون», «يموسى», «سليمن», «يادم») and on «الأمي».
+- **Changes (`renderer/js/main.js`):**
+  - Chapters can set `params.quiet` (word ranges) where the background never pulses.
+  - The sacred list now covers the Uthmani spellings, a vocative «يا» merged into the name, and «الأمي».
+- **Re-render:** 2:102-103, 2:32-34 and 3:53-56 (built, published) are queued in the follow-up chain. The other
+  affected storyboards are not built yet.
