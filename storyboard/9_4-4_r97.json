@@ -60,16 +60,30 @@
      {
       "at": [
        4,
+       12
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       4,
        15
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       4,
+       18
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
        4,
        22
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -102,10 +116,10 @@
      {
       "at": [
        4,
-       19
+       20
       ],
       "until": null,
-      "motif": "light",
+      "motif": "geometric",
       "place": "top",
       "size": "m"
      }
@@ -161,7 +175,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The exception that keeps treaties to their term. A seal for the treaty, an hourglass for «إلى مدتهم», light for «إن الله يحب المتقين»."
+  "notes": "The exception that keeps treaties to their term. A seal for the treaty, an hourglass for «إلى مدتهم», light for «إن الله يحب المتقين». STAGING v4: Treaty passage: stays ambient (owner rule, Staging v4). The light plate that began just before 4:20-22 (Allah loves the pious) becomes a geometric plate starting on the Name: no light plate draws on with the Name or an attribute."
  },
  "cover": {
   "series_ar": "العهود والمواثيق",
@@ -173,5 +187,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

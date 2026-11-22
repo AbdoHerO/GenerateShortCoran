@@ -39,6 +39,13 @@
      {
       "at": [
        17,
+       4
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       17,
        9
       ],
       "do": "pan_left"
@@ -46,14 +53,21 @@
      {
       "at": [
        17,
-       11
+       10
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        17,
-       14
+       11
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       17,
+       15
       ],
       "do": "pan_right"
      }
@@ -62,13 +76,26 @@
      {
       "at": [
        17,
-       6
+       7
       ],
       "until": [
        17,
-       8
+       9
       ],
       "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       17,
+       13
+      ],
+      "until": [
+       17,
+       15
+      ],
+      "motif": "wind",
       "place": "top",
       "size": "m"
      }
@@ -81,103 +108,146 @@
    "verses": [
     18
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "sit",
+      "enter": null,
+      "exit": null,
+      "look": "poor"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        18,
-       3
+       1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       18,
+       2
+      ],
+      "do": "pray",
+      "who": "b"
      },
      {
       "at": [
        18,
        4
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        18,
        5
       ],
-      "do": "shot_wide"
+      "do": "ruku",
+      "who": "b"
+     },
+     {
+      "at": [
+       18,
+       10
+      ],
+      "do": "sujud",
+      "who": "b"
      },
      {
       "at": [
        18,
        11
       ],
-      "do": "shot_wide"
+      "do": "stand_up",
+      "who": "b"
+     },
+     {
+      "at": [
+       18,
+       13
+      ],
+      "do": "give",
+      "who": "b",
+      "to": "p"
+     },
+     {
+      "at": [
+       18,
+       14
+      ],
+      "do": "raise_hands",
+      "who": "p"
      },
      {
       "at": [
        18,
        16
       ],
-      "do": "pan_left"
+      "do": "bow",
+      "who": "b"
      },
      {
       "at": [
        18,
        18
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        18,
        19
       ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       18,
-       23
-      ],
-      "do": "pan_left"
-     }
-    ],
-    "motifs": [
-     {
-      "at": [
-       18,
-       10
-      ],
-      "until": [
-       18,
-       12
-      ],
-      "motif": "light",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       18,
-       12
-      ],
-      "until": [
-       18,
-       14
-      ],
-      "motif": "coins",
-      "place": "top",
-      "size": "m"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        18,
        20
       ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       18,
+       21
+      ],
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       18,
+       23
+      ],
       "until": null,
       "motif": "lamp",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "light_sweep"
@@ -276,7 +346,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "18:1-4 «إنما يعمر مساجد الله» is not glossed (any cut of Al-Muyassar's «لا يعتني… إلا» would split the restriction). No mosque building drawn: geometric near «مساجد الله», light for the prayer, coins for the zakat, a lamp for «المهتدين». The Fire (17:15-18): text only, nothing drawn."
+  "notes": "18:1-4 «إنما يعمر مساجد الله» is not glossed (any cut of Al-Muyassar's «لا يعتني… إلا» would split the restriction). No mosque building drawn: geometric near «مساجد الله», light for the prayer, coins for the zakat, a lamp for «المهتدين». The Fire (17:15-18): text only, nothing drawn. STAGING v4: c1 (17) stays ambient: a negated clause (it is not for the polytheists to maintain the mosques), their deeds void (Al-Muyassar: on the Day of Resurrection) and the Fire; nobody is drawn and nothing is acted. The geometric plate now starts on the Name (17:7) instead of on the mosques; a wind plate for the deeds made void (17:13), gone before the Fire is named. c2 (18): a prayer hall by day (no Kaaba, no Sacred Mosque): three believers at the centre stand in prayer on 18:2 (maintaining the mosques; As-Sa'di: by worship and prayer), bow on 18:5, prostrate on 18:10 (they establish the prayer; they face right, away from the poor man), stand up on 18:11 and give their zakat to a poor man sitting at the left on 18:13 (As-Sa'di: to those entitled to it); he raises his hands on 18:14; the believers lower their heads on 18:16 (they fear none but Allah). A lamp plate for the rightly guided (18:23). No lone man at the centre, no imam."
  },
  "cover": {
   "series_ar": "مراتب الأعمال",
@@ -285,8 +355,9 @@
   "title_en": "The people of the mosques",
   "at": [
    18,
-   1
+   8
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

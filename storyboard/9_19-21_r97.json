@@ -46,9 +46,16 @@
      {
       "at": [
        19,
-       8
+       5
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       19,
+       8
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -62,7 +69,14 @@
        19,
        12
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       19,
+       14
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
@@ -76,20 +90,20 @@
        19,
        21
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
      {
       "at": [
        19,
-       5
+       2
       ],
       "until": [
        19,
-       7
+       4
       ],
-      "motif": "geometric",
+      "motif": "drop",
       "place": "top",
       "size": "m"
      },
@@ -113,68 +127,87 @@
    "id": "c2",
    "title": "أعلى المراتب",
    "verses": [
-    20,
-    21
+    20
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "e",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       20,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       20,
+       2
+      ],
+      "do": "shot_close",
+      "who": "e"
+     },
+     {
+      "at": [
+       20,
+       3
+      ],
+      "do": "walk_to",
+      "who": "e",
+      "to": "center"
+     },
+     {
+      "at": [
+       20,
+       6
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        20,
        9
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "e"
      },
      {
       "at": [
        20,
        10
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        20,
        14
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "e"
      },
      {
       "at": [
        20,
        16
       ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       21,
-       1
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       21,
-       5
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       21,
-       6
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       21,
-       10
-      ],
-      "do": "pan_left"
+      "do": "sparkle",
+      "who": "e"
      }
     ],
     "motifs": [
@@ -189,7 +222,7 @@
       ],
       "motif": "footsteps",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -202,23 +235,67 @@
       ],
       "motif": "coins",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     }
+    ],
+    "transition": "slide"
+   }
+  },
+  {
+   "id": "c3",
+   "title": "بشرى المهاجرين",
+   "verses": [
+    21
+   ],
+   "scene": "ambient",
+   "params": {
+    "mood": "light",
+    "beats": [
+     {
+      "at": [
+       21,
+       5
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        21,
-       3
+       6
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       21,
+       7
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       21,
+       10
+      ],
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       21,
+       2
       ],
       "until": [
        21,
        6
       ],
-      "motif": "light",
+      "motif": "geometric",
       "place": "top",
       "size": "m"
      }
     ],
-    "transition": "morph"
+    "transition": "dissolve"
    }
   }
  ],
@@ -347,7 +424,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No well, cup, mosque or people drawn. Geometric for the Sacred Mosque, scales for «لا يستوون» (not the Mizan), footsteps for the emigration, coins for «بأموالهم», light for «برحمة منه». Paradise (21:6-10): no garden, river or gold; text only («مما لا يعلم وصفه… إلا الله»)."
+  "notes": "No well, cup, mosque or people drawn. Geometric for the Sacred Mosque, scales for «لا يستوون» (not the Mizan), footsteps for the emigration, coins for «بأموالهم», light for «برحمة منه». Paradise (21:6-10): no garden, river or gold; text only («مما لا يعلم وصفه… إلا الله»). STAGING v4: c1 (19) stays ambient: the watering of the pilgrims and the upkeep of the Sacred Mosque cannot be drawn without the Sanctuary, and the striving is not pictured. The geometric plate on the Sacred Mosque is removed; a water-drop plate for the watering (19:2; As-Sa'di: Zamzam water), scales for the deeds that are not equal (19:16, not the Mizan). The old chapter 20-21 is split (owner rule: an unseen verse is ambient): c2 (20) is staged in the desert by day: three believers (the emigrants; Al-Muyassar: they left the land of disbelief for the land of Islam) walk from the right to the centre on 20:3 under a footsteps plate; their striving (20:4-7) is not pictured: no war, no weapon; a coins plate for their wealth (20:8; As-Sa'di: spending); a soft sparkle on 20:16 (success). No camel or other object is added. c3 (21, new title) stays ambient: the glad tidings of mercy, approval and gardens (Paradise is never drawn); the light plate that started on mercy from Him (21:3) becomes a geometric plate starting on the Lord (21:2) and gone before the gardens are named."
  },
  "cover": {
   "series_ar": "مراتب الأعمال",
@@ -355,9 +432,10 @@
   "title_ar": "أفضل الأعمال",
   "title_en": "The best of deeds",
   "at": [
-   19,
-   1
+   20,
+   4
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

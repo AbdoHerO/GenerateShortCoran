@@ -141,33 +141,9 @@
    "verses": [
     49
    ],
-   "scene": "stage",
+   "scene": "ambient",
    "params": {
-    "setting": "city",
-    "time": "day",
-    "actors": [
-     {
-      "id": "b",
-      "type": "believers",
-      "label": "",
-      "place": "left",
-      "count": 3,
-      "pose": "stand",
-      "enter": null,
-      "exit": null
-     },
-     {
-      "id": "h",
-      "type": "people",
-      "label": "",
-      "place": "right",
-      "count": 3,
-      "pose": "walk",
-      "enter": null,
-      "exit": null
-     }
-    ],
-    "events": [],
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
@@ -179,80 +155,30 @@
      {
       "at": [
        49,
-       2
+       4
       ],
-      "do": "speak",
-      "who": "h"
+      "do": "pan_right"
      },
      {
       "at": [
        49,
-       3
+       7
       ],
-      "do": "shot_close",
-      "who": "h"
-     },
-     {
-      "at": [
-       49,
-       6
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       49,
-       8
-      ],
-      "do": "speak",
-      "who": "h"
+      "do": "pan_left"
      },
      {
       "at": [
        49,
        9
       ],
-      "do": "point",
-      "who": "h",
-      "to": "b"
+      "do": "pan_right"
      },
      {
       "at": [
        49,
        10
       ],
-      "do": "shake_head",
-      "who": "h"
-     },
-     {
-      "at": [
-       49,
-       11
-      ],
       "do": "shot_wide"
-     },
-     {
-      "at": [
-       49,
-       12
-      ],
-      "do": "shot_close",
-      "who": "b"
-     },
-     {
-      "at": [
-       49,
-       15
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       49,
-       17
-      ],
-      "do": "shot_close",
-      "who": "b"
      }
     ],
     "motifs": [
@@ -267,7 +193,7 @@
       ],
       "motif": "seal",
       "place": "top",
-      "size": "s"
+      "size": "m"
      },
      {
       "at": [
@@ -277,10 +203,10 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "s"
+      "size": "m"
      }
     ],
-    "transition": "slide"
+    "transition": "morph"
    }
   }
  ],
@@ -365,7 +291,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The Shaytan and the angels are never drawn; his promise (48:6-15) is not glossed, and As-Sa'di's report of his appearance is not used. The hypocrites' saying (49:8-10) is framed «يقولونه احتقارا لهم». Light for «ومن يتوكل على الله». Al-Muyassar's «توبة نصوحًا» (Quran wording) not used. STAGING v4: c1 (48) stays ambient: the Shaytan's promise and his turning back when the two armies met at Badr (the Shaytan, the angels and the battle are never drawn); a geometric plate only for Allah's severe punishment (48:34, after the Shaytan's words). c2 (49): a town by day. Three faceless figures (a neutral people group of three: the hypocrites and those with doubt in their hearts, As-Sa'di: weak in faith) walk in from the right and speak on 49:2 and again on 49:8; on the demonstrative 49:9 they point at three believers standing on the left (Al-Muyassar: they see the Muslims; As-Sa'di: said of the believers) and shake their heads on 49:10 (contempt, framed by As-Sa'di's gloss). Only the speakers gesture; the believers do nothing. On the general statement of reliance (49:11-14) the camera holds on the believers, with no gesture (it is a general conditional); a seal plate for trusting His promise (49:12, Al-Muyassar's gloss), then a geometric plate on the Name for Mighty and Wise (49:16). The place is not named by the tafsirs, so a plain town is used; no army, no enemy and no battle are drawn."
+  "notes": "The Shaytan and the angels are never drawn; his promise (48:6-15) is not glossed, and As-Sa'di's report of his appearance is not used. The hypocrites' saying (49:8-10) is framed «يقولونه احتقارا لهم». Light for «ومن يتوكل على الله». Al-Muyassar's «توبة نصوحًا» (Quran wording) not used. STAGING v4: Kept ambient (owner rule, Staging v4; picture review): c1 (48) is the Shaytan's promise and his turning back when the two armies met at Badr (the Shaytan, the angels and the battle are never drawn); a geometric plate only for Allah's severe punishment (48:34, after the Shaytan's words). c2 (49) is the saying of the hypocrites and those with sickness in their hearts, which both tafsirs place at Badr itself (Al-Muyassar: as they see the few Muslims and their many enemy; As-Sa'di: when the believers went forward to fight), so it stays ambient too, under the same night sky with camera moves only: no hypocrites, believers, town or gesture drawn. A seal plate for trusting His promise on the general statement of reliance (49:12, Al-Muyassar's gloss) and a geometric plate on the Name for Mighty and Wise (49:16)."
  },
  "cover": {
   "series_ar": "أحكام النصر",

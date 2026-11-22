@@ -67,6 +67,20 @@
      {
       "at": [
        13,
+       12
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       13,
+       16
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       13,
        18
       ],
       "do": "pan_right"
@@ -131,16 +145,23 @@
      {
       "at": [
        15,
-       8
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        15,
-       10
+       8
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       15,
+       10
+      ],
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -166,7 +187,7 @@
        15,
        9
       ],
-      "motif": "light",
+      "motif": "geometric",
       "place": "top",
       "size": "m"
      }
@@ -405,7 +426,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Fighting passage: only what the tafsirs say with their restrictions (the treaty-holders of that time, the four months, those who broke oaths and attacked); no battle, weapon, captive or killing drawn; no present-day reading. No motif on the Prophet ﷺ. 13:9-12 keeps As-Sa'di's «حيث نقضوا العهد وأعانوا عليكم» (they broke the treaty first). The commands in 13:1-5 and 14:1-4 are not glossed. 14:6-7 «هذا وعد… قد أنجزها» (fulfilled). Geometric near Allah's name, light for victory and for «ويتوب الله على من يشاء», an hourglass and two paths for the trial that sorts the sincere."
+  "notes": "Fighting passage: only what the tafsirs say with their restrictions (the treaty-holders of that time, the four months, those who broke oaths and attacked); no battle, weapon, captive or killing drawn; no present-day reading. No motif on the Prophet ﷺ. 13:9-12 keeps As-Sa'di's «حيث نقضوا العهد وأعانوا عليكم» (they broke the treaty first). The commands in 13:1-5 and 14:1-4 are not glossed. 14:6-7 «هذا وعد… قد أنجزها» (fulfilled). Geometric near Allah's name, light for victory and for «ويتوب الله على من يشاء», an hourglass and two paths for the trial that sorts the sincere. STAGING v4: Fighting passage: stays ambient (owner rule, Staging v4). The light plate that started on 15:4 (Allah turning to whom He wills, His act, the Name 1 s later) becomes geometric."
  },
  "cover": {
   "series_ar": "العهود والمواثيق",
@@ -417,5 +438,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

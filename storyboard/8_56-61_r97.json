@@ -172,8 +172,7 @@
        58,
        13
       ],
-      "do": "shot_close",
-      "who": "d"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -389,7 +388,7 @@
       "label": "",
       "place": "right",
       "count": 3,
-      "pose": "walk",
+      "pose": "stand",
       "enter": null,
       "exit": null
      }
@@ -408,8 +407,9 @@
        61,
        2
       ],
-      "do": "speak",
-      "who": "d"
+      "do": "walk_to",
+      "who": "d",
+      "to": "center"
      },
      {
       "at": [
@@ -624,7 +624,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "One unit: the reciter joins 56→61 (about 106 s). No weapons, horses, war or punishment drawn, and no present-day reading: Al-Muyassar's naming of a people in 56 is not used; 57:5-8 «فشرد بهم» and 60:7-14 «ترهبون به» are not glossed. The restrictions are kept: 57 «في حال المحاربة… لا يكون لهم عهد», 58 «من قرائن أحوالهم… وأخبرهم», 60 «الساعين في هلاككم». 59:1-5 (their assumption) is not glossed. Hands for «وإن جنحوا للسلم فاجنح لها», geometric for «وتوكل على الله». STAGING v4: c1 (56-57) stays ambient: 57 is a fighting verse (in war; never pictured, its punishment wording not glossed). A seal plate draws on for their pledge (56:6) and undraws as it is broken every time (56:10). c2 (58-59): three disbelievers in a town by day (the people of whom betrayal is feared, then those who disbelieve). A seal plate for the treaty between the two sides (58:4; As-Sa'di: a treaty to leave fighting) that undraws at 58:10, after the words for throwing it back to them on equal terms (both tafsirs: tell them openly there is no treaty). The fear of betrayal is a condition and the throwing back is a command to the Prophet, so nobody acts them (camera only). On the threat (58:10-14, Allah does not love the traitors) and on 59 (they will not escape) the camera holds on the disbelievers, with a geometric plate on the Name (58:11) and an hourglass for the respite (59:6; As-Sa'di: the wisdom in giving them time). Nobody escapes, fights or is hurt. c3 (60) stays ambient: preparing force and horses against the enemy (fighting verse; no weapon, horse or army drawn); a geometric plate for Allah knowing the hidden enemies (60:20), a coins plate for spending in Allah's path (60:23, ending before the Name; Al-Muyassar: wealth and more) and a growth plate for the full repayment (60:29). c4 (61): a town by day, no war imagery: three disbelievers walk in from the right toward three believers on the left and speak on 61:2 (As-Sa'di: they ask for it; both tafsirs: they incline to leaving the war); a seal plate for the peace (61:3) and a geometric plate on the Name (61:8). The command to incline to it and to rely on Allah is addressed to the Prophet, so the believers make no gesture (camera only). Every place on stage is filled, so no pan drifts to an empty side. Cover moved to the peace scene with the seal plate (61:6)."
+  "notes": "One unit: the reciter joins 56→61 (about 106 s). No weapons, horses, war or punishment drawn, and no present-day reading: Al-Muyassar's naming of a people in 56 is not used; 57:5-8 «فشرد بهم» and 60:7-14 «ترهبون به» are not glossed. The restrictions are kept: 57 «في حال المحاربة… لا يكون لهم عهد», 58 «من قرائن أحوالهم… وأخبرهم», 60 «الساعين في هلاككم». 59:1-5 (their assumption) is not glossed. Hands for «وإن جنحوا للسلم فاجنح لها», geometric for «وتوكل على الله». STAGING v4: c1 (56-57) stays ambient: 57 is a fighting verse (in war; never pictured, its punishment wording not glossed). A seal plate draws on for their pledge (56:6) and undraws as it is broken every time (56:10). c2 (58-59): three disbelievers in a town by day (the people of whom betrayal is feared, then those who disbelieve). A seal plate for the treaty between the two sides (58:4; As-Sa'di: a treaty to leave fighting) that undraws at 58:10, after the words for throwing it back to them on equal terms (both tafsirs: tell them openly there is no treaty). The fear of betrayal is a condition and the throwing back is a command to the Prophet, so nobody acts them (camera only). On 58:10-14 (Allah does not love the traitors; As-Sa'di: it also obliges the Muslims to announce the end openly) the camera stays wide, with no close-up on the treaty people, whose betrayal is only feared; a geometric plate on the Name (58:11); on 59 (they will not escape) the camera holds on the disbelievers and an hourglass for the respite (59:6; As-Sa'di: the wisdom in giving them time). Nobody escapes, fights or is hurt. c3 (60) stays ambient: preparing force and horses against the enemy (fighting verse; no weapon, horse or army drawn); a geometric plate for Allah knowing the hidden enemies (60:20), a coins plate for spending in Allah's path (60:23, ending before the Name; Al-Muyassar: wealth and more) and a growth plate for the full repayment (60:29). c4 (61): a town by day, no war imagery: three disbelievers stand fully in frame on the right and, on 61:2 (they incline), walk to the centre beside three believers on the left (both tafsirs: they incline to leaving the war and want peace); a seal plate for the peace (61:3) and a geometric plate on the Name (61:8). Nobody speaks. The command to incline to it and to rely on Allah is addressed to the Prophet, so the believers make no gesture (camera only); after the walk the camera only goes wide, so no pan drifts to the emptied right side. Cover moved to the peace scene with the seal plate (61:6)."
  },
  "cover": {
   "series_ar": "سنن الهلاك",

@@ -46,21 +46,21 @@
      {
       "at": [
        7,
-       10
+       12
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        7,
-       12
+       19
       ],
       "do": "pan_right"
      },
      {
       "at": [
        7,
-       19
+       22
       ],
       "do": "shot_wide"
      }
@@ -82,13 +82,13 @@
      {
       "at": [
        7,
-       13
+       11
       ],
       "until": [
        7,
-       15
+       13
       ],
-      "motif": "geometric",
+      "motif": "seal",
       "place": "top",
       "size": "m"
      },
@@ -129,58 +129,65 @@
      {
       "at": [
        8,
-       8
+       7
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        8,
        10
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        8,
-       12
+       11
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       8,
+       13
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
        8,
        16
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        9,
        1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        9,
        6
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        9,
        9
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        9,
        11
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -316,7 +323,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A seal for the treaty, geometric for the Sacred Mosque (no building drawn), scales for keeping faith with those who keep it, coins for «ثمنا قليلا». Al-Muyassar's «في صلح (الحديبية)» is not used (As-Sa'di does not name it). 8 describes the treaty-breakers of that time only."
+  "notes": "A seal for the treaty, geometric for the Sacred Mosque (no building drawn), scales for keeping faith with those who keep it, coins for «ثمنا قليلا». Al-Muyassar's «في صلح (الحديبية)» is not used (As-Sa'di does not name it). 8 describes the treaty-breakers of that time only. STAGING v4: Treaty passage: stays ambient (owner rule, Staging v4). The geometric plate on the Sacred Mosque (7:13-14) is removed (the geometric plate is kept for Allah's Names; no symbol for the Mosque); a seal plate on 7:11 (the treaty made there) ends before 7:13."
  },
  "cover": {
   "series_ar": "العهود والمواثيق",
@@ -328,5 +335,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

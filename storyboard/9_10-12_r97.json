@@ -74,6 +74,13 @@
      {
       "at": [
        11,
+       12
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       11,
        13
       ],
       "do": "shot_wide"
@@ -102,7 +109,7 @@
        11,
        10
       ],
-      "motif": "hands",
+      "motif": "seal",
       "place": "top",
       "size": "m"
      },
@@ -145,7 +152,7 @@
        12,
        10
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -157,23 +164,30 @@
      {
       "at": [
        12,
-       13
+       12
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       12,
+       15
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       12,
+       17
       ],
       "do": "pan_right"
      },
      {
       "at": [
        12,
-       16
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       12,
        18
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -188,7 +202,8 @@
       ],
       "motif": "seal",
       "place": "top",
-      "size": "m"
+      "size": "m",
+      "exit": "undraw"
      }
     ],
     "transition": "wipe"
@@ -287,7 +302,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Fighting passage: only what the tafsirs say with their restrictions (the treaty-holders of that time, the four months, those who broke oaths and attacked); no battle, weapon, captive or killing drawn; no present-day reading. No motif on the Prophet ﷺ. 12:1-6 carries As-Sa'di's restriction (they broke their oaths by fighting you, helping others fight you, or diminishing you). Light for the prayer, hands for brotherhood, a book for «نفصل الآيات», a seal for the broken oaths. Al-Muyassar's first-person «ونبين الآيات» is not used."
+  "notes": "Fighting passage: only what the tafsirs say with their restrictions (the treaty-holders of that time, the four months, those who broke oaths and attacked); no battle, weapon, captive or killing drawn; no present-day reading. No motif on the Prophet ﷺ. 12:1-6 carries As-Sa'di's restriction (they broke their oaths by fighting you, helping others fight you, or diminishing you). Light for the prayer, hands for brotherhood, a book for «نفصل الآيات», a seal for the broken oaths. Al-Muyassar's first-person «ونبين الآيات» is not used. STAGING v4: Fighting and treaty passage: stays ambient (owner rule, Staging v4). The hands plate on 11:7 (du'a in the catalog) becomes a seal plate for the bond of brotherhood (as in Al-Anfal 72). The seal of the broken oaths (12:2) now leaves by undrawing."
  },
  "cover": {
   "series_ar": "العهود والمواثيق",
@@ -299,5 +314,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

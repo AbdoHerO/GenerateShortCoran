@@ -34,8 +34,16 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light",
-    "beats": [],
+    "mood": "geometric",
+    "beats": [
+     {
+      "at": [
+       64,
+       1
+      ],
+      "do": "shot_wide"
+     }
+    ],
     "motifs": [
      {
       "at": [
@@ -183,7 +191,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No armies, numbers or fighting drawn (the figures stay in the recitation only). No motif on the Prophet ﷺ; geometric for «حسبك الله». STAGING v4: Kept ambient (owner rule, Staging v4): 64 is an address to the Prophet (Allah suffices him and the believers who follow him; nobody is drawn as his followers), 65 is the command to urge the believers to fight (fighting verse; no armies or numbers drawn). c2: a mountain plate for the steadfast (65:11; Al-Muyassar: patient when meeting the enemy), ending before the disbelievers are named."
+  "notes": "No armies, numbers or fighting drawn (the figures stay in the recitation only). No motif on the Prophet ﷺ; geometric for «حسبك الله». STAGING v4: Kept ambient (owner rule, Staging v4): 64 is an address to the Prophet (Allah suffices him and the believers who follow him; nobody is drawn as his followers); its mood moves from light to geometric (picture review: a sky of rays during the address to the Prophet and the Name could read as light for him or a picture of Allah), with the geometric plate kept at 64:3; 65 is the command to urge the believers to fight (fighting verse; no armies or numbers drawn). c2: a mountain plate for the steadfast (65:11; Al-Muyassar: patient when meeting the enemy), ending before the disbelievers are named."
  },
  "cover": {
   "series_ar": "الكفاية والرحمة",

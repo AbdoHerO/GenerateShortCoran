@@ -39,6 +39,13 @@
      {
       "at": [
        37,
+       3
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       37,
        5
       ],
       "do": "shot_wide"
@@ -134,80 +141,100 @@
    "id": "c2",
    "title": "عتاب المتثاقلين",
    "verses": [
-    38,
-    39
+    38
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "s",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "r",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        38,
-       5
+       1
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       38,
+       4
+      ],
+      "do": "shot_close",
+      "who": "r"
+     },
+     {
+      "at": [
+       38,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       38,
+       13
+      ],
+      "do": "sit",
+      "who": "r"
+     },
+     {
+      "at": [
+       38,
+       15
+      ],
+      "do": "shot_ground"
      },
      {
       "at": [
        38,
        17
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "r"
+     },
+     {
+      "at": [
+       38,
+       20
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        38,
        24
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "r"
      },
      {
       "at": [
        38,
-       28
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       39,
-       1
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       39,
-       3
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       39,
-       5
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       39,
-       8
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       39,
-       9
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       39,
-       16
+       27
       ],
       "do": "shot_wide"
      }
@@ -224,21 +251,69 @@
       ],
       "motif": "house",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        38,
-       21
+       22
       ],
-      "until": [
-       38,
-       27
-      ],
-      "motif": "wind",
+      "until": null,
+      "motif": "leaf",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     }
+    ],
+    "transition": "page_turn"
+   }
+  },
+  {
+   "id": "c3",
+   "title": "عاقبة التخلف",
+   "verses": [
+    39
+   ],
+   "scene": "ambient",
+   "params": {
+    "mood": "geometric",
+    "beats": [
+     {
+      "at": [
+       39,
+       2
+      ],
+      "do": "shot_wide"
      },
+     {
+      "at": [
+       39,
+       4
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       39,
+       7
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       39,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       39,
+       16
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [
      {
       "at": [
        39,
@@ -250,7 +325,7 @@
       "size": "m"
      }
     ],
-    "transition": "page_turn"
+    "transition": "dissolve"
    }
   }
  ],
@@ -390,7 +465,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Fighting passage: anchored in its history (the Tabuk expedition, 9 AH); the command itself is not glossed; no battle, weapon, march or army drawn; no present-day reading and no people targeted. No motif on the Prophet ﷺ. 38:1-3 dates the passage (As-Sa'di: revealed about Tabuk) and 38:6-12 gives its hardship; 39:1-5 keeps As-Sa'di's restriction «في حال الاستنفار» (when the call to march is made). As-Sa'di's «ثم لا يكونوا أمثالكم» (47:38 word for word) is not used. A moon for the months, night and day for «يحلونه عاما ويحرمونه عاما», a house for «اثاقلتم إلى الأرض», wind for the fleeting enjoyment."
+  "notes": "Fighting passage: anchored in its history (the Tabuk expedition, 9 AH); the command itself is not glossed; no battle, weapon, march or army drawn; no present-day reading and no people targeted. No motif on the Prophet ﷺ. 38:1-3 dates the passage (As-Sa'di: revealed about Tabuk) and 38:6-12 gives its hardship; 39:1-5 keeps As-Sa'di's restriction «في حال الاستنفار» (when the call to march is made). As-Sa'di's «ثم لا يكونوا أمثالكم» (47:38 word for word) is not used. A moon for the months, night and day for «يحلونه عاما ويحرمونه عاما», a house for «اثاقلتم إلى الأرض», wind for the fleeting enjoyment. STAGING v4: c1 (37, the postponed months) stays ambient: the tafsirs give the practice and its aim (fighting in the sacred months), not how or where it was done, so nothing is drawn. The old chapter 38-39 is split: c2 (38) is staged in a town by day: two groups of three believers; only the group at the right is reproached (As-Sa'di: some of the Muslims were heavy); nobody calls them (the call came from the Prophet: camera only on 38:6-12) and nobody marches or carries anything: no call to fight is pictured; on 38:13 the group at the right sits down (Al-Muyassar: you were heavy and kept to your homes) under a house plate, the camera tilts to the ground on 38:15, and a falling-leaf plate for the little enjoyment of this world (38:22). c3 (39, new title) stays ambient: a conditional threat, the replacing with another people (not drawn) and Allah's power; geometric mood (His acts) and a geometric plate on the Name (39:12)."
  },
  "cover": {
   "series_ar": "حرمة الزمان",
@@ -402,5 +477,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -39,16 +39,16 @@
      {
       "at": [
        27,
-       5
+       1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        27,
        9
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -62,13 +62,26 @@
      {
       "at": [
        27,
-       2
+       3
+      ],
+      "until": [
+       27,
+       5
+      ],
+      "motif": "geometric",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       27,
+       5
       ],
       "until": [
        27,
        10
       ],
-      "motif": "light",
+      "motif": "door",
       "place": "top",
       "size": "m"
      },
@@ -98,6 +111,13 @@
      {
       "at": [
        28,
+       2
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       28,
        3
       ],
       "do": "pan_left"
@@ -105,7 +125,7 @@
      {
       "at": [
        28,
-       6
+       5
       ],
       "do": "shot_wide"
      },
@@ -119,9 +139,23 @@
      {
       "at": [
        28,
-       21
+       8
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       28,
+       14
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       28,
+       21
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
@@ -135,30 +169,17 @@
        28,
        25
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        28,
        26
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      }
     ],
     "motifs": [
-     {
-      "at": [
-       28,
-       9
-      ],
-      "until": [
-       28,
-       11
-      ],
-      "motif": "geometric",
-      "place": "top",
-      "size": "m"
-     },
      {
       "at": [
        28,
@@ -357,7 +378,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Fighting passage: only what the tafsirs say with their restrictions; the command itself is not glossed; no battle, weapon, captive or killing drawn; no present-day reading and no people targeted. No motif on the Prophet ﷺ. 28:4-6 «نجس» carries As-Sa'di's «وليس المراد هنا، نجاسة البدن…» (the impurity is shirk, not the body); 28:11-13 is dated (the year 9 AH). 29: the command, «من الذين أوتوا الكتاب» and «عن يد وهم صاغرون» are not glossed; no group is named; the jizya carries As-Sa'di's «…لترك المسلمين قتالهم، وإقامتهم آمنين». Nothing drawn in 29."
+  "notes": "Fighting passage: only what the tafsirs say with their restrictions; the command itself is not glossed; no battle, weapon, captive or killing drawn; no present-day reading and no people targeted. No motif on the Prophet ﷺ. 28:4-6 «نجس» carries As-Sa'di's «وليس المراد هنا، نجاسة البدن…» (the impurity is shirk, not the body); 28:11-13 is dated (the year 9 AH). 29: the command, «من الذين أوتوا الكتاب» and «عن يد وهم صاغرون» are not glossed; no group is named; the jizya carries As-Sa'di's «…لترك المسلمين قتالهم، وإقامتهم آمنين». Nothing drawn in 29. STAGING v4: Stays ambient: 27 is Allah accepting repentance after Hunayn (His act, battle context), 28 a ruling about the Sacred Mosque (never drawn) with a condition and His promise, 29 a fighting verse. The light plate that started on Allah's turning (27:2) becomes a geometric plate on the Name, then a door plate (repentance accepted, the chapter's title) that leaves before the Name. The geometric plate on the Sacred Mosque (28:9) is removed."
  },
  "cover": {
   "series_ar": "صفاء التوحيد",
@@ -369,5 +390,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }
