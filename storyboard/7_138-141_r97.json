@@ -66,14 +66,13 @@
       "type": "disbelievers",
       "label": "",
       "place": "right",
-      "count": 6,
+      "count": 3,
       "pose": "stand",
       "enter": [
        138,
        5
       ],
-      "exit": null,
-      "uncountable": true
+      "exit": null
      }
     ],
     "events": [],
@@ -104,8 +103,7 @@
        138,
        7
       ],
-      "do": "shot_close",
-      "who": "d"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -469,7 +467,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No idols, people or sea-crossing drawn: a wave for «وجاوزنا ببني إسرائيل البحر», geometric for «أغير الله». Their request (138:12-19) is framed «من جهلهم وسفههم». Musa: no motif. Al-Muyassar's «الواحد القهار» (Quran wording) not used. STAGING v4: On the far shore after the crossing, by day (sea_shore). The sea is not shown parting (the crossing is already done in 138:1, As-Sa'di: after Allah saved them). Musa is a blue drop; the Children of Israel who ask for a god are three faceless men (a group asking a blameworthy thing: no woman is singled out); they walk in on 138:1, with a wave plate for the sea (138:4-6). The idol-worshippers are an uncountable crowd in dark robes that comes in on 138:5; their idols are never drawn and they are not shown bowing. The Children of Israel speak their request (138:12, framed by the gloss) with the camera on them (138:16); Musa answers (138:20, 139:1) and the camera stays wide or in gentle pans with his drop in frame during all his words; a leaf plate for what the idol-worshippers do being ruined and void (139:3). c2 (140-141): Musa speaks (140:1); a geometric plate for other than Allah (140:2-5). 141: the tafsirs differ on who speaks (Al-Muyassar: Allah reminds them; As-Sa'di: Musa reminds them), so no speaker is marked; a breaking-chain plate for the rescue from Pharaoh's captivity (141:2-5, Al-Muyassar: rescued from the captivity of Pharaoh); the killing of the sons (141:9-12) is not drawn: wide shots and pans only."
+  "notes": "No idols, people or sea-crossing drawn: a wave for «وجاوزنا ببني إسرائيل البحر», geometric for «أغير الله». Their request (138:12-19) is framed «من جهلهم وسفههم». Musa: no motif. Al-Muyassar's «الواحد القهار» (Quran wording) not used. STAGING v4: On the far shore after the crossing, by day (sea_shore). The sea is not shown parting (the crossing is already done in 138:1, As-Sa'di: after Allah saved them). Musa is a blue drop; the Children of Israel who ask for a god are three faceless men (a group asking a blameworthy thing: no woman is singled out); they walk in on 138:1, with a wave plate for the sea (138:4-6). The idol-worshippers are three faceless men in dark robes (no rocks or boulders next to them, which could read as idols) who come in on 138:5 and are held only in wide shots; their idols are never drawn and they are not shown bowing. The cover (138:12) shows Musa, the three men asking and the three idol-worshippers, with no rocks. The Children of Israel speak their request (138:12, framed by the gloss) with the camera on them (138:16); Musa answers (138:20, 139:1) and the camera stays wide or in gentle pans with his drop in frame during all his words; a leaf plate for what the idol-worshippers do being ruined and void (139:3). c2 (140-141): Musa speaks (140:1); a geometric plate for other than Allah (140:2-5). 141: the tafsirs differ on who speaks (Al-Muyassar: Allah reminds them; As-Sa'di: Musa reminds them), so no speaker is marked; a breaking-chain plate for the rescue from Pharaoh's captivity (141:2-5, Al-Muyassar: rescued from the captivity of Pharaoh); the killing of the sons (141:9-12) is not drawn: wide shots and pans only."
  },
  "cover": {
   "series_ar": "بنو إسرائيل بعد النجاة",

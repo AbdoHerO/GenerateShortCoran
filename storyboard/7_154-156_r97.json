@@ -93,7 +93,7 @@
        154,
        12
       ],
-      "do": "read",
+      "do": "shot_close",
       "who": "b"
      },
      {
@@ -101,8 +101,7 @@
        154,
        15
       ],
-      "do": "shot_close",
-      "who": "b"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -377,7 +376,19 @@
       "size": "m"
      }
     ],
-    "transition": "morph"
+    "transition": "morph",
+    "quiet": [
+     [
+      [
+       156,
+       12
+      ],
+      [
+       156,
+       30
+      ]
+     ]
+    ]
    }
   }
  ],
@@ -528,7 +539,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Musa and the seventy men are not drawn (the number is in the text only); the earthquake and their death are not drawn. Allah's answer (156:12-21) is not paraphrased (first person). A book for the tablets, light for «ورحمتي وسعت كل شيء». STAGING v4: c1 (154): the camp by day: Musa (blue drop) after his anger calmed; a book plate for the tablets he took up (154:7-11; the tablets are never drawn as objects); the God-fearing among his people (three believers) read (154:12) as the verse names those who fear their Lord; no bowing near the prophet. c2 (155) stays ambient (night_sky, not light or dawn): the seventy men were seized by the earthquake and died (both tafsirs), so they are not drawn (no countable group, no different number), nor is Musa, the quake or any death; an hourglass for the appointment (155:6-9), a two-paths plate for He leads astray and guides whom He wills (155:27-33), a geometric plate for You are our Protector... the best of forgivers (155:34-41). c3 (156) stays ambient (night_sky, as it names His punishment): Musa's du'a goes on and Allah answers (first person); a scroll plate for decree for us good in this world (156:1-6), nothing literal for the Hereafter (156:7-8), a geometric plate for His punishment and His mercy that encompasses all things (156:12-21), a book plate for those who believe in Our verses (156:29-30). The believers who give zakah (156:25-26) are inside Allah's answer in the same chapter, so they are not staged."
+  "notes": "Musa and the seventy men are not drawn (the number is in the text only); the earthquake and their death are not drawn. Allah's answer (156:12-21) is not paraphrased (first person). A book for the tablets, light for «ورحمتي وسعت كل شيء». STAGING v4: c1 (154): the camp by day: Musa (blue drop) after his anger calmed; a book plate for the tablets he took up (154:7-11; the tablets are never drawn as objects); the God-fearing among his people (three believers) are in close-up, with no gesture, as the verse names those who fear their Lord (154:12); no books in their hands, no bowing near the prophet. c2 (155) stays ambient (night_sky, not light or dawn): the seventy men were seized by the earthquake and died (both tafsirs), so they are not drawn (no countable group, no different number), nor is Musa, the quake or any death; an hourglass for the appointment (155:6-9), a two-paths plate for He leads astray and guides whom He wills (155:27-33), a geometric plate for You are our Protector... the best of forgivers (155:34-41). c3 (156) stays ambient (night_sky, as it names His punishment): Musa's du'a goes on and Allah answers (first person); a scroll plate for decree for us good in this world (156:1-6), nothing literal for the Hereafter (156:7-8), a geometric plate for His punishment and His mercy that encompasses all things (156:12-21; params.quiet turns off the word pulses over Allah's answer, 156:12-30), a book plate for those who believe in Our verses (156:29-30). The believers who give zakah (156:25-26) are inside Allah's answer in the same chapter, so they are not staged."
  },
  "cover": {
   "series_ar": "بنو إسرائيل بعد النجاة",

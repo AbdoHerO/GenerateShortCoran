@@ -266,8 +266,7 @@
        124,
        1
       ],
-      "do": "shot_close",
-      "who": "k"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -281,8 +280,7 @@
        124,
        7
       ],
-      "do": "shot_close",
-      "who": "k"
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -420,7 +418,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No prostration, figures or punishment drawn. Pharaoh's accusation (123:9-17) is not glossed; his threat of mutilation (124) is framed only «زعم الخبيث أنهم مفسدون» and its details are not displayed. Light for «فوقع الحق», geometric for «آمنا برب العالمين». STAGING v4: Same gathering, by day (city setting, no palms). c1 (118-122): no light, glow or plate on 118:1-2 (the truth prevailing): the camera on the magicians (118:3), an uncountable group now drawn in light robes. 119: the camera on Pharaoh (119:3) with no gesture: the tafsirs word the defeated side differently (Al-Muyassar: Pharaoh and his people left humiliated; As-Sa'di: their falsehood and magic vanished), so no one is shown leaving or turning. 120:1 the magicians fall in sujud: they kneel facing the empty right edge of the frame, with Pharaoh and Musa behind them, with no plate on screen; they stand up on 121:1, before 122:2 names Musa (nobody is in sujud while a prophet is named). A geometric plate for their declaration of faith in the Lord (121:2-122:3); Musa (blue drop) is in the wide shot when he is named (122:2); Harun (122:3) is not drawn, as the sources do not place him in this scene. c2 (123-124): Pharaoh speaks (123:1, 123:9) and points at the magicians as he accuses them (123:3); a crown plate over Pharaoh for his claim of permission (As-Sa'di: a tyrant over bodies and words, 123:7); the camera on the calm magicians as he calls it a plot (123:11) and an hourglass for 123:18-19 (you will know). 124 (the threat of cutting and crucifying) is never shown or suggested: no gesture, no plate, no palm, no close-up on the magicians; Pharaoh stands on the left, apart from the magicians, and the camera stays on him, the speaker (124:1, 124:7), with one wide shot (124:4)."
+  "notes": "No prostration, figures or punishment drawn. Pharaoh's accusation (123:9-17) is not glossed; his threat of mutilation (124) is framed only «زعم الخبيث أنهم مفسدون» and its details are not displayed. Light for «فوقع الحق», geometric for «آمنا برب العالمين». STAGING v4: Same gathering, by day (city setting, no palms). c1 (118-122): no light, glow or plate on 118:1-2 (the truth prevailing): the camera on the magicians (118:3), an uncountable group now drawn in light robes. 119: the camera on Pharaoh (119:3) with no gesture: the tafsirs word the defeated side differently (Al-Muyassar: Pharaoh and his people left humiliated; As-Sa'di: their falsehood and magic vanished), so no one is shown leaving or turning. 120:1 the magicians fall in sujud: they kneel facing the empty right edge of the frame, with Pharaoh and Musa behind them, with no plate on screen; they stand up on 121:1, before 122:2 names Musa (nobody is in sujud while a prophet is named). A geometric plate for their declaration of faith in the Lord (121:2-122:3); Musa (blue drop) is in the wide shot when he is named (122:2); Harun (122:3) is not drawn, as the sources do not place him in this scene. c2 (123-124): Pharaoh speaks (123:1, 123:9) and points at the magicians as he accuses them (123:3); a crown plate over Pharaoh for his claim of permission (As-Sa'di: a tyrant over bodies and words, 123:7); the camera on the calm magicians as he calls it a plot (123:11) and an hourglass for 123:18-19 (you will know). 124 (the threat of cutting and crucifying) is never shown or suggested: no gesture, no plate, no palm, no close-up on the magicians; Pharaoh stands on the left, apart from the magicians; the camera stays wide (124:1, 124:4) and drifts gently toward him, the speaker (124:7, pan_left), with no push-in on the threat words."
  },
  "cover": {
   "series_ar": "موسى وفرعون",

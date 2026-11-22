@@ -231,16 +231,6 @@
       "exit": null
      },
      {
-      "id": "h",
-      "type": "prophet",
-      "label": "هارون",
-      "place": "center",
-      "count": 1,
-      "pose": "stand",
-      "enter": null,
-      "exit": null
-     },
-     {
       "id": "p",
       "type": "people",
       "label": "",
@@ -562,7 +552,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Musa and Harun: no motif, no figure; the tablets and the seizing of his brother are not drawn. Light for «وأدخلنا في رحمتك» and «إن ربك من بعدها لغفور رحيم». STAGING v4: The camp in the desert, by day. Musa and Harun are blue drops labelled with their names; the people are three faceless men (those who took the calf: no woman is singled out). c1 (150): Musa comes back on 150:1 and speaks (150:8, 150:13), with an hourglass for did you hasten (150:13-14, Al-Muyassar: hastening my return that was decreed). His casting of the tablets and taking his brother by the head (150:16-22) are never shown: no gesture, no plate, no movement of the drops, only wide holds. Harun alone speaks his words (150:23, 150:31); the people make no gesture during the prophets' words, and the camera stays wide or in gentle pans with the drops in frame. c2 (151-153): Musa speaks his du'a (151:1; no glow, no raised drop near the word of the Lord); a geometric plate for Your mercy and the Most Merciful (151:6-11). 152 (anger and humiliation for those who took the calf) holds on the people it speaks about, standing; no punishment or hurt is drawn (the killing in As-Sa'di is not drawn). 153: they raise their hands as they repent (153:5); a geometric plate for your Lord is Forgiving and Merciful (153:9-14). The calf is never drawn."
+  "notes": "Musa and Harun: no motif, no figure; the tablets and the seizing of his brother are not drawn. Light for «وأدخلنا في رحمتك» and «إن ربك من بعدها لغفور رحيم». STAGING v4: The camp in the desert, by day. Musa and Harun are blue drops labelled with their names; the people are three faceless men (those who took the calf: no woman is singled out). c1 (150): Musa comes back on 150:1 and speaks (150:8, 150:13), with an hourglass for did you hasten (150:13-14, Al-Muyassar: hastening my return that was decreed). His casting of the tablets and taking his brother by the head (150:16-22) are never shown: no gesture, no plate, no movement of the drops, only wide holds. Harun alone speaks his words (150:23, 150:31); the people make no gesture during the prophets' words, and the camera stays wide or in gentle pans with the drops in frame. c2 (151-153): Harun is not on this stage (he is only named inside Musa's du'a, 151:5), so he is never framed with the calf-worshippers under wrath. Musa speaks his du'a (151:1; no glow, no raised drop near the word of the Lord); a geometric plate for Your mercy and the Most Merciful (151:6-11). 152 (anger and humiliation for those who took the calf) holds on the people it speaks about, standing; no punishment or hurt is drawn (the killing in As-Sa'di is not drawn). 153: they raise their hands as they repent (153:5); a geometric plate for your Lord is Forgiving and Merciful (153:9-14). The calf is never drawn."
  },
  "cover": {
   "series_ar": "بنو إسرائيل بعد النجاة",

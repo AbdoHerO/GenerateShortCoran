@@ -106,8 +106,7 @@
        148,
        20
       ],
-      "do": "turn",
-      "who": "p"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -341,7 +340,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The calf is never drawn; no gold or idol motif. Light only for their plea for mercy. Musa: no motif. STAGING v4: The camp of the Children of Israel in the desert after the sea (desert setting; the sources do not name the place: generic wilderness). The calf is never drawn, and nothing gold (no coins or jewel plate). The people who took the calf are three faceless men (a group doing a blameworthy act: no woman is singled out). c1 (148): Musa is away (not drawn) and the camera is wide when he is named (148:3); an hourglass for his absence (148:4-6, Al-Muyassar: after he left for the appointment); the people are not shown worshipping or bowing: on 148:20 (they took it) they turn their backs. c2 (149): Musa (blue drop) comes in on 149:1 (both tafsirs: their regret came when Musa returned); they wring their hands in regret (149:2), a two-paths plate for they saw they had gone astray (149:5-8), and they raise their hands in their plea for mercy (149:9, 149:14); no plate stands over their du'a, no bowing."
+  "notes": "The calf is never drawn; no gold or idol motif. Light only for their plea for mercy. Musa: no motif. STAGING v4: The camp of the Children of Israel in the desert after the sea (desert setting; the sources do not name the place: generic wilderness). The calf is never drawn, and nothing gold (no coins or jewel plate). The people who took the calf are three faceless men (a group doing a blameworthy act: no woman is singled out). c1 (148): Musa is away (not drawn) and the camera is wide when he is named (148:3); an hourglass for his absence (148:4-6, Al-Muyassar: after he left for the appointment); the people are not shown worshipping, bowing or turning toward anything: they keep facing the viewer, held wide on 148:20 (they took it). c2 (149): Musa (blue drop) comes in on 149:1 (both tafsirs: their regret came when Musa returned); they wring their hands in regret (149:2), a two-paths plate for they saw they had gone astray (149:5-8), and they raise their hands in their plea for mercy (149:9, 149:14); no plate stands over their du'a, no bowing."
  },
  "cover": {
   "series_ar": "بنو إسرائيل بعد النجاة",
