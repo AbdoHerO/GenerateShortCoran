@@ -49,11 +49,11 @@
      },
      {
       "id": "d",
-      "type": "disbelievers",
+      "type": "people",
       "label": "",
       "place": "left",
       "count": 3,
-      "pose": "walk",
+      "pose": "stand",
       "enter": [
        69,
        2
@@ -66,7 +66,7 @@
       "label": "",
       "place": "left",
       "count": 1,
-      "pose": "walk",
+      "pose": "stand",
       "enter": [
        69,
        2
@@ -103,9 +103,10 @@
      {
       "at": [
        69,
-       7
+       6
       ],
-      "do": "shot_wide"
+      "do": "turn",
+      "who": "d"
      },
      {
       "at": [
@@ -168,7 +169,7 @@
      },
      {
       "id": "d",
-      "type": "disbelievers",
+      "type": "people",
       "label": "",
       "place": "center",
       "count": 3,
@@ -178,7 +179,7 @@
      },
      {
       "id": "mu",
-      "type": "people",
+      "type": "man",
       "label": "",
       "place": "right",
       "count": 1,
@@ -187,7 +188,36 @@
        70,
        10
       ],
-      "exit": null
+      "exit": null,
+      "look": "rich"
+     },
+     {
+      "id": "s2",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       72,
+       1
+      ],
+      "exit": null,
+      "look": "rich"
+     },
+     {
+      "id": "s3",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       72,
+       1
+      ],
+      "exit": null,
+      "look": "rich"
      }
     ],
     "events": [],
@@ -371,7 +401,7 @@
      },
      {
       "id": "d",
-      "type": "disbelievers",
+      "type": "people",
       "label": "",
       "place": "center",
       "count": 3,
@@ -381,13 +411,36 @@
      },
      {
       "id": "mu",
-      "type": "people",
+      "type": "man",
       "label": "",
       "place": "right",
       "count": 1,
       "pose": "stand",
       "enter": null,
-      "exit": null
+      "exit": null,
+      "look": "rich"
+     },
+     {
+      "id": "s2",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "rich"
+     },
+     {
+      "id": "s3",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "rich"
      }
     ],
     "events": [],
@@ -582,7 +635,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Yusuf and his brother are never drawn; no cup, camels or caravan. Wheat for «جهزهم بجهازهم» (the provisions). The caller's «إنكم لسارقون» carries As-Sa'di's «ولعل هذا المؤذن، لم يعلم بحقيقة الحال». STAGING v4: c1 (69) in Yusuf's guest house (Al-Muyassar: his house of hospitality): Yusuf is only a blue drop labelled Yusuf, at the right; his brothers come in (a plain group of three in dark robes) with Binyamin, a single plain man (69:2). On 69:5 (he took his brother to himself) Binyamin walks to Yusuf's side, and Yusuf speaks to him (69:8, 69:13; secretly, Al-Muyassar). No embrace is drawn. c2 (70-72) in the town: the caravan (the brothers and their camel) is furnished (a wheat plate for the provisions, 70:2-3); nothing is drawn while the cup is put in the bag (70:4-8): no cup, no bag, no hand, no Yusuf; the caravan sets off (70:9, both tafsirs: when they had set out) and a single caller appears at the right (70:10, a man in plain robes) and calls to them (70:12). The brothers answer and come back toward him (71:1-4, As-Sa'di: they came toward them to remove the charge); the caller says what is missing (72:1) and promises the reward (72:10), with a wheat plate for the camel load of food (72:8, Al-Muyassar). c3 (73): the brothers swear that they did not come to do harm and shake their heads in denial (73:6). Binyamin is not singled out in the caravan scenes."
+  "notes": "Yusuf and his brother are never drawn; no cup, camels or caravan. Wheat for «جهزهم بجهازهم» (the provisions). The caller's «إنكم لسارقون» carries As-Sa'di's «ولعل هذا المؤذن، لم يعلم بحقيقة الحال». STAGING v4: c1 (69) in Yusuf's guest house (Al-Muyassar: his house of hospitality): Yusuf is only a blue drop labelled Yusuf, at the right; his brothers come in (a plain group of three; 3 figures = a group, not their number) with Binyamin, a single plain man (69:2). On 69:5 (he took his brother to himself) Binyamin walks to Yusuf's side; the brothers turn away (69:6) before Yusuf speaks to him (69:8, 69:13), so it is said apart from them (Al-Muyassar: secretly, and he told him to keep it from them). No embrace is drawn. c2 (70-72) in the town: the caravan (the brothers and their camel) is furnished (a wheat plate for the provisions, 70:2-3); nothing is drawn while the cup is put in the bag (70:4-8): no cup, no bag, no hand, no Yusuf; the caravan sets off (70:9, both tafsirs: when they had set out) and a single caller appears at the right (70:10, the verse: one caller; a man in fine robes as the king's crier, so he is not taken for Binyamin or the brothers) and calls to them (70:12). The brothers answer and come back toward him (71:1-4, As-Sa'di: they came toward them to remove the charge); for the plural they said (72:1) two more of the king's men in the same fine robes join him, so the searchers are a party of three (Al-Muyassar: the caller and those with him; fine robes so they are never taken for the brothers' plain group), the caller speaks for them (72:1) and alone promises the reward (72:10, I am its guarantor), with a wheat plate for the camel load of food (72:8, Al-Muyassar). c3 (73): the brothers swear to the searchers that they did not come to do harm and shake their heads in denial (73:6). Binyamin is not singled out in the caravan scenes."
  },
  "cover": {
   "series_ar": "لقاء الإخوة",

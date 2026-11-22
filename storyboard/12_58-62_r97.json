@@ -49,7 +49,7 @@
      },
      {
       "id": "d",
-      "type": "disbelievers",
+      "type": "people",
       "label": "",
       "place": "left",
       "count": 3,
@@ -134,7 +134,7 @@
      },
      {
       "id": "d",
-      "type": "disbelievers",
+      "type": "people",
       "label": "",
       "place": "center",
       "count": 3,
@@ -278,7 +278,7 @@
      },
      {
       "id": "d",
-      "type": "disbelievers",
+      "type": "people",
       "label": "",
       "place": "center",
       "count": 3,
@@ -298,16 +298,17 @@
      },
      {
       "id": "f",
-      "type": "people",
+      "type": "man",
       "label": "",
       "place": "right",
-      "count": 3,
+      "count": 1,
       "pose": "stand",
       "enter": [
        62,
        2
       ],
-      "exit": null
+      "exit": null,
+      "look": "plain"
      }
     ],
     "events": [],
@@ -535,7 +536,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Yusuf and his brothers are never drawn. Wheat for «أوفي الكيل», coins for the returned price «بضاعتهم». The plates sit on the measure and the price, not on Yusuf. STAGING v4: Staged in Egypt (a plain town by day; no palace, no throne, no pyramids). Yusuf is only a blue drop labelled Yusuf, always at the right, never at the centre. His brothers are a plain group of three men in dark robes (never numbered), with one camel for their provisions (As-Sa'di 59: a camel load each). c1 (58): the brothers come in and walk toward Yusuf (58:4, they entered upon him); nothing is drawn for his recognising them. c2 (59-60): a wheat plate for the provisions he measured out (59:2); Yusuf speaks to them (59:4, 59:10, 59:16, 60:1, 60:6); the listeners make no gesture. c3 (61-62): the brothers answer (61:1, 61:5); Yusuf's servants (a plain group of three, 62:2) appear beside him and he speaks to them (62:3, 62:8); a coins plate for the price returned (62:4-8, Al-Muyassar: the price). The servants do not walk to the bags (the tafsir: secretly), and nobody leaves on the conditional 62:9-12."
+  "notes": "Yusuf and his brothers are never drawn. Wheat for «أوفي الكيل», coins for the returned price «بضاعتهم». The plates sit on the measure and the price, not on Yusuf. STAGING v4: Staged in Egypt (a plain town by day; no palace, no throne, no pyramids). Yusuf is only a blue drop labelled Yusuf, always at the right, never at the centre. His brothers are a plain group of three men (owner decision: plain figures, never the rejecting crowd; 3 figures = a group, not their number), with one camel for their provisions (As-Sa'di 59: a camel load each). c1 (58): the brothers come in and walk toward Yusuf (58:4, they entered upon him); nothing is drawn for his recognising them. c2 (59-60): a wheat plate for the provisions he measured out (59:2); Yusuf speaks to them (59:4, 59:10, 59:16, 60:1, 60:6); the listeners make no gesture. c3 (61-62): the brothers answer (61:1, 61:5); one of Yusuf's servants (a single plain man, 62:2, so he is not confused with the brothers' group) appears beside him and he speaks to them (62:3, 62:8); a coins plate for the price returned (62:4-8, Al-Muyassar: the price). The servant does not walk to the bags (the tafsir: secretly), and nobody leaves on the conditional 62:9-12."
  },
  "cover": {
   "series_ar": "لقاء الإخوة",

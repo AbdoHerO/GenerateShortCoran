@@ -49,13 +49,16 @@
      },
      {
       "id": "d",
-      "type": "disbelievers",
+      "type": "people",
       "label": "",
       "place": "left",
       "count": 3,
       "pose": "stand",
       "enter": null,
-      "exit": null
+      "exit": [
+       83,
+       8
+      ]
      }
     ],
     "events": [],
@@ -97,7 +100,8 @@
        83,
        8
       ],
-      "do": "shot_wide"
+      "do": "turn",
+      "who": "d"
      },
      {
       "at": [
@@ -171,7 +175,7 @@
      },
      {
       "id": "d",
-      "type": "disbelievers",
+      "type": "people",
       "label": "",
       "place": "left",
       "count": 3,
@@ -270,7 +274,7 @@
      },
      {
       "id": "d",
-      "type": "disbelievers",
+      "type": "people",
       "label": "",
       "place": "left",
       "count": 3,
@@ -467,7 +471,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Ya'qub and his eyes are never drawn; no plate in 84-85. Light for «عسى الله أن يأتيني بهم جميعا», geometric for «إنه هو العليم الحكيم». Cut: «صبرا جميلا» and passage echoes. STAGING v4: At Ya'qub's tents in the desert (12:100). Ya'qub is only a blue drop labelled Ya'qub; his sons are a plain group of three in dark robes. c1 (83): Ya'qub answers them (83:1, 83:7); a light plate from 83:9 (may Allah bring them all back; it starts before the Name) and a geometric plate for the All-Knowing, the Wise (83:15). Nothing glows on Ya'qub. c2 (84): his grief is shown only through his drop: it turns away from them and moves aside (84:1-2, both tafsirs: he turned away from them) and dips once, softly (84:4, his sorrow); nothing is drawn for the eyes turning white (84:7-10) or for weeping, and there is no plate. c3 (85): his sons speak to him (85:1, 85:6, 85:9); no plate on their oath."
+  "notes": "Ya'qub and his eyes are never drawn; no plate in 84-85. Light for «عسى الله أن يأتيني بهم جميعا», geometric for «إنه هو العليم الحكيم». Cut: «صبرا جميلا» and passage echoes. STAGING v4: At Ya'qub's tents in the desert (12:100). Ya'qub is only a blue drop labelled Ya'qub; his sons are a plain group of three (3 figures = a group, not their number). c1 (83): Ya'qub answers them (83:1, 83:7), then they turn and leave (83:8), so that no three figures stand on stage while the gloss on his three sons is shown (83:9-14: the three he hopes for are Yusuf, Binyamin and the eldest, none of them here) and Ya'qub's drop stands alone; a light plate from 83:9 (may Allah bring them all back; it starts before the Name) and a geometric plate for the All-Knowing, the Wise (83:15). Nothing glows on Ya'qub. c2 (84): his grief is shown only through his drop: it turns away from them and moves aside (84:1-2, both tafsirs: he turned away from them) and dips once, softly (84:4, his sorrow); nothing is drawn for the eyes turning white (84:7-10) or for weeping, and there is no plate. c3 (85): his sons speak to him (85:1, 85:6, 85:9); no plate on their oath."
  },
  "cover": {
   "series_ar": "صبر يعقوب",

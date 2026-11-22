@@ -39,7 +39,7 @@
     "actors": [
      {
       "id": "d",
-      "type": "disbelievers",
+      "type": "people",
       "label": "",
       "place": "left",
       "count": 3,
@@ -49,13 +49,14 @@
      },
      {
       "id": "e",
-      "type": "disbelievers",
+      "type": "man",
       "label": "",
       "place": "right",
       "count": 1,
       "pose": "stand",
       "enter": null,
-      "exit": null
+      "exit": null,
+      "look": "plain"
      }
     ],
     "events": [],
@@ -213,7 +214,7 @@
      },
      {
       "id": "d",
-      "type": "disbelievers",
+      "type": "people",
       "label": "",
       "place": "left",
       "count": 3,
@@ -223,13 +224,14 @@
      },
      {
       "id": "e",
-      "type": "disbelievers",
+      "type": "man",
       "label": "",
       "place": "right",
       "count": 1,
       "pose": "stand",
       "enter": null,
-      "exit": null
+      "exit": null,
+      "look": "plain"
      }
     ],
     "events": [],
@@ -443,7 +445,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A seal for «موثقا من الله», geometric for «أو يحكم الله لي وهو خير الحاكمين». 81:1-8 («إن ابنك سرق») is not glossed: the next chip carries their basis «لأننا رأينا الصواع استخرج من رحله», so the charge is not stated as fact. «كبيرهم» is not identified. STAGING v4: In the town of Egypt, the brothers apart from everyone (Al-Muyassar: they withdrew from the people; As-Sa'di: alone). They are plain men in dark robes: a group of three, and the eldest (not identified) as one figure of the same look. c1 (80): they confer in a tight group and the eldest joins them (80:4) and speaks (80:6, 80:18, 80:28); a seal plate for the pledge by Allah (80:15-17); he shakes his head as he says he will not leave the land (80:24); a geometric plate for until Allah judges for me (80:32). No drop: Yusuf is only named (80:23) and Ya'qub is absent, and no close-up comes near those words. c2 (81-82): the eldest tells them to go back (81:1, a footsteps plate for the return) and what to say (81:4, 81:10); their charge against Binyamin is not drawn (no Binyamin, no plate, no pointing); the camel stands for the caravan named in 82:6. 82 has no speech beat at all: Al-Muyassar gives it to the brothers before their father, As-Sa'di to the eldest's instruction, so the speaker is not shown."
+  "notes": "A seal for «موثقا من الله», geometric for «أو يحكم الله لي وهو خير الحاكمين». 81:1-8 («إن ابنك سرق») is not glossed: the next chip carries their basis «لأننا رأينا الصواع استخرج من رحله», so the charge is not stated as fact. «كبيرهم» is not identified. STAGING v4: In the town of Egypt, the brothers apart from everyone (Al-Muyassar: they withdrew from the people; As-Sa'di: alone). They are plain men: a group of three (3 figures = a group, not their number), and the eldest (not identified) as one plain man. c1 (80): they confer in a tight group and the eldest joins them (80:4) and speaks (80:6, 80:18, 80:28); a seal plate for the pledge by Allah (80:15-17); he shakes his head as he says he will not leave the land (80:24); a geometric plate for until Allah judges for me (80:32). No drop: Yusuf is only named (80:23) and Ya'qub is absent, and no close-up comes near those words. c2 (81-82): the eldest tells them to go back (81:1, a footsteps plate for the return) and what to say (81:4, 81:10); their charge against Binyamin is not drawn (no Binyamin, no plate, no pointing); the camel stands for the caravan named in 82:6. 82 has no speech beat at all: Al-Muyassar gives it to the brothers before their father, As-Sa'di to the eldest's instruction, so the speaker is not shown."
  },
  "cover": {
   "series_ar": "صبر يعقوب",
