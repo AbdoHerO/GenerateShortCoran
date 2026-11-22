@@ -34,7 +34,7 @@
    ],
    "scene": "stage",
    "params": {
-    "setting": "city",
+    "setting": "desert",
     "time": "dawn",
     "actors": [
      {
@@ -537,7 +537,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Musa: no motif; the book starts on «الكتاب». Their would-be excuses (156-157) are framed as excuses («إما أن تعتذروا…»). 157:26-35 is not glossed (Al-Muyassar's paraphrase is first person). Light for «بينة… وهدى ورحمة». STAGING v4: c1 (154): Musa only as a blue labelled drop, appearing on his name (154:3), with the people of his nation (3 faceless figures); the book plate (154:4-8) for the Torah, they read on 154:9 (the details of their religion), a light plate for guidance and mercy (154:12-13). No motif, glow, close-up or pan on the drop (shot_wide only); no place is given by the tafsirs, so a plain town is used (no mountain). c2 (155-157): the Quran (book plate) and the believers who follow it read on 155:5 and 157:16; the Arab idolaters (3 men in dark robes) stand apart. Their would-be excuses (156:1-157:10) are hypothetical («lest you say»), so they never speak: only the camera moves to them, and the two earlier communities are not drawn. They shake their heads on 157:21 (denying) and turn away on 157:24; they do not leave during the threat (157:26-35), the camera holds on them. The Prophet is not shown."
+  "notes": "Musa: no motif; the book starts on «الكتاب». Their would-be excuses (156-157) are framed as excuses («إما أن تعتذروا…»). 157:26-35 is not glossed (Al-Muyassar's paraphrase is first person). Light for «بينة… وهدى ورحمة». STAGING v4: c1 (154): Musa only as a blue labelled drop, appearing on his name (154:3), with the people of his nation (3 faceless figures); the book plate (154:4-8) for the Torah, they read on 154:9 (the details of their religion), a light plate for guidance and mercy (154:12-13). No motif, glow, close-up or pan on the drop (shot_wide only); no place is given by the tafsirs, so the least specific this-world place is used: the desert with tents (no mountain, no town). c2 (155-157): the Quran (book plate) and the believers who follow it read on 155:5 and 157:16; the Arab idolaters (3 men in dark robes) stand apart. Their would-be excuses (156:1-157:10) are hypothetical («lest you say»), so they never speak: only the camera moves to them, and the two earlier communities are not drawn. They shake their heads on 157:21 (denying) and turn away on 157:24; they do not leave during the threat (157:26-35), the camera holds on them. The Prophet is not shown."
  },
  "cover": {
   "series_ar": "الوصايا والختام",

@@ -35,7 +35,7 @@
    "scene": "stage",
    "params": {
     "setting": "desert",
-    "time": "dusk",
+    "time": "day",
     "actors": [
      {
       "id": "hud",
@@ -167,7 +167,7 @@
    "scene": "stage",
    "params": {
     "setting": "desert",
-    "time": "dusk",
+    "time": "day",
     "actors": [
      {
       "id": "hud",
@@ -346,7 +346,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Hud: no motif. No idols, wind storm or destruction drawn: an hourglass for «فانتظروا», light for «برحمة منا». First-person «استأصلناهم» not used. STAGING v4: Hud is a blue drop labelled Hud; 'Ad's chiefs three faceless men in dark robes; dusk (no dawn over a threat or a punishment). c1 (71): Hud speaks (71:1), the camera on them for the threat (71:3); they dispute (71:9, As-Sa'di: how do you dispute); the camera on them for the names they invented (71:11), the idols are never drawn; hourglass for wait (71:21); Hud speaks again (71:22). c2 (72): Hud moves away on 72:1 (saved), a footsteps plate stands for those with him (72:2-5: the believers are not drawn, so they are not counted), and he leaves the stage on 72:5. The storm falls on the empty desert from 72:6 (Al-Muyassar: the punishment came by the violent wind); nobody is on the stage, nobody is hurt, no ruin."
+  "notes": "Hud: no motif. No idols, wind storm or destruction drawn: an hourglass for «فانتظروا», light for «برحمة منا». First-person «استأصلناهم» not used. STAGING v4: Hud is a blue drop labelled Hud; 'Ad's chiefs three faceless men in dark robes; day (a low red sun could read as dawn, so no dusk or dawn over the threat and the punishment). c1 (71): Hud speaks (71:1), the camera on them for the threat (71:3); they dispute (71:9, As-Sa'di: how do you dispute); the camera on them for the names they invented (71:11), the idols are never drawn; hourglass for wait (71:21); Hud speaks again (71:22). c2 (72): Hud moves away on 72:1 (saved), a footsteps plate stands for those with him (72:2-5: the believers are not drawn, so they are not counted), and he leaves the stage on 72:5. The storm falls on the empty desert from 72:6 (Al-Muyassar: the punishment came by the violent wind); nobody is on the stage, nobody is hurt, no ruin."
  },
  "cover": {
   "series_ar": "دعوة الرسل",

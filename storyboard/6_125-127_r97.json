@@ -145,18 +145,7 @@
       "who": "x"
      }
     ],
-    "motifs": [
-     {
-      "at": [
-       125,
-       26
-      ],
-      "until": null,
-      "motif": "door",
-      "place": "top",
-      "size": "s"
-     }
-    ]
+    "motifs": []
    }
   },
   {
@@ -382,7 +371,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No person and no sky ascent drawn for 125:17-20. 125:21-28 «الرجس» is not glossed (Al-Muyassar reads it as punishment; the tafsirs word it differently). 127 (Paradise, «دار السلام»): light mood only; no garden, river or gold motif. Light for «يشرح صدره للإسلام», footsteps for «صراط ربك مستقيما», geometric for «وهو وليهم». STAGING v4: c1 (125): the sign of guidance and of misguidance shown on two men in a town by day: the guided man (light robes) gets a soft sparkle on 125:6 and raises his hands on 125:8 (his chest opened to Islam); no plate above him, so his raised hands never point at a light plate; the man in dark robes wrings his hands and lowers his head on 125:15-16 (his chest tight); the simile of climbing into the sky is only a camera tilt to the sky (125:18), nobody ascends. The camera holds on him for 125:24-28 (no gloss on 125:24, as before); a door plate on 125:26 (As-Sa'di: they closed the door of mercy on themselves). c2 (126-127): believers in a prayer hall read on 126:7 (the verses detailed for those who remember, footsteps for the straight path); the Home of Peace is not drawn (light plate only, 127:2-5), geometric for 127:6-7, and they pray on 127:8-10 (because of what they used to do). No sujud under a plate."
+  "notes": "No person and no sky ascent drawn for 125:17-20. 125:21-28 «الرجس» is not glossed (Al-Muyassar reads it as punishment; the tafsirs word it differently). 127 (Paradise, «دار السلام»): light mood only; no garden, river or gold motif. Light for «يشرح صدره للإسلام», footsteps for «صراط ربك مستقيما», geometric for «وهو وليهم». STAGING v4: c1 (125): the sign of guidance and of misguidance shown on two men in a town by day: the guided man (light robes) gets a soft sparkle on 125:6 and raises his hands on 125:8 (his chest opened to Islam); no plate above him, so his raised hands never point at a light plate; the man in dark robes wrings his hands and lowers his head on 125:15-16 (his chest tight); the simile of climbing into the sky is only a camera tilt to the sky (125:18), nobody ascends. The camera holds on him for 125:24-28 (no gloss on 125:24, as before); no plate there. c2 (126-127): believers in a prayer hall read on 126:7 (the verses detailed for those who remember, footsteps for the straight path); the Home of Peace is not drawn (light plate only, 127:2-5), geometric for 127:6-7, and they pray on 127:8-10 (because of what they used to do). No sujud under a plate."
  },
  "cover": {
   "series_ar": "الهداية والضلال",
