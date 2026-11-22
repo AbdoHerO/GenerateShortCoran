@@ -32,14 +32,62 @@
    "verses": [
     90
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "shuayb",
+      "type": "prophet",
+      "label": "شعيب",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        90,
+       1
+      ],
+      "do": "speak",
+      "who": "shuayb",
+      "to": "d"
+     },
+     {
+      "at": [
+       90,
        4
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       90,
+       6
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       90,
+       8
       ],
       "do": "shot_wide"
      }
@@ -51,9 +99,9 @@
        6
       ],
       "until": null,
-      "motif": "light",
+      "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -65,35 +113,79 @@
     91,
     92
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "shuayb",
+      "type": "prophet",
+      "label": "شعيب",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        91,
-       7
+       1
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "d",
+      "to": "shuayb"
      },
      {
       "at": [
        91,
-       10
+       4
       ],
-      "do": "pan_left"
+      "do": "shake_head",
+      "who": "d"
      },
      {
       "at": [
        91,
-       14
+       9
+      ],
+      "do": "point",
+      "who": "d",
+      "to": "shuayb"
+     },
+     {
+      "at": [
+       91,
+       12
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       91,
+       16
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        91,
-       17
+       18
       ],
       "do": "shot_wide"
      },
@@ -102,19 +194,36 @@
        92,
        1
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "shuayb",
+      "to": "d"
+     },
+     {
+      "at": [
+       92,
+       4
+      ],
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        92,
        5
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        92,
-       9
+       8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       92,
+       13
       ],
       "do": "shot_wide"
      }
@@ -128,7 +237,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "dissolve"
@@ -140,30 +249,89 @@
    "verses": [
     93
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "shuayb",
+      "type": "prophet",
+      "label": "شعيب",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        93,
-       11
+       1
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "shuayb",
+      "to": "d"
      },
      {
       "at": [
        93,
-       15
+       4
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       93,
+       6
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        93,
+       10
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       93,
+       13
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       93,
+       16
+      ],
+      "do": "speak",
+      "who": "shuayb",
+      "to": "d"
+     },
+     {
+      "at": [
+       93,
        18
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "d"
      }
     ],
     "motifs": [
@@ -172,16 +340,13 @@
        93,
        7
       ],
-      "until": [
-       93,
-       9
-      ],
+      "until": null,
       "motif": "hourglass",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "wipe"
    }
   }
  ],
@@ -310,7 +475,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No hands on «واستغفروا ربكم»; light for «إن ربي رحيم ودود», geometric for «إن ربي بما تعملون محيط», an hourglass for «سوف تعلمون». Their scorn of Shu'ayb (91:8-11, 15-18) is not glossed; 91:1-7 carries As-Sa'di's reason «لبغضهم لما يقول». 93:1-4 «اعملوا على مكانتكم» is a threat: the video says so with Al-Muyassar's «وهذا تهديد شديد لهم». «مثقال ذرة» (Quran wording) is cut."
+  "notes": "No hands on «واستغفروا ربكم»; light for «إن ربي رحيم ودود», geometric for «إن ربي بما تعملون محيط», an hourglass for «سوف تعلمون». Their scorn of Shu'ayb (91:8-11, 15-18) is not glossed; 91:1-7 carries As-Sa'di's reason «لبغضهم لما يقول». 93:1-4 «اعملوا على مكانتكم» is a threat: the video says so with Al-Muyassar's «وهذا تهديد شديد لهم». «مثقال ذرة» (Quran wording) is cut. STAGING v4: Madyan's town by day: Shu'ayb a blue drop labelled Shu'ayb (no plate on his name, no close-up or pan on his drop), his people three faceless men in dark robes. His clan is not drawn (the tafsirs place them nowhere in the scene). c1 (90): Shu'ayb tells them to seek forgiveness (90:1); the command is not acted by them (no raised hands, no bowing), only the camera on them (90:4); geometric for my Lord is Merciful, Loving (90:6-9, not a light plate on His attributes). c2 (91-92): they answer (91:1), shake their heads (91:4, As-Sa'di: they were weary of his advice) and point at him for we see you weak among us (91:9); the threat of stoning (91:12-14) is a counterfactual: no gesture, no stone, only the camera on them; Shu'ayb answers (92:1), the camera on them for is my clan dearer to you than Allah (92:4); nobody turns their back on 92:8-10 (a figure of speech); geometric for my Lord encompasses what you do (92:11-15). c3 (93): his last warning: Shu'ayb speaks (93:1, 93:16), the camera on them for the threat (93:4, 93:10, 93:18; Al-Muyassar: a severe threat); an hourglass for you will come to know (93:7-19); nothing of the punishment is drawn here. Cover: Shu'ayb answering them about his clan."
  },
  "cover": {
   "series_ar": "شعيب ومدين",
@@ -319,8 +484,9 @@
   "title_en": "Shu'ayb's clan",
   "at": [
    92,
-   11
+   2
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

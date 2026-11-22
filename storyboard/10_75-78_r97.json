@@ -39,9 +39,9 @@
     "time": "day",
     "actors": [
      {
-      "id": "musa",
+      "id": "harun",
       "type": "prophet",
-      "label": "موسى",
+      "label": "هارون",
       "place": "left",
       "count": 1,
       "pose": "stand",
@@ -49,9 +49,9 @@
       "exit": null
      },
      {
-      "id": "harun",
+      "id": "musa",
       "type": "prophet",
-      "label": "هارون",
+      "label": "موسى",
       "place": "left",
       "count": 1,
       "pose": "stand",
@@ -131,7 +131,8 @@
        6
       ],
       "do": "speak",
-      "who": "m"
+      "who": "m",
+      "to": "musa"
      },
      {
       "at": [
@@ -192,9 +193,9 @@
     "time": "day",
     "actors": [
      {
-      "id": "musa",
+      "id": "harun",
       "type": "prophet",
-      "label": "موسى",
+      "label": "هارون",
       "place": "left",
       "count": 1,
       "pose": "stand",
@@ -202,9 +203,9 @@
       "exit": null
      },
      {
-      "id": "harun",
+      "id": "musa",
       "type": "prophet",
-      "label": "هارون",
+      "label": "موسى",
       "place": "left",
       "count": 1,
       "pose": "stand",
@@ -240,7 +241,8 @@
        1
       ],
       "do": "speak",
-      "who": "musa"
+      "who": "musa",
+      "to": "k"
      },
      {
       "at": [
@@ -262,7 +264,8 @@
        7
       ],
       "do": "speak",
-      "who": "musa"
+      "who": "musa",
+      "to": "k"
      },
      {
       "at": [
@@ -270,7 +273,8 @@
        1
       ],
       "do": "speak",
-      "who": "m"
+      "who": "m",
+      "to": "musa"
      },
      {
       "at": [
@@ -457,7 +461,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Musa and Harun are never drawn and get no motif; no motif in 77 (Musa's words). Their charge of sorcery (76) and their reply (78) are framed («حتى جعلوه أبطل الباطل», «رادين لقوله»). Light for «جاءهم الحق من عندنا». STAGING v4: Pharaoh's court in Egypt (palace setting, no pyramids). Musa and Harun are blue drops labelled with their names, side by side on the left (both are sent to Pharaoh and his chiefs in 75, and addressed together in 78); Pharaoh is a plain faceless king (the label only gives his headdress and is not drawn); his chiefs are three faceless men in dark robes. No plate starts on a prophet's name and the camera is wide whenever Musa or Harun is named or Musa speaks (no close-up, no pan on the drops). No staff, serpent, hand or magic is drawn, and nothing glows on the signs. c1 (75-76): the camera on Pharaoh and his chiefs (75:8, framed from the chiefs' side so the drops are not cropped or enlarged); they shake their heads on 75:11 (they were arrogant: both tafsirs, toward accepting the truth), with a crown plate for that arrogance (75:11 to 76:2); a seal plate for the truth from Us (76:3-5), not a light plate; the chiefs speak their charge of magic (76:6, framed by the gloss); nobody points at Musa. c2 (77-78): Musa speaks (77:1, 77:7) and the court makes no gesture inside his words; an hourglass for magicians will not succeed (77:9-11; As-Sa'di: see whose is the outcome). The chiefs answer (78:1; Al-Muyassar: Pharaoh and his chiefs said): the camera on them and Pharaoh at the edge of the frame (78:2), a footsteps plate for the way of their fathers (78:5-7); the camera is wide on 78:8-10 (greatness for you two: no crown is put near the prophets); they shake their heads on 78:16 (we are not believers in you)."
+  "notes": "Their charge of sorcery (76) and their reply (78) are framed by As-Sa'di («حتى جعلوه أبطل الباطل», «رادين لقوله»). STAGING v4: Pharaoh's court in Egypt (palace setting, no pyramids). Musa and Harun are blue drops labelled with their names, side by side on the left, Musa on the inner side next to Pharaoh and Harun on the outer side (both are sent to Pharaoh and his chiefs in 75, and addressed together in 78), so Musa's speech arcs point at Pharaoh and never land on Harun; Pharaoh is a plain faceless king (the label only gives his headdress and is not drawn); his chiefs are three faceless men in dark robes. No plate starts on a prophet's name and the camera is wide whenever Musa or Harun is named or Musa speaks (no close-up, no pan on the drops). No staff, serpent, hand or magic is drawn, and nothing glows on the signs. c1 (75-76): the camera on Pharaoh and his chiefs (75:8, framed from the chiefs' side so the drops are not cropped or enlarged); they shake their heads on 75:11 (they were arrogant: both tafsirs, toward accepting the truth), with a crown plate for that arrogance (75:11 to 76:2); a seal plate for the truth from Us (76:3-5), not a light plate; the chiefs speak their charge of magic toward Musa (76:6, framed by the gloss); nobody points at Musa. c2 (77-78): Musa speaks to Pharaoh's court (77:1, 77:7) and the court makes no gesture inside his words; an hourglass for magicians will not succeed (77:9-11; As-Sa'di: see whose is the outcome). The chiefs answer Musa (78:1; Al-Muyassar: Pharaoh and his chiefs said; As-Sa'di: they said to Musa): the camera on them and Pharaoh at the edge of the frame (78:2), a footsteps plate for the way of their fathers (78:5-7); the camera is wide on 78:8-10 (greatness for you two: no crown is put near the prophets); they shake their heads on 78:16 (we are not believers in you)."
  },
  "cover": {
   "series_ar": "موسى وفرعون",

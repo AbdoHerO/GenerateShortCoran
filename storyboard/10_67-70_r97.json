@@ -34,8 +34,8 @@
    ],
    "scene": "stage",
    "params": {
-    "setting": "city",
-    "time": "dusk",
+    "setting": "home",
+    "time": "night",
     "actors": [
      {
       "id": "p",
@@ -48,16 +48,7 @@
       "exit": null
      }
     ],
-    "events": [
-     {
-      "type": "sunrise_open",
-      "at": [
-       67,
-       8
-      ],
-      "until": null
-     }
-    ],
+    "events": [],
     "beats": [
      {
       "at": [
@@ -103,7 +94,7 @@
        67,
        13
       ],
-      "do": "look_up",
+      "do": "shot_close",
       "who": "p"
      },
      {
@@ -388,7 +379,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Their claim (68:1-4) is framed («بهت المشركين»); Al-Muyassar's examples of the claim are not shown. 68:8-14 is not glossed (Al-Muyassar's «يكون له ولد» is 6:101 wording). Night and day for 67, geometric for «سبحانه هو الغني», stars for the heavens, wind for «متاع في الدنيا». STAGING v4: c1 (67), the night for rest and the day for sight: a town at nightfall (dusk, windows lit; a full night stage cannot brighten into day), a family (four faceless people, men and a woman) sitting at rest (67:6, both tafsirs: rest after the toil of seeking a living); a night-and-day plate (67:5-9); the sun rises over the town on 67:8 (the day, giving sight) and the family stands (67:9) and walks off to its affairs (67:10, As-Sa'di: they go about their livelihoods); they look up at the sky for signs for a people who listen (67:13). Not the sleep pose (it reads as shrouded bodies). c2 (68-70) stays ambient: the claim that Allah took a son (framed by the gloss, never acted by anyone), His glorification and self-sufficiency, the Prophet's ﷺ instruction (69) and the return and punishment in the Hereafter (70). Mood changed from geometric to night_sky: the verse refutes a son, and Al-Muyassar names the Messiah among the claims, so the Names' mood is not used over it. params.quiet over Allah's first-person words on the return and the punishment (70:4-13). Plates kept: geometric for glorified is He (68:5-7), stars for the heavens (68:10-14, gone before 68:22), wind for brief enjoyment (70:1-3)."
+  "notes": "Their claim (68:1-4) is framed («بهت المشركين»); Al-Muyassar's examples of the claim are not shown. 68:8-14 is not glossed (Al-Muyassar's «يكون له ولد» is 6:101 wording). Night and day for 67, geometric for «سبحانه هو الغني», stars for the heavens, wind for «متاع في الدنيا». STAGING v4: c1 (67), the night for rest and the day for sight: inside a home at night (the window shows the night sky and the crescent), a family (four faceless people, men and a woman) sitting at rest on the rug (67:6, both tafsirs: rest in the darkness after the toil of seeking a living); a night-and-day plate carries the alternation (67:5-9: the home's window cannot turn to day); on giving sight the family stands (67:9) and walks off to its affairs (67:10, As-Sa'di: they go about their livelihoods); the camera on them for a people who listen (67:13). Not the sleep pose (it reads as shrouded bodies). c2 (68-70) stays ambient: the claim that Allah took a son (framed by the gloss, never acted by anyone), His glorification and self-sufficiency, the Prophet's ﷺ instruction (69) and the return and punishment in the Hereafter (70). Mood changed from geometric to night_sky: the verse refutes a son, and Al-Muyassar names the Messiah among the claims, so the Names' mood is not used over it. params.quiet over Allah's first-person words on the return and the punishment (70:4-13). Plates kept: geometric for glorified is He (68:5-7), stars for the heavens (68:10-14, gone before 68:22), wind for brief enjoyment (70:1-3)."
  },
  "cover": {
   "series_ar": "القرآن والطمأنينة",

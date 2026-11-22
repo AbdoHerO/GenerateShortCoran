@@ -81,8 +81,7 @@
        79,
        1
       ],
-      "do": "speak",
-      "who": "k"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -126,7 +125,8 @@
        7
       ],
       "do": "speak",
-      "who": "musa"
+      "who": "musa",
+      "to": "s"
      },
      {
       "at": [
@@ -146,7 +146,7 @@
      {
       "at": [
        81,
-       3
+       2
       ],
       "do": "shot_wide"
      },
@@ -156,7 +156,8 @@
        5
       ],
       "do": "speak",
-      "who": "musa"
+      "who": "musa",
+      "to": "s"
      },
      {
       "at": [
@@ -164,7 +165,8 @@
        9
       ],
       "do": "speak",
-      "who": "musa"
+      "who": "musa",
+      "to": "s"
      },
      {
       "at": [
@@ -172,7 +174,8 @@
        12
       ],
       "do": "speak",
-      "who": "musa"
+      "who": "musa",
+      "to": "s"
      },
      {
       "at": [
@@ -270,10 +273,23 @@
      {
       "at": [
        83,
+       10
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       83,
+       11
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       83,
        12
       ],
-      "do": "shot_close",
-      "who": "y"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -302,7 +318,8 @@
        1
       ],
       "do": "speak",
-      "who": "musa"
+      "who": "musa",
+      "to": "y"
      },
      {
       "at": [
@@ -327,19 +344,6 @@
      }
     ],
     "motifs": [
-     {
-      "at": [
-       83,
-       11
-      ],
-      "until": [
-       84,
-       1
-      ],
-      "motif": "crown",
-      "place": "top",
-      "size": "s"
-     },
      {
       "at": [
        84,
@@ -480,7 +484,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Sorcery, ropes, staffs and snakes are never drawn. Musa and Harun get no motif; no motif in 80-81 and 84 (Musa's words). Pharaoh's order is framed («معارضًا للحق… ومغالطًا»). 83:1-7 keeps Al-Muyassar's general wording (As-Sa'di's «شباب» is not used). Light for «ويحق الله الحق». STAGING v4: The gathering in Egypt, by day (city setting, no pyramids), as in Al-A'raf. Musa is a blue drop labelled Musa (no plate on his name; the camera is wide whenever he is named or speaks: no close-up or pan on his drop, no close-up on others during his words); Harun is not named in 79-84 and is not drawn. Pharaoh is a plain faceless king. c1 (79-82): Pharaoh speaks his order (79:1), held wide (a close-up on him in the centre would enlarge Musa's drop); the magicians walk in on 80:2, three faceless men in dark robes (the series' sign for a group, no number meant: their number is not in the sources; not an uncountable crowd, whose rocks read as idols or troops), the camera on them (80:3). Musa speaks (80:7, 81:5, 81:9, 81:12). Their throwing (81:1-2) is never drawn: no ropes, staffs, snakes, light or glow; the camera only holds on the magicians. A geometric plate for Allah establishes the truth by His words (82:1-7). As-Sa'di's mention of the magicians' prostration is not drawn (not in these verses). c2 (83-84): the few of Musa's people who believed (both tafsirs: offspring, young men of the Children of Israel) are three believers in light robes on the right, apart from Musa's drop so that a close-up on them never enlarges or crops it, the camera on them (83:5, 83:12); Pharaoh and his chiefs are not on the stage (the believers fear them, they are not shown confronting them): a crown plate stands for Pharaoh, haughty in the land (83:11 to 84:1). Musa speaks to them (84:1); his conditional words (84:4-7) are not acted; a seal plate for rely upon Him (84:8-12)."
+  "notes": "Pharaoh's order is framed by As-Sa'di («معارضًا للحق… ومغالطًا»). 83:1-7 keeps Al-Muyassar's general wording (As-Sa'di's «شباب» is not glossed). STAGING v4: The gathering in Egypt, by day (city setting, no pyramids), as in Al-A'raf. Musa is a blue drop labelled Musa (no plate on his name; the camera is wide whenever he is named or speaks: no close-up or pan on his drop, no close-up on others during his words); Harun is not named in 79-84 and is not drawn. Pharaoh is a plain faceless king. c1 (79-82): Pharaoh's order (79) is held wide with no speech gesture (those he orders are not on the stage, and his speech would point at Musa or an empty side; a close-up on him in the centre would enlarge Musa's drop); the magicians walk in on 80:2, three faceless men in dark robes (the series' sign for a group, no number meant: their number is not in the sources; not an uncountable crowd, whose rocks read as idols or troops), the camera on them (80:3). Musa speaks to the magicians (80:7, 81:5, 81:9, 81:12). Their throwing (81:1-2) is never drawn: no ropes, staffs, snakes, light or glow; the camera only holds on the magicians (81:1) and is wide again on 81:2, before Musa is named. A geometric plate for Allah establishes the truth by His words (82:1-7). As-Sa'di's mention of the magicians' prostration is not drawn (not in these verses). c2 (83-84): the few of Musa's people who believed (both tafsirs: offspring, young men of the Children of Israel) are three believers in light robes on the right, apart from Musa's drop so that a close-up on them never enlarges or crops it, the camera on them (83:5), then wide holds (a later close-up would crop Musa's drop); Pharaoh and his chiefs are not on the stage (the believers fear them, they are not shown confronting them) and no plate stands for him (a crown would float near the prophet's drop). Musa speaks to them (84:1); his conditional words (84:4-7) are not acted; a seal plate for rely upon Him (84:8-12)."
  },
  "cover": {
   "series_ar": "موسى وفرعون",

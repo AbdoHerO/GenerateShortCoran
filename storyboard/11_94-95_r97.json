@@ -32,21 +32,75 @@
    "verses": [
     94
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "shuayb",
+      "type": "prophet",
+      "label": "شعيب",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       94,
+       9
+      ]
+     },
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       94,
+       9
+      ]
+     }
+    ],
+    "events": [
+     {
+      "type": "blast",
+      "at": [
+       94,
+       14
+      ],
+      "until": null
+     }
+    ],
     "beats": [
      {
       "at": [
        94,
-       3
+       1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        94,
-       6
+       2
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       94,
+       4
+      ],
+      "do": "sparkle",
+      "who": "b"
+     },
+     {
+      "at": [
+       94,
+       7
       ],
       "do": "shot_wide"
      },
@@ -55,28 +109,35 @@
        94,
        8
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        94,
-       11
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       94,
-       14
+       9
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        94,
-       18
+       11
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       94,
+       15
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       94,
+       17
+      ],
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -89,9 +150,9 @@
        94,
        11
       ],
-      "motif": "light",
+      "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -102,14 +163,31 @@
    "verses": [
     95
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [],
+    "events": [],
     "beats": [
      {
       "at": [
        95,
-       4
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       95,
+       3
+      ],
+      "do": "leaves"
+     },
+     {
+      "at": [
+       95,
+       5
       ],
       "do": "pan_left"
      },
@@ -118,17 +196,31 @@
        95,
        7
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        95,
-       10
+       9
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
-    "motifs": [],
+    "motifs": [
+     {
+      "at": [
+       95,
+       1
+      ],
+      "until": [
+       95,
+       5
+      ],
+      "motif": "leaf",
+      "place": "top",
+      "size": "s"
+     }
+    ],
     "transition": "dissolve"
    }
   }
@@ -192,7 +284,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No cry, ruins or bodies drawn. Light for «برحمة» after Shu'ayb's name (94:5). 94:4-10 is not glossed (first person)."
+  "notes": "No cry, ruins or bodies drawn. Light for «برحمة» after Shu'ayb's name (94:5). 94:4-10 is not glossed (first person). STAGING v4: Madyan's town by day, as in 11_90-93. c1 (94): Shu'ayb (blue drop labelled Shu'ayb) and three believers (light robes; three is the series' sign for a group) stand in the town while the rescue is told; a soft sparkle on the believers for We saved (94:4); no close-up while Shu'ayb's name is recited and repeated (94:5). They leave the stage together on 94:9, the word of mercy (the believer group fades in place, the drop to its side), with a geometric plate for mercy from Us (94:9-10; not a light plate on a pronoun of Allah): they leave on a word of rescue, more than 3 s before the punishment is named (94:11). No departure route or destination is drawn (the tafsirs give none). The wrongdoers are never drawn: the blast (94:14) falls on the empty town by day (not dawn), no body, no ruin. c2 (95): the empty town; a leaf plate and drifting leaves for as though they had never lived there (95:1-4); the camera drifts over the empty street for away with Madyan as Thamud went away (95:5-10). Cover: the empty town with the leaf plate (the end of Madyan)."
  },
  "cover": {
   "series_ar": "شعيب ومدين",
@@ -201,8 +293,9 @@
   "title_en": "The end of Madyan",
   "at": [
    95,
-   1
+   4
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -33,10 +33,54 @@
     96,
     97
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "palace",
+    "time": "day",
+    "actors": [
+     {
+      "id": "musa",
+      "type": "prophet",
+      "label": "موسى",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       96,
+       2
+      ],
+      "exit": null
+     },
+     {
+      "id": "k",
+      "type": "king",
+      "label": "فرعون",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "m",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       96,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        96,
@@ -47,9 +91,33 @@
      {
       "at": [
        97,
+       2
+      ],
+      "do": "shot_close",
+      "who": "k"
+     },
+     {
+      "at": [
+       97,
+       4
+      ],
+      "do": "shot_close",
+      "who": "m"
+     },
+     {
+      "at": [
+       97,
        7
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       97,
+       9
+      ],
+      "do": "shot_close",
+      "who": "k"
      }
     ],
     "motifs": [
@@ -59,12 +127,12 @@
        4
       ],
       "until": [
-       96,
-       6
+       97,
+       1
       ],
-      "motif": "burst",
+      "motif": "seal",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -77,7 +145,7 @@
       ],
       "motif": "footsteps",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -96,40 +164,66 @@
      {
       "at": [
        98,
-       4
+       1
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        98,
-       6
+       4
       ],
       "do": "pan_left"
      },
      {
       "at": [
        98,
-       9
+       6
       ],
       "do": "shot_wide"
      },
      {
       "at": [
-       99,
-       2
+       98,
+       7
       ],
       "do": "pan_right"
      },
      {
       "at": [
        99,
-       5
+       1
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       99,
+       5
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       99,
+       8
+      ],
+      "do": "pan_right"
      }
     ],
     "motifs": [],
+    "quiet": [
+     [
+      [
+       98,
+       1
+      ],
+      [
+       99,
+       9
+      ]
+     ]
+    ],
     "transition": "dissolve"
    }
   }
@@ -237,7 +331,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Musa and Pharaoh are never drawn. A burst for «بآياتنا» (after Musa's name), footsteps for «فاتبعوا أمر فرعون». Nothing drawn for the Fire (98) or the curse (99). 99:5-6 is not glossed (As-Sa'di's «والناس أجمعون» echoes 2:161). The plan's «فرعون وقومه» used two passage words."
+  "notes": "Musa and Pharaoh are never drawn. A burst for «بآياتنا» (after Musa's name), footsteps for «فاتبعوا أمر فرعون». Nothing drawn for the Fire (98) or the curse (99). 99:5-6 is not glossed (As-Sa'di's «والناس أجمعون» echoes 2:161). The plan's «فرعون وقومه» used two passage words. STAGING v4: c1 (96-97): Pharaoh's court in Egypt (palace setting, no pyramids), as in 7_103-108. Musa is a blue drop labelled Musa who appears on 96:2 (We sent Musa); Pharaoh a faceless king in the Egyptian headdress (the label only selects the headdress), his chiefs three faceless men in dark robes. The signs (staff, hand) are not drawn and nothing glows on them: a seal plate for Our signs and a clear authority (96:4-6), not a light or burst plate tied to a miracle word. The camera on Pharaoh (97:2) and his chiefs (97:4), a footsteps plate for they followed the command of Pharaoh (97:4-6); the camera on Pharaoh for his command was not right-guided (97:9). No close-up or pan on Musa's drop. c2 (98-99) stays ambient (night_sky, no plate): Pharaoh leading his people into the Fire on the Day of Resurrection is the unseen and is never drawn (no fire, no crowd), and the curse that follows them here and on the Day is not pictured; params.quiet over all of 98-99 so the background does not pulse over the Fire or the curse. Cover: Pharaoh in his court (leaders into error)."
  },
  "cover": {
   "series_ar": "عبر الأمم",
@@ -246,8 +340,9 @@
   "title_en": "Leaders into error",
   "at": [
    97,
-   4
+   3
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -67,7 +67,8 @@
        1
       ],
       "do": "speak",
-      "who": "y"
+      "who": "y",
+      "to": "musa"
      },
      {
       "at": [
@@ -98,14 +99,6 @@
        1
       ],
       "do": "raise_hands",
-      "who": "y"
-     },
-     {
-      "at": [
-       86,
-       3
-      ],
-      "do": "shot_close",
       "who": "y"
      },
      {
@@ -217,7 +210,7 @@
        87,
        15
       ],
-      "do": "sujud",
+      "do": "ruku",
       "who": "b"
      },
      {
@@ -225,7 +218,7 @@
        87,
        16
       ],
-      "do": "sit",
+      "do": "rise",
       "who": "b"
      }
     ],
@@ -503,7 +496,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Musa and Harun get no motif; the hands are the people's prayer (85), not a prophet's. A house for «بيوتا», light for the prayer, coins for «وأموالا» (leaving before «في الحياة الدنيا»). As-Sa'di's «في الكنائس، والبيع العامة» is not used. 87: short-word flag, listen. STAGING v4: Egypt, by day (no pyramids). Musa and Harun are blue drops labelled with their names; no plate starts on their names; the camera is wide when they are named or when Musa speaks (no close-up or pan on the drops). c1 (85-86): Musa's people (both tafsirs: answering Musa's command), the same three believers in light robes as in 83-84, on the right, apart from Musa's drop; they speak (85:1), a seal plate for on Allah we rely (85:2-4), gone before their du'a; they raise their hands as they call on their Lord (85:7, 86:1), with no plate on screen while their hands are raised. c2 (87): a home by day (Al-Muyassar: houses as dwellings and shelters; As-Sa'di: houses where they could hide). The revelation to Musa and Harun (87:1-4) is not staged: the home is empty while they are named (no figure that could be taken for them, no drop placed where the sources do not place it). The believers come in on 87:7 (for your people), a house plate for houses (87:9-12); the camera is on them for places of prayer (87:12: no pan toward a side, no turn: the word is explained by both tafsirs as places where they pray, and the qibla is never pointed at); the houses made places of prayer (both tafsirs) and establish prayer: they pray from 87:13 (standing, prostration, sitting), facing away from everyone; the plate is gone before the prayer; they are sitting (not in prostration) when the next chapter names Musa. c3 (88): Musa's du'a against Pharaoh and his chiefs, with Harun beside him (both tafsirs: Musa supplicated and Harun said amen; 89 answers them both). Pharaoh, his chiefs and their wealth are not drawn and no harm falls on anyone: a coins plate for adornment and wealth (88:8-12, gone before 88:13), and a coins plate whose lines retract (undraw) for obliterate their wealth (88:18-20). No speech arcs or raised drop toward an empty side during the du'a (it is addressed to Allah, who is never depicted), no glow near the word of the Lord: wide holds only. The hardening of hearts and the painful punishment (88:21-29) are not drawn."
+  "notes": "As-Sa'di's «في الكنائس، والبيع العامة» is not used. 87: short-word flag, listen. STAGING v4: Egypt, by day (no pyramids). Musa and Harun are blue drops labelled with their names; no plate starts on their names; the camera is wide when they are named or when Musa speaks (no close-up or pan on the drops). c1 (85-86): Musa's people (both tafsirs: answering Musa's command), the same three believers in light robes as in 83-84, on the right, apart from Musa's drop; they speak to Musa (85:1), a seal plate for on Allah we rely (85:2-4), gone before their du'a; they raise their hands as they call on their Lord (85:7, 86:1), with no plate on screen while their hands are raised. c2 (87): a home by day (Al-Muyassar: houses as dwellings and shelters; As-Sa'di: houses where they could hide). The revelation to Musa and Harun (87:1-4) is not staged: the home is empty while they are named (no figure that could be taken for them, no drop placed where the sources do not place it). The believers come in on 87:7 (for your people), a house plate for houses (87:9-12); the camera is on them for places of prayer (87:12: no pan toward a side, no turn: the word is explained by both tafsirs as places where they pray, and the qibla is never pointed at); the houses made places of prayer (both tafsirs) and establish prayer: they pray from 87:13 (standing, bowing, rising), facing away from everyone; the plate is gone before the prayer; they are standing (not bowing or prostrating) when the next chapter names Musa. c3 (88): Musa's du'a against Pharaoh and his chiefs, with Harun beside him (both tafsirs: Musa supplicated and Harun said amen; 89 answers them both). Pharaoh, his chiefs and their wealth are not drawn and no harm falls on anyone: a coins plate for adornment and wealth (88:8-12, gone before 88:13), and a coins plate whose lines retract (undraw) for obliterate their wealth (88:18-20). No speech arcs or raised drop toward an empty side during the du'a (it is addressed to Allah, who is never depicted), no glow near the word of the Lord: wide holds only. The hardening of hearts and the painful punishment (88:21-29) are not drawn."
  },
  "cover": {
   "series_ar": "موسى وفرعون",
