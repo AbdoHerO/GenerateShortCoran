@@ -229,17 +229,17 @@
      {
       "at": [
        159,
-       16
+       15
       ],
-      "do": "shot_close",
-      "who": "c"
+      "do": "pan_left"
      },
      {
       "at": [
        159,
-       18
+       17
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "c"
      }
     ],
     "motifs": [
