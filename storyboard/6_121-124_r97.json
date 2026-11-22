@@ -32,54 +32,108 @@
    "verses": [
     121
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        121,
-       5
+       2
       ],
-      "do": "pan_right"
+      "do": "shake_head",
+      "who": "b"
      },
      {
       "at": [
        121,
-       9
+       4
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       121,
+       8
       ],
       "do": "pan_left"
      },
      {
       "at": [
        121,
-       11
+       10
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        121,
-       14
+       12
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       121,
+       15
+      ],
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        121,
        16
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "d",
+      "to": "b"
      },
      {
       "at": [
        121,
        17
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
-    "motifs": []
+    "motifs": [
+     {
+      "at": [
+       121,
+       18
+      ],
+      "until": null,
+      "motif": "two_paths",
+      "place": "top",
+      "size": "s"
+     }
+    ]
    }
   },
   {
@@ -88,21 +142,88 @@
    "verses": [
     122
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "night",
+    "actors": [
+     {
+      "id": "w",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "sit",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     },
+     {
+      "id": "x",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [
+     {
+      "type": "light",
+      "at": [
+       122,
+       7
+      ],
+      "until": null
+     }
+    ],
     "beats": [
      {
       "at": [
        122,
-       4
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        122,
+       3
+      ],
+      "do": "bow",
+      "who": "w"
+     },
+     {
+      "at": [
+       122,
+       4
+      ],
+      "do": "stand_up",
+      "who": "w"
+     },
+     {
+      "at": [
+       122,
+       5
+      ],
+      "do": "shot_close",
+      "who": "w"
+     },
+     {
+      "at": [
+       122,
        8
+      ],
+      "do": "walk_to",
+      "who": "w",
+      "to": "center"
+     },
+     {
+      "at": [
+       122,
+       11
       ],
       "do": "shot_wide"
      },
@@ -111,7 +232,8 @@
        122,
        13
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "x"
      },
      {
       "at": [
@@ -123,16 +245,26 @@
      {
       "at": [
        122,
-       16
+       17
       ],
-      "do": "pan_left"
+      "do": "turn",
+      "who": "x"
      },
      {
       "at": [
        122,
-       20
+       18
       ],
-      "do": "pan_left"
+      "do": "turn",
+      "who": "x"
+     },
+     {
+      "at": [
+       122,
+       21
+      ],
+      "do": "shot_close",
+      "who": "x"
      }
     ],
     "motifs": [
@@ -147,10 +279,10 @@
       ],
       "motif": "lamp",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "iris"
    }
   },
   {
@@ -160,65 +292,135 @@
     123,
     124
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "k",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "gather",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        123,
-       6
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       123,
-       9
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       123,
-       12
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        123,
-       15
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       124,
-       3
+       5
       ],
       "do": "pan_left"
      },
      {
       "at": [
-       124,
+       123,
        6
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "k"
      },
      {
       "at": [
-       124,
+       123,
+       8
+      ],
+      "do": "speak",
+      "who": "k"
+     },
+     {
+      "at": [
+       123,
        11
       ],
       "do": "shot_wide"
      },
      {
       "at": [
+       123,
+       13
+      ],
+      "do": "shot_close",
+      "who": "k"
+     },
+     {
+      "at": [
+       123,
+       15
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       124,
+       2
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       124,
+       4
+      ],
+      "do": "speak",
+      "who": "k"
+     },
+     {
+      "at": [
+       124,
+       6
+      ],
+      "do": "shake_head",
+      "who": "k"
+     },
+     {
+      "at": [
+       124,
+       9
+      ],
+      "do": "shot_close",
+      "who": "k"
+     },
+     {
+      "at": [
+       124,
+       12
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       124,
+       14
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       124,
+       17
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
        124,
        19
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "k"
      },
      {
       "at": [
@@ -232,19 +434,12 @@
        124,
        24
       ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       124,
-       25
-      ],
       "do": "pan_right"
      },
      {
       "at": [
        124,
-       26
+       25
       ],
       "do": "shot_wide"
      },
@@ -253,10 +448,24 @@
        124,
        28
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "k"
      }
     ],
     "motifs": [
+     {
+      "at": [
+       124,
+       3
+      ],
+      "until": [
+       124,
+       12
+      ],
+      "motif": "scroll",
+      "place": "top",
+      "size": "s"
+     },
      {
       "at": [
        124,
@@ -268,10 +477,10 @@
       ],
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "wipe"
    }
   }
  ],
@@ -455,7 +664,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "121: no carrion or slaughter drawn; «وإن أطعتموهم» carries Al-Muyassar's restriction «في تحليل الميتة», and «إنكم لمشركون» is not glossed alone. A lamp for «نورا يمشي به في الناس». Al-Muyassar's first-person «خذلتُ… زيَّنْتُ» (122:19-24) not used. Their demand in 124 is only attributed («قال بعض كبرائهم»), never glossed as a statement; geometric for «الله أعلم حيث يجعل رسالته»."
+  "notes": "121: no carrion or slaughter drawn; «وإن أطعتموهم» carries Al-Muyassar's restriction «في تحليل الميتة», and «إنكم لمشركون» is not glossed alone. A lamp for «نورا يمشي به في الناس». Al-Muyassar's first-person «خذلتُ… زيَّنْتُ» (122:19-24) not used. Their demand in 124 is only attributed («قال بعض كبرائهم»), never glossed as a statement; geometric for «الله أعلم حيث يجعل رسالته». STAGING v4: c1 (121): a market by day; the believers (left) shake their heads on 121:2 (not eating what is unlawful); the allies of the devils (3 men in dark robes, Al-Muyassar: they dispute about carrion) argue with them on 121:16. The devils (jinn) are never drawn. The condition 121:17-20 is not acted (a two-paths plate only). c2 (122): the parable at night: a man sitting with his head lowered (122:3, dead in misguidance) stands up on 122:4 (given life), a soft light falls on 122:7 (with the lamp plate) and he walks into the town on 122:8; the one in darkness (a man in dark robes) turns this way and that on 122:17-18 (no way out); the camera holds on him for 122:19-24. c3 (123-124): the chiefs of a town (3 men in dark robes gathered at the centre) plot on 123:8; when a proof comes (scroll plate, 124:3) they speak and shake their heads (124:4-6, framed by the gloss «قال بعض كبرائهم»); geometric for 124:14-18; the camera holds on them during the threat (124:19-29); their humiliation and punishment are not acted."
  },
  "cover": {
   "series_ar": "الهداية والضلال",
@@ -464,8 +673,9 @@
   "title_en": "Hearts brought to life",
   "at": [
    122,
-   1
+   9
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }
