@@ -1847,7 +1847,9 @@ function drawHuman(ctx, a, i, x, y, s, t, st, g, extra = {}, lookOverride = null
   if (rd > 0.01 && pr < 0.5) heldBook(ctx, x, y - (48 - 30 * g.sit * 0.55) * s, s, al * rd * (1 - pr));
   if (pr > 0.5) return;
   const hy = y - (100 - 30 * g.sit) * s;
-  if (g.speak >= 0) speakArcs(ctx, x + (flip ? -1 : 1) * 12 * s, hy, g.speak, flip ? -1 : 1, s);
+  // the woman figure of a mixed `people` group never carries the speech arcs: in a group that speaks wrongly she
+  // would read as its spokeswoman (An-Nisa picture review); the men of the group carry the speech
+  if (g.speak >= 0 && !look.woman) speakArcs(ctx, x + (flip ? -1 : 1) * 12 * s, hy, g.speak, flip ? -1 : 1, s);
   if (g.look > 0.3) A.sparkle(ctx, x + 6 * s, hy - 70 * s, 8 * s, (g.look - 0.3) * 1.2);
 }
 // a group the viewer cannot count: overlapping rows, shadow swallowing both ends, rocks in front

@@ -212,7 +212,7 @@
       "id": "n",
       "type": "man",
       "label": "",
-      "place": "right",
+      "place": "center",
       "count": 1,
       "pose": "sit",
       "enter": null,
@@ -246,9 +246,10 @@
      {
       "at": [
        59,
-       9
+       10
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "n"
      },
      {
       "at": [
