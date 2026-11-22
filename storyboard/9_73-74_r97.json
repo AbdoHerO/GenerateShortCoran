@@ -58,7 +58,19 @@
       "do": "pan_right"
      }
     ],
-    "motifs": []
+    "motifs": [],
+    "quiet": [
+     [
+      [
+       73,
+       1
+      ],
+      [
+       73,
+       11
+      ]
+     ]
+    ]
    }
   },
   {
@@ -67,23 +79,64 @@
    "verses": [
     74
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "h",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "k",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "walk",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        74,
-       5
+       1
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        74,
-       8
+       3
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       74,
+       6
+      ],
+      "do": "speak",
+      "who": "h"
+     },
+     {
+      "at": [
+       74,
+       9
+      ],
+      "do": "speak",
+      "who": "k"
      },
      {
       "at": [
@@ -95,9 +148,10 @@
      {
       "at": [
        74,
-       15
+       16
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "k"
      },
      {
       "at": [
@@ -111,12 +165,27 @@
        74,
        20
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        74,
        23
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       74,
+       24
+      ],
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       74,
+       28
       ],
       "do": "shot_wide"
      },
@@ -125,7 +194,8 @@
        74,
        31
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "k"
      },
      {
       "at": [
@@ -137,16 +207,24 @@
      {
       "at": [
        74,
-       36
+       37
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       74,
+       39
+      ],
+      "do": "shot_close",
+      "who": "h"
      },
      {
       "at": [
        74,
        43
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -161,7 +239,7 @@
       ],
       "motif": "two_paths",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "dissolve"
@@ -249,7 +327,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "73 (a striving verse): the command is not glossed; only As-Sa'di's restriction «حيث اقتضت الحال الغلظة عليهم». Al-Muyassar's «بالسيف» is not used. Nothing drawn in 73. 74: their oath (1-4) is answered by the verse itself; «على أيدي المؤمنين» is not used. Two paths for «فإن يتوبوا… وإن يتولوا»."
+  "notes": "73 (a striving verse): the command is not glossed; only As-Sa'di's restriction «حيث اقتضت الحال الغلظة عليهم». Al-Muyassar's «بالسيف» is not used. Nothing drawn in 73. 74: their oath (1-4) is answered by the verse itself; «على أيدي المؤمنين» is not used. Two paths for «فإن يتوبوا… وإن يتولوا». STAGING v4: c1 (73) stays ambient: the striving verse, addressed to the Prophet himself (nothing drawn, background quiet). c2 (74): a town by day; two small groups of three men (the hypocrites). During their oath (74:1-4) nobody speaks (As-Sa'di: they swore to the Prophet, who is never shown; no speech toward an empty side). They do say the word of disbelief to each other on 74:6 and 74:9 (As-Sa'di: words said one after another). Their plot (74:12-15) is not acted (As-Sa'di: against the Prophet's life), and nothing is drawn for the enrichment (74:20-24: no giver may stand for the Prophet). The two-paths plate keeps the condition of 74:25-32 (repent or turn away) as a symbol; no gesture is acted inside the conditions, and nothing is drawn for the punishment."
  },
  "cover": {
   "series_ar": "وجوه النفاق",
@@ -261,5 +339,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

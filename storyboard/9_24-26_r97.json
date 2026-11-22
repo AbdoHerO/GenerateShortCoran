@@ -293,7 +293,19 @@
      }
     ],
     "motifs": [],
-    "transition": "wipe"
+    "transition": "wipe",
+    "quiet": [
+     [
+      [
+       25,
+       1
+      ],
+      [
+       25,
+       3
+      ]
+     ]
+    ]
    }
   },
   {
@@ -364,7 +376,19 @@
       "size": "m"
      }
     ],
-    "transition": "dissolve"
+    "transition": "dissolve",
+    "quiet": [
+     [
+      [
+       26,
+       1
+      ],
+      [
+       26,
+       15
+      ]
+     ]
+    ]
    }
   }
  ],
@@ -548,7 +572,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Fighting passage: only what the tafsirs say with their restrictions; the command itself is not glossed; no battle, weapon, captive or killing drawn; no present-day reading and no people targeted. No motif on the Prophet ﷺ. One unit (24 is joined to 25). The battle, the flight, the angels («جنودا لم تروها») and the punishment are never drawn: night sky over 25, light over 26, and the light motif leaves before «رسوله». 24: coins for wealth and trade, a house for «مساكن», an hourglass for «فتربصوا». «وجهاد في سبيله» is not glossed. STAGING v4: c1 (24): a market by day; three believers stand at the left (the addressed) and walk into the market on 24:11 (the trade); house plate for the family (24:4), coins plate for the wealth and the trade (24:9), house plate for the dwellings (24:14), hourglass for the waiting (24:24, gone before the Name), two-paths plate over 24:30-33. The camera goes wide before the Name and the Messenger (24:18) and closes on the believers at the centre after them (24:21): no pan drifts to an empty side on the Messenger. The address to the Prophet (24:1) gets camera only. The whole verse is a condition: nobody acts the love of these things; the family is not drawn (no woman, nobody shown as a trial); the striving (24:21) is not pictured. c2 (25, Hunayn) stays ambient: a battle. c3 (26) stays ambient (the tranquillity sent down, the angels, the punishment); its mood moves from light to geometric because the verse ends on a punishment, and the light plate that started on His tranquillity becomes a geometric plate starting on the Name and gone before the Messenger is named."
+  "notes": "Fighting passage: only what the tafsirs say with their restrictions; the command itself is not glossed; no battle, weapon, captive or killing drawn; no present-day reading and no people targeted. No motif on the Prophet ﷺ. One unit (24 is joined to 25). The battle, the flight, the angels («جنودا لم تروها») and the punishment are never drawn: night sky over 25, light over 26, and the light motif leaves before «رسوله». 24: coins for wealth and trade, a house for «مساكن», an hourglass for «فتربصوا». «وجهاد في سبيله» is not glossed. STAGING v4: c1 (24): a market by day; three believers stand at the left (the addressed) and walk into the market on 24:11 (the trade); house plate for the family (24:4), coins plate for the wealth and the trade (24:9), house plate for the dwellings (24:14), hourglass for the waiting (24:24, gone before the Name), two-paths plate over 24:30-33. The camera goes wide before the Name and the Messenger (24:18) and closes on the believers at the centre after them (24:21): no pan drifts to an empty side on the Messenger. The address to the Prophet (24:1) gets camera only. The whole verse is a condition: nobody acts the love of these things; the family is not drawn (no woman, nobody shown as a trial); the striving (24:21) is not pictured. c2 (25, Hunayn) stays ambient: a battle. c3 (26) stays ambient (the tranquillity sent down, the angels, the punishment); its mood moves from light to geometric because the verse ends on a punishment, and the light plate that started on His tranquillity becomes a geometric plate starting on the Name and gone before the Messenger is named. The background stays quiet on 25:1-3 and 26:1-15 (His victory, the tranquillity and the soldiers He sent down)."
  },
  "cover": {
   "series_ar": "غزوة حنين",

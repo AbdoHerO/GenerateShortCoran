@@ -86,7 +86,19 @@
       "do": "shot_wide"
      }
     ],
-    "motifs": []
+    "motifs": [],
+    "quiet": [
+     [
+      [
+       30,
+       20
+      ],
+      [
+       30,
+       21
+      ]
+     ]
+    ]
    }
   },
   {
@@ -282,7 +294,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The claims of 30 are framed: As-Sa'di's «وإن لم تكن مقالة لعامتهم فقد قالها فرقة منهم», then «اختلقوه». Their words (30:2-10) and «قاتلهم الله» are not glossed. No figure for 'Uzayr, 'Isa or Maryam; no motif on them. 31: Al-Muyassar's sense of «أربابا» (they legislated for them). STAGING v4: Stays ambient (the claims about Uzayr and the Messiah, framed only by the glosses; no figure). c2's mood moves from geometric to night_sky: verse 31 names the Messiah and refutes taking him as a lord (geometric is the Names' mood). The geometric plate stays on the testimony of tawhid (31:17-20)."
+  "notes": "The claims of 30 are framed: As-Sa'di's «وإن لم تكن مقالة لعامتهم فقد قالها فرقة منهم», then «اختلقوه». Their words (30:2-10) and «قاتلهم الله» are not glossed. No figure for 'Uzayr, 'Isa or Maryam; no motif on them. 31: Al-Muyassar's sense of «أربابا» (they legislated for them). STAGING v4: Stays ambient (the claims about Uzayr and the Messiah, framed only by the glosses; no figure). c2's mood moves from geometric to night_sky: verse 31 names the Messiah and refutes taking him as a lord (geometric is the Names' mood). The geometric plate stays on the testimony of tawhid (31:17-20). The background stays quiet on 30:20-21."
  },
  "cover": {
   "series_ar": "صفاء التوحيد",

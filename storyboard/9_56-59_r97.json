@@ -33,30 +33,94 @@
     56,
     57
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "h",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "walk",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       56,
+       1
+      ],
+      "do": "speak",
+      "who": "h"
+     },
+     {
+      "at": [
+       56,
+       3
+      ],
+      "do": "shot_close",
+      "who": "h"
+     },
      {
       "at": [
        56,
        4
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "h"
      },
      {
       "at": [
        56,
-       7
+       5
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        56,
+       8
+      ],
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       56,
        10
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       57,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       57,
+       4
+      ],
+      "do": "shot_close",
+      "who": "h"
      },
      {
       "at": [
@@ -64,6 +128,14 @@
        8
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       57,
+       10
+      ],
+      "do": "shot_close",
+      "who": "h"
      }
     ],
     "motifs": [
@@ -78,7 +150,7 @@
       ],
       "motif": "mountain",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -97,6 +169,13 @@
      {
       "at": [
        58,
+       3
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       58,
        6
       ],
       "do": "pan_right"
@@ -111,34 +190,6 @@
      {
       "at": [
        58,
-       13
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       58,
-       16
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       59,
-       3
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       59,
-       5
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       59,
        14
       ],
       "do": "pan_left"
@@ -146,9 +197,44 @@
      {
       "at": [
        59,
-       17
+       3
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       59,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       59,
+       11
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       59,
+       13
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       59,
+       16
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       59,
+       17
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
@@ -177,24 +263,8 @@
        59,
        9
       ],
-      "until": [
-       59,
-       11
-      ],
+      "until": null,
       "motif": "geometric",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       59,
-       11
-      ],
-      "until": [
-       59,
-       15
-      ],
-      "motif": "light",
       "place": "top",
       "size": "m"
      }
@@ -350,7 +420,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "56: the oath is framed («كذبًا وباطلا»). 57: a mountain for «مغارات» (no people, no cave opening). 58 frames the criticism («ليس… لقصد صحيح»). 59:11-15 supplies the unspoken answer with As-Sa'di's «لسلموا من النفاق ولهدوا إلى الإيمان…». Coins for «الصدقات», geometric for «حسبنا الله», light for «سيؤتينا الله من فضله». 59: short-word flag, listen."
+  "notes": "56: the oath is framed («كذبًا وباطلا»). 57: a mountain for «مغارات» (no people, no cave opening). 58 frames the criticism («ليس… لقصد صحيح»). 59:11-15 supplies the unspoken answer with As-Sa'di's «لسلموا من النفاق ولهدوا إلى الإيمان…». Coins for «الصدقات», geometric for «حسبنا الله», light for «سيؤتينا الله من فضله». 59: short-word flag, listen. STAGING v4: c1 (56-57): a town by day. Three men (the hypocrites) walk in from the right and swear toward three believers standing on the left (Al-Muyassar: they swear to you, believers); they speak on 56:1 and 56:4; the believers do nothing. 57 is a counterfactual (if they found a refuge they would rush to it): nobody flees; only the mountain plate (57:5, caves) and the camera on them. c2 (58-59) stays ambient: 58 is their criticism of the Prophet's own distribution of the alms (no giver may stand in for him and nobody may speak toward an empty side) and 59 is a counterfactual full of the Name. The plates of 59 are now one geometric plate from 59:9 to the end (the light plate that drew one word before the Name on 59:11 is removed). The cover now shows them swearing to the believers (56:4)."
  },
  "cover": {
   "series_ar": "غزوة تبوك",
@@ -359,8 +429,9 @@
   "title_en": "The hypocrites' oaths and greed",
   "at": [
    56,
-   1
+   4
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

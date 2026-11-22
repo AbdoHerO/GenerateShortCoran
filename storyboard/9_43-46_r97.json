@@ -34,7 +34,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "geometric",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
@@ -62,6 +62,18 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       43,
+       1
+      ],
+      [
+       43,
+       13
+      ]
+     ]
     ]
    }
   },
@@ -72,28 +84,63 @@
     44,
     45
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "h",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "walk",
+      "enter": [
+       45,
+       1
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        44,
-       6
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        44,
-       11
+       3
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        44,
-       13
+       6
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       44,
+       9
       ],
       "do": "shot_wide"
      },
@@ -102,28 +149,62 @@
        44,
        14
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       45,
+       1
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        45,
        3
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "h"
      },
      {
       "at": [
        45,
        7
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        45,
-       12
+       9
       ],
-      "do": "shot_wide"
+      "do": "turn",
+      "who": "h"
+     },
+     {
+      "at": [
+       45,
+       11
+      ],
+      "do": "turn",
+      "who": "h"
+     },
+     {
+      "at": [
+       45,
+       13
+      ],
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       45,
+       14
+      ],
+      "do": "turn",
+      "who": "h"
      }
     ],
     "motifs": [
@@ -138,20 +219,23 @@
       ],
       "motif": "coins",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
-       45,
-       9
+       44,
+       12
       ],
-      "until": null,
-      "motif": "wind",
+      "until": [
+       45,
+       1
+      ],
+      "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "iris"
    }
   },
   {
@@ -160,33 +244,92 @@
    "verses": [
     46
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "h",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        46,
-       6
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       46,
-       10
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        46,
+       3
+      ],
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       46,
+       6
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       46,
+       10
+      ],
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       46,
+       11
+      ],
+      "do": "sit",
+      "who": "h"
+     },
+     {
+      "at": [
+       46,
+       13
+      ],
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       46,
        15
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
+     {
+      "at": [
+       46,
+       8
+      ],
+      "until": [
+       46,
+       11
+      ],
+      "motif": "geometric",
+      "place": "top",
+      "size": "s"
+     },
      {
       "at": [
        46,
@@ -195,10 +338,10 @@
       "until": null,
       "motif": "house",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
-    "transition": "wipe"
+    "transition": "morph"
    }
   }
  ],
@@ -327,7 +470,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "43 carries Al-Muyassar's «من ترك الأولى والأكمل» (the reproach is about the better course, not a sin). 46:7-11 keeps the creed point of both tafsirs: held back by decree «وإن كان أمرهم به شرعا». Two paths for the truthful and the liars, coins for «بأموالهم», wind for «يترددون», a house for «اقعدوا». No motif on the Prophet ﷺ."
+  "notes": "43 carries Al-Muyassar's «من ترك الأولى والأكمل» (the reproach is about the better course, not a sin). 46:7-11 keeps the creed point of both tafsirs: held back by decree «وإن كان أمرهم به شرعا». Two paths for the truthful and the liars, coins for «بأموالهم», wind for «يترددون», a house for «اقعدوا». No motif on the Prophet ﷺ. STAGING v4: c1 (43) stays ambient: Allah addresses the Prophet about his own permission to them (nothing stands in for him); the mood moves from geometric to night_sky (Allah's direct address, no central light source) and the background is quiet over the whole verse; the two-paths plate stays on 43:10 (the truthful and the liars). c2 (44-45): a town by day. 44 is about the believers (both tafsirs: they do not ask leave from striving): three believers stand on the left and do nothing (no march, no camel, no weapon: the striving itself is never drawn); coins plate on 44:10 (wealth), geometric plate on the Name 44:12 (His knowledge of the God-fearing). 45: three men (the hypocrites) walk in from the right on 45:1; they never speak (their asking leave is addressed to the Prophet, so nobody speaks toward an empty side); they turn their backs on 45:9 (doubt), face again on 45:11 and turn away again on 45:14 (hesitating back and forth: both tafsirs, in doubt and confusion). c3 (46): the same three men in the town. 46:1-6 is a counterfactual (if they had wanted to go out they would have prepared): nothing is prepared and no mount is drawn. A geometric plate on 46:8 for His dislike of their going (His decree; the Name follows); they sit down on 46:11 (held back: both tafsirs, by decree) and a house plate on 46:12-13 (stay behind). The sick, the weak, the women and the children of the gloss are not drawn. The cover now shows the men sitting in the town (46:13), matching the title about those who stayed behind."
  },
  "cover": {
   "series_ar": "غزوة تبوك",
@@ -335,9 +478,10 @@
   "title_ar": "أعذار المتخلفين",
   "title_en": "Excuses of those who stayed",
   "at": [
-   43,
-   1
+   46,
+   13
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

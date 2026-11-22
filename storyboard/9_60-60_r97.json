@@ -39,9 +39,16 @@
      {
       "at": [
        60,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       60,
        4
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -62,21 +69,35 @@
        60,
        11
       ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       60,
+       16
+      ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       60,
+       18
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
        60,
        21
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        60,
        22
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -90,6 +111,19 @@
        5
       ],
       "motif": "coins",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       60,
+       10
+      ],
+      "until": [
+       60,
+       12
+      ],
+      "motif": "chains",
       "place": "top",
       "size": "m"
      },
@@ -234,7 +268,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Eight categories, each glossed from Al-Muyassar; «وفي سبيل الله» (60:12-14) is not glossed. No people drawn: coins for the alms, footsteps for the traveller, geometric for «فريضة من الله»."
+  "notes": "Eight categories, each glossed from Al-Muyassar; «وفي سبيل الله» (60:12-14) is not glossed. No people drawn: coins for the alms, footsteps for the traveller, geometric for «فريضة من الله». STAGING v4: Kept ambient with plates only (a ruling distributed by authority: no giver and no give gesture may be invented, and no recipient figure is drawn): coins for the alms (60:2), a breaking chain for freeing those in bondage (60:10, both tafsirs: freeing slaves and those who bought their freedom; the chain motif means release), footsteps for the stranded traveller (60:15) and a geometric plate from 60:17 (the obligation from Allah, His knowledge and wisdom). The cause of Allah (60:12-14) gets no picture."
  },
  "cover": {
   "series_ar": "فريضة الزكاة",
@@ -246,5 +280,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

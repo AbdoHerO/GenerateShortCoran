@@ -32,16 +32,61 @@
    "verses": [
     64
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "h",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        64,
-       8
+       1
+      ],
+      "do": "bow",
+      "who": "h"
+     },
+     {
+      "at": [
+       64,
+       2
+      ],
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       64,
+       6
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       64,
+       7
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       64,
+       10
+      ],
+      "do": "shot_close",
+      "who": "h"
      },
      {
       "at": [
@@ -55,7 +100,16 @@
        64,
        15
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       64,
+       17
+      ],
+      "do": "bow",
+      "who": "h"
      }
     ],
     "motifs": [
@@ -66,11 +120,21 @@
       ],
       "until": [
        64,
-       8
+       11
       ],
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       64,
+       13
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "s"
      }
     ]
    }
@@ -105,7 +169,7 @@
        65,
        10
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -119,7 +183,7 @@
        65,
        13
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -161,21 +225,21 @@
        66,
        12
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        66,
        13
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        66,
        14
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -188,7 +252,7 @@
        66,
        12
       ],
-      "motif": "light",
+      "motif": "geometric",
       "place": "top",
       "size": "m"
      }
@@ -278,7 +342,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Their excuse «إنما كنا نخوض ونلعب» (65:4-7) is not glossed; As-Sa'di's «مبينا عدم عذرهم وكذبهم» follows. Their mockery is not quoted (As-Sa'di's report of it is not used). A book for «سورة», light for «إن نعف عن طائفة»."
+  "notes": "Their excuse «إنما كنا نخوض ونلعب» (65:4-7) is not glossed; As-Sa'di's «مبينا عدم عذرهم وكذبهم» follows. Their mockery is not quoted (As-Sa'di's report of it is not used). A book for «سورة», light for «إن نعف عن طائفة». STAGING v4: c1 (64): a town by day; three men (the hypocrites) lower their heads in fear on 64:1 and again on 64:17 (both tafsirs: they fear a surah exposing what they hide); a book plate on 64:6 (the surah) and a geometric plate from 64:13 (Allah will bring out what they fear). Their mockery is not acted (64:12 is an ironic command; nothing is shown as obeying it), and no plate starts on 64:11. c2 (65-66) stays ambient: their excuse is given to the Prophet (As-Sa'di: they came to him apologising), so it cannot be acted without an addressee; the pardon plate of 66:7 is now geometric instead of light (a light plate must not start next to His act of pardoning). The cover moves to the ambient chapter (66:8, the geometric plate), matching the title about revering the religion."
  },
  "cover": {
   "series_ar": "وجوه النفاق",
@@ -286,9 +350,10 @@
   "title_ar": "تعظيم الدين",
   "title_en": "Revering the religion",
   "at": [
-   64,
-   1
+   66,
+   8
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

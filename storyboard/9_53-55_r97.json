@@ -33,86 +33,129 @@
     53,
     54
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "h",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        53,
-       5
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        53,
-       8
+       4
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "h"
      },
      {
       "at": [
        53,
-       10
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       53,
-       12
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       54,
-       5
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       54,
-       7
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       54,
        9
       ],
       "do": "shot_wide"
      },
      {
       "at": [
-       54,
+       53,
        12
       ],
-      "do": "pan_right"
+      "do": "turn",
+      "who": "h"
      },
      {
       "at": [
        54,
-       13
+       2
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "h"
      },
      {
       "at": [
        54,
-       19
+       6
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        54,
-       21
+       7
       ],
-      "do": "pan_right"
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       54,
+       9
+      ],
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       54,
+       12
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       54,
+       13
+      ],
+      "do": "turn",
+      "who": "h"
+     },
+     {
+      "at": [
+       54,
+       15
+      ],
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       54,
+       17
+      ],
+      "do": "sit",
+      "who": "h"
+     },
+     {
+      "at": [
+       54,
+       20
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       54,
+       22
+      ],
+      "do": "shake_head",
+      "who": "h"
      }
     ],
     "motifs": [
@@ -123,11 +166,23 @@
       ],
       "until": [
        53,
-       6
+       7
       ],
       "motif": "coins",
       "place": "top",
-      "size": "m"
+      "size": "s",
+      "exit": "undraw"
+     },
+     {
+      "at": [
+       54,
+       19
+      ],
+      "until": null,
+      "motif": "coins",
+      "place": "top",
+      "size": "s",
+      "exit": "undraw"
      }
     ]
    }
@@ -138,10 +193,39 @@
    "verses": [
     55
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "h",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       55,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       55,
+       3
+      ],
+      "do": "shot_close",
+      "who": "h"
+     },
      {
       "at": [
        55,
@@ -152,30 +236,42 @@
      {
       "at": [
        55,
-       9
+       6
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       55,
+       9
+      ],
+      "do": "walk_to",
+      "who": "h",
+      "to": "center"
      },
      {
       "at": [
        55,
        10
       ],
+      "do": "walk_to",
+      "who": "h",
+      "to": "left"
+     },
+     {
+      "at": [
+       55,
+       13
+      ],
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       55,
+       16
+      ],
       "do": "shot_wide"
-     },
-     {
-      "at": [
-       55,
-       14
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       55,
-       17
-      ],
-      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -190,10 +286,20 @@
       ],
       "motif": "coins",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       55,
+       14
+      ],
+      "until": null,
+      "motif": "leaf",
+      "place": "top",
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "slide"
    }
   }
  ],
@@ -300,7 +406,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No light motif on the prayer here (it is blamed: «كسالى»). Coins for «أنفقوا» and «أموالهم»; 55 under a night sky. No motif on the Prophet ﷺ."
+  "notes": "No light motif on the prayer here (it is blamed: «كسالى»). Coins for «أنفقوا» and «أموالهم»; 55 under a night sky. No motif on the Prophet ﷺ. STAGING v4: c1 (53-54): a town by day, three men (the hypocrites). Their spending is blamed and rejected, so nobody gives and there is no give gesture: a coins plate draws on 53:2 and undraws on 53:7 (not accepted); they turn their backs on 53:12 (both tafsirs: out of obedience), face again on 54:13 (coming), sit down heavily on 54:17 (lazy: As-Sa'di, heavy, they barely do it) and shake their heads on 54:22 (unwilling), under a second coins plate on 54:19 that undraws at the end. No prayer is acted for them and no light plate is on their prayer (it is blamed). c2 (55): a market by day; the same three men; a coins plate on their wealth (55:3, gone before the Name); their children are not drawn. On 55:9-10 they hurry to the middle and back (both tafsirs: the toil of gaining it); a falling-leaf plate on 55:14 (the passing away) while they stand still: nobody leaves or fades on that word. The Prophet, who is addressed, is not drawn; the camera holds on them."
  },
  "cover": {
   "series_ar": "غزوة تبوك",
@@ -309,8 +415,9 @@
   "title_en": "The hypocrites' spending",
   "at": [
    53,
-   1
+   5
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

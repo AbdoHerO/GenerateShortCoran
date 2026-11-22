@@ -192,7 +192,29 @@
       "size": "m"
      }
     ],
-    "transition": "dissolve"
+    "transition": "dissolve",
+    "quiet": [
+     [
+      [
+       14,
+       2
+      ],
+      [
+       14,
+       8
+      ]
+     ],
+     [
+      [
+       15,
+       1
+      ],
+      [
+       15,
+       8
+      ]
+     ]
+    ]
    }
   },
   {
@@ -426,7 +448,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Fighting passage: only what the tafsirs say with their restrictions (the treaty-holders of that time, the four months, those who broke oaths and attacked); no battle, weapon, captive or killing drawn; no present-day reading. No motif on the Prophet ﷺ. 13:9-12 keeps As-Sa'di's «حيث نقضوا العهد وأعانوا عليكم» (they broke the treaty first). The commands in 13:1-5 and 14:1-4 are not glossed. 14:6-7 «هذا وعد… قد أنجزها» (fulfilled). Geometric near Allah's name, light for victory and for «ويتوب الله على من يشاء», an hourglass and two paths for the trial that sorts the sincere. STAGING v4: Fighting passage: stays ambient (owner rule, Staging v4). The light plate that started on 15:4 (Allah turning to whom He wills, His act, the Name 1 s later) becomes geometric."
+  "notes": "Fighting passage: only what the tafsirs say with their restrictions (the treaty-holders of that time, the four months, those who broke oaths and attacked); no battle, weapon, captive or killing drawn; no present-day reading. No motif on the Prophet ﷺ. 13:9-12 keeps As-Sa'di's «حيث نقضوا العهد وأعانوا عليكم» (they broke the treaty first). The commands in 13:1-5 and 14:1-4 are not glossed. 14:6-7 «هذا وعد… قد أنجزها» (fulfilled). Geometric near Allah's name, light for victory and for «ويتوب الله على من يشاء», an hourglass and two paths for the trial that sorts the sincere. STAGING v4: Fighting passage: stays ambient (owner rule, Staging v4). The light plate that started on 15:4 (Allah turning to whom He wills, His act, the Name 1 s later) becomes geometric. The background stays quiet on 14:2-8 and 15:1-8 (His acts on them)."
  },
  "cover": {
   "series_ar": "العهود والمواثيق",

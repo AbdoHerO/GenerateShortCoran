@@ -32,16 +32,48 @@
    "verses": [
     67
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "h",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "k",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "walk",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       67,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        67,
        3
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "k"
      },
      {
       "at": [
@@ -53,16 +85,42 @@
      {
       "at": [
        67,
+       6
+      ],
+      "do": "speak",
+      "who": "k"
+     },
+     {
+      "at": [
+       67,
        8
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "h"
+     },
+     {
+      "at": [
+       67,
+       10
+      ],
+      "do": "shake_head",
+      "who": "h"
+     },
+     {
+      "at": [
+       67,
+       12
+      ],
+      "do": "turn",
+      "who": "h"
      },
      {
       "at": [
        67,
        13
       ],
-      "do": "pan_right"
+      "do": "turn",
+      "who": "k"
      },
      {
       "at": [
@@ -74,9 +132,17 @@
      {
       "at": [
        67,
-       18
+       17
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       67,
+       19
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -91,7 +157,8 @@
       ],
       "motif": "coins",
       "place": "top",
-      "size": "m"
+      "size": "s",
+      "exit": "undraw"
      }
     ]
    }
@@ -159,16 +226,48 @@
    "verses": [
     69
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "mountains",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "h",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "k",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "walk",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        69,
-       3
+       1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       69,
+       4
+      ],
+      "do": "shot_close",
+      "who": "h"
      },
      {
       "at": [
@@ -182,73 +281,99 @@
        69,
        7
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       69,
+       11
+      ],
+      "do": "shot_close",
+      "who": "k"
      },
      {
       "at": [
        69,
        12
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        69,
        13
       ],
-      "do": "pan_left"
+      "do": "sit",
+      "who": "k"
      },
      {
       "at": [
        69,
        15
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "h"
      },
      {
       "at": [
        69,
-       20
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       69,
-       22
+       19
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        69,
-       24
+       21
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "h"
      },
      {
       "at": [
        69,
-       25
+       23
+      ],
+      "do": "speak",
+      "who": "k"
+     },
+     {
+      "at": [
+       69,
+       26
       ],
       "do": "shot_wide"
-     },
-     {
-      "at": [
-       69,
-       27
-      ],
-      "do": "pan_right"
      },
      {
       "at": [
        69,
        30
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       69,
+       32
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
+     {
+      "at": [
+       69,
+       1
+      ],
+      "until": [
+       69,
+       5
+      ],
+      "motif": "crowd",
+      "place": "top",
+      "size": "s"
+     },
      {
       "at": [
        69,
@@ -260,20 +385,17 @@
       ],
       "motif": "coins",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        69,
-       11
+       25
       ],
-      "until": [
-       69,
-       21
-      ],
-      "motif": "wind",
+      "until": null,
+      "motif": "leaf",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "slide"
@@ -460,7 +582,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "As-Sa'di's «الكفر والفسوق والعصيان» (49:7 word for word) is not used. Coins for «ويقبضون أيديهم» and «أموالا»; wind for the fleeting enjoyment. Nothing drawn for the Fire (68)."
+  "notes": "As-Sa'di's «الكفر والفسوق والعصيان» (49:7 word for word) is not used. Coins for «ويقبضون أيديهم» and «أموالا»; wind for the fleeting enjoyment. Nothing drawn for the Fire (68). STAGING v4: c1 (67): a town by day; two small groups of three men (the hypocrites; the hypocrite women of the verse are not drawn as figures) come together (the right group walks in: they are of one another, As-Sa'di: allies of each other); they speak to each other on 67:6 and 67:8 (enjoining wrong, forbidding good) and the left group shakes its head on 67:10 (the good); a coins plate undraws on 67:11-13 (they close their hands from charity: both tafsirs) as they turn away on 67:12 and 67:13 (forgetting Allah). c2 (68) stays ambient (the Fire). c3 (69): a market by day: an uncountable crowd plate for the nations before them (69:1), a coins plate for their wealth (69:8); the past nations themselves and any ruin are not drawn. The hypocrites sit in the market (their enjoyment of their share: As-Sa'di, taking it with pleasure); the right group walks in and sits down on 69:13; they talk on 69:21 and 69:23 (indulging in falsehood: both tafsirs, falsehood and lying); a falling-leaf plate on 69:25 (their deeds come to nothing). The cover now shows the two groups (67:8)."
  },
  "cover": {
   "series_ar": "وجوه النفاق",
@@ -469,8 +591,9 @@
   "title_en": "The marks of hypocrisy",
   "at": [
    67,
-   1
+   8
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

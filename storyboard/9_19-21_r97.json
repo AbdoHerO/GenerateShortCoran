@@ -249,7 +249,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "light",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
@@ -295,7 +295,19 @@
       "size": "m"
      }
     ],
-    "transition": "dissolve"
+    "transition": "dissolve",
+    "quiet": [
+     [
+      [
+       21,
+       1
+      ],
+      [
+       21,
+       5
+      ]
+     ]
+    ]
    }
   }
  ],
@@ -424,7 +436,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No well, cup, mosque or people drawn. Geometric for the Sacred Mosque, scales for «لا يستوون» (not the Mizan), footsteps for the emigration, coins for «بأموالهم», light for «برحمة منه». Paradise (21:6-10): no garden, river or gold; text only («مما لا يعلم وصفه… إلا الله»). STAGING v4: c1 (19) stays ambient: the watering of the pilgrims and the upkeep of the Sacred Mosque cannot be drawn without the Sanctuary, and the striving is not pictured. The geometric plate on the Sacred Mosque is removed; a water-drop plate for the watering (19:2; As-Sa'di: Zamzam water), scales for the deeds that are not equal (19:16, not the Mizan). The old chapter 20-21 is split (owner rule: an unseen verse is ambient): c2 (20) is staged in the desert by day: three believers (the emigrants; Al-Muyassar: they left the land of disbelief for the land of Islam) walk from the right to the centre on 20:3 under a footsteps plate; their striving (20:4-7) is not pictured: no war, no weapon; a coins plate for their wealth (20:8; As-Sa'di: spending); a soft sparkle on 20:16 (success). No camel or other object is added. c3 (21, new title) stays ambient: the glad tidings of mercy, approval and gardens (Paradise is never drawn); the light plate that started on mercy from Him (21:3) becomes a geometric plate starting on the Lord (21:2) and gone before the gardens are named."
+  "notes": "No well, cup, mosque or people drawn. Geometric for the Sacred Mosque, scales for «لا يستوون» (not the Mizan), footsteps for the emigration, coins for «بأموالهم», light for «برحمة منه». Paradise (21:6-10): no garden, river or gold; text only («مما لا يعلم وصفه… إلا الله»). STAGING v4: c1 (19) stays ambient: the watering of the pilgrims and the upkeep of the Sacred Mosque cannot be drawn without the Sanctuary, and the striving is not pictured. The geometric plate on the Sacred Mosque is removed; a water-drop plate for the watering (19:2; As-Sa'di: Zamzam water), scales for the deeds that are not equal (19:16, not the Mizan). The old chapter 20-21 is split (owner rule: an unseen verse is ambient): c2 (20) is staged in the desert by day: three believers (the emigrants; Al-Muyassar: they left the land of disbelief for the land of Islam) walk from the right to the centre on 20:3 under a footsteps plate; their striving (20:4-7) is not pictured: no war, no weapon; a coins plate for their wealth (20:8; As-Sa'di: spending); a soft sparkle on 20:16 (success). No camel or other object is added. c3 (21, new title) stays ambient: the glad tidings of mercy, approval and gardens (Paradise is never drawn); the light plate that started on mercy from Him (21:3) becomes a geometric plate starting on the Lord (21:2) and gone before the gardens are named; its mood moves from light to night_sky (the glad tidings are His word: no central light source) and the background stays quiet on 21:1-5."
  },
  "cover": {
   "series_ar": "مراتب الأعمال",

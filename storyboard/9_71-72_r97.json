@@ -32,99 +32,134 @@
    "verses": [
     71
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "sit",
+      "enter": [
+       71,
+       13
+      ],
+      "exit": null,
+      "look": "poor"
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       71,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        71,
        4
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        71,
        5
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        71,
        8
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       71,
+       11
+      ],
+      "do": "pray",
+      "who": "b"
      },
      {
       "at": [
        71,
        12
       ],
-      "do": "shot_wide"
+      "do": "ruku",
+      "who": "b"
+     },
+     {
+      "at": [
+       71,
+       13
+      ],
+      "do": "stand_up",
+      "who": "b"
+     },
+     {
+      "at": [
+       71,
+       14
+      ],
+      "do": "give",
+      "who": "b",
+      "to": "p"
      },
      {
       "at": [
        71,
        15
       ],
-      "do": "pan_left"
+      "do": "raise_hands",
+      "who": "p"
      },
      {
       "at": [
        71,
        18
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        71,
        21
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "b"
      }
     ],
     "motifs": [
      {
       "at": [
        71,
-       11
-      ],
-      "until": [
-       71,
-       13
-      ],
-      "motif": "light",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       71,
-       13
-      ],
-      "until": [
-       71,
-       15
-      ],
-      "motif": "coins",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       71,
        19
       ],
-      "until": [
-       71,
-       21
-      ],
-      "motif": "light",
+      "until": null,
+      "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -145,6 +180,13 @@
        5
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       72,
+       6
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -172,7 +214,7 @@
        72,
        16
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -199,7 +241,7 @@
        72,
        21
       ],
-      "motif": "light",
+      "motif": "geometric",
       "place": "top",
       "size": "m"
      }
@@ -333,7 +375,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "72 is Paradise: `light` mood (no garden), no river, gold or dwelling drawn; only a light motif for «ورضوان من الله أكبر». 71: light for the prayer and for «سيرحمهم الله», coins for the zakat."
+  "notes": "72 is Paradise: `light` mood (no garden), no river, gold or dwelling drawn; only a light motif for «ورضوان من الله أكبر». 71: light for the prayer and for «سيرحمهم الله», coins for the zakat. STAGING v4: c1 (71): a prayer hall by day; three believers (the believing men and women of the verse are shown by a believers group; no woman is drawn as a figure). They pray on 71:11 and bow on 71:12 (establishing the prayer), facing the empty side of the hall (nobody stands there while they pray); then they stand up on 71:13 and give the zakat on 71:14 to a poor man who sits on the right (he appears on 71:13, after the prayer; the zakat is a real obligatory charity, and the poor are its first category in 9:60); he raises his hands on 71:15. Nothing is acted for enjoining good and forbidding evil (a speech toward the empty side is avoided). A geometric plate from 71:19 (His mercy, Mighty and Wise). c2 (72) stays ambient (Paradise): no garden, river, gold or dwelling drawn; the plate on 72:17 (His good pleasure) is now geometric instead of light (a light plate must not start on His attribute). The cover now shows the believers in prayer (71:12)."
  },
  "cover": {
   "series_ar": "وجوه النفاق",
@@ -342,8 +384,9 @@
   "title_en": "The marks of the believers",
   "at": [
    71,
-   1
+   12
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

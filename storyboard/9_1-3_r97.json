@@ -120,6 +120,18 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       1,
+       1
+      ],
+      [
+       1,
+       4
+      ]
+     ]
     ]
    }
   },
@@ -225,7 +237,29 @@
       "size": "m"
      }
     ],
-    "transition": "light_sweep"
+    "transition": "light_sweep",
+    "quiet": [
+     [
+      [
+       3,
+       1
+      ],
+      [
+       3,
+       4
+      ]
+     ],
+     [
+      [
+       3,
+       10
+      ],
+      [
+       3,
+       15
+      ]
+     ]
+    ]
    }
   }
  ],
@@ -321,7 +355,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Fighting passage: only what the tafsirs say with their restrictions (the treaty-holders of that time, the four months, those who broke oaths and attacked); no battle, weapon, captive or killing drawn; no present-day reading. No motif on the Prophet ﷺ. 1:5-9 carries As-Sa'di's restriction (only unlimited treaties or those of four months or less). A seal for the treaties, footsteps and an hourglass for the four months of safe movement, two paths for «فإن تبتم… وإن توليتم». Al-Muyassar's «فاعلموا أنكم لن تفلتوا» is not used (passage wording). STAGING v4: Treaty and fighting passage: stays ambient (owner rule, Staging v4). No people drawn. c2's mood moves from light to night_sky because verse 3 ends on a threat. The geometric plate on 3:7 (the day of the greater hajj) is replaced by a crowd plate on 3:6 (the people gathered that day, As-Sa'di): the geometric plate is kept for Allah's Names, and nothing gold-lit or cube-like stands near the hajj."
+  "notes": "Fighting passage: only what the tafsirs say with their restrictions (the treaty-holders of that time, the four months, those who broke oaths and attacked); no battle, weapon, captive or killing drawn; no present-day reading. No motif on the Prophet ﷺ. 1:5-9 carries As-Sa'di's restriction (only unlimited treaties or those of four months or less). A seal for the treaties, footsteps and an hourglass for the four months of safe movement, two paths for «فإن تبتم… وإن توليتم». Al-Muyassar's «فاعلموا أنكم لن تفلتوا» is not used (passage wording). STAGING v4: Treaty and fighting passage: stays ambient (owner rule, Staging v4). No people drawn. c2's mood moves from light to night_sky because verse 3 ends on a threat. The geometric plate on 3:7 (the day of the greater hajj) is replaced by a crowd plate on 3:6 (the people gathered that day, As-Sa'di): the geometric plate is kept for Allah's Names, and nothing gold-lit or cube-like stands near the hajj. The background stays quiet on 1:1-4, 3:1-4 and 3:10-15 (the disavowal and announcement from Allah)."
  },
  "cover": {
   "series_ar": "العهود والمواثيق",

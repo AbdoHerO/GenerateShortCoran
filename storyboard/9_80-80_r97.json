@@ -90,6 +90,18 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       80,
+       1
+      ],
+      [
+       80,
+       25
+      ]
+     ]
     ]
    }
   }
@@ -142,7 +154,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Addressed to the Prophet ﷺ: no hands or other motif on his seeking of forgiveness; only geometric for «والله لا يهدي». «سبعين مرة» is glossed as hyperbole (As-Sa'di)."
+  "notes": "Addressed to the Prophet ﷺ: no hands or other motif on his seeking of forgiveness; only geometric for «والله لا يهدي». «سبعين مرة» is glossed as hyperbole (As-Sa'di). STAGING v4: Kept ambient (owner rule, Staging v4): Allah addresses the Prophet about his own seeking of forgiveness for them (he is never shown and nobody stands in for him); background quiet over the verse; only the geometric plate on 80:21."
  },
  "cover": {
   "series_ar": "وجوه النفاق",
@@ -154,5 +166,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

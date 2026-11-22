@@ -171,6 +171,18 @@
       "place": "top",
       "size": "m"
      }
+    ],
+    "quiet": [
+     [
+      [
+       36,
+       9
+      ],
+      [
+       36,
+       15
+      ]
+     ]
     ]
    }
   }
@@ -256,7 +268,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Fighting clause (36:26-31): not glossed; the verse's own «كما يقاتلونكم كافة» keeps its reciprocity; As-Sa'di's discussion of abrogation is not used. 36:22-25: As-Sa'di leaves «فيهن» open (the twelve or the four), so the neutral «فلتحذروا من ظلم أنفسكم فيها» is used. A moon for the months, stars for the heavens, geometric for «أربعة حرم», light for «مع المتقين». STAGING v4: Stays ambient (the months as Allah decreed them, with a fighting clause). The geometric plate on the four sacred months (36:17) becomes a second moon plate (geometric is kept for the Names); the light plate that started just after the Name on 36:35 (Allah is with the pious) becomes a geometric plate on the Name."
+  "notes": "Fighting clause (36:26-31): not glossed; the verse's own «كما يقاتلونكم كافة» keeps its reciprocity; As-Sa'di's discussion of abrogation is not used. 36:22-25: As-Sa'di leaves «فيهن» open (the twelve or the four), so the neutral «فلتحذروا من ظلم أنفسكم فيها» is used. A moon for the months, stars for the heavens, geometric for «أربعة حرم», light for «مع المتقين». STAGING v4: Stays ambient (the months as Allah decreed them, with a fighting clause). The geometric plate on the four sacred months (36:17) becomes a second moon plate (geometric is kept for the Names); the light plate that started just after the Name on 36:35 (Allah is with the pious) becomes a geometric plate on the Name. The background stays quiet on 36:9-15 (His decree, the day He created the heavens and the earth)."
  },
  "cover": {
   "series_ar": "حرمة الزمان",

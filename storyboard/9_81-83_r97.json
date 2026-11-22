@@ -33,21 +33,61 @@
     81,
     82
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "h",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "k",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       81,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       81,
+       3
+      ],
+      "do": "shot_close",
+      "who": "h"
+     },
      {
       "at": [
        81,
        7
       ],
-      "do": "pan_right"
+      "do": "shake_head",
+      "who": "k"
      },
      {
       "at": [
        81,
-       8
+       9
       ],
       "do": "pan_left"
      },
@@ -63,19 +103,37 @@
        81,
        13
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "k"
      },
      {
       "at": [
        81,
-       24
+       15
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "h"
      },
      {
       "at": [
        81,
-       27
+       17
+      ],
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       81,
+       21
+      ],
+      "do": "shot_close",
+      "who": "k"
+     },
+     {
+      "at": [
+       81,
+       25
       ],
       "do": "shot_wide"
      },
@@ -84,28 +142,31 @@
        82,
        1
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "h"
      },
      {
       "at": [
        82,
        3
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "k"
      },
      {
       "at": [
        82,
        5
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        82,
-       6
+       7
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "h"
      }
     ],
     "motifs": [
@@ -120,7 +181,7 @@
       ],
       "motif": "house",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -133,7 +194,7 @@
       ],
       "motif": "sun",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -196,6 +257,13 @@
        20
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       83,
+       25
+      ],
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -295,7 +363,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Their saying «لا تنفروا في الحر» is framed («وقال بعضهم لبعض»). 83 keeps As-Sa'di's restriction (those who stayed without excuse and did not grieve). A house for «بمقعدهم» (leaving before «رسول الله») and «فاقعدوا», a sun for «في الحر» that leaves before «نار جهنم»; nothing drawn for the Fire. No motif on the Prophet ﷺ. 81, 83: short-word flags, listen."
+  "notes": "Their saying «لا تنفروا في الحر» is framed («وقال بعضهم لبعض»). 83 keeps As-Sa'di's restriction (those who stayed without excuse and did not grieve). A house for «بمقعدهم» (leaving before «رسول الله») and «فاقعدوا», a sun for «في الحر» that leaves before «نار جهنم»; nothing drawn for the Fire. No motif on the Prophet ﷺ. 81, 83: short-word flags, listen. STAGING v4: c1 (81-82): a town by day (Al-Muyassar: they stayed in Medina; the expedition was in great heat). Two small groups of three men (those who stayed behind) sit in the town; a house plate on 81:3 (their staying, gone before the Messenger's name); the right group shakes its head on 81:7 (they disliked striving); the left group speaks to the right group on 81:15 (Al-Muyassar: some said to others); a sun plate on 81:19 (the heat) that leaves before 81:21. Nothing is drawn for the Fire, for their laughing or for their weeping (82); the camera holds on them. No gesture of joy. c2 (83) stays ambient: the Prophet's return to them, their asking his leave and his answer (an empty-side address, and fighting)."
  },
  "cover": {
   "series_ar": "بعد تبوك",
@@ -304,8 +372,9 @@
   "title_en": "Boasting of staying behind",
   "at": [
    81,
-   1
+   16
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

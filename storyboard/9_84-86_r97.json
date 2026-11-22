@@ -46,6 +46,13 @@
      {
       "at": [
        84,
+       8
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       84,
        11
       ],
       "do": "shot_wide"
@@ -65,7 +72,19 @@
       "do": "pan_right"
      }
     ],
-    "motifs": []
+    "motifs": [],
+    "quiet": [
+     [
+      [
+       84,
+       1
+      ],
+      [
+       84,
+       18
+      ]
+     ]
+    ]
    }
   },
   {
@@ -74,37 +93,71 @@
    "verses": [
     85
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "h",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        85,
-       6
+       1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       85,
+       3
+      ],
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       85,
+       5
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        85,
        9
       ],
-      "do": "pan_right"
+      "do": "walk_to",
+      "who": "h",
+      "to": "center"
      },
      {
       "at": [
        85,
        12
       ],
-      "do": "shot_wide"
+      "do": "walk_to",
+      "who": "h",
+      "to": "left"
      },
      {
       "at": [
        85,
-       13
+       15
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "h"
      }
     ],
     "motifs": [
@@ -119,10 +172,20 @@
       ],
       "motif": "coins",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       85,
+       13
+      ],
+      "until": null,
+      "motif": "leaf",
+      "place": "top",
+      "size": "s"
      }
     ],
-    "transition": "dissolve"
+    "transition": "slide"
    }
   },
   {
@@ -155,6 +218,13 @@
        15
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       86,
+       18
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -279,7 +349,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "84 is addressed to the Prophet ﷺ: no motif, no grave or prayer drawn; the ruling keeps As-Sa'di's «كل من علم منه الكفر والنفاق». Coins for «أموالهم», a book for «سورة»; the call in 86:4-9 is not glossed (only As-Sa'di's framing)."
+  "notes": "84 is addressed to the Prophet ﷺ: no motif, no grave or prayer drawn; the ruling keeps As-Sa'di's «كل من علم منه الكفر والنفاق». Coins for «أموالهم», a book for «سورة»; the call in 86:4-9 is not glossed (only As-Sa'di's framing). STAGING v4: c1 (84) stays ambient: the prohibition is addressed to the Prophet about his own prayer over them; no grave, no funeral and nobody standing in prayer is drawn; background quiet. c2 (85): a market by day; three men (the hypocrites); a coins plate on their wealth (85:3, gone before the Name); their children are not drawn. They hurry to the middle and back on 85:9 and 85:12 (both tafsirs: the hardship of gaining it); a falling-leaf plate on 85:13 (the passing away) while they stand still: nobody leaves or fades on that word. c3 (86) stays ambient: the rich among them ask the Prophet's leave and speak to him (an empty-side address)."
  },
  "cover": {
   "series_ar": "بعد تبوك",
@@ -291,5 +361,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }
