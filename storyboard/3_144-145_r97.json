@@ -32,10 +32,31 @@
    "verses": [
     144
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       144,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        144,
@@ -46,37 +67,54 @@
      {
       "at": [
        144,
-       7
+       5
       ],
-      "do": "shot_wide"
+      "do": "read",
+      "who": "b"
      },
      {
       "at": [
        144,
        10
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        144,
-       16
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       144,
-       20
+       15
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        144,
-       24
+       17
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       144,
+       19
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       144,
+       22
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       144,
+       27
+      ],
+      "do": "pray",
+      "who": "b"
      }
     ],
     "motifs": [
@@ -87,11 +125,11 @@
       ],
       "until": [
        144,
-       23
+       22
       ],
       "motif": "footsteps",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -102,44 +140,87 @@
    "verses": [
     145
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "m",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "rich"
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       145,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        145,
        4
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        145,
        7
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        145,
-       16
+       12
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "m"
      },
      {
       "at": [
        145,
-       21
+       18
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       145,
+       20
+      ],
+      "do": "raise_hands",
+      "who": "b"
      },
      {
       "at": [
        145,
        24
       ],
-      "do": "pan_right"
+      "do": "bow",
+      "who": "b"
      }
     ],
     "motifs": [
@@ -148,20 +229,26 @@
        145,
        9
       ],
-      "until": null,
+      "until": [
+       145,
+       12
+      ],
       "motif": "hourglass",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        145,
-       12
+       13
       ],
-      "until": null,
-      "motif": "two_paths",
+      "until": [
+       145,
+       17
+      ],
+      "motif": "coins",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "light_sweep"
@@ -227,7 +314,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The Prophet ﷺ is never drawn or symbolised; footsteps only for «انقلبتم على أعقابكم», the gloss carrying the verse's condition «أفإن مات أو قتل». An hourglass for the appointed term, two_paths for the reward of this world or the next. 145:11-24 is not glossed: Al-Muyassar's wording there is in Allah's first person."
+  "notes": "The Prophet ﷺ is never drawn or symbolised; footsteps only for «انقلبتم على أعقابكم», the gloss carrying the verse's condition «أفإن مات أو قتل». An hourglass for the appointed term, two_paths for the reward of this world or the next. 145:11-24 is not glossed: Al-Muyassar's wording there is in Allah's first person. STAGING v4: The Prophet is never drawn or symbolised (144:2-4 have no plate and no zoom). 144: believers in a prayer hall hold the Book that was brought to them (read), stay standing, nobody turns back (the turning back is conditional: only the footsteps plate, the gloss carries the condition), and pray on «الشاكرين» (Al-Muyassar: ثبت على الإيمان وشكر ربه; As-Sa'di: الشكر ... القيام بعبودية الله). 145: death by Allah's leave is not pictured (hourglass plate on 145:9); a rich man for those who seek the reward of this world (coins plate), believers raising hands for those who seek the Hereafter (Al-Muyassar: من يطلب بعمله ... عرض الدنيا / الجزاء من الله في الآخرة); no one is drawn giving, since the giver is Allah."
  },
  "cover": {
   "series_ar": "من بدر إلى أحد",
@@ -239,5 +326,6 @@
    14
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

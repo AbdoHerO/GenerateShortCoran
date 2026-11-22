@@ -32,10 +32,42 @@
    "verses": [
     47
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "m",
+      "type": "honored",
+      "label": "مريم",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "an",
+      "type": "angel",
+      "label": "الملائكة",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       47,
+       1
+      ],
+      "do": "speak",
+      "who": "m"
+     },
      {
       "at": [
        47,
@@ -48,6 +80,22 @@
        47,
        7
       ],
+      "do": "glow",
+      "who": "m"
+     },
+     {
+      "at": [
+       47,
+       10
+      ],
+      "do": "speak",
+      "who": "an"
+     },
+     {
+      "at": [
+       47,
+       13
+      ],
       "do": "shot_wide"
      },
      {
@@ -55,21 +103,38 @@
        47,
        15
       ],
-      "do": "pan_right"
+      "do": "glow",
+      "who": "m"
      },
      {
       "at": [
        47,
-       17
+       16
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "an"
      },
      {
       "at": [
        47,
-       19
+       18
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       47,
+       20
+      ],
+      "do": "glow",
+      "who": "m"
+     },
+     {
+      "at": [
+       47,
+       23
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -81,7 +146,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -91,7 +156,7 @@
       "until": null,
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -103,21 +168,71 @@
     48,
     49
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "i",
+      "type": "prophet",
+      "label": "عيسى",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 5,
+      "pose": "stand",
+      "enter": [
+       49,
+       3
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       48,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       48,
+       2
+      ],
+      "do": "glow",
+      "who": "i"
+     },
      {
       "at": [
        48,
        5
       ],
-      "do": "pan_right"
+      "do": "glow",
+      "who": "i"
      },
      {
       "at": [
        49,
-       2
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       49,
+       3
       ],
       "do": "shot_wide"
      },
@@ -126,84 +241,109 @@
        49,
        5
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "i"
      },
      {
       "at": [
        49,
        9
       ],
-      "do": "pan_right"
+      "do": "glow",
+      "who": "i"
      },
      {
       "at": [
        49,
-       13
+       11
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "i"
+     },
+     {
+      "at": [
+       49,
+       15
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        49,
        18
       ],
-      "do": "pan_right"
+      "do": "glow",
+      "who": "i"
      },
      {
       "at": [
        49,
        19
       ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       49,
-       20
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       49,
-       25
-      ],
       "do": "shot_wide"
      },
      {
       "at": [
        49,
-       29
+       21
       ],
-      "do": "pan_right"
+      "do": "glow",
+      "who": "i"
      },
      {
       "at": [
        49,
-       32
+       24
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "i"
+     },
+     {
+      "at": [
+       49,
+       27
+      ],
+      "do": "glow",
+      "who": "i"
+     },
+     {
+      "at": [
+       49,
+       31
+      ],
+      "do": "speak",
+      "who": "i"
      },
      {
       "at": [
        49,
        33
       ],
+      "do": "point",
+      "who": "i",
+      "to": "p"
+     },
+     {
+      "at": [
+       49,
+       38
+      ],
       "do": "shot_wide"
      },
      {
       "at": [
        49,
-       40
+       41
       ],
-      "do": "pan_right"
+      "do": "glow",
+      "who": "i"
      },
      {
       "at": [
        49,
-       43
+       44
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -215,7 +355,7 @@
       "until": null,
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -223,9 +363,9 @@
        8
       ],
       "until": null,
-      "motif": "burst",
+      "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -235,7 +375,7 @@
       "until": null,
       "motif": "house",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "iris"
@@ -345,7 +485,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on Maryam or Isa, and none of the miracles is drawn (no clay bird coming to life, no healing, no reviving): a burst for «بآية», a house for what they store. light on «كن» (Allah's word: light allowed). 48:2 «الكتاب» is not glossed: As-Sa'di gives two readings and Al-Muyassar one of them."
+  "notes": "No motif on Maryam or Isa, and none of the miracles is drawn (no clay bird coming to life, no healing, no reviving): a burst for «بآية», a house for what they store. light on «كن» (Allah's word: light allowed). 48:2 «الكتاب» is not glossed: As-Sa'di gives two readings and Al-Muyassar one of them. STAGING v4: 47: Maryam (green drop «مريم») asks, the angel (one gold drop «الملائكة») answers (Al-Muyassar: the angel said to her); geometric and light plates for His creating and «كن». 48-49: Isa, a blue drop «عيسى», with the Children of Israel in a town: he speaks to them and points at them on «تأكلون». None of the miracles is drawn: no clay, no bird, no birds beat, no blind, sick or dead person; only glows on his drop and a light plate on «بآية». Book plate on the Torah (not on 48:2, where As-Sa'di gives two readings); house plate on «بيوتكم». Wide shots only."
  },
  "cover": {
   "series_ar": "مريم وعيسى",
@@ -354,8 +494,9 @@
   "title_en": "The miracles of Isa",
   "at": [
    49,
-   8
+   9
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

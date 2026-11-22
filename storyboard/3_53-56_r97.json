@@ -33,30 +33,91 @@
     53,
     54
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "h",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "uncountable": true
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 4,
+      "pose": "gather",
+      "enter": [
+       53,
+       9
+      ],
+      "exit": null,
+      "uncountable": true
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        53,
-       2
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        53,
+       2
+      ],
+      "do": "raise_hands",
+      "who": "h"
+     },
+     {
+      "at": [
+       53,
+       5
+      ],
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       53,
+       7
+      ],
+      "do": "raise_hands",
+      "who": "h"
+     },
+     {
+      "at": [
+       53,
        9
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        54,
-       2
+       1
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "d"
+     },
+     {
+      "at": [
+       54,
+       4
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -65,10 +126,23 @@
        53,
        4
       ],
-      "until": null,
+      "until": [
+       53,
+       6
+      ],
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       54,
+       5
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "s"
      }
     ]
    }
@@ -306,7 +380,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on Isa, the disciples or the plotters. 55:6 «متوفيك» is glossed only with what both tafsirs share (he was raised to Allah); Al-Muyassar's «قابضك من الأرض» detail is not used. 54:4-6 carries Al-Muyassar's note that Allah's «مكر» is «مكر بحق، وفي مقابلة مكر الماكرين». 53:7-9 uses As-Sa'di (Al-Muyassar narrows «الشاهدين» to the ummah of Muhammad ﷺ). 55: short-word flag at 18 (listen)."
+  "notes": "No motif on Isa, the disciples or the plotters. 55:6 «متوفيك» is glossed only with what both tafsirs share (he was raised to Allah); Al-Muyassar's «قابضك من الأرض» detail is not used. 54:4-6 carries Al-Muyassar's note that Allah's «مكر» is «مكر بحق، وفي مقابلة مكر الماكرين». 53:7-9 uses As-Sa'di (Al-Muyassar narrows «الشاهدين» to the ummah of Muhammad ﷺ). 55: short-word flag at 18 (listen). STAGING v4: 53: the disciples (an uncountable believers group) raise their hands in their du'a; book plate on «أنزلت» (the Gospel), ended before «الرسول». 54: the disbelievers who plotted appear as an uncountable huddle and speak (both tafsirs: their plot against Isa); nothing of the plot is acted out and Isa is not drawn; «ومكر الله ... خير الماكرين» only as a geometric plate. 55-56 (the raising of Isa, the Day, the punishment) stay ambient as they were. Cover moved to the ambient chapter of 55 to match the title."
  },
  "cover": {
   "series_ar": "مريم وعيسى",
@@ -314,9 +388,10 @@
   "title_ar": "رفع عيسى",
   "title_en": "Isa raised up",
   "at": [
-   53,
-   4
+   55,
+   7
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

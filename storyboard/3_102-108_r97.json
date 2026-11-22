@@ -32,30 +32,70 @@
    "verses": [
     102
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "prayer_hall",
+    "time": "dawn",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        102,
-       4
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       102,
-       6
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        102,
-       10
+       3
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       102,
+       4
+      ],
+      "do": "bow",
+      "who": "b"
+     },
+     {
+      "at": [
+       102,
+       6
+      ],
+      "do": "pray",
+      "who": "b"
+     },
+     {
+      "at": [
+       102,
+       9
+      ],
+      "do": "ruku",
+      "who": "b"
+     },
+     {
+      "at": [
+       102,
+       12
+      ],
+      "do": "sujud",
+      "who": "b"
      }
     ],
     "motifs": [
@@ -67,7 +107,7 @@
       "until": null,
       "motif": "hands",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -78,58 +118,120 @@
    "verses": [
     103
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "l",
+      "type": "people",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "r",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [
+     {
+      "type": "light",
+      "at": [
+       103,
+       26
+      ],
+      "until": null
+     }
+    ],
     "beats": [
+     {
+      "at": [
+       103,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        103,
        4
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        103,
-       6
+       7
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        103,
-       10
+       12
       ],
-      "do": "shot_wide"
+      "do": "turn",
+      "who": "l"
      },
      {
       "at": [
        103,
        13
       ],
-      "do": "pan_right"
+      "do": "turn",
+      "who": "r"
      },
      {
       "at": [
        103,
        14
       ],
-      "do": "pan_left"
+      "do": "turn",
+      "who": "l"
+     },
+     {
+      "at": [
+       103,
+       15
+      ],
+      "do": "turn",
+      "who": "r"
+     },
+     {
+      "at": [
+       103,
+       17
+      ],
+      "do": "walk_to",
+      "who": "l",
+      "to": "center"
      },
      {
       "at": [
        103,
        18
       ],
-      "do": "pan_left"
+      "do": "raise_hands",
+      "who": "r"
      },
      {
       "at": [
        103,
        19
       ],
-      "do": "pan_right"
+      "do": "raise_hands",
+      "who": "l"
      },
      {
       "at": [
@@ -141,23 +243,31 @@
      {
       "at": [
        103,
-       22
+       23
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        103,
-       27
+       28
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        103,
-       29
+       31
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       103,
+       33
+      ],
+      "do": "sparkle",
+      "who": "center"
      }
     ],
     "motifs": [
@@ -166,30 +276,26 @@
        103,
        1
       ],
-      "until": null,
+      "until": [
+       103,
+       7
+      ],
       "motif": "seal",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        103,
        17
       ],
-      "until": null,
+      "until": [
+       103,
+       20
+      ],
       "motif": "house",
       "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       103,
-       33
-      ],
-      "until": null,
-      "motif": "lamp",
-      "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "light_sweep"
@@ -202,79 +308,183 @@
     104,
     105
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       105,
+       1
+      ]
+     },
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       105,
+       1
+      ]
+     },
+     {
+      "id": "x",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": [
+       105,
+       1
+      ],
+      "exit": null
+     },
+     {
+      "id": "y",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": [
+       105,
+       1
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        104,
-       3
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        104,
+       3
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       104,
+       4
+      ],
+      "do": "speak",
+      "who": "b"
+     },
+     {
+      "at": [
+       104,
+       7
+      ],
+      "do": "point",
+      "who": "b",
+      "to": "p"
+     },
+     {
+      "at": [
+       104,
        8
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        104,
        9
       ],
-      "do": "pan_left"
+      "do": "shake_head",
+      "who": "b"
      },
      {
       "at": [
        104,
        13
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        104,
        14
       ],
-      "do": "pan_left"
+      "do": "sparkle",
+      "who": "b"
      },
      {
       "at": [
        105,
        1
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        105,
        4
       ],
-      "do": "shot_wide"
+      "do": "walk_to",
+      "who": "x",
+      "to": "left"
      },
      {
       "at": [
        105,
-       8
+       5
       ],
-      "do": "pan_right"
+      "do": "walk_to",
+      "who": "y",
+      "to": "right"
+     },
+     {
+      "at": [
+       105,
+       7
+      ],
+      "do": "speak",
+      "who": "x"
+     },
+     {
+      "at": [
+       105,
+       9
+      ],
+      "do": "shake_head",
+      "who": "y"
      },
      {
       "at": [
        105,
        11
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        105,
        12
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -283,10 +493,23 @@
        104,
        7
       ],
-      "until": null,
+      "until": [
+       104,
+       12
+      ],
       "motif": "two_paths",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       105,
+       4
+      ],
+      "until": null,
+      "motif": "wind",
+      "place": "top",
+      "size": "s"
      }
     ],
     "transition": "slide"
@@ -388,16 +611,46 @@
    "verses": [
     108
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       108,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       108,
+       4
+      ],
+      "do": "read",
+      "who": "b"
+     },
      {
       "at": [
        108,
        6
       ],
-      "do": "pan_right"
+      "do": "sparkle",
+      "who": "b"
      },
      {
       "at": [
@@ -411,19 +664,33 @@
        108,
        11
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "b"
      }
     ],
     "motifs": [
      {
       "at": [
        108,
-       2
+       4
       ],
-      "until": null,
+      "until": [
+       108,
+       8
+      ],
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       108,
+       8
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "s"
      }
     ],
     "transition": "page_turn"
@@ -665,7 +932,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "One unit of about 170 s: the reciter joins every verse from 102 to 108. A seal for holding fast together (no rope drawn), a house for brotherhood, two_paths for right and wrong, wind for the scattering of those who split. The Day (106-107): no faces drawn, nothing literal; only light on «رحمة» (mercy). Nothing for the Fire (103:22-25). 103: short-word flag at 17 (listen)."
+  "notes": "One unit of about 170 s: the reciter joins every verse from 102 to 108. A seal for holding fast together (no rope drawn), a house for brotherhood, two_paths for right and wrong, wind for the scattering of those who split. The Day (106-107): no faces drawn, nothing literal; only light on «رحمة» (mercy). Nothing for the Fire (103:22-25). 103: short-word flag at 17 (listen). STAGING v4: 102: believers bow on «اتقوا» and pray at dawn (prostration on «مسلمون»). 103: two groups who were enemies (Al-Muyassar: before Islam) turn their backs on each other on 103:12-13, turn back on «فألف», one walks over to the other on «فأصبحتم» (house plate) and both raise their hands on «إخوانا»; nothing drawn for the pit of the Fire, a soft light on «فأنقذكم» (Al-Muyassar: He guided you by Islam). 104: «منكم أمة» = part of the believers (b) call to good (speak), enjoin (point) and forbid (shake_head) before people (p). 105: the earlier communities who split (Al-Muyassar: the People of the Book): a group enters, walks apart (105:4-5) and argues (speak / shake_head); they stay on stage, nothing drawn for the punishment. 106-107 (the Day) stay ambient. 108: believers read the Quran in a prayer hall (the Prophet, addressed by «عليك», is never shown); geometric only on the Name."
  },
  "cover": {
   "series_ar": "التمسك بالدين",
@@ -677,5 +944,6 @@
    17
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

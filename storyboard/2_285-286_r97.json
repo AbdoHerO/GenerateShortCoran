@@ -235,8 +235,7 @@
        286,
        17
       ],
-      "do": "bow",
-      "who": "b"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -288,7 +287,7 @@
        286,
        36
       ],
-      "do": "bow",
+      "do": "shot_close",
       "who": "b"
      },
      {
@@ -535,7 +534,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on the Messenger, the angels or the messengers (285:2, 12, 14), nor on «ربنا» or any negated plea. A book for what was revealed, hands for the supplications, two_paths for good and evil earned. As-Sa'di has no entry for 286: Al-Muyassar only. Cover title changed from «خواتيم البقرة» (same as the series). STAGING v4: 285: the Messenger ﷺ is not shown, nor the angels or messengers: believers sit in a prayer hall reading (what was revealed), say «سمعنا وأطعنا» and raise their hands on «غفرانك». 286: the same believers at night making the closing du'a: raised hands on each «ربنا», heads lowered on «نسينا» and «لا طاقة». No battle on «فانصرنا»."
+  "notes": "No motif on the Messenger, the angels or the messengers (285:2, 12, 14), nor on «ربنا» or any negated plea. A book for what was revealed, hands for the supplications, two_paths for good and evil earned. As-Sa'di has no entry for 286: Al-Muyassar only. Cover title changed from «خواتيم البقرة» (same as the series). STAGING v4: 285: the Messenger is not shown, nor the angels or messengers: believers sit in a prayer hall reading (what was revealed, 285:8), speak on 285:21, lower their heads on 285:23 and raise their hands on 285:24. 286: the same believers at night making the closing du'a: raised hands on each vocative of the Lord; the negated pleas get only the camera. No battle on 286:46."
  },
  "cover": {
   "series_ar": "خواتيم البقرة",

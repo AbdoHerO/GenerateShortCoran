@@ -33,23 +33,80 @@
     50,
     51
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "i",
+      "type": "prophet",
+      "label": "عيسى",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 5,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        50,
-       9
+       1
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "i"
+     },
+     {
+      "at": [
+       50,
+       4
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       50,
+       7
+      ],
+      "do": "speak",
+      "who": "i"
+     },
+     {
+      "at": [
+       50,
+       10
+      ],
+      "do": "glow",
+      "who": "i"
+     },
+     {
+      "at": [
+       50,
+       13
+      ],
+      "do": "speak",
+      "who": "i"
      },
      {
       "at": [
        50,
        14
       ],
-      "do": "pan_right"
+      "do": "glow",
+      "who": "i"
      },
      {
       "at": [
@@ -60,24 +117,42 @@
      },
      {
       "at": [
-       51,
-       1
+       50,
+       19
       ],
-      "do": "pan_left"
+      "do": "point",
+      "who": "i",
+      "to": "p"
+     },
+     {
+      "at": [
+       51,
+       2
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        51,
        5
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "i"
+     },
+     {
+      "at": [
+       51,
+       6
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        51,
        8
       ],
-      "do": "pan_left"
+      "do": "glow",
+      "who": "i"
      }
     ],
     "motifs": [
@@ -86,20 +161,13 @@
        50,
        1
       ],
-      "until": null,
-      "motif": "scroll",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
+      "until": [
        50,
        7
       ],
-      "until": null,
-      "motif": "door",
+      "motif": "scroll",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -109,7 +177,7 @@
       "until": null,
       "motif": "footsteps",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -120,23 +188,78 @@
    "verses": [
     52
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "i",
+      "type": "prophet",
+      "label": "عيسى",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 5,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "h",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 4,
+      "pose": "stand",
+      "enter": [
+       52,
+       11
+      ],
+      "exit": null,
+      "uncountable": true
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       52,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        52,
        2
       ],
-      "do": "pan_left"
+      "do": "glow",
+      "who": "i"
      },
      {
       "at": [
        52,
-       8
+       4
       ],
-      "do": "pan_right"
+      "do": "turn",
+      "who": "p"
+     },
+     {
+      "at": [
+       52,
+       6
+      ],
+      "do": "speak",
+      "who": "i"
      },
      {
       "at": [
@@ -148,23 +271,40 @@
      {
       "at": [
        52,
-       11
+       12
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        52,
-       14
+       13
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "h"
      },
      {
       "at": [
        52,
        16
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "h"
+     },
+     {
+      "at": [
+       52,
+       18
+      ],
+      "do": "glow",
+      "who": "i"
+     },
+     {
+      "at": [
+       52,
+       20
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -176,7 +316,7 @@
       "until": null,
       "motif": "seal",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "slide"
@@ -297,7 +437,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on Isa or the disciples; a scroll for the Torah, a door for what is made lawful, footsteps for the straight path, a seal for the disciples' pledge."
+  "notes": "No motif on Isa or the disciples; a scroll for the Torah, a door for what is made lawful, footsteps for the straight path, a seal for the disciples' pledge. STAGING v4: 50-51: Isa (blue drop «عيسى») speaks to the Children of Israel in a town and points at them on «وأطيعون»; scroll plate for the Torah (ended before «ولأحل»), footsteps for the straight path. No gesture by the people on the command «فاعبدوه». 52: the people turn away on «الكفر» (As-Sa'di: they did not submit to him); the plot to kill him is not drawn. The disciples, an uncountable believers group (their number is not given), appear on «قال الحواريون» and speak; seal plate for their pledge. Wide shots only."
  },
  "cover": {
   "series_ar": "مريم وعيسى",
@@ -309,5 +449,6 @@
    6
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

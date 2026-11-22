@@ -74,24 +74,15 @@
        280,
        4
       ],
-      "do": "bow",
-      "who": "d"
-     },
-     {
-      "at": [
-       280,
-       5
-      ],
-      "do": "speak",
-      "who": "r"
-     },
-     {
-      "at": [
-       280,
-       6
-      ],
       "do": "shot_close",
       "who": "d"
+     },
+     {
+      "at": [
+       280,
+       7
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
@@ -122,7 +113,7 @@
        280,
        13
       ],
-      "do": "sparkle",
+      "do": "shot_close",
       "who": "r"
      },
      {
@@ -319,7 +310,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "JOINED after 280 is inside the video. The Day of return (281) gets only an hourglass, no scales and nothing literal. STAGING v4: 280: a creditor and a debtor in hardship in the market: he grants him time (speaks, hourglass) and, on «وأن تصدقوا», gives (remits). 281 (the Day of return, the reckoning) stays ambient: the hourglass now leaves before the Name; a light plate afterwards (no scales)."
+  "notes": "JOINED after 280 is inside the video. The Day of return (281) gets only an hourglass, no scales and nothing literal. STAGING v4: 280: a creditor and a debtor in hardship in the market. The conditional clause (280:1-7) gets only the camera and the hourglass plate; on 280:9 the creditor gives (remits). 281 (the Day of return, the reckoning) stays ambient: the hourglass leaves before the Name; a light plate afterwards (no scales)."
  },
  "cover": {
   "series_ar": "الربا",

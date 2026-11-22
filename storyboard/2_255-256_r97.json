@@ -229,6 +229,13 @@
        256,
        4
       ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       256,
+       5
+      ],
       "do": "walk_to",
       "who": "w",
       "to": "center"
@@ -446,7 +453,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Allah's names and attributes: geometric only, no arrows; stars on «السماوات» leave before «كرسيه» so nothing on screen can read as the Kursi. 255:29-32 (بين أيديهم / خلفهم) is not glossed: Al-Muyassar and As-Sa'di give opposite readings (future/past). The Kursi itself is not glossed. 256:1-4 gloss stops at the reason both tafsirs share, before Al-Muyassar's jizya restriction, which it does not cut into. STAGING v4: 255 (Ayat al-Kursi: Allah's names and attributes) stays ambient as it was. 256: a traveller on the road at dawn: light on «الرشد», he turns his back on «الطاغوت» (nothing worshipped is drawn), raises his hands on «ويؤمن», and walks on, a seal on «العروة الوثقى»."
+  "notes": "Allah's names and attributes: geometric only, no arrows; stars on «السماوات» leave before «كرسيه» so nothing on screen can read as the Kursi. 255:29-32 (بين أيديهم / خلفهم) is not glossed: Al-Muyassar and As-Sa'di give opposite readings (future/past). The Kursi itself is not glossed. 256:1-4 gloss stops at the reason both tafsirs share, before Al-Muyassar's jizya restriction, which it does not cut into. STAGING v4: 255 (Ayat al-Kursi: Allah's names and attributes) stays ambient as it was. 256: a traveller on the road at dawn; he walks on only after the negated opening (256:5); light on 256:7, he turns his back on 256:12 (nothing worshipped is drawn), raises his hands on 256:13 and walks on; seal plate on 256:17."
  },
  "cover": {
   "series_ar": "الرسل وآية الكرسي",

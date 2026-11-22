@@ -224,17 +224,6 @@
       "enter": null,
       "exit": null,
       "look": "poor"
-     },
-     {
-      "id": "q",
-      "type": "man",
-      "label": "",
-      "place": "left",
-      "count": 1,
-      "pose": "sit",
-      "enter": null,
-      "exit": null,
-      "look": "poor"
      }
     ],
     "events": [],
@@ -268,7 +257,7 @@
        270,
        6
       ],
-      "do": "speak",
+      "do": "shot_close",
       "who": "g"
      },
      {
@@ -283,48 +272,36 @@
        270,
        13
       ],
-      "do": "pan_left"
+      "do": "wind"
      },
      {
       "at": [
        270,
        15
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        271,
        1
       ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       271,
+       4
+      ],
       "do": "shot_close",
-      "who": "g"
+      "who": "p"
      },
      {
       "at": [
        271,
-       3
+       7
       ],
-      "do": "sparkle",
-      "who": "g"
-     },
-     {
-      "at": [
-       271,
-       6
-      ],
-      "do": "walk_to",
-      "who": "g",
-      "to": "left"
-     },
-     {
-      "at": [
-       271,
-       8
-      ],
-      "do": "give",
-      "who": "g",
-      "to": "q"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -332,22 +309,14 @@
        9
       ],
       "do": "shot_close",
-      "who": "q"
-     },
-     {
-      "at": [
-       271,
-       11
-      ],
-      "do": "raise_hands",
-      "who": "q"
+      "who": "p"
      },
      {
       "at": [
        271,
        13
       ],
-      "do": "sparkle",
+      "do": "shot_close",
       "who": "g"
      },
      {
@@ -544,7 +513,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on the Shaytan's words (268:1-5); a seal for Allah's promise, a lamp for wisdom. 271: no two_paths (open charity is also praised), a burst on «خير لكم». STAGING v4: 268: Shaytan is not drawn; the camera rests on the poor man while his threat of poverty is recited; the man gives on «مغفرة» (Allah's promise, a seal plate). 269: wisdom shown as the man reading (useful knowledge, As-Sa'di) with a lamp plate. 270-271: giving in the open market, then he steps aside and gives a second poor man quietly on «تخفوها وتؤتوها الفقراء»."
+  "notes": "No motif on the Shaytan's words (268:1-5); a seal for Allah's promise, a lamp for wisdom. 271: no two_paths (open charity is also praised), a burst on «خير لكم». STAGING v4: 268: Shaytan is not drawn; the camera rests on the poor man during 268:1-5; the man gives on 268:8 (Allah's promise, a seal plate). 269: wisdom shown as the man reading (useful knowledge, As-Sa'di), lamp plate. 270: he gives in the market; the vow (270:5-8) gets only the camera. 271 is conditional (open or hidden charity), so nobody acts it: camera on the giver and the poor man, a burst plate on 271:11."
  },
  "cover": {
   "series_ar": "فضل الإنفاق وآدابه",

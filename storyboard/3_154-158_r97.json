@@ -46,7 +46,21 @@
      {
       "at": [
        154,
+       10
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       154,
        11
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       154,
+       12
       ],
       "do": "pan_right"
      },
@@ -61,6 +75,13 @@
       "at": [
        154,
        16
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       154,
+       22
       ],
       "do": "shot_wide"
      },
@@ -88,7 +109,21 @@
      {
       "at": [
        154,
+       45
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       154,
        48
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       154,
+       51
       ],
       "do": "pan_left"
      },
@@ -238,16 +273,79 @@
    "verses": [
     156
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 4,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "w",
+      "type": "man",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       156,
+       10
+      ],
+      "exit": [
+       156,
+       14
+      ],
+      "look": "traveller"
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       156,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       156,
+       2
+      ],
+      "do": "pan_right"
+     },
      {
       "at": [
        156,
        5
       ],
-      "do": "shot_wide"
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       156,
+       8
+      ],
+      "do": "speak",
+      "who": "d"
+     },
+     {
+      "at": [
+       156,
+       11
+      ],
+      "do": "walk_to",
+      "who": "w",
+      "to": "left"
      },
      {
       "at": [
@@ -266,30 +364,33 @@
      {
       "at": [
        156,
-       20
+       17
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "d"
      },
      {
       "at": [
        156,
-       23
+       21
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        156,
        27
       ],
-      "do": "shot_wide"
+      "do": "wring_hands",
+      "who": "d"
      },
      {
       "at": [
        156,
        31
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -303,15 +404,15 @@
      {
       "at": [
        156,
-       10
+       11
       ],
       "until": [
        156,
-       25
+       24
       ],
       "motif": "footsteps",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "slide"
@@ -596,7 +697,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "One unit of about 151 s: the reciter joins 154 to 158. A moon for the calm drowsiness, wind for the suspicion, geometric for «إن الأمر كله لله», a house for «لو كنتم في بيوتكم», a door for the pardon, footsteps for travel, coins for what they gather. Nothing for the killed, the Shaytan or the battle. The hypocrites' claims (154:41-50, 156:17-23) are not glossed as statements."
+  "notes": "One unit of about 151 s: the reciter joins 154 to 158. A moon for the calm drowsiness, wind for the suspicion, geometric for «إن الأمر كله لله», a house for «لو كنتم في بيوتكم», a door for the pardon, footsteps for travel, coins for what they gather. Nothing for the killed, the Shaytan or the battle. The hypocrites' claims (154:41-50, 156:17-23) are not glossed as statements. STAGING v4: 154 stays ambient: the battlefield of Uhud (the drowsiness came during the battle, the killed, «ما قتلنا هاهنا»). 155 stays ambient: those who fled the battle and the Shaytan. 157-158 stay ambient: being killed or dying in His path, the Gathering. 156: the disbelievers sit in their town (Al-Muyassar: وأقاموا معنا) and speak about their brothers; one traveller sets out on «ضربوا في الأرض» (both tafsirs: travel for trade or livelihood) and is gone before the raiding and the deaths are named, so no one is seen dying; the speakers wring their hands on «حسرة»."
  },
  "cover": {
   "series_ar": "دروس أحد",
@@ -608,5 +709,6 @@
    8
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

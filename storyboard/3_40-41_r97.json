@@ -32,30 +32,61 @@
    "verses": [
     40
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "z",
+      "type": "prophet",
+      "label": "زكريا",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        40,
-       5
+       1
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "z"
      },
      {
       "at": [
        40,
-       8
+       4
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        40,
-       11
+       7
       ],
-      "do": "pan_left"
+      "do": "glow",
+      "who": "z"
+     },
+     {
+      "at": [
+       40,
+       10
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       40,
+       15
+      ],
+      "do": "glow",
+      "who": "z"
      }
     ],
     "motifs": [
@@ -67,7 +98,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -78,10 +109,55 @@
    "verses": [
     41
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "z",
+      "type": "prophet",
+      "label": "زكريا",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       41,
+       1
+      ],
+      "do": "speak",
+      "who": "z"
+     },
+     {
+      "at": [
+       41,
+       3
+      ],
+      "do": "raise_hands",
+      "who": "z"
+     },
+     {
+      "at": [
+       41,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       41,
+       7
+      ],
+      "do": "glow",
+      "who": "z"
+     },
      {
       "at": [
        41,
@@ -94,21 +170,31 @@
        41,
        14
       ],
-      "do": "shot_wide"
+      "do": "glow",
+      "who": "z"
      },
      {
       "at": [
        41,
        17
       ],
-      "do": "pan_left"
+      "do": "bow",
+      "who": "z"
+     },
+     {
+      "at": [
+       41,
+       18
+      ],
+      "do": "glow",
+      "who": "z"
      },
      {
       "at": [
        41,
        20
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -117,10 +203,13 @@
        41,
        7
       ],
-      "until": null,
+      "until": [
+       41,
+       15
+      ],
       "motif": "burst",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -130,7 +219,7 @@
       "until": null,
       "motif": "night_day",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "dissolve"
@@ -218,7 +307,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on Zakariya's age or person. geometric for «كذلك الله يفعل ما يشاء», a burst for the sign, night_day for evening and morning."
+  "notes": "No motif on Zakariya's age or person. geometric for «كذلك الله يفعل ما يشاء», a burst for the sign, night_day for evening and morning. STAGING v4: Zakariya alone in his place of prayer, a blue drop «زكريا». He speaks on 40:1 and 41:1 and raises his hands asking for a sign. The answers «قال كذلك» and «قال آيتك» get no speaker on screen (As-Sa'di: Allah told him), so the angel is not drawn here; his wife is not drawn. The sign of silence is not acted out (no people drawn, no gesture): a burst plate on «آيتك» ended before «ربك»; he bows on the remembrance and glows on «وسبح»; night_day for evening and morning. Wide shots only."
  },
  "cover": {
   "series_ar": "آل عمران",
@@ -227,8 +316,9 @@
   "title_en": "Zakariya's sign",
   "at": [
    41,
-   7
+   10
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

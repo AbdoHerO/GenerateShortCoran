@@ -89,13 +89,6 @@
      {
       "at": [
        282,
-       3
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       282,
        5
       ],
       "do": "give",
@@ -155,14 +148,15 @@
        282,
        37
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        282,
        42
       ],
-      "do": "pan_left"
+      "do": "read",
+      "who": "s"
      },
      {
       "at": [
@@ -178,6 +172,14 @@
        60
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       282,
+       63
+      ],
+      "do": "shot_close",
+      "who": "w"
      },
      {
       "at": [
@@ -275,6 +277,19 @@
      {
       "at": [
        282,
+       4
+      ],
+      "until": [
+       282,
+       8
+      ],
+      "motif": "coins",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       282,
        8
       ],
       "until": [
@@ -331,19 +346,6 @@
       ],
       "until": null,
       "motif": "seal",
-      "place": "top",
-      "size": "s"
-     },
-     {
-      "at": [
-       282,
-       63
-      ],
-      "until": [
-       282,
-       72
-      ],
-      "motif": "scales",
       "place": "top",
       "size": "s"
      },
@@ -680,7 +682,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "One verse of 140 s (never cut). No people drawn (scribe, witnesses): hourglass for the term, pen for writing, scales for justice in writing (worldly justice, not the Mizan), seal for witnessing (twice), scroll, coins for present trade and the sale, a lamp for taqwa. 282:108-115 (witnessing a sale, harm to/by scribes) not glossed: the tafsirs give more than one reading. 282:15-22 not glossed («علمه الله» cannot be excerpted). STAGING v4: The written debt in a market: the creditor lends to the debtor on «تداينتم»; the scribe (seated) writes on «وليكتب» and «أن يكتب»; the debtor dictates on «وليملل» and lowers his head on «وليتق»; two witnesses come in on «واستشهدوا». The women witnesses (the camera stays on the creditor during that clause, away from the two men witnesses), the weak or incapable debtor and his guardian are not drawn (a scroll plate for the guardian's dictation). Present trade: the debtor pays the trader on «تديرونها». Scales only for upright witnesses («ممن ترضون»), worldly justice, far from the Name; never the Mizan."
+  "notes": "One verse of 140 s (never cut). No people drawn (scribe, witnesses): hourglass for the term, pen for writing, scales for justice in writing (worldly justice, not the Mizan), seal for witnessing (twice), scroll, coins for present trade and the sale, a lamp for taqwa. 282:108-115 (witnessing a sale, harm to/by scribes) not glossed: the tafsirs give more than one reading. 282:15-22 not glossed («علمه الله» cannot be excerpted). STAGING v4: The written debt in a market: coins plate on 282:4, the creditor lends to the debtor on 282:5; the seated scribe writes on 282:11, 282:18, 282:42 and 282:81; the debtor dictates on 282:24 and lowers his head on 282:28; two men witnesses come in on 282:52 (the verse gives the number). The women witnesses, the weak or incapable debtor and his guardian are not drawn; during 282:66-71 the camera stays on the creditor. Present trade: the debtor pays on 282:101. No scales."
  },
  "cover": {
   "series_ar": "خواتيم البقرة",

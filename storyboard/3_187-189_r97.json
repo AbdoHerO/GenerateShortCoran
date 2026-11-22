@@ -33,37 +33,85 @@
     187,
     188
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "p",
+      "type": "disbelievers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "q",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        187,
-       8
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       187,
-       11
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        187,
-       13
+       6
+      ],
+      "do": "read",
+      "who": "p"
+     },
+     {
+      "at": [
+       187,
+       9
       ],
       "do": "pan_right"
      },
      {
       "at": [
        187,
+       12
+      ],
+      "do": "turn",
+      "who": "p"
+     },
+     {
+      "at": [
+       187,
+       13
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       187,
+       16
+      ],
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       187,
        19
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -75,14 +123,30 @@
      {
       "at": [
        188,
-       5
+       4
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "p"
+     },
+     {
+      "at": [
+       188,
+       7
+      ],
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
        188,
        9
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       188,
+       10
       ],
       "do": "shot_wide"
      },
@@ -91,21 +155,21 @@
        188,
        13
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        188,
        17
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        188,
        19
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -121,20 +185,26 @@
        187,
        4
       ],
-      "until": null,
+      "until": [
+       187,
+       12
+      ],
       "motif": "seal",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        187,
        15
       ],
-      "until": null,
+      "until": [
+       187,
+       19
+      ],
       "motif": "coins",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -267,7 +337,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A seal for the covenant, coins for the small price; stars on «السماوات» leave before the Name, then geometric. 189 is not glossed."
+  "notes": "A seal for the covenant, coins for the small price; stars on «السماوات» leave before the Name, then geometric. 189 is not glossed. STAGING v4: 187-188: those given the Book (dark robes) hold it (read) beside the people they were to explain it to, then turn their backs on «فنبذوه وراء ظهورهم» (Al-Muyassar: فتركوا العهد); the covenant is a seal plate, the small price a coins plate (no one is drawn paying them, since the tafsirs do not name who paid). 188: they speak, pleased with what they did (As-Sa'di: زعموا أنهم هم المحقون في حالهم ومقالهم); the punishment is not pictured. 189 stays ambient: Allah's dominion and power."
  },
  "cover": {
   "series_ar": "الإمهال والابتلاء",
@@ -279,5 +349,6 @@
    4
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

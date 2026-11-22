@@ -32,28 +32,57 @@
    "verses": [
     95
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "desert",
+    "time": "dawn",
+    "actors": [
+     {
+      "id": "m",
+      "type": "prophet",
+      "label": "إبراهيم",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       95,
+       4
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        95,
        7
       ],
-      "do": "shot_wide"
+      "do": "glow",
+      "who": "m"
+     },
+     {
+      "at": [
+       95,
+       9
+      ],
+      "do": "birds"
      }
     ],
     "motifs": [
      {
       "at": [
        95,
-       4
+       7
       ],
       "until": null,
-      "motif": "footsteps",
+      "motif": "two_paths",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -65,100 +94,152 @@
     96,
     97
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "geometric",
+    "setting": "desert",
+    "time": "day",
+    "actors": [
+     {
+      "id": "t",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "traveller"
+     },
+     {
+      "id": "c",
+      "type": "camel",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       96,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       96,
+       4
+      ],
+      "do": "walk_to",
+      "who": "t",
+      "to": "center"
+     },
      {
       "at": [
        96,
        8
       ],
-      "do": "shot_wide"
+      "do": "birds"
+     },
+     {
+      "at": [
+       96,
+       9
+      ],
+      "do": "sparkle",
+      "who": "t"
      },
      {
       "at": [
        97,
        1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        97,
        4
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        97,
        6
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "t"
      },
      {
       "at": [
        97,
-       18
+       7
       ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       97,
-       20
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       97,
-       23
-      ],
-      "do": "pan_right"
-     }
-    ],
-    "motifs": [
-     {
-      "at": [
-       96,
-       3
-      ],
-      "until": null,
-      "motif": "geometric",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       96,
-       9
-      ],
-      "until": null,
-      "motif": "lamp",
-      "place": "top",
-      "size": "m"
+      "do": "walk_to",
+      "who": "t",
+      "to": "left"
      },
      {
       "at": [
        97,
        9
       ],
-      "until": null,
-      "motif": "seal",
-      "place": "top",
-      "size": "m"
+      "do": "walk_to",
+      "who": "c",
+      "to": "center"
      },
      {
       "at": [
        97,
        13
       ],
-      "until": null,
-      "motif": "footsteps",
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       97,
+       16
+      ],
+      "do": "sparkle",
+      "who": "t"
+     },
+     {
+      "at": [
+       97,
+       19
+      ],
+      "do": "shot_wide"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       97,
+       9
+      ],
+      "until": [
+       97,
+       13
+      ],
+      "motif": "seal",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       97,
+       22
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "s"
      }
     ],
     "transition": "iris"
@@ -246,7 +327,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Re-split from 3_95-98_r97 (reviewed): the audit found no clean audio cut at the old edge. Chapters, glosses and motifs are unchanged."
+  "notes": "Re-split from 3_95-98_r97 (reviewed): the audit found no clean audio cut at the old edge. Chapters, glosses and motifs are unchanged. STAGING v4: 95: Ibrahim as a blue light drop «إبراهيم» alone in the desert at dawn; he glows on «حنيفا» (two_paths plate); no plate starts on his name; nobody is shown following (a command). 96-97: the House is never drawn and gets no symbol, and no plate stands near «حج البيت»: a traveller and his camel on the road (hajj); birds on «مباركا», sparkle on «وهدى»; the Maqam is not drawn and no close-up falls on 97:4-5; seal plate on «آمنا» ends before «حج»; 97:19-20 is conditional: nobody turns away; geometric only on the Name (97:22)."
  },
  "cover": {
   "series_ar": "الميثاق والإسلام",
@@ -255,8 +336,9 @@
   "title_en": "Hajj is prescribed",
   "at": [
    96,
-   3
+   9
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

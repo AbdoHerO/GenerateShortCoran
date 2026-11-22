@@ -32,10 +32,51 @@
    "verses": [
     14
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "fields",
+    "time": "day",
+    "actors": [
+     {
+      "id": "m",
+      "type": "man",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "rich"
+     },
+     {
+      "id": "c",
+      "type": "camel",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       14,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       14,
+       4
+      ],
+      "do": "walk_to",
+      "who": "m",
+      "to": "left"
+     },
      {
       "at": [
        14,
@@ -46,30 +87,69 @@
      {
       "at": [
        14,
-       9
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       14,
-       10
+       7
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        14,
-       13
+       9
       ],
       "do": "pan_right"
      },
      {
       "at": [
        14,
+       10
+      ],
+      "do": "shot_close",
+      "who": "m"
+     },
+     {
+      "at": [
+       14,
+       11
+      ],
+      "do": "turn",
+      "who": "m"
+     },
+     {
+      "at": [
+       14,
+       15
+      ],
+      "do": "point",
+      "who": "m",
+      "to": "c"
+     },
+     {
+      "at": [
+       14,
+       16
+      ],
+      "do": "wind"
+     },
+     {
+      "at": [
+       14,
+       18
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       14,
+       20
+      ],
+      "do": "leaves"
+     },
+     {
+      "at": [
+       14,
        23
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -79,29 +159,22 @@
        8
       ],
       "until": null,
-      "motif": "jewel",
+      "motif": "coins",
       "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       14,
-       16
-      ],
-      "until": null,
-      "motif": "wheat",
-      "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        14,
        18
       ],
-      "until": null,
+      "until": [
+       14,
+       21
+      ],
       "motif": "leaf",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -113,23 +186,53 @@
     15,
     16
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        15,
-       6
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       15,
+       3
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       15,
+       5
       ],
       "do": "pan_right"
      },
      {
       "at": [
        15,
-       8
+       7
       ],
-      "do": "pan_right"
+      "do": "pray",
+      "who": "b"
      },
      {
       "at": [
@@ -141,16 +244,18 @@
      {
       "at": [
        15,
-       10
+       11
       ],
-      "do": "pan_right"
+      "do": "ruku",
+      "who": "b"
      },
      {
       "at": [
        15,
-       13
+       14
       ],
-      "do": "pan_right"
+      "do": "sujud",
+      "who": "b"
      },
      {
       "at": [
@@ -164,6 +269,14 @@
        15,
        17
       ],
+      "do": "sit",
+      "who": "b"
+     },
+     {
+      "at": [
+       15,
+       18
+      ],
       "do": "pan_left"
      },
      {
@@ -171,7 +284,8 @@
        15,
        19
       ],
-      "do": "pan_left"
+      "do": "look_up",
+      "who": "b"
      },
      {
       "at": [
@@ -183,42 +297,69 @@
      {
       "at": [
        15,
-       23
+       22
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       15,
+       24
+      ],
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        16,
        1
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "b"
      },
      {
       "at": [
        16,
        2
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "b"
      },
      {
       "at": [
        16,
        4
       ],
-      "do": "pan_left"
+      "do": "raise_hands",
+      "who": "b"
+     },
+     {
+      "at": [
+       16,
+       6
+      ],
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        16,
        8
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        16,
-       10
+       9
+      ],
+      "do": "bow",
+      "who": "b"
+     },
+     {
+      "at": [
+       16,
+       11
       ],
       "do": "pan_right"
      }
@@ -229,10 +370,23 @@
        15,
        3
       ],
-      "until": null,
+      "until": [
+       15,
+       8
+      ],
       "motif": "burst",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       15,
+       10
+      ],
+      "until": null,
+      "motif": "light",
+      "place": "top",
+      "size": "s"
      },
      {
       "at": [
@@ -242,7 +396,7 @@
       "until": null,
       "motif": "hands",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "light_sweep"
@@ -385,7 +539,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Worldly adornments as symbols (jewel, wheat, a falling leaf); nothing for women, children or horses. Paradise (15:10-18) has no literal motif: a burst for the glad tidings started at «بخير»; «ورضوان من الله» gets only text. 14:14 «المسومة» is not glossed (several readings)."
+  "notes": "Worldly adornments as symbols (jewel, wheat, a falling leaf); nothing for women, children or horses. Paradise (15:10-18) has no literal motif: a burst for the glad tidings started at «بخير»; «ورضوان من الله» gets only text. 14:14 «المسومة» is not glossed (several readings). STAGING v4: 14: a rich man in his fields with a camel (Al-Muyassar: gold and silver, cattle among them camels, land for planting); coins plate for the heaped treasures, wind over the wheat on «والحرث», a leaf plate for the passing enjoyment (ended before the Name). Women, children and horses are not drawn. 15-16: the God-fearing (the people the verse names) pray in a prayer hall; Paradise is never pictured: only a burst plate on «بخير» (ended before «ربهم») and a light plate from 15:10; no river, fire or gold plate there. 16: they speak and raise their hands in their du'a (hands plate on «فاغفر»)."
  },
  "cover": {
   "series_ar": "حقيقة الدين",
@@ -397,5 +551,6 @@
    8
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -113,18 +113,15 @@
        239,
        3
       ],
-      "do": "walk_to",
-      "who": "b",
-      "to": "center"
+      "do": "shot_wide"
      },
      {
       "at": [
        239,
        5
       ],
-      "do": "walk_to",
-      "who": "b",
-      "to": "right"
+      "do": "shot_close",
+      "who": "c"
      },
      {
       "at": [
@@ -204,97 +201,58 @@
     241,
     242
    ],
-   "scene": "stage",
+   "scene": "ambient",
    "params": {
-    "setting": "home",
-    "time": "day",
-    "actors": [
-     {
-      "id": "p",
-      "type": "people",
-      "label": "",
-      "place": "right",
-      "count": 4,
-      "pose": "sit",
-      "enter": null,
-      "exit": null
-     },
-     {
-      "id": "m",
-      "type": "man",
-      "label": "",
-      "place": "left",
-      "count": 1,
-      "pose": "stand",
-      "enter": null,
-      "exit": null,
-      "look": "plain"
-     }
-    ],
-    "events": [],
+    "mood": "dawn",
     "beats": [
      {
       "at": [
        240,
-       2
+       3
       ],
-      "do": "bow",
-      "who": "p"
+      "do": "pan_left"
      },
      {
       "at": [
        240,
        5
       ],
-      "do": "shot_close",
-      "who": "p"
-     },
-     {
-      "at": [
-       240,
-       8
-      ],
-      "do": "give",
-      "who": "m",
-      "to": "p"
-     },
-     {
-      "at": [
-       240,
-       12
-      ],
       "do": "shot_wide"
      },
      {
       "at": [
        240,
-       14
+       7
       ],
-      "do": "stand_up",
-      "who": "p"
+      "do": "pan_right"
      },
      {
       "at": [
        240,
-       17
+       13
       ],
-      "do": "shot_close",
-      "who": "m"
+      "do": "pan_left"
      },
      {
       "at": [
        240,
-       20
+       19
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       240,
+       22
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
        240,
        24
       ],
-      "do": "sparkle",
-      "who": "p"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -306,58 +264,23 @@
      {
       "at": [
        241,
-       1
-      ],
-      "do": "shot_close",
-      "who": "p"
-     },
-     {
-      "at": [
-       241,
        2
-      ],
-      "do": "give",
-      "who": "m",
-      "to": "p"
-     },
-     {
-      "at": [
-       241,
-       4
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        241,
-       6
+       4
       ],
-      "do": "bow",
-      "who": "m"
+      "do": "pan_right"
      },
      {
       "at": [
        242,
-       2
+       1
       ],
-      "do": "read",
-      "who": "m"
-     },
-     {
-      "at": [
-       242,
-       5
-      ],
-      "do": "shot_close",
-      "who": "m"
-     },
-     {
-      "at": [
-       242,
-       7
-      ],
-      "do": "sparkle",
-      "who": "p"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -372,7 +295,7 @@
       ],
       "motif": "hourglass",
       "place": "top",
-      "size": "s"
+      "size": "m"
      },
      {
       "at": [
@@ -382,7 +305,7 @@
       "until": null,
       "motif": "book",
       "place": "top",
-      "size": "s"
+      "size": "m"
      }
     ],
     "transition": "wipe"
@@ -459,7 +382,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The middle prayer glossed as Asr (Al-Muyassar; the view of most scholars). STAGING v4: 238-239: believers praying on a journey (the camel: riding, As-Sa'di); on «فرجالا/ركبانا» they walk, then pray in full when safe. No enemy is drawn. 240-242: a family at home (people group), the man of the house (heir/guardian) hands them their provision on «متاعا» and «متاع»; no widow or divorcee is singled out; the husband's death is not shown."
+  "notes": "The middle prayer glossed as Asr (Al-Muyassar; the view of most scholars). STAGING v4: 238-239: believers praying on a journey, with a camel (riding animals: As-Sa'di). The fear clause (239:1-5) is conditional, so nobody acts it: a gust, a footsteps plate and the camera on the camel; they pray in full from 239:7. 240-242 (widows' bequest and waiting year, provision for divorced women: private family rulings) stay ambient with no people: hourglass on 240:10, book on 242:5."
  },
  "cover": {
   "series_ar": "أحكام الأسرة",

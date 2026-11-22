@@ -47,21 +47,12 @@
       "enter": null,
       "exit": [
        243,
-       12
+       10
       ],
       "uncountable": true
      }
     ],
-    "events": [
-     {
-      "type": "light",
-      "at": [
-       243,
-       17
-      ],
-      "until": null
-     }
-    ],
+    "events": [],
     "beats": [
      {
       "at": [
@@ -90,13 +81,6 @@
      {
       "at": [
        243,
-       9
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       243,
        11
       ],
       "do": "shot_wide"
@@ -111,7 +95,7 @@
      {
       "at": [
        243,
-       21
+       17
       ],
       "do": "sparkle",
       "who": "center"
@@ -119,7 +103,14 @@
      {
       "at": [
        243,
-       25
+       20
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       243,
+       24
       ],
       "do": "shot_wide"
      },
@@ -170,8 +161,24 @@
    "scene": "ambient",
    "params": {
     "mood": "geometric",
-    "beats": [],
-    "motifs": []
+    "beats": [
+     {
+      "at": [
+       244,
+       2
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       244,
+       6
+      ],
+      "do": "pan_right"
+     }
+    ],
+    "motifs": [],
+    "transition": "dissolve"
    }
   },
   {
@@ -222,28 +229,6 @@
     "beats": [
      {
       "at": [
-       244,
-       1
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       244,
-       5
-      ],
-      "do": "bow",
-      "who": "b"
-     },
-     {
-      "at": [
-       244,
-       6
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
        245,
        1
       ],
@@ -280,7 +265,7 @@
        245,
        9
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -475,7 +460,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No crowd for the thousands (number left vague), no motif on death or fighting; growth for the revival, coins and wheat for the loan multiplied. 243:15 and 243:17 glosses from As-Sa'di (Muyassar's 'punishment' reading avoided). STAGING v4: 243: the people (uncountable: the verse gives only «thousands») walk out of their town and leave the stage; their death is not shown (no bodies, no darkness): an hourglass on «موتوا» (no caution outruns the decree, As-Sa'di) and a soft light on «أحياهم» (mercy). 244: believers standing, heads lowered (sincere intention); no weapons, no fighting. 245: a man gives to a poor man (the goodly loan); on «يقبض/يبسط» the camera goes to the poor man, then the rich man."
+  "notes": "No crowd for the thousands (number left vague), no motif on death or fighting; growth for the revival, coins and wheat for the loan multiplied. 243:15 and 243:17 glosses from As-Sa'di (Muyassar's 'punishment' reading avoided). STAGING v4: 243: the people (uncountable) walk out of their town and leave the stage on 243:10, well before the decree on 243:15; their death is not shown. Hourglass plate on 243:15, a sparkle on the empty place on 243:17 (no figures, no beam). 244 (the command to fight) is its own ambient chapter (geometric, camera only, no plate). 245: a rich man gives to a poor man (the goodly loan); the camera goes to the poor man, then the rich man, on 245:13-14."
  },
  "cover": {
   "series_ar": "طالوت وجالوت",

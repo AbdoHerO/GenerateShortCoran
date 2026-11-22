@@ -33,16 +33,62 @@
     57,
     58
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        57,
-       7
+       1
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       57,
+       3
+      ],
+      "do": "pray",
+      "who": "b"
+     },
+     {
+      "at": [
+       57,
+       5
+      ],
+      "do": "ruku",
+      "who": "b"
+     },
+     {
+      "at": [
+       57,
+       6
+      ],
+      "do": "sujud",
+      "who": "b"
+     },
+     {
+      "at": [
+       57,
+       9
+      ],
+      "do": "sit",
+      "who": "b"
      },
      {
       "at": [
@@ -56,7 +102,23 @@
        58,
        2
       ],
-      "do": "pan_left"
+      "do": "read",
+      "who": "b"
+     },
+     {
+      "at": [
+       58,
+       5
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       58,
+       7
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -65,10 +127,13 @@
        57,
        6
       ],
-      "until": null,
+      "until": [
+       57,
+       8
+      ],
       "motif": "wheat",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -78,7 +143,7 @@
       "until": null,
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -118,6 +183,13 @@
      {
       "at": [
        60,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       60,
        5
       ],
       "do": "pan_right"
@@ -131,16 +203,6 @@
       ],
       "until": null,
       "motif": "light",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       60,
-       1
-      ],
-      "until": null,
-      "motif": "lamp",
       "place": "top",
       "size": "m"
      }
@@ -164,6 +226,13 @@
        4
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       61,
+       7
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
@@ -203,6 +272,13 @@
      {
       "at": [
        61,
+       17
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       61,
        18
       ],
       "do": "pan_right"
@@ -235,7 +311,10 @@
        61,
        1
       ],
-      "until": null,
+      "until": [
+       61,
+       23
+      ],
       "motif": "two_paths",
       "place": "top",
       "size": "m"
@@ -381,7 +460,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on Isa, Adam, or the people called to the mubahala (61:13-18); no hands on «نبتهل» (the Prophet's ﷺ own act). light on «كن», a lamp on «الحق» before «من ربك», two_paths for the dispute."
+  "notes": "No motif on Isa, Adam, or the people called to the mubahala (61:13-18); no hands on «نبتهل» (the Prophet's ﷺ own act). light on «كن», a lamp on «الحق» before «من ربك», two_paths for the dispute. STAGING v4: 57-58: believers praying in a prayer hall (the good deeds), prostrating on «فيوفيهم» and sitting before «لا يحب الظالمين»; they read the Book on «نتلوه» (As-Sa'di: a favour to the Prophet and his ummah); wheat plate for the reward (ended before the Name), book plate for the wise reminder. 59-60 (Isa and Adam created by «كن»: Allah's act) stay ambient; the lamp plate was removed because it lived over «ربك». 61 (the mubahala) stays ambient: it addresses the Prophet and names families and women; no people drawn; two_paths now ends before the Name."
  },
  "cover": {
   "series_ar": "مريم وعيسى",
@@ -393,5 +472,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

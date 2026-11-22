@@ -69,6 +69,13 @@
      {
       "at": [
        122,
+       3
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       122,
        4
       ],
       "do": "pan_left"
@@ -115,7 +122,10 @@
        122,
        11
       ],
-      "until": null,
+      "until": [
+       123,
+       2
+      ],
       "motif": "mountain",
       "place": "top",
       "size": "m"
@@ -146,6 +156,13 @@
       "at": [
        124,
        9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       124,
+       11
       ],
       "do": "shot_wide"
      },
@@ -226,7 +243,10 @@
        125,
        3
       ],
-      "until": null,
+      "until": [
+       125,
+       9
+      ],
       "motif": "mountain",
       "place": "top",
       "size": "m"
@@ -236,8 +256,21 @@
        126,
        5
       ],
-      "until": null,
+      "until": [
+       126,
+       15
+      ],
       "motif": "burst",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       126,
+       15
+      ],
+      "until": null,
+      "motif": "geometric",
       "place": "top",
       "size": "m"
      }
@@ -393,7 +426,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Ambient only: no army, no angels, no battle drawn; no motif on the Prophet's ﷺ going out (121). A mountain for reliance and patience, a burst for the glad tidings. 125: short-word flag at 11 (listen)."
+  "notes": "Ambient only: no army, no angels, no battle drawn; no motif on the Prophet's ﷺ going out (121). A mountain for reliance and patience, a burst for the glad tidings. 125: short-word flag at 11 (listen). STAGING v4: Badr and Uhud (battles): the whole video stays ambient; no army, no soldiers, no angels drawn. Only the plates changed: the mountain plates now end before the Name, «ربكم» and «الملائكة», the burst ends before the Name, and a geometric plate takes the Name at 126:15."
  },
  "cover": {
   "series_ar": "من بدر إلى أحد",
@@ -405,5 +438,6 @@
    5
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

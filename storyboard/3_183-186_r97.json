@@ -33,51 +33,82 @@
     183,
     184
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       183,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       183,
+       2
+      ],
+      "do": "speak",
+      "who": "p"
+     },
      {
       "at": [
        183,
        5
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        183,
        7
       ],
-      "do": "pan_right"
+      "do": "shake_head",
+      "who": "p"
      },
      {
       "at": [
        183,
-       11
+       12
+      ],
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       183,
+       14
       ],
       "do": "pan_right"
      },
      {
       "at": [
        183,
-       13
+       16
       ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       183,
-       17
-      ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        183,
        19
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -91,26 +122,27 @@
        183,
        25
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        183,
        28
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
        184,
-       2
+       1
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        184,
-       5
+       4
       ],
       "do": "pan_left"
      },
@@ -126,7 +158,7 @@
        184,
        8
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -138,7 +170,7 @@
       "until": null,
       "motif": "scroll",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -148,7 +180,7 @@
       "until": null,
       "motif": "lamp",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -163,6 +195,13 @@
    "params": {
     "mood": "dawn",
     "beats": [
+     {
+      "at": [
+       185,
+       3
+      ],
+      "do": "pan_left"
+     },
      {
       "at": [
        185,
@@ -244,44 +283,124 @@
    "verses": [
     186
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "m",
+      "type": "man",
+      "label": "",
+      "place": "center",
+      "count": 1,
+      "pose": "sit",
+      "enter": null,
+      "exit": null,
+      "look": "poor"
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": [
+       186,
+       7
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       186,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       186,
+       3
+      ],
+      "do": "give",
+      "who": "b",
+      "to": "m"
+     },
+     {
+      "at": [
+       186,
+       4
+      ],
+      "do": "raise_hands",
+      "who": "m"
+     },
      {
       "at": [
        186,
        5
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        186,
-       8
+       9
+      ],
+      "do": "speak",
+      "who": "d"
+     },
+     {
+      "at": [
+       186,
+       13
       ],
       "do": "pan_right"
-     },
-     {
-      "at": [
-       186,
-       11
-      ],
-      "do": "shot_wide"
      },
      {
       "at": [
        186,
        15
       ],
+      "do": "point",
+      "who": "d",
+      "to": "b"
+     },
+     {
+      "at": [
+       186,
+       17
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       186,
+       20
+      ],
       "do": "shot_wide"
      },
      {
       "at": [
        186,
-       21
+       23
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -290,10 +409,13 @@
        186,
        3
       ],
-      "until": null,
+      "until": [
+       186,
+       5
+      ],
       "motif": "coins",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -303,7 +425,7 @@
       "until": null,
       "motif": "mountain",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "slide"
@@ -457,7 +579,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Their claim (183:3-14) gets no motif; the gloss after it is «أنتم كاذبون في قولكم». No fire for the burnt offering, nothing literal for the Fire or Paradise (185). A scroll and a lamp for the scriptures and the illuminating Book, an hourglass for death, a leaf for the deceiving enjoyment, coins for trials in wealth, a mountain for patience."
+  "notes": "Their claim (183:3-14) gets no motif; the gloss after it is «أنتم كاذبون في قولكم». No fire for the burnt offering, nothing literal for the Fire or Paradise (185). A scroll and a lamp for the scriptures and the illuminating Book, an hourglass for death, a leaf for the deceiving enjoyment, coins for trials in wealth, a mountain for patience. STAGING v4: 183-184: the group from the People of the Book voices its claim when called to Islam (the gloss frames it: هؤلاء اليهود حين دعوا إلى الإسلام) and shakes heads on the refusal to believe; no fire, no offering and no killing drawn; nothing on «قل» or the messengers (184:5); the earlier scriptures as scroll and lamp plates. 185 stays ambient: death, the Day, the Fire and Paradise. 186: in a market the believers give to a poor man on «أموالكم» (both tafsirs: النفقات الواجبة والمستحبة), then the People of the Book and the polytheists (dark robes) speak and point at them: the abuse they will hear; patience only as the mountain plate and the camera on the believers (the patience is conditional). No wounds or killing drawn."
  },
  "cover": {
   "series_ar": "الإمهال والابتلاء",
@@ -469,5 +591,6 @@
    1
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

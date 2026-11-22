@@ -60,6 +60,13 @@
      {
       "at": [
        30,
+       17
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       30,
        21
       ],
       "do": "shot_wide"
@@ -95,7 +102,10 @@
        30,
        19
       ],
-      "until": null,
+      "until": [
+       30,
+       22
+      ],
       "motif": "hourglass",
       "place": "top",
       "size": "m"
@@ -110,30 +120,85 @@
     31,
     32
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        31,
-       7
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       31,
-       11
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        31,
-       14
+       4
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       31,
+       6
+      ],
+      "do": "pray",
+      "who": "b"
+     },
+     {
+      "at": [
+       31,
+       9
+      ],
+      "do": "ruku",
+      "who": "b"
+     },
+     {
+      "at": [
+       31,
+       11
+      ],
+      "do": "sujud",
+      "who": "b"
+     },
+     {
+      "at": [
+       31,
+       13
+      ],
+      "do": "sit",
+      "who": "b"
+     },
+     {
+      "at": [
+       32,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       32,
+       2
+      ],
+      "do": "read",
+      "who": "b"
      },
      {
       "at": [
@@ -154,36 +219,40 @@
        32,
        7
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        32,
        11
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      }
     ],
     "motifs": [
      {
       "at": [
        31,
-       4
+       9
       ],
       "until": null,
-      "motif": "hands",
+      "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        32,
-       2
+       5
       ],
-      "until": null,
+      "until": [
+       32,
+       8
+      ],
       "motif": "two_paths",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "light_sweep"
@@ -304,7 +373,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The Day (30) only as symbols: two_paths for good and evil deeds, an hourglass for the wished-for distance; no scroll of deeds. No motif on «فاتبعوني» (the Prophet ﷺ) or on Allah's love; hands for the believers' love, a lamp for obedience."
+  "notes": "The Day (30) only as symbols: two_paths for good and evil deeds, an hourglass for the wished-for distance; no scroll of deeds. No motif on «فاتبعوني» (the Prophet ﷺ) or on Allah's love; hands for the believers' love, a lamp for obedience. STAGING v4: 30 (the Day) stays ambient; the hourglass plate now ends before the Name. 31-32: the Prophet is never shown at «قل»: believers in a prayer hall follow him by praying (As-Sa'di: following him in all his states) and read the Book on «أطيعوا» (Al-Muyassar: obeying Allah by following His Book); no gesture on the conditionals «إن كنتم تحبون» and «فإن تولوا» (a two_paths plate only, ended before the Name). Allah's love and forgiveness only as a light plate."
  },
  "cover": {
   "series_ar": "قدرة الله ومحبته",
@@ -316,5 +385,6 @@
    4
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

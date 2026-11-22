@@ -82,8 +82,7 @@
        248,
        5
       ],
-      "do": "shot_close",
-      "who": "m"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -92,13 +91,6 @@
       ],
       "do": "speak",
       "who": "n"
-     },
-     {
-      "at": [
-       248,
-       9
-      ],
-      "do": "shot_wide"
      },
      {
       "at": [
@@ -118,13 +110,6 @@
      {
       "at": [
        248,
-       14
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       248,
        16
       ],
       "do": "speak",
@@ -135,15 +120,14 @@
        248,
        19
       ],
-      "do": "glow",
-      "who": "n"
+      "do": "shot_wide"
      },
      {
       "at": [
        248,
        21
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -163,17 +147,10 @@
      {
       "at": [
        248,
-       29
-      ],
-      "do": "shot_close",
-      "who": "m"
-     },
-     {
-      "at": [
-       248,
        30
       ],
-      "do": "pan_right"
+      "do": "glow",
+      "who": "n"
      }
     ],
     "motifs": [
@@ -244,14 +221,13 @@
       "type": "believers",
       "label": "",
       "place": "left",
-      "count": 3,
+      "count": 2,
       "pose": "stand",
       "enter": [
        249,
        28
       ],
-      "exit": null,
-      "uncountable": true
+      "exit": null
      }
     ],
     "events": [],
@@ -276,7 +252,7 @@
        249,
        8
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -306,7 +282,7 @@
        249,
        19
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -336,25 +312,9 @@
      {
       "at": [
        249,
-       34
-      ],
-      "do": "shot_close",
-      "who": "f"
-     },
-     {
-      "at": [
-       249,
        36
       ],
-      "do": "speak",
-      "who": "f"
-     },
-     {
-      "at": [
-       249,
-       38
-      ],
-      "do": "bow",
+      "do": "shot_close",
       "who": "f"
      },
      {
@@ -367,7 +327,7 @@
      {
       "at": [
        249,
-       43
+       45
       ],
       "do": "shot_close",
       "who": "f"
@@ -375,32 +335,16 @@
      {
       "at": [
        249,
-       45
-      ],
-      "do": "sparkle",
-      "who": "f"
-     },
-     {
-      "at": [
-       249,
        47
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       249,
-       49
-      ],
-      "do": "speak",
-      "who": "f"
+      "do": "pan_left"
      },
      {
       "at": [
        249,
        50
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -415,7 +359,7 @@
        249,
        53
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -651,7 +595,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Angels carrying the Ark (248:21-22) and the relics of the families of Musa and Harun get no motif and no gloss. burst for the sign; river for the test (not a Paradise river); drop for the single scoop; footsteps for the crossing; mountain for the steadfast. No crowd for the few or the many; the believers' number is not given. STAGING v4: 248: the prophet (blue drop «نبي») speaks to the same chiefs as in 246-247 (men, uncountable). The Ark, its contents and the angels carrying it are NOT drawn (no motif, no camera move toward the sky on «التابوت» or «الملائكة»); a crown plate on «آية ملكه», a burst on «لآية». 249: Talut (plain faceless man) and his soldiers (uncountable, standing, no fighting) at a river; on «فشربوا» the army bends to the water and then leaves the stage (the disobedient stayed behind); the few believers (uncountable) appear on «قليلا منهم», Talut walks over to them on «جاوزه». Jalut and his army are never drawn; no fighting."
+  "notes": "Angels carrying the Ark (248:21-22) and the relics of the families of Musa and Harun get no motif and no gloss. burst for the sign; river for the test (not a Paradise river); drop for the single scoop; footsteps for the crossing; mountain for the steadfast. No crowd for the few or the many; the believers' number is not given. STAGING v4: 248: the prophet (blue drop «نبي», always in a wide frame) speaks to the same chiefs (men, uncountable). The Ark, its contents and the angels are not drawn: no plate and no camera toward the sky on 248:9 or 248:21-22; crown plate on 248:5-6, burst on 248:26. 249: Talut (plain man) and his soldiers (uncountable, standing, no fighting) at a river; the soldiers bend to the water on 249:25, then leave the stage on 249:30; the few are 2 figures entering on 249:28, and Talut walks to them on 249:31. The speeches of 249:36-60 get only the camera (the tafsirs differ on who spoke). Jalut is never drawn."
  },
  "cover": {
   "series_ar": "طالوت وجالوت",

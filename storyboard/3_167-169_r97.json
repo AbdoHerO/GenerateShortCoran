@@ -33,86 +33,132 @@
     167,
     168
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "h",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        167,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       167,
        3
+      ],
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       167,
+       4
+      ],
+      "do": "speak",
+      "who": "b"
+     },
+     {
+      "at": [
+       167,
+       8
       ],
       "do": "pan_right"
      },
      {
       "at": [
        167,
-       7
+       13
       ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       167,
-       12
-      ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "h"
      },
      {
       "at": [
        167,
        15
       ],
-      "do": "shot_wide"
+      "do": "shake_head",
+      "who": "h"
      },
      {
       "at": [
        167,
-       17
+       18
       ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       167,
-       20
-      ],
-      "do": "pan_right"
+      "do": "turn",
+      "who": "h"
      },
      {
       "at": [
        167,
        23
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       167,
+       24
+      ],
+      "do": "speak",
+      "who": "h"
      },
      {
       "at": [
        167,
        29
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        167,
        33
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        168,
        2
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "h"
      },
      {
       "at": [
        168,
        4
       ],
-      "do": "pan_left"
+      "do": "sit",
+      "who": "h"
      },
      {
       "at": [
@@ -124,7 +170,15 @@
      {
       "at": [
        168,
-       11
+       10
+      ],
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       168,
+       16
       ],
       "do": "shot_wide"
      }
@@ -141,7 +195,7 @@
       ],
       "motif": "wind",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -151,7 +205,7 @@
       "until": null,
       "motif": "hourglass",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -295,7 +349,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "The hypocrites' claims (167:13-17, 168:5-8) are not glossed as statements. Wind for empty words, an hourglass for death that cannot be pushed away. The martyrs' life (169) has no motif at all: nothing literal for the barzakh or Paradise."
+  "notes": "The hypocrites' claims (167:13-17, 168:5-8) are not glossed as statements. Wind for empty words, an hourglass for death that cannot be pushed away. The martyrs' life (169) has no motif at all: nothing literal for the barzakh or Paradise. STAGING v4: 167-168: in their town, believers call the hypocrites to come out (Al-Muyassar: حين قال المؤمنون لهم); the hypocrites answer with their excuse, shake their heads and turn away (As-Sa'di: فأبوا ذلك واعتذروا), speak what is not in their hearts (wind plate), then sit on «وقعدوا» and speak about their brothers. No fighting, no army and no killed person is drawn; the believers stay on stage (they are never seen leaving or dying). Death only as the hourglass plate. 169 stays ambient: the martyrs alive with their Lord (the unseen)."
  },
  "cover": {
   "series_ar": "دروس أحد",
@@ -307,5 +361,6 @@
    9
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -77,7 +77,10 @@
        272,
        6
       ],
-      "until": null
+      "until": [
+       272,
+       9
+      ]
      }
     ],
     "beats": [
@@ -298,8 +301,7 @@
        273,
        20
       ],
-      "do": "bow",
-      "who": "f"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -498,7 +500,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Nothing on «وجه الله» (272:18) and nothing on the negated travel (273:7-11). No faces for «بسيماهم»: a candle for their patient restraint. STAGING v4: 272: the Prophet ﷺ is not shown; the people he addresses are in the market, a soft light on «يهدي» (guidance is Allah's); a man gives to a poor man. Nothing on «وجه الله». 273: the poor who do not ask are believers sitting in light robes (they look well-off to the one who does not know them); the negated travel is not acted; a man recognises them, walks over and gives; they lower their heads (restraint) and raise their hands after receiving."
+  "notes": "Nothing on «وجه الله» (272:18) and nothing on the negated travel (273:7-11). No faces for «بسيماهم»: a candle for their patient restraint. STAGING v4: 272: the Prophet is not shown; the people he addresses stand in the market, a short soft light on 272:6-8 (guidance is Allah's); a man gives to a poor man. Nothing on 272:18. 273: the poor who do not ask are believers sitting in light robes (they look well-off to whoever does not know them); the negated clauses (273:7-11, 273:19-22) get only the camera; a man recognises them, walks over and gives; they raise their hands after receiving."
  },
  "cover": {
   "series_ar": "فضل الإنفاق وآدابه",

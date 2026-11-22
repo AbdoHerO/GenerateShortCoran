@@ -32,10 +32,41 @@
    "verses": [
     27
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "fields",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "f",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     }
+    ],
+    "events": [
+     {
+      "type": "growth",
+      "at": [
+       27,
+       9
+      ],
+      "until": null
+     }
+    ],
     "beats": [
+     {
+      "at": [
+       27,
+       1
+      ],
+      "do": "shot_sky"
+     },
      {
       "at": [
        27,
@@ -48,21 +79,39 @@
        27,
        6
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       27,
+       9
+      ],
+      "do": "shot_ground"
      },
      {
       "at": [
        27,
        13
       ],
-      "do": "pan_left"
+      "do": "walk_to",
+      "who": "f",
+      "to": "center"
+     },
+     {
+      "at": [
+       27,
+       17
+      ],
+      "do": "sparkle",
+      "who": "f"
      },
      {
       "at": [
        27,
        20
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "f"
      }
     ],
     "motifs": [
@@ -74,7 +123,7 @@
       "until": null,
       "motif": "night_day",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -84,7 +133,7 @@
       "until": null,
       "motif": "growth",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -94,7 +143,7 @@
       "until": null,
       "motif": "wheat",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -106,89 +155,156 @@
     28,
     29
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       28,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       28,
+       3
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
      {
       "at": [
        28,
        5
       ],
-      "do": "pan_left"
+      "do": "turn",
+      "who": "b"
+     },
+     {
+      "at": [
+       28,
+       6
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
        28,
        8
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        28,
-       10
+       12
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       28,
+       16
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        28,
-       13
+       18
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       28,
-       19
-      ],
-      "do": "shot_wide"
+      "do": "pan_left"
      },
      {
       "at": [
        28,
        22
       ],
-      "do": "shot_wide"
+      "do": "bow",
+      "who": "b"
      },
      {
       "at": [
        28,
-       24
+       25
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        29,
-       2
+       1
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       29,
+       3
+      ],
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        29,
        9
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
        29,
        11
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        29,
        19
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      }
     ],
     "motifs": [
+     {
+      "at": [
+       29,
+       3
+      ],
+      "until": null,
+      "motif": "light",
+      "place": "top",
+      "size": "s"
+     },
      {
       "at": [
        29,
@@ -200,7 +316,7 @@
       ],
       "motif": "stars",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "slide"
@@ -321,7 +437,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "night_day, growth (life from the dead as a parable) and wheat for Allah's signs; no motif on the negated alliance (28:1-8) or on «نفسه». 29: As-Sa'di's entry repeats verse 28, so 29 uses Al-Muyassar. 28:17-21 uses As-Sa'di's shared core of the exception (fearing for one's life); the tafsirs differ on what more it allows."
+  "notes": "night_day, growth (life from the dead as a parable) and wheat for Allah's signs; no motif on the negated alliance (28:1-8) or on «نفسه». 29: As-Sa'di's entry repeats verse 28, so 29 uses Al-Muyassar. 28:17-21 uses As-Sa'di's shared core of the exception (fearing for one's life); the tafsirs differ on what more it allows. STAGING v4: 27: fields at dusk (night entering day) with a farmer; crops sprout on «وتخرج الحي من الميت» (both tafsirs: the crop from the seed); no withering is drawn for the opposite (the tafsirs give seeds and eggs, not death); the farmer catches a sparkle on «وترزق». Plates night_day, growth, wheat as before. 28-29: believers and disbelievers in a town; the believers turn away from them on «أولياء» (keeping the prohibition); no gesture on the conditional «ومن يفعل», the disputed exception «إلا أن تتقوا» or the conditional «إن تخفوا». Allah's knowledge only as a light plate and the stars plate (ended before the Name). Cover moved to the believers' chapter to match its title."
  },
  "cover": {
   "series_ar": "قدرة الله ومحبته",
@@ -329,9 +445,10 @@
   "title_ar": "الولاء للمؤمنين",
   "title_en": "Allegiance to the believers",
   "at": [
-   27,
-   1
+   28,
+   8
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

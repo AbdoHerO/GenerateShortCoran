@@ -61,9 +61,23 @@
      {
       "at": [
        63,
+       1
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       63,
        3
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       63,
+       5
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -79,7 +93,10 @@
        62,
        5
       ],
-      "until": null,
+      "until": [
+       62,
+       8
+      ],
       "motif": "lamp",
       "place": "top",
       "size": "m"
@@ -157,7 +174,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A lamp for «القصص الحق», geometric for «وما من إله إلا الله»."
+  "notes": "A lamp for «القصص الحق», geometric for «وما من إله إلا الله». STAGING v4: Single chapter of Allah's names and a conditional («فإن تولوا»): stays ambient; the lamp plate now ends before «إله»."
  },
  "cover": {
   "series_ar": "مريم وعيسى",
@@ -169,5 +186,6 @@
    5
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

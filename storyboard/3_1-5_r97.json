@@ -73,35 +73,119 @@
     3,
     4
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": [
+       4,
+       7
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        3,
-       6
+       1
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       3,
+       3
+      ],
+      "do": "read",
+      "who": "b"
+     },
+     {
+      "at": [
+       3,
+       5
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       3,
+       10
+      ],
+      "do": "read",
+      "who": "b"
      },
      {
       "at": [
        4,
        1
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       4,
+       3
+      ],
+      "do": "look_up",
+      "who": "b"
+     },
+     {
+      "at": [
+       4,
+       6
+      ],
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        4,
        9
       ],
-      "do": "pan_right"
+      "do": "shake_head",
+      "who": "d"
+     },
+     {
+      "at": [
+       4,
+       12
+      ],
+      "do": "turn",
+      "who": "d"
      },
      {
       "at": [
        4,
        14
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       4,
+       16
       ],
       "do": "pan_left"
      },
@@ -119,40 +203,26 @@
        3,
        3
       ],
-      "until": null,
+      "until": [
+       4,
+       5
+      ],
       "motif": "book",
       "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       3,
-       10
-      ],
-      "until": null,
-      "motif": "scroll",
-      "place": "top",
-      "size": "m"
-     },
-     {
-      "at": [
-       4,
-       3
-      ],
-      "until": null,
-      "motif": "lamp",
-      "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        4,
        6
       ],
-      "until": null,
+      "until": [
+       4,
+       11
+      ],
       "motif": "two_paths",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "light_sweep"
@@ -320,7 +390,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Allah's names (2, 4:16-18, 5): geometric only, no arrows. Books as book and scroll symbols; no motif on Musa or Isa (the gloss naming them has no arrow). 3:1 not glossed (both tafsirs refer back to Al-Baqarah)."
+  "notes": "Allah's names (2, 4:16-18, 5): geometric only, no arrows. Books as book and scroll symbols; no motif on Musa or Isa (the gloss naming them has no arrow). 3:1 not glossed (both tafsirs refer back to Al-Baqarah). STAGING v4: 1-2 and 5 (Allah's names, His knowledge) stay ambient. 3-4: a town where believers sit reading the Book (As-Sa'di: revealed so that people worship and learn His Book) while it is named; the Prophet is never shown. On 4:7 a group of deniers appears, shakes heads on 4:9 and turns away (As-Sa'di: whoever does not accept the guidance stays astray); the camera holds on them at the threat, and the punishment is not pictured. Book plate on 3:3, two_paths on 4:6 (the Criterion), both ended before the Name."
  },
  "cover": {
   "series_ar": "فاتحة آل عمران",
@@ -329,8 +399,9 @@
   "title_en": "The revealed Books",
   "at": [
    3,
-   3
+   10
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

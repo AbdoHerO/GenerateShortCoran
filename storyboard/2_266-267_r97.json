@@ -291,16 +291,14 @@
        267,
        15
       ],
-      "do": "shake_head",
-      "who": "g"
+      "do": "pan_left"
      },
      {
       "at": [
        267,
        17
       ],
-      "do": "shot_close",
-      "who": "g"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -308,7 +306,7 @@
        20
       ],
       "do": "shot_close",
-      "who": "p"
+      "who": "g"
      },
      {
       "at": [
@@ -474,7 +472,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No river motif (the phrase recalls Paradise) and no fire motif: wind for the whirlwind. The parable's application is not glossed: Al-Muyassar (insincere spending) and As-Sa'di (good deeds later spoiled) differ. STAGING v4: 266: the parable's garden (palms, vines, a river); the owner sits down on «الكبر» (weakness of age); the weak children are not drawn (no child figure). The whirlwind is a storm event on the garden (no flames drawn: they would stand next to the owner and stay on screen at the Name), then the garden is destroyed on «فاحترقت»; he lowers his head (grief, As-Sa'di). The parable's application (where the tafsirs differ) is not acted. 267: in the market a man gives of the good produce; he shakes his head on «ولا تيمموا الخبيث»."
+  "notes": "No river motif (the phrase recalls Paradise) and no fire motif: wind for the whirlwind. The parable's application is not glossed: Al-Muyassar (insincere spending) and As-Sa'di (good deeds later spoiled) differ. STAGING v4: 266: the parable's garden (palms, vines, a river); the owner sits down on 266:20 (old age); the weak children are not drawn (no child figure). The whirlwind is a storm on the garden (no flames: they stood next to the owner and stayed on screen at the Name), then the garden is destroyed on 266:28 and he lowers his head (grief, As-Sa'di); the cover shows the ruined garden (266:30). The parable's application (where the tafsirs differ) is not acted. 267: in the market a man gives of the good produce; the negated clause 267:14-24 gets only the camera."
  },
  "cover": {
   "series_ar": "فضل الإنفاق وآدابه",
@@ -483,7 +481,7 @@
   "title_en": "The burnt garden",
   "at": [
    266,
-   6
+   30
   ]
  },
  "motion": 3,

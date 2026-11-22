@@ -32,72 +32,133 @@
    "verses": [
     119
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "h",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        119,
-       3
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        119,
-       4
+       3
       ],
-      "do": "pan_left"
+      "do": "walk_to",
+      "who": "b",
+      "to": "center"
+     },
+     {
+      "at": [
+       119,
+       5
+      ],
+      "do": "turn",
+      "who": "h"
+     },
+     {
+      "at": [
+       119,
+       7
+      ],
+      "do": "read",
+      "who": "b"
      },
      {
       "at": [
        119,
        9
       ],
-      "do": "pan_right"
+      "do": "turn",
+      "who": "h"
      },
      {
       "at": [
        119,
-       12
+       11
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "h"
+     },
+     {
+      "at": [
+       119,
+       13
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
        119,
        14
       ],
-      "do": "pan_left"
+      "do": "turn",
+      "who": "h"
      },
      {
       "at": [
        119,
-       17
+       16
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "h"
      },
      {
       "at": [
        119,
-       20
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       119,
-       23
+       19
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        119,
-       26
+       22
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "h"
+     },
+     {
+      "at": [
+       119,
+       25
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       119,
+       27
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -106,10 +167,13 @@
        119,
        7
       ],
-      "until": null,
+      "until": [
+       119,
+       12
+      ],
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -148,6 +212,13 @@
      {
       "at": [
        120,
+       13
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       120,
        16
       ],
       "do": "shot_wide"
@@ -166,8 +237,21 @@
        120,
        11
       ],
-      "until": null,
+      "until": [
+       120,
+       17
+      ],
       "motif": "mountain",
+      "place": "top",
+      "size": "m"
+     },
+     {
+      "at": [
+       120,
+       18
+      ],
+      "until": null,
+      "motif": "geometric",
       "place": "top",
       "size": "m"
      }
@@ -279,7 +363,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A book for the believers' faith in all the Books, a mountain for patience. No hands or fingers drawn (119:15)."
+  "notes": "A book for the believers' faith in all the Books, a mountain for patience. No hands or fingers drawn (119:15). STAGING v4: 119: the believers walk toward them on «تحبونهم» (Al-Muyassar: you love them and do good to them); the hypocrites of the People of the Book (h) turn away on «يحبونكم» (they do not love you), the believers read on «بالكتاب» (all the Books); h turn back and say their words on 119:11 (framed by the gloss «نفاقا»), then turn away when alone; no hands or fingers drawn for 119:15-17; camera on h for «موتوا بغيظكم». 120 stays ambient: a chain of conditionals whose examples in both tafsirs are victory and defeat in battle; mountain plate for patience ends before the Name, geometric on it."
  },
  "cover": {
   "series_ar": "التمسك بالدين",
@@ -287,9 +371,10 @@
   "title_ar": "كيد الأعداء",
   "title_en": "The enemy's scheming",
   "at": [
-   120,
-   11
+   119,
+   12
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

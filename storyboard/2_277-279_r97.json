@@ -114,15 +114,15 @@
        277,
        12
       ],
-      "do": "shot_wide"
+      "do": "sparkle",
+      "who": "b"
      },
      {
       "at": [
        277,
        14
       ],
-      "do": "sparkle",
-      "who": "b"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -235,15 +235,14 @@
        278,
        5
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        278,
        6
       ],
-      "do": "shake_head",
-      "who": "r"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -272,7 +271,7 @@
        278,
        13
       ],
-      "do": "sparkle",
+      "do": "shot_close",
       "who": "r"
      },
      {
@@ -280,7 +279,7 @@
        279,
        1
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -294,31 +293,22 @@
        279,
        6
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
        279,
        9
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        279,
        10
       ],
-      "do": "bow",
+      "do": "shot_close",
       "who": "r"
-     },
-     {
-      "at": [
-       279,
-       12
-      ],
-      "do": "give",
-      "who": "p",
-      "to": "r"
      },
      {
       "at": [
@@ -480,7 +470,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif and no gloss on «بحرب من الله ورسوله» (279:4-8). Nothing on the negated «لا تظلمون ولا تظلمون». STAGING v4: 277: believers pray in a prayer hall, then give zakat to a poor man. 278-279: a lender and a borrower in the market: the lender lowers his head on «اتقوا» and shakes his head on «وذروا ما بقي من الربا» (he gives up the extra); nothing is drawn or acted for the war warning (279:4-8, camera only); on «رءوس أموالكم» the borrower repays the capital."
+  "notes": "No motif and no gloss on «بحرب من الله ورسوله» (279:4-8). Nothing on the negated «لا تظلمون ولا تظلمون». STAGING v4: 277: believers pray in a prayer hall, then give zakat to a poor man. 278-279: a lender and a borrower in the market (the cover is 278:10): the lender lowers his head on 278:4. The conditional clauses (278:11-13, the war warning 279:1-8, the repentance 279:9-13) and the negated end get only the camera; a leaf plate that undraws on 278:10, coins on 279:12."
  },
  "cover": {
   "series_ar": "الربا",
@@ -488,8 +478,8 @@
   "title_ar": "ترك الربا",
   "title_en": "Giving up usury",
   "at": [
-   277,
-   8
+   278,
+   10
   ]
  },
  "motion": 3,

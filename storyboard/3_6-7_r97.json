@@ -49,6 +49,13 @@
        8
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       6,
+       10
+      ],
+      "do": "pan_right"
      }
     ],
     "motifs": [
@@ -57,7 +64,10 @@
        6,
        3
       ],
-      "until": null,
+      "until": [
+       6,
+       8
+      ],
       "motif": "drop",
       "place": "top",
       "size": "m"
@@ -81,16 +91,63 @@
    "verses": [
     7
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "p",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        7,
-       9
+       1
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       7,
+       5
+      ],
+      "do": "read",
+      "who": "b"
+     },
+     {
+      "at": [
+       7,
+       8
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       7,
+       11
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
@@ -109,83 +166,131 @@
      {
       "at": [
        7,
-       21
+       15
       ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       7,
-       24
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       7,
-       25
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       7,
-       28
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       7,
-       33
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       7,
-       37
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       7,
-       40
-      ],
-      "do": "shot_wide"
-     }
-    ],
-    "motifs": [
-     {
-      "at": [
-       7,
-       5
-      ],
-      "until": null,
-      "motif": "book",
-      "place": "top",
-      "size": "m"
+      "do": "shot_close",
+      "who": "p"
      },
      {
       "at": [
        7,
        18
       ],
-      "until": null,
-      "motif": "wind",
-      "place": "top",
-      "size": "m"
+      "do": "turn",
+      "who": "p"
+     },
+     {
+      "at": [
+       7,
+       23
+      ],
+      "do": "speak",
+      "who": "p"
+     },
+     {
+      "at": [
+       7,
+       24
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       7,
+       25
+      ],
+      "do": "speak",
+      "who": "p"
+     },
+     {
+      "at": [
+       7,
+       26
+      ],
+      "do": "shot_close",
+      "who": "p"
+     },
+     {
+      "at": [
+       7,
+       28
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        7,
        32
       ],
-      "until": null,
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       7,
+       33
+      ],
+      "do": "read",
+      "who": "b"
+     },
+     {
+      "at": [
+       7,
+       35
+      ],
+      "do": "speak",
+      "who": "b"
+     },
+     {
+      "at": [
+       7,
+       38
+      ],
+      "do": "bow",
+      "who": "b"
+     },
+     {
+      "at": [
+       7,
+       43
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       7,
+       45
+      ],
+      "do": "shot_close",
+      "who": "b"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       7,
+       18
+      ],
+      "until": [
+       7,
+       27
+      ],
+      "motif": "wind",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       7,
+       32
+      ],
+      "until": [
+       7,
+       41
+      ],
       "motif": "mountain",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -195,7 +300,7 @@
       "until": null,
       "motif": "lamp",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "page_turn"
@@ -338,7 +443,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "7:27-34 (who knows the ta'wil; the pause after «الله») is not glossed: scholars differ on the waqf. A drop for creation in the womb (nothing else drawn); wind for «زيغ», a mountain for «الراسخون», a lamp for «أولو الألباب»."
+  "notes": "7:27-34 (who knows the ta'wil; the pause after «الله») is not glossed: scholars differ on the waqf. A drop for creation in the womb (nothing else drawn); wind for «زيغ», a mountain for «الراسخون», a lamp for «أولو الألباب». STAGING v4: 6 (He forms you in the wombs: His act, nothing drawn) stays ambient; the drop plate now ends before 6:9. 7: a town where the people of firm knowledge sit reading the Book (read on 7:5 and 7:38); a second group, those with deviation, turns aside on 7:18 and speaks on 7:23 (Al-Muyassar: to stir doubts among people). The firmly grounded speak on 7:35. No gesture is tied to 7:27-31 (the waqf question). Plates: wind (deviation) ended before 7:31, mountain (firm knowledge) ended before 7:41, lamp on 7:45."
  },
  "cover": {
   "series_ar": "فاتحة آل عمران",
@@ -347,8 +452,9 @@
   "title_en": "Clear and ambiguous verses",
   "at": [
    7,
-   5
+   8
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

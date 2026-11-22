@@ -43,7 +43,7 @@
       "label": "",
       "place": "right",
       "count": 1,
-      "pose": "stand",
+      "pose": "walk",
       "enter": null,
       "exit": null,
       "look": "traveller"
@@ -52,20 +52,9 @@
       "id": "b",
       "type": "man",
       "label": "",
-      "place": "center",
-      "count": 1,
-      "pose": "stand",
-      "enter": null,
-      "exit": null,
-      "look": "traveller"
-     },
-     {
-      "id": "w",
-      "type": "man",
-      "label": "",
       "place": "left",
       "count": 1,
-      "pose": "stand",
+      "pose": "walk",
       "enter": null,
       "exit": null,
       "look": "traveller"
@@ -108,35 +97,24 @@
      {
       "at": [
        283,
-       8
-      ],
-      "do": "give",
-      "who": "b",
-      "to": "a"
-     },
-     {
-      "at": [
-       283,
        11
       ],
       "do": "shot_close",
-      "who": "a"
+      "who": "b"
      },
      {
       "at": [
        283,
        14
       ],
-      "do": "give",
-      "who": "b",
-      "to": "a"
+      "do": "shot_wide"
      },
      {
       "at": [
        283,
        18
       ],
-      "do": "bow",
+      "do": "shot_close",
       "who": "b"
      },
      {
@@ -144,23 +122,14 @@
        283,
        21
       ],
-      "do": "shot_close",
-      "who": "w"
-     },
-     {
-      "at": [
-       283,
-       23
-      ],
-      "do": "speak",
-      "who": "w"
+      "do": "pan_right"
      },
      {
       "at": [
        283,
        25
       ],
-      "do": "pan_left"
+      "do": "wind"
      },
      {
       "at": [
@@ -174,7 +143,7 @@
        283,
        28
       ],
-      "do": "shot_wide"
+      "do": "pan_right"
      },
      {
       "at": [
@@ -443,7 +412,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "JOINED after 283 is inside the video. footsteps for the journey, a seal for the pledge; stars on «السماوات» leave before the Name; geometric for «والله على كل شيء قدير». 284:15-17 carries Al-Muyassar's note that inner thoughts not acted on are forgiven, so the verse is not misread. STAGING v4: 283: travellers on the road (no scribe): the debtor hands the creditor a pledge on «فرهان مقبوضة», later pays what he was trusted with on «فليؤد»; a fellow traveller who witnessed speaks on «الشهادة» (do not conceal testimony). 284 (Allah's dominion, knowledge and reckoning) stays ambient."
+  "notes": "JOINED after 283 is inside the video. footsteps for the journey, a seal for the pledge; stars on «السماوات» leave before the Name; geometric for «والله على كل شيء قدير». 284:15-17 carries Al-Muyassar's note that inner thoughts not acted on are forgiven, so the verse is not misread. STAGING v4: 283: two travellers on the road with a camel. The rulings are conditional (283:1-17) or a prohibition (283:21-28), so nobody acts them: the camera, a gust, a footsteps plate on 283:4 and a seal plate for the pledge on 283:8. 284 (Allah's dominion, knowledge and reckoning) stays ambient."
  },
  "cover": {
   "series_ar": "خواتيم البقرة",

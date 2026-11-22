@@ -34,44 +34,93 @@
     131,
     132
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "market",
+    "time": "day",
+    "actors": [
+     {
+      "id": "l",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "rich"
+     },
+     {
+      "id": "d",
+      "type": "man",
+      "label": "",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "look": "plain"
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        130,
-       2
+       1
       ],
-      "do": "pan_left"
+      "do": "walk_to",
+      "who": "d",
+      "to": "l"
      },
      {
       "at": [
        130,
-       5
+       3
       ],
-      "do": "shot_wide"
+      "do": "give",
+      "who": "d",
+      "to": "l"
+     },
+     {
+      "at": [
+       130,
+       6
+      ],
+      "do": "shake_head",
+      "who": "l"
      },
      {
       "at": [
        130,
        8
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "l"
+     },
+     {
+      "at": [
+       130,
+       9
+      ],
+      "do": "bow",
+      "who": "l"
      },
      {
       "at": [
        130,
        12
       ],
-      "do": "pan_right"
+      "do": "sparkle",
+      "who": "l"
      },
      {
       "at": [
        131,
        1
       ],
-      "do": "pan_left"
+      "do": "bow",
+      "who": "d"
      },
      {
       "at": [
@@ -90,21 +139,35 @@
      {
       "at": [
        132,
-       4
+       5
       ],
-      "do": "pan_left"
+      "do": "sparkle",
+      "who": "center"
      }
     ],
     "motifs": [
      {
       "at": [
        130,
-       9
+       7
+      ],
+      "until": [
+       130,
+       10
+      ],
+      "motif": "scales",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       132,
+       4
       ],
       "until": null,
-      "motif": "two_paths",
+      "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -169,7 +232,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No coins on the forbidden usury; two_paths for taqwa (choosing obedience). Nothing for the Fire (131). No lamp on «أطيعوا الله والرسول» (a lamp there reads as «سراجا منيرا»)."
+  "notes": "No coins on the forbidden usury; two_paths for taqwa (choosing obedience). Nothing for the Fire (131). No lamp on «أطيعوا الله والرسول» (a lamp there reads as «سراجا منيرا»). STAGING v4: 130: in a market a debtor (d) comes and repays the lender (l) on 130:3; the lender shakes his head on «الربا» (Al-Muyassar: take no increase on your capital, even a little); scales plate for fair dealing (no coins for usury); he bows on «واتقوا». 131: the Fire is not pictured; the debtor bows on «واتقوا». 132: light plate on «ترحمون»; the Messenger is never shown."
  },
  "cover": {
   "series_ar": "من بدر إلى أحد",
@@ -178,8 +241,9 @@
   "title_en": "Usury forbidden",
   "at": [
    130,
-   9
+   8
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

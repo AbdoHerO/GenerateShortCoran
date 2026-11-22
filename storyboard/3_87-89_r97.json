@@ -75,6 +75,13 @@
      {
       "at": [
        88,
+       5
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       88,
        8
       ],
       "do": "pan_right"
@@ -89,16 +96,62 @@
    "verses": [
     89
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "prayer_hall",
+    "time": "dawn",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        89,
-       8
+       1
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       89,
+       3
+      ],
+      "do": "raise_hands",
+      "who": "b"
+     },
+     {
+      "at": [
+       89,
+       5
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       89,
+       7
+      ],
+      "do": "pray",
+      "who": "b"
+     },
+     {
+      "at": [
+       89,
+       10
+      ],
+      "do": "sujud",
+      "who": "b"
      }
     ],
     "motifs": [
@@ -113,7 +166,17 @@
       ],
       "motif": "door",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       89,
+       9
+      ],
+      "until": null,
+      "motif": "geometric",
+      "place": "top",
+      "size": "s"
      }
     ],
     "transition": "light_sweep"
@@ -179,7 +242,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Re-split from 87-91 (the reciter joins 91 to 92, so 87-91 could not end at 91). Nothing drawn for the curse, the angels or the Fire. A door for repentance (89)."
+  "notes": "Re-split from 87-91 (the reciter joins 91 to 92, so 87-91 could not end at 91). Nothing drawn for the curse, the angels or the Fire. A door for repentance (89). STAGING v4: 87-88 (the curse, the Fire, no reprieve) stay ambient: unseen. 89: those who repent: believers raise their hands on 89:3 (door plate) and pray at dawn; geometric only on the Name. Cover moved into the ambient chapter so the picture matches its title (no worshippers under a title about apostasy)."
  },
  "cover": {
   "series_ar": "الميثاق والإسلام",
@@ -187,9 +250,10 @@
   "title_ar": "عاقبة الردة",
   "title_en": "Where apostasy leads",
   "at": [
-   89,
-   3
+   87,
+   2
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

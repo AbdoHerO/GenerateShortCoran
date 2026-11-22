@@ -32,56 +32,104 @@
    "verses": [
     159
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "home",
+    "time": "day",
+    "actors": [
+     {
+      "id": "a",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "c",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 2,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       159,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        159,
        5
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        159,
-       8
+       9
       ],
       "do": "pan_left"
-     },
-     {
-      "at": [
-       159,
-       11
-      ],
-      "do": "shot_wide"
      },
      {
       "at": [
        159,
        14
       ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       159,
-       18
-      ],
       "do": "pan_left"
      },
      {
       "at": [
        159,
-       22
+       17
+      ],
+      "do": "shot_close",
+      "who": "a"
+     },
+     {
+      "at": [
+       159,
+       19
+      ],
+      "do": "speak",
+      "who": "a"
+     },
+     {
+      "at": [
+       159,
+       21
+      ],
+      "do": "speak",
+      "who": "c"
+     },
+     {
+      "at": [
+       159,
+       23
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       159,
+       25
       ],
       "do": "pan_right"
      },
      {
       "at": [
        159,
-       25
+       30
       ],
       "do": "shot_wide"
      }
@@ -95,7 +143,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -183,6 +231,13 @@
       "at": [
        162,
        1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       162,
+       7
       ],
       "do": "shot_wide"
      },
@@ -369,7 +424,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on the Prophet ﷺ, his character or his acts (159); geometric for «إن الله يحب المتوكلين», a mountain for the believers' reliance, an hourglass for the Day, two_paths for the two kinds of people (162). Nothing for Hell."
+  "notes": "No motif on the Prophet ﷺ, his character or his acts (159); geometric for «إن الله يحب المتوكلين», a mountain for the believers' reliance, an hourglass for the Day, two_paths for the two kinds of people (162). Nothing for Hell. STAGING v4: 159: the Prophet is never shown, and nothing stands for him, his character or his acts. Only on «وشاورهم في الأمر» two groups of believers sitting in a home speak in turn: consultation in matters that need it (both tafsirs: الأمور التي تحتاج إلى مشورة / استشارة). Before that the believers only sit; nobody disperses (the dispersal is counterfactual). 160 stays ambient: Allah's help and forsaking. 161-162 stay ambient: the booty, the Day of Resurrection, Allah's anger and Hell."
  },
  "cover": {
   "series_ar": "دروس أحد",
@@ -377,9 +432,10 @@
   "title_ar": "اللين والشورى",
   "title_en": "Gentleness and consultation",
   "at": [
-   160,
-   17
+   159,
+   21
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

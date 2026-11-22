@@ -33,21 +33,59 @@
     163,
     164
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "p",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "r",
+      "type": "believers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "sit",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        163,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       163,
        3
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       163,
+       4
       ],
       "do": "pan_right"
      },
      {
       "at": [
        163,
-       4
+       5
       ],
       "do": "pan_left"
      },
@@ -56,63 +94,76 @@
        163,
        6
       ],
-      "do": "pan_left"
+      "do": "pan_right"
      },
      {
       "at": [
        163,
-       8
+       7
       ],
-      "do": "shot_wide"
+      "do": "pray",
+      "who": "p"
      },
      {
       "at": [
        164,
-       1
+       2
       ],
-      "do": "pan_left"
+      "do": "ruku",
+      "who": "p"
      },
      {
       "at": [
        164,
-       5
+       6
       ],
-      "do": "pan_right"
+      "do": "sujud",
+      "who": "p"
      },
      {
       "at": [
        164,
        10
       ],
-      "do": "shot_wide"
+      "do": "sit",
+      "who": "p"
      },
      {
       "at": [
        164,
-       16
+       13
+      ],
+      "do": "shot_close",
+      "who": "r"
+     },
+     {
+      "at": [
+       164,
+       15
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        164,
-       19
+       17
       ],
-      "do": "pan_right"
+      "do": "read",
+      "who": "r"
      },
      {
       "at": [
        164,
-       21
+       20
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       164,
+       23
       ],
       "do": "pan_left"
-     },
-     {
-      "at": [
-       164,
-       25
-      ],
-      "do": "shot_wide"
      }
     ],
     "motifs": [
@@ -124,7 +175,17 @@
       "until": null,
       "motif": "book",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       164,
+       18
+      ],
+      "until": null,
+      "motif": "lamp",
+      "place": "top",
+      "size": "s"
      }
     ]
    }
@@ -356,7 +417,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on the Messenger ﷺ (164:9) or his reciting; a book for the verses, a lamp for the Book and wisdom taught, a leaf for the setback. 164:1-11 is not glossed (Al-Muyassar narrows «المؤمنين» to the Arabs)."
+  "notes": "No motif on the Messenger ﷺ (164:9) or his reciting; a book for the verses, a lamp for the Book and wisdom taught, a leaf for the setback. 164:1-11 is not glossed (Al-Muyassar narrows «المؤمنين» to the Arabs). STAGING v4: 163-164: believers in a prayer hall; one group prays (Allah sees what they do), the other sits and reads the Book on «ويعلمهم الكتاب» (book plate on «آياته», lamp on «والحكمة»). The Messenger is not shown and nothing stands for him or his reciting (no plate or zoom on 164:9). The degrees of Paradise and Hell (163) are not pictured. 165-166 stay ambient: the losses of Uhud and Badr."
  },
  "cover": {
   "series_ar": "دروس أحد",
@@ -368,5 +429,6 @@
    14
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

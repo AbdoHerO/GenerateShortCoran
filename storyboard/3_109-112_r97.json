@@ -33,14 +33,68 @@
     109,
     110
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "q",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 2,
+      "pose": "stand",
+      "enter": [
+       110,
+       15
+      ],
+      "exit": null
+     },
+     {
+      "id": "k",
+      "type": "people",
+      "label": "",
+      "place": "right",
+      "count": 5,
+      "pose": "stand",
+      "enter": [
+       110,
+       15
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        109,
-       8
+       2
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       109,
+       7
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       109,
+       11
       ],
       "do": "pan_left"
      },
@@ -54,44 +108,72 @@
      {
       "at": [
        110,
-       4
+       3
       ],
-      "do": "pan_left"
+      "do": "sparkle",
+      "who": "b"
      },
      {
       "at": [
        110,
-       10
+       6
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "b"
+     },
+     {
+      "at": [
+       110,
+       8
+      ],
+      "do": "shake_head",
+      "who": "b"
      },
      {
       "at": [
        110,
        11
       ],
-      "do": "pan_left"
+      "do": "raise_hands",
+      "who": "b"
      },
      {
       "at": [
        110,
        13
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        110,
-       17
+       15
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        110,
-       20
+       19
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "q"
+     },
+     {
+      "at": [
+       110,
+       21
+      ],
+      "do": "sparkle",
+      "who": "q"
+     },
+     {
+      "at": [
+       110,
+       23
+      ],
+      "do": "turn",
+      "who": "k"
      }
     ],
     "motifs": [
@@ -106,17 +188,20 @@
       ],
       "motif": "stars",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        110,
        6
       ],
-      "until": null,
+      "until": [
+       110,
+       11
+      ],
       "motif": "lamp",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -152,6 +237,13 @@
        9
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       111,
+       11
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
@@ -383,7 +475,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No crowd for «خير أمة»; stars on «السماوات» leave before the Name; a lamp for enjoining good; a seal for the covenant («بحبل»). Nothing drawn for the fighting (111), the humiliation or the killing of prophets (112)."
+  "notes": "No crowd for «خير أمة»; stars on «السماوات» leave before the Name; a lamp for enjoining good; a seal for the covenant («بحبل»). Nothing drawn for the fighting (111), the humiliation or the killing of prophets (112). STAGING v4: 109 (Allah's dominion) is only a wide view of the town with stars that leave before the Name. 110: the believers of this ummah (b) enjoin good (speak), forbid wrong (shake_head) and raise their hands on «وتؤمنون»; 110:13-19 is counterfactual: the People of the Book only appear, nobody acts belief; «منهم المؤمنون» = two countable believers (q, Al-Muyassar: وهم قليل) sparkle; «وأكثرهم الفاسقون» = the larger group (k) turns away. 111-112 (fighting, humiliation, the killing of prophets) stay ambient."
  },
  "cover": {
   "series_ar": "التمسك بالدين",
@@ -395,5 +487,6 @@
    6
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -46,9 +46,23 @@
      {
       "at": [
        180,
+       9
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       180,
        12
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       180,
+       16
+      ],
+      "do": "pan_left"
      },
      {
       "at": [
@@ -155,6 +169,13 @@
      {
       "at": [
        181,
+       16
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       181,
        17
       ],
       "do": "shot_wide"
@@ -172,6 +193,13 @@
        4
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       182,
+       7
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
@@ -267,7 +295,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Coins for the wealth withheld, geometric for «ولله ميراث السماوات والأرض». The blasphemous claim (181:7-11) gets no motif and no gloss of its own; the gloss before it attributes it («قول اليهود»). No collar of fire, no Fire drawn; no scroll for «سنكتب». 181: Al-Muyassar's first-person «سنكتب» not quoted."
+  "notes": "Coins for the wealth withheld, geometric for «ولله ميراث السماوات والأرض». The blasphemous claim (181:7-11) gets no motif and no gloss of its own; the gloss before it attributes it («قول اليهود»). No collar of fire, no Fire drawn; no scroll for «سنكتب». 181: Al-Muyassar's first-person «سنكتب» not quoted. STAGING v4: Both chapters stay ambient: 180 is the misers' collar on the Day of Resurrection and Allah's inheritance (the unseen, His attributes); 181-182 are a blasphemous claim about Allah, the killing of prophets and the punishment of the Fire."
  },
  "cover": {
   "series_ar": "الإمهال والابتلاء",
@@ -279,5 +307,6 @@
    4
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

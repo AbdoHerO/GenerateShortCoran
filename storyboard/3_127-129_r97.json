@@ -224,7 +224,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Nothing drawn for the defeat of the enemy (127). Stars on «السماوات» leave before Allah's forgiveness; geometric for «والله غفور رحيم»."
+  "notes": "Nothing drawn for the defeat of the enemy (127). Stars on «السماوات» leave before Allah's forgiveness; geometric for «والله غفور رحيم». STAGING v4: 127-128 (the battle and its outcome for the enemy) and 129 (Allah's dominion, forgiveness and punishment) stay ambient as they were; the plates were already clear of the Name."
  },
  "cover": {
   "series_ar": "من بدر إلى أحد",
@@ -236,5 +236,6 @@
    14
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

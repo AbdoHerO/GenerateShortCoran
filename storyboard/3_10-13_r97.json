@@ -33,51 +33,131 @@
     10,
     11
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "city",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "center",
+      "count": 4,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       11,
+       8
+      ]
+     },
+     {
+      "id": "r",
+      "type": "man",
+      "label": "",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": [
+       11,
+       8
+      ],
+      "look": "rich"
+     }
+    ],
+    "events": [
+     {
+      "type": "darkness",
+      "at": [
+       11,
+       9
+      ],
+      "until": null
+     }
+    ],
     "beats": [
      {
       "at": [
        10,
-       4
+       1
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       10,
+       3
+      ],
+      "do": "shake_head",
+      "who": "d"
+     },
+     {
+      "at": [
+       10,
+       5
+      ],
+      "do": "shot_close",
+      "who": "r"
      },
      {
       "at": [
        10,
        9
       ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       10,
-       12
-      ],
       "do": "shot_wide"
      },
      {
       "at": [
        10,
-       14
+       13
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       10,
+       15
       ],
       "do": "pan_right"
      },
      {
       "at": [
        11,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       11,
        4
       ],
-      "do": "pan_right"
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       11,
+       6
+      ],
+      "do": "turn",
+      "who": "r"
+     },
+     {
+      "at": [
+       11,
+       7
+      ],
+      "do": "turn",
+      "who": "d"
      },
      {
       "at": [
        11,
        8
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -89,9 +169,16 @@
      {
       "at": [
        11,
-       13
+       11
       ],
       "do": "pan_left"
+     },
+     {
+      "at": [
+       11,
+       13
+      ],
+      "do": "wind"
      }
     ],
     "motifs": [
@@ -100,20 +187,26 @@
        10,
        7
       ],
-      "until": null,
+      "until": [
+       10,
+       11
+      ],
       "motif": "leaf",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        11,
        1
       ],
-      "until": null,
+      "until": [
+       11,
+       9
+      ],
       "motif": "footsteps",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -127,7 +220,7 @@
    ],
    "scene": "ambient",
    "params": {
-    "mood": "dawn",
+    "mood": "night_sky",
     "beats": [
      {
       "at": [
@@ -146,23 +239,30 @@
      {
       "at": [
        12,
-       8
+       7
       ],
-      "do": "pan_left"
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       12,
+       9
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
        13,
        13
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        13,
        14
       ],
-      "do": "pan_right"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -174,37 +274,37 @@
      {
       "at": [
        13,
-       18
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       13,
-       20
-      ],
-      "do": "shot_wide"
-     },
-     {
-      "at": [
-       13,
-       23
+       17
       ],
       "do": "pan_left"
      },
      {
       "at": [
        13,
-       24
+       20
+      ],
+      "do": "stars"
+     },
+     {
+      "at": [
+       13,
+       23
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        13,
-       29
+       24
       ],
       "do": "pan_right"
+     },
+     {
+      "at": [
+       13,
+       29
+      ],
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -223,7 +323,10 @@
        13,
        8
       ],
-      "until": null,
+      "until": [
+       13,
+       12
+      ],
       "motif": "two_paths",
       "place": "top",
       "size": "m"
@@ -379,7 +482,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Badr: no fighting, no crowd, no countable group; two_paths for the two parties. 13:15-18 (who saw whom as twice their number) is not glossed: Al-Muyassar and As-Sa'di differ. A leaf for wealth that will not avail (no coins on the negated benefit). Nothing for the Fire or Pharaoh."
+  "notes": "Badr: no fighting, no crowd, no countable group; two_paths for the two parties. 13:15-18 (who saw whom as twice their number) is not glossed: Al-Muyassar and As-Sa'di differ. A leaf for wealth that will not avail (no coins on the negated benefit). Nothing for the Fire or Pharaoh. STAGING v4: 10-11: deniers in a town at dusk with a rich man (As-Sa'di: their wealth and children; a leaf plate, no coins, since the benefit is negated, ended before the Name). The Fire is not pictured. On 11:6-7 («كذبوا») they turn away and leave the stage (exit 11:8), four seconds before «فأخذهم الله»; only then does the empty town darken (no specific punishment drawn, no one hurt; Pharaoh is not drawn). Footsteps plate for «كدأب» ended before «فأخذهم». 12-13 (defeat, Hell, the battle of Badr) stay ambient; mood changed from dawn to night_sky because 12 is a threat. two_paths now ends before 13:12."
  },
  "cover": {
   "series_ar": "حقيقة الدين",
@@ -391,5 +494,6 @@
    8
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

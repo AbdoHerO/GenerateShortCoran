@@ -33,14 +33,43 @@
     116,
     117
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "night_sky",
+    "setting": "fields",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        116,
-       4
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       116,
+       3
+      ],
+      "do": "shot_close",
+      "who": "d"
+     },
+     {
+      "at": [
+       116,
+       7
       ],
       "do": "shot_wide"
      },
@@ -74,8 +103,8 @@
      },
      {
       "at": [
-       116,
-       18
+       117,
+       1
       ],
       "do": "shot_wide"
      },
@@ -84,19 +113,34 @@
        117,
        3
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "d"
      },
      {
       "at": [
        117,
        6
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        117,
-       14
+       9
+      ],
+      "do": "wind"
+     },
+     {
+      "at": [
+       117,
+       12
+      ],
+      "do": "wind"
+     },
+     {
+      "at": [
+       117,
+       13
       ],
       "do": "shot_wide"
      },
@@ -112,14 +156,15 @@
        117,
        17
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        117,
        18
       ],
-      "do": "shot_wide"
+      "do": "wring_hands",
+      "who": "d"
      },
      {
       "at": [
@@ -131,9 +176,10 @@
      {
       "at": [
        117,
-       23
+       22
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "d"
      }
     ],
     "motifs": [
@@ -142,20 +188,26 @@
        116,
        7
       ],
-      "until": null,
+      "until": [
+       116,
+       11
+      ],
       "motif": "leaf",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
        117,
        9
       ],
-      "until": null,
+      "until": [
+       117,
+       20
+      ],
       "motif": "wind",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -166,63 +218,108 @@
    "verses": [
     118
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "e",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        118,
-       4
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       118,
-       7
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       118,
-       10
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        118,
-       13
+       3
+      ],
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       118,
+       5
+      ],
+      "do": "shake_head",
+      "who": "b"
+     },
+     {
+      "at": [
+       118,
+       8
+      ],
+      "do": "shot_close",
+      "who": "e"
+     },
+     {
+      "at": [
+       118,
+       12
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        118,
-       17
+       16
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "e"
      },
      {
       "at": [
        118,
        19
       ],
-      "do": "pan_right"
+      "do": "shot_close",
+      "who": "e"
      },
      {
       "at": [
        118,
-       23
+       21
       ],
-      "do": "shot_wide"
+      "do": "turn",
+      "who": "e"
      },
      {
       "at": [
        118,
-       28
+       25
+      ],
+      "do": "sparkle",
+      "who": "b"
+     },
+     {
+      "at": [
+       118,
+       30
       ],
       "do": "shot_wide"
      }
@@ -236,7 +333,7 @@
       "until": null,
       "motif": "lamp",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "slide"
@@ -357,7 +454,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "A leaf for wealth that will not avail, wind for the frosty blast of the parable (no crop destroyed on screen), a lamp for the signs made clear. Nothing for the Fire. No motif on the negated «لا تتخذوا بطانة»."
+  "notes": "A leaf for wealth that will not avail, wind for the frosty blast of the parable (no crop destroyed on screen), a lamp for the signs made clear. Nothing for the Fire. No motif on the negated «لا تتخذوا بطانة». STAGING v4: 116-117: the disbelievers (d) stand by their wheat fields at dusk; leaf plate for the wealth that will not avail (children not drawn); nothing for the Fire. The parable: gusts of wind on «ريح» and «أصابت» (wind plate), no crop destroyed on screen and no storm event on people; they wring their hands on 117:18 (As-Sa'di: nothing but toil and more regret). 118: the believers shake their heads on «تتخذوا» (they do not take them as intimates); the enemies (e) speak on «بدت» (hatred from their mouths) and turn on «تخفي» (what they hide); lamp on «الآيات»."
  },
  "cover": {
   "series_ar": "التمسك بالدين",
@@ -369,5 +466,6 @@
    9
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

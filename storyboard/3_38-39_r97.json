@@ -33,21 +33,80 @@
     38,
     39
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "light",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "z",
+      "type": "prophet",
+      "label": "زكريا",
+      "place": "center",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "an",
+      "type": "angel",
+      "label": "الملائكة",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       39,
+       1
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       38,
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       38,
+       2
+      ],
+      "do": "raise_hands",
+      "who": "z"
+     },
+     {
+      "at": [
+       38,
+       5
+      ],
+      "do": "speak",
+      "who": "z"
+     },
      {
       "at": [
        38,
        7
       ],
-      "do": "pan_left"
+      "do": "glow",
+      "who": "z"
      },
      {
       "at": [
        38,
-       12
+       11
+      ],
+      "do": "raise_hands",
+      "who": "z"
+     },
+     {
+      "at": [
+       38,
+       13
       ],
       "do": "shot_wide"
      },
@@ -56,47 +115,67 @@
        38,
        15
       ],
-      "do": "pan_right"
+      "do": "glow",
+      "who": "z"
      },
      {
       "at": [
        39,
        1
       ],
-      "do": "shot_wide"
+      "do": "glow",
+      "who": "an"
      },
      {
       "at": [
        39,
        3
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
        39,
-       6
+       5
       ],
-      "do": "pan_left"
+      "do": "bow",
+      "who": "z"
+     },
+     {
+      "at": [
+       39,
+       7
+      ],
+      "do": "shot_wide"
      },
      {
       "at": [
        39,
        8
       ],
-      "do": "pan_right"
+      "do": "speak",
+      "who": "an"
      },
      {
       "at": [
        39,
-       11
+       10
       ],
-      "do": "pan_left"
+      "do": "glow",
+      "who": "z"
      },
      {
       "at": [
        39,
-       13
+       12
+      ],
+      "do": "speak",
+      "who": "an"
+     },
+     {
+      "at": [
+       39,
+       14
       ],
       "do": "shot_wide"
      },
@@ -105,7 +184,8 @@
        39,
        16
       ],
-      "do": "pan_left"
+      "do": "speak",
+      "who": "an"
      },
      {
       "at": [
@@ -118,16 +198,26 @@
     "motifs": [
      {
       "at": [
-       39,
-       8
+       38,
+       7
       ],
       "until": [
-       39,
-       11
+       38,
+       13
       ],
+      "motif": "hands",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       39,
+       10
+      ],
+      "until": null,
       "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -192,7 +282,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Re-split from 3_37-39_r97 (reviewed): the audit found no clean audio cut at the old edge. Chapters, glosses and motifs are unchanged."
+  "notes": "Re-split from 3_37-39_r97 (reviewed): the audit found no clean audio cut at the old edge. Chapters, glosses and motifs are unchanged. STAGING v4: Zakariya in his place of prayer (Al-Muyassar: standing in the place of his prayer; As-Sa'di: in his mihrab), a blue drop «زكريا»: he raises his hands in du'a (38:2, 38:11) and bows while praying (39:5). The angels are ONE gold drop «الملائكة» (number not given) that appears on «فنادته» and speaks the glad tidings (39:8). Yahya is not drawn. Plates: hands for the du'a (ended before «إنك سميع» and far from the names), light for the glad tidings. Wide shots only: no close-up, pan or push on the drops."
  },
  "cover": {
   "series_ar": "آل عمران",
@@ -204,5 +294,6 @@
    10
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

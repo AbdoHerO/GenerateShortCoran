@@ -55,10 +55,7 @@
       "count": 5,
       "pose": "stand",
       "enter": null,
-      "exit": [
-       246,
-       52
-      ],
+      "exit": null,
       "uncountable": true
      },
      {
@@ -66,14 +63,13 @@
       "type": "believers",
       "label": "",
       "place": "center",
-      "count": 3,
+      "count": 2,
       "pose": "stand",
       "enter": [
        246,
-       51
+       50
       ],
-      "exit": null,
-      "uncountable": true
+      "exit": null
      }
     ],
     "events": [],
@@ -90,24 +86,22 @@
        246,
        4
       ],
-      "do": "shot_close",
+      "do": "sparkle",
       "who": "m"
      },
      {
       "at": [
        246,
-       7
+       6
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        246,
        8
       ],
-      "do": "walk_to",
-      "who": "m",
-      "to": "center"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -136,10 +130,9 @@
      {
       "at": [
        246,
-       20
+       19
       ],
-      "do": "shot_close",
-      "who": "m"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -154,15 +147,15 @@
        246,
        26
       ],
-      "do": "shot_close",
-      "who": "m"
+      "do": "glow",
+      "who": "n"
      },
      {
       "at": [
        246,
-       29
+       28
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -199,7 +192,7 @@
      {
       "at": [
        246,
-       41
+       42
       ],
       "do": "shot_wide"
      },
@@ -232,7 +225,7 @@
        246,
        51
       ],
-      "do": "shot_close",
+      "do": "sparkle",
       "who": "f"
      },
      {
@@ -240,15 +233,15 @@
        246,
        53
       ],
-      "do": "sparkle",
-      "who": "f"
+      "do": "turn",
+      "who": "m"
      },
      {
       "at": [
        246,
        54
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -351,15 +344,15 @@
        247,
        7
       ],
-      "do": "shot_wide"
+      "do": "glow",
+      "who": "n"
      },
      {
       "at": [
        247,
        9
       ],
-      "do": "shot_close",
-      "who": "t"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -391,7 +384,7 @@
        247,
        18
       ],
-      "do": "shot_close",
+      "do": "speak",
       "who": "m"
      },
      {
@@ -399,22 +392,22 @@
        247,
        20
       ],
-      "do": "shot_wide"
+      "do": "shake_head",
+      "who": "m"
      },
      {
       "at": [
        247,
-       22
+       21
       ],
-      "do": "shot_close",
-      "who": "t"
+      "do": "shot_wide"
      },
      {
       "at": [
        247,
        25
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
      },
      {
       "at": [
@@ -437,29 +430,30 @@
        247,
        32
       ],
-      "do": "shot_close",
-      "who": "t"
+      "do": "shot_wide"
      },
      {
       "at": [
        247,
-       35
+       34
+      ],
+      "do": "glow",
+      "who": "n"
+     },
+     {
+      "at": [
+       247,
+       38
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        247,
-       39
+       40
       ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       247,
-       41
-      ],
-      "do": "pan_left"
+      "do": "glow",
+      "who": "n"
      },
      {
       "at": [
@@ -637,7 +631,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No motif on the prophet of Bani Israel, on fighting, or on the negated wealth (247:21-25). Crown only for the kingship asked for and given (Talut is not a prophet). Title changed from «طلب ملك», which reads as «طلب مَلَك» (asking for an angel) without diacritics. STAGING v4: Their prophet (unnamed in the verse and in both tafsirs) is a blue light drop labelled «نبي» only, no name. The chiefs are an uncountable group of men (type believers: the people type mixes in women, and the chiefs were men; they are Bani Israel, people of faith who were then tested) in a town (no place is named; town chosen as neutral). No battle: on «تولوا» the chiefs walk away and leave; a few believers (uncountable) remain, sparkle on «قليلا منهم». Talut is a plain faceless man (not a prophet, not the ruler costume: the sources give no detail of his dress), appearing when named; the chiefs point at him in objection; sparkle on «اصطفاه»."
+  "notes": "No motif on the prophet of Bani Israel, on fighting, or on the negated wealth (247:21-25). Crown only for the kingship asked for and given (Talut is not a prophet). Title changed from «طلب ملك», which reads as «طلب مَلَك» (asking for an angel) without diacritics. STAGING v4: Their prophet is unnamed in the verse and in both tafsirs: a blue drop labelled «نبي», kept in a wide frame (no close-up; the only pan is 246:54). The chiefs are an uncountable group of men (believers type, since the people type mixes in women). On 246:48 they walk away and stay in frame, turning on 246:53; the few are 2 figures appearing between them and the prophet on 246:50 (sparkle 246:51). Talut is a plain faceless man (the sources give no detail of his dress), appearing on 247:9; the chiefs point at him (247:15) and object; sparkle on 247:29."
  },
  "cover": {
   "series_ar": "طالوت وجالوت",

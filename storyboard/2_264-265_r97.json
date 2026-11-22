@@ -527,7 +527,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Two parables: rain washing the soil off a bare rock (coins, cloud_rain) and a garden on a hill (palm, cloud_rain). No crowd for the onlookers. STAGING v4: 264: a rich man gives to a poor man and turns toward onlookers who speak (praise him: «ليراه الناس، فيثنوا عليه», Al-Muyassar); the parable: a large smooth rock, heavy rain on «وابل». 265: a sincere giver in a garden; rain on «وابل» and the garden grows on «فآتت أكلها ضعفين»; the rain continues through the drizzle."
+  "notes": "Two parables: rain washing the soil off a bare rock (coins, cloud_rain) and a garden on a hill (palm, cloud_rain). No crowd for the onlookers. STAGING v4: 264: a rich man gives to a poor man and turns toward onlookers who speak (they praise him: Al-Muyassar); the cover is this moment (264:13). The parable: a large smooth rock, heavy rain on 264:25. 265: a sincere giver in a garden; rain on 265:15 and the garden grows on 265:16; the rain continues through the drizzle."
  },
  "cover": {
   "series_ar": "فضل الإنفاق وآدابه",
@@ -535,8 +535,8 @@
   "title_ar": "مبطلات الصدقة",
   "title_en": "What voids charity",
   "at": [
-   265,
-   12
+   264,
+   13
   ]
  },
  "motion": 3,

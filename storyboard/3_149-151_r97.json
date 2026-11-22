@@ -33,37 +33,78 @@
     149,
     150
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "city",
+    "time": "day",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "left",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "d",
+      "type": "disbelievers",
+      "label": "",
+      "place": "right",
+      "count": 3,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
+     {
+      "at": [
+       149,
+       1
+      ],
+      "do": "shot_wide"
+     },
      {
       "at": [
        149,
        3
       ],
-      "do": "pan_left"
+      "do": "shot_close",
+      "who": "b"
      },
      {
       "at": [
        149,
-       5
+       7
       ],
-      "do": "shot_wide"
+      "do": "speak",
+      "who": "d"
      },
      {
       "at": [
        149,
        12
       ],
-      "do": "pan_right"
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       150,
+       3
+      ],
+      "do": "raise_hands",
+      "who": "b"
      },
      {
       "at": [
        150,
        6
       ],
-      "do": "shot_wide"
+      "do": "pan_left"
      }
     ],
     "motifs": [
@@ -72,10 +113,13 @@
        149,
        10
       ],
-      "until": null,
+      "until": [
+       150,
+       1
+      ],
       "motif": "footsteps",
       "place": "top",
-      "size": "m"
+      "size": "s"
      },
      {
       "at": [
@@ -85,7 +129,7 @@
       "until": null,
       "motif": "geometric",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ]
    }
@@ -211,7 +255,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Footsteps for turning back on one's heels, geometric for «بل الله مولاكم», wind for the terror cast. Nothing for the Fire. 149:1-3 not glossed: Al-Muyassar's wording there is in Allah's first person. 151: short-word flag (listen)."
+  "notes": "Footsteps for turning back on one's heels, geometric for «بل الله مولاكم», wind for the terror cast. Nothing for the Fire. 149:1-3 not glossed: Al-Muyassar's wording there is in Allah's first person. 151: short-word flag (listen). STAGING v4: 149-150: believers in a town and the disbelievers who would command them (speak; Al-Muyassar: فيما يأمرونكم به). The believers do not obey and do not turn back (the turning back is conditional: only the footsteps plate). On «بل الله مولاكم» the geometric plate, and the believers raise their hands, taking Him as their protector (As-Sa'di: الحث لهم على اتخاذه وحده وليا وناصرا). 151 stays ambient: the terror cast into the enemy and the Fire."
  },
  "cover": {
   "series_ar": "دروس أحد",
@@ -223,5 +267,6 @@
    2
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

@@ -196,7 +196,7 @@
        275,
        42
       ],
-      "do": "pan_right"
+      "do": "wind"
      }
     ],
     "motifs": [
@@ -286,8 +286,7 @@
        276,
        7
       ],
-      "do": "raise_hands",
-      "who": "p"
+      "do": "pan_left"
      },
      {
       "at": [
@@ -444,7 +443,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Nothing drawn for the one struck by the Shaytan (275:10-13) or for the Fire (275:42). 275:4-5 (how they rise) is not glossed: As-Sa'di gives two readings. The usurers' claim (275:16-20) is glossed only with «فأكذبهم الله». STAGING v4: 275: two traders in a market. The rising of the usurers in the Hereafter, the one struck by Shaytan and the Fire are not drawn (camera only). The usurer speaks on «قالوا» (the claim stays framed by the gloss «فأكذبهم الله»); on «وأحل الله البيع» the other man pays for goods, and shakes his head on «وحرم الربا»; on «موعظة» the usurer reads and lowers his head on «فانتهى». 276: a man gives to a poor man on «ويربي الصدقات»."
+  "notes": "Nothing drawn for the one struck by the Shaytan (275:10-13) or for the Fire (275:42). 275:4-5 (how they rise) is not glossed: As-Sa'di gives two readings. The usurers' claim (275:16-20) is glossed only with «فأكذبهم الله». STAGING v4: 275: two traders in a market. The rising of the usurers, the man struck by Shaytan and the Fire are not drawn (camera only, a gust on 275:42). The usurer speaks the claim on 275:16 (framed by the gloss that Allah belied them); on 275:23 the other man pays for goods and refuses usury on 275:25 (the cover); the usurer reads on 275:28 and lowers his head on 275:31. 276: a man gives to a poor man on 276:4."
  },
  "cover": {
   "series_ar": "الربا",
@@ -453,7 +452,7 @@
   "title_en": "Usury forbidden",
   "at": [
    275,
-   23
+   25
   ]
  },
  "motion": 3,

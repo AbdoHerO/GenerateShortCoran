@@ -178,6 +178,13 @@
      {
       "at": [
        36,
+       18
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       36,
        22
       ],
       "do": "pan_right"
@@ -214,77 +221,161 @@
    "verses": [
     37
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "prayer_hall",
+    "time": "day",
+    "actors": [
+     {
+      "id": "m",
+      "type": "honored",
+      "label": "مريم",
+      "place": "left",
+      "count": 1,
+      "pose": "stand",
+      "enter": null,
+      "exit": null
+     },
+     {
+      "id": "z",
+      "type": "prophet",
+      "label": "زكريا",
+      "place": "right",
+      "count": 1,
+      "pose": "stand",
+      "enter": [
+       37,
+       8
+      ],
+      "exit": null
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        37,
-       4
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       37,
-       7
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       37,
-       10
-      ],
-      "do": "pan_right"
-     },
-     {
-      "at": [
-       37,
-       15
-      ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       37,
-       22
+       1
       ],
       "do": "shot_wide"
      },
      {
       "at": [
        37,
+       3
+      ],
+      "do": "glow",
+      "who": "m"
+     },
+     {
+      "at": [
+       37,
+       6
+      ],
+      "do": "glow",
+      "who": "m"
+     },
+     {
+      "at": [
+       37,
+       8
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       37,
+       11
+      ],
+      "do": "walk_to",
+      "who": "z",
+      "to": "center"
+     },
+     {
+      "at": [
+       37,
+       14
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       37,
+       17
+      ],
+      "do": "sparkle",
+      "who": "m"
+     },
+     {
+      "at": [
+       37,
+       18
+      ],
+      "do": "speak",
+      "who": "z"
+     },
+     {
+      "at": [
+       37,
+       23
+      ],
+      "do": "speak",
+      "who": "m"
+     },
+     {
+      "at": [
+       37,
        25
       ],
-      "do": "pan_left"
+      "do": "glow",
+      "who": "m"
      },
      {
       "at": [
        37,
        28
       ],
-      "do": "pan_left"
+      "do": "shot_wide"
      },
      {
       "at": [
        37,
-       31
+       30
       ],
-      "do": "pan_right"
+      "do": "glow",
+      "who": "m"
+     },
+     {
+      "at": [
+       37,
+       33
+      ],
+      "do": "shot_wide"
      }
     ],
     "motifs": [
      {
       "at": [
        37,
+       1
+      ],
+      "until": [
+       37,
+       5
+      ],
+      "motif": "seal",
+      "place": "top",
+      "size": "s"
+     },
+     {
+      "at": [
+       37,
        17
       ],
       "until": null,
-      "motif": "wheat",
+      "motif": "light",
       "place": "top",
-      "size": "m"
+      "size": "s"
      }
     ],
     "transition": "dissolve"
@@ -493,7 +584,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "Re-split from 3_33-36_r97, 3_37-39_r97 (reviewed): the audit found no clean audio cut at the old edge. Chapters, glosses and motifs are unchanged."
+  "notes": "Re-split from 3_33-36_r97, 3_37-39_r97 (reviewed): the audit found no clean audio cut at the old edge. Chapters, glosses and motifs are unchanged. STAGING v4: 33-34 (Allah's choosing) and 35-36 (the vow, the pregnancy and the birth: the wife of Imran is never drawn, a private matter) stay ambient as they were. 37: her place of worship (Al-Muyassar: Zakariya settled her in his place of worship; As-Sa'di: her mihrab, her place of prayer) drawn as a prayer hall. Maryam is only the green drop «مريم», Zakariya only the blue drop «زكريا»: he appears on «وكفلها», moves toward her on «دخل عليها», asks on «قال» and she answers on «قالت». The provision is never drawn (no food): only a sparkle on her drop and a light plate. Seal plate for the acceptance. Wide shots only, no close-up or pan on the drops."
  },
  "cover": {
   "series_ar": "آل عمران",
@@ -505,5 +596,6 @@
    7
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }

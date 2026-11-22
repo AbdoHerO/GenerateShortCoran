@@ -39,6 +39,13 @@
      {
       "at": [
        146,
+       4
+      ],
+      "do": "pan_left"
+     },
+     {
+      "at": [
+       146,
        6
       ],
       "do": "pan_left"
@@ -93,82 +100,139 @@
     147,
     148
    ],
-   "scene": "ambient",
+   "scene": "stage",
    "params": {
-    "mood": "dawn",
+    "setting": "mountains",
+    "time": "dusk",
+    "actors": [
+     {
+      "id": "b",
+      "type": "believers",
+      "label": "",
+      "place": "center",
+      "count": 5,
+      "pose": "stand",
+      "enter": null,
+      "exit": null,
+      "uncountable": true
+     }
+    ],
+    "events": [],
     "beats": [
      {
       "at": [
        147,
-       5
+       1
       ],
       "do": "shot_wide"
+     },
+     {
+      "at": [
+       147,
+       4
+      ],
+      "do": "pan_right"
+     },
+     {
+      "at": [
+       147,
+       6
+      ],
+      "do": "speak",
+      "who": "b"
+     },
+     {
+      "at": [
+       147,
+       8
+      ],
+      "do": "raise_hands",
+      "who": "b"
      },
      {
       "at": [
        147,
        11
       ],
-      "do": "pan_right"
+      "do": "bow",
+      "who": "b"
      },
      {
       "at": [
        147,
        13
       ],
-      "do": "pan_left"
-     },
-     {
-      "at": [
-       147,
-       19
-      ],
       "do": "shot_wide"
-     },
-     {
-      "at": [
-       148,
-       7
-      ],
-      "do": "pan_right"
-     }
-    ],
-    "motifs": [
-     {
-      "at": [
-       147,
-       8
-      ],
-      "until": null,
-      "motif": "hands",
-      "place": "top",
-      "size": "m"
      },
      {
       "at": [
        147,
        14
       ],
-      "until": [
-       148,
-       2
+      "do": "raise_hands",
+      "who": "b"
+     },
+     {
+      "at": [
+       147,
+       16
       ],
-      "motif": "mountain",
-      "place": "top",
-      "size": "m"
+      "do": "shot_close",
+      "who": "b"
+     },
+     {
+      "at": [
+       147,
+       19
+      ],
+      "do": "pan_right"
      },
      {
       "at": [
        148,
-       3
+       1
+      ],
+      "do": "shot_wide"
+     },
+     {
+      "at": [
+       148,
+       4
+      ],
+      "do": "raise_hands",
+      "who": "b"
+     },
+     {
+      "at": [
+       148,
+       9
+      ],
+      "do": "pan_left"
+     }
+    ],
+    "motifs": [
+     {
+      "at": [
+       147,
+       15
       ],
       "until": [
        148,
-       8
+       1
       ],
-      "motif": "wheat",
+      "motif": "footsteps",
       "place": "top",
-      "size": "m"
+      "size": "s"
+     },
+     {
+      "at": [
+       148,
+       5
+      ],
+      "until": null,
+      "motif": "light",
+      "place": "top",
+      "size": "s"
      }
     ],
     "transition": "iris"
@@ -278,7 +342,7 @@
  ],
  "director": {
   "mode": "hand",
-  "notes": "No prophet and no crowd of followers drawn (146:3-7). A mountain for the patient, hands for the supplication, footsteps for «وثبت أقدامنا», wheat for the reward."
+  "notes": "No prophet and no crowd of followers drawn (146:3-7). A mountain for the patient, hands for the supplication, footsteps for «وثبت أقدامنا», wheat for the reward. STAGING v4: 146 stays ambient: the prophets' followers fighting and their wounds. 147-148: the same followers (uncountable, «ربيون كثير») make their du'a in a valley at dusk: speak on «قالوا», raise_hands on the asking, bow on «وإسرافنا»; footsteps plate on «أقدامنا»; no prophet, no enemy and no fighting drawn. 148: the reward of this world only as their joy (raise_hands), the reward of the Hereafter as a light plate, nothing literal."
  },
  "cover": {
   "series_ar": "من بدر إلى أحد",
@@ -290,5 +354,6 @@
    8
   ]
  },
- "motion": 3
+ "motion": 3,
+ "staging": 4
 }
