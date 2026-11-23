@@ -1,10 +1,10 @@
 # Production status (generated - do not edit by hand)
 
-Regenerated 2026-11-23 15:23 UTC by `pipeline/progress.py` for reciter 97.
+Regenerated 2026-11-23 17:22 UTC by `pipeline/progress.py` for reciter 97.
 Columns: videos in the surah plan · storyboards written by hand · of those with motion graphics v3 (motifs) · built locally in this session · published to Creative Hub (drafts).
 `built` only counts files present on this machine; `published` (publish/ledger.json) is the durable record.
 
-**Totals:** planned 641 · written 582 · built 456 · published 499
+**Totals:** planned 641 · written 582 · built 498 · published 539
 
 | # | Surah | Name | Verses | Planned | Written | Motion v3 | Built | Published | State |
 |---|---|---|---|---|---|---|---|---|---|
@@ -18,9 +18,9 @@ Columns: videos in the surah plan · storyboards written by hand · of those wit
 | 8 | الأنفال | Al-Anfal | 75 | 26 | 23 | 23 | 23 | 23 | storyboards |
 | 9 | التوبة | At-Tawbah | 129 | 46 | 46 | 46 | 46 | 46 | published |
 | 10 | يونس | Yunus | 109 | 33 | 29 | 29 | 27 | 27 | storyboards |
-| 11 | هود | Hud | 123 | 34 | 31 | 31 | 18 | 11 | storyboards |
-| 12 | يوسف | Yusuf | 111 | 32 | 28 | 28 | - | - | storyboards |
-| 13 | الرعد | Ar-Ra'd | 43 | 17 | 16 | 16 | - | - | storyboards |
+| 11 | هود | Hud | 123 | 34 | 31 | 31 | 31 | 31 | storyboards |
+| 12 | يوسف | Yusuf | 111 | 32 | 28 | 28 | 28 | 20 | storyboards |
+| 13 | الرعد | Ar-Ra'd | 43 | 17 | 16 | 16 | 1 | - | storyboards |
 | 14 | ابراهيم | Ibrahim | 52 | 13 | 13 | 13 | - | - | ready to build |
 | 15 | الحجر | Al-Hijr | 99 | 12 | 12 | 12 | 12 | 12 | published |
 | 16 | النحل | An-Nahl | 128 | - | - | - | - | - | not started |
