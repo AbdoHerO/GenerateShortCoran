@@ -1,10 +1,10 @@
 # Production status (generated - do not edit by hand)
 
-Regenerated 2026-11-23 07:56 UTC by `pipeline/progress.py` for reciter 97.
+Regenerated 2026-11-23 10:02 UTC by `pipeline/progress.py` for reciter 97.
 Columns: videos in the surah plan · storyboards written by hand · of those with motion graphics v3 (motifs) · built locally in this session · published to Creative Hub (drafts).
 `built` only counts files present on this machine; `published` (publish/ledger.json) is the durable record.
 
-**Totals:** planned 641 · written 582 · built 300 · published 345
+**Totals:** planned 641 · written 582 · built 340 · published 382
 
 | # | Surah | Name | Verses | Planned | Written | Motion v3 | Built | Published | State |
 |---|---|---|---|---|---|---|---|---|---|
@@ -14,7 +14,7 @@ Columns: videos in the surah plan · storyboards written by hand · of those wit
 | 4 | النساء | An-Nisa | 176 | 68 | 63 | 63 | 35 | 63 | storyboards |
 | 5 | المائدة | Al-Ma'idah | 120 | 49 | 46 | 46 | 46 | 46 | storyboards |
 | 6 | الأنعام | Al-An'am | 165 | 52 | 45 | 45 | 45 | 45 | storyboards |
-| 7 | الأعراف | Al-A'raf | 206 | 60 | 57 | 57 | 15 | 10 | storyboards |
+| 7 | الأعراف | Al-A'raf | 206 | 60 | 57 | 57 | 55 | 47 | storyboards |
 | 8 | الأنفال | Al-Anfal | 75 | 26 | 23 | 23 | - | - | storyboards |
 | 9 | التوبة | At-Tawbah | 129 | 46 | 46 | 46 | - | - | ready to build |
 | 10 | يونس | Yunus | 109 | 33 | 29 | 29 | - | - | storyboards |
