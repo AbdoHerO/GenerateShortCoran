@@ -1,17 +1,17 @@
 # Production status (generated - do not edit by hand)
 
-Regenerated 2026-11-24 12:13 UTC by `pipeline/progress.py` for reciter 97.
+Regenerated 2026-11-24 14:42 UTC by `pipeline/progress.py` for reciter 97.
 Columns: videos in the surah plan · storyboards written by hand · of those with motion graphics v3 (motifs) · built locally in this session · published to Creative Hub (drafts).
 `built` only counts files present on this machine; `published` (publish/ledger.json) is the durable record.
 
-**Totals:** planned 641 · written 582 · built 448 · published 576
+**Totals:** planned 641 · written 582 · built 494 · published 576
 
 | # | Surah | Name | Verses | Planned | Written | Motion v3 | Built | Published | State |
 |---|---|---|---|---|---|---|---|---|---|
 | 1 | الفاتحة | Al-Fatihah | 7 | 1 | 1 | 1 | 1 | 1 | published |
-| 2 | البقرة | Al-Baqarah | 286 | 103 | 85 | 85 | 9 | 82 | storyboards |
-| 3 | آل عمران | Ali 'Imran | 200 | 62 | 54 | 54 | 19 | 53 | storyboards |
-| 4 | النساء | An-Nisa | 176 | 68 | 63 | 63 | 54 | 63 | storyboards |
+| 2 | البقرة | Al-Baqarah | 286 | 103 | 85 | 85 | 24 | 82 | storyboards |
+| 3 | آل عمران | Ali 'Imran | 200 | 62 | 54 | 54 | 29 | 53 | storyboards |
+| 4 | النساء | An-Nisa | 176 | 68 | 63 | 63 | 63 | 63 | storyboards |
 | 5 | المائدة | Al-Ma'idah | 120 | 49 | 46 | 46 | 46 | 46 | storyboards |
 | 6 | الأنعام | Al-An'am | 165 | 52 | 45 | 45 | 45 | 45 | storyboards |
 | 7 | الأعراف | Al-A'raf | 206 | 60 | 57 | 57 | 57 | 57 | storyboards |
@@ -22,7 +22,7 @@ Columns: videos in the surah plan · storyboards written by hand · of those wit
 | 12 | يوسف | Yusuf | 111 | 32 | 28 | 28 | 28 | 28 | storyboards |
 | 13 | الرعد | Ar-Ra'd | 43 | 17 | 16 | 16 | 16 | 16 | storyboards |
 | 14 | ابراهيم | Ibrahim | 52 | 13 | 13 | 13 | 13 | 13 | published |
-| 15 | الحجر | Al-Hijr | 99 | 12 | 12 | 12 | - | 12 | published |
+| 15 | الحجر | Al-Hijr | 99 | 12 | 12 | 12 | 12 | 12 | published |
 | 16 | النحل | An-Nahl | 128 | - | - | - | - | - | not started |
 | 17 | الإسراء | Al-Isra | 111 | - | - | - | - | - | not started |
 | 18 | الكهف | Al-Kahf | 110 | 33 | 33 | 33 | 33 | 33 | published |
